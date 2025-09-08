@@ -1,0 +1,24 @@
+SACRAMENTO
+– Assembly Bill 810, a bill authored by Assemblymember Jacqui Irwin (D-Thousand Oaks), has passed two key committees in the State Assembly and is now awaiting consideration by the Assembly Appropriations Committee. The legislation would require special districts, joint powers authorities (JPAs), and other local agencies to switch their websites and employee email addresses to the secure
+.gov
+or
+ca.gov
+domains. This measure enhances cybersecurity protections and ensures Californians can trust the digital sources of their local government.
+“In an era of increasing online fraud and misinformation, Californians deserve to know that the websites and emails they’re interacting with are truly from a trusted public source,”
+said Assemblymember Irwin
+. “AB 810 will help safeguard public trust, especially during emergencies, and make it easier for residents to identify legitimate government communications.”
+Cybercriminals are increasingly using lookalike websites and spoofed emails to impersonate public agencies. In 2023 alone, government impersonation fraud caused nearly 15,000 financial victims nationwide, with over $390 million in losses, according to the FBI’s Internet Crime Report, a 63% increase over 2022.
+While California already requires cities and counties to adopt
+.gov
+or
+ca.gov
+domains by 2029, AB 810 extends this requirement to include special districts, and JPAs, many of which currently operate under commercial domains like .com, .org. or .net. These inconsistencies make it easier for malicious actors to deceive the public, as commercial domains are cheap and easy to obtain, while
+.gov
+and
+.ca.gov
+are reserved for government entities.
+AB 810 supports California’s Cybersecurity Plan, developed under the federal State and Local Cyber Security Grant Program (SLCGP), and aligns with security standards enforced by both the U.S. Cybersecurity and Infrastructure Security Agency (CISA) and the California Department of Technology (CDT). The bill sets a compliance deadline of January 1, 2031, and allows local agencies to retain old domains only if they redirect users to the official
+.gov
+or
+ca.gov
+domain.

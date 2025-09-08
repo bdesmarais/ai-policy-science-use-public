@@ -1,0 +1,15 @@
+SACRAMENTO –
+Today the California State Assembly passed AB 1043, the Digital Age Assurance Act, authored by Assemblymember Buffy Wicks (D-Oakland) and Senator Tom Umberg (D-Santa Ana). The bill would establish a first-of-its-kind, device-based age assurance system to help protect children online.
+“California’s children are growing up in an online world with no guardrails, leaving them vulnerable to cyberbullying, sextortion, and mental health harms. This is simply unacceptable,” said
+Assemblymember Wicks
+. “AB 1043 offers a scalable, privacy-first approach that helps keep kids safe while holding tech companies accountable.”
+Under the bill, devices and app stores would transmit a secure, non-identifying age bracket signal — such as 13–15 or 16–17 — at setup. Apps and websites would have the information to adjust content and features, and developers must also offer to connect parents to existing safety tools. No personal information is stored or shared.
+The bill avoids constitutional concerns by focusing strictly on age assurance — not content moderation. It would be enforced by the California Attorney General, with penalties of up to $7,500 per child for violations.
+A recent statewide poll by First 5 California shows overwhelming support among parents for greater oversight of the apps their children can access, with 84% preferring a centralized, one-stop approach over managing permissions app by app.
+AB 1043 is backed by a strong coalition of organizations across child safety, mental health, privacy, education, and public safety — and reflects a growing national movement to protect children online. The bill is co-sponsored by the International Centre for Missing and Exploited Children (ICMEC) and Children Now, two leading organizations advocating for smarter, privacy-first protections for kids in the digital world.
+Jessica Marasa, Policy Advisor with ICMEC and former Global Director of Law Enforcement Response at Twitch
+, said, “I’ve seen the harms kids face online and the gaps in our current systems. AB 1043 makes safety automatic, is realistic to implement, and delivers a long overdue solution.”
+“AB 1043 is a smart step toward reducing the real harms children face online every day. The internet is not optional for today’s youth — they rely on it for education, entertainment, and connection. Online spaces must be designed with safety in mind from the start. The ability to accurately assess a user’s age is the foundation of that effort,” said
+Lishaun Francis, Senior Director for Behavioral Health at Children Now.
+The bill passed the Assembly 74-0, and now heads to the Senate.
+# # #

@@ -1,0 +1,17 @@
+SACRAMENTO, CA
+– Today, Assemblymember Matt Haney (D-San Francisco) announced that he has introduced AB 3061, the AV Safety and Transparency Bill, in response to increased concern from local governments that deployed self-driving cars — also called autonomous vehicles (AVs) — are currently not required to report data on collisions, accidents, and vehicle malfunctions to the state. Most of the AV companies that are currently in competition to be first-to-market with a viable car service, are located in Haney’s district in eastern San Francisco.
+“This is all about safety,” said Haney. “AV companies are preparing to roll out in nearly every city in California, but data on which companies are safe and law-abiding and which aren't is being kept from the public and the state. As families may choose to rely on AVs for daily activities like getting to school, work, and the grocery store, we have a responsibility to make sure they are safe.”
+The bill which is sponsored by the Consumer Federation of California, Consumer Attorneys of California, and the California Teamsters Public Affairs Council, will mandate the disclosure of essential safety data concerning AV collisions and other traffic violations to the DMV — the state agency tasked with regulating autonomous vehicles. The DMV will then be required to make this data available to the public.
+“I’m supportive of the technology and want it done right,” said Haney. “But as they grow from testing to full deployment, there’s a lot that’s not being shared and that hurts trust, it hurts transparency, and it hurts safety. It's common sense for the DMV and local governments to have the data they need to keep people safe.”
+Since 2013, the DMV has been charged with issuing permits to AVs, and regulates vehicle safety and testing of AVs on all California roads. The agency has not updated their regulations since 2018 to account for new data or developments in AV technology — but has still continued to authorize permits for more than 40 companies to test their cars in San Francisco.
+Data reporting in this bill would mirror what is already required on the federal level by the National Highway Traffic Safety Administration (NHTSA) for AV data reporting:
+Collision report details including any relevant pre-collision and post-collision information;
+Incident reports that cites the traffic violations or citation related to the collision;
+Vehicle disengagements (i.e. AV stopping in the middle of the street);
+Road and traffic conditions at the time of the collision;
+Any passenger interactions;
+Any interactions with road users or obstacles on the road;
+Vehicle performance data;
+Injury and property damage details;
+AB 3061 will be heard in the Assembly Transportation Committee in the upcoming weeks.
+###

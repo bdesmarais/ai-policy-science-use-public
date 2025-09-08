@@ -1,0 +1,34 @@
+SACRAMENTO
+– Today, Assemblymember Buffy Wicks (D-Oakland) and Senator Tom Umberg (D-Santa Ana) announced their collaboration on AB 1043 – The Digital Age Assurance Act, a landmark proposal to protect children online by creating a secure, privacy-first system for age verification on digital devices and applications.
+“California’s children are growing up in an online world with no guardrails, leaving them vulnerable to cyberbullying, sextortion, mental health struggles and more. This is simply unacceptable,” said
+Assemblymember Wicks
+. “The Digital Age Assurance Act is a crucial step in ensuring kids can explore the digital world more safely — and a critical step needed for us to require social media and other online companies to implement higher consumer safety standards for products accessed by kids.”
+The urgency behind AB 1043 is backed by mounting evidence of the harmful impacts unregulated digital environments can have on children’s mental health, safety, and overall well-being. For decades, public policymakers and parents alike have struggled to keep children safe online. The internet was not built with children in mind, and the lack of meaningful guardrails has left young users exposed to harmful content, manipulative design features, and inappropriate interactions.
+According to a
+Congressional Research Service report
+, data from the Centers for Disease Control and Prevention shows that the percentage of high school students experiencing persistent sadness and considering suicide has increased over the last decade, with girls disproportionately affected.
+“The Senate Judiciary Committee examines numerous measures every year to help keep kids safe online. Each of these bills comes with personal narratives, heartbreaking stories, and in many cases, real trauma experienced by victims and families,” said
+Senator Umberg, Chair of the Senate Judiciary Committee
+. “Social media and games that allow youth, in particular, to interact, can be fun and educational – but when experiences turn sour in unavoidable numbers, it’s our job as a legislature to say ‘enough is enough.’ I’m proud to be partnering with Assemblymember Wicks on AB 1043 to ensure that we hold companies accountable for their actions and to a higher standard in terms of the mental and emotional health of California’s children.”
+While the risks are undeniable, the internet is not optional for today’s children. As noted in a
+2021 report
+by the 5Rights Foundation, kids rely on the digital world for education, entertainment, and socialization. That’s why it’s essential that online spaces are designed with children’s safety in mind from the outset — and a key part of that design is the ability to accurately assess a user’s age.
+“The International Centre for Missing and Exploited Children is pleased to support Assemblymember Wicks in identifying the best ways to protect children, no matter where they may go online,” said
+Bob Cunningham, Director of Policy Engagement, International Centre for Missing and Exploited Children (ICMEC)
+. “We strongly support legislation that holds all companies accountable for keeping the online journeys of children free from harm. The International Centre will continue to work diligently with Asm. Wicks and her staff as they craft legislation that takes into account how children navigate the internet.”
+AB 1043 takes a landmark approach by requiring companies that manufacture devices, operating systems, or app stores — known as covered manufacturers — to provide an easy-to-use interface for entering a user’s age or birth date. This non-personal information is used solely to generate a secure, real-time signal to app developers, notifying them of the user’s age bracket. These brackets include:
+Under 5
+5–9
+10–12
+13–15
+16–17
+18+
+For users under 16, app stores must obtain parental consent before allowing downloads, and developers will receive a secure signal confirming that consent. Developers, in turn, must — if technically feasible — provide parental support tools, including the ability to link accounts, manage content, and limit usage time for children under 18.
+Importantly, AB 1043 does not allow or require the collection of additional personal data beyond what is necessary to generate age bracket signals. It also establishes penalties for non-compliance — $2,500 per child for negligent violations and $7,500 for intentional violations — enforced by the California Attorney General.
+Creating a statutory age assurance framework that balances privacy and usability will give parents greater peace of mind, build trust with children and families, and create consistency for businesses looking to innovate responsibly. AB 1043 provides a scalable path forward — one that encourages the development of safer online experiences while preserving the benefits of digital participation for young users.
+Wicks and Umberg are committed to working together to ensure California leads the way in protecting kids online. The Digital Age Assurance Act is expected to be heard in committee this Spring.
+# # #
+About Assemblymember Buffy Wicks
+Assemblymember Buffy Wicks represents California’s 14th Assembly District, which includes all or portions of the cities of Oakland, Richmond, Berkeley, Piedmont, Albany, El Cerrito, San Pablo, Pinole, El Sobrante, Hercules, Kensington, and Rodeo. You can learn more about Assemblymember Wicks at
+http://a14.asmdc.org
+.

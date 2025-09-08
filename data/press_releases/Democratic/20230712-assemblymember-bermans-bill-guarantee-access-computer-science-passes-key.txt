@@ -1,0 +1,39 @@
+SACRAMENTO
+- Today the Senate Education Committee unanimously passed Assemblymember Marc Berman’s (D-Menlo Park) bill AB 1054, which will ensure that all public high school students in California have access to computer science education. AB 1054 will help to align California with 27 other states that already require that public high schools offer computer science education.
+“Too many California students grow up in the shadows of California’s famous tech companies, yet go to schools that don’t even offer them the opportunity to learn the skills they need to one day work there,”
+said Assemblymember Marc Berman.
+“After years of frustratingly slow progress on increasing access to computer science education, we are finally making significant strides toward universal access for California’s students. The passage of AB 1054 from the Senate Education committee is a win for students across our state and a win for employers looking to fill jobs with homegrown talent. Not only does this address a gaping equity issue in our schools and in the tech sector, it will also significantly strengthen California's economy."
+Here's what leading computer science education advocates have to say:
+“Offering the opportunity to learn computer science is absolutely critical for preparing our students for the career needs of the 21st century — not just for coding or computing occupations, but for every career. This bill is take it a step further to ensuring all high schools offer at least one course in foundational computer science means that all students - regardless of their background, identity, or location,"
+Codeye J. Woody, Director of State Government Affairs for Code.org.
+"Every student deserves to be equipped with the knowledge, tools, and resources to successfully participate and thrive in modern society. As technology continues to expand, today’s students need access to culturally relevant and engaging high quality computer science education. Unfortunately, too many students, particularly Black, Latinx, Indigenous, and low-income students, don’t have access to these foundational learning opportunities. CSforCA firmly believes that offering computer science courses at all California's high schools is the next step in achieving educational equity across the state and build a better future for everyone,"
+said Julie Flapan, CSforCA Co-Director
+.
+“California is a leader in innovation but lags behind in ensuring equity and access to computer science education. Requiring all high schools to offer at least one computer science course is a critical next step in preparing the next generation of Californians for rewarding career pathways and informed community engagement,”
+said Lia Nitake, Deputy Executive Director for TechNet.
+“Compter science and computational thinking allow students to develop multiple skills such as critical thinking and problem-solving that can engage and drive our young adults to be the next generation of innovators. California needs to re-double its efforts to ensure all students have access to high-quality teaching and learning across all STEM subjects, including computer science. We look forward to working with Assembly member Berman to secure the additional commitments and support from the state to do just that,”
+said Adonai Mack, Senior Director of Education for Children Now.
+"SVLG believes that every student, regardless of zip code or background, deserves a high-quality education that teaches problem solving and critical thinking—foundational skills taught in every computer science course, and necessary to compete in the modern hiring environment. From a business perspective, investing in equitable computer science education at the K-12 level will lead to a more diverse, and more productive workforce of the future,"
+Ahmad Thomas, CEO of Silicon Valley Leadership Group.
+“Technology plays a major role in our everyday lives, from the moment we wake up, to bedtime and everything in between. The latest innovations are taking root right here in California. CTA is pleased to support AB 1054, which will allow students, especially those from our communities who would otherwise not have access to acquire computer science skills, the option to take courses that will help prepare them for the 21st century job market,”
+said CTA President David Goldberg
+. “We thank Assemblymember Berman for his leadership and focus on equity so that all students can have access to computer science education.”
+“College Board recognizes the importance of diversity in computer science and supports legislative efforts by Assemblymember Berman to ensure that all students across California, including Black, Hispanic, Native-American, and rural students, have access to at least one foundational and high-quality computer science course in high school,”
+said Tara Thomas, College Board’s Vice President of State & District Partnerships, Western Region.
+“This step is imperative to preparing these students for high-paying, fast-paced jobs and to drive innovation, creativity, and competitiveness.”
+"California will only remain a leader in innovation if we continue to invest in our greatest asset; our homegrown talent. That's why Snap Inc. is proud to support AB 1054, to make access to quality computer science education available in all of California's high schools. It's critical that we prepare the next generation of leaders, innovators, and entrepreneurs across our state, and we thank Assemblymember Berman and the state legislature for their leadership on this issue,"
+said Snap Inc. Public Policy Manager Jasson Crockett.
+“Digital skills have become foundational for full participation both in the marketplace and in civic life,”
+said former CA State Controller and 21st Century Chair Steve Westly.
+“Access to computer science education cannot be reserved for the few. We applaud Assemblymember Berman’s leadership in this effort to help offer all California students the educational opportunities they deserve.”
+It is critically important to ensure all students in California have equitable access to computer science education. 75.1% of high school students in California attend a school that offers computer science, but despite years of work, significant disparities in access persist. Rural schools, urban schools, and schools with high percentages of economically disadvantaged students continue to be less likely to offer computer science. Black students, Latinx students, and Native American/Alaskan students are less likely to attend a school that offers computer science
+[1]
+. Computer science engages students in school, supports learning in other subject areas, and provides pathways for future opportunities for students.
+The time is now to pass AB 1054. Passing this critical piece of legislation will demonstrate the state’s commitment to equitable, high-quality computer science education and equip all California students for success.
+Assemblymember Marc Berman represents the 23rd Assembly District, which includes southern San Mateo County and northern Santa Clara County in the heart of the Silicon Valley. Website of Assemblymember Marc Berman:
+www.assembly.ca.gov/Berman
+.
+###
+[1]
+https://advocacy.code.org/stateofcs
+Contact:
