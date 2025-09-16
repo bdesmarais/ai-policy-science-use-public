@@ -1,0 +1,5961 @@
+[
+  {
+    "source": "Democratic Assembly",
+    "filename": "14-key-senator-becker-bills-advance-to-senate-floor.txt",
+    "sentence_index": 40,
+    "sentence_text": "SB 721 - The California Interagency AI Working Group : Creates the California Interagency Artificial Intelligence (AI) Working Group to produce a biannual report on the implications and safeguards for AI technology.",
+    "matched_ai_terms": [
+      "ai",
+      "artificial intelligence"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Working With (Not Against) the Technology: GPT3 and Artificial Intelligence (AI) in College Composition",
+        "authors": [],
+        "year": 2023,
+        "doi": "10.33140/jrar.04.01.02",
+        "url": "https://doi.org/10.33140/jrar.04.01.02"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Trustworthy artificial intelligence (AI) in education",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.1787/a6c90fa9-en",
+        "url": "https://doi.org/10.1787/a6c90fa9-en"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Third Gen AI as Human Experience Based Expert Systems",
+        "authors": [
+          "Harold Szu",
+          "The Al Working Group"
+        ],
+        "year": 2019,
+        "doi": "10.1016/b978-0-12-815480-9.00003-7",
+        "url": "https://doi.org/10.1016/b978-0-12-815480-9.00003-7"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Interagency Working Group 5 for National Security Study Memorandum 84, The Warsaw Pact Threat to NATO, May 1970, Secret.",
+        "authors": [],
+        "year": null,
+        "doi": "10.1163/ejb9789004244627.b08141",
+        "url": "https://doi.org/10.1163/ejb9789004244627.b08141"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Interagency Geothermal Coordinating Council Annual Report for Fiscal Year 1989 Draft",
+        "authors": [
+          ""
+        ],
+        "year": 1989,
+        "doi": "10.2172/860647",
+        "url": "https://doi.org/10.2172/860647"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "How Do UX Practitioners Communicate AI as a Design Material? Artifacts,\n  Conceptions, and Propositions",
+        "authors": [
+          "K. J. Kevin Feng",
+          "Maxwell James Coppock",
+          "David W. McDonald"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "What Shapes Writers' Decisions to Disclose AI Use?",
+        "authors": [
+          "Jingchao Fang",
+          "Mina Lee"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Designing for Constructive Civic Communication: A Framework for Human-AI\n  Collaboration in Community Engagement Processes",
+        "authors": [
+          "Cassandra Overney"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Designing AI Learning Experiences for K-12: Emerging Works, Future\n  Opportunities and a Design Framework",
+        "authors": [
+          "Xiaofei Zhou",
+          "Jessica Van Brummelen",
+          "Phoebe Lin"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Responsible AI Research Needs Impact Statements Too",
+        "authors": [
+          "Alexandra Olteanu",
+          "Michael Ekstrand",
+          "Carlos Castillo",
+          "Jina Suh"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20150309-legislature-approves-uc-audit.txt",
+    "sentence_index": 3,
+    "sentence_text": "“I support the mission of the UC system  to provide exceptional education to our young scholars, but we cannot  compromise fairness in achieving that goal,” stated Gipson.",
+    "matched_ai_terms": [
+      "fairness"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Why Fairness Cannot Tell Us What to Do about Policy",
+        "authors": [
+          "Steven Suranovic"
+        ],
+        "year": 2010,
+        "doi": "10.1057/9780230114609_4",
+        "url": "https://doi.org/10.1057/9780230114609_4"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Today’s Medicare Is Built On 50 Years Of Robust Compromise. Now What?",
+        "authors": [],
+        "year": 2016,
+        "doi": "10.1377/forefront.20160308.053725",
+        "url": "https://doi.org/10.1377/forefront.20160308.053725"
+      },
+      {
+        "source_api": "crossref",
+        "title": "ICT at TREC 2019: Fair Ranking Track",
+        "authors": [
+          "Meng Wang",
+          "Haopeng Zhang",
+          "Fuhuai Liang",
+          "Bin Feng",
+          "Di Zhao"
+        ],
+        "year": 2019,
+        "doi": "10.6028/nist.sp.1250.fair-ictnet",
+        "url": "https://doi.org/10.6028/nist.sp.1250.fair-ictnet"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Online courts must not compromise fairness",
+        "authors": [
+          "Julia Hörnle"
+        ],
+        "year": 2015,
+        "doi": "10.64628/ab.d9djt3dnp",
+        "url": "https://doi.org/10.64628/ab.d9djt3dnp"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Intergenerational Fairness: Will Our Kids Live Better than We Do",
+        "authors": [
+          "Parisa Mahboubi"
+        ],
+        "year": 2019,
+        "doi": "10.2139/ssrn.3324545",
+        "url": "https://doi.org/10.2139/ssrn.3324545"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Maximizing Marginal Fairness for Dynamic Learning to Rank",
+        "authors": [
+          "Tao Yang",
+          "Qingyao Ai"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Adaptive Boosting with Fairness-aware Reweighting Technique for Fair\n  Classification",
+        "authors": [
+          "Xiaobin Song",
+          "Zeyuan Liu",
+          "Benben Jiang"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Aware Reinforcement Learning via Proximal Policy Optimization",
+        "authors": [
+          "Gabriele La Malfa",
+          "Jie M. Zhang",
+          "Michael Luck",
+          "Elizabeth Black"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Bridging the Fairness Divide: Achieving Group and Individual Fairness in\n  Graph Neural Networks",
+        "authors": [
+          "Duna Zhan",
+          "Dongliang Guo",
+          "Pengsheng Ji",
+          "Sheng Li"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Evaluation of Fairness Trade-offs in Predicting Student Success",
+        "authors": [
+          "Hansol Lee",
+          "René F. Kizilcec"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20160223-hearing-highlights-new-changes-cybersecurity-california.txt",
+    "sentence_index": 5,
+    "sentence_text": "“We want to identify issues with the State’s governance structure for cybersecurity, including risk assessment and management, incident response planning, and budgeting,” said Assemblymember Jacqui Irwin (D-Thousand Oaks), Chair of the Select Committee on Cybersecurity.",
+    "matched_ai_terms": [
+      "risk assessment"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "AI-Driven Risk Assessment Models for Financial Cybersecurity Governance",
+        "authors": [
+          "Sani Lawal"
+        ],
+        "year": 2025,
+        "doi": "10.2139/ssrn.5368659",
+        "url": "https://doi.org/10.2139/ssrn.5368659"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Incident Response and Recovery",
+        "authors": [],
+        "year": 2024,
+        "doi": "10.1002/9781394250226.ch30",
+        "url": "https://doi.org/10.1002/9781394250226.ch30"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Risk Assessment—Where Do We Want It To Go?",
+        "authors": [
+          "Marvin A. Schneiderman"
+        ],
+        "year": 1987,
+        "doi": "10.1007/978-1-59259-656-0_4",
+        "url": "https://doi.org/10.1007/978-1-59259-656-0_4"
+      },
+      {
+        "source_api": "crossref",
+        "title": "ECOTOXICOLOGICAL RISK ASSESSMENT (RISK ASSESSMENT STRATEGIES) AND GROUNDWATER CONTAMINATION",
+        "authors": [],
+        "year": 2000,
+        "doi": "10.1201/9781482278958-6",
+        "url": "https://doi.org/10.1201/9781482278958-6"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Cybersecurity Risk Assessment and Management for Organizational Security",
+        "authors": [],
+        "year": 2023,
+        "doi": "10.48047/nq.2022.20.5.nq22815",
+        "url": "https://doi.org/10.48047/nq.2022.20.5.nq22815"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Alignment of Cybersecurity Incident Prioritisation with Incident\n  Response Management Maturity Capabilities",
+        "authors": [
+          "Abdulaziz Gulay",
+          "Leandros Maglaras"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20170224-assemblymember-kalra-announces-list-emergency-service-resources-response.txt",
+    "sentence_index": 119,
+    "sentence_text": "AlertSCC là một phương cách dễ dàng, miễn phí cho bất cứ ai sống hoặc làm việc tại Hạt Santa Clara để nhận các cảnh báo cấp cứu được gửi trực tiếp đến điện thoại di động, thiết bị di động, email hoặc điện thoại của quý vị.",
+    "matched_ai_terms": [
+      "ai"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "TÁC ĐỘNG CỦA ĐẦU TƯ TRỰC TIẾP NƯỚC NGOÀI TỚI VIỆC LÀM CHO LAO ĐỘNG NỮ TẠI VIỆT NAM",
+        "authors": [
+          "Vinh Cao Thị Hồng",
+          "Dương Bùi Tùng"
+        ],
+        "year": 2024,
+        "doi": "10.38203/jiem.vi.092023.1087",
+        "url": "https://doi.org/10.38203/jiem.vi.092023.1087"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Tác động của phong cách lãnh đạo chuyển đổi đến kết quả công việc thông qua động lực làm việc, sự sáng tạo trong công việc và sự hài lòng của người lao động – Nghiên cứu các doanh nghiệp FDI tại Long An",
+        "authors": [
+          "Hằng Nguyễn Phan Thu",
+          "Thành Diệc Vĩnh"
+        ],
+        "year": 2023,
+        "doi": "10.33301/jed.vi.1429",
+        "url": "https://doi.org/10.33301/jed.vi.1429"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Tác động của các phong cách lãnh đạo đến sự hài lòng và hiệu quả làm việc của nhân viên: Nghiên cứu trường hợp ngành Ngân hàng tại Việt Nam.",
+        "authors": [
+          "Tran Thanh Trung",
+          "Trần Thị Ngọc Lan"
+        ],
+        "year": 2023,
+        "doi": "10.31219/osf.io/2f8px",
+        "url": "https://doi.org/10.31219/osf.io/2f8px"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Các yếu tố ảnh hưởng đến động lực làm việc của công nhân tại công ty Điện lực Tân Thuận",
+        "authors": [
+          "Ha Nam Khanh Giao",
+          "Hoang van Minh"
+        ],
+        "year": 2020,
+        "doi": "10.31219/osf.io/z94v8",
+        "url": "https://doi.org/10.31219/osf.io/z94v8"
+      },
+      {
+        "source_api": "crossref",
+        "title": "HỖ TRỢ VIỆC LÀM CHO NGƯỜI KHMER ĐẾN SINH SỐNG VÀ LÀM VIỆC TẠI TỈNH BÌNH DƯƠNG",
+        "authors": [
+          "Lê Anh Vũ",
+          "Lê Thị Phương Hải"
+        ],
+        "year": 2019,
+        "doi": "10.25073/0866-773x/299",
+        "url": "https://doi.org/10.25073/0866-773x/299"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Willingness to Read AI-Generated News Is Not Driven by Their Perceived\n  Quality",
+        "authors": [
+          "Fabrizio Gilardi",
+          "Sabrina Di Lorenzo",
+          "Juri Ezzaini",
+          "Beryl Santa",
+          "Benjamin Streiff",
+          "Eric Zurfluh",
+          "Emma Hoes"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Analysis and prevention of AI-based phishing email attacks",
+        "authors": [
+          "Chibuike Samuel Eze",
+          "Lior Shamir"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Bibliometric View of AI Ethics Development",
+        "authors": [
+          "Di Kevin Gao",
+          "Andrew Haverly",
+          "Sudip Mittal",
+          "Jingdao Chen"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "NoRe: Augmenting Journaling Experience with Generative AI for Music\n  Creation",
+        "authors": [
+          "Joonyoung Park",
+          "Hyewon Cho",
+          "Hyehyun Chu",
+          "Yeeun Lee",
+          "Hajin Lim"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "When AI Writes Back: Ethical Considerations by Physicians on AI-Drafted\n  Patient Message Replies",
+        "authors": [
+          "Di Hu",
+          "Yawen Guo",
+          "Ha Na Cho",
+          "Emilie Chow",
+          "Dana B. Mukamel",
+          "Dara Sorkin",
+          "Andrew Reikes",
+          "Danielle Perret",
+          "Deepti Pandita",
+          "Kai Zheng"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20170711-gipson-appalled-racially-insensitive-photos-taken-judicial-council-staff.txt",
+    "sentence_index": 8,
+    "sentence_text": "Although the damage is done and the seed is planted, and quite possibly for years to come, we will not tolerate bias from a department whose responsibility is that of justice for all.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Our Worth Does Not Come From What We Own: Economic Justice",
+        "authors": [],
+        "year": 2017,
+        "doi": "10.4324/9781315624716-6",
+        "url": "https://doi.org/10.4324/9781315624716-6"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Elizabeth Page-Gould Defines Intergroup Bias",
+        "authors": [],
+        "year": 2016,
+        "doi": "10.4135/9781473960053",
+        "url": "https://doi.org/10.4135/9781473960053"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Epistemic Responsibility and Implicit Bias",
+        "authors": [
+          "Nancy Arden McHugh",
+          "Lacey J. Davidson"
+        ],
+        "year": 2020,
+        "doi": "10.4324/9781315107615-9",
+        "url": "https://doi.org/10.4324/9781315107615-9"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Stereotypes and Prejudices: Whose Responsibility?",
+        "authors": [
+          "Maureen Sie",
+          "Nicole van Voorst Vader-Bours"
+        ],
+        "year": 2016,
+        "doi": "10.1093/acprof:oso/9780198766179.003.0005",
+        "url": "https://doi.org/10.1093/acprof:oso/9780198766179.003.0005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Bias &amp; Artificial Intelligence. ¿Are we all biased?",
+        "authors": [
+          "",
+          "Juan Diego Vivas Fonseca"
+        ],
+        "year": null,
+        "doi": "10.11144/javeriana.10554.61532",
+        "url": "https://doi.org/10.11144/javeriana.10554.61532"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A probabilistic formalization of contextual bias in forensic analysis:\n  Evidence that examiner bias leads to systemic bias in the criminal justice\n  system",
+        "authors": [
+          "Maria Cuellar",
+          "Jacqueline Mauro",
+          "Amanda Luby"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Cryopreservation of seeds of blue waterlily (Nymphaea caerulea) using\n  glutathione adding plant vitrification solution, PVS+",
+        "authors": [
+          "Chung-Hao Lee"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "The soil seed bank can buffer long-term compositional changes in annual\n  plant communities",
+        "authors": [
+          "Niv DeMalach",
+          "Jaime Kigel",
+          "Marcelo Sternberg"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20170808-gipson-gives-thumbs-appointment-los-angeles-county-judge-judicial-council.txt",
+    "sentence_index": 5,
+    "sentence_text": "From his appointment to the Los Angeles County bench in 2002 by Governor Gray Davis to his election as Vice President of the California Judges Association in 2009, Judge Brazile has demonstrated time and time again the importance of promoting judicial fairness and excellence.",
+    "matched_ai_terms": [
+      "fairness"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Dewar, His Honour Thomas, (5 Jan. 1909–31 Dec. 2007), a Circuit Judge (formerly Judge of the County Court), 1962–84; Joint President, Council of Circuit Judges, 1980 (Vice-President, 1979)",
+        "authors": [],
+        "year": 2007,
+        "doi": "10.1093/ww/9780199540884.013.u13622",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u13622"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Los Angeles County",
+        "authors": [],
+        "year": 2023,
+        "doi": "10.2307/jj.5973061.14",
+        "url": "https://doi.org/10.2307/jj.5973061.14"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Davis, Joseph Graham, (Gray), (born 26 Dec. 1942), Counsel, Loeb &amp; Loeb LLP, Los Angeles, since 2004; Governor of California, 1999–2003",
+        "authors": [],
+        "year": 2007,
+        "doi": "10.1093/ww/9780199540884.013.13186",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.13186"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Davis, Joseph Graham, (Gray), (born 26 Dec. 1942), Counsel, Loeb &amp; Loeb LLP, Los Angeles, since 2004; Governor of California, 1999–2003",
+        "authors": [],
+        "year": 2007,
+        "doi": "10.1093/ww/9780199540884.013.u13186",
+        "url": "https://doi.org/10.1093/ww/9780199540884.013.u13186"
+      },
+      {
+        "source_api": "crossref",
+        "title": "LOS ANGELES COUNTY INDIANS",
+        "authors": [],
+        "year": 2023,
+        "doi": "10.2307/jj.5973061.17",
+        "url": "https://doi.org/10.2307/jj.5973061.17"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Conversation with Jerry Friedman",
+        "authors": [
+          "N. I. Fisher"
+        ],
+        "year": 2015,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Probability and Statistics: Essays in Honor of David A. Freedman",
+        "authors": [
+          "Deborah Nolan",
+          "Terry Speed"
+        ],
+        "year": 2008,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Identifying biases in legal data: An algorithmic fairness perspective",
+        "authors": [
+          "Jackson Sargent",
+          "Melanie Weber"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Wilbur Norman Christiansen 1913-2007",
+        "authors": [
+          "R. H. Frater",
+          "W. M. Goss"
+        ],
+        "year": 2011,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An Investigation into the Correlation between a Presidents Approval\n  Rating and the Performance of His Party in the Midterm Elections",
+        "authors": [
+          "Pandya George"
+        ],
+        "year": 2015,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20170927-bill-foster-fair-juries-authored-assemblymember-ash-kalra-signed-law.txt",
+    "sentence_index": 11,
+    "sentence_text": "Preemptory challenges are often used by attorneys on both sides to ensure fairness by allowing them to excuse who they suspect, but cannot prove, are harboring bias during the voir dire process.",
+    "matched_ai_terms": [
+      "bias",
+      "fairness"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Criminal Justice in Practice: Jury Voir Dire Processes",
+        "authors": [],
+        "year": 2021,
+        "doi": "10.4135/9781529763379",
+        "url": "https://doi.org/10.4135/9781529763379"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Fairness and Bias in the Trial Process",
+        "authors": [],
+        "year": 2022,
+        "doi": "10.2307/j.ctv2bndf9w.6",
+        "url": "https://doi.org/10.2307/j.ctv2bndf9w.6"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Quantification of fairness bias in relation to decisions using a relativistic fairness-equity model",
+        "authors": [
+          "Nicoladie Tam"
+        ],
+        "year": 2014,
+        "doi": "10.14738/assrj.14.292",
+        "url": "https://doi.org/10.14738/assrj.14.292"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Ethical AI for Personalized Banking: Addressing Bias and Fairness Challenges",
+        "authors": [
+          "Muthu Selvam"
+        ],
+        "year": 2025,
+        "doi": "10.62486/latia2025361",
+        "url": "https://doi.org/10.62486/latia2025361"
+      },
+      {
+        "source_api": "crossref",
+        "title": "What Are We Missing in Algorithmic Fairness? Discussing Open Challenges for Fairness Analysis in User Profiling with Graph Neural Networks",
+        "authors": [
+          "Erasmo Purificato",
+          "Ernesto William De Luca"
+        ],
+        "year": 2023,
+        "doi": "10.1007/978-3-031-37249-0_14",
+        "url": "https://doi.org/10.1007/978-3-031-37249-0_14"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Accurate Fairness: Improving Individual Fairness without Trading\n  Accuracy",
+        "authors": [
+          "Xuran Li",
+          "Peng Wu",
+          "Jing Su"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Procedural Fairness and Its Relationship with Distributive Fairness in\n  Machine Learning",
+        "authors": [
+          "Ziming Wang",
+          "Changwu Huang",
+          "Ke Tang",
+          "Xin Yao"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "On Bias and Fairness in NLP: Investigating the Impact of Bias and\n  Debiasing in Language Models on the Fairness of Toxicity Detection",
+        "authors": [
+          "Fatma Elsafoury",
+          "Stamos Katsigiannis"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Data Preparation for Fairness-Performance Trade-Offs: A\n  Practitioner-Friendly Alternative?",
+        "authors": [
+          "Gianmario Voria",
+          "Rebecca Di Matteo",
+          "Giammaria Giordano",
+          "Gemma Catolino",
+          "Fabio Palomba"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "On Comparing Fair Classifiers under Data Bias",
+        "authors": [
+          "Mohit Sharma",
+          "Amit Deshpande",
+          "Rajiv Ratn Shah"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20171009-governor-signs-rubios-bill-enhance-public-safety-allowing-more-appropriate.txt",
+    "sentence_index": 6,
+    "sentence_text": "Under AB 789, arrestees evaluated using a risk assessment tool that demonstrate they do not pose a safety threat to the community, will be released into a supervised pretrial program – protecting public safety and providing relief to arrestees.",
+    "matched_ai_terms": [
+      "risk assessment"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Pretrial Risk Assessment Tool Adoption and Pretrial Operations",
+        "authors": [
+          "Spencer G. Lawson",
+          "Staci J. Rising",
+          "Eric Grommon",
+          "Evan M. Lowder"
+        ],
+        "year": 2021,
+        "doi": "10.4324/9781003149842-19",
+        "url": "https://doi.org/10.4324/9781003149842-19"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Risk Assessment and the Law: Evolving Criteria by Which Carcinogenicity Risk Assessments are Evaluated in the Legal Community",
+        "authors": [
+          "R. Bruce Dickson"
+        ],
+        "year": 1987,
+        "doi": "10.1007/978-1-4684-5317-1_13",
+        "url": "https://doi.org/10.1007/978-1-4684-5317-1_13"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Stalking Threat and Risk Assessment",
+        "authors": [
+          "Troy E. McEwan"
+        ],
+        "year": 2021,
+        "doi": "10.1093/med-psych/9780190940164.003.0011",
+        "url": "https://doi.org/10.1093/med-psych/9780190940164.003.0011"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Evaluation of the RESETTLE project (formerly Community Risk Assessment and Management Service) for Released High Risk Prisoners",
+        "authors": [
+          "Jonathan Hill"
+        ],
+        "year": 2012,
+        "doi": "10.1186/isrctn00991963",
+        "url": "https://doi.org/10.1186/isrctn00991963"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Five-County Validation of the Indiana Risk Assessment System – Pretrial Assessment Tool (IRAS-PAT) using a Local Validation Approach",
+        "authors": [
+          "Evan M. Lowder",
+          "Spencer G. Lawson",
+          "Eric Grommon",
+          "Brad R. Ray"
+        ],
+        "year": 2020,
+        "doi": "10.1080/07418825.2020.1829006",
+        "url": "https://doi.org/10.1080/07418825.2020.1829006"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Experimental Evaluation of Algorithm-Assisted Human Decision-Making:\n  Application to Pretrial Public Safety Assessment",
+        "authors": [
+          "Kosuke Imai",
+          "Zhichao Jiang",
+          "James Greiner",
+          "Ryan Halen",
+          "Sooahn Shin"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An assessment of racial disparities in pretrial decision-making using\n  misclassification models",
+        "authors": [
+          "Kimberly A. Hochstedler Webb",
+          "Sarah A. Riley",
+          "Martin T. Wells"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Risk Assessment of a Pretrial Risk Assessment Tool: Tussles,\n  Mitigation Strategies, and Inherent Limits",
+        "authors": [
+          "Marc Faddoul",
+          "Henriette Ruhrmann",
+          "Joyce Lee"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Safe Policy Learning through Extrapolation: Application to Pre-trial\n  Risk Assessment",
+        "authors": [
+          "Eli Ben-Michael",
+          "D. James Greiner",
+          "Kosuke Imai",
+          "Zhichao Jiang"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Flipping the Script on Criminal Justice Risk Assessment: An actuarial\n  model for assessing the risk the federal sentencing system poses to\n  defendants",
+        "authors": [
+          "Mikaela Meyer",
+          "Aaron Horowitz",
+          "Erica Marshall",
+          "Kristian Lum"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20180306-california-anti-trump-resistance-takes-taxes-new-bill-raises-billions.txt",
+    "sentence_index": 13,
+    "sentence_text": "AB 2731 is about tax fairness.",
+    "matched_ai_terms": [
+      "fairness"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "How History Helps Us Think about the Politics of Tax Fairness",
+        "authors": [
+          "Shirley Tillotson"
+        ],
+        "year": 2020,
+        "doi": "10.2307/j.ctv176ktp8.11",
+        "url": "https://doi.org/10.2307/j.ctv176ktp8.11"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Approaching Tax Fairness",
+        "authors": [],
+        "year": 2013,
+        "doi": "10.1017/cbo9781139026918.003",
+        "url": "https://doi.org/10.1017/cbo9781139026918.003"
+      },
+      {
+        "source_api": "crossref",
+        "title": "How History Helps Us Think about the Politics of Tax Fairness",
+        "authors": [
+          "Shirley Tillotson"
+        ],
+        "year": 2020,
+        "doi": "10.1515/9780228002598-009",
+        "url": "https://doi.org/10.1515/9780228002598-009"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Fairness and the Property Tax",
+        "authors": [],
+        "year": 2013,
+        "doi": "10.1017/cbo9781139026918.005",
+        "url": "https://doi.org/10.1017/cbo9781139026918.005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "WHAT DOES THE PUBLIC BELIEVE ABOUT TAX FAIRNESS?",
+        "authors": [
+          "STEVEN M. SHEFFRIN"
+        ],
+        "year": 1993,
+        "doi": "10.1086/ntj41789022",
+        "url": "https://doi.org/10.1086/ntj41789022"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Understanding Accuracy-Fairness Trade-offs in Re-ranking through\n  Elasticity in Economics",
+        "authors": [
+          "Chen Xu",
+          "Jujia Zhao",
+          "Wenjie Wang",
+          "Liang Pang",
+          "Jun Xu",
+          "Tat-Seng Chua",
+          "Maarten de Rijke"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Tax Mechanisms and Gradient Flows",
+        "authors": [
+          "Stefan Steinerberger",
+          "Aleh Tsyvinski"
+        ],
+        "year": 2019,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Achieving an Efficient and Fair Equilibrium Through Taxation",
+        "authors": [
+          "Lin Gao",
+          "Jianwei Huang"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Dichotomous Analysis of Unemployment Benefits",
+        "authors": [
+          "Xingwei Hu"
+        ],
+        "year": 2018,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Taxation Perspective for Fair Re-ranking",
+        "authors": [
+          "Chen Xu",
+          "Xiaopeng Ye",
+          "Wenjie Wang",
+          "Liang Pang",
+          "Jun Xu",
+          "Tat-Seng Chua"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20180306-california-anti-trump-resistance-takes-taxes-new-bill-raises-billions.txt",
+    "sentence_index": 19,
+    "sentence_text": "We have a chance to point to a step towards basic tax fairness.",
+    "matched_ai_terms": [
+      "fairness"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Towards Unitary Taxation",
+        "authors": [
+          "Sol Picciotto"
+        ],
+        "year": 2016,
+        "doi": "10.1093/acprof:oso/9780198725343.003.0010",
+        "url": "https://doi.org/10.1093/acprof:oso/9780198725343.003.0010"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Approaching Tax Fairness",
+        "authors": [],
+        "year": 2013,
+        "doi": "10.1017/cbo9781139026918.003",
+        "url": "https://doi.org/10.1017/cbo9781139026918.003"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Fairness and the Property Tax",
+        "authors": [],
+        "year": 2013,
+        "doi": "10.1017/cbo9781139026918.005",
+        "url": "https://doi.org/10.1017/cbo9781139026918.005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Should We Redistribute Income through Taxation?",
+        "authors": [],
+        "year": 2013,
+        "doi": "10.1017/cbo9781139026918.006",
+        "url": "https://doi.org/10.1017/cbo9781139026918.006"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Preferences for fairness over losses",
+        "authors": [
+          "Linda Thunstrom"
+        ],
+        "year": 2018,
+        "doi": "10.1257/rct.3131-1.0",
+        "url": "https://doi.org/10.1257/rct.3131-1.0"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Towards Substantive Conceptions of Algorithmic Fairness: Normative\n  Guidance from Equal Opportunity Doctrines",
+        "authors": [
+          "Falaah Arif Khan",
+          "Eleni Manis",
+          "Julia Stoyanovich"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Incentives in Response to Unfair Dynamic Pricing",
+        "authors": [
+          "Jesse Thibodeau",
+          "Hadi Nekoei",
+          "Afaf Taïk",
+          "Janarthanan Rajendran",
+          "Golnoosh Farnadi"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Taxation Perspective for Fair Re-ranking",
+        "authors": [
+          "Chen Xu",
+          "Xiaopeng Ye",
+          "Wenjie Wang",
+          "Liang Pang",
+          "Jun Xu",
+          "Tat-Seng Chua"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "50 Years of Test (Un)fairness: Lessons for Machine Learning",
+        "authors": [
+          "Ben Hutchinson",
+          "Margaret Mitchell"
+        ],
+        "year": 2018,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Algorithmic Fairness and Vertical Equity: Income Fairness with IRS Tax\n  Audit Models",
+        "authors": [
+          "Emily Black",
+          "Hadi Elzayn",
+          "Alexandra Chouldechova",
+          "Jacob Goldin",
+          "Daniel E. Ho"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt",
+    "sentence_index": 20,
+    "sentence_text": "Manufacturing is increasingly adopting welding robots and technicians in automation, and this will keep North Orange County up-to-date with technology used in manufacturing around the globe.",
+    "matched_ai_terms": [
+      "automation"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Use of Robots in Assembly Automation",
+        "authors": [
+          "Geoffrey Boothroyd"
+        ],
+        "year": 1984,
+        "doi": "10.1016/s0007-8506(16)30008-7",
+        "url": "https://doi.org/10.1016/s0007-8506(16)30008-7"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Quality Prediction and Model Explanation of Resistance Spot Welding Process Under Varying Fit-Up Conditions",
+        "authors": [
+          "Tianle Lyu",
+          "Yunjun Xia",
+          "Yongbing Li",
+          "Songlin Wang"
+        ],
+        "year": 2023,
+        "doi": "10.1115/msec2023-105586",
+        "url": "https://doi.org/10.1115/msec2023-105586"
+      },
+      {
+        "source_api": "crossref",
+        "title": "MATERIAL-HANDLING ROBOTS FOR PROGRAMMABLE AUTOMATION",
+        "authors": [
+          "C.A. Rosen"
+        ],
+        "year": 1978,
+        "doi": "10.1016/b978-0-08-022015-4.50023-1",
+        "url": "https://doi.org/10.1016/b978-0-08-022015-4.50023-1"
+      },
+      {
+        "source_api": "crossref",
+        "title": "TECHNOLOGY OF MANUFACTURING AUTOMATION",
+        "authors": [],
+        "year": 2012,
+        "doi": "10.1017/cbo9780511843723.007",
+        "url": "https://doi.org/10.1017/cbo9780511843723.007"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Using Robots to Teach Manufacturing Automation",
+        "authors": [
+          "Tim Coppinger",
+          "Hesham Shaalan"
+        ],
+        "year": null,
+        "doi": "10.18260/1-2-620-39776",
+        "url": "https://doi.org/10.18260/1-2-620-39776"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Design, Analysis, and Simulation of a Pipe-Welding Robot with Fixed\n  Plinth",
+        "authors": [
+          "Anahita Emami",
+          "Seyedmeysam Khaleghian",
+          "Mohammad Mahjoob Jahromi"
+        ],
+        "year": 2015,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Intelligent humanoids in manufacturing to address worker shortage and\n  skill gaps: Case of Tesla Optimus",
+        "authors": [
+          "Ali Ahmad Malik",
+          "Tariq Masood",
+          "Alexander Brem"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Benchmarking Sim2Real Gap: High-fidelity Digital Twinning of Agile\n  Manufacturing",
+        "authors": [
+          "Sunny Katyara",
+          "Suchita Sharma",
+          "Praveen Damacharla",
+          "Carlos Garcia Santiago",
+          "Lubina Dhirani",
+          "Bhawani Shankar Chowdhry"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "The Virtual Manufacturing concept: Scope, Socio-Economic Aspects and\n  Future Trends",
+        "authors": [
+          "Damien Chablat",
+          "Philippe Dépincé",
+          "Eric Noël",
+          "Peer-Oliver Woelk"
+        ],
+        "year": 2007,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Improving Welding Robotization via Operator Skill Identification,\n  Modeling, and Human-Machine Collaboration: Experimental Protocol\n  Implementation",
+        "authors": [
+          "Antoine Lénat",
+          "Olivier Cheminat",
+          "Damien Chablat",
+          "Camilo Charron"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20190212-senator-glazer-assemblywoman-quirk-silva-29-co-authors-unveil-bill-provide.txt",
+    "sentence_index": 21,
+    "sentence_text": "âBut itâs also a matter of fairness,â Hanlon said.",
+    "matched_ai_terms": [
+      "fairness"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "âItâs Life, Jim, but Not as We Know Itâ",
+        "authors": [],
+        "year": null,
+        "doi": "10.1057/9781137389275.0005",
+        "url": "https://doi.org/10.1057/9781137389275.0005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "âBut Joe, itâs âHour of Ecstasyââ",
+        "authors": [
+          "Iris Luppa"
+        ],
+        "year": null,
+        "doi": "10.1057/9781137378613.0008",
+        "url": "https://doi.org/10.1057/9781137378613.0008"
+      },
+      {
+        "source_api": "crossref",
+        "title": "âThe Era Has Passed, But itâs Nice to Rememberâ",
+        "authors": [
+          "Claire Hyland"
+        ],
+        "year": null,
+        "doi": "10.1057/9780230349698.0019",
+        "url": "https://doi.org/10.1057/9780230349698.0019"
+      },
+      {
+        "source_api": "crossref",
+        "title": "âItâs Not about Religion, but about Manipulationâ",
+        "authors": [
+          "Henrik Bogdan"
+        ],
+        "year": null,
+        "doi": "10.1057/9781137472236.0005",
+        "url": "https://doi.org/10.1057/9781137472236.0005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "âItâs Alive!â",
+        "authors": [],
+        "year": null,
+        "doi": "10.1057/9781137399021.0006",
+        "url": "https://doi.org/10.1057/9781137399021.0006"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "What's Distributive Justice Got to Do with It? Rethinking Algorithmic\n  Fairness from the Perspective of Approximate Justice",
+        "authors": [
+          "Corinna Hertweck",
+          "Christoph Heitz",
+          "Michele Loi"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Continuous Fair SMOTE -- Fairness-Aware Stream Learning from Imbalanced\n  Data",
+        "authors": [
+          "Kathrin Lammers",
+          "Valerie Vaquet",
+          "Barbara Hammer"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Cutoff for the Transposition Walk on Permutations with One-Sided\n  Restrictions",
+        "authors": [
+          "Olena Blumberg"
+        ],
+        "year": 2012,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "On the action of the symmetric group on the free LAnKe: a question of\n  Friedmann, Hanlon, Stanley and Wachs",
+        "authors": [
+          "Mihalis Maliakas",
+          "Dimitra-Dionysia Stergiopoulou"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fair-SSL: Building fair ML Software with less data",
+        "authors": [
+          "Joymallya Chakraborty",
+          "Suvodeep Majumder",
+          "Huy Tu"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20190213-senator-glazer-assemblywoman-quirk-silva-29-co-authors-unveil-bill-0.txt",
+    "sentence_index": 22,
+    "sentence_text": "âBut itâs also a matter of fairness,â Hanlon said.",
+    "matched_ai_terms": [
+      "fairness"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "âItâs Life, Jim, but Not as We Know Itâ",
+        "authors": [],
+        "year": null,
+        "doi": "10.1057/9781137389275.0005",
+        "url": "https://doi.org/10.1057/9781137389275.0005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "âBut Joe, itâs âHour of Ecstasyââ",
+        "authors": [
+          "Iris Luppa"
+        ],
+        "year": null,
+        "doi": "10.1057/9781137378613.0008",
+        "url": "https://doi.org/10.1057/9781137378613.0008"
+      },
+      {
+        "source_api": "crossref",
+        "title": "âThe Era Has Passed, But itâs Nice to Rememberâ",
+        "authors": [
+          "Claire Hyland"
+        ],
+        "year": null,
+        "doi": "10.1057/9780230349698.0019",
+        "url": "https://doi.org/10.1057/9780230349698.0019"
+      },
+      {
+        "source_api": "crossref",
+        "title": "âItâs Not about Religion, but about Manipulationâ",
+        "authors": [
+          "Henrik Bogdan"
+        ],
+        "year": null,
+        "doi": "10.1057/9781137472236.0005",
+        "url": "https://doi.org/10.1057/9781137472236.0005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "âItâs Alive!â",
+        "authors": [],
+        "year": null,
+        "doi": "10.1057/9781137399021.0006",
+        "url": "https://doi.org/10.1057/9781137399021.0006"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "What's Distributive Justice Got to Do with It? Rethinking Algorithmic\n  Fairness from the Perspective of Approximate Justice",
+        "authors": [
+          "Corinna Hertweck",
+          "Christoph Heitz",
+          "Michele Loi"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Continuous Fair SMOTE -- Fairness-Aware Stream Learning from Imbalanced\n  Data",
+        "authors": [
+          "Kathrin Lammers",
+          "Valerie Vaquet",
+          "Barbara Hammer"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Cutoff for the Transposition Walk on Permutations with One-Sided\n  Restrictions",
+        "authors": [
+          "Olena Blumberg"
+        ],
+        "year": 2012,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "On the action of the symmetric group on the free LAnKe: a question of\n  Friedmann, Hanlon, Stanley and Wachs",
+        "authors": [
+          "Mihalis Maliakas",
+          "Dimitra-Dionysia Stergiopoulou"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fair-SSL: Building fair ML Software with less data",
+        "authors": [
+          "Joymallya Chakraborty",
+          "Suvodeep Majumder",
+          "Huy Tu"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20190219-berman-introduces-bill-prevent-spread-malicious-deepfakes.txt",
+    "sentence_index": 7,
+    "sentence_text": "Deepfakes are created using artificial intelligence technology that seamlessly superimposes the movements and words of one person onto another.",
+    "matched_ai_terms": [
+      "artificial intelligence"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Chapter One A Brief Overview of Artificial Intelligence",
+        "authors": [
+          "Davey Gibian"
+        ],
+        "year": 2022,
+        "doi": "10.5771/9781538155097-11",
+        "url": "https://doi.org/10.5771/9781538155097-11"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Artificial Intelligence, Deepfakes, and Disinformation: A Primer",
+        "authors": [],
+        "year": 2022,
+        "doi": "10.7249/pea1043-1",
+        "url": "https://doi.org/10.7249/pea1043-1"
+      },
+      {
+        "source_api": "crossref",
+        "title": "A Picture Worth a Thousand Words, Created with One Sentence: Using Artificial Intelligence–created Art to Enhance Medical Education",
+        "authors": [
+          "John C. Huston",
+          "Naftali Kaminski"
+        ],
+        "year": 2023,
+        "doi": "10.34197/ats-scholar.2022-0141ps",
+        "url": "https://doi.org/10.34197/ats-scholar.2022-0141ps"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Legal Regime of Inventions Created by Artificial Intelligence",
+        "authors": [
+          "Yurii Khodyko"
+        ],
+        "year": 2024,
+        "doi": "10.26512/lstr.v16i1.48972",
+        "url": "https://doi.org/10.26512/lstr.v16i1.48972"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Teaching Grasping Points Using Natural Movements",
+        "authors": [
+          "Isleyici Yalim",
+          "Aleny&agrave; Guillem"
+        ],
+        "year": 2015,
+        "doi": "10.3233/978-1-61499-578-4-275",
+        "url": "https://doi.org/10.3233/978-1-61499-578-4-275"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Using Deep Learning to Detecting Deepfakes",
+        "authors": [
+          "Jacob Mallet",
+          "Rushit Dave",
+          "Naeem Seliya",
+          "Mounika Vanamala"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An Examination of Fairness of AI Models for Deepfake Detection",
+        "authors": [
+          "Loc Trinh",
+          "Yan Liu"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "De-Fake: Style based Anomaly Deepfake Detection",
+        "authors": [
+          "Sudev Kumar Padhi",
+          "Harshit Kumar",
+          "Umesh Kashyap",
+          "Sk. Subidh Ali"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20190402-berman-and-students-promote-safe-lot-legislation-homeless-students.txt",
+    "sentence_index": 27,
+    "sentence_text": "“When we have numbers of student homelessness as high as we do, we should have a bias toward action.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Conservation bias: What have we learned?",
+        "authors": [
+          "Brian Silliman",
+          "Stephanie Wear"
+        ],
+        "year": 2017,
+        "doi": "10.1093/oso/9780198808978.003.0028",
+        "url": "https://doi.org/10.1093/oso/9780198808978.003.0028"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Now That We Have Found Bias, What Are We Going to Do with It?",
+        "authors": [
+          "David F. Tennant",
+          "Marlon R. Tracey"
+        ],
+        "year": 2016,
+        "doi": "10.1057/9781137391506_7",
+        "url": "https://doi.org/10.1057/9781137391506_7"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Should We Have or Should We Have Not, and Who Should Have Paid?",
+        "authors": [
+          "Benjamin Bental",
+          "Dominique Demougin"
+        ],
+        "year": 2011,
+        "doi": "10.2139/ssrn.1775029",
+        "url": "https://doi.org/10.2139/ssrn.1775029"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Science, ethnicity, and bias: Where have we gone wrong?",
+        "authors": [],
+        "year": 2000,
+        "doi": "10.1037/e511712004-001",
+        "url": "https://doi.org/10.1037/e511712004-001"
+      },
+      {
+        "source_api": "crossref",
+        "title": "WHEN DO WE HAVE \"SUFFICIENT\" EVIDENCE?",
+        "authors": [
+          "Student"
+        ],
+        "year": 1987,
+        "doi": "10.1542/peds.79.4.a36",
+        "url": "https://doi.org/10.1542/peds.79.4.a36"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Dynamics of homelessness in urban America",
+        "authors": [
+          "Chris Glynn",
+          "Emily B. Fox"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Do Quantum Neural Networks have Simplicity Bias?",
+        "authors": [
+          "Jessica Pointing"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Combating Homelessness Stigma with LLMs: A New Multi-Modal Dataset for\n  Bias Detection",
+        "authors": [
+          "Jonathan A. Karr Jr.",
+          "Benjamin F. Herbst",
+          "Ting Hua",
+          "Matthew Hauenstein",
+          "Georgina Curto",
+          "Nitesh V. Chawla"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Red alert: Millions of \"homeless\" publications in Scopus should be\n  resettled",
+        "authors": [
+          "Weishu Liu",
+          "Haifeng Wang"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Network Sampling Methods for Estimating Social Networks, Population\n  Percentages, and Totals of People Experiencing Unsheltered Homelessness",
+        "authors": [
+          "Zack W. Almquist",
+          "Ashley Hazel",
+          "Owen Kajfasz",
+          "Janelle Rothfolk",
+          "Claire Guilmette",
+          "Mary-Catherine Anderson",
+          "Larisa Ozeryansky",
+          "Amy Hagopian"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20190624-berman-introduces-legislation-combat-nefarious-deepfakes-protect-election.txt",
+    "sentence_index": 10,
+    "sentence_text": "The widely available artificial intelligence technology allows for the creation of lifelike photos and videos of someone falsely appearing to say or do something.",
+    "matched_ai_terms": [
+      "artificial intelligence"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Not someone, but something: Rethinking trust in the age of medical AI",
+        "authors": [
+          "Jan Beger"
+        ],
+        "year": 2025,
+        "doi": "10.1016/j.ejrai.2025.100038",
+        "url": "https://doi.org/10.1016/j.ejrai.2025.100038"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Artificial Intelligence Tools for the Creation of Educational Videos for Teaching",
+        "authors": [],
+        "year": 2024,
+        "doi": "10.36006/09651-1-13",
+        "url": "https://doi.org/10.36006/09651-1-13"
+      },
+      {
+        "source_api": "crossref",
+        "title": "We Have Something To Do",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.5040/9781978733954.ch-003",
+        "url": "https://doi.org/10.5040/9781978733954.ch-003"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Application of artificial intelligence technology in AI music creation",
+        "authors": [
+          "Haoyang Li"
+        ],
+        "year": 2024,
+        "doi": "10.1063/5.0230064",
+        "url": "https://doi.org/10.1063/5.0230064"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Introduction to Artificial Intelligence for Sustainable Value Creation",
+        "authors": [
+          "Margherita Pagani",
+          "Renaud Champion"
+        ],
+        "year": 2021,
+        "doi": "10.4337/9781839104398.00008",
+        "url": "https://doi.org/10.4337/9781839104398.00008"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Finetuning for Sarcasm Detection with a Pruned Dataset",
+        "authors": [
+          "Ishita Goyal",
+          "Priyank Bhandia",
+          "Sanjana Dulam"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Recent Advancements In The Field Of Deepfake Detection",
+        "authors": [
+          "Natalie Krueger",
+          "Mounika Vanamala",
+          "Rushit Dave"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Artificial General Intelligence, Existential Risk, and Human Risk\n  Perception",
+        "authors": [
+          "David R. Mandel"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20190909-ramos-requests-ca-attorney-general-collect-data-missing-and-murdered-native.txt",
+    "sentence_index": 15,
+    "sentence_text": "A study by the Urban Indian Health Institute analysis of media and law enforcement agencies concluded that the lack of accurate data on missing and murdered Native American women and girls is due to deeply rooted institutional bias throughout the country, especially for Native American and Alaskan Native women and girls.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Federal Intervention and the Fight for Justice: Examining Systemic Disparities in Missing and Murdered Black Women, Women of Color, and Girls in U.S. Law Enforcement and Media Coverage",
+        "authors": [
+          "Mohammad Ibrahim"
+        ],
+        "year": 2024,
+        "doi": "10.2139/ssrn.4976305",
+        "url": "https://doi.org/10.2139/ssrn.4976305"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Federal Intervention and the Fight for Justice: Examining Systemic Disparities in Missing and Murdered Black Women, Women of Color, and Girls in U.S. Law Enforcement and Media Coverage",
+        "authors": [
+          "Mohammad Ibrahim"
+        ],
+        "year": 2024,
+        "doi": "10.4236/oalib.1112657",
+        "url": "https://doi.org/10.4236/oalib.1112657"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Missing and Murdered Indigenous Women and Girls Inquiry",
+        "authors": [],
+        "year": null,
+        "doi": "10.1163/2210-7975_hrd-9902-2016008",
+        "url": "https://doi.org/10.1163/2210-7975_hrd-9902-2016008"
+      },
+      {
+        "source_api": "crossref",
+        "title": "MISSING AND MURDERED INDIGENOUS WOMEN AND GIRLS:",
+        "authors": [
+          "LINDA M. ROBYN"
+        ],
+        "year": 2023,
+        "doi": "10.2307/j.ctv35n8b93.11",
+        "url": "https://doi.org/10.2307/j.ctv35n8b93.11"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Spotty data and media bias delay justice for missing and murdered Indigenous people",
+        "authors": [
+          "Wendelin Hume"
+        ],
+        "year": 2021,
+        "doi": "10.64628/aai.cup337nqs",
+        "url": "https://doi.org/10.64628/aai.cup337nqs"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Forecasting Future Murders of Mr. Boddy by Numerical Weather Prediction",
+        "authors": [
+          "Eve Armstrong"
+        ],
+        "year": 2019,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Study of the Leaky Pipeline Phenomenon for Women in Physics Past the\n  Postdoctoral Level, and a Critique of the AIP 2005 report on Women in Physics\n  and Astronomy",
+        "authors": [
+          "Sherry Towers"
+        ],
+        "year": 2005,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Female Agency and its Implications on Mental and Physical Health:\n  Evidence from the city of Dhaka",
+        "authors": [
+          "Upasak Das",
+          "Gindo Tampubolon"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Gender Data 4 Girls?: A Postcolonial Feminist Participatory Study in\n  Bangladesh",
+        "authors": [
+          "Isobel Talks"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Estimating the effects of a California gun control program with\n  Multitask Gaussian Processes",
+        "authors": [
+          "Eli Ben-Michael",
+          "David Arbour",
+          "Avi Feller",
+          "Alex Franks",
+          "Steven Raphael"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20190911-ramos-co-authored-pro-law-enforcement-bill-signed-law.txt",
+    "sentence_index": 10,
+    "sentence_text": "It also includes guidelines for handling mental health crises, bias, and stigma.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Weight Stigma and Mental Health Care",
+        "authors": [],
+        "year": 2022,
+        "doi": "10.4135/9781529796476",
+        "url": "https://doi.org/10.4135/9781529796476"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Mental health self-stigma: links with social self-worth contingencies and ally support",
+        "authors": [
+          "Rebecca A. Burwell",
+          "Sierra Bias"
+        ],
+        "year": 2024,
+        "doi": "10.1080/28324765.2024.2310039",
+        "url": "https://doi.org/10.1080/28324765.2024.2310039"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Weight-related stigma and bias in mental health care guidelines: Critical appraisal of international government documentation addressing the physical health needs of individuals living with mental illness",
+        "authors": [
+          "Melissa Eaton",
+          "Yasmine Probst",
+          "Laura Robinson",
+          "Rebecca George"
+        ],
+        "year": 2025,
+        "doi": "10.1016/j.genhosppsych.2025.08.007",
+        "url": "https://doi.org/10.1016/j.genhosppsych.2025.08.007"
+      },
+      {
+        "source_api": "crossref",
+        "title": "LOST: Missing Morphometric Data Simulation and Estimation",
+        "authors": [
+          "J. Arbour",
+          "C. Brown"
+        ],
+        "year": 2012,
+        "doi": "10.32614/cran.package.lost",
+        "url": "https://doi.org/10.32614/cran.package.lost"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Supplemental Material for The Role of Weight Stigma and Internalized Weight Bias in Health Care Avoidance and Mistrust",
+        "authors": [],
+        "year": 2024,
+        "doi": "10.1037/sah0000578.supp",
+        "url": "https://doi.org/10.1037/sah0000578.supp"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Artificial Intelligence in Mental Health and Well-Being: Evolution,\n  Current Applications, Future Challenges, and Emerging Evidence",
+        "authors": [
+          "Hari Mohan Pandey"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Challenges of Large Language Models for Mental Health Counseling",
+        "authors": [
+          "Neo Christopher Chung",
+          "George Dyer",
+          "Lennart Brocki"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "\"For an App Supposed to Make Its Users Feel Better, It Sure is a Joke\"\n  -- An Analysis of User Reviews of Mobile Mental Health Applications",
+        "authors": [
+          "MD Romael Haque",
+          "Sabirat Rubya"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20191003-california-clamps-down-nonconsensual-deepfake-pornography.txt",
+    "sentence_index": 8,
+    "sentence_text": "Created by powerful AI technology, deepfakes make it increasingly difficult to differentiate between truth and fiction.",
+    "matched_ai_terms": [
+      "ai"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Deepfakes: faces created by AI now look more real than genuine photos",
+        "authors": [
+          "Manos Tsakiris"
+        ],
+        "year": 2023,
+        "doi": "10.64628/ab.y5dcm965d",
+        "url": "https://doi.org/10.64628/ab.y5dcm965d"
+      },
+      {
+        "source_api": "crossref",
+        "title": "The Nexus Chronicles: Adventures in the Multiverse - An AI Created Science Fiction",
+        "authors": [
+          "Dogan Kökdemir"
+        ],
+        "year": 2023,
+        "doi": "10.31234/osf.io/5zcpq",
+        "url": "https://doi.org/10.31234/osf.io/5zcpq"
+      },
+      {
+        "source_api": "crossref",
+        "title": "AI Security and Trust: Mitigating Deepfakes, Misinformation, and Algorithmic Bias",
+        "authors": [
+          "Murali Krishna Pasupuleti"
+        ],
+        "year": 2025,
+        "doi": "10.62311/nesx/97991",
+        "url": "https://doi.org/10.62311/nesx/97991"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Empowering the Future: Powerful Technology for Powerful AI Teaching and Learning",
+        "authors": [
+          "Nick Schiner"
+        ],
+        "year": 2025,
+        "doi": "10.51388/20.500.12265/261",
+        "url": "https://doi.org/10.51388/20.500.12265/261"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Developing+an+AI+Model+to+Detect+Deepfakes",
+        "authors": [],
+        "year": null,
+        "doi": "10.33009/fsu_c1f06a00-326e-4332-b1a2-42ae9a4615aa",
+        "url": "https://doi.org/10.33009/fsu_c1f06a00-326e-4332-b1a2-42ae9a4615aa"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Explainable Deepfake Video Detection using Convolutional Neural Network\n  and CapsuleNet",
+        "authors": [
+          "Gazi Hasin Ishrak",
+          "Zalish Mahmud",
+          "MD. Zami Al Zunaed Farabe",
+          "Tahera Khanom Tinni",
+          "Tanzim Reza",
+          "Mohammad Zavid Parvez"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "AI-Powered Spearphishing Cyber Attacks: Fact or Fiction?",
+        "authors": [
+          "Matthew Kemp",
+          "Harsha Kalutarage",
+          "M. Omar Al-Kadri"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Deepfake Detection Via Facial Feature Extraction and Modeling",
+        "authors": [
+          "Benjamin Carter",
+          "Nathan Dilla",
+          "Micheal Callahan",
+          "Atuhaire Ambala"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Deepfakes, Phrenology, Surveillance, and More! A Taxonomy of AI Privacy\n  Risks",
+        "authors": [
+          "Hao-Ping Lee",
+          "Yu-Ju Yang",
+          "Thomas Serban von Davier",
+          "Jodi Forlizzi",
+          "Sauvik Das"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Model Attribution of Face-swap Deepfake Videos",
+        "authors": [
+          "Shan Jia",
+          "Xin Li",
+          "Siwei Lyu"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20191003-new-election-integrity-measure-signed-law-anticipation-2020-election.txt",
+    "sentence_index": 14,
+    "sentence_text": "Earlier this year, the US House of Representatives Permanent Select Committee on Intelligence, led by Congressman Adam Schiff, convened a hearing on the National Security Challenge of Artificial Intelligence, Manipulated Media, and “Deepfakes,” noting that “deepfakes raise profound questions about national security and democratic governances, with individuals and voters no longer able to trust their own eyes or ears when assessing the authenticity of what they see on their screens.” Senator Marco Rubio has also said that he expects deepfakes to be used in “the next wave of attacks against American and Western Democracies.”",
+    "matched_ai_terms": [
+      "artificial intelligence"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Letter to Devin Nunes and Adam Schiff, Permanent Select Committee on Intelligence, United States House of Representatives",
+        "authors": [
+          "Nadine J. Kaslow",
+          "Susan H. McDaniel"
+        ],
+        "year": 2015,
+        "doi": "10.1037/e529222015-001",
+        "url": "https://doi.org/10.1037/e529222015-001"
+      },
+      {
+        "source_api": "crossref",
+        "title": "National Security Agency, Testimony, Statement for the Record by Lieutenant General Michael V. Hayden, USAF, Director, National Security Agency/Central Security Service Before the Joint Inquiry of the Senate Select Committee on Intelligence and the House Permanent Select Committee on Intelligence, October 17, 2002, Unclassified, National Security Agency.",
+        "authors": [],
+        "year": null,
+        "doi": "10.1163/9789004249028.b09166",
+        "url": "https://doi.org/10.1163/9789004249028.b09166"
+      },
+      {
+        "source_api": "crossref",
+        "title": "National Security Agency, Testimony, Statement for the Record by Lieutenant General Michael V. Hayden, USAF, Director, National Security Agency/Central Security Service Before the Joint Inquiry of the Senate Select Committee on Intelligence and the House Permanent Select Committee on Intelligence, October 17, 2002, Unclassified, National Security Agency.",
+        "authors": [],
+        "year": null,
+        "doi": "10.1163/9789004249028.umeob09166",
+        "url": "https://doi.org/10.1163/9789004249028.umeob09166"
+      },
+      {
+        "source_api": "crossref",
+        "title": "National Security Agency, Testimony, Statement for the Record by Lieutenant General Michael V. Hayden, USAF, Director, National Security Agency/Central Security Service Before the Joint Inquiry of the Senate Select Committee on Intelligence and the House Permanent Select Committee on Intelligence, October 17, 2002, Unclassified, National Security Agency.",
+        "authors": [],
+        "year": null,
+        "doi": "10.1163/ejb9789004249028.b09166",
+        "url": "https://doi.org/10.1163/ejb9789004249028.b09166"
+      },
+      {
+        "source_api": "crossref",
+        "title": "House Permanent Select Committee on Intelligence, Report, Counterterrorism Intelligence Capabilities and Performance Prior to 9-11, July 2002, Unclassified, HPSCI.",
+        "authors": [],
+        "year": null,
+        "doi": "10.1163/ejb9789004249028.b09148",
+        "url": "https://doi.org/10.1163/ejb9789004249028.b09148"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Committee Selection with Attribute Level Preferences",
+        "authors": [
+          "Venkateswara Rao Kagita",
+          "Arun K Pujari",
+          "Vineet Padmanabhan",
+          "Vikas Kumar"
+        ],
+        "year": 2019,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Inequalities faced by women in access to permanent positions in\n  astronomy in France",
+        "authors": [
+          "Olivier Berné",
+          "Alexia Hilaire"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "CoCoHD: Congress Committee Hearing Dataset",
+        "authors": [
+          "Arnav Hiray",
+          "Yunsong Liu",
+          "Mingxiao Song",
+          "Agam Shah",
+          "Sudheer Chava"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200311-assemblymember-ash-kalra-and-anti-death-penalty-coalition-announce.txt",
+    "sentence_index": 5,
+    "sentence_text": "We can no longer accept racial bias in the criminal justice system as unfixable—that is why today, we take the next step forward with introduction of the California Racial Justice Act to prohibit the use of race and ethnicity as a factor in the state’s justice system across the board.”",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Racial bias and the criminal justice system",
+        "authors": [
+          "Harold Winter"
+        ],
+        "year": 2019,
+        "doi": "10.4324/9780429467158-6",
+        "url": "https://doi.org/10.4324/9780429467158-6"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Promoting Fairness? Examining The Efficacy Of Implicit Bias Training In The Criminal Justice System",
+        "authors": [
+          "Rachel D. Godsil"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-010",
+        "url": "https://doi.org/10.5040/9781666985757.ch-010"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias, The Defense, And The Challenge Of Understanding",
+        "authors": [
+          "Andrea D. Lyon",
+          "Mortimer Smith"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-005",
+        "url": "https://doi.org/10.5040/9781666985757.ch-005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Tracking Racial Bias",
+        "authors": [],
+        "year": 1996,
+        "doi": "10.1017/cbo9780511621574.004",
+        "url": "https://doi.org/10.1017/cbo9780511621574.004"
+      },
+      {
+        "source_api": "crossref",
+        "title": "A Telephone Game",
+        "authors": [
+          "Oana D Dumitru",
+          "Tessa V.West"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-002",
+        "url": "https://doi.org/10.5040/9781666985757.ch-002"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Sentencing Disparities and Differential Progression Through the\n  Criminal Justice System: Evidence From Linked Federal and State Court Data",
+        "authors": [
+          "Brendon McConnell"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Is More Than Algorithms: Racial Disparities in\n  Time-to-Recidivism",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Kristjan Greenewald",
+          "Devavrat Shah"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Evaluation in Presence of Biased Noisy Labels",
+        "authors": [
+          "Riccardo Fogliato",
+          "Max G'Sell",
+          "Alexandra Chouldechova"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An algorithm for removing sensitive information: application to\n  race-independent recidivism prediction",
+        "authors": [
+          "James E. Johndrow",
+          "Kristian Lum"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A statistical framework for fair predictive algorithms",
+        "authors": [
+          "Kristian Lum",
+          "James Johndrow"
+        ],
+        "year": 2016,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200311-assemblymember-ash-kalra-and-anti-death-penalty-coalition-announce.txt",
+    "sentence_index": 6,
+    "sentence_text": "“Racial bias in our criminal legal system is pervasive and pernicious,” said Dora Rose, Deputy Director of the League of Women Voters of California.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias in the English Premier League (EPL)",
+        "authors": [
+          "Mark Campbell"
+        ],
+        "year": 2022,
+        "doi": "10.22541/au.166575996.64637211/v1",
+        "url": "https://doi.org/10.22541/au.166575996.64637211/v1"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Technology In The Legal System Uses And Abuses",
+        "authors": [
+          "Joseph Avery",
+          "Joel Cooper"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-009",
+        "url": "https://doi.org/10.5040/9781666985757.ch-009"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Promoting Fairness? Examining The Efficacy Of Implicit Bias Training In The Criminal Justice System",
+        "authors": [
+          "Rachel D. Godsil"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-010",
+        "url": "https://doi.org/10.5040/9781666985757.ch-010"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias, The Defense, And The Challenge Of Understanding",
+        "authors": [
+          "Andrea D. Lyon",
+          "Mortimer Smith"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-005",
+        "url": "https://doi.org/10.5040/9781666985757.ch-005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "A Telephone Game",
+        "authors": [
+          "Oana D Dumitru",
+          "Tessa V.West"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-002",
+        "url": "https://doi.org/10.5040/9781666985757.ch-002"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A probabilistic formalization of contextual bias in forensic analysis:\n  Evidence that examiner bias leads to systemic bias in the criminal justice\n  system",
+        "authors": [
+          "Maria Cuellar",
+          "Jacqueline Mauro",
+          "Amanda Luby"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Automate or Assist? The Role of Computational Models in Identifying\n  Gendered Discourse in US Capital Trial Transcripts",
+        "authors": [
+          "Andrea W Wen-Yi",
+          "Kathryn Adamson",
+          "Nathalie Greenfield",
+          "Rachel Goldberg",
+          "Sandra Babcock",
+          "David Mimno",
+          "Allison Koenecke"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Sports and Women's Sports: Gender Bias in Text Generation with Olympic\n  Data",
+        "authors": [
+          "Laura Biester"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Bias and Discrimination in AI: a cross-disciplinary perspective",
+        "authors": [
+          "Xavier Ferrer",
+          "Tom van Nuenen",
+          "Jose M. Such",
+          "Mark Coté",
+          "Natalia Criado"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Invisible Women in Digital Diplomacy: A Multidimensional Framework for\n  Online Gender Bias Against Women Ambassadors Worldwide",
+        "authors": [
+          "Yevgeniy Golovchenko",
+          "Karolina Stańczak",
+          "Rebecca Adler-Nissen",
+          "Patrice Wangen",
+          "Isabelle Augenstein"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200311-assemblymember-ash-kalra-and-anti-death-penalty-coalition-announce.txt",
+    "sentence_index": 11,
+    "sentence_text": "Supreme Court has since required defendants in criminal cases to prove intentional discrimination when challenging racial bias in their legal process, establishing an unreasonably high standard for victims of racism in the criminal legal system that is almost impossible to meet without direct proof that the racially discriminatory behavior was conscious, deliberate and targeted.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Book Review: The Death Penalty and Racial Bias: Overturning Supreme Court Assumptions",
+        "authors": [
+          "Eric W. Rise"
+        ],
+        "year": 1995,
+        "doi": "10.1177/073401689502000220",
+        "url": "https://doi.org/10.1177/073401689502000220"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Court business: legal and",
+        "authors": [],
+        "year": 2013,
+        "doi": "10.4324/9780203066379-5",
+        "url": "https://doi.org/10.4324/9780203066379-5"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Mitigating Implicit Racial Bias Among Criminal Court Jurors: Intervention Through Instruction",
+        "authors": [
+          "Hannah L Bolotin"
+        ],
+        "year": null,
+        "doi": "10.14418/wes01.1.1586",
+        "url": "https://doi.org/10.14418/wes01.1.1586"
+      },
+      {
+        "source_api": "crossref",
+        "title": "2 The Supreme Court Confirmation Process",
+        "authors": [],
+        "year": 2023,
+        "doi": "10.1515/9781503636897-005",
+        "url": "https://doi.org/10.1515/9781503636897-005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Contents",
+        "authors": [],
+        "year": 2023,
+        "doi": "10.1515/9781503636897-toc",
+        "url": "https://doi.org/10.1515/9781503636897-toc"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Automate or Assist? The Role of Computational Models in Identifying\n  Gendered Discourse in US Capital Trial Transcripts",
+        "authors": [
+          "Andrea W Wen-Yi",
+          "Kathryn Adamson",
+          "Nathalie Greenfield",
+          "Rachel Goldberg",
+          "Sandra Babcock",
+          "David Mimno",
+          "Allison Koenecke"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Predicting Indian Supreme Court Judgments, Decisions, Or Appeals",
+        "authors": [
+          "Sugam Sharma",
+          "Ritu Shandilya",
+          "Swadesh Sharma"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Automating Transparency Mechanisms in the Judicial System Using LLMs:\n  Opportunities and Challenges",
+        "authors": [
+          "Ishana Shastri",
+          "Shomik Jain",
+          "Barbara Engelhardt",
+          "Ashia Wilson"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "JUSTICE: A Benchmark Dataset for Supreme Court's Judgment Prediction",
+        "authors": [
+          "Mohammad Alali",
+          "Shaayan Syed",
+          "Mohammed Alsayed",
+          "Smit Patel",
+          "Hemanth Bodala"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Bias Trends in the Text of US Legal Opinions",
+        "authors": [
+          "Rohan Jinturkar"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200311-assemblymember-ash-kalra-and-anti-death-penalty-coalition-announce.txt",
+    "sentence_index": 12,
+    "sentence_text": "The Court’s majority, however, also observed that State Legislatures concerned about racial bias in the criminal justice system could act to address it.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "About The Editors",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.0008",
+        "url": "https://doi.org/10.5040/9781666985757.0008"
+      },
+      {
+        "source_api": "crossref",
+        "title": "About The Contributors",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.0007",
+        "url": "https://doi.org/10.5040/9781666985757.0007"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Promoting Fairness? Examining The Efficacy Of Implicit Bias Training In The Criminal Justice System",
+        "authors": [
+          "Rachel D. Godsil"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-010",
+        "url": "https://doi.org/10.5040/9781666985757.ch-010"
+      },
+      {
+        "source_api": "crossref",
+        "title": "About the Contributors",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.5771/9781793601049-217",
+        "url": "https://doi.org/10.5771/9781793601049-217"
+      },
+      {
+        "source_api": "crossref",
+        "title": "About the Editors",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.5771/9781793601049-223",
+        "url": "https://doi.org/10.5771/9781793601049-223"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Sentencing Disparities and Differential Progression Through the\n  Criminal Justice System: Evidence From Linked Federal and State Court Data",
+        "authors": [
+          "Brendon McConnell"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Is More Than Algorithms: Racial Disparities in\n  Time-to-Recidivism",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Kristjan Greenewald",
+          "Devavrat Shah"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Causal Framework to Evaluate Racial Bias in Law Enforcement Systems",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Andrew Miller",
+          "S. Craig Watkins",
+          "Christopher Winship",
+          "Fotini Christia",
+          "Devavrat Shah"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Interpreting Criminal Charge Prediction and Its Algorithmic Bias via\n  Quantum-Inspired Complex Valued Networks",
+        "authors": [
+          "Abdul Rafae Khan",
+          "Jia Xu",
+          "Peter Varsanyi",
+          "Rachit Pabreja"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An experiment on the mechanisms of racial bias in ML-based credit\n  scoring in Brazil",
+        "authors": [
+          "Ramon Vilarino",
+          "Renato Vicente"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200311-assemblymember-ash-kalra-and-anti-death-penalty-coalition-announce.txt",
+    "sentence_index": 18,
+    "sentence_text": "The California Racial Justice Act will go further by prohibiting racial discrimination in all convictions and sentences and creating a process to challenge racial bias at trial or following conviction.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "A Model State Racial Justice Act: Fighting Racial Bias Without Killing the Death Penalty",
+        "authors": [
+          "Rees Alexander"
+        ],
+        "year": 2013,
+        "doi": "10.2139/ssrn.2249013",
+        "url": "https://doi.org/10.2139/ssrn.2249013"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias, The Defense, And The Challenge Of Understanding",
+        "authors": [
+          "Andrea D. Lyon",
+          "Mortimer Smith"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-005",
+        "url": "https://doi.org/10.5040/9781666985757.ch-005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial discrimination and gender justice",
+        "authors": [
+          "Nozipho January-Bardill"
+        ],
+        "year": 2017,
+        "doi": "10.7228/manchester/9781784993047.003.0004",
+        "url": "https://doi.org/10.7228/manchester/9781784993047.003.0004"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Sex Segregated Schools to Challenge Gender and Racial Bias",
+        "authors": [
+          "Kathryn Herr",
+          "Kathleen Grant",
+          "Jeremy Price"
+        ],
+        "year": 2020,
+        "doi": "10.1093/acrefore/9780190264093.013.1337",
+        "url": "https://doi.org/10.1093/acrefore/9780190264093.013.1337"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Justice and Federal Habeas Corpus as Post-Conviction Relief from State Convictions",
+        "authors": [
+          "LeRoy Pernell"
+        ],
+        "year": 2017,
+        "doi": "10.2139/ssrn.2924593",
+        "url": "https://doi.org/10.2139/ssrn.2924593"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An algorithm for removing sensitive information: application to\n  race-independent recidivism prediction",
+        "authors": [
+          "James E. Johndrow",
+          "Kristian Lum"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "One Label, One Billion Faces: Usage and Consistency of Racial Categories\n  in Computer Vision",
+        "authors": [
+          "Zaid Khan",
+          "Yun Fu"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "County-level Algorithmic Audit of Racial Bias in Twitter's Home Timeline",
+        "authors": [
+          "Luca Belli",
+          "Kyra Yee",
+          "Uthaipon Tantipongpipat",
+          "Aaron Gonzales",
+          "Kristian Lum",
+          "Moritz Hardt"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200311-assemblymember-ash-kalra-and-anti-death-penalty-coalition-announce.txt",
+    "sentence_index": 20,
+    "sentence_text": "“By establishing a framework for defendants to challenge racism and bias in our criminal courts, I am hopeful that AB 2200, the California Racial Justice Act, will push our justice system to more closely live up to its ideals.”",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Implicit racial bias and the anatomy of institutional racism",
+        "authors": [
+          "Jules Holroyd"
+        ],
+        "year": 2015,
+        "doi": "10.1080/09627251.2015.1080943",
+        "url": "https://doi.org/10.1080/09627251.2015.1080943"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias, The Defense, And The Challenge Of Understanding",
+        "authors": [
+          "Andrea D. Lyon",
+          "Mortimer Smith"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-005",
+        "url": "https://doi.org/10.5040/9781666985757.ch-005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Promoting Fairness? Examining The Efficacy Of Implicit Bias Training In The Criminal Justice System",
+        "authors": [
+          "Rachel D. Godsil"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-010",
+        "url": "https://doi.org/10.5040/9781666985757.ch-010"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Institutional Racism in the Child Welfare System",
+        "authors": [
+          "Jenny Jones",
+          "Christin D. Haynes"
+        ],
+        "year": 2023,
+        "doi": "10.1093/oso/9780197641422.003.0010",
+        "url": "https://doi.org/10.1093/oso/9780197641422.003.0010"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Tracking Racial Bias",
+        "authors": [],
+        "year": 1996,
+        "doi": "10.1017/cbo9780511621574.004",
+        "url": "https://doi.org/10.1017/cbo9780511621574.004"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Sentencing Disparities and Differential Progression Through the\n  Criminal Justice System: Evidence From Linked Federal and State Court Data",
+        "authors": [
+          "Brendon McConnell"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Flipping the Script on Criminal Justice Risk Assessment: An actuarial\n  model for assessing the risk the federal sentencing system poses to\n  defendants",
+        "authors": [
+          "Mikaela Meyer",
+          "Aaron Horowitz",
+          "Erica Marshall",
+          "Kristian Lum"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Evaluation in Presence of Biased Noisy Labels",
+        "authors": [
+          "Riccardo Fogliato",
+          "Max G'Sell",
+          "Alexandra Chouldechova"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Is More Than Algorithms: Racial Disparities in\n  Time-to-Recidivism",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Kristjan Greenewald",
+          "Devavrat Shah"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Discrimination Against Immigrants in the Criminal Justice System:\n  Evidence from Pretrial Detentions",
+        "authors": [
+          "Patricio Domínguez",
+          "Nicolás Grau",
+          "Damián Vergara"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200311-assemblymember-ash-kalra-and-anti-death-penalty-coalition-announce.txt",
+    "sentence_index": 21,
+    "sentence_text": "“At present, and in our past, racism, anti-ethnic bias and xenophobia act like a venom in our legal system—deeply felt if not always seen, and corrupting our courts even with small doses,” said Derick Morgan, of the Ella Baker Center.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Science: our past, our present, and always our future",
+        "authors": [
+          "Oliver Eickelberg",
+          "Christopher S. Williams",
+          "Kyu Y. Rhee"
+        ],
+        "year": 2025,
+        "doi": "10.1172/jci.insight.193355",
+        "url": "https://doi.org/10.1172/jci.insight.193355"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Hindsight bias: How knowledge and heuristics affect our reconstruction of the past",
+        "authors": [],
+        "year": 2003,
+        "doi": "10.4324/9780203487891-2",
+        "url": "https://doi.org/10.4324/9780203487891-2"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Fresh air has long been seen as important for our health, even if we haven’t always understood why",
+        "authors": [
+          "Julia Wright"
+        ],
+        "year": 2023,
+        "doi": "10.64628/aam.3kgvgc4et",
+        "url": "https://doi.org/10.64628/aam.3kgvgc4et"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Our past defining our present",
+        "authors": [
+          "Per Becker"
+        ],
+        "year": 2024,
+        "doi": "10.1016/b978-0-323-95640-6.00012-9",
+        "url": "https://doi.org/10.1016/b978-0-323-95640-6.00012-9"
+      },
+      {
+        "source_api": "crossref",
+        "title": "How our bias toward the future can cloud our moral judgement",
+        "authors": [
+          "Agnieszka Graham"
+        ],
+        "year": 2016,
+        "doi": "10.64628/ab.unh9p6evr",
+        "url": "https://doi.org/10.64628/ab.unh9p6evr"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "#Coronavirus or #Chinesevirus?!: Understanding the negative sentiment\n  reflected in Tweets with racist hashtags across the development of COVID-19",
+        "authors": [
+          "Xin Pei",
+          "Deval Mehta"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Algorithmic Fairness and Color-blind Racism: Navigating the Intersection",
+        "authors": [
+          "Jamelle Watson-Daniels"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Hybrid Sample Synthesis-based Debiasing of Classifier in Limited Data\n  Setting",
+        "authors": [
+          "Piyush Arora",
+          "Pratik Mazumder"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Large Legal Fictions: Profiling Legal Hallucinations in Large Language\n  Models",
+        "authors": [
+          "Matthew Dahl",
+          "Varun Magesh",
+          "Mirac Suzgun",
+          "Daniel E. Ho"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "The Czech Court Decisions Corpus (CzCDC): Availability as the First Step",
+        "authors": [
+          "Tereza Novotná",
+          "Jakub Harašta"
+        ],
+        "year": 2019,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200603-assemblymember-bermans-statement-murder-george-floyd.txt",
+    "sentence_index": 20,
+    "sentence_text": "We have passed legislation to restrain the use of force, reform sentencing guidelines that are used to target minorities, and acknowledge the role that unconscious bias plays in perpetuating racism in our society, from education to healthcare.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "6. Intersectionality and ‘implicit’ or ‘unconscious’ bias",
+        "authors": [
+          "Ali Rattansi"
+        ],
+        "year": 2020,
+        "doi": "10.1093/actrade/9780198834793.003.0006",
+        "url": "https://doi.org/10.1093/actrade/9780198834793.003.0006"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Prince Harry is wrong: unconscious bias is not different to racism",
+        "authors": [
+          "Meghan Tinsley"
+        ],
+        "year": 2023,
+        "doi": "10.64628/ab.kcqxurtvn",
+        "url": "https://doi.org/10.64628/ab.kcqxurtvn"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Conservation bias: What have we learned?",
+        "authors": [
+          "Brian Silliman",
+          "Stephanie Wear"
+        ],
+        "year": 2017,
+        "doi": "10.1093/oso/9780198808978.003.0028",
+        "url": "https://doi.org/10.1093/oso/9780198808978.003.0028"
+      },
+      {
+        "source_api": "crossref",
+        "title": "What is Implicit Bias and (How) Can We Measure It?",
+        "authors": [],
+        "year": 2025,
+        "doi": "10.1017/9781108885492.004",
+        "url": "https://doi.org/10.1017/9781108885492.004"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Disparities Task Force Report: Racism and Bias: Their Role in Maintaining Racial Disparities in PreK-12 Education",
+        "authors": [],
+        "year": 2023,
+        "doi": "10.1037/e503112023-001",
+        "url": "https://doi.org/10.1037/e503112023-001"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Evaluating Fairness Metrics in the Presence of Dataset Bias",
+        "authors": [
+          "J. Henry Hinnefeld",
+          "Peter Cooman",
+          "Nat Mammo",
+          "Rupert Deese"
+        ],
+        "year": 2018,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Dialect prejudice predicts AI decisions about people's character,\n  employability, and criminality",
+        "authors": [
+          "Valentin Hofmann",
+          "Pratyusha Ria Kalluri",
+          "Dan Jurafsky",
+          "Sharese King"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Local Law 144: A Critical Analysis of Regression Metrics",
+        "authors": [
+          "Giulio Filippi",
+          "Sara Zannone",
+          "Airlie Hilliard",
+          "Adriano Koshiyama"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Unconscious Gender Bias in Academia: from PhD Students to Professors",
+        "authors": [
+          "K. Poppenhaeger"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Algorithmic Fairness and Color-blind Racism: Navigating the Intersection",
+        "authors": [
+          "Jamelle Watson-Daniels"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200706-assemblymember-ash-kalra-and-advocates-declare-now-time-california-racial.txt",
+    "sentence_index": 9,
+    "sentence_text": "Racial bias and discrimination determines countless cases, sending innocent men and women behind bars.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "UTILIZING GLORIA ANZALDUA’S CONOCIMIENTO TO SURVIVE: UNDERSTANDING HOW WOMEN FACULTY OF COLOR OVERCOME RACIAL BIAS &amp; DISCRIMINATION IN ACADEMIA",
+        "authors": [
+          "",
+          "Gladys Leyva Peñuelas"
+        ],
+        "year": null,
+        "doi": "10.22371/05.2023.008",
+        "url": "https://doi.org/10.22371/05.2023.008"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Microaggressions aren’t just innocent blunders – research links them with racial bias",
+        "authors": [
+          "Jonathan Kanter"
+        ],
+        "year": 2020,
+        "doi": "10.64628/aai.te7cqdqqt",
+        "url": "https://doi.org/10.64628/aai.te7cqdqqt"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Supplemental Material for When Men Perceive Anti-male Bias: Status-Legitimizing Beliefs Increase Discrimination Against Women",
+        "authors": [],
+        "year": 2017,
+        "doi": "10.1037/men0000097.supp",
+        "url": "https://doi.org/10.1037/men0000097.supp"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Examining Provider Bias In Health Care Through Implicit Bias Rounds",
+        "authors": [],
+        "year": 2017,
+        "doi": "10.1377/forefront.20170717.060993",
+        "url": "https://doi.org/10.1377/forefront.20170717.060993"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Intellectual Property",
+        "authors": [
+          "Danielle M. Conway"
+        ],
+        "year": 2012,
+        "doi": "10.1017/cbo9780511820595.012",
+        "url": "https://doi.org/10.1017/cbo9780511820595.012"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "The misuse of law by Women in India -Constitutionality of Gender Bias",
+        "authors": [
+          "Negha Senthil",
+          "Jayanthi Vajiram",
+          "Nirmala. V"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial bias, colorism, and overcorrection",
+        "authors": [
+          "Kenneth Colombe",
+          "Alex Krumer",
+          "Rosa Lavelle-Hill",
+          "Tim Pawlowski"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Examining the Robustness of Homogeneity Bias to Hyperparameter\n  Adjustments in GPT-4",
+        "authors": [
+          "Messi H. J. Lee"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Sports and Women's Sports: Gender Bias in Text Generation with Olympic\n  Data",
+        "authors": [
+          "Laura Biester"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Gender bias in academic recruitment",
+        "authors": [
+          "Giovanni Abramo",
+          "Ciriaco Andrea D'Angelo",
+          "Francesco Rosati"
+        ],
+        "year": 2018,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200706-assemblymember-ash-kalra-and-advocates-declare-now-time-california-racial.txt",
+    "sentence_index": 14,
+    "sentence_text": "The McCleskey decision has the functional effect of requiring that criminal defendants prove intentional discrimination when challenging racial bias in their legal process.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias—McCleskey v. Kemp (1987)",
+        "authors": [
+          "Barry Latzer",
+          "David McCord"
+        ],
+        "year": 2011,
+        "doi": "10.1016/b978-0-12-382024-2.00006-7",
+        "url": "https://doi.org/10.1016/b978-0-12-382024-2.00006-7"
+      },
+      {
+        "source_api": "crossref",
+        "title": "The Effects Of Racial Bias And Jury Diversity On Juror Decision-Making",
+        "authors": [
+          "Amanda Nicholson Bergold",
+          "Margaret Bull Kovera"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-007",
+        "url": "https://doi.org/10.5040/9781666985757.ch-007"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Legal representation",
+        "authors": [],
+        "year": 2013,
+        "doi": "10.4324/9780203066379-6",
+        "url": "https://doi.org/10.4324/9780203066379-6"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias and Decision Fatigue",
+        "authors": [
+          "Sungwoo Cho"
+        ],
+        "year": 2025,
+        "doi": "10.2139/ssrn.5328275",
+        "url": "https://doi.org/10.2139/ssrn.5328275"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias in Jury Decision Making",
+        "authors": [
+          "Patrick Thomas Hughes"
+        ],
+        "year": null,
+        "doi": "10.18122/b2c99j",
+        "url": "https://doi.org/10.18122/b2c99j"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Auditing for Racial Discrimination in the Delivery of Education Ads",
+        "authors": [
+          "Basileal Imana",
+          "Aleksandra Korolova",
+          "John Heidemann"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Gender Biased Legal Case Retrieval System on Users' Decision Process",
+        "authors": [
+          "Ruizhe Zhang",
+          "Qingyao Ai",
+          "Yiqun Liu",
+          "Yueyue Wu",
+          "Beining Wang"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An assessment of racial disparities in pretrial decision-making using\n  misclassification models",
+        "authors": [
+          "Kimberly A. Hochstedler Webb",
+          "Sarah A. Riley",
+          "Martin T. Wells"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Bias Trends in the Text of US Legal Opinions",
+        "authors": [
+          "Rohan Jinturkar"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Is More Than Algorithms: Racial Disparities in\n  Time-to-Recidivism",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Kristjan Greenewald",
+          "Devavrat Shah"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200706-assemblymember-ash-kalra-and-advocates-declare-now-time-california-racial.txt",
+    "sentence_index": 16,
+    "sentence_text": "The Court’s majority, however, also observed that State Legislatures concerned about racial bias in the criminal justice system could act to address it.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "About The Editors",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.0008",
+        "url": "https://doi.org/10.5040/9781666985757.0008"
+      },
+      {
+        "source_api": "crossref",
+        "title": "About The Contributors",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.0007",
+        "url": "https://doi.org/10.5040/9781666985757.0007"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Promoting Fairness? Examining The Efficacy Of Implicit Bias Training In The Criminal Justice System",
+        "authors": [
+          "Rachel D. Godsil"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-010",
+        "url": "https://doi.org/10.5040/9781666985757.ch-010"
+      },
+      {
+        "source_api": "crossref",
+        "title": "About the Editors",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.5771/9781793601049-223",
+        "url": "https://doi.org/10.5771/9781793601049-223"
+      },
+      {
+        "source_api": "crossref",
+        "title": "About the Contributors",
+        "authors": [],
+        "year": 2020,
+        "doi": "10.5771/9781793601049-217",
+        "url": "https://doi.org/10.5771/9781793601049-217"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Sentencing Disparities and Differential Progression Through the\n  Criminal Justice System: Evidence From Linked Federal and State Court Data",
+        "authors": [
+          "Brendon McConnell"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Is More Than Algorithms: Racial Disparities in\n  Time-to-Recidivism",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Kristjan Greenewald",
+          "Devavrat Shah"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Causal Framework to Evaluate Racial Bias in Law Enforcement Systems",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Andrew Miller",
+          "S. Craig Watkins",
+          "Christopher Winship",
+          "Fotini Christia",
+          "Devavrat Shah"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Interpreting Criminal Charge Prediction and Its Algorithmic Bias via\n  Quantum-Inspired Complex Valued Networks",
+        "authors": [
+          "Abdul Rafae Khan",
+          "Jia Xu",
+          "Peter Varsanyi",
+          "Rachit Pabreja"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An experiment on the mechanisms of racial bias in ML-based credit\n  scoring in Brazil",
+        "authors": [
+          "Ramon Vilarino",
+          "Renato Vicente"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200706-assemblymember-ash-kalra-and-advocates-declare-now-time-california-racial.txt",
+    "sentence_index": 21,
+    "sentence_text": "The California Racial Justice Act will go further by prohibiting racial discrimination in all convictions and sentences and creating a process to challenge racial bias at trial or following conviction.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "A Model State Racial Justice Act: Fighting Racial Bias Without Killing the Death Penalty",
+        "authors": [
+          "Rees Alexander"
+        ],
+        "year": 2013,
+        "doi": "10.2139/ssrn.2249013",
+        "url": "https://doi.org/10.2139/ssrn.2249013"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias, The Defense, And The Challenge Of Understanding",
+        "authors": [
+          "Andrea D. Lyon",
+          "Mortimer Smith"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-005",
+        "url": "https://doi.org/10.5040/9781666985757.ch-005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial discrimination and gender justice",
+        "authors": [
+          "Nozipho January-Bardill"
+        ],
+        "year": 2017,
+        "doi": "10.7228/manchester/9781784993047.003.0004",
+        "url": "https://doi.org/10.7228/manchester/9781784993047.003.0004"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Sex Segregated Schools to Challenge Gender and Racial Bias",
+        "authors": [
+          "Kathryn Herr",
+          "Kathleen Grant",
+          "Jeremy Price"
+        ],
+        "year": 2020,
+        "doi": "10.1093/acrefore/9780190264093.013.1337",
+        "url": "https://doi.org/10.1093/acrefore/9780190264093.013.1337"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Justice and Federal Habeas Corpus as Post-Conviction Relief from State Convictions",
+        "authors": [
+          "LeRoy Pernell"
+        ],
+        "year": 2017,
+        "doi": "10.2139/ssrn.2924593",
+        "url": "https://doi.org/10.2139/ssrn.2924593"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An algorithm for removing sensitive information: application to\n  race-independent recidivism prediction",
+        "authors": [
+          "James E. Johndrow",
+          "Kristian Lum"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "One Label, One Billion Faces: Usage and Consistency of Racial Categories\n  in Computer Vision",
+        "authors": [
+          "Zaid Khan",
+          "Yun Fu"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "County-level Algorithmic Audit of Racial Bias in Twitter's Home Timeline",
+        "authors": [
+          "Luca Belli",
+          "Kyra Yee",
+          "Uthaipon Tantipongpipat",
+          "Aaron Gonzales",
+          "Kristian Lum",
+          "Moritz Hardt"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200807-assemblymember-ash-kalras-racial-justice-act-passes-california-senate.txt",
+    "sentence_index": 14,
+    "sentence_text": "Explicit bias against a defendant based on race, ethnicity, or national origin",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Defendant Race/Ethnicity and Mock-Jurors' Bias: Effects of Decision Importance and Own-Group Preference",
+        "authors": [
+          "Amanda S. Nicholson",
+          "Michael R. Leippe",
+          "Donna Eisenstadt"
+        ],
+        "year": 2012,
+        "doi": "10.1037/e669802012-261",
+        "url": "https://doi.org/10.1037/e669802012-261"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Explicit and implicit bias based on race, ethnicity, and weight among pediatric emergency physicians",
+        "authors": [
+          "Romain Guedj",
+          "Maddalena Marini",
+          "Joe Kossowsky",
+          "Charles Berde",
+          "Camila Mateo",
+          "Eric W. Fleegler"
+        ],
+        "year": 2021,
+        "doi": "10.1111/acem.14301",
+        "url": "https://doi.org/10.1111/acem.14301"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Race and Ethnicity",
+        "authors": [
+          "Kelly Barber-Lester",
+          "Chanelle Wilson"
+        ],
+        "year": 2022,
+        "doi": "10.4135/9781071900437",
+        "url": "https://doi.org/10.4135/9781071900437"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Juvenile perpetrators of race/ethnicity-based bias crimes",
+        "authors": [
+          "Meripa T. Godinet",
+          "Rebecca Stotzer"
+        ],
+        "year": 2016,
+        "doi": "10.1080/15377938.2016.1261060",
+        "url": "https://doi.org/10.1080/15377938.2016.1261060"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Implicit and Explicit Anti-Fat Bias among a Large Sample of Medical Doctors by BMI, Race/Ethnicity and Gender",
+        "authors": [
+          "Janice A. Sabin",
+          "Maddalena Marini",
+          "Brian A. Nosek"
+        ],
+        "year": 2012,
+        "doi": "10.1371/journal.pone.0048448",
+        "url": "https://doi.org/10.1371/journal.pone.0048448"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Reproducibility of Implicit Association Test (IAT) -- Case study of\n  meta-analysis of racial bias research claims",
+        "authors": [
+          "S. Stanley Young",
+          "Warren B. Kindzierski"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Hi, my name is Martha: Using names to measure and mitigate bias in\n  generative dialogue models",
+        "authors": [
+          "Eric Michael Smith",
+          "Adina Williams"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "LLMs are Biased Teachers: Evaluating LLM Bias in Personalized Education",
+        "authors": [
+          "Iain Weissburg",
+          "Sathvika Anand",
+          "Sharon Levy",
+          "Haewon Jeong"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Is there any gender/race bias in hep-lat primary publication?\n  Machine-Learning Evaluation of Author Ethnicity and Gender",
+        "authors": [
+          "Huey-Wen Lin"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Exploring Gender and Racial/Ethnic Bias Against Video Game Streamers:\n  Comparing Perceived Gameplay Skill and Viewer Engagement",
+        "authors": [
+          "David V. Nguyen",
+          "Edward F. Melcer",
+          "Deanne Adams"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200807-assemblymember-ash-kalras-racial-justice-act-passes-california-senate.txt",
+    "sentence_index": 16,
+    "sentence_text": "Bias at trial and in jury selection",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Jury Selection: Measures of General Bias",
+        "authors": [
+          "Amy J. Posey",
+          "Lawrence S. Wrightsman"
+        ],
+        "year": 2005,
+        "doi": "10.1093/acprof:oso/9780195183092.003.0007",
+        "url": "https://doi.org/10.1093/acprof:oso/9780195183092.003.0007"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias and Injustice in Jury Selection and Trial",
+        "authors": [
+          "Jonathan Y. Okamura"
+        ],
+        "year": 2019,
+        "doi": "10.5622/illinois/9780252042607.003.0005",
+        "url": "https://doi.org/10.5622/illinois/9780252042607.003.0005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias and Injustice in Jury Selection and Trial",
+        "authors": [],
+        "year": 2019,
+        "doi": "10.5406/j.ctvnwc0ts.8",
+        "url": "https://doi.org/10.5406/j.ctvnwc0ts.8"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Criminal Justice in Practice: Jury Voir Dire Processes",
+        "authors": [],
+        "year": 2021,
+        "doi": "10.4135/9781529763379",
+        "url": "https://doi.org/10.4135/9781529763379"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Confronting the Bias Dichotomy in Jury Selection",
+        "authors": [
+          "Brooks Holland"
+        ],
+        "year": 2020,
+        "doi": "10.2139/ssrn.3725107",
+        "url": "https://doi.org/10.2139/ssrn.3725107"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Automating Transparency Mechanisms in the Judicial System Using LLMs:\n  Opportunities and Challenges",
+        "authors": [
+          "Ishana Shastri",
+          "Shomik Jain",
+          "Barbara Engelhardt",
+          "Ashia Wilson"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Combining Real-World and Randomized Control Trial Data Using\n  Data-Adaptive Weighting via the On-Trial Score",
+        "authors": [
+          "Joanna Harton",
+          "Brian Segal",
+          "Ronac Mamtani",
+          "Nandita Mitra",
+          "Rebecca Hubbard"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Theory on Covariate-Adaptive Randomized Clinical Trials: Efficiency,\n  Selection bias and Randomization Methods",
+        "authors": [
+          "Li-Xin Zhang"
+        ],
+        "year": 2019,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Synaptic mechanisms of interference in working memory",
+        "authors": [
+          "Zachary P Kilpatrick"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Between-trial heterogeneity in meta-analyses may be partially explained\n  by reported design characteristics",
+        "authors": [
+          "Kirsty Rhodes",
+          "Rebecca Turner",
+          "Jelena Savović",
+          "Hayley Jones",
+          "David Mawdsley",
+          "Julian Higgins"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200930-governor-signs-landmark-legislation-advancing-racial-justice-california.txt",
+    "sentence_index": 9,
+    "sentence_text": "Explicit bias against a defendant based on race, ethnicity, or national origin",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Defendant Race/Ethnicity and Mock-Jurors' Bias: Effects of Decision Importance and Own-Group Preference",
+        "authors": [
+          "Amanda S. Nicholson",
+          "Michael R. Leippe",
+          "Donna Eisenstadt"
+        ],
+        "year": 2012,
+        "doi": "10.1037/e669802012-261",
+        "url": "https://doi.org/10.1037/e669802012-261"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Race and Ethnicity",
+        "authors": [
+          "Kelly Barber-Lester",
+          "Chanelle Wilson"
+        ],
+        "year": 2022,
+        "doi": "10.4135/9781071900437",
+        "url": "https://doi.org/10.4135/9781071900437"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Explicit and implicit bias based on race, ethnicity, and weight among pediatric emergency physicians",
+        "authors": [
+          "Romain Guedj",
+          "Maddalena Marini",
+          "Joe Kossowsky",
+          "Charles Berde",
+          "Camila Mateo",
+          "Eric W. Fleegler"
+        ],
+        "year": 2021,
+        "doi": "10.1111/acem.14301",
+        "url": "https://doi.org/10.1111/acem.14301"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Juvenile perpetrators of race/ethnicity-based bias crimes",
+        "authors": [
+          "Meripa T. Godinet",
+          "Rebecca Stotzer"
+        ],
+        "year": 2016,
+        "doi": "10.1080/15377938.2016.1261060",
+        "url": "https://doi.org/10.1080/15377938.2016.1261060"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Implicit and Explicit Anti-Fat Bias among a Large Sample of Medical Doctors by BMI, Race/Ethnicity and Gender",
+        "authors": [
+          "Janice A. Sabin",
+          "Maddalena Marini",
+          "Brian A. Nosek"
+        ],
+        "year": 2012,
+        "doi": "10.1371/journal.pone.0048448",
+        "url": "https://doi.org/10.1371/journal.pone.0048448"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Reproducibility of Implicit Association Test (IAT) -- Case study of\n  meta-analysis of racial bias research claims",
+        "authors": [
+          "S. Stanley Young",
+          "Warren B. Kindzierski"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Hi, my name is Martha: Using names to measure and mitigate bias in\n  generative dialogue models",
+        "authors": [
+          "Eric Michael Smith",
+          "Adina Williams"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "LLMs are Biased Teachers: Evaluating LLM Bias in Personalized Education",
+        "authors": [
+          "Iain Weissburg",
+          "Sathvika Anand",
+          "Sharon Levy",
+          "Haewon Jeong"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Is there any gender/race bias in hep-lat primary publication?\n  Machine-Learning Evaluation of Author Ethnicity and Gender",
+        "authors": [
+          "Huey-Wen Lin"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Exploring Gender and Racial/Ethnic Bias Against Video Game Streamers:\n  Comparing Perceived Gameplay Skill and Viewer Engagement",
+        "authors": [
+          "David V. Nguyen",
+          "Edward F. Melcer",
+          "Deanne Adams"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200930-governor-signs-landmark-legislation-advancing-racial-justice-california.txt",
+    "sentence_index": 11,
+    "sentence_text": "Bias at trial and in jury selection",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Jury Selection: Measures of General Bias",
+        "authors": [
+          "Amy J. Posey",
+          "Lawrence S. Wrightsman"
+        ],
+        "year": 2005,
+        "doi": "10.1093/acprof:oso/9780195183092.003.0007",
+        "url": "https://doi.org/10.1093/acprof:oso/9780195183092.003.0007"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias and Injustice in Jury Selection and Trial",
+        "authors": [
+          "Jonathan Y. Okamura"
+        ],
+        "year": 2019,
+        "doi": "10.5622/illinois/9780252042607.003.0005",
+        "url": "https://doi.org/10.5622/illinois/9780252042607.003.0005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias and Injustice in Jury Selection and Trial",
+        "authors": [],
+        "year": 2019,
+        "doi": "10.5406/j.ctvnwc0ts.8",
+        "url": "https://doi.org/10.5406/j.ctvnwc0ts.8"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Criminal Justice in Practice: Jury Voir Dire Processes",
+        "authors": [],
+        "year": 2021,
+        "doi": "10.4135/9781529763379",
+        "url": "https://doi.org/10.4135/9781529763379"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Confronting the Bias Dichotomy in Jury Selection",
+        "authors": [
+          "Brooks Holland"
+        ],
+        "year": 2020,
+        "doi": "10.2139/ssrn.3725107",
+        "url": "https://doi.org/10.2139/ssrn.3725107"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Automating Transparency Mechanisms in the Judicial System Using LLMs:\n  Opportunities and Challenges",
+        "authors": [
+          "Ishana Shastri",
+          "Shomik Jain",
+          "Barbara Engelhardt",
+          "Ashia Wilson"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Combining Real-World and Randomized Control Trial Data Using\n  Data-Adaptive Weighting via the On-Trial Score",
+        "authors": [
+          "Joanna Harton",
+          "Brian Segal",
+          "Ronac Mamtani",
+          "Nandita Mitra",
+          "Rebecca Hubbard"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Theory on Covariate-Adaptive Randomized Clinical Trials: Efficiency,\n  Selection bias and Randomization Methods",
+        "authors": [
+          "Li-Xin Zhang"
+        ],
+        "year": 2019,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Synaptic mechanisms of interference in working memory",
+        "authors": [
+          "Zachary P Kilpatrick"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Between-trial heterogeneity in meta-analyses may be partially explained\n  by reported design characteristics",
+        "authors": [
+          "Kirsty Rhodes",
+          "Rebecca Turner",
+          "Jelena Savović",
+          "Hayley Jones",
+          "David Mawdsley",
+          "Julian Higgins"
+        ],
+        "year": 2017,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200930-governor-signs-landmark-legislation-advancing-racial-justice-california.txt",
+    "sentence_index": 24,
+    "sentence_text": "“Amidst the upheaval of 2020, we thank Governor Newsom for enacting the Racial Justice Act to prioritize fairness and equal treatment under the law.”",
+    "matched_ai_terms": [
+      "fairness"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Fairness, Data and Competition Law: Reconciling Fairness Norms in DMA, Data Act and AI Act With EU Competition Law",
+        "authors": [
+          "Behrang Kianzad"
+        ],
+        "year": 2025,
+        "doi": "10.2139/ssrn.5030204",
+        "url": "https://doi.org/10.2139/ssrn.5030204"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Equal Treatment",
+        "authors": [],
+        "year": 2025,
+        "doi": "10.7551/mitpress/15740.003.0007",
+        "url": "https://doi.org/10.7551/mitpress/15740.003.0007"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Perspectives on Bakke: Equal Protection, Procedural Fairness, or Structural Justice?",
+        "authors": [
+          "Laurence H. Tribe"
+        ],
+        "year": 1979,
+        "doi": "10.2307/1340556",
+        "url": "https://doi.org/10.2307/1340556"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Fairness",
+        "authors": [],
+        "year": 2021,
+        "doi": "10.5040/9781526511393.chapter-015",
+        "url": "https://doi.org/10.5040/9781526511393.chapter-015"
+      },
+      {
+        "source_api": "crossref",
+        "title": "A Theory of Algorithmic Justice",
+        "authors": [],
+        "year": 2025,
+        "doi": "10.7551/mitpress/15740.003.0006",
+        "url": "https://doi.org/10.7551/mitpress/15740.003.0006"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An Empirical Analysis of Racial Categories in the Algorithmic Fairness\n  Literature",
+        "authors": [
+          "Amina A. Abdu",
+          "Irene V. Pasquetto",
+          "Abigail Z. Jacobs"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Beyond Incompatibility: Trade-offs between Mutually Exclusive Fairness\n  Criteria in Machine Learning and Law",
+        "authors": [
+          "Meike Zehlike",
+          "Alex Loosley",
+          "Håkan Jonsson",
+          "Emil Wiedemann",
+          "Philipp Hacker"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Exam fairness",
+        "authors": [
+          "Mathieu Bouville"
+        ],
+        "year": 2008,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Machine Learning Fairness in Justice Systems: Base Rates, False\n  Positives, and False Negatives",
+        "authors": [
+          "Jesse Russell"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Laypeople's Attitudes Towards Fair, Affirmative, and Discriminatory\n  Decision-Making Algorithms",
+        "authors": [
+          "Gabriel Lima",
+          "Nina Grgić-Hlača",
+          "Markus Langer",
+          "Yixin Zou"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200930-governor-signs-landmark-legislation-advancing-racial-justice-california.txt",
+    "sentence_index": 38,
+    "sentence_text": "“Ella Baker Center stands proudly with Governor Gavin Newsom, our state Legislature, and the athletes, students and advocates in meeting this moment to confront racism and systemic bias in our systems of justice.”",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Examining Provider Bias In Health Care Through Implicit Bias Rounds",
+        "authors": [],
+        "year": 2017,
+        "doi": "10.1377/forefront.20170717.060993",
+        "url": "https://doi.org/10.1377/forefront.20170717.060993"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Implicit Race Bias Work in Education Is a Nonstarter Without Addressing Systemic Racism",
+        "authors": [
+          "Arlo Kempf"
+        ],
+        "year": 2021,
+        "doi": "10.3102/1686421",
+        "url": "https://doi.org/10.3102/1686421"
+      },
+      {
+        "source_api": "crossref",
+        "title": "How Bias Impacts Our Decision Making",
+        "authors": [
+          "Kimberly Gower"
+        ],
+        "year": 2021,
+        "doi": "10.4135/9781071860274",
+        "url": "https://doi.org/10.4135/9781071860274"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Sexism in the Judiciary: The Importance of Bias Definition in NLP and In Our Courts",
+        "authors": [
+          "Noa Baker Gillis"
+        ],
+        "year": 2021,
+        "doi": "10.18653/v1/2021.gebnlp-1.6",
+        "url": "https://doi.org/10.18653/v1/2021.gebnlp-1.6"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Blog notes on bias against openness",
+        "authors": [
+          "Gavin Baker"
+        ],
+        "year": 2008,
+        "doi": "10.63485/5n2jh-txq67",
+        "url": "https://doi.org/10.63485/5n2jh-txq67"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Algorithmic Fairness and Color-blind Racism: Navigating the Intersection",
+        "authors": [
+          "Jamelle Watson-Daniels"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Survey of Race, Racism, and Anti-Racism in NLP",
+        "authors": [
+          "Anjalie Field",
+          "Su Lin Blodgett",
+          "Zeerak Waseem",
+          "Yulia Tsvetkov"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Anti-Black racism workshop during the Vera C. Rubin Observatory virtual\n  2021 Project and Community Workshop",
+        "authors": [
+          "Andrés A. Plazas Malagón",
+          "Federica Bianco",
+          "Ranpal Gill",
+          "Robert D. Blum",
+          "Rosaria",
+          "Bonito",
+          "Wil O'Mullane",
+          "Alsyha Shugart",
+          "Rachel Street",
+          "Aprajita Verma"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Runtime Advocates: A Persona-Driven Framework for Requirements@Runtime\n  Decision Support",
+        "authors": [
+          "Demetrius Hernandez",
+          "Jane Cleland-Huang"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Reference Governor Design in the Presence of Uncertain Polynomial\n  Constraints",
+        "authors": [
+          "Rick Schieni",
+          "Chengwei Zhao",
+          "Michael Malisoff",
+          "Laurent Burlion"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200930-governor-signs-landmark-legislation-advancing-racial-justice-california.txt",
+    "sentence_index": 42,
+    "sentence_text": "We can’t continue to allow racially coded language that triggers bias in the courtroom.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Decision Making in Emergency Medicine:  We can’t escape bias",
+        "authors": [
+          "Justin Morgenstern"
+        ],
+        "year": 2022,
+        "doi": "10.51684/firs.125798",
+        "url": "https://doi.org/10.51684/firs.125798"
+      },
+      {
+        "source_api": "crossref",
+        "title": "We Can’t Escape Bias",
+        "authors": [
+          "Justin Morgenstern"
+        ],
+        "year": 2021,
+        "doi": "10.1007/978-981-16-0143-9_1",
+        "url": "https://doi.org/10.1007/978-981-16-0143-9_1"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Why You Can’t Model Away Bias",
+        "authors": [
+          "Katherine Bode"
+        ],
+        "year": 2020,
+        "doi": "10.1215/00267929-7933102",
+        "url": "https://doi.org/10.1215/00267929-7933102"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Hate Crimes (Bias Crimes), Racially Motivated",
+        "authors": [],
+        "year": 2008,
+        "doi": "10.4135/9781412963923.n208",
+        "url": "https://doi.org/10.4135/9781412963923.n208"
+      },
+      {
+        "source_api": "crossref",
+        "title": "What we can (and can’t) infer about implicit bias from debiasing experiments",
+        "authors": [
+          "Nick Byrd"
+        ],
+        "year": 2019,
+        "doi": "10.1007/s11229-019-02128-6",
+        "url": "https://doi.org/10.1007/s11229-019-02128-6"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Bias Trends in the Text of US Legal Opinions",
+        "authors": [
+          "Rohan Jinturkar"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An experiment on the mechanisms of racial bias in ML-based credit\n  scoring in Brazil",
+        "authors": [
+          "Ramon Vilarino",
+          "Renato Vicente"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "FAIRE: Assessing Racial and Gender Bias in AI-Driven Resume Evaluations",
+        "authors": [
+          "Athena Wen",
+          "Tanush Patil",
+          "Ansh Saxena",
+          "Yicheng Fu",
+          "Sean O'Brien",
+          "Kevin Zhu"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Examining Racial Bias in an Online Abuse Corpus with Structural Topic\n  Modeling",
+        "authors": [
+          "Thomas Davidson",
+          "Debasmita Bhattacharya"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Examining the Robustness of Homogeneity Bias to Hyperparameter\n  Adjustments in GPT-4",
+        "authors": [
+          "Messi H. J. Lee"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20200930-governor-signs-landmark-legislation-advancing-racial-justice-california.txt",
+    "sentence_index": 48,
+    "sentence_text": "“By establishing a framework for defendants to challenge the systemic racism and bias in our criminal courts, I am hopeful that the RJA will push our justice system to more closely live up to its ideals.”",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "A probabilistic formalization of contextual bias in forensic analysis: Evidence that examiner bias leads to systemic bias in the criminal justice system",
+        "authors": [
+          "Maria Cuellar",
+          "Amanda Luby",
+          "Jacqueline Mauro"
+        ],
+        "year": 2021,
+        "doi": "10.21428/cb6ab371.db951e6a",
+        "url": "https://doi.org/10.21428/cb6ab371.db951e6a"
+      },
+      {
+        "source_api": "crossref",
+        "title": "A probabilistic formalization of contextual bias in forensic analysis: Evidence that examiner bias leads to systemic bias in the criminal justice system",
+        "authors": [
+          "Maria Cuellar",
+          "Jacqueline Mauro",
+          "Amanda Luby"
+        ],
+        "year": 2021,
+        "doi": "10.21428/cb6ab371.e5bcc746",
+        "url": "https://doi.org/10.21428/cb6ab371.e5bcc746"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Chapter 5: Criminal Courts and the Racialization of Crime in Ontario",
+        "authors": [],
+        "year": 1998,
+        "doi": "10.3138/9781442673960-008",
+        "url": "https://doi.org/10.3138/9781442673960-008"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Innocent Until Proven Guilty: The Flaws in our Criminal Justice System",
+        "authors": [
+          "nasim shah iqbal"
+        ],
+        "year": 2023,
+        "doi": "10.31219/osf.io/mavcb",
+        "url": "https://doi.org/10.31219/osf.io/mavcb"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias, The Defense, And The Challenge Of Understanding",
+        "authors": [
+          "Andrea D. Lyon",
+          "Mortimer Smith"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-005",
+        "url": "https://doi.org/10.5040/9781666985757.ch-005"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Flipping the Script on Criminal Justice Risk Assessment: An actuarial\n  model for assessing the risk the federal sentencing system poses to\n  defendants",
+        "authors": [
+          "Mikaela Meyer",
+          "Aaron Horowitz",
+          "Erica Marshall",
+          "Kristian Lum"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Sentencing Disparities and Differential Progression Through the\n  Criminal Justice System: Evidence From Linked Federal and State Court Data",
+        "authors": [
+          "Brendon McConnell"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Discrimination Against Immigrants in the Criminal Justice System:\n  Evidence from Pretrial Detentions",
+        "authors": [
+          "Patricio Domínguez",
+          "Nicolás Grau",
+          "Damián Vergara"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "End-to-End Optimization and Learning of Fair Court Schedules",
+        "authors": [
+          "My H Dinh",
+          "James Kotary",
+          "Lauryn P. Gouldin",
+          "William Yeoh",
+          "Ferdinando Fioretto"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A probabilistic formalization of contextual bias in forensic analysis:\n  Evidence that examiner bias leads to systemic bias in the criminal justice\n  system",
+        "authors": [
+          "Maria Cuellar",
+          "Jacqueline Mauro",
+          "Amanda Luby"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20201001-governor-newsom-signs-legislation-reforming-police-officer-recruitment-and.txt",
+    "sentence_index": 2,
+    "sentence_text": "This bill will require the Commission on Peace Officer Standards and Training (POST) to develop a process to identify explicit and implicit bias against race or ethnicity, gender, nationality, religion, disability, or sexual orientation in applicants during the pre-employment emotional and mental condition evaluations.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Implicit and Explicit Anti-Fat Bias among a Large Sample of Medical Doctors by BMI, Race/Ethnicity and Gender",
+        "authors": [
+          "Janice A. Sabin",
+          "Maddalena Marini",
+          "Brian A. Nosek"
+        ],
+        "year": 2012,
+        "doi": "10.1371/journal.pone.0048448",
+        "url": "https://doi.org/10.1371/journal.pone.0048448"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Implicit Bias, Race, and Gender: Experiential Learning and Dual-Process Cognition",
+        "authors": [],
+        "year": 2015,
+        "doi": "10.4324/9781315682303-14",
+        "url": "https://doi.org/10.4324/9781315682303-14"
+      },
+      {
+        "source_api": "crossref",
+        "title": "The Neuroscience of Gender Bias within Organisations: Implicit and Explicit Influences",
+        "authors": [
+          "",
+          "James Wicks"
+        ],
+        "year": null,
+        "doi": "10.26686/wgtn.17057972",
+        "url": "https://doi.org/10.26686/wgtn.17057972"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Implicit bias, officer wellness, and police training",
+        "authors": [
+          "Kimberly C. Burke"
+        ],
+        "year": 2020,
+        "doi": "10.1016/b978-0-12-817872-0.00004-5",
+        "url": "https://doi.org/10.1016/b978-0-12-817872-0.00004-5"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Towards Gender Equality in Tax and Fiscal Systems: Moving Beyond the Implicit-Explicit Bias Framework",
+        "authors": [
+          "Caren Grown",
+          "Giulia Mascagni"
+        ],
+        "year": 2024,
+        "doi": "10.19088/ictd.2024.015",
+        "url": "https://doi.org/10.19088/ictd.2024.015"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Is there any gender/race bias in hep-lat primary publication?\n  Machine-Learning Evaluation of Author Ethnicity and Gender",
+        "authors": [
+          "Huey-Wen Lin"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Reproducibility of Implicit Association Test (IAT) -- Case study of\n  meta-analysis of racial bias research claims",
+        "authors": [
+          "S. Stanley Young",
+          "Warren B. Kindzierski"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Probing Explicit and Implicit Gender Bias through LLM Conditional Text\n  Generation",
+        "authors": [
+          "Xiangjue Dong",
+          "Yibo Wang",
+          "Philip S. Yu",
+          "James Caverlee"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Hi, my name is Martha: Using names to measure and mitigate bias in\n  generative dialogue models",
+        "authors": [
+          "Eric Michael Smith",
+          "Adina Williams"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "MultiModal Bias: Introducing a Framework for Stereotypical Bias\n  Assessment beyond Gender and Race in Vision Language Models",
+        "authors": [
+          "Sepehr Janghorbani",
+          "Gerard de Melo"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20201001-governor-newsom-signs-legislation-reforming-police-officer-recruitment-and.txt",
+    "sentence_index": 4,
+    "sentence_text": "“I applaud Governor Newsom for taking action to address the profoundly important issue of bias in policing.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Loku inquest must address bias in policing",
+        "authors": [],
+        "year": null,
+        "doi": "10.1163/2210-7975_hrd-1315-2016031",
+        "url": "https://doi.org/10.1163/2210-7975_hrd-1315-2016031"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Ageism: Unlocking Our Bias and Taking Action Steps",
+        "authors": [
+          "Shari Collins"
+        ],
+        "year": 2024,
+        "doi": "10.20533/wce.2024.0009",
+        "url": "https://doi.org/10.20533/wce.2024.0009"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Gender bias in policing",
+        "authors": [
+          "Hang-san, Steven Leung"
+        ],
+        "year": null,
+        "doi": "10.5353/th_b4257670",
+        "url": "https://doi.org/10.5353/th_b4257670"
+      },
+      {
+        "source_api": "crossref",
+        "title": "The Science of Implicit Bias and Implications for Policing",
+        "authors": [
+          "Lorie A. Fridell"
+        ],
+        "year": 2016,
+        "doi": "10.1007/978-3-319-33175-1_2",
+        "url": "https://doi.org/10.1007/978-3-319-33175-1_2"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Address matching bias: ignorance is not bliss",
+        "authors": [
+          "Gisela Bichler",
+          "Stefanie Balchak"
+        ],
+        "year": 2007,
+        "doi": "10.1108/13639510710725613",
+        "url": "https://doi.org/10.1108/13639510710725613"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Causal inference and racial bias in policing: New estimands and the\n  importance of mobility data",
+        "authors": [
+          "Zhuochao Huang",
+          "Brenden Beck",
+          "Joseph Antonelli"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Causal Framework to Evaluate Racial Bias in Law Enforcement Systems",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Andrew Miller",
+          "S. Craig Watkins",
+          "Christopher Winship",
+          "Fotini Christia",
+          "Devavrat Shah"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "On Racial Disparities in Recent Fatal Police Shootings",
+        "authors": [
+          "Lucas Mentch"
+        ],
+        "year": 2019,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "The role of collider bias in understanding statistics on racially biased\n  policing",
+        "authors": [
+          "Norman Fenton",
+          "Martin Neil",
+          "Steven Frazier"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Adultification Bias in LLMs and Text-to-Image Models",
+        "authors": [
+          "Jane Castleman",
+          "Aleksandra Korolova"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20201118-assemblymember-jesse-gabriel-serve-chair-california-legislative-jewish.txt",
+    "sentence_index": 30,
+    "sentence_text": "The Jewish Caucus also has advanced a robust legislative agenda, helped to remove anti-Jewish bias from a proposed ethnic studies curriculum, and brought a diverse group of 16 legislators to visit Israel.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Avoiding a Zero-Sum Game: Lessons for Jewish Studies from California's Struggle over the Ethnic Studies Model Curriculum",
+        "authors": [
+          "Gabi Kirk"
+        ],
+        "year": 2024,
+        "doi": "10.1353/sho.2024.a950373",
+        "url": "https://doi.org/10.1353/sho.2024.a950373"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Information Valence and Evaluations of Congress and Individual Legislators: Experimental Evidence Regarding Negativity Bias in Politics",
+        "authors": [
+          "H. Benjamin Ashton",
+          "B. Kal Munis"
+        ],
+        "year": 2020,
+        "doi": "10.1111/lsq.12287",
+        "url": "https://doi.org/10.1111/lsq.12287"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Bias and Responsiveness in State Legislative Districting",
+        "authors": [
+          "Richard G. Niemi",
+          "Simon Jackman"
+        ],
+        "year": 1991,
+        "doi": "10.2307/439977",
+        "url": "https://doi.org/10.2307/439977"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Bias and Responsiveness in the Seat-Vote Relationship",
+        "authors": [
+          "Janet C. Campagna"
+        ],
+        "year": 1991,
+        "doi": "10.2307/439968",
+        "url": "https://doi.org/10.2307/439968"
+      },
+      {
+        "source_api": "crossref",
+        "title": "White Piano in a Shtetl: Material Culture and Ethnic Identity in the Post-Soviet Jewish Urban Community",
+        "authors": [
+          "Shternshis"
+        ],
+        "year": 2010,
+        "doi": "10.2979/jss.2010.16.2.111",
+        "url": "https://doi.org/10.2979/jss.2010.16.2.111"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Local Law 144: A Critical Analysis of Regression Metrics",
+        "authors": [
+          "Giulio Filippi",
+          "Sara Zannone",
+          "Airlie Hilliard",
+          "Adriano Koshiyama"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Influencing a Polarized and Connected Legislature",
+        "authors": [
+          "Ratul Das Chaudhury",
+          "C. Matthew Leister",
+          "Birendra Rai"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Exploring the Political Agenda of the European Parliament Using a\n  Dynamic Topic Modeling Approach",
+        "authors": [
+          "Derek Greene",
+          "James P. Cross"
+        ],
+        "year": 2016,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "B-Call: Integrating Ideological Position and Political Cohesion in\n  Legislative Voting Models",
+        "authors": [
+          "Juan Reutter",
+          "Sergio Toro",
+          "Lucas Valenzuela",
+          "Daniel Alcatruz",
+          "Macarena Valenzuela"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Mathematical Modeling, Analysis and Simulation Utilizing Machine\n  Learning Tools for Assessing the Impact of Climate Lobbying",
+        "authors": [
+          "Andrew Jacoby",
+          "Samiran Ghosh",
+          "Malay Banerjee",
+          "Aditi Ghosh",
+          "Padmanabhan Seshaiyer"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20210115-assemblymember-kalra-announces-new-california-racial-justice-act-all.txt",
+    "sentence_index": 0,
+    "sentence_text": "The legislation challenging racial bias in court cases would ensure the recently-signed Racial Justice Act can be applied retroactively for all Californians",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "A Model State Racial Justice Act: Fighting Racial Bias Without Killing the Death Penalty",
+        "authors": [
+          "Rees Alexander"
+        ],
+        "year": 2013,
+        "doi": "10.2139/ssrn.2249013",
+        "url": "https://doi.org/10.2139/ssrn.2249013"
+      },
+      {
+        "source_api": "crossref",
+        "title": "6. Overlooking Pervasive Racial Bias",
+        "authors": [],
+        "year": 2025,
+        "doi": "10.4159/9780674298927-007",
+        "url": "https://doi.org/10.4159/9780674298927-007"
+      },
+      {
+        "source_api": "crossref",
+        "title": "OVERLOOKING PERVASIVE RACIAL BIAS",
+        "authors": [],
+        "year": 2025,
+        "doi": "10.2307/jj.22092259.9",
+        "url": "https://doi.org/10.2307/jj.22092259.9"
+      },
+      {
+        "source_api": "crossref",
+        "title": "INTRODUCTION: RETHINKING IMPLICIT BIAS—THE LIMITS TO SCIENCE AS A TOOL OF RACIAL JUSTICE",
+        "authors": [],
+        "year": 2017,
+        "doi": "10.7312/kahn18424-002",
+        "url": "https://doi.org/10.7312/kahn18424-002"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Mitigating Implicit Racial Bias Among Criminal Court Jurors: Intervention Through Instruction",
+        "authors": [
+          "Hannah L Bolotin"
+        ],
+        "year": null,
+        "doi": "10.14418/wes01.1.1586",
+        "url": "https://doi.org/10.14418/wes01.1.1586"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Sentencing Disparities and Differential Progression Through the\n  Criminal Justice System: Evidence From Linked Federal and State Court Data",
+        "authors": [
+          "Brendon McConnell"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Bias Trends in the Text of US Legal Opinions",
+        "authors": [
+          "Rohan Jinturkar"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Is More Than Algorithms: Racial Disparities in\n  Time-to-Recidivism",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Kristjan Greenewald",
+          "Devavrat Shah"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Detecting Racial Bias in Jury Selection",
+        "authors": [
+          "Jack Dunn",
+          "Ying Daisy Zhuo"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "One Label, One Billion Faces: Usage and Consistency of Racial Categories\n  in Computer Vision",
+        "authors": [
+          "Zaid Khan",
+          "Yun Fu"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20210115-assemblymember-kalra-announces-new-california-racial-justice-act-all.txt",
+    "sentence_index": 9,
+    "sentence_text": "“While passing last year’s bill was a major step towards addressing institutionalized and implicit racial bias in our courts, the work is not done.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Guidance for Behavior Analysts in Addressing Racial Implicit Bias",
+        "authors": [
+          "Catherine Jaramillo",
+          "Karen Nohelty"
+        ],
+        "year": 2021,
+        "doi": "10.31234/osf.io/4g5mr",
+        "url": "https://doi.org/10.31234/osf.io/4g5mr"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Implicit Racial Bias Across the Law",
+        "authors": [],
+        "year": 2012,
+        "doi": "10.1017/cbo9780511820595.0001",
+        "url": "https://doi.org/10.1017/cbo9780511820595.0001"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Increasing Awareness While Interrogating Racial Implicit Bias: Findings and Implications for Creating Inclusive Educational Spaces",
+        "authors": [
+          "Corinne Corte"
+        ],
+        "year": 2023,
+        "doi": "10.3102/ip.23.2006698",
+        "url": "https://doi.org/10.3102/ip.23.2006698"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Addressing Implicit Bias District-Wide",
+        "authors": [
+          "Kimberly Brazwell"
+        ],
+        "year": 2018,
+        "doi": "10.4324/9781351019903-9",
+        "url": "https://doi.org/10.4324/9781351019903-9"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Examining Provider Bias In Health Care Through Implicit Bias Rounds",
+        "authors": [],
+        "year": 2017,
+        "doi": "10.1377/forefront.20170717.060993",
+        "url": "https://doi.org/10.1377/forefront.20170717.060993"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Bias Trends in the Text of US Legal Opinions",
+        "authors": [
+          "Rohan Jinturkar"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Implicit Biases in Refereeing: Lessons from NBA Referees",
+        "authors": [
+          "Konstantinos Pelechrinis"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Rethinking Common Assumptions to Mitigate Racial Bias in Face\n  Recognition Datasets",
+        "authors": [
+          "Matthew Gwilliam",
+          "Srinidhi Hegde",
+          "Lade Tinubu",
+          "Alex Hanson"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Aligned but Blind: Alignment Increases Implicit Bias by Reducing\n  Awareness of Race",
+        "authors": [
+          "Lihao Sun",
+          "Chengzhi Mao",
+          "Valentin Hofmann",
+          "Xuechunzi Bai"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Two-step adversarial debiasing with partial learning -- medical image\n  case-studies",
+        "authors": [
+          "Ramon Correa",
+          "Jiwoong Jason Jeong",
+          "Bhavik Patel",
+          "Hari Trivedi",
+          "Judy W. Gichoya",
+          "Imon Banerjee"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20210115-assemblymember-kalra-announces-new-california-racial-justice-act-all.txt",
+    "sentence_index": 16,
+    "sentence_text": "While AB 2542 made it possible for a person charged or convicted of a crime to challenge racial bias in their case, it was prospective only, excluding judgments rendered prior to Jan.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Sex Segregated Schools to Challenge Gender and Racial Bias",
+        "authors": [
+          "Kathryn Herr",
+          "Kathleen Grant",
+          "Jeremy Price"
+        ],
+        "year": 2020,
+        "doi": "10.1093/acrefore/9780190264093.013.1337",
+        "url": "https://doi.org/10.1093/acrefore/9780190264093.013.1337"
+      },
+      {
+        "source_api": "crossref",
+        "title": "RACIAL VIOLENCE AGAINST ASIAN AMERICANS",
+        "authors": [],
+        "year": 2012,
+        "doi": "10.4324/9780203446188-28",
+        "url": "https://doi.org/10.4324/9780203446188-28"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Priming in Implicit Memory: Prior Study Causes Enhanced Discriminability, Not Only Bias",
+        "authors": [
+          "Rene Zeelenberg",
+          "Eric-Jan Wagenmakers",
+          "Jeroen G. W. Raaijmakers"
+        ],
+        "year": 2000,
+        "doi": "10.1037/e501882009-657",
+        "url": "https://doi.org/10.1037/e501882009-657"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias in Crime Policies and Prevention",
+        "authors": [],
+        "year": 2019,
+        "doi": "10.4135/9781483392240.n391",
+        "url": "https://doi.org/10.4135/9781483392240.n391"
+      },
+      {
+        "source_api": "crossref",
+        "title": "_12740",
+        "authors": [
+          ""
+        ],
+        "year": null,
+        "doi": "10.5270/esa-w9hifbs",
+        "url": "https://doi.org/10.5270/esa-w9hifbs"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Dialect prejudice predicts AI decisions about people's character,\n  employability, and criminality",
+        "authors": [
+          "Valentin Hofmann",
+          "Pratyusha Ria Kalluri",
+          "Dan Jurafsky",
+          "Sharese King"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Reproducibility of Implicit Association Test (IAT) -- Case study of\n  meta-analysis of racial bias research claims",
+        "authors": [
+          "S. Stanley Young",
+          "Warren B. Kindzierski"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Examining the Robustness of Homogeneity Bias to Hyperparameter\n  Adjustments in GPT-4",
+        "authors": [
+          "Messi H. J. Lee"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "County-level Algorithmic Audit of Racial Bias in Twitter's Home Timeline",
+        "authors": [
+          "Luca Belli",
+          "Kyra Yee",
+          "Uthaipon Tantipongpipat",
+          "Aaron Gonzales",
+          "Kristian Lum",
+          "Moritz Hardt"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Auditing for Racial Discrimination in the Delivery of Education Ads",
+        "authors": [
+          "Basileal Imana",
+          "Aleksandra Korolova",
+          "John Heidemann"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20210115-assemblymember-kalra-announces-new-california-racial-justice-act-all.txt",
+    "sentence_index": 18,
+    "sentence_text": "“Racial bias in our criminal legal system is pervasive and pernicious,” said",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Promoting Fairness? Examining The Efficacy Of Implicit Bias Training In The Criminal Justice System",
+        "authors": [
+          "Rachel D. Godsil"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-010",
+        "url": "https://doi.org/10.5040/9781666985757.ch-010"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias, The Defense, And The Challenge Of Understanding",
+        "authors": [
+          "Andrea D. Lyon",
+          "Mortimer Smith"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-005",
+        "url": "https://doi.org/10.5040/9781666985757.ch-005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Technology In The Legal System Uses And Abuses",
+        "authors": [
+          "Joseph Avery",
+          "Joel Cooper"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-009",
+        "url": "https://doi.org/10.5040/9781666985757.ch-009"
+      },
+      {
+        "source_api": "crossref",
+        "title": "A Telephone Game",
+        "authors": [
+          "Oana D Dumitru",
+          "Tessa V.West"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-002",
+        "url": "https://doi.org/10.5040/9781666985757.ch-002"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Implicit Bias, The Power Of Institutions, And How To Reduce Racial Disparities In Policing",
+        "authors": [
+          "Rebecca C. Hetey"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-003",
+        "url": "https://doi.org/10.5040/9781666985757.ch-003"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A probabilistic formalization of contextual bias in forensic analysis:\n  Evidence that examiner bias leads to systemic bias in the criminal justice\n  system",
+        "authors": [
+          "Maria Cuellar",
+          "Jacqueline Mauro",
+          "Amanda Luby"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Bias and Discrimination in AI: a cross-disciplinary perspective",
+        "authors": [
+          "Xavier Ferrer",
+          "Tom van Nuenen",
+          "Jose M. Such",
+          "Mark Coté",
+          "Natalia Criado"
+        ],
+        "year": 2020,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Measuring Implicit Bias in Explicitly Unbiased Large Language Models",
+        "authors": [
+          "Xuechunzi Bai",
+          "Angelina Wang",
+          "Ilia Sucholutsky",
+          "Thomas L. Griffiths"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Bias in Large Language Models: Origin, Evaluation, and Mitigation",
+        "authors": [
+          "Yufei Guo",
+          "Muzhe Guo",
+          "Juntao Su",
+          "Zhou Yang",
+          "Mengqiu Zhu",
+          "Hongfei Li",
+          "Mengyang Qiu",
+          "Shuo Shuo Liu"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Causal Framework to Evaluate Racial Bias in Law Enforcement Systems",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Andrew Miller",
+          "S. Craig Watkins",
+          "Christopher Winship",
+          "Fotini Christia",
+          "Devavrat Shah"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20210115-assemblymember-kalra-announces-new-california-racial-justice-act-all.txt",
+    "sentence_index": 21,
+    "sentence_text": "“The Racial Justice Act, passed last year, gives people the opportunity to challenge racial bias in the criminal legal process if it occurs after January 1, 2021.",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias, The Defense, And The Challenge Of Understanding",
+        "authors": [
+          "Andrea D. Lyon",
+          "Mortimer Smith"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-005",
+        "url": "https://doi.org/10.5040/9781666985757.ch-005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "A Model State Racial Justice Act: Fighting Racial Bias Without Killing the Death Penalty",
+        "authors": [
+          "Rees Alexander"
+        ],
+        "year": 2013,
+        "doi": "10.2139/ssrn.2249013",
+        "url": "https://doi.org/10.2139/ssrn.2249013"
+      },
+      {
+        "source_api": "crossref",
+        "title": "A Telephone Game",
+        "authors": [
+          "Oana D Dumitru",
+          "Tessa V.West"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-002",
+        "url": "https://doi.org/10.5040/9781666985757.ch-002"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Trying Juveniles as Adults: A Case of Racial and Ethnic Bias?",
+        "authors": [],
+        "year": 2003,
+        "doi": "10.5040/9798216004257.0016",
+        "url": "https://doi.org/10.5040/9798216004257.0016"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Implicit Bias, The Power Of Institutions, And How To Reduce Racial Disparities In Policing",
+        "authors": [
+          "Rebecca C. Hetey"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-003",
+        "url": "https://doi.org/10.5040/9781666985757.ch-003"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Bias Trends in the Text of US Legal Opinions",
+        "authors": [
+          "Rohan Jinturkar"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Sentencing Disparities and Differential Progression Through the\n  Criminal Justice System: Evidence From Linked Federal and State Court Data",
+        "authors": [
+          "Brendon McConnell"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Is More Than Algorithms: Racial Disparities in\n  Time-to-Recidivism",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Kristjan Greenewald",
+          "Devavrat Shah"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Interpreting Criminal Charge Prediction and Its Algorithmic Bias via\n  Quantum-Inspired Complex Valued Networks",
+        "authors": [
+          "Abdul Rafae Khan",
+          "Jia Xu",
+          "Peter Varsanyi",
+          "Rachit Pabreja"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "AI &amp; Racial Equity: Understanding Sentiment Analysis Artificial\n  Intelligence, Data Security, and Systemic Theory in Criminal Justice Systems",
+        "authors": [
+          "Alia Abbas"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20210115-assemblymember-kalra-announces-new-california-racial-justice-act-all.txt",
+    "sentence_index": 23,
+    "sentence_text": "It is now vital to extend this groundbreaking reform so that it’s available to everyone who has been unfairly imprisoned or sentenced as the result of bias in our justice system.”",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Science AMA Series: I’m Ken Buesseler, an oceanographer who has been studying the impacts of Fukushima Dai-ichi on the oceans. It’s been 5 years now and I’m still being asked – how radioactive is our o",
+        "authors": [
+          "Ken_Buesseler",
+          "r/Science"
+        ],
+        "year": null,
+        "doi": "10.15200/winn.145735.52993",
+        "url": "https://doi.org/10.15200/winn.145735.52993"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Nick Leeson — The Implications Now He Has Been Sentenced",
+        "authors": [
+          "Sheilagh Davies"
+        ],
+        "year": 1996,
+        "doi": "10.1108/eb025738",
+        "url": "https://doi.org/10.1108/eb025738"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Sentenced by an algorithm — Bias and lack of accuracy in risk-assessment software in the United States criminal justice system",
+        "authors": [
+          "Willem Gravett"
+        ],
+        "year": 2021,
+        "doi": "10.47348/sacj/v34/i1a2",
+        "url": "https://doi.org/10.47348/sacj/v34/i1a2"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Pluralism: When Will We Recognize Our Common Humanity?",
+        "authors": [],
+        "year": 2024,
+        "doi": "10.1200/acon.20.00127",
+        "url": "https://doi.org/10.1200/acon.20.00127"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Everyone Has Been to School so Everyone Has an Opinion: Why Memories of School Matter",
+        "authors": [
+          "Naomi Barnes",
+          "Rebecca English"
+        ],
+        "year": 2022,
+        "doi": "10.1007/978-981-19-4464-2_16",
+        "url": "https://doi.org/10.1007/978-981-19-4464-2_16"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Investigating sentence severity with judicial open data -- A case study\n  on sentencing high-tech crime in the Dutch criminal justice system",
+        "authors": [
+          "Pieter Hartel",
+          "Rolf van Wegberg",
+          "Mark van Staalduinen"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Evidence of What, for Whom? The Socially Contested Role of Algorithmic\n  Bias in a Predictive Policing Tool",
+        "authors": [
+          "Marta Ziosi",
+          "Dasha Pruss"
+        ],
+        "year": 2024,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Data Justice in Digital Social Welfare: A Study of the Rythu Bharosa\n  Scheme",
+        "authors": [
+          "Silvia Masiero",
+          "Chakradhar Buddha"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "First Women, Second Sex: Gender Bias in Wikipedia",
+        "authors": [
+          "Eduardo Graells-Garrido",
+          "Mounia Lalmas",
+          "Filippo Menczer"
+        ],
+        "year": 2015,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "BiaScope: Visual Unfairness Diagnosis for Graph Embeddings",
+        "authors": [
+          "Agapi Rissaki",
+          "Bruno Scarone",
+          "David Liu",
+          "Aditeya Pandey",
+          "Brennan Klein",
+          "Tina Eliassi-Rad",
+          "Michelle A. Borkin"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      }
+    ]
+  },
+  {
+    "source": "Democratic Assembly",
+    "filename": "20210115-assemblymember-kalra-announces-new-california-racial-justice-act-all.txt",
+    "sentence_index": 24,
+    "sentence_text": "“In establishing a framework for defendants to challenge the known systemic racism and bias in our criminal courts, the Racial Justice Act was a tremendous step forward,” said",
+    "matched_ai_terms": [
+      "bias"
+    ],
+    "existing_urls": [],
+    "existing_dois": [],
+    "existing_arxiv": [],
+    "candidates": [
+      {
+        "source_api": "crossref",
+        "title": "Implicit racial bias and the anatomy of institutional racism",
+        "authors": [
+          "Jules Holroyd"
+        ],
+        "year": 2015,
+        "doi": "10.1080/09627251.2015.1080943",
+        "url": "https://doi.org/10.1080/09627251.2015.1080943"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Racial Bias, The Defense, And The Challenge Of Understanding",
+        "authors": [
+          "Andrea D. Lyon",
+          "Mortimer Smith"
+        ],
+        "year": 2020,
+        "doi": "10.5040/9781666985757.ch-005",
+        "url": "https://doi.org/10.5040/9781666985757.ch-005"
+      },
+      {
+        "source_api": "crossref",
+        "title": "How the FIRST STEP Act Moves Criminal Justice Reform Forward",
+        "authors": [],
+        "year": null,
+        "doi": "10.1163/2210-7975_hrd-9970-20180133",
+        "url": "https://doi.org/10.1163/2210-7975_hrd-9970-20180133"
+      },
+      {
+        "source_api": "crossref",
+        "title": "Criminalization of Blackness: Systemic Racism and the Reproduction of Racial Inequality in the US Criminal Justice System",
+        "authors": [
+          "Marcus Bell"
+        ],
+        "year": 2017,
+        "doi": "10.1057/978-1-137-59410-5_7",
+        "url": "https://doi.org/10.1057/978-1-137-59410-5_7"
+      },
+      {
+        "source_api": "crossref",
+        "title": "A probabilistic formalization of contextual bias in forensic analysis: Evidence that examiner bias leads to systemic bias in the criminal justice system",
+        "authors": [
+          "Maria Cuellar",
+          "Amanda Luby",
+          "Jacqueline Mauro"
+        ],
+        "year": 2021,
+        "doi": "10.21428/cb6ab371.db951e6a",
+        "url": "https://doi.org/10.21428/cb6ab371.db951e6a"
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Racial Sentencing Disparities and Differential Progression Through the\n  Criminal Justice System: Evidence From Linked Federal and State Court Data",
+        "authors": [
+          "Brendon McConnell"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Fairness Is More Than Algorithms: Racial Disparities in\n  Time-to-Recidivism",
+        "authors": [
+          "Jessy Xinyi Han",
+          "Kristjan Greenewald",
+          "Devavrat Shah"
+        ],
+        "year": 2025,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "Flipping the Script on Criminal Justice Risk Assessment: An actuarial\n  model for assessing the risk the federal sentencing system poses to\n  defendants",
+        "authors": [
+          "Mikaela Meyer",
+          "Aaron Horowitz",
+          "Erica Marshall",
+          "Kristian Lum"
+        ],
+        "year": 2022,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "An assessment of racial disparities in pretrial decision-making using\n  misclassification models",
+        "authors": [
+          "Kimberly A. Hochstedler Webb",
+          "Sarah A. Riley",
+          "Martin T. Wells"
+        ],
+        "year": 2023,
+        "doi": null,
+        "url": null
+      },
+      {
+        "source_api": "arxiv",
+        "title": "A Survey of Race, Racism, and Anti-Racism in NLP",
+        "authors": [
+          "Anjalie Field",
+          "Su Lin Blodgett",
+          "Zeerak Waseem",
+          "Yulia Tsvetkov"
+        ],
+        "year": 2021,
+        "doi": null,
+        "url": null
+      }
+    ]
+  }
+]

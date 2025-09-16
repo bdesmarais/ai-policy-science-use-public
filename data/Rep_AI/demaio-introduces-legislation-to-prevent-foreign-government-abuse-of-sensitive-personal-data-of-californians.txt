@@ -1,0 +1,15 @@
+“California consumers have a right to know if China – or any other foreign government – has been collecting their sensitive personal information and misusing it.”
+State Assemblyman Carl DeMaio today unveiled his “Stop Foreign Governments from Accessing Californians’ Sensitive Personal Data Act” (AB 364). DeMaio’s bill would put the state of California at the forefront of protecting consumer privacy from foreign government interception and would apply to AI, information technology, and social media platforms.
+DeMaio offers the following statement explaining the urgency of enacting AB 364 and why California should take the lead on what experts call “Data Sovereignty” –
+“National security experts and consumer protection advocates alike have raised concerns about foreign governments having sweeping access to sensitive personal information on American citizens.  While AI, social media, and information technology have amazing potential for transforming our lives for the better, there is also a very sinister aspect to foreign governments using these tools to harvest sensitive information on each and every American consumer.
+I strongly believe in the free market, but I also believe in transparency to consumers so they can make informed choices. That’s why I believe California consumers have a right to know if China – or any other foreign government – has been collecting their sensitive personal information and misusing it. My bill would provide common-sense safeguards to prevent foreign governments from directly accessing health, financial and geolocation data on California consumers while ensuring full transparency and consumer consent any time sensitive personal information is stored on private servers in foreign countries.”
+DeMaio considers the issue of AI/social media safeguards to be a bipartisan one that offers great potential for the passage of AB 364.  By passing AB 364, California would not only protect its own consumers, but would ignite a much-needed debate nationally on the important issue of protecting America’s “Data Sovereignty” from foreign threats.
+KEY PROVISIONS OF AB 364:
+Requires Disclosure:
+AI, social media and other technology platforms will be required to disclose to consumers if the platform will maintain personal information outside of the United States
+Requires Explicit Consent:
+Consumers will need to give explicit consent in order for a business to maintain personal information outside of the U.S.
+Blocks Foreign Government Access:
+Businesses will be prohibited from maintaining healthcare information, financial information, or geolocation data in the custody of a foreign government or a third party owned or controlled by a foreign government
+DeMaio is available by phone or zoom for interviews – or in-person at the State Capitol.
+###
