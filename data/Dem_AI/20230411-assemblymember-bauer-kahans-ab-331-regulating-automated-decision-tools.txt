@@ -1,0 +1,15 @@
+Sacramento, CA
+–Assemblymember Bauer-Kahan’s (D-Orinda) landmark bill paving the way for regulations on
+automated decision tools (ADTs)
+has passed the Privacy Committee. The bill is the first of its kind in the state and
+requires developers and users to mitigate the bias of automated decision tools (ADTs). AB 331 builds on President Biden’s “AI bill of rights” to create a first-in-the nation standard to prevent algorithmic bias.
+"As decision making via algorithm becomes more prevalent in our daily lives, it is crucial that we ensure that it is used ethically and responsibly," said
+Assemblymember Bauer-Kahan.
+"Without quick, thoughtful regulation, we face a future where decision making is heavily biased without any protections from the devastating impacts.”
+Automated decision tools, such as machine learning algorithms assess eligibility for a benefit or penalty. These systems have been traditionally used for credit decisions, however usage has expanded to employment screening, insurance eligibility, and health care decisions. ADTs are often trained on biased data, resulting in harm to marginalized communities.
+AB 331 requires developers and users of ADTs to conduct and record an impact assessment including the intended use, the makeup of the data, and the rigor of the statistical analysis. The data reported must also include an analysis of potential adverse impact on the basis of race, color, ethnicity, sex, religion, age, national origin, or any other classification protected by state law.
+If the use of ADT’s goes unchecked, it could lead to a future where decisions that significantly impact people’s lives are made without their knowledge or consent. This could result in engraining social injustice even further into our institutions.
+"ADT’s are making impactful decisions now,” said
+Assemblymember Bauer-Kahan.
+"It is past time to ensure the outcomes are equitable for all.”
+###

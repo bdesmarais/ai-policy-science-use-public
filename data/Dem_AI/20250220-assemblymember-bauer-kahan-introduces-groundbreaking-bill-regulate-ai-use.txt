@@ -1,0 +1,36 @@
+[Sacramento, CA]
+– Today, Assemblymember Bauer-Kahan, in partnership with Common Sense Media, introduced AB 1064, the
+Leading Ethical AI Development (LEAD) for Kids Act
+, a first-of-its-kind bill aimed at safeguarding children from the growing risks of artificial intelligence (AI). The legislation establishes the
+LEAD for Kids Standards Board
+within the Government Operations Agency to assess and regulate AI technologies used by children.
+As AI becomes an increasingly integral part of education, entertainment, and social interactions, concerns over its safety, privacy, and ethical implications have grown. AI-powered learning tools, social media algorithms, and interactive chatbots are being widely used by children—often without proper oversight. Reports have surfaced of AI chatbots engaging in inappropriate or harmful conversations with minors, including encouraging disordered eating or even self-harm.
+"AI has incredible potential to enhance education and support children’s development, but we cannot allow it to operate unchecked,"
+said Assemblymember Bauer-Kahan.
+"Tech companies have prioritized rapid development over safety, leaving children exposed to untested and potentially dangerous AI applications. AB 1064 ensures we put safeguards in place to protect young users. I’m proud to partner with Common Sense Media on this effort to bring oversight, accountability and transparency to the AI systems shaping our children’s lives."
+Common Sense Media
+, a leading nonprofit advocating for children’s digital well-being, has been at the forefront of addressing the risks posed by AI. The bill is also supported by the
+Organization for Social Media Safety
+,
+Children's Advocacy Institute
+, J
+ewish Family and Children's Services
+, and the
+Transparency Coalition
+.
+"This is the most significant legislation ever introduced when it comes to ensuring that young users of AI are protected from its potential harms,”
+said James P. Steyer, Founder and CEO of Common Sense Media
+, the lead sponsor of the bill with Assemblywoman Rebecca Bauer-Kahan (D-Orinda). “We fully reject the notion that has become popular in some circles today that the race to lead on AI is a choice between being first or being safe. The two must go hand in hand; our kids and teens deserve nothing less than the best technology our country has to offer, with safety and with the knowledge of how to use these powerful tools for education and life. We proudly support this visionary commitment to putting children’s best interests at the center of AI innovation. This bill's risk assessment framework and privacy protections show California's leadership in getting this balance right.”
+Key Provisions of AB 1064:
+Creates the LEAD for Kids Standards Board
+to oversee and regulate AI systems used by children, ensuring ethical development and deployment.
+Requires risk-level assessments
+by developers to classify AI systems based on their potential harm to children, with stricter requirements for high-risk systems, including pre- and post-deployment evaluations.
+Prohibits certain harmful AI applications
+for children, including emotionally manipulative AI chatbots, emotion detection systems, social scoring systems, and certain facial recognition technologies.
+Mandates transparency and oversight
+by establishing a registry for covered AI products, requiring incident reporting for harms caused by these systems, and enforcing periodic independent audits.
+Strengthens privacy protections
+by requiring affirmative, written parental consent before a child’s personal information can be used to train an AI model.
+This legislation is in response to the rapid expansion of AI in children's lives without sufficient regulatory oversight. While AI has been leveraged to personalize education and improve learning outcomes, its risks—ranging from privacy violations to psychological harm—remain largely unaddressed.
+AB 1064 represents a critical step in ensuring AI development prioritizes safety, privacy, and ethical responsibility. By establishing clear oversight and accountability, this legislation will help parents, educators, and policymakers navigate the rapidly evolving landscape of AI in children's lives. As technology continues to advance, AB 1064 ensures that innovation does not come at the expense of children’s well-being.

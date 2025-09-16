@@ -1,0 +1,27 @@
+Sacramento, CA
+– Today, Chair of the California State Assembly Privacy and Consumer Protection Committee, Assemblymember Bauer-Kahan (D-Orinda) introduced a bill that will pave the way for common sense regulations on
+artificial intelligence (AI).
+AB 2930
+requires developers and users to mitigate and asses automated decision tools (ADTs) that make consequential decisions, and is supported by Microsoft and Workday.
+"Algorithms are already making decisions about our lives, and there’s no check on the bias. These hidden forces are embedding discrimination further into our system and it’s unacceptable,” said
+Assemblymember Bauer-Kahan.
+"AB 2930 continues our work to ensure that AI fulfils its promises of progress and does not drag us backwards with biased results."
+“Microsoft is proud to support AB 2930. This legislation will help develop strong legal guardrails for Automated Decision Tools and empower communities across California with safe and transparent AI solutions. We look forward to working with Assemblymember Rebecca Bauer-Kahan to move this bill forward and continue advancing legislation that aligns with Microsoft’s values,”
+said Robyn Hines, Senior Director of State Government Affairs for Microsoft.
+AB 2930 requires developers and users of ADTs to conduct and record an impact assessment including the intended use, the makeup of the data, and the rigor of the statistical analysis. The data reported must also include an analysis of potential adverse impact on the basis of race, color, ethnicity, sex, religion, age, national origin, or any other classification protected by state law.
+Automated Decision Tools are being used to assess eligibility for a benefit or penalty. These systems have been traditionally used for credit decisions, however usage has expanded to employment screening, insurance eligibility, and health care decisions. ADTs have been found to exhibit biases and consequently have resulted in discriminatory impacts and harm to marginalized communities. For example, a study published in
+Science
+showed that a clinical algorithm used across hospitals for determining patient care was racially biased against Black patients.
+“Workday has been laying the groundwork for smart AI safeguards that build trust and enable responsible innovation since 2019. With a growing appetite to regulate AI at the state level, California can lead the nation in establishing meaningful guardrails. This new bill would establish concrete requirements and strong protections for consequential decisions driven by AI. We enthusiastically endorse AB 2930 and are pleased to have contributed to its development.  We applaud Assemblymember Bauer-Kahan for her thoughtful leadership at this critical moment,”
+said
+Chandler Morse, Vice President of Public Policy at Workday.
+The legislation is based on AB 331, which Bauer-Kahan carried last year, and is based on the White House Blueprint for an Artificial Intelligence (AI)
+[1]
+and the National Institute of Standards and Technology framework
+[2]
+to manage the risks associated with the use of AI systems.
+###
+[1]
+https://www.whitehouse.gov/ostp/ai-bill-of-rights/
+[2]
+https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf

@@ -1,0 +1,26 @@
+[Sacramento, CA]
+– Today, Assemblymember Rebecca Bauer-Kahan (D-Orinda) introduced AB 412, the AI Copyright Transparency Act, aimed at increasing transparency around the use of copyrighted materials to train generative artificial intelligence (GenAI) systems and models. The proposed legislation requires GenAI developers to inform copyright owners when their materials are included in GenAI training datasets.
+"As the AI industry continues to develop and expand, it is critical for content creators to know if and how their work is being used to train advanced models,"
+said Assemblymember Bauer-Kahan.
+"The AI Copyright Transparency Act increases accountability for AI developers and empowers copyright owners to exercise their rights."
+The Copyright Transparency Act is sponsored by the Screen Actors Guild - American Federation of Television and Radio Artists (SAG-AFTRA) and co-sponsored by the Concept Art Association (CAA) and the National Association of Voice Actors (NAVA).
+SAG-AFTRA National Executive Director & Chief Negotiator Duncan Crabtree-Ireland said
+, “This is the type of commonsense legislation we need to see more of in the A.I. age. Individuals and companies deserve to know if their intellectual property has been used to train A.I. models. SAG-AFTRA applauds Assemblymember Rebecca Bauer-Kahan for introducing this bill to protect human artistry and ensure A.I. remains accountable to the work of human content creators.”
+Developers often use copyrighted materials to train new GenAI models without crediting or compensating the owners of those materials. Courts have yet to weigh in on the legality of this practice, and at present, copyright owners have no way of knowing whether a particular material has been used to train a given model.
+AB 412 increases transparency around the use of copyrighted materials to train GenAI systems and models, ensuring copyright owners can protect their property as California’s technology landscape continues to evolve.
+Key Provisions of the AI Copyright Transparency Act:
+Right to Information
+: Requires developers to provide copyright owners with lists of copyrighted materials used to train GenAI systems and models.
+Online Request Mechanism
+: Requires developers to establish a publicly accessible mechanism allowing copyright owners to submit requests for information.
+Enforcement
+: Authorizes copyright owners to bring civil actions against developers who fail to provide required information.
+Support and further quotes
+The AI Copyright Transparency Act is sponsored by the Screen Actors Guild - American Federation of Television and Radio Artists (SAG-AFTRA) and co-sponsored by the Concept Art Association (CAA) and the National Association of Voice Actors (NAVA).
+“As the people behind iconic and beloved characters in TV, animation, film, video games, and more, voice actors stand to lose their livelihood and more with the advancement of GenAI. Copyright and ownership of sound files has become an issue at the forefront of our industry, and the lack of legislation around these new technological systems has negatively and tangibly impacted all entertainers. It is because of these concerns that The National Association of Voice Actors enthusiastically co-sponsors the AI Copyright Transparency Act. This bill is a powerful companion to AB 2013, which requires GenAI developers to disclose the data used to train their models. The AI Copyright Transparency Act would give copyright holders the ability to take action against those who use their copyrighted materials without their permission. This bill is an important step toward giving all creators more control over how their work is used in GenAI”
+said The National Association of Voice Actors
+.
+A Statement from
+the
+Concept Art Association
+reads as follows “Concept Art Association is proud to be a Co-Sponsor of Assembly Member Rebecca Bauer-Kahan’s AI Copyright Transparency Act. Thousands of illustrators have found the entirety of their works, both personal and professional, used to train Generative Artificial Intelligence (GenAI) datasets without anyone having acquired consent, or having offered them any kind of credit or compensation. Vast quantities of data are routinely and indiscriminately scraped from across the internet to train these GenAI systems and models. Because there is no way for creators to verify if their works have been used, its only logical for them to assume that their copyrighted materials are contained within in these systems. There is a great need for transparency in this realm. Creators must have the ability to know, protect, and enforce their copyrights. Similarly, AI developers must have the ability to protect themselves from unwarranted claims that their datasets contain copyrighted works. The AI Copyright Transparency Act is a balanced common sense remedy that protects the rights and reputations of both creators and AI developers.”

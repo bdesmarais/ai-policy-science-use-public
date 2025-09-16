@@ -1,0 +1,32 @@
+[SACRAMENTO, CA] —
+Following the successful passage in the California State Assembly, a comprehensive package of 13 bills authored by Assemblymember Rebecca Bauer-Kahan has advanced to the California Senate for consideration. The legislation ranges from artificial intelligence safety and automated decision-making transparency to healthcare access, digital privacy protection, menopause coverage, and energy accountability.
+Major Bills Advancing to Senate:
+AB 56 - Social Media Mental Health Warning Labels
+Responding to U.S. Surgeon General Vivek Murthy's call for safety warnings on social media platforms, this bill requires platforms to display mental health warning labels to users, particularly addressing the mental health crisis among young people who spend excessive time on social media.
+AB 412 - AI Training Data Transparency
+This legislation increases transparency around generative AI development by requiring developers to disclose to copyright owners when their copyrighted materials have been used to train AI systems, ensuring creators can exercise their rights over their intellectual property.
+AB 432 – Menopause Care Equity Act
+Passed with strong bipartisan support, this bill requires health plans to cover evaluation and treatment for perimenopause and menopause without utilization management restrictions. It also mandates continuing medical education for healthcare providers and ensures access to clinical care recommendations.
+AB 621 - AI-Generated Non-Consensual Intimate Images
+Passed unanimously, this legislation strengthens civil enforcement mechanisms against websites that use AI to create deep-fake nude images without consent, addressing a growing threat to privacy and safety, particularly for women and girls.
+AB 1018 - Automated Decisions Safety Act
+This comprehensive bill establishes necessary guardrails for automated decision systems (ADS) used in consequential decisions affecting housing, employment, healthcare, and criminal justice. AB 1018 requires pre-deployment testing, consumer notification, and appeals processes to prevent discriminatory outcomes and ensure transparency.
+AB 1064 – Leading Ethical AI Development for Kids
+This groundbreaking legislation takes urgent action to protect children from dangerous AI applications, including emotionally manipulative "companion" chatbots. AB 1064 prohibits harmful AI products that target children and ensures transparency and consent when children's data is used to train AI systems.
+Additional Bills Moving Forward:
+The remaining bills also address critical issues facing Californians:
+AB 222 - Data Center Energy Accountability
+creates transparency around energy use by AI data centers and prevents grid development costs from being passed onto ratepayers, protecting Californians from bearing the additional costs of AI development.
+AB 290 - FAIR Plan Modernization
+passed with strong bipartisan support, AB 290 requires the California FAIR Plan to establish automatic payment systems and provide grace periods to prevent unintentional coverage lapses during increasingly severe wildfire seasons.
+Other advancing bills include:
+AB 45, AB 302, AB 578, AB 774,
+and
+AB 1405
+.
+"This comprehensive legislative package represents our commitment to protecting Californians while fostering innovation and ensuring equitable access to essential services,"
+said Assemblymember Bauer-Kahan
+. "From AI safety to healthcare access, these 13 bills work together to address the most pressing challenges facing our communities today."
+All bills will now be considered by the California Senate, where they will undergo committee review and floor votes before potentially reaching the Governor's desk.
+For full information on all 13 bills, visit:
+https://a16.asmdc.org/2025-legislation

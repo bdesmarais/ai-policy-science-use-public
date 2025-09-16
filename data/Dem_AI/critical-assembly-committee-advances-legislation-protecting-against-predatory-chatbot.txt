@@ -1,0 +1,59 @@
+Body
+
+SACRAMENTO – Today, the Assembly Committee on Privacy and Consumer Protection, with bipartisan support, approved Senate Bill 243 , authored by Senator Steve Padilla (D-San Diego). The bill would require chatbot operators to implement critical safeguards to protect users from the addictive, isolating, and influential aspects of artificial intelligence (AI) chatbots.
+
+As AI technology continues to develop, sophisticated chatbot services have grown in popularity among users of all ages. Social chatbots, designed to serve as AI companions, have gained millions of users, many of whom are children. However, as the technology is still developing, it leaves the users to serve as the test subjects as developers continue to refine the modeling parameters.
+
+Due to the novel nature of this technology, A.I. chatbots lack the regulation necessary to ensure vulnerable users such as children are properly protected from the possible dangers this technology poses. SB 243 would provide clearly necessary safeguards for chatbot platforms to protect users, especially minors and other vulnerable users.
+
+“The federal government has failed to lead on this issue, allowing tech companies to create these AI products in a regulatory vacuum,” said Senator Padilla . “But, time and time again, these companies have proven they cannot be trusted to minimize the risks they pose to the public. Our children are not their guinea pigs to be experimented on as they perfect their products. We must step in to provide common sense guardrails before it is too late.”
+
+In Florida, a 14-year-old child ended his life after forming a romantic, sexual, and emotional relationship with a chatbot. Social chatbots are marketed as companions to people who are lonely or depressed. However, when 14-year-old Sewell Setzer communicated to his AI companion that he was struggling, the bot was unable to respond with empathy or the resources necessary to ensure Setzer received the help that he needed. Setzer’s mother has initiated legal action against the company that created the chatbot, claiming that not only did the company use addictive design features and inappropriate subject matter to lure in her son, but that the bot encouraged him to “come home” just seconds before he ended his life . This is yet another horrifying example of how AI developers risk the safety of their users, especially minors, without the proper safeguards in place.
+
+Earlier today, Senator Padilla held a press conference with Megan Garcia, the mother of Sewell Setzer, in which they called for the passage of SB 243 . Ms. Garcia also testified at today’s hearing in support of the bill.
+
+SB 243 would implement common-sense guardrails for companion chatbots, including preventing addictive engagement patterns, requiring notifications and reminders that chatbots are AI-generated, and a disclosure statement that companion chatbots may not be suitable for minor users. This bill would also require operators of a companion chatbot platform to implement a protocol for addressing suicidal ideation, suicide, or self-harm, including but not limited to a notification to the user to refer them to crisis service providers and require annual reporting on the connection between chatbot use and suicidal ideation to help get a more complete picture of how chatbots can impact users’ mental health. Finally, SB 243 would provide a remedy to exercise the rights laid out in the measure via a private right of action.
+
+The bill is supported by AI researchers and tech safety groups alike.
+
+"We have more and more evidence emerging that emotional companion chatbots targeting minors and other vulnerable populations can have dangerous outcomes,” said Jodi Halpern, MD, PhD, UC Berkeley Professor of Bioethics and Co-Director of the Kavli Center for Ethics, Science and the Public . “Like social media companies, companion chatbot companies use techniques to create increasing user engagement which is creating dependency and even addiction in children, youth and other vulnerable populations. Given the solid evidence that in the case of social media addiction, the population risk of suicide for minors went up significantly and given that companion chatbots appear to be equally or even more addictive, we have a public health obligation to protect vulnerable populations and monitor these products for harmful outcomes, especially those related to suicidal actions. This bill is of urgent importance as the first bill in the country to set some guard rails. We applaud Senator Padilla and his staff for bringing it forward."
+
+To learn more about Senate Bill 243 and the dangers chatbots can pose, click here .
+
+Senate Bill 243 passed the Assembly Privacy and Consumer with bipartisan support 11-1 and now heads to the Assembly.
+
+###
+
+Steve Padilla represents the 18th Senate District, which includes the communities of Chula Vista, the Coachella Valley, Imperial Beach, the Imperial Valley, National City, and San Diego. Prior to his election to the Senate in 2022, Senator Padilla was the first person of color ever elected to city office in Chula Vista, the first Latino Mayor, and the first openly LGBT person to serve or be elected to city office. Website of Senator Steve Padilla: https://sd18.senate.ca.gov/
+
+Capitol Office
+
+1021 O Street, Suite 7630
+
+Sacramento, CA 95814
+
+Phone: (916) 651-4018
+
+San Diego County
+
+780 Bay Blvd., Suite 204
+
+Chula Vista, CA 91910
+
+Phone: (619) 409-7690
+
+Imperial County
+
+1224 State Street, Suite D
+
+El Centro, CA 92243
+
+Phone: (760) 335-3442
+
+Coachella Valley
+
+82013 Doctor Carreon Blvd., Suite J
+
+Indio, CA 92201
+
+Phone: (760) 398-6442

@@ -1,100 +1,94 @@
-## Press Releases Science Mentions Extraction
+## AI Mentions Extraction from Legislative Press Releases (v3)
 
-This project extracts scientific mentions, claims, and references from press releases contained in two zip archives:
+This project analyzes press releases scraped from Democratic and Republican Senates and Assemblies.
+It identifies Artificial Intelligence (AI) mentions, extracts AI-related sentences ("AI statements"),
+produces exploratory data analysis (EDA), and organizes AI-containing documents for downstream work.
 
-- `OneDrive_2025-08-19.zip` — Democratic Assembly
-- `OneDrive_2025-08-19 (1).zip` — Republican Assembly
+### Data layout
 
-The script unzips `.txt` documents, parses them for Artificial Intelligence (AI) and science-related terms, identifies claim-like language, and extracts references (URLs, DOIs, arXiv IDs, journal-like mentions). Results are exported to JSON, CSV, and Markdown.
+- `data/press_releases/Democratic/` — Democratic sources (scraped text files)
+- `data/press_releases/Republican/` — Republican sources (scraped text files)
+- `data/Dem_AI/` — created by the v3 script: Democratic documents that contain AI statements
+- `data/Rep_AI/` — created by the v3 script: Republican documents that contain AI statements
 
-### Files
+### Scripts
 
-- `analyze_press_releases.py`: Main analysis script (v1).
-- `analyze_press_releases_v2.py`: Enhanced analysis (v2) with stricter AI detection, context-aware claims, verifiability scoring, comparative stats, and optional charts.
-- `data/press_releases/`: Extracted `.txt` files organized by party.
-- `outputs/`: Generated outputs:
-  - `press_release_science_mentions.json` — structured results per document and sentence.
-  - `press_release_science_mentions.csv` — one row per sentence mention.
-  - `press_release_document_summary.csv` — per-document aggregates.
-  - `press_release_science_mentions.md` — human-readable summary by source.
-  - v2 additions (from `analyze_press_releases_v2.py`):
-    - `press_release_science_mentions_v2.json` — includes context windows, `is_ai_claim`, and verifiability.
-    - `press_release_science_mentions_v2.csv` — per-mention CSV including `verifiability_score`/`level`.
-    - `press_release_document_summary_v2.csv` — per-document aggregates with AI-claim counts and average verifiability.
-    - `press_release_party_comparison_v2.csv` — Democratic vs Republican comparative statistics.
-    - `press_release_top_terms_v2.csv` — top AI/science term frequencies per source.
-    - `press_release_science_mentions_v2.md` — comprehensive markdown summary with exemplars.
-    - `outputs/figures/` — optional bar charts if matplotlib is available.
+- `analyze_press_releases_v3.py`
+  - Parses documents for AI keywords and extracts AI statements (any sentence containing AI terms).
+  - Generates EDA comparing Democratic vs Republican sources.
+  - Copies AI-containing files to `data/Dem_AI` and `data/Rep_AI`.
+  - Exports consolidated CSVs and optional charts.
 
-### Running
+- `evaluate_ai_statements.py` (optional)
+  - Reads `outputs/v3/ai_statements_v3.csv` and queries Crossref and arXiv to surface
+    candidate references for manual review.
+  - This aids evaluation but does not perform verification.
 
-Requirements: Python 3.9+ (standard library only; no external dependencies).
+### Running v3
 
-Place the two zip files either:
-- in this folder `press_releases_proj/`, or
-- one level up (the parent directory).
-
-Run v1:
+Requirements: Python 3.9+ (standard library only).
 
 ```bash
-python analyze_press_releases.py
+python analyze_press_releases_v3.py
 ```
 
-Run v2 (recommended):
+Optional evidence retrieval (after running v3):
 
 ```bash
-python analyze_press_releases_v2.py
+python evaluate_ai_statements.py
 ```
 
-The scripts will:
-- Extract `.txt` files to `data/press_releases/Democratic` and `data/press_releases/Republican`.
-- Analyze sentences for AI and science mentions, claim-like phrasing, and references.
-- Write outputs into `outputs/`.
-  - v2 additionally computes context-aware AI-related claims and verifiability scores, and writes party comparisons and optional figures.
+### Outputs
 
-### What the scripts detect
+Outputs are written to `outputs/v3/`:
+- `ai_statements_v3.csv` — one row per AI statement (sentence)
+- `ai_documents_v3.csv` — per-document AI presence summary
+- `ai_eda_summary_v3.csv` and `ai_eda_summary_v3.md` — party-level EDA
+- `ai_top_terms_v3.csv` — top AI terms per source
+- `ai_time_series_v3.csv` — monthly counts when dates are available
+- `figures/` — optional bar charts if `matplotlib` is available
 
-- AI keywords: e.g., "artificial intelligence", "machine learning", "LLM", "ChatGPT", "algorithmic transparency".
-- Science terms: e.g., "peer-reviewed", "evidence", "study", "randomized", "DOI", "arXiv", metrics like "accuracy".
-- Claim-like patterns: e.g., "research shows", "according to", "results indicate".
-- References: URLs, DOIs, arXiv IDs, bracketed citations `[12]` or `[Author, 2020]`, journal-like strings.
+Evaluation outputs (if you run the helper):
+- `outputs/v3_eval/ai_statement_candidate_evidence.json`
+- `outputs/v3_eval/ai_statement_candidate_evidence.csv`
 
-v2 improvements:
-- Uses boundary-aware regexes to avoid false positives from substrings (e.g., not matching "jail" for `ai`). Also normalizes variants like `A.I.` → `AI`.
-- Flags `is_ai_claim` only when claim-like phrasing co-occurs with AI/science terms in the sentence or its immediate neighbors.
-- Assigns a `verifiability_score` and `verifiability_level` to each mention based on presence/quality of references and quantitative metrics.
+### What is detected (v3)
 
-### Outputs schema
+- **AI statements**: any sentence that contains AI-related keywords (e.g., "artificial intelligence", "machine learning",
+  "LLM", "ChatGPT", "foundation model", "computer vision", "facial recognition", governance terms like
+  "algorithmic transparency").
+- **Contextual references captured**: URLs, DOIs, and arXiv IDs appearing in AI statements (for context only; no scoring).
 
-- JSON fields per document: `source`, `filename`, `document_date`, `num_sentences`, unique references, and `mentions`.
-- Each `mention` (sentence) includes flags for AI/science/claim-like, matched terms, references, and the sentence text.
+### File structure (example)
 
-v2 mention fields add: `is_ai_claim`, `number_metrics`, `verifiability_score`, `verifiability_level`, `context_before`, `context_after`.
-
-### Notes
-
-- The sentence splitter is rule-based and robust to bullets and line breaks.
-- Encoding fallback supports UTF-8/16, Latin-1, and CP1252.
-- Datetime in Markdown is timezone-aware (UTC).
-- Visualizations are optional; if `matplotlib` is not installed, v2 will skip plotting silently.
-
-### Summary statistics and comparisons (v2)
-
-Key CSVs in `outputs/`:
-- `press_release_party_comparison_v2.csv`: per-source counts for AI mentions, science mentions, claim-like sentences, AI-related claims, and average verifiability scores.
-- `press_release_top_terms_v2.csv`: top AI and science terms by source.
-- `press_release_document_summary_v2.csv`: per-document aggregates including `num_ai_claims` and average verifiability.
-
-If matplotlib is available, `outputs/figures/` will include:
-- `ai_mentions_by_source.png`
-- `science_mentions_by_source.png`
-- `ai_claims_by_source.png`
-
-These enable quick visual comparison of whether the Democratic vs Republican assemblies used more AI-related or scientific terminology, and whether their AI-related claims appear more verifiable (higher average scores).
+```
+press_releases_proj/
+  analyze_press_releases_v3.py
+  evaluate_ai_statements.py
+  data/
+    press_releases/
+      Democratic/
+      Republican/
+    Dem_AI/           # created by v3
+    Rep_AI/           # created by v3
+  outputs/
+    v3/
+      ai_statements_v3.csv
+      ai_documents_v3.csv
+      ai_eda_summary_v3.csv
+      ai_eda_summary_v3.md
+      ai_top_terms_v3.csv
+      ai_time_series_v3.csv
+      figures/
+    v3_eval/
+      ai_statement_candidate_evidence.json
+      ai_statement_candidate_evidence.csv
+```
 
 ### Maintenance
 
-- To extend AI or science term coverage, edit `AI_KEYWORDS` and `SCIENCE_TERMS` in the script.
-- To adjust "claim-like" detection, edit `CLAIM_PATTERNS`.
+- To extend AI term coverage, edit `AI_KEYWORDS` in `analyze_press_releases_v3.py`.
+- The sentence splitter is rule-based and robust to bullets and line breaks.
+- Encoding fallback supports UTF-8/16, Latin-1, and CP1252.
 
 
