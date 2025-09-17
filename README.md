@@ -20,9 +20,18 @@ produces exploratory data analysis (EDA), and organizes AI-containing documents 
   - Exports consolidated CSVs and optional charts.
 
 - `evaluate_ai_statements.py` (optional)
-  - Reads `outputs/v3/ai_statements_v3.csv` and queries Crossref and arXiv to surface
-    candidate references for manual review.
+  - Reads `outputs/v3/ai_statements_v3.csv` and can surface candidate references from Crossref/arXiv.
+  - CLI flags:
+    - `--skip-fetch`: do not call external APIs (faster);
+    - `--fill-missing`: merge existing JSON and guarantee one entry per AI statement;
+    - `--limit`: limit number of statements processed (`-1` = all);
+    - `--rows-per-source`: number of candidates fetched per source when fetching.
+  - Use `--skip-fetch --fill-missing` to quickly regenerate outputs without network calls.
   - This aids evaluation but does not perform verification.
+
+- `summarize_ai_reference_counts.py` (optional)
+  - Summarizes counts of scientific references per AI statement from the existing JSON
+    (no API calls). Writes CSV/JSON with totals.
 
 ### Running v3
 
@@ -38,6 +47,16 @@ Optional evidence retrieval (after running v3):
 python evaluate_ai_statements.py
 ```
 
+Examples:
+
+```bash
+# Ensure one row per AI statement (no API calls; fast)
+python evaluate_ai_statements.py --skip-fetch --fill-missing --limit -1
+
+# Summarize reference counts from existing JSON
+python summarize_ai_reference_counts.py
+```
+
 ### Outputs
 
 Outputs are written to `outputs/v3/`:
@@ -51,6 +70,8 @@ Outputs are written to `outputs/v3/`:
 Evaluation outputs (if you run the helper):
 - `outputs/v3_eval/ai_statement_candidate_evidence.json`
 - `outputs/v3_eval/ai_statement_candidate_evidence.csv`
+- `outputs/v3_eval/ai_statement_reference_counts.json`
+- `outputs/v3_eval/ai_statement_reference_counts.csv`
 
 ### What is detected (v3)
 
