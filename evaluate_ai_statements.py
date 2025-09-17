@@ -1,9 +1,10 @@
 import csv
 import json
 import sys
+import argparse
 from dataclasses import dataclass, asdict
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 import urllib.request
 import urllib.parse
@@ -178,41 +179,83 @@ def build_query(sentence: str, terms: List[str]) -> str:
     return f"{core} {snippet}"
 
 
-def evaluate(statements_csv: Path, outputs_dir: Path, limit: int = 50) -> None:
+def build_key(source: str, filename: str, sentence_index: int) -> Tuple[str, str, int]:
+    return (source or "", filename or "", int(sentence_index or 0))
+
+
+def evaluate(statements_csv: Path, outputs_dir: Path, limit: int = -1, rows_per_source: int = 3, skip_fetch: bool = False, fill_missing: bool = True) -> None:
     rows = read_ai_statements(statements_csv)
     outputs_dir.mkdir(parents=True, exist_ok=True)
-    evals: List[StatementEvaluation] = []
 
-    count = 0
+    # Load existing JSON (if present) to merge and ensure full coverage without re-fetching
+    existing_map: Dict[Tuple[str, str, int], Dict] = {}
+    existing_json_path = outputs_dir / "ai_statement_candidate_evidence.json"
+    if existing_json_path.exists():
+        try:
+            with open(existing_json_path, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+            for e in existing:
+                k = build_key(e.get("source", ""), e.get("filename", ""), e.get("sentence_index", 0))
+                existing_map[k] = e
+        except Exception:
+            existing_map = {}
+
+    evals: List[StatementEvaluation] = []
+    processed = 0
     for r in rows:
-        if count >= limit:
+        if limit >= 0 and processed >= limit:
             break
+        source = r.get("source", "")
+        filename = r.get("filename", "")
+        sentence_index = int(r.get("sentence_index", "0") or 0)
+        k = build_key(source, filename, sentence_index)
+
         sentence = r.get("sentence_text", "")
         terms = [t.strip() for t in (r.get("matched_ai_terms", "").split(";") if r.get("matched_ai_terms") else []) if t.strip()]
         existing_urls = [t.strip() for t in (r.get("urls", "").split(";") if r.get("urls") else []) if t.strip()]
         existing_dois = [t.strip() for t in (r.get("dois", "").split(";") if r.get("dois") else []) if t.strip()]
         existing_arxiv = [t.strip() for t in (r.get("arxiv", "").split(";") if r.get("arxiv") else []) if t.strip()]
 
-        query = build_query(sentence, terms)
+        # If already present and we are filling missing only, preserve
+        if k in existing_map and fill_missing:
+            e = existing_map[k]
+            # Ensure fields exist (backfill metadata from CSV in case prior run missed them)
+            out = StatementEvaluation(
+                source=source,
+                filename=filename,
+                sentence_index=sentence_index,
+                sentence_text=sentence or e.get("sentence_text", ""),
+                matched_ai_terms=terms or (e.get("matched_ai_terms", []) or []),
+                existing_urls=existing_urls or (e.get("existing_urls", []) or []),
+                existing_dois=existing_dois or (e.get("existing_dois", []) or []),
+                existing_arxiv=existing_arxiv or (e.get("existing_arxiv", []) or []),
+                candidates=[CandidateRef(**c) for c in (e.get("candidates", []) or [])],
+            )
+            evals.append(out)
+            processed += 1
+            continue
 
+        # Decide whether to fetch
         candidates: List[CandidateRef] = []
-        # If no DOI is already present, try Crossref
-        if not existing_dois:
-            try:
-                candidates.extend(search_crossref(query, rows=5))
-            except Exception:
-                pass
-        # If no arXiv ID is already present, try arXiv
-        if not existing_arxiv:
-            try:
-                candidates.extend(search_arxiv(query, max_results=5))
-            except Exception:
-                pass
+        if not skip_fetch:
+            query = build_query(sentence, terms)
+            # Try Crossref if no DOIs present
+            if not existing_dois:
+                try:
+                    candidates.extend(search_crossref(query, rows=rows_per_source))
+                except Exception:
+                    pass
+            # Try arXiv if no arXiv IDs present
+            if not existing_arxiv:
+                try:
+                    candidates.extend(search_arxiv(query, max_results=rows_per_source))
+                except Exception:
+                    pass
 
         ev = StatementEvaluation(
-            source=r.get("source", ""),
-            filename=r.get("filename", ""),
-            sentence_index=int(r.get("sentence_index", "0") or 0),
+            source=source,
+            filename=filename,
+            sentence_index=sentence_index,
             sentence_text=sentence,
             matched_ai_terms=terms,
             existing_urls=existing_urls,
@@ -221,7 +264,7 @@ def evaluate(statements_csv: Path, outputs_dir: Path, limit: int = 50) -> None:
             candidates=candidates,
         )
         evals.append(ev)
-        count += 1
+        processed += 1
 
     # JSON output (full)
     with open(outputs_dir / "ai_statement_candidate_evidence.json", "w", encoding="utf-8") as jf:
@@ -238,20 +281,40 @@ def evaluate(statements_csv: Path, outputs_dir: Path, limit: int = 50) -> None:
         writer = csv.writer(cf)
         writer.writerow(["source", "filename", "sentence_index", "num_candidates", "top_candidate_title", "top_candidate_url"])
         for e in evals:
-            top_title = e.candidates[0].title if e.candidates else ""
-            top_url = e.candidates[0].url or (f"https://doi.org/{e.candidates[0].doi}" if (e.candidates and e.candidates[0].doi) else "")
+            if e.candidates:
+                c0 = e.candidates[0]
+                top_title = c0.title or ""
+                top_url = c0.url or (f"https://doi.org/{c0.doi}" if c0.doi else "")
+            else:
+                top_title = ""
+                top_url = ""
             writer.writerow([e.source, e.filename, e.sentence_index, len(e.candidates), top_title, top_url])
 
     print(f"Wrote evaluation candidates to: {outputs_dir}")
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Evaluate AI statements by fetching candidate references or filling from existing outputs.")
+    parser.add_argument("--limit", type=int, default=-1, help="Max number of statements to process (-1 for all)")
+    parser.add_argument("--rows-per-source", type=int, default=3, help="Max candidates to fetch per source (Crossref/arXiv)")
+    parser.add_argument("--skip-fetch", action="store_true", help="Do not call external APIs; keep candidates empty")
+    parser.add_argument("--fill-missing", action="store_true", help="Merge existing JSON and ensure coverage for all statements")
+    args = parser.parse_args()
+
     inputs_csv = WORKSPACE / "outputs" / "v3" / "ai_statements_v3.csv"
     outputs_dir = WORKSPACE / "outputs" / "v3_eval"
     if not inputs_csv.exists():
         print("ai_statements_v3.csv not found. Run analyze_press_releases_v3.py first.", file=sys.stderr)
         sys.exit(2)
-    evaluate(inputs_csv, outputs_dir, limit=50)
+
+    evaluate(
+        inputs_csv,
+        outputs_dir,
+        limit=args.limit,
+        rows_per_source=args.rows_per_source,
+        skip_fetch=args.skip_fetch,
+        fill_missing=args.fill_missing or True,
+    )
 
 
 if __name__ == "__main__":
