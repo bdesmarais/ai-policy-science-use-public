@@ -19,6 +19,16 @@ produces exploratory data analysis (EDA), and organizes AI-containing documents 
   - Copies AI-containing files to `data/Dem_AI` and `data/Rep_AI`.
   - Exports consolidated CSVs and optional charts.
 
+- `build_claim_lists.py`
+  - Reads structured claims from `data/structured_claims/` CSVs and exports compact JSON lists used for reference retrieval.
+  - Output: `outputs/claims/dem_claims.json` and `outputs/claims/rep_claims.json` with fields: `press_release`, `claim_number`, `claim_text`, and `claim_desc` (optional description parsed from bracketed text at the end of the claim).
+
+- `gpt_references.py`
+  - Uses the OpenAI Responses API (GPT-5 or compatible) with web search and a JSON schema to fetch structured scientific references for each claim.
+  - Enforces de-duplication (by DOI, else title+year), incremental writes, and robust JSON extraction from model output.
+  - Adds per-claim metadata (model, timestamps, raw preview, parse errors) for auditing.
+  - Output: `outputs/structured_refs/dem_claim_references.json` and `outputs/structured_refs/rep_claim_references.json`.
+
 - `evaluate_ai_statements.py` (optional)
   - Reads `outputs/v3/ai_statements_v3.csv` and can surface candidate references from Crossref/arXiv.
   - CLI flags:
@@ -57,6 +67,70 @@ python evaluate_ai_statements.py --skip-fetch --fill-missing --limit -1
 python summarize_ai_reference_counts.py
 ```
 
+### Reference retrieval (current: GPT-5 + web search)
+
+Requirements:
+- Python 3.9+
+- Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Environment:
+- Set an OpenAI API key in your shell before running:
+  - PowerShell (Windows):
+
+```bash
+$env:OPENAI_API_KEY="sk-..."
+```
+
+  - bash/zsh (macOS/Linux):
+
+```bash
+export OPENAI_API_KEY="sk-..."
+```
+
+Optional environment variables:
+- `OPENAI_MODEL` (default: `gpt-5`)
+- `LOG_LEVEL` (e.g., `DEBUG`, `INFO`)
+
+Step 1 — Build compact claims JSONs from CSVs:
+
+```bash
+python build_claim_lists.py --limit -1
+```
+
+This writes:
+- `outputs/claims/dem_claims.json`
+- `outputs/claims/rep_claims.json`
+
+Each entry contains: `press_release`, `claim_number`, `claim_text`, and `claim_desc` when present.
+
+Step 2 — Generate structured references with GPT-5:
+
+```bash
+python gpt_references.py --limit -1 --per-claim 25 --model ${OPENAI_MODEL:-gpt-5}
+```
+
+What this does:
+- Calls the OpenAI Responses API with a concise system+user prompt per claim.
+- Enables the `web_search` tool and requests a strict JSON payload via JSON schema.
+- Falls back gracefully (with/without schema/tool) and forces a second attempt if no references are returned.
+- Extracts valid JSON from any text, then de-duplicates by DOI or title+year.
+- Writes incrementally after each claim to allow resuming.
+
+Outputs written to `outputs/structured_refs/`:
+- `dem_claim_references.json`
+- `rep_claim_references.json`
+
+Each entry includes:
+- `press_release`, `claim_number`, `claim_text`, `query` (the exact prompt), `references` (objects with `provider`, `id`, `doi`, `title`, `abstract`, `year`, `venue`, `authors`, `url`, `is_open_access`), `num_references`, and `search_metadata` (`provider`, `model`, `attempted_at`, `error`, `raw_preview`, `raw_text`, `parse_error`).
+
+Notes:
+- DOIs may be `null` if unavailable; a reputable URL (publisher or arXiv) is included.
+- Internet access is required; the script throttles internally and logs concise previews of raw outputs for debugging.
+
 ### Outputs
 
 Outputs are written to `outputs/v3/`:
@@ -79,6 +153,10 @@ Evaluation outputs (if you run the helper):
   "LLM", "ChatGPT", "foundation model", "computer vision", "facial recognition", governance terms like
   "algorithmic transparency").
 - **Contextual references captured**: URLs, DOIs, and arXiv IDs appearing in AI statements (for context only; no scoring).
+
+### Legacy (deprecated)
+
+- `structured_references.py` implemented a Semantic Scholar/OpenAlex-based pipeline with aggressive query compaction and rate limiting. It is no longer part of the primary workflow and is retained only for reference.
 
 ### File structure (example)
 
