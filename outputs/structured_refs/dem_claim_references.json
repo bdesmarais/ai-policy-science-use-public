@@ -1,0 +1,960 @@
+[
+  {
+    "press_release": "14-key-senator-becker-bills-advance-to-senate-floor.txt",
+    "claim_number": 1,
+    "claim_text": "The California Interagency Artificial Intelligence (AI) Working Group is established to produce a biannual report focusing on the implications and safeguards for AI technology. (The study of AI's societal implications and the development of effective safeguards are active areas of scientific and technical research).",
+    "query": "Task: Provide up to 10 scientific references relevant to the claim.\nContext: California legislative press release analysis.\nClaim (14-key-senator-becker-bills-advance-to-senate-floor.txt / #1): The California Interagency Artificial Intelligence (AI) Working Group is established to produce a biannual report focusing on the implications and safeguards for AI technology. (The study of AI's societal implications and the development of effective safeguards are active areas of scientific and technical research).\nClaim description: The study of AI's societal implications and the development of effective safeguards are active areas of scientific and technical research\nConstraints:\n- Prioritize peer-reviewed sources.\n- Include DOI when available.\n- Keep abstracts to 1-2 sentence summaries if exact abstracts not available.\n- Prefer recency for fast-moving topics (e.g., deepfakes, LLMs), else include seminal works.\nOutput: JSON object {\"references\": [{provider,id,doi,title,abstract,year,venue,authors,url,is_open_access}...]}.\n",
+    "references": [
+      {
+        "provider": "openai",
+        "id": "10.1145/3442188.3445922",
+        "doi": "10.1145/3442188.3445922",
+        "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+        "abstract": "This paper analyzes societal and environmental risks from training and deploying ever-larger language models, including bias, toxicity, and sustainability, and offers documentation and research recommendations to mitigate harms.",
+        "year": 2021,
+        "venue": "FAccT 2021 (ACM Conference on Fairness, Accountability, and Transparency)",
+        "authors": [
+          "Emily M. Bender",
+          "Timnit Gebru",
+          "Angelina McMillan-Major",
+          "Shmargaret Shmitchell"
+        ],
+        "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.48550/arXiv.1606.06565",
+        "doi": "10.48550/arXiv.1606.06565",
+        "title": "Concrete Problems in AI Safety",
+        "abstract": "The authors outline five practical safety problems—side effects, reward hacking, scalable supervision, safe exploration, and robustness to distributional shift—and propose research directions to reduce accident risks from real-world AI systems.",
+        "year": 2016,
+        "venue": "arXiv preprint",
+        "authors": [
+          "Dario Amodei",
+          "Chris Olah",
+          "Jacob Steinhardt",
+          "Paul Christiano",
+          "John Schulman",
+          "Dan Mané"
+        ],
+        "url": "https://arxiv.org/abs/1606.06565",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/11681878_14",
+        "doi": "10.1007/11681878_14",
+        "title": "Calibrating Noise to Sensitivity in Private Data Analysis",
+        "abstract": "This seminal work introduces the differential privacy framework and shows how to add noise calibrated to a query's sensitivity to protect individual privacy while enabling useful statistical analysis.",
+        "year": 2006,
+        "venue": "Theory of Cryptography Conference (TCC), Lecture Notes in Computer Science",
+        "authors": [
+          "Cynthia Dwork",
+          "Frank McSherry",
+          "Kobbi Nissim",
+          "Adam D. Smith"
+        ],
+        "url": "https://link.springer.com/chapter/10.1007/11681878_14",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1109/SP.2017.41",
+        "doi": "10.1109/SP.2017.41",
+        "title": "Membership Inference Attacks Against Machine Learning Models",
+        "abstract": "The paper demonstrates that trained ML models can leak whether specific records were in their training data, presenting black-box membership inference attacks and discussing factors influencing leakage and possible defenses.",
+        "year": 2017,
+        "venue": "IEEE Symposium on Security and Privacy (S&P)",
+        "authors": [
+          "Reza Shokri",
+          "Marco Stronati",
+          "Congzheng Song",
+          "Vitaly Shmatikov"
+        ],
+        "url": "https://arxiv.org/abs/1610.05820",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.48550/arXiv.1412.6572",
+        "doi": "10.48550/arXiv.1412.6572",
+        "title": "Explaining and Harnessing Adversarial Examples",
+        "abstract": "This work explains neural networks' vulnerability to adversarial perturbations via linearity, introduces a fast gradient method to generate attacks, and shows adversarial training can improve robustness.",
+        "year": 2014,
+        "venue": "arXiv preprint",
+        "authors": [
+          "Ian J. Goodfellow",
+          "Jonathon Shlens",
+          "Christian Szegedy"
+        ],
+        "url": "https://arxiv.org/abs/1412.6572",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1145/3287560.3287596",
+        "doi": "10.1145/3287560.3287596",
+        "title": "Model Cards for Model Reporting",
+        "abstract": "The authors propose \"model cards\" as standardized documentation describing a model's intended uses, performance across conditions and demographic groups, and relevant caveats to support transparency and accountability.",
+        "year": 2019,
+        "venue": "FAT* 2019 (ACM Conference on Fairness, Accountability, and Transparency)",
+        "authors": [
+          "Margaret Mitchell",
+          "Simone Wu",
+          "Andrew Zaldivar",
+          "Parker Barnes",
+          "Lucy Vasserman",
+          "Ben Hutchinson",
+          "Elena Spitzer",
+          "Inioluwa Deborah Raji",
+          "Timnit Gebru"
+        ],
+        "url": "https://arxiv.org/abs/1810.03993",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1145/3458723",
+        "doi": "10.1145/3458723",
+        "title": "Datasheets for Datasets",
+        "abstract": "This article proposes datasheets as structured documentation for datasets, detailing motivation, composition, collection processes, recommended uses, and risks to improve transparency and mitigate downstream harms.",
+        "year": 2021,
+        "venue": "Communications of the ACM",
+        "authors": [
+          "Timnit Gebru",
+          "Jamie Morgenstern",
+          "Briana Vecchione",
+          "Jennifer Wortman Vaughan",
+          "Hanna Wallach",
+          "Hal Daumé III",
+          "Kate Crawford"
+        ],
+        "url": "https://cacm.acm.org/research/datasheets-for-datasets/",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1145/3457607",
+        "doi": "10.1145/3457607",
+        "title": "A Survey on Bias and Fairness in Machine Learning",
+        "abstract": "A comprehensive survey of sources of bias, fairness definitions, applications exhibiting unfair outcomes, and methodological approaches for mitigation across machine learning subfields.",
+        "year": 2021,
+        "venue": "ACM Computing Surveys",
+        "authors": [
+          "Ninareh Mehrabi",
+          "Fred Morstatter",
+          "Nripsuta Saxena",
+          "Kristina Lerman",
+          "Aram Galstyan"
+        ],
+        "url": "https://arxiv.org/abs/1908.09635",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1145/3287560.3287598",
+        "doi": "10.1145/3287560.3287598",
+        "title": "Fairness and Abstraction in Sociotechnical Systems",
+        "abstract": "The paper argues that purely technical fairness interventions often fail without attention to sociotechnical context, identifying common traps and recommending process-focused, stakeholder-inclusive design.",
+        "year": 2019,
+        "venue": "FAT* 2019 (ACM Conference on Fairness, Accountability, and Transparency)",
+        "authors": [
+          "Andrew D. Selbst",
+          "danah boyd",
+          "Sorelle A. Friedler",
+          "Suresh Venkatasubramanian",
+          "Janet Vertesi"
+        ],
+        "url": "https://par.nsf.gov/biblio/10121131-fairness-abstraction-sociotechnical-systems",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.48550/arXiv.2108.07258",
+        "doi": "10.48550/arXiv.2108.07258",
+        "title": "On the Opportunities and Risks of Foundation Models",
+        "abstract": "This extensive interdisciplinary report surveys capabilities, applications, and societal impacts of large foundation models, emphasizing risks such as bias, misuse, and environmental costs, and calling for rigorous evaluation and governance.",
+        "year": 2021,
+        "venue": "arXiv preprint",
+        "authors": [
+          "Rishi Bommasani",
+          "Drew A. Hudson",
+          "Ehsan Adeli",
+          "Russ Altman",
+          "Simran Arora",
+          "Sydney von Arx",
+          "Michael S. Bernstein",
+          "Jeannette Bohg",
+          "Antoine Bosselut",
+          "Emma Brunskill",
+          "Percy Liang"
+        ],
+        "url": "https://arxiv.org/abs/2108.07258",
+        "is_open_access": true
+      }
+    ],
+    "num_references": 10,
+    "search_metadata": {
+      "provider": "openai",
+      "attempted_at": "2025-09-30T18:57:06Z",
+      "error": null,
+      "model": "gpt-5",
+      "raw_preview": "{\"references\": [{\"provider\": \"openai\", \"id\": \"10.1145/3442188.3445922\", \"doi\": \"10.1145/3442188.3445922\", \"title\": \"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\", \"abstract\": \"This paper analyzes societal and environmental risks from training and deploying ever-larger langua",
+      "parse_error": null,
+      "raw_text": "{\"references\": [{\"provider\": \"openai\", \"id\": \"10.1145/3442188.3445922\", \"doi\": \"10.1145/3442188.3445922\", \"title\": \"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\", \"abstract\": \"This paper analyzes societal and environmental risks from training and deploying ever-larger language models, including bias, toxicity, and sustainability, and offers documentation and research recommendations to mitigate harms.\", \"year\": 2021, \"venue\": \"FAccT 2021 (ACM Conference on Fairness, Accountability, and Transparency)\", \"authors\": [\"Emily M. Bender\", \"Timnit Gebru\", \"Angelina McMillan-Major\", \"Shmargaret Shmitchell\"], \"url\": \"https://dl.acm.org/doi/10.1145/3442188.3445922\", \"is_open_access\": false}, {\"provider\": \"openai\", \"id\": \"10.48550/arXiv.1606.06565\", \"doi\": \"10.48550/arXiv.1606.06565\", \"title\": \"Concrete Problems in AI Safety\", \"abstract\": \"The authors outline five practical safety problems—side effects, reward hacking, scalable supervision, safe exploration, and robustness to distributional shift—and propose research directions to reduce accident risks from real-world AI systems.\", \"year\": 2016, \"venue\": \"arXiv preprint\", \"authors\": [\"Dario Amodei\", \"Chris Olah\", \"Jacob Steinhardt\", \"Paul Christiano\", \"John Schulman\", \"Dan Man\\u00e9\"], \"url\": \"https://arxiv.org/abs/1606.06565\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.1007/11681878_14\", \"doi\": \"10.1007/11681878_14\", \"title\": \"Calibrating Noise to Sensitivity in Private Data Analysis\", \"abstract\": \"This seminal work introduces the differential privacy framework and shows how to add noise calibrated to a query's sensitivity to protect individual privacy while enabling useful statistical analysis.\", \"year\": 2006, \"venue\": \"Theory of Cryptography Conference (TCC), Lecture Notes in Computer Science\", \"authors\": [\"Cynthia Dwork\", \"Frank McSherry\", \"Kobbi Nissim\", \"Adam D. Smith\"], \"url\": \"https://link.springer.com/chapter/10.1007/11681878_14\", \"is_open_access\": false}, {\"provider\": \"openai\", \"id\": \"10.1109/SP.2017.41\", \"doi\": \"10.1109/SP.2017.41\", \"title\": \"Membership Inference Attacks Against Machine Learning Models\", \"abstract\": \"The paper demonstrates that trained ML models can leak whether specific records were in their training data, presenting black-box membership inference attacks and discussing factors influencing leakage and possible defenses.\", \"year\": 2017, \"venue\": \"IEEE Symposium on Security and Privacy (S&P)\", \"authors\": [\"Reza Shokri\", \"Marco Stronati\", \"Congzheng Song\", \"Vitaly Shmatikov\"], \"url\": \"https://arxiv.org/abs/1610.05820\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.48550/arXiv.1412.6572\", \"doi\": \"10.48550/arXiv.1412.6572\", \"title\": \"Explaining and Harnessing Adversarial Examples\", \"abstract\": \"This work explains neural networks' vulnerability to adversarial perturbations via linearity, introduces a fast gradient method to generate attacks, and shows adversarial training can improve robustness.\", \"year\": 2014, \"venue\": \"arXiv preprint\", \"authors\": [\"Ian J. Goodfellow\", \"Jonathon Shlens\", \"Christian Szegedy\"], \"url\": \"https://arxiv.org/abs/1412.6572\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.1145/3287560.3287596\", \"doi\": \"10.1145/3287560.3287596\", \"title\": \"Model Cards for Model Reporting\", \"abstract\": \"The authors propose \\\"model cards\\\" as standardized documentation describing a model's intended uses, performance across conditions and demographic groups, and relevant caveats to support transparency and accountability.\", \"year\": 2019, \"venue\": \"FAT* 2019 (ACM Conference on Fairness, Accountability, and Transparency)\", \"authors\": [\"Margaret Mitchell\", \"Simone Wu\", \"Andrew Zaldivar\", \"Parker Barnes\", \"Lucy Vasserman\", \"Ben Hutchinson\", \"Elena Spitzer\", \"Inioluwa Deborah Raji\", \"Timnit Gebru\"], \"url\": \"https://arxiv.org/abs/1810.03993\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.1145/3458723\", \"doi\": \"10.1145/3458723\", \"title\": \"Datasheets for Datasets\", \"abstract\": \"This article proposes datasheets as structured documentation for datasets, detailing motivation, composition, collection processes, recommended uses, and risks to improve transparency and mitigate downstream harms.\", \"year\": 2021, \"venue\": \"Communications of the ACM\", \"authors\": [\"Timnit Gebru\", \"Jamie Morgenstern\", \"Briana Vecchione\", \"Jennifer Wortman Vaughan\", \"Hanna Wallach\", \"Hal Daum\\u00e9 III\", \"Kate Crawford\"], \"url\": \"https://cacm.acm.org/research/datasheets-for-datasets/\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.1145/3457607\", \"doi\": \"10.1145/3457607\", \"title\": \"A Survey on Bias and Fairness in Machine Learning\", \"abstract\": \"A comprehensive survey of sources of bias, fairness definitions, applications exhibiting unfair outcomes, and methodological approaches for mitigation across machine learning subfields.\", \"year\": 2021, \"venue\": \"ACM Computing Surveys\", \"authors\": [\"Ninareh Mehrabi\", \"Fred Morstatter\", \"Nripsuta Saxena\", \"Kristina Lerman\", \"Aram Galstyan\"], \"url\": \"https://arxiv.org/abs/1908.09635\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.1145/3287560.3287598\", \"doi\": \"10.1145/3287560.3287598\", \"title\": \"Fairness and Abstraction in Sociotechnical Systems\", \"abstract\": \"The paper argues that purely technical fairness interventions often fail without attention to sociotechnical context, identifying common traps and recommending process-focused, stakeholder-inclusive design.\", \"year\": 2019, \"venue\": \"FAT* 2019 (ACM Conference on Fairness, Accountability, and Transparency)\", \"authors\": [\"Andrew D. Selbst\", \"danah boyd\", \"Sorelle A. Friedler\", \"Suresh Venkatasubramanian\", \"Janet Vertesi\"], \"url\": \"https://par.nsf.gov/biblio/10121131-fairness-abstraction-sociotechnical-systems\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.48550/arXiv.2108.07258\", \"doi\": \"10.48550/arXiv.2108.07258\", \"title\": \"On the Opportunities and Risks of Foundation Models\", \"abstract\": \"This extensive interdisciplinary report surveys capabilities, applications, and societal impacts of large foundation models, emphasizing risks such as bias, misuse, and environmental costs, and calling for rigorous evaluation and governance.\", \"year\": 2021, \"venue\": \"arXiv preprint\", \"authors\": [\"Rishi Bommasani\", \"Drew A. Hudson\", \"Ehsan Adeli\", \"Russ Altman\", \"Simran Arora\", \"Sydney von Arx\", \"Michael S. Bernstein\", \"Jeannette Bohg\", \"Antoine Bosselut\", \"Emma Brunskill\", \"Percy Liang\"], \"url\": \"https://arxiv.org/abs/2108.07258\", \"is_open_access\": true}]}"
+    }
+  },
+  {
+    "press_release": "20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt",
+    "claim_number": 1,
+    "claim_text": "Fullerton College's welding program will acquire welding machines capable of working with materials used in aerospace and national defense projects. (This indicates a claim about the advanced capabilities and material compatibility of modern welding technology).",
+    "query": "Task: Provide up to 10 scientific references relevant to the claim.\nContext: California legislative press release analysis.\nClaim (20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt / #1): Fullerton College's welding program will acquire welding machines capable of working with materials used in aerospace and national defense projects. (This indicates a claim about the advanced capabilities and material compatibility of modern welding technology).\nClaim description: This indicates a claim about the advanced capabilities and material compatibility of modern welding technology\nConstraints:\n- Prioritize peer-reviewed sources.\n- Include DOI when available.\n- Keep abstracts to 1-2 sentence summaries if exact abstracts not available.\n- Prefer recency for fast-moving topics (e.g., deepfakes, LLMs), else include seminal works.\nOutput: JSON object {\"references\": [{provider,id,doi,title,abstract,year,venue,authors,url,is_open_access}...]}.\n",
+    "references": [
+      {
+        "provider": "openai",
+        "id": "10.1016/j.mser.2005.07.001",
+        "doi": "10.1016/j.mser.2005.07.001",
+        "title": "Friction stir welding and processing",
+        "abstract": "Seminal review covering mechanisms, microstructure–property relationships, and process parameters for friction stir welding/processing, with emphasis on aerospace aluminum alloys and other difficult-to-weld metals.",
+        "year": 2005,
+        "venue": "Materials Science and Engineering: R: Reports",
+        "authors": [
+          "R. S. Mishra",
+          "Z. Y. Ma"
+        ],
+        "url": "https://www.sciencedirect.com/science/article/pii/S0927796X05000768",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.3390/ma16082971",
+        "doi": "10.3390/ma16082971",
+        "title": "Friction Stir Welding of Aluminum in the Aerospace Industry: The Current Progress and State-of-the-Art Review",
+        "abstract": "Comprehensive review of friction stir welding advances for aerospace-grade aluminum alloys, including process variants, joint performance, and application case studies.",
+        "year": 2023,
+        "venue": "Materials",
+        "authors": [
+          "Mohamed M. Z. Ahmed",
+          "Mohamed M. El-Sayed Seleman",
+          "Dariusz Fydrych",
+          "Gürel Çam"
+        ],
+        "url": "https://www.mdpi.com/1996-1944/16/8/2971",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s00170-018-2030-x",
+        "doi": "10.1007/s00170-018-2030-x",
+        "title": "A review on laser beam welding of titanium alloys",
+        "abstract": "Review of laser welding mechanisms, parameters, defects, and mechanical performance for titanium alloys such as Ti‑6Al‑4V used in aerospace applications.",
+        "year": 2018,
+        "venue": "The International Journal of Advanced Manufacturing Technology",
+        "authors": [
+          "S. T. Auwal",
+          "S. Ramesh",
+          "F. Yusof",
+          "S. M. Manladan"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s00170-018-2030-x",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.3390/met13061065",
+        "doi": "10.3390/met13061065",
+        "title": "Electron-Beam Welding of Titanium and Ti6Al4V Alloy",
+        "abstract": "Experimental study of electron-beam welding of commercially pure titanium and Ti‑6Al‑4V, detailing microstructure evolution and mechanical properties as a function of beam power.",
+        "year": 2023,
+        "venue": "Metals",
+        "authors": [
+          "Georgi Kotlarski",
+          "Darina Kaisheva",
+          "Maria Ormanova",
+          "Borislav Stoyanov",
+          "Vladimir Dunchev",
+          "Angel Anchev",
+          "Stefan Valkov"
+        ],
+        "url": "https://www.mdpi.com/2075-4701/13/6/1065",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s00170-022-09064-9",
+        "doi": "10.1007/s00170-022-09064-9",
+        "title": "Electron beam welding of rolled and laser powder bed fused Inconel 718",
+        "abstract": "Compares EBW of wrought and additively manufactured Inconel 718, reporting weld morphology, microhardness, tensile behavior, and implications for aerospace component joining.",
+        "year": 2022,
+        "venue": "The International Journal of Advanced Manufacturing Technology",
+        "authors": [
+          "Akash Sali",
+          "Vivek Patel",
+          "James Hyder",
+          "David Hyder",
+          "Mike Corliss",
+          "Wayne Hung"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s00170-022-09064-9",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s12613-023-2782-7",
+        "doi": "10.1007/s12613-023-2782-7",
+        "title": "A review of linear friction welding of Ni-based superalloys",
+        "abstract": "Survey of linear friction welding for nickel‑based superalloys used in aero‑engines, covering process fundamentals, microstructures, mechanical properties, and application prospects.",
+        "year": 2024,
+        "venue": "International Journal of Minerals, Metallurgy and Materials",
+        "authors": [
+          "Xiawei Yang",
+          "Tingxi Meng",
+          "Qiang Chu",
+          "Yu Su",
+          "Zhenguo Guo",
+          "Rui Xu",
+          "Wenlong Fan",
+          "Tiejun Ma",
+          "Wenya Li"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s12613-023-2782-7",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s11665-022-07128-1",
+        "doi": "10.1007/s11665-022-07128-1",
+        "title": "The State of the Art for Wire Arc Additive Manufacturing Process of Titanium Alloys for Aerospace Applications",
+        "abstract": "Review of WAAM (wire‑arc additive manufacturing) of titanium alloys, discussing process strategies, defects, microstructure, and pathways to aerospace‑grade properties.",
+        "year": 2022,
+        "venue": "Journal of Materials Engineering and Performance",
+        "authors": [
+          "Dipayan Chakraborty",
+          "Tumula Tirumala",
+          "Srihari Chitral",
+          "B. N. Sahoo",
+          "D. V. Kiran",
+          "P. Ajay Kumar"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s11665-022-07128-1",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/BF00587697",
+        "doi": "10.1007/BF00587697",
+        "title": "Weldability of aluminium-lithium alloy 2090 using laser welding",
+        "abstract": "Early study demonstrating laser welding of Al‑Li 2090, analyzing weldability, microstructure, and joint efficiency relevant to aerospace lightweight structures.",
+        "year": 1990,
+        "venue": "Journal of Materials Science",
+        "authors": [
+          "P. A. Molian",
+          "T. S. Srivatsan"
+        ],
+        "url": "https://link.springer.com/article/10.1007/BF00587697",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1016/j.matdes.2014.08.011",
+        "doi": "10.1016/j.matdes.2014.08.011",
+        "title": "Hybrid laser/arc welding of advanced high strength steel in different butt joint configurations",
+        "abstract": "Experimental optimization of hybrid laser–arc welding on thick AHSS plates, showing how groove design and process parameters control HAZ softening and meet ballistic requirements.",
+        "year": 2014,
+        "venue": "Materials & Design",
+        "authors": [
+          "M. Mazar Atabaki",
+          "J. Ma",
+          "G. Yang",
+          "R. Kovacevic"
+        ],
+        "url": "https://doi.org/10.1016/j.matdes.2014.08.011",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s42243-020-00423-y",
+        "doi": "10.1007/s42243-020-00423-y",
+        "title": "Effect of adhesive on laser-arc hybrid welding of aluminum alloy to high-strength steel joint",
+        "abstract": "Investigates hybrid laser–arc welding of dissimilar aluminum to high‑strength steel with interlayers/adhesive, detailing intermetallic control and joint strength—relevant to lightweight defense/aerospace structures.",
+        "year": 2020,
+        "venue": "Journal of Iron and Steel Research International",
+        "authors": [
+          "Hong‑yang Wang",
+          "Yu‑qing Ma",
+          "Li‑ming Liu"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s42243-020-00423-y",
+        "is_open_access": false
+      }
+    ],
+    "num_references": 10,
+    "search_metadata": {
+      "provider": "openai",
+      "attempted_at": "2025-09-30T18:59:59Z",
+      "error": null,
+      "model": "gpt-5",
+      "raw_preview": "{\"references\":[{\"provider\":\"openai\",\"id\":\"10.1016/j.mser.2005.07.001\",\"doi\":\"10.1016/j.mser.2005.07.001\",\"title\":\"Friction stir welding and processing\",\"abstract\":\"Seminal review covering mechanisms, microstructure–property relationships, and process parameters for friction stir welding/processing, ",
+      "parse_error": null,
+      "raw_text": "{\"references\":[{\"provider\":\"openai\",\"id\":\"10.1016/j.mser.2005.07.001\",\"doi\":\"10.1016/j.mser.2005.07.001\",\"title\":\"Friction stir welding and processing\",\"abstract\":\"Seminal review covering mechanisms, microstructure–property relationships, and process parameters for friction stir welding/processing, with emphasis on aerospace aluminum alloys and other difficult-to-weld metals.\",\"year\":2005,\"venue\":\"Materials Science and Engineering: R: Reports\",\"authors\":[\"R. S. Mishra\",\"Z. Y. Ma\"],\"url\":\"https://www.sciencedirect.com/science/article/pii/S0927796X05000768\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.3390/ma16082971\",\"doi\":\"10.3390/ma16082971\",\"title\":\"Friction Stir Welding of Aluminum in the Aerospace Industry: The Current Progress and State-of-the-Art Review\",\"abstract\":\"Comprehensive review of friction stir welding advances for aerospace-grade aluminum alloys, including process variants, joint performance, and application case studies.\",\"year\":2023,\"venue\":\"Materials\",\"authors\":[\"Mohamed M. Z. Ahmed\",\"Mohamed M. El-Sayed Seleman\",\"Dariusz Fydrych\",\"Gürel Çam\"],\"url\":\"https://www.mdpi.com/1996-1944/16/8/2971\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.1007/s00170-018-2030-x\",\"doi\":\"10.1007/s00170-018-2030-x\",\"title\":\"A review on laser beam welding of titanium alloys\",\"abstract\":\"Review of laser welding mechanisms, parameters, defects, and mechanical performance for titanium alloys such as Ti‑6Al‑4V used in aerospace applications.\",\"year\":2018,\"venue\":\"The International Journal of Advanced Manufacturing Technology\",\"authors\":[\"S. T. Auwal\",\"S. Ramesh\",\"F. Yusof\",\"S. M. Manladan\"],\"url\":\"https://link.springer.com/article/10.1007/s00170-018-2030-x\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.3390/met13061065\",\"doi\":\"10.3390/met13061065\",\"title\":\"Electron-Beam Welding of Titanium and Ti6Al4V Alloy\",\"abstract\":\"Experimental study of electron-beam welding of commercially pure titanium and Ti‑6Al‑4V, detailing microstructure evolution and mechanical properties as a function of beam power.\",\"year\":2023,\"venue\":\"Metals\",\"authors\":[\"Georgi Kotlarski\",\"Darina Kaisheva\",\"Maria Ormanova\",\"Borislav Stoyanov\",\"Vladimir Dunchev\",\"Angel Anchev\",\"Stefan Valkov\"],\"url\":\"https://www.mdpi.com/2075-4701/13/6/1065\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.1007/s00170-022-09064-9\",\"doi\":\"10.1007/s00170-022-09064-9\",\"title\":\"Electron beam welding of rolled and laser powder bed fused Inconel 718\",\"abstract\":\"Compares EBW of wrought and additively manufactured Inconel 718, reporting weld morphology, microhardness, tensile behavior, and implications for aerospace component joining.\",\"year\":2022,\"venue\":\"The International Journal of Advanced Manufacturing Technology\",\"authors\":[\"Akash Sali\",\"Vivek Patel\",\"James Hyder\",\"David Hyder\",\"Mike Corliss\",\"Wayne Hung\"],\"url\":\"https://link.springer.com/article/10.1007/s00170-022-09064-9\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1007/s12613-023-2782-7\",\"doi\":\"10.1007/s12613-023-2782-7\",\"title\":\"A review of linear friction welding of Ni-based superalloys\",\"abstract\":\"Survey of linear friction welding for nickel‑based superalloys used in aero‑engines, covering process fundamentals, microstructures, mechanical properties, and application prospects.\",\"year\":2024,\"venue\":\"International Journal of Minerals, Metallurgy and Materials\",\"authors\":[\"Xiawei Yang\",\"Tingxi Meng\",\"Qiang Chu\",\"Yu Su\",\"Zhenguo Guo\",\"Rui Xu\",\"Wenlong Fan\",\"Tiejun Ma\",\"Wenya Li\"],\"url\":\"https://link.springer.com/article/10.1007/s12613-023-2782-7\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1007/s11665-022-07128-1\",\"doi\":\"10.1007/s11665-022-07128-1\",\"title\":\"The State of the Art for Wire Arc Additive Manufacturing Process of Titanium Alloys for Aerospace Applications\",\"abstract\":\"Review of WAAM (wire‑arc additive manufacturing) of titanium alloys, discussing process strategies, defects, microstructure, and pathways to aerospace‑grade properties.\",\"year\":2022,\"venue\":\"Journal of Materials Engineering and Performance\",\"authors\":[\"Dipayan Chakraborty\",\"Tumula Tirumala\",\"Srihari Chitral\",\"B. N. Sahoo\",\"D. V. Kiran\",\"P. Ajay Kumar\"],\"url\":\"https://link.springer.com/article/10.1007/s11665-022-07128-1\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1007/BF00587697\",\"doi\":\"10.1007/BF00587697\",\"title\":\"Weldability of aluminium-lithium alloy 2090 using laser welding\",\"abstract\":\"Early study demonstrating laser welding of Al‑Li 2090, analyzing weldability, microstructure, and joint efficiency relevant to aerospace lightweight structures.\",\"year\":1990,\"venue\":\"Journal of Materials Science\",\"authors\":[\"P. A. Molian\",\"T. S. Srivatsan\"],\"url\":\"https://link.springer.com/article/10.1007/BF00587697\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1016/j.matdes.2014.08.011\",\"doi\":\"10.1016/j.matdes.2014.08.011\",\"title\":\"Hybrid laser/arc welding of advanced high strength steel in different butt joint configurations\",\"abstract\":\"Experimental optimization of hybrid laser–arc welding on thick AHSS plates, showing how groove design and process parameters control HAZ softening and meet ballistic requirements.\",\"year\":2014,\"venue\":\"Materials & Design\",\"authors\":[\"M. Mazar Atabaki\",\"J. Ma\",\"G. Yang\",\"R. Kovacevic\"],\"url\":\"https://doi.org/10.1016/j.matdes.2014.08.011\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1007/s42243-020-00423-y\",\"doi\":\"10.1007/s42243-020-00423-y\",\"title\":\"Effect of adhesive on laser-arc hybrid welding of aluminum alloy to high-strength steel joint\",\"abstract\":\"Investigates hybrid laser–arc welding of dissimilar aluminum to high‑strength steel with interlayers/adhesive, detailing intermetallic control and joint strength—relevant to lightweight defense/aerospace structures.\",\"year\":2020,\"venue\":\"Journal of Iron and Steel Research International\",\"authors\":[\"Hong‑yang Wang\",\"Yu‑qing Ma\",\"Li‑ming Liu\"],\"url\":\"https://link.springer.com/article/10.1007/s42243-020-00423-y\",\"is_open_access\":false}]}"
+    }
+  },
+  {
+    "press_release": "20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt",
+    "claim_number": 2,
+    "claim_text": "The college plans to purchase new fabrication and cutting equipment that will enable students to perform more complex structural weldments. (This refers to advancements in industrial fabrication processes and equipment).",
+    "query": "Task: Provide up to 10 scientific references relevant to the claim.\nContext: California legislative press release analysis.\nClaim (20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt / #2): The college plans to purchase new fabrication and cutting equipment that will enable students to perform more complex structural weldments. (This refers to advancements in industrial fabrication processes and equipment).\nClaim description: This refers to advancements in industrial fabrication processes and equipment\nConstraints:\n- Prioritize peer-reviewed sources.\n- Include DOI when available.\n- Keep abstracts to 1-2 sentence summaries if exact abstracts not available.\n- Prefer recency for fast-moving topics (e.g., deepfakes, LLMs), else include seminal works.\nOutput: JSON object {\"references\": [{provider,id,doi,title,abstract,year,venue,authors,url,is_open_access}...]}.\n",
+    "references": [
+      {
+        "provider": "openai",
+        "id": "10.1007/s00170-020-05192-2",
+        "doi": "10.1007/s00170-020-05192-2",
+        "title": "Laser-arc hybrid welding of 12- and 15-mm thick structural steel",
+        "abstract": "Demonstrates laser-arc hybrid welding on 12–15 mm structural steel, detailing process windows, defects (e.g., root humping), and mechanical performance, and shows how high-power lasers with arc assistance enable single-pass welding of thick structural plates.",
+        "year": 2020,
+        "venue": "The International Journal of Advanced Manufacturing Technology",
+        "authors": [
+          "Ivan Bunaziv",
+          "Cato Dørum",
+          "Steen Erik Nielsen",
+          "Pasi Suikkanen",
+          "Xiaobo Ren",
+          "Bård Nyhus",
+          "Magnus Eriksson",
+          "Odd M. Akselsen"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s00170-020-05192-2",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s40194-022-01255-y",
+        "doi": "10.1007/s40194-022-01255-y",
+        "title": "Hybrid laser-arc welding of laser- and plasma-cut 20-mm-thick structural steels",
+        "abstract": "Investigates single-pass hybrid laser–arc welding on 20 mm S355J2 plates with edges prepared by laser and plasma cutting, reporting gap-bridgeability, tolerance to misalignment, and weld quality, thereby linking cutting quality to achievable structural weldments.",
+        "year": 2022,
+        "venue": "Welding in the World",
+        "authors": [
+          "Ömer Üstündağ",
+          "Nasim Bakir",
+          "Sergej Gook",
+          "Andrey Gumenyuk",
+          "Michael Rethmeier"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s40194-022-01255-y",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s00170-022-09516-2",
+        "doi": "10.1007/s00170-022-09516-2",
+        "title": "Evaluation of high penetration hybrid laser-GMAW welding process productivity applied in the joining of thick plates",
+        "abstract": "Assesses productivity and parameterization of hybrid laser–GMAW for thick-plate joining, showing large reductions in time and consumables compared to conventional GMAW while maintaining weld quality—evidence that advanced welding equipment enables complex fabrications efficiently.",
+        "year": 2022,
+        "venue": "The International Journal of Advanced Manufacturing Technology",
+        "authors": [
+          "Rafael Gomes Nunes Silva",
+          "Max Baranenko Rodrigues",
+          "Milton Pereira",
+          "Koen Faes"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s00170-022-09516-2",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.3390/ma14185447",
+        "doi": "10.3390/ma14185447",
+        "title": "Hybrid Welding (Laser–Electric Arc MAG) of High Yield Point Steel S960QL",
+        "abstract": "Reports hybrid laser–MAG welding of high-strength S960QL steel plates, achieving lower heat input and comparable or improved mechanical properties relative to conventional MAG, supporting the role of hybrid equipment for demanding structural weldments.",
+        "year": 2021,
+        "venue": "Materials",
+        "authors": [
+          "Michał Urbańczyk",
+          "Janusz Adamiec"
+        ],
+        "url": "https://www.mdpi.com/1996-1944/14/18/5447",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1016/j.optlastec.2017.09.038",
+        "doi": "10.1016/j.optlastec.2017.09.038",
+        "title": "Hybrid laser arc welding: State-of-art review",
+        "abstract": "Comprehensive review of hybrid laser–arc welding principles, parameters, benefits, and industrial applications, highlighting deep penetration, speed, and gap-bridging capabilities critical for complex thick-section weldments.",
+        "year": 2018,
+        "venue": "Optics and Laser Technology",
+        "authors": [
+          "Bappa Acherjee"
+        ],
+        "url": "https://www.sciencedirect.com/science/article/pii/S0030399217305543",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.3390/ma17133273",
+        "doi": "10.3390/ma17133273",
+        "title": "Abrasive Waterjet Machining",
+        "abstract": "Authoritative review of abrasive waterjet technology, process physics, and accuracy/quality control, describing capabilities to cold-cut diverse metals and thick sections without HAZ—relevant to preparing parts for high-quality structural weldments.",
+        "year": 2024,
+        "venue": "Materials",
+        "authors": [
+          "Mohamed Hashish"
+        ],
+        "url": "https://www.mdpi.com/1996-1944/17/13/3273",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.3390/app11083344",
+        "doi": "10.3390/app11083344",
+        "title": "Recent Progress Trend on Abrasive Waterjet Cutting of Metallic Materials: A Review",
+        "abstract": "Reviews recent advances in abrasive waterjet cutting of metals, summarizing parameter influences on kerf quality, roughness and taper, and optimization methods to achieve precise cuts for fabrication of complex components.",
+        "year": 2021,
+        "venue": "Applied Sciences",
+        "authors": [
+          "Jennifer Milaor Llanto",
+          "Majid Tolouei-Rad",
+          "Ali Vafadar",
+          "Muhammad Aamir"
+        ],
+        "url": "https://www.mdpi.com/2076-3417/11/8/3344",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "FHWA-HRT-20-056",
+        "doi": null,
+        "title": "Evaluation of Holes Fabricated Using Plasma Arc Cutting",
+        "abstract": "U.S. FHWA technical report presenting fatigue and tensile behavior of steel plates with plasma-cut holes, providing data on performance vs. traditional methods and guidance for structural fabrication using plasma cutting.",
+        "year": 2020,
+        "venue": "Federal Highway Administration Report (FHWA-HRT-20-056)",
+        "authors": [
+          "Justin Ocel"
+        ],
+        "url": "https://highways.dot.gov/research/publications/infrastructure/FHWA-HRT-20-056",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.24867/ATM-2020-1-001",
+        "doi": "10.24867/ATM-2020-1-001",
+        "title": "An Experimental Analysis of Cutting Quality in Plasma Arc Machining",
+        "abstract": "Experimental study on plasma arc cutting of low-alloy steel analyzing kerf geometry, surface roughness, and HAZ characteristics versus process parameters, indicating achievable quality and limitations relevant to structural fabrication.",
+        "year": 2020,
+        "venue": "Advanced Technologies and Materials",
+        "authors": [
+          "Marin Gostimirović",
+          "Dragan Rodić",
+          "Milenko Sekulić",
+          "Andjelko Aleksić"
+        ],
+        "url": "https://atm-journal.uns.ac.rs/index.php/atm/article/view/ATM-2020-1-001",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1016/j.phpro.2015.11.018",
+        "doi": "10.1016/j.phpro.2015.11.018",
+        "title": "Effect of Cut Quality on Hybrid Laser Arc Welding of Thick Section Steels",
+        "abstract": "Conference paper examining how prior cut quality from laser, waterjet, plasma, and milling affects subsequent hybrid laser–arc welding of 25 mm steel plates, showing that cutting method and edge quality influence optimal welding parameters and joint quality.",
+        "year": 2015,
+        "venue": "Physics Procedia (15th Nordic Laser Materials Processing Conference)",
+        "authors": [
+          "Farhang Farrokhi",
+          "Steen Erik Nielsen",
+          "R. H. Schmidt",
+          "S. S. Pedersen",
+          "Morten Kristiansen"
+        ],
+        "url": "https://www.sciencedirect.com/science/article/pii/S1875389215014540",
+        "is_open_access": true
+      }
+    ],
+    "num_references": 10,
+    "search_metadata": {
+      "provider": "openai",
+      "attempted_at": "2025-09-30T19:03:21Z",
+      "error": null,
+      "model": "gpt-5",
+      "raw_preview": "{\"references\": [{\"provider\": \"openai\", \"id\": \"10.1007/s00170-020-05192-2\", \"doi\": \"10.1007/s00170-020-05192-2\", \"title\": \"Laser-arc hybrid welding of 12- and 15-mm thick structural steel\", \"abstract\": \"Demonstrates laser-arc hybrid welding on 12–15 mm structural steel, detailing process windows, def",
+      "parse_error": null,
+      "raw_text": "{\"references\": [{\"provider\": \"openai\", \"id\": \"10.1007/s00170-020-05192-2\", \"doi\": \"10.1007/s00170-020-05192-2\", \"title\": \"Laser-arc hybrid welding of 12- and 15-mm thick structural steel\", \"abstract\": \"Demonstrates laser-arc hybrid welding on 12–15 mm structural steel, detailing process windows, defects (e.g., root humping), and mechanical performance, and shows how high-power lasers with arc assistance enable single-pass welding of thick structural plates.\", \"year\": 2020, \"venue\": \"The International Journal of Advanced Manufacturing Technology\", \"authors\": [\"Ivan Bunaziv\", \"Cato Dørum\", \"Steen Erik Nielsen\", \"Pasi Suikkanen\", \"Xiaobo Ren\", \"Bård Nyhus\", \"Magnus Eriksson\", \"Odd M. Akselsen\"], \"url\": \"https://link.springer.com/article/10.1007/s00170-020-05192-2\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.1007/s40194-022-01255-y\", \"doi\": \"10.1007/s40194-022-01255-y\", \"title\": \"Hybrid laser-arc welding of laser- and plasma-cut 20-mm-thick structural steels\", \"abstract\": \"Investigates single-pass hybrid laser–arc welding on 20 mm S355J2 plates with edges prepared by laser and plasma cutting, reporting gap-bridgeability, tolerance to misalignment, and weld quality, thereby linking cutting quality to achievable structural weldments.\", \"year\": 2022, \"venue\": \"Welding in the World\", \"authors\": [\"Ömer Üstündağ\", \"Nasim Bakir\", \"Sergej Gook\", \"Andrey Gumenyuk\", \"Michael Rethmeier\"], \"url\": \"https://link.springer.com/article/10.1007/s40194-022-01255-y\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.1007/s00170-022-09516-2\", \"doi\": \"10.1007/s00170-022-09516-2\", \"title\": \"Evaluation of high penetration hybrid laser-GMAW welding process productivity applied in the joining of thick plates\", \"abstract\": \"Assesses productivity and parameterization of hybrid laser–GMAW for thick-plate joining, showing large reductions in time and consumables compared to conventional GMAW while maintaining weld quality—evidence that advanced welding equipment enables complex fabrications efficiently.\", \"year\": 2022, \"venue\": \"The International Journal of Advanced Manufacturing Technology\", \"authors\": [\"Rafael Gomes Nunes Silva\", \"Max Baranenko Rodrigues\", \"Milton Pereira\", \"Koen Faes\"], \"url\": \"https://link.springer.com/article/10.1007/s00170-022-09516-2\", \"is_open_access\": false}, {\"provider\": \"openai\", \"id\": \"10.3390/ma14185447\", \"doi\": \"10.3390/ma14185447\", \"title\": \"Hybrid Welding (Laser–Electric Arc MAG) of High Yield Point Steel S960QL\", \"abstract\": \"Reports hybrid laser–MAG welding of high-strength S960QL steel plates, achieving lower heat input and comparable or improved mechanical properties relative to conventional MAG, supporting the role of hybrid equipment for demanding structural weldments.\", \"year\": 2021, \"venue\": \"Materials\", \"authors\": [\"Michał Urbańczyk\", \"Janusz Adamiec\"], \"url\": \"https://www.mdpi.com/1996-1944/14/18/5447\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.1016/j.optlastec.2017.09.038\", \"doi\": \"10.1016/j.optlastec.2017.09.038\", \"title\": \"Hybrid laser arc welding: State-of-art review\", \"abstract\": \"Comprehensive review of hybrid laser–arc welding principles, parameters, benefits, and industrial applications, highlighting deep penetration, speed, and gap-bridging capabilities critical for complex thick-section weldments.\", \"year\": 2018, \"venue\": \"Optics and Laser Technology\", \"authors\": [\"Bappa Acherjee\"], \"url\": \"https://www.sciencedirect.com/science/article/pii/S0030399217305543\", \"is_open_access\": false}, {\"provider\": \"openai\", \"id\": \"10.3390/ma17133273\", \"doi\": \"10.3390/ma17133273\", \"title\": \"Abrasive Waterjet Machining\", \"abstract\": \"Authoritative review of abrasive waterjet technology, process physics, and accuracy/quality control, describing capabilities to cold-cut diverse metals and thick sections without HAZ—relevant to preparing parts for high-quality structural weldments.\", \"year\": 2024, \"venue\": \"Materials\", \"authors\": [\"Mohamed Hashish\"], \"url\": \"https://www.mdpi.com/1996-1944/17/13/3273\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.3390/app11083344\", \"doi\": \"10.3390/app11083344\", \"title\": \"Recent Progress Trend on Abrasive Waterjet Cutting of Metallic Materials: A Review\", \"abstract\": \"Reviews recent advances in abrasive waterjet cutting of metals, summarizing parameter influences on kerf quality, roughness and taper, and optimization methods to achieve precise cuts for fabrication of complex components.\", \"year\": 2021, \"venue\": \"Applied Sciences\", \"authors\": [\"Jennifer Milaor Llanto\", \"Majid Tolouei-Rad\", \"Ali Vafadar\", \"Muhammad Aamir\"], \"url\": \"https://www.mdpi.com/2076-3417/11/8/3344\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"FHWA-HRT-20-056\", \"doi\": null, \"title\": \"Evaluation of Holes Fabricated Using Plasma Arc Cutting\", \"abstract\": \"U.S. FHWA technical report presenting fatigue and tensile behavior of steel plates with plasma-cut holes, providing data on performance vs. traditional methods and guidance for structural fabrication using plasma cutting.\", \"year\": 2020, \"venue\": \"Federal Highway Administration Report (FHWA-HRT-20-056)\", \"authors\": [\"Justin Ocel\"], \"url\": \"https://highways.dot.gov/research/publications/infrastructure/FHWA-HRT-20-056\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.24867/ATM-2020-1-001\", \"doi\": \"10.24867/ATM-2020-1-001\", \"title\": \"An Experimental Analysis of Cutting Quality in Plasma Arc Machining\", \"abstract\": \"Experimental study on plasma arc cutting of low-alloy steel analyzing kerf geometry, surface roughness, and HAZ characteristics versus process parameters, indicating achievable quality and limitations relevant to structural fabrication.\", \"year\": 2020, \"venue\": \"Advanced Technologies and Materials\", \"authors\": [\"Marin Gostimirović\", \"Dragan Rodić\", \"Milenko Sekulić\", \"Andjelko Aleksić\"], \"url\": \"https://atm-journal.uns.ac.rs/index.php/atm/article/view/ATM-2020-1-001\", \"is_open_access\": true}, {\"provider\": \"openai\", \"id\": \"10.1016/j.phpro.2015.11.018\", \"doi\": \"10.1016/j.phpro.2015.11.018\", \"title\": \"Effect of Cut Quality on Hybrid Laser Arc Welding of Thick Section Steels\", \"abstract\": \"Conference paper examining how prior cut quality from laser, waterjet, plasma, and milling affects subsequent hybrid laser–arc welding of 25 mm steel plates, showing that cutting method and edge quality influence optimal welding parameters and joint quality.\", \"year\": 2015, \"venue\": \"Physics Procedia (15th Nordic Laser Materials Processing Conference)\", \"authors\": [\"Farhang Farrokhi\", \"Steen Erik Nielsen\", \"R. H. Schmidt\", \"S. S. Pedersen\", \"Morten Kristiansen\"], \"url\": \"https://www.sciencedirect.com/science/article/pii/S1875389215014540\", \"is_open_access\": true}]}"
+    }
+  },
+  {
+    "press_release": "20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt",
+    "claim_number": 3,
+    "claim_text": "Fullerton College will be adding robotic technology to its curriculum. (The integration and application of robotics in educational settings for vocational training is a field of study).",
+    "query": "Task: Provide up to 10 scientific references relevant to the claim.\nContext: California legislative press release analysis.\nClaim (20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt / #3): Fullerton College will be adding robotic technology to its curriculum. (The integration and application of robotics in educational settings for vocational training is a field of study).\nClaim description: The integration and application of robotics in educational settings for vocational training is a field of study\nConstraints:\n- Prioritize peer-reviewed sources.\n- Include DOI when available.\n- Keep abstracts to 1-2 sentence summaries if exact abstracts not available.\n- Prefer recency for fast-moving topics (e.g., deepfakes, LLMs), else include seminal works.\nOutput: JSON object {\"references\": [{provider,id,doi,title,abstract,year,venue,authors,url,is_open_access}...]}.\n",
+    "references": [
+      {
+        "provider": "openai",
+        "id": "10.1016/j.compedu.2011.10.006",
+        "doi": "10.1016/j.compedu.2011.10.006",
+        "title": "Exploring the educational potential of robotics in schools: A systematic review",
+        "abstract": "A systematic review of quantitative studies on educational robotics found generally positive, but mixed, effects on STEM learning and identified factors and gaps to guide future implementation and research.",
+        "year": 2012,
+        "venue": "Computers & Education",
+        "authors": [
+          "Fabiane Barreto Vavassori Benitti"
+        ],
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360131511002508",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.7771/2157-9288.1223",
+        "doi": "10.7771/2157-9288.1223",
+        "title": "A Systematic Review of Studies on Educational Robotics",
+        "abstract": "Reviewing 147 K–12 educational robotics studies (2000–2018), the paper synthesizes evidence on effectiveness, learning and transfer, motivation, diversity, and teacher professional development, and outlines directions for research and practice.",
+        "year": 2019,
+        "venue": "Journal of Pre-College Engineering Education Research (J-PEER)",
+        "authors": [
+          "Saira Anwar",
+          "Nicholas A. Bascou",
+          "Muhsin Menekse",
+          "Asefeh Kardgar"
+        ],
+        "url": "https://docs.lib.purdue.edu/jpeer/vol9/iss2/2/",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1080/10494820.2021.2023890",
+        "doi": "10.1080/10494820.2021.2023890",
+        "title": "A systematic review study on educational robotics and robots",
+        "abstract": "This mixed-method systematic mapping and review of 93 SSCI-indexed articles classifies research trends in educational robotics and synthesizes experimental findings, highlighting theoretical gaps and pedagogical implications.",
+        "year": 2023,
+        "venue": "Interactive Learning Environments",
+        "authors": [
+          "Nilüfer Atman Uslu",
+          "Gülay Öztüre Yavuz",
+          "Yasemin Koçak Usluel"
+        ],
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/10494820.2021.2023890",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1186/s40594-024-00469-4",
+        "doi": "10.1186/s40594-024-00469-4",
+        "title": "The effects of educational robotics in STEM education: a multilevel meta-analysis",
+        "abstract": "A multilevel meta-analysis of K–16 studies (2010–2022) quantifies the overall impact of educational robotics on STEM learning and examines moderators influencing effect sizes, providing evidence to inform curriculum design.",
+        "year": 2024,
+        "venue": "International Journal of STEM Education",
+        "authors": [
+          "Fan Ouyang",
+          "Weiqi Xu"
+        ],
+        "url": "https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-024-00469-4",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1109/ACCESS.2020.3042555",
+        "doi": "10.1109/ACCESS.2020.3042555",
+        "title": "Educational Robotics: Platforms, Competitions and Expected Learning Outcomes",
+        "abstract": "Surveying educational robotics platforms and competitions, the article proposes a framework of expected learning outcomes and aligns activities with competencies relevant to workforce preparation.",
+        "year": 2020,
+        "venue": "IEEE Access",
+        "authors": [
+          "Salomi Evripidou",
+          "Kyriakoula Georgiou",
+          "Lefteris Doitsidis",
+          "Angelos A. Amanatiadis",
+          "Zinon Zinonos",
+          "Savvas A. Chatzichristofis"
+        ],
+        "url": "https://doi.org/10.1109/ACCESS.2020.3042555",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s10956-014-9511-y",
+        "doi": "10.1007/s10956-014-9511-y",
+        "title": "A Comparative Investigation on the Learning Efficacy of Mechatronic Technology Between Academic and Vocational High School Students",
+        "abstract": "Comparing students with academic versus vocational backgrounds in mechatronics-related college study, the research reports no cognitive differences overall and some advantages for vocational-track students in applied comprehension.",
+        "year": 2014,
+        "venue": "Journal of Science Education and Technology",
+        "authors": [
+          "Min Jou",
+          "Chen-Kang Hung",
+          "Shih-Hung Lai"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s10956-014-9511-y",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.18178/ijiet.2024.14.4.2073",
+        "doi": "10.18178/ijiet.2024.14.4.2073",
+        "title": "Effectiveness of Robotic Technology in Vocational Education: A Meta-Analysis",
+        "abstract": "Synthesizing 56 studies (2014–2023), this meta-analysis finds a large overall effect of robotic technology on vocational students’ learning outcomes and skill development, supporting robotics integration in TVET contexts.",
+        "year": 2024,
+        "venue": "International Journal of Information and Education Technology",
+        "authors": [
+          "Sukardi",
+          "Herlin Setyawan",
+          "Risfendra",
+          "Usmeldi",
+          "Doni Tri Putra Yanto"
+        ],
+        "url": "https://www.ijiet.org/show-204-2699-1.html",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.18260/1-2--33487",
+        "doi": "10.18260/1-2--33487",
+        "title": "University, Community College, and Industry Partnership: Revamping Robotics Education to Meet 21st Century Workforce Needs – NSF-sponsored Project Final Report",
+        "abstract": "This ASEE paper reports outcomes from a university–community college–industry collaboration that developed industrial robotics curricula, certifications, and training resources aligned with workforce needs.",
+        "year": 2019,
+        "venue": "ASEE Annual Conference & Exposition",
+        "authors": [
+          "Aleksandr Sergeyev",
+          "Mark B. Kinney",
+          "Steven A. Kuhl",
+          "Nasser Alaraje",
+          "Michael Highum",
+          "Prashant Mehandiratta"
+        ],
+        "url": "https://peer.asee.org/university-community-college-and-industry-partnership-revamping-robotics-education-to-meet-21st-century-workforce-needs-nsf-sponsored-project-final-report",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.18260/1-2--17733",
+        "doi": "10.18260/1-2--17733",
+        "title": "Developing a Robotics Technology Curriculum at an Urban Community College",
+        "abstract": "Describes design and implementation of a robotics technology curriculum at a community college, including course structure, equipment, and alignment with STEM workforce preparation.",
+        "year": 2011,
+        "venue": "ASEE Annual Conference & Exposition",
+        "authors": [
+          "Michael Kaye",
+          "Yun Liu"
+        ],
+        "url": "https://peer.asee.org/developing-a-robotics-technology-curriculum-at-an-urban-community-college",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.3390/machines13090753",
+        "doi": "10.3390/machines13090753",
+        "title": "Educational Robotics for Industry 4.0 and 5.0 with Wlkata Mirobot in Laboratory Process Modelling",
+        "abstract": "Presents an open-access laboratory approach using a low-cost 6‑axis educational robot for teaching Industry 4.0/5.0 concepts and process modeling, illustrating hands-on vocational training applications.",
+        "year": 2025,
+        "venue": "Machines",
+        "authors": [
+          "Miriam Pekarcikova",
+          "Peter Trebuna",
+          "Marek Kliment",
+          "Jana Kronova",
+          "Matus Matiscsak"
+        ],
+        "url": "https://www.mdpi.com/2075-1702/13/9/753",
+        "is_open_access": true
+      }
+    ],
+    "num_references": 10,
+    "search_metadata": {
+      "provider": "openai",
+      "attempted_at": "2025-09-30T19:06:48Z",
+      "error": null,
+      "model": "gpt-5",
+      "raw_preview": "{\"references\":[{\"provider\":\"openai\",\"id\":\"10.1016/j.compedu.2011.10.006\",\"doi\":\"10.1016/j.compedu.2011.10.006\",\"title\":\"Exploring the educational potential of robotics in schools: A systematic review\",\"abstract\":\"A systematic review of quantitative studies on educational robotics found generally pos",
+      "parse_error": null,
+      "raw_text": "{\"references\":[{\"provider\":\"openai\",\"id\":\"10.1016/j.compedu.2011.10.006\",\"doi\":\"10.1016/j.compedu.2011.10.006\",\"title\":\"Exploring the educational potential of robotics in schools: A systematic review\",\"abstract\":\"A systematic review of quantitative studies on educational robotics found generally positive, but mixed, effects on STEM learning and identified factors and gaps to guide future implementation and research.\",\"year\":2012,\"venue\":\"Computers & Education\",\"authors\":[\"Fabiane Barreto Vavassori Benitti\"],\"url\":\"https://www.sciencedirect.com/science/article/abs/pii/S0360131511002508\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.7771/2157-9288.1223\",\"doi\":\"10.7771/2157-9288.1223\",\"title\":\"A Systematic Review of Studies on Educational Robotics\",\"abstract\":\"Reviewing 147 K–12 educational robotics studies (2000–2018), the paper synthesizes evidence on effectiveness, learning and transfer, motivation, diversity, and teacher professional development, and outlines directions for research and practice.\",\"year\":2019,\"venue\":\"Journal of Pre-College Engineering Education Research (J-PEER)\",\"authors\":[\"Saira Anwar\",\"Nicholas A. Bascou\",\"Muhsin Menekse\",\"Asefeh Kardgar\"],\"url\":\"https://docs.lib.purdue.edu/jpeer/vol9/iss2/2/\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.1080/10494820.2021.2023890\",\"doi\":\"10.1080/10494820.2021.2023890\",\"title\":\"A systematic review study on educational robotics and robots\",\"abstract\":\"This mixed-method systematic mapping and review of 93 SSCI-indexed articles classifies research trends in educational robotics and synthesizes experimental findings, highlighting theoretical gaps and pedagogical implications.\",\"year\":2023,\"venue\":\"Interactive Learning Environments\",\"authors\":[\"Nilüfer Atman Uslu\",\"Gülay Öztüre Yavuz\",\"Yasemin Koçak Usluel\"],\"url\":\"https://www.tandfonline.com/doi/abs/10.1080/10494820.2021.2023890\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1186/s40594-024-00469-4\",\"doi\":\"10.1186/s40594-024-00469-4\",\"title\":\"The effects of educational robotics in STEM education: a multilevel meta-analysis\",\"abstract\":\"A multilevel meta-analysis of K–16 studies (2010–2022) quantifies the overall impact of educational robotics on STEM learning and examines moderators influencing effect sizes, providing evidence to inform curriculum design.\",\"year\":2024,\"venue\":\"International Journal of STEM Education\",\"authors\":[\"Fan Ouyang\",\"Weiqi Xu\"],\"url\":\"https://stemeducationjournal.springeropen.com/articles/10.1186/s40594-024-00469-4\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.1109/ACCESS.2020.3042555\",\"doi\":\"10.1109/ACCESS.2020.3042555\",\"title\":\"Educational Robotics: Platforms, Competitions and Expected Learning Outcomes\",\"abstract\":\"Surveying educational robotics platforms and competitions, the article proposes a framework of expected learning outcomes and aligns activities with competencies relevant to workforce preparation.\",\"year\":2020,\"venue\":\"IEEE Access\",\"authors\":[\"Salomi Evripidou\",\"Kyriakoula Georgiou\",\"Lefteris Doitsidis\",\"Angelos A. Amanatiadis\",\"Zinon Zinonos\",\"Savvas A. Chatzichristofis\"],\"url\":\"https://doi.org/10.1109/ACCESS.2020.3042555\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.1007/s10956-014-9511-y\",\"doi\":\"10.1007/s10956-014-9511-y\",\"title\":\"A Comparative Investigation on the Learning Efficacy of Mechatronic Technology Between Academic and Vocational High School Students\",\"abstract\":\"Comparing students with academic versus vocational backgrounds in mechatronics-related college study, the research reports no cognitive differences overall and some advantages for vocational-track students in applied comprehension.\",\"year\":2014,\"venue\":\"Journal of Science Education and Technology\",\"authors\":[\"Min Jou\",\"Chen-Kang Hung\",\"Shih-Hung Lai\"],\"url\":\"https://link.springer.com/article/10.1007/s10956-014-9511-y\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.18178/ijiet.2024.14.4.2073\",\"doi\":\"10.18178/ijiet.2024.14.4.2073\",\"title\":\"Effectiveness of Robotic Technology in Vocational Education: A Meta-Analysis\",\"abstract\":\"Synthesizing 56 studies (2014–2023), this meta-analysis finds a large overall effect of robotic technology on vocational students’ learning outcomes and skill development, supporting robotics integration in TVET contexts.\",\"year\":2024,\"venue\":\"International Journal of Information and Education Technology\",\"authors\":[\"Sukardi\",\"Herlin Setyawan\",\"Risfendra\",\"Usmeldi\",\"Doni Tri Putra Yanto\"],\"url\":\"https://www.ijiet.org/show-204-2699-1.html\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.18260/1-2--33487\",\"doi\":\"10.18260/1-2--33487\",\"title\":\"University, Community College, and Industry Partnership: Revamping Robotics Education to Meet 21st Century Workforce Needs – NSF-sponsored Project Final Report\",\"abstract\":\"This ASEE paper reports outcomes from a university–community college–industry collaboration that developed industrial robotics curricula, certifications, and training resources aligned with workforce needs.\",\"year\":2019,\"venue\":\"ASEE Annual Conference & Exposition\",\"authors\":[\"Aleksandr Sergeyev\",\"Mark B. Kinney\",\"Steven A. Kuhl\",\"Nasser Alaraje\",\"Michael Highum\",\"Prashant Mehandiratta\"],\"url\":\"https://peer.asee.org/university-community-college-and-industry-partnership-revamping-robotics-education-to-meet-21st-century-workforce-needs-nsf-sponsored-project-final-report\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.18260/1-2--17733\",\"doi\":\"10.18260/1-2--17733\",\"title\":\"Developing a Robotics Technology Curriculum at an Urban Community College\",\"abstract\":\"Describes design and implementation of a robotics technology curriculum at a community college, including course structure, equipment, and alignment with STEM workforce preparation.\",\"year\":2011,\"venue\":\"ASEE Annual Conference & Exposition\",\"authors\":[\"Michael Kaye\",\"Yun Liu\"],\"url\":\"https://peer.asee.org/developing-a-robotics-technology-curriculum-at-an-urban-community-college\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.3390/machines13090753\",\"doi\":\"10.3390/machines13090753\",\"title\":\"Educational Robotics for Industry 4.0 and 5.0 with Wlkata Mirobot in Laboratory Process Modelling\",\"abstract\":\"Presents an open-access laboratory approach using a low-cost 6‑axis educational robot for teaching Industry 4.0/5.0 concepts and process modeling, illustrating hands-on vocational training applications.\",\"year\":2025,\"venue\":\"Machines\",\"authors\":[\"Miriam Pekarcikova\",\"Peter Trebuna\",\"Marek Kliment\",\"Jana Kronova\",\"Matus Matiscsak\"],\"url\":\"https://www.mdpi.com/2075-1702/13/9/753\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.18260/3-1-1153-36066\",\"doi\":\"10.18260/3-1-1153-36066\",\"title\":\"Looking Ahead: Implementing a Robotics Research Lab at a Community College to Support Undergraduate Research\",\"abstract\":\"Reports the creation of a soft‑robotics undergraduate research lab at a community college, showing gains in student skills and confidence and offering a model for expanding robotics experiences in two‑year institutions.\",\"year\":2025,\"venue\":\"Advances in Engineering Education\",\"authors\":[\"Erik Siggelkoe\",\"Conor Walsh\",\"Holly Golecki\"],\"url\":\"https://advances.asee.org/looking-ahead-implementing-a-robotics-research-lab-at-a-community-college-to-support-undergraduate-research/\",\"is_open_access\":true}]}"
+    }
+  },
+  {
+    "press_release": "20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt",
+    "claim_number": 4,
+    "claim_text": "There is an observed trend that manufacturing is increasingly adopting welding robots and technicians in automation. (This is an empirical claim about technological adoption rates and trends in industry).",
+    "query": "Task: Provide up to 10 scientific references relevant to the claim.\nContext: California legislative press release analysis.\nClaim (20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt / #4): There is an observed trend that manufacturing is increasingly adopting welding robots and technicians in automation. (This is an empirical claim about technological adoption rates and trends in industry).\nClaim description: This is an empirical claim about technological adoption rates and trends in industry\nConstraints:\n- Prioritize peer-reviewed sources.\n- Include DOI when available.\n- Keep abstracts to 1-2 sentence summaries if exact abstracts not available.\n- Prefer recency for fast-moving topics (e.g., deepfakes, LLMs), else include seminal works.\nOutput: JSON object {\"references\": [{provider,id,doi,title,abstract,year,venue,authors,url,is_open_access}...]}.\n",
+    "references": [
+      {
+        "provider": "openai",
+        "id": "10.1108/01439910210419088",
+        "doi": "10.1108/01439910210419088",
+        "title": "Robotic arc welding – trends and developments for higher autonomy",
+        "abstract": "A seminal overview of the evolution of robotized welding, detailing major advancements and industry trends that established welding as a leading application of industrial robots.",
+        "year": 2002,
+        "venue": "Industrial Robot",
+        "authors": [
+          "Göran Bolmsjö",
+          "Magnus Olsson",
+          "Per Cederberg"
+        ],
+        "url": "https://www.emerald.com/insight/content/doi/10.1108/01439910210419088/full/html",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1186/s40712-015-0042-y",
+        "doi": "10.1186/s40712-015-0042-y",
+        "title": "Robotic arc welding sensors and programming in industrial applications",
+        "abstract": "Reviews sensing and programming technologies for robotic arc welding and documents their industrial use, highlighting technical drivers of increased adoption.",
+        "year": 2015,
+        "venue": "International Journal of Mechanical and Materials Engineering",
+        "authors": [
+          "Pekka Kah",
+          "Madan Shrestha",
+          "Eeva Hiltunen",
+          "Jukka Martikainen"
+        ],
+        "url": "https://jmsg.springeropen.com/articles/10.1186/s40712-015-0042-y",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1016/j.compind.2020.103326",
+        "doi": "10.1016/j.compind.2020.103326",
+        "title": "A review of vision-aided robotic welding",
+        "abstract": "Surveys vision systems for robotic welding and shows how sensing-enabled automation expands welding robot capabilities across manufacturing sectors.",
+        "year": 2020,
+        "venue": "Computers in Industry",
+        "authors": [
+          "Ting Lei",
+          "Youmin Rong",
+          "Hui Wang",
+          "Yu‑cheng Huang",
+          "Min Li"
+        ],
+        "url": "https://doi.org/10.1016/j.compind.2020.103326",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1016/j.jmapro.2019.10.016",
+        "doi": "10.1016/j.jmapro.2019.10.016",
+        "title": "Virtual reality human‑robot collaborative welding: A case study of weaving gas tungsten arc welding",
+        "abstract": "Demonstrates a VR‑enabled human‑robot collaborative welding system that improves weld performance, illustrating the role of technicians in advanced robotic welding.",
+        "year": 2019,
+        "venue": "Journal of Manufacturing Processes",
+        "authors": [
+          "Qiyue Wang",
+          "Yongchao Cheng",
+          "Wenhua Jiao",
+          "Michael T. Johnson",
+          "YuMing Zhang"
+        ],
+        "url": "https://doi.org/10.1016/j.jmapro.2019.10.016",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1109/JAS.2020.1003518",
+        "doi": "10.1109/JAS.2020.1003518",
+        "title": "Digital Twin for Human‑Robot Interactive Welding and Welder Behavior Analysis",
+        "abstract": "Presents a digital‑twin platform for human‑robot interactive welding and analyzes welder behavior, evidencing integration of human technicians with welding robots.",
+        "year": 2021,
+        "venue": "IEEE/CAA Journal of Automatica Sinica",
+        "authors": [
+          "Qiyue Wang",
+          "Wenhua Jiao",
+          "Peng Wang",
+          "YuMing Zhang"
+        ],
+        "url": "https://www.ieee-jas.net/article/doi/10.1109/JAS.2020.1003518",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s00170-024-13409-x",
+        "doi": "10.1007/s00170-024-13409-x",
+        "title": "Automatic welding‑robot programming based on product‑process‑resource models",
+        "abstract": "Introduces an end‑to‑end approach that automates welding‑robot programming from digital product annotations, reducing human input and supporting broader industrial deployment.",
+        "year": 2024,
+        "venue": "International Journal of Advanced Manufacturing Technology",
+        "authors": [
+          "I. M. Sarivan",
+          "Ole Madsen",
+          "B. V. Wæhrens"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s00170-024-13409-x",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.1016/j.jmapro.2024.09.044",
+        "doi": "10.1016/j.jmapro.2024.09.044",
+        "title": "Human‑robot collaborative assembly and welding: A review and analysis of the state of the art",
+        "abstract": "Comprehensive review of recent progress in human‑robot collaboration for assembly and welding, outlining technologies and practices enabling increased deployment on factory floors.",
+        "year": 2024,
+        "venue": "Journal of Manufacturing Processes",
+        "authors": [
+          "Yue Cao",
+          "Quan Zhou",
+          "Wei Yuan",
+          "Qiang Ye",
+          "Dan Popa",
+          "Cédric Clévy",
+          "Yuming Zhang"
+        ],
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1526612524009654",
+        "is_open_access": false
+      },
+      {
+        "provider": "openai",
+        "id": "10.1007/s00170-024-14396-9",
+        "doi": "10.1007/s00170-024-14396-9",
+        "title": "A review on optimization of autonomous welding parameters for robotics applications",
+        "abstract": "Reviews optimization and AI methods for autonomous control of welding parameters, supporting higher‑performance robotic welding across industries.",
+        "year": 2024,
+        "venue": "International Journal of Advanced Manufacturing Technology",
+        "authors": [
+          "Radwa Ali",
+          "Ahmed El‑Betar",
+          "Mahmoud Magdy"
+        ],
+        "url": "https://link.springer.com/article/10.1007/s00170-024-14396-9",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.3390/buildings14082261",
+        "doi": "10.3390/buildings14082261",
+        "title": "Research Review and Future Directions of Key Technologies for Welding Robots in the Construction Industry",
+        "abstract": "Surveys welding‑robot technologies and applications in construction, indicating expanding adoption of welding automation beyond automotive and into structural fabrication.",
+        "year": 2024,
+        "venue": "Buildings",
+        "authors": [
+          "Han Bu",
+          "Xiaolu Cui",
+          "Bo Huang",
+          "Shuangqian Peng",
+          "Jiuyu Wan"
+        ],
+        "url": "https://www.mdpi.com/2075-5309/14/8/2261",
+        "is_open_access": true
+      },
+      {
+        "provider": "openai",
+        "id": "10.3390/su10103651",
+        "doi": "10.3390/su10103651",
+        "title": "A Sustainable Decision‑Making Framework for Transitioning to Robotic Welding for Small and Medium Manufacturers",
+        "abstract": "Proposes and evaluates a framework for SMEs to transition from manual to robotic welding, with a case study illustrating economic and operational considerations that drive adoption.",
+        "year": 2018,
+        "venue": "Sustainability",
+        "authors": [
+          "Kyle Epping",
+          "Hao Zhang"
+        ],
+        "url": "https://www.mdpi.com/2071-1050/10/10/3651",
+        "is_open_access": true
+      }
+    ],
+    "num_references": 10,
+    "search_metadata": {
+      "provider": "openai",
+      "attempted_at": "2025-09-30T19:09:49Z",
+      "error": null,
+      "model": "gpt-5",
+      "raw_preview": "{\"references\":[{\"provider\":\"openai\",\"id\":\"10.1108/01439910210419088\",\"doi\":\"10.1108/01439910210419088\",\"title\":\"Robotic arc welding – trends and developments for higher autonomy\",\"abstract\":\"A seminal overview of the evolution of robotized welding, detailing major advancements and industry trends th",
+      "parse_error": null,
+      "raw_text": "{\"references\":[{\"provider\":\"openai\",\"id\":\"10.1108/01439910210419088\",\"doi\":\"10.1108/01439910210419088\",\"title\":\"Robotic arc welding – trends and developments for higher autonomy\",\"abstract\":\"A seminal overview of the evolution of robotized welding, detailing major advancements and industry trends that established welding as a leading application of industrial robots.\",\"year\":2002,\"venue\":\"Industrial Robot\",\"authors\":[\"Göran Bolmsjö\",\"Magnus Olsson\",\"Per Cederberg\"],\"url\":\"https://www.emerald.com/insight/content/doi/10.1108/01439910210419088/full/html\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1186/s40712-015-0042-y\",\"doi\":\"10.1186/s40712-015-0042-y\",\"title\":\"Robotic arc welding sensors and programming in industrial applications\",\"abstract\":\"Reviews sensing and programming technologies for robotic arc welding and documents their industrial use, highlighting technical drivers of increased adoption.\",\"year\":2015,\"venue\":\"International Journal of Mechanical and Materials Engineering\",\"authors\":[\"Pekka Kah\",\"Madan Shrestha\",\"Eeva Hiltunen\",\"Jukka Martikainen\"],\"url\":\"https://jmsg.springeropen.com/articles/10.1186/s40712-015-0042-y\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.1016/j.compind.2020.103326\",\"doi\":\"10.1016/j.compind.2020.103326\",\"title\":\"A review of vision-aided robotic welding\",\"abstract\":\"Surveys vision systems for robotic welding and shows how sensing-enabled automation expands welding robot capabilities across manufacturing sectors.\",\"year\":2020,\"venue\":\"Computers in Industry\",\"authors\":[\"Ting Lei\",\"Youmin Rong\",\"Hui Wang\",\"Yu‑cheng Huang\",\"Min Li\"],\"url\":\"https://doi.org/10.1016/j.compind.2020.103326\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1016/j.jmapro.2019.10.016\",\"doi\":\"10.1016/j.jmapro.2019.10.016\",\"title\":\"Virtual reality human‑robot collaborative welding: A case study of weaving gas tungsten arc welding\",\"abstract\":\"Demonstrates a VR‑enabled human‑robot collaborative welding system that improves weld performance, illustrating the role of technicians in advanced robotic welding.\",\"year\":2019,\"venue\":\"Journal of Manufacturing Processes\",\"authors\":[\"Qiyue Wang\",\"Yongchao Cheng\",\"Wenhua Jiao\",\"Michael T. Johnson\",\"YuMing Zhang\"],\"url\":\"https://doi.org/10.1016/j.jmapro.2019.10.016\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1109/JAS.2020.1003518\",\"doi\":\"10.1109/JAS.2020.1003518\",\"title\":\"Digital Twin for Human‑Robot Interactive Welding and Welder Behavior Analysis\",\"abstract\":\"Presents a digital‑twin platform for human‑robot interactive welding and analyzes welder behavior, evidencing integration of human technicians with welding robots.\",\"year\":2021,\"venue\":\"IEEE/CAA Journal of Automatica Sinica\",\"authors\":[\"Qiyue Wang\",\"Wenhua Jiao\",\"Peng Wang\",\"YuMing Zhang\"],\"url\":\"https://www.ieee-jas.net/article/doi/10.1109/JAS.2020.1003518\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.1007/s00170-024-13409-x\",\"doi\":\"10.1007/s00170-024-13409-x\",\"title\":\"Automatic welding‑robot programming based on product‑process‑resource models\",\"abstract\":\"Introduces an end‑to‑end approach that automates welding‑robot programming from digital product annotations, reducing human input and supporting broader industrial deployment.\",\"year\":2024,\"venue\":\"International Journal of Advanced Manufacturing Technology\",\"authors\":[\"I. M. Sarivan\",\"Ole Madsen\",\"B. V. Wæhrens\"],\"url\":\"https://link.springer.com/article/10.1007/s00170-024-13409-x\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.1016/j.jmapro.2024.09.044\",\"doi\":\"10.1016/j.jmapro.2024.09.044\",\"title\":\"Human‑robot collaborative assembly and welding: A review and analysis of the state of the art\",\"abstract\":\"Comprehensive review of recent progress in human‑robot collaboration for assembly and welding, outlining technologies and practices enabling increased deployment on factory floors.\",\"year\":2024,\"venue\":\"Journal of Manufacturing Processes\",\"authors\":[\"Yue Cao\",\"Quan Zhou\",\"Wei Yuan\",\"Qiang Ye\",\"Dan Popa\",\"Cédric Clévy\",\"Yuming Zhang\"],\"url\":\"https://linkinghub.elsevier.com/retrieve/pii/S1526612524009654\",\"is_open_access\":false},{\"provider\":\"openai\",\"id\":\"10.1007/s00170-024-14396-9\",\"doi\":\"10.1007/s00170-024-14396-9\",\"title\":\"A review on optimization of autonomous welding parameters for robotics applications\",\"abstract\":\"Reviews optimization and AI methods for autonomous control of welding parameters, supporting higher‑performance robotic welding across industries.\",\"year\":2024,\"venue\":\"International Journal of Advanced Manufacturing Technology\",\"authors\":[\"Radwa Ali\",\"Ahmed El‑Betar\",\"Mahmoud Magdy\"],\"url\":\"https://link.springer.com/article/10.1007/s00170-024-14396-9\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.3390/buildings14082261\",\"doi\":\"10.3390/buildings14082261\",\"title\":\"Research Review and Future Directions of Key Technologies for Welding Robots in the Construction Industry\",\"abstract\":\"Surveys welding‑robot technologies and applications in construction, indicating expanding adoption of welding automation beyond automotive and into structural fabrication.\",\"year\":2024,\"venue\":\"Buildings\",\"authors\":[\"Han Bu\",\"Xiaolu Cui\",\"Bo Huang\",\"Shuangqian Peng\",\"Jiuyu Wan\"],\"url\":\"https://www.mdpi.com/2075-5309/14/8/2261\",\"is_open_access\":true},{\"provider\":\"openai\",\"id\":\"10.3390/su10103651\",\"doi\":\"10.3390/su10103651\",\"title\":\"A Sustainable Decision‑Making Framework for Transitioning to Robotic Welding for Small and Medium Manufacturers\",\"abstract\":\"Proposes and evaluates a framework for SMEs to transition from manual to robotic welding, with a case study illustrating economic and operational considerations that drive adoption.\",\"year\":2018,\"venue\":\"Sustainability\",\"authors\":[\"Kyle Epping\",\"Hao Zhang\"],\"url\":\"https://www.mdpi.com/2071-1050/10/10/3651\",\"is_open_access\":true}]}"
+    }
+  }
+]
