@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-minority-leader-jones-welcomes-senator-alvarado-gil-senate-republican-caucus.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones ( R-San Diego ) this evening officially welcomed former Democrat, now Republican, Senator Marie Alvarado-Gil ( R-Jackson ) to the Senate Repub",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:13:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "23683cda6aed86ab09a9ec43deebcce7f56aa8e1"
+}

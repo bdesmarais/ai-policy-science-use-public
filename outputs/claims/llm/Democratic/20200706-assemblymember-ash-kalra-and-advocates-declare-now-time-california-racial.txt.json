@@ -1,0 +1,13 @@
+{
+  "press_release": "20200706-assemblymember-ash-kalra-and-advocates-declare-now-time-california-racial.txt",
+  "party": "Democratic",
+  "title": "The California Racial Justice Act will prohibit the use of race, ethnicity or national origin to seek or obtain convictions or sentences",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:10:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"distinct_claims\": [\n    \"The California Racial Justice Act will prohibit the use of race, ethnicity or national origin to seek or obtain convictions or sentences.\",\n    \"Statistics show Black people are more likely to receive a death sentence than a white person for the same crime.\",\n  ",
+  "raw_text": "```json\n{\n  \"distinct_claims\": [\n    \"The California Racial Justice Act will prohibit the use of race, ethnicity or national origin to seek or obtain convictions or sentences.\",\n    \"Statistics show Black people are more likely to receive a death sentence than a white person for the same crime.\",\n    \"Racial bias and discrimination determines countless cases, sending innocent men and women behind bars.\",\n    \"The California Racial Justice Act aims to directly defend Black lives by allowing California to confront systemic racism in the criminal legal system.\",\n    \"The California Racial Justice Act will go further than previous Racial Justice Acts by prohibiting racial discrimination in all convictions and sentences.\",\n    \"The McCleskey v. Kemp decision requires that criminal defendants prove intentional discrimination when challenging racial bias in their legal process.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0a4e42580607d7fd3e58b2fb0ce458a8d44a6909"
+}

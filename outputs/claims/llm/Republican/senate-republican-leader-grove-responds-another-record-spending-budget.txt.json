@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-grove-responds-another-record-spending-budget.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove ( R-Bakersfield ) released the following statement after the California State Legislature passed the 2019-20 State Budget today:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:13:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed a record-spending budget of $215 billion.\",\n    \"California drivers will pay an additional 5.6 cents per gallon of gas starting July 1st.\",\n    \"An increase of $1.2 billion is needed annually for service providers who serve the dev",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed a record-spending budget of $215 billion.\",\n    \"California drivers will pay an additional 5.6 cents per gallon of gas starting July 1st.\",\n    \"An increase of $1.2 billion is needed annually for service providers who serve the developmentally disabled community.\",\n    \"$442 million will go to the Department of Motor Vehicles over two years with no accountability for delivering results.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3d365e3e0aaa75cbb13a0d8ef6e7255384758498"
+}

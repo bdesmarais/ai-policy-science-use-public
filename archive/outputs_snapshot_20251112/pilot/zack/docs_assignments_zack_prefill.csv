@@ -1,0 +1,61 @@
+ai_category,ai_statement_count,assigned_to,document_date,double_annotate,filename,has_ai,matched_ai_terms,num_sentences,party,source,unique_arxiv_count,unique_dois_count,unique_urls_count,ai_relevance_pred
+ai,7,Zack,,0,20240313-democracy-leaders-introduce-solutions-curb-emerging-digital-threats.txt,True,ai; generative ai,45,Democratic,Democratic Assembly,0,0,0,2
+ai,3,Zack,,0,20250521-asm-wicks-announces-partnership-state-library-support-work-california.txt,True,ai; openai,48,Democratic,Democratic Assembly,0,0,0,2
+ai,1,Zack,,1,20170927-bill-foster-fair-juries-authored-assemblymember-ash-kalra-signed-law.txt,True,bias; fairness,13,Democratic,Democratic Assembly,0,0,0,1
+ai,1,Zack,,0,20220823-california-legislature-approves-assemblymember-kalras-ab-2167-encourage.txt,True,bias,34,Democratic,Democratic Assembly,0,0,0,1
+ai,5,Zack,,0,20240521-assemblymember-bauer-kahans-bill-protect-childrens-data-ai-passes-floor.txt,True,ai; artificial intelligence,16,Democratic,Democratic Assembly,0,0,0,2
+ai,11,Zack,"January 1, 2024",0,governor-signs-physicians-make-decisions-act-keeping-medical.txt,True,ai; algorithm; algorithms; artificial intelligence,34,Democratic,Democratic Assembly,0,0,0,2
+ai,12,Zack,"September 8, 2025",0,privacy-committee-approves-groundbreaking-ai-transparency-bill.txt,True,ai; artificial intelligence; genai; generative ai,31,Democratic,Democratic Assembly,0,0,0,2
+ai,1,Zack,,1,california-state-senate-approves-sb-230-bill-now-moves-assembly.txt,True,bias,29,Democratic,Democratic Assembly,0,0,0,1
+ai,4,Zack,,0,20200706-assemblymember-ash-kalra-and-advocates-declare-now-time-california-racial.txt,True,bias,28,Democratic,Democratic Assembly,0,0,0,2
+ai,10,Zack,,0,20240116-berman-introduces-legislation-outlaw-child-sexual-abuse-images-generated-ai.txt,True,ai; artificial intelligence; ml,48,Democratic,Democratic Assembly,0,0,0,2
+ai,8,Zack,,1,20230321-assemblywoman-lori-d-wilson-announces-advancement-freedom-face-surveillance.txt,True,facial recognition,33,Democratic,Democratic Assembly,0,0,0,2
+ai,3,Zack,"January 1, 2025",1,20241226-new-year-new-laws.txt,True,ai,43,Democratic,Democratic Assembly,0,0,0,2
+ai,13,Zack,,0,20241003-california-teach-ai-literacy-every-grade.txt,True,ai; artificial intelligence,19,Democratic,Democratic Assembly,0,0,0,2
+ai,1,Zack,,0,senator-corteses-education-equalization-bill-giving-ca-school-districts-equal-state-funding.txt,True,fairness,21,Democratic,Democratic Assembly,0,0,0,1
+ai,2,Zack,,0,20240402-assemblywoman-lori-d-wilson-introduces-bill-promote-equity-housing-access.txt,True,fairness,28,Democratic,Democratic Assembly,0,0,0,2
+nonai,0,Zack,,0,senator-cortese-joins-leaders-special-education-launch-corazon-care.txt,False,,45,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,0,20150811-control-compton-community-college.txt,False,,42,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,1,20240529-bill-stop-patients-violent-criminal-histories-being-released-without.txt,False,,9,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,0,20240501-assemblymember-zbur-responds-violence-ucla.txt,False,,11,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,0,20190924-release-bill-protect-state-records-signed-law-ab-469-improves-transparency.txt,False,,15,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,"August 7, 2025",0,senator-cortese-reacts-update-federal-high-speed-rail-funding.txt,False,,14,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,0,20210413-legislation-protecting-unaccompanied-immigrant-children-passes-judiciary.txt,False,,14,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,1,20190102-sharon-quirk-silva-announces-new-laws-will-have-positive-impact-during-new.txt,False,,44,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,0,20250112-central-coast-caucus-statement-fires-southern-california.txt,False,,14,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,0,20220809-bryans-california-justice40-act-promises-major-boost-gender-and-racial.txt,False,,26,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,1,20250414-assemblywoman-pilar-schiavo-la-legislative-caucus-demand-stronger-public.txt,False,,45,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,1,20220525-assembly-advances-gun-violence-prevention-package-wake-uvalde-tx-school.txt,False,,74,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,0,20250321-rivas-ramos-legislative-caucuses-urge-full-restoration-digital-links.txt,False,,43,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,0,20250516-speaker-robert-rivas-uplifts-rural-central-coast-communities-supervisor.txt,False,,50,Democratic,Democratic Assembly,0,0,0,0
+nonai,0,Zack,,0,20210929-governor-signs-ramos-desert-conservation-bill.txt,False,,30,Democratic,Democratic Assembly,0,0,0,0
+ai,1,Zack,,0,gallagher-urges-veto-of-bills-on-governors-desk-09-15-2022.txt,True,bias,48,Republican,Republican Assembly,0,0,0,1
+ai,1,Zack,,0,jones-introduces-bipartisan-measure-prevent-sexually-violent-predators-being-dumped.txt,True,fairness,81,Republican,Republican Assembly,0,0,0,1
+ai,1,Zack,,1,senator-choi-demands-answers-gerrymandering-senate-committee.txt,True,fairness,50,Republican,Republican Assembly,0,0,0,1
+ai,1,Zack,"July 31, 2024",0,federal-prosecutors-step-in-to-bring-justice-for-attempted-murder-victim-ret-sheriffs-deputy-meagan-mccarthy.txt,True,bias,14,Republican,Republican Assembly,0,0,0,1
+ai,1,Zack,,0,newsoms-attacks-usc-professor-mische-are-petty-misleading-and-unworthy-his-office.txt,True,bias,93,Republican,Republican Assembly,0,0,0,1
+ai,1,Zack,,0,measures-protect-communities-sexually-violent-predators-unanimously-pass-assembly-public.txt,True,fairness,90,Republican,Republican Assembly,0,0,0,1
+ai,1,Zack,"March 28, 2019",0,fallbrook-bonsall-village-news-pointing-fingers-will-not-reform-bad-policies-changing.txt,True,fairness,86,Republican,Republican Assembly,0,0,0,1
+ai,1,Zack,"May 23, 2025",1,assemblyman-jeff-gonzalez-statement-on-the-passage-of-ab-1412-supporting-military-families-and-students-with-special-needs.txt,True,fairness,13,Republican,Republican Assembly,0,0,0,1
+ai,1,Zack,,0,senate-minority-leader-jones-introduces-two-measures-protect-communities-sexually-violent.txt,True,fairness,85,Republican,Republican Assembly,0,0,0,1
+ai,3,Zack,,0,gallagher-trump-is-right-california-is-failing-girls-sports.txt,True,fairness,25,Republican,Republican Assembly,0,0,0,2
+ai,1,Zack,"January 1, 2024",1,assemblyman-tri-ta-announces-the-governor-signing-two-bills-on-public-safety.txt,True,fairness,20,Republican,Republican Assembly,0,0,0,1
+ai,7,Zack,"May 5, 2023",1,assemblyman-essayli-introduces-ajr-6-calling-for-immediate-pause-to-artificial-intelligence-development.txt,True,ai; artificial intelligence; gpt-,22,Republican,Republican Assembly,0,0,0,2
+ai,1,Zack,,0,leader-jones-introduces-legislation-protect-crime-victims-parole-process.txt,True,bias,81,Republican,Republican Assembly,0,0,0,1
+ai,2,Zack,,0,senate-republican-leader-grove-demands-governor-cancel-35-million-contract-team-biden-firm.txt,True,bias,60,Republican,Republican Assembly,0,0,0,2
+ai,1,Zack,,0,joness-measure-protect-communities-sexually-violent-predators-unanimously-passes.txt,True,fairness,100,Republican,Republican Assembly,0,0,0,1
+nonai,0,Zack,"May 23, 2025",0,assemblyman-jeff-gonzalez-statement-on-the-passage-of-ab-1016-bill-to-increase-geothermal-power-capacity-passes-assembly.txt,False,,11,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,"May 6, 2025",0,assemblyman-jeff-gonzalezs-statement-on-recent-anti-semitic-incidents-in-the-coachella-valley.txt,False,,11,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,"July 1, 2026",1,senate-education-committee-unanimously-approves-assemblyman-hoovers-bill-limiting-smartphone-use-in-california-schools.txt,False,,37,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,0,breast-cancer-awareness-month.txt,False,,64,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,0,senator-marie-alvarado-gil-honors-1-pile-time-nonprofit-year-tuolumne-county.txt,False,,37,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,0,senate-republican-leader-grove-responds-governors-may-revise.txt,False,,59,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,0,newsom-rebate-proposal-is-in-print-sort-of-04-11-2022.txt,False,,15,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,1,senate-minority-leader-jones-welcomes-senator-alvarado-gil-senate-republican-caucus.txt,False,,82,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,0,sen-groves-measure-make-purchasing-child-sex-felony-rejected-senate-public-safety-committee.txt,False,,66,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,0,senate-republicans-announce-critical-wildfire-resilience-and-recovery-legislation.txt,False,,51,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,1,senator-ochoa-bogh-announces-funding-grants-help-residents-become-or-remain-homeowners.txt,False,,46,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,1,leader-jones-joins-victims-and-advocates-unveil-new-fentanyl-awareness-billboard-fallbrook.txt,False,,79,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,0,senator-ochoa-boghs-statement-passage-ab-1940.txt,False,,47,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,,0,alanis-announces-bipartisan-support-on-public-safety-bills.txt,False,,12,Republican,Republican Assembly,0,0,0,0
+nonai,0,Zack,"January 1, 2022",0,improving-public-safety-senator-alvarado-gil-drives-effort-reclassify-j-59la-grange-road.txt,False,,46,Republican,Republican Assembly,0,0,0,0

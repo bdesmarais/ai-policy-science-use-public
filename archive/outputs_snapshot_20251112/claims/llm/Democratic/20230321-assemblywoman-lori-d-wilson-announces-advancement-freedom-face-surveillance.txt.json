@@ -1,0 +1,13 @@
+{
+  "press_release": "20230321-assemblywoman-lori-d-wilson-announces-advancement-freedom-face-surveillance.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Facial recognition on body cameras twists what should be a tool for police accountability into a vehicle for mass surveillance.\",\n    \"The police's use of face surveillance can worsen racial disparities.\",\n    \"The use of face surveillance threatens immigrant communities",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Facial recognition on body cameras twists what should be a tool for police accountability into a vehicle for mass surveillance.\",\n    \"The police's use of face surveillance can worsen racial disparities.\",\n    \"The use of face surveillance threatens immigrant communities.\",\n    \"Face surveillance repressions freedom of speech.\",\n    \"Face surveillance violates privacy.\",\n    \"Facial recognition has been widely deployed by Immigrations and Customs Enforcement to conduct deportations.\",\n    \"As of May 2022, Immigrations and Customs Enforcement has used facial recognition to examine driver license ID photos of 32% of all Americans.\",\n    \"Reproductive justice groups identify facial recognition as a threat to people seeking reproductive and gender-affirming healthcare.\",\n    \"Facial recognition technology could be used as a means of retaliation and suppression against Black Lives Matter activists.\",\n    \"Academic research has concluded that facial recognition compounds racially discriminatory policing.\",\n    \"The use of facial recognition technology by police departments increases racial disparities in Black and white arrest rates.\",\n    \"The National Institute of Standards and Technology determined that Black, Brown, and Asian individuals are up to 100 times more likely to be misidentified than white male faces.\",\n    \"Research shows that when applied to body cameras, facial recognition produces matching error rates as high as 100 percent.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "560fe1179c930eeda6401be8fddb9bd9baba19fd"
+}

@@ -1,0 +1,15 @@
+Sacramento, CA
+– Today, Assemblymember Bauer-Kahan’s
+precedent setting artificial intelligence regulations,
+AB 2930, passed the California Assembly floor.
+AB 2930 requires developers and users of AI tools to mitigate and asses automated decision tools (ADTs) that make consequential decisions.
+AI decisions are already determining whether people can buy a home, or what medical care they get. Unlike with human decisions, there is no check or accountability for the bias embedded in these algorithms,” said
+Assemblymember Bauer-Kahan (D-Orinda).
+"AB 2930 continues our work to ensure that AI fulfils its promises of progress and does not drag us backwards with biased results."
+AB 2930 requires developers and users of ADTs to conduct and record an impact assessment including the intended use, the makeup of the data, and the rigor of the statistical analysis. The data reported must also include an analysis of potential adverse impact on the basis of race, color, ethnicity, sex, religion, age, national origin, or any other classification protected by state law.
+Automated decision tools are being used to assess eligibility for a benefit or penalty. These systems have been traditionally used for credit decisions, however usage has expanded to employment screening, insurance eligibility, and health care decisions. ADTs have been found to exhibit biases and consequently have resulted in discriminatory impacts and harm to marginalized communities. For example, a study published in
+Science
+showed that a clinical algorithm used across hospitals for determining patient care was racially biased against Black patients.
+“The risks are clear. Without regulation, these tools will reinforce inequality without any accountability,” said
+Assemblymember Bauer-Kahan.
+###

@@ -1,0 +1,52 @@
+ai_category,ai_statement_count,assigned_to,document_date,double_annotate,filename,has_ai,matched_ai_terms,num_sentences,party,source,unique_arxiv_count,unique_dois_count,unique_urls_count
+ai,2,Zack,,0,reyes-issues-statement-passage-election-rigging-response-act.txt,True,fairness,44,Democratic,Democratic Assembly,0,0,0
+ai,10,Zack,"September 8, 2025",0,senator-josh-becker-condemns-efforts-to-undermine-californias-ai.txt,True,ai; artificial intelligence,29,Democratic,Democratic Assembly,0,0,0
+ai,2,Zack,"October 7, 2023",1,20250224-state-legislators-introduce-bill-create-curriculum-standards-ethnic-studies.txt,True,bias,81,Democratic,Democratic Assembly,0,0,0
+ai,10,Zack,"September 8, 2025",0,assembly-committee-unanimously-approves-the-physicians-make.txt,True,ai; algorithm; algorithms; artificial intelligence,36,Democratic,Democratic Assembly,0,0,0
+ai,4,Zack,,0,20240828-bill-shield-elections-deceptive-online-deepfakes-passes-legislature.txt,True,ai; generative ai,25,Democratic,Democratic Assembly,0,0,0
+ai,2,Zack,,0,20250513-assemblymember-wards-surveillance-pricing-protection-act-moves-senate.txt,True,facial recognition; fairness,22,Democratic,Democratic Assembly,0,0,0
+ai,4,Zack,"September 8, 2025",0,comprehensive-legislative-package-authored-senator-becker-to.txt,True,ai; algorithms; artificial intelligence; genai,37,Democratic,Democratic Assembly,0,0,0
+ai,2,Zack,,1,20250401-new-bill-bans-unfair-junk-fees-renters.txt,True,fairness,34,Democratic,Democratic Assembly,0,0,0
+ai,2,Zack,"September 30, 2020",0,20201001-governor-newsom-signs-legislation-reforming-police-officer-recruitment-and.txt,True,bias,16,Democratic,Democratic Assembly,0,0,0
+ai,7,Zack,,0,20240313-democracy-leaders-introduce-solutions-curb-emerging-digital-threats.txt,True,ai; generative ai,45,Democratic,Democratic Assembly,0,0,0
+ai,4,Zack,,1,20240409-bermans-public-safety-package-advances.txt,True,ai; artificial intelligence,71,Democratic,Democratic Assembly,0,0,0
+ai,2,Zack,"August 27, 2021",1,20210827-assemblymember-ash-kalra-releases-statement-racial-justice-act-all-ab-256.txt,True,bias,19,Democratic,Democratic Assembly,0,0,0
+ai,3,Zack,"January 1, 2025",0,20241226-new-year-new-laws.txt,True,ai,43,Democratic,Democratic Assembly,0,0,0
+ai,8,Zack,,0,20230321-assemblywoman-lori-d-wilson-announces-advancement-freedom-face-surveillance.txt,True,facial recognition,33,Democratic,Democratic Assembly,0,0,0
+ai,4,Zack,,0,20200706-assemblymember-ash-kalra-and-advocates-declare-now-time-california-racial.txt,True,bias,28,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20250219-zbur-introduces-legislation-launch-quick-build-pilot-program-safer.txt,False,,23,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,"September 8, 2025",0,california-legislature-advances-to-the-governor-senator.txt,False,,38,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,1,20200821-joint-statement-congressmember-panetta-senator-monning-senator-caballero.txt,False,,20,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20250424-connolly-passes-five-more-bills-through-policy-committees.txt,False,,35,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20240827-papan-legislation-remove-unfair-barriers-paid-family-leave-benefits-signed.txt,False,,16,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20150709-irwin-leads-cybersecurity-hearing-considers-public-safety-and-national.txt,False,,11,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20211012-governor-newsom-signs-measure-significantly-strengthen-hate-crime.txt,False,,27,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,1,20170406-assemblymember-al-muratsuchis-assembly-bill-ab-1649-passes-out-assemblys.txt,False,,15,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20240715-new-safety-act-signed-law-protect-lgbtq-students-california.txt,False,,64,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20250106-assemblywoman-lori-d-wilson-reappointed-chair-assembly-transportation.txt,False,,12,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,"September 8, 2025",1,senator-beckers-basic-act-receives-approval-assembly.txt,False,,27,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,"January 1, 2022",1,20211004-bill-save-lives-and-initiate-development-bluff-collapse-early-warning.txt,False,,20,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20250410-assemblywoman-pilar-schiavo-introduces-legislation-focused-affordability.txt,False,,44,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20221104-local-veterans-honored-and-ivc-veterans-service-center-receives-25-million.txt,False,,32,Democratic,Democratic Assembly,0,0,0
+nonai,0,Zack,,0,20220916-governor-newsom-signs-assemblymember-muratsuchis-ab-1279-california-climate.txt,False,,22,Democratic,Democratic Assembly,0,0,0
+ai,7,Zack,,0,senator-ochoa-bogh-advocates-californians-urging-action-governor-key-legislative-issues.txt,True,ai; artificial intelligence,63,Republican,Republican Assembly,0,0,0
+ai,7,Zack,"May 5, 2023",0,assemblyman-essayli-introduces-ajr-6-calling-for-immediate-pause-to-artificial-intelligence-development.txt,True,ai; artificial intelligence; gpt-,22,Republican,Republican Assembly,0,0,0
+ai,2,Zack,,0,senator-valladares-introduces-amendment-ensure-ethical-safeguards-redistricting-power-grab.txt,True,fairness,41,Republican,Republican Assembly,0,0,0
+ai,5,Zack,"April 18, 2023",1,assemblyman-tri-ta-introduces-legislation-to-protect-californians-from-ai-generated-deepfakes.txt,True,ai; algorithms; artificial intelligence,22,Republican,Republican Assembly,0,0,0
+ai,3,Zack,,0,gallagher-trump-is-right-california-is-failing-girls-sports.txt,True,fairness,25,Republican,Republican Assembly,0,0,0
+ai,4,Zack,,1,demaio-introduces-legislation-to-prevent-foreign-government-abuse-of-sensitive-personal-data-of-californians.txt,True,ai,20,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,"April 21, 2025",0,assemblyman-jeff-gonzalez-statement-on-being-appointed-as-vice-chair-of-assembly-committee-on-military-and-veterans-affairs.txt,False,,12,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,"February 11, 2025",0,assemblyman-jeff-gonzalez-statement-on-the-announcement-of-lithium-valley-specific-plan.txt,False,,12,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,1,senate-appropriations-what-we-will-see-floor.txt,False,,36,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,0,bipartisan-efforts-brian-jones-and-antonio-villaraigosa-break-ground-expanded-broadband.txt,False,,75,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,"January 30, 2020",0,senate-republican-leader-groves-statement-taft-correctional-institution.txt,False,,57,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,0,senate-republican-leader-grove-commemorates-155th-anniversary-juneteenth.txt,False,,61,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,0,senator-ochoa-boghs-statement-regarding-proposition-47.txt,False,,49,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,1,senator-valladares-joint-authors-no-tax-tips-bill-demands-relief-hardworking-californians.txt,False,,45,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,0,senator-valladares-calls-smarter-spending-and-focus-real-solutions-californians-response.txt,False,,45,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,0,senate-republican-leader-grove-responds-another-record-spending-budget.txt,False,,65,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,1,east-county-californian-mandating-electronic-purchase-receipts-ignores-privacy-and-digital.txt,False,,85,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,1,landmark-bill-to-address-californias-most-pressing-issue-passes-assembly.txt,False,,14,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,0,senator-ochoa-bogh-introduces-statewide-blue-envelope-program-improve-safety-individuals.txt,False,,58,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,0,alanis-announces-bipartisan-support-on-public-safety-bills.txt,False,,12,Republican,Republican Assembly,0,0,0
+nonai,0,Zack,,0,gallagher-statement-on-bi-partisan-measure-to-suspend-californias-gas-tax-04-28-2022.txt,False,,7,Republican,Republican Assembly,0,0,0

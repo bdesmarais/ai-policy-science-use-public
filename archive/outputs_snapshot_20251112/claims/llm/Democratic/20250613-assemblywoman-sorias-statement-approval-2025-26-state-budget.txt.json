@@ -1,0 +1,13 @@
+{
+  "press_release": "20250613-assemblywoman-sorias-statement-approval-2025-26-state-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblywoman Esmeralda Soria (D-Merced) has released the following statement regarding the California Legislature’s approval of the 2025-2026 budget.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:12:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e63b6d458d472aef780b7290c9eb118133e161c2"
+}

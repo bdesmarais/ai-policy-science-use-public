@@ -1,0 +1,13 @@
+{
+  "press_release": "20210304-legislature-passes-66-billion-safe-school-reopening-plan.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Legislature passed a $6.6 billion early budget bill to bring students back to the classroom safely.\",\n    \"AB 86 is intended to balance the need to get children back in the classroom with the challenges school districts face.\",\n    \"School districts in CDPH-designate",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Legislature passed a $6.6 billion early budget bill to bring students back to the classroom safely.\",\n    \"AB 86 is intended to balance the need to get children back in the classroom with the challenges school districts face.\",\n    \"School districts in CDPH-designated 'purple tier' counties must submit school safety plans to receive funding.\",\n    \"San Diego County has led urban counties in vaccinating teachers and essential workers.\",\n    \"The $4.56 billion in one-time Proposition 98 funding is designated for multi-year learning loss mitigation plans.\",\n    \"Funding from the $4.56 billion can be used for personalized counseling and tutoring services.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b0adccde0630c52a5ab8dd6e15f6b3d4678bfe5c"
+}

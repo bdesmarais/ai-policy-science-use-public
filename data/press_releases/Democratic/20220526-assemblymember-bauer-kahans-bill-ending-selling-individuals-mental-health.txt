@@ -1,0 +1,18 @@
+Sacramento, CA
+–Assemblymember Rebecca Bauer Kahan’s (D-Orinda) bill, AB 2089, passed the Assembly Floor on a bi-partisan vote today.
+What surgeries or hospitalizations have you had? How often in the last year have you had 5 or more alcoholic drinks on one occasion? On a scale of one to three, how often do you feel as if something terrible might happen?
+If a patient answered these questions in a doctor’s office, any information collected would be protected by federal health privacy laws like HIPAA. However, if a patient answers these questions to connect to a provider through an app, the service could, and does, harvest and sell this information. The diagnosis and other data users share can be used to target advertising and track them across the internet.
+Last year, Bauer-Kahan was made aware of this glaring loophole of patient privacy when popular TikTok creator and licensed professional counselor Jeff Guenther known as “Therapy Jeff” went viral with his videos highlighting these predatory practices. “My client’s understandably expect and assume that mental health apps will operate under the same laws as any providers they receive services from,” said
+Guenther
+. “The apps deliberately market themselves as healthcare services but legally don’t have to operate under health care law because they’re savvy enough to evade responsibility in order to make more money and satisfy their investors,” he concluded.
+“Mental health information is incredibly sensitive” said Assemblymember Bauer-Kahan. “Imagine you reach out for help, and then are tracked across the internet with predatory ads targeting the information you shared. Seeking mental healthcare is difficult enough. It’s unacceptable that we allow people’s privacy to be violated as a result of care.”
+Since the pandemic, the digital mental healthcare space has exploded with more than 20,000 apps capitalizing on the mental health crisis. They lure people in with advertisements targeting a diagnosis and require users to fill out detailed surveys with invasive questions like those listed above. Because users believe they are in a medical setting, they assume that there are reasonable data protections. However, research shows that data from these apps shows up across the internet. A study of the 36 top-ranked apps for depression and smoking found that 29 transmitted data to services provided by Facebook or Google for a continued cycle of advertising and profit.
+[i]
+AB 2089 is moving on to the State Senate for consideration. The bill is co-authored by Assemblymember Cunningham (R-San Luis Obispo).
+[1]
+Huckvale, K., Torous, J., & Larsen, M. E. (2019). Assessment of the Data Sharing and Privacy Practices of Smartphone Apps for Depression and Smoking Cessation.
+JAMA network open
+,
+2
+(4), e192542.
+https://doi.org/10.1001/jamanetworkopen.2019.2542

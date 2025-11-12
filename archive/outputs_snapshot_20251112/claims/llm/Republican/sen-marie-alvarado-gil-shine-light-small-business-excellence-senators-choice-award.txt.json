@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-marie-alvarado-gil-shine-light-small-business-excellence-senators-choice-award.txt",
+  "party": "Republican",
+  "title": "Ahead of Small Business Saturday this weekend, Sen. Marie Alvarado-Gil ( R-Jackson ) is excited to announce the Senator’s Choice Award, a new campaign to recognize small and local ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:13:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Senator’s Choice Award is a campaign to recognize small and local businesses across Senate District 4 for their contributions to their community and economy.\",\n    \"Senator Alvarado-Gil encourages people to shop local and support small businesses during the holidays.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Senator’s Choice Award is a campaign to recognize small and local businesses across Senate District 4 for their contributions to their community and economy.\",\n    \"Senator Alvarado-Gil encourages people to shop local and support small businesses during the holidays.\",\n    \"The Senator’s Choice Award aims to highlight hardworking entrepreneurs and families in Senate District 4.\",\n    \"Recipients of the Senator’s Choice Award will receive a personal visit from Sen. Alvarado-Gil or a team member to present a certificate of recognition.\",\n    \"Award winners will receive coverage in the senator’s newsletter and on social media platforms.\",\n    \"Businesses not already members of their local chamber of commerce will receive a one-year membership sponsored by Sen. Alvarado-Gil.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6baae31c2721dd3952438db39454610362c68404"
+}

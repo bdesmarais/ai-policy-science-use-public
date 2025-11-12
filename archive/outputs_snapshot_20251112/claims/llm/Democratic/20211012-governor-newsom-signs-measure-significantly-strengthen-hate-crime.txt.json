@@ -1,0 +1,13 @@
+{
+  "press_release": "20211012-governor-newsom-signs-measure-significantly-strengthen-hate-crime.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Hate crimes targeting Asian Americans in America's largest cities increased by 164% in the past year.\",\n    \"The Anti-Defamation League has reported a surge of anti-Jewish incidents in recent months that included violent attacks in major urban areas.\",\n    \"The Californi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Hate crimes targeting Asian Americans in America's largest cities increased by 164% in the past year.\",\n    \"The Anti-Defamation League has reported a surge of anti-Jewish incidents in recent months that included violent attacks in major urban areas.\",\n    \"The California State Auditor found that law enforcement agencies in California routinely failed to adequately identify, report, or respond to hate crimes.\",\n    \"The 2018 audit concluded that inadequate policies and lack of oversight by the California Department of Justice contributed to systemic under-reporting of hate crimes across the state.\",\n    \"More than 70 percent of Asian Americans in California live in fear of racially motivated violence and hate crimes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "26d66d27e41b4f827c0acbae228e12bb9125f809"
+}

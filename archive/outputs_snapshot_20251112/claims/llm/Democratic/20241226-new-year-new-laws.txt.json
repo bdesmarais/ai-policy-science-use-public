@@ -1,0 +1,74 @@
+{
+  "press_release": "20241226-new-year-new-laws.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AI-driven child sexual exploitation, revenge porn, and AI-generated elections deepfakes are emerging threats.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 1831 ensures that the sexual exploitation of children in California is illegal, including ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AI-driven child sexual exploitation, revenge porn, and AI-generated elections deepfakes are emerging threats.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 1831 ensures that the sexual exploitation of children in California is illegal, including AI-generated pictures and videos.\"\n    },\n    {\n      \"claim_text\": \"AI-generated content can be disturbing, harmful, and virtually indistinguishable from actual children.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 2655, the Defending Democracy from Deepfake Deception Act, protects election integrity by removing malicious deepfake media.\"\n    },\n    {\n      \"claim_text\": \"Violent rhetoric and election conspiracy theories have led to threats of intimidation at polling places.\"\n    },\n    {\n      \"claim_text\": \"The PEACE Act is a first-in-the-nation law protecting voters and election workers by prohibiting guns in polling places.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "AI-driven child sexual exploitation, revenge porn, and AI-generated elections deepfakes are emerging threats.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Assembly Bill 1831 ensures that the sexual exploitation of children in California is illegal, including AI-generated pictures and videos.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AI-generated content can be disturbing, harmful, and virtually indistinguishable from actual children.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Assembly Bill 2655, the Defending Democracy from Deepfake Deception Act, protects election integrity by removing malicious deepfake media.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Violent rhetoric and election conspiracy theories have led to threats of intimidation at polling places.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The PEACE Act is a first-in-the-nation law protecting voters and election workers by prohibiting guns in polling places.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "6a60f195a615e11deac6c0aca23c5e834aedcad9"
+}

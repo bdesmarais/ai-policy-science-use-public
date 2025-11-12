@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-minority-leader-jones-introduces-bill-repeal-newsoms-65-cent-gas-price-hike.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian Jones ( R-San Diego) is rolling up his sleeves and taking action to provide relief for millions of drivers at the pumps in California. On the first day",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:13:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Low Carbon Fuel Standard (LCFS) regulation in California is expected to increase gas prices by 65 cents per gallon in the near term.\",\n    \"A study published by the Kleinman Center for Energy Policy predicts that the LCFS regulations could raise gas prices by 85 cent",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Low Carbon Fuel Standard (LCFS) regulation in California is expected to increase gas prices by 65 cents per gallon in the near term.\",\n    \"A study published by the Kleinman Center for Energy Policy predicts that the LCFS regulations could raise gas prices by 85 cents per gallon by 2030.\",\n    \"The same study indicates that gas prices could increase by $1.50 per gallon by 2035 due to the LCFS regulations.\",\n    \"California's current strategy includes converting all vehicles to electric by 2035.\",\n    \"Governor Newsom has called on the California Air Resources Board (CARB) to increase the stringency of the LCFS as the state is currently not on track to meet its targets.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b9c64759ca508318142cb28bd43539acaddc4d53"
+}

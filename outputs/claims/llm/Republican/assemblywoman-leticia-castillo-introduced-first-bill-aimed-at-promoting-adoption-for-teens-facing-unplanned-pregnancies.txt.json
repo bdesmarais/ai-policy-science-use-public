@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblywoman-leticia-castillo-introduced-first-bill-aimed-at-promoting-adoption-for-teens-facing-unplanned-pregnancies.txt",
+  "party": "Republican",
+  "title": "Assemblywoman Leticia Castillo today announced the introduction of her first bill in the California State Assembly, aimed at expanding education about adoption as a viable option f",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:12:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"High school sexual education curricula in California will include comprehensive information about adoption as part of family planning education.\",\n    \"Adoption is often overlooked in discussions about unplanned pregnancies.\",\n    \"The bill ensures that adoption is prese",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"High school sexual education curricula in California will include comprehensive information about adoption as part of family planning education.\",\n    \"Adoption is often overlooked in discussions about unplanned pregnancies.\",\n    \"The bill ensures that adoption is presented as an equal and viable option alongside parenting and other family planning options.\",\n    \"The bill will provide accurate and unbiased information about the adoption process, legal rights, and the availability of counseling and support services.\",\n    \"The legislation aims to empower teens by providing them with knowledge about the adoption process and connecting them to resources and support.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f963707c9f9bbb1f1d00947ea0a8ec01e07d0e3d"
+}

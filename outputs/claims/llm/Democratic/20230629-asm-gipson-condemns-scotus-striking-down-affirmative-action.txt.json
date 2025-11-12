@@ -1,0 +1,13 @@
+{
+  "press_release": "20230629-asm-gipson-condemns-scotus-striking-down-affirmative-action.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Supreme Court struck down affirmative action, undermining progress toward achieving true equality and social justice.\",\n    \"Affirmative action has been a critical tool to help mitigate generations of discrimination and segregation.\",\n    \"By considering race, ethnic",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Supreme Court struck down affirmative action, undermining progress toward achieving true equality and social justice.\",\n    \"Affirmative action has been a critical tool to help mitigate generations of discrimination and segregation.\",\n    \"By considering race, ethnicity, and other factors in college admissions, affirmative action seeks to create a level playing field and provide equal opportunities.\",\n    \"The demise of affirmative action erodes civil rights and reverts society to a time when inclusivity was not prioritized.\",\n    \"The Supreme Court's decision fails to acknowledge persistent disparities in educational institutions.\",\n    \"The ruling undermines efforts to promote diversity, inclusion, and representation.\",\n    \"The decision perpetuates the cycle of inequality that individuals have fought to overcome.\",\n    \"Diversity brings significant benefits to educational environments.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8dbf46eeb63cc3af8a1b41fbbce5a676971ffcbf"
+}

@@ -1,0 +1,12 @@
+Sacramento, CA
+–
+This week, Assemblymember Rebecca Bauer-Kahan’s bill AB 2877 passed out of the Assembly Privacy & Consumer Protection committee with a vote of 11-0. This bill will prohibit businesses from using the personal data of children 16 and under to train artificial intelligence (AI) tools without a parent’s authorization.
+Assemblymember Bauer-Kahan (D- Orinda) emphasized the importance of safeguarding children’s privacy in the digital age, stating, “Our children’s data is valuable precisely for the reason that it is critical to protect it: they do not have the ability to understand the consent they are providing and the impact of their data use. This legislation aims to restrict the use of children’s data in AI development, ensuring that their rights are upheld and their sensitive information is not exploited.”
+"The promises and perils of AI are becoming increasingly clear, with the use of a minor’s personal data presenting an especially urgent set of risks,"
+said Danny Weiss, Chief Advocacy Officer of Common Sense Media.
+"We are grateful for Assemblymember Bauer-Kahan's leadership on this bill that shows foresight in making sure California’s strong data privacy law will also apply to AI products and services used by kids under 16."
+“
+AB 2877 is sorely needed to ensure responsible AI development and uphold the fundamental rights of our youngest citizens,”
+said Assemblymember Bauer-Kahan
+, who has authored several bills aimed to put guardrails on AI as the chair of the Privacy committee. The bill now heads to the Assembly Appropriations committee for a vote.
+###

@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-statement-on-bi-partisan-measure-to-suspend-californias-gas-tax-04-28-2022.txt",
+  "party": "Republican",
+  "title": "Provides Immediate Relief to Struggling Californians",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:12:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c0567108b2124f277b79ff072c7e696ff042f692"
+}

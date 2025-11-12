@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-democrats-kill-proposals-to-save-girls-sports.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Democrats on the Assembly Arts, Entertainment, Sports, and Tourism Committee voted along party lines to kill AB 844 (Essayli) and AB 89 (Sanchez)—two bills intr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:12:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"These proposals would have required student-athletes to compete based on their biological sex.\",\n    \"Polls show most Americans support keeping biological men out of women’s sports and private facilities.\",\n    \"The rejection of AB 844 demonstrates just how out of touch ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"These proposals would have required student-athletes to compete based on their biological sex.\",\n    \"Polls show most Americans support keeping biological men out of women’s sports and private facilities.\",\n    \"The rejection of AB 844 demonstrates just how out of touch Assembly Democrats have become.\",\n    \"Female athletes will continue to lose opportunities, and young girls will be forced to give up their right to privacy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d6ca62802afa761fc04c92ee6fa438e646ba9cfc"
+}

@@ -1,0 +1,30 @@
+source,filename,document_date,num_sentences,ai_statement_count,matched_ai_terms,unique_urls_count,unique_dois_count,unique_arxiv_count,has_ai,party,ai_category,assigned_to,double_annotate
+Democratic Assembly,reyes-issues-statement-passage-election-rigging-response-act.txt,,44,2,fairness,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,20240116-berman-introduces-legislation-outlaw-child-sexual-abuse-images-generated-ai.txt,,48,10,ai; artificial intelligence; ml,0,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,senator-josh-becker-condemns-efforts-to-undermine-californias-ai.txt,"September 8, 2025",29,10,ai; artificial intelligence,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,20250224-state-legislators-introduce-bill-create-curriculum-standards-ethnic-studies.txt,"October 7, 2023",81,2,bias,0,0,0,True,Democratic,ai,Sai,1
+Democratic Assembly,20250224-state-legislators-introduce-bill-create-curriculum-standards-ethnic-studies.txt,"October 7, 2023",81,2,bias,0,0,0,True,Democratic,ai,Zack,1
+Democratic Assembly,assembly-committee-unanimously-approves-the-physicians-make.txt,"September 8, 2025",36,10,ai; algorithm; algorithms; artificial intelligence,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,senate-health-committee-passes-senator-corteses-sb-999-reform-mental-health-and-addiction.txt,,28,2,fairness,0,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,20240828-bill-shield-elections-deceptive-online-deepfakes-passes-legislature.txt,,25,4,ai; generative ai,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,amid-renewed-safety-concerns-senator-padilla-urges-legislative-action-regulate-ai-chatbots.txt,,49,16,ai; artificial intelligence; chatbot; chatgpt; gpt-; openai,0,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,20250513-assemblymember-wards-surveillance-pricing-protection-act-moves-senate.txt,,22,2,facial recognition; fairness,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,finally-win-solar-legislature-passes-crucial-solar-legislation-to.txt,"September 8, 2025",40,3,fairness,0,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,comprehensive-legislative-package-authored-senator-becker-to.txt,"September 8, 2025",37,4,ai; algorithms; artificial intelligence; genai,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,20230411-assemblymember-bauer-kahans-ab-331-regulating-automated-decision-tools.txt,,21,5,ai; algorithm; algorithms; automated decision; bias; machine learning,0,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,20250401-new-bill-bans-unfair-junk-fees-renters.txt,,34,2,fairness,0,0,0,True,Democratic,ai,Zack,1
+Democratic Assembly,20250401-new-bill-bans-unfair-junk-fees-renters.txt,,34,2,fairness,0,0,0,True,Democratic,ai,Sai,1
+Democratic Assembly,20240929-california-criminalizes-ai-enabled-child-sexual-abuse.txt,,48,11,ai; artificial intelligence,0,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,20201001-governor-newsom-signs-legislation-reforming-police-officer-recruitment-and.txt,"September 30, 2020",16,2,bias,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,20250520-bipartisan-coalition-defends-californias-role-responsible-ai-innovation.txt,,72,13,ai; algorithms; artificial intelligence,0,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,20240313-democracy-leaders-introduce-solutions-curb-emerging-digital-threats.txt,,45,7,ai; generative ai,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,20240409-bermans-public-safety-package-advances.txt,,71,4,ai; artificial intelligence,0,0,0,True,Democratic,ai,Sai,1
+Democratic Assembly,20240409-bermans-public-safety-package-advances.txt,,71,4,ai; artificial intelligence,0,0,0,True,Democratic,ai,Zack,1
+Democratic Assembly,20210827-assemblymember-ash-kalra-releases-statement-racial-justice-act-all-ab-256.txt,"August 27, 2021",19,2,bias,0,0,0,True,Democratic,ai,Zack,1
+Democratic Assembly,20210827-assemblymember-ash-kalra-releases-statement-racial-justice-act-all-ab-256.txt,"August 27, 2021",19,2,bias,0,0,0,True,Democratic,ai,Sai,1
+Democratic Assembly,20250422-assemblymember-dr-lashae-sharp-collins-unveils-bold-legislative-package.txt,,28,2,fairness,0,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,20241226-new-year-new-laws.txt,"January 1, 2025",43,3,ai,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,senator-cortese-champions-economic-development-through-data-center-expansion-bill.txt,,21,2,ai; artificial intelligence,0,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,20230321-assemblywoman-lori-d-wilson-announces-advancement-freedom-face-surveillance.txt,,33,8,facial recognition,0,0,0,True,Democratic,ai,Zack,0
+Democratic Assembly,20240215-assemblymember-bauer-kahan-introduces-bill-eliminate-bias-ai-decision.txt,,38,14,ai; algorithm; algorithms; artificial intelligence; automated decision; bias,2,0,0,True,Democratic,ai,Sai,0
+Democratic Assembly,20200706-assemblymember-ash-kalra-and-advocates-declare-now-time-california-racial.txt,,28,4,bias,0,0,0,True,Democratic,ai,Zack,0

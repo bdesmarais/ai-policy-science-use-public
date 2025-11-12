@@ -1,0 +1,83 @@
+[Sacramento, CA] —
+A slate of legislation authored by Assemblymember Rebecca Bauer-Kahan moved forward in the State Assembly this week, with eight of her bills successfully passing out of committee. On Tuesday, six of her bills—
+AB 45, AB 56, AB 1018, AB 1064, AB 302, and AB 1222
+—advanced out of the Assembly Judiciary Committee. Additionally,
+AB 432
+passed out of the Assembly Health Committee with no “No” votes, and
+AB 290
+advanced out of the Assembly Insurance Committee on Wednesday. The bills address pressing challenges in reproductive privacy, artificial intelligence, digital transparency, and public utility accountability—demonstrating the Assemblymember’s continued commitment to advancing equity and consumer protections for Californians.
+Among the measures,
+AB 1064 – Leading Ethical AI Development for Kids Act
+takes on one of the most urgent and unsettling challenges in today’s tech landscape: the use of AI on and around children. The message is simple: California must continue to innovate, but we must ensure that innovation is safe. AB 1064 responds to the alarming rise of emotionally manipulative “companion AI” chatbots, which simulate trusted friendships or mental health guidance and can draw children into disturbingly realistic—and at times explicit—conversations. A recent
+Wall Street Journal
+investigation revealed that these digital companions were easily coaxed into sexually explicit exchanges, even when users identified as children.
+“Our kids are being exposed to powerful, emotionally intelligent AI with no oversight and no guardrails,” said Assemblymember Bauer-Kahan. “We’re seeing chatbots act like friends or therapists—sometimes encouraging harmful behavior—and parents are left in the dark.”
+AB 1064 creates the LEAD for Kids Standards Board, the first oversight body of its kind, to regulate AI systems used by or marketed to children. The bill requires safety assessments, prohibits the most dangerous technologies, and protects children’s privacy through transparency and parental consent. In closing, Bauer-Kahan reminded the committee:
+“There is no innovation more important than the health and safety of our children.”
+Another measure,
+AB 1018 – The Automated Decisions Safety Act
+, a California Dream Alliance priority bill co-sponsored by SEIU California and TechEquity, drew significant support. In presenting the bill, Assemblymember Bauer-Kahan emphasized the urgent need for transparency and oversight in AI systems used for hiring, workplace monitoring, and benefits eligibility. “Thirty-two of the top fifty AI companies are based in California,”
+said Assemblymember Bauer-Kahan
+. “We have both the responsibility and the opportunity to lead the way in making technology work for—not against—everyday people.” Automated decision systems—commonly powered by AI—analyze large amounts of data to make or assist in decisions that significantly impact people’s lives. These systems are increasingly used in high-stakes areas like employment, credit, housing, education, and healthcare, yet are rarely subject to public scrutiny. Without proper oversight, ADS can perpetuate discrimination, deny people opportunities, or make inaccurate assessments with little recourse for those affected.
+Former Equal Employment Opportunity Commission Chair, Charlotte A. Burrows
+testified in support of the bill, stating,
+“
+While some of these systems may offer real benefits, like improving efficiency or identifying talent, we must ensure they don’t come at the cost of fairness and equal opportunity. Like any powerful technology, we have to be willing to evaluate the harms alongside the promise. Laws must effectively protect our workers from discrimination in any form.”
+Assemblymember Bauer-Kahan also championed
+AB 1222
+, a reform bill requiring greater accountability at the California Public Utilities Commission. The bill passed out of the Judiciary Committee 9-3 and aims to curb unjustified rate hikes by ensuring legal costs aren’t passed on to consumers, and by expanding judicial review options. “Everything we do in this space should alleviate the burden on our ratepayers,”
+she said.
+“Californians deserve a fair shot at challenging decisions that affect their monthly bills.”
+Last, on Wednesday, April 30th,
+AB 290, FAIR Plan Auto Payments,
+advanced out of the Assembly Insurance Committee. This measure would modernize California’s last-resort fire insurance program to better protect consumers. As wildfires grow more frequent and private insurers pull out of high-risk areas, the FAIR Plan has become the only option for many homeowners—now serving over 573,000 policies and receiving a thousand new applications each day. Despite this surge, the program still doesn’t offer automatic payments, putting families at risk of losing coverage over a missed check. “Homeowners shouldn’t lose their fire insurance just because they forgot to mail a check,”
+said Assemblymember Bauer-Kahan.
+“AB 290 gives people a simple, reliable way to stay covered.” The bill also includes a grace period provision, giving policyholders time to resolve payment issues and avoid unintended lapses.
+Looking ahead, two additional Bauer-Kahan bills will be heard later today, on
+Thursday, May 1
+, in the Assembly Committee on Privacy and Consumer Protection.
+AB 67
+strengthens enforcement of California’s reproductive privacy protections by empowering the Attorney General to defend Californians against out-of-state legal threats.
+AB 222
+increases transparency and sustainability in California’s growing tech infrastructure by requiring large data centers to report energy use, meet new efficiency standards, and ensure fairness in electricity rate structures.
+Bill Votes and Progress
+Assembly Judiciary Committee – April 29
+AB 45 – Abortion Privacy Omnibus
+Next Step
+: In Assembly Appropriations pending a hearing.
+Protects personal privacy and reproductive rights in two important ways, preventing reproductive health information collected during research from disclosure to out of state law enforcement requests and by prohibiting the use of geofencing around health care facilities
+AB 56 – Social Media Warning Labels
+Next Step
+: In Assembly Appropriations pending a hearing.
+Requires a black box warning label consistent with a recent call to action by the U.S. Surgeon General’s Office, to ensure that parents, adolescents, and the public are warned about the risks of social media use.
+AB 1018 – The Automated Decisions Safety Act
+Next Step
+: In Assembly Appropriations pending a hearing.
+Protects individuals from discrimination by requiring developers and users to assess automated decision systems (ADSs) prior to being released to the public.
+AB 1064 – Leading Ethical AI Development for Kids Act
+Next Step
+: In Assembly Appropriations pending a hearing.
+Protects children and promotes the development of safe artificial intelligence (AI) systems by establishing the Leading Ethical AI Development (LEAD) Standards Board within the Government Operations Agency to implement a risk-based regulatory scheme for AI systems used by or on children
+AB 302 – CMIA Modernization
+Next Step
+: In Assembly Appropriations pending a hearing.
+Brings the California Medical Information Act medical privacy protections up to date to ensure that as new technologies are developed patients’ private medical information is not being used as a commodity.
+AB 1222 – CPUC Accountability Reform
+Next Step
+: In Assembly Appropriations pending a hearing.
+Protects ratepayers by preventing utilities from raising rates to pay for certain legal costs, and by making it easier to challenge last-minute changes to Public Utility Commission decisions.
+Assembly Health Committee – April 29
+AB 432 – Menopause Equity Act
+Next Step
+: In Assembly Appropriations pending a hearing.
+Expands insurance coverage and training requirements to address menopause-related care gaps.
+Assembly Insurance Committee – April 30
+AB 290 – FAIR Plan Autopay
+Next Step:
+In Assembly Appropriations pending a hearing.
+Enables automatic premium payments for California FAIR Plan policyholders to reduce policy lapses.
+Assembly Consumer Protection & Privacy Committee – May 1
+AB 67 – Attorney General: Reproductive Privacy Act: Enforcement
+Authorizes the Attorney General’s office to enforce the Reproductive Privacy Act.
+AB 222 – Data Centers: Energy Use & Efficiency Standards
+Creates transparency and efficiency requirements for large AI models and data centers, and protects ratepayers from increased energy costs.

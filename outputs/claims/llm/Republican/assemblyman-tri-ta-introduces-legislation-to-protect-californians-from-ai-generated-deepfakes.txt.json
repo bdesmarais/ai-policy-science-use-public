@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-tri-ta-introduces-legislation-to-protect-californians-from-ai-generated-deepfakes.txt",
+  "party": "Republican",
+  "title": "Assemblyman Tri Ta Announces Legislation to Protect Californians’ Privacy in the Age of AI Technology",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:12:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Artificial intelligence can improve people's lives.\",\n    \"AI can be weaponized to inflict harm.\",\n    \"Artificial intelligence uses complex algorithms to generate simulated reality.\",\n    \"Deepfake technology has become more widely accessible in recent years.\",\n    \"Dee",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Artificial intelligence can improve people's lives.\",\n    \"AI can be weaponized to inflict harm.\",\n    \"Artificial intelligence uses complex algorithms to generate simulated reality.\",\n    \"Deepfake technology has become more widely accessible in recent years.\",\n    \"Deepfake technology can be used to cheaply and quickly create fake digital content that is hard to distinguish from genuine content.\",\n    \"The abuse of AI technology can have a massive impact on people's lives.\",\n    \"There is a need to update laws to keep up with fast emerging AI technology.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba584fd5b8c518761f0e27a93945298a2df35900"
+}

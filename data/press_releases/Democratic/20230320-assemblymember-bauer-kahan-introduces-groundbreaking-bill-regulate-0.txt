@@ -1,0 +1,16 @@
+Sacramento, CA
+–Assemblymember Bauer-Kahan (D-Orinda) has introduced a historic bill that will pave the way for regulations on
+automated decision tools (ADTs) that make consequential decisions.
+The bill, which is the first of its kind in the state, ensures industry follows best practices and cracks down on bad actors
+by requiring developers and users to mitigate and asses automated decision tools (ADTs).
+"As the use of decision making via algorithm becomes more prevalent in our daily lives, it is crucial that we take steps to ensure that it is used ethically and responsibly," said
+Assemblymember Bauer-Kahan.
+"Without quick, thoughtful regulation, we face a future where decision making is heavily biased without any protections from the devastating impacts.”
+Automated decision tools, such as machine learning algorithms assess eligibility for a benefit or penalty. These systems have been traditionally used for credit decisions, however usage has expanded to employment screening, insurance eligibility, and health care decisions. ADTs are often trained on biased data, resulting in harm to marginalized communities. For example, a study published in
+Science
+showed that a clinical algorithm used across hospitals for determining patient care was racially biased against Black patients. Increasing use of algorithms without accompanying regulations will erode the legitimacy of our institutions and harm marginalized groups.
+AB 331 requires developers and users of ADTs to conduct and record an impact assessment including the intended use, the makeup of the data, and the rigor of the statistical analysis. The data reported must also include an analysis of potential adverse impact on the basis of race, color, ethnicity, sex, religion, age, national origin, or any other classification protected by state law.
+If the use of ADT’s goes unchecked, it could lead to a future where decisions that significantly impact people’s lives are made without their knowledge or consent. This could result in engraining social injustice even  further into our institutions.
+"ADT is rapidly evolving and it is imperative that we take action now to ensure that it is used in a way that benefits everyone." said
+Assemblymember Bauer-Kahan.
+###

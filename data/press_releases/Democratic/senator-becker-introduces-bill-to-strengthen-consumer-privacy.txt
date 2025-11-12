@@ -1,0 +1,101 @@
+S acramento — Senator Josh Becker announced legislation today to provide stronger privacy protections for Californians from data brokers who harvest and traffic our personal information, largely without our knowledge.
+
+Senate Bill 1059 sets stricter annual registration and reporting requirements for data brokers and toughens the penalties for data traffickers who do not comply with the law, including those that do not disclose and detail data breaches, or fail to report they collect information on minors.
+
+“Just because we live and work in the Digital Age does not mean we waive our rights to privacy,” said Senator Becker, D-Peninsula, a member of the Senate Select Committee on Cybersecurity and Identity Theft Prevention. “SB 1059 will better protect Californians from potential misuse of our personal data and shine a stronger light on data brokers and their activities.”
+
+Data brokers are businesses that have no direct relationship to consumers but collect, aggregate and purvey consumers’ personal information acquired from several sources, including transactions; user interactions with apps, sites, social media and online games; public records; and location data from personal tech, like cellphones. Age, gender, sexual orientation, political preference, financial transactions, income, possession of real property, interests, likes, dislikes and habits are among the personal data gleaned and analyzed by these businesses that then package the information and sell it to third parties.
+
+“Our personal information is a prized commodity for data brokers,” said Senator Becker. “They provide third parties the means to profile and target us for ads, sales pitches and other content, and to follow our behavior, including tracking us in real time to specific locations. The breadth of information data brokers acquire is staggering.”
+
+The Multibillion-Dollar Market for Data
+
+Thousands of data brokers operate in the United States, according to the Electronic Privacy Information Center, better known as EPIC. Their ability to access and acquire personal information can grow tremendously. One data behemoth could provide information about 3,000 attributes of 700 million consumers in 2017, Fast Company reported, noting those numbers rose to 10,000 attributes for 2.5 billion people the following year.
+
+Recent news articles provide a glimpse of the vast market for personal data and its uses, which can be invasive:
+
+The global market for location data from cellphones is estimated at $12 billion, The Markup reported in September.
+
+A data broker sold location data acquired from Muslim prayer apps and other Muslim-focused apps to military contractors, Vice Media’s Motherboard magazine reported last year.
+
+Federal agencies bought access to a commercial database during the Trump Administration to use cellphone location data for immigration enforcement, the Wall Street Journal reported in 2020.
+
+Three major data brokers advertise their ability to provide data on former, current and active-duty U.S. military personnel, information that can be used to determine where soldiers live, deduce whether they have been deployed, and find out about their families, the Lawfare blog reported last summer.
+
+Payroll records for more than half the country’s workforce are in the hands of a data company, which obtains the records from more than two million employers that outsource employment and salary verification requests, NBC Bay Area reported just last month.
+
+How SB 1059 Would Strengthen Protections for Consumer Privacy
+
+SB 1059 builds on state consumer privacy laws that stem from the 1972 California Constitutional amendment establishing the right of privacy for all Californians:
+
+The California Consumer Privacy Act of 2018 gave consumers more control over the personal information business collect.
+
+Assembly Bill 1202 , which took effect in 2020, required data brokers to register annually with the California Attorney General, pay a registration fee, and provide basic business information: the business’ name and its primary physical, email and website addresses. Providing further details about business operations is voluntary.
+
+Soon after AB 1202 was signed, the state Justice Department estimated 1,000 data brokers would register. As of last month, however, only 400 data brokers had complied.
+
+SB 1059 would toughen the data brokers law on several fronts. The legislation:
+
+Broadens the definition of data brokers to include businesses that knowingly collect and share information, so brokers contending they do not sell data are embraced by the law.
+
+Adds new requirements to annual registration, making it mandatory for data brokers to: Report data breaches with details on the incursions, Disclose whether they collect data of minors, and Provide detailed instructions on how consumers can opt out, delete, correct or limit the personal information available to data brokers, and more. The new required information would be included in the publicly accessible state Data Broker Registry
+
+Report data breaches with details on the incursions,
+
+Disclose whether they collect data of minors, and
+
+Provide detailed instructions on how consumers can opt out, delete, correct or limit the personal information available to data brokers, and more. The new required information would be included in the publicly accessible state Data Broker Registry
+
+Makes a data broker that does not comply with registration requirements liable for increased civil penalties of $200 per day for each day the business is found to be out of compliance, up from the current $100-per-day penalty.
+
+Expands authority for enforcement of broker registry laws to include the California Privacy Protection Agency as well as state Justice Department.
+
+Support from Consumer Advocacy and Privacy Leaders
+
+A coalition of consumer advocacy and privacy groups support SB 1059, including Consumer Reports, EPIC, Californians for Consumer Privacy and Consumer Watchdog.
+
+“Californians need an effective data broker registry so that they can better exercise their privacy rights at businesses that freely buy and sell their information, typically without their knowledge,” said Consumer Reports Senior Policy Analyst Maureen Mahoney. “Consumer Reports has found that this can be difficult for consumers with the current data broker registry. That’s why we support SB 1059, which provides key updates to the law, so that consumers will have more control over their personal information.”
+
+EPIC Deputy Director Caitriona Fitzgerald said, “Data brokers collect millions of data points about us to build invasive profiles used to target us with targeted ads or worse — determine interest rates on mortgages and credit cards, eligibility for housing, and deny people jobs. SB 1059 will shed light on these exploitive practices by requiring transparency about which data brokers are buying, aggregating, selling and trading our personal information.”
+
+“By unifying the registration and regulation of data brokers under the California Privacy Protection Agency, SB 1059 gives the PPA even more tools at its disposal to further protect Californians’ privacy rights,” said Alastair Mactaggart, founder of Californians for Consumer Privacy. “As we work to strengthen and codify consumer privacy rights in California, this legislation is an important next step.”
+
+“SB 1059 gives California more tools at its disposal to better regulate data brokers who are selling and trading our most sensitive personal information that is used to profile and score each one of us.” Jamie Court, President, Consumer Watchdog.
+
+Policy committee reviews for SB 1059 will begin in spring.
+
+###
+
+Media Contact: Leslie Guevarra, leslie.guevarra@sen.ca.gov , 415-298-3404
+
+Office Information
+
+Capitol Office
+
+1021 O Street, Suite 6520
+
+District Office
+
+3525 Alameda de las Pulgas Menlo Park, CA 94025 Phone: (650) 233-2724
+
+Social Media
+
+California State Senate | Democratic Caucus © 2023 | Privacy Policy | Accessibility Statement
+
+September 8, 2025
+
+August 28, 2025
+
+August 19, 2025
+
+July 28, 2025
+
+Senator Becker Introduces Bill to Strengthen Consumer Privacy Protections and Toughen Penalties for Data Brokers Who Defy the Law
+
+Statement from Bay Area Caucus on Preserving the $750 Million Bay Area Transit Bridge Loan
+
+Creating Change – August 2025
+
+Is California on Track for 2030?
+
+Creating Change – July 2025

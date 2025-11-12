@@ -1,0 +1,10 @@
+party,provider,count
+Republican,publisher,92
+Democratic,publisher,87
+Republican,openai,40
+Republican,arXiv,27
+Democratic,arXiv,24
+Democratic,OpenAlex,3
+Republican,Crossref,3
+Democratic,Crossref,2
+Republican,OpenAlex,1

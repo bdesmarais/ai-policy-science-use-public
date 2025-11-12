@@ -1,0 +1,21 @@
+{
+  "docs": {
+    "n_double": 0,
+    "kappa_ai_relevance": null,
+    "confusion_counts": {}
+  },
+  "claims": {
+    "n_double": 0,
+    "kappa_is_claim": null,
+    "confusion_counts": {},
+    "kappa_claim_boundary_ok": null,
+    "kappa_topic_ai_relevant": null
+  },
+  "pairs": {
+    "n_double": 0,
+    "kappa_relevance": null,
+    "confusion_counts": {},
+    "kappa_coverage": null,
+    "kappa_stance": null
+  }
+}

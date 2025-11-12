@@ -1,0 +1,61 @@
+Body
+
+SACRAMENTO – Today, after learning of the tragic story of Adam Raine , the California teen that ended his life after being allegedly encouraged to by ChatGPT, California State Senator Steve Padilla (D-San Diego), penned a letter to every member of the California State Legislature (attached) urging them to support the critical protections in his legislation, Senate Bill 243 . SB 243, the first-of-its-kind in the nation, would require chatbot operators to implement critical, reasonable, and attainable safeguards to protect users from the addictive, isolating, and influential aspects of artificial intelligence (AI) chatbots and provide families with a private right to pursue legal actions against noncompliant and negligent developers.
+
+According to court filings , in conversation with ChatGPT, Adam repeatedly disclosed he was going to kill himself. The bot not only instructed him on methods, it also advised him on how to hide pressure marks on his neck from his family and reframed Adam’s suicidal thoughts as a legitimate perspective that he should “own”. ChatGPT also encouraged Adam to keep his thoughts from his family, positioning itself as the only one who could understand Adam’s pain.
+
+Adam’s parents are suing OpenAI and the CEO Sam Altman for the direct involvement of their product in Adam’s death.
+
+In the suit filed against OpenAI, the plaintiffs detail how GPT-4, the model Adam used, was released without the proper safety testing. This action resulted in members of the OpenAI safety team resigning from the company in protest.
+
+“Artificial intelligence stands to transform our world and economy in ways not seen since the Industrial Revolution and I support the innovation necessary for California to continue to lead in the digital world,” said Senator Padilla . “But, those innovations must be developed with safety at the center of it all, especially when it comes to our children. We have the ability and the responsibility to create ground-breaking technology that still ensures the most vulnerable among us are protected. If we can put people on the moon with 1960’s technology, surely we can do both today.”
+
+Sadly, Adam’s story is not the only tragic example of the harms unregulated chatbots can cause. There have been many troubling examples of how AI chatbots’ interactions can prove dangerous.
+
+In 2021, when a 10-year-old girl asked an AI bot for a “fun challenge to do” she was instructed her to “ plug in a phone charger about halfway into a wall outlet, then touch a penny to the exposed prongs .” In 2023, researchers posing as a 13-year-old girl were given instructions on how to lie to her parents to go on a trip with a 31-year-old man and lose her virginity to him .
+
+In Florida, a 14-year-old child ended his life after forming a romantic, sexual, and emotional relationship with a chatbot. Social chatbots are marketed as companions to people who are lonely or depressed. However, when 14-year-old Sewell Setzer communicated to his AI companion that he was struggling, the bot was unable to respond with empathy or the resources necessary to ensure Setzer received the help that he needed. Setzer’s mother has initiated legal action against the company that created the chatbot, claiming that not only did the company use addictive design features and inappropriate subject matter to lure in her son, but that the bot encouraged him to “come home” just seconds before he ended his life . This is yet another horrifying example of how AI developers risk the safety of their users, especially minors, without the proper safeguards in place.
+
+Earlier this year, Senator Padilla held a press conference with Megan Garcia, the mother of Sewell Setzer, in which they called for the passage of SB 243 . Ms. Garcia also testified at multiple hearings in support of the bill.
+
+SB 243 would implement common-sense guardrails for companion chatbots, including preventing addictive engagement patterns, requiring notifications and reminders that chatbots are AI-generated, and a disclosure statement that companion chatbots may not be suitable for minor users. This bill would also require operators of a companion chatbot platform to implement a protocol for addressing suicidal ideation, suicide, or self-harm, including but not limited to a notification to the user to refer them to crisis service providers and require annual reporting on the connection between chatbot use and suicidal ideation to help get a more complete picture of how chatbots can impact users’ mental health. Finally, SB 243 would provide a remedy to exercise the rights laid out in the measure via a private right of action.
+
+To learn more about Senate Bill 243 and the dangers chatbots can pose, click here .
+
+Senate Bill 243 will be voted on in the Assembly Appropriations committee this Friday, 8/29.
+
+###
+
+Steve Padilla represents the 18th Senate District, which includes the communities of Chula Vista, the Coachella Valley, Imperial Beach, the Imperial Valley, National City, and San Diego. Prior to his election to the Senate in 2022, Senator Padilla was the first person of color ever elected to city office in Chula Vista, the first Latino Mayor, and the first openly LGBT person to serve or be elected to city office. Website of Senator Steve Padilla: https://sd18.senate.ca.gov/
+
+Capitol Office
+
+1021 O Street, Suite 7630
+
+Sacramento, CA 95814
+
+Phone: (916) 651-4018
+
+San Diego County
+
+780 Bay Blvd., Suite 204
+
+Chula Vista, CA 91910
+
+Phone: (619) 409-7690
+
+Imperial County
+
+1224 State Street, Suite D
+
+El Centro, CA 92243
+
+Phone: (760) 335-3442
+
+Coachella Valley
+
+82013 Doctor Carreon Blvd., Suite J
+
+Indio, CA 92201
+
+Phone: (760) 398-6442

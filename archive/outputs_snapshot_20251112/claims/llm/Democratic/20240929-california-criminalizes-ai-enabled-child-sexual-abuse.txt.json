@@ -1,0 +1,13 @@
+{
+  "press_release": "20240929-california-criminalizes-ai-enabled-child-sexual-abuse.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1831 criminalizes the creation, distribution, and possession of artificial intelligence-generated Child Sexual Abuse Material (CSAM) in California.\",\n    \"Artificial intelligence technologies are creating disturbing and harmful content resembling actual children.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1831 criminalizes the creation, distribution, and possession of artificial intelligence-generated Child Sexual Abuse Material (CSAM) in California.\",\n    \"Artificial intelligence technologies are creating disturbing and harmful content resembling actual children.\",\n    \"The new law aims to address the dangers posed by AI technologies in creating Child Sexual Abuse Material.\",\n    \"AI that creates harmful images is trained on thousands of images of real children being abused, which revictimizes those children.\",\n    \"The emergence of generative artificial intelligence platforms has been used to create child sexual abuse material and facilitate child sexual exploitation.\",\n    \"The rapid development of AI technology poses challenges to efforts to protect children from exploitation and to prosecute related crimes.\",\n    \"Many child sexual exploitation cases are prosecuted at the state level, highlighting the need for state laws to adapt to emerging technologies.\",\n    \"AB 1831 addresses gaps in California’s legal remedies for child victims of generative AI-created child sexual abuse material.\",\n    \"California's legislation aims to protect minors from the exploitation of emerging AI technologies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7d6f26ff2c4dfe9b896fc97dfe37b8005a2955c7"
+}

@@ -1,0 +1,67 @@
+SACRAMENTO, CA – As artificial intelligence (AI) continues to shape industries and impact everyday life, Senator Josh Becker (D-Menlo Park) has introduced SB 468 , the Artificial Intelligence Security and Protection Act . SB 468 ensures stronger security protections for AI systems that process personal information in high-risk areas like healthcare, employment, finance, and education.
+
+“AI is advancing rapidly, and our security laws must keep up with these constantly evolving technologies,” said Senator Becker . “Without proper safeguards, AI systems that automate life-altering decisions could expose people’s most sensitive information to data breaches, fraud, or manipulation. SB 468 ensures that businesses deploying these powerful technologies take responsibility for protecting Californians' personal data.”
+
+AI systems handle vast amounts of sensitive personal data, creating new vulnerabilities beyond traditional data security concerns. Cybercriminals can manipulate AI models through tactics like:
+
+"Data poisoning" – corrupting AI training data to create biased or incorrect decisions.
+
+"Model inversion" – extracting personal details by repeatedly querying AI models.
+
+The "black box" nature of AI, making it difficult to detect breaches or misuse.
+
+Without clear security standards, these risks could lead to identity theft, discrimination, and financial harm for Californians.
+
+Under SB 468, businesses that deploy high-risk AI systems processing personal information must establish and maintain a comprehensive security program to protect consumers. This includes:
+
+Clear accountability by designating security managers and conducting risk assessments.
+
+Employee training in AI security protocols.
+
+Physical access restrictions for personal data.
+
+Third-party oversight.
+
+Incident response plans to rapidly address security breaches when they occur.
+
+To enforce compliance, SB 468 defines violations as deceptive trade practices under California’s Unfair Competition Law and grants the California Privacy Protection Agency authority to adopt regulations.
+
+Existing California law only requires businesses to implement "reasonable security" measures without defining what that means—leaving consumers vulnerable. SB 468 fills this gap by ensuring AI systems handling personal information meet clear, enforceable security standards.
+
+The Artificial Intelligence Security and Protection Act is the latest landmark legislation on AI and data privacy that Senator Becker has authored. In 2023, he successfully passed the Delete Act , which creates a one-stop shop to permanently delete personal data, preventing it from being sold to unknown third parties. In 2024, he passed a first-in-the-nation AI transparency bill that requires AI-generated content to be labeled as AI. Consumers have a right to know what is real and what is AI generated.
+
+This year, Senator Becker is also authoring SB 361, the Defending Californians' Data Act , which expands the kinds of information that data collectors must report, including immigration status, sexual orientation and gender identity, union membership, and government-issued identification information.
+
+SB 468 is supported by the Transparency Coalition and the Electronic Privacy Information Center .
+
+Office Information
+
+Capitol Office
+
+1021 O Street, Suite 6520 Sacramento, CA 95814 Phone: (916) 651-4013 Fax: (916) 651-4913
+
+District Office
+
+3525 Alameda de las Pulgas Menlo Park, CA 94025 Phone: (650) 233-2724
+
+Social Media
+
+California State Senate | Democratic Caucus © 2023 | Privacy Policy | Accessibility Statement
+
+September 8, 2025
+
+August 28, 2025
+
+August 19, 2025
+
+July 28, 2025
+
+To Strengthen Security for AI Systems Handling Personal Data, Senator Becker Introduces New AI Protection Legislation
+
+Statement from Bay Area Caucus on Preserving the $750 Million Bay Area Transit Bridge Loan
+
+Creating Change – August 2025
+
+Is California on Track for 2030?
+
+Creating Change – July 2025

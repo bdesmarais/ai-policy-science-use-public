@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-valladares-joint-authors-no-tax-tips-bill-demands-relief-hardworking-californians.txt",
+  "party": "Republican",
+  "title": "Senator Suzette Martinez Valladares (R-Santa Clarita) announced today that she introduced legislation alongside Senator Rosilicie Ochoa Bogh (R-Yucaipa) and Senator Shannon Grove (",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:13:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Valladares introduced legislation to exempt tips from state income tax.\",\n    \"The bill would provide immediate relief for California’s service and hospitality workers.\",\n    \"Everyday essentials like groceries and utilities cost significantly more today than eve",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Valladares introduced legislation to exempt tips from state income tax.\",\n    \"The bill would provide immediate relief for California’s service and hospitality workers.\",\n    \"Everyday essentials like groceries and utilities cost significantly more today than ever before.\",\n    \"Millions of workers in California jobs receive tips.\",\n    \"The policy would ensure every dollar left as a tip directly goes into the pockets of those who earned it.\",\n    \"More money in the hands of everyday consumers will have a positive effect on their communities.\",\n    \"Not taxing tips will allow service industry workers to keep the extra gratuity given for excellent service.\",\n    \"The legislation has the potential to bring real benefits to millions of workers in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ddc362388d801555a6ec9f2d96178a53a62b472b"
+}

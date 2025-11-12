@@ -1,0 +1,13 @@
+{
+  "press_release": "20240409-bermans-public-safety-package-advances.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1831 would criminalize the creation, distribution, and possession of artificial intelligence-generated Child Sexual Abuse Material (CSAM).\",\n    \"Artificial intelligence technologies can produce disturbing and harmful content resembling actual children.\",\n    \"Califor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1831 would criminalize the creation, distribution, and possession of artificial intelligence-generated Child Sexual Abuse Material (CSAM).\",\n    \"Artificial intelligence technologies can produce disturbing and harmful content resembling actual children.\",\n    \"California law must be clear that the sexual exploitation of children is illegal, including when AI is used to create CSAM that is virtually indistinguishable from a real child.\",\n    \"There is a gap in California law regarding the regulation of AI-generated sexual exploitation material.\",\n    \"AB 1962 closes a loophole in current law that allows perpetrators to evade punishment for distributing private sexual images without consent.\",\n    \"Existing law does not prevent someone from secretly recording explicit videos or taking explicit pictures for the purpose of revenge.\",\n    \"Revenge porn is an increasingly common crime intended to shame and intimidate its victims.\",\n    \"Victims of revenge porn often suffer significant emotional distress, including suicidal thoughts and online harassment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "44ebaf3534bbf0953ade692fa2704513a0f3e526"
+}

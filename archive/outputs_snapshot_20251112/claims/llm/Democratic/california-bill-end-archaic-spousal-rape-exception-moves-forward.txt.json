@@ -1,0 +1,13 @@
+{
+  "press_release": "california-bill-end-archaic-spousal-rape-exception-moves-forward.txt",
+  "party": "Democratic",
+  "title": "AB 1171 , a bill co-authored by Assemblymember Cristina Garcia (D-Bell Gardens) and Assemblymember Evan Low (D-Silicon Valley) and Senator Dave Cortese (D-Silicon Valley) to end Ca",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:12:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1171 will eliminate the spousal rape exception in the California Penal Code to ensure that spousal rape is treated as seriously as rape of a non-spouse.\",\n    \"Rape is considered the same regardless of the relationship between the rapist and the victim.\",\n    \"Califor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1171 will eliminate the spousal rape exception in the California Penal Code to ensure that spousal rape is treated as seriously as rape of a non-spouse.\",\n    \"Rape is considered the same regardless of the relationship between the rapist and the victim.\",\n    \"California is one of eleven states that distinguishes spousal rape from non-spousal rape.\",\n    \"Between 10-14% of married women have been or may experience rape by their spouse, according to the National Coalition Against Domestic Violence.\",\n    \"18% of victims of spousal rape state that their children have witnessed the rape.\",\n    \"Until 1975, every state in the United States exempted marital rape from ordinary rape law.\",\n    \"The legal description of spousal and non-spousal rape may be the same, but penalties for spousal rape in California are less severe.\",\n    \"A person convicted of non-spousal rape is required to register as a sex offender, whereas a person convicted of spousal rape only must register if the act involved the use of force or violence leading to a prison sentence.\",\n    \"Defendants accused of non-spousal rape of an unconscious person cannot plea bargain, but defendants married to the unconscious victim can plea bargain.\",\n    \"California women have been advocating to end the spousal rape exception for nearly 50 years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6fce6aed67d034e9d1d3587fcc5151d66b69755f"
+}

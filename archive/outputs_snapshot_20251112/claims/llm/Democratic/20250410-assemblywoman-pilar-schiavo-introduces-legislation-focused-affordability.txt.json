@@ -1,0 +1,13 @@
+{
+  "press_release": "20250410-assemblywoman-pilar-schiavo-introduces-legislation-focused-affordability.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Chiquita Canyon Tax Relief Act ensures that any compensation residents receive from the landfill operator or a government entity is exempt from state income taxes.\",\n    \"The Veterans Pension Tax Exemption Bill eliminates state income taxes on military retirement pay",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Chiquita Canyon Tax Relief Act ensures that any compensation residents receive from the landfill operator or a government entity is exempt from state income taxes.\",\n    \"The Veterans Pension Tax Exemption Bill eliminates state income taxes on military retirement pay beginning in 2027.\",\n    \"The Police Pension Tax Exemption Bill exempts peace officer pensions from state income tax.\",\n    \"The Veterans’ Property Tax Exemption (ACA 5) expands access to veterans’ and disabled veterans’ property tax exemptions.\",\n    \"The Senior Fraud Reimbursement Act requires banks and financial institutions to take proactive measures to prevent scams against seniors.\",\n    \"The Timely Care Act improves healthcare access by extending prior authorizations for care from 60 or 90 days to one full year.\",\n    \"The Utility Ratepayer Relief Act ensures that savings from public grants or low-interest government loans are passed directly to ratepayers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a15a0ce70235954bff47666f3ddb5acf1a681532"
+}

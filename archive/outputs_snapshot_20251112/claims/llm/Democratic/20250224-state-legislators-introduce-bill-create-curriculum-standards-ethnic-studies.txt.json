@@ -1,0 +1,13 @@
+{
+  "press_release": "20250224-state-legislators-introduce-bill-create-curriculum-standards-ethnic-studies.txt",
+  "party": "Democratic",
+  "title": "New bill will ensure that uniform curriculum advances multicultural respect and is free from harmful biases",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The lack of clear standards for ethnic studies has led to lawsuits, divided communities, and factually inaccurate materials in California.\",\n    \"AB 1468 will standardize teaching ethnic studies across California high schools while ensuring historical accuracy.\",\n    \"Th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The lack of clear standards for ethnic studies has led to lawsuits, divided communities, and factually inaccurate materials in California.\",\n    \"AB 1468 will standardize teaching ethnic studies across California high schools while ensuring historical accuracy.\",\n    \"The California State Board of Education will develop and adopt uniform content standards, curriculum framework, and instructional materials for ethnic studies.\",\n    \"The absence of rigorous curriculum standards for ethnic studies has allowed biased ideological agendas to influence educational content.\",\n    \"Ethnic studies curricula have at times included blatantly antisemitic content, posing threats to Jewish students.\",\n    \"The legislative push for AB 1468 is a response to community concerns over the inclusion of factually inaccurate and harmful information in ethnic studies courses.\",\n    \"An advisory committee for AB 1468 will consist of academic experts from relevant disciplines and representatives from communities frequently targeted by hate crimes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e35ddf0423208e81677e459e4f782ab74b92304a"
+}

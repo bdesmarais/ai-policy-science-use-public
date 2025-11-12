@@ -1,0 +1,13 @@
+{
+  "press_release": "20240715-new-safety-act-signed-law-protect-lgbtq-students-california.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has become the first state to explicitly prohibit forced outing policies in schools.\",\n    \"Over a dozen school districts in California have proposed or implemented policies requiring teachers to inform parents if their child identifies as transgender.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has become the first state to explicitly prohibit forced outing policies in schools.\",\n    \"Over a dozen school districts in California have proposed or implemented policies requiring teachers to inform parents if their child identifies as transgender.\",\n    \"Such forced outing policies significantly impact the mental health of LGBTQ+ students.\",\n    \"In schools that support LGBTQ+ identities, more than half of transgender and nonbinary young people reported a correlation with lower suicide attempt rates.\",\n    \"The SAFETY Act offers resources for parents and students to manage conversations about gender and identity privately.\",\n    \"The SAFETY Act protects teachers and school staff from retaliation if they refuse to forcibly out a student.\",\n    \"A 2024 Trevor Project survey indicates that less than 40% of transgender and nonbinary youth find their homes to be LGBTQ-affirming.\",\n    \"The SAFETY Act is a significant step forward in ensuring a supportive environment for all students regardless of their gender identity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "225cdd1382eaed0a9aace7a9604a7e4f302e42b1"
+}

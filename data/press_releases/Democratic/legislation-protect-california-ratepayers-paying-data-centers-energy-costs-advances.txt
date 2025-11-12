@@ -1,0 +1,55 @@
+Body
+
+SACRAMENTO – Yesterday, the Assembly Utilities and Energy Committee passed Senate Bill 57 , authored by Senator Steve Padilla (D-San Diego). SB 57, the Ratepayer and Technological Innovation Protection Act, would protect California ratepayers and the state’s aggressive climate goals from increased costs as more companies develop data centers to meet the growing energy demands of artificial intelligence (AI).
+
+“California families are already fighting to make ends meet, so allowing wealthy tech companies to pass the cost of their own projects onto ratepayers is unacceptable,” said Senator Padilla . “These multinational corporations need to pay for their own projects and California won’t force ordinary ratepayers and small businesses to foot the bill.”
+
+The AI boom is powered by massive data centers. Those data centers while driving the AI revolution, also consume massive amounts of energy and water, putting enormous strain on the electrical grid and require massive investments into the electrical grid infrastructure. The recent rise of generative artificial intelligence has driven a corresponding growth in data center demand, with Siemens, a leading data center provider, reporting their data-center business revenue jumping 50% in a year . This puts residential ratepayers’ energy reliability at risk as California’s grid is overburdened by the sudden load growth, and are liable for stranded assets built to meet that demand.
+
+Just this week, energy regulators in Ohio determined that data centers must pay more up front for their power demands . Ohio and other states are already facing expensive grid upgrades as increased demand from data centers have strained outdated infrastructure.
+
+Data centers consumed about 4.4% of total U.S. electricity in 2023 and are expected to consume approximately 6.7 to 12% of total U.S. electricity by 2028, according to the 2024 Report on U.S. Data Center Energy Use produced by Lawrence Berkeley National Laboratory. The massive energy demands of these data centers means that utility prices increase as the grid struggles to keep pace with need. The Mid-Atlantic regional grid where several data centers are housed is projected to see rate increases of up to 20 percent by this year, with the grid operator now paying $14.7 billion for power in the 2025/26 delivery year, compared to $2.2 billion in the year previous.
+
+The cost of building the infrastructure to transmit the energy can be expensive and as reported by the New York Times, those costs are not always covered by the companies building the data centers, leaving ratepayers to foot the bill for pricey upgrades, only for the benefit of the tech company.
+
+SB 57, the Ratepayer and Technological Innovation Protection Act, would require the Public Utilities Commission (PUC) to establish a special tariff to protect other ratepayers from transmission costs that supply large load customers. The PUC must also consider prioritized interconnection for large load customers utilizing zero carbon resources. The tariff will ensure electrical grid investments for data centers are fully recovered to ensure other ratepayers do not end up footing the bill. This will ensure ratepayers do not have skyrocketing costs without increasing the state’s reliance on fossil fuels.
+
+Senate Bill 57 passed the Assembly Committee on Utilities and Energy by a vote of 13-1. The bill now moves to the Assembly Appropriations Committee.
+
+To learn more about SB 57 and Senator Padilla’s efforts to protect California ratepayers from increasing energy costs, click here and here .
+
+###
+
+Steve Padilla represents the 18th Senate District, which includes the communities of Chula Vista, the Coachella Valley, Imperial Beach, the Imperial Valley, National City, and San Diego. Prior to his election to the Senate in 2022, Senator Padilla was the first person of color ever elected to city office in Chula Vista, the first Latino Mayor, and the first openly LGBT person to serve or be elected to city office. Website of Senator Steve Padilla: https://sd18.senate.ca.gov/
+
+Capitol Office
+
+1021 O Street, Suite 7630
+
+Sacramento, CA 95814
+
+Phone: (916) 651-4018
+
+San Diego County
+
+780 Bay Blvd., Suite 204
+
+Chula Vista, CA 91910
+
+Phone: (619) 409-7690
+
+Imperial County
+
+1224 State Street, Suite D
+
+El Centro, CA 92243
+
+Phone: (760) 335-3442
+
+Coachella Valley
+
+82013 Doctor Carreon Blvd., Suite J
+
+Indio, CA 92201
+
+Phone: (760) 398-6442

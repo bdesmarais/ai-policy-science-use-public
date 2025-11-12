@@ -19,15 +19,25 @@ produces exploratory data analysis (EDA), and organizes AI-containing documents 
   - Copies AI-containing files to `data/Dem_AI` and `data/Rep_AI`.
   - Exports consolidated CSVs and optional charts.
 
-- `build_claim_lists.py`
-  - Reads structured claims from `data/structured_claims/` CSVs and exports compact JSON lists used for reference retrieval.
-  - Output: `outputs/claims/dem_claims.json` and `outputs/claims/rep_claims.json` with fields: `press_release`, `claim_number`, `claim_text`, and `claim_desc` (optional description parsed from bracketed text at the end of the claim).
+- `llm_claims.py` (LLM-first, replaces rule-based claim export)
+  - Extracts claims per press release using OpenAI Responses API (`gpt-4o-mini`) with a strict JSON schema.
+  - Supports chunking for long docs, caching/resume, and per-doc outputs under `outputs/claims/llm/<party>/<file>.json`.
+  - Aggregates compact claims to `outputs/claims/{dem,rep}_claims.json` with fields: `press_release`, `claim_number`, `claim_text`, `claim_desc`.
+
+- `build_claim_lists.py` (legacy)
+  - Previously exported compact JSON claims from CSVs under `data/structured_claims/`. Retained for reference.
 
 - `gpt_references.py`
   - Uses the OpenAI Responses API (GPT-5 or compatible) with web search and a JSON schema to fetch structured scientific references for each claim.
   - Enforces de-duplication (by DOI, else title+year), incremental writes, and robust JSON extraction from model output.
   - Adds per-claim metadata (model, timestamps, raw preview, parse errors) for auditing.
   - Output: `outputs/structured_refs/dem_claim_references.json` and `outputs/structured_refs/rep_claim_references.json`.
+
+- `prepare_pilot_annotations.py`
+  - Prepares pilot doc/claim/pair CSVs for annotation. Now supports `--claims-source llm` to read claims from `outputs/claims/{dem,rep}_claims.json`.
+
+- `summarize_structured_references.py`
+  - Flattens references and creates tables in `outputs/viz_data/references/` and figures in `outputs/figures/references/`.
 
 - `evaluate_ai_statements.py` (optional)
   - Reads `outputs/v3/ai_statements_v3.csv` and can surface candidate references from Crossref/arXiv.
@@ -67,13 +77,63 @@ python evaluate_ai_statements.py --skip-fetch --fill-missing --limit -1
 python summarize_ai_reference_counts.py
 ```
 
-### Reference retrieval (current: GPT-5 + web search)
+### LLM-first workflow (pilot)
 
 Requirements:
 - Python 3.9+
 - Install dependencies:
 
 ```bash
+pip install -r requirements.txt
+```
+
+Environment:
+- Set an OpenAI API key in your shell before running:
+- PowerShell (Windows):
+
+```bash
+$env:OPENAI_API_KEY="sk-..."
+```
+
+- bash/zsh (macOS/Linux):
+
+```bash
+export OPENAI_API_KEY="sk-..."
+```
+
+Steps (pilot):
+
+```bash
+# 0) Prepare pilot doc lists (Dem/Rep × AI/non-AI), optionally tighten filters
+python prepare_pilot_annotations.py --docs-per-cell 25 --tighten-docs --tighten-claims --tighten-pairs
+
+# 1) Extract claims from pilot docs with LLM (reads doc lists from outputs/pilot)
+python llm_claims.py --from-pilot outputs/pilot --model gpt-4o-mini --parallel 4 --resume
+
+# 2) Collect references for claims (dem/rep combined outputs)
+python gpt_references.py --model gpt-4o-mini --resume --per-claim 25
+
+# 3) Summarize references (tables + figures)
+python summarize_structured_references.py
+
+# 4) Build pilot annotation CSVs using LLM claims
+python prepare_pilot_annotations.py --claims-source llm --tighten-docs --tighten-claims --tighten-pairs
+```
+
+Outputs:
+- Per-doc claims: `outputs/claims/llm/<party>/<file>.json`
+- Aggregated compact claims: `outputs/claims/{dem,rep}_claims.json`
+- Structured references: `outputs/structured_refs/{dem,rep}_claim_references.json`
+- Viz: `outputs/viz_data/references/*`, `outputs/figures/references/*`
+
+### Reference retrieval (GPT-5 + web search, legacy CSV claims path also supported)
+
+Requirements:
+- Python 3.9+
+- Install dependencies:
+
+```bash
+
 pip install -r requirements.txt
 ```
 
@@ -95,7 +155,7 @@ Optional environment variables:
 - `OPENAI_MODEL` (default: `gpt-5`)
 - `LOG_LEVEL` (e.g., `DEBUG`, `INFO`)
 
-Step 1 — Build compact claims JSONs from CSVs:
+Option A — Build compact claims JSONs from CSVs (legacy source):
 
 ```bash
 python build_claim_lists.py --limit -1
@@ -107,7 +167,7 @@ This writes:
 
 Each entry contains: `press_release`, `claim_number`, `claim_text`, and `claim_desc` when present.
 
-Step 2 — Generate structured references with GPT-5:
+Then generate structured references:
 
 ```bash
 python gpt_references.py --limit -1 --per-claim 25 --model ${OPENAI_MODEL:-gpt-5}

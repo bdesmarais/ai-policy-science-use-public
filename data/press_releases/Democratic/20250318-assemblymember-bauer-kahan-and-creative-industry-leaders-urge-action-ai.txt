@@ -1,0 +1,39 @@
+[Sacramento, CA]
+– Today,
+Assemblymember Rebecca Bauer-Kahan (D-Orinda)
+was joined by
+SAG-AFTRA
+,
+the Concept Art Association (CAA)
+, and the
+National Association of Voice Actors (NAVA)
+in support of AB 412, the AI Copyright Transparency Act, ahead of its first legislative hearing. The bill, which has received widespread support from content creators, seeks to increase transparency around the use of copyrighted materials to train generative artificial intelligence (GenAI) models.
+AB 412 speaks to growing concerns that GenAI developers are training models using copyrighted works—including art, music, voice recordings, scripts, and performances—without notifying or obtaining consent from the owners of those copyright. AB 412 requires GenAI developers to disclose when copyrighted materials are used to train GenAI, enabling copyright owners to protect their intellectual property.
+"Creators are the backbone of California’s entertainment and tech industries, yet their work is being exploited without their knowledge,"
+said Assemblymember Bauer-Kahan
+. "AI is an incredibly powerful tool, but it must be built on a foundation of fairness and transparency. AB 412 ensures that artists, writers, and performers are able to protect their intellectual property."
+The bill is sponsored by SAG-AFTRA and co-sponsored by the Concept Art Association, National Association of Voice Actors, and the Authors Guild. These organizations represent artists, actors, and voice professionals whose work is being used to train GenAI models without credit or compensation.
+SAG-AFTRA National Executive Director and Chief Negotiator Duncan Crabtree-Ireland said
+, “For centuries, copyright law has protected individuals’ and companies’ creative efforts, but unchecked A.I. technology threatens to exploit intellectual property leaving creators without any legal recourse. SAG-AFTRA is proud to support AB 412, the A.I. Transparency Act, a bill that empowers human creativity by requiring the developer of an A.I. system to provide a list of the copyrighted works used to train the system. Thank you Assemblymember Bauer-Kahan for your leadership in protecting intellectual property rights in the A.I. age.”
+“For years now the work of countless artists, like myself, were taken without our consent, credit, nor our compensation to train Generative AI models, which then compete directly with us in our own markets. This both has been and is an outrageous and untenable act. Today, rather than right these wrongs, most tech companies instead opt to simply hide the works they’ve used to train their models.
+This is why the Concept Art Association, and member artists like myself, are beyond proud to support Assembly Member Rebecca Bauer-Kahan’s AB-412.
+AB-412 is a much-needed step towards rectifying this wrong, by bringing much needed transparency into the process! Vital steps like these, allow California creatives – the backbone of our enviable cultural economy – to vindicate their rights, and bring fairness back into the equation. AB-412 is the exact spotlight we need, to guide us towards a fair technological future together!”
+said Karla Ortiz, Artist.
+A statement on behalf of the National Association of Voice Actors said,
+“as the people behind iconic and beloved characters in TV, animation, film, video games, and more, voice actors stand to lose their livelihood and more with the advancement of GenAI. Copyright and ownership of sound files has become an issue at the forefront of our industry, and the lack of legislation around these new technological systems has negatively and tangibly impacted all entertainers. AB 412, The AI Copyright Transparency Act, would give copyright holders the ability to take action against those who use their copyrighted materials without their permission. AB 412 is an important step toward giving all creators more control over how their work is used in GenAI, and it is for this reason that The National Association of Voice Actors (NAVA) is a proud co-sponsor of this bill.”
+Key Provisions of AB 412: The AI Copyright Transparency Act
+Right to Information
+– Requires GenAI developers to provide copyright owners with information about how their copyrighted materials are being used to train GenAI models.
+Online Request Mechanism
+– Developers must establish a publicly accessible online mechanism allowing copyright owners to submit requests for information.
+Enforcement
+– Copyright owners can pursue civil actions against developers that fail to provide required information.
+A Groundswell of Support from Creators
+Since its introduction, AB 412 has gained overwhelming support from creators—artists, musicians, writers, and voice actors—who have called for greater protections against AI-driven exploitation. Social media platforms have been flooded with comments from creatives sharing their stories and urging action.
+"The response has been incredible,"
+said Bauer-Kahan.
+"Creators are demanding fairness, and their voices are being heard."
+AB 412 will be heard in committee on
+Tuesday, March 18, 2025, at 1:30 p.m. in State Capitol, Room 437
+.
+####

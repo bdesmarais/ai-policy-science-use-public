@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-becker-condemns-efforts-to-undermine-californias-ai.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – In response to federal legislation that would prohibit state and local governments from enforcing any AI laws for a period of ten years, Senator Josh Becker (D-Men",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:12:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Federal legislation is proposed to prohibit state and local governments from enforcing any AI laws for a period of ten years.\",\n    \"Senator Josh Becker has expressed concern over efforts to preempt California's emerging AI regulations.\",\n    \"California’s AI Transparenc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Federal legislation is proposed to prohibit state and local governments from enforcing any AI laws for a period of ten years.\",\n    \"Senator Josh Becker has expressed concern over efforts to preempt California's emerging AI regulations.\",\n    \"California’s AI Transparency Act is described as the first of its kind in the nation.\",\n    \"The Physicians Make Decisions Act ensures that doctors have the final say in medical decisions, not AI.\",\n    \"The California AI Work Group in Education aims to incorporate best practices in K-12 education.\",\n    \"Senator Becker claims that efforts to strip states of their ability to regulate AI could put lives at risk.\",\n    \"California is positioned as a national and global leader in technology regulation.\",\n    \"Becker argues that previous experiences with data privacy indicate California's leadership is necessary when federal actions are lacking.\",\n    \"SB 361 requires businesses deploying high-risk AI systems that process personal information to create strong standards for information protection.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "69b00b1091877b90b4579c41e8467ab0bb129773"
+}

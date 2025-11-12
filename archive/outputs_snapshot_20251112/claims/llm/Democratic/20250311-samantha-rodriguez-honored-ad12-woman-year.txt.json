@@ -1,0 +1,13 @@
+{
+  "press_release": "20250311-samantha-rodriguez-honored-ad12-woman-year.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Yesterday, Assemblymember Damon Connolly (D-San Rafael) honored Samantha Rodriguez on the Assembly floor as Assembly District (AD) 12’s Woman of the Year for 2025.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cee6b6b9d178631b51fbf3c0f3de8137a03e20f4"
+}

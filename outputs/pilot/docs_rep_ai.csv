@@ -1,0 +1,14 @@
+source,filename,document_date,num_sentences,ai_statement_count,matched_ai_terms,unique_urls_count,unique_dois_count,unique_arxiv_count,has_ai,party,ai_category,assigned_to,double_annotate
+Republican Assembly,senator-ochoa-bogh-advocates-californians-urging-action-governor-key-legislative-issues.txt,,63,7,ai; artificial intelligence,0,0,0,True,Republican,ai,Zack,0
+Republican Assembly,california-senate-unanimously-passes-joness-sexually-violent-predator-accountability.txt,,88,2,fairness,0,0,0,True,Republican,ai,Sai,0
+Republican Assembly,assemblyman-essayli-introduces-ajr-6-calling-for-immediate-pause-to-artificial-intelligence-development.txt,"May 5, 2023",22,7,ai; artificial intelligence; gpt-,0,0,0,True,Republican,ai,Zack,0
+Republican Assembly,assembly-democrats-kill-proposals-to-save-girls-sports.txt,,13,4,fairness,0,0,0,True,Republican,ai,Sai,0
+Republican Assembly,senator-valladares-introduces-amendment-ensure-ethical-safeguards-redistricting-power-grab.txt,,41,2,fairness,0,0,0,True,Republican,ai,Zack,0
+Republican Assembly,senate-republican-leader-grove-demands-governor-cancel-35-million-contract-team-biden-firm.txt,,60,2,bias,0,0,0,True,Republican,ai,Sai,0
+Republican Assembly,assemblyman-tri-ta-introduces-legislation-to-protect-californians-from-ai-generated-deepfakes.txt,"April 18, 2023",22,5,ai; algorithms; artificial intelligence,0,0,0,True,Republican,ai,Zack,1
+Republican Assembly,assemblyman-tri-ta-introduces-legislation-to-protect-californians-from-ai-generated-deepfakes.txt,"April 18, 2023",22,5,ai; algorithms; artificial intelligence,0,0,0,True,Republican,ai,Sai,1
+Republican Assembly,leader-joness-sexually-violent-predator-accountability-fairness-and-enforcement-act-passes.txt,,91,2,fairness,0,0,0,True,Republican,ai,Sai,0
+Republican Assembly,gallagher-trump-is-right-california-is-failing-girls-sports.txt,,25,3,fairness,0,0,0,True,Republican,ai,Zack,0
+Republican Assembly,californians-deserve-independent-fair-map-drawing-not-politician-driven-retaliation.txt,,76,2,fairness,0,0,0,True,Republican,ai,Sai,0
+Republican Assembly,demaio-introduces-legislation-to-prevent-foreign-government-abuse-of-sensitive-personal-data-of-californians.txt,,20,4,ai,0,0,0,True,Republican,ai,Zack,1
+Republican Assembly,demaio-introduces-legislation-to-prevent-foreign-government-abuse-of-sensitive-personal-data-of-californians.txt,,20,4,ai,0,0,0,True,Republican,ai,Sai,1

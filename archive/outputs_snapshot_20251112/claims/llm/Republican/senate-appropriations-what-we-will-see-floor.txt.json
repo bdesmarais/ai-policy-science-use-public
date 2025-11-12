@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-appropriations-what-we-will-see-floor.txt",
+  "party": "Republican",
+  "title": "This morning, the Senate Appropriations Committee held its hearing for bills on the Suspense File. Senator Choi saw three of his bills pass with unanimous bipartisan support.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:13:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "abcf423cfe84364f175bad4de0dadf15cd75d5a6"
+}

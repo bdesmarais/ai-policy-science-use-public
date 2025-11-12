@@ -1,0 +1,30 @@
+source,filename,document_date,num_sentences,ai_statement_count,matched_ai_terms,unique_urls_count,unique_dois_count,unique_arxiv_count,has_ai,party,ai_category,assigned_to,double_annotate
+Democratic Assembly,20250219-zbur-introduces-legislation-launch-quick-build-pilot-program-safer.txt,,23,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,20220325-tasha-boerner-horvath-honors-kristine-schindler-2022-woman-year.txt,,33,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,california-legislature-advances-to-the-governor-senator.txt,"September 8, 2025",38,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,20200821-joint-statement-congressmember-panetta-senator-monning-senator-caballero.txt,,20,0,,0,0,0,False,Democratic,nonai,Sai,1
+Democratic Assembly,20200821-joint-statement-congressmember-panetta-senator-monning-senator-caballero.txt,,20,0,,0,0,0,False,Democratic,nonai,Zack,1
+Democratic Assembly,20250424-connolly-passes-five-more-bills-through-policy-committees.txt,,35,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,20150812-governor-signs-assemblymember-holdens.txt,"January 1, 2016",10,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,20240827-papan-legislation-remove-unfair-barriers-paid-family-leave-benefits-signed.txt,,16,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,20250716-legislators-announce-agreement-advance-legislation-cracking-down-looting 2.txt,,39,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,20150709-irwin-leads-cybersecurity-hearing-considers-public-safety-and-national.txt,,11,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,california-bill-end-archaic-spousal-rape-exception-moves-forward.txt,,31,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,20211012-governor-newsom-signs-measure-significantly-strengthen-hate-crime.txt,,27,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,20250613-assemblywoman-sorias-statement-approval-2025-26-state-budget.txt,,32,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,20170406-assemblymember-al-muratsuchis-assembly-bill-ab-1649-passes-out-assemblys.txt,,15,0,,0,0,0,False,Democratic,nonai,Zack,1
+Democratic Assembly,20170406-assemblymember-al-muratsuchis-assembly-bill-ab-1649-passes-out-assemblys.txt,,15,0,,0,0,0,False,Democratic,nonai,Sai,1
+Democratic Assembly,20230629-asm-gipson-condemns-scotus-striking-down-affirmative-action.txt,"June 29, 2023",20,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,20240715-new-safety-act-signed-law-protect-lgbtq-students-california.txt,,64,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,20250311-samantha-rodriguez-honored-ad12-woman-year.txt,,13,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,20250106-assemblywoman-lori-d-wilson-reappointed-chair-assembly-transportation.txt,,12,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,senator-beckers-basic-act-receives-approval-assembly.txt,"September 8, 2025",27,0,,0,0,0,False,Democratic,nonai,Sai,1
+Democratic Assembly,senator-beckers-basic-act-receives-approval-assembly.txt,"September 8, 2025",27,0,,0,0,0,False,Democratic,nonai,Zack,1
+Democratic Assembly,20211004-bill-save-lives-and-initiate-development-bluff-collapse-early-warning.txt,"January 1, 2022",20,0,,0,0,0,False,Democratic,nonai,Zack,1
+Democratic Assembly,20211004-bill-save-lives-and-initiate-development-bluff-collapse-early-warning.txt,"January 1, 2022",20,0,,0,0,0,False,Democratic,nonai,Sai,1
+Democratic Assembly,20210304-legislature-passes-66-billion-safe-school-reopening-plan.txt,,20,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,20250410-assemblywoman-pilar-schiavo-introduces-legislation-focused-affordability.txt,,44,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,20250205-connolly-expands-education-rights-awareness-immigrant-students.txt,,17,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,20221104-local-veterans-honored-and-ivc-veterans-service-center-receives-25-million.txt,,32,0,,0,0,0,False,Democratic,nonai,Zack,0
+Democratic Assembly,senator-anna-m-caballero-introduces-legislation-expand-parental-rights-police.txt,,41,0,,0,0,0,False,Democratic,nonai,Sai,0
+Democratic Assembly,20220916-governor-newsom-signs-assemblymember-muratsuchis-ab-1279-california-climate.txt,,22,0,,0,0,0,False,Democratic,nonai,Zack,0

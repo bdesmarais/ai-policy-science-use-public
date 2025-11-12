@@ -1,0 +1,23 @@
+{
+  "docs": {
+    "total_scored": 0,
+    "false_positives": 0,
+    "fp_rate": null,
+    "label_hist": {},
+    "examples": []
+  },
+  "claims": {
+    "total_scored": 0,
+    "flagged": 0,
+    "flag_rate": null,
+    "reason_hist": {},
+    "examples": []
+  },
+  "pairs": {
+    "total_scored": 0,
+    "flagged": 0,
+    "flag_rate": null,
+    "stance_hist": {},
+    "examples": []
+  }
+}

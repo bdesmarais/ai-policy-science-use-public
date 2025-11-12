@@ -1,0 +1,13 @@
+{
+  "press_release": "20250422-assemblymember-dr-lashae-sharp-collins-unveils-bold-legislative-package.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:11:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1279 eliminates the practice of using juvenile adjudications as 'strikes' to enhance adult criminal sentences under California’s Three Strikes law.\",\n    \"AB 1279 provides a process for individuals currently serving enhanced sentences based on juvenile strikes to peti",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1279 eliminates the practice of using juvenile adjudications as 'strikes' to enhance adult criminal sentences under California’s Three Strikes law.\",\n    \"AB 1279 provides a process for individuals currently serving enhanced sentences based on juvenile strikes to petition for resentencing.\",\n    \"AB 802 mandates that youth facilities meet basic nutritional standards.\",\n    \"AB 802 creates systems of accountability to ensure compliance with nutritional standards in youth facilities.\",\n    \"The Community Violence Interdiction Grant Program, established by AB 785, will redirect savings from future prison closures into community-based violence prevention programs.\",\n    \"AB 785 includes investments in youth diversion programs and trauma-informed care as part of its community-based violence prevention initiatives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1e84bdfd0b6ebe97bda5132e85db55f1369d4458"
+}

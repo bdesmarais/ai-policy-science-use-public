@@ -1,0 +1,50 @@
+ai_category,ai_statement_count,assigned_to,document_date,double_annotate,filename,has_ai,matched_ai_terms,num_sentences,party,source,unique_arxiv_count,unique_dois_count,unique_urls_count
+ai,10,Sai,,0,20240116-berman-introduces-legislation-outlaw-child-sexual-abuse-images-generated-ai.txt,True,ai; artificial intelligence; ml,48,Democratic,Democratic Assembly,0,0,0
+ai,2,Sai,"October 7, 2023",1,20250224-state-legislators-introduce-bill-create-curriculum-standards-ethnic-studies.txt,True,bias,81,Democratic,Democratic Assembly,0,0,0
+ai,2,Sai,,0,senate-health-committee-passes-senator-corteses-sb-999-reform-mental-health-and-addiction.txt,True,fairness,28,Democratic,Democratic Assembly,0,0,0
+ai,16,Sai,,0,amid-renewed-safety-concerns-senator-padilla-urges-legislative-action-regulate-ai-chatbots.txt,True,ai; artificial intelligence; chatbot; chatgpt; gpt-; openai,49,Democratic,Democratic Assembly,0,0,0
+ai,3,Sai,"September 8, 2025",0,finally-win-solar-legislature-passes-crucial-solar-legislation-to.txt,True,fairness,40,Democratic,Democratic Assembly,0,0,0
+ai,5,Sai,,0,20230411-assemblymember-bauer-kahans-ab-331-regulating-automated-decision-tools.txt,True,ai; algorithm; algorithms; automated decision; bias; machine learning,21,Democratic,Democratic Assembly,0,0,0
+ai,2,Sai,,1,20250401-new-bill-bans-unfair-junk-fees-renters.txt,True,fairness,34,Democratic,Democratic Assembly,0,0,0
+ai,11,Sai,,0,20240929-california-criminalizes-ai-enabled-child-sexual-abuse.txt,True,ai; artificial intelligence,48,Democratic,Democratic Assembly,0,0,0
+ai,13,Sai,,0,20250520-bipartisan-coalition-defends-californias-role-responsible-ai-innovation.txt,True,ai; algorithms; artificial intelligence,72,Democratic,Democratic Assembly,0,0,0
+ai,4,Sai,,1,20240409-bermans-public-safety-package-advances.txt,True,ai; artificial intelligence,71,Democratic,Democratic Assembly,0,0,0
+ai,2,Sai,"August 27, 2021",1,20210827-assemblymember-ash-kalra-releases-statement-racial-justice-act-all-ab-256.txt,True,bias,19,Democratic,Democratic Assembly,0,0,0
+ai,2,Sai,,0,20250422-assemblymember-dr-lashae-sharp-collins-unveils-bold-legislative-package.txt,True,fairness,28,Democratic,Democratic Assembly,0,0,0
+ai,2,Sai,,0,senator-cortese-champions-economic-development-through-data-center-expansion-bill.txt,True,ai; artificial intelligence,21,Democratic,Democratic Assembly,0,0,0
+ai,14,Sai,,0,20240215-assemblymember-bauer-kahan-introduces-bill-eliminate-bias-ai-decision.txt,True,ai; algorithm; algorithms; artificial intelligence; automated decision; bias,38,Democratic,Democratic Assembly,0,0,2
+nonai,0,Sai,,0,20220325-tasha-boerner-horvath-honors-kristine-schindler-2022-woman-year.txt,False,,33,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,,1,20200821-joint-statement-congressmember-panetta-senator-monning-senator-caballero.txt,False,,20,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,"January 1, 2016",0,20150812-governor-signs-assemblymember-holdens.txt,False,,10,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,,0,20250716-legislators-announce-agreement-advance-legislation-cracking-down-looting 2.txt,False,,39,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,,0,california-bill-end-archaic-spousal-rape-exception-moves-forward.txt,False,,31,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,,0,20250613-assemblywoman-sorias-statement-approval-2025-26-state-budget.txt,False,,32,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,,1,20170406-assemblymember-al-muratsuchis-assembly-bill-ab-1649-passes-out-assemblys.txt,False,,15,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,"June 29, 2023",0,20230629-asm-gipson-condemns-scotus-striking-down-affirmative-action.txt,False,,20,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,,0,20250311-samantha-rodriguez-honored-ad12-woman-year.txt,False,,13,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,"September 8, 2025",1,senator-beckers-basic-act-receives-approval-assembly.txt,False,,27,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,"January 1, 2022",1,20211004-bill-save-lives-and-initiate-development-bluff-collapse-early-warning.txt,False,,20,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,,0,20210304-legislature-passes-66-billion-safe-school-reopening-plan.txt,False,,20,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,,0,20250205-connolly-expands-education-rights-awareness-immigrant-students.txt,False,,17,Democratic,Democratic Assembly,0,0,0
+nonai,0,Sai,,0,senator-anna-m-caballero-introduces-legislation-expand-parental-rights-police.txt,False,,41,Democratic,Democratic Assembly,0,0,0
+ai,2,Sai,,0,california-senate-unanimously-passes-joness-sexually-violent-predator-accountability.txt,True,fairness,88,Republican,Republican Assembly,0,0,0
+ai,4,Sai,,0,assembly-democrats-kill-proposals-to-save-girls-sports.txt,True,fairness,13,Republican,Republican Assembly,0,0,0
+ai,2,Sai,,0,senate-republican-leader-grove-demands-governor-cancel-35-million-contract-team-biden-firm.txt,True,bias,60,Republican,Republican Assembly,0,0,0
+ai,5,Sai,"April 18, 2023",1,assemblyman-tri-ta-introduces-legislation-to-protect-californians-from-ai-generated-deepfakes.txt,True,ai; algorithms; artificial intelligence,22,Republican,Republican Assembly,0,0,0
+ai,2,Sai,,0,leader-joness-sexually-violent-predator-accountability-fairness-and-enforcement-act-passes.txt,True,fairness,91,Republican,Republican Assembly,0,0,0
+ai,2,Sai,,0,californians-deserve-independent-fair-map-drawing-not-politician-driven-retaliation.txt,True,fairness,76,Republican,Republican Assembly,0,0,0
+ai,4,Sai,,1,demaio-introduces-legislation-to-prevent-foreign-government-abuse-of-sensitive-personal-data-of-californians.txt,True,ai,20,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,"May 30, 2025",0,assemblymember-dixon-shares-concerns-at-cec-meeting-for-proposed-battery-storage-location-in-south-orange-county.txt,False,,15,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,1,senate-appropriations-what-we-will-see-floor.txt,False,,36,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,"March 31, 2022",0,bill-provide-funding-preschool-parent-participation-programs-clears-first-hurdle.txt,False,,50,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,0,assembly-budget-vice-chair-process-broken-california-cannot-afford-this-unsustainable-budget.txt,False,,15,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,0,senate-minority-leader-jones-welcomes-senator-alvarado-gil-senate-republican-caucus.txt,False,,82,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,0,fair-elections-and-representation-are-risk.txt,False,,38,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,1,senator-valladares-joint-authors-no-tax-tips-bill-demands-relief-hardworking-californians.txt,False,,45,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,0,sen-marie-alvarado-gil-shine-light-small-business-excellence-senators-choice-award.txt,False,,44,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,0,assemblywoman-leticia-castillo-introduced-first-bill-aimed-at-promoting-adoption-for-teens-facing-unplanned-pregnancies.txt,False,,17,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,1,east-county-californian-mandating-electronic-purchase-receipts-ignores-privacy-and-digital.txt,False,,85,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,1,landmark-bill-to-address-californias-most-pressing-issue-passes-assembly.txt,False,,14,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,0,parking-senator-brian-jones-office-grand-opening.txt,False,,76,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,"November 8, 2024",0,senate-minority-leader-jones-introduces-bill-repeal-newsoms-65-cent-gas-price-hike.txt,False,,84,Republican,Republican Assembly,0,0,0
+nonai,0,Sai,,0,alanis-parental-notification-education-bill-signed-into-law.txt,False,,12,Republican,Republican Assembly,0,0,0

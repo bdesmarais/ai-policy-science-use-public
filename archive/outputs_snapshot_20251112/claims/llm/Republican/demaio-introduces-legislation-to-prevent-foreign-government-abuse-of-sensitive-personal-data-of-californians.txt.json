@@ -1,0 +1,13 @@
+{
+  "press_release": "demaio-introduces-legislation-to-prevent-foreign-government-abuse-of-sensitive-personal-data-of-californians.txt",
+  "party": "Republican",
+  "title": "“California consumers have a right to know if China – or any other foreign government – has been collecting their sensitive personal information and misusing it.”",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T17:13:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California consumers have a right to know if foreign governments have been collecting their sensitive personal information.\",\n    \"California's legislation aims to put the state at the forefront of protecting consumer privacy from foreign government interception.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California consumers have a right to know if foreign governments have been collecting their sensitive personal information.\",\n    \"California's legislation aims to put the state at the forefront of protecting consumer privacy from foreign government interception.\",\n    \"Foreign governments are perceived to have sweeping access to sensitive personal information on American citizens.\",\n    \"AI, social media, and information technology possess the potential for both positive transformation and negative exploitation of sensitive information by foreign governments.\",\n    \"The proposed legislation would require AI and technology platforms to disclose if they maintain personal information outside of the United States.\",\n    \"Consumers must provide explicit consent before businesses can maintain their personal information outside of the U.S.\",\n    \"The legislation aims to block foreign government access to healthcare information, financial information, or geolocation data of California consumers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1b9ca7e9900e273d224c88e07954bf520f8c8daa"
+}
