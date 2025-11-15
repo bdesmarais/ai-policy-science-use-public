@@ -1,0 +1,13 @@
+{
+  "press_release": "20240924-ramos-rogan-dignitaries-court-staff-tribal-cultural-performers-celebrate.txt",
+  "party": "Democratic",
+  "title": "SAN BERNARDINO—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California Native American Day is celebrated on the fourth Friday of September.\",\n    \"AB 855 is a bill that granted state court employees the first-ever paid state holiday for California Native American Day.\",\n    \"Prior to AB 855, California Native American Day was not",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California Native American Day is celebrated on the fourth Friday of September.\",\n    \"AB 855 is a bill that granted state court employees the first-ever paid state holiday for California Native American Day.\",\n    \"Prior to AB 855, California Native American Day was not a paid holiday for state workers.\",\n    \"California has the greatest number of Native Americans residing within its boundaries.\",\n    \"Cultural sharing practices of California Native Americans are not just of the past; traditions have been preserved despite attempts to erase them.\",\n    \"The performances shared during the California Native American Day event reflect the beauty and diversity of California's First People.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a97d3f7023aaf2f3bbb651d5470a36a9a3b7a50"
+}

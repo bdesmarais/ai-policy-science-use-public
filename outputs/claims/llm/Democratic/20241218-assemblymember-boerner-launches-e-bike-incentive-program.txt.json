@@ -1,0 +1,13 @@
+{
+  "press_release": "20241218-assemblymember-boerner-launches-e-bike-incentive-program.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:22:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"E-bikes offer a fantastic alternative to gas-powered vehicles.\",\n    \"E-bikes provide a versatile, cost-effective option that helps reduce pollution.\",\n    \"E-bikes help address pollution from transportation sources.\",\n    \"E-bikes increase mobility options for people wh",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"E-bikes offer a fantastic alternative to gas-powered vehicles.\",\n    \"E-bikes provide a versatile, cost-effective option that helps reduce pollution.\",\n    \"E-bikes help address pollution from transportation sources.\",\n    \"E-bikes increase mobility options for people who need the boost the most.\",\n    \"The program reflects California's innovation in finding air quality solutions.\",\n    \"The initiative aims to ensure that no one is left behind in a zero emissions future.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f47a48b35d5c1ae4c5857e605e02e8ac8207f321"
+}

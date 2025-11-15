@@ -1,0 +1,13 @@
+{
+  "press_release": "nurses-celebrate-step-forward-gender-equity-workers-compensation-ca-senate-passes-sb-213.txt",
+  "party": "Democratic",
+  "title": "When the California state Senate earlier this week passed SB 213—a bill that will ensure nurses and other health care workers are automatically presumed to be eligible for workers’",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1237c16602227057039971dbe12841d07d7c991a"
+}

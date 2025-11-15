@@ -1,0 +1,13 @@
+{
+  "press_release": "joness-measure-ensure-confidentiality-conservatorship-cases-approved-senate-committee.txt",
+  "party": "Republican",
+  "title": "Conservatorship legislation authored by Senator Brian W. Jones (R-Santee), and based on recommendations of the California State Auditor, was approved unanimously by the Senate Judi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:55:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The overwhelming majority of conservatorship cases involve private family matters that should not be subject to public hearings.\",\n    \"Senate Bill 578 will make privacy the standard rule for LPS conservatorship proceedings.\",\n    \"LPS conservatorships involve the involu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The overwhelming majority of conservatorship cases involve private family matters that should not be subject to public hearings.\",\n    \"Senate Bill 578 will make privacy the standard rule for LPS conservatorship proceedings.\",\n    \"LPS conservatorships involve the involuntary commitment of mentally ill persons who are dangerous or unable to meet their basic needs.\",\n    \"The California State Auditor found that county courts have varying standards regarding the public or closed nature of LPS conservatorship hearings.\",\n    \"The State Auditor recommended uniform standards for LPS conservatorship hearings throughout California.\",\n    \"Senate Bill 578 aims to protect the dignity of vulnerable Californians by ensuring their right to privacy in conservatorship cases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "63d670f2c4bc4275490ed14ffcf58b5c81d77cbc"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "champion-public-safety-senator-alvarado-gil-proudly-recognizes-mariposa-county-sheriffs.txt",
+  "party": "Republican",
+  "title": "Senator Marie Alvarado-Gil ( R-Jackson ) is proud to announce the Mariposa County Sheriff’s Foundation as Senate District 4’s 2025 Nonprofit of the Year. This year’s recognition fo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Mariposa County Sheriff’s Foundation was created to bridge the gap between public resources and critical needs.\",\n    \"The Foundation provides funding for equipment, training, scholarships, disaster relief, and community outreach.\",\n    \"The Foundation is operated by",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Mariposa County Sheriff’s Foundation was created to bridge the gap between public resources and critical needs.\",\n    \"The Foundation provides funding for equipment, training, scholarships, disaster relief, and community outreach.\",\n    \"The Foundation is operated by citizen volunteers and is independent from the Sheriff’s Office budget.\",\n    \"The Foundation ensures complete transparency and direct community benefit.\",\n    \"During times of crisis, such as devastating wildfires, the Foundation has played a vital role in providing emergency aid to both first responders and residents.\",\n    \"The Foundation invests in Mariposa County’s future by offering scholarships to local youth and supporting families facing food insecurity.\",\n    \"The Foundation fosters positive relationships between law enforcement and the community.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba1355de74886fe73e7ac9218bd5ad5755238836"
+}

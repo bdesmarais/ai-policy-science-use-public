@@ -1,0 +1,13 @@
+{
+  "press_release": "20230417-ending-ambulance-surprise-billing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif. — Assemblymember Tasha Boerner’s (D-Encinitas) bill preventing consumers from being charged an out-of-network surprise bill for ground ambulance services passed ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:58:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 716 protects uninsured Californians from being charged inflated ambulance rates.\",\n    \"The bill prevents consumers from being hit with surprise bills for ground ambulance service.\",\n    \"Too many Californians receive big surprise bills when they call 911 in an emerge",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 716 protects uninsured Californians from being charged inflated ambulance rates.\",\n    \"The bill prevents consumers from being hit with surprise bills for ground ambulance service.\",\n    \"Too many Californians receive big surprise bills when they call 911 in an emergency and are taken by ambulance to the hospital.\",\n    \"A surprise bill occurs when a person seeks in-network care but is unknowingly seen by an out-of-network provider.\",\n    \"Californians will have more financial security during and after a medical emergency with AB 716.\",\n    \"Recent state and federal laws have banned similar surprise bills from out-of-network doctors, hospitals, emergency rooms, and air ambulances.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c8e5bafd4331fece682fe2a6bc115c8e2a92a342"
+}

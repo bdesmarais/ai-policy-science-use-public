@@ -1,0 +1,13 @@
+{
+  "press_release": "news-conference-today-tour-nations-first-vietnamese-american-service-center-vasc-san-jose.txt",
+  "party": "Democratic",
+  "title": "WHAT: Members of the news media will be given a tour of the first Vietnamese American Service Center (VASC) in the nation that will serve as a model for other major cities with lar",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The Vietnamese American Service Center (VASC) in San Jose is the first of its kind in the nation.\",\n    \"The VASC will serve as a model for other major cities with large Vietnamese-American populations.\",\n    \"Santa Clara County has revealed significant health dispa",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The Vietnamese American Service Center (VASC) in San Jose is the first of its kind in the nation.\",\n    \"The VASC will serve as a model for other major cities with large Vietnamese-American populations.\",\n    \"Santa Clara County has revealed significant health disparities and cultural/language barriers affecting Vietnamese residents.\",\n    \"The VASC will be a 37,000 square foot hub for health and human services tailored to Vietnamese residents.\",\n    \"Approximately 13 percent of Vietnamese-American families in Santa Clara County live below the poverty line.\",\n    \"Vietnamese-Americans have a one in four chance of achieving a college education.\",\n    \"Less than 0.5 percent of the Vietnamese-American population attains a graduate level degree.\",\n    \"Vietnamese-American women have the highest rate of cervical cancer in the United States.\",\n    \"Vietnamese-American women are diagnosed with cervical cancer five times more than any other ethnic and racial group.\",\n    \"One in eight Vietnamese-Americans carry the Hepatitis B virus.\",\n    \"Vietnamese adults are diagnosed with liver cancer at four times the rate of adults in Santa Clara County.\",\n    \"More Vietnamese-American adults have been diagnosed with diabetes than all Asian Americans, Pacific Islanders, and Caucasians in Santa Clara County.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9fda1f22539a6b8bfcad65cf242a145037531a4a"
+}

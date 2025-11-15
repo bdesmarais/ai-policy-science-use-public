@@ -1,0 +1,13 @@
+{
+  "press_release": "20230126-bill-pursue-social-housing-california-introduced.txt",
+  "party": "Democratic",
+  "title": "Today, AB 309 was introduced by Assemblymember Alex Lee to affirm that social housing can be a tool that addresses the shortage of affordable homes for all income levels in Califor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:53:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"In 2018, California ranked 49th among the United States in housing units per resident.\",\n    \"An additional 180,000 new units of housing would need to be built each year in California to meet demand.\",\n    \"More than two in five households in California spent over 30% of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"In 2018, California ranked 49th among the United States in housing units per resident.\",\n    \"An additional 180,000 new units of housing would need to be built each year in California to meet demand.\",\n    \"More than two in five households in California spent over 30% of their income on housing.\",\n    \"More than one in five households in California spent over half of their income on housing.\",\n    \"Families who pay more than 30% of their income for housing are considered rent burdened by the Department of Housing and Urban Development.\",\n    \"Over 97% of cities and counties in California have been unable to produce enough affordable housing.\",\n    \"There are only enough affordable and available rentals for 24% of extremely low-income households in California.\",\n    \"Social housing is publicly backed, self-sustaining housing that accommodates a mix of household income ranges.\",\n    \"Social housing is protected from being sold to a private for-profit entity for the duration of its life.\",\n    \"Residents of social housing are granted stronger protections than tenants in private properties.\",\n    \"Social housing avoids concentrated poverty by creating mixed-income neighborhoods.\",\n    \"Social housing has been successful across the globe, including in Montgomery County, Maryland, Vienna, and Singapore.\",\n    \"The model of social housing can be built and maintained without relying on government subsidies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2b7b5a52baea0d2ac2edc270e859985276ddac64"
+}

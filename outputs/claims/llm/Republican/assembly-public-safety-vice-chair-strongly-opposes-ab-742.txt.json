@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-public-safety-vice-chair-strongly-opposes-ab-742.txt",
+  "party": "Republican",
+  "title": "AB 742 Would Ban the Practical Use of Police K-9s While Contacting Suspects During Arrests",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:38:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 742 would ban the practical use of police K-9s while contacting suspects during arrests.\",\n    \"The passage of AB 742 is argued to make communities less safe in California.\",\n    \"The removal of police K-9s as a tool could lead law enforcement to use a higher level of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 742 would ban the practical use of police K-9s while contacting suspects during arrests.\",\n    \"The passage of AB 742 is argued to make communities less safe in California.\",\n    \"The removal of police K-9s as a tool could lead law enforcement to use a higher level of force.\",\n    \"The bill is opposed by law enforcement officials with extensive experience.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "80f183f100717bc05401ae6767c9c8c954986b3a"
+}

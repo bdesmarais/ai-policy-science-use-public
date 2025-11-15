@@ -1,0 +1,13 @@
+{
+  "press_release": "california-state-senator-bob-archuleta-co-introduces-senate-resolution-29-commemorating.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – As a member of the California Armenian Legislative Caucus, I am grateful and proud that for the first time in our nation’s history, the United States has formally reco",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "49df550afcaff0a46145dbf93ce0625db2b139a4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20211028-lawmakers-hear-tribes-educators-about-gaps-successes-native-american.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Educators and tribal members shared practices that further the success of Native American students and gaps in resources that hinder adequate support for these pupils du",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The teacher's actions highlighted the need for increased understanding of Native American history and culture.\",\n    \"Having California Indian history in the curriculum is necessary for Native students to feel seen, heard, and valued.\",\n    \"All students benefit from lea",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The teacher's actions highlighted the need for increased understanding of Native American history and culture.\",\n    \"Having California Indian history in the curriculum is necessary for Native students to feel seen, heard, and valued.\",\n    \"All students benefit from learning about Native traditions and culture.\",\n    \"In the 2019-20 academic year, the San Bernardino City Unified School District had a graduation rate of 95 percent for Native students, the highest in the state.\",\n    \"Local tribes collaborate to address absenteeism and encourage an accurate depiction of Native American history.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dba33b9917a6234f082043f8cdf52db4a5453e24"
+}

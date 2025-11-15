@@ -1,0 +1,13 @@
+{
+  "press_release": "20230227-new-bill-provides-stronger-protection-tenants-relying-domestic-wells.txt",
+  "party": "Democratic",
+  "title": "Today, Assemblymember Alex Lee announced AB 664 to ensure that tenants of rental properties served solely by domestic wells have access to safe drinking water, if well owners do no",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:55:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Disadvantaged communities are more likely to rely on smaller, older, and poorly maintained water systems or domestic wells.\",\n    \"Contaminants in domestic wells are associated with a broad range of health issues including gastrointestinal illness, cancer, developmental ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Disadvantaged communities are more likely to rely on smaller, older, and poorly maintained water systems or domestic wells.\",\n    \"Contaminants in domestic wells are associated with a broad range of health issues including gastrointestinal illness, cancer, developmental and reproductive effects, neurological symptoms, and organ damage.\",\n    \"The state and federal governments do not regulate the water quality of domestic wells.\",\n    \"Owners of domestic wells are responsible for implementing remediation strategies when contaminants are found.\",\n    \"The installation and maintenance of multiple treatment systems may be necessary for domestic well owners depending on specific water quality issues.\",\n    \"In cases where water treatment systems cannot address contamination issues, well owners may need to obtain an alternative water supply or drill a new well.\",\n    \"The State Water Board can order water system consolidation for disadvantaged communities relying on domestic wells that consistently fail or are at risk of failure.\",\n    \"Participating in system consolidation can help domestic well owners access vital resources for improving drinking water quality.\",\n    \"Current state law does not require well owners to participate in consolidation or ensure their tenants have access to safe drinking water.\",\n    \"Renters living in disadvantaged communities reliant on domestic wells face the risk of continued exposure to contaminated drinking water when well owners do not consent to testing or consolidation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b720c1ae44ee5688adf07e3b8fe9e52dff1985b9"
+}

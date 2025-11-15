@@ -1,0 +1,64 @@
+{
+  "press_release": "senator-cortese-announces-update-sb-553-workplace-violence-prevention.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese announced new language on Monday that amends his legislation to protect people from incidents of workplace violence. Senate Bill (SB) 553 requires employers to deve",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"According to the Occupational Safety and Health Administration (OSHA), workplace violence is the second leading cause of fatal occupational injuries in the United States.\"\n    },\n    {\n      \"claim_text\": \"Nearly two million American workers are aff",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"According to the Occupational Safety and Health Administration (OSHA), workplace violence is the second leading cause of fatal occupational injuries in the United States.\"\n    },\n    {\n      \"claim_text\": \"Nearly two million American workers are affected by workplace violence annually.\"\n    },\n    {\n      \"claim_text\": \"Senate Bill (SB) 553 requires employers to develop their own workplace violence prevention plans.\"\n    },\n    {\n      \"claim_text\": \"Employers must maintain a Violent Incident Log of all violent incidents against employees.\"\n    },\n    {\n      \"claim_text\": \"SB 553 would accelerate the creation of a workplace violence prevention standard by placing it into effect on July 1, 2024.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "According to the Occupational Safety and Health Administration (OSHA), workplace violence is the second leading cause of fatal occupational injuries in the United States.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Nearly two million American workers are affected by workplace violence annually.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Senate Bill (SB) 553 requires employers to develop their own workplace violence prevention plans.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Employers must maintain a Violent Incident Log of all violent incidents against employees.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 553 would accelerate the creation of a workplace violence prevention standard by placing it into effect on July 1, 2024.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "83b9f5f452699506bdcd84127267228637eadaa5"
+}

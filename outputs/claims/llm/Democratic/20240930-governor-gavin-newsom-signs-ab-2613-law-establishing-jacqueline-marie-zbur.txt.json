@@ -1,0 +1,13 @@
+{
+  "press_release": "20240930-governor-gavin-newsom-signs-ab-2613-law-establishing-jacqueline-marie-zbur.txt",
+  "party": "Democratic",
+  "title": "AB 2613, a bill to establish the first Rare Disease Advisory Council (RDAC) in California, named in memory of Assemblymember Rick Chavez Zbur’s late sister Jacqueline Marie Zbur, m",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:19:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2613 establishes the Jacqueline Marie Zbur Rare Disease Advisory Council (RDAC) in California.\",\n    \"The RDAC will provide a platform for addressing the needs of Californians affected by rare diseases.\",\n    \"California joins 28 other states in creating councils to a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2613 establishes the Jacqueline Marie Zbur Rare Disease Advisory Council (RDAC) in California.\",\n    \"The RDAC will provide a platform for addressing the needs of Californians affected by rare diseases.\",\n    \"California joins 28 other states in creating councils to advise on rare disease issues.\",\n    \"The RDAC will include stakeholders such as patients, caregivers, medical experts, and advocates.\",\n    \"The bill allows the RDAC to apply for and accept funds for rare disease programs from various sources.\",\n    \"Over 10,000 rare diseases affect 1 in 10 Californians.\",\n    \"Prior to the establishment of the RDAC, critical decisions regarding rare diseases were often made without input from affected individuals.\",\n    \"AB 2613 aims to give the rare disease community a formal role in shaping state policies and legislation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fabd98247948facc3f0eb36f9af734379b14c3ad"
+}

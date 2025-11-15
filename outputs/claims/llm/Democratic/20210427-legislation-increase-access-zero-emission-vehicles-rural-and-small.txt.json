@@ -1,0 +1,13 @@
+{
+  "press_release": "20210427-legislation-increase-access-zero-emission-vehicles-rural-and-small.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Transportation emissions is the highest emitter of carbon in California.\",\n    \"Zero-emission vehicles (ZEVs) can cost much less over time to own and operate than older, fossil fuel-powered vehicles.\",\n    \"The California Clean Fleet Accelerator Program provides technica",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Transportation emissions is the highest emitter of carbon in California.\",\n    \"Zero-emission vehicles (ZEVs) can cost much less over time to own and operate than older, fossil fuel-powered vehicles.\",\n    \"The California Clean Fleet Accelerator Program provides technical assistance to local government entities to adopt ZEV fleets.\",\n    \"The program helps reduce the purchase price of clean trucks and buses by streamlining bulk purchase orders.\",\n    \"The program provides access to low-cost financing for schools, towns, and small transit agencies to upgrade their vehicles.\",\n    \"There is an urgent need to help small and rural towns, schools, and transit operators save money while gaining access to clean vehicles.\",\n    \"The bill aims to bring the same tools available to larger cities and county governments to smaller public entities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "89898e204f59f969db6ab90568863624a05f783e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230320-new-bill-require-hospitals-meet-mental-health-addiction-staffing-standards.txt",
+  "party": "Democratic",
+  "title": "Sacramento –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:57:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"In 2020, mental health and addiction cases represented one-third of all inpatient hospitalizations and one-fifth of all emergency department visits in California.\",\n    \"California hospitals are not required to have staff available and trained to care for patients with m",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"In 2020, mental health and addiction cases represented one-third of all inpatient hospitalizations and one-fifth of all emergency department visits in California.\",\n    \"California hospitals are not required to have staff available and trained to care for patients with mental health and addiction issues, leading to long wait times for urgent care.\",\n    \"The number of patients with psychiatric needs in emergency departments is associated with increased rates of workplace violence for emergency department nurses and health care workers.\",\n    \"Only 348,000 of the more than 500,000 licensed nurses in California are currently working in hospitals.\",\n    \"The inability of hospitals to efficiently provide care for patients in emergency departments is causing nurses to leave the profession.\",\n    \"Investing in a workforce trained to handle mental health and addiction emergencies is essential to reduce the number of nurses leaving the field.\",\n    \"The establishment of a skilled behavioral health team in hospitals could save the lives of patients experiencing behavioral health emergencies.\",\n    \"AB 1001 establishes a minimum staffing requirement for mental health and addiction personnel at hospitals to ensure timely and appropriate care.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c934dcec84638a82832bc1fb502069030cbfe105"
+}

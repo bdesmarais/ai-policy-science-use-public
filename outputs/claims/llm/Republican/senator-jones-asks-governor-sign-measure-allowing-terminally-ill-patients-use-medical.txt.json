@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-asks-governor-sign-measure-allowing-terminally-ill-patients-use-medical.txt",
+  "party": "Republican",
+  "title": "El Cajon – Senator Brian Jones (R-Santee) today sent the following letter to Governor Gavin Newsom requesting that he sign Senate Bill 305, a measure by Senator Ben Hueso (D-San Di",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 305 will allow terminally ill patients to use medically prescribed cannabis in hospice, acute care, skilled nursing, and other similar medical facilities.\",\n    \"Ryan's Law aims to address the pain and suffering of terminally ill patients by allowing them to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 305 will allow terminally ill patients to use medically prescribed cannabis in hospice, acute care, skilled nursing, and other similar medical facilities.\",\n    \"Ryan's Law aims to address the pain and suffering of terminally ill patients by allowing them to choose medical cannabis as a pain relief option.\",\n    \"Medical cannabis has been shown to provide necessary pain relief for patients with terminal illnesses while preserving their ability to interact with family and friends.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "07dee2659e0a8c61f54fa7dd9db533c78628da7f"
+}

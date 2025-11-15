@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-opioid-safety-legislation-heads-to-the-governor.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Alanis announced that his bill on the accessibility of opioid reversal medication received a final vote on the Assembly floor and passed successf",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "15e161ef4b3b0dd41296d2dfb83c362360b49ae3"
+}

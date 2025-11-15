@@ -1,0 +1,13 @@
+{
+  "press_release": "los-legisladores-estatales-y-la-universidad-de-stanford-nominan-jum-plunkett-leyenda-de-la-nfl.txt",
+  "party": "Democratic",
+  "title": "SAN JOSÉ – Este mes, el legendario mariscal de campo de los Raiders y dos veces ganador del Super Bowl, Jim Plunkett, recibió un impulso significativo detrás de su nominación al Sa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Jim Plunkett is the only starting quarterback with two Super Bowl rings who has not yet been inducted into the Pro Football Hall of Fame.\",\n    \"Jim Plunkett was born to Mexican-American parents and has Native American Cherokee ancestry.\",\n    \"Jim Plunkett graduated fro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Jim Plunkett is the only starting quarterback with two Super Bowl rings who has not yet been inducted into the Pro Football Hall of Fame.\",\n    \"Jim Plunkett was born to Mexican-American parents and has Native American Cherokee ancestry.\",\n    \"Jim Plunkett graduated from Stanford University in 1971 and led the Stanford football team to a victory in the Rose Bowl.\",\n    \"Jim Plunkett won the Heisman Trophy in 1970, becoming the first Latino/Native American and the only Stanford player to receive this honor.\",\n    \"In 1971, Jim Plunkett was the first overall pick in the NFL Draft, becoming the first Latino/Native American player to be selected first overall.\",\n    \"Jim Plunkett became the first person of color to lead a team to victory in a Super Bowl.\",\n    \"He is one of four players to win both the Heisman Trophy and Super Bowl MVP.\",\n    \"Jim Plunkett is noted for being the only NFL quarterback to win two Super Bowls with the same franchise in different cities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ef684de4b960ec720d928229ab9cbd9982d7e810"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "santa-clara-countys-fentanyl-working-group-sets-standard-state-legislation-prevent-fentanyl.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) is calling for the expansion of Fentanyl prevention programming and services statewide to support schools and youth serving organizations. Cortese",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Fentanyl was responsible for one in five youth deaths (ages 15-to-24) in California last year.\",\n    \"Fentanyl deaths amongst youth doubled in one year alone.\",\n    \"The legislation will include distributing widespread information on the impact of fentanyl.\",\n    \"Counti",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Fentanyl was responsible for one in five youth deaths (ages 15-to-24) in California last year.\",\n    \"Fentanyl deaths amongst youth doubled in one year alone.\",\n    \"The legislation will include distributing widespread information on the impact of fentanyl.\",\n    \"Counties are being asked to set up Behavioral Health Advisory Councils.\",\n    \"A Restorative Justice framework for unintentional possession by victims of spiking will be established.\",\n    \"Fentanyl prevention groups will be embedded in school-site councils to facilitate site-based decision making for schools.\",\n    \"Schools will be provided with Narcan kits and training on how to mitigate the side effects of fentanyl.\",\n    \"Narcan kits have been used successfully within days of being provided after training.\",\n    \"The Santa Clara County fentanyl-working group has supplied school districts with Narcan kits and trained school staff on how to administer Narcan.\",\n    \"Narcan kits need to be in schools, health clinics, bars, and on public transportation.\",\n    \"A substantial number of youth have died because they ordered pills online that they didn’t know were laced with fentanyl.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f85c3351aabd5cc397bbbd649eff017bdae7a65f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "demaio-asks-trump-to-order-federal-investigation-of-gross-negligence-by-ca-politicians-in-la-fires.txt",
+  "party": "Republican",
+  "title": "“Without a full federal investigation into the LA fires, California politicians will cover-up their failings and the public will continue to suffer from their incompetence and negl",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California politicians have enacted regulations that make it difficult for property owners to clear defensible space around their homes.\",\n    \"California state and local agencies have failed to adequately clear brush on public lands.\",\n    \"The nearest reservoir to the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California politicians have enacted regulations that make it difficult for property owners to clear defensible space around their homes.\",\n    \"California state and local agencies have failed to adequately clear brush on public lands.\",\n    \"The nearest reservoir to the Pacific Palisades fire was kept bone dry during the incident.\",\n    \"Fire hydrants ran out of water for firefighting during the LA fires.\",\n    \"Many fire victims in California have inadequate fire insurance coverage due to recent policy cancellations.\",\n    \"California's insurance industry could be pushed into financial collapse due to mounting losses from the fires.\",\n    \"State government policies, including rampant inflation in California and high cost of housing repairs, are drivers of insurance problems, rather than climate change.\",\n    \"The government-run utility department failed to shut off power despite strong winds being predicted days in advance of the fire.\",\n    \"Video captured power lines sparking fires hours after the emergency began during the LA fires.\",\n    \"Local politicians have chronically underfunded and understaffed fire departments in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "315ba9a1f4c889dae8ab76a19a07aae1d1e9792c"
+}

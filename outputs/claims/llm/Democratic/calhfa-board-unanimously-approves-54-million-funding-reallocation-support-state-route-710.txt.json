@@ -1,0 +1,13 @@
+{
+  "press_release": "calhfa-board-unanimously-approves-54-million-funding-reallocation-support-state-route-710.txt",
+  "party": "Democratic",
+  "title": "Additional funding will help low- and moderate-income families purchase homes in Los Angeles, South Pasadena, and Pasadena",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The State Route 710 Affordable Sales Program helps low- and moderate-income families purchase homes owned by Caltrans.\",\n    \"The demand for the SR-710 program has exceeded original projections.\",\n    \"The CalHFA has preapproved 77 borrowers for nearly $10 million in loa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The State Route 710 Affordable Sales Program helps low- and moderate-income families purchase homes owned by Caltrans.\",\n    \"The demand for the SR-710 program has exceeded original projections.\",\n    \"The CalHFA has preapproved 77 borrowers for nearly $10 million in loans.\",\n    \"An estimated additional 81 borrowers require approximately $10.6 million more in financing.\",\n    \"The SR-710 program has helped dozens of families transition from renters to homeowners in Los Angeles, South Pasadena, and Pasadena.\",\n    \"The SR-710 program offers affordable sales prices and specialized financing that makes homeownership accessible to households earning moderate incomes.\",\n    \"The Forgivable Equity Builder Loan Program successfully helped over 2,000 low-income Californians access homeownership before closing in November 2022.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "21ba4c1ceb829b97be621604a2e5b76516bebfae"
+}

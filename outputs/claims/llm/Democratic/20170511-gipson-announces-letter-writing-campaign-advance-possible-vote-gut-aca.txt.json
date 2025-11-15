@@ -1,0 +1,54 @@
+{
+  "press_release": "20170511-gipson-announces-letter-writing-campaign-advance-possible-vote-gut-aca.txt",
+  "party": "Democratic",
+  "title": "(CARSON, Calif) – Assemblymember Mike A. Gipson, Chair of the Democratic Caucus, is announcing a Letter Writing Campaign in response to the recent vote by congressional republicans",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Affordable Care Act (ACA) has resulted in millions of Californians having comprehensive, affordable health coverage.\"\n    },\n    {\n      \"claim_text\": \"The ACA does not discriminate against people with pre-existing conditions.\"\n    },\n    {\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Affordable Care Act (ACA) has resulted in millions of Californians having comprehensive, affordable health coverage.\"\n    },\n    {\n      \"claim_text\": \"The ACA does not discriminate against people with pre-existing conditions.\"\n    },\n    {\n      \"claim_text\": \"1 in 6 Californians benefit from the Affordable Care Act (ACA).\"\n    },\n    {\n      \"claim_text\": \"Repealing and replacing the Affordable Care Act with Trumpcare could jeopardize healthcare for 5 million Californians.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The Affordable Care Act (ACA) has resulted in millions of Californians having comprehensive, affordable health coverage.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The ACA does not discriminate against people with pre-existing conditions.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "1 in 6 Californians benefit from the Affordable Care Act (ACA).",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Repealing and replacing the Affordable Care Act with Trumpcare could jeopardize healthcare for 5 million Californians.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 4,
+  "doc_sha1": "9d362e21ab448b8fa9a961b7253c80916ce0f638"
+}

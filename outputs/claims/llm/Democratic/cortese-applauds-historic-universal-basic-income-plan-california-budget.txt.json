@@ -1,0 +1,13 @@
+{
+  "press_release": "cortese-applauds-historic-universal-basic-income-plan-california-budget.txt",
+  "party": "Democratic",
+  "title": "This year’s state budget (see SB/AB 153 for details) includes California’s first state-funded universal basic income (UBI) proposal. The Legislature today voted to begin administer",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:11:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's first state-funded universal basic income proposal has been included in this year's state budget.\",\n    \"The California Guaranteed Income Pilot Program is a $35 million program providing payments of up to $1,000 to eligible participants.\",\n    \"Funding for t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's first state-funded universal basic income proposal has been included in this year's state budget.\",\n    \"The California Guaranteed Income Pilot Program is a $35 million program providing payments of up to $1,000 to eligible participants.\",\n    \"Funding for the program will prioritize residents exiting the state's extended foster care program and pregnant individuals.\",\n    \"The pilot program in Santa Clara County has been identified as a successful model for guaranteed basic income.\",\n    \"SB 739 would provide unconditional and direct cash assistance of $1,000 a month to youth aging out of the Extended Foster Care Program in California.\",\n    \"The UBI for foster youth model has been successfully championed by Senator Cortese in Santa Clara County.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6597add3189665e387dc1e4be85bd43466c80b42"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-becker-cheers-state-budgets-18m-investment-advance-big-lift-jobtrain.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Big Lift is dedicated to improving literacy among San Mateo County children.\",\n    \"The Big Lift focuses on closing the opportunity gap in early childhood education.\",\n    \"The Big Lift has served more than 10,000 children.\",\n    \"70% of The Big Lift participants are",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Big Lift is dedicated to improving literacy among San Mateo County children.\",\n    \"The Big Lift focuses on closing the opportunity gap in early childhood education.\",\n    \"The Big Lift has served more than 10,000 children.\",\n    \"70% of The Big Lift participants are dual language learners.\",\n    \"The state funding will support a five-week summer learning program for 1,200 low-income students.\",\n    \"The funding will help implement an evidence-based literacy program for 720 low-income preschool students.\",\n    \"JobTrain has provided low-income adults with pathways out of poverty since 1965.\",\n    \"80% of JobTrain graduates were on career pathways earning an average hourly wage of $21.80.\",\n    \"JobTrain's new Center for Economic Mobility aims to expand services for economic mobility.\",\n    \"The pandemic has made financing affordable housing more difficult for lower-income households.\",\n    \"The Lot 12 project in Mountain View aims to provide 120 units of affordable housing.\",\n    \"The city is creating a pipeline of 100% affordable housing projects.\",\n    \"The Evelyn Avenue bike lane upgrade will enhance safety and connectivity in Sunnyvale.\",\n    \"The upgrade of the bike lane aims to promote safer biking and walking in the community.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d064bcceb68841f682f4c86fe34387d6b356ca1f"
+}

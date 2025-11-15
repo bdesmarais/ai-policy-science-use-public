@@ -1,0 +1,13 @@
+{
+  "press_release": "californians-demand-immediate-relief-at-the-gas-pump.txt",
+  "party": "Republican",
+  "title": "June 20, 2022",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "53e5db01655e82165a990e92b91fa63d5d6d99d2"
+}

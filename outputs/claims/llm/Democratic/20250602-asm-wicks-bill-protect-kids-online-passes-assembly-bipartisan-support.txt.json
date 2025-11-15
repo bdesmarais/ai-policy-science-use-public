@@ -1,0 +1,13 @@
+{
+  "press_release": "20250602-asm-wicks-bill-protect-kids-online-passes-assembly-bipartisan-support.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1043 establishes a device-based age assurance system to help protect children online.\",\n    \"The bill aims to provide a scalable, privacy-first approach to keep children safe online.\",\n    \"Devices and app stores will transmit a secure, non-identifying age bracket sig",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1043 establishes a device-based age assurance system to help protect children online.\",\n    \"The bill aims to provide a scalable, privacy-first approach to keep children safe online.\",\n    \"Devices and app stores will transmit a secure, non-identifying age bracket signal at setup.\",\n    \"Apps and websites will adjust content and features based on the transmitted age bracket signal.\",\n    \"Developers must offer connections to existing safety tools for parents.\",\n    \"No personal information is stored or shared under the bill.\",\n    \"The bill avoids constitutional concerns by focusing on age assurance rather than content moderation.\",\n    \"Violations of the bill could result in penalties of up to $7,500 per child.\",\n    \"A statewide poll indicates 84% of parents prefer a centralized approach for managing app permissions for their children.\",\n    \"There is a growing national movement to implement protections for children online.\",\n    \"AB 1043 is co-sponsored by leading organizations advocating for privacy-first protections for kids.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d720539127da791ad2bacba3af6de8ef267376f"
+}

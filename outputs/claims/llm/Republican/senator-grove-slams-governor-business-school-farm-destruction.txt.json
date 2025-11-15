@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-slams-governor-business-school-farm-destruction.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO — Today, Senator Shannon Grove ( R-Bakersfield ) issued the following statement after Governor Newsom delivered his State of the State Address at Dodger Stadium in Los A",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "abd69e05b2bab291c89ccb4a7b2800e3c4e32640"
+}

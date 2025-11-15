@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-marie-alvarado-gil-praised-her-efforts-protect-california-ranchers.txt",
+  "party": "Republican",
+  "title": "Sen. Marie Alvarado-Gil ( R-Jackson) is being commended for her commitment to protecting California’s ranchers amid a rise in wolf populations. Earlier this year, Senator Alvarado-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The return of wolves to California marks an important milestone for wildlife restoration.\",\n    \"As of June 30, 2024, California's wolf population has grown to at least 63 wolves, including 30 new pups.\",\n    \"The wolf population in California increased from 44 wolves at",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The return of wolves to California marks an important milestone for wildlife restoration.\",\n    \"As of June 30, 2024, California's wolf population has grown to at least 63 wolves, including 30 new pups.\",\n    \"The wolf population in California increased from 44 wolves at the end of 2023 to at least 63 wolves in mid-2024.\",\n    \"In 2024, there have been 39 confirmed livestock kills from 33 wolf attacks, marking a 62% increase from the previous year.\",\n    \"The California State Legislature allocated $3 million to create a Wolf-Livestock Compensation Pilot Program aimed at reducing the effects of wolves on livestock producers.\",\n    \"The Wolf-Livestock Compensation Program focuses on addressing direct livestock losses, implementing nonlethal deterrents, and providing incentives through a 'Pay for Presence' approach.\",\n    \"Increased wolf populations correlate with increased losses of calves and other livestock from wolf predation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b636895dc809491bc6de46008e636c41faab16c2"
+}

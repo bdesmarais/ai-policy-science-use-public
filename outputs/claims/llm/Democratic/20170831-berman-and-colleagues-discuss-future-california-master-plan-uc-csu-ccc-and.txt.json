@@ -1,0 +1,13 @@
+{
+  "press_release": "20170831-berman-and-colleagues-discuss-future-california-master-plan-uc-csu-ccc-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Today, Assemblymember Marc Berman (D-Palo Alto) convened the first hearing of the Assembly Select Committee on the Master Plan for Higher Education in California. Jane",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The California Master Plan for Higher Education was written in 1960 and has guided the state’s higher education policy.\",\n    \"Population growth, increased diversity, technological advancement, and new leading industries have altered the needs of students.\",\n    \"Te",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The California Master Plan for Higher Education was written in 1960 and has guided the state’s higher education policy.\",\n    \"Population growth, increased diversity, technological advancement, and new leading industries have altered the needs of students.\",\n    \"Technological advancement has changed the field of education and boosted the demand for higher education.\",\n    \"The California Master Plan needs to be updated to benefit students and the state for another 50 years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "294c4d43954a9284d5d4b4252812a883df38a609"
+}

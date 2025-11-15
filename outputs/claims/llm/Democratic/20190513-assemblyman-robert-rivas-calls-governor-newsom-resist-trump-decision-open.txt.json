@@ -1,0 +1,13 @@
+{
+  "press_release": "20190513-assemblyman-robert-rivas-calls-governor-newsom-resist-trump-decision-open.txt",
+  "party": "Democratic",
+  "title": "(Salinas)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Trump administration's decision to open up over 725,000 acres of land to oil drilling could harm public health and the environment.\",\n    \"The Bureau of Land Management finalized a plan to open up over 725,000 acres of public lands in California for new oil and gas d",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Trump administration's decision to open up over 725,000 acres of land to oil drilling could harm public health and the environment.\",\n    \"The Bureau of Land Management finalized a plan to open up over 725,000 acres of public lands in California for new oil and gas drilling.\",\n    \"The new drilling plan is inconsistent with state and local laws.\",\n    \"The proposed oil drilling could negatively impact the agricultural economy in the region.\",\n    \"Opening land to oil drilling could adversely affect local tourism and small businesses.\",\n    \"The current issues facing the community, such as housing shortages and homelessness, are more pressing than the oil drilling initiative.\",\n    \"The region is known as the Salad Bowl Capital of the World.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bae3b9ea75685f43c830903aaa1c350474e7234f"
+}

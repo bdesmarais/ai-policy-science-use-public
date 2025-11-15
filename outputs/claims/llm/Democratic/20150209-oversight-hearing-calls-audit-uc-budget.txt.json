@@ -1,0 +1,13 @@
+{
+  "press_release": "20150209-oversight-hearing-calls-audit-uc-budget.txt",
+  "party": "Democratic",
+  "title": "(Sacramento)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:51:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The State Auditor released a report in July 2011 that identified a lack of transparency and accountability within the University of California's budget process.\",\n    \"The State Auditor found significant inequity in per-student funding between campuses in the UC system.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The State Auditor released a report in July 2011 that identified a lack of transparency and accountability within the University of California's budget process.\",\n    \"The State Auditor found significant inequity in per-student funding between campuses in the UC system.\",\n    \"Schools with a higher-than-average portion of Hispanic, Black, Native American, and other ethnic groups received over $30,000 less annually per student than the top schools in the UC system.\",\n    \"The University of California passed a 'Rebenching Initiative' to address funding inequities, which is set to be fully implemented by 2018.\",\n    \"The increase in nonresident students at UC has complicated issues related to enrollment and funding for California students.\",\n    \"There has been no independent audit conducted to examine the recent increase in nonresident enrollments at the University of California.\",\n    \"The Joint Legislative Audit Committee plans to assess the University of California's initiatives that impact per-student funding.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1ed9ded443bd73df9bb3b7da71d4c01ee69d851e"
+}

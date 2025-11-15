@@ -1,0 +1,13 @@
+{
+  "press_release": "20250710-assemblywoman-petrie-norris-secures-state-funding-expand-behavioral-health.txt",
+  "party": "Democratic",
+  "title": "The City of Costa Mesa has received state funding from Assembly Woman Cottie Petrie-Norris to expand the existing behavioral health care program at the Costa Mesa Bridge Shelter by",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The City of Costa Mesa received state funding of $750,000 to expand the existing behavioral health care program at the Costa Mesa Bridge Shelter.\",\n    \"The funding will assist individuals experiencing homelessness who have serious mental illness or substance abuse disor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The City of Costa Mesa received state funding of $750,000 to expand the existing behavioral health care program at the Costa Mesa Bridge Shelter.\",\n    \"The funding will assist individuals experiencing homelessness who have serious mental illness or substance abuse disorders.\",\n    \"The expansion includes a total of 30 behavioral health care beds at the Bridge Shelter since July of 2024.\",\n    \"Having additional beds in the Bridge Shelter significantly improved outcomes for participants.\",\n    \"Over the past year, the City has provided high-quality behavioral health care to 53 individuals.\",\n    \"Nine of these participants ended their homelessness by securing permanent housing.\",\n    \"The expansion of services is intended to help transition people with mental health and addiction issues into permanent housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b36578e2e1a770c0b182bc92b74f5920989e96c9"
+}

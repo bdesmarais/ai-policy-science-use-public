@@ -1,0 +1,13 @@
+{
+  "press_release": "20171009-governor-brown-signs-assemblymember-al-muratsuchis-california-refinery-jobs.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1646 will require the development of effective community alert systems for emergencies affecting lives and safety.\",\n    \"The community alert systems will utilize the Emergency Alert System, text messaging, phone calls, social media communications, and audible alarms.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1646 will require the development of effective community alert systems for emergencies affecting lives and safety.\",\n    \"The community alert systems will utilize the Emergency Alert System, text messaging, phone calls, social media communications, and audible alarms.\",\n    \"AB 1647 will require the installation of air quality monitors at refinery fence lines and in surrounding communities.\",\n    \"Real-time air quality data must be collected and provided in a publicly accessible format by air quality management districts and refineries.\",\n    \"AB 1649 will mandate improved oversight of refineries by the California Environmental Protection Agency to enhance public and worker safety.\",\n    \"The new laws arose from community efforts to make refineries safer following the 2015 Torrance refinery explosion.\",\n    \"Hydrofluoric acid is classified as a highly toxic chemical, and AB 1645 aims to either convert its use to less hazardous alternatives or cease its usage by 2020.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "11c631d3655bfaaadea26529fc6b9e4a064db7c1"
+}

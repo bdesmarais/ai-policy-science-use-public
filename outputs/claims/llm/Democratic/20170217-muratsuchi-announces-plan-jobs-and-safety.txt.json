@@ -1,0 +1,13 @@
+{
+  "press_release": "20170217-muratsuchi-announces-plan-jobs-and-safety.txt",
+  "party": "Democratic",
+  "title": "Working to ensure the well-being of workers and the community",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:53:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1645 will address a ban on the use of Hydrofluoric Acid at refineries.\",\n    \"AB 1646 will require a refinery to maintain a publicly accessible risk management plan that includes notification to residents for emergencies.\",\n    \"AB 1647 will require the refinery to in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1645 will address a ban on the use of Hydrofluoric Acid at refineries.\",\n    \"AB 1646 will require a refinery to maintain a publicly accessible risk management plan that includes notification to residents for emergencies.\",\n    \"AB 1647 will require the refinery to install and maintain air quality monitors at both fence-line and in the community.\",\n    \"AB 1647 will require the refinery to publicly report the readings from the air quality monitors in real-time.\",\n    \"AB 1648 will increase the number of refinery inspectors at Cal-OSHA.\",\n    \"AB 1649 will codify the existing Refinery Task Force to ensure its continuation after Governor Brown leaves office in 2018.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7b2d044306b2f8ec7d19f01518af2a3eb1510868"
+}

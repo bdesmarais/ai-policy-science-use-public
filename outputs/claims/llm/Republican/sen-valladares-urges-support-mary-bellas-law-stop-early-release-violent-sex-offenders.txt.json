@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-valladares-urges-support-mary-bellas-law-stop-early-release-violent-sex-offenders.txt",
+  "party": "Republican",
+  "title": "This week, Senator Suzette Valladares, alongside Senate Minority Leader Brian Jones and victims' rights advocates, gathered at a press conference to rally support for SB 286, also ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The current Elderly Parole program permits violent sex offenders to be released after serving just 20 years.\",\n    \"Mary Bella’s Law seeks to close a loophole in California’s Elderly Parole program that allows early release for violent sex offenders.\",\n    \"SB 286 ensure",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The current Elderly Parole program permits violent sex offenders to be released after serving just 20 years.\",\n    \"Mary Bella’s Law seeks to close a loophole in California’s Elderly Parole program that allows early release for violent sex offenders.\",\n    \"SB 286 ensures that rapists and child molesters serve their full sentences, regardless of age.\",\n    \"The eligibility age for elderly parole was lowered from 60 to 50 through Assembly Bill 3234 in 2020.\",\n    \"A loophole in AB 3234 allows violent sex offenders to qualify for early release under the Elderly Parole program.\",\n    \"Multiple rapists and child molesters have qualified for Elderly Parole since the passage of AB 3234.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "32e047f21c54dd1fcff7341b112aa4490d323081"
+}

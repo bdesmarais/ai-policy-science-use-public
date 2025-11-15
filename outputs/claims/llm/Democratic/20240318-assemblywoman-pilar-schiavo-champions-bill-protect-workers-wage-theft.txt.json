@@ -1,0 +1,13 @@
+{
+  "press_release": "20240318-assemblywoman-pilar-schiavo-champions-bill-protect-workers-wage-theft.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - In a move to protect workers’ pocketbooks, Assemblywoman Pilar Schiavo successfully moved AB 2135 past its first hurdle - passing out of the Labor Committee. AB 2135 i",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2135 aims to bolster the rights of employees to seek justice for wage theft by extending the statute of limitations for investigations.\",\n    \"AB 2135 ensures cases aren’t closed simply because the state Labor Commission is unable to complete an investigation.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2135 aims to bolster the rights of employees to seek justice for wage theft by extending the statute of limitations for investigations.\",\n    \"AB 2135 ensures cases aren’t closed simply because the state Labor Commission is unable to complete an investigation.\",\n    \"Wage theft is a pervasive issue impacting too many workers.\",\n    \"AB 2135 seeks to dismantle barriers that prevent workers from reporting wage theft.\",\n    \"In 2020 alone, nearly 2,000 cases of wage theft were reported in the context of public works projects.\",\n    \"A significant portion of wage theft cases were dismissed due to the expiration of the statute of limitations.\",\n    \"AB 2135 will safeguard workers' rights by allowing more time for their complaints to be thoroughly investigated.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1481391bc6ecf9ecc944c3f47506380c54a831e2"
+}

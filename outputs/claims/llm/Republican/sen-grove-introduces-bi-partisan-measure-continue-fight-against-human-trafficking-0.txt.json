@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-grove-introduces-bi-partisan-measure-continue-fight-against-human-trafficking-0.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove with joint authors of SB 1414.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has some of the highest numbers of reported human trafficking cases in the nation.\",\n    \"Children make up a majority of human trafficking victims in California.\",\n    \"The illicit human trafficking industry generates an estimated $150 billion per year globall",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has some of the highest numbers of reported human trafficking cases in the nation.\",\n    \"Children make up a majority of human trafficking victims in California.\",\n    \"The illicit human trafficking industry generates an estimated $150 billion per year globally.\",\n    \"Victims of human trafficking are often coerced into this dark underworld during their formative years.\",\n    \"The current law classifies solicitation, attempting to engage, or engaging in sex with a minor for money as a misdemeanor offense.\",\n    \"Existing law has loopholes that allow offenders to avoid stricter penalties for exploiting juvenile sex trafficking victims aged between 14 and 17.\",\n    \"SB 1414 proposes that any individual who solicits, agrees to engage in, or engages in commercial sex with a minor will be charged with a felony.\",\n    \"The proposed SB 1414 legislation will carry a prison sentence of 2 to 4 years for those convicted of soliciting sex from a minor.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a4d3b0d22421e34033079686db707045bc7155c"
+}

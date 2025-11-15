@@ -1,0 +1,13 @@
+{
+  "press_release": "20250516-assemblywoman-soria-releases-statement-governor-newsoms-may-revise.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblywoman Esmeralda Soria (D- Merced) released the following statement on Governor Newsom’s May Revise, which was released this week:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is facing a $12 billion dollar deficit.\",\n    \"The federal economic policies create uncertainty in state, federal, and global markets.\",\n    \"Increased animal disease outbreaks like Avian Influenza have severe financial impacts on poultry and egg farmers.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is facing a $12 billion dollar deficit.\",\n    \"The federal economic policies create uncertainty in state, federal, and global markets.\",\n    \"Increased animal disease outbreaks like Avian Influenza have severe financial impacts on poultry and egg farmers.\",\n    \"The Department of Food and Agriculture's budget has been increased by $6 million to respond to threats to animal and human health.\",\n    \"The Delta Conveyance Project aims to reliably deliver water to farms, homes, and businesses.\",\n    \"Streamlining the Delta Conveyance Project will save time and reduce costs.\",\n    \"The May Revise proposes $1 billion annually to build the High Speed Rail system.\",\n    \"High Speed Rail is expected to bring economic mobility and clean transportation to California.\",\n    \"The May Revision proposes a total funding of $45.7 billion for the Higher Education segments.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e27f2d91a0efb60a55db89fa1ad32cd5dbf8c072"
+}

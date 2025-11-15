@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-senator-corteses-bill-building-water-efficiency-new-buildings.txt",
+  "party": "Democratic",
+  "title": "New buildings in California will become more water efficient following Governor Newsom’s approval of SB 745 by Senator Dave Cortese, which requires new state building standards to ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"New buildings in California will become more water efficient following the approval of SB 745.\",\n    \"SB 745 requires new state building standards to drop water usage while adopting designs that capture recycled water.\",\n    \"The new standards will incorporate systems fo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"New buildings in California will become more water efficient following the approval of SB 745.\",\n    \"SB 745 requires new state building standards to drop water usage while adopting designs that capture recycled water.\",\n    \"The new standards will incorporate systems for reusing water and treating graywater.\",\n    \"Buildings can remain in operation for up to a century before they are replaced.\",\n    \"California must adapt to hotter and drier conditions caused by climate change by reducing the amount of drinkable water that new buildings use for non-drinking purposes.\",\n    \"By 2050, estimates show that California will receive just two-thirds of the snow that has historically blanketed its mountains.\",\n    \"California needs to cut the amount of water used in new buildings to fortify against persistent water shortages and droughts.\",\n    \"It is critical to start drought-proofing new construction given that buildings can last up to a century.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "41e09c88c019824631b6296db508aee4bb60a86b"
+}

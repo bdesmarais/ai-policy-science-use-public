@@ -1,0 +1,13 @@
+{
+  "press_release": "20240821-assemblymember-wicks-secures-agreement-state-major-tech-companies-support.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has lost more than 100 newspapers in the last decade alone.\",\n    \"An average of two and a half newspapers in the United States close every week.\",\n    \"The National AI Innovation Accelerator will provide financial resources and support to organizations across",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has lost more than 100 newspapers in the last decade alone.\",\n    \"An average of two and a half newspapers in the United States close every week.\",\n    \"The National AI Innovation Accelerator will provide financial resources and support to organizations across various sectors to experiment with AI.\",\n    \"The AI accelerator aims to strengthen the workforce and tackle complex societal challenges.\",\n    \"Funding from technology platforms and the State of California will support innovative new investments that promote local journalism.\",\n    \"This partnership represents a cross-sector commitment to supporting a free and vibrant press.\",\n    \"The University of California's Berkeley School of Journalism will administer the News Transformation Fund.\",\n    \"The initiatives will help ensure the sustainability of existing and new online publications.\",\n    \"The partnership aims to strengthen newsroom and ownership diversity for ethnic and underserved communities.\",\n    \"Ethnic and community media outlets serve as trusted messengers of culturally responsive news to historically underrepresented communities.\",\n    \"This initiative is intended to help news outlets and journalists adapt to a changing landscape with new tools and funding.\",\n    \"Technology and innovation must advance to champion the vital role of journalism in a democracy.\",\n    \"The initiative seeks to empower local news outlets to continue their essential work.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1b6f888faabdac32d05d9c0fe8086f63d6ee7c62"
+}

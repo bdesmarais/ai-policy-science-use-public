@@ -1,0 +1,13 @@
+{
+  "press_release": "stumped-at-the-pump-dems-puzzled-that-less-competition-high-gas-prices.txt",
+  "party": "Republican",
+  "title": "️‍♂️ “Big Oil” is Detective Newsom’s prime suspect, but he’s not going to like the latest clue.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A lack of competition among gas stations drives prices higher.\",\n    \"California has twice as many licensed drivers per station as the rest of the country.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A lack of competition among gas stations drives prices higher.\",\n    \"California has twice as many licensed drivers per station as the rest of the country.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b74c17b47e22d3ea75841af7d708d8feab47e81e"
+}

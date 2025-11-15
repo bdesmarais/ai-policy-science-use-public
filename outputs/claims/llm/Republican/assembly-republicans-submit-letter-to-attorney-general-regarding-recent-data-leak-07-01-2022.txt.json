@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-submit-letter-to-attorney-general-regarding-recent-data-leak-07-01-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "735305dacb2d400edea411b68fc82dedbd05b6f8"
+}

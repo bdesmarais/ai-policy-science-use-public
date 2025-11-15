@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-archuleta-urges-public-support-sb-296-property-tax-relief-100-disabled.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Senator Bob Archuleta (D-Pico Rivera) is calling on Californians to stand up for the state’s disabled veterans by voicing their support for Senate Bill 296 , a vit",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 296 aims to provide a full property tax exemption for veterans with a 100% disability rating.\",\n    \"Several states, including Florida, Texas, Virginia, New Mexico, and Hawaii, waive property taxes for veterans with total and permanent disabilities.\",\n    \"Ca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 296 aims to provide a full property tax exemption for veterans with a 100% disability rating.\",\n    \"Several states, including Florida, Texas, Virginia, New Mexico, and Hawaii, waive property taxes for veterans with total and permanent disabilities.\",\n    \"California is home to nearly one-quarter of the nation’s homeless veterans.\",\n    \"According to data from the U.S. Department of Housing and Urban Development and the U.S. Department of Veterans Affairs, over 11,000 veterans are currently experiencing homelessness in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "56ca2c1fdc0f601cfc4b6b05087a6edf24af6c18"
+}

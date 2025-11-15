@@ -1,0 +1,13 @@
+{
+  "press_release": "20200131-crime-victims-and-prosecutors-will-now-get-notified-when-criminals-seek.txt",
+  "party": "Democratic",
+  "title": "SAN BERNARDINO, CA – A new law that took effect Jan. 1 authored by Assemblymember James C. Ramos requires courts to give prosecutors and crime victims who opt for notification a tw",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:13:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 433 requires courts to give a two-day notice of an early termination of probation for convicted criminals to prosecutors and crime victims who opt for notification.\",\n    \"The new law, AB 433, ensures that victims who have been granted restitution are made aware that ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 433 requires courts to give a two-day notice of an early termination of probation for convicted criminals to prosecutors and crime victims who opt for notification.\",\n    \"The new law, AB 433, ensures that victims who have been granted restitution are made aware that probation may be ending.\",\n    \"AB 433 extends notification rights to victims for all crimes, not just for previously specified crimes such as domestic violence.\",\n    \"The law gives victims and prosecuting attorneys the opportunity to seek restitution before a decision on early termination of probation is made.\",\n    \"Victims of crime have a right to have their voices heard in open court if their offender is about to receive early termination of probation.\",\n    \"AB 433 ensures that victims are informed of developments such as early termination of probation so they can ensure offenders fulfill their restitution obligations.\",\n    \"The legislation aims to create a mechanism to hold individuals convicted of crimes accountable to the courts and the victims.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "566f5b7d96a6c89d9a604777b76616af163537e9"
+}

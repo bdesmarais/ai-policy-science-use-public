@@ -1,0 +1,13 @@
+{
+  "press_release": "20210323-assemblymembers-muratsuchi-santiago-and-garcia-introduce-broadband-all-bond.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:26:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill (AB) 34 will invest in broadband infrastructure throughout California and increase access to high-speed internet.\",\n    \"AB 34 prioritizes unserved and disadvantaged communities to help close the digital divide.\",\n    \"The bill aims to jumpstart the state's",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill (AB) 34 will invest in broadband infrastructure throughout California and increase access to high-speed internet.\",\n    \"AB 34 prioritizes unserved and disadvantaged communities to help close the digital divide.\",\n    \"The bill aims to jumpstart the state's economic recovery and support public education, telecommuting, telehealth, and emergency response.\",\n    \"California has significant disparities in access to affordable, reliable, high-speed internet, especially in rural and low-income urban communities.\",\n    \"Improving broadband access will enable individuals to work, study, communicate, apply for government services, operate home-based businesses, receive emergency information, and access healthcare.\",\n    \"The COVID-19 pandemic has highlighted the lack of access to high-speed internet and technology among students of color and children experiencing poverty.\",\n    \"Broadband access is essential for California's ability to compete on the world stage and spur economic development.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "04a4f1aa4ec667999f1ad466fb57c620bfb5a2ea"
+}

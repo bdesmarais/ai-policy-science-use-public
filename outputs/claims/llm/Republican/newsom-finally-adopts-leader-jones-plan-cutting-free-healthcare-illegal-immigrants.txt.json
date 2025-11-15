@@ -1,0 +1,13 @@
+{
+  "press_release": "newsom-finally-adopts-leader-jones-plan-cutting-free-healthcare-illegal-immigrants.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones ( R-San Diego ) issued the following statement this morning after Governor Gavin Newsom announced major rollbacks to his disastrous plan to pr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:00:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's plan to provide free healthcare to illegal immigrants has been described as disastrous and financially unsustainable.\",\n    \"The initial cost estimate for the free healthcare program for illegal immigrants was $3 billion a year, but it ballooned to over",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's plan to provide free healthcare to illegal immigrants has been described as disastrous and financially unsustainable.\",\n    \"The initial cost estimate for the free healthcare program for illegal immigrants was $3 billion a year, but it ballooned to over $11 billion.\",\n    \"Polling indicates that 60% of California voters oppose providing free healthcare for illegal immigrants.\",\n    \"Governor Newsom is now reversing his position on the Medi-Cal expansion for illegal immigrants in light of a $12 billion budget deficit.\",\n    \"The financial crisis in California has been attributed to the expansion of the Medi-Cal program for illegal immigrants.\",\n    \"Leader Jones urged the immediate freeze of the Medi-Cal expansion to illegal immigrants over a year and a half ago to prevent a crisis.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "911510215ea2a8350404cd24bf19f656cf13b825"
+}

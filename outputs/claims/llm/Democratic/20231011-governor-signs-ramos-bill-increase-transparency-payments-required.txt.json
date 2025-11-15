@@ -1,0 +1,13 @@
+{
+  "press_release": "20231011-governor-signs-ramos-bill-increase-transparency-payments-required.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Local agencies charging mitigation fees for development projects will be required to share more information in their annual reports about how those charges are being use",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:30:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Local agencies charging mitigation fees for development projects are required to share more information in their annual reports about how those charges are used.\",\n    \"Small businesses often feel left in the dark about where and how their mitigation fees are being used.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Local agencies charging mitigation fees for development projects are required to share more information in their annual reports about how those charges are used.\",\n    \"Small businesses often feel left in the dark about where and how their mitigation fees are being used.\",\n    \"AB 516 mandates local agencies to provide information about the construction status, reasons for project delays, and revised completion dates.\",\n    \"Agencies must inform individuals requesting audits if the mitigation fees collected are more than necessary for the project.\",\n    \"Local agency meetings to review annual Mitigation Fee Act reports must be publicly announced as part of the new requirements.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d9ecf60d22a214dc7deed27c918e828e2195541d"
+}

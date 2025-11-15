@@ -1,0 +1,13 @@
+{
+  "press_release": "20250703-assemblymember-alvarez-secures-state-funding-uc-san-diego-bachelor-science.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:40:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember David Alvarez secured $5 million in state funding to the University of California San Diego.\",\n    \"The funding will be used to provide a collaborative public health degree with Southwestern College.\",\n    \"The proposed pilot program will allow qualified c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember David Alvarez secured $5 million in state funding to the University of California San Diego.\",\n    \"The funding will be used to provide a collaborative public health degree with Southwestern College.\",\n    \"The proposed pilot program will allow qualified community college students at Southwestern College to transfer to the Herbert Wertheim School of Public Health and Human Longevity Science at UC San Diego.\",\n    \"Transfer students will take their UC San Diego classes at Southwestern College.\",\n    \"This degree program will be the fifth offered in Chula Vista, following previous agreements with San Diego State University and CSU San Marcos.\",\n    \"The program is in response to a budget request that asked institutions to create partnerships to expand higher education opportunities in underserved areas of California.\",\n    \"The South Bay region has almost 500,000 residents as of 2022, but Southwestern College is the only California public institution of higher education in the area.\",\n    \"The University Now Initiative identified the academic programs needed to meet the workforce demand of the region.\",\n    \"UC San Diego will supplement Southwestern College's lower division courses with upper-division public health coursework.\",\n    \"Students will receive a range of support services from UC San Diego, including academic advising, career counseling, and health services.\",\n    \"The partnership between UC San Diego and Southwestern College aims to expand access to public health education degrees in San Diego County.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3d47492223f9a6fe140371cd2e8e1dd714d1cde4"
+}

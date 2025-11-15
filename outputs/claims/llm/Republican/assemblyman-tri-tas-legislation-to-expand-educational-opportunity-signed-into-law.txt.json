@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-tri-tas-legislation-to-expand-educational-opportunity-signed-into-law.txt",
+  "party": "Republican",
+  "title": "Assemblyman Tri Ta’s Legislation to Expand Educational Opportunity Signed into Law",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1173 expands educational opportunities for high school students to learn career skills.\",\n    \"California's community colleges play a crucial role in educating the state's future workforce.\",\n    \"AB 1173 will ensure Californians are aware of the educationa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1173 expands educational opportunities for high school students to learn career skills.\",\n    \"California's community colleges play a crucial role in educating the state's future workforce.\",\n    \"AB 1173 will ensure Californians are aware of the educational and vocational opportunities available to them in California's community colleges.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "42de6c123d2a3b00e601697d07789557ff8b6aa7"
+}

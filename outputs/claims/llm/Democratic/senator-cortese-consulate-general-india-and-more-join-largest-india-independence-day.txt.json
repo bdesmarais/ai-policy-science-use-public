@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-consulate-general-india-and-more-join-largest-india-independence-day.txt",
+  "party": "Democratic",
+  "title": "Press Conference - Senator Cortese, Consulate General of India and More Join Largest India Independence Day Celebrations in Bay Area",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "75ad9534f628e074f6d662aaf111b77d7590d627"
+}

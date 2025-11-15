@@ -1,0 +1,13 @@
+{
+  "press_release": "20220423-bill-tackle-dark-side-artificial-light-passes-business-and-professions.txt",
+  "party": "Democratic",
+  "title": "Earlier this week, AB 2382, to promote the safety of migratory birds, insects, and people passed out of the Business and Professions Committee with bipartisan support. In order to ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:40:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The International Dark-Sky Association estimates that at least 30% of outdoor lighting in the United States is wasted.\",\n    \"Wasted outdoor lighting costs the U.S. approximately $3.3 billion in lost electricity costs and results in the release of 21 million tons of carb",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The International Dark-Sky Association estimates that at least 30% of outdoor lighting in the United States is wasted.\",\n    \"Wasted outdoor lighting costs the U.S. approximately $3.3 billion in lost electricity costs and results in the release of 21 million tons of carbon dioxide per year.\",\n    \"Excess artificial light can disrupt critical behavior in wildlife and negatively impact ecosystems.\",\n    \"Seventy percent of bird species migrate each year, and eighty percent of those migrate at night using the night sky for navigation.\",\n    \"Excess artificial light attracts nocturnal-migratory birds, leading them to unsafe migration routes and increasing their risk of collisions with buildings.\",\n    \"At least one million birds die each year in the United States due to building or structure collisions related to artificial light at night.\",\n    \"A study found that reducing indoor artificial light at night by half can lead to a reduction of roughly 60% in bird collisions.\",\n    \"Artificial light at night can negatively affect insect movement, foraging, and reproduction.\",\n    \"Insects caught in a light plume may circle until they die or the light is turned off.\",\n    \"Teens and adolescents living in areas with high levels of artificial light at night are more likely to experience mood and anxiety disorders as well as interrupted sleep patterns.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4c2e79a7a44850df4bb3d4fbaa1f6f101b029478"
+}

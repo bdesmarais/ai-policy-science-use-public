@@ -1,0 +1,13 @@
+{
+  "press_release": "20240520-assemblymember-alvarez-issues-statement-may-revision-budget-and-need-cal.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblymember David Alvarez (D-San Diego) issued the following statement on Governor Newsom’s May Revision of the 2024-25 budget and Cal Grant Reform:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:42:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Higher education should be accessible to every student who wants to further their education and skills.\",\n    \"Investing in students and the workforce is critically important during times of budget shortfall.\",\n    \"True equity and shared economic prosperity can be achie",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Higher education should be accessible to every student who wants to further their education and skills.\",\n    \"Investing in students and the workforce is critically important during times of budget shortfall.\",\n    \"True equity and shared economic prosperity can be achieved by investing in individuals working to improve their lives.\",\n    \"Cal Grant reforms are essential for success in future budget years.\",\n    \"Current higher education systems leave out tens of thousands of low-income students, particularly those who are Latino, African-American, or returning adult learners.\",\n    \"Generous investments have expanded opportunities for students who qualify, but many still remain excluded.\",\n    \"Consistent, affordable access to higher education opportunities is crucial for building a more just economy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dbb9d276b994dcb515f1cefac4742153652acc98"
+}

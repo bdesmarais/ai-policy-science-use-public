@@ -1,0 +1,13 @@
+{
+  "press_release": "20240524-assemblymember-boerners-bill-prioritize-postpartum-health-passes-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"One in three people who give birth will experience pelvic floor disorder (PFD) in their lifetime.\",\n    \"Most postpartum check-ups currently fail to address the anatomical changes that take place on the pelvic floor.\",\n    \"Untreated weak pelvic floors can lead to compli",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"One in three people who give birth will experience pelvic floor disorder (PFD) in their lifetime.\",\n    \"Most postpartum check-ups currently fail to address the anatomical changes that take place on the pelvic floor.\",\n    \"Untreated weak pelvic floors can lead to complications such as urinary continence, pelvic organ prolapse, and low back pain.\",\n    \"Pelvic floor physical therapy should be the standard of care for postpartum recovery.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ef6df368b9aad74ff971249d9e4e6e3de0af781f"
+}

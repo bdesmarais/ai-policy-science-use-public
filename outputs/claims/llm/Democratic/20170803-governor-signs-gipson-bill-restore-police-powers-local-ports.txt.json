@@ -1,0 +1,13 @@
+{
+  "press_release": "20170803-governor-signs-gipson-bill-restore-police-powers-local-ports.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- Governor Jerry Brown signed Assembly Bill (AB) 585 by Assemblymember Mike A. Gipson (D – Carson) which seeks to ensure that local port security officers are a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 585 allows local port security officers to carry batons when performing their security duties.\",\n    \"The legislation clarifies the authority of the chief of a port to deputize and train security officers, including the right to possess appropriate weaponry",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 585 allows local port security officers to carry batons when performing their security duties.\",\n    \"The legislation clarifies the authority of the chief of a port to deputize and train security officers, including the right to possess appropriate weaponry.\",\n    \"Currently, police security officers cannot arrest a person without a warrant or carry weapons for public safety.\",\n    \"The Los Angeles City Attorney determined that the chief of the Los Angeles Port Police does not have the authority to deputize security officers to carry batons due to an interpretation of the law.\",\n    \"AB 585 provides authorization for the Port’s Chief of Police to issue safety equipment, such as batons, to Los Angeles Port Police Security Officers.\",\n    \"The legislation is intended to assist in keeping the Port of Los Angeles, the nation’s busiest container port, safe and secure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6714ffa7aedfc244c6b5f1829265e11558edea42"
+}

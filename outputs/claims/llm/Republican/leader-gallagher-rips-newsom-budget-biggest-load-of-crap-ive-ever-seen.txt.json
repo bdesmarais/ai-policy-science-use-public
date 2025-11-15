@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-gallagher-rips-newsom-budget-biggest-load-of-crap-ive-ever-seen.txt",
+  "party": "Republican",
+  "title": "Newsom wants a scapegoat. The Legislative Analyst’s Office warned him. The crisis is his.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is facing a $12 billion deficit.\",\n    \"Under Governor Newsom, state spending has grown by tens of billions of dollars.\",\n    \"Outcomes in public safety, education, and affordability have declined under Governor Newsom's leadership.\",\n    \"The May Revision of ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is facing a $12 billion deficit.\",\n    \"Under Governor Newsom, state spending has grown by tens of billions of dollars.\",\n    \"Outcomes in public safety, education, and affordability have declined under Governor Newsom's leadership.\",\n    \"The May Revision of the budget relies on accounting tricks, reserve raids, and delayed payments.\",\n    \"Californians are paying more and getting less under the current budget.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb4aeb669d95e5b23c57c867470f1b0bf1abd0d7"
+}

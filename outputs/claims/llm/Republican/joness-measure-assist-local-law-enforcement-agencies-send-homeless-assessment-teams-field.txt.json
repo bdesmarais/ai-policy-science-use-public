@@ -1,0 +1,13 @@
+{
+  "press_release": "joness-measure-assist-local-law-enforcement-agencies-send-homeless-assessment-teams-field.txt",
+  "party": "Republican",
+  "title": "Legislation by Senator Brian W. Jones (R-Santee) to assist law enforcement agencies with addressing the homeless problem was approved today on a bipartisan vote by the Senate Publi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:55:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1006 will provide local law enforcement agencies with grants to send homeless assessment teams into the field.\",\n    \"Local homeless assessment teams will be composed of a law enforcement officer, a mental health professional, a medical services professional,",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1006 will provide local law enforcement agencies with grants to send homeless assessment teams into the field.\",\n    \"Local homeless assessment teams will be composed of a law enforcement officer, a mental health professional, a medical services professional, and a representative of the county welfare department.\",\n    \"Mental health and medical services team members can be volunteers associated with a nonprofit or graduate students in the appropriate field of study.\",\n    \"The wrap-around approach is based on discussions with law enforcement officers, mental health professionals, local government officials, representatives of nonprofits, and medical personnel.\",\n    \"The unique approach of assessing the particular medical needs of homeless individuals has the potential to link them with appropriate health and housing agencies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2fd2aadafb349446ede2b31b1580c80d69f27ac3"
+}

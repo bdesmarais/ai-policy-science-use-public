@@ -1,0 +1,13 @@
+{
+  "press_release": "20240221-state-facing-budget-deficit-buildstrong-california-welcomes-new-wildfire.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Legislation has been introduced in California that would require more accountability and transparency on tax dollars invested into wildfire and forest resilience programs.\",\n    \"The bill AB 2344 directs the state Wildfire and Forest Resilience Task Force to make publicl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Legislation has been introduced in California that would require more accountability and transparency on tax dollars invested into wildfire and forest resilience programs.\",\n    \"The bill AB 2344 directs the state Wildfire and Forest Resilience Task Force to make publicly available online data and information on wildfire projects and expenditures.\",\n    \"California has spent billions in state and federal dollars on developing and implementing wildfire and forest mitigation programs and strategies.\",\n    \"The introduction of the new bill aims to address the confusion and lack of clarity regarding the status of wildfire programs and expenditures.\",\n    \"California's investment into wildfire mitigation and resilience is critical to saving lives and livelihoods.\",\n    \"The historic investment in wildfire mitigation during a budget shortfall demands the highest levels of accountability.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c2b1617f75b9645556338ee8eb9dd08aa3774932"
+}

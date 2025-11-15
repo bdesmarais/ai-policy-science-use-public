@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-introduces-e-bike-safety-legislation.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The introduced legislation addresses public safety concerns over e-bikes.\",\n    \"The legislation aims to ensure safe enjoyment for e-bike riders, car drivers, and pedestrians.\",\n    \"AB 1773 will allow local jurisdictions more control over rules and regulations regarding",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The introduced legislation addresses public safety concerns over e-bikes.\",\n    \"The legislation aims to ensure safe enjoyment for e-bike riders, car drivers, and pedestrians.\",\n    \"AB 1773 will allow local jurisdictions more control over rules and regulations regarding e-bikes on beach boardwalks.\",\n    \"AB 1774 focuses on limiting the high speeds of e-bikes by prohibiting the sale of devices that can modify their speed capability.\",\n    \"The bills do not ban e-bikes but address key concerns related to local control and e-bike speed.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2d2b8daf6f860bd616057de9ea0e0eb2e883c903"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-education-committee-unanimously-passes-bipartisan-bill-to-limit-smartphone-use-in-schools.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – On Wednesday evening the Assembly Education Committee unanimously passed landmark legislation authored by Assemblymembers Josh Hoover (R-Folsom) and Al Muratsuchi (D-T",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:38:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Research continues to demonstrate the potential harms of smartphone use among children.\",\n    \"The growing use of smartphones can contribute to lower test scores, anxiety, depression, and even suicide among children.\",\n    \"When smartphones were removed from classrooms, ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Research continues to demonstrate the potential harms of smartphone use among children.\",\n    \"The growing use of smartphones can contribute to lower test scores, anxiety, depression, and even suicide among children.\",\n    \"When smartphones were removed from classrooms, standardized test scores increased by an average of six percent.\",\n    \"There is a significant increase in anxiety, depression, and cyberbullying associated with excessive smartphone use among teenagers.\",\n    \"Grades suffer when learning is disrupted as a result of smartphone distractions in the classroom.\",\n    \"Up to 15% of teenagers engage in 'problematic social media use,' which includes symptoms such as preoccupation and withdrawal symptoms.\",\n    \"American teenagers spend around 5 hours per day on social media platforms.\",\n    \"Since 2010, there has been a 70% increase in the number of high school seniors expressing that 'life often feels meaningless.'\",\n    \"Rates of anxiety, depression, and suicide are on the rise among young people.\",\n    \"Poor mental health outcomes and smartphone use are most strongly correlated in kids under the age of 14.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "acc9bc22774525bd1d3895572f73057f8ff6d5f0"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-requests-santa-clara-county-be-included-presidential-disaster-declaration.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) is requesting that Santa Clara County be included in the Presidential Major Disaster Declaration issued in response to the deadly storms that have",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2030091fbda5cff6605020ed346381921b01a86f"
+}

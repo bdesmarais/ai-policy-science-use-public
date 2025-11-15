@@ -1,0 +1,13 @@
+{
+  "press_release": "statement-senator-monique-limon-shocking-violence-against-minnesota-lawmakers.txt",
+  "party": "Democratic",
+  "title": "SANTA BARBARA - Senator Monique Limón released the following statement on the violent political attacks in Minnesota.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:35:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e21ffa3d916a38c012d2f16b42da910782f966d5"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "state-senator-josh-becker-urges-using-historic-surplus-end-generational-poverty.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:34:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has a historic $75 billion surplus, three times what was projected just four months ago.\",\n    \"A proposed Baby Bond program would put money into a publicly funded trust account for every child at birth, with more allocated for lower-income families.\",\n    \"An",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has a historic $75 billion surplus, three times what was projected just four months ago.\",\n    \"A proposed Baby Bond program would put money into a publicly funded trust account for every child at birth, with more allocated for lower-income families.\",\n    \"An analysis by Naomi Zewde at CUNY indicates that the Baby Bond proposal can dramatically reduce wealth disparities.\",\n    \"Investing in early childhood education is described as a smart investment for kids, families, and communities.\",\n    \"Policies that support asset-building, such as matched savings accounts, can help break generational poverty.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "56f3a2418f04a01a4e937723d5c72026a642f53a"
+}

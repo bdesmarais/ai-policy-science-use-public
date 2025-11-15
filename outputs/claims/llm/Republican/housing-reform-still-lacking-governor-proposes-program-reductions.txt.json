@@ -1,0 +1,13 @@
+{
+  "press_release": "housing-reform-still-lacking-governor-proposes-program-reductions.txt",
+  "party": "Republican",
+  "title": "Budget Subcommmittee #1 Education",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The state previously authorized $500 million in up-front cash to build a joint UCLA-corporate research complex.\",\n    \"The state’s cost for the medical school at UC Merced would be only $243 million.\",\n    \"Budget allocations show a disparity between funding for medical ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The state previously authorized $500 million in up-front cash to build a joint UCLA-corporate research complex.\",\n    \"The state’s cost for the medical school at UC Merced would be only $243 million.\",\n    \"Budget allocations show a disparity between funding for medical education and corporate research partnerships.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "18cce218a5a09b5985ba3eebf74f8ee54579de94"
+}

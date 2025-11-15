@@ -1,0 +1,13 @@
+{
+  "press_release": "20170517-edegeideg-i-ie-i-12-iedeg-e3ice.txt",
+  "party": "Democratic",
+  "title": "Korea Times",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Artificial intelligence could lead to a significant advancement in understanding complex systems.\",\n    \"Emerging technologies are expected to transform content creation and consumption.\",\n    \"The use of AI in various industries promises enhanced efficiency and producti",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Artificial intelligence could lead to a significant advancement in understanding complex systems.\",\n    \"Emerging technologies are expected to transform content creation and consumption.\",\n    \"The use of AI in various industries promises enhanced efficiency and productivity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a87f8483f24f118f5264bd1de5ba7e343ebab0e"
+}

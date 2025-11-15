@@ -1,0 +1,13 @@
+{
+  "press_release": "20200513-assembly-panel-approves-ramos-bill-boost-native-american-voter.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Helping Native Americans gain greater access to the electoral process would be the mission of a Secretary of State advisory committee under a measure approved today in t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Native Americans were denied American citizenship and voting rights until the 20th Century.\",\n    \"Voter turnout among Native Americans is five to 14 percent lower than that of other ethnic or racial groups.\",\n    \"Full voting rights for Native Americans were not guarant",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Native Americans were denied American citizenship and voting rights until the 20th Century.\",\n    \"Voter turnout among Native Americans is five to 14 percent lower than that of other ethnic or racial groups.\",\n    \"Full voting rights for Native Americans were not guaranteed even after the Indian Citizenship Act of 1924.\",\n    \"Arizona and New Mexico barred Native Americans from voting until 1948.\",\n    \"Many Native Americans faced the same barriers to voting as African Americans and other minorities, including poll taxes, literacy tests, and intimidation.\",\n    \"Many Native Americans only possessed tribal identification, which was not recognized for voting purposes.\",\n    \"Obstacles like a lack of polling places and the rejection of certain types of identification continue to deny Native Americans the right to vote.\",\n    \"California's nearly three quarters of a million Native Americans deserve to have their voices heard in the democratic process.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "08de271ec7b7f60d7cc4eebf353788229f5bdcc1"
+}

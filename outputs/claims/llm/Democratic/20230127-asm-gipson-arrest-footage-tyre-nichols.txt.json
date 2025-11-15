@@ -1,0 +1,13 @@
+{
+  "press_release": "20230127-asm-gipson-arrest-footage-tyre-nichols.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA (January 27, 2023) --- Assemblymember Mike A. Gipson, chair of the California Assembly Democratic Caucus, responds to the arrest footage of Tyre Nichols.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:52:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "20c38fbec0feda1b9ca033d885018f20274824a9"
+}

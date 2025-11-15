@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-bill-relieve-supply-chain-crunch-californias-ports-was-voted-down.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) announced her bill SB 1356, was voted down in the Senate Transportation Committee with a vote of 3-5. SB 1356 would have increased the maximum",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's ports have experienced increased year-over-year levels of cargo volume.\",\n    \"The COVID-19 pandemic has dramatically impacted the goods movement system in California and across the nation.\",\n    \"The COVID-19 pandemic has highlighted the fragility of the go",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's ports have experienced increased year-over-year levels of cargo volume.\",\n    \"The COVID-19 pandemic has dramatically impacted the goods movement system in California and across the nation.\",\n    \"The COVID-19 pandemic has highlighted the fragility of the goods movement sector and the supply chain.\",\n    \"The Ports of Los Angeles and Long Beach have been handling an unprecedented number of ships arriving at the same time.\",\n    \"Disruptions in transportation and warehouse availability have slowed the offloading of containers and contributed to a backlog.\",\n    \"Trucks have been temporarily allowed to carry heavier loads of up to 88,000 pounds on State Highway and Interstate routes between key ports in California.\",\n    \"SB 1356 would have permanently allowed fuel haulers to carry heavier loads, reducing emissions and alleviating congestion on the road.\",\n    \"Allowing fuel haulers to transport more fuel could aid firefighters battling wildfires in California.\",\n    \"Certain vehicles transporting logs or cotton module movers have exemptions to exceed the maximum pound limit.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "075334eb57cb9ddfa265b0d2a7e153d797d7ee08"
+}

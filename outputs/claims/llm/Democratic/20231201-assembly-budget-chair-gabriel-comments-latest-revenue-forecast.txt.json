@@ -1,0 +1,13 @@
+{
+  "press_release": "20231201-assembly-budget-chair-gabriel-comments-latest-revenue-forecast.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "170e1105192a090e81e441a567e93b49fd2eecc6"
+}

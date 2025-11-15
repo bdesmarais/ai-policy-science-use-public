@@ -1,0 +1,64 @@
+{
+  "press_release": "20230615-ramos-applauds-supreme-court-decision-upholding-native-american-rights.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Assemblymember James C. Ramos (D-San Bernardino), the state’s first and only California Native American elected to the legislature, today joined in applauding the Suprem",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Supreme Court upheld the 1978 Indian Child Welfare Act (ICWA), a first-ever reverse assimilation policy.\"\n    },\n    {\n      \"claim_text\": \"Approximately a third of Native children were removed from their parents, with upward of 85 percent place",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Supreme Court upheld the 1978 Indian Child Welfare Act (ICWA), a first-ever reverse assimilation policy.\"\n    },\n    {\n      \"claim_text\": \"Approximately a third of Native children were removed from their parents, with upward of 85 percent placed in non-Native homes.\"\n    },\n    {\n      \"claim_text\": \"The Supreme Court's ruling honors the spirit of cultural preservation for Native American children.\"\n    },\n    {\n      \"claim_text\": \"The state of California has a long history of poor treatment towards Native Americans.\"\n    },\n    {\n      \"claim_text\": \"California is home to the largest population of Native Americans in the United States.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The Supreme Court upheld the 1978 Indian Child Welfare Act (ICWA), a first-ever reverse assimilation policy.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Approximately a third of Native children were removed from their parents, with upward of 85 percent placed in non-Native homes.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Supreme Court's ruling honors the spirit of cultural preservation for Native American children.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The state of California has a long history of poor treatment towards Native Americans.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California is home to the largest population of Native Americans in the United States.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "3a96fdbf131d4022a26e90177332cbd45b10ad11"
+}

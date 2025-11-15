@@ -1,0 +1,13 @@
+{
+  "press_release": "release-assemblymember-davies-introduces-measure-to-bolster-states-apps-program.txt",
+  "party": "Republican",
+  "title": "Sacramento – Today, Assemblymember Laurie Davies (R-Laguna Niguel) issued the following statement following the introduction of her bill AB 303: “The recent tragedies in both Monte",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's Armed Prohibited Persons System (APPS) should be used by local law enforcement agencies to prevent unfit individuals from possessing firearms.\",\n    \"There have been reports of little to no communication between the California Department of Justice (DOJ) and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's Armed Prohibited Persons System (APPS) should be used by local law enforcement agencies to prevent unfit individuals from possessing firearms.\",\n    \"There have been reports of little to no communication between the California Department of Justice (DOJ) and local law enforcement officials regarding the APPS database.\",\n    \"Over 150 agencies reported they never received investigative reports or notes from the DOJ about individuals on the APPS database.\",\n    \"The DOJ has reported a backlog of over 24,000 people in the APPS system.\",\n    \"Sharing information and investigative reports with all law enforcement agencies will make Californians safer.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5a602e7252b60998edf3c0929e880351ce9ec3a0"
+}

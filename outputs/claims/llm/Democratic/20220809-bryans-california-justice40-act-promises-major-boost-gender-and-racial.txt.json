@@ -1,0 +1,13 @@
+{
+  "press_release": "20220809-bryans-california-justice40-act-promises-major-boost-gender-and-racial.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA — A",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Californians can expect significant advancements in gender and racial equity under AB 2419.\",\n    \"AB 2419 directs 40% of federal Infrastructure funding to disadvantaged and low-income communities.\",\n    \"The Gender Equity Policy Institute found that 6 in 10 Californians",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Californians can expect significant advancements in gender and racial equity under AB 2419.\",\n    \"AB 2419 directs 40% of federal Infrastructure funding to disadvantaged and low-income communities.\",\n    \"The Gender Equity Policy Institute found that 6 in 10 Californians live in communities prioritized for infrastructure investment under AB 2419.\",\n    \"In rural Central Valley and northern California Counties, more than 7 in 10 residents live in communities targeted for investment under AB 2419.\",\n    \"Nearly 60% of all Californians live in low-income and disadvantaged communities that are disproportionately Black, Brown, and Indigenous.\",\n    \"The California Justice40 Act aims to create economic opportunities and uplift historically silenced voices in decision-making processes.\",\n    \"Nearly 75% of residents in low-income and disadvantaged communities are Black, Latino, Asian American, or Native American.\",\n    \"Women of color are overrepresented in low-income and disadvantaged communities, with 72% of all Black female and 77% of all Latina Californians living in these areas.\",\n    \"The Justice40 Committee will include environmental justice, labor, and community representatives to guide California's infrastructure investments.\",\n    \"California will receive at least $45 billion in infrastructure funds through the federal Infrastructure Investment and Jobs Act.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ade13331b4018a5f02fd7a44daf19555dcaa9ace"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "republican-senator-alvarado-gils-landmark-sb-268-signed-law-victory-victims-rights.txt",
+  "party": "Republican",
+  "title": "Today, Governor Newsom signed Senate Bill 268 into law, marking a monumental step forward in the fight for victims’ rights. Authored by Republican Senator Marie Alvarado-Gil ( R-Ja",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 268 officially classifies the rape of an unconscious or intoxicated person as a violent felony.\",\n    \"Prosecutors could only charge perpetrators who raped an unconscious person as a misdemeanor before Senate Bill 268.\",\n    \"Senate Bill 268 ensures that perp",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 268 officially classifies the rape of an unconscious or intoxicated person as a violent felony.\",\n    \"Prosecutors could only charge perpetrators who raped an unconscious person as a misdemeanor before Senate Bill 268.\",\n    \"Senate Bill 268 ensures that perpetrators of rape against unconscious individuals are held accountable and charged with a felony.\",\n    \"Rape of an unconscious person is being treated as a lesser offense by the legal system without Senate Bill 268.\",\n    \"SB 268 is viewed as a major advancement in public safety by law enforcement leaders across California.\",\n    \"The intentional drugging and rape of a person was not considered a violent crime until the passage of Senate Bill 268.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ad6d01a7fceee7ae93408d8fdbefe7c3ffc46e04"
+}

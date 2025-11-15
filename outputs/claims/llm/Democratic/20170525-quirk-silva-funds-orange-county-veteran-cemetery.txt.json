@@ -1,0 +1,13 @@
+{
+  "press_release": "20170525-quirk-silva-funds-orange-county-veteran-cemetery.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO â Prior to the start of Memorial Day weekend, Assemblywoman Sharon Quirk-Silva (D-Fullerton) made the following statement on the inclusion of a $30 million allocation ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c6f11bafde9feae9aacc64d9a72c0381b8572355"
+}

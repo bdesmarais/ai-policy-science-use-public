@@ -1,0 +1,13 @@
+{
+  "press_release": "20200831-ramos-bill-create-first-statewide-office-suicide-prevention-heads-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –As calls to crisis hotlines spike and mental health professionals express increasing concerns about the mental health impact of COVID-19, the Legislature today sent a b",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:18:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"More than 40 percent of adults reported that COVID-19 created mental stress in their lives.\",\n    \"11 percent of adults said they had seriously considered suicide in the last 30 days due to COVID-19.\",\n    \"Youth are particularly vulnerable, with suicide being the second",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"More than 40 percent of adults reported that COVID-19 created mental stress in their lives.\",\n    \"11 percent of adults said they had seriously considered suicide in the last 30 days due to COVID-19.\",\n    \"Youth are particularly vulnerable, with suicide being the second leading cause of death among individuals aged 15 to 24.\",\n    \"One in six high school students stated they seriously considered ending their lives, and more than one in 12 reported attempted suicides.\",\n    \"In 2014, 3,575 children aged five to 20 in California were hospitalized for non-fatal self-inflicted injuries.\",\n    \"Establishing state-level leadership to support local efforts for long-term reductions in death by suicide is a key recommendation in the State’s strategic plan for suicide prevention.\",\n    \"Youth engagement is critical in addressing the suicide crisis, particularly among tribal groups.\",\n    \"A statewide office of suicide prevention can help monitor and respond to dangerous trends and spikes in suicide rates.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc1b9c4299df2c2bbc5c70bdfb758260037eb6e7"
+}

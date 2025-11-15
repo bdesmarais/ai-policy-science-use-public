@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-resolution-condemning-trump-shooting-political-violence-passes-assembly-unanimously.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, the California State Assembly unanimously passed HR 116, a resolution condemning political violence and the assassination attempt on former President Donald Tru",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "703beb69c1870c68d2ba67c64c5c23bf928cbd02"
+}

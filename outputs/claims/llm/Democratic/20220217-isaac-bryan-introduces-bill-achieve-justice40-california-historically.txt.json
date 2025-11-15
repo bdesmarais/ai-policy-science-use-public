@@ -1,0 +1,13 @@
+{
+  "press_release": "20220217-isaac-bryan-introduces-bill-achieve-justice40-california-historically.txt",
+  "party": "Democratic",
+  "title": "AB 2419 would invest 40 percent of federal climate and infrastructure funding to low-income, Indigenous, and rural communities and communities of color",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:39:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2419 aims to invest at least 40 percent of federal climate and infrastructure funding into historically neglected communities.\",\n    \"The Justice40 Initiative was established to ensure federal tax dollars are directed towards communities lacking access to safe infrast",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2419 aims to invest at least 40 percent of federal climate and infrastructure funding into historically neglected communities.\",\n    \"The Justice40 Initiative was established to ensure federal tax dollars are directed towards communities lacking access to safe infrastructure.\",\n    \"California is slated to receive $45.5 billion from the federal Infrastructure Investment and Jobs Act over the next five years.\",\n    \"The Infrastructure Investment and Jobs Act funding includes $29.5 billion for highways and bridges.\",\n    \"Low-income communities of color are disproportionately exposed to polluted air.\",\n    \"More than 370,000 Californians lack access to clean drinking water.\",\n    \"California Justice40 is intended to ensure federal funding supports communities most affected by the climate crisis.\",\n    \"Historical disinvestment in South LA has contributed to climate chaos and severe unemployment.\",\n    \"California has the opportunity to demonstrate how federal climate funding can create jobs and advance racial and economic justice.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3154c7a7f22e12ef57dca7982e48f478bcd7f41a"
+}

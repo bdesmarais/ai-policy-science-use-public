@@ -1,0 +1,13 @@
+{
+  "press_release": "20240521-legislation-expand-coastal-housing-access-california-and-eliminate-barriers.txt",
+  "party": "Democratic",
+  "title": "(Sacramento) Yesterday, the State Assembly approved Assembly Bill 2560 and Assembly Bill 1886, authored by Assemblymember David Alvarez (D-San Diego). AB 2560 would eliminate the e",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:42:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2560 eliminates the exemption of the Coastal Zone from the state's Housing Density Bonus Law.\",\n    \"AB 2560 aims to enable areas already zoned for housing to construct additional units in exchange for reserving a percentage for moderate, low, and very-low ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2560 eliminates the exemption of the Coastal Zone from the state's Housing Density Bonus Law.\",\n    \"AB 2560 aims to enable areas already zoned for housing to construct additional units in exchange for reserving a percentage for moderate, low, and very-low income households.\",\n    \"Eight out of ten least-affordable major metropolitan areas in the nation were in California, seven of which were along the coast, making median-priced homes unaffordable to fewer than one in four households.\",\n    \"The Builder's Remedy was added to the Housing Accountability Act in 1990 to discourage cities from failing to meet the housing needs of their residents.\",\n    \"For thirty years, the use of the Builder's Remedy has been infrequent.\",\n    \"The Builder’s Remedy allows homebuilders to move their housing projects with less red tape, such as discretionary actions by local governments.\",\n    \"Housing projects under the Builder's Remedy must include 20% of affordable housing units.\",\n    \"Various cities are refusing to process the Builder's Remedy applications due to a lack of clarity in the law that has led to legal battles.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f9680109b4a0aeb8627f8ccca4f0eabb39796b17"
+}

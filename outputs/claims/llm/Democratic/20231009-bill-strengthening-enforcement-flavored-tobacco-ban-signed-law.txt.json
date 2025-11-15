@@ -1,0 +1,13 @@
+{
+  "press_release": "20231009-bill-strengthening-enforcement-flavored-tobacco-ban-signed-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:10:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of Health is explicitly authorized to enforce the flavored tobacco ban pursuant to the Stop Tobacco Access to Kids Enforcement (STAKE) Act.\",\n    \"The enforcement of the flavored tobacco ban is intended to prevent teenagers from gaining access t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of Health is explicitly authorized to enforce the flavored tobacco ban pursuant to the Stop Tobacco Access to Kids Enforcement (STAKE) Act.\",\n    \"The enforcement of the flavored tobacco ban is intended to prevent teenagers from gaining access to addictive products.\",\n    \"Passing AB 935 is an important step to protect public health.\",\n    \"The availability of flavored tobacco persists as a public health issue due to inadequate enforcement of the existing law.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ceee07e7933e3a0216a0180d7f9fa8c52317a09b"
+}

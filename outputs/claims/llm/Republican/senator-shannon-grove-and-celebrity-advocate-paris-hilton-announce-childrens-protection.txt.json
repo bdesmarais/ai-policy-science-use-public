@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-shannon-grove-and-celebrity-advocate-paris-hilton-announce-childrens-protection.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove ( R-Bakersfield ) and Paris Hilton have announced their bipartisan measure, SB 1043 , the Accountability in Children’s Treatment (ACT) measure, sponsored by H",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:15:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Accountability in Children’s Treatment (ACT) measure proposes greater transparency for children and young adults living in facilities licensed by the California Department of Social Services (CDSS).\",\n    \"The ACT measure requires information related to the use of re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Accountability in Children’s Treatment (ACT) measure proposes greater transparency for children and young adults living in facilities licensed by the California Department of Social Services (CDSS).\",\n    \"The ACT measure requires information related to the use of restraints and seclusion rooms to be accessible to the public.\",\n    \"Numerous reports and incidents of abuse have been documented at out-of-state facilities where California sent children for treatment.\",\n    \"AB 808 was introduced to eliminate the placement of foster youth in out-of-state treatment facilities.\",\n    \"California's budget bill, AB 153, decertified out-of-state facilities and required all California youth to return by January 1, 2023.\",\n    \"Governor Newsom allocated $8 million to bring home remaining youth from out-of-state treatment facilities and recruit foster families.\",\n    \"Short Term Residential Therapeutic Programs (STRTPs) serve as an alternative to out-of-state treatment facilities.\",\n    \"The use of seclusion rooms and restraints on minors still occurs at STRTPs, which requires reporting to CDSS.\",\n    \"SB 1043 will require the reporting of key data including the use of seclusion rooms and restraints to be displayed on a public dashboard on the California Department of Social Services website.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "de41865c9671250515166f905b58325d314f8c7f"
+}

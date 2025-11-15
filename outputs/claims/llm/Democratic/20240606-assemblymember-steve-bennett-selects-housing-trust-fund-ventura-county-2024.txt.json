@@ -1,0 +1,13 @@
+{
+  "press_release": "20240606-assemblymember-steve-bennett-selects-housing-trust-fund-ventura-county-2024.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) – Assemblymember Steve Bennett (D-Ventura) honors Camarillo-based nonprofit Housing Trust Fund Ventura County as the 2024 California Nonprofit of the Year for Asse",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:44:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4411a83788ec8ea2c3c8af44d60a711c302fd466"
+}

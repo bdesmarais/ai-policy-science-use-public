@@ -1,0 +1,13 @@
+{
+  "press_release": "20240927-governor-newsom-signs-new-law-hold-corporations-accountable-fund-essential.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Victims of Crime Act will increase financial penalties for corporations convicted of criminal wrongdoing.\",\n    \"The California Victims of Crime Act establishes a permanent funding source known as the California Crime Victims Fund.\",\n    \"The new Californi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Victims of Crime Act will increase financial penalties for corporations convicted of criminal wrongdoing.\",\n    \"The California Victims of Crime Act establishes a permanent funding source known as the California Crime Victims Fund.\",\n    \"The new California Crime Victims Fund prioritizes support for victims of crime for the long haul.\",\n    \"AB 2432 increases the maximum criminal fines that could be imposed on a corporation to twice the amount taken from victims.\",\n    \"Restitution fines for corporations could be increased to $100,000 from $10,000 under AB 2432.\",\n    \"AB 2432 would lead to more just outcomes in cases involving corporate wrongdoing, such as the 2015 Refugio Oil Spill.\",\n    \"The misconduct by Plains All American Pipeline is estimated to have caused over $200 million in damages in the 2015 Refugio Oil Spill.\",\n    \"The increased corporate criminal penalties from AB 2432 will be used to help fund crime victim service organizations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f8c5679f1420ff28c63b1489c682f490d28e06b"
+}

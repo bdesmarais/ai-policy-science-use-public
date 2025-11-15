@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-choi-recognizes-his-37th-senate-district-woman-year-and-women-distinction-throughout.txt",
+  "party": "Republican",
+  "title": "In honor of Women’s History Month, Senator Steven Choi (R- Irvine), recognized the remarkable contributions of Doris Cortes from Aliso Viejo for Woman of the Year from the 37 th Se",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "999f1016e30f4ad0e679cc909be838d93a543e0e"
+}

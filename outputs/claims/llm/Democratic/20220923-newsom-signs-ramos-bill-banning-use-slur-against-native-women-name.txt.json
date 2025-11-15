@@ -1,0 +1,13 @@
+{
+  "press_release": "20220923-newsom-signs-ramos-bill-banning-use-slur-against-native-women-name.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Gov. Newsom today signed a proposal to prohibit the use of the word “squaw” (S-word) for geographic features and place names in California by January 1, 2024. The measur",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:48:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The use of the word 'squaw' is prohibited for geographic features and place names in California by January 1, 2024.\",\n    \"AB 2022 aims to ban the S-word and establish a process for renaming locations that contain it.\",\n    \"The term 'squaw' has historically been used as",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The use of the word 'squaw' is prohibited for geographic features and place names in California by January 1, 2024.\",\n    \"AB 2022 aims to ban the S-word and establish a process for renaming locations that contain it.\",\n    \"The term 'squaw' has historically been used as a derogatory word for Native American women.\",\n    \"More than 100 places in California contain the S-word.\",\n    \"The U.S. Department of the Interior renamed about 650 sites using the S-word on federal lands earlier this month.\",\n    \"Montana, Oregon, Maine, and Minnesota have already banned the use of the S-word.\",\n    \"AB 2022 requires state and local governing bodies to identify all geographic sites that contain the S-word.\",\n    \"AB 1314 creates a 'Feather Alert' system to quickly assist in locating missing Native Americans under suspicious circumstances.\",\n    \"Native Americans face disproportionately high rates of missing and murdered individuals in their communities.\",\n    \"AB 1703 encourages engagement with local tribes to provide more accurate and complete education about their culture and history.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dc8d9aedf306c9cba41863c34edea00eff5f74c4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210707-informational-hearing-assembly-select-committee-cybersecurity-state.txt",
+  "party": "Democratic",
+  "title": "SUBJECT:  State Coordination and Critical Infrastructure Protection: Local Government and Utilities Critical Infrastructure Control Systems",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:30:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Recent high-profile cybersecurity incidents at local governments’ water treatment facilities have raised concerns about critical infrastructure protection.\",\n    \"Critical infrastructure includes a vast network of both private and public services necessary for daily",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Recent high-profile cybersecurity incidents at local governments’ water treatment facilities have raised concerns about critical infrastructure protection.\",\n    \"Critical infrastructure includes a vast network of both private and public services necessary for daily life.\",\n    \"Local governments and privately owned utilities face significant threats to their cybersecurity.\",\n    \"Standards and activities are being conducted to secure critical infrastructure in local governments and utilities.\",\n    \"Resources are being offered to local governments and utilities that provide essential services like water, gas, and electricity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c71c3735d7bc568d884c84131f6ded6eba92bdbe"
+}

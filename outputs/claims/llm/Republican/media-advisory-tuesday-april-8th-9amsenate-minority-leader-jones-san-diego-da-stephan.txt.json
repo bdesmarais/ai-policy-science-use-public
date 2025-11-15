@@ -1,0 +1,13 @@
+{
+  "press_release": "media-advisory-tuesday-april-8th-9amsenate-minority-leader-jones-san-diego-da-stephan.txt",
+  "party": "Republican",
+  "title": "Who?",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 286, named 'Mary-Bella’s Law,' aims to close a loophole in California's Elderly Parole program that permits early release for violent sex offenders and murderers.\",\n    \"The current Elderly Parole program was expanded by Assembly Bill 3234, which lowered the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 286, named 'Mary-Bella’s Law,' aims to close a loophole in California's Elderly Parole program that permits early release for violent sex offenders and murderers.\",\n    \"The current Elderly Parole program was expanded by Assembly Bill 3234, which lowered the age threshold for eligibility from 60 years to 50 years.\",\n    \"A loophole in Assembly Bill 3234 allows violent sex offenders to be eligible for elderly parole after serving only 20 years.\",\n    \"Proponents of Assembly Bill 3234 claimed that sex offenders and rapists would not be eligible for Elderly Parole, but this provision was not included in the final law.\",\n    \"Since the expansion of the Elderly Parole program, multiple child molesters have become eligible for early release.\",\n    \"Victims and their families have been forced to relive trauma while fighting to keep their perpetrators behind bars due to the loopholes in the Elderly Parole program.\",\n    \"A petition in support of Senate Bill 286 has received almost 1,300 signatures statewide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8352c120858b32537ce4d3898c20d32a0099a541"
+}

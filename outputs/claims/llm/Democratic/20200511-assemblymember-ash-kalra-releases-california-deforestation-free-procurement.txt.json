@@ -1,0 +1,13 @@
+{
+  "press_release": "20200511-assemblymember-ash-kalra-releases-california-deforestation-free-procurement.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Ash Kalra (D-San Jose) released a statement today on Assembly Bill (AB) 2002, the California Deforestation-Free Procurement Act, which will not be set f",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The destruction of biodiversity is a major source of emerging infectious diseases.\",\n    \"Human consumption of wildlife can lead to zoonotic transmission of viruses from animals to humans.\",\n    \"Deforestation exacerbates the transmission of viruses from animals to ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The destruction of biodiversity is a major source of emerging infectious diseases.\",\n    \"Human consumption of wildlife can lead to zoonotic transmission of viruses from animals to humans.\",\n    \"Deforestation exacerbates the transmission of viruses from animals to humans.\",\n    \"Deforestation is decimating animal populations and wreaking havoc on life-saving ecosystems.\",\n    \"There are an estimated 400-700 Sumatran tigers and 75 Sumatran rhinos left in the wild, with their populations declining due to deforestation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d59eb742b628843c8ac70f4e5f92c28dde7de09d"
+}

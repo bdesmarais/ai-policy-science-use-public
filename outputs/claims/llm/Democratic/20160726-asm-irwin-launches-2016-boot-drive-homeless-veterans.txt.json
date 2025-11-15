@@ -1,0 +1,13 @@
+{
+  "press_release": "20160726-asm-irwin-launches-2016-boot-drive-homeless-veterans.txt",
+  "party": "Democratic",
+  "title": "Boot Drive will be part of the Ventura County Stand Down  event",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e673ee672cf63ee7bc81af9238c35378d3b40c26"
+}

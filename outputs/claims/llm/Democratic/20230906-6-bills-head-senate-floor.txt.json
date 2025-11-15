@@ -1,0 +1,124 @@
+{
+  "press_release": "20230906-6-bills-head-senate-floor.txt",
+  "party": "Democratic",
+  "title": "Following a hearing by the Senate Appropriations Committee, six of Assemblymember Alex Lee’s legislation are headed to the Senate Floor.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:06:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Social housing developments in California will be spurred by AB 309.\"\n    },\n    {\n      \"claim_text\": \"Social housing is publicly backed, self-sustaining housing that accommodates a mix of household income ranges.\"\n    },\n    {\n      \"claim_text\": ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Social housing developments in California will be spurred by AB 309.\"\n    },\n    {\n      \"claim_text\": \"Social housing is publicly backed, self-sustaining housing that accommodates a mix of household income ranges.\"\n    },\n    {\n      \"claim_text\": \"Daylighting improves traffic safety by making it easier for everyone on the street to see oncoming traffic.\"\n    },\n    {\n      \"claim_text\": \"AB 413 aims to reduce traffic collisions by keeping 20 feet of an intersection or crosswalk’s approach side clear of stopped vehicles.\"\n    },\n    {\n      \"claim_text\": \"California’s pedestrian fatality rate is nearly 25% higher than the national average.\"\n    },\n    {\n      \"claim_text\": \"AB 652 will enable communities disproportionately impacted by pesticide exposure to participate in decision-making processes about pesticide use.\"\n    },\n    {\n      \"claim_text\": \"The Environmental Justice Advisory Committee in the Department of Pesticide Regulation will recommend ways to integrate environmental justice into policies and programs.\"\n    },\n    {\n      \"claim_text\": \"AB 664 will ensure that renters served solely by their wells have access to potable water in California.\"\n    },\n    {\n      \"claim_text\": \"Every person in California has the legal right to clean, safe, and affordable water.\"\n    },\n    {\n      \"claim_text\": \"AB 1490 will provide incentives to qualified affordable housing developments that repurpose existing buildings for housing.\"\n    },\n    {\n      \"claim_text\": \"Adaptive reuse is a faster and less expensive method of creating housing units.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Social housing developments in California will be spurred by AB 309.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Social housing is publicly backed, self-sustaining housing that accommodates a mix of household income ranges.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Daylighting improves traffic safety by making it easier for everyone on the street to see oncoming traffic.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 413 aims to reduce traffic collisions by keeping 20 feet of an intersection or crosswalk’s approach side clear of stopped vehicles.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California’s pedestrian fatality rate is nearly 25% higher than the national average.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 652 will enable communities disproportionately impacted by pesticide exposure to participate in decision-making processes about pesticide use.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Environmental Justice Advisory Committee in the Department of Pesticide Regulation will recommend ways to integrate environmental justice into policies and programs.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 664 will ensure that renters served solely by their wells have access to potable water in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Every person in California has the legal right to clean, safe, and affordable water.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 1490 will provide incentives to qualified affordable housing developments that repurpose existing buildings for housing.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Adaptive reuse is a faster and less expensive method of creating housing units.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 11,
+  "doc_sha1": "5f5782946cca413d6eafcc9e52ab2c50aebbac10"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240924-assemblymember-alvarez-responds-state-audit-community-college-transfer.txt",
+  "party": "Democratic",
+  "title": "(Sacramento) Today, the California State Auditor released an",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Only 1 in 5 community college students who began between 2017 and 2019 with the intention to transfer did so within four years.\",\n    \"Transfer rates were even lower for Black and Latino students.\",\n    \"Variation in transfer requirements across and within the three segm",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Only 1 in 5 community college students who began between 2017 and 2019 with the intention to transfer did so within four years.\",\n    \"Transfer rates were even lower for Black and Latino students.\",\n    \"Variation in transfer requirements across and within the three segments of higher education makes the process difficult for students to navigate.\",\n    \"The transfer process can benefit from improved data sharing between the three segments and increased oversight of counseling that is provided to students.\",\n    \"Colleges and universities must take significant steps to improve student success.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8883975ae5c2a513683eac7138682c165853ae0e"
+}

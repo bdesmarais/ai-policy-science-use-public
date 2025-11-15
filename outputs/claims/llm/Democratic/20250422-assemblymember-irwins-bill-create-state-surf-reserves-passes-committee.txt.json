@@ -1,0 +1,13 @@
+{
+  "press_release": "20250422-assemblymember-irwins-bill-create-state-surf-reserves-passes-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California aims to conserve 30% of its coastline by 2030.\",\n    \"The state has currently achieved 16.2% of its coastal waters under long-term conservation.\",\n    \"California's coastal surfing areas are threatened by climate change, coastal erosion, and pollution.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California aims to conserve 30% of its coastline by 2030.\",\n    \"The state has currently achieved 16.2% of its coastal waters under long-term conservation.\",\n    \"California's coastal surfing areas are threatened by climate change, coastal erosion, and pollution.\",\n    \"The 30x30 initiative seeks to conserve coastal waters through voluntary and collaborative actions.\",\n    \"The surfing industry in California generates over $6 billion annually.\",\n    \"California's coast attracts millions of visitors each year.\",\n    \"Surfing was designated as the official state sport of California in 2018.\",\n    \"The Save the Waves Coalition has a 20-year history in global surf conservation.\",\n    \"Unprecedented threats to California's surf breaks are mainly due to climate change.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bb26be48c5267d2538b4a86c8d67ecc667137cc6"
+}

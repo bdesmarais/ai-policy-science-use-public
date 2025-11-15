@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-padillas-statement-racist-comments-towards-san-diego-county-supervisor-monica.txt",
+  "party": "Democratic",
+  "title": "Body",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8dd0984b451c9c48b96fa8cad2c61eab3d38f633"
+}

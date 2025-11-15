@@ -1,0 +1,13 @@
+{
+  "press_release": "20220505-bill-expand-public-participation-and-access-government-meetings-heads.txt",
+  "party": "Democratic",
+  "title": "Yesterday, AB 1944 by Assemblymember Alex Lee (D-San José) passed out of the Local Government Committee and is now headed to the Assembly Floor. AB 1944 would allow remote particip",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Remote public participation for governments is possible and vital for individuals who are otherwise excluded from decision-making spaces.\",\n    \"The current legislation requires local elected officials who teleconference to make their private addresses publicly known and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Remote public participation for governments is possible and vital for individuals who are otherwise excluded from decision-making spaces.\",\n    \"The current legislation requires local elected officials who teleconference to make their private addresses publicly known and accessible.\",\n    \"AB 1944 would allow Brown Act bodies to vote to teleconference into meetings without revealing private addresses.\",\n    \"Livestreams of meetings are required whenever local elected officials teleconference into meetings to ensure public access.\",\n    \"Members of the public will be able to address their elected officials through call-in or video options as part of their participation in local government.\",\n    \"The bill aims to benefit individuals who traditionally face obstacles in interacting with local government, such as working families, low-income people, or people with disabilities.\",\n    \"Allowing members of a Brown Act body to teleconference without publishing private addresses could lead to reduced travel and childcare costs.\",\n    \"AB 1944 could increase member participation and diversify the potential board members and commissioners who are able to serve.\",\n    \"The bill aims to empower disabled Californians to run for public office without compromising their health or well-being.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f87274028bca938bced0c1da3b6bea8ae3f0a99d"
+}

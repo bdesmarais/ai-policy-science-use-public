@@ -1,0 +1,13 @@
+{
+  "press_release": "20210514-assemblywoman-quirk-silva-reflects-may-revise-booming-budget-proposal.txt",
+  "party": "Democratic",
+  "title": "Assemblywoman Quirk-Silva Reflects on May Revise Booming Budget Proposal",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:28:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's May Budget Revise includes a $12 billion plan to tackle homelessness, the largest investment of its kind in California history.\",\n    \"The $12 billion investment will provide housing placements for 65,000 people and housing stability for more than 300,0",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's May Budget Revise includes a $12 billion plan to tackle homelessness, the largest investment of its kind in California history.\",\n    \"The $12 billion investment will provide housing placements for 65,000 people and housing stability for more than 300,000 people.\",\n    \"The May Revise budget aims to create 46,000 new housing units.\",\n    \"The budget allocates $3.5 billion to address family homelessness with the goal of ending it within five years.\",\n    \"A major expansion of the Golden State Stimulus will provide direct payments to two-thirds of Californians making up to $75,000.\",\n    \"Qualified families with dependents, including undocumented families, will be eligible for an additional $500 under the expanded Golden State Stimulus.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d7b39a10a7481d87abd675f27286b376aeda17e7"
+}

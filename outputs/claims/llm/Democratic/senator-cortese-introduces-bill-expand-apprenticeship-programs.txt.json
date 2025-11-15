@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-introduces-bill-expand-apprenticeship-programs.txt",
+  "party": "Democratic",
+  "title": "Today, Senator Cortese (D-Silicon Valley), Chair of the Senate Labor, Public Employment and Retirement Committee, introduced SB 1004 to invest in and expand apprenticeship programs",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Apprenticeship programs help build our workforce through 'earn-and-learn' job training and in-classroom curriculum.\",\n    \"Apprenticeship programs are critical to training highly skilled workers.\",\n    \"Apprenticeship programs incorporate feedback from both business and ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Apprenticeship programs help build our workforce through 'earn-and-learn' job training and in-classroom curriculum.\",\n    \"Apprenticeship programs are critical to training highly skilled workers.\",\n    \"Apprenticeship programs incorporate feedback from both business and labor communities to build inclusive employee-employer relations.\",\n    \"In 2018, California set a goal of 500,000 apprentices by 2029.\",\n    \"Apprenticeship programs provide trainees with the most up-to-date training in the construction industry.\",\n    \"Apprenticeship programs lead to high-quality jobs that support middle-class families.\",\n    \"Adding a bid preference for apprenticeship will increase apprenticeship opportunities and support lifelong careers for aspiring construction workers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "82e0cf19ae712c1cf047da05e5e757bfc591d223"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20200724-gov-newsom-big-announcement-enacts-farmworker-protections-championed-robert.txt",
+  "party": "Democratic",
+  "title": "Newsom’s Efforts Focus on Provision of PPE, Housing, Worksite Enforcement, and Worker Education",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The COVID-19 Farmworker Relief Package is the first-in-the-nation initiative targeting farmworker protections during the pandemic.\",\n    \"The relief package aims to expand access to testing and personal protective equipment (PPE) for farmworkers.\",\n    \"The new housing p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The COVID-19 Farmworker Relief Package is the first-in-the-nation initiative targeting farmworker protections during the pandemic.\",\n    \"The relief package aims to expand access to testing and personal protective equipment (PPE) for farmworkers.\",\n    \"The new housing program, 'Housing for the Harvest,' allows sick or at-risk agricultural workers to isolate and quarantine safely.\",\n    \"There will be increased enforcement of workplace health and safety protocols for agricultural worksites.\",\n    \"A new education and outreach program will educate farmworkers on ways to reduce their risk for COVID-19.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4fb829d8a240c2aa4c1ee0dff0bdd33dcc8913c5"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "op-ed-why-are-californians-still-paying-so-much-pump.txt",
+  "party": "Republican",
+  "title": "If you’ve filled up your tank lately and felt a pit in your stomach, you’re not alone . As of April 18, 2025, the average price of gasoline in California is $4.85 per gallon —over ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The average price of gasoline in California is $4.85 per gallon as of April 18, 2025, which is over 52% higher than the national average of $3.16.\",\n    \"California's high gas prices are attributed to layered state policies and regulatory mandates.\",\n    \"Refineries in C",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The average price of gasoline in California is $4.85 per gallon as of April 18, 2025, which is over 52% higher than the national average of $3.16.\",\n    \"California's high gas prices are attributed to layered state policies and regulatory mandates.\",\n    \"Refineries in California produce a special fuel blend called CARBOB, which is more expensive and difficult to source from outside the state.\",\n    \"California's Cap and Trade fees and other state-imposed costs contribute to the overall price per gallon for consumers.\",\n    \"$1.64 of every gallon paid at the pump in California goes directly to taxes, fees, and state-imposed costs.\",\n    \"California now imports over 60% of its oil from foreign countries, a significant increase from just 5.6% in 1982.\",\n    \"Phillips 66 will close its Los Angeles refinery by the end of 2025, eliminating 8.13% of the state’s refining capacity.\",\n    \"California's policies and regulations are making it difficult for refineries to operate within the state.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "49899fba84b798cc1fd0cbf38480f7737063930d"
+}

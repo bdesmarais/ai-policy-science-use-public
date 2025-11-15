@@ -1,0 +1,13 @@
+{
+  "press_release": "20230526-addis-bill-justice-survivors-act-passes-state-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – A bill by Assemblymember Dawn Addis (D-Morro Bay) to end California's arbitrary civil statute of limitations for minors who have experienced sexual abuse was approved ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6a244ab83a654fe549441dcea4488ee92aec64c5"
+}

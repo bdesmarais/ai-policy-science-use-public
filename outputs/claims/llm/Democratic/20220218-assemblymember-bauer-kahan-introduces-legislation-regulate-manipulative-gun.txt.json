@@ -1,0 +1,13 @@
+{
+  "press_release": "20220218-assemblymember-bauer-kahan-introduces-legislation-regulate-manipulative-gun.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:39:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Gun violence has been cited as the third leading cause of death for Californian children and youth between ages 1-17.\",\n    \"Approximately 3 million children are directly exposed to gun violence each year at home, at school, in their communities, and social media.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Gun violence has been cited as the third leading cause of death for Californian children and youth between ages 1-17.\",\n    \"Approximately 3 million children are directly exposed to gun violence each year at home, at school, in their communities, and social media.\",\n    \"Exposure to gun violence has resulted in children's injuries, emotional trauma, and death.\",\n    \"The gun industry has targeted a younger audience through children's books, mascots, apparel, and guns adorned in cartoons and brightly colored logos to appeal specifically to children and youth.\",\n    \"Firearm companies have expanded to advertising on social media platforms to connect youth to their gun selling websites.\",\n    \"In 2021 alone there were approximately 259 unintentional shootings by children, resulting in 104 deaths and 168 injuries.\",\n    \"AB 2571 will limit the type of advertising and marketing geared towards children and youth.\",\n    \"Gun manufacturers have marketed products such as children's books about guns and special smaller weapons to make it easier for children to hold and shoot.\",\n    \"Governor Newsom criticized the marketing of the JR-15, modeled after an AR-15, to children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5e978096fc65659b05adec219a8b98229ee24eb7"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210408-release-bill-address-rampant-unemployment-insurance-fraud-passes-first.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – With broad support from law enforcement and prosecutors, legislation preventing fraudulent unemployment claims has passed out of the Assembly’s Consumer Privacy and Pr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:26:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 110 will require the Employment Development Department (EDD) to cross-check incarceration records to prevent paying fraudulent benefits.\",\n    \"Between January 2020 and November 2020, EDD paid $810 million in benefits associated with incarcerated individuals.\",\n    \"N",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 110 will require the Employment Development Department (EDD) to cross-check incarceration records to prevent paying fraudulent benefits.\",\n    \"Between January 2020 and November 2020, EDD paid $810 million in benefits associated with incarcerated individuals.\",\n    \"Nearly one billion taxpayer dollars were lost because EDD does not have a system to regularly crossmatch unemployment claims with information from correctional facilities.\",\n    \"Cross-checking lists of unemployment benefit claimants against incarceration data is a common fraud prevention process practiced in other states.\",\n    \"Current California law restricts the inmate information that can be shared with other state agencies.\",\n    \"AB 110 will enable EDD to easily cross-check claimants' information against inmate records maintained by the California Department of Corrections and Rehabilitation.\",\n    \"The fraud on California's Unemployment Insurance Fund has been widely reported throughout the pandemic.\",\n    \"AB 110 helps close the loophole exploited by tens of thousands of inmates to defraud the state for hundreds of millions of dollars.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1110bd13454142384555fc2e852a64fa4b77bf6a"
+}

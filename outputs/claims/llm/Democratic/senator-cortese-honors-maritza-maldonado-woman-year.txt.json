@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-honors-maritza-maldonado-woman-year.txt",
+  "party": "Democratic",
+  "title": "This International Woman’s Day, Senator Cortese (D-Silicon Valley) has announced that Maritza Maldonado, Founder and Executive Director of Amigos de Guadalupe Center for Justice an",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Maritza Maldonado has been selected as Senate District 15’s Woman of the Year.\",\n    \"Maritza Maldonado is the Founder and Executive Director of Amigos de Guadalupe Center for Justice and Empowerment.\",\n    \"Maldonado's work includes providing health counseling, hou",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Maritza Maldonado has been selected as Senate District 15’s Woman of the Year.\",\n    \"Maritza Maldonado is the Founder and Executive Director of Amigos de Guadalupe Center for Justice and Empowerment.\",\n    \"Maldonado's work includes providing health counseling, housing support, and youth leadership programs.\",\n    \"Maritza Maldonado's efforts are aimed at uplifting underserved community members, predominantly families.\",\n    \"Maldonado's advocacy has focused on issues such as homelessness alleviation, housing, financial assistance, immigration, and education.\",\n    \"Amigos de Guadalupe Center for Justice and Empowerment is celebrating its 10th anniversary this year.\",\n    \"Maldonado is a transformative leader who impacts communities in East San Jose.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "31d9ca0bd72f2326607fd896342f119778fbd024"
+}

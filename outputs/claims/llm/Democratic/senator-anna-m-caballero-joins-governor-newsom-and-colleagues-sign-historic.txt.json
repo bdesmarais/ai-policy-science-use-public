@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-joins-governor-newsom-and-colleagues-sign-historic.txt",
+  "party": "Democratic",
+  "title": "Traver: Senator Anna M. Caballero (D-Salinas) was honored to join Governor Newson and colleagues at a rural elementary school in the county unincorporated community of Traver. At t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Senator Anna M. Caballero has argued that internet access and affordability should be reclassified as an essential service as vital as water or energy.\",\n    \"The COVID pandemic validated the view that internet access is an essential component of 21st Century life.\"",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Senator Anna M. Caballero has argued that internet access and affordability should be reclassified as an essential service as vital as water or energy.\",\n    \"The COVID pandemic validated the view that internet access is an essential component of 21st Century life.\",\n    \"The legislation allocates $6 billion in investment to expand broadband infrastructure.\",\n    \"$3.25 billion is allocated to build, operate and maintain an open access, state-owned middle mile network.\",\n    \"$2 billion is set aside to establish last-mile broadband connections that will connect homes and businesses with local networks.\",\n    \"$750 million is designated for a loan loss reserve fund to help local governments and nonprofits secure financing for broadband infrastructure.\",\n    \"The legislation includes the creation of a broadband czar position at the California Department of Technology.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d0c79aeecdce7639977ed356fcdc02e7eeb2b1f"
+}

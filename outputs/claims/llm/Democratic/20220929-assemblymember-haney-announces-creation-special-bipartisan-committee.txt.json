@@ -1,0 +1,13 @@
+{
+  "press_release": "20220929-assemblymember-haney-announces-creation-special-bipartisan-committee.txt",
+  "party": "Democratic",
+  "title": "Sacramento",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The opioid crisis has claimed the lives of over 6,800 Californians last year.\",\n    \"An average of 53 people die a month from accidental drug overdoses in Assemblymember Haney's district.\",\n    \"Drug overdoses have cost the nation more lives than COVID-19.\",\n    \"The you",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The opioid crisis has claimed the lives of over 6,800 Californians last year.\",\n    \"An average of 53 people die a month from accidental drug overdoses in Assemblymember Haney's district.\",\n    \"Drug overdoses have cost the nation more lives than COVID-19.\",\n    \"The youngest patient addicted to fentanyl was just 12 years old.\",\n    \"Some youths have been reported to be using as many as 10 fentanyl pills a day.\",\n    \"The fentanyl crisis in Orange County is described as a tsunami that has swept in at breakneck pace.\",\n    \"In 2020, approximately 668 people died from an overdose in Orange County, with 432 of those cases involving large amounts of fentanyl.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "63a1c9260f416e6215a61153abb4fa87892872e2"
+}

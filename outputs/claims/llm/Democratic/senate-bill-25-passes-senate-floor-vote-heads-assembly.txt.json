@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-bill-25-passes-senate-floor-vote-heads-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Senator Anna Caballero today announced that SB 25 passed from the Senate, with bi-partisan support. SB 25 is a modest attempt to join forces with a federal tax credit ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:20:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 25 aims to funnel an estimated $6 trillion from capital gains earnings into America's poorest neighborhoods to create jobs and housing.\",\n    \"SB 25 creates an incentive for green, sustainable development for critical housing statewide.\",\n    \"SB 25 focuses on economi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 25 aims to funnel an estimated $6 trillion from capital gains earnings into America's poorest neighborhoods to create jobs and housing.\",\n    \"SB 25 creates an incentive for green, sustainable development for critical housing statewide.\",\n    \"SB 25 focuses on economic development in the 879 Opportunity Zones, including California's poorest census tracts.\",\n    \"The bill requires that the workforce be trained and skilled, and subject to prevailing wage.\",\n    \"SB 25 establishes an expedited judicial review of approvals and environmental review for proposed projects to meet funding deadlines.\",\n    \"Only projects that meet stringent green building and sustainable community standards like LEED Gold will benefit from expedited judicial review.\",\n    \"SB 25 offers developers an incentive to invest in green, sustainable, energy-efficient housing in exchange for streamlined judicial review.\",\n    \"The bill aims to minimize delays caused by CEQA litigation in the housing market.\",\n    \"This investment is expected to create good paying jobs and new workforce development opportunities in the green building trades.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c4bcf31fb414c80a491b231d00e7a5600584f932"
+}

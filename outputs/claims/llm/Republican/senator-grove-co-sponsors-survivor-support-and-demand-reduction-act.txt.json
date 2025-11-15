@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-co-sponsors-survivor-support-and-demand-reduction-act.txt",
+  "party": "Republican",
+  "title": "In an effort to better protect and support survivors of sex trafficking while cracking down on the demand that fuels victimization, alongside Assemblywoman Maggy Krell ( D-Sacramen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 379 establishes a fund for community-based organizations supporting victims of sex trafficking.\",\n    \"AB 379 makes it a crime to loiter with the intent to purchase sex.\",\n    \"AB 379 ensures that the crime of purchasing a minor for sex applies in any case where the v",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 379 establishes a fund for community-based organizations supporting victims of sex trafficking.\",\n    \"AB 379 makes it a crime to loiter with the intent to purchase sex.\",\n    \"AB 379 ensures that the crime of purchasing a minor for sex applies in any case where the victim is under 18.\",\n    \"California decriminalized loitering for prostitution in 2022, making it more difficult for law enforcement to investigate sex trafficking cases.\",\n    \"The sex trafficking industry has openly flourished since the decriminalization of loitering for prostitution.\",\n    \"Sex trafficking disproportionately impacts girls and women of color from impoverished neighborhoods, LGBTQ youth, and children from the foster care system.\",\n    \"Early childhood sexual abuse and rape increase vulnerability to sex trafficking.\",\n    \"In Sacramento, there is a demand for sex that significantly exceeds the number of victims available.\",\n    \"AB 379 provides stronger legal tools to target those who exploit victims of sex trafficking.\",\n    \"The legislation aims to reduce the demand that fuels human trafficking.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9fe3b90d9c2aa6e19b06382d837d417725575fb1"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-introduces-public-safety-bill-package-for-2025.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Alanis announced the introduction of four bills aimed at protecting minors and victims of violent crime. The bill package seeks to prevent violen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d2158f18813eda443117d97a453200716f3b3b34"
+}

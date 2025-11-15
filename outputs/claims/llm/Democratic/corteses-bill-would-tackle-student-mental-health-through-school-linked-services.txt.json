@@ -1,0 +1,13 @@
+{
+  "press_release": "corteses-bill-would-tackle-student-mental-health-through-school-linked-services.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese (D-Silicon Valley) has introduced SB 1184 to ensure California students get the behavioral support they need.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The School-Linked Services program serves about 200 schools across 15 school districts in Santa Clara County.\",\n    \"The School-Linked Services program has grown to a $40 million-a-year initiative.\",\n    \"Seventy-five percent of families reported that the services they r",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The School-Linked Services program serves about 200 schools across 15 school districts in Santa Clara County.\",\n    \"The School-Linked Services program has grown to a $40 million-a-year initiative.\",\n    \"Seventy-five percent of families reported that the services they received from the School-Linked Services program helped them learn about available community services.\",\n    \"Seventy-three percent of families reported that the services improved their health and well-being.\",\n    \"Sixty-seven percent of families reported that the services improved their ability to find resources for their child.\",\n    \"Sixty-five percent of families reported that the services helped them advocate for their child.\",\n    \"Seventy-six percent of families reported that the services increased their child’s academic success.\",\n    \"Eighty-three percent of staff reported that the School-Linked Services model improved school-family-community partnerships.\",\n    \"Students are 10 to 21 times more likely to receive behavioral health services when provided on a school campus.\",\n    \"Funding for the Mental Health Student Services Act grant program was expanded by $205,000,000.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d861b29c415d092029696185ed32dac259c14fb7"
+}

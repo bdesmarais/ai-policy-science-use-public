@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-presents-365000-upgrades-and-improvements-rio-hondo-park.txt",
+  "party": "Democratic",
+  "title": "PICO RIVERA CA – State Senator Bob Archuleta has secured $365,000 for the city of Pico Rivera to improve three of its Parks and Recreation facilities. The ceremony took place at Ri",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The upgrades to the parks and recreation facilities in Pico Rivera are needed because of aging structures that may cause a safety hazard to the public.\",\n    \"The playground at Rio Hondo Park is 18 years old, and the playground at Veterans and Ladies Auxiliary Park is 16",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The upgrades to the parks and recreation facilities in Pico Rivera are needed because of aging structures that may cause a safety hazard to the public.\",\n    \"The playground at Rio Hondo Park is 18 years old, and the playground at Veterans and Ladies Auxiliary Park is 16 years old.\",\n    \"The playground at Veterans and Ladies Auxiliary Park does not meet the basic minimum safety standards as defined by the Consumer Product Safety Commission for public playground safety.\",\n    \"The heating system for the pool at Smith Park is beyond repair and is not energy efficient.\",\n    \"Expansion joints for the pool at Smith Park will help maintain a water seal and protect from earthquakes.\",\n    \"The pool at Smith Park is currently experiencing water loss, which requires it to be constantly refilled.\",\n    \"The enhancements to the parks and recreation facilities will not only address public safety reasons but will also save the city money that could be used to fund other areas.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "af01a731d232eb441e85c68165709c5b959ba583"
+}

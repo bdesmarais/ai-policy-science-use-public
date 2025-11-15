@@ -1,0 +1,13 @@
+{
+  "press_release": "demaio-exposes-9-5-billion-taxpayer-cost-for-free-healthcare-for-illegal-immigrants-a-46-2-cost-spike-in-one-year.txt",
+  "party": "Republican",
+  "title": "Under questioning from DeMaio, Governor Gavin Newsom’s office had to admit that they miscalculated the real cost to taxpayers of providing free taxpayer-funded healthcare to illega",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom's office miscalculated the cost to taxpayers for providing free taxpayer-funded healthcare to illegal immigrants in California.\",\n    \"The proposed cost for taxpayer-funded healthcare for illegal immigrants in California increased from $6.5 billion ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom's office miscalculated the cost to taxpayers for providing free taxpayer-funded healthcare to illegal immigrants in California.\",\n    \"The proposed cost for taxpayer-funded healthcare for illegal immigrants in California increased from $6.5 billion to $9.5 billion.\",\n    \"The increase in the proposed cost for taxpayer-funded healthcare for illegal immigrants in California represents a 46.2% spike.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eb2e79b26da49644d9d1348117ea2ae8c2604f7f"
+}

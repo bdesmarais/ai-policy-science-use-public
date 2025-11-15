@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblywoman-laurie-davies-awards-oceanside-residentrobbie-hass-the-2023-74th-district-woman-of-the-year.txt",
+  "party": "Republican",
+  "title": "Oceanside, CA – March 23: Today Assemblywoman Laurie Davies honored local community leader Robbie Calderon Hass as the 74th Assembly District Woman of the Year for 2023. “Robbie ha",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cd29720d9237c968a5399b8a403d2f756eea0905"
+}

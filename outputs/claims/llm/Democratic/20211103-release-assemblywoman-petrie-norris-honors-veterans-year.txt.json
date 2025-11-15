@@ -1,0 +1,13 @@
+{
+  "press_release": "20211103-release-assemblywoman-petrie-norris-honors-veterans-year.txt",
+  "party": "Democratic",
+  "title": "NEWPORT BEACH",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "58de54a7dc4990dca1f614edee57262799e81900"
+}

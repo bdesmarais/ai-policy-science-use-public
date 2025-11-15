@@ -1,0 +1,13 @@
+{
+  "press_release": "20220322-assemblymember-jesse-gabriel-introduces-legislation-combat-barriers-access.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:39:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1961 would create an online database of affordable housing listings in California.\",\n    \"An estimated 11 million families in the U.S. pay more than half their income on rent.\",\n    \"The supply of affordable housing is shrinking in the U.S.\",\n    \"Many families in Cal",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1961 would create an online database of affordable housing listings in California.\",\n    \"An estimated 11 million families in the U.S. pay more than half their income on rent.\",\n    \"The supply of affordable housing is shrinking in the U.S.\",\n    \"Many families in California face significant barriers to finding affordable housing.\",\n    \"The online portal created by AB 1961 would simplify the process of finding affordable housing.\",\n    \"Seniors, people with disabilities, and rural Californians would benefit from not having to travel to submit applications for affordable housing.\",\n    \"People who speak English as a second language could complete a translated online application from home due to AB 1961.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "81e9d26045502daf31a26a479379216b690a6a51"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250428-assemblywoman-sorias-ev-school-bus-bill-approved-transportation-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1111 seeks to address challenges that local educational agencies face in adopting zero-emission school buses by the state mandated deadline of 2035.\",\n    \"AB 1111 extends the deadline to 2045 for small rural school districts.\",\n    \"AB 1111 adds infrastructure challe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1111 seeks to address challenges that local educational agencies face in adopting zero-emission school buses by the state mandated deadline of 2035.\",\n    \"AB 1111 extends the deadline to 2045 for small rural school districts.\",\n    \"AB 1111 adds infrastructure challenges and fire risks to the list of existing exemptions.\",\n    \"A recent survey of superintendents found that many faced challenges including cost, increased maintenance, and lack of charging infrastructure.\",\n    \"Existing electrical infrastructure does not support new charging stations.\",\n    \"Many school districts and county offices of education face significant barriers to the adoption of zero-emission school buses.\",\n    \"Performance across a range of topography and climate conditions is an issue that needs to be addressed for electric vehicle adoption.\",\n    \"Infrastructure and utility challenges, safety concerns, and cost are barriers to the adoption of electric vehicles.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7e733b9dd5098f453dbea3e9ebef666880f4abed"
+}

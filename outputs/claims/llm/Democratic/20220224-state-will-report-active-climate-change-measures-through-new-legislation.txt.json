@@ -1,0 +1,13 @@
+{
+  "press_release": "20220224-state-will-report-active-climate-change-measures-through-new-legislation.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) – Assemblymembers Steve Bennett (D-Ventura), Wendy Carrillo (D-Los Angeles), Senator Monique Limón, and representatives from the State's leading environmental organiza",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:39:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has laid out ambitious goals to combat climate change.\",\n    \"The bill will provide accountability and ensure that California has a strategy to meet its goals for reducing harmful carbon emissions.\",\n    \"California's Global Warming Solutions Act was a revolut",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has laid out ambitious goals to combat climate change.\",\n    \"The bill will provide accountability and ensure that California has a strategy to meet its goals for reducing harmful carbon emissions.\",\n    \"California's Global Warming Solutions Act was a revolutionary step towards achieving maximum feasible greenhouse gas reductions.\",\n    \"The bill's added transparency will provide the public and decision-makers with necessary information to implement real reductions in climate disrupting emissions.\",\n    \"California's greenhouse gas reduction strategies extend beyond traditional sources like smokestacks and tailpipes to include cost-effective solutions throughout the economy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9600a8c310307d14ea4465a9c208bb3d502cf8c9"
+}

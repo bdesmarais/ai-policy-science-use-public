@@ -1,0 +1,13 @@
+{
+  "press_release": "20171005-governor-brown-signs-bill-protect-child-sexual-assault-victims-repeated.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f24019a2aace50c22f2c2ba00a528b8c76d0cb12"
+}

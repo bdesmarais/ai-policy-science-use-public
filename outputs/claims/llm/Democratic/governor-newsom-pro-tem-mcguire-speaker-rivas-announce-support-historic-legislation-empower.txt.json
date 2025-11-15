@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-newsom-pro-tem-mcguire-speaker-rivas-announce-support-historic-legislation-empower.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — Fulfilling a promise to address everyday affordability for millions of Californians, the Governor, Senate Pro Tem and Assembly Speaker are proud to announce support fo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1340 will empower hundreds of thousands of rideshare drivers in California.\",\n    \"The agreement will provide a historic pathway for over 800,000 rideshare drivers in California to join a union.\",\n    \"SB 371 will reduce the cost of providing rideshare services in Cal",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1340 will empower hundreds of thousands of rideshare drivers in California.\",\n    \"The agreement will provide a historic pathway for over 800,000 rideshare drivers in California to join a union.\",\n    \"SB 371 will reduce the cost of providing rideshare services in California.\",\n    \"SB 371 will eliminate the requirement for rideshare drivers to carry $1 million in uninsured motorist coverage.\",\n    \"The current uninsured motorist requirement for rideshare drivers is unnecessarily high based on 10 years of data.\",\n    \"Rideshare drivers in California will now have a voice in the future of their industry through union representation.\",\n    \"The legislation aims to improve working conditions for rideshare drivers while balancing compliance with existing laws.\",\n    \"The removal of excessive insurance requirements will help maintain the affordability of rideshare services in California.\",\n    \"The framework established by AB 1340 aims to create a model for equitable partnerships between workers and the technology sector.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "13c51ae5c05df68e7373e35c409341cca776e8c6"
+}

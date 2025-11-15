@@ -1,0 +1,13 @@
+{
+  "press_release": "20210121-asm-robert-rivas-swearing-californias-first-latino-us-senator.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:22:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "65c52f153c9ad723fd96ae1ba59d18f9c0a5f2b3"
+}

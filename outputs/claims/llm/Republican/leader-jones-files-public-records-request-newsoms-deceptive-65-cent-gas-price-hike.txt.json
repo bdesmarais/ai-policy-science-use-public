@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-files-public-records-request-newsoms-deceptive-65-cent-gas-price-hike.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones ( R-San Diego ) has filed two Public Records Act (PRA) requests—one with the California Air Resources Board (CARB) and another with Governor G",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Low Carbon Fuel Standard (LCFS) update is expected to raise gas prices as much as 65 cents per gallon.\",\n    \"Senate Minority Leader Brian W. Jones alleges that the real goal of the LCFS is to drive gas prices high enough that working families will have to buy electr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Low Carbon Fuel Standard (LCFS) update is expected to raise gas prices as much as 65 cents per gallon.\",\n    \"Senate Minority Leader Brian W. Jones alleges that the real goal of the LCFS is to drive gas prices high enough that working families will have to buy electric vehicles.\",\n    \"The California Air Resources Board (CARB) has faced accusations of ignoring public input regarding the LCFS update.\",\n    \"CARB recently resubmitted amendments to the LCFS to the Office of Administrative Law (OAL) for implementation on July 1, 2025.\",\n    \"The OAL previously halted the regulation due to transparency and procedural violations.\",\n    \"There is a claim that gas prices in California could skyrocket by 75% to $8.43 per gallon as refinery closures accelerate under current regulations.\",\n    \"Leader Jones has stated that regulations like the LCFS are destabilizing California’s fuel market and pushing gasoline suppliers to shut down.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8eba256c13efd665a498df2c017ae5911880a2e8"
+}

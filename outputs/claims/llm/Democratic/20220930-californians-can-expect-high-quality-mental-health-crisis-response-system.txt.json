@@ -1,0 +1,13 @@
+{
+  "press_release": "20220930-californians-can-expect-high-quality-mental-health-crisis-response-system.txt",
+  "party": "Democratic",
+  "title": "(Sacramento)  In the final days of National Suicide Prevention and Awareness Month, Governor Newsom has signed the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Miles Hall Lifeline and Suicide Prevention Act aims to transform California's response to mental health emergencies.\",\n    \"AB 988 provides funding and a framework for long-term implementation of the 988 crisis services continuum.\",\n    \"The 988 Suicide and Crisis Li",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Miles Hall Lifeline and Suicide Prevention Act aims to transform California's response to mental health emergencies.\",\n    \"AB 988 provides funding and a framework for long-term implementation of the 988 crisis services continuum.\",\n    \"The 988 Suicide and Crisis Lifeline was launched nationwide in July.\",\n    \"Call centers connected to the 988 line can dispatch mobile crisis support teams staffed by mental health professionals.\",\n    \"AB 988 seeks to reduce the role of law enforcement in crisis response.\",\n    \"Research indicates at least 1 in 4 fatal law enforcement encounters involves an individual with serious mental illness.\",\n    \"AB 988 creates a permanent and sustainable funding source for crisis centers and mobile response teams through a telephone surcharge.\",\n    \"California is the fifth state to implement a 988 phone line surcharge.\",\n    \"AB 988 mandates the integration of 988 and 911 systems for mental health emergencies.\",\n    \"The current mental health crisis response system often relies on law enforcement, leading to negative outcomes for individuals with mental illness.\",\n    \"AB 988 is considered a first step toward creating a comprehensive crisis response system in California.\",\n    \"The legislation is intended to improve access to care for individuals experiencing mental health emergencies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "36dcbec703eb4ec7217b0fc22c7fcf3116941237"
+}

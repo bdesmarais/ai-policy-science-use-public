@@ -1,0 +1,13 @@
+{
+  "press_release": "20190204-congresswoman-gabrielle-giffords-joins-california-state-legislators.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:04:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The California Violence Intervention and Prevention Grant Program will support, expand, and replicate evidence-based violence reduction initiatives.\",\n    \"Richmond's Office of Neighborhood Safety has contributed to a significant reduction in gun violence rates, whi",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The California Violence Intervention and Prevention Grant Program will support, expand, and replicate evidence-based violence reduction initiatives.\",\n    \"Richmond's Office of Neighborhood Safety has contributed to a significant reduction in gun violence rates, which fell by half from 2009 to 2016.\",\n    \"Cities across the country are working to develop violence reduction programs similar to Richmond’s Office of Neighborhood Safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ee80241ff5b5c0ad5c77cebd8d2634442ed1d96a"
+}

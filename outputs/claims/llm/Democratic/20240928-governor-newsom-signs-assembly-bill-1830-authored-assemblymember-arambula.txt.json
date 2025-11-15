@@ -1,0 +1,13 @@
+{
+  "press_release": "20240928-governor-newsom-signs-assembly-bill-1830-authored-assemblymember-arambula.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Governor Gavin Newsom today signed Assembly Bill 1830 authored by Assemblymember Dr. Joaquin Arambula (D-Fresno) as part of a package of bills focused on food issues.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1830 requires manufacturers to fortify corn masa flour and wet corn masa products with folic acid to help prevent birth defects.\",\n    \"Food is the best way to get folic acid into women’s diets before they become pregnant.\",\n    \"The omission of corn masa and wet masa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1830 requires manufacturers to fortify corn masa flour and wet corn masa products with folic acid to help prevent birth defects.\",\n    \"Food is the best way to get folic acid into women’s diets before they become pregnant.\",\n    \"The omission of corn masa and wet masa products from the federal 1998 mandate has led to a disproportionate, higher risk of birth defects in the Latino community.\",\n    \"The law aims to reduce the incidence of neural tube defects by ensuring that every pregnant person can benefit from folic acid supplementation.\",\n    \"Neural tube defects can be devastating for families, but reducing their incidence is possible through food fortification.\",\n    \"The final adoption of this legislation is a significant step forward in improving infant health outcomes.\",\n    \"Requiring corn masa products to be fortified with folic acid can help protect more babies from developing neural tube defects.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8b77f7bff866c472153e8f05d95b7ea1a412db76"
+}

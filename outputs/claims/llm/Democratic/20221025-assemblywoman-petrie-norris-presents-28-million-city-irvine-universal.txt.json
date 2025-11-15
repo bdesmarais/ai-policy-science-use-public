@@ -1,0 +1,13 @@
+{
+  "press_release": "20221025-assemblywoman-petrie-norris-presents-28-million-city-irvine-universal.txt",
+  "party": "Democratic",
+  "title": "IRVINE",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:50:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The City of Irvine is receiving $2.8 million in funding to renovate the Sweet Shade Neighborhood Park into a universal playground.\",\n    \"The universal playground in Irvine will feature multigenerational play components to support usage by individuals with disabilities.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The City of Irvine is receiving $2.8 million in funding to renovate the Sweet Shade Neighborhood Park into a universal playground.\",\n    \"The universal playground in Irvine will feature multigenerational play components to support usage by individuals with disabilities.\",\n    \"The playground will include an adaptive swing and a sensory garden.\",\n    \"The playground will be wheelchair accessible and include interactive equipment for a variety of ages.\",\n    \"The new playground will have a STEM and outer space theme designed to provide interactive sensory learning for special needs individuals.\",\n    \"The universal playground will be the first of its kind in Irvine.\",\n    \"The playground is intended to support efforts to provide services for individuals with sensory, physical, or cognitive disabilities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "746c893b4f782c780eaf24dad6ea727cae8fbca9"
+}

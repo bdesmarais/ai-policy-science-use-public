@@ -1,0 +1,13 @@
+{
+  "press_release": "20240423-assemblywoman-schiavos-legislation-support-vulnerable-homeowners-advances.txt",
+  "party": "Democratic",
+  "title": "Assemblywoman Pilar Schiavo announced today that AB 2424, a pivotal bill aimed at protecting homeowners facing foreclosure, often at times when they are at their most vulnerable, h",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:40:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2424 aims to protect homeowners facing foreclosure during vulnerable times.\",\n    \"The current foreclosure system in California excessively punishes vulnerable Californians.\",\n    \"Foreclosed homeowners often lose substantial amounts of money when their homes are sold",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2424 aims to protect homeowners facing foreclosure during vulnerable times.\",\n    \"The current foreclosure system in California excessively punishes vulnerable Californians.\",\n    \"Foreclosed homeowners often lose substantial amounts of money when their homes are sold at auction.\",\n    \"Low-income, elderly, immigrant, or disabled homeowners frequently face increased risks of poverty and homelessness due to foreclosure.\",\n    \"Home equity constitutes a substantial portion of the lifetime savings for many homeowners.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f208ed6a449426660e9762d6d0c217fcc1483bd9"
+}

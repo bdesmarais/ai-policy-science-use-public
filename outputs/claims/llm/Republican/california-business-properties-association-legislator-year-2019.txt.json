@@ -1,0 +1,13 @@
+{
+  "press_release": "california-business-properties-association-legislator-year-2019.txt",
+  "party": "Republican",
+  "title": "The California Business Properties Association (CBPA) named Senator Brain Jones (R-Santee) and Assemblymember Miguel Santiago (D-Los Angeles) as their Legislators of the Year 2019.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a124e24cde62ac313dbaced82ebc11859035c4a7"
+}

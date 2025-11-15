@@ -1,0 +1,13 @@
+{
+  "press_release": "20230216-assemblymember-bauer-kahan-introduces-legislation-improve-access-campsites.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:54:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's public parks and beaches are highly demanded resources that should be accessible to all residents.\",\n    \"The current reservation system for campsites in California has been described as outdated and contributes to many campsites being left empty.\",\n    \"Ove",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's public parks and beaches are highly demanded resources that should be accessible to all residents.\",\n    \"The current reservation system for campsites in California has been described as outdated and contributes to many campsites being left empty.\",\n    \"Over 6.5 million visitors camp in California parks each year, indicating high demand for camping spots.\",\n    \"Popular campsites are often fully booked within minutes of being available, demonstrating the intense competition for reservations.\",\n    \"Families face difficulties in planning trips to outdoor sites due to the existing reservation practices.\",\n    \"There is currently no penalty for unused reservations in the camping registration system, leading to underutilization of valuable spots.\",\n    \"AB 618 will require modifications to the online camping registration system to discourage late cancellations and no-shows.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b9d7598e12435e6ca238f8eeb7ed7c6e8196d357"
+}

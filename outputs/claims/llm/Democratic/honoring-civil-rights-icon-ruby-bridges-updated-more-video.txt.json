@@ -1,0 +1,13 @@
+{
+  "press_release": "honoring-civil-rights-icon-ruby-bridges-updated-more-video.txt",
+  "party": "Democratic",
+  "title": "Senator Becker, South San Francisco Students & Teachers Celebrate California’s First Statewide Observance of Ruby Bridges Walk to School Day",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "19a1c73fce96ae56492b21c8d1fc3fc90f6627a8"
+}

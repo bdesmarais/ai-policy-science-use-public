@@ -1,0 +1,13 @@
+{
+  "press_release": "20240912-ab-2697-electric-vehicle-charging-legislation-national-implications.txt",
+  "party": "Democratic",
+  "title": "AB 2697 ELECTRIC VEHICLE CHARGING LEGISLATION WITH NATIONAL IMPLICATIONS",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:16:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Legislature has passed legislation requiring electric vehicle (EV) charging companies to share information across their networks.\",\n    \"The new requirement aims to benefit EV drivers nationwide.\",\n    \"If signed, Assembly Bill (AB) 2697 will direct the Ca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Legislature has passed legislation requiring electric vehicle (EV) charging companies to share information across their networks.\",\n    \"The new requirement aims to benefit EV drivers nationwide.\",\n    \"If signed, Assembly Bill (AB) 2697 will direct the California Energy Commission (CEC) to adopt network roaming standards for major EV charging network providers.\",\n    \"Roaming as a technique exists across various industries and can facilitate the sharing of data among EV charging companies.\",\n    \"Several companies in the EV industry already use roaming to connect customers to services, regardless of the service provider.\",\n    \"The implementation of roaming agreements is expected to improve the EV charging experience.\",\n    \"Roaming options are anticipated to help provide seamless charging access to Californians and drivers traveling beyond state lines.\",\n    \"Roaming requirements aim to compel the charging industry to ensure their chargers are functioning correctly.\",\n    \"A single app approach could potentially simplify the process of finding charging information for EV drivers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eca271f67f155b441fcd1b19afdd5fa27ffc2db3"
+}

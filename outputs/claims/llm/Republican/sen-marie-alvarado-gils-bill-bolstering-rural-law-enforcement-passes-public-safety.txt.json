@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-marie-alvarado-gils-bill-bolstering-rural-law-enforcement-passes-public-safety.txt",
+  "party": "Republican",
+  "title": "Today, Senator Marie Alvarado-Gil’s (R-Jackson) bill enhancing rural law enforcement’s ability to protect communities and respond to emergencies in Amador and Nevada counties passe",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Rural communities face unique public safety challenges that require effective law enforcement responses.\",\n    \"Expanding law enforcement authority improves response times during natural disasters and public safety emergencies.\",\n    \"The current authority of deputy sher",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Rural communities face unique public safety challenges that require effective law enforcement responses.\",\n    \"Expanding law enforcement authority improves response times during natural disasters and public safety emergencies.\",\n    \"The current authority of deputy sheriffs in Amador and Nevada counties is limited mainly to custodial duties.\",\n    \"SB 229 is crucial for ensuring deputies in rural areas can respond quickly to emergencies and maintain public order during disasters.\",\n    \"Incorporating Amador County into Penal Code 830.1 would provide a critical force multiplier for emergency response.\",\n    \"Amador County Correctional Officers undergo the same rigorous training as sworn law enforcement staff.\",\n    \"Amador County Correctional Officers could play vital roles in essential duties such as roadblocks, search and rescue operations, and evacuation efforts.\",\n    \"SB 229 enhances jail-related safety and procedures in Nevada County, aligning their correctional officers' authority with peace officers in other counties.\",\n    \"If passed, SB 229 will ensure Nevada County's custodial staff have the same operational scope as peace officers throughout California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b84a425035d461841de596e56b4795081759cbf8"
+}

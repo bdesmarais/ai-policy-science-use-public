@@ -1,0 +1,13 @@
+{
+  "press_release": "state-senator-josh-beckers-statement-governors-may-revise.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:34:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Governor Newsom's budget aims to create an 'Everyone Economy' in California.\",\n    \"The proposed budget will use California's historic surplus to aid those most in need.\",\n    \"The plan is designed to provide a springboard to true economic mobility and break the cyc",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Governor Newsom's budget aims to create an 'Everyone Economy' in California.\",\n    \"The proposed budget will use California's historic surplus to aid those most in need.\",\n    \"The plan is designed to provide a springboard to true economic mobility and break the cycle of generational poverty.\",\n    \"The budget will invest in critical elements such as water resilience and digital equity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1945a6535e22475a65e671cca686e23046b73e58"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "legislative-republican-join-orange-county-government-business-and-community-leaders-to-call-for-gas-tax-holiday-03-02-2022.txt",
+  "party": "Republican",
+  "title": "ORANGE – Today, Legislative Republicans joined government, business and community leaders from Orange County to discuss gas prices’ impact on inflation and call for California to s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Gas prices are driving inflation in California.\",\n    \"A gas tax holiday would cut prices by fifty cents a gallon overnight.\",\n    \"Higher gas prices are consuming budgets for essential expenses like food, groceries, and medications.\",\n    \"Californians pay the highest g",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Gas prices are driving inflation in California.\",\n    \"A gas tax holiday would cut prices by fifty cents a gallon overnight.\",\n    \"Higher gas prices are consuming budgets for essential expenses like food, groceries, and medications.\",\n    \"Californians pay the highest gas tax in the nation.\",\n    \"The cost of living is devastating families, students, seniors, and vulnerable populations in California.\",\n    \"California's average gas prices are currently $4.87 per gallon, which is a new record and $1.21 above the national average.\",\n    \"Taxes and mandates add $1.27 to the cost of a gallon of gas in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fce392166940f81f9c4ee447dc83344017335cff"
+}

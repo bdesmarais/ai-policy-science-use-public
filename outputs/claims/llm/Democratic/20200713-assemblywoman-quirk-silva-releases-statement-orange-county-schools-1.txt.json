@@ -1,0 +1,13 @@
+{
+  "press_release": "20200713-assemblywoman-quirk-silva-releases-statement-orange-county-schools-1.txt",
+  "party": "Democratic",
+  "title": "Assemblywoman Quirk-Silva Releases Statement on Orange County Schools Reopening in the Fall",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2cc7abb1855160a16126be0d48d34ad245481cbd"
+}

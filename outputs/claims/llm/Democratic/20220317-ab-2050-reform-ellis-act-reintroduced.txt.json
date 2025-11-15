@@ -1,0 +1,13 @@
+{
+  "press_release": "20220317-ab-2050-reform-ellis-act-reintroduced.txt",
+  "party": "Democratic",
+  "title": "Today, AB 2050, Ellis Act reform was reintroduced by Assemblymember Alex Lee. AB 2050 would curb property speculators who misuse the Ellis Act from evicting buildings full of rent-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:39:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2050 would curb property speculators who misuse the Ellis Act from evicting buildings full of rent-controlled residents.\",\n    \"The reform to the Ellis Act would ensure that eviction cannot be used until after five years of property ownership.\",\n    \"The Ellis Act is ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2050 would curb property speculators who misuse the Ellis Act from evicting buildings full of rent-controlled residents.\",\n    \"The reform to the Ellis Act would ensure that eviction cannot be used until after five years of property ownership.\",\n    \"The Ellis Act is a 1985 California state law that allows landlords to evict residential tenants when exiting the rental business.\",\n    \"The Ellis Act's loopholes have been used to acquire rent control housing, evict tenants, and sell the property for a higher profit.\",\n    \"The vast majority of Ellis Act evictions occur within the first five years of an owner purchasing a property.\",\n    \"There is a trend of 'serial evictors' who evict tenants from multiple buildings to convert the units to other uses such as condominiums.\",\n    \"Any effective effort to address the affordable housing crisis must prioritize preserving existing affordable housing along with producing new affordable housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b4df4c4e54bb5f4f95d57eaa5101c83a1b6ee7e3"
+}

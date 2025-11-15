@@ -1,0 +1,13 @@
+{
+  "press_release": "20231014-california-teach-media-literacy-every-grade.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:30:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has signed Assembly Bill 873 to integrate media literacy instruction into K-12 education.\",\n    \"Teaching media literacy is intended to help students become critical consumers of online content.\",\n    \"Media literacy instruction aims to support students' abili",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has signed Assembly Bill 873 to integrate media literacy instruction into K-12 education.\",\n    \"Teaching media literacy is intended to help students become critical consumers of online content.\",\n    \"Media literacy instruction aims to support students' ability to recognize misinformation and disinformation.\",\n    \"Recent studies indicate that a high percentage of students struggle to evaluate digital sources and distinguish between advertisements and news.\",\n    \"A 2019 Stanford University study found that 96 percent of high school students did not consider industry ties when evaluating credibility of climate-related websites.\",\n    \"In the same study, over half of high school students believed misleading video evidence constituted strong proof of voter fraud.\",\n    \"A 2022 United Nations report indicated that a significant percentage of public content related to the Holocaust on TikTok, Twitter, and Telegram denies or distorts factual history.\",\n    \"The inclusion of media literacy in the curriculum is meant to improve students' digital citizenship skills regarding responsible and safe online behavior.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a21f230290ce22dc7716fc6f6e4af053906d7e53"
+}

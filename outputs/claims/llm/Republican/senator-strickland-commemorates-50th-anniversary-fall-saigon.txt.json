@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-strickland-commemorates-50th-anniversary-fall-saigon.txt",
+  "party": "Republican",
+  "title": "Today, Senator Tony Strickland (R-Huntington Beach) joined Assemblymember Tri Ta (R-Westminster) and nearly 200 Vietnamese-American community leaders and other elected officials wh",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3a68baf0de4adcad2a53a9ffe37556ce61ff1e53"
+}

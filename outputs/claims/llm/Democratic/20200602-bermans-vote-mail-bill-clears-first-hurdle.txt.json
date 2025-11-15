@@ -1,0 +1,13 @@
+{
+  "press_release": "20200602-bermans-vote-mail-bill-clears-first-hurdle.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Marc Berman (D-Menlo Park), Chair of the Assembly Committee on Elections and Redistricting, is authoring legislation that would require every registered",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill 860 requires every registered voter in California to be mailed a ballot for the 2020 General Election.\",\n    \"There is a concern that a surge in coronavirus cases could occur in the fall.\",\n    \"Mailing every California voter a ballot is essential to e",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill 860 requires every registered voter in California to be mailed a ballot for the 2020 General Election.\",\n    \"There is a concern that a surge in coronavirus cases could occur in the fall.\",\n    \"Mailing every California voter a ballot is essential to ensuring that elections are conducted safely.\",\n    \"Approximately 78% of California’s registered voters received a ballot in the mail before the March Primary.\",\n    \"At least 16 states either postponed their primary elections or switched to vote by mail elections due to COVID-19.\",\n    \"States that have conducted elections during the spread of COVID-19 have reported increases in voters seeking to vote by mail.\",\n    \"In-person voting opportunities will remain available in a manner that protects public health.\",\n    \"Governor Gavin Newsom issued an executive order requiring that all voters be mailed a ballot for the November election.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c17c027e1425ce4e6fbda92307aef9c828a29445"
+}

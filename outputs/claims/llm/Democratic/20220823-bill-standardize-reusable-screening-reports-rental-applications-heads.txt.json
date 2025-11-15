@@ -1,0 +1,13 @@
+{
+  "press_release": "20220823-bill-standardize-reusable-screening-reports-rental-applications-heads.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO,CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:45:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's rental market has become extremely tight for prospective tenants due to skyrocketing prices and limited availability.\",\n    \"Application fees for rental housing create additional cost burdens for renters seeking new housing, disproportionately affecting peop",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's rental market has become extremely tight for prospective tenants due to skyrocketing prices and limited availability.\",\n    \"Application fees for rental housing create additional cost burdens for renters seeking new housing, disproportionately affecting people of color.\",\n    \"AB 2559 will standardize reusable screening reports for rental applicants that can be used multiple times within a 30-day window.\",\n    \"AB 2559 will allow would-be tenants to pay one fee and use one screening report for multiple rental applications.\",\n    \"AB 2559 aims to verify that the information on the reusable screening report is accurate.\",\n    \"The reusable screening reports will include information such as name, contact information, eviction history, employment, rental history, and last known address.\",\n    \"The tenant can review the reusable screening report for accuracy and dispute any errors with the tenant screening company.\",\n    \"In 2019, Washington State passed legislation to allow landlords to accept reusable screening reports.\",\n    \"In 2021, Maryland State passed legislation to allow landlords to accept reusable screening reports.\",\n    \"According to the Zillow Consumer Housing Trends Report for 2022, 26% of U.S. renters who moved in the past two years listed multiple application fees as the top stressor of a rental search.\",\n    \"AB 2559 will make rental properties more accessible to renters.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d951debfb4e83d8eee40cc6c547c6d0a5c30f20"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220427-asm-wicks-ab-2011-earns-support-assembly-housing-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Affordable Housing and High Road Jobs Act has the potential to produce millions of units of affordable housing.\",\n    \"The bill AB 2011 is co-sponsored by the California Housing Consortium and the California Conference of Carpenters.\",\n    \"The bill requires prevaili",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Affordable Housing and High Road Jobs Act has the potential to produce millions of units of affordable housing.\",\n    \"The bill AB 2011 is co-sponsored by the California Housing Consortium and the California Conference of Carpenters.\",\n    \"The bill requires prevailing wage on all projects.\",\n    \"For projects of 50 or more units, contractors must participate in a state-approved apprenticeship program or provide health benefits for their workers.\",\n    \"AB 2011 addresses the need to increase housing supply to make affordable housing a reality.\",\n    \"The bill aims to unlock more sites to build necessary housing while supporting the workers involved.\",\n    \"An analysis found the potential for building three million units of affordable housing in just the Bay Area and Los Angeles County.\",\n    \"The bill promotes climate-friendly affordable development on sites close to jobs and transit.\",\n    \"California is facing a shortfall of more than one million affordable homes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "667ba801eaa239173af4708738aad94e8ae18746"
+}

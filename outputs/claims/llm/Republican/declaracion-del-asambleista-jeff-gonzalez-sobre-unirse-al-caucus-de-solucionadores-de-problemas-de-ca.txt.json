@@ -1,0 +1,13 @@
+{
+  "press_release": "declaracion-del-asambleista-jeff-gonzalez-sobre-unirse-al-caucus-de-solucionadores-de-problemas-de-ca.txt",
+  "party": "Republican",
+  "title": "INDIO —Hoy, el Asambleísta Jeff Gonzalez ( R-Indio ) publicó la siguiente declaración al unirse al Caucus de Solucionadores de Problemas de California:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b016df32426bea3b61c0698f5d1cd3615c93c3d5"
+}

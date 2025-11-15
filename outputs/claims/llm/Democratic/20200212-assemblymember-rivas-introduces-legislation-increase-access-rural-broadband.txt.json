@@ -1,0 +1,13 @@
+{
+  "press_release": "20200212-assemblymember-rivas-introduces-legislation-increase-access-rural-broadband.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:14:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Rural communities are often underserved and overlooked when it comes to basic services that should be available to all Californians.\",\n    \"Socioeconomic status is linked to high-speed connectivity at home.\",\n    \"Access to high-speed internet is critical for participati",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Rural communities are often underserved and overlooked when it comes to basic services that should be available to all Californians.\",\n    \"Socioeconomic status is linked to high-speed connectivity at home.\",\n    \"Access to high-speed internet is critical for participation in civic, economic, and education systems.\",\n    \"Rural areas face challenges accessing basic healthcare services.\",\n    \"The E-Consult program would expand network capabilities by increasing access to specialty care through telehealth.\",\n    \"Utilizing evolving technologies can create greater efficiencies in rural communities.\",\n    \"A resilient communications network is necessary to aid first responders during natural disasters.\",\n    \"The E-Consult Services and Telehealth Assistance Program would improve access to specialty care in rural and medically underserved urban communities.\",\n    \"Many rural Californians do not have easy access to filing court documents in person.\",\n    \"Encouraging courts to offer electronic filing can remove fiscal disincentives for those services.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b5ecf7ad37611804cf928b2c615ad5cfb65a5566"
+}

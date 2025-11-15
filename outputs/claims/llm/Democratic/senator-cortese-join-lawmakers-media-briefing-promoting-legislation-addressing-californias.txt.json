@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-join-lawmakers-media-briefing-promoting-legislation-addressing-californias.txt",
+  "party": "Democratic",
+  "title": "WHAT: State Senator Dave Cortese (D-San Jose) will join lawmakers who are separately authoring legislation addressing California’s fentanyl crisis. Senator Cortese will discuss his",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"SB 10 would create opioid prevention and education programs in California schools.\",\n    \"SB 10 aims to provide school staff, students, and their families with information about the growing risk of opioids.\",\n    \"SB 10 is designed to equip educators and other schoo",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"SB 10 would create opioid prevention and education programs in California schools.\",\n    \"SB 10 aims to provide school staff, students, and their families with information about the growing risk of opioids.\",\n    \"SB 10 is designed to equip educators and other school staff with the knowledge and tools to save a child who overdoses on campus.\",\n    \"The bipartisan bill SB 10 is supported by California’s teachers and other school and law enforcement groups.\",\n    \"The bill aligns with the Governor’s budget proposal to ensure every middle and high school can access and afford the opioid antagonist Naloxone.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "84977872667223c3c313488f50dfa0b7a33dd2e2"
+}

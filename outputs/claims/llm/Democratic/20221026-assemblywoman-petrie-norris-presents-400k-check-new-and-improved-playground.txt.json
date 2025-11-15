@@ -1,0 +1,13 @@
+{
+  "press_release": "20221026-assemblywoman-petrie-norris-presents-400k-check-new-and-improved-playground.txt",
+  "party": "Democratic",
+  "title": "LAGUNA BEACH",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:50:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Play is essential to development as it contributes to the cognitive, physical, social, and emotional well-being of young people.\",\n    \"Younger children thrive on play-based learning that cannot be equivalently replaced by digital means.\",\n    \"Play encourages communicat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Play is essential to development as it contributes to the cognitive, physical, social, and emotional well-being of young people.\",\n    \"Younger children thrive on play-based learning that cannot be equivalently replaced by digital means.\",\n    \"Play encourages communication, improves cognitive development, and encourages relationship building.\",\n    \"Structured play includes rules or boundaries to teach critical skills such as leadership, teamwork, listening, problem-solving, goal setting, and how to grow from failing.\",\n    \"Free play allows children to use their creativity to develop imagination while discovering talents on their own.\",\n    \"Play teaches children to learn and practice self-regulation, decision making skills, empathy, and conflict resolution.\",\n    \"Anxiety and depression levels directly correlate to screen time.\",\n    \"Being outdoors in the sunshine and fresh air produces stronger immune systems and general happiness.\",\n    \"The play yard will support Science, Technology, Engineering, Art, and Math (STEAM) education.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3378095ebd2f59cd0309082e1a114bee16ac5b42"
+}

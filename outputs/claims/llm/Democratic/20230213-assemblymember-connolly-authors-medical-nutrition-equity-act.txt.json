@@ -1,0 +1,13 @@
+{
+  "press_release": "20230213-assemblymember-connolly-authors-medical-nutrition-equity-act.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:54:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Medical nutrition therapy can be a successful alternative to medication treatment for several diseases, including Crohn's disease.\",\n    \"Medical nutrition therapy has substantial benefits for pediatric patients because they may not have access to, or may not be able to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Medical nutrition therapy can be a successful alternative to medication treatment for several diseases, including Crohn's disease.\",\n    \"Medical nutrition therapy has substantial benefits for pediatric patients because they may not have access to, or may not be able to use, certain medications.\",\n    \"Patients with Intestinal Bowel Disease (IBD) can utilize medically necessary foods for nutritional support and to help them achieve remission.\",\n    \"Early treatment options for metabolic and digestive diseases like Crohn's have proven to reduce harm and increase quality of life.\",\n    \"AB 620 provides patients with a proven successful alternative to certain medications.\",\n    \"Exclusive enteral nutrition (EEN) as a means to induce remission is safer, improves growth, and encourages healing in children over steroid therapy.\",\n    \"Enteral nutrition is a way to give the patient's body what it needs to stay healthy.\",\n    \"Inherited metabolic disorders and digestive diseases including IBD affect millions of Americans, with as many as 70,000 new cases of IBD diagnosed each year.\",\n    \"Medically necessary foods have proven to reduce symptoms and improve quality of life.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "323127f8a502d7bbd11165421ba33d081d1954dc"
+}

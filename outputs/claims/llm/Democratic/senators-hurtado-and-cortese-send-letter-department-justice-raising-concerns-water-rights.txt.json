@@ -1,0 +1,13 @@
+{
+  "press_release": "senators-hurtado-and-cortese-send-letter-department-justice-raising-concerns-water-rights.txt",
+  "party": "Democratic",
+  "title": "Today, Senator Melissa Hurtado (D-Sanger) and Senator Dave Cortese (D-Silicon Valley) sent a letter to United States Attorney General Merrick Garland raising their concerns about t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Private interests are purchasing local water rights, which could lead to significant economic and social impacts.\",\n    \"Water scarcity in California is worsening due to climate change, pollution, and increased demand.\",\n    \"Approximately 70 million people in the Wester",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Private interests are purchasing local water rights, which could lead to significant economic and social impacts.\",\n    \"Water scarcity in California is worsening due to climate change, pollution, and increased demand.\",\n    \"Approximately 70 million people in the Western United States depend on the water provided by the Colorado River and the Sacramento-San Joaquin Delta.\",\n    \"Hydropower facilities along the Colorado River provide more than 4,200 megawatts of energy.\",\n    \"The price of agricultural products in the Central Valley has increased due to drought conditions.\",\n    \"Access to safe drinking water and freshwater resources is critical for the health of California’s economy and communities.\",\n    \"Recent reports indicate that private investor interest in purchasing water rights has markedly increased since the 2015 water crisis in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4bdca68bfda1866651f058c06ca86e47b4432f4f"
+}

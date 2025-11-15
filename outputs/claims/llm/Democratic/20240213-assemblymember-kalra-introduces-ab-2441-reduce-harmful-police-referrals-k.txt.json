@@ -1,0 +1,13 @@
+{
+  "press_release": "20240213-assemblymember-kalra-introduces-ab-2441-reduce-harmful-police-referrals-k.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Excessive policing of children in public schools has fueled the school-to-prison pipeline.\",\n    \"Students who interact with law enforcement are less likely to complete high school and more likely to have contact with the criminal legal system.\",\n    \"The presence of sch",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Excessive policing of children in public schools has fueled the school-to-prison pipeline.\",\n    \"Students who interact with law enforcement are less likely to complete high school and more likely to have contact with the criminal legal system.\",\n    \"The presence of school police has no impact on student crime rates and is correlated with increased student misconduct.\",\n    \"Students with disabilities constitute 26 percent of student arrests despite making up only 11 percent of the student population.\",\n    \"The outcomes for Black and Latinx boys with disabilities in relation to school arrests are worse than those for their peers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "79ee8e9b5fe965d6eeccf7337c3dc20e65a1fcbf"
+}

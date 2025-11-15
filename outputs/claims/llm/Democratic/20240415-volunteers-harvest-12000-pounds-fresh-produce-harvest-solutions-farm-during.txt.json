@@ -1,0 +1,13 @@
+{
+  "press_release": "20240415-volunteers-harvest-12000-pounds-fresh-produce-harvest-solutions-farm-during.txt",
+  "party": "Democratic",
+  "title": "Irvine, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:39:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "85cee1664b46fefc88a5cb937168b9cc46ddba85"
+}

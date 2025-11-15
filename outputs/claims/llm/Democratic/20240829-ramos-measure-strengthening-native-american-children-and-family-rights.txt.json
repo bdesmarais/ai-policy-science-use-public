@@ -1,0 +1,13 @@
+{
+  "press_release": "20240829-ramos-measure-strengthening-native-american-children-and-family-rights.txt",
+  "party": "Democratic",
+  "title": "For Release                                                                 Contact: Maria L. Lopez",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 81 aims to fortify the federal Indian Child Welfare Act (ICWA) established in 1978.\",\n    \"A recent Department of Interior report found that almost 1,000 Native students died at boarding schools and suffered physical and psychological abuse.\",\n    \"AB 81 strengthens p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 81 aims to fortify the federal Indian Child Welfare Act (ICWA) established in 1978.\",\n    \"A recent Department of Interior report found that almost 1,000 Native students died at boarding schools and suffered physical and psychological abuse.\",\n    \"AB 81 strengthens protections for California Indian children in the welfare and institutions code.\",\n    \"AB 81 requires clear notice of proceedings to parents, direct lineal ancestors, and custodians of the child in Indian child welfare cases.\",\n    \"AB 81 enshrines the state's duty to consult with local federally and non-federally recognized tribes regarding the placement of Native children.\",\n    \"The U.S. Supreme Court upheld the decades-old ICWA law and the rights of Native families and communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e38666b46841cbeec5bfa6d878028433817a6263"
+}

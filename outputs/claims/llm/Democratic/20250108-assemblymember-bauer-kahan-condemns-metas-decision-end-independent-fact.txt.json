@@ -1,0 +1,13 @@
+{
+  "press_release": "20250108-assemblymember-bauer-kahan-condemns-metas-decision-end-independent-fact.txt",
+  "party": "Democratic",
+  "title": "[Sacramento, CA] — Assemblymember Rebecca Bauer-Kahan, Chair of the Assembly Committee on Privacy and Consumer Protection, and a staunch advocate for transparency and accountabilit",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:23:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Meta's decision to eliminate its independent fact-checking program on Facebook and Instagram undermines ongoing efforts to combat misinformation.\",\n    \"The elimination of the independent fact-checking program exposes users, particularly vulnerable populations like ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Meta's decision to eliminate its independent fact-checking program on Facebook and Instagram undermines ongoing efforts to combat misinformation.\",\n    \"The elimination of the independent fact-checking program exposes users, particularly vulnerable populations like children and teens, to harmful content.\",\n    \"Meta's abandonment of the independent fact-checking program in favor of unvetted, user-generated community notes is a step backward in the fight against misinformation.\",\n    \"There is a risk that Meta's shift places the onus on the user community to report harmful content instead of trained fact-checking professionals.\",\n    \"Meta's platforms may amplify their role in the youth mental health crisis as a result of this policy change.\",\n    \"Mark Zuckerberg has acknowledged that the policy shift will result in catching less harmful content.\",\n    \"The decision to abandon independent fact-checking could have ramifications for public trust, safety, and the integrity of online discourse.\",\n    \"Misinformation and harmful content on social media platforms have real-world consequences.\",\n    \"There is a growing demand for innovative policies to hold social media companies accountable for their impact on children and families.\",\n    \"Assembly Bill 56 requires social media companies to disclose risks associated with their platforms by adding warning labels to enhance user awareness.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "821a5c893f62d419cf5741ba626939981ac03cde"
+}

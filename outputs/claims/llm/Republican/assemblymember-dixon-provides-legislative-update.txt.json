@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-provides-legislative-update.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1774 prohibits the sale and use of E-Bike speed modifying kits to enhance youth safety.\",\n    \"The Black Abalone is now on the endangered species list and was nearly eliminated by Withering Foot Syndrome in the early 1980s.\",\n    \"AB 2067 requires financial",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1774 prohibits the sale and use of E-Bike speed modifying kits to enhance youth safety.\",\n    \"The Black Abalone is now on the endangered species list and was nearly eliminated by Withering Foot Syndrome in the early 1980s.\",\n    \"AB 2067 requires financial institutions with more than nine branches in California to designate locations for service of legal processes to improve accessibility and efficiency.\",\n    \"AB 2337 authorizes the use of electronic signatures for proceedings with the Workers’ Compensation Appeals Board to increase efficiency within the Workers Compensation legal system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0c3aed909cdceed55ba4aa79f88092c085713846"
+}

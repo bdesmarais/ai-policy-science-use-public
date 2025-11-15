@@ -1,0 +1,13 @@
+{
+  "press_release": "20220822-assemblymember-haneys-statement-governor-newsoms-veto-safe-consumption.txt",
+  "party": "Democratic",
+  "title": "“SB 57, the overdose prevention sites legislation authored by Senator Scott Wiener and co- authored by me, was just vetoed by Governor Newsom.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:45:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Overdose prevention programs are also known as safe consumption sites.\",\n    \"Overdose prevention programs save lives.\",\n    \"Overdose prevention programs move drug use off of streets and into safe facilities.\",\n    \"Medical staff at overdose prevention programs are trai",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Overdose prevention programs are also known as safe consumption sites.\",\n    \"Overdose prevention programs save lives.\",\n    \"Overdose prevention programs move drug use off of streets and into safe facilities.\",\n    \"Medical staff at overdose prevention programs are trained in overdose prevention and can offer treatment and rehabilitation services.\",\n    \"In over 170 overdose prevention facilities worldwide, not a single overdose death has ever happened in the decades these programs have been operating.\",\n    \"Overdose prevention programs are a critical part of ending the overdose epidemic in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0f619169189fe5a07d4d6c112f1fb6dbf5fc5aaa"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-bill-prioritize-california-oil-production-passes-senate.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) announced that her bill Senate Bill 15 to encourage the production of environmentally responsible oil in California unanimously passed out of ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's in-state oil producers could replace much of the oil imported into the state.\",\n    \"Expanding oil production in California could provide thousands of jobs.\",\n    \"Reliance on foreign oil imports affects California's energy security.\",\n    \"Some foreign coun",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's in-state oil producers could replace much of the oil imported into the state.\",\n    \"Expanding oil production in California could provide thousands of jobs.\",\n    \"Reliance on foreign oil imports affects California's energy security.\",\n    \"Some foreign countries do not share California's values regarding human rights, labor rights, and environmental rights.\",\n    \"Producing oil in California could enhance local consumption.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "59586830358066234caf815d9edae73aa1d29ca6"
+}

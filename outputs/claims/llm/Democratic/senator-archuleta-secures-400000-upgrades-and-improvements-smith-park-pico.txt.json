@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-archuleta-secures-400000-upgrades-and-improvements-smith-park-pico.txt",
+  "party": "Democratic",
+  "title": "NORWALK CA – State Senator Bob Archuleta has secured nearly $400,000 for the city of Pico Rivera to improve three of its Parks and Recreation facilities. The money is part of the $",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The money secured by State Senator Bob Archuleta for Pico Rivera amounts to nearly $400,000.\",\n    \"The budget signed by Governor Gavin Newsom is the largest in the state’s history at $214.8 billion.\",\n    \"The playground at Rio Hondo Park is 18 years old and poses a saf",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The money secured by State Senator Bob Archuleta for Pico Rivera amounts to nearly $400,000.\",\n    \"The budget signed by Governor Gavin Newsom is the largest in the state’s history at $214.8 billion.\",\n    \"The playground at Rio Hondo Park is 18 years old and poses a safety hazard.\",\n    \"The playground at Veterans and Ladies Auxiliary Park is 16 years old and does not meet basic safety standards as defined by the Consumer Product Safety Commission.\",\n    \"The heating system for the Smith Park pool is beyond repair and not energy efficient.\",\n    \"The pool at Smith Park is experiencing water loss, requiring it to be constantly refilled.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "207dcd48670f4ec7d2894392be4eeaf1bc46c927"
+}

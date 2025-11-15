@@ -1,0 +1,13 @@
+{
+  "press_release": "20240110-assemblymember-arambula-reacts-governor-newsoms-proposed-budget-2024-25.txt",
+  "party": "Democratic",
+  "title": "FRESNO – Assemblymember Dr. Joaquin Arambula (D-Fresno) today responded to Governor Gavin Newsom’s $291.5 billion budget proposal for fiscal year 2024-25:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Access to preventive health care helps avert more critical, emergency, and expensive health care costs.\",\n    \"Expanding full scope Medi-Cal access to all income-eligible adults, regardless of immigration status, is life-changing for many people and their families.\"\n  ]\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Access to preventive health care helps avert more critical, emergency, and expensive health care costs.\",\n    \"Expanding full scope Medi-Cal access to all income-eligible adults, regardless of immigration status, is life-changing for many people and their families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b891246879bd0b9cf0151f04dad4564d55a7d61b"
+}

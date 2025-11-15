@@ -1,0 +1,13 @@
+{
+  "press_release": "20240916-assemblymember-gipson-introduced-bill-stabilize-gas-prices-and-protect.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:16:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom has called the Legislature into a special session to focus on stabilizing California’s gas prices.\",\n    \"Assemblymember Mike A. Gipson introduced AB X2-8 to delay air pollution regulations on petroleum tanker vessels.\",\n    \"Delaying the implementa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom has called the Legislature into a special session to focus on stabilizing California’s gas prices.\",\n    \"Assemblymember Mike A. Gipson introduced AB X2-8 to delay air pollution regulations on petroleum tanker vessels.\",\n    \"Delaying the implementation of air pollution regulations will ensure that California’s fuel supply remains stable and accessible.\",\n    \"Without immediate action, California risks compounding the burden of high gas prices by disrupting its fuel supply.\",\n    \"The tanker fleet transports 75% of California’s imported crude oil.\",\n    \"Forcing the tanker fleet to reduce ship visits could lead to fuel shortages and increased gas prices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c01e29cbf24bd058b01479ca50070d3efc4ace65"
+}

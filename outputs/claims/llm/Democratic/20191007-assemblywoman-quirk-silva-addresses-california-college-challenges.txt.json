@@ -1,0 +1,13 @@
+{
+  "press_release": "20191007-assemblywoman-quirk-silva-addresses-california-college-challenges.txt",
+  "party": "Democratic",
+  "title": "ASSEMBLYWOMAN QUIRK-SILVA ADDRESSES CALIFORNIA COLLEGE CHALLENGES",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill (AB) 136 prevents anyone found guilty in the college admissions scandal from taking tax deductions for donations made to the charities involved.\",\n    \"More than fifty people were indicted by federal prosecutors in March 2019 with charges related to the col",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill (AB) 136 prevents anyone found guilty in the college admissions scandal from taking tax deductions for donations made to the charities involved.\",\n    \"More than fifty people were indicted by federal prosecutors in March 2019 with charges related to the college admissions scandal.\",\n    \"The criminal actions in the college admissions scandal victimized hardworking and low-income students who were denied admissions.\",\n    \"The actions of those involved in the college admissions scandal occurred at the expense of California taxpayers.\",\n    \"The College Promise Program aims to provide working-class students and their families assurance that the cost of higher education will be within their reach.\",\n    \"A reinvestment in students is presented as an investment in California's future by ensuring well-educated students and a skilled workforce.\",\n    \"A state audit uncovered that the California State University has been funneling hundreds of millions to accounts outside of the State Treasury.\",\n    \"CSU has disregarded state laws by using millions of dollars in revenue from campus parking permit fees to fund projects unrelated to the CSU parking program.\",\n    \"The surplus from parking permit fees was hidden in separate accounts that were not subject to public and state oversight.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9e4b8867b64c549822fafc07f7668f2f8e366824"
+}

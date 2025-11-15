@@ -1,0 +1,13 @@
+{
+  "press_release": "20200513-assemblymember-robert-rivas-announces-passage-natural-and-working-lands.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Natural and Working Lands Climate Goal Bill aims to help California achieve its target of carbon neutrality by 2045.\",\n    \"California's natural and working lands comprise 90% of the State’s landscape.\",\n    \"Natural and working lands in California have the potential",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Natural and Working Lands Climate Goal Bill aims to help California achieve its target of carbon neutrality by 2045.\",\n    \"California's natural and working lands comprise 90% of the State’s landscape.\",\n    \"Natural and working lands in California have the potential to sequester significant amounts of carbon in soils, plants, and trees.\",\n    \"The bill requires the California Air Resources Board to identify an overall climate goal for the state's natural and working lands.\",\n    \"The Air Resources Board will identify best practices, policy incentives, and ways to reduce barriers to help achieve carbon neutrality.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2d2cc698f55712ebf64a0836de4cc97e784ef5dc"
+}

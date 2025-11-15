@@ -1,0 +1,13 @@
+{
+  "press_release": "20220119-following-texas-hostage-standoff-jewish-caucus-chair-introduces-legislation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Nonprofit Security Grant Program was established in 2019 in response to the deadly shooting at Chabad of Poway.\",\n    \"The Nonprofit Security Grant Program has funded critical security enhancements at religious institutions and other nonprofits at risk from violent e",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Nonprofit Security Grant Program was established in 2019 in response to the deadly shooting at Chabad of Poway.\",\n    \"The Nonprofit Security Grant Program has funded critical security enhancements at religious institutions and other nonprofits at risk from violent extremism.\",\n    \"Last year’s state budget included a $50 million allocation for the Nonprofit Security Grant Program.\",\n    \"The new legislation will create more flexibility for how grant funding may be used, including for security training.\",\n    \"Rabbi Charlie Cytron-Walker credited the security training he received from local and national organizations with helping to save his life and the lives of others during the hostage situation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8270000f00c3cd666939b1830ca69a34ce863dd7"
+}

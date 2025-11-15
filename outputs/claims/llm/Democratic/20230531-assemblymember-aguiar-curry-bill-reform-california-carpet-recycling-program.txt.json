@@ -1,0 +1,13 @@
+{
+  "press_release": "20230531-assemblymember-aguiar-curry-bill-reform-california-carpet-recycling-program.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California consumers have paid a carpet stewardship assessment fee since July 2011 when purchasing carpet sold in California.\",\n    \"The Carpet America Recovery Effort (CARE) is a Producer Responsibility Organization designed and implemented by carpet manufacturers.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California consumers have paid a carpet stewardship assessment fee since July 2011 when purchasing carpet sold in California.\",\n    \"The Carpet America Recovery Effort (CARE) is a Producer Responsibility Organization designed and implemented by carpet manufacturers.\",\n    \"CARE has repeatedly failed to administer the carpet recycling program effectively and equitably.\",\n    \"Recyclers and collectors have left California or gone out of business due to a lack of feedstock for carpet recycling.\",\n    \"Carpet continues to be landfilled despite the existence of the CARE program.\",\n    \"The current carpet recycling system in California has not met its goals.\",\n    \"Four major carpet processing facilities in California are no longer operational due to consistently poor performance by CARE.\",\n    \"The closure of the Woodland facility resulted in the loss of fifty green jobs, with those jobs moving to an Arizona facility.\",\n    \"Assembly Bill 863 aims to increase accountability for CARE and ensure that consumer fees are used to create jobs in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0027bbe1ee6a9aae1997218afd2160b2f4473f51"
+}

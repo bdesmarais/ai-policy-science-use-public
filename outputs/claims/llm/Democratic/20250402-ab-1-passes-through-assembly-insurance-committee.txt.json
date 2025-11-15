@@ -1,0 +1,13 @@
+{
+  "press_release": "20250402-ab-1-passes-through-assembly-insurance-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) presented AB 1 to the Assembly Insurance Committee, where the bill passed with unanimous and bipartisan support",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:31:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The current state of the insurance market is leaving thousands of families without coverage.\",\n    \"AB 1 will help consumers save money on their insurance bills while mitigating wildfire risk.\",\n    \"In areas where wildfire risks are high, insurance is increasingly unaff",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The current state of the insurance market is leaving thousands of families without coverage.\",\n    \"AB 1 will help consumers save money on their insurance bills while mitigating wildfire risk.\",\n    \"In areas where wildfire risks are high, insurance is increasingly unaffordable and absent.\",\n    \"The Safer from Wildfires program is the only avenue open to consumers to receive direct discounts for hardening their homes and neighborhoods.\",\n    \"As new and safer building materials come to market and wildfire prevention methods evolve, it is important to periodically revisit the regulations to ensure adequate relief is offered to community members.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0d8649d2e5dadb0f538e6590bdee92dc248bf0b8"
+}

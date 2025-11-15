@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-responds-to-state-of-the-state-address-03-08-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republican Leader James Gallagher (Yuba City) issued the following statement in response to Governor Newsom’s State of the State address:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8999bb2962c8095cba4649ddb694f11af1592a80"
+}

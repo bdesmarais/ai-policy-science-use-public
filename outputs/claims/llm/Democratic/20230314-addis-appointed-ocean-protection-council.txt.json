@@ -1,0 +1,13 @@
+{
+  "press_release": "20230314-addis-appointed-ocean-protection-council.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — Assemblymember Dawn Addis (D-Morro Bay) today announced that Speaker Anthony Rendon (D-Lakewood) appointed her to the Ocean Protection Council.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:56:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "523d20f361e2f8efc0642374d3e69c7247a0c479"
+}

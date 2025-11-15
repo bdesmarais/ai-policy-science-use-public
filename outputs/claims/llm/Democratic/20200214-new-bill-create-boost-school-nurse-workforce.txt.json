@@ -1,0 +1,13 @@
+{
+  "press_release": "20200214-new-bill-create-boost-school-nurse-workforce.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif – Assemblymember Mike A. Gipson (D-Carson) introduced AB 2175, which will improve access for aspiring school nurses in California by authorizing local education a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:14:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"By 2030, California will face the nation’s largest shortage of nurses.\",\n    \"School nurses serve an important role in addressing children’s medical needs.\",\n    \"Accessibility to school nurse-specific programs is limited and costly.\",\n    \"School nursing candidates are ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"By 2030, California will face the nation’s largest shortage of nurses.\",\n    \"School nurses serve an important role in addressing children’s medical needs.\",\n    \"Accessibility to school nurse-specific programs is limited and costly.\",\n    \"School nursing candidates are subjected to increased licensing requirements beyond the typical accreditation process.\",\n    \"California has a 2500:1 student-to-nurse ratio.\",\n    \"Opening the credentialing process to local educational agencies will create more opportunities for school nurses in California.\",\n    \"California’s shortage of registered nurses has made the job market for employers of nurses extremely competitive.\",\n    \"Most local education agencies lack adequate funding to compensate their nursing staffs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1d45b4aee9e41a17a89bab728dccd71082aa008e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20200702-business-interruption-insurance-claims-be-honored-under-bill.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1552 will provide financial relief to California small business owners whose COVID-19 claim applications were denied.\",\n    \"Small business owners have long paid costly rates for business interruption insurance to protect against unexpected circumstances.\",",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1552 will provide financial relief to California small business owners whose COVID-19 claim applications were denied.\",\n    \"Small business owners have long paid costly rates for business interruption insurance to protect against unexpected circumstances.\",\n    \"COVID-19 threatens the futures of small businesses as they confront employee layoffs and closures.\",\n    \"AB 1552 would presume that COVID-19 is the cause of direct physical damage to the insured business site.\",\n    \"The total surplus for U.S. insurers is reported to be $800 billion.\",\n    \"Insurance companies are denying claims without a fair investigation in some instances.\",\n    \"California's status as the fifth largest global economy depends on the state's four million small businesses.\",\n    \"Businesses with fewer than 100 employees represent 97 percent of all businesses in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "717fdd10dbb574bafe0e629b16814e657113e051"
+}

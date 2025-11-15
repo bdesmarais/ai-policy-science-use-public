@@ -1,0 +1,13 @@
+{
+  "press_release": "20230804-legislation-reduce-light-pollution-progresses-senate-committee.txt",
+  "party": "Democratic",
+  "title": "A bill to mitigate excess light pollution is advancing through the legislature. AB 38 would reduce night lighting, or Artificial Light at Night (ALAN), in state buildings to protec",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:05:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Artificial Light at Night (ALAN) has increased to unprecedented levels globally and in California.\",\n    \"ALAN disruption affects the circadian rhythms of plants and animals, negatively impacting ecosystems.\",\n    \"ALAN can be fatal to animals, including birds, by disori",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Artificial Light at Night (ALAN) has increased to unprecedented levels globally and in California.\",\n    \"ALAN disruption affects the circadian rhythms of plants and animals, negatively impacting ecosystems.\",\n    \"ALAN can be fatal to animals, including birds, by disorienting them and causing collisions with structures.\",\n    \"The United Nations states that ALAN can impact migration times and other seasonal behaviors of migrating birds.\",\n    \"Research indicates that adolescents living in areas with higher levels of outdoor ALAN report less favorable sleep patterns and greater prevalence of mood and anxiety disorders.\",\n    \"The International Dark-Sky Association estimates that at least 30 percent of outdoor lighting in the United States is wasted annually due to unshielded lights.\",\n    \"Wasted outdoor lighting contributes to the release of 21 million tons of carbon dioxide every year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "db0220a56bbc99af7532ffae47cd5e213d5ca745"
+}

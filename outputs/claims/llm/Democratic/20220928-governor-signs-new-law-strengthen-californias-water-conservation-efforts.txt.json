@@ -1,0 +1,13 @@
+{
+  "press_release": "20220928-governor-signs-new-law-strengthen-californias-water-conservation-efforts.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is experiencing its driest period in at least 1,200 years.\",\n    \"Assembly Bill 2142 enhances the value of rebates for installing drought-tolerant landscaping by exempting them from taxation.\",\n    \"Exempting rebate programs from taxable income serves as an im",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is experiencing its driest period in at least 1,200 years.\",\n    \"Assembly Bill 2142 enhances the value of rebates for installing drought-tolerant landscaping by exempting them from taxation.\",\n    \"Exempting rebate programs from taxable income serves as an important incentive to help reduce water use.\",\n    \"California’s large reservoirs are depleted.\",\n    \"The snowpack in California has shrunk to 12 percent of what it usually is this time of year.\",\n    \"California's current megadrought is the worst in at least 1,200 years.\",\n    \"A study from the service area of the Metropolitan Water District of Southern California found that 68 percent of traditional landscaping and turf replacement rebates went to low- and medium-income households.\",\n    \"A report from the San Diego County Water Authority found that 55 percent of rebate recipients were low- and medium-income families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b9325efdd909138ac1e32fc814d27c7a28cf303a"
+}

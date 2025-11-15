@@ -1,0 +1,13 @@
+{
+  "press_release": "demaio-to-introduce-ca-insurance-reform-and-rate-stabilization-initiative-ab-567.txt",
+  "party": "Republican",
+  "title": "DeMaio offers “Cap and Cut” Plan to shield homeowners from massive rate spikes by capping insurance rate increases for 4 years while driving down cost of insurance and reducing wil",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"DeMaio's bill would cap insurance rate increases at no more than 7% a year for the next 4 years.\",\n    \"The bill is expected to save the typical homeowner thousands of dollars.\",\n    \"California's current insurance crisis is caused by a massive surge in inflation that ha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"DeMaio's bill would cap insurance rate increases at no more than 7% a year for the next 4 years.\",\n    \"The bill is expected to save the typical homeowner thousands of dollars.\",\n    \"California's current insurance crisis is caused by a massive surge in inflation that has increased the cost of home damage repair significantly.\",\n    \"The severity of wildfires in California is exacerbated by the refusal of state politicians to adhere to proper forest and brush management practices.\",\n    \"Current insurance regulations prevent insurance companies from providing cost-efficient policies that reflect rapidly changing market conditions.\",\n    \"DeMaio proposes reforms to construction regulations to drive down construction costs linked to property damage.\",\n    \"DeMaio demands immediate action to reform fire management policies to reduce the risk of severe wildfires.\",\n    \"DeMaio proposes allocating at least $1 billion a year in state funding for fuel reduction programs.\",\n    \"The insurance industry would be required to provide affordable coverage in areas where fire risk has been reduced through these programs.\",\n    \"DeMaio suggests suspending the current state insurance tax to achieve a 7% cap on rate increases.\",\n    \"DeMaio proposes redirecting funds from climate change programs to offset insurance costs.\",\n    \"A federal reinsurance program is necessary to stabilize the national insurance market during inflation and other challenges.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "64725a519aae71327be409c835fd710a0cbca7f4"
+}

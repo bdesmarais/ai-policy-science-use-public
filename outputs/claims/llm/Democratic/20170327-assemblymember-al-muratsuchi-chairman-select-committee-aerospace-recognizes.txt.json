@@ -1,0 +1,13 @@
+{
+  "press_release": "20170327-assemblymember-al-muratsuchi-chairman-select-committee-aerospace-recognizes.txt",
+  "party": "Democratic",
+  "title": "Resolutions acknowledge contributions of Aerospace and Aviation industries",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:54:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The aerospace industry in California boasts a gross domestic product exceeding that of the state's film and agricultural industries combined.\",\n    \"More than 200,000 Californians are directly employed in the aerospace industry.\",\n    \"The aerospace industry in Californi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The aerospace industry in California boasts a gross domestic product exceeding that of the state's film and agricultural industries combined.\",\n    \"More than 200,000 Californians are directly employed in the aerospace industry.\",\n    \"The aerospace industry in California brings in nearly three billion dollars annually in taxes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "430376271bbdbbc4db9be1a6fc876ba98f19d9ca"
+}

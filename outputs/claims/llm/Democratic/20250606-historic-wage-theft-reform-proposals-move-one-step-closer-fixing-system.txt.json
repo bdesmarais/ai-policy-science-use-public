@@ -1,0 +1,13 @@
+{
+  "press_release": "20250606-historic-wage-theft-reform-proposals-move-one-step-closer-fixing-system.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:38:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Californians lose $2 billion per year due to violations of minimum wage law alone.\",\n    \"In California, just 12% of wage theft cases are enforced.\",\n    \"Of the cases enforced in California, only one in seven employees recover the full amount of stolen wages.\",\n    \"A 2",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Californians lose $2 billion per year due to violations of minimum wage law alone.\",\n    \"In California, just 12% of wage theft cases are enforced.\",\n    \"Of the cases enforced in California, only one in seven employees recover the full amount of stolen wages.\",\n    \"A 2024 audit found the Labor Commissioner had a backlog of 47,000 unprocessed claims.\",\n    \"Between 2018 and 2023, the Labor Commissioner’s Judgement Enforcement Unit was successful in collecting the entire amount owed in just 12 percent of the cases referred to the state for enforcement.\",\n    \"A 2022 investigation found that only one in seven court-issued judgments are paid by employers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc572eb9fe37173d207d8214f0292ae262a5678d"
+}

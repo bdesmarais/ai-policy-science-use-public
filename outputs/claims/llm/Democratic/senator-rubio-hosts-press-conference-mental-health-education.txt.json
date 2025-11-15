@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-rubio-hosts-press-conference-mental-health-education.txt",
+  "party": "Democratic",
+  "title": "Senator Susan Rubio hosts a press conference for SB 531 supporting student mental health education.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dbd98cb6615cd408a3e320789c72802238107395"
+}

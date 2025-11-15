@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-senator-corteses-bill-provide-parity-classified-school-employees.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese’s (D-San Jose) bill, SB 874, to provide parity to classified school employees of merit system K-12 and California Community College districts has been signed i",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "60a6a9e75cefdf37bfeb70a2b65db16f1ff27ecd"
+}

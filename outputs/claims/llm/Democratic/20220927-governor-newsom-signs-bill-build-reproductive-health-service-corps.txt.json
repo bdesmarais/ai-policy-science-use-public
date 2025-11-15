@@ -1,0 +1,13 @@
+{
+  "press_release": "20220927-governor-newsom-signs-bill-build-reproductive-health-service-corps.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:48:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California could see an increase in out-of-state patients from '46,000 to 1.4 million - a nearly 3,000 percent increase,' as reported in the Future of Abortion Council December report.\",\n    \"AB 1918 creates the California Reproductive Health Service Corps, which will be",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California could see an increase in out-of-state patients from '46,000 to 1.4 million - a nearly 3,000 percent increase,' as reported in the Future of Abortion Council December report.\",\n    \"AB 1918 creates the California Reproductive Health Service Corps, which will be responsible for recruiting, training, and retaining a culturally and linguistically diverse workforce of health care professionals.\",\n    \"40% of counties in California do not have an abortion provider and nine counties do not have a single OB-GYN.\",\n    \"AB 1918 will fund the necessary training to expand access to reproductive care in underserved areas of the state.\",\n    \"The legislation aims to increase the network of clinicians trained to provide essential abortion services, focusing on increasing diversity to better reflect the communities served.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "537b5d404bef521d92f91d7070bb07f04eacd291"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "update-republicans-respond-to-democrats-refusal-to-return-to-work-following-inaction-on-call-to-reconvene-11-4-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Legislative Republicans have legislation prepared to address high gas prices, the homelessness crisis, and reclassify crimes such as domestic violence and human trafficking as violent felonies under California penal code.\",\n    \"Californians are facing $6 a gallon gas pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Legislative Republicans have legislation prepared to address high gas prices, the homelessness crisis, and reclassify crimes such as domestic violence and human trafficking as violent felonies under California penal code.\",\n    \"Californians are facing $6 a gallon gas prices and increasing violent crime.\",\n    \"There is growing concern about huge homeless camps near schools as winter months set in.\",\n    \"Legislators should act immediately to address the worsening issues of gas prices, crime, and homelessness.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6bc61084e9192cb76c21ef4dce80729ec690f22c"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230429-assemblymember-dr-corey-jackson-hosts-next-speaker-assembly-robert-rivas.txt",
+  "party": "Democratic",
+  "title": "Perris",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Inland Empire region is facing many of California's biggest challenges related to housing, transportation, and infrastructure at a disproportionate rate.\",\n    \"The Courtyards at Cottonwood is an 81-unit gated community that includes 60 units set aside for lower-inco",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Inland Empire region is facing many of California's biggest challenges related to housing, transportation, and infrastructure at a disproportionate rate.\",\n    \"The Courtyards at Cottonwood is an 81-unit gated community that includes 60 units set aside for lower-income families and 20 units reserved for lower-income seniors.\",\n    \"The development of affordable housing prioritizes underprivileged communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b48cbbf059befef30ee824934cc349299f2816e3"
+}

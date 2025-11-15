@@ -1,0 +1,13 @@
+{
+  "press_release": "20220531-bill-provide-relief-disabled-veterans-passes-out-state-assembly-bipartisan.txt",
+  "party": "Democratic",
+  "title": "AB 2949 has crossed out of the Assembly (73-0) with bipartisan support and bipartisan co-authorship. The bill exempts vehicles registered to US military veterans (including disable",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:42:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2949 exempts vehicles registered to US military veterans from paying tolls on toll bridges and toll highways.\",\n    \"Tolls can be cost-prohibitive throughout the Bay Area and Southern California, impacting individuals who must use them.\",\n    \"Disabled veterans may fi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2949 exempts vehicles registered to US military veterans from paying tolls on toll bridges and toll highways.\",\n    \"Tolls can be cost-prohibitive throughout the Bay Area and Southern California, impacting individuals who must use them.\",\n    \"Disabled veterans may find it more difficult to attain a job or seek ongoing medical care due to financial barriers such as toll costs.\",\n    \"Nearly three in ten disabled veterans report that their impairments have prevented them from getting or keeping a job at some point in their working lives, according to the Pew Research Center.\",\n    \"Two-thirds of disabled veterans who are 100% disabled report that their impairments have prevented them from getting a job.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f9e3b9afff3de5e244279813f33ca9322cb0e822"
+}

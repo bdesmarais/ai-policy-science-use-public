@@ -1,0 +1,13 @@
+{
+  "press_release": "20230824-california-entrega-ayuda-multimillonaria-para-ayudar-reabrir-el-hospital-de.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:06:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Madera Community Hospital will receive immediate financial assistance from the state.\",\n    \"The state allocated a total of $300 million to help the most needy hospitals in California.\",\n    \"Madera Community Hospital is eligible to receive $50 million in financial assis",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Madera Community Hospital will receive immediate financial assistance from the state.\",\n    \"The state allocated a total of $300 million to help the most needy hospitals in California.\",\n    \"Madera Community Hospital is eligible to receive $50 million in financial assistance as part of the interest-free loan program.\",\n    \"The program created will strengthen hospital services throughout California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9d1c75ca1fd66a4470e029ece5e9df8f3bcd8d1b"
+}

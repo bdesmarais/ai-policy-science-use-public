@@ -1,0 +1,13 @@
+{
+  "press_release": "20211022-assemblymember-bauer-kahan-and-city-lafayette-leaders-announce-238000.txt",
+  "party": "Democratic",
+  "title": "Lafayette, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The project will provide students and families with a safe method to walk or bicycle to and from school during peak commute times.\",\n    \"The project is designed to prevent the need to cross dangerous on and off ramps to California Highway 24.\",\n    \"Assemblymember ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The project will provide students and families with a safe method to walk or bicycle to and from school during peak commute times.\",\n    \"The project is designed to prevent the need to cross dangerous on and off ramps to California Highway 24.\",\n    \"Assemblymember Bauer-Kahan and the City of Lafayette secured state funding of $238,000 to design and prepare for the new protected route.\",\n    \"The Lafayette City Council prioritized traffic safety in 2021.\",\n    \"The project will create a multi-use pathway down the middle of Pleasant Hill Road.\",\n    \"Pleasant Hill Road serves approximately 36,000 vehicles daily.\",\n    \"The new path will provide a continuous bikeway network from Acalanes High School to the East Bay Regional Park District’s Lafayette-Moraga Regional Trail.\",\n    \"Improving safe routes to school has the potential to allow more students to bike safely to campus.\",\n    \"The project aims to reduce emissions and collisions while enhancing safety for students and families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "95281d36b7b96ca25b0159f07c0e66b4afec73c2"
+}

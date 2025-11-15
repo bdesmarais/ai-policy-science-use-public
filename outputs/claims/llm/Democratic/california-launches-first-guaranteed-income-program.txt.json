@@ -1,0 +1,13 @@
+{
+  "press_release": "california-launches-first-guaranteed-income-program.txt",
+  "party": "Democratic",
+  "title": "The California Department of Social Services will be awarding more than $25 million in grant funding to seven guaranteed income pilot projects across the state - direct cash assist",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of Social Services is awarding more than $25 million in grant funding to guaranteed income pilot projects across the state.\",\n    \"Monthly payments of $600 to $1,200 will be distributed to at least 1,975 Californians through the guaranteed incom",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of Social Services is awarding more than $25 million in grant funding to guaranteed income pilot projects across the state.\",\n    \"Monthly payments of $600 to $1,200 will be distributed to at least 1,975 Californians through the guaranteed income program.\",\n    \"The California Guaranteed Income Pilot Program aims to help families meet their basic needs and achieve stability and success.\",\n    \"California's first state-funded guaranteed income program is modeled after successful initiatives in Santa Clara County.\",\n    \"Senator Cortese led the creation of Santa Clara County’s first-in-the-nation universal basic income program for transition age foster youth.\",\n    \"The investment of $35,000,000 in the California Guaranteed Income Pilot Program is described as a first-of-its-kind initiative.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bde49384e0f29ba8eca212bcf5c46c9d731158d6"
+}

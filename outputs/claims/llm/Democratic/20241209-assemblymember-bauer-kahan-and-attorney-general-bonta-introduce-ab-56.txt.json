@@ -1,0 +1,13 @@
+{
+  "press_release": "20241209-assemblymember-bauer-kahan-and-attorney-general-bonta-introduce-ab-56.txt",
+  "party": "Democratic",
+  "title": "[San Francisco, CA]",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:22:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 56 addresses the growing mental health crisis among adolescents caused by excessive social media use.\",\n    \"An increasing volume of research highlights the significant risks associated with social media use among young people.\",\n    \"Currently, 95% of teens report us",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 56 addresses the growing mental health crisis among adolescents caused by excessive social media use.\",\n    \"An increasing volume of research highlights the significant risks associated with social media use among young people.\",\n    \"Currently, 95% of teens report using at least one social media platform.\",\n    \"Over one-third of teens say they use social media almost constantly.\",\n    \"Excessive social media usage correlates with increased rates of depression, anxiety, eating disorders, and disrupted sleep patterns.\",\n    \"Despite growing evidence, social media companies have failed to be transparent about the risks associated with their platforms.\",\n    \"AB 56 requires social media platforms to prominently display Surgeon General-endorsed black box warning labels to all users.\",\n    \"The warning labels will appear upon a user’s first log-in and be shown at least once weekly for a minimum of 90 seconds.\",\n    \"Social media warning labels are intended to communicate the risks that social media engagement poses to young users.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc0d7d0718523b2066064edeaf41737c936e43ce"
+}

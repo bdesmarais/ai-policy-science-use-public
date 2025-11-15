@@ -1,0 +1,13 @@
+{
+  "press_release": "20250602-papan-bill-streamline-review-housing-elements-approved-state-assembly.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA – Legislation authored by Assemblymember Diane Papan to improve the review of local housing elements as part of the Regional Housing Needs Allocation (RHNA) process ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 650 will address the challenges faced by local jurisdictions and the California Department of Housing and Community Development in obtaining timely certification of housing elements.\",\n    \"The RHNA process requires local jurisdictions to submit detailed housing plans",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 650 will address the challenges faced by local jurisdictions and the California Department of Housing and Community Development in obtaining timely certification of housing elements.\",\n    \"The RHNA process requires local jurisdictions to submit detailed housing plans, known as housing elements, to HCD for review and certification.\",\n    \"Without certification, cities risk losing access to state funding for infrastructure and affordable housing.\",\n    \"Delays in the certification of housing elements have hindered development projects and jeopardized affordable housing initiatives.\",\n    \"AB 650 mandates that HCD provide clear and actionable guidance to local governments to avoid confusion in the certification process.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "96434935bcde4dc4d81f225a0e8556b8bc34db98"
+}

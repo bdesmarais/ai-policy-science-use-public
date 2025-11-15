@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-issues-statement-bakersfield-being-popular-location-millennials.txt",
+  "party": "Republican",
+  "title": "A 2019 study by the National Association of Realtors highlights the city of Bakersfield as a popular real estate market for millennials to purchase a home. The study, “Most Popular",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A 2019 study by the National Association of Realtors highlights Bakersfield as a popular real estate market for millennials to purchase a home.\",\n    \"The study identifies job market and affordability as the main factors that millennials consider when purchasing a home.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A 2019 study by the National Association of Realtors highlights Bakersfield as a popular real estate market for millennials to purchase a home.\",\n    \"The study identifies job market and affordability as the main factors that millennials consider when purchasing a home.\",\n    \"Kern County is characterized by diverse industries, including agriculture, oil, aerospace, and defense.\",\n    \"Eastern Kern County is home to two military installations: the Naval Air Weapons Station at China Lake and Edwards Air Force Base.\",\n    \"The aerospace and defense industries contribute to the robust economy and workforce of Kern County.\",\n    \"53% of Californians are considering leaving the state, with the number rising to 63% among millennials.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4e6ce41878a16fe4de865301288add4b20ed86fb"
+}

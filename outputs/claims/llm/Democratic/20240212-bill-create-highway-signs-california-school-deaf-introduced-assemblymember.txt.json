@@ -1,0 +1,13 @@
+{
+  "press_release": "20240212-bill-create-highway-signs-california-school-deaf-introduced-assemblymember.txt",
+  "party": "Democratic",
+  "title": "Today, Assemblymember Alex Lee introduced AB 2367 to increase awareness of the critical services provided by the California School for the Deaf - Fremont (CSD). In recognition of C",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:34:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California School for the Deaf - Fremont serves around 350 Deaf and Hard of Hearing students.\",\n    \"The California School for the Deaf - Fremont is the sole bilingual school that offers education in American Sign Language and English in the region.\",\n    \"The advoca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California School for the Deaf - Fremont serves around 350 Deaf and Hard of Hearing students.\",\n    \"The California School for the Deaf - Fremont is the sole bilingual school that offers education in American Sign Language and English in the region.\",\n    \"The advocacy of CSD students inspired the introduction of AB 2367.\",\n    \"CSD students presented a bill proposal to install freeway signs directing people to the school.\",\n    \"CSD students hope that more families will be aware of the educational, linguistic, and social opportunities available at CSD.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bef106fc5e3306b844224e839194235720ca9bd8"
+}

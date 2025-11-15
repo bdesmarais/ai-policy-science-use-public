@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-film-safety-bill-prompted-rust-movie-tragedy-advances-committee.txt",
+  "party": "Democratic",
+  "title": "A bill by Senator Dave Cortese establishing landmark safety rules on motion picture productions advanced on Wednesday through the Senate Labor Committee with bipartisan support. SB",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 735 establishes a first-in-the-nation regulatory process to keep workers safe in motion picture productions.\",\n    \"SB 735 protects the health and safety of television and film workers by establishing clear, mandatory guidelines around the use of firearms and ammuniti",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 735 establishes a first-in-the-nation regulatory process to keep workers safe in motion picture productions.\",\n    \"SB 735 protects the health and safety of television and film workers by establishing clear, mandatory guidelines around the use of firearms and ammunition on sets.\",\n    \"The bill establishes training requirements and safety standards to ensure that prop firearms and blanks are handled safely.\",\n    \"SB 735 prohibits the use of live ammunition except in the most limited circumstances.\",\n    \"The bill creates a five-year Safety on Set pilot program requiring employers who receive a motion picture tax credit to hire an independent safety advisor.\",\n    \"The independent safety advisor is responsible for conducting preproduction risk assessments and overseeing safety practices and procedures in motion picture, television, and streaming productions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1d859ea694eb75ff999f0ccf529b13ed339b3356"
+}

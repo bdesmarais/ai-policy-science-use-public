@@ -1,0 +1,13 @@
+{
+  "press_release": "20190604-bi-partisan-legislative-substance-abuse-treatment-working-group-announced.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Today, Tuesday, June 4, 2019, a bipartisan group of legislators announced a new Legislative Substance Abuse Treatment Working Group formed to address the challenges co",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:08:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Attempts to address substance abuse treatment have fallen flat and people are dying.\",\n    \"The substance abuse treatment crisis is too big for just one bill.\",\n    \"California's substance abuse treatment industry is worth billions of dollars.\",\n    \"Californians struggl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Attempts to address substance abuse treatment have fallen flat and people are dying.\",\n    \"The substance abuse treatment crisis is too big for just one bill.\",\n    \"California's substance abuse treatment industry is worth billions of dollars.\",\n    \"Californians struggling with substance abuse deserve evidence-based treatment.\",\n    \"Predatory industry actors take advantage of individuals struggling with addiction.\",\n    \"Treatment programs need to meet evidence-based standards to avoid exploitation.\",\n    \"Licensed outpatient alcohol and drug recovery programs are now required to meet evidence-based treatment standards.\",\n    \"Patient selling and recruiting for monetary gain is prohibited for licensed providers.\",\n    \"California has established standards for residential drug and alcohol recovery programs.\",\n    \"Deceptive marketing in the rehab industry is set to be prohibited.\",\n    \"Substance abuse impacts all parts of California.\",\n    \"Effective treatment should include counseling, family therapy, education, and job skills.\",\n    \"California's opioid crisis has led to significant loss of life, with 2,196 opioid-related overdoses in 2017.\",\n    \"Opioid overdoses are a top five cause of death in the United States.\",\n    \"There is a lack of oversight and transparency in drug treatment and recovery facilities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6d831fe7d68d2c1c5610cbfa026c638ef8ae13b5"
+}

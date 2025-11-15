@@ -1,0 +1,13 @@
+{
+  "press_release": "20240319-legislation-safeguard-salmon-and-steelhead-trout-lethal-storm-water.txt",
+  "party": "Democratic",
+  "title": "San Mateo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The S.A.L.M.O.N Act mandates the development and implementation of a regional strategy by Caltrans to eliminate 6PPD from stormwater discharges.\",\n    \"For over two decades, researchers have observed a link between stormwater discharge and salmon mortality, known as the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The S.A.L.M.O.N Act mandates the development and implementation of a regional strategy by Caltrans to eliminate 6PPD from stormwater discharges.\",\n    \"For over two decades, researchers have observed a link between stormwater discharge and salmon mortality, known as the 'Coho mortality phenomenon.'\",\n    \"A report from the University of Washington in 2020 identified 6PPD as the culprit behind fish kills associated with stormwater runoff.\",\n    \"When exposed, 6PPD transforms into 6PPD-quinone, compromising the blood-brain barrier of salmon and resulting in rapid fatalities.\",\n    \"The S.A.L.M.O.N Act directs Caltrans to study and implement biofiltration and bioretention systems to prevent runoff of 6PPD into critical salmon habitats.\",\n    \"Successful implementation of the S.A.L.M.O.N Act could provide a roadmap to utilize stormwater management practices statewide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7dd7f1fc0cb0604b134cc6b551a47031e05115f1"
+}

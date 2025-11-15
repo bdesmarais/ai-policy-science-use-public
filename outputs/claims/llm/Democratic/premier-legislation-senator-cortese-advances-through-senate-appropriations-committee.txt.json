@@ -1,0 +1,84 @@
+{
+  "press_release": "premier-legislation-senator-cortese-advances-through-senate-appropriations-committee.txt",
+  "party": "Democratic",
+  "title": "The “suspense” ended Thursday as major legislation by Senator Dave Cortese advanced out of the Senate Appropriations Committee. The fiscal committee heard its “suspense file” on Ma",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Studies show that religious exercise reduces violence and other negative behaviors in correctional facilities and lowers recidivism.\"\n    },\n    {\n      \"claim_text\": \"The proposed legislation aims to protect California communities from hazardous in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Studies show that religious exercise reduces violence and other negative behaviors in correctional facilities and lowers recidivism.\"\n    },\n    {\n      \"claim_text\": \"The proposed legislation aims to protect California communities from hazardous industrial pollution.\"\n    },\n    {\n      \"claim_text\": \"The bills will provide tools for educators and school staff to save children from opioid overdoses.\"\n    },\n    {\n      \"claim_text\": \"The introduction of a guaranteed income program for homeless students aims to assist them in enrolling in college or entering the workforce.\"\n    },\n    {\n      \"claim_text\": \"Prone restraint is often used on students with special needs.\"\n    },\n    {\n      \"claim_text\": \"New workplace violence prevention standards are being established to address the types of attacks that have increased in recent years.\"\n    },\n    {\n      \"claim_text\": \"Mandatory building standards are expected to reduce the potable water demand of new buildings by 25 percent.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Studies show that religious exercise reduces violence and other negative behaviors in correctional facilities and lowers recidivism.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The proposed legislation aims to protect California communities from hazardous industrial pollution.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The bills will provide tools for educators and school staff to save children from opioid overdoses.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The introduction of a guaranteed income program for homeless students aims to assist them in enrolling in college or entering the workforce.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Prone restraint is often used on students with special needs.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "New workplace violence prevention standards are being established to address the types of attacks that have increased in recent years.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Mandatory building standards are expected to reduce the potable water demand of new buildings by 25 percent.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "f6c9656d5cdbd1a12495cfe7306d7d00a3a94c08"
+}

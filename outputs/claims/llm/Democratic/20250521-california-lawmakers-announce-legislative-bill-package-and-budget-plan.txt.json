@@ -1,0 +1,13 @@
+{
+  "press_release": "20250521-california-lawmakers-announce-legislative-bill-package-and-budget-plan.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's downtowns have been significantly impacted by the pandemic, resulting in high vacancy rates and economic struggles.\",\n    \"Local governments in California are reportedly able to achieve significant outcomes despite limited resources.\",\n    \"Assemblymember Ma",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's downtowns have been significantly impacted by the pandemic, resulting in high vacancy rates and economic struggles.\",\n    \"Local governments in California are reportedly able to achieve significant outcomes despite limited resources.\",\n    \"Assemblymember Matt Haney acknowledges the need for state support to revitalize struggling downtowns.\",\n    \"The proposed legislative package aims to support small businesses and tackle homelessness in California's urban areas.\",\n    \"Creating vibrant downtowns can lead to job creation, increased tourist visitation, and greater tax revenues.\",\n    \"California's iconic downtowns have not fully recovered from pandemic-related work-from-home policies.\",\n    \"The proposed Downtown Recovery Committee will address the pressing challenges facing California's downtowns.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0959e2ac9e2e078c990bad23d4dba5dfda859b23"
+}

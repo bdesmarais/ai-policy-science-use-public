@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-umbergs-substance-abuse-package-advances.txt",
+  "party": "Democratic",
+  "title": "Today, Senator Thomas J. Umberg (D-Santa Ana) announced that his package of three bills seeking to address fraud and abuse in California’s substance use disorder treatment system h",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 35 implements statewide timelines and a local role for accountability when complaints are made by consumers in California's substance use disorder treatment facilities.\",\n    \"Senate Bill 43 requires addiction treatment programs and group advertising entities",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 35 implements statewide timelines and a local role for accountability when complaints are made by consumers in California's substance use disorder treatment facilities.\",\n    \"Senate Bill 43 requires addiction treatment programs and group advertising entities to adhere to the same advertising rules as chiropractors, marriage family therapists, and dentists.\",\n    \"Senate Bill 83 expands the information disclosed to the public regarding complaints and facility license suspensions and revocations on the California Department of Health Care Services website.\",\n    \"The Southern California region, known as the 'Rehab Riviera,' contains a network of rehab facilities where evidence-based care is rare and conflicts of interest are rampant.\",\n    \"Senator Umberg's measures aim to enhance local enforcement mechanisms and transparency for patients and families in the substance use disorder treatment framework.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cd2c63e2edc58678c602a53a53458a0739cdf1f8"
+}

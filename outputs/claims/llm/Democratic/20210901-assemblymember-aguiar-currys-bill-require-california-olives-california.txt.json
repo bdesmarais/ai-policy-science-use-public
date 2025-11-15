@@ -1,0 +1,13 @@
+{
+  "press_release": "20210901-assemblymember-aguiar-currys-bill-require-california-olives-california.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California produces approximately 4% of the world's olive oil from over 75 varieties of olives.\",\n    \"There has been an increase in branding of olive oil with the term 'California' when the product is actually blended using oils sourced from other regions.\",\n    \"Some b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California produces approximately 4% of the world's olive oil from over 75 varieties of olives.\",\n    \"There has been an increase in branding of olive oil with the term 'California' when the product is actually blended using oils sourced from other regions.\",\n    \"Some blends of olive oil have been found to contain as little as 14 percent of Californian olive oil.\",\n    \"A bottle of olive oil can be branded as 'California' while containing oils from other countries.\",\n    \"The California Olive Oil Commission has identified brands that misleadingly use a California-related name, implying that only California-grown olive oil is contained within the product.\",\n    \"AB 535 provides consumers with clear information about what they are purchasing by establishing stronger guidelines for branding, labeling, packaging, and advertising.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f7f46d213d9ca5bf05b3616ebf3310b067fe7e1c"
+}

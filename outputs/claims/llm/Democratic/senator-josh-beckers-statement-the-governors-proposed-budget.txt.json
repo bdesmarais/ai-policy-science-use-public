@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-beckers-statement-the-governors-proposed-budget.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom’s proposed budget invests $22.5 billion in Climate Action.\",\n    \"The budget includes $6.1 billion proposed over a 5-year period to catalyze the transition to Zero-Emissions Vehicles.\",\n    \"$2 billion is allocated for Clean Energy investments to ad",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom’s proposed budget invests $22.5 billion in Climate Action.\",\n    \"The budget includes $6.1 billion proposed over a 5-year period to catalyze the transition to Zero-Emissions Vehicles.\",\n    \"$2 billion is allocated for Clean Energy investments to advance building and industry decarbonization, wind energy, and long-duration energy storage.\",\n    \"The proposed budget includes $500 million for climate-workforce development.\",\n    \"Education funding rises under the Governor’s proposal to an unprecedented $20,855 per pupil.\",\n    \"The proposed $102 billion in Prop. 98 education funding is the highest in state history.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "df19426b70cbdce9370e043c8c034a42b2e46e26"
+}

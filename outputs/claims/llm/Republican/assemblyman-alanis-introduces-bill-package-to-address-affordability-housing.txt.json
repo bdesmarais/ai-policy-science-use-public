@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-alanis-introduces-bill-package-to-address-affordability-housing.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Juan Alanis from District 22 released a comprehensive legislative package aimed at tackling affordability challenges faced by Californians. These",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5c9ac8c61d9f81a0a936d211045658f132ab9986"
+}

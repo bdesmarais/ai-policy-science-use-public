@@ -1,0 +1,13 @@
+{
+  "press_release": "radical-gender-politics-costs-california-jobs-tax-revenue-elon-musk-pulls-companies-out-of-state-following-newsom-signing-ab-1955.txt",
+  "party": "Republican",
+  "title": "FOR IMMEDIATE RELEASE Shawn.Lewis@asm.ca.gov Contact: 916-319-2063",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Elon Musk announced he will relocate the headquarters of X and SpaceX to Texas after Governor Gavin Newsom signed AB 1955.\",\n    \"Elon Musk referred to the signing of AB 1955 as the 'final straw' that prompted his decision to relocate these companies.\",\n    \"The act",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Elon Musk announced he will relocate the headquarters of X and SpaceX to Texas after Governor Gavin Newsom signed AB 1955.\",\n    \"Elon Musk referred to the signing of AB 1955 as the 'final straw' that prompted his decision to relocate these companies.\",\n    \"The actions of the California Legislature regarding parental rights have been framed as attacks on families and businesses by Assemblyman Bill Essayli.\",\n    \"AB 1955 is said to codify the authority of the government to keep secrets from parents.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cdb226e53ded542aeadb320235db50ac7a2e1ab9"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20201217-assemblywoman-petrie-norris-introduces-legislation-prevent-prisoner.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – In an effort to prevent fraud and protect taxpayer dollars, Assembly Accountability & Administrative Review Chairwoman Cottie Petrie-Norris has introduced AB 110.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:21:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill AB 110 requires the Employment Development Department (EDD) to access incarceration records for the purpose of cross-checking benefit applications.\",\n    \"EDD will be required to perform regular checks as part of its fraud prevention efforts before approving ben",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill AB 110 requires the Employment Development Department (EDD) to access incarceration records for the purpose of cross-checking benefit applications.\",\n    \"EDD will be required to perform regular checks as part of its fraud prevention efforts before approving benefits.\",\n    \"California law is unclear whether inmate information can be shared with other state agencies.\",\n    \"Cross-checking lists of unemployment benefit claimants against incarceration data is a common fraud prevention practice in other states.\",\n    \"Multiple fraud rings have been uncovered involving state prisoners coordinating with non-incarcerated accomplices to file unemployment benefits.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f13ebd6ce0516735407b8e97e800c3de6bcbcd58"
+}

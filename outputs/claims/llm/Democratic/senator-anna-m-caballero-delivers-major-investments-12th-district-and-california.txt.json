@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-delivers-major-investments-12th-district-and-california.txt",
+  "party": "Democratic",
+  "title": "Thursday, June 30, 2022",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Anna M. Caballero announced that millions of dollars were secured in this year’s budget to help support key projects statewide.\",\n    \"California's budget reflects a desire to invest in working families with significant investments in the state’s educational syst",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Anna M. Caballero announced that millions of dollars were secured in this year’s budget to help support key projects statewide.\",\n    \"California's budget reflects a desire to invest in working families with significant investments in the state’s educational system.\",\n    \"California's budget includes direct relief payments of up to $1,050 for working families.\",\n    \"A $500 million allocation has been designated to expand the California Dream for families to buy their own home.\",\n    \"Funds will be allocated to help house the homeless and provide mental health services.\",\n    \"$31.5 million was allocated to UC Merced for campus expansion projects.\",\n    \"$18 million was designated for climate initiatives at UC Merced.\",\n    \"$15 million was allocated to Merced College for the Agri-Food Workforce and Technology Collaborative for the Central Valley.\",\n    \"$50 million was designated for the California Investment and Innovation Program to support disadvantaged communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "78590685a513b888bc6c774004fa61602d3b72d8"
+}

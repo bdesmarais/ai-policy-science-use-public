@@ -1,0 +1,13 @@
+{
+  "press_release": "california-state-senate-rejects-elon-musks-tactics-supports-senator-umberg-measure-outlaw.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) – Senator Thomas J. Umberg (D-Santa Ana) announced that his Senate Bill 398 which criminalizes, among other things, the offer of a chance to win a lottery or simil",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 398 criminalizes the offer of a chance to win a lottery or similar prize-drawing contest to register to vote.\",\n    \"The approval of Senate Bill 398 was unanimous, with a bi-partisan vote of 38-0.\",\n    \"Elon Musk founded 'America PAC' to support Donald Trump",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 398 criminalizes the offer of a chance to win a lottery or similar prize-drawing contest to register to vote.\",\n    \"The approval of Senate Bill 398 was unanimous, with a bi-partisan vote of 38-0.\",\n    \"Elon Musk founded 'America PAC' to support Donald Trump's candidacy for the 2024 U.S. Presidential Election.\",\n    \"America PAC announced plans to give away $1 million in a lottery to someone in a swing state who signed a petition supporting First and Second Amendment rights.\",\n    \"Musk and America PAC proposed to award two Wisconsin voters $1 million each for signing a petition related to the state’s Supreme Court election.\",\n    \"Vote buying is illegal federally and in every state.\",\n    \"Senate Bill 398 would impose penalties for violations, including imprisonment for up to five years and fines of up to $10,000.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "00af3082fa0039f9325ee06e523cec68e3e824c7"
+}

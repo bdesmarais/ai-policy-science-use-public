@@ -1,0 +1,13 @@
+{
+  "press_release": "20240522-bipartisan-retail-theft-package-advances.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Bay Area has experienced the largest increases in shoplifting rates across California in the last few years.\",\n    \"San Mateo and San Francisco counties had the highest shoplifting rates in 2022, with increases of 53 percent and 24 percent compared to 2019.\",\n    \"So",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Bay Area has experienced the largest increases in shoplifting rates across California in the last few years.\",\n    \"San Mateo and San Francisco counties had the highest shoplifting rates in 2022, with increases of 53 percent and 24 percent compared to 2019.\",\n    \"Some counties saw an increase of more than 50 percent in commercial burglary in 2022 compared to 2019.\",\n    \"Los Angeles County had the highest rate of commercial robberies in 2022, alongside Fresno and Sacramento counties, which saw increases of 51 percent and 29 percent compared to 2019.\",\n    \"The California State Assembly established a Select Committee on Retail Theft in 2023 to examine the problem of retail theft and seek solutions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "530cb0638c0df35c721758e3ca151dc498f16ef0"
+}

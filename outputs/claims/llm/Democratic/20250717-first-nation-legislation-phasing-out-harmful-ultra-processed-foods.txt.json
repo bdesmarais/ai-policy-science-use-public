@@ -1,0 +1,13 @@
+{
+  "press_release": "20250717-first-nation-legislation-phasing-out-harmful-ultra-processed-foods.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's AB 1264 aims to phase out particularly harmful ultra-processed foods from school meals by 2032.\",\n    \"AB 1264 tasks state scientists, in cooperation with University of California experts, to identify harmful ultra-processed foods based on scientific researc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's AB 1264 aims to phase out particularly harmful ultra-processed foods from school meals by 2032.\",\n    \"AB 1264 tasks state scientists, in cooperation with University of California experts, to identify harmful ultra-processed foods based on scientific research linking them to health issues.\",\n    \"Research has linked ultra-processed foods to cancer, cardiovascular disease, metabolic disorders, neurological or behavioral issues, and other health harms.\",\n    \"Ultra-processed foods are engineered for overconsumption and can hijack the brain's reward system, making it difficult for individuals to reduce their intake.\",\n    \"Poor nutrition in childhood, due to processed foods high in added sugars and low in nutrient quality, is a major factor contributing to lifelong chronic diseases.\",\n    \"In 2024, the U.S. Department of Agriculture's Dietary Guidelines Advisory Committee confirmed a link between ultra-processed food consumption and an increased risk of being overweight or obese.\",\n    \"73 percent of U.S. adults aged 20 years and older are overweight or obese, and 38 percent of children and youth between 12 and 19 years are prediabetic.\",\n    \"Excessive consumption of ultra-processed foods is a leading driver of poor health outcomes and rising healthcare costs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1c839487a6c5bf534fd45ca46bc52b8d9d63303f"
+}

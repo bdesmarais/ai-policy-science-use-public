@@ -1,0 +1,13 @@
+{
+  "press_release": "bill-make-ballot-measure-titles-and-summaries-fair-and-clear-gets-support-all-seven.txt",
+  "party": "Republican",
+  "title": "The Senate Elections and Constitutional Amendments Committee unanimously passed Senate Bill 858 , which reforms the process by which ballot measure titles and summaries are written",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:44:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The process of writing ballot measure titles and summaries is being reformed by Senate Bill 858.\",\n    \"Senate Bill 858 transfers the duty of preparing ballot titles and summaries from the Attorney General to the Legislative Analyst.\",\n    \"Ballot titles and summaries ha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The process of writing ballot measure titles and summaries is being reformed by Senate Bill 858.\",\n    \"Senate Bill 858 transfers the duty of preparing ballot titles and summaries from the Attorney General to the Legislative Analyst.\",\n    \"Ballot titles and summaries have previously been biased, which has misinformed voters on what the ballot measures would actually achieve.\",\n    \"An example of biased ballot titles is Proposition 22, which had its title changed from an accurate description to a misleading one.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a397d4f2c8b1217cff48992fa1e092da37fab35b"
+}

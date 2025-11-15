@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-joness-bipartisan-measure-prevent-sexually-violent-predators-being-dumped.txt",
+  "party": "Republican",
+  "title": "Bipartisan legislation by Senate Minority Leader Brian W. Jones ( R-San Diego ), Senator Marie Alvarado-Gil ( D-Jackson ), Senator Shannon Grove ( R-Bakersfield ), Assembly Republi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 832 aims to prevent the state from secretly dumping Sexually Violent Predators (SVPs) in unsuspecting communities.\",\n    \"SB 832 would require that the highest criteria for the placement of an SVP be public safety.\",\n    \"The Department of State Hospitals (DS",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 832 aims to prevent the state from secretly dumping Sexually Violent Predators (SVPs) in unsuspecting communities.\",\n    \"SB 832 would require that the highest criteria for the placement of an SVP be public safety.\",\n    \"The Department of State Hospitals (DSH) would be required to approve any placements before vendors can sign leases for those locations.\",\n    \"The Director of DSH would be mandated to publicly report annually the number of SVPs in each county and supervisorial district.\",\n    \"SB 832 would require DSH, the Department of Corrections and Rehabilitation, and the Department of Forestry and Fire Protection to assess all land under their control for secure facilities that could house SVPs.\",\n    \"The legislation would prevent an SVP from being placed within 5 miles of federally recognized 'Indian country'.\",\n    \"There is a concern that some communities, including rural and Indian lands, may lack adequate police enforcement to ensure safety from violent sexual predators.\",\n    \"Leader Jones announced an audit request of Liberty Healthcare, the state contractor responsible for overseeing SVP placements.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1cf6f37fb88b5806d2cc061e13e5ca43100675dd"
+}

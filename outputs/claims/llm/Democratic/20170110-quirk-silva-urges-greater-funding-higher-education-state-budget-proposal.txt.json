@@ -1,0 +1,13 @@
+{
+  "press_release": "20170110-quirk-silva-urges-greater-funding-higher-education-state-budget-proposal.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:53:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Investments made in education will help Californians find opportunities.\",\n    \"Improving education will reduce the number of Californians living in poverty.\",\n    \"Education improvements will improve the quality of life for Californians.\",\n    \"California's future workf",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Investments made in education will help Californians find opportunities.\",\n    \"Improving education will reduce the number of Californians living in poverty.\",\n    \"Education improvements will improve the quality of life for Californians.\",\n    \"California's future workforce needs to meet the state’s economic demands.\",\n    \"Access to affordable higher education is necessary for students in California.\",\n    \"Cuts to the Middle Class Scholarship could increase a student's costs for a four-year education significantly.\",\n    \"Accurate information on federal funding is essential for assessing the impact of federal policy on the California economy.\",\n    \"The federal budget's impact on California's economy includes business development and economic security for workers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8c41e55a0d755dbea2d8f063152904bdbb920ba8"
+}

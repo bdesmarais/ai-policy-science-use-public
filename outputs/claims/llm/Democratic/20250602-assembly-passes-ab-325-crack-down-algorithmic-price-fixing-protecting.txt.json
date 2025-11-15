@@ -1,0 +1,13 @@
+{
+  "press_release": "20250602-assembly-passes-ab-325-crack-down-algorithmic-price-fixing-protecting.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California's antitrust laws are being modernized to confront digital price fixing algorithms.\",\n    \"Digital price fixing algorithms can artificially inflate prices for everyday goods and services.\",\n    \"AB 325 closes legal loopholes allowing companies to coordinat",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California's antitrust laws are being modernized to confront digital price fixing algorithms.\",\n    \"Digital price fixing algorithms can artificially inflate prices for everyday goods and services.\",\n    \"AB 325 closes legal loopholes allowing companies to coordinate prices using pricing algorithms.\",\n    \"Major corporations have exploited algorithmic tools to collude on pricing, undermining competition.\",\n    \"AB 325 explicitly prohibits the use of digital tools for illegal price coordination.\",\n    \"The misuse of AI in price fixing leads to increased costs for consumers.\",\n    \"Price fixing algorithms have enabled widespread, illegal cartels across the economy.\",\n    \"Illegal agreements not to compete, whether made in person or through code, can lead to increased prices and restricted supply of essential goods.\",\n    \"Pricing algorithms have been claimed to inflate rents and limit housing access during the housing crisis.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a11862c408a59179a4d9b11081807bd04771081b"
+}

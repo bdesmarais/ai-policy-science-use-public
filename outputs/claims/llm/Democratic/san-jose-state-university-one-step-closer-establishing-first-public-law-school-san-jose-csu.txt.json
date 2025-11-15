@@ -1,0 +1,13 @@
+{
+  "press_release": "san-jose-state-university-one-step-closer-establishing-first-public-law-school-san-jose-csu.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - In a win for working people wanting to change careers or better themselves by going to law school, Senator Dave Cortese’s SB 550 authorizing the integration of a law s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"San Jose State University is moving towards establishing California's first public law school integrated into the California State University system.\",\n    \"Cost and geographic barriers prevent first-generation and underrepresented students from entering the legal profes",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"San Jose State University is moving towards establishing California's first public law school integrated into the California State University system.\",\n    \"Cost and geographic barriers prevent first-generation and underrepresented students from entering the legal profession.\",\n    \"California faces a crisis in affordable legal education, limiting access for many potential students.\",\n    \"The average law school debt in private schools exceeds $130,000.\",\n    \"67% of young lawyers report financial stress, which deters many from pursuing legal careers.\",\n    \"SB 550 aims to make legal education far more accessible and affordable by capping fees at existing CSU graduate program rates.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ff1b7567565ca2af4ce74cf397e63c7322418c29"
+}

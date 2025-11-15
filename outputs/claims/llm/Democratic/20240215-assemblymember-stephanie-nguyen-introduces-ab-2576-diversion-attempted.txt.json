@@ -1,0 +1,13 @@
+{
+  "press_release": "20240215-assemblymember-stephanie-nguyen-introduces-ab-2576-diversion-attempted.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Public safety is ensured by adding attempted murder to the list of crimes ineligible for mental health diversion.\",\n    \"Individuals who attempt to take another's life should not be released into the community without appropriate accountability measures.\",\n    \"Current l",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Public safety is ensured by adding attempted murder to the list of crimes ineligible for mental health diversion.\",\n    \"Individuals who attempt to take another's life should not be released into the community without appropriate accountability measures.\",\n    \"Current law allows defendants with a mental health disorder charged with attempted murder to complete treatment without serving time.\",\n    \"Once a designated mental health program is completed by the offender, their arrest and criminal charges can be expunged.\",\n    \"Closing the loophole will ensure that no one can evade accountability for attempted murder.\",\n    \"The safety of the community is paramount in the legislation regarding attempted murder and mental health diversion.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1cf2d3ee54c5b583cc22a9db2eb1304a9e855599"
+}

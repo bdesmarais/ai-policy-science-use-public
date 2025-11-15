@@ -1,0 +1,13 @@
+{
+  "press_release": "declaracion-del-senador-cortese-sobre-la-aprobacion-de-su-sb-1445-audiencias-de-expulsion-por.txt",
+  "party": "Democratic",
+  "title": "SAN JOSÉ, CA – El Senador Dave Cortese (D-San José) emitió la siguiente declaración sobre la aprobación de su Proyecto de Ley del Senado 1445 (SB 1445) por parte del Gobernador New",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1445 allows student members of school boards across California to have a say in the expulsion procedures of their peers.\",\n    \"SB 1445 recognizes the valuable perspectives that students bring to discussions about student discipline and school safety.\",\n    \"Involving",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1445 allows student members of school boards across California to have a say in the expulsion procedures of their peers.\",\n    \"SB 1445 recognizes the valuable perspectives that students bring to discussions about student discipline and school safety.\",\n    \"Involving students in the expulsion process aims to create a school system that not only corrects behavior but also heals and strengthens school communities.\",\n    \"The California Association of Student Councils (CASC) has been committed to elevating student voices and promoting key legislative initiatives since its establishment in 1947.\",\n    \"The SB 1445 bill was initiated by students from across California during the Student Advisory Board on Legislation in Education (SABLE) conference.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a76eb282891413b7b397800406fed50b2d343747"
+}

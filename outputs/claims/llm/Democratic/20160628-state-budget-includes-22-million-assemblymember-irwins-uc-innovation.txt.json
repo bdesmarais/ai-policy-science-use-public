@@ -1,0 +1,13 @@
+{
+  "press_release": "20160628-state-budget-includes-22-million-assemblymember-irwins-uc-innovation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – $22 million in funding for the UC Innovation  and Entrepreneurship Initiative proposed by Assemblymember Jacqui Irwin  (D-Thousand Oaks) has been included in the 2016-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:53:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's research universities produce a talented workforce and spark innovation that leads to start-up businesses and local economic growth.\",\n    \"The UC Innovation and Entrepreneurship Initiative aims to convert research and science into products that benefit soci",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's research universities produce a talented workforce and spark innovation that leads to start-up businesses and local economic growth.\",\n    \"The UC Innovation and Entrepreneurship Initiative aims to convert research and science into products that benefit society.\",\n    \"The Initiative will provide funding to support the establishment or expansion of business incubators at each UC campus.\",\n    \"The funding will improve entrepreneurial resources at UC campuses, including laboratory space, proof of concept grants, business training, and industry mentorship.\",\n    \"Business incubators play a vital role in converting taxpayer-funded research into new businesses and high-paying jobs.\",\n    \"There are currently 16 UC-run business incubators across the UC campuses that have fostered successful businesses and game-changing innovations.\",\n    \"In 2014, active UC startups based in California employed over 19,000 Californians and generated more than $14 billion in revenue.\",\n    \"Since 1980, 843 companies have formed by commercializing UC technology, with 84% of these companies still located in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ea58b43244e8f972e3079c15ca99814172493f81"
+}

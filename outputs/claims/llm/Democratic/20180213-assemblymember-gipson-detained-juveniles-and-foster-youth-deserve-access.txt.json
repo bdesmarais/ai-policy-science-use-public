@@ -1,0 +1,13 @@
+{
+  "press_release": "20180213-assemblymember-gipson-detained-juveniles-and-foster-youth-deserve-access.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- Today, Assemblymember Mike A. Gipson (D-Carson) reintroduced a bill to ensure youth in foster care and youth in local juvenile detention facilities have acces",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Youth in foster care and youth in local juvenile detention facilities have access to computer technology and the Internet.\",\n    \"A lack of digital literacy can derail a youth’s life for years to come.\",\n    \"Juveniles in local detention facilities have a prime opportuni",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Youth in foster care and youth in local juvenile detention facilities have access to computer technology and the Internet.\",\n    \"A lack of digital literacy can derail a youth’s life for years to come.\",\n    \"Juveniles in local detention facilities have a prime opportunity to rehabilitate and reenter their community.\",\n    \"Without Internet, detained juveniles may not be able to access educational materials to finish school.\",\n    \"Detained juveniles could be trapped in the school-to-prison pipeline due to lack of Internet access.\",\n    \"Access to technology is essential for maintaining supportive relationships that help youth succeed.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0511742fd02c79eb132ffebbe0e0133a93488fe5"
+}

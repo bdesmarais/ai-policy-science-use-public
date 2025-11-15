@@ -1,0 +1,13 @@
+{
+  "press_release": "20190819-equal-pay-equal-play-bill-passes-california-senate-major-bipartisan-support.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a2f08f02107012c800da643d5c50daa6c54d77fd"
+}

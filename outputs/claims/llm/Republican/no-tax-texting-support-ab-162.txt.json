@@ -1,0 +1,13 @@
+{
+  "press_release": "no-tax-texting-support-ab-162.txt",
+  "party": "Republican",
+  "title": "At the end of 2018, the California Public Utilities Commission introduced a plan to impose a tax on text messages. Such a tax would have been the first of its kind in the nation. A",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:00:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "020fe5182eb1153c0ec68cb1107851a561e1d8e3"
+}

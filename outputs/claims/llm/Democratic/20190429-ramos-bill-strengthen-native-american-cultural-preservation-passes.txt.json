@@ -1,0 +1,54 @@
+{
+  "press_release": "20190429-ramos-bill-strengthen-native-american-cultural-preservation-passes.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 275 will require state agencies with 30 or more employees to designate one or more liaisons to engage with Native American tribes.\"\n    },\n    {\n      \"claim_text\": \"AB 275 updates current law regarding the possession of California Native America",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 275 will require state agencies with 30 or more employees to designate one or more liaisons to engage with Native American tribes.\"\n    },\n    {\n      \"claim_text\": \"AB 275 updates current law regarding the possession of California Native American human remains and funerary objects for repatriation, requiring agencies and museums to consider 'tribal traditional knowledge' with comparable or greater weight than nontribal sources of information.\"\n    },\n    {\n      \"claim_text\": \"The California Native American Heritage Commission (NAHC) was created in 1976 to identify, catalog, and protect Native American cultural resources.\"\n    },\n    {\n      \"claim_text\": \"The NAHC's current Five-Year Strategic Plan identified several areas for improvement, which AB 275 seeks to address.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "AB 275 will require state agencies with 30 or more employees to designate one or more liaisons to engage with Native American tribes.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 275 updates current law regarding the possession of California Native American human remains and funerary objects for repatriation, requiring agencies and museums to consider 'tribal traditional knowledge' with comparable or greater weight than nontribal sources of information.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The California Native American Heritage Commission (NAHC) was created in 1976 to identify, catalog, and protect Native American cultural resources.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The NAHC's current Five-Year Strategic Plan identified several areas for improvement, which AB 275 seeks to address.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 4,
+  "doc_sha1": "e725f60264da41f9b84bb7919fa1a58cf4f96b22"
+}

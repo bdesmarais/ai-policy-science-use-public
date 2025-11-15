@@ -1,0 +1,13 @@
+{
+  "press_release": "keep-working-farms-working-senator-dave-corteses-senate-bill-462-permanently-protect-food.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The California Senate Committee on Natural Resources and Water today passed without objection Senate Bill 462 requiring a yearly $20-million appropriation to the Calif",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 462 requires a yearly $20-million appropriation to the California Farmland Conservancy Program.\",\n    \"SB 462 aims to permanently preserve California agricultural lands through conservation easements.\",\n    \"The funding from SB 462 will be available to all 58",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 462 requires a yearly $20-million appropriation to the California Farmland Conservancy Program.\",\n    \"SB 462 aims to permanently preserve California agricultural lands through conservation easements.\",\n    \"The funding from SB 462 will be available to all 58 counties in California.\",\n    \"SB 462 will contribute to the preservation of up to 12,000 acres in Santa Clara County.\",\n    \"The agricultural easement program enables a new generation of aspiring farmers to work the land.\",\n    \"The Agricultural Resilience Incentive Grant Program supports growers in adopting climate-smart practices like carbon farming.\",\n    \"The California Farmland Conservancy Program has received $88.6 million and preserved 59,460 acres of farmland as of January 2024.\",\n    \"An agricultural conservation easement (ACE) is a voluntary agreement that limits development on land used for farming and ranching.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "56d17283fd6df291be1b6b0a7782951b97a65907"
+}

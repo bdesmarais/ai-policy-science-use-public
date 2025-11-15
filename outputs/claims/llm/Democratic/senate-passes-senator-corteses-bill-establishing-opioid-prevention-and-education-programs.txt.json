@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-passes-senator-corteses-bill-establishing-opioid-prevention-and-education-programs.txt",
+  "party": "Democratic",
+  "title": "The Senate on Tuesday unanimously passed a bill by Senator Dave Cortese that seeks to prevent opioid overdoses at public schools and would also give students and their families’ in",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:21:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Fentanyl kills an average of 18 Californians each day.\",\n    \"Fentanyl is responsible for one in every five deaths of young people in California.\",\n    \"Fentanyl kills more youth than all other drugs combined.\",\n    \"The number of youth who died of fentanyl in Santa Clar",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Fentanyl kills an average of 18 Californians each day.\",\n    \"Fentanyl is responsible for one in every five deaths of young people in California.\",\n    \"Fentanyl kills more youth than all other drugs combined.\",\n    \"The number of youth who died of fentanyl in Santa Clara County increased by 365 percent over a few years.\",\n    \"135 young people died from fentanyl in Santa Clara County in 2021.\",\n    \"SB 10 would require school safety plans to include strategies for the prevention and treatment of opioid overdoses.\",\n    \"SB 10 is intended to create opioid prevention and education programs in schools.\",\n    \"The California Department of Education is required to develop training materials on the use of emergency opioid antagonists for school personnel under SB 10.\",\n    \"SB 10 will incentivize County Working Groups on Fentanyl Overdose/Abuse Prevention.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a94c95d071b3bf854069036bf93737b61741144b"
+}

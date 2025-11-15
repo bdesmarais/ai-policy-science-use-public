@@ -1,0 +1,13 @@
+{
+  "press_release": "media-advisory-one-year-after-fatal-mountain-lion-attack-family-taylen-brooks-heads.txt",
+  "party": "Republican",
+  "title": "The family of two young men who were brutally attacked by a mountain lion in El Dorado County is taking action and heading to Sacramento to fight for justice for their slain son. O",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Brooks family is advocating for stronger public safety measures to prevent mountain lion attacks in California.\",\n    \"Senate Bill 818 establishes a pilot program in El Dorado County allowing permitted houndsmen to non-lethally pursue and haze mountain lions deemed a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Brooks family is advocating for stronger public safety measures to prevent mountain lion attacks in California.\",\n    \"Senate Bill 818 establishes a pilot program in El Dorado County allowing permitted houndsmen to non-lethally pursue and haze mountain lions deemed a threat.\",\n    \"The goal of Senate Bill 818 is to reduce attacks on people, pets, and livestock while restoring lions’ natural fear of humans.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "927b7dbad833f39203ce648c749f90276d94273f"
+}

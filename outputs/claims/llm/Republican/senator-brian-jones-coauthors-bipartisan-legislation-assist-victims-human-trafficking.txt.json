@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-coauthors-bipartisan-legislation-assist-victims-human-trafficking.txt",
+  "party": "Republican",
+  "title": "Sacramento – State Senator Brian Jones (R-Santee) announced today he is coauthoring two bipartisan measures by Assemblyman Jim Patterson (R-Fresno), aimed at assisting the victims ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Human trafficking is defined by the United States Department of Homeland Security as the use of force, fraud, or coercion to obtain labor or commercial sex acts.\",\n    \"The victims of human trafficking are often children, and frequently runaways or missing youth.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Human trafficking is defined by the United States Department of Homeland Security as the use of force, fraud, or coercion to obtain labor or commercial sex acts.\",\n    \"The victims of human trafficking are often children, and frequently runaways or missing youth.\",\n    \"The average age of victims of human trafficking is 15 years old.\",\n    \"One in seven runaways is likely to become a sex trafficking victim.\",\n    \"Victims of human trafficking face challenges in trying to clear their name and record for non-violent offenses they were forced to commit under the control of their captors.\",\n    \"Clearing their record allows victims to remove hindrances to seeking employment or volunteering.\",\n    \"Victims of human trafficking struggle to regain real freedom and control of their lives after escaping captivity.\",\n    \"Assembly Bill 2868 allows human trafficking victims to petition the court to vacate a conviction without having to pay all fines and fees associated with the offense.\",\n    \"Current laws require courts to refuse to consider a victim’s petition until all fines, fees, and probation terms are met.\",\n    \"Assembly Bill 2869 allows human trafficking victims to petition the court to vacate a conviction without appearing in court in person, accepting testimony through electronic means like video-conference or phone.\",\n    \"AB 2869 removes the time limits within which a victim must currently petition to vacate their conviction.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5f94cd0e4c182e9f388a6924021a7a334032f7d4"
+}

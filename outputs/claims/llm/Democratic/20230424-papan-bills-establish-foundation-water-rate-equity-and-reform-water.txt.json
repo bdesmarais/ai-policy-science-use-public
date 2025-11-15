@@ -1,0 +1,13 @@
+{
+  "press_release": "20230424-papan-bills-establish-foundation-water-rate-equity-and-reform-water.txt",
+  "party": "Democratic",
+  "title": "SAN MATEO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Every Californian who has a water connection must pay rates based upon the total expenses related to acquiring supply, distribution, capital investment, and conservation.\",\n    \"Water utilities must maintain systems to meet the maximum possible demand on any given day.\",",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Every Californian who has a water connection must pay rates based upon the total expenses related to acquiring supply, distribution, capital investment, and conservation.\",\n    \"Water utilities must maintain systems to meet the maximum possible demand on any given day.\",\n    \"Large consumers of water increase costs for water systems without consideration for rate equity.\",\n    \"Average consumers who conserve water may be required to subsidize rising costs for major water users.\",\n    \"AB 755 will require public water utilities to identify how major water users drive system expenses.\",\n    \"AB 755 will provide greater focus on the root cause of increasing but inequitable rates in the water supply system.\",\n    \"AB 755 will require public water utilities to post the cost attributable to major water users on their website.\",\n    \"AB 754 will require urban and agricultural water suppliers to initiate demand-side conservation when reservoir levels drop below a target storage curve.\",\n    \"The conservation approach under AB 754 will improve water quality and provide ecological benefits in response to drought.\",\n    \"AB 754 will require water suppliers to identify a target storage level for their reservoir supply needed to satisfy all downstream users and ecological demands.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8e94477a1b01a8cff4feb722a98f10b684233ab5"
+}

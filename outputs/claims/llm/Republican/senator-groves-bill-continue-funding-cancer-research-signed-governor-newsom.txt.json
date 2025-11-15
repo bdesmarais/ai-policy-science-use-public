@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-bill-continue-funding-cancer-research-signed-governor-newsom.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove ( R-Bakersfield ) is pleased to announce her bill, Senate Bill 1172 , was signed into law by Governor Newsom. SB 1172 will extend the tax donation checkoffs f",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1172 will extend the tax donation checkoffs for the California Breast Cancer Research Fund and the California Cancer Research Fund until January 1, 2032.\",\n    \"The funds from the California Breast Cancer Research Fund and the California Cancer Research Fund provide c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1172 will extend the tax donation checkoffs for the California Breast Cancer Research Fund and the California Cancer Research Fund until January 1, 2032.\",\n    \"The funds from the California Breast Cancer Research Fund and the California Cancer Research Fund provide critical resources to advance the fight against breast cancer and other forms of cancer.\",\n    \"Breast cancer remains the most common cancer among women.\",\n    \"The California Breast Cancer Research Program was established by the 1993 Breast Cancer Act and is responsible for administering funding for breast cancer research in the State of California.\",\n    \"Over the past six years, the California Breast Cancer Research Fund raised over $2.7 million.\",\n    \"The California Cancer Research Fund has provided an important resource for research on the causes and treatments of cancer and for community-based education on cancer.\",\n    \"The California Cancer Research Fund tax check-off has generated over $2.9 million over the past six years.\",\n    \"Historically, both the California Breast Cancer Research Fund and the California Cancer Research Fund have ranked among the top seven of the 20 voluntary contribution funds receiving donations through the tax checkoff program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "166c316c78e3531b3979f28b71affb521cee8dd6"
+}

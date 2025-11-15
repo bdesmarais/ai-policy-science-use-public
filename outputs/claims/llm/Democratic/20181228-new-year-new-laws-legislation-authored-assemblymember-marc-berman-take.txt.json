@@ -1,0 +1,13 @@
+{
+  "press_release": "20181228-new-year-new-laws-legislation-authored-assemblymember-marc-berman-take.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Marc Berman (D-Palo Alto) authored 12 bills this year that will go into effect on January 1, 2019. The legislation is related to a variety of issues, in",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:03:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1619 extends the statute of limitations for an adult sexual assault survivor to file for civil damages from two years to ten years.\",\n    \"Assembly Bill 2592 requires the Secretary of State to include information about an upcoming federal decennial census o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1619 extends the statute of limitations for an adult sexual assault survivor to file for civil damages from two years to ten years.\",\n    \"Assembly Bill 2592 requires the Secretary of State to include information about an upcoming federal decennial census on the Secretary of State's website and in public elections materials.\",\n    \"An undercount of California's population could significantly reduce the state's share of federal funding for education, transportation, health care, and other vital services.\",\n    \"Assembly Bill 2639 requires schools serving students in grades 7 to 12 to review their pupil suicide prevention policies every five years.\",\n    \"Youth suicide rates continue to rise, making the review of pupil suicide prevention policies critically important.\",\n    \"Assembly Bill 3075 creates the Office of Elections Cybersecurity within the Secretary of State's office to defend the state's election infrastructure from cyber threats.\",\n    \"Assembly Bill 2941 requires health plans and health insurers to provide access to medically necessary health care services to patients displaced by a governor-declared state of emergency.\",\n    \"Assembly Bill 1804 promotes residential and mixed-use housing projects within unincorporated county lands.\",\n    \"Assembly Bill 2425 modernizes how an assessor or taxpayer may receive information related to property taxation by creating the reciprocal right to request information be mailed or sent electronically.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "20485cefda4a77fa8f00363d165a6379e59a2839"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "vince-fong-californians-will-be-well-served-with-kevin-mccarthy-as-speaker-of-the-house.txt",
+  "party": "Republican",
+  "title": "Central Valley Assemblyman Vince Fong issued the following statement regarding the election of Representative Kevin McCarthy (R-CA) as Speaker of the House:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "18a1d54db1525b83102fd6206ca8ed97714671ab"
+}

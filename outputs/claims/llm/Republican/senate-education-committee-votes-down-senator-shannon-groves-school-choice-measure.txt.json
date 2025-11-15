@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-education-committee-votes-down-senator-shannon-groves-school-choice-measure.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) expressed profound disappointment following the Senate Education Committee’s vote of 5-2 to kill SB 64, the California Education Flex Account ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California ranks 37th in the nation for educational performance.\",\n    \"Senate Bill 64 aimed to give parents the ability to choose accredited schools for their children.\",\n    \"California spends approximately $24,700 per student, which is above the national average.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California ranks 37th in the nation for educational performance.\",\n    \"Senate Bill 64 aimed to give parents the ability to choose accredited schools for their children.\",\n    \"California spends approximately $24,700 per student, which is above the national average.\",\n    \"Despite significant spending, California consistently ranks near the bottom in academic achievement among 4th and 8th graders.\",\n    \"Students of color, particularly African American and Latino students, face challenges in meeting grade-level standards in English Language Arts and Mathematics.\",\n    \"When given educational options, Black and Hispanic students from low-income neighborhoods outperform their peers in traditional public schools.\",\n    \"33% of the top public high schools for low-income African American students are charter schools.\",\n    \"52% of the top public high schools for low-income Latino students are charter schools.\",\n    \"Senate Bill 64 proposed a School Choice Flex Account providing $8,000 for tuition and education-related expenses.\",\n    \"The bill included a Special Education Flex Account offering $16,000 for students with special needs.\",\n    \"Senate Bill 64 aimed to ensure that all funds are utilized for accredited educational institutions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f44bdbd5454008ee3794969790f99faf8d42d37"
+}

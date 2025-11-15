@@ -1,0 +1,13 @@
+{
+  "press_release": "20190517-california-state-assembly-select-committee-student-debt-first-informational.txt",
+  "party": "Democratic",
+  "title": "IRVINE, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Student loan debt has spiraled out of control.\",\n    \"The ripple effects of the student debt crisis are being felt across the economy.\",\n    \"Young people are unable to buy homes due to student loan debt.\",\n    \"Young people are hesitant to start families because of stud",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Student loan debt has spiraled out of control.\",\n    \"The ripple effects of the student debt crisis are being felt across the economy.\",\n    \"Young people are unable to buy homes due to student loan debt.\",\n    \"Young people are hesitant to start families because of student loan debt.\",\n    \"California is the first state to dedicate a legislative committee to the topic of student debt.\",\n    \"Many students in California are leaving college with the burden of student loan debt without degrees.\",\n    \"Addressing the student debt crisis starts with protecting borrowers.\",\n    \"More than 3.7 million borrowers in California owe $142 billion in student debt.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8b0fdcae9cf92dad94200f187e1a3427f9b28e77"
+}

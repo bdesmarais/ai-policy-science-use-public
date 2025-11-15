@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-beckers-bill-combatting-unsheltered-homelessness.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Senator Josh Becker’s (D-Menlo Park) legislation to combat California’s homelessness crisis, SB 606 , has passed the Senate Committee on Human Services , marking a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Two-thirds of California’s homeless population is unsheltered, the highest rate in the country.\",\n    \"SB 606 would require local jurisdictions to assess the shelter and housing resources necessary to bring all unsheltered people indoors.\",\n    \"SB 606 uses tools like th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Two-thirds of California’s homeless population is unsheltered, the highest rate in the country.\",\n    \"SB 606 would require local jurisdictions to assess the shelter and housing resources necessary to bring all unsheltered people indoors.\",\n    \"SB 606 uses tools like the Shelter Crisis Act to expedite housing development.\",\n    \"SB 606 promotes regional collaboration so that smaller cities contribute to solutions.\",\n    \"Successful local models, such as San Jose’s data-driven strategy, have shown that coordinated, adequately funded plans can reduce unsheltered homelessness.\",\n    \"California’s homeless population reached more than 187,000 last year, with most people sleeping outside.\",\n    \"Nationwide, homelessness rose by 18%, with 22 states seeing double-digit increases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2676ace12ce607bda72f36d2f8604ae2fe65f816"
+}

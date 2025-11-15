@@ -1,0 +1,84 @@
+{
+  "press_release": "20230711-city-chula-vista-gets-closer-its-dream-world-class-university.txt",
+  "party": "Democratic",
+  "title": "SAN DIEGO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The City of Chula Vista has received an exemption from the Surplus Lands Act for its University-Innovation District development project.\"\n    },\n    {\n      \"claim_text\": \"The development project covers approximately 383 acres.\"\n    },\n    {\n      \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The City of Chula Vista has received an exemption from the Surplus Lands Act for its University-Innovation District development project.\"\n    },\n    {\n      \"claim_text\": \"The development project covers approximately 383 acres.\"\n    },\n    {\n      \"claim_text\": \"Universities offer incredible economic opportunities for surrounding communities.\"\n    },\n    {\n      \"claim_text\": \"Higher education increases capacity and access to learning.\"\n    },\n    {\n      \"claim_text\": \"Individuals with a bachelor's degree earn about $32,000 more annually than those with only a high school diploma.\"\n    },\n    {\n      \"claim_text\": \"Chula Vista is the only city in California with a population greater than 200,000 that does not have a non-profit or state university within its city limits.\"\n    },\n    {\n      \"claim_text\": \"A university presence in South Bay would provide more equitable access to higher education.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The City of Chula Vista has received an exemption from the Surplus Lands Act for its University-Innovation District development project.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The development project covers approximately 383 acres.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Universities offer incredible economic opportunities for surrounding communities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Higher education increases capacity and access to learning.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Individuals with a bachelor's degree earn about $32,000 more annually than those with only a high school diploma.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Chula Vista is the only city in California with a population greater than 200,000 that does not have a non-profit or state university within its city limits.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "A university presence in South Bay would provide more equitable access to higher education.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "360c7d1f8dd0e7375750d48cc4ec1c108c9652e4"
+}

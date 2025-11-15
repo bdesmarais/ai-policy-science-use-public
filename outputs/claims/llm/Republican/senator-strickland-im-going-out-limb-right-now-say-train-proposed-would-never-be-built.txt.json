@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-strickland-im-going-out-limb-right-now-say-train-proposed-would-never-be-built.txt",
+  "party": "Republican",
+  "title": "Senate Democrats in the Senate Taxation and Revenue Committee recently refused to pass Senate Bill 94 , authored by Senator Tony Strickland ( R-Huntington Beach ). SB 94 aimed to d",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Tony Strickland expressed skepticism about California's efforts to complete the high-speed rail project.\",\n    \"Senator Strickland stated that the proposed high-speed rail project will never be built given the rising costs.\",\n    \"Senator Strickland criticized th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Tony Strickland expressed skepticism about California's efforts to complete the high-speed rail project.\",\n    \"Senator Strickland stated that the proposed high-speed rail project will never be built given the rising costs.\",\n    \"Senator Strickland criticized the current legislative approach to the high-speed rail project as ineffective.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0ad579fd542f8751fdecf8f8a792b40280bc608e"
+}

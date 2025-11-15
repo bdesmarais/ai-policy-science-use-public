@@ -1,0 +1,13 @@
+{
+  "press_release": "california-passes-historic-declaration-becoming-first-compassionate-state-nation.txt",
+  "party": "Democratic",
+  "title": "The State of California has passed Senate Concurrent Resolution (SCR) 18, titled “Compassionate California” . Introduced by Senator Dave Cortese (D-San Jose), the Resolution declar",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is the first Compassionate State in the United States.\",\n    \"Seventeen communities in California have passed 'Compassionate Resolutions.'\",\n    \"Over 450 cities, counties, and states across 56 countries have adopted or are advancing 'Compassionate' community ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is the first Compassionate State in the United States.\",\n    \"Seventeen communities in California have passed 'Compassionate Resolutions.'\",\n    \"Over 450 cities, counties, and states across 56 countries have adopted or are advancing 'Compassionate' community declarations.\",\n    \"Research demonstrates that practicing compassion produces positive benefits in all sectors of civic and community life, including business, education, safety, public health, economic, and physical, emotional, mental, and spiritual well-being.\",\n    \"Compassion is at the heart of peace and harmony in community.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba542275809c39d1c9b94724d39fb8f4d429cdc2"
+}

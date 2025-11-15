@@ -1,0 +1,13 @@
+{
+  "press_release": "20250609-assembly-bill-655-passes-senate-committee-strong-support-increased-border.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:38:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 655 aims to expand representation on the California-Mexico Border Relations Council to include legislative members from border districts.\",\n    \"The California-Mexico Border Relations Council currently consists of state agency leaders who coordinate cross-b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 655 aims to expand representation on the California-Mexico Border Relations Council to include legislative members from border districts.\",\n    \"The California-Mexico Border Relations Council currently consists of state agency leaders who coordinate cross-border policy efforts.\",\n    \"Cross-border policy efforts addressed by the California-Mexico Border Relations Council include trade and environmental protection.\",\n    \"Border communities in California represent nearly 3 million residents.\",\n    \"Border communities contribute $33.5 billion in annual cross-border trade between California and Mexico.\",\n    \"AB 655 has received support from the City of San Diego and the San Diego Regional Chamber of Commerce.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bf4c87f31f60522a5676f9224310f9fb3d8e7990"
+}

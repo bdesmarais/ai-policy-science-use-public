@@ -1,0 +1,13 @@
+{
+  "press_release": "20200804-bill-remove-barriers-native-american-voter-access-clears-first-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—A proposal to help Native Americans gain greater access to the electoral process was approved today on a 5-0 vote by the Senate Committee on Elections and Constitutional",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposal AB 2314 requires the Secretary of State to create a Native American Voting Accessibility Committee.\",\n    \"The committee is tasked with establishing guidelines for reaching Native American voters.\",\n    \"The committee will recommend ways to improve the avail",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposal AB 2314 requires the Secretary of State to create a Native American Voting Accessibility Committee.\",\n    \"The committee is tasked with establishing guidelines for reaching Native American voters.\",\n    \"The committee will recommend ways to improve the availability and accessibility of election voter materials.\",\n    \"The committee is expected to suggest methods for distributing public service announcements relevant to Native American voters.\",\n    \"The proposed bill aims to recruit and train Native American poll workers.\",\n    \"The proposal includes recommendations for providing language assistance to Native American voters.\",\n    \"Historically, the Native American right to vote was not fully recognized in every state until 1962.\",\n    \"Voter turnout among Native Americans is reported to be five to 14 percent lower than that of other ethnic or racial groups.\",\n    \"Native Americans have faced barriers to voting similar to those faced by African Americans and other minorities, including poll taxes and literacy tests.\",\n    \"Many Native American voters possess only tribal identification, which is not recognized for voting purposes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0e60430b23ebc01393e8d38a8df0972783895426"
+}

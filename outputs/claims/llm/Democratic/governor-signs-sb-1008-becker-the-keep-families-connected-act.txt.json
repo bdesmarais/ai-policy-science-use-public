@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-sb-1008-becker-the-keep-families-connected-act.txt",
+  "party": "Democratic",
+  "title": "Governor Signs SB 1008 (Becker), the “Keep Families Connected Act,” Following Grassroots Push from Community Members and Senator Josh Becker",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"People incarcerated in California state prisons and local juvenile detention facilities will be able to make and receive phone calls free of charge starting January 1, 2023.\",\n    \"SB 1008 eliminates per-minute charges and connection fees for incarcerated individuals to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"People incarcerated in California state prisons and local juvenile detention facilities will be able to make and receive phone calls free of charge starting January 1, 2023.\",\n    \"SB 1008 eliminates per-minute charges and connection fees for incarcerated individuals to communicate with loved ones.\",\n    \"Limited communication has a devastating emotional toll on both incarcerated individuals and their families.\",\n    \"A strong support system is an important factor in the successful re-entry of incarcerated individuals into society.\",\n    \"The prison telecommunication services industry is a $1.4 billion industry in the United States.\",\n    \"The industry’s fees cost California families an estimated $68.2 million annually.\",\n    \"One in three families falls into debt while trying to remain connected with a loved one in prison.\",\n    \"Eighty-seven percent of the burden of communication costs falls on women, particularly women of color.\",\n    \"California is the second state in the U.S. to offer free phone calls in its prisons and juvenile halls, following Connecticut.\",\n    \"New York City initiated the free phone call movement in its jails in 2018.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b58e833bbdd3a162a95231855155293b7695a4e7"
+}

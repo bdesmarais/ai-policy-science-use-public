@@ -1,0 +1,13 @@
+{
+  "press_release": "20250528-zbur-honors-jq-international-2025-nonprofit-year.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Rick Chavez Zbur (right) Names JQ International, represented by Founder and CEO Asher Gellis (left), as his 2025 Nonprofit of the Year for the Fifty-First Assembly D",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"JQ International is a leading nonprofit organization dedicated to strengthening and celebrating the lives of LGBTQ+ Jews and their allies.\",\n    \"JQ International promotes community connection, education, and advocacy through programs including Shabbat dinners, Jewish ho",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"JQ International is a leading nonprofit organization dedicated to strengthening and celebrating the lives of LGBTQ+ Jews and their allies.\",\n    \"JQ International promotes community connection, education, and advocacy through programs including Shabbat dinners, Jewish holiday celebrations, youth leadership initiatives, and culturally responsive virtual support groups.\",\n    \"JQ International's work is grounded in Jewish values, particularly Pikuach Nefesh, the imperative to save a life.\",\n    \"Each year, JQ International reaches over 13,000 LGBTQ+ Jews and allies through its direct services, events, and educational programming.\",\n    \"JQ International provides cultural competency training for Jewish institutions, community organizations, and schools to foster inclusive environments for LGBTQ+ individuals.\",\n    \"The annual JQ Impact Awards honors individuals who champion LGBTQ+ inclusion and leadership within Jewish life.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "81a6e05446190256d46d6a193abc50f6d517aac1"
+}

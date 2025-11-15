@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-archuleta-joins-march-help-bring-awareness-mental-health-issues-facing.txt",
+  "party": "Democratic",
+  "title": "Montebello, CA – Senator Bob Archuleta (D-Pico Rivera) joined veterans, local elected officials and members of the community on Saturday, November 16, to walk in the 22 Ruck March ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7dbd14dc01255e89c59847d5215970a46cf4be82"
+}

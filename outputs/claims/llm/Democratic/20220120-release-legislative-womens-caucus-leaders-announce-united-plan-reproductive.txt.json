@@ -1,0 +1,13 @@
+{
+  "press_release": "20220120-release-legislative-womens-caucus-leaders-announce-united-plan-reproductive.txt",
+  "party": "Democratic",
+  "title": "In honor of the 49th Anniversary of",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"More than half of U.S. states have passed laws that restrict or eliminate access to abortions.\",\n    \"California is committed to providing access to abortion and all reproductive services for Californians and those who may seek refuge there.\",\n    \"The Legislative Women'",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"More than half of U.S. states have passed laws that restrict or eliminate access to abortions.\",\n    \"California is committed to providing access to abortion and all reproductive services for Californians and those who may seek refuge there.\",\n    \"The Legislative Women's Caucus will support women and families in expanding and protecting access to abortion care.\",\n    \"The California Future of Abortion Council released a report highlighting policy recommendations to increase access to safe, equitable, and affordable abortion care.\",\n    \"Proposals from the California Future of Abortion Council include eliminating cost sharing in abortion services.\",\n    \"The Council proposes providing civil liberty protections to clinicians that assist patients from states with hostile laws.\",\n    \"A proposal includes establishing a centralized web page for information on abortion services and support.\",\n    \"There is a proposal to create a pilot program for counties to fund community health clinics providing reproductive healthcare.\",\n    \"The Council proposes establishing a gap coverage and uncompensated care program for uninsured and underinsured Californians seeking abortion services.\",\n    \"The proposal includes stabilizing and expanding the reproductive health and abortion care workforce for culturally and linguistically appropriate care.\",\n    \"The plan aims to protect individuals from prosecutions related to abortion or pregnancy loss.\",\n    \"The proposal ensures patient privacy and protection of medical records for abortion patients.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7fb78c26a213354aa2bdfe9f30ede5760a44feb5"
+}

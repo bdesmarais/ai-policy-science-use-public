@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-corteses-statement-appointment-ca-high-speed-rail-authoritys-new-chief-executive-officer.txt",
+  "party": "Democratic",
+  "title": "The following statement is attributable to Senator Dave Cortese (D-San Jose) on the appointment of Ian Choudri as the new Chief Executive Officer (CEO) of the California High-Speed",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Ian Choudri has over 30 years of leadership experience in the transportation sector.\",\n    \"California's high-speed rail project aims to link whole regions to one another.\",\n    \"California is the world's 5th largest economy.\",\n    \"The completion of California's high-sp",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Ian Choudri has over 30 years of leadership experience in the transportation sector.\",\n    \"California's high-speed rail project aims to link whole regions to one another.\",\n    \"California is the world's 5th largest economy.\",\n    \"The completion of California's high-speed rail project is considered transformational and ambitious.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4e8ba8f59c225c0b09a30f7ffc849f43d9593fb9"
+}

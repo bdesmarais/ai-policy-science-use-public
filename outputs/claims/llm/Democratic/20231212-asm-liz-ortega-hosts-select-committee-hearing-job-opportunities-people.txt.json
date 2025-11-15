@@ -1,0 +1,13 @@
+{
+  "press_release": "20231212-asm-liz-ortega-hosts-select-committee-hearing-job-opportunities-people.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – On Tuesday, Assemblymember Liz Ortega (D-San Leandro) chaired a public hearing to explore the reasons for California’s stubbornly low employment rates for people w",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Unemployment rates for people with disabilities in the US decreased from 12.3% in 2020 to 5.8% in 2022.\",\n    \"The unemployment rate for US workers with disabilities increased to 7.8% as employers returned to in-person work policies.\",\n    \"California's employment rates ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Unemployment rates for people with disabilities in the US decreased from 12.3% in 2020 to 5.8% in 2022.\",\n    \"The unemployment rate for US workers with disabilities increased to 7.8% as employers returned to in-person work policies.\",\n    \"California's employment rates for workers with disabilities average between 35% and 40%, which is slightly behind the national rate of 40% as of October 2023.\",\n    \"The availability of remote work has positively impacted employment opportunities for people with disabilities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e7d4c9f9c5217c4428f55eb956d0ff27af267f1d"
+}

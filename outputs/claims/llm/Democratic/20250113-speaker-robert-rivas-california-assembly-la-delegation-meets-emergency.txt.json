@@ -1,0 +1,13 @@
+{
+  "press_release": "20250113-speaker-robert-rivas-california-assembly-la-delegation-meets-emergency.txt",
+  "party": "Democratic",
+  "title": "This weekend in Los Angeles, Speaker Robert Rivas and a delegation of 14 California Assembly members met with firefighters and officials to discuss how to further assist emergency ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The wildfires in California are described as a catastrophe of historic proportions.\",\n    \"The devastation caused by the wildfires will impact generations to come.\",\n    \"California Assembly members are committed to fast-tracking relief efforts to address the immediate n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The wildfires in California are described as a catastrophe of historic proportions.\",\n    \"The devastation caused by the wildfires will impact generations to come.\",\n    \"California Assembly members are committed to fast-tracking relief efforts to address the immediate needs of victims.\",\n    \"Assemblymember Sade Elhawary emphasized the need to rebuild historically underserved communities after the wildfires.\",\n    \"Assemblymember Mike Fong highlighted the importance of securing resources to rebuild communities affected by the wildfires.\",\n    \"Assemblymember Jesse Gabriel expressed gratitude to firefighters and emergency personnel for risking their lives during the wildfires.\",\n    \"There is a long road ahead for healing and recovery from the devastation caused by the wildfires.\",\n    \"The California Assembly is planning to announce legislation prioritizing recovery for all Angelenos.\",\n    \"The wildfires have destroyed homes, businesses, and lives in the affected communities.\",\n    \"Assemblymember Celeste Rodriguez mentioned the need for effective policy solutions to address the needs of vulnerable communities impacted by the wildfires.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "742602c12abde5a027d6b8021a1221e26f6ceab3"
+}

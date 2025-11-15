@@ -1,0 +1,13 @@
+{
+  "press_release": "20250203-assemblywoman-pilar-schiavo-takes-action-protect-californias-tax-dollars.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:25:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Withholding federal funding puts critical services at risk for schools, housing, wildfire recovery, veterans' services, and public safety.\",\n    \"If federal funding is withheld, schools risk losing teachers, closing neighborhood schools, cutting school meals, and losing ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Withholding federal funding puts critical services at risk for schools, housing, wildfire recovery, veterans' services, and public safety.\",\n    \"If federal funding is withheld, schools risk losing teachers, closing neighborhood schools, cutting school meals, and losing mental health services for students.\",\n    \"The ability to fully fund law enforcement is threatened if tax dollars are withheld, impacting local law enforcement and emergency response budgets.\",\n    \"Withholding tax dollars risks reversing progress made in reducing homelessness and increases the risk for those struggling with housing affordability.\",\n    \"Organizations providing housing, mental health care, and job training to veterans could cut services or close if federal grant dollars are withheld.\",\n    \"Communities impacted by wildfires depend on federal funds to rebuild and protect against future disasters.\",\n    \"California's preparedness to take legal action against unconstitutional actions, including the withholding of tax dollars, is supported by $25 million set aside for emergency legal defense.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "27708355b05544090aa1d169165a41b22196e8f2"
+}

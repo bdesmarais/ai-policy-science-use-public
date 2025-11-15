@@ -1,0 +1,13 @@
+{
+  "press_release": "20190122-assemblywoman-quirk-silva-reacts-supreme-court-ruling-trumpas-transgender.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:04:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fe545cddbe1e44e29107d5063eb5568babf4bd46"
+}

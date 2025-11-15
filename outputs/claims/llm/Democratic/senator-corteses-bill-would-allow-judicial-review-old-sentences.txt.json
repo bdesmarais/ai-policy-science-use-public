@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-bill-would-allow-judicial-review-old-sentences.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) has authored a bill to provide a ‘ second look’ to Californians sentenced to death or serving life in prison without the possibility of parole.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of Corrections and Rehabilitation's California Static Risk Assessment tool reports that 88% of people serving life without parole have been assessed with the 'lowest risk' score.\",\n    \"Conclusive research confirms that elderly individuals are u",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of Corrections and Rehabilitation's California Static Risk Assessment tool reports that 88% of people serving life without parole have been assessed with the 'lowest risk' score.\",\n    \"Conclusive research confirms that elderly individuals are unlikely to re-offend upon release.\",\n    \"The recidivism rate for individuals previously sentenced to life without parole and granted a commutation and released in California is zero percent.\",\n    \"California’s rapidly aging prison population is creating a public health crisis that incurs significant costs to the state.\",\n    \"The bill allows judges to consider mitigating factors, including advanced age and reduced risk, when reviewing very old cases for sentencing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d54992ff67629f8645826d410e7329e7bef74fd6"
+}

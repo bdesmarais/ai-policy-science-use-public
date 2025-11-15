@@ -1,0 +1,13 @@
+{
+  "press_release": "20191113-750000-state-funding-secured-illegal-dumping-pilot-program-contra-costa-and.txt",
+  "party": "Democratic",
+  "title": "Funding secured by efforts of Assemblymember Rebecca Bauer-Kahan, Alameda District Attorney Nancy O’Malley and Contra Costa District Attorney Diana Becton",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:13:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The pilot program to combat illegal dumping has secured $750,000 in state funding.\",\n    \"The funding will pay for an enforcement officer in both Alameda and Contra Costa Counties.\",\n    \"Illegal dumping investigations are typically time-consuming due to challenges in id",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The pilot program to combat illegal dumping has secured $750,000 in state funding.\",\n    \"The funding will pay for an enforcement officer in both Alameda and Contra Costa Counties.\",\n    \"Illegal dumping investigations are typically time-consuming due to challenges in identifying registered vehicle owners.\",\n    \"Many police agencies lack the resources to investigate illegal dumping leads because they are focused on violent crimes.\",\n    \"Designating two sworn peace officers exclusively to investigate illegal dumping cases will allow for the building of expertise regarding these investigations.\",\n    \"Illegal dumping disproportionately affects disadvantaged communities and impacts the well-being of residents.\",\n    \"Illegal dumping creates breeding grounds for vermin, impacting public health.\",\n    \"Illegally disposing of construction debris and other waste can harm the environment and threaten the health and safety of residents.\",\n    \"The anticipated funding for illegal dumping enforcement is expected to save taxpayers money in the long term.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "efab21c81c0543a626963972d4953188ef3c8a56"
+}

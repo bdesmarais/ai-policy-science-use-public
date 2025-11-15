@@ -1,0 +1,13 @@
+{
+  "press_release": "20190913-legislature-votes-protect-patients-substance-abuse-treatment-facilities.txt",
+  "party": "Democratic",
+  "title": "Action Necessary in Response to the Opioid Crisis",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:11:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The opioid crisis continues to grow in California.\",\n    \"Current laws do not effectively prevent unscrupulous actors from exploiting vulnerable individuals seeking recovery.\",\n    \"AB 919 will require the Department of Health Care Services to establish an enforcement pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The opioid crisis continues to grow in California.\",\n    \"Current laws do not effectively prevent unscrupulous actors from exploiting vulnerable individuals seeking recovery.\",\n    \"AB 919 will require the Department of Health Care Services to establish an enforcement program to prevent body brokering schemes.\",\n    \"AB 920 requires outpatient Substance Abuse Treatment programs to be licensed with the Department of Healthcare Services.\",\n    \"The California Society of Addiction Medicine advocates for the licensure of all outpatient alcohol and substance use disorder recovery treatment programs.\",\n    \"The lack of standards and regulations in addiction treatment has allowed commercial enterprises to profit from sub-standard care.\",\n    \"AB 920 aims to establish licensing standards for outpatient addiction treatment to ensure quality treatment for addiction.\",\n    \"AB 919 seeks to end the abusive practice of transporting desperate individuals seeking treatment into California under false pretenses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3b1afa771b5a3bf3a4d5b1fa4bc0ae351cd76078"
+}

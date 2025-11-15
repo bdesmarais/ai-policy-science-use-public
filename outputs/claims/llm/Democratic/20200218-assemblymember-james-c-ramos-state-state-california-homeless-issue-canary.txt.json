@@ -1,0 +1,13 @@
+{
+  "press_release": "20200218-assemblymember-james-c-ramos-state-state-california-homeless-issue-canary.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember James Ramos (D-Highland) issued the following statement today following Governor Gavin Newsom’s 2020 State of the State address:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:14:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's approach to solving homelessness must tackle the problem in a coordinated, broad approach that addresses mental illness, poverty, joblessness, lack of job skills, and substance abuse.\",\n    \"Legislation AB 2385 aims to assist homeless individuals with mental",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's approach to solving homelessness must tackle the problem in a coordinated, broad approach that addresses mental illness, poverty, joblessness, lack of job skills, and substance abuse.\",\n    \"Legislation AB 2385 aims to assist homeless individuals with mental illness by providing critically needed care in a structured, 'home-like' setting after their release from psychiatric care.\",\n    \"AB 2404 is intended to reform limited and general conservatorships based on recommendations from the State Auditor.\",\n    \"The Lanterman-Petris-Short Act was designed to provide short-term, community-based intensive treatment to individuals with mental health disorders.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e2183c5e0574136e0a85125119d21bd143bc6535"
+}

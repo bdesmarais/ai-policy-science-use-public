@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-bill-streamline-water-allocations-passes-senate-natural-resources.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) announced that her bill Senate Bill 550 has passed unanimously through the Senate Natural Resources Committee. SB 550 would analyze the uncert",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 550 aims to analyze uncertainties and delays in the state's water trading process.\",\n    \"SB 550 intends to close information gaps on the supply of water.\",\n    \"SB 550 assesses trends and barriers to entry in water markets.\",\n    \"A better understanding of w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 550 aims to analyze uncertainties and delays in the state's water trading process.\",\n    \"SB 550 intends to close information gaps on the supply of water.\",\n    \"SB 550 assesses trends and barriers to entry in water markets.\",\n    \"A better understanding of water markets could enhance the state's water-resilience efforts.\",\n    \"Water trading could improve the efficiency of water markets.\",\n    \"Water trading has the potential to increase water supplies by allowing water rights holders to divert water to areas that need it the most.\",\n    \"Current water trading processes can take 18 months or longer to complete.\",\n    \"Improving information about water availability could reduce uncertainty and delays in water trading.\",\n    \"A Public Policy Institute of California report suggests that better information could help trade water without harming the environment or other legal water users.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "85a15bf01e5a280956ff68299c8e0006440ea0b8"
+}

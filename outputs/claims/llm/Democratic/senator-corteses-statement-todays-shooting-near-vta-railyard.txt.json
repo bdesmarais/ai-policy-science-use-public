@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-statement-todays-shooting-near-vta-railyard.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) issued the following statement regarding today’s shooting in the area of North San Pedro and West Hedding streets, one block away from last week’s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9efcf66fd2b3ff6fceea9cac4bf1ba23ee6f9d4f"
+}

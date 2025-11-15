@@ -1,0 +1,13 @@
+{
+  "press_release": "20210414-release-bill-protect-substance-abuse-recovery-patients-advances.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The California Assembly Health Committee has unanimously passed legislation authored by Assemblywoman Cottie Petrie-Norris to protect patients recovering from alcohol ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Substance use has skyrocketed since the Covid-19 Pandemic began.\",\n    \"An increasing number of Californians have begun to seek recovery services.\",\n    \"Mounting evidence has revealed reported cases of abuse against patients in substance abuse treatment facilities, incl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Substance use has skyrocketed since the Covid-19 Pandemic began.\",\n    \"An increasing number of Californians have begun to seek recovery services.\",\n    \"Mounting evidence has revealed reported cases of abuse against patients in substance abuse treatment facilities, including death and serious injury.\",\n    \"AB 1158 aims to increase standards to protect patients seeking substance abuse treatment by establishing minimum insurance coverage levels.\",\n    \"Requiring minimum insurance standards and reporting of injuries and deaths enables the Department of Insurance's investigators to act swiftly to protect public health and safety.\",\n    \"AB 1158 will ensure the victims of the 'patients for profits' business model can pursue justice when harmed or taken advantage of by bad actors in the addiction treatment industry.\",\n    \"Current laws allow unscrupulous sober living operators to operate with little to no requirements for health and safety.\",\n    \"AB 1158 will prevent these operators from disregarding the safety of residents by requiring appropriate levels of insurance.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70cfbb187eae30310529dd21445edf476aa35a35"
+}

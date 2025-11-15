@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-groves-statement-response-hearing-public-safety-power-shutoffs.txt",
+  "party": "Republican",
+  "title": "Today, Senate Republican Leader Shannon Grove (R-Bakersfield) issued the following statement after the California Senate Energy, Utilities, and Communications Committee held an ove",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Reliable electricity is essential for all aspects of life in California.\",\n    \"Power outages in California pose risks to lives, businesses, and public safety.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Reliable electricity is essential for all aspects of life in California.\",\n    \"Power outages in California pose risks to lives, businesses, and public safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "08d1f14c7c9abee58932ab45800fd3389f3459b3"
+}

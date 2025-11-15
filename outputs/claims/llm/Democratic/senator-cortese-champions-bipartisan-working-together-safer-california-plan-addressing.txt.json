@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-champions-bipartisan-working-together-safer-california-plan-addressing.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) released the following statement on the Working Together for a Safer California plan, a data-driven, bipartisan Senate policy package addressing f",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The 'Working Together for a Safer California' plan is a data-driven, bipartisan Senate policy package addressing fentanyl and retail theft.\",\n    \"The plan offers a rehabilitative and holistic framework to dismantle networks of crime.\",\n    \"The bill package will fight f",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The 'Working Together for a Safer California' plan is a data-driven, bipartisan Senate policy package addressing fentanyl and retail theft.\",\n    \"The plan offers a rehabilitative and holistic framework to dismantle networks of crime.\",\n    \"The bill package will fight fentanyl abuse by preventing and treating addiction.\",\n    \"SB 10, Melanie’s Law, aims to stop youth fentanyl overdoses in schools.\",\n    \"SB 553 is designed to prevent workplace violence.\",\n    \"The legislative strategy prioritizes prevention, treatment, and support for law enforcement agencies.\",\n    \"The plan is set to reverse trends in retail theft and fentanyl overdoses and deaths.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "efe852524c8a0391b59ad04d91c4452e32eed92a"
+}

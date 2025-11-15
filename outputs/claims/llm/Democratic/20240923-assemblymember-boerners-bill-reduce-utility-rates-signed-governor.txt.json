@@ -1,0 +1,13 @@
+{
+  "press_release": "20240923-assemblymember-boerners-bill-reduce-utility-rates-signed-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Public Utilities Commission (CPUC) is required to determine if utility rates were reasonably set for investor-owned utilities (IOUs).\",\n    \"The CPUC will adjust the approved rate of return downward at the next general rate case if an IOU made excess profi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Public Utilities Commission (CPUC) is required to determine if utility rates were reasonably set for investor-owned utilities (IOUs).\",\n    \"The CPUC will adjust the approved rate of return downward at the next general rate case if an IOU made excess profits at the previous general rate case.\",\n    \"According to the California State Auditor’s August 2023 report, some IOUs generated profits above their approved rate of return.\",\n    \"The audit found that electricity rates increased between 16 percent and 23 percent from 2022 to 2023 for certain utility companies.\",\n    \"Southern California Edison, Pacific Gas and Electric, and San Diego Gas and Electric (SDG&E) raised natural gas prices between 27 percent and 162 percent within the same year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "45dfd6a55aea666744211ab9b356a370d3139fc8"
+}

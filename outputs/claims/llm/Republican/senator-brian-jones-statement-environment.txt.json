@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-statement-environment.txt",
+  "party": "Republican",
+  "title": "We are all stewards of our environment, in our local neighborhood, our region, our state, our nation, and our Earth itself.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Advancements in science and technology present opportunities to better conserve resources and protect the environment.\",\n    \"Emerging technologies have the potential to create a cleaner environment and improve the quality of life.\",\n    \"Forest thinning, prescribed burn",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Advancements in science and technology present opportunities to better conserve resources and protect the environment.\",\n    \"Emerging technologies have the potential to create a cleaner environment and improve the quality of life.\",\n    \"Forest thinning, prescribed burns, power line hardening, and vegetation management are effective and science-proven strategies to fight wildfires.\",\n    \"Mandated electric cars and solar power may not address real-world challenges faced by disadvantaged Californians struggling to afford utility bills and gas.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f1c795668363065d6fa65cf21f9c1d18e3933e60"
+}

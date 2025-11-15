@@ -1,0 +1,13 @@
+{
+  "press_release": "20250721-statement-assemblymember-diane-papan-assembly-bill-882.txt",
+  "party": "Democratic",
+  "title": "“After careful consideration and dialogue with a broad range of stakeholders, I have made the decision to designate AB 882 as a two-year bill. The additional time will allow me to ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There is a shortage of certified court reporters in the courts.\",\n    \"Timely access to a verbatim record of court proceedings affects the fairness and integrity of the civil justice system for low-income litigants.\",\n    \"AB 882 will allow courts to use electronic recor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There is a shortage of certified court reporters in the courts.\",\n    \"Timely access to a verbatim record of court proceedings affects the fairness and integrity of the civil justice system for low-income litigants.\",\n    \"AB 882 will allow courts to use electronic recording in civil proceedings for low-income litigants.\",\n    \"The courts must demonstrate real due diligence in recruiting and retaining court reporters.\",\n    \"Having a live, trained court reporter is critical for creating an accurate and immediate record in the courtroom.\",\n    \"California is in the process of rebuilding its pipeline of qualified court reporters, but this process is happening slowly.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "779b96e197a6fb4206ac323637b81a753529687b"
+}

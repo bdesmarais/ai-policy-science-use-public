@@ -1,0 +1,13 @@
+{
+  "press_release": "20230703-assemblywoman-soria-named-chair-assembly-agriculture-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b0bf408b05a6ff239e83424dc10b4310f3034388"
+}

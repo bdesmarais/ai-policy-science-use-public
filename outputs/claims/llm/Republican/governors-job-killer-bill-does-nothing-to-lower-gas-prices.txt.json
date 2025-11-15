@@ -1,0 +1,13 @@
+{
+  "press_release": "governors-job-killer-bill-does-nothing-to-lower-gas-prices.txt",
+  "party": "Republican",
+  "title": "The Senate Standing Committee on Energy, Utilities and Communications passed the Governor’s proposal, SBX1 2, which creates a new layer of government to increase regulations on Cal",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposal SBX1 2 creates a new layer of government to increase regulations on California energy producers.\",\n    \"The legislation is expected to lead to energy market disruptions.\",\n    \"The bill will increase the costs on energy production.\",\n    \"Increasing energy s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposal SBX1 2 creates a new layer of government to increase regulations on California energy producers.\",\n    \"The legislation is expected to lead to energy market disruptions.\",\n    \"The bill will increase the costs on energy production.\",\n    \"Increasing energy supplies is proposed as a solution to lower gas prices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "947e174fb476006502bc198295bef8a38cf64474"
+}

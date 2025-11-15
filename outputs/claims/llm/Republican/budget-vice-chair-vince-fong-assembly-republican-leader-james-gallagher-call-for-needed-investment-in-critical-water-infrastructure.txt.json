@@ -1,0 +1,13 @@
+{
+  "press_release": "budget-vice-chair-vince-fong-assembly-republican-leader-james-gallagher-call-for-needed-investment-in-critical-water-infrastructure.txt",
+  "party": "Republican",
+  "title": "January 6, 2022",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California's infrastructure is crumbling and unprepared to safeguard residents.\",\n    \"Fully funding the already voter-approved Sites Reservoir will provide more space to store water from deluges.\",\n    \"Higher levees and stronger flood protections will keep neighbo",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California's infrastructure is crumbling and unprepared to safeguard residents.\",\n    \"Fully funding the already voter-approved Sites Reservoir will provide more space to store water from deluges.\",\n    \"Higher levees and stronger flood protections will keep neighborhoods and roadways safe.\",\n    \"Repairs to the Friant-Kern and Delta-Mendota Canals and the California Aqueduct will guarantee maximum conveyance of water.\",\n    \"This critical funding will provide drinking water for nearly 40 million Californians.\",\n    \"The state experienced one of the wettest seasons on record in 2017.\",\n    \"Due to a lack of water storage and conveyance in 2017, the water could not be efficiently stored.\",\n    \"More rainwater is being wasted in California in 2023.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba087e81eddc06634a06bce0a1386adf4dc0bf48"
+}

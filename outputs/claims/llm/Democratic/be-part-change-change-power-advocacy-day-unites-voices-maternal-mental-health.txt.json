@@ -1,0 +1,64 @@
+{
+  "press_release": "be-part-change-change-power-advocacy-day-unites-voices-maternal-mental-health.txt",
+  "party": "Democratic",
+  "title": "WHAT:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Perinatal mental health conditions are the most common complication of pregnancy and a leading cause of maternal death.\"\n    },\n    {\n      \"claim_text\": \"1 in 3 birthing people are affected by perinatal mental health conditions, yet 75% go untreate",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Perinatal mental health conditions are the most common complication of pregnancy and a leading cause of maternal death.\"\n    },\n    {\n      \"claim_text\": \"1 in 3 birthing people are affected by perinatal mental health conditions, yet 75% go untreated.\"\n    },\n    {\n      \"claim_text\": \"Perinatal depression is the leading cause of maternal mortality.\"\n    },\n    {\n      \"claim_text\": \"Black women are dying at three times the rate of Caucasian women due to maternal health issues.\"\n    },\n    {\n      \"claim_text\": \"California spends an estimated $2.4 billion annually on the consequences of untreated perinatal mental health conditions.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Perinatal mental health conditions are the most common complication of pregnancy and a leading cause of maternal death.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "1 in 3 birthing people are affected by perinatal mental health conditions, yet 75% go untreated.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Perinatal depression is the leading cause of maternal mortality.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Black women are dying at three times the rate of Caucasian women due to maternal health issues.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California spends an estimated $2.4 billion annually on the consequences of untreated perinatal mental health conditions.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "c1d92123308bb5ea31b2f85fc9757ab5010663c2"
+}

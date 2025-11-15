@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-shannon-grove-continues-fight-against-human-trafficking-after-being-sworn-senator.txt",
+  "party": "Republican",
+  "title": "Today, Senator Shannon Grove (R-Bakersfield) was sworn-in to represent the 12 th Senate District which encompasses Fresno, Kern and Tulare Counties. She has previously represented ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:15:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California consistently ranks number one in the nation for the number of human trafficking cases reported to the National Human Trafficking Hotline.\",\n    \"The level of sophistication and organization of human trafficking rings will require stronger consequences for law ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California consistently ranks number one in the nation for the number of human trafficking cases reported to the National Human Trafficking Hotline.\",\n    \"The level of sophistication and organization of human trafficking rings will require stronger consequences for law enforcement to hold criminals accountable.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ece91f0d9fef0b72f9d2b421089f8ba30e78df5f"
+}

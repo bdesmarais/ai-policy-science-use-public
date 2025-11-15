@@ -1,0 +1,13 @@
+{
+  "press_release": "20170531-quirk-silvaas-west-coyote-hills-open-space-act-passes-assembly-floor.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) â Today, Assembly Bill 510 (AB 510) by Assemblywoman Sharon Quirk-Silva (D-Orange County was approved on the Assembly floor by more than a two-thirds vote. AB 510 wo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 510 would provide funding to the Wildlife Conservation Board for land purchases related to the West Coyote Hills Open Space Project.\",\n    \"North Orange County has 1 acre of parkland per 246 people, while South Orange County has 1 acre per 6 people.\",\n    \"The Nationa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 510 would provide funding to the Wildlife Conservation Board for land purchases related to the West Coyote Hills Open Space Project.\",\n    \"North Orange County has 1 acre of parkland per 246 people, while South Orange County has 1 acre per 6 people.\",\n    \"The National Recreation and Parks Association standard for parkland is 1 acre per 100 people.\",\n    \"Within 7 miles of West Coyote Hills, there is 1 acre of parkland per 356 people.\",\n    \"West Coyote Hills will serve as a biodiversity hotspot that supports plant and animal habitats.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4a2f185d4125927a0efb46d66f30017e00ddae97"
+}

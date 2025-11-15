@@ -1,0 +1,13 @@
+{
+  "press_release": "20250522-assemblywoman-wilson-announces-california-maritime-day-honor-legacy-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has long been a leader in maritime innovation, labor, and economic resilience.\",\n    \"ACR 83 calls on public and private partners to reignite shipbuilding across California by investing in sustainable infrastructure.\",\n    \"Revitalizing California's maritime i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has long been a leader in maritime innovation, labor, and economic resilience.\",\n    \"ACR 83 calls on public and private partners to reignite shipbuilding across California by investing in sustainable infrastructure.\",\n    \"Revitalizing California's maritime industry is critical to supporting national security by maintaining a strong U.S. presence in the Pacific.\",\n    \"Investing in sustainable maritime practices can position California as a leader in green technology.\",\n    \"California's maritime industry revitalization will boost economic growth by creating jobs and enhancing trade efficiency.\",\n    \"Strengthening supply chain resilience is a benefit of investing in sustainable maritime practices.\",\n    \"The resolution calls for collaboration across all levels of government and industry to modernize shipyards.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c408412a647e1f576852db953c8b5a0db6dfc452"
+}

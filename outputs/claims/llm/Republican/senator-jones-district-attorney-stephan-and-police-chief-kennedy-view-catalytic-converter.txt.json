@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-district-attorney-stephan-and-police-chief-kennedy-view-catalytic-converter.txt",
+  "party": "Republican",
+  "title": "Senator Brian W. Jones (R-Santee), San Diego County District Attorney Summer Stephan and Chula Vista Police Chief Roxana Kennedy held a press conference this morning in which they ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The theft of catalytic converters is drastically increasing throughout the country as a result of the rising cost of precious metals.\",\n    \"In California, more catalytic converters were stolen last year (18,000) than in any other state.\",\n    \"Thefts of catalytic conver",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The theft of catalytic converters is drastically increasing throughout the country as a result of the rising cost of precious metals.\",\n    \"In California, more catalytic converters were stolen last year (18,000) than in any other state.\",\n    \"Thefts of catalytic converters in California account for 30% of the related insurance claims in the nation.\",\n    \"Senate Bill 919 will require dealers of all new and used cars in California to permanently mark a vehicle’s catalytic converter with the Vehicle Identification Number (VIN).\",\n    \"Senate Bill 919 will prohibit metal recyclers from buying catalytic converters that do not have a clear and untampered VIN, and they must keep detailed records of the sellers.\",\n    \"The increased fines and potential jail time for buying, selling, or possessing a stolen catalytic converter under Senate Bill 919 aim to discourage these thefts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "35e942a3abf43231020430ea6ccaeeacf374844a"
+}

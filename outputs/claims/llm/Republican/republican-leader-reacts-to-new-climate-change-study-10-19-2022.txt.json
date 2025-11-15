@@ -1,0 +1,13 @@
+{
+  "press_release": "republican-leader-reacts-to-new-climate-change-study-10-19-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"All wildfires in 2020 resulted in more than double the total amount of greenhouse gas emissions slashed by the state from 2003 to 2019.\",\n    \"The progress on cutting emissions was set back 18 years due to wildfires in 2020.\",\n    \"A greater emphasis on forestry manageme",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"All wildfires in 2020 resulted in more than double the total amount of greenhouse gas emissions slashed by the state from 2003 to 2019.\",\n    \"The progress on cutting emissions was set back 18 years due to wildfires in 2020.\",\n    \"A greater emphasis on forestry management and fuels reduction is a smarter and more effective approach to combating climate change.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "66e2366c7c242c9cbc383f1cdf68ee82055a5998"
+}

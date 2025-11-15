@@ -1,0 +1,13 @@
+{
+  "press_release": "20170503-statement-assemblymember-al-muratsuchi-d-torrance-us-chemical-safety-boards.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The U.S. Chemical Safety Board’s findings about the 2015 explosion at the Torrance Refinery indicate that the refinery failed to implement adequate safety procedures.\",\n    \"The U.S. Chemical Safety Board’s report suggests the refinery did not update its equipment adequa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The U.S. Chemical Safety Board’s findings about the 2015 explosion at the Torrance Refinery indicate that the refinery failed to implement adequate safety procedures.\",\n    \"The U.S. Chemical Safety Board’s report suggests the refinery did not update its equipment adequately.\",\n    \"The U.S. Chemical Safety Board’s report states that the refinery did not train its workers adequately.\",\n    \"The U.S. Chemical Safety Board cannot enforce its recommendations regarding refinery safety.\",\n    \"Assemblymember Muratsuchi proposed the 'California Refinery Jobs and Safety Action Plan' to improve safety in refineries.\",\n    \"AB 1645 proposes to ban the use of Hydrofluoric Acid at California refineries.\",\n    \"AB 1646 requires the refinery to maintain a publicly accessible risk management plan that includes emergency notifications to residents.\",\n    \"AB 1647 mandates that refineries install and maintain air quality monitors both at fence-line and in the community.\",\n    \"AB 1647 also requires refineries to publicly report the readings from air quality monitors in real-time.\",\n    \"AB 1649 seeks to codify and make permanent the existing Interagency Refinery Task Force.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "71de67018778e2270b3ca65ef514f7c3bba9630c"
+}

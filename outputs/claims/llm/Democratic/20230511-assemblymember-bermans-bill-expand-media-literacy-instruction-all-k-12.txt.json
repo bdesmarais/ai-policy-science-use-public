@@ -1,0 +1,13 @@
+{
+  "press_release": "20230511-assemblymember-bermans-bill-expand-media-literacy-instruction-all-k-12.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 873 will integrate media literacy instruction into the core subjects for all K-12 students in California.\",\n    \"Young people are increasingly reliant on the internet and social media for news consumption.\",\n    \"Media literacy instruction is essential for preparing s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 873 will integrate media literacy instruction into the core subjects for all K-12 students in California.\",\n    \"Young people are increasingly reliant on the internet and social media for news consumption.\",\n    \"Media literacy instruction is essential for preparing students to be competent and critical media consumers.\",\n    \"Children are being inundated by misinformation and disinformation on social media networks and digital platforms.\",\n    \"A 2022 Pew Research Report found that the share of teens using the internet daily has increased from 92% in 2014-15 to 97% today.\",\n    \"About half of parents of children ages 10 to 12 reported their child used social media apps in 2021.\",\n    \"A 2019 Stanford University study found that 96% of high school students failed to consider the influence of fossil fuel industry ties on the credibility of climate change websites.\",\n    \"More than half of high school students believed a grainy video purporting to show voter fraud constituted 'strong evidence' despite it being shot in Russia.\",\n    \"82% of middle school students struggled to distinguish advertisements from news stories.\",\n    \"A 2022 report by the United Nations found that 17% of public TikTok content related to the Holocaust either denied or distorted it.\",\n    \"Nearly 1 in 5 Holocaust-related Twitter posts and 49% of Holocaust content on Telegram either denied or distorted the Holocaust.\",\n    \"There is a growing number of states requiring media and information literacy instruction for students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f5a83616a1809e9662b3d88610dca0d1b8a0cc03"
+}

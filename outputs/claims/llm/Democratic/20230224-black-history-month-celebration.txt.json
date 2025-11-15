@@ -1,0 +1,34 @@
+{
+  "press_release": "20230224-black-history-month-celebration.txt",
+  "party": "Democratic",
+  "title": "On Saturday, February 18th, Assemblymember Alex Lee celebrated Black History Month with Senator Aisha Wahab and Fremont Councilmembers Desrie Campbell and Teresa Cox at South Bay C",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:55:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Melvin Easley worked for ETAK, the first navigational software company that helped shape in-car navigational system technology.\"\n    },\n    {\n      \"claim_text\": \"Chief Sean Washington developed one of the nation's first electric patrol vehicle prog",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Melvin Easley worked for ETAK, the first navigational software company that helped shape in-car navigational system technology.\"\n    },\n    {\n      \"claim_text\": \"Chief Sean Washington developed one of the nation's first electric patrol vehicle programs.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Melvin Easley worked for ETAK, the first navigational software company that helped shape in-car navigational system technology.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Chief Sean Washington developed one of the nation's first electric patrol vehicle programs.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 2,
+  "doc_sha1": "15692f037d68e3d9c98acde53c9042a28279cd08"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-joins-parents-and-education-leaders-celebrating-legislative-passage-melanies.txt",
+  "party": "Democratic",
+  "title": "State Senator Dave Cortese joined parents, Santa Clara County Supervisor Cindy Chavez, Santa Clara County Superintendent of Schools Dr. Mary Ann Dewan, and District Attorney Jeff R",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Fentanyl is responsible for one in five youth deaths in California.\",\n    \"In Santa Clara County, fentanyl deaths have spiked by a shocking 863% increase in recent years.\",\n    \"SB 10 mandates that every public school in California provide training to school employees on",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Fentanyl is responsible for one in five youth deaths in California.\",\n    \"In Santa Clara County, fentanyl deaths have spiked by a shocking 863% increase in recent years.\",\n    \"SB 10 mandates that every public school in California provide training to school employees on opioid prevention and life-saving response.\",\n    \"The bill establishes a state framework to ensure that all students and adults understand the growing risk of youth fentanyl exposure.\",\n    \"SB 10 aims to provide resources needed to prevent and respond to fentanyl poisoning and overdoses.\",\n    \"Over 1,500 boxes of Narcan, the life-saving opioid reverser, have been distributed to schools across Santa Clara County.\",\n    \"SB 10 will ensure that every secondary school is equipped with the knowledge and tools to educate students about the prevalence of fentanyl.\",\n    \"A multifaceted strategy is being implemented to combat fentanyl's impact, including raising awareness of its dangers in schools.\",\n    \"Life-saving opioid reversal medication has already saved several students' lives since its launch in 2022.\",\n    \"There is a need for expanded prevention and public awareness campaigns tailored for youth and young adults.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0a925c44df99f1b86b5d63b9b6cd3ffa96c0d86c"
+}

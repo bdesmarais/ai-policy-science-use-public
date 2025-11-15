@@ -1,0 +1,13 @@
+{
+  "press_release": "20230425-unicorn-homes-lgbtq-youth.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif. — Assemblymember Tasha Boerner’s (D-Encinitas) bill to promote housing stability and a positive support system that helps transition LGBTQ+ youth experiencing ho",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Stable and affirming housing plays a vital role in the safety of all youth, especially youth identifying as LGBTQ+.\",\n    \"People who identify as LGBTQ+ and are experiencing homelessness have greater difficulty finding shelters that accept and respect them.\",\n    \"LGBTQ+",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Stable and affirming housing plays a vital role in the safety of all youth, especially youth identifying as LGBTQ+.\",\n    \"People who identify as LGBTQ+ and are experiencing homelessness have greater difficulty finding shelters that accept and respect them.\",\n    \"LGBTQ+ youth experiencing homelessness are often at a greater risk of assault, trauma, and early death.\",\n    \"Unicorn Homes provides an alternative to traditional group homeless shelters by placing eligible LGBTQ+ youth with affirming host homes.\",\n    \"Unicorn Homes offers paths to mental health resources, job readiness, life coaching, and independent living skills.\",\n    \"Low-barrier housing programs are needed to support LGBTQ+ youth experiencing homelessness and housing instability.\",\n    \"Many LGBTQ+ youth experience disownment from their families or escape emotional and physical abuse due to their sexual orientation or gender identity.\",\n    \"Aging out of the foster care system, poverty, and the shortage of shelters can leave LGBTQ+ youth with nowhere to go.\",\n    \"AB 589 seeks to address the housing crisis in a unique way by supporting programs that provide safe and affirming transitional housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c0aec509e9417bb2f6a89d0d4396ce983b3894a9"
+}

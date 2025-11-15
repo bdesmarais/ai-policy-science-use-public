@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-dutton-memorialized-senate-concurrent-resolution-59-approved.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) proudly announces that the Legislature has approved Senate Concurrent Resolution 59 , which designates the overcrossing on State Route 210 ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ccffa34f4c1ca2e46717f8f3acb685befd978dd8"
+}

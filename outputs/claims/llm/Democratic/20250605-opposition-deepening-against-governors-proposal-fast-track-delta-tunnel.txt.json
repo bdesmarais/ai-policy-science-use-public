@@ -1,0 +1,13 @@
+{
+  "press_release": "20250605-opposition-deepening-against-governors-proposal-fast-track-delta-tunnel.txt",
+  "party": "Democratic",
+  "title": "Opposition Deepening Against Governor’s Proposal to Fast-Track Delta Tunnel Project in Budget",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:38:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Delta water tunnel will cost at least $20-plus billion and likely much more.\",\n    \"The tunnel project will destroy 4,000 acres of prime farmland in the Delta, along with salmon fisheries and tribal resources.\",\n    \"The costs of the tunnel would have to be shouldere",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Delta water tunnel will cost at least $20-plus billion and likely much more.\",\n    \"The tunnel project will destroy 4,000 acres of prime farmland in the Delta, along with salmon fisheries and tribal resources.\",\n    \"The costs of the tunnel would have to be shouldered by ratepayers who are already burdened by high utility bills.\",\n    \"The fast-tracking proposal would bypass environmental and judicial reviews of the tunnel project.\",\n    \"The proposal allows the California Department of Water Resources to issue an unlimited amount of bond debt required to pay for the tunnel.\",\n    \"The fast-tracking plan makes it easier for the state to seize private land through eminent domain expansion.\",\n    \"The proposal weakens oversight by exempting key permits from deadlines and enforcement.\",\n    \"The plan reduces the ability of under-resourced communities to challenge permits.\",\n    \"The proposal limits court oversight and fast-tracks legal proceedings to avoid delays.\",\n    \"The plan exempts water rights permits from construction and beneficial use timelines, preventing permanent monopolization of water.\",\n    \"The tunnel costs will be passed on to ratepayers through revenue bonds, which will act as a regressive tax on Southern California residents.\",\n    \"The proposal jeopardizes the largest freshwater estuary in the Western U.S.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6c5b15572f6ea11ebd03403b84c5ccf41df4ed3f"
+}

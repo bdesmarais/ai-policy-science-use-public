@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-co-sponsors-proposal-increase-cal-fires-staffing-prepare-wildfire-season.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) is co-sponsoring a bipartisan budget proposal with Senator Mike McGuire (D-Healdsburg) to increase the California Department of Forestry and F",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's wildfire season is starting earlier and ending later each year.\",\n    \"The length of the fire season in California has increased substantially.\",\n    \"Firefighters are working long overtime hours for multiple weeks at a time without a single day off.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's wildfire season is starting earlier and ending later each year.\",\n    \"The length of the fire season in California has increased substantially.\",\n    \"Firefighters are working long overtime hours for multiple weeks at a time without a single day off.\",\n    \"California wildfires are burning at historical proportions.\",\n    \"Wildfires in California are affecting not only rural areas but urban cities as well.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bdd436fae0de0d01fab7205963343dd60a0df7d0"
+}

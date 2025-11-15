@@ -1,0 +1,13 @@
+{
+  "press_release": "20220928-bill-strengthen-state-licensing-oversight-over-nursing-home-ownership-and.txt",
+  "party": "Democratic",
+  "title": "AB 1502 will strengthen state oversight over nursing home quality of care",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1502 grants the California Department of Public Health greater authority to prohibit unqualified and unethical owners and operators from owning and operating skilled nursing facilities in California.\",\n    \"AB 1502 prohibits any person, corporation, or corporate chain",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1502 grants the California Department of Public Health greater authority to prohibit unqualified and unethical owners and operators from owning and operating skilled nursing facilities in California.\",\n    \"AB 1502 prohibits any person, corporation, or corporate chain from acquiring or operating a skilled nursing facility without first obtaining a license from the Department of Public Health.\",\n    \"The California Department of Public Health is required to examine the compliance histories of facilities owned or operated by a license applicant for up to five years prior to the application.\",\n    \"AB 1502 requires the California Department of Public Health to consider a license applicant's criminal history before approving a license.\",\n    \"The California Department of Public Health is authorized to issue civil penalties for operating a skilled nursing facility without license approval.\",\n    \"A 2017 report by the State Auditor described inadequate state licensing oversight over skilled nursing facilities that caused or were likely to cause serious injury, harm, or death to residents.\",\n    \"The 2017 audit criticized the California Department of Public Health for not fulfilling its oversight responsibilities regarding skilled nursing facilities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5230bfc609ea465a9428a98d7fc3ef50e1941f5a"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-on-switch-to-winter-blend-gas.txt",
+  "party": "Republican",
+  "title": "“Announcement is a win for drivers, but Newsom needs to go further to bring down prices.”",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California will switch to the less expensive winter blend of gasoline.\",\n    \"Governor Newsom's announcement is seen as beneficial for drivers.\",\n    \"California gas prices jumped 14 cents per gallon overnight.\",\n    \"California’s statewide average gas price has surpasse",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California will switch to the less expensive winter blend of gasoline.\",\n    \"Governor Newsom's announcement is seen as beneficial for drivers.\",\n    \"California gas prices jumped 14 cents per gallon overnight.\",\n    \"California’s statewide average gas price has surpassed $6 for only the third time in history.\",\n    \"The difference between California gas prices and the national average is currently $2.19 per gallon.\",\n    \"The gap in gas prices between California and the national average has widened by 81 cents since the signing of a law aimed at reducing prices.\",\n    \"The California Energy Commission has attributed the state's high gas prices to an isolated refinery market, environmental programs, unique fuel blends, and higher taxes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9c158ab97233e470258ba756e25cd09ccea72555"
+}

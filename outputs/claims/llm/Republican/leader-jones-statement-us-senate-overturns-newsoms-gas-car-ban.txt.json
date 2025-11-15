@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-statement-us-senate-overturns-newsoms-gas-car-ban.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones ( R-San Diego ) issued the following statement after the U.S. Senate's bipartisan vote to block Governor Gavin Newsom’s ban on gas-powered and",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The U.S. Senate voted to block Governor Gavin Newsom's ban on gas-powered and hybrid vehicles.\",\n    \"California has a rule banning the sale of new gas-powered cars by 2035.\",\n    \"The bipartisan Senate vote was 51–44.\",\n    \"Governor Newsom and Attorney General Rob",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The U.S. Senate voted to block Governor Gavin Newsom's ban on gas-powered and hybrid vehicles.\",\n    \"California has a rule banning the sale of new gas-powered cars by 2035.\",\n    \"The bipartisan Senate vote was 51–44.\",\n    \"Governor Newsom and Attorney General Rob Bonta announced plans to sue the federal government to preserve California’s vehicle mandate.\",\n    \"Leader Jones stated that Newsom's energy agenda would raise costs.\",\n    \"Leader Jones claimed Newsom's energy agenda would cripple the power grid.\",\n    \"Leader Jones asserted that Newsom's energy agenda would punish working families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7dc5eeea3b590fdc68226cd0a3cf6a3fa662f731"
+}

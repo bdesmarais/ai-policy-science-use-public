@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republicans-advocated-help-newspaper-carriers-and-distributors.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove ( R-Bakersfield ) issued the following statement after Governor Newsom signed Assembly Bill 170 into law. The newly-signed legis",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Dynamex Decision will affect hundreds of thousands of independent contractors in California.\",\n    \"Assembly Bill 5 threatens the livelihoods of many independent contractors in California.\",\n    \"Assembly Bill 5 only covers certain industries that received a carve-ou",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Dynamex Decision will affect hundreds of thousands of independent contractors in California.\",\n    \"Assembly Bill 5 threatens the livelihoods of many independent contractors in California.\",\n    \"Assembly Bill 5 only covers certain industries that received a carve-out from Legislative Democrats.\",\n    \"Independent contractors in California, including single mothers who drive for Uber, are at risk due to the legislative changes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a7a2cf4093290e7fd1c2d388d99f30279955bca0"
+}

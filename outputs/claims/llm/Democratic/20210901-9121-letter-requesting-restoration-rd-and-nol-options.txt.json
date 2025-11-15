@@ -1,0 +1,13 @@
+{
+  "press_release": "20210901-9121-letter-requesting-restoration-rd-and-nol-options.txt",
+  "party": "Democratic",
+  "title": "Please click through our link to read our September 1st letter in its entirety.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ccd32777f3eabc8323b141ee87df770e3a502bc6"
+}

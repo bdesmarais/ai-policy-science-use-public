@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-judiciary-chair-tom-umberg-applauds-la28-orange-county-announcement.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) – Senator Thomas J. Umberg, Senator from Anaheim and a member of the Senate Special Committee on International Sporting Events: Olympics and World Cup Soccer, issu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:21:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fb2123a965d08ea33341c0d61cd205b481233571"
+}

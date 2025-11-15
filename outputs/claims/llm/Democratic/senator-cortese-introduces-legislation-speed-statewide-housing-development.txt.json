@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-introduces-legislation-speed-statewide-housing-development.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese has introduced legislation to streamline the California Environmental Quality Act (CEQA) and tighten housing standards to spur housing development across the s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "69d414170d246b66eeb8b21c658fab451ad63cf0"
+}

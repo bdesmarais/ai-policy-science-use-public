@@ -1,0 +1,13 @@
+{
+  "press_release": "20240123-assemblymember-alvarez-introduces-legislation-could-lead-more-affordable.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA - Assemblymember David Alvarez (D – San Diego) introduced Assembly Bill 1886 to clarify the intent of the Builder's Remedy by specifying that if a City or County fai",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:33:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1886 clarifies the intent of the Builder's Remedy by specifying that if a City or County fails to comply with State housing law, a housing project can be accelerated with limited restrictions.\",\n    \"The lack of clarity in the current Builder's Remedy law h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1886 clarifies the intent of the Builder's Remedy by specifying that if a City or County fails to comply with State housing law, a housing project can be accelerated with limited restrictions.\",\n    \"The lack of clarity in the current Builder's Remedy law has stopped housing projects in cities that do not want to plan or build housing.\",\n    \"For thirty years, the use of the Builder's Remedy has been infrequent.\",\n    \"The Builder's Remedy allows homebuilders to advance housing projects with less red tape, such as discretionary actions by local governments.\",\n    \"Housing projects under the Builder's Remedy must include 20% of affordable housing units.\",\n    \"State housing element law ensures there is a sufficient supply of properly zoned sites for residential development across jurisdictions in California.\",\n    \"Timely adoption of housing elements certified by the California Department of Housing and Community Development is critical to solving the housing affordability and availability crisis in California.\",\n    \"The housing element is the only element of the general plan that must be reviewed and certified for compliance by the state.\",\n    \"AB 1886 aims to fortify builders' ability to combat NIMBYism and streamline the housing approval process.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d018c8dd69bbeef0a8ab212628afa1e635b72fc0"
+}

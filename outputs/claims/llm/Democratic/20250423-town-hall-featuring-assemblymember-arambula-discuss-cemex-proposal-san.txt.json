@@ -1,0 +1,13 @@
+{
+  "press_release": "20250423-town-hall-featuring-assemblymember-arambula-discuss-cemex-proposal-san.txt",
+  "party": "Democratic",
+  "title": "FRESNO – Assemblymember Dr. Joaquin Arambula (D-Fresno) will be part of a Town Hall this Thursday, April 24, to discuss the proposed CEMEX Rockfield Expansion on the San Joaquin Ri",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"CEMEX, an international mining company, is requesting a 100-year extension to expand its operations on the San Joaquin River.\",\n    \"The proposed CEMEX expansion includes plans to blast and drill a 600-foot pit to extract rock for the purpose of making gravel.\",\n    \"The",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"CEMEX, an international mining company, is requesting a 100-year extension to expand its operations on the San Joaquin River.\",\n    \"The proposed CEMEX expansion includes plans to blast and drill a 600-foot pit to extract rock for the purpose of making gravel.\",\n    \"The CEMEX plan could contaminate the San Joaquin River.\",\n    \"The CEMEX plan could harm wildlife in the San Joaquin River area.\",\n    \"The CEMEX plan could adversely impact people and families living in the area.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "beac4280571fe6090777d68c4e549d62915a5714"
+}

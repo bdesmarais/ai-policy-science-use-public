@@ -1,0 +1,13 @@
+{
+  "press_release": "pge-public-safety-power-shutoff-information.txt",
+  "party": "Democratic",
+  "title": "PG&E has announced a Public Safety Power Shutoff (PSPS) in Stanislaus County in response to high wind speeds in the area. The shutoff will begin at 12:00 PM on October 9, 2019. Aft",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a27db97e6e56da3def2392204bb2ecbf9208cd73"
+}

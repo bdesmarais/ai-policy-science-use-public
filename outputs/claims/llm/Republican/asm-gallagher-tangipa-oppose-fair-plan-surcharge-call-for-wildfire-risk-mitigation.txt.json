@@ -1,0 +1,13 @@
+{
+  "press_release": "asm-gallagher-tangipa-oppose-fair-plan-surcharge-call-for-wildfire-risk-mitigation.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assembly Republican Leader James Gallagher (East Nicolaus) and Assemblyman David Tangipa (Clovis), Vice Chair of the Assembly Committee on Insurance, criticized recent",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Recent changes to the FAIR Plan may result in higher insurance rates for California homeowners.\",\n    \"The FAIR Plan was approved to seek $1 billion from insurance companies to cover mounting wildfire-related claims.\",\n    \"Up to 50% of the cost from the FAIR Plan's $1 b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Recent changes to the FAIR Plan may result in higher insurance rates for California homeowners.\",\n    \"The FAIR Plan was approved to seek $1 billion from insurance companies to cover mounting wildfire-related claims.\",\n    \"Up to 50% of the cost from the FAIR Plan's $1 billion request could potentially be passed to policyholders.\",\n    \"The California FAIR Plan serves as a last resort for wildfire insurance for Californians in areas at risk for wildfires.\",\n    \"Reducing wildfire risk involves clearing excess fuel, improving forest management, and hardening homes.\",\n    \"Until the state takes wildfire mitigation seriously, insurers will continue to leave and costs will rise for Californians.\",\n    \"California needs to address wildfire problems instead of just treating symptoms.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f6d6dd36e0d383900761fdd5cdb43121c42e4c7e"
+}

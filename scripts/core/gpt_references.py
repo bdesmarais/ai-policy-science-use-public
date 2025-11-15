@@ -18,6 +18,7 @@ Usage:
 import argparse
 import json
 import os
+import random
 import time
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
@@ -40,10 +41,12 @@ def ensure_dir(path: str) -> None:
 
 SYSTEM_PROMPT = (
     "You are a concise research assistant. Given a policy claim, return a list of scientific references (peer-reviewed papers or trusted preprints). "
-    "Prefer precise matches to the topic, recent where relevant, and classic seminal works. "
+    "Prioritize precision over quantity: include only references that directly address, support, or challenge the claim. "
+    "If no relevant evidence is found, return an empty list. "
     "Return ONLY a JSON object with key 'references' whose value is an array of objects with fields: "
     "provider (discovery source such as 'arXiv', 'publisher', 'Crossref', 'OpenAlex'), id (best persistent id), doi, title, abstract (1-2 sentence summary if not available), year, venue (actual journal or conference; use 'arXiv' only if preprint-only), authors, url, is_open_access. "
-    "Rules: (1) Never return an empty references list — if specific matches are uncertain, include the most relevant surveys/seminal works for the topic. (2) If DOI is unknown, set doi=null and provide a reputable URL (publisher or arXiv). (3) Do not fabricate DOIs. (4) Keep titles factual (no invented titles). (5) Always include at least 5 references when asked for 10. "
+    "Rules: (1) Do not fabricate DOIs or venues. (2) If DOI is unknown, set doi=null and provide a reputable URL (publisher or arXiv). "
+    "(3) Keep titles factual (no invented titles). (4) Omit references that do not meaningfully pertain to the claim even if they mention similar keywords. "
     "Venue naming: prefer standard short forms where applicable (NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, IJCAI, ACL, EMNLP, NAACL, KDD, The Web Conference, SIGIR; journals like Nature, Science, PNAS, JMLR). "
     "Do not include any text outside the JSON."
 )
@@ -56,7 +59,7 @@ def build_user_prompt(claim: Dict[str, Any], per_claim: int) -> str:
     claim_text = claim.get("claim_text")
     claim_desc = claim.get("claim_desc")
     prompt = (
-        "Task: Provide up to {k} scientific references relevant to the claim.\n"
+        "Task: Provide up to {k} scientific references that are directly relevant to the claim. If none are appropriate, return an empty list.\n"
         "Context: California legislative press release analysis.\n"
         "Claim ({press_release} / #{num}): {text}\n"
         "{maybe_desc}"
@@ -84,13 +87,13 @@ def build_user_prompt_force(claim: Dict[str, Any], per_claim: int) -> str:
     claim_number = claim.get("claim_number")
     claim_text = claim.get("claim_text")
     return (
-        "Return at least {k} references relevant to the claim (no empty list).\n"
+        "Return references relevant to the claim (only if they genuinely match the topic; otherwise return an empty list).\n"
         "Claim ({press_release} / #{num}): {text}\n"
-        "Include surveys/seminal works if specific matches are uncertain.\n"
+        "Focus on pinpointing rigorous evidence; avoid filler citations.\n"
         "Set doi=null if unknown and include a reliable URL (publisher/arXiv).\n"
         "Use provider as discovery source (e.g., arXiv/publisher) and venue as the actual journal/conference (or 'arXiv' if preprint-only).\n"
         "Normalize venue names (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, IJCAI, ACL, EMNLP, NAACL).\n"
-        "Output only: {\"references\": [...]}\n"
+        "Output only: {{\"references\": [...]}}\n"
     ).format(k=per_claim, press_release=press_release, num=claim_number, text=claim_text)
 
 
@@ -291,6 +294,41 @@ def dedupe_references(refs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return out
 
 
+ANCHOR_TOKENS = {
+    "ai", "artificial", "intelligence", "ml", "machine", "learning", "deepfake", "deepfakes",
+    "watermark", "watermarking", "provenance", "algorithm", "algorithms", "automated", "automation",
+    "decision", "decisions", "bias", "fairness", "safety", "risk", "privacy", "data", "surveillance",
+    "facial", "recognition", "content", "moderation", "llm", "gpt", "chatgpt", "foundation", "model",
+    "generative", "genai", "robotics", "autonomous", "predictive", "analytics"
+}
+
+
+def _tokenize_set(text: Optional[str]) -> set:
+    if not text:
+        return set()
+    cleaned = "".join(ch.lower() if (ch.isalnum() or ch.isspace()) else " " for ch in text)
+    toks = {tok for tok in cleaned.split() if tok and len(tok) > 2}
+    return toks
+
+
+def filter_references(claim_text: str, references: List[Dict[str, Any]], min_overlap: int) -> Tuple[List[Dict[str, Any]], int]:
+    claim_tokens = _tokenize_set(claim_text)
+    kept: List[Dict[str, Any]] = []
+    dropped = 0
+    for ref in references:
+        title_tokens = _tokenize_set(ref.get("title"))
+        abstract_tokens = _tokenize_set(ref.get("abstract"))
+        overlap = len(claim_tokens & title_tokens)
+        extra_overlap = len((claim_tokens - title_tokens) & abstract_tokens)
+        total_overlap = overlap + extra_overlap
+        anchor_hit = len((claim_tokens & ANCHOR_TOKENS) & (title_tokens | abstract_tokens)) > 0
+        if total_overlap >= min_overlap or (anchor_hit and total_overlap >= 1):
+            kept.append(ref)
+        else:
+            dropped += 1
+    return kept, dropped
+
+
 def load_json_list(path: str) -> List[Dict[str, Any]]:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -323,11 +361,32 @@ def _load_existing_by_key(path: str) -> Dict[Tuple[str, Any], Dict[str, Any]]:
         return {}
 
 
-def process_side(client: OpenAI, model: str, claims_path: str, out_path: str, limit: int, per_claim: int, timeout: float, sleep_s: float, resume: bool) -> None:
+def process_side(
+    client: OpenAI,
+    model: str,
+    claims_path: str,
+    out_path: str,
+    limit: int,
+    per_claim: int,
+    timeout: float,
+    sleep_s: float,
+    resume: bool,
+    sample_size: int,
+    sample_seed: int,
+    min_overlap: int,
+) -> None:
     logger = logging.getLogger("gpt_refs")
     claims = load_json_list(claims_path)
     if limit >= 0:
         claims = claims[:limit]
+
+    if sample_size > 0 and len(claims) > sample_size:
+        indexed = list(enumerate(claims))
+        rng = random.Random(sample_seed)
+        selected = rng.sample(indexed, sample_size)
+        selected.sort(key=lambda x: x[0])
+        claims = [item for _, item in selected]
+        logger.info("Sampled %d claims (of %d) from %s", len(claims), len(indexed), claims_path)
 
     existing_by_key: Dict[Tuple[str, Any], Dict[str, Any]] = _load_existing_by_key(out_path) if resume else {}
     out_rows: List[Dict[str, Any]] = []
@@ -345,51 +404,49 @@ def process_side(client: OpenAI, model: str, claims_path: str, out_path: str, li
             write_json(out_path, out_rows)
             continue
 
-        prompt = build_user_prompt(claim, per_claim=per_claim)
         error: Optional[str] = None
         references: List[Dict[str, Any]] = []
         raw_preview: Optional[str] = None
-        parse_error: Optional[str] = None
         raw_text: Optional[str] = None
-        try:
-            raw = call_openai(client, model=model, prompt=prompt, search_context_size="medium")
-            raw_text = raw
-            raw_preview = raw[:300]
-            refs = parse_references(raw)
-            if not refs:
-                parse_error = "empty_or_unparseable"
-            references = dedupe_references(refs)[: per_claim if per_claim > 0 else None]
-        except Exception as e:
-            error = str(e)
-            logger.error(f"Error fetching refs: {e}")
-
-        if not references:
+        attempts_meta: List[Dict[str, Any]] = []
+        prompts = [
+            ("medium", build_user_prompt(claim, per_claim=per_claim)),
+            ("high", build_user_prompt_force(claim, per_claim=per_claim)),
+        ]
+        for attempt_idx, (search_size, prompt) in enumerate(prompts, start=1):
             try:
-                force_prompt = build_user_prompt_force(claim, per_claim=per_claim)
-                raw2 = call_openai(client, model=model, prompt=force_prompt, search_context_size="high")
-                raw_preview = (raw2 or "")[:300]
-                refs2 = parse_references(raw2)
-                references = dedupe_references(refs2)[: per_claim if per_claim > 0 else None]
-                if not references and not parse_error:
-                    parse_error = "empty_after_force"
+                raw = call_openai(client, model=model, prompt=prompt, search_context_size=search_size)
+                raw_text = raw
+                raw_preview = (raw or "")[:300]
+                refs = dedupe_references(parse_references(raw))
+                references = refs[: per_claim if per_claim > 0 else None]
+                attempts_meta.append({"attempt": attempt_idx, "search_context_size": search_size, "references": len(references)})
+                if references or attempt_idx == len(prompts):
+                    break
             except Exception as e:
-                error = (error or "") + f"; force_attempt_error={e}"
+                error = (error or "") + f"; attempt_{attempt_idx}_error={e}"
+                attempts_meta.append({"attempt": attempt_idx, "search_context_size": search_size, "error": str(e)})
+                logger.error(f"Error fetching refs (attempt {attempt_idx}): {e}")
+
+        filtered_refs, dropped = filter_references(claim_text or "", references, min_overlap=min_overlap) if references else ([], 0)
 
         out_rows.append(
             {
                 "press_release": press_release,
                 "claim_number": claim_number,
                 "claim_text": claim_text,
-                "query": prompt,
-                "references": references,
-                "num_references": len(references),
+                "query": prompts[0][1],
+                "references": filtered_refs,
+                "num_references": len(filtered_refs),
                 "search_metadata": {
                     "provider": "openai",
                     "attempted_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
                     "error": error,
                     "model": model,
                     "raw_preview": raw_preview,
-                    "parse_error": parse_error,
+                    "attempts": attempts_meta,
+                    "post_filter_kept": len(filtered_refs),
+                    "post_filter_dropped": dropped,
                     "raw_text": raw_text,
                 },
             }
@@ -409,6 +466,9 @@ def parse_args(argv: Optional[Iterable[str]] = None) -> argparse.Namespace:
     ap.add_argument("--sleep", type=float, default=0.5)
     ap.add_argument("--log-level", default=os.environ.get("LOG_LEVEL", "INFO"))
     ap.add_argument("--resume", action="store_true", help="Reuse already-written claim rows in output files and skip new API calls for them")
+    ap.add_argument("--sample-per-party", type=int, default=-1, help="Sample N claims per party (after limit)")
+    ap.add_argument("--sample-seed", type=int, default=20251113, help="Random seed for sampling")
+    ap.add_argument("--min-overlap", type=int, default=2, help="Minimum token overlap between claim and reference title/abstract to keep a reference")
     return ap.parse_args(argv if argv is not None else None)
 
 
@@ -428,9 +488,35 @@ def main(argv: Optional[Iterable[str]] = None) -> int:
     rep_out = os.path.join(args.output_dir, "rep_claim_references.json")
 
     logger.info("Processing Democratic claims")
-    process_side(client, model=args.model, claims_path=dem_claims, out_path=dem_out, limit=args.limit, per_claim=args.per_claim, timeout=args.timeout, sleep_s=args.sleep, resume=args.resume)
+    process_side(
+        client,
+        model=args.model,
+        claims_path=dem_claims,
+        out_path=dem_out,
+        limit=args.limit,
+        per_claim=args.per_claim,
+        timeout=args.timeout,
+        sleep_s=args.sleep,
+        resume=args.resume,
+        sample_size=args.sample_per_party,
+        sample_seed=args.sample_seed,
+        min_overlap=max(0, args.min_overlap),
+    )
     logger.info("Processing Republican claims")
-    process_side(client, model=args.model, claims_path=rep_claims, out_path=rep_out, limit=args.limit, per_claim=args.per_claim, timeout=args.timeout, sleep_s=args.sleep, resume=args.resume)
+    process_side(
+        client,
+        model=args.model,
+        claims_path=rep_claims,
+        out_path=rep_out,
+        limit=args.limit,
+        per_claim=args.per_claim,
+        timeout=args.timeout,
+        sleep_s=args.sleep,
+        resume=args.resume,
+        sample_size=args.sample_per_party,
+        sample_seed=args.sample_seed,
+        min_overlap=max(0, args.min_overlap),
+    )
     logger.info("Done")
     return 0
 

@@ -1,0 +1,13 @@
+{
+  "press_release": "newsom-administration-still-covering-up-how-much-his-regulations-will-increase-gas-prices.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Newsom's regulations will drive up gas prices.\",\n    \"A 2023 report predicted Newsom's update to the Low Carbon Fuel Standard could increase gas prices by more than 50 cents per gallon.\",\n    \"The Newsom administration claims it can't predict how much changes to the Cap-",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Newsom's regulations will drive up gas prices.\",\n    \"A 2023 report predicted Newsom's update to the Low Carbon Fuel Standard could increase gas prices by more than 50 cents per gallon.\",\n    \"The Newsom administration claims it can't predict how much changes to the Cap-And-Trade program will cost at the pump.\",\n    \"A report from the California Energy Commission warned that Newsom's gas storage mandate could create shortages in downstream markets.\",\n    \"The California Energy Commission reported that Newsom's gas storage mandate could increase average prices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ff645794680164a040139d0fbc6e53a3e2430900"
+}

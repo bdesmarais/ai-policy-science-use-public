@@ -1,0 +1,13 @@
+{
+  "press_release": "20190523-assemblymember-ramos-designates-may-missing-and-murdered-indigenous-women.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has the highest population of Native American/Alaskan Native heritage individuals in the United States.\",\n    \"California ranks sixth among states with the highest number of missing and murdered Indigenous women and girls.\",\n    \"Native American/Alaskan Native",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has the highest population of Native American/Alaskan Native heritage individuals in the United States.\",\n    \"California ranks sixth among states with the highest number of missing and murdered Indigenous women and girls.\",\n    \"Native American/Alaskan Native women living on tribal land are ten times more likely to be murdered than the national average.\",\n    \"The true number of missing Indigenous women and girls in the United States is currently unknown.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "acaf60bf0630c97e6ca3d7be286a03ec0fa3a7a5"
+}

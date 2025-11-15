@@ -1,0 +1,13 @@
+{
+  "press_release": "california-republicans-growing-impact-social-media.txt",
+  "party": "Republican",
+  "title": "In a recent article , the Sacramento Bee spotlighted how California Republicans are using social media to communicate directly with Californians and cut through the noise in a stat",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California Republicans are using social media to communicate directly with Californians and cut through the noise in a state dominated by a Democrat supermajority.\",\n    \"Senate Minority Leader Brian Jones recorded a video that was viewed over 340,000 times across Instag",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California Republicans are using social media to communicate directly with Californians and cut through the noise in a state dominated by a Democrat supermajority.\",\n    \"Senate Minority Leader Brian Jones recorded a video that was viewed over 340,000 times across Instagram and Facebook.\",\n    \"Senate Minority Leader Brian Jones holds the title for most Instagram famous California state Senator with nearly 60,000 followers.\",\n    \"Social media offers a powerful new platform for both elected officials and everyday Californians to share news and perspectives directly.\",\n    \"Digital platforms are becoming a key tool for informing Californians and holding government accountable.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e1a87e6a1e7e98e2f8fc53a0234fa6c6191e42f0"
+}

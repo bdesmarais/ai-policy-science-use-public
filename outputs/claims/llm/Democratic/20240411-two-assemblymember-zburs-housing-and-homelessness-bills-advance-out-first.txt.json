@@ -1,0 +1,13 @@
+{
+  "press_release": "20240411-two-assemblymember-zburs-housing-and-homelessness-bills-advance-out-first.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:39:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The most recent Point-in-Time Count data from the Los Angeles Homeless Services Authority (LAHSA) showed that nearly 6,500 people experiencing homelessness in the City of Los Angeles are living in about 4,000 RVs.\",\n    \"The number of people experiencing homelessness liv",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The most recent Point-in-Time Count data from the Los Angeles Homeless Services Authority (LAHSA) showed that nearly 6,500 people experiencing homelessness in the City of Los Angeles are living in about 4,000 RVs.\",\n    \"The number of people experiencing homelessness living in RVs in Los Angeles has grown by 40% since 2018.\",\n    \"This population living in RVs represents 22% of the City of Los Angeles's total unsheltered homeless population.\",\n    \"The City's RV storage lots are 95% full.\",\n    \"Board and care facilities provide services to some of California's most vulnerable populations, including people experiencing mental health crises.\",\n    \"Residents of board and care facilities in California do not currently qualify for CalFresh benefits.\",\n    \"Without board and care facilities, their residents would lose shelter and access to regular meals, leading to homelessness and hunger.\",\n    \"AB 2650 would require a study to determine if CalFresh benefits could stem the increasing closure of board and care facilities due to inadequate funding.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5b72f9204ee1adc9eff1872f6ed2f1e61e251eec"
+}

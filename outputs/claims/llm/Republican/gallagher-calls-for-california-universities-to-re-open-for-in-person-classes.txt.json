@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-calls-for-california-universities-to-re-open-for-in-person-classes.txt",
+  "party": "Republican",
+  "title": "“It’s time to restore order and get students back in the classroom.”",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1490a8796df03535cd15c1af7690a3fdd4eb7384"
+}

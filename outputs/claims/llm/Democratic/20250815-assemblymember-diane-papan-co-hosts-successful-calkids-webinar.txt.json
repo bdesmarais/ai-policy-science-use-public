@@ -1,0 +1,13 @@
+{
+  "press_release": "20250815-assemblymember-diane-papan-co-hosts-successful-calkids-webinar.txt",
+  "party": "Democratic",
+  "title": "San Mateo, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"CalKIDS, California’s statewide children’s development account program, provides scholarships for college, vocational school, or career training.\",\n    \"Every child born in California on or after July 1, 2022, received a CalKIDS Scholarship ranging from $25 to $175.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"CalKIDS, California’s statewide children’s development account program, provides scholarships for college, vocational school, or career training.\",\n    \"Every child born in California on or after July 1, 2022, received a CalKIDS Scholarship ranging from $25 to $175.\",\n    \"Eligible public school students received $500 in CalKIDS Scholarships, with up to $1,500 available for foster youth and students experiencing homelessness.\",\n    \"As of June 30, 2025, more than $20.3 million had been allocated for approximately 38,600 eligible families in San Mateo County.\",\n    \"CalKIDS has invested over $2 billion in scholarships for more than 5 million California children.\",\n    \"The CalKIDS program is a tool to help parents open doors to future opportunities for their children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bfa9acfad88eb8ed43484f4a010d7b2d4f367e95"
+}

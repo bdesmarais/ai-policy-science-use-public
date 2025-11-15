@@ -1,0 +1,13 @@
+{
+  "press_release": "20250603-relief-near-californians-struggling-high-utility-bills.txt",
+  "party": "Democratic",
+  "title": "What You Need to Know:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:37:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed AB 13 to demand greater accountability from the California Public Utilities Commission (CPUC).\",\n    \"PG&E reported $2.47 billion in profits in 2024, including $86 million paid out to shareholders.\",\n    \"The CPUC approved six rate in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed AB 13 to demand greater accountability from the California Public Utilities Commission (CPUC).\",\n    \"PG&E reported $2.47 billion in profits in 2024, including $86 million paid out to shareholders.\",\n    \"The CPUC approved six rate increases for PG&E customers in the past year.\",\n    \"AB 13 creates a new process for how the CPUC reviews and approves rate increases.\",\n    \"AB 13 mandates that CPUC commissioners be appointed based on geographic districts to ensure broader representation.\",\n    \"AB 13 adds a commissioner with a background in public advocacy or public interest law to the CPUC.\",\n    \"AB 13 requires the CPUC to disclose delays in rate-setting cases.\",\n    \"AB 13 mandates annual reports to the Legislature on rate affordability and pending decisions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b864f79335d1a50b46430fd8925fd6fbfef3ab8a"
+}

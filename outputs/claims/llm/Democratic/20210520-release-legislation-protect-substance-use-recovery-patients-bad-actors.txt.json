@@ -1,0 +1,13 @@
+{
+  "press_release": "20210520-release-legislation-protect-substance-use-recovery-patients-bad-actors.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - In response to an 18% increase in overdoses nationwide, legislation to protect patients recovering from alcohol and substance use advances to the Assembly Floor. AB 11",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:28:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Legislation AB 1158 will require licensed recovery and treatment facilities to maintain minimum insurance coverage.\",\n    \"The Covid-19 pandemic has led to an unprecedented increase in substance use.\",\n    \"A pattern of abuse against at-risk patients in recovery faciliti",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Legislation AB 1158 will require licensed recovery and treatment facilities to maintain minimum insurance coverage.\",\n    \"The Covid-19 pandemic has led to an unprecedented increase in substance use.\",\n    \"A pattern of abuse against at-risk patients in recovery facilities has been documented, including serious injury and death.\",\n    \"13% of Americans reported starting or increasing substance use as a way of coping with COVID-19 related stress or emotions, according to the CDC.\",\n    \"More than 40 U.S. states have seen increases in opioid-related mortality, according to the American Medical Association.\",\n    \"AB 1158 aims to enhance state regulatory agencies' ability to investigate insurance complaints in treatment facilities.\",\n    \"AB 1158 will require that treatment facilities maintain liability insurance and workers' compensation.\",\n    \"Current laws allow unscrupulous sober living operators to operate with little to no health and safety requirements.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7bfb1aa32f78deb5279592ec871030aaac3fc5a0"
+}

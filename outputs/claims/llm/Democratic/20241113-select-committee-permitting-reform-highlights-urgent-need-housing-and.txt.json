@@ -1,0 +1,13 @@
+{
+  "press_release": "20241113-select-committee-permitting-reform-highlights-urgent-need-housing-and.txt",
+  "party": "Democratic",
+  "title": "LOS ANGELES",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's housing shortage and transit needs are urgent.\",\n    \"Current permitting processes in California are too slow to meet housing and transit challenges.\",\n    \"Significant delays in housing delivery are caused by permitting obstacles.\",\n    \"Prolonged CEQA-rela",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's housing shortage and transit needs are urgent.\",\n    \"Current permitting processes in California are too slow to meet housing and transit challenges.\",\n    \"Significant delays in housing delivery are caused by permitting obstacles.\",\n    \"Prolonged CEQA-related litigation has delayed the Regional Connector transit project.\",\n    \"California can solve its housing crisis by adding more homes.\",\n    \"Efforts to fix California's permitting flaws can allow for quicker and more affordable housing development.\",\n    \"Outdated permitting processes impact the state's ability to meet housing and transportation goals.\",\n    \"Insufficient housing supply is a serious problem in California.\",\n    \"The solution to California's housing supply problem is to make it easier to build housing of all kinds.\",\n    \"Other states have consistent, reliable, and predictable permitting processes that attract capital.\",\n    \"Permitting delays negatively affect transit expansion in California.\",\n    \"A modernized permitting system is necessary to remove barriers to development.\",\n    \"The Select Committee on Permitting Reform aims to streamline regulatory frameworks to support housing, clean energy, and climate resilience in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "754bb3a9660953b69c9bbe8ceda1d8af5c50b45e"
+}

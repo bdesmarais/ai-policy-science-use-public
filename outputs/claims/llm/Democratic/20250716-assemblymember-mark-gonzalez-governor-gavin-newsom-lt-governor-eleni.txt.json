@@ -1,0 +1,74 @@
+{
+  "press_release": "20250716-assemblymember-mark-gonzalez-governor-gavin-newsom-lt-governor-eleni.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – In less than 24 hours, President Donald Trump will officially place countless LGBTQ+ youth lives on the line—fulfilling a dangerous promise to eradicate DEI initia",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"In the United States, 20% of surveyed LGBTQ+ students reported having attempted suicide.\"\n    },\n    {\n      \"claim_text\": \"The suicide attempt rate for transgender high school students is nearly 26%.\"\n    },\n    {\n      \"claim_text\": \"Schools were ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"In the United States, 20% of surveyed LGBTQ+ students reported having attempted suicide.\"\n    },\n    {\n      \"claim_text\": \"The suicide attempt rate for transgender high school students is nearly 26%.\"\n    },\n    {\n      \"claim_text\": \"Schools were the third most common location for hate crimes reported against LGBTQ+ youth in the U.S. according to the FBI.\"\n    },\n    {\n      \"claim_text\": \"Hate crimes against LGBTQ+ youth in schools more than doubled between 2018 and 2022.\"\n    },\n    {\n      \"claim_text\": \"The federal 988 funding for mental health services has been eliminated.\"\n    },\n    {\n      \"claim_text\": \"There is an urgent need for visible, accessible mental health resources for LGBTQ+ youth.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "In the United States, 20% of surveyed LGBTQ+ students reported having attempted suicide.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The suicide attempt rate for transgender high school students is nearly 26%.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Schools were the third most common location for hate crimes reported against LGBTQ+ youth in the U.S. according to the FBI.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Hate crimes against LGBTQ+ youth in schools more than doubled between 2018 and 2022.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The federal 988 funding for mental health services has been eliminated.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "There is an urgent need for visible, accessible mental health resources for LGBTQ+ youth.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "b82f4908af485970ffbadac1f5548a3301ebf167"
+}

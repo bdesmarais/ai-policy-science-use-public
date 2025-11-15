@@ -1,0 +1,13 @@
+{
+  "press_release": "20240916-governor-newsom-signs-assembly-bill-2946-valencia-ensure-taxpayer-dollars.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:16:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom has signed AB 2946 into law to ensure transparency and accountability of district discretionary spending in Orange County.\",\n    \"AB 2946 requires a majority vote of the Board to appropriate district discretionary funds.\",\n    \"The Board must publish deta",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom has signed AB 2946 into law to ensure transparency and accountability of district discretionary spending in Orange County.\",\n    \"AB 2946 requires a majority vote of the Board to appropriate district discretionary funds.\",\n    \"The Board must publish detailed information on all appropriated district discretionary funds on their website at the end of each quarter.\",\n    \"The new law aims to restore public trust in how district discretionary funds are managed in Orange County.\",\n    \"The process of approving service providers, which currently bypasses Board vetting, has raised concerns about corruption or favoritism.\",\n    \"The County alleges that a nonprofit organization, Viet America Society (VAS), failed to utilize allocated funds properly and did not produce proper accounting records.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8dd064f56528049499799e2183ac551bf314200e"
+}

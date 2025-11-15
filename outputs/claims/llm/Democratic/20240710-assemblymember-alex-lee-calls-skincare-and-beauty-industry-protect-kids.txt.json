@@ -1,0 +1,13 @@
+{
+  "press_release": "20240710-assemblymember-alex-lee-calls-skincare-and-beauty-industry-protect-kids.txt",
+  "party": "Democratic",
+  "title": "Anti-aging products can be harmful to children’s health, potentially damaging their sensitive skin. Even so, the skincare and beauty industry has failed to take meaningful action i",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Anti-aging products can be harmful to children’s health, potentially damaging their sensitive skin.\",\n    \"The skincare and beauty industry has failed to take meaningful action in preventing kids from purchasing anti-aging products.\",\n    \"20 California state legislators",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Anti-aging products can be harmful to children’s health, potentially damaging their sensitive skin.\",\n    \"The skincare and beauty industry has failed to take meaningful action in preventing kids from purchasing anti-aging products.\",\n    \"20 California state legislators sent a letter to the Personal Care Products Council urging the council to curb the trend of kids buying anti-aging skincare.\",\n    \"The industry does not support children using anti-aging products.\",\n    \"Assemblymember Lee introduced legislation to ban the sale of anti-aging products containing powerful active ingredients like retinol and alpha hydroxy acids to kids under the age of 13.\",\n    \"Anti-aging products offer no benefits to kids.\",\n    \"Children are influenced by social media to use anti-aging products that aren’t suitable for their skincare needs.\",\n    \"The beauty industry in the U.S. is profiting off of kids who are buying and using anti-aging products.\",\n    \"The industry should take concrete actions to safeguard kids from the unnecessary risks of anti-aging products.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c48ca3690a8ef82b1b7c3f8b5150e27d97a6cd84"
+}

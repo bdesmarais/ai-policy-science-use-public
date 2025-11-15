@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-corteses-bill-establish-nations-first-catastrophic-model-wildfires-moves-0.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –  S tate Senator Dave Cortese’s SB 429 that will help homeowners understand their property’s wildfire risk today was passed by the Assembly Emergency Management Committ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 429 creates the nation’s first public wildfire catastrophe model to assess wildfire risk.\",\n    \"The public wildfire catastrophe model will help inform insurance rates.\",\n    \"The public wildfire catastrophe model simulates property damage from major wildfires.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 429 creates the nation’s first public wildfire catastrophe model to assess wildfire risk.\",\n    \"The public wildfire catastrophe model will help inform insurance rates.\",\n    \"The public wildfire catastrophe model simulates property damage from major wildfires.\",\n    \"The model will allow communities and residents to understand their property’s risk scores.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "575984cb88198c36d62bbb8381c7dda1102f2a83"
+}

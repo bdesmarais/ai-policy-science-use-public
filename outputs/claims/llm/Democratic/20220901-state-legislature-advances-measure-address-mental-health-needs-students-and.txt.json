@@ -1,0 +1,13 @@
+{
+  "press_release": "20220901-state-legislature-advances-measure-address-mental-health-needs-students-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:46:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There is a tremendous need for mental health professionals and key school personnel to support pupils and staff following natural disasters and traumatic events.\",\n    \"The frequency and severity of wildfires in California have dramatically increased over the past few ye",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There is a tremendous need for mental health professionals and key school personnel to support pupils and staff following natural disasters and traumatic events.\",\n    \"The frequency and severity of wildfires in California have dramatically increased over the past few years.\",\n    \"Of the 20 most destructive fires in California's history, 15 have occurred since 2015.\",\n    \"The frequency of extreme wildfires burning over approximately 25,000 acres could increase by nearly 50 percent by 2100.\",\n    \"Most schools currently lack an adequate number of mental health professionals necessary to support recovery from large-scale traumatic events.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "14d59810521c9afcb688c9e7c62eba910aeabddc"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-proclaims-november-14-ruby-bridges-walk-to-school-day.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release -- Watch video of Senate action.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2ea092d41cfd87aee102f2d886b2e5d72e22772d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210520-boerner-horvaths-starter-home-revitalization-act-2021-passes-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:28:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Homeownership status remains the predominant driver of family wealth and a family’s potential for upward mobility.\",\n    \"California's housing affordability crisis continues to hold hard-working families back from the dream of homeownership.\",\n    \"Only 27 percent of hou",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Homeownership status remains the predominant driver of family wealth and a family’s potential for upward mobility.\",\n    \"California's housing affordability crisis continues to hold hard-working families back from the dream of homeownership.\",\n    \"Only 27 percent of households in California are able to afford a middle-market home, as compared to 55 percent nationwide.\",\n    \"Facilitating the development of smaller, affordable-by-design, single-family homes on mid-range density multi-family lots will boost housing supply.\",\n    \"Small lot homes are needed for middle-income families and first-time homebuyers.\",\n    \"Providing smaller homes will create a sensible option for people who wish to downsize from larger suburban homes.\",\n    \"Creating smaller homes will free up more existing housing for new families.\",\n    \"Developing homes in existing developed areas will help reduce sprawl development.\",\n    \"Long commutes drive greenhouse gas emissions.\",\n    \"AB 803 eliminates minimum lot sizes and creates new opportunities for residential infill that are more compatible with surrounding single-family neighborhoods.\",\n    \"AB 803 increases housing diversity, especially important for high-land-value suburban cities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "06cb450ee532d09bb832f458c21b4a6ef783e611"
+}

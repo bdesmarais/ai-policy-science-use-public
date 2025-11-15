@@ -1,0 +1,124 @@
+{
+  "press_release": "20220211-asm-wicks-introduces-bill-mandate-vaccinations-california-workplaces.txt",
+  "party": "Democratic",
+  "title": "OAKLAND — Today, Assemblymember Buffy Wicks announced a first-in-the-nation bill that would mandate all businesses in the state of California to require their employees and indepen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Assembly Bill 1993 would mandate all businesses in California to require their employees and independent contractors to receive the COVID-19 vaccine.\"\n    },\n    {\n      \"claim_text\": \"COVID-19 vaccines are safe and effective at preventing most from",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Assembly Bill 1993 would mandate all businesses in California to require their employees and independent contractors to receive the COVID-19 vaccine.\"\n    },\n    {\n      \"claim_text\": \"COVID-19 vaccines are safe and effective at preventing most from experiencing serious illness, hospitalization, and death.\"\n    },\n    {\n      \"claim_text\": \"Vaccines help reduce the spread of the COVID-19 virus in communities, thereby protecting the most vulnerable.\"\n    },\n    {\n      \"claim_text\": \"Vaccine mandates work to increase vaccination rates.\"\n    },\n    {\n      \"claim_text\": \"When people are vaccinated, the world is safer.\"\n    },\n    {\n      \"claim_text\": \"Vaccines and mandates can help businesses prosper.\"\n    },\n    {\n      \"claim_text\": \"The U.S. accounts for 4% of the world’s population but 21% of the world’s COVID cases and 15% of the world’s COVID deaths.\"\n    },\n    {\n      \"claim_text\": \"California has an opportunity to improve public safety by mandating vaccines in workplaces.\"\n    },\n    {\n      \"claim_text\": \"Coronavirus variants continue to disrupt business operations and create financial uncertainty for small businesses.\"\n    },\n    {\n      \"claim_text\": \"Businesses are looking for a common statewide standard for public safety to operate safely and predictably.\"\n    },\n    {\n      \"claim_text\": \"Employees deserve safe workplaces, and vaccines are key to keeping individuals and communities safe.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Assembly Bill 1993 would mandate all businesses in California to require their employees and independent contractors to receive the COVID-19 vaccine.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "COVID-19 vaccines are safe and effective at preventing most from experiencing serious illness, hospitalization, and death.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Vaccines help reduce the spread of the COVID-19 virus in communities, thereby protecting the most vulnerable.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Vaccine mandates work to increase vaccination rates.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "When people are vaccinated, the world is safer.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Vaccines and mandates can help businesses prosper.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The U.S. accounts for 4% of the world’s population but 21% of the world’s COVID cases and 15% of the world’s COVID deaths.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California has an opportunity to improve public safety by mandating vaccines in workplaces.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Coronavirus variants continue to disrupt business operations and create financial uncertainty for small businesses.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Businesses are looking for a common statewide standard for public safety to operate safely and predictably.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Employees deserve safe workplaces, and vaccines are key to keeping individuals and communities safe.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 11,
+  "doc_sha1": "3b229b6b3f05a181cd09524e9e9787a40f2d3073"
+}

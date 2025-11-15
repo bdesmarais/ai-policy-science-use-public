@@ -1,0 +1,13 @@
+{
+  "press_release": "20200610-boerner-horvaths-sexual-assault-victim-amnesty-bill-passes-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Studies estimate that half of sexual assault victims were consuming alcohol at the time of the incident.\",\n    \"Federal reports on campus sexual assault have found that liability for illegal consumption of alcohol or drugs is a common factor in why victims choose not to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Studies estimate that half of sexual assault victims were consuming alcohol at the time of the incident.\",\n    \"Federal reports on campus sexual assault have found that liability for illegal consumption of alcohol or drugs is a common factor in why victims choose not to report their assault.\",\n    \"Higher education institutions nationwide, including the University of California, have already implemented amnesty clauses that provide immunity from the consequences of drug and alcohol use to encourage reporting.\",\n    \"Evidence shows that the rate of sexual violence increases during states of emergency, including natural disasters and health crises.\",\n    \"Demand for services at rape crisis centers has increased since the COVID-19 shutdown.\",\n    \"Providing victims with amnesty will help law enforcement prosecute the perpetrators of sexual assault.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0362ff4f2273b515dbec01bd86ceec7fbf440ddf"
+}

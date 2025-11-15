@@ -1,0 +1,13 @@
+{
+  "press_release": "20240522-majority-leader-aguiar-curry-bill-protect-traveling-public-trucking-jobs.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2286 requires that autonomous vehicles (AVs) over 10,000 pounds have a human safety operator present during initial testing and deployment.\",\n    \"The presence of a human safety operator in AVs is intended to ensure the technology is working properly and to",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2286 requires that autonomous vehicles (AVs) over 10,000 pounds have a human safety operator present during initial testing and deployment.\",\n    \"The presence of a human safety operator in AVs is intended to ensure the technology is working properly and to respond to incidents and emergencies.\",\n    \"There are safety incidents caused by dangerous autonomous vehicles that have been ignored by regulators.\",\n    \"Driverless trucks and buses are dangerous and should not operate on California roads without a human safety operator.\",\n    \"The risks associated with autonomous passenger vehicles are well-documented, implying that the risks of heavy-duty autonomous vehicles may be worse.\",\n    \"Automating the trucking industry could result in the loss of hundreds of thousands of trucking jobs in California.\",\n    \"Public transportation ridership has been slow to recover post-pandemic, with safety concerns contributing to low usage.\",\n    \"The bill mandates that disengagements and collisions of heavy-duty AVs are reported to the DMV.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1ff62dcb5aab990713517d35ffa0efe2ed3c503e"
+}

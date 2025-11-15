@@ -1,0 +1,13 @@
+{
+  "press_release": "20250714-assembly-democrats-denounce-trump-and-republican-cuts-food-assistance.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Republicans in Congress recently slashed billions from SNAP and imposed harsh new eligibility requirements through Trump's megabill.\",\n    \"These cuts threaten access to food for millions of Californians, hitting vulnerable groups the hardest, including children and olde",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Republicans in Congress recently slashed billions from SNAP and imposed harsh new eligibility requirements through Trump's megabill.\",\n    \"These cuts threaten access to food for millions of Californians, hitting vulnerable groups the hardest, including children and older adults.\",\n    \"The GOP's megabill decimates social safety net programs like CalFresh, gutting essential services to fund tax breaks for the ultra-rich.\",\n    \"Roughly one in five families is already struggling with food insecurity, and more people will suffer from hunger under Trump's budget cuts.\",\n    \"CalFresh is a lifeline for over 5 million Californians.\",\n    \"In San Diego County alone, over 330,000 residents rely on CalFresh benefits, including tens of thousands of children, seniors, veterans, and college students.\",\n    \"Every dollar in SNAP generates up to 1.8 dollars in local economic activity.\",\n    \"Changes to SNAP eligibility could slash $1.25 billion a year in food assistance in California and shift nearly $4 billion onto the state and counties.\",\n    \"At least 735,000 Californians could lose CalFresh benefits due to proposed changes.\",\n    \"More than 3 million Californians could lose Medi-Cal coverage under new eligibility and work requirements.\",\n    \"Planned Parenthood clinics face an increased risk of closure under new Medicaid rules.\",\n    \"Funding for education, teacher training, and afterschool programs has been reduced by $939 million, threatening the existence of educational opportunities statewide.\",\n    \"According to the USDA, every $1 of SNAP funding generates $1.54 to $1.80 in local economic activity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d01326fc37d1220eb5026f4e4211f3f86a40e0ff"
+}

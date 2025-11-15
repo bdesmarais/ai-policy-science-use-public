@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-valladares-joins-growing-coalition-lawmakers-parents-call-protection-ca-charter-schools.txt",
+  "party": "Republican",
+  "title": "Senator Suzette Martinez Valladares (R-Santa Clarita) joined a growing coalition of lawmakers, education advocates and concerned parents to urge the rejection of AB 84, which would",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Charter schools meet students where they are, particularly benefiting students with disabilities, foster youth, minority students, and families without access to expensive tutors or private schools.\",\n    \"Flex-based charters serve nearly 100,000 students across 56 of Ca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Charter schools meet students where they are, particularly benefiting students with disabilities, foster youth, minority students, and families without access to expensive tutors or private schools.\",\n    \"Flex-based charters serve nearly 100,000 students across 56 of California’s 58 counties.\",\n    \"58% of students in flex-based charter schools are socioeconomically disadvantaged.\",\n    \"7% of students in flex-based charter schools are English learners.\",\n    \"15% of students in flex-based charter schools are students with disabilities.\",\n    \"AB 84 would defund non-classroom-based charter schools and impose unnecessary, burdensome mandates and regulations.\",\n    \"The coalition expressed support for SB 414 as an alternative bill to provide oversight for charter schools without imposing burdensome restrictions.\",\n    \"Charter schools serve as lifelines for students who often slip through the cracks in conventional education systems.\",\n    \"In some communities, charter schools have been a life-changing option for pregnant teens, foster youth, and many first-generation high school graduates.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0c9e5c219e679967a886116753dd4695970cf58a"
+}

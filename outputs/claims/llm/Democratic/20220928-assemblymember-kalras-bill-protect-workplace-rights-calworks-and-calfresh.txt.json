@@ -1,0 +1,13 @@
+{
+  "press_release": "20220928-assemblymember-kalras-bill-protect-workplace-rights-calworks-and-calfresh.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2300 will prevent Californian workers from having to choose between the wellbeing of their families and their right to not be abused or harassed at work.\",\n    \"AB 2300 empowers CalFresh and CalWORKs participants to leave jobs that violate their labor rights.\",\n    \"C",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2300 will prevent Californian workers from having to choose between the wellbeing of their families and their right to not be abused or harassed at work.\",\n    \"AB 2300 empowers CalFresh and CalWORKs participants to leave jobs that violate their labor rights.\",\n    \"CalFresh and CalWORKs provide crucial financial aid, food assistance, and supportive services to low-income families.\",\n    \"Many participants in CalFresh and CalWORKs risk losing benefits if they quit their job or reduce their work hours in response to abusive work environments.\",\n    \"AB 2300 ensures that CalWORKs and CalFresh families are protected by the same labor and employment rights as all Californian workers.\",\n    \"CalWorks and CalFresh families will be protected from losing their benefits if they choose to leave a workplace due to sexual harassment, discrimination, or other violations.\",\n    \"AB 2300 will ensure that CalWORKs and CalFresh participants do not have to endure abusive and unlawful working conditions for fear of losing their benefits.\",\n    \"The ability to hold employers accountable for illegal behavior will lead to safer and more secure workplaces for all.\",\n    \"AB 2300 will advance gender justice and provide vital protections for Californians who experience volatile and unsafe workplaces.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fba49ee46520494f3dc91a49e23f8a90533f1d3c"
+}

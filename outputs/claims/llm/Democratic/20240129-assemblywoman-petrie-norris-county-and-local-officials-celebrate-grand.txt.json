@@ -1,0 +1,13 @@
+{
+  "press_release": "20240129-assemblywoman-petrie-norris-county-and-local-officials-celebrate-grand.txt",
+  "party": "Democratic",
+  "title": "Laguna Woods, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:33:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Laguna Woods Public Library serves as a hub for literature and community connection.\",\n    \"The library expansion was funded by $500,000 from the FY 2021-22 state budget.\",\n    \"There is a growing demand for public library services in Laguna Woods, indicated by resid",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Laguna Woods Public Library serves as a hub for literature and community connection.\",\n    \"The library expansion was funded by $500,000 from the FY 2021-22 state budget.\",\n    \"There is a growing demand for public library services in Laguna Woods, indicated by residents' requests.\",\n    \"The OC Public Libraries system has 32 libraries in 24 cities across Orange County.\",\n    \"The community will have access to a shared regional collection of 1.7 million items through the OC Public Libraries.\",\n    \"The expanded library offers an enhanced space for technology.\",\n    \"The library provides public computers and engaging programming for residents.\",\n    \"Prior to the expansion, the Laguna Woods branch operated from an eight-foot counter inside City Hall.\",\n    \"The library expansion cost $3 million and involved multiple funding sources, including state funding and local donations.\",\n    \"Public libraries promote education, knowledge-sharing, and cultural enrichment.\",\n    \"The new library facility is designed to prioritize popular materials and provide an accessible space for patrons.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "db53a6f4a0bfa3c6b85c85cd30da5fb02da35001"
+}

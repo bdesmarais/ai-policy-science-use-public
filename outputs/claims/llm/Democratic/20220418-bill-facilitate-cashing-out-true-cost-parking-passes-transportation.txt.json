@@ -1,0 +1,13 @@
+{
+  "press_release": "20220418-bill-facilitate-cashing-out-true-cost-parking-passes-transportation.txt",
+  "party": "Democratic",
+  "title": "Today, AB 2206 to facilitate the enforcement of California’s Parking Cash-Out (PCO) program by requiring the unbundling of parking in commercial leases, passed out of the Transport",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:40:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Parking Cash-Out (PCO) program aims to reduce vehicle commute trips and emissions.\",\n    \"The PCO program allows employees to 'cash out' their subsidized parking and opt for transit, biking, walking, or carpooling.\",\n    \"Employers with more than 50 employees are req",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Parking Cash-Out (PCO) program aims to reduce vehicle commute trips and emissions.\",\n    \"The PCO program allows employees to 'cash out' their subsidized parking and opt for transit, biking, walking, or carpooling.\",\n    \"Employers with more than 50 employees are required to offer equal benefits to employees who do not drive to work.\",\n    \"Many commercial real estate owners bundle the cost of parking with the cost of office space, complicating compliance with the PCO program.\",\n    \"AB 2206 mandates that parking owners provide unbundled parking costs to facilitate compliance with the PCO program.\",\n    \"The unbundling of parking costs can create more equity in transportation access.\",\n    \"The City of Santa Monica has a more successful PCO program due to its own unbundled parking provisions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f7f0c00df3461eea28064b0597482ce73ba1449e"
+}

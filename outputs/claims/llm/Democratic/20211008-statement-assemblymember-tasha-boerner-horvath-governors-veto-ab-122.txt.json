@@ -1,0 +1,13 @@
+{
+  "press_release": "20211008-statement-assemblymember-tasha-boerner-horvath-governors-veto-ab-122.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposal has proven effective at increasing safety for bicyclists in other states.\",\n    \"Allowing bicyclists the option of safely yielding at stop sign-controlled intersections reduces the amount of time they spend crossing the intersection.\",\n    \"The current law e",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposal has proven effective at increasing safety for bicyclists in other states.\",\n    \"Allowing bicyclists the option of safely yielding at stop sign-controlled intersections reduces the amount of time they spend crossing the intersection.\",\n    \"The current law exposes bicyclists to more risk.\",\n    \"The policy presents a viable option that would improve bicycle safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a8594183c333298619255c6d189a725bb1c9178f"
+}

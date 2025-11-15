@@ -1,0 +1,13 @@
+{
+  "press_release": "20250211-assemblymember-patrick-ahrens-introduces-bill-expanding-california-college.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Nearly two-thirds of the 1.9 million students enrolled at California’s community colleges are considered part-time.\",\n    \"Expanding California’s College Promise Program to part-time students will help support California’s most underserved and struggling students.\",",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Nearly two-thirds of the 1.9 million students enrolled at California’s community colleges are considered part-time.\",\n    \"Expanding California’s College Promise Program to part-time students will help support California’s most underserved and struggling students.\",\n    \"Existing law requires that a student be full-time in order to receive a fee waiver through the California College Promise program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "446f3270de5a257b6903dc67e419842c89d7506c"
+}

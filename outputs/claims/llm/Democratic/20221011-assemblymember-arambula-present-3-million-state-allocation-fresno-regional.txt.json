@@ -1,0 +1,13 @@
+{
+  "press_release": "20221011-assemblymember-arambula-present-3-million-state-allocation-fresno-regional.txt",
+  "party": "Democratic",
+  "title": "FRESNO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:50:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Fresno Regional Workforce Development Board has a proven track record in helping underemployed and unemployed people enter different industries.\",\n    \"The ValleyBuild program focuses on construction.\",\n    \"The ValleyBuild NOW program offers pre-apprenticeship train",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Fresno Regional Workforce Development Board has a proven track record in helping underemployed and unemployed people enter different industries.\",\n    \"The ValleyBuild program focuses on construction.\",\n    \"The ValleyBuild NOW program offers pre-apprenticeship training for women.\",\n    \"The funding will provide paid work experience for MC3 participants awaiting testing and apprenticeship acceptance.\",\n    \"The ValleyBuild program intends to eliminate barriers for participants aiming for higher-paying jobs.\",\n    \"The funding will help the Board coordinate a mentoring program for women apprentices in construction.\",\n    \"The funding will make construction training a viable option for economically disadvantaged, underrepresented residents of the Great Central Valley.\",\n    \"Participants in the training will have access to living wage careers in union construction.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ff59118f977d948554b752877be13ff3daa498e9"
+}

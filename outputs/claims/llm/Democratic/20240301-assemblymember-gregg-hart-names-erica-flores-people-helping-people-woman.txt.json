@@ -1,0 +1,13 @@
+{
+  "press_release": "20240301-assemblymember-gregg-hart-names-erica-flores-people-helping-people-woman.txt",
+  "party": "Democratic",
+  "title": "Solvang, CA – Assemblymember Gregg Hart presented the Woman of the Year Award for Assembly District 37 to Erica Jane Flores, CEO of People Helping People. Flores joins a select gro",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cdfd2cba0d1d1619b6cc78eed25c6cfc43e13c71"
+}

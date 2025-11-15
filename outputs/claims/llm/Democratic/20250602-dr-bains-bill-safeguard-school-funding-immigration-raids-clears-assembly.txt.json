@@ -1,0 +1,13 @@
+{
+  "press_release": "20250602-dr-bains-bill-safeguard-school-funding-immigration-raids-clears-assembly.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) June 02, 2025",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed change in law adds immigration enforcement to a list of eligible conditions outside of schools' control for funding protection.\",\n    \"Twenty percent of California's school children live in mixed-status homes, meaning they are undocumented or living with som",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed change in law adds immigration enforcement to a list of eligible conditions outside of schools' control for funding protection.\",\n    \"Twenty percent of California's school children live in mixed-status homes, meaning they are undocumented or living with someone who is undocumented.\",\n    \"Several Local Education Agencies (LEAs) have reported a decrease in attendance because immigrant parents are afraid federal immigration officials will detain children to screen for residency status or question the children about others in their household.\",\n    \"Over 1 million children in California have at least one undocumented parent.\",\n    \"Recent research from the University of California Los Angeles shows that absenteeism rates worsen by about five percentage points in areas where immigration arrests occurred.\",\n    \"Nearly 60% of educators observed increased absenteeism due to immigration enforcement.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d5fd805ce26619e84876d7d2cbcaa558b8d0f2a4"
+}

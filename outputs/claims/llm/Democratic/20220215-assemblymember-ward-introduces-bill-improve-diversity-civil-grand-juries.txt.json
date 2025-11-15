@@ -1,0 +1,13 @@
+{
+  "press_release": "20220215-assemblymember-ward-introduces-bill-improve-diversity-civil-grand-juries.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO,CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Civil grand juries play an important role in California’s criminal justice system and help provide municipal oversight.\",\n    \"The demographics of civil grand juries in California are not always representative of the demographics of a particular area.\",\n    \"AB 1972 aims",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Civil grand juries play an important role in California’s criminal justice system and help provide municipal oversight.\",\n    \"The demographics of civil grand juries in California are not always representative of the demographics of a particular area.\",\n    \"AB 1972 aims to amend statutory requirements to include gender, age, and race and ethnicity in the grand jury selection process.\",\n    \"Adjusting the per diem compensation for grand jurors will help attract a more diverse pool of candidates.\",\n    \"Currently, the role of a grand juror is largely voluntary with very little daily compensation.\",\n    \"The lack of compensation for grand jurors leads to disproportionate representation within courtrooms.\",\n    \"AB 1972 will help increase transparency around the process of jury selection.\",\n    \"Current state statutes require jury commissioners to note the geographic makeup of a jury pool but do not require further diversity measures.\",\n    \"Juries play a critical role in the lives of Californians involved in the legal system, especially for people of color and those living in poverty.\",\n    \"There is a need to address bias and the lack of diversity in all parts of the legal system.\",\n    \"Juries are disproportionately made up of white retirees who can afford to serve, highlighting socioeconomic inequalities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5a986c1727d29a7d28770a79b72d49b95ff870b7"
+}

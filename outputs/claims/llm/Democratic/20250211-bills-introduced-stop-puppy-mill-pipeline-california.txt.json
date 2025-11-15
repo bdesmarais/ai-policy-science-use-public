@@ -1,0 +1,13 @@
+{
+  "press_release": "20250211-bills-introduced-stop-puppy-mill-pipeline-california.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA — In response to a groundbreaking multi-part investigation into the puppy market in California by the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The investigation by the Los Angeles Times uncovered extensive fraud and suffering in the puppy trade in California.\",\n    \"Assembly Bill 506 voids contracts that require non-refundable deposits from consumers without disclosing the original source of a pet.\",\n    \"Assem",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The investigation by the Los Angeles Times uncovered extensive fraud and suffering in the puppy trade in California.\",\n    \"Assembly Bill 506 voids contracts that require non-refundable deposits from consumers without disclosing the original source of a pet.\",\n    \"Assembly Bill 519 prohibits any person or business that profits by selling animals bred by another from selling or adopting out pets for profit.\",\n    \"The investigation found that truckloads of dogs from mass breeders enter California every year, often sold by individuals posing as small, local breeders.\",\n    \"Misleading marketing tactics and a gap in regulations allow online pet brokers to exploit consumers and continue the puppy mill pipeline.\",\n    \"The bills introduced aim to provide complete transparency about the source of puppies entering California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c04421d894658742426291cfa29b6965214943c4"
+}

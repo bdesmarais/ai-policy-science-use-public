@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-corteses-bills-public-health-economic-development-affordable-housing-become-law.txt",
+  "party": "Democratic",
+  "title": "Today the Governor has signed three bills authored by Senator Dave Cortese (D-Silicon Valley) into law:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 564 will ensure that Santa Clara County hospitals O’Connor and Valley Medical Center can maintain access to health services while meeting seismic safety standards.\",\n    \"SB 780 will improve the functioning and usefulness of Special Tax Districts used by local governm",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 564 will ensure that Santa Clara County hospitals O’Connor and Valley Medical Center can maintain access to health services while meeting seismic safety standards.\",\n    \"SB 780 will improve the functioning and usefulness of Special Tax Districts used by local governments to fund community infrastructure projects and affordable housing.\",\n    \"Enhanced Infrastructure Finance Districts (EIFDs) have emerged as the most flexible tool for local agencies considering infrastructure development.\",\n    \"Improvements to EIFD and Community Revitalization Investment Authority statutes are needed to facilitate the use of these tools for infrastructure and affordable housing objectives.\",\n    \"The COVID-19 pandemic imposed immense pressure on local governments that were already financially unstable.\",\n    \"SB 791 will expedite the construction of affordable housing on local government surplus land through the creation of the California Surplus Land Unit.\",\n    \"The California Surplus Land Unit will provide consultative and technical assistance to local agencies seeking to increase housing production on their surplus land.\",\n    \"SB 791 includes data collection components to help the Legislature understand how to effectively promote affordable housing production.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5f8fcae6144f09cddd1559479012a57a0b96a37f"
+}

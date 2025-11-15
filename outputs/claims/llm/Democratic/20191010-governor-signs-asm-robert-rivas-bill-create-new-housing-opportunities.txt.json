@@ -1,0 +1,13 @@
+{
+  "press_release": "20191010-governor-signs-asm-robert-rivas-bill-create-new-housing-opportunities.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1255 creates a public, searchable online inventory of all surplus and excess lands owned by cities or counties.\",\n    \"The bill builds upon Governor Newsom’s executive order to create a digitized inventory of surplus state property that could be used for affordable ho",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1255 creates a public, searchable online inventory of all surplus and excess lands owned by cities or counties.\",\n    \"The bill builds upon Governor Newsom’s executive order to create a digitized inventory of surplus state property that could be used for affordable housing.\",\n    \"Local cities and counties own thousands of parcels of land throughout the state, many of which exceed their foreseeable needs.\",\n    \"Identifying overlooked, underdeveloped areas has tremendous potential for local leaders and developers to collaborate on building affordable housing.\",\n    \"Creating a centralized list of public land is a critical step in understanding the availability of public lands for building affordable housing.\",\n    \"The statewide public lands database created by AB 1255 will highlight the number of public lands potentially available for affordable housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a47b0567373c9837a665aaf7f040fb3afd8c4dbb"
+}

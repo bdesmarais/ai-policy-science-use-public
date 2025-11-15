@@ -1,0 +1,13 @@
+{
+  "press_release": "california-senate-republicans-unanimously-elect-senator-brian-jones-republican-caucus-chair.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Outgoing Senate Republican Leader Patricia Bates (R-Laguna Niguel) and Senate Republican Leader-Elect Shannon Grove (R-Bakersfield) announced today that the Senate Rep",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "51a71d527dee0a5fb5ddc01ce164167d3486bf72"
+}

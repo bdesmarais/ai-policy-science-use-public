@@ -1,0 +1,13 @@
+{
+  "press_release": "rayna-lehman-named-2021-woman-year-13th-senate-district.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Rayna Lehman has been the director of the AFL-CIO Community Services Program of the San Mateo Central Labor Council since 1982.\",\n    \"The AFL-CIO Community Services Program assists struggling union members and their families in San Mateo County by providing access to re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Rayna Lehman has been the director of the AFL-CIO Community Services Program of the San Mateo Central Labor Council since 1982.\",\n    \"The AFL-CIO Community Services Program assists struggling union members and their families in San Mateo County by providing access to re-employment and re-training, health care assistance, health education, child care assistance, food, community resources, and emergency services.\",\n    \"Since last spring, Rayna Lehman has coordinated, in partnership with Second Harvest Silicon Valley Food Bank, twice monthly food distributions that aid an average of 800 families each time.\",\n    \"The San Mateo County Trades Introduction Program is a state certified pre-apprenticeship program that has graduated more than 300 students and placed over 200 of them into union construction apprenticeship programs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "709fb61c29fcb58ce40b5d8f16557f17261f6f6d"
+}

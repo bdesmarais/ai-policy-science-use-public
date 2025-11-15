@@ -1,0 +1,13 @@
+{
+  "press_release": "20230601-assemblymember-connolly-passes-14-bills-assembly-floor.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Connolly Passes 14 Bills off the Assembly Floor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 405 requires the California Department of Public Health (CDPH) to move from a slow, inefficient paper-based registration and payment process for organic businesses to an online system.\",\n    \"AB 953 tasks the Ocean Protection Council to create a statewide voluntary ve",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 405 requires the California Department of Public Health (CDPH) to move from a slow, inefficient paper-based registration and payment process for organic businesses to an online system.\",\n    \"AB 953 tasks the Ocean Protection Council to create a statewide voluntary vessel speed reduction and sustainable shipping program for the California coast to reduce air pollution, the risk of fatal vessel strikes on whales, and harmful underwater acoustic impacts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0759cc604aac7d80c19a2cb0ead5eeba8c3ed8a0"
+}

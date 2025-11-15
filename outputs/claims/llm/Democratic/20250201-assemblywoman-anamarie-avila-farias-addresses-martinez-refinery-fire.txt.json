@@ -1,0 +1,13 @@
+{
+  "press_release": "20250201-assemblywoman-anamarie-avila-farias-addresses-martinez-refinery-fire.txt",
+  "party": "Democratic",
+  "title": "I am closely monitoring the fire at the Martinez Refining Company and remain in direct contact with all appropriate agencies and refinery representatives to assess the impacts on t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d81a88192814ff72932695bf709f2020ea5a49fe"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-becker-named-chair-new-senate-subcommittee-clean.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The health and resilience of Californians and the economy depends on a clean energy future.\",\n    \"California has a pressing need to accelerate the expansion of its clean energy supply to meet climate targets.\",\n    \"The Subcommittee on the Clean Energy Future will explo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The health and resilience of Californians and the economy depends on a clean energy future.\",\n    \"California has a pressing need to accelerate the expansion of its clean energy supply to meet climate targets.\",\n    \"The Subcommittee on the Clean Energy Future will explore policy options and identify barriers related to achieving a 100% clean electrical grid.\",\n    \"Senator Josh Becker's legislative portfolio centers on climate action.\",\n    \"Senator Becker's 2021 bills include initiatives to ease barriers to the electrification of homes and commercial buildings.\",\n    \"Senator Becker is championing the decarbonization of California’s concrete and cement industry.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e51984b6bc0a9069b82313fdad85658069bbbf55"
+}

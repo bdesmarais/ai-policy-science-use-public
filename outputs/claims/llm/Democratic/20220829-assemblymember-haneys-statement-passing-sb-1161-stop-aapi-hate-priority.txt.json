@@ -1,0 +1,13 @@
+{
+  "press_release": "20220829-assemblymember-haneys-statement-passing-sb-1161-stop-aapi-hate-priority.txt",
+  "party": "Democratic",
+  "title": "“As a proud co-author of SB 1161, I commend the leadership of Senator Min and the Stop AAPI Hate Coalition for the passing of SB 1161, a priority bill for the API community that pr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:45:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The California Department of Justice reported a 177.5% increase in reported anti-Asian hate crimes as of July 2022.\",\n    \"For every crime reported to the police, there are hundreds of incidents of hate-based harassment and violence that go unreported.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The California Department of Justice reported a 177.5% increase in reported anti-Asian hate crimes as of July 2022.\",\n    \"For every crime reported to the police, there are hundreds of incidents of hate-based harassment and violence that go unreported.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5f79e4e4da787f6de4f46c888d4adcc7270ea35c"
+}

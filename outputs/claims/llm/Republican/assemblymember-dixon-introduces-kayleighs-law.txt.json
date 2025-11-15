@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-introduces-kayleighs-law.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1931, known as Kayleigh's Law, will allow victims of heinous crimes to seek a lifetime injunction against their perpetrator.\",\n    \"Current law provides only temporary restraining orders that require victims to face their perpetrator in court to renew prote",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1931, known as Kayleigh's Law, will allow victims of heinous crimes to seek a lifetime injunction against their perpetrator.\",\n    \"Current law provides only temporary restraining orders that require victims to face their perpetrator in court to renew protections.\",\n    \"The proposed legislation aims to offer critical protections for survivors of childhood sexual abuse from their abusers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f57949ffd27a63df42a162320b0d4c8f074d96d"
+}

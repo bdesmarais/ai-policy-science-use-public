@@ -1,0 +1,13 @@
+{
+  "press_release": "20250715-california-moves-closer-launching-honeybee-health-plan-act.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Managed honeybees are vital to California’s agriculture, contributing billions of dollars annually by pollinating over 100 crops.\",\n    \"Between June 2024 and March 2025, U.S. commercial beekeepers lost nearly 1.6 million colonies, averaging a 62% loss.\",\n    \"The progra",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Managed honeybees are vital to California’s agriculture, contributing billions of dollars annually by pollinating over 100 crops.\",\n    \"Between June 2024 and March 2025, U.S. commercial beekeepers lost nearly 1.6 million colonies, averaging a 62% loss.\",\n    \"The program established by AB 1042 aims to strengthen bee health by investing in research, education, and pollinator-friendly practices.\",\n    \"AB 1042 will offer incentives for commercial beekeepers and farmers to adopt practices that support pollinator health.\",\n    \"The program will provide grants to tribes, schools, nonprofits, and local groups to advance bee health research.\",\n    \"AB 1042 funds hands-on projects that train beekeepers and demonstrate real-world solutions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cae900e3662c2d5ba8b1f40cd2f4fd50150d825b"
+}

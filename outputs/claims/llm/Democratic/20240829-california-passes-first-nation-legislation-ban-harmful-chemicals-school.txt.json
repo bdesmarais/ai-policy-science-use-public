@@ -1,0 +1,13 @@
+{
+  "press_release": "20240829-california-passes-first-nation-legislation-ban-harmful-chemicals-school.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed the California School Food Safety Act, which prohibits public schools from serving foods containing six synthetic food dyes linked to developmental and behavioral harms in children.\",\n    \"California's food safety laws have histori",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed the California School Food Safety Act, which prohibits public schools from serving foods containing six synthetic food dyes linked to developmental and behavioral harms in children.\",\n    \"California's food safety laws have historically influenced broader changes in the food industry, prompting companies to reformulate products nationwide.\",\n    \"Consumption of synthetic food dyes can result in hyperactivity and other neurobehavioral problems in some children, according to a report by the California EPA.\",\n    \"Current FDA approvals of synthetic food dyes are based on outdated, decades-old research.\",\n    \"The percentage of American children diagnosed with Attention Deficit/Hyperactivity Disorder (ADHD) has increased dramatically in recent years.\",\n    \"The California Food Safety Act banned four dangerous chemicals from foods sold in California and sparked a national conversation about the need to modernize food safety laws.\",\n    \"The FDA announced its decision to ban brominated vegetable oil (BVO) in food following a prohibition enacted in Assemblymember Gabriel’s AB 418.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f23b8d4af728861462f2cf19859cbc4bb1fb1861"
+}

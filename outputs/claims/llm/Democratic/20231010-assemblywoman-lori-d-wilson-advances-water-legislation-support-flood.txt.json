@@ -1,0 +1,13 @@
+{
+  "press_release": "20231010-assemblywoman-lori-d-wilson-advances-water-legislation-support-flood.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California remains vulnerable to floods that risk life and property.\",\n    \"Much work remains to implement multi-benefit projects that can both protect communities from flooding while also improving the environment.\",\n    \"AB 345 allows small and determined local agencie",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California remains vulnerable to floods that risk life and property.\",\n    \"Much work remains to implement multi-benefit projects that can both protect communities from flooding while also improving the environment.\",\n    \"AB 345 allows small and determined local agencies with limited budgets to partner with the State to deliver large-scale flood protection and habitat restoration projects.\",\n    \"These projects reduce flood risk to citizens and their property while investing in the improvement of natural resources.\",\n    \"AB 779 adds a requirement for courts to take into account the needs of disadvantaged communities and small farmers when entering a judgement.\",\n    \"AB 779 is designed to make the groundwater adjudication process more accessible, efficient, and transparent for all water users, especially small farmers and historically marginalized groundwater users.\",\n    \"AB 779 aims to ensure an equitable and science-based allocation of water rights to support sustainable, long-term use by all water users in a basin.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0435de4e4cb554fe518f30231d50a22a95c37c28"
+}

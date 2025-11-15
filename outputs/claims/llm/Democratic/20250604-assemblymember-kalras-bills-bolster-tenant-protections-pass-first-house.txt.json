@@ -1,0 +1,13 @@
+{
+  "press_release": "20250604-assemblymember-kalras-bills-bolster-tenant-protections-pass-first-house.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:37:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 863 ensures basic language access protections for tenants facing eviction by requiring notices to be translated if the tenant notifies their landlord of their primary language.\",\n    \"AB 863 allows tenants to better exercise their rights and be responsive to issues be",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 863 ensures basic language access protections for tenants facing eviction by requiring notices to be translated if the tenant notifies their landlord of their primary language.\",\n    \"AB 863 allows tenants to better exercise their rights and be responsive to issues before they result in eviction.\",\n    \"AB 878 provides critical housing stability for victims of violence and abuse by allowing them to request reasonable accommodations from their landlords.\",\n    \"Domestic violence is intrinsically linked with housing insecurity, creating a vicious cycle that traps victims in patterns of instability and harm.\",\n    \"AB 878 helps survivors remain in their homes and supports their healing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e88ae9394b03c80d6b92b1200ac78c31c44afe41"
+}

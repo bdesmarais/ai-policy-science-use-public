@@ -1,0 +1,13 @@
+{
+  "press_release": "radical-environmentalist-democrats-kill-leader-jones-bill-repeal-newsoms-65-cent-gas-price.txt",
+  "party": "Republican",
+  "title": "This afternoon, the Democrat-controlled Senate Environmental Quality Committee killed Senate Bill 2, despite the measure’s bipartisan support. The measure, authored by Senate Minor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Low Carbon Fuel Standard (LCFS) regulations passed by the California Air Resources Board (CARB) are expected to increase gas prices by 65 cents per gallon in the near term, 85 cents per gallon by 2030, and $1.50 per gallon by 2035.\",\n    \"Governor Gavin Newsom's admi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Low Carbon Fuel Standard (LCFS) regulations passed by the California Air Resources Board (CARB) are expected to increase gas prices by 65 cents per gallon in the near term, 85 cents per gallon by 2030, and $1.50 per gallon by 2035.\",\n    \"Governor Gavin Newsom's administration has been accused of increasing gas prices to force Californians into electric vehicles in an effort to meet an electric vehicle mandate by 2035.\",\n    \"The California Air Resources Board (CARB) is responsible for implementing policies to convert all California vehicles to electric by 2035.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "17e166f2077132f2b7895a2184de0b25e4e6c37d"
+}

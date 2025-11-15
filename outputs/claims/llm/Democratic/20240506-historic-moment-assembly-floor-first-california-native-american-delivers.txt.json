@@ -1,0 +1,13 @@
+{
+  "press_release": "20240506-historic-moment-assembly-floor-first-california-native-american-delivers.txt",
+  "party": "Democratic",
+  "title": "Land acknowledgment begins at 51:13 at:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"James C. Ramos is the first and only California Native American elected to the Legislature.\",\n    \"Peter Burnett, California’s first governor, called for the extermination of the Indian race.\",\n    \"In 2019, Governor Newsom apologized for the genocide and other atrocitie",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"James C. Ramos is the first and only California Native American elected to the Legislature.\",\n    \"Peter Burnett, California’s first governor, called for the extermination of the Indian race.\",\n    \"In 2019, Governor Newsom apologized for the genocide and other atrocities committed against California Indians.\",\n    \"The first legislative session land acknowledgment was initiated by Speaker Robert Rivas.\",\n    \"The land acknowledgment recognizes the Nisenan and Miwok tribes as the First People of the Capitol region.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba0d70ae47e5724b1256028d8ae3c0e21e66f366"
+}

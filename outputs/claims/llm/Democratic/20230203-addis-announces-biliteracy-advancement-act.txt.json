@@ -1,0 +1,13 @@
+{
+  "press_release": "20230203-addis-announces-biliteracy-advancement-act.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — Assemblymember Dawn Addis (D-Morro Bay) introduced",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:53:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Obtaining the State Seal of Biliteracy should be achievable for multilingual students from all primary-language backgrounds.\",\n    \"Currently, there is a distinct difference in the requirements to obtain the State Seal of Biliteracy, specifically a lack of flexibility wh",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Obtaining the State Seal of Biliteracy should be achievable for multilingual students from all primary-language backgrounds.\",\n    \"Currently, there is a distinct difference in the requirements to obtain the State Seal of Biliteracy, specifically a lack of flexibility when demonstrating proficiency in English.\",\n    \"The lack of testing options for the English portion of the State Seal of Biliteracy puts English language learners at a clear disadvantage to other students.\",\n    \"The Biliteracy Advancement Act would provide students with more options when testing for English proficiency.\",\n    \"The Biliteracy Advancement Act aims to create parity with the current second language testing alternatives.\",\n    \"The State Seal of Biliteracy allows for students to showcase their proficiency in multiple languages to potential colleges and employers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba13504d72c9e13afc3512e5d2de2ef1b3498272"
+}

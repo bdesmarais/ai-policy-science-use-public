@@ -1,0 +1,13 @@
+{
+  "press_release": "20250624-zbur-honors-lambda-legals-chief-legal-officer-jenny-pizer-his-2025-pride.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Rick Chavez Zbur stands with his 2025 Pride Month Honoree, Jenny Pizer, Chief Legal Officer and Eden/Rushing Chair for Lambda Legal, on the California State Assembly",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Jenny Pizer has been a pivotal leader in the national brain trust of the LGBTQ+ movement for almost three decades.\",\n    \"Jenny Pizer has shaped the long-term strategy aimed at achieving full, lived equality for LGBTQ+ people.\",\n    \"Jenny Pizer leads Lambda Legal's",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Jenny Pizer has been a pivotal leader in the national brain trust of the LGBTQ+ movement for almost three decades.\",\n    \"Jenny Pizer has shaped the long-term strategy aimed at achieving full, lived equality for LGBTQ+ people.\",\n    \"Jenny Pizer leads Lambda Legal's Legal Department, which consists of 40 lawyers and 12 paraprofessionals working nationwide.\",\n    \"Since joining Lambda Legal in 1996, Jenny Pizer has litigated cases to end discrimination against LGBTQ+ people in various areas, including employment, education, health care, and family law.\",\n    \"Jenny Pizer was co-counsel in the litigation that won marriage equality in California in 2008.\",\n    \"Pizer protected the marriages of 18,000 lesbian and gay couples celebrated in California before the passage of Proposition 8.\",\n    \"Pizer served as lead counsel in Majors vs. Jeanes, the successful federal case against Arizona's ban on marriage for same-sex couples.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bcdc0489358dfcd259a465cc13eef41d7782d52c"
+}

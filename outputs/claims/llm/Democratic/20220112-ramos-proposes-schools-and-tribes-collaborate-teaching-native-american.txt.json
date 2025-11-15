@@ -1,0 +1,13 @@
+{
+  "press_release": "20220112-ramos-proposes-schools-and-tribes-collaborate-teaching-native-american.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Legislation encouraging school districts to collaborate with local tribes to increase knowledge about California Native Americans in their communities and help prevent",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Legislation will be introduced to encourage school districts to collaborate with local tribes to increase knowledge about California Native Americans.\",\n    \"The new bill aims to increase student knowledge and awareness about the history and culture of tribes residing in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Legislation will be introduced to encourage school districts to collaborate with local tribes to increase knowledge about California Native Americans.\",\n    \"The new bill aims to increase student knowledge and awareness about the history and culture of tribes residing in California.\",\n    \"There is a risk of more classroom incidents related to disrespecting Native American culture if schools do not improve collaboration with tribes.\",\n    \"Few people understand the diversity among California's first people, including their languages, musical instruments, customs, and traditions.\",\n    \"Many tribes in California were wiped out or almost eliminated during the 1800s.\",\n    \"Bringing accurate and culturally competent Native American education to California schools can counter harmful and stereotypical messages.\",\n    \"Strong interactions between schools and tribes is crucial for creating a more relevant and accurate curriculum for California students.\",\n    \"Washington state’s curriculum changes regarding Native American history began with establishing relationships between tribes and schools.\",\n    \"The curriculum entitled 'Since Time Immemorial' in Washington state has made a positive difference for students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "aa3c28922dce66ab0c1bfcbab123065fe300aefc"
+}

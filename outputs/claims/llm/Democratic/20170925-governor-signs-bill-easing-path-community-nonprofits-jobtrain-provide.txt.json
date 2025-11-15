@@ -1,0 +1,13 @@
+{
+  "press_release": "20170925-governor-signs-bill-easing-path-community-nonprofits-jobtrain-provide.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Nonprofit community-based organizations provide essential job-skills training that grow the workforce and strengthen the economy.\",\n    \"AB 868 creates a more straightforward path for nonprofit community-based organizations to continue serving their communities.\",\n    \"A",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Nonprofit community-based organizations provide essential job-skills training that grow the workforce and strengthen the economy.\",\n    \"AB 868 creates a more straightforward path for nonprofit community-based organizations to continue serving their communities.\",\n    \"AB 868 exempts nonprofit community-based organizations from regulations by the Bureau for Private Postsecondary Education if they meet certain criteria.\",\n    \"Organizations must be registered nonprofits with programs on the Eligible Training Provider List to qualify for the exemptions under AB 868.\",\n    \"AB 868 is needed for organizations to be listed on the Eligible Training Provider List, a requirement to serve individuals who receive federal workforce funding.\",\n    \"AB 868 includes oversight requirements that exempt organizations must comply with to ensure accountability and protect students.\",\n    \"Making more training programs accessible helps individuals who cannot otherwise hope to make a livable wage to support their families.\",\n    \"The jobs trained for through these programs can be in construction, healthcare, and other fields that positively serve local communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "74b8684824821267f77bde6ec59149eb84b01ee5"
+}

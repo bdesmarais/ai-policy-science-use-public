@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-sen-corteses-bills-consumer-protection-and-workers-rights.txt",
+  "party": "Democratic",
+  "title": "Governor Newsom signed the following bills from Senator Dave Cortese (D-San Jose) on Friday:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 411 allows the CalPERS Board to reach fair resolutions with retirees who exceed the 960-hour limit without forcing them to reinstate or repay retirement income.\",\n    \"A significant number of retirees are unaware of the 960-hour work limit, resulting in unintentional ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 411 allows the CalPERS Board to reach fair resolutions with retirees who exceed the 960-hour limit without forcing them to reinstate or repay retirement income.\",\n    \"A significant number of retirees are unaware of the 960-hour work limit, resulting in unintentional violations.\",\n    \"An audit by CalPERS indicated that 52% of public agencies were in violation of the 960-hour rule.\",\n    \"SB 461 enhances consumer protection by allowing county counsels in large counties to enforce the Unfair Competition Law (UCL).\",\n    \"The existing UCL statute provides various government entities authority to protect consumers and ensure fair competition.\",\n    \"SB 461 gives county counsels in large counties the same authority to bring UCL actions as city attorney counterparts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "98169fa0844b9676c67fa11a2c217c45e9c350dc"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-votes-against-senate-bill-714-vaccine-mandate-measure.txt",
+  "party": "Republican",
+  "title": "Sacramento – Senator Brian Jones (R-Santee) today spoke out against, and voted against, Senate Bill 714 (authored by Richard Pan, D-Sacramento), a companion measure to SB 276 which",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bacc202c35f7760764859fd464508a29510915e6"
+}

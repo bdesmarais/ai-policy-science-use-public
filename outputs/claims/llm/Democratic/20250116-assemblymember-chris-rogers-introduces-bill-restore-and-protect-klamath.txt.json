@@ -1,0 +1,13 @@
+{
+  "press_release": "20250116-assemblymember-chris-rogers-introduces-bill-restore-and-protect-klamath.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 263 aims to protect salmon populations in the Klamath River watershed.\",\n    \"The legislation will maintain river flows for at-risk salmon runs on the Scott and Shasta Rivers.\",\n    \"Most wild Chinook salmon in the Klamath River are born in the Shasta River.\",\n    \"Th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 263 aims to protect salmon populations in the Klamath River watershed.\",\n    \"The legislation will maintain river flows for at-risk salmon runs on the Scott and Shasta Rivers.\",\n    \"Most wild Chinook salmon in the Klamath River are born in the Shasta River.\",\n    \"The majority of wild Southern Oregon Northern California Coho salmon spend part of their lifecycle in the Scott River.\",\n    \"Southern Oregon Northern California Coast Coho are listed as endangered by state and federal authorities.\",\n    \"The Scott and Shasta rivers provide essential habitat for Klamath River salmon runs.\",\n    \"The Karuk Tribe’s fishery relies on salmon born and reared in the Scott and Shasta rivers.\",\n    \"The removal of mainstream dams necessitates a focus on critical spawning and rearing habitats in the Scott and Shasta Rivers.\",\n    \"There is a risk that without flow protections, there may be no salmon left in the affected rivers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3330919a16079872ff4661f63e5cc10221cbc309"
+}

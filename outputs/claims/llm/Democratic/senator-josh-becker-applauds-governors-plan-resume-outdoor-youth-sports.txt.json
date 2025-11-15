@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-becker-applauds-governors-plan-resume-outdoor-youth-sports.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The benefits to kids’ mental health, engagement in education, and overall well-being from returning to sports can be enormous.\",\n    \"Restoring sports for youth with strong safety protocols is an important step in recovery from the pandemic.\",\n    \"Prioritizing teachers ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The benefits to kids’ mental health, engagement in education, and overall well-being from returning to sports can be enormous.\",\n    \"Restoring sports for youth with strong safety protocols is an important step in recovery from the pandemic.\",\n    \"Prioritizing teachers for the COVID vaccine and reserving 10% of vaccine doses for in-person educators is crucial for addressing major public health needs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c20edbfb70cd3547a590ebaff515dfff6879e466"
+}

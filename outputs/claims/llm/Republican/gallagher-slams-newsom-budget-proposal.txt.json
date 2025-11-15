@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-slams-newsom-budget-proposal.txt",
+  "party": "Republican",
+  "title": "Only Gavin Newsom could turn a $100 billion surplus into a $31 billion deficit in less than a year.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "56c63f1e0939bb3bf5d22f9a9b82978763c853ee"
+}

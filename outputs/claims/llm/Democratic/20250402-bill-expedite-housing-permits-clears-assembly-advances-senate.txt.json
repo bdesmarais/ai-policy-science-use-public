@@ -1,0 +1,13 @@
+{
+  "press_release": "20250402-bill-expedite-housing-permits-clears-assembly-advances-senate.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) – On Tuesday the California State Assembly passed AB 253, a key measure to accelerate home construction by streamlining the post-entitlement permitting process. Th",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:31:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed AB 253 to accelerate home construction by streamlining the post-entitlement permitting process.\",\n    \"AB 253 allows licensed third-party professionals to review permits when local building departments are unable to process them withi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed AB 253 to accelerate home construction by streamlining the post-entitlement permitting process.\",\n    \"AB 253 allows licensed third-party professionals to review permits when local building departments are unable to process them within 30 days.\",\n    \"Delays in issuing post-entitlement permits contribute to increased costs, slowed housing production, and exacerbate California's housing shortage.\",\n    \"The streamlined permitting process is intended to increase the speed of housing production in California.\",\n    \"Streamlined permitting processes have proven effective in boosting housing production in states such as Florida, Tennessee, and Texas, as well as in the United Kingdom and Japan.\",\n    \"AB 253 aims to modernize the permitting process to make it faster, easier, and more efficient for building homes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b5be24a9f355c4992cee2afe572a66fb37377a20"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "declaracion-del-asambleista-jeff-gonzalez-sobre-el-avance-del-ab-1016-en-comite.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Hoy, el Asambleísta Jeff Gonzalez (R-Indio) emitió la siguiente declaración después de que el AB 1016 fuera aprobado por el Comité de Servicios Públicos y Energía de l",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"El AB 1016 aumenta la capacidad de generación de las plantas de energía geotérmica que pueden ser aprobadas a nivel local.\",\n    \"El manejo responsable del desarrollo de energía limpia ha sido comprobado durante décadas en regiones como el Condado de Imperial.\",\n    \"El ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"El AB 1016 aumenta la capacidad de generación de las plantas de energía geotérmica que pueden ser aprobadas a nivel local.\",\n    \"El manejo responsable del desarrollo de energía limpia ha sido comprobado durante décadas en regiones como el Condado de Imperial.\",\n    \"El proyecto de ley AB 1016 abre la puerta a nuevos empleos, escuelas más fuertes y fuentes vitales de ingresos para los gobiernos locales.\",\n    \"El desarrollo de energía base limpia y confiable, facilitado por el AB 1016, posiciona al Condado de Imperial como un centro de innovación en energía limpia y desarrollo laboral.\",\n    \"El AB 1016 refuerza los objetivos climáticos y energéticos de California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "12bfcf59fe97d452053fdb9b117b242c9fc67937"
+}

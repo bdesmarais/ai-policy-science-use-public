@@ -1,0 +1,13 @@
+{
+  "press_release": "20240610-new-bill-allows-tenants-have-time-rent-payments-reflected-their-credit.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:44:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Many renters spend a majority of their income on rent and prioritize their rent payments over all other expenses each month.\",\n    \"On-time rent payments are not reflected on credit scores, while missed rent payments negatively impact them.\",\n    \"Millions of renters are",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Many renters spend a majority of their income on rent and prioritize their rent payments over all other expenses each month.\",\n    \"On-time rent payments are not reflected on credit scores, while missed rent payments negatively impact them.\",\n    \"Millions of renters are paying their rent on time but do not see a positive impact on their credit scores.\",\n    \"1 in 10 Americans do not have a credit score because their monthly expenses are not used to build credit.\",\n    \"Many individuals have poor credit solely because bills they prioritize paying, like rent, are not reported to credit bureaus.\",\n    \"Credit scores are crucial to securing financial equity, including for homeownership and car loans.\",\n    \"Banks often use credit scores to determine qualifications for mortgages and loan terms.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "71c4f17028db19f259e0b7b17bf0618a30e0d998"
+}

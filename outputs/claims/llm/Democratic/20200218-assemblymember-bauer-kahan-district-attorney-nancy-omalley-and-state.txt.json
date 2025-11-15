@@ -1,0 +1,13 @@
+{
+  "press_release": "20200218-assemblymember-bauer-kahan-district-attorney-nancy-omalley-and-state.txt",
+  "party": "Democratic",
+  "title": "The Utility Accountability and Wildfire Prevention Act of 2020 - AB 2356, will allow local authorities to bring actions against electrical companies who fail to comply with safety ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:14:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The Utility Accountability and Wildfire Prevention Act of 2020 will allow local authorities to bring actions against electrical companies for failing to comply with safety regulations.\",\n    \"AB 2356 will expand enforcement authority to the Attorney General and loca",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The Utility Accountability and Wildfire Prevention Act of 2020 will allow local authorities to bring actions against electrical companies for failing to comply with safety regulations.\",\n    \"AB 2356 will expand enforcement authority to the Attorney General and local District Attorneys to take action against electrical corporations for non-compliance with safety standards.\",\n    \"Four of the five largest wildfires in California’s history have occurred in the past seven years.\",\n    \"Decades of mismanagement by utility companies and a refusal to prioritize public safety over profits have contributed to the severity of California's wildfires.\",\n    \"Climate change will continue to pose massive threats of wildfires throughout California.\",\n    \"The bill allows local District Attorneys and the Attorney General to enforce laws requiring utilities to maintain safe equipment.\",\n    \"Public Safety Power Shutoffs (PSPS) were instituted by PG&E in response to the risks of equipment causing wildfires in high-risk areas.\",\n    \"PSPS events have resulted in power outages for millions of individuals for extended periods.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb3c1133bf40c8b1d33b3d86e259a437f6db2c46"
+}

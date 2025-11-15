@@ -1,0 +1,13 @@
+{
+  "press_release": "20250422-assembly-committee-approves-papan-legislation-create-strategic-plan-state.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Geothermal energy is a clean, continuous, and reliable resource that can play a central role in meeting California's climate goals.\",\n    \"Geothermal energy provides clean, continuous power, unlike wind and solar energy which are intermittent.\",\n    \"California has commi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Geothermal energy is a clean, continuous, and reliable resource that can play a central role in meeting California's climate goals.\",\n    \"Geothermal energy provides clean, continuous power, unlike wind and solar energy which are intermittent.\",\n    \"California has committed to achieving 100% carbon-free retail electricity by 2045.\",\n    \"California's current reliance on solar and wind energy has limitations due to intermittency caused by weather and time-of-day constraints.\",\n    \"Geothermal energy is uniquely positioned to support California's long-term energy needs.\",\n    \"California currently sources only 5% of its in-state electricity generation from geothermal energy.\",\n    \"Developing geothermal facilities often takes more than a decade.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1c2e842863062eafd7fdb6690149e39e99f86ca5"
+}

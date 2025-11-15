@@ -1,0 +1,13 @@
+{
+  "press_release": "20240711-historic-climate-bond-would-provide-millions-district-51-conservation-and.txt",
+  "party": "Democratic",
+  "title": "Meaningful Funding Available to District 51 under the Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Bond Act of 2024",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The $10 billion climate resiliency bond approved by the California State Legislature aims to support climate change mitigation efforts.\",\n    \"If approved by voters, the Baldwin Hills Conservancy and the Santa Monica Mountains Conservancy will each receive up to $48 mill",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The $10 billion climate resiliency bond approved by the California State Legislature aims to support climate change mitigation efforts.\",\n    \"If approved by voters, the Baldwin Hills Conservancy and the Santa Monica Mountains Conservancy will each receive up to $48 million to reduce the risks of climate change impacts.\",\n    \"Funding will be utilized to enhance or expand conservation efforts required by mitigation.\",\n    \"The Santa Monica Mountains Conservancy will receive $33.5 million for watershed improvement, wildfire resilience, forest restoration, and workforce development.\",\n    \"Up to $80 million in funding is allocated to meet the goals outlined in the Los Angeles River Master Plan.\",\n    \"The Los Angeles River Master Plan aims to improve the river's climate resiliency, enhance the natural environment, improve flood management, and increase public access to recreational spaces.\",\n    \"The bond measures aim to transition California away from fossil fuel energy and provide clean water to communities.\",\n    \"The bond also includes more than $1.6 billion in competitive grants for projects benefiting District 51 and the Los Angeles area.\",\n    \"Funding aims to protect fish and wildlife resources and habitats and improve water quality for safe drinking water.\",\n    \"The bond measures support urban greening initiatives including creating green streets, parks, and schoolyards to combat rising temperatures and extreme heat.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5a16f4a6d9e10d9ed71dad63f44189c099fd1859"
+}

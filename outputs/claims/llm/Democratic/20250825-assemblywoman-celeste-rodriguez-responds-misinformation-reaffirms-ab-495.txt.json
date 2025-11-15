@@ -1,0 +1,13 @@
+{
+  "press_release": "20250825-assemblywoman-celeste-rodriguez-responds-misinformation-reaffirms-ab-495.txt",
+  "party": "Democratic",
+  "title": "San Francisco Chronicle reporting dispels misinformation as Rodriguez highlights AB 495’s mission to strengthen family preparedness tools",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 495 strengthens the ability of parents to make decisions for their children.\",\n    \"AB 495 empowers parents to prepare for emergency situations.\",\n    \"AB 495 ensures that children are cared for by people they know and love.\",\n    \"Placing children with trusted caregi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 495 strengthens the ability of parents to make decisions for their children.\",\n    \"AB 495 empowers parents to prepare for emergency situations.\",\n    \"AB 495 ensures that children are cared for by people they know and love.\",\n    \"Placing children with trusted caregivers reduces their trauma compared to placing them in foster care.\",\n    \"For more than 30 years, Caregiver Affidavits have been used by relatives to enroll children in school and take them to the doctor.\",\n    \"AB 495 expands the list of people who can be designated as caregivers to include godmothers, second cousins, and close family friends.\",\n    \"AB 495 allows a court to appoint joint guardians for a child if a parent becomes unavailable due to immigration-related actions.\",\n    \"Stability and security are essential for young children's healthy development.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "279b37f684fdb56ff929e09f1ca1fe20cb0e4206"
+}

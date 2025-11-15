@@ -1,0 +1,13 @@
+{
+  "press_release": "20210928-state-officials-hold-virtual-press-conference-efforts-expand-outdoor-dining.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The restaurant and food service industry lost around $120 billion in sales during the first three months of the pandemic.\",\n    \"The National Restaurant Association reported 2.5 million jobs lost in 2020.\",\n    \"Many proprietors say that a rebound for the restaurant indu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The restaurant and food service industry lost around $120 billion in sales during the first three months of the pandemic.\",\n    \"The National Restaurant Association reported 2.5 million jobs lost in 2020.\",\n    \"Many proprietors say that a rebound for the restaurant industry will take 2-3 years.\",\n    \"Outdoor dining has become an essential and enjoyable part of going to restaurants and bars across California.\",\n    \"Expanding outdoor dining is crucial to help small businesses in the hospitality industry recover from economic challenges posed by COVID-19.\",\n    \"AB 61 will help address issues restaurants face as they have created outdoor spaces to serve customers safely.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d34abae4a70b0fa52a8c2cd2958ff41c3a000320"
+}

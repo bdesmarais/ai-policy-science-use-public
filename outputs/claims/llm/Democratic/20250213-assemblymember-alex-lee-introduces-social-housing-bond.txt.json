@@ -1,0 +1,13 @@
+{
+  "press_release": "20250213-assemblymember-alex-lee-introduces-social-housing-bond.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Alex Lee introduced the Social Housing Bond Act to build publicly developed and owned, mixed-income housing for Californians. AB 590 will place a bond measure on the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Social housing is a proven solution to ending housing shortages.\",\n    \"Roughly 80% of Singaporeans live in social housing.\",\n    \"75% of the Viennese population qualify for social housing.\",\n    \"Both Singapore and Vienna have successfully housed their populations en ma",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Social housing is a proven solution to ending housing shortages.\",\n    \"Roughly 80% of Singaporeans live in social housing.\",\n    \"75% of the Viennese population qualify for social housing.\",\n    \"Both Singapore and Vienna have successfully housed their populations en masse via publicly developed, mixed-income homes.\",\n    \"Social housing fosters economic opportunities while preserving affordability in the community.\",\n    \"A similar mixed-income model has been successfully used in other developments in California, including CADA in Sacramento.\",\n    \"States like Hawaii and localities such as Montgomery County, Maryland have developed their own social housing policies.\",\n    \"Federal lawmakers have proposed legislation with the potential to build over 1.25 million social housing units.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb5f5b9def84316932eb000e552b2a2f04f190c9"
+}

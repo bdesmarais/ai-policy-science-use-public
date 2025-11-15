@@ -1,0 +1,13 @@
+{
+  "press_release": "proof-californians-taxes-are-too-high-budget-surplus-exceeds-75-billion.txt",
+  "party": "Republican",
+  "title": "San Juan Capistrano (May 13, 2021).",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "900a8a0ce5e2532121cfbba5039e52cc83886f9c"
+}

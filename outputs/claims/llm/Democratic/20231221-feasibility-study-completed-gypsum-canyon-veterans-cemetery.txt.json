@@ -1,0 +1,13 @@
+{
+  "press_release": "20231221-feasibility-study-completed-gypsum-canyon-veterans-cemetery.txt",
+  "party": "Democratic",
+  "title": "ANAHEIM, CA – Following more than a decade of community organizing, legislative action, and passionate hard work from a broad coalition of veterans, elected officials, government a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bfa8a13633a3759a396b783c3e94a0c77ecddab3"
+}

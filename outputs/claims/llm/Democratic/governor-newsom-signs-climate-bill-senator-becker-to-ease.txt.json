@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-newsom-signs-climate-bill-senator-becker-to-ease.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Governor Gavin Newsom signed legislation by Senator Josh Becker on Friday to make it easier and less costly for property owners who want to power their homes with electr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 68 aims to reduce costs and barriers for property owners seeking to electrify their homes.\",\n    \"California's goal is to reach 1 million all-electric buildings.\",\n    \"State policy should encourage building owners to replace fossil-fuel-powered equipment and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 68 aims to reduce costs and barriers for property owners seeking to electrify their homes.\",\n    \"California's goal is to reach 1 million all-electric buildings.\",\n    \"State policy should encourage building owners to replace fossil-fuel-powered equipment and vehicles.\",\n    \"High costs and delays in permits hinder the installation of electric heating, vehicle charging, solar, or energy storage.\",\n    \"Reducing barriers to electrification is crucial for achieving California's climate and air quality goals.\",\n    \"Senate Bill 68 supports technology development through the California Energy Commission's EPIC program.\",\n    \"The legislation directs the California Energy Commission to research and publish best practices for efficient electrification.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bb88f56cb4653af52e2ceaa72f7239e1b58a9265"
+}

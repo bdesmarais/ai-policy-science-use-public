@@ -1,0 +1,13 @@
+{
+  "press_release": "20250423-assemblymember-jacqui-irwin-advances-legislation-strengthen-cybersecurity.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 810 requires special districts, joint powers authorities, and local agencies in California to switch their websites and employee email addresses to the secure .gov or .ca.gov domains.\",\n    \"This legislation is intended to enhance cybersecurity protections ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 810 requires special districts, joint powers authorities, and local agencies in California to switch their websites and employee email addresses to the secure .gov or .ca.gov domains.\",\n    \"This legislation is intended to enhance cybersecurity protections for Californians against online fraud and misinformation.\",\n    \"In 2023, government impersonation fraud caused nearly 15,000 financial victims nationwide, resulting in over $390 million in losses.\",\n    \"The rate of government impersonation fraud increased by 63% from 2022 to 2023.\",\n    \"AB 810 extends the requirement for adopting .gov or .ca.gov domains to include special districts and joint powers authorities, which often currently use commercial domains.\",\n    \"Commercial domains like .com, .org, or .net are cheaper and easier to obtain, making them more susceptible to malicious impersonation by cybercriminals.\",\n    \"AB 810 supports California’s Cybersecurity Plan and aligns with security standards enforced by the U.S. Cybersecurity and Infrastructure Security Agency and California Department of Technology.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6ce2fc1c18528e6a2b82054120d1ace81228ecd3"
+}

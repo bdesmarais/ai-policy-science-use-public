@@ -1,0 +1,13 @@
+{
+  "press_release": "becker-legislation-to-close-the-shohei-ohtani-tax-loophole-passes.txt",
+  "party": "Democratic",
+  "title": "SJR 14 calls on Congress to close the tax loophole that allowed LA Dodgers player Shohei Ohtani to avoid paying approximately $90 million in state taxes.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Shohei Ohtani's contract allows him to defer $68 million annually, potentially enabling him to avoid paying over $90 million in state taxes.\",\n    \"The process of deferred compensation for high-income earners is allowed under current federal law and conforming state law.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Shohei Ohtani's contract allows him to defer $68 million annually, potentially enabling him to avoid paying over $90 million in state taxes.\",\n    \"The process of deferred compensation for high-income earners is allowed under current federal law and conforming state law.\",\n    \"The absence of a cap on deferred compensation for high-income earners has contributed to an unbalanced tax structure and increased income inequality.\",\n    \"Potential limits on deferred compensation for high-income earners could establish a more equitable tax system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e5d67cb9f9c024ecf4e41971a7701adbd4ed6227"
+}

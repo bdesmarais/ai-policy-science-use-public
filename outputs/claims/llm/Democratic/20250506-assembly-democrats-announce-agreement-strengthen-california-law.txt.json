@@ -1,0 +1,13 @@
+{
+  "press_release": "20250506-assembly-democrats-announce-agreement-strengthen-california-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO— Today, Assembly Democrats announced an agreement to amend Assembly Bill 379, strengthening California law on solicitation of minors and increasing support for victims a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:34:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 379 will impose felony penalties for adults that solicit sex from a 16- or 17-year-old.\",\n    \"Prosecutors will have new tools to bring felony charges against adult offenders at least three years older than the minor.\",\n    \"When the adult offender is within three yea",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 379 will impose felony penalties for adults that solicit sex from a 16- or 17-year-old.\",\n    \"Prosecutors will have new tools to bring felony charges against adult offenders at least three years older than the minor.\",\n    \"When the adult offender is within three years of age of the minor, solicitation remains illegal and is classified as a misdemeanor.\",\n    \"AB 379 will create a state grant program to assist district attorneys in streamlining prosecution of human trafficking crimes.\",\n    \"AB 379 creates a Survivor Support Fund to bolster direct services for victims and survivors of sex trafficking and exploitation.\",\n    \"New language in AB 379 will increase fines for businesses that abet human trafficking, with revenue directed to the Survivor Support Fund.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0703989d62cb8becf3cde97b90c8458f0e6cc7f6"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "legislative-democrats-pass-bloated-budget.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO (June 13, 2025) – Assemblymember Diane Dixon (R-Newport Beach) provided a statement on the Legislature’s Budget deal:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1be2bbb9a8eb311c906c7827c0d1764cdec5947c"
+}

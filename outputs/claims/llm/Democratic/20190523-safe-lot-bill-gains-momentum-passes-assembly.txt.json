@@ -1,0 +1,13 @@
+{
+  "press_release": "20190523-safe-lot-bill-gains-momentum-passes-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:08:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Student homelessness has reached a crisis point across California.\",\n    \"A report released by the California Community Colleges Chancellor’s Office and The Hope Center for College, Community, and Justice found that 19% of surveyed students experienced homelessness in th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Student homelessness has reached a crisis point across California.\",\n    \"A report released by the California Community Colleges Chancellor’s Office and The Hope Center for College, Community, and Justice found that 19% of surveyed students experienced homelessness in the previous year.\",\n    \"Extrapolated to California’s community college population of 2.1 million students, nearly 400,000 students have experienced homelessness in the last year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "30925ed2433de399ffb1b6749d2a4e62452a3446"
+}

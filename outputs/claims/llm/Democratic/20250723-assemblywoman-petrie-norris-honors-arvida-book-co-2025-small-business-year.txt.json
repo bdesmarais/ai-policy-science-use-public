@@ -1,0 +1,13 @@
+{
+  "press_release": "20250723-assemblywoman-petrie-norris-honors-arvida-book-co-2025-small-business-year.txt",
+  "party": "Democratic",
+  "title": "Tustin, CA – Assemblywoman Cottie Petrie-Norris honored Arvida Book Co., a woman-owned, independent bookstore in Old Town Tustin, as the 2025 Small Business of the Year for Califor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bfcd7649989e7a62fb3c90d15b54c28dfe4b63a4"
+}

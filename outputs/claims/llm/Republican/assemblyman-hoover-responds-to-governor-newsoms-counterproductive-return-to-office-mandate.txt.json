@@ -1,0 +1,94 @@
+{
+  "press_release": "assemblyman-hoover-responds-to-governor-newsoms-counterproductive-return-to-office-mandate.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assemblyman Josh Hoover (R-Folsom) released the following statement in response to",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Governor Newsom’s decision to force state employees back to the office is harmful and counterproductive.\"\n    },\n    {\n      \"claim_text\": \"The return to office mandate undermines the state’s efforts to meet its climate goals.\"\n    },\n    {\n      \"c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Governor Newsom’s decision to force state employees back to the office is harmful and counterproductive.\"\n    },\n    {\n      \"claim_text\": \"The return to office mandate undermines the state’s efforts to meet its climate goals.\"\n    },\n    {\n      \"claim_text\": \"The return to office mandate negatively impacts the state’s budget deficit.\"\n    },\n    {\n      \"claim_text\": \"State agencies have praised telework policies and the enhanced productivity they provide.\"\n    },\n    {\n      \"claim_text\": \"Telework can reduce the state’s office footprint and provide substantial budgetary savings.\"\n    },\n    {\n      \"claim_text\": \"Telework policies have eliminated nearly 400,000 metric tons of carbon emissions.\"\n    },\n    {\n      \"claim_text\": \"Telework policies have reduced traffic congestion.\"\n    },\n    {\n      \"claim_text\": \"Telework has saved workers hundreds of dollars per month in vehicle expenses.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Governor Newsom’s decision to force state employees back to the office is harmful and counterproductive.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The return to office mandate undermines the state’s efforts to meet its climate goals.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The return to office mandate negatively impacts the state’s budget deficit.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "State agencies have praised telework policies and the enhanced productivity they provide.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Telework can reduce the state’s office footprint and provide substantial budgetary savings.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Telework policies have eliminated nearly 400,000 metric tons of carbon emissions.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Telework policies have reduced traffic congestion.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Telework has saved workers hundreds of dollars per month in vehicle expenses.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 8,
+  "doc_sha1": "ac92c137895765cfacb544122ad4e90418226425"
+}

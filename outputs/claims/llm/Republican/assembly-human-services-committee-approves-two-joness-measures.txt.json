@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-human-services-committee-approves-two-joness-measures.txt",
+  "party": "Republican",
+  "title": "Two measures, authored by Senator Brian W. Jones (R-Santee), were both unanimously approved today by the Assembly Human Services Committee.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:38:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Social workers declared as 'essential workers' during a state of emergency must be prioritized to receive personal protective equipment (PPE).\",\n    \"Most social workers were not given priority to receive PPE during the ongoing Covid-19 pandemic.\",\n    \"In-person visits ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Social workers declared as 'essential workers' during a state of emergency must be prioritized to receive personal protective equipment (PPE).\",\n    \"Most social workers were not given priority to receive PPE during the ongoing Covid-19 pandemic.\",\n    \"In-person visits and meetings with clients are a vital part of a social worker’s job.\",\n    \"Foster parents are required to receive training on how to care for children at risk of experiencing commercial sexual exploitation.\",\n    \"SB 584 adds 'child labor trafficking' to the subjects foster families must be trained about.\",\n    \"Foster youth are particularly vulnerable to being targeted by criminals for child labor trafficking.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "05364505893703601463f0b9bbf43374906a4978"
+}

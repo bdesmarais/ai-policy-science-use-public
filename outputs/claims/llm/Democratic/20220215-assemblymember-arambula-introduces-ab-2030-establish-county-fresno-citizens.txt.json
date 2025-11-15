@@ -1,0 +1,13 @@
+{
+  "press_release": "20220215-assemblymember-arambula-introduces-ab-2030-establish-county-fresno-citizens.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"An independent commission is needed in Fresno County to better reflect the changing population.\",\n    \"The current redistricting process in Fresno County has faced criticism for not adequately representing the Latino community.\",\n    \"The Latino community is now the majo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"An independent commission is needed in Fresno County to better reflect the changing population.\",\n    \"The current redistricting process in Fresno County has faced criticism for not adequately representing the Latino community.\",\n    \"The Latino community is now the majority in Fresno County.\",\n    \"The Fresno County Board of Supervisors adopted a map that changed very little from the one adopted in 1991.\",\n    \"The State of California established an independent California Citizens Redistricting Commission in 2008.\",\n    \"At least six counties in California have independent redistricting commissions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "16aaca5c541da01e57cac45ec1b0892bdbe82691"
+}

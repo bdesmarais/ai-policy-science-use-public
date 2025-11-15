@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-introduces-legislation-update-vintage-motorcycle-registration-program.txt",
+  "party": "Republican",
+  "title": "Sacramento – State Senator Brian Jones (R-Santee) today introduced Senate Bill 1036, a measure to update state law concerning vintage motorcycles.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Current state law allows cars over 25 years old to be designated vintage.\",\n    \"A motorcycle can only be designated vintage if it was built before 1942 according to current state law.\",\n    \"SB 1036 will amend state law so that motorcycles over 25 years old could also b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Current state law allows cars over 25 years old to be designated vintage.\",\n    \"A motorcycle can only be designated vintage if it was built before 1942 according to current state law.\",\n    \"SB 1036 will amend state law so that motorcycles over 25 years old could also be designated as vintage.\",\n    \"There are many motorcycles built after 1941 that are considered classics and should be able to carry the vintage designation.\",\n    \"California ranks worst of all 50 states in how it designates motorcycles as vintage or historic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70777a6e59cc1b4f8e39fc3197a5cdf80321430f"
+}

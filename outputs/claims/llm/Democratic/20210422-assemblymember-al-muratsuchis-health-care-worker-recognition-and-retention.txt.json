@@ -1,0 +1,13 @@
+{
+  "press_release": "20210422-assemblymember-al-muratsuchis-health-care-worker-recognition-and-retention.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is facing a future shortage of health care workers needed to care for its population.\",\n    \"The COVID-19 crisis could dramatically worsen the shortage of health care workers in California.\",\n    \"Since the start of the pandemic, 14% of health care workers hav",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is facing a future shortage of health care workers needed to care for its population.\",\n    \"The COVID-19 crisis could dramatically worsen the shortage of health care workers in California.\",\n    \"Since the start of the pandemic, 14% of health care workers have considered leaving the profession.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2b34d64de40506f6825b5d18b47054626ee08b67"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-condemns-approval-of-newsoms-gas-car-ban.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The technology for electric vehicles is not sufficiently advanced.\",\n    \"The charging infrastructure for electric vehicles is inadequate.\",\n    \"The gas-powered car ban is impractical in rural areas.\",\n    \"There are higher up-front costs associated with electric vehicl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The technology for electric vehicles is not sufficiently advanced.\",\n    \"The charging infrastructure for electric vehicles is inadequate.\",\n    \"The gas-powered car ban is impractical in rural areas.\",\n    \"There are higher up-front costs associated with electric vehicles.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a0a4ea3be6c6827ad2c63c8fda75394ccb09a652"
+}

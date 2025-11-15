@@ -1,0 +1,13 @@
+{
+  "press_release": "20190321-legislation-introduced-requiring-school-districts-prohibit-or-restrict.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:06:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Excessive smartphone use at school interferes with education.\",\n    \"Excessive smartphone use encourages cyberbullying.\",\n    \"Excessive smartphone use may have adverse effects on teenage mental health, including increased rates of depression and suicide.\",\n    \"Unrestri",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Excessive smartphone use at school interferes with education.\",\n    \"Excessive smartphone use encourages cyberbullying.\",\n    \"Excessive smartphone use may have adverse effects on teenage mental health, including increased rates of depression and suicide.\",\n    \"Unrestricted use of smartphones by students at schools lowers pupil performance, particularly among low-achieving students.\",\n    \"Unrestricted smartphone use promotes cyberbullying.\",\n    \"Unrestricted smartphone use contributes to teenage anxiety, depression, and suicide.\",\n    \"Between 2009 and 2017, the number of 14 to 17 year-olds experiencing clinical level depression in the last year increased by more than 60%.\",\n    \"There was a 47% increase in clinical level depression among 12 to 13 year-olds from 2009 to 2017.\",\n    \"Teens who spend 5 or more hours a day on social media are twice as likely to be depressed as those not using social media.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0172e688c5ea7003f39cc2df7bf72436e526b98b"
+}

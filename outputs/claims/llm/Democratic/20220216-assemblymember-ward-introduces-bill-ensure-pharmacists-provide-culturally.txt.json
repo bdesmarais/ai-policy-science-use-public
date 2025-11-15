@@ -1,0 +1,13 @@
+{
+  "press_release": "20220216-assemblymember-ward-introduces-bill-ensure-pharmacists-provide-culturally.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO,CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Members of the LGBTQ+ community often face barriers when receiving healthcare, including fear, stigma, and discrimination.\",\n    \"Consistent training is needed to help pharmacists cater to the unique needs of individuals who identify as LGBTQ+.\",\n    \"AB 2194 aims to ens",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Members of the LGBTQ+ community often face barriers when receiving healthcare, including fear, stigma, and discrimination.\",\n    \"Consistent training is needed to help pharmacists cater to the unique needs of individuals who identify as LGBTQ+.\",\n    \"AB 2194 aims to ensure pharmacists receive at least one hour of training during the licensing process to better serve LGBTQ+ patients.\",\n    \"Negative healthcare experiences discourage LGBTQ+ individuals from seeking adequate or life-saving measures.\",\n    \"AB 2194 will ensure pharmacists provide culturally competent care to LGBTQ+ individuals.\",\n    \"California has the highest population of individuals who identify as LGBTQ+ in the United States.\",\n    \"An estimated 2.6 million people identify as LGBTQ+ in California.\",\n    \"AB 2194 will help pharmacists develop trusting relationships with LGBTQ+ individuals through appropriate and empathetic communication.\",\n    \"Empathetic communication can make patients more likely to pursue positive health outcomes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8e2337a108e2b5b10fc10ea7c871e4cffba649b5"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "california-armenian-legislative-caucus-honored-have-two-new-members-join-caucus.txt",
+  "party": "Democratic",
+  "title": "The California Armenian Legislative Caucus is honored to have two new members join the caucus.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c1c21722469dd25055c8992f04321fc6b91976e7"
+}

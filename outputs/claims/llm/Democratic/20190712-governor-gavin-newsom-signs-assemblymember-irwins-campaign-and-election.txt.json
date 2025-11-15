@@ -1,0 +1,13 @@
+{
+  "press_release": "20190712-governor-gavin-newsom-signs-assemblymember-irwins-campaign-and-election.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:09:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1043 permits political campaign expenditures on cybersecurity technology and services.\",\n    \"AB 1044 authorizes the Secretary of State’s office to require applicants for voter registration data to complete a specified course on data security.\",\n    \"Cyberattacks typi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1043 permits political campaign expenditures on cybersecurity technology and services.\",\n    \"AB 1044 authorizes the Secretary of State’s office to require applicants for voter registration data to complete a specified course on data security.\",\n    \"Cyberattacks typically occur without warning, and compromised parties may not know a breach occurred until information is leaked or sold.\",\n    \"Political campaigns and organizations are increasingly targets of cyber threats.\",\n    \"The Federal Elections Commission clarified that Federal office holders may use campaign funds to bolster cybersecurity protection for personal devices and accounts.\",\n    \"AB 1043 clarifies state law to allow state candidates and office holders to make campaign expenditures on cybersecurity.\",\n    \"AB 1044 allows the Secretary of State’s office to mandate cybersecurity training for those applying for voter data.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "61bb76e89e05e84ca0d356c90681fc4937d45a86"
+}

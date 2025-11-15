@@ -1,0 +1,13 @@
+{
+  "press_release": "20190722-assemblywoman-quirk-silva-presses-housing-opportunities-north-orange-county.txt",
+  "party": "Democratic",
+  "title": "Assemblywoman Quirk-Silva presses for housing opportunities in North Orange County with Fullerton Armory Re-Opening",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Fullerton and Santa Ana Armories will re-open for the Winter Shelter Program in agreement with the Army National Guard.\",\n    \"The emergency homeless shelters will open earlier, beginning October 15, 2019 and remain open through April 15, 2020.\",\n    \"The Armories wi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Fullerton and Santa Ana Armories will re-open for the Winter Shelter Program in agreement with the Army National Guard.\",\n    \"The emergency homeless shelters will open earlier, beginning October 15, 2019 and remain open through April 15, 2020.\",\n    \"The Armories will provide shelter to homeless individuals during the winter season.\",\n    \"Assemblywoman Quirk-Silva's priority remains the issue of housing and homelessness.\",\n    \"Assemblywoman Quirk-Silva sits as the Chair of the Orange County Chronic Homelessness Sub-Committee.\",\n    \"The City of Buena Park recently broke ground on a new Navigation Center to assist transitioning homeless individuals.\",\n    \"Assembly Bill 816 provides funds to cities, counties, and continuums of care to address the varied needs for California's most vulnerable residents.\",\n    \"AB 816 is pending the Governor's signature and will receive $650,000,000 to support regional coordination to expand or develop local capacity to address homelessness.\",\n    \"Assembly Bill 1295 will assist up to 200 individuals with severe mental illness by establishing a temporary mental health program at the Fairview Developmental Center.\",\n    \"Assembly Bill 139 updates California Housing Element law to assess homeless shelters based on the most recent homeless point-in-time count.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "08994f4d8c4a790c45dac4cecf66a41b94278ca3"
+}

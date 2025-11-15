@@ -1,0 +1,13 @@
+{
+  "press_release": "20201013-california-tourism-leaders-convene-state-capitol-detail-huge-losses-visitor.txt",
+  "party": "Democratic",
+  "title": "California Tourism Leaders Convene at State Capitol; Detail Huge Losses in Visitor Spending, Jobs, and Taxes",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:20:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The state is set to lose more than $78 billion in travel-related spending this year.\",\n    \"California is not expected to return to pre-coronavirus visitor spending levels until 2024.\",\n    \"California's tourism industry has been hit harder than other states, particularl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The state is set to lose more than $78 billion in travel-related spending this year.\",\n    \"California is not expected to return to pre-coronavirus visitor spending levels until 2024.\",\n    \"California's tourism industry has been hit harder than other states, particularly in gateway urban centers.\",\n    \"In 2019, visitors spent $144.9 billion in California, supporting 1.2 million jobs and generating $12.2 billion in tax revenue.\",\n    \"In 2020, visitor spending in California is projected to drop to $66.1 billion, resulting in a loss of 594,000 jobs and $6.4 billion in tax revenue.\",\n    \"Hotel taxes in California are projected to fall from $3 billion to $1.4 billion due to decreased visitor spending.\",\n    \"The business meeting sector in California is collapsing due to restrictions on larger indoor gatherings.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "32d1ea22536385f4cb5cffae40f0ac11758359a2"
+}

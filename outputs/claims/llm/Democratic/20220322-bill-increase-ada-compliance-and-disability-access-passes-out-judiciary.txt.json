@@ -1,0 +1,13 @@
+{
+  "press_release": "20220322-bill-increase-ada-compliance-and-disability-access-passes-out-judiciary.txt",
+  "party": "Democratic",
+  "title": "Today,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:40:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2164 helps ensure that small businesses have access to funds for making accessibility-related improvements.\",\n    \"The Americans with Disabilities Act (ADA) was passed in 1990 to protect individuals from discrimination based on disability.\",\n    \"California state law,",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2164 helps ensure that small businesses have access to funds for making accessibility-related improvements.\",\n    \"The Americans with Disabilities Act (ADA) was passed in 1990 to protect individuals from discrimination based on disability.\",\n    \"California state law, through the Unruh Civil Rights Act, provides protections for individuals with disabilities.\",\n    \"The California Building Code establishes comprehensive building accessibility standards.\",\n    \"Many businesses have struggled to understand the complex requirements for compliance with the ADA.\",\n    \"Compliance with accessibility requirements can be particularly challenging for small business owners with limited English proficiency or financial resources.\",\n    \"San José has the largest number of ADA claims in California.\",\n    \"AB 2164 aims to simplify compliance with ADA requirements for small businesses.\",\n    \"The legislation provides funding to improve accessibility in local jurisdictions.\",\n    \"AB 2164 clarifies the ability for local jurisdictions to use funds for accessibility-related grants for small businesses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c03f4a45dcfc4c2ed28c4e8533fabb8fb2a76fff"
+}

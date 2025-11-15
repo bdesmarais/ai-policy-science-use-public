@@ -1,0 +1,13 @@
+{
+  "press_release": "20250624-fire-season-underway-california-legislature-calls-congress-and-president.txt",
+  "party": "Democratic",
+  "title": "What You Need to Know:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has identified up to $870 million in BRIC-funded projects that will lose federal funding for hazard mitigation.\",\n    \"Without federal funding for hazard mitigation, communities across California face greater vulnerability to preventable disasters.\",\n    \"Cali",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has identified up to $870 million in BRIC-funded projects that will lose federal funding for hazard mitigation.\",\n    \"Without federal funding for hazard mitigation, communities across California face greater vulnerability to preventable disasters.\",\n    \"California is one of the most disaster-prone states in the nation, facing wildfires, earthquakes, floods, and severe drought.\",\n    \"California depends on proactive federal investments to protect lives and infrastructure.\",\n    \"The loss of BRIC funding threatens more than $870 million in wildfire prevention and hazard mitigation efforts statewide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "83f59e3467b57bb9e6eb2e7f419bdf13afd87804"
+}

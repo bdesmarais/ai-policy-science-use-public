@@ -1,0 +1,13 @@
+{
+  "press_release": "california-senate-republicans-eager-work-governor-newsom-bipartisan-solutions-ceqa-overhaul.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones (R-San Diego) and Senate Minority Caucus Chair Janet Nguyen (R-Huntington Beach) have released the following statements in response to Governo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California Senate Republicans have been advocating for CEQA reform for years.\",\n    \"Governor Newsom is taking action to reform the California Environmental Quality Act (CEQA).\",\n    \"The Senate Minority Republicans support Governor Newsom's commitment to help build more",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California Senate Republicans have been advocating for CEQA reform for years.\",\n    \"Governor Newsom is taking action to reform the California Environmental Quality Act (CEQA).\",\n    \"The Senate Minority Republicans support Governor Newsom's commitment to help build more housing and infrastructure projects.\",\n    \"California Senate Republicans have led the charge on CEQA reforms for years.\",\n    \"California Senate Republicans aim to build more housing, water storage, and sensible infrastructure projects in a reasonable timeframe.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3f274ea774745e9b6e3ca849e36f7854d5e7facd"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250319-assemblymember-lisa-calderon-introduces-measure-improve-transparency.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) — As California continues to grapple with statewide insurance challenges, Assemblymember Lisa Calderon (D-Whittier) introduced Assembly Bill (AB) 234 to give Calif",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:30:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California FAIR Plan is the state's insurer of last resort.\",\n    \"The FAIR Plan has become the only coverage option for many Californians due to ongoing insurance availability challenges.\",\n    \"The FAIR Plan Governing Board currently consists of insurers and nonvot",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California FAIR Plan is the state's insurer of last resort.\",\n    \"The FAIR Plan has become the only coverage option for many Californians due to ongoing insurance availability challenges.\",\n    \"The FAIR Plan Governing Board currently consists of insurers and nonvoting members but lacks representatives from the state Legislature.\",\n    \"Recent LA County wildfires have highlighted the need for greater transparency of the California FAIR Plan.\",\n    \"AB 234 aims to ensure the FAIR Plan better represents consumers' interests by expanding its Governing Board.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c0cf92be07245cec0c40fd0d3fccfef500cd0c95"
+}

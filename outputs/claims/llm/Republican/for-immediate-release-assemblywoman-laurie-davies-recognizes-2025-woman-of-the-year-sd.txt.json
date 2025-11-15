@@ -1,0 +1,13 @@
+{
+  "press_release": "for-immediate-release-assemblywoman-laurie-davies-recognizes-2025-woman-of-the-year-sd.txt",
+  "party": "Republican",
+  "title": "Nominees in the 74th Assembly District",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "af70f4dd4b68a0d2301185c63c8f32415bc07993"
+}

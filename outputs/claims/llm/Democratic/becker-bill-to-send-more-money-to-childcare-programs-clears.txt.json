@@ -1,0 +1,13 @@
+{
+  "press_release": "becker-bill-to-send-more-money-to-childcare-programs-clears.txt",
+  "party": "Democratic",
+  "title": "SB 608 Updates “Kids’ Plates” Programs To",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 608 aims to increase funding for childhood health and safety programs in California.\",\n    \"Since its inception in 1992, the Kids' Plates program has raised over $60 million for child safety programs.\",\n    \"Funding for the Kids' Plates program has lagged due to fees ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 608 aims to increase funding for childhood health and safety programs in California.\",\n    \"Since its inception in 1992, the Kids' Plates program has raised over $60 million for child safety programs.\",\n    \"Funding for the Kids' Plates program has lagged due to fees not keeping pace with inflation.\",\n    \"In the last two years, only 15 counties in California have successfully accessed Kids' Plates funds.\",\n    \"In 2018, California had enough childcare providers to meet only 23% of its childcare needs.\",\n    \"SB 608 will reallocate funds from the sale of specialty license plates to support local childcare and development planning councils.\",\n    \"The bill aims to help all 58 counties in California pay for their unintentional childhood injury programs.\",\n    \"SB 608 is purported to contain the best practices from children and family health and safety experts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eca1dc3b647f1be906cbae4cc316d969f499c851"
+}

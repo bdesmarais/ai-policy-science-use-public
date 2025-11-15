@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-education-equalization-bill-giving-ca-school-districts-equal-state-funding.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The California Senate today passed Senator Dave Cortese’s SB 743 that would reverse the effects of an antiquated 1978 school district funding formula that has created ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The 1978 school district funding formula has created disparities in funding among California school districts.\",\n    \"Senator Dave Cortese's SB 743 aims to equalize per pupil spending in school districts throughout California.\",\n    \"The bill proposes the establishment o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The 1978 school district funding formula has created disparities in funding among California school districts.\",\n    \"Senator Dave Cortese's SB 743 aims to equalize per pupil spending in school districts throughout California.\",\n    \"The bill proposes the establishment of an education endowment funded by general fund money.\",\n    \"Increased funding formulas are correlated with improved educational outcomes for students.\",\n    \"The Education Equalization Endowment Act seeks to provide every student with equitable resources regardless of their geographic location.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a478df4459ff6dbbd9fcec74868cc8264f1303db"
+}

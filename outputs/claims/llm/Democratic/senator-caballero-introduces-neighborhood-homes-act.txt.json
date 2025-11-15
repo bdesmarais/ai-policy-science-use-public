@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-caballero-introduces-neighborhood-homes-act.txt",
+  "party": "Democratic",
+  "title": "Thursday, May 21, 2020",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Large shopping malls, strip malls, and 'big box' retail stores are facing a new reality as consumers’ needs are being met online.\",\n    \"Many shopping centers have struggled to remain viable as large anchor stores have gone out of business.\",\n    \"California's housing cr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Large shopping malls, strip malls, and 'big box' retail stores are facing a new reality as consumers’ needs are being met online.\",\n    \"Many shopping centers have struggled to remain viable as large anchor stores have gone out of business.\",\n    \"California's housing crisis continues to worsen, with over 50% of renters and nearly 40% of homeowners paying more than 30% of their income in rent.\",\n    \"California's housing shortage continues to grow as the number of residential building permits issued for 2018 and 2019 were far below the recommended annual average of new homes needed.\",\n    \"SB 1385 provides local government with the authority to approve residential development infill projects on existing commercially zoned retail and office space.\",\n    \"Building new housing on already developed commercial properties can provide communities with an opportunity to revisit how to achieve their housing goals.\",\n    \"Allowing for an easier pathway for residential development on struggling and vacant commercially zoned retail and office space can help meet housing needs.\",\n    \"California Forward agrees there is a need for innovative solutions to address California's housing shortage.\",\n    \"SB 1385 is proposed to incentivize residential development and can ignite necessary economic activity in communities in need of revitalization.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b3eb49ec6795a38d8338c2ce2ec0d443a178dc49"
+}

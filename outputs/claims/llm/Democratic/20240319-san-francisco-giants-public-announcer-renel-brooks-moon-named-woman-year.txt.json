@@ -1,0 +1,13 @@
+{
+  "press_release": "20240319-san-francisco-giants-public-announcer-renel-brooks-moon-named-woman-year.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Renel Brooks-Moon is the first African-American woman to serve as a public address announcer in Major League Baseball (MLB) history.\",\n    \"Brooks-Moon was the first woman to perform the role of public address announcer for a World Series.\",\n    \"She was the first woman ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Renel Brooks-Moon is the first African-American woman to serve as a public address announcer in Major League Baseball (MLB) history.\",\n    \"Brooks-Moon was the first woman to perform the role of public address announcer for a World Series.\",\n    \"She was the first woman to serve as a public address announcer for a championship game in any professional sport.\",\n    \"Brooks-Moon has spent 24 years as the public address announcer for the San Francisco Giants.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eb1f8cee85148e7b39a3af3703ad38c18d32bfb8"
+}

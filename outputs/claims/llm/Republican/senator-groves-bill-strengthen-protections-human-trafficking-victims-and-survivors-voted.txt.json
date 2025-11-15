@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-bill-strengthen-protections-human-trafficking-victims-and-survivors-voted.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) announced her bill SB 1042, which would include human trafficking in the lists of crimes that are defined as serious and violent under Califor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There are an estimated 40 million people globally in the last decade that have been forced into modern day slavery called human trafficking.\",\n    \"Human trafficking is one of the world’s fastest growing and most lucrative crimes, generating around $150 billion each year",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There are an estimated 40 million people globally in the last decade that have been forced into modern day slavery called human trafficking.\",\n    \"Human trafficking is one of the world’s fastest growing and most lucrative crimes, generating around $150 billion each year.\",\n    \"Human trafficking victims often suffer from long-term physical and psychological trauma.\",\n    \"California consistently ranks number one in the nation for the number of human trafficking cases reported to the National Human Trafficking Hotline.\",\n    \"Current classification of human trafficking as a 'non-serious' and 'non-violent' crime enables traffickers to escape additional penalties for repeat offenses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bff27be2f35355ef9044d6427943a467b2bbe816"
+}

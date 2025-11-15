@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-alvarado-gil-celebrates-california-agriculture-day-announces-bill-extending-farm-food.txt",
+  "party": "Republican",
+  "title": "In recognition of California Agriculture Day, today Senator Marie Alvarado-Gil ( R-Jackson ) introduced Senate Bill 353 (SB 353) to extend the Farm to Food Bank Tax Credit, which s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 353 aims to extend the Farm to Food Bank Tax Credit indefinitely.\",\n    \"The current version of the Farm to Food Bank Tax Credit provides a 15% tax incentive for qualified food donations.\",\n    \"In 2023, California farmers donated $8.2 million in food.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 353 aims to extend the Farm to Food Bank Tax Credit indefinitely.\",\n    \"The current version of the Farm to Food Bank Tax Credit provides a 15% tax incentive for qualified food donations.\",\n    \"In 2023, California farmers donated $8.2 million in food.\",\n    \"$769,499 in tax credits were awarded to California farmers for food donations in 2023.\",\n    \"California's agriculture industry contributes $50 billion annually to the state's economy.\",\n    \"$10 billion of California's agricultural contribution comes from Senate District 4.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e88219f57759e931c4a899ff59306cb8d80f8787"
+}

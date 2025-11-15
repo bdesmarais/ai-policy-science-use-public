@@ -1,0 +1,13 @@
+{
+  "press_release": "20190626-assemblymember-bauer-kahan-and-louis-and-joanne-giorgi-urge-passage-natalie.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Bauer-Kahan and Louis and Joanne Giorgi Urge Passage of Natalie Giorgi Sunshine Act to Help End Deadly Food Allergy Exposures",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:08:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Approximately 15 million people in the United States have a food allergy, including 6 million children.\",\n    \"Food allergies result in more than 200,000 ambulatory care visits a year involving children under the age\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Approximately 15 million people in the United States have a food allergy, including 6 million children.\",\n    \"Food allergies result in more than 200,000 ambulatory care visits a year involving children under the age\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f44535ec7639f18bcc16acfcb75a0f5b536e6d0f"
+}

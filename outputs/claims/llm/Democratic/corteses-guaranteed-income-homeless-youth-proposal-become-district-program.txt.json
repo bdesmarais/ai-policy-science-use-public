@@ -1,0 +1,13 @@
+{
+  "press_release": "corteses-guaranteed-income-homeless-youth-proposal-become-district-program.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese (D-Silicon Valley) made the following statement when SB 1341 failed to garner enough votes to clear the California Assembly Committee on Higher Education today:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California graduates students into homelessness every year.\",\n    \"The Silicon Valley Pain Index highlights generational poverty and wealth gap issues in the community.\",\n    \"The CalSOAR program aims to provide guaranteed direct cash assistance to homeless youth in grad",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California graduates students into homelessness every year.\",\n    \"The Silicon Valley Pain Index highlights generational poverty and wealth gap issues in the community.\",\n    \"The CalSOAR program aims to provide guaranteed direct cash assistance to homeless youth in grade 12.\",\n    \"The aim of CalSOAR is to combat 'summer melt' to help students exit poverty and access higher education.\",\n    \"Santa Clara County's current guaranteed income pilot for foster youth has shown success.\",\n    \"Providing unhoused high school students with guaranteed income can set them up for future success.\",\n    \"Approximately 15,000 students experiencing homelessness were enrolled in 12th grade in California during the 2020-21 academic year.\",\n    \"The majority of homeless youth in California aspire to attend post-secondary education.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "083c628e3f3220279f76bd9e2e7d2efcf0b78e1d"
+}

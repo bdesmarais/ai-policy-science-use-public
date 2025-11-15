@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-will-host-escondido-town-hall-weekend.txt",
+  "party": "Republican",
+  "title": "Who?",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "102ceff35bf81c3fa2d17026d7e498327eae3ec9"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-strickland-outlines-commonsense-budget-priorities.txt",
+  "party": "Republican",
+  "title": "Senator Tony Strickland ( R-Huntington Beach ) joined with members of the Senate Republican Caucus to deliver a letter to the chair of the Senate Budget and Fiscal Review Committee",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "75350d91a3251889a21e2483b7bd579d78fd8bc3"
+}

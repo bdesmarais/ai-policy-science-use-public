@@ -1,0 +1,13 @@
+{
+  "press_release": "legislative-republican-leaders-announce-opposition-poison-pills-retail-theft-bills.txt",
+  "party": "Republican",
+  "title": "Today, Assembly Republican Leader James Gallagher (R-Yuba City) and Senate Minority Leader Brian Jones (R-San Diego) sent a letter to Assembly Speaker Robert Rivas and Senate pro T",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ce7e8b6bdf28b730cbbba3882b3b4a1a9f7d1ae0"
+}

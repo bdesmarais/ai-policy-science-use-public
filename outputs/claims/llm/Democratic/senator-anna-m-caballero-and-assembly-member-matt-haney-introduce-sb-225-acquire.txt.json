@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-and-assembly-member-matt-haney-introduce-sb-225-acquire.txt",
+  "party": "Democratic",
+  "title": "Thursday, January 19, 2023",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 225 will prevent low-income families from displacement and falling into homelessness.\",\n    \"SB 225 will increase the supply of affordable homes for the next 55 years.\",\n    \"California’s affordable housing crisis continues to worsen.\",\n    \"Unsubsidized affordable ho",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 225 will prevent low-income families from displacement and falling into homelessness.\",\n    \"SB 225 will increase the supply of affordable homes for the next 55 years.\",\n    \"California’s affordable housing crisis continues to worsen.\",\n    \"Unsubsidized affordable housing is rapidly disappearing from the market in California.\",\n    \"Current housing production in California cannot meet demand for affordable housing.\",\n    \"SB 225 creates a new program to assist with the acquisition and rehabilitation of existing unsubsidized housing.\",\n    \"SB 225 aims to convert existing housing to long-term affordable housing.\",\n    \"Low-income families in California are struggling to afford skyrocketing rents.\",\n    \"The state needs resources to bring affordable housing initiatives to scale.\",\n    \"More than half of the affordable rental housing in the US is provided without subsidy in the private market.\",\n    \"In California, nearly 1.1 million affordable housing units are provided without subsidy in the private market.\",\n    \"CAPP allows the state to bring affordable units online more quickly by leveraging existing housing stock.\",\n    \"Decisions about housing investments and community development are often made without local community input.\",\n    \"Empowering local communities with state resources is critical for addressing decades of disinvestment and inequitable housing policies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "03c96a9448844114085947461000226485cf9a0d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220110-assemblymember-arambula-lauds-governor-newsom-including-health-all-his.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California will become the first state in the nation to achieve universal access to health care coverage for income-eligible adults ages 26 to 49, regardless of immigration status.\",\n    \"The expansion of Medi-Cal coverage to undocumented adults ages 26 to 49 is expected",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California will become the first state in the nation to achieve universal access to health care coverage for income-eligible adults ages 26 to 49, regardless of immigration status.\",\n    \"The expansion of Medi-Cal coverage to undocumented adults ages 26 to 49 is expected to be transformative for hundreds of thousands of Californians.\",\n    \"The lack of insurance causes patients to delay care or avoid seeking it until their condition is critical.\",\n    \"The COVID-19 pandemic highlighted the need for equity in the health care system, particularly affecting Latinos and other ethnic minorities.\",\n    \"The budget proposal reflects California's commitment to immigrant communities by striving to close the gap of uninsured individuals.\",\n    \"The proposed budget includes approximately $6 billion to tackle the drought affecting small farmers.\",\n    \"The budget allocates more than $2 billion to address homelessness, including new housing units and clearing encampments.\",\n    \"Significant funding in the proposed budget aims to expand workforce development programs and education initiatives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ae5468168b647ff17f427e6c256049f106ccec77"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210601-boerner-horvaths-bill-restore-fairness-uc-admissions-passes-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"AB 233 aims to reform UC Admissions practices to restore fairness and prevent influence by the wealthy and well-connected.\",\n    \"The State Auditor’s Office released a report detailing the inappropriate admissions of 64 wealthy applicants and a lack of consistent de",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"AB 233 aims to reform UC Admissions practices to restore fairness and prevent influence by the wealthy and well-connected.\",\n    \"The State Auditor’s Office released a report detailing the inappropriate admissions of 64 wealthy applicants and a lack of consistent decision criteria.\",\n    \"AB 233 requests that the UC Office of the President implement new policies on consistent and unbiased decision-making.\",\n    \"AB 233 includes reviewer trainings to ensure that new decision-making criteria are used.\",\n    \"The Office of the President must report annually on the implementation of these procedures and actions to prevent inappropriate interaction between admissions staff and other university departments.\",\n    \"AB 1215 installs a strict firewall between admissions and philanthropy staff.\",\n    \"AB 1215 requires the verification of an applicant’s participation in a sport before and after they arrive on campus.\",\n    \"The State Auditor’s report indicates that internal recommendations did not address significant aspects of the UC admissions process, including inadequate training and lack of monitoring of application reviewers.\",\n    \"The audit finds that the Office of the President lacks a minimum set of protocols and procedures to guard against improper decisions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "41bf07578909904c08015e74123963f1980c9a1b"
+}

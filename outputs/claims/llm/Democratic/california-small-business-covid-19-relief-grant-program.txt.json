@@ -1,0 +1,13 @@
+{
+  "press_release": "california-small-business-covid-19-relief-grant-program.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - Today, Senator Anna Caballero (D-Salinas) announced SB 87, The California Small Business COVID-19 Grant Relief Program.(Caballero, Min) If approved, nearly $2.1 billio",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"If approved, nearly $2.1 billion dollars would be allocated to the Office of the Small Business Advocate to assist in and administer grants for qualified small businesses devastated economically by the COVID-19 pandemic.\",\n    \"Recent data shows that close to one third o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"If approved, nearly $2.1 billion dollars would be allocated to the Office of the Small Business Advocate to assist in and administer grants for qualified small businesses devastated economically by the COVID-19 pandemic.\",\n    \"Recent data shows that close to one third of small businesses will not survive beyond the first few months of this year without additional funds.\",\n    \"Businesses with less than 20 employees make up almost 90% of businesses in California.\",\n    \"Businesses with less than 100 employees represent 97% of all businesses in California.\",\n    \"The California Small Business COVID-19 Relief Grant Program will provide grants of up to $25,000 to qualified small businesses and nonprofit mission services with up to $2.5 million annual gross revenue.\",\n    \"The program also provides grants to eligible nonprofit cultural institutions with no limitation on annual gross revenue.\",\n    \"Senator Caballero understands that grants proposed in this bill are small in comparison to the significant revenue losses small businesses have suffered.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d5469075229efb34860ac0b6f9c27d59370403c"
+}

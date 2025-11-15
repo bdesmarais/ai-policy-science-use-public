@@ -1,0 +1,13 @@
+{
+  "press_release": "20220513-assemblymember-arambula-reacts-governor-newsoms-may-revise-budget-2022-23.txt",
+  "party": "Democratic",
+  "title": "FRESNO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Governor Newsom's proposed revised budget for fiscal year 2022-23 is $300.6 billion.\",\n    \"Expanding full scope Medi-Cal to income-eligible adults 26 to 49, regardless of immigration status, is expected to transform the lives of hundreds of thousands of people.\",\n ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Governor Newsom's proposed revised budget for fiscal year 2022-23 is $300.6 billion.\",\n    \"Expanding full scope Medi-Cal to income-eligible adults 26 to 49, regardless of immigration status, is expected to transform the lives of hundreds of thousands of people.\",\n    \"The COVID-19 pandemic disproportionately affected Latinos and other ethnic minorities, highlighting inequities in the health care system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1afc02d5a09833e9af4c1c6511879f67df47dcf5"
+}

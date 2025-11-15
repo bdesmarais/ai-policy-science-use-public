@@ -366,6 +366,78 @@ def build_figures(viz_dir: Path, fig_dir: Path) -> None:
         pass
 
 
+def build_summary(tables: Dict[str, List[Dict[str, Any]]]) -> Dict[str, Any]:
+    summary: Dict[str, Any] = {}
+
+    cpp = tables.get("claims_per_party", [])
+    total_claims = sum(int(row.get("claims", 0)) for row in cpp)
+    summary["total_claims"] = total_claims
+    summary["claims_per_party"] = cpp
+
+    # Claim length stats
+    lengths = tables.get("claim_lengths", [])
+    stats_by_party: Dict[str, Dict[str, float]] = {}
+    for row in lengths:
+        party = row.get("party")
+        words = row.get("words")
+        if party is None or words is None:
+            continue
+        stats_by_party.setdefault(party, {"words": [], "chars": []})
+        stats_by_party[party]["words"].append(int(words))
+        stats_by_party[party]["chars"].append(int(row.get("chars", 0)))
+    length_summary: Dict[str, Dict[str, float]] = {}
+    for party, vals in stats_by_party.items():
+        words = vals["words"]
+        chars = vals["chars"]
+        if not words:
+            continue
+        length_summary[party] = {
+            "avg_words": round(sum(words) / len(words), 2),
+            "median_words": float(sorted(words)[len(words) // 2]) if words else 0.0,
+            "avg_chars": round(sum(chars) / max(1, len(chars)), 2),
+        }
+    summary["claim_length_stats"] = length_summary
+
+    # Categories
+    categories = tables.get("categories_by_party", [])
+    top_categories: Dict[str, List[Dict[str, Any]]] = {}
+    for row in categories:
+        top_categories.setdefault(row["party"], []).append(row)
+    for party, rows in top_categories.items():
+        top_categories[party] = rows[:10]
+    summary["top_categories_by_party"] = top_categories
+
+    # Policy-like rates
+    policy_like = tables.get("policy_like_rate", [])
+    summary["policy_like_rate"] = policy_like
+
+    # References coverage
+    coverage = tables.get("refs_coverage_by_party", [])
+    summary["reference_coverage"] = coverage
+
+    # Duplicate stats
+    duplicates = tables.get("duplicates", [])
+    summary["duplicate_claim_texts"] = {
+        "total_duplicates": len(duplicates),
+        "top_examples": duplicates[:10],
+    }
+
+    # Top press releases by claims
+    top_pr = tables.get("top_press_releases", [])
+    summary["top_press_releases"] = top_pr
+
+    # Lexical highlights
+    top_terms = tables.get("top_terms_by_party", [])
+    term_by_party: Dict[str, List[Dict[str, Any]]] = {}
+    for row in top_terms:
+        term_by_party.setdefault(row["party"], []).append(row)
+    for party, rows in term_by_party.items():
+        term_by_party[party] = rows[:20]
+    summary["top_terms_by_party"] = term_by_party
+
+    return summary
+
+
 def parse_args(argv: Optional[Iterable[str]] = None) -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="EDA for LLM claims")
     ap.add_argument("--claims-dir", default=str(WORKSPACE / "outputs" / "claims"))
@@ -375,6 +447,7 @@ def parse_args(argv: Optional[Iterable[str]] = None) -> argparse.Namespace:
     ap.add_argument("--figures-dir", default=str(WORKSPACE / "outputs" / "figures" / "claims"))
     ap.add_argument("--top-k-press-releases", type=int, default=25)
     ap.add_argument("--top-terms", type=int, default=40)
+    ap.add_argument("--summary-json", default=str(WORKSPACE / "outputs" / "viz_data" / "claims" / "summary.json"))
     return ap.parse_args(list(argv) if argv is not None else None)
 
 
@@ -397,10 +470,19 @@ def main(argv: Optional[Iterable[str]] = None) -> int:
 
     tables = build_tables(rows, refs_map, top_k_press_releases=max(1, args.top_k_press_releases), top_terms_n=max(1, args.top_terms))
     paths = write_tables(tables, viz_dir)
+
+    summary = build_summary(tables)
+    summary_path = Path(args.summary_json)
+    summary_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(summary_path, "w", encoding="utf-8") as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
+
     build_figures(viz_dir, fig_dir)
 
     # Print summary paths
-    print(json.dumps({k: str(v) for k, v in paths.items()}, indent=2))
+    output_info = {k: str(v) for k, v in paths.items()}
+    output_info["summary_json"] = str(summary_path)
+    print(json.dumps(output_info, indent=2))
     print(f"Figures written to: {fig_dir}")
     return 0
 

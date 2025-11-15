@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-announces-senate-select-committee-hydrogen-energy.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Senator Bob Archuleta (D-Pico Rivera) has announced the creation of a Senate Select Committee on Hydrogen Energy to provide an overview of the State and the progress o",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Hydrogen energy will be an important part of California's clean energy future.\",\n    \"Exciting new technologies in the hydrogen sector will pave the way for zero emissions vehicles and transportation in California.\",\n    \"Investments in hydrogen infrastructure and clean ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Hydrogen energy will be an important part of California's clean energy future.\",\n    \"Exciting new technologies in the hydrogen sector will pave the way for zero emissions vehicles and transportation in California.\",\n    \"Investments in hydrogen infrastructure and clean transportation programs are being advocated for in the state Legislature.\",\n    \"California has an ambitious goal of achieving 100 percent zero emissions vehicles in in-state sales of passenger cars and trucks by 2035.\",\n    \"Meeting the goal of 100 percent zero emissions vehicles will effect real changes on the ground for California's environment and economy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a25b2b1d7dee21ea83207b2366c67298d9ae3cd6"
+}

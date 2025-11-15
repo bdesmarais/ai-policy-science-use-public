@@ -1,0 +1,13 @@
+{
+  "press_release": "team-jones-welcomes-new-hires-capitol-and-district-offices.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones ( R-San Diego ) announces new hiring to fill vacancies in his Capitol and District Offices. New team members include a District Director, Legi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "95d7182b92649e578f79af1e4e239c290391b930"
+}

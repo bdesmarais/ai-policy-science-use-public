@@ -1,0 +1,13 @@
+{
+  "press_release": "20200930-governor-signs-landmark-legislation-advancing-racial-justice-california.txt",
+  "party": "Democratic",
+  "title": "A historic, first-of-its-kind law in the State, the California Racial Justice Act  prohibits the use of race, ethnicity, or national origin in sentencing and convictions",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:20:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Racial Justice Act prohibits the use of race, ethnicity, or national origin in sentencing and convictions.\",\n    \"The Racial Justice Act prohibits explicit bias against a defendant based on race, ethnicity, or national origin.\",\n    \"The Racial Justice Act",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Racial Justice Act prohibits the use of race, ethnicity, or national origin in sentencing and convictions.\",\n    \"The Racial Justice Act prohibits explicit bias against a defendant based on race, ethnicity, or national origin.\",\n    \"The Racial Justice Act addresses statistical disparities in charging, sentencing, and conviction.\",\n    \"The Racial Justice Act aims to eliminate bias at trial and in jury selection.\",\n    \"Systemic racial disparities are pervasive in mass incarceration in California.\",\n    \"Black men are over eight times more likely to be incarcerated than white men in California.\",\n    \"The California Racial Justice Act is the first law of its kind in the state.\",\n    \"The Racial Justice Act seeks to uphold Constitutional protections for everyone in the court system.\",\n    \"The Racial Justice Act is intended to help confront and address systemic racism in the court system.\",\n    \"California's racial disparities in convictions and sentences are among the nation's worst.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c9d5e41c3d6058d3626935fe5f7867d2f2c6b9e3"
+}

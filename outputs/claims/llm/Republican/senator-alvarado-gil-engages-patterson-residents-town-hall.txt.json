@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-alvarado-gil-engages-patterson-residents-town-hall.txt",
+  "party": "Republican",
+  "title": "Sen. Alvarado-Gil with Patterson Mayor Michael Clauzel (center) and Rep. John Duarte (left) following the event",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Marie Alvarado-Gil's upbringing in a challenging environment instilled in her a deep commitment to public safety.\",\n    \"Senator Alvarado-Gil's experiences included overcoming dangers such as gang violence and the threat of human trafficking.\",\n    \"The signing o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Marie Alvarado-Gil's upbringing in a challenging environment instilled in her a deep commitment to public safety.\",\n    \"Senator Alvarado-Gil's experiences included overcoming dangers such as gang violence and the threat of human trafficking.\",\n    \"The signing of SB 268 reforms Proposition 57 by classifying the rape of an intoxicated person as a violent felony.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "960d3deb18333e3b42c09c58a34b12f98c924851"
+}

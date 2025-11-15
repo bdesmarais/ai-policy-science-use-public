@@ -1,0 +1,13 @@
+{
+  "press_release": "newsom-is-bankrupting-medi-cal.txt",
+  "party": "Republican",
+  "title": "Assembly Democrats block audit. Taxpayers left in the dark.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:00:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Medi-Cal ran out of money in March.\",\n    \"Governor Gavin Newsom needed a $6.2 billion bailout to keep Medi-Cal afloat.\",\n    \"Medi-Cal's rising costs are driving California's structural deficit.\",\n    \"Newsom's expansion to cover illegal immigrants will cost $12 billion",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Medi-Cal ran out of money in March.\",\n    \"Governor Gavin Newsom needed a $6.2 billion bailout to keep Medi-Cal afloat.\",\n    \"Medi-Cal's rising costs are driving California's structural deficit.\",\n    \"Newsom's expansion to cover illegal immigrants will cost $12 billion this year alone.\",\n    \"There is no funding plan and no accountability for Newsom's expansion of Medi-Cal.\",\n    \"California is heading toward a two-tiered healthcare system.\",\n    \"Citizens face work requirements in Washington's Medicaid reforms, while non-citizens receive full Medi-Cal coverage with no work requirement.\",\n    \"Assembly Democrats blocked an audit that could expose where billions in Medi-Cal spending are going.\",\n    \"Medi-Cal spending jumped 84% in six years.\",\n    \"Newsom underestimated expansion costs by $2.8 billion.\",\n    \"Newsom needed an additional $3.44 billion loan to pay the bills in Medi-Cal.\",\n    \"Taxpayer money is scattered across 30+ accounts with no oversight.\",\n    \"Governor Newsom found $1 billion for the stalled high-speed rail.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "515da5bfad9b8fbbae021b6e28273be39130456d"
+}

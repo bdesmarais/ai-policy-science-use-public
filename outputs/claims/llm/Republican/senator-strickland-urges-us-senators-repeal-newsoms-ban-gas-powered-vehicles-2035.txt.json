@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-strickland-urges-us-senators-repeal-newsoms-ban-gas-powered-vehicles-2035.txt",
+  "party": "Republican",
+  "title": "In a letter to United States Senator Alex Padilla ( D-California ) and Adam Schiff ( D-California ), State Senator Tony Strickland ( R-Huntington Beach ) urged them to repeal Gover",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's mandate to ban gas-powered vehicles by 2035 is considered aggressive.\",\n    \"General Motors is opposing Governor Newsom's ban on gas-powered vehicles.\",\n    \"The goal of achieving widespread electric vehicle adoption by 2035 is described as lofty and un",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's mandate to ban gas-powered vehicles by 2035 is considered aggressive.\",\n    \"General Motors is opposing Governor Newsom's ban on gas-powered vehicles.\",\n    \"The goal of achieving widespread electric vehicle adoption by 2035 is described as lofty and unrealistic.\",\n    \"Most working families in California find it economically impractical to buy and charge electric vehicles.\",\n    \"A new electric vehicle can cost nearly $60,000 according to Kelley Blue Book.\",\n    \"The sales of electric vehicles have stalled in California.\",\n    \"California would need a million EV charging stations to support its electric vehicle goals, which is described as unlikely and unrealistic.\",\n    \"California is struggling to maintain a dependable electric grid during periods of high demand.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2979881d35268e31535ab60637315b5113c3dcd9"
+}

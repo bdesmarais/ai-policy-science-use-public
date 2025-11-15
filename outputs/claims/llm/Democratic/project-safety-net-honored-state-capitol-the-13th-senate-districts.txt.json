@@ -1,0 +1,13 @@
+{
+  "press_release": "project-safety-net-honored-state-capitol-the-13th-senate-districts.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Project Safety Net of Palo Alto, named by Senator Josh Becker as the 13 th Senate District’s Nonprofit of the Year, took its place today among the state’s outstanding ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70c13182e08cfa866b31d1275e177172b05a1565"
+}

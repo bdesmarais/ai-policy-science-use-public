@@ -1,0 +1,13 @@
+{
+  "press_release": "20241218-assemblymember-dr-corey-jackson-stands-support-superintendent-renee-hill.txt",
+  "party": "Democratic",
+  "title": "RIVERSIDE, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:22:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California law prohibits discrimination of students based on gender, gender identity, and gender expression.\",\n    \"Superintendent Hill's actions align with California state law.\",\n    \"Transgender youth deserve to be treated with respect and given the same opportunities",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California law prohibits discrimination of students based on gender, gender identity, and gender expression.\",\n    \"Superintendent Hill's actions align with California state law.\",\n    \"Transgender youth deserve to be treated with respect and given the same opportunities to compete, learn, and grow alongside their peers.\",\n    \"Students should refrain from discriminating against each other.\",\n    \"Adults should act as positive role models for students.\",\n    \"Demonizing school administrators undermines shared values of respect and inclusion.\",\n    \"Fanning the flames of fear and resentment does not serve children, schools, or the community.\",\n    \"Students deserve to feel safe, supported, and welcomed on school campuses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0d7ec72ce2a044e69dff3a8d2272b2f7415aa250"
+}

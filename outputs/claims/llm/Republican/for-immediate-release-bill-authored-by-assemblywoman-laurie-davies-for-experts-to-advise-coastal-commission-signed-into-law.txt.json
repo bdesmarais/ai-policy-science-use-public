@@ -1,0 +1,13 @@
+{
+  "press_release": "for-immediate-release-bill-authored-by-assemblywoman-laurie-davies-for-experts-to-advise-coastal-commission-signed-into-law.txt",
+  "party": "Republican",
+  "title": "Law Requires Coastal Erosion Panels to Provide Scientific Analysis on Projects before State Agency",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Coastal Commission's decisions will now include input from experts in scientific or environmental issues.\",\n    \"Coastal erosion is a significant threat to California's communities, infrastructure, and natural habitats.\",\n    \"The new law incorporates specialized exp",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Coastal Commission's decisions will now include input from experts in scientific or environmental issues.\",\n    \"Coastal erosion is a significant threat to California's communities, infrastructure, and natural habitats.\",\n    \"The new law incorporates specialized expertise for a more scientific approach to the Coastal Commission's decision-making process.\",\n    \"Coastal development in California faces challenges due to eroding bluffs.\",\n    \"The new law ensures that projects under review receive scientific analysis rather than just a shared view.\",\n    \"The Coastal Commission aims to protect and enhance California's coast and ocean for present and future generations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "16acceea85aa974a275c2aea62cdf96d86d3e0a2"
+}

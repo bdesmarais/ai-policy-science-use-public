@@ -1,0 +1,13 @@
+{
+  "press_release": "20240213-bill-ensure-labor-law-education-nail-salon-industry-introduced.txt",
+  "party": "Democratic",
+  "title": "Today, Assemblymember Alex Lee introduced AB 2444 to ensure that nail salon workers and owners receive the necessary education about labor laws, so that workers are treated fairly ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is home to over 127,480 licensed manicurists and at least 6,147 nail salons.\",\n    \"The nail salon workforce in California and the U.S. is mostly women and foreign-born individuals.\",\n    \"Workers in the nail salon industry are largely Vietnamese, with almost ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is home to over 127,480 licensed manicurists and at least 6,147 nail salons.\",\n    \"The nail salon workforce in California and the U.S. is mostly women and foreign-born individuals.\",\n    \"Workers in the nail salon industry are largely Vietnamese, with almost half of those born abroad having low English proficiency.\",\n    \"Labor violations such as misclassification of employment status are key concerns in the nail salon industry.\",\n    \"Independent contractors in the nail salon industry are not afforded protections like minimum wage, overtime pay, and workers' compensation.\",\n    \"Ensuring that employers and workers are knowledgeable of labor laws is essential for the fair treatment of nail salon workers.\",\n    \"Vietnamese women make up the majority of the nail salon industry's workforce in Assembly District 24.\",\n    \"The three-factor test, known as the ABC test, will control the employment status of nail salon workers starting next year.\",\n    \"Under the ABC test, a worker is considered an employee unless the hiring entity satisfies all three specified conditions.\",\n    \"A 2016-2017 survey of 93 Vietnamese nail salon workers in California shows that 89% were not paid overtime for more than 8 hours of work.\",\n    \"61% of surveyed nail salon workers were paid less than minimum wage.\",\n    \"The median hourly wage for nail salon workers in 2021 was $10.94, which is below the minimum wage and less than half the median wage of all other workers in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5e0f1daec94cd8af6708acd6eb0b7ddc8b4a9147"
+}

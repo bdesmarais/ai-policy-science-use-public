@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-senator-corteses-bill-secure-historic-statewide-collective-bargaining-agreement.txt",
+  "party": "Democratic",
+  "title": "Governor Gavin Newsom announced today that he has signed into law a bill by Senator Dave Cortese to secure the first-ever statewide bargaining agreement for minor league baseball p",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f790ae5fffe5befd781d71875bc92b536c4499b9"
+}

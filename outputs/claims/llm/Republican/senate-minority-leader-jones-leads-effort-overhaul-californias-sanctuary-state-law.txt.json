@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-minority-leader-jones-leads-effort-overhaul-californias-sanctuary-state-law.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones ( R-San Diego ) ), along with a group of community leaders, held a press conference today to announce Leader Jones’ Senate Bill 554 , the Safe",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:06:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 554 will help ensure violent offenders are not shielded from federal immigration authorities.\",\n    \"SB 554 prohibits local jurisdictions from further restricting cooperation with federal immigration enforcement.\",\n    \"SB 554 mandates cooperation for specifi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 554 will help ensure violent offenders are not shielded from federal immigration authorities.\",\n    \"SB 554 prohibits local jurisdictions from further restricting cooperation with federal immigration enforcement.\",\n    \"SB 554 mandates cooperation for specific violent crimes already exempted under SB 54.\",\n    \"The Safety Before Criminal Sanctuary Act aims to tighten California’s Sanctuary State policies in favor of public safety.\",\n    \"California’s sanctuary state law allows—though does not require—local law enforcement to cooperate with ICE for individuals convicted of specified felonies.\",\n    \"SB 554 prevents local jurisdictions from banning law enforcement cooperation with ICE for offenses exempted under SB 54.\",\n    \"SB 54 was enacted in 2017, designating California as a sanctuary state and restricting state resources for federal immigration enforcement.\",\n    \"The current sanctuary state law restricts local law enforcement's ability to cooperate with federal authorities regarding public safety threats.\",\n    \"Supporters of SB 554 argue that it will make communities safer by ensuring that violent offenders are not shielded from federal authorities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "564a428f84d182ad7b46103f415c6a560276441a"
+}

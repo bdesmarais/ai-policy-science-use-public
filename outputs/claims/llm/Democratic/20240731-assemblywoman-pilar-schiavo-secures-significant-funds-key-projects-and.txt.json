@@ -1,0 +1,13 @@
+{
+  "press_release": "20240731-assemblywoman-pilar-schiavo-secures-significant-funds-key-projects-and.txt",
+  "party": "Democratic",
+  "title": "LOS ANGELES",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "08fa8c759f1498d3ff75944295c2c8ec3ea4231a"
+}

@@ -1,0 +1,154 @@
+{
+  "press_release": "20231009-governor-newsom-signs-bill-protect-californians-and-pollinators-dangerous.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO (October 9, 2023) – With the support of Governor Newsom and persistence from the state legislature, California has passed AB 363 authored by Assemblymember Rebecca Bauer",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:28:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California has passed AB 363, which bans over the counter sales of lawn and garden neonicotinoid pesticides by 2025.\"\n    },\n    {\n      \"claim_text\": \"Neonicotinoids are likely the most ecologically destructive pesticides since DDT.\"\n    },\n    {\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California has passed AB 363, which bans over the counter sales of lawn and garden neonicotinoid pesticides by 2025.\"\n    },\n    {\n      \"claim_text\": \"Neonicotinoids are likely the most ecologically destructive pesticides since DDT.\"\n    },\n    {\n      \"claim_text\": \"Neonicotinoids are phenomenally toxic to bees and other insects.\"\n    },\n    {\n      \"claim_text\": \"Neonicotinoids can persist in soil for years and are easily carried long distances by rain or irrigation water.\"\n    },\n    {\n      \"claim_text\": \"Neonicotinoids extensively contaminate California surface waters.\"\n    },\n    {\n      \"claim_text\": \"Neonicotinoids are neurotoxins that can affect sensitive regions of the human brain and central nervous system.\"\n    },\n    {\n      \"claim_text\": \"Neonicotinoids can pass from mother to fetus.\"\n    },\n    {\n      \"claim_text\": \"Health experts warn that there may be no safe level of neonicotinoid exposure.\"\n    },\n    {\n      \"claim_text\": \"A recent study found neonicotinoid exposure in over 95% of pregnant women tested in California and four other states.\"\n    },\n    {\n      \"claim_text\": \"AB 363 will reduce public exposure to neonicotinoids by eliminating commonly used over the counter lawn and garden neonic products.\"\n    },\n    {\n      \"claim_text\": \"The bill requires the California Department of Pesticide Regulation to evaluate the impacts of remaining lawn and garden uses of neonicotinoids.\"\n    },\n    {\n      \"claim_text\": \"California's urban and suburban waters are contaminated by non-agricultural uses of neonicotinoids.\"\n    },\n    {\n      \"claim_text\": \"The review required by AB 363 will provide California with information necessary to address threats posed to 1,600 native bee species.\"\n    },\n    {\n      \"claim_text\": \"The health of California's diverse ecosystems is threatened by the use of neonicotinoids.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "California has passed AB 363, which bans over the counter sales of lawn and garden neonicotinoid pesticides by 2025.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Neonicotinoids are likely the most ecologically destructive pesticides since DDT.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Neonicotinoids are phenomenally toxic to bees and other insects.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Neonicotinoids can persist in soil for years and are easily carried long distances by rain or irrigation water.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Neonicotinoids extensively contaminate California surface waters.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Neonicotinoids are neurotoxins that can affect sensitive regions of the human brain and central nervous system.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Neonicotinoids can pass from mother to fetus.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Health experts warn that there may be no safe level of neonicotinoid exposure.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "A recent study found neonicotinoid exposure in over 95% of pregnant women tested in California and four other states.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 363 will reduce public exposure to neonicotinoids by eliminating commonly used over the counter lawn and garden neonic products.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The bill requires the California Department of Pesticide Regulation to evaluate the impacts of remaining lawn and garden uses of neonicotinoids.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California's urban and suburban waters are contaminated by non-agricultural uses of neonicotinoids.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The review required by AB 363 will provide California with information necessary to address threats posed to 1,600 native bee species.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The health of California's diverse ecosystems is threatened by the use of neonicotinoids.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 14,
+  "doc_sha1": "c7f6ac4f6ea587308a0e2aeb8711df10b430d013"
+}

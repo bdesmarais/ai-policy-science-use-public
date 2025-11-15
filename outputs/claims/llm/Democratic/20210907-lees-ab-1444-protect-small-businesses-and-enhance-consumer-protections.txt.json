@@ -1,0 +1,13 @@
+{
+  "press_release": "20210907-lees-ab-1444-protect-small-businesses-and-enhance-consumer-protections.txt",
+  "party": "Democratic",
+  "title": "AB 1444 by Assemblymember Alex Lee (D-San José) to protect small businesses and enhance consumer protections is headed to the Governor’s desk for signature. Currently, listing webs",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1444 requires that listing services provide clear and accurate information about contacting a restaurant.\",\n    \"AB 1444 prohibits food delivery platforms from charging restaurants for routed calls that do not result in a paid order.\",\n    \"The disclosure mandated by ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1444 requires that listing services provide clear and accurate information about contacting a restaurant.\",\n    \"AB 1444 prohibits food delivery platforms from charging restaurants for routed calls that do not result in a paid order.\",\n    \"The disclosure mandated by AB 1444 allows consumers to make conscientious decisions when placing an order.\",\n    \"According to the California Asian Pacific Chamber of Commerce, 41% of phone orders in California from Grubhub come from Asian restaurants.\",\n    \"Asian restaurants have been disproportionately impacted by the pandemic due to the xenophobic narrative surrounding COVID-19.\",\n    \"AB 286 requires delivery platforms to disclose an itemized breakdown of fees charged in transactions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7718f4494797dd27af7f9963e169c6bda121ef1f"
+}

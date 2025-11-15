@@ -1,0 +1,13 @@
+{
+  "press_release": "20240828-critical-storm-channel-legislation-prevent-future-flooding-san-diego-passes.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA –In response to this year’s catastrophic storms in San Diego, which heightened the need to improve storm water maintenance, the State Legislature passed legislation ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Weather data models indicate that storms will continue to increase in frequency and severity due to climate change.\",\n    \"The legislation will expedite routine maintenance of storm water channels by eliminating administrative delays imposed by the California Environment",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Weather data models indicate that storms will continue to increase in frequency and severity due to climate change.\",\n    \"The legislation will expedite routine maintenance of storm water channels by eliminating administrative delays imposed by the California Environmental Quality Act.\",\n    \"The bills apply to storm water channels that are fully concrete or have less than a 100-year storm capacity.\",\n    \"San Diego recorded nearly 3 inches of rainfall within just 8 hours during a recent storm, marking it as the fourth rainiest day on record since 1850.\",\n    \"The recent flooding affected more than 800 households, with water levels rising beyond 5 feet in some cases.\",\n    \"Cutting bureaucratic processes will enable local governments to clear and maintain storm channels more efficiently.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5319f4e1b87f92024cb65551238fcc32d51a15a2"
+}

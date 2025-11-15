@@ -1,0 +1,13 @@
+{
+  "press_release": "20250514-assemblywoman-wilson-responds-governors-effort-fast-track-delta-water.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Delta Conveyance Project will devastate the Delta ecosystem.\",\n    \"The Delta Conveyance Project will create a massive financial burden for ratepayers.\",\n    \"The project is being advanced to benefit agricultural interests in other regions.\",\n    \"The project threate",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Delta Conveyance Project will devastate the Delta ecosystem.\",\n    \"The Delta Conveyance Project will create a massive financial burden for ratepayers.\",\n    \"The project is being advanced to benefit agricultural interests in other regions.\",\n    \"The project threatens the livelihood of local communities.\",\n    \"The project undermines the sustainability of the regional economy.\",\n    \"Shifting water from one farming region to support another exacerbates the water crisis.\",\n    \"California should focus on long-term, equitable solutions like increased water storage.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5ae450348b0e13a46442db1f549e1229fd9d8a35"
+}

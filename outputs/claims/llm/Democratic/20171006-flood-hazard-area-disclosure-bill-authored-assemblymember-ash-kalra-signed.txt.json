@@ -1,0 +1,13 @@
+{
+  "press_release": "20171006-flood-hazard-area-disclosure-bill-authored-assemblymember-ash-kalra-signed.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Governor Brown signed Assembly Bill (AB) 646, a bill authored by Assemblymember Ash Kalra (D-San Jose) requiring the disclosure of flood hazard zones to prospective te",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Flooding is the most common natural disaster in the United States.\",\n    \"Many renters are under the misperception that their landlord’s insurance policy will reimburse them if their personal property is damaged or destroyed.\",\n    \"Many tenants were unaware that they ev",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Flooding is the most common natural disaster in the United States.\",\n    \"Many renters are under the misperception that their landlord’s insurance policy will reimburse them if their personal property is damaged or destroyed.\",\n    \"Many tenants were unaware that they even lived in a floodplain.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1153234331f08bc7dd8be8aa7b20f66026451bd3"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "california-legislature-advances-senator-arreguins-bill-ensure-healthcare-spaces-are-safe.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA - Today, the California Legislature passed SB 81 , authored by Senator Jesse Arreguín (D-Berkeley). The bill would require healthcare providers to establish nonpubli",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill SB 81 protects the privacy and dignity of all Californians, regardless of immigration status.\",\n    \"Healthcare providers are required by SB 81 to establish nonpublic areas to ensure safe spaces for communities.\",\n    \"Many Californians do not feel safe when see",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill SB 81 protects the privacy and dignity of all Californians, regardless of immigration status.\",\n    \"Healthcare providers are required by SB 81 to establish nonpublic areas to ensure safe spaces for communities.\",\n    \"Many Californians do not feel safe when seeking medical care due to fears of harassment and intimidation.\",\n    \"In June, a total of 4,163 Californians were arrested by armed agents in raids across Southern California.\",\n    \"Masked agents have entered healthcare facilities to arrest individuals without valid judicial warrants.\",\n    \"Healthcare workers have reported that agents sought access to patient private information without a valid warrant.\",\n    \"These incidents create hostile environments that deter individuals from accessing healthcare and essential services.\",\n    \"California's immigrant communities are described as the backbone of the state's economy and culture.\",\n    \"SB 81 aims to protect immigrant Californians from being targeted and arrested when seeking healthcare.\",\n    \"SB 81 establishes protocols to make health care facilities safe spaces from immigration enforcement.\",\n    \"Patients are experiencing increased fear and anxiety, impacting their healthcare decisions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d13628248e2b3cbd43f4ecead3194f2c007ba37f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210217-assemblymember-kalra-introduces-bill-notify-farm-workers-employment-rights.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – California Assemblymember Ash Kalra (D-San Jose) today introduced Assembly Bill (AB) 857, ensuring that farm workers on the federal temporary agricultural workers prog",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:23:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Farm workers on the federal temporary agricultural workers program (H-2A visa) receive a comprehensive Spanish-language notice of their basic employment rights.\",\n    \"More than 25,000 H-2A farm workers were imported under contract to California last year.\",\n    \"Ma",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Farm workers on the federal temporary agricultural workers program (H-2A visa) receive a comprehensive Spanish-language notice of their basic employment rights.\",\n    \"More than 25,000 H-2A farm workers were imported under contract to California last year.\",\n    \"Many job offers for H-2A farm workers contained false or misleading statements about California laws.\",\n    \"None of the state or federal enforcement agencies overseeing the H-2A program require disclosure of California's labor, housing, worker health and safety, or insurance laws to workers.\",\n    \"Statutes and case law establish H-2A farm workers as tenants with tenant rights, including the right to receive guests.\",\n    \"Longstanding California case law contradicts claims that employer transportation of H-2A farm workers to their worksites is voluntary and not compensable.\",\n    \"Confirmed H-2A violations have increased by 150 percent since 2014, with approximately 12,000 violations under the program.\",\n    \"Thousands of cases of H-2A workers have reported being cheated out of their wages.\",\n    \"COVID-19 outbreaks have infected farmworkers across the country, including large groups of H-2A workers in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "20a52e4752519b52a310c0ec01be76e72fedddd9"
+}

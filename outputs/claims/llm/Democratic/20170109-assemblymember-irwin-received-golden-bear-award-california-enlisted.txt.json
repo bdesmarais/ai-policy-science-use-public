@@ -1,0 +1,13 @@
+{
+  "press_release": "20170109-assemblymember-irwin-received-golden-bear-award-california-enlisted.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Jacqui Irwin (D-Thousand Oaks)  was honored by the California Enlisted Association of the National Guard (CAL  EANGUS) with the prestigious “Golden Bear",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:53:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Irwin has been instrumental in passing key legislation to improve the day-to-day lives of California’s veterans, active duty personnel, and their families.\",\n    \"Assemblymember Irwin secured $5.6 million in state funding for California’s veterans service ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Irwin has been instrumental in passing key legislation to improve the day-to-day lives of California’s veterans, active duty personnel, and their families.\",\n    \"Assemblymember Irwin secured $5.6 million in state funding for California’s veterans service officers to help veterans connect to the federal benefits that they have earned.\",\n    \"Assemblymember Irwin worked with the State Auditor, CalVet, and the Department of Technology to improve CalVet’s new electronic patient records system.\",\n    \"CalVet’s new electronic patient records system was failing to meet the basic needs of the state’s veterans prior to improvements.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "271d6c2c774c551c647e519086e903d8956d6ab3"
+}

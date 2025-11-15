@@ -1,0 +1,13 @@
+{
+  "press_release": "20171006-southern-california-businesses-celebrate-governor-brown-signing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Solar Thermal technology uses the sun’s energy to generate low-cost, environmentally friendly thermal energy designed to heat water or other fluids.\",\n    \"Solar thermal projects help reduce the need for natural gas.\",\n    \"Solar thermal projects improve the health of co",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Solar Thermal technology uses the sun’s energy to generate low-cost, environmentally friendly thermal energy designed to heat water or other fluids.\",\n    \"Solar thermal projects help reduce the need for natural gas.\",\n    \"Solar thermal projects improve the health of communities.\",\n    \"Solar thermal projects support good-paying local jobs.\",\n    \"5.8 million therms of natural gas have been removed each year in California, equivalent to the annual amount of natural gas used to heat water for over 32,000 homes.\",\n    \"Removing 5.8 million therms is equivalent to taking 6,500 cars off the road each year.\",\n    \"72% of all solar thermal panel installations in California are manufactured within the state.\",\n    \"Solar thermal projects in the 44th Assembly District have reduced carbon emissions by removing 39,000 therms from the air, equivalent to taking 44 cars off the road each year.\",\n    \"67 commercial and residential solar thermal jobs have been completed in the 44th Assembly District.\",\n    \"The California solar thermal market is growing, particularly in the multifamily housing sector, with 32% annual growth in natural gas savings between 2015 and 2016.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "074a035d941dc7900ce22bd6e4ed13035a5ba8c3"
+}

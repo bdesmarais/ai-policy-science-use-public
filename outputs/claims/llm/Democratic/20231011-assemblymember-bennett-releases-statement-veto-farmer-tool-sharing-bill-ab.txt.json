@@ -1,0 +1,13 @@
+{
+  "press_release": "20231011-assemblymember-bennett-releases-statement-veto-farmer-tool-sharing-bill-ab.txt",
+  "party": "Democratic",
+  "title": "As a state, we know that our small farms are critical for both the economy and ecological diversity.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8d3810df9a5d74d603333b6a57d7efe07c592ca0"
+}

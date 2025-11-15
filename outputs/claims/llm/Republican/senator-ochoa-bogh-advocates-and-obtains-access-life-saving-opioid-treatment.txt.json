@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-advocates-and-obtains-access-life-saving-opioid-treatment.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) is pleased to announce that the Governor has signed Senate Bill 1468 into law, a critical piece of legislation aimed at expanding access to",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1468 expands access to opioid treatment by ensuring that more healthcare providers are aware of the Drug Enforcement Agency's new 'Three-Day Rule'.\",\n    \"The 'Three-Day Rule' allows non-physician practitioners to dispense a three-day supply of medication to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1468 expands access to opioid treatment by ensuring that more healthcare providers are aware of the Drug Enforcement Agency's new 'Three-Day Rule'.\",\n    \"The 'Three-Day Rule' allows non-physician practitioners to dispense a three-day supply of medication to initiate opioid detoxification or maintenance treatment.\",\n    \"In 2022, fentanyl was responsible for 88% of all opioid-related overdose deaths in California.\",\n    \"SB 1468 empowers healthcare providers to offer more timely and effective treatment for opioid use disorder.\",\n    \"This law will reduce overdose deaths and help those suffering from opioid use disorder access critical care more quickly.\",\n    \"Access to specialized addiction treatment can be limited in underserved areas.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "54f03e44e52172d307af4a8a4fae6f2f2e7b27af"
+}

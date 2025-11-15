@@ -1,0 +1,13 @@
+{
+  "press_release": "20200901-assemblymember-arambula-lauds-change-allow-low-wage-workers-regardless.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:18:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's low-income individuals and families, including those deemed 'essential workers', will be eligible for the California Earned Income Tax Credit program regardless of immigration status.\",\n    \"The California Earned Income Tax Credit program is considered one o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's low-income individuals and families, including those deemed 'essential workers', will be eligible for the California Earned Income Tax Credit program regardless of immigration status.\",\n    \"The California Earned Income Tax Credit program is considered one of the best anti-poverty programs by Assemblymember Dr. Joaquin Arambula.\",\n    \"The revision allows qualifying individuals to apply for CalEITC with their Individual Taxpayer Identification Number (ITIN).\",\n    \"An individual or parent who earned less than $30,000 in 2020 could receive up to $2,982 through CalEITC and an additional $1,000 through the Young Child Tax Credit if they have at least one child under age 6.\",\n    \"The inclusion of ITIN filers in the CalEITC corrects a historical and structural inequity in the safety net for low-income immigrant families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4bbc42da5ad4724bedc02a597d235c944d3ed901"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20180807-assemblymember-arambula-present-1-million-allocation-fresno-city-college.txt",
+  "party": "Democratic",
+  "title": "Fresno, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Fresno City College will use $1 million in funds to expand its Electrical Systems Technology and Welding programs.\",\n    \"The expansion of these programs will allow Fresno City College to train 70 more students per year for the job market.\",\n    \"Fresno City College emph",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Fresno City College will use $1 million in funds to expand its Electrical Systems Technology and Welding programs.\",\n    \"The expansion of these programs will allow Fresno City College to train 70 more students per year for the job market.\",\n    \"Fresno City College emphasizes the latest teaching methods in its Career and Technical Education program.\",\n    \"Career and Technical Education programs provide crucial skills needed for modern careers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d76300f7e7e387017119cef09224dd4a2568b93b"
+}

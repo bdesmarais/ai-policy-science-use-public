@@ -1,0 +1,13 @@
+{
+  "press_release": "20170509-assemblymembers-muratsuchi-ting-and-mccarty-announce-assembly-bill.txt",
+  "party": "Democratic",
+  "title": "Criminal penalties to be imposed on anyone obstructing State Auditor or Auditor staff",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "435aa4c5e6ab839a48e67c7125d9d0b0bcc84ff6"
+}

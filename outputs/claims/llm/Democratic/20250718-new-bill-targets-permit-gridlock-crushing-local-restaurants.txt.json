@@ -1,0 +1,13 @@
+{
+  "press_release": "20250718-new-bill-targets-permit-gridlock-crushing-local-restaurants.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1470 aims to update California's food facility laws to ease the renovation and reopening of small and independent restaurants.\",\n    \"Nearly 30,000 restaurants in California permanently closed due to the COVID-19 pandemic.\",\n    \"Outdated permitting rules a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1470 aims to update California's food facility laws to ease the renovation and reopening of small and independent restaurants.\",\n    \"Nearly 30,000 restaurants in California permanently closed due to the COVID-19 pandemic.\",\n    \"Outdated permitting rules are hindering the operations of small business owners in California's restaurant industry.\",\n    \"California's current laws mandate underground grease traps, despite above-ground systems being a safe and industry-standard solution.\",\n    \"The restrictions on the size of takeout windows in California's restaurant regulations do not reflect current food safety standards.\",\n    \"The existing mandates for interior finishes in low-risk areas like restrooms and bars are unnecessarily rigid and costly for restaurant owners.\",\n    \"Overhead covering requirements for temporary food facilities create barriers for vendors when there is no risk of contamination.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2def09bc901817837341a30885edfc5093a40ab9"
+}

@@ -1,0 +1,74 @@
+{
+  "press_release": "20220830-ca-lawmakers-pass-ab-1322-meeting-governor-newsoms-challenge-aggressively.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) Following the Legislature’s final passage of AB 1322 (R. Rivas) today, Assemblymember Robert Rivas (D-Salinas) and the Coalition for Clean Air released the followi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:46:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Sustainable aviation fuel (SAF) is 80 percent cleaner than traditional jet fuel.\"\n    },\n    {\n      \"claim_text\": \"AB 1322 aims to help achieve California’s goal for a net-zero emission economy by 2045.\"\n    },\n    {\n      \"claim_text\": \"California",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Sustainable aviation fuel (SAF) is 80 percent cleaner than traditional jet fuel.\"\n    },\n    {\n      \"claim_text\": \"AB 1322 aims to help achieve California’s goal for a net-zero emission economy by 2045.\"\n    },\n    {\n      \"claim_text\": \"California's policies have historically incubated new technologies that change the world and combat climate change.\"\n    },\n    {\n      \"claim_text\": \"Clean solar and wind power are now the least expensive forms of new energy because of California.\"\n    },\n    {\n      \"claim_text\": \"Aviation is a growing source of emissions that contribute to air pollution and climate change.\"\n    },\n    {\n      \"claim_text\": \"California aims to develop and implement a strategy for reaching a 20% sustainable aviation fuel target by 2030.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Sustainable aviation fuel (SAF) is 80 percent cleaner than traditional jet fuel.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 1322 aims to help achieve California’s goal for a net-zero emission economy by 2045.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California's policies have historically incubated new technologies that change the world and combat climate change.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Clean solar and wind power are now the least expensive forms of new energy because of California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Aviation is a growing source of emissions that contribute to air pollution and climate change.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California aims to develop and implement a strategy for reaching a 20% sustainable aviation fuel target by 2030.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "7ba8121d97bd52479890fb6a87f179228c77dab5"
+}

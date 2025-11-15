@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-announces-legislation-streamline-regulatory-permitting.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 23 aims to simplify the regulatory permitting process for water supply and flood risk reduction projects without compromising environmental protection.\",\n    \"SB 23 sets deadlines for processing applications for various projects.\",\n    \"SB 23 reduces duplicative plann",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 23 aims to simplify the regulatory permitting process for water supply and flood risk reduction projects without compromising environmental protection.\",\n    \"SB 23 sets deadlines for processing applications for various projects.\",\n    \"SB 23 reduces duplicative planning efforts in regulatory processes.\",\n    \"SB 23 broadens the use of existing streamlining tools for water infrastructure projects.\",\n    \"SB 23 provides permitting agencies with additional resources to meet its requirements.\",\n    \"Improving water supply reliability and ecosystem resiliency requires modernization of regulatory schemes.\",\n    \"SB 23 aims to streamline projects meant for various hydrological events, including surface storage and groundwater recharge.\",\n    \"SB 23 seeks to help achieve groundwater sustainability by capturing more water during high flow events.\",\n    \"California has invested billions of dollars in water infrastructure projects in response to severe climate changes.\",\n    \"SB 23 is intended to accelerate recycled water, desalination, and storm water capture projects.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "74c9e199e1e7ad09dfc00ca9736d211350145ac6"
+}

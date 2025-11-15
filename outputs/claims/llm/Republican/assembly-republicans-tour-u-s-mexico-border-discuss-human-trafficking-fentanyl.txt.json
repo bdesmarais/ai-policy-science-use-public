@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-tour-u-s-mexico-border-discuss-human-trafficking-fentanyl.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Last week, Assembly Republican Leader James Gallagher (Yuba City), Assemblywoman Diane Dixon (R-Newport Beach) and Assemblyman Joe Patterson (R-Rocklin) traveled to th",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Traffickers see California as an easy target due to the state's current policies.\",\n    \"The deployment of additional National Guard members could aid the Border Patrol.\",\n    \"California's sanctuary state law may hinder effective border security measures.\",\n    \"Border ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Traffickers see California as an easy target due to the state's current policies.\",\n    \"The deployment of additional National Guard members could aid the Border Patrol.\",\n    \"California's sanctuary state law may hinder effective border security measures.\",\n    \"Border Patrol agents screen over 100,000 entries daily for drugs, human trafficking, and crime.\",\n    \"Customs and Border Protection is engaged in efforts to disrupt human trafficking and drug smuggling operations.\",\n    \"Fentanyl is being trafficked across the California border.\",\n    \"Current sanctuary state policies may incentivize drug trafficking through California border crossings.\",\n    \"Local law enforcement collaboration with Border Patrol could enhance community safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "18b7edc0325303da6229c7ff1a361a9ddae1c908"
+}

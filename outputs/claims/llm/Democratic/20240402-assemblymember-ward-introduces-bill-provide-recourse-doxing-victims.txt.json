@@ -1,0 +1,13 @@
+{
+  "press_release": "20240402-assemblymember-ward-introduces-bill-provide-recourse-doxing-victims.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:38:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Doxing involves publishing someone's private data for the purpose of targeted harassment.\",\n    \"Doxing can include highly personal information such as phone numbers, home addresses, passwords, and medical records without permission.\",\n    \"Victims of doxing experience s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Doxing involves publishing someone's private data for the purpose of targeted harassment.\",\n    \"Doxing can include highly personal information such as phone numbers, home addresses, passwords, and medical records without permission.\",\n    \"Victims of doxing experience significant distress and anxiety.\",\n    \"Exposing sensitive information through doxing can put victims at risk of identity theft, harassment, stalking, physical harm, and even death.\",\n    \"65% of severe online harassment incidents, such as doxing, are hate-based attacks against marginalized people based on their civil-protected identity status.\",\n    \"Women are far more likely than men to be victims of doxing.\",\n    \"A 2018 study by researchers at Hong Kong Polytechnic University found that victims of doxing experienced significant psychological suffering in the form of increased anxiety, depression, and stress.\",\n    \"Current California law leaves doxing victims with little to no viable resources to hold offenders accountable or recover damages.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "aee9921e08903cb97faf639987d370903feda0ba"
+}

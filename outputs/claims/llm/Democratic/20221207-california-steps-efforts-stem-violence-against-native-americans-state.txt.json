@@ -1,0 +1,13 @@
+{
+  "press_release": "20221207-california-steps-efforts-stem-violence-against-native-americans-state.txt",
+  "party": "Democratic",
+  "title": "COARSEGOLD",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:51:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Feather Alert is a public notification tool designed to combat the epidemic of Missing and Murdered Indigenous People.\",\n    \"The Feather Alert will help law enforcement quickly notify the public about missing Native Americans.\",\n    \"California has the highest popul",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Feather Alert is a public notification tool designed to combat the epidemic of Missing and Murdered Indigenous People.\",\n    \"The Feather Alert will help law enforcement quickly notify the public about missing Native Americans.\",\n    \"California has the highest population of Native Americans in the nation and is also among the states with the highest rates of reported cases of Missing and Murdered Indigenous People.\",\n    \"A report indicated that only nine percent of murders of indigenous women in California have ever been solved.\",\n    \"California has enacted several notification systems similar to the Feather Alert in Washington State and Colorado.\",\n    \"The Feather Alert will be activated when specific criteria related to the missing person are met.\",\n    \"The new system is expected to significantly improve outcomes in cases involving missing indigenous people.\",\n    \"The Feather Alert represents a collaborative effort between tribal communities and state legislators.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7e9d2c18bc4f452ff7d3841822dc18da098f5ee4"
+}

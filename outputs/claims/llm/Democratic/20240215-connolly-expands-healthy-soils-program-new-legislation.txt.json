@@ -1,0 +1,13 @@
+{
+  "press_release": "20240215-connolly-expands-healthy-soils-program-new-legislation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) introduced",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Healthy Soils Program promotes farming methods that are healthy for the soil and reduce greenhouse gas emissions.\",\n    \"Expanding the Healthy Soils Program benefits both farms and the environment.\",\n    \"Streamlining the application process and funding for on-farm d",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Healthy Soils Program promotes farming methods that are healthy for the soil and reduce greenhouse gas emissions.\",\n    \"Expanding the Healthy Soils Program benefits both farms and the environment.\",\n    \"Streamlining the application process and funding for on-farm demonstration projects is vital to the continued success of the Healthy Soils Program.\",\n    \"The Cannella Environmental Farming Act of 1995 requires the Department of Food and Agriculture to oversee an environmental farming program that provides incentives to farmers promoting ecosystem wellbeing, air quality, and wildlife.\",\n    \"The Healthy Soils Program provides incentives such as loans, grants, research, and technical assistance to farmers for management practices that contribute to healthy soils.\",\n    \"The implementation of the Healthy Soils Program requires advice from the Scientific Advisory Panel on Environmental Farming.\",\n    \"The Climate Smart Agriculture Technical Assistance Grant Program provides funds to technical assistance providers assisting applicants of the Healthy Soils Program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fe53114328c062d149f350a657dd53d25ac7a43c"
+}

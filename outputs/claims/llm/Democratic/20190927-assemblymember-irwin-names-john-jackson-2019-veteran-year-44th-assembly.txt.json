@@ -1,0 +1,13 @@
+{
+  "press_release": "20190927-assemblymember-irwin-names-john-jackson-2019-veteran-year-44th-assembly.txt",
+  "party": "Democratic",
+  "title": "CAMARILLO –  John Jackson has served the veterans of Ventura County by working as a Veterans Claims Officer for the last 13 years. He was recognized as the 2019 Veteran of the Year",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:11:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"John Jackson has served as a Veterans Claims Officer for the last 13 years.\",\n    \"John Jackson was recognized as the 2019 Veteran of the Year for the 44th Assembly District.\",\n    \"Jackson contributed to the successful management of a 13% increase in Veterans Service Of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"John Jackson has served as a Veterans Claims Officer for the last 13 years.\",\n    \"John Jackson was recognized as the 2019 Veteran of the Year for the 44th Assembly District.\",\n    \"Jackson contributed to the successful management of a 13% increase in Veterans Service Office caseload from the last fiscal year.\",\n    \"John Jackson achieved a 99.4% accuracy rate for the 1,301 workload unit activities processed during the CalVet audit period from July – December 2018.\",\n    \"Under Jackson's dedication, the CVSO connected veterans to more than $10.5 million in one-time and annualized US Department of Veterans Affairs benefits in FY 17/18.\",\n    \"The estimated spending impact of the benefits connected by Jackson is more than $31.5 million.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "231bc771382ee363b840edcd8c004504c83a5afe"
+}

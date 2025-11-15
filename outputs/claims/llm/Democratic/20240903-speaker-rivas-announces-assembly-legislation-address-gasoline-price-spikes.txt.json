@@ -1,0 +1,13 @@
+{
+  "press_release": "20240903-speaker-rivas-announces-assembly-legislation-address-gasoline-price-spikes.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:49:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's oil market is uniquely vulnerable due to the small number of refiners.\",\n    \"Nearly 90% of state fuel production occurs at seven refineries operated by only five companies.\",\n    \"One or more refinery outages can drastically reduce state refining capacity.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's oil market is uniquely vulnerable due to the small number of refiners.\",\n    \"Nearly 90% of state fuel production occurs at seven refineries operated by only five companies.\",\n    \"One or more refinery outages can drastically reduce state refining capacity.\",\n    \"This price volatility has placed an undue burden on residents, especially those with fixed or limited incomes.\",\n    \"The legislation requires refineries to maintain adequate reserves and properly plan for refinery shutdowns.\",\n    \"The California Energy Commission will have the authority to require the state’s petroleum refiners to have minimum supply inventories and resupply plans for refinery maintenance periods.\",\n    \"The Commission can adopt supply regulations if it determines they are in the best interests of consumers, will lead to lower average retail prices, increase fuel supply, and reduce price volatility at the pump.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c1b25766c07b07d7f37d2465fdec548c59cc91ad"
+}

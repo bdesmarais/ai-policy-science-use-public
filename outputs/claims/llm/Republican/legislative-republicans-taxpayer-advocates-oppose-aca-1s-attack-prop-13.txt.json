@@ -1,0 +1,13 @@
+{
+  "press_release": "legislative-republicans-taxpayer-advocates-oppose-aca-1s-attack-prop-13.txt",
+  "party": "Republican",
+  "title": "Today, Legislative Republicans joined taxpayer advocates to oppose Assembly Constitutional Amendment 1 , Democrats’ attempt to weaken Prop. 13 by making it easier to approve specia",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has one of the highest state and local tax burdens in the nation.\",\n    \"ACA 1 would lower the voter approval threshold to increase taxes from Prop. 13’s current two-thirds requirement to just 55%.\",\n    \"A clear, bipartisan majority of Californians oppose giv",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has one of the highest state and local tax burdens in the nation.\",\n    \"ACA 1 would lower the voter approval threshold to increase taxes from Prop. 13’s current two-thirds requirement to just 55%.\",\n    \"A clear, bipartisan majority of Californians oppose giving politicians the power to increase taxes with a lower level of support proposed by ACA 1.\",\n    \"ACA 1 wrongly chips away at critical taxpayer protections by making it easier for politicians and special interests to raise taxes.\",\n    \"ACA 1 will penalize hardworking Californians by making it easier to increase taxes.\",\n    \"ACA 1 is a direct attack on Proposition 13.\",\n    \"ACA 1 is the first step to dismantling Proposition 13's protections against higher taxes.\",\n    \"Making it easier to raise costly parcel taxes on businesses and sales taxes on consumers further raises the cost of living and doing business in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e5f2a7f8db23cb5f9ce4d09ef1a5a85b09e2af15"
+}

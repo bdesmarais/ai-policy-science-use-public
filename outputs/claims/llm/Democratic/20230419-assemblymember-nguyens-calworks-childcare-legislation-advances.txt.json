@@ -1,0 +1,13 @@
+{
+  "press_release": "20230419-assemblymember-nguyens-calworks-childcare-legislation-advances.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 372 aims to provide financial security to state-accredited apprentices and pre-apprentices by exempting the income they earn as part of their apprenticeship program.\",\n    \"AB 372 will help recruit and retain women in the trades by preserving their eligibility to rece",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 372 aims to provide financial security to state-accredited apprentices and pre-apprentices by exempting the income they earn as part of their apprenticeship program.\",\n    \"AB 372 will help recruit and retain women in the trades by preserving their eligibility to receive CalWORKs assistance.\",\n    \"Current data shows that the first six months after a family transitions off public assistance is the most vulnerable time for children.\",\n    \"AB 1084 would establish the Bilingual Oriented Social Equity Services Grant Program (BOSES) to enhance access to in-language services such as legal aid, healthcare navigation, and social service enrollment.\",\n    \"In 2021, almost 44% of California households speak a language other than English, and nearly seven million Californians (17.5%) report speaking English 'less than very well.'\",\n    \"The quality and extent of language accessibility and cultural competency of government services in California are inadequate for limited English proficiency (LEP) community members.\",\n    \"Consequently, millions of Californians are denied essential government services, utilization of healthcare, and safeguards from becoming victims of fraud.\",\n    \"CBOs around the state provide essential services to populations that don’t meet the 5% language access threshold.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "38ba7a2508b5accbfc8d110d8f874ffe46ae3008"
+}

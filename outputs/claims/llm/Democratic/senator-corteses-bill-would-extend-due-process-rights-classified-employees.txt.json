@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-bill-would-extend-due-process-rights-classified-employees.txt",
+  "party": "Democratic",
+  "title": "School bus drivers, custodians, office workers and other classified employees would gain fairer due process rights under a bill introduced Monday by Senator Dave Cortese (D-San Jos",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "baf767f73306a8040c634bbb113a56e6fc837eda"
+}

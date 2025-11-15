@@ -1,0 +1,13 @@
+{
+  "press_release": "20220329-assemblymember-wicks-delays-employer-vaccine-verification-bill-ab-1993.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:40:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California continues to have some of the lowest COVID case rates, deaths, and injuries per capita.\",\n    \"The introduction of AB 1993 was prompted by the high volume of workers, employers, and public health experts expressing the need for vaccine requirements.\",\n    \"Vac",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California continues to have some of the lowest COVID case rates, deaths, and injuries per capita.\",\n    \"The introduction of AB 1993 was prompted by the high volume of workers, employers, and public health experts expressing the need for vaccine requirements.\",\n    \"Vaccines and vaccine requirements are a critical tool for moving from pandemic to endemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5d40d07b7383b9cd985c3c371e5946aeb2e2c27e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250529-assembly-approves-papan-bill-advance-environmental-stewardship-conserved.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill 900 strengthens California’s commitment to long-term stewardship of lands conserved under the state’s 30x30 initiative.\",\n    \"Assembly Bill 900 directs the California Natural Resources Agency to reduce barriers and expand support for science-based man",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill 900 strengthens California’s commitment to long-term stewardship of lands conserved under the state’s 30x30 initiative.\",\n    \"Assembly Bill 900 directs the California Natural Resources Agency to reduce barriers and expand support for science-based management of conserved lands.\",\n    \"Assembly Bill 900 mandates an update to the 'Pathways to 30x30' report by July 1, 2026, to include a full accounting of the backlog and future needs for land stewardship across the state.\",\n    \"The bill allows funding for land stewardship to be included as part of land acquisition projects under the Proposition 4 climate bond.\",\n    \"California's 30x30 initiative aims to conserve 30% of the state’s lands and coastal waters by 2030.\",\n    \"Over a quarter of designated conservation areas currently lack sufficient resources for long-term stewardship.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b110166551df3f84874935bbea42f2ce052698ba"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "republican-leader-reacts-to-signing-of-care-court-legislation-09-14-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"CARE Court will help some severely mentally ill people get treatment.\",\n    \"Less than 10% of California’s homeless population would qualify for CARE Court.\",\n    \"Only seven counties are expected to participate in CARE Court next year.\",\n    \"Reforming conservatorship l",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"CARE Court will help some severely mentally ill people get treatment.\",\n    \"Less than 10% of California’s homeless population would qualify for CARE Court.\",\n    \"Only seven counties are expected to participate in CARE Court next year.\",\n    \"Reforming conservatorship laws could change the definition of 'gravely disabled' to provide necessary treatment for mental health and drug addiction.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e9428693c1fb8d69e40b65f8baae051341a92486"
+}

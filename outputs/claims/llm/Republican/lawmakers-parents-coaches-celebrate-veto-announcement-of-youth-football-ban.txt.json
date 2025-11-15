@@ -1,0 +1,64 @@
+{
+  "press_release": "lawmakers-parents-coaches-celebrate-veto-announcement-of-youth-football-ban.txt",
+  "party": "Republican",
+  "title": "Legislative Democrats should withdraw AB 734 & let parents, not politicians, decide which sports kids can play.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Youth football is safer than ever in California under the passage of the California Youth Football Act – AB 1 in 2019.\"\n    },\n    {\n      \"claim_text\": \"California leads the nation in safety standards for youth sports.\"\n    },\n    {\n      \"claim_te",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Youth football is safer than ever in California under the passage of the California Youth Football Act – AB 1 in 2019.\"\n    },\n    {\n      \"claim_text\": \"California leads the nation in safety standards for youth sports.\"\n    },\n    {\n      \"claim_text\": \"AB 1 is the model for the rest of the country when it comes to what a youth sports safety bill should look like.\"\n    },\n    {\n      \"claim_text\": \"Banning youth sports follows a pattern of criminalization of activities that are central to marginalized black and brown communities.\"\n    },\n    {\n      \"claim_text\": \"The bill to ban youth football would disproportionately affect young people of color, especially young men.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Youth football is safer than ever in California under the passage of the California Youth Football Act – AB 1 in 2019.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California leads the nation in safety standards for youth sports.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 1 is the model for the rest of the country when it comes to what a youth sports safety bill should look like.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Banning youth sports follows a pattern of criminalization of activities that are central to marginalized black and brown communities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The bill to ban youth football would disproportionately affect young people of color, especially young men.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "8cc383c0fabdd50cb9dcb418503aa52b133aae77"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "comite-aprueba-el-proyecto-de-ley-del-senado-601-que-ayuda-los-californianos-lograr-comprar.txt",
+  "party": "Republican",
+  "title": "El comité de gobierno y finanzas del senado aprobó el proyecto de ley del senado (SB) 601 conocido en inglés como el First-Time Homebuyers Opportunity Act, creado por la senadora R",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"El First-Time Homebuyers Opportunity Act incentivaría a los vendedores a considerar compradores de primera vez al aumentar la exclusión de ganancias de capital.\",\n    \"California ha sido clasificada como el estado más difícil en la nación para los compradores de vivienda",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"El First-Time Homebuyers Opportunity Act incentivaría a los vendedores a considerar compradores de primera vez al aumentar la exclusión de ganancias de capital.\",\n    \"California ha sido clasificada como el estado más difícil en la nación para los compradores de vivienda por primera vez.\",\n    \"Los precios medios de una vivienda unifamiliar en California superan el rango de precios de $600,000.\",\n    \"La falta de suministro de viviendas para satisfacer la demanda en California es sin precedentes.\",\n    \"El First-Time Homebuyers Opportunity Act permitiría a los propietarios excluir ganancias de capital de $300,000 para contribuyentes únicos en lugar del máximo actual de $250,000.\",\n    \"El First-Time Homebuyers Opportunity Act permitiría a los propietarios excluir ganancias de capital de $600,000 para contribuyentes conjuntos en lugar del máximo actual de $500,000.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f1d65c02b1540d340d613a9ce5d55023cc108be5"
+}

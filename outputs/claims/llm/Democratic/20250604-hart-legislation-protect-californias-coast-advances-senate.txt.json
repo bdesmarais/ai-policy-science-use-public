@@ -1,0 +1,13 @@
+{
+  "press_release": "20250604-hart-legislation-protect-californias-coast-advances-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:37:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1448 strengthens California's commitment to protecting the coastline, marine ecosystems, and coastal communities from offshore oil development.\",\n    \"The 1969 Santa Barbara Oil Spill helped ignite the modern environmental movement and inspired the first Earth Day.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1448 strengthens California's commitment to protecting the coastline, marine ecosystems, and coastal communities from offshore oil development.\",\n    \"The 1969 Santa Barbara Oil Spill helped ignite the modern environmental movement and inspired the first Earth Day.\",\n    \"The Environmental Defense Center is actively working to prevent the restart of oil operations from the platform and pipeline system responsible for the 2015 spill.\",\n    \"AB 1448 will help prevent devastating oil spills by strengthening oversight of offshore drilling and ensuring aging infrastructure is no longer a threat to public safety and marine ecosystems.\",\n    \"If signed into law, AB 1448 will stop fossil fuel extraction and oil spills off the Pacific coast.\",\n    \"AB 1448 prohibits the State Lands Commission from approving any expansion in offshore drilling along California's coast.\",\n    \"AB 1448 places tighter restrictions on the renewal, extension, or modification of existing offshore drilling leases.\",\n    \"AB 1448 requires the State Lands Commission to consider prior oil spills, unconventional drilling techniques, and impacts to coastal resources before approving lease changes.\",\n    \"AB 1448 mandates the use of best available technology, including leak detection systems and automatic shutoff valves, for all pipelines transporting offshore oil.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "19005df2fec8f2e64bb96b9c7560d4f4c757b6b3"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-release-video-on-democratic-health-care-takeover.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republicans released a video highlighting President Biden’s comments slamming government-run health care schemes like the one being advanced by Assembl",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Government-run health care schemes like single-payer health care may lead to high costs.\",\n    \"Implementing single-payer health care could result in middle-class tax increases.\",\n    \"Single-payer health care could eliminate current health care plans for individuals.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Government-run health care schemes like single-payer health care may lead to high costs.\",\n    \"Implementing single-payer health care could result in middle-class tax increases.\",\n    \"Single-payer health care could eliminate current health care plans for individuals.\",\n    \"The idea that a person making $60,000 per year will save money under Medicare For All is criticized as preposterous.\",\n    \"Medicare For All would require individuals to lose their employer-based insurance.\",\n    \"Medicare For All could involve a deductible that will be deducted from paychecks.\",\n    \"Medicare For All is suggested to raise taxes on middle-class individuals, not just wealthy people.\",\n    \"The implementation of Medicare For All is expected to increase personal taxes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "544ab684287cbe726ba6c75efa3900b4e61bb397"
+}

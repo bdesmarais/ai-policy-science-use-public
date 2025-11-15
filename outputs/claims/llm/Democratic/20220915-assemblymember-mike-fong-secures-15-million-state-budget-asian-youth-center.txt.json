@@ -1,0 +1,13 @@
+{
+  "press_release": "20220915-assemblymember-mike-fong-secures-15-million-state-budget-asian-youth-center.txt",
+  "party": "Democratic",
+  "title": "San Gabriel, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:47:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The pandemic exacerbated socioeconomic inequality in the United States, especially food insecurity in households across the country due to high unemployment and supply chain disruptions.\",\n    \"AYC's Emergency Food Program significantly scaled up from distributing 1,800 ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The pandemic exacerbated socioeconomic inequality in the United States, especially food insecurity in households across the country due to high unemployment and supply chain disruptions.\",\n    \"AYC's Emergency Food Program significantly scaled up from distributing 1,800 meals per month serving 60 families to nearly 70,000 meals per month serving 800 families at its peak.\",\n    \"Food insecurity remains a persistent issue for many families, especially those with children and senior citizens.\",\n    \"The state funding will allow AYC to proceed with building rehabilitation and facility upgrades to improve operations and increase distribution capacity for the Emergency Food Program.\",\n    \"Improvements supported by the funding will include information technology and security system upgrades and enhancements to expand language access for all AYC programs, services and communications.\",\n    \"The funding aims to ensure vulnerable populations experiencing food insecurity in the community will continue to have access to groceries and essentials.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "308919fadcad7f1f031ac46519c44f2f771a610c"
+}

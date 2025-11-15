@@ -1,0 +1,13 @@
+{
+  "press_release": "20180828-california-legislature-passes-bill-assemblywoman-rubio-requiring-lactation.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE:                                                                                                                                                              ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Legislature passed Assembly Bill 2785 by Assemblywoman Blanca E. Rubio that would require public community colleges and universities to provide lactation accommodation rooms on campus for breastfeeding students.\",\n    \"The lack of system-wide policies rega",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Legislature passed Assembly Bill 2785 by Assemblywoman Blanca E. Rubio that would require public community colleges and universities to provide lactation accommodation rooms on campus for breastfeeding students.\",\n    \"The lack of system-wide policies regarding lactation accommodations for students allows inadequate or unsanitary lactation accommodations to persist.\",\n    \"Inadequate lactation accommodations represent a serious health and gender inequity issue.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6760bc50887288d947e388c4ed516265a201473e"
+}

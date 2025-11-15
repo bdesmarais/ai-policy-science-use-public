@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-newsom-democrats-put-our-childrens-healthcare-hands-bureaucrats.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, members of the California Senate Republican Caucus voted against Senate Bill 714 which combined with Senate Bill 276 would allow government to intrude into the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 714 combined with Senate Bill 276 would allow government to intrude into the physician-patient relationship.\",\n    \"Both SB 714 and SB 276 would restrict a medical doctor’s right to issue vaccine medical exemptions.\",\n    \"The governor has signed both bills i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 714 combined with Senate Bill 276 would allow government to intrude into the physician-patient relationship.\",\n    \"Both SB 714 and SB 276 would restrict a medical doctor’s right to issue vaccine medical exemptions.\",\n    \"The governor has signed both bills into law.\",\n    \"SB 276 would require the California Department of Public Health to review physicians who submit a large number of medical exemptions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c7e750b407966d37719b5889c56f8a5b0b49489c"
+}

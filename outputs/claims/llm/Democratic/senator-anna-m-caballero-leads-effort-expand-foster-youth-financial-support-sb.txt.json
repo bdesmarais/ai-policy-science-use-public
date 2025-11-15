@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-leads-effort-expand-foster-youth-financial-support-sb.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 624 aims to expand access to the Foster Youth Tax Credit (FYTC).\",\n    \"SB 624 will direct $1 million in unutilized FYTC funds to establish standardized outreach protocols for county child welfare agencies.\",\n    \"The Foster Youth Tax Credit is a refundable t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 624 aims to expand access to the Foster Youth Tax Credit (FYTC).\",\n    \"SB 624 will direct $1 million in unutilized FYTC funds to establish standardized outreach protocols for county child welfare agencies.\",\n    \"The Foster Youth Tax Credit is a refundable tax credit for young adults ages 18-25 who were in foster care at or after their 13th birthday.\",\n    \"Only 16% of eligible foster youth claimed the FYTC in 2023, resulting in millions of dollars in financial support going unused.\",\n    \"Foster youth who are parents can receive an average of $5,265 from the FYTC, while single filers can receive $1,117.\",\n    \"Many foster youth fail to file taxes, preventing access to the FYTC.\",\n    \"SB 624 will require counties to enhance outreach efforts using existing unspent funds.\",\n    \"The California Department of Social Services (CDSS) will provide statewide guidance and best practices for outreach under SB 624.\",\n    \"SB 624 mandates stronger education initiatives and partnerships with local Volunteer Income Tax Assistance (VITA) sites.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "004bbc5dfee1d303fa885d1bf2de6212ba1a2758"
+}

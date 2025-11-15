@@ -1,0 +1,13 @@
+{
+  "press_release": "20210211-berman-introduces-bill-create-office-school-based-health-programs-meet.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today Assemblymember Marc Berman (D-Menlo Park), along with joint author Assemblymember James C. Ramos and coauthors Senators Susan Talamantes Eggman and Henry Ste",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:23:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic has exacerbated inequities in health care and education.\",\n    \"California has historically lagged behind other states in the amount of federal reimbursement it receives for school-based health services.\",\n    \"As of September 2020, only 600 of Cali",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic has exacerbated inequities in health care and education.\",\n    \"California has historically lagged behind other states in the amount of federal reimbursement it receives for school-based health services.\",\n    \"As of September 2020, only 600 of California's 2,400 Local Educational Agencies (LEAs) participate in the Medi-Cal Billing Option Program.\",\n    \"California currently does not have an institutionalized partnership between the Department of Health Care Services and the California Department of Education to coordinate health programs and services delivered through schools.\",\n    \"The federal government agreed in July 2020 to reimburse schools for health services provided to all Medi-Cal eligible students, expanding eligibility to over 50% of the school-aged population.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f3f82aeec6d18689c835972a1212bfe22f7c13d5"
+}

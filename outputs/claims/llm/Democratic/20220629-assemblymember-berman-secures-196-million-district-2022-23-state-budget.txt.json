@@ -1,0 +1,13 @@
+{
+  "press_release": "20220629-assemblymember-berman-secures-196-million-district-2022-23-state-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:43:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A pilot program to address the cybersecurity workforce shortage will be established with a funding allocation of $4 million.\",\n    \"The funding for the cybersecurity pilot program aims to align the workforce needs of employers with the education and training provided by ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A pilot program to address the cybersecurity workforce shortage will be established with a funding allocation of $4 million.\",\n    \"The funding for the cybersecurity pilot program aims to align the workforce needs of employers with the education and training provided by higher education institutions.\",\n    \"The Caltrain Wireless Optimized Crossing System project will reduce gate down times at grade crossings, enhancing safety, mobility, and economic development.\",\n    \"Implementing the wireless optimized crossing system for Caltrain is projected to facilitate greater vehicle throughput at crossings.\",\n    \"The Caltrain Service Vision projects ridership growth to almost triple to 180,000 daily riders by 2040.\",\n    \"If ridership increases as projected, it could eliminate 825,000 car trips and reduce carbon emissions by 110 metric tons daily.\",\n    \"Replacement of crumb rubber infill with organic material in the Fair Oaks School Field will result in cooler field temperatures.\",\n    \"The new LED field light system at the Fair Oaks School will save energy costs.\",\n    \"Synthetic turf replacement in the Fair Oaks School Field is projected to save nearly 2 million gallons of water each year.\",\n    \"Youth in the foster care system are five times more likely to abuse drugs than their peers, according to the National Youth in Transition Database.\",\n    \"Data from the Administration for Children and Families indicates that 27% of foster youth aged 17 have been referred for substance abuse treatment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5475fb9bb3ed4a61f1d26afb20d4fa32315b2c22"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-helps-secure-525-million-long-term-care-ombudsman-programs.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh ( R-Yucaipa ) is pleased to announce that the final Budget Act of 2024 includes $5.25 million in additional annual funding for local Long-Term Care Omb",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The final Budget Act of 2024 includes $5.25 million in additional annual funding for local Long-Term Care Ombudsman Programs for the fiscal year 2024-2025.\",\n    \"Up to an additional $1 million in annual funding is anticipated starting in 2025-2026 from the California De",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The final Budget Act of 2024 includes $5.25 million in additional annual funding for local Long-Term Care Ombudsman Programs for the fiscal year 2024-2025.\",\n    \"Up to an additional $1 million in annual funding is anticipated starting in 2025-2026 from the California Department of Public Health’s State Health Facilities Citations Account, contingent on the stability of its reserves.\",\n    \"The $5.25 million in additional state funding will increase the total number of staff and volunteers for local Long-Term Care Ombudsman Programs statewide.\",\n    \"Increased staffing and volunteer support for Long-Term Care Ombudsman Programs will result in more access to Ombudsman services for facility residents.\",\n    \"Improving access to Ombudsman services will enhance the health, safety, and quality of life for tens of thousands of older adults and adults with disabilities living in long-term care facilities across California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6fc27e0a7df1e3762fe9d9273a41bee47324075f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220916-berman-host-health-and-wellness-fair-mountain-view.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:47:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Research shows the critical importance of preventive health screenings in ensuring children’s health and long-term development.\",\n    \"Preventive health screenings include dental, vision, heart, diabetes, and mental health screenings.\",\n    \"The Omicron booster will be p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Research shows the critical importance of preventive health screenings in ensuring children’s health and long-term development.\",\n    \"Preventive health screenings include dental, vision, heart, diabetes, and mental health screenings.\",\n    \"The Omicron booster will be provided at the Family Health and Wellness Fair.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "243abc69ac3235b203010a250b1678d6eb2c5999"
+}

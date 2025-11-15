@@ -1,0 +1,13 @@
+{
+  "press_release": "20220110-ramos-california-residents-especially-those-hit-hard-pandemic-must-also.txt",
+  "party": "Democratic",
+  "title": "Assemblymember James C. Ramos (D-Highland) today issued the following statement following an initial review after release of Governor Gavin Newsom’s 2022-23 state budget:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is economically healthy despite COVID-19, as indicated by the size of the state budget surplus.\",\n    \"Data is needed to establish a humane approach to offer shelter and services for the homeless.\",\n    \"The state budget proposal includes $2 billion for housin",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is economically healthy despite COVID-19, as indicated by the size of the state budget surplus.\",\n    \"Data is needed to establish a humane approach to offer shelter and services for the homeless.\",\n    \"The state budget proposal includes $2 billion for housing construction.\",\n    \"Mental health resources are desperately needed to combat the fentanyl crisis.\",\n    \"There is a need for timely investigations of drug overdose deaths to determine if fentanyl is a factor.\",\n    \"Legislation will be introduced to make Narcan, a treatment for overdose emergencies, more easily available.\",\n    \"Social media platforms should be held accountable for policies that facilitate the buying and selling of fentanyl online.\",\n    \"Modernizing technology is necessary to prepare for the future amidst challenges like climate change.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "05d0f33550834206f77f2af0d0cebe295c9d0f87"
+}

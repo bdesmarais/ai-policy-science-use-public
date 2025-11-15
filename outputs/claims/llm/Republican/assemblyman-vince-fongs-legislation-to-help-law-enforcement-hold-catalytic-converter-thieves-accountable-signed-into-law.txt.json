@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-vince-fongs-legislation-to-help-law-enforcement-hold-catalytic-converter-thieves-accountable-signed-into-law.txt",
+  "party": "Republican",
+  "title": "Catalytic converter theft is rampant in California, costing victims as much as $4,000 in repairs. In 2021, 1,600 converters were stolen each month, resulting in $23 million in repa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Catalytic converter theft is rampant in California, costing victims as much as $4,000 in repairs.\",\n    \"In 2021, 1,600 converters were stolen each month in California.\",\n    \"The theft of catalytic converters resulted in $23 million in repair costs in 2021.\",\n    \"Assem",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Catalytic converter theft is rampant in California, costing victims as much as $4,000 in repairs.\",\n    \"In 2021, 1,600 converters were stolen each month in California.\",\n    \"The theft of catalytic converters resulted in $23 million in repair costs in 2021.\",\n    \"Assembly Bill 641 allows law enforcement to charge thieves with illegal automobile dismantling when they are caught with nine or more stolen cut catalytic converters.\",\n    \"Unlicensed vehicle dismantling is a misdemeanor with fines ranging from $250 up to $1,000 per offense.\",\n    \"Assembly Bill 641 aims to close a loophole that prevents charging thieves found in possession of multiple detached converters with a crime.\",\n    \"Individuals and businesses with a legitimate purpose for possessing catalytic converters will remain exempt from registering as an automobile dismantler under Assembly Bill 641.\",\n    \"The implementation of Assembly Bill 641 is expected to provide law enforcement with a critical tool for proving a crime has occurred regarding catalytic converter theft.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4ed698a48da5878912223464a01246d99046acb5"
+}

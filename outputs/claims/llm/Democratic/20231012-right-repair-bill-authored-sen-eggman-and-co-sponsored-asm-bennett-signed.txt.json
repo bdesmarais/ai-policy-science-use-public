@@ -1,0 +1,13 @@
+{
+  "press_release": "20231012-right-repair-bill-authored-sen-eggman-and-co-sponsored-asm-bennett-signed.txt",
+  "party": "Democratic",
+  "title": "SB 244 (Eggman), also known as The Right to Repair Act, was signed into law by Governor Newsom on Wednesday, October 11, 2023.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:30:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Right to Repair Act will expand consumer choice in the repair marketplace by allowing consumers to repair devices.\",\n    \"Californians currently produce 772,000 tons of electronic waste per year.\",\n    \"With the enactment of SB 244, repair information will be made av",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Right to Repair Act will expand consumer choice in the repair marketplace by allowing consumers to repair devices.\",\n    \"Californians currently produce 772,000 tons of electronic waste per year.\",\n    \"With the enactment of SB 244, repair information will be made available to both consumers and independent repair shops at a fair and reasonable price.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d29444b217208fb2f9ff398395adc96e9fe66db4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230314-legislation-expand-atmospheric-river-research-program-passes-assembly.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:56:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Climate change is causing California's rainy seasons to be wetter and dry seasons to be dryer.\",\n    \"The ability to predict atmospheric rivers can help water managers and weather forecasters prepare for the future.\",\n    \"Atmospheric rivers typically carry an amount of ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Climate change is causing California's rainy seasons to be wetter and dry seasons to be dryer.\",\n    \"The ability to predict atmospheric rivers can help water managers and weather forecasters prepare for the future.\",\n    \"Atmospheric rivers typically carry an amount of water vapor roughly equivalent to the average flow of water at the mouth of the Mississippi River.\",\n    \"California has the technology to predict atmospheric rivers a week before they occur.\",\n    \"There has been a 20% improvement in predicting the five-day weather forecast due to advancements in technology.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c619826d5ac2b7baeafc81db3d1a851dd988ad6c"
+}

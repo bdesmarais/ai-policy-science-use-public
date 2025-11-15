@@ -1,0 +1,13 @@
+{
+  "press_release": "book-release-event-celebrates-the-pioneer-punjabi-immigrants-in-california.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Last night, the Punjabi American Heritage Society held a book release reception for “California’s Pioneer Punjabi’s: An American Story” at The California State Library",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:44:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The book 'California’s Pioneer Punjabi’s: An American Story' sheds light on the important contributions of Punjabi Sikh immigrants in California's history and present-day society.\",\n    \"The history of Sikhs in California is characterized by sacrifice, determination, and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The book 'California’s Pioneer Punjabi’s: An American Story' sheds light on the important contributions of Punjabi Sikh immigrants in California's history and present-day society.\",\n    \"The history of Sikhs in California is characterized by sacrifice, determination, and perseverance.\",\n    \"Punjabi immigrants in California at the turn of the 19th and 20th centuries faced low wages and racial discrimination while contributing to local agriculture.\",\n    \"Descendants of the first Punjabi Sikh immigrants continue to farm and contribute to the economy of California's Central Valley.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f89feb56d9ce90152f883691d5a1bddd6628745a"
+}

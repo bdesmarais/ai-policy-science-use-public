@@ -1,0 +1,13 @@
+{
+  "press_release": "ochoa-bogh-wallis-lead-effort-halt-another-upcoming-gas-price-hike.txt",
+  "party": "Republican",
+  "title": "Today, State Senator Rosilicie Ochoa Bogh ( R-Yucaipa ) and State Assemblymember Greg Wallis ( R-Bermuda Dunes ) urged California’s Air Resources Board Chair Liane Randolph to post",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:00:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's Air Resources Board (CARB) plans to vote on proposed changes to its Low-Carbon Fuel Standard (LCFS) program.\",\n    \"The proposed changes to the LCFS program will drastically drive up fuel prices.\",\n    \"Californians currently pay $1.50 more per gallon than t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's Air Resources Board (CARB) plans to vote on proposed changes to its Low-Carbon Fuel Standard (LCFS) program.\",\n    \"The proposed changes to the LCFS program will drastically drive up fuel prices.\",\n    \"Californians currently pay $1.50 more per gallon than the national average price.\",\n    \"The proposed changes to the LCFS program will add 65 to 85 cents per gallon to fuel prices next year.\",\n    \"The projected increase in fuel prices may reach as much as $1.50 by 2035.\",\n    \"CARB initially estimated a 47-cent increase in gas prices but retracted this estimate following criticism.\",\n    \"The only available projection for gas price increases comes from a report by Dr. Danny Cullenward at Stanford University, estimating an increase of 65 to 85 cents per gallon.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "195fc73c7b60c2bcad94931e6c0e219577564329"
+}

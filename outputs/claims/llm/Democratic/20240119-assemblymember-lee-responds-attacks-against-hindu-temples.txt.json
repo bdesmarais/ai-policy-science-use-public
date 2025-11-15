@@ -1,0 +1,13 @@
+{
+  "press_release": "20240119-assemblymember-lee-responds-attacks-against-hindu-temples.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Alex Lee has released the following statement in response to the spate of attacks against Northern California’s Hindu temples in recent months.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:33:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "661f950999ecc8dec0ddcc90524594ed5b3897d6"
+}

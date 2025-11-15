@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-bill-protecting-children-from-exposure-to-sexually-explicit-websites-passes-full-assembly-vote.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Juan Alanis announced his bill AB 3080 – Age Verification for Pornographic Websites – has unanimously passed a full vote on the floor of the Cali",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There are serious negative effects on young people who are exposed to pornographic material.\",\n    \"Regular consumption of pornographic material by young people can lead to addiction at a young age.\",\n    \"The consequences of early child exposure to pornographic material",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There are serious negative effects on young people who are exposed to pornographic material.\",\n    \"Regular consumption of pornographic material by young people can lead to addiction at a young age.\",\n    \"The consequences of early child exposure to pornographic material ripple out into future generations and society at large.\",\n    \"AB 3080 would require pornographic websites to utilize proven age-verification technology to confirm the user's legal age.\",\n    \"The internet contains a plethora of free pornographic material that is readily accessible to anyone regardless of age.\",\n    \"Seventeen states have already passed similar age-verification laws for pornographic websites.\",\n    \"Nineteen states are actively considering legislation regarding age verification for pornographic websites.\",\n    \"The Parent’s Accountability and Child Protection Act has been used to protect children from various forms of harm.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "058aa9d4e9f573b14ddfd7b1127b6cf3efe2828e"
+}

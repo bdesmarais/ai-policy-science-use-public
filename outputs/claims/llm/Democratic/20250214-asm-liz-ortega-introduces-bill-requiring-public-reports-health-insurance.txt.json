@@ -1,0 +1,13 @@
+{
+  "press_release": "20250214-asm-liz-ortega-introduces-bill-requiring-public-reports-health-insurance.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 682 requires health plans to publicly report on the number of claims they deny, including those decisions made using artificial intelligence.\",\n    \"Statistics from Healthcare.gov indicate that one in five claims are denied even if the patient remains in-ne",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 682 requires health plans to publicly report on the number of claims they deny, including those decisions made using artificial intelligence.\",\n    \"Statistics from Healthcare.gov indicate that one in five claims are denied even if the patient remains in-network.\",\n    \"Patients seeking care out-of-network have nearly a 50/50 chance of having their claim denied.\",\n    \"A 2023 report found that insurers of qualified health plans on HealthCare.gov denied 19% of in-network claims and 37% of out-of-network claims.\",\n    \"Fewer than 1% of patients appeal their denied claims, and 56% of those appeals result in the denial being upheld.\",\n    \"Appeals processes for denied claims are often unclear and labor-intensive, making it difficult for patients to submit appeals.\",\n    \"More than 50% of healthcare providers are using AI-driven claims management software as reported by a 2023 survey by Experian Health.\",\n    \"More than half (58.5%) of Americans filing for bankruptcy listed medical bills as a contributing factor to their bankruptcy, according to a 2016 National Institutes of Health study.\",\n    \"The Kaiser Family Foundation reports that more than 20 million people carry some form of medical debt.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a216d9f93002363527fa0676e9b0b81ab6b0b198"
+}

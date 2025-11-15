@@ -1,0 +1,13 @@
+{
+  "press_release": "20230621-nguyens-senior-scam-protection-legislation-advances.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Scammers are becoming more brazen in their attempts to extort and take financial advantage of seniors.\",\n    \"Many seniors have difficulty identifying scams, making them a prime target for financial abuse.\",\n    \"Current law allows DOJ investigators access to a victim's ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Scammers are becoming more brazen in their attempts to extort and take financial advantage of seniors.\",\n    \"Many seniors have difficulty identifying scams, making them a prime target for financial abuse.\",\n    \"Current law allows DOJ investigators access to a victim's financial records 30 days prior and 30 days following an alleged act of abuse.\",\n    \"AB 386 will extend access to financial records to 90 days prior and after an alleged act of fraud.\",\n    \"It is estimated that by 2030, one in five Californians will be age 65 or older, which is double the current over-65 population.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba8e193369ff6444b67e6250c8d335b3c158ecd2"
+}

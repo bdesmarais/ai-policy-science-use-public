@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-seeks-more-job-opportunities-veterans.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh ( R-Yucaipa ) has introduced Senate Bill 943 that would require the California Department of Human Resources (CalHR) to waive appropriate civil service",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Civil Service is losing a significant share of its veteran workforce due to aging and veterans leaving.\",\n    \"In 2021, the number of veterans who retired from state civil service was more than three times higher than those hired.\",\n    \"California is home",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Civil Service is losing a significant share of its veteran workforce due to aging and veterans leaving.\",\n    \"In 2021, the number of veterans who retired from state civil service was more than three times higher than those hired.\",\n    \"California is home to 8% of U.S. veterans.\",\n    \"30,000 new veterans will be discharged each year in California, more than any other state.\",\n    \"The number of veterans per capita in California has decreased by 48% between 2000 and 2016.\",\n    \"SB 943 will incentivize more veterans to remain in California and fill vacant civil service positions.\",\n    \"SB 943 requires CalHR to identify which classifications are appropriate for waiving bachelor's degree requirements for certain veterans.\",\n    \"SB 943 will help address both the exodus of veterans out of California and the civil service workforce shortage.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "635c443e7d3506c0f7eda830358c07e79d35235d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240906-speaker-robert-rivas-and-legislative-colleagues-deliver-farmworker.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:49:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2240 requires the Department of Housing and Community Development to submit a report analyzing the feasibility and impact of transitioning housing units at Office of Migrant Services centers to year-round availability.\",\n    \"Assembly Bill 2240 eliminates r",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2240 requires the Department of Housing and Community Development to submit a report analyzing the feasibility and impact of transitioning housing units at Office of Migrant Services centers to year-round availability.\",\n    \"Assembly Bill 2240 eliminates requirements that prevent farmworkers and their families' eligibility for housing.\",\n    \"Under the current system, children and students of farmworkers are often forced to move from school to school or have missed class for months at a time.\",\n    \"Senate Bill 1299 increases protections for farmworkers during record-breaking heat waves.\",\n    \"Senate Bill 1299 ensures that farmworkers receive treatment and expeditious compensation if they suffer a work-related heat injury or illness due to employer noncompliance.\",\n    \"Senate Bill 1299 requires agricultural employers to comply with existing heat laws, which will save farmworker lives.\",\n    \"Nearly 50% of farmworkers today report their farming employer not complying with existing heat laws.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c42ac6bb1f53aca236a9a333218609431a7d6703"
+}

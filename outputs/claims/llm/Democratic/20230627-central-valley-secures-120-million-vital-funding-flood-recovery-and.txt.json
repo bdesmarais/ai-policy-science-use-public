@@ -1,0 +1,13 @@
+{
+  "press_release": "20230627-central-valley-secures-120-million-vital-funding-flood-recovery-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Merced County has recently faced several emergency situations, including devastating flooding which impacted the unincorporated community of Planada.\",\n    \"$20 million in funding will serve to address the financial loss caused by the floods: vehicle damage, home remedia",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Merced County has recently faced several emergency situations, including devastating flooding which impacted the unincorporated community of Planada.\",\n    \"$20 million in funding will serve to address the financial loss caused by the floods: vehicle damage, home remediation, damaged furniture and appliances.\",\n    \"A large proportion of Planada’s population is non-citizen and likely undocumented, and therefore may be ineligible for Unemployment Insurance and federal disaster aid.\",\n    \"State-level reforms addressing issues of undocumented status go a long way in closing the gaps in existing federal disaster response.\",\n    \"Promise Housing will become the first and only Intersegmental Affordable Student Housing Facility in the San Joaquin Valley.\",\n    \"$100 million is allocated for the Promise Housing Initiative, which is an affordable housing project.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d2878b8680bb46193ec7050f093fbb00f3b80487"
+}

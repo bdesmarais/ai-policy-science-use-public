@@ -1,0 +1,13 @@
+{
+  "press_release": "20230519-california-state-assembly-passes-legislation-provide-greater-oversight.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The role of private judges has come under increased scrutiny following media reports about attorney Tom Girardi allegedly stealing millions from his clients.\",\n    \"There are questions about the role of private judges in enabling misconduct in the legal system.\",\n  ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The role of private judges has come under increased scrutiny following media reports about attorney Tom Girardi allegedly stealing millions from his clients.\",\n    \"There are questions about the role of private judges in enabling misconduct in the legal system.\",\n    \"Some private judges may have been aware of misconduct allegations against Tom Girardi and assisted him in circumventing safeguards.\",\n    \"Private judges have significant power in the legal system, yet no government entity specifically monitors their conduct.\",\n    \"Assembly Bill 924 would mandate that private judges report written complaints alleging violations of conduct to the State Bar of California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6ca801534421b0b8b4b760f4bed0800c1a7d1fd1"
+}

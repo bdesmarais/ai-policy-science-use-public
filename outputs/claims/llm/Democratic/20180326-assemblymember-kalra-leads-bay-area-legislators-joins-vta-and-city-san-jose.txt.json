@@ -1,0 +1,13 @@
+{
+  "press_release": "20180326-assemblymember-kalra-leads-bay-area-legislators-joins-vta-and-city-san-jose.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Ash Kalra (D-San Jose), who represents downtown San Jose, submitted a letter today to the San Francisco Bay Area Rapid Transit’s (BART) Board of Directo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Single-bore tunneling provides increased operational flexibility.\",\n    \"Single-bore tunneling improves passenger experience.\",\n    \"Single-bore tunneling results in less disruptive construction.\",\n    \"Single-bore tunneling can exceed safety standards to mitigate agains",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Single-bore tunneling provides increased operational flexibility.\",\n    \"Single-bore tunneling improves passenger experience.\",\n    \"Single-bore tunneling results in less disruptive construction.\",\n    \"Single-bore tunneling can exceed safety standards to mitigate against fire and other life-safety risks.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "61e0315b9344ca24e0f9995e6747021390eb38d6"
+}

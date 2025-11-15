@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-newsom-needs-to-stop-defending-high-speed-rail.txt",
+  "party": "Republican",
+  "title": "It is time to Reprioritize State’s Billion-Dollar Spending on the High-Speed Rail to Wildfire Victims and Central Valley Residents Following Budget Committee.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The High-Speed Rail project is over budget and behind schedule.\",\n    \"There is an immediate $7 billion funding shortfall for completing the $35.2 billion Merced-to-Bakersfield segment of the High-Speed Rail.\",\n    \"The High-Speed Rail Authority has not put forth a plan ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The High-Speed Rail project is over budget and behind schedule.\",\n    \"There is an immediate $7 billion funding shortfall for completing the $35.2 billion Merced-to-Bakersfield segment of the High-Speed Rail.\",\n    \"The High-Speed Rail Authority has not put forth a plan to bridge the funding gap.\",\n    \"The High-Speed Rail Authority has not completed a risk analysis for its plan to complete the Merced-to-Bakersfield segment.\",\n    \"The projected cost of the High-Speed Rail has increased from $34 billion to $128 billion.\",\n    \"No track has been laid for the High-Speed Rail project despite $13.7 billion spent over 17 years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "117d2d12b63a5f3e7e46bd8ad0dea51def55c20e"
+}

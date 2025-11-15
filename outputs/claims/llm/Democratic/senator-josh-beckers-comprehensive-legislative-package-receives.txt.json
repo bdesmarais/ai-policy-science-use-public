@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-beckers-comprehensive-legislative-package-receives.txt",
+  "party": "Democratic",
+  "title": "Becker’s legislative package moves California’s forward on protecting individual privacy rights, achieving a greener, cleaner and more affordable economy, and creating a fairer jus",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has implemented sweeping policies on climate change.\",\n    \"California has enacted legislation to protect personal data from being sold by unknown entities.\",\n    \"The legislation aims to reform the justice system to prevent unjust punishment of incarcerated i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has implemented sweeping policies on climate change.\",\n    \"California has enacted legislation to protect personal data from being sold by unknown entities.\",\n    \"The legislation aims to reform the justice system to prevent unjust punishment of incarcerated individuals and their families.\",\n    \"SB 362 creates a first-in-the-nation option for individuals to delete their online data.\",\n    \"SB 48 aims to cut carbon emissions in large and older buildings.\",\n    \"SB 49 incentivizes solar and clean energy projects alongside highways.\",\n    \"SB 410 holds utilities accountable to improve the connection of homes and businesses to the grid.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1ec8f91fc32701419de4adca7adeb6e739183451"
+}

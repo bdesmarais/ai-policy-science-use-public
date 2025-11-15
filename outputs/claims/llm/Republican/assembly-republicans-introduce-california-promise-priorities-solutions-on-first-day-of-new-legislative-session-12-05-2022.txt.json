@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-introduce-california-promise-priorities-solutions-on-first-day-of-new-legislative-session-12-05-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – During the first day of the new legislative session, Assembly Republicans announced their priorities and several specific legislative proposals that will be officially",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "124b34f729ef0781768b2b5e56001cb0dc274274"
+}

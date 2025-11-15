@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-bill-brokering-deal-rest-breaks-flight-attendants-clears-first-committee.txt",
+  "party": "Democratic",
+  "title": "Legislation by Senator Dave Cortese (D-San Jose) that would resolve major industry and labor issues tied to rest breaks and related compensation for flight attendants passed a key ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 41 provides a course correction by exempting California-based cabin crews from the meal and rest break law if there is a Collective Bargaining Agreement that provides for breaks or appropriate compensation.\",\n    \"The bill accommodates the unique work environment of c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 41 provides a course correction by exempting California-based cabin crews from the meal and rest break law if there is a Collective Bargaining Agreement that provides for breaks or appropriate compensation.\",\n    \"The bill accommodates the unique work environment of commercial flight attendants by allowing them to negotiate meal and rest break benefits.\",\n    \"SB 41 results from an agreement between the Association of Flight Attendants-CWA, the Transport Workers Union (TWU), and commercial airlines.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "556f9ebbdaa5eae3b71b7b9febacc838b004e4d2"
+}

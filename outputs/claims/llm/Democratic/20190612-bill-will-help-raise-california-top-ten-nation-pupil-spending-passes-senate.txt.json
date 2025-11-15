@@ -1,0 +1,13 @@
+{
+  "press_release": "20190612-bill-will-help-raise-california-top-ten-nation-pupil-spending-passes-senate.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:08:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill 39 proposes aspirational funding targets to increase California's K-12 funding by $35 billion.\",\n    \"This increase in funding would ensure all school districts have full and fair funding to cover increasing fixed costs.\",\n    \"California has historica",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill 39 proposes aspirational funding targets to increase California's K-12 funding by $35 billion.\",\n    \"This increase in funding would ensure all school districts have full and fair funding to cover increasing fixed costs.\",\n    \"California has historically been below the national average in per pupil K-12 funding.\",\n    \"The bill proposes a 58 percent increase to the 2018-19 cost of the Local Control Funding Formula (LCFF).\",\n    \"The funding increase is designed to expand the Base Grant portion of the LCFF, providing greater spending flexibility for districts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c64f160364e3e2caaab8af7d4bd2d6bc62433b30"
+}

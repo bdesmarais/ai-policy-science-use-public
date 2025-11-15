@@ -1,0 +1,13 @@
+{
+  "press_release": "20220930-california-reform-flawed-recall-system.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The process for local recall elections in California is currently open to gamesmanship that undermines the democratic process.\",\n    \"AB 2584 will help protect against frivolous recall elections.\",\n    \"AB 2584 will provide voters with accurate information.\",\n    \"AB 258",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The process for local recall elections in California is currently open to gamesmanship that undermines the democratic process.\",\n    \"AB 2584 will help protect against frivolous recall elections.\",\n    \"AB 2584 will provide voters with accurate information.\",\n    \"AB 2584 will maximize community participation in government decision making.\",\n    \"AB 2584 will increase transparency in the recall process.\",\n    \"AB 2584 will boost participation by consolidating special elections.\",\n    \"AB 2584 raises the initial signature threshold for a special election to a higher level.\",\n    \"The bill applies the same accuracy standards to petition statements as are required of information in other election contests.\",\n    \"AB 2584 will reduce the cost to taxpayers of holding multiple, redundant elections.\",\n    \"California's recall system, designed in the early 20th century, raises questions about its checks and balances to ensure a democratic and fair process.\",\n    \"AB 2584 addresses the signature threshold to initiate a recall.\",\n    \"AB 2584 enhances the information provided to recall petition signers regarding the potential fiscal impact of school district-related recall elections.\",\n    \"AB 2584 allows additional opportunities to consolidate a local recall election with a regularly scheduled election.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "73b0af9575a32dfb8b76e7f89296ef97973fe27a"
+}

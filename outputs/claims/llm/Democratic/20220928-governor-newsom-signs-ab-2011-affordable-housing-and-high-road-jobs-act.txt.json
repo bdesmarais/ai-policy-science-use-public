@@ -1,0 +1,13 @@
+{
+  "press_release": "20220928-governor-newsom-signs-ab-2011-affordable-housing-and-high-road-jobs-act.txt",
+  "party": "Democratic",
+  "title": "SAN FRANCISCO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2011 will accelerate production of approximately 2 million units of affordable and mixed-income housing along transit-friendly commercial corridors.\",\n    \"AB 2011 will create strong labor protections that ensure all workers on these jobs earn high wages and health be",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2011 will accelerate production of approximately 2 million units of affordable and mixed-income housing along transit-friendly commercial corridors.\",\n    \"AB 2011 will create strong labor protections that ensure all workers on these jobs earn high wages and health benefits.\",\n    \"AB 2011 will help combat climate change by promoting infill development close to jobs and transit.\",\n    \"AB 2011 pairs new opportunities to build 100% affordable housing and mixed-income housing on underutilized commercial sites with requirements for responsible wage and training standards.\",\n    \"An independent analysis concluded that AB 2011 has the capacity to produce between 300,000 to 400,000 income-restricted affordable homes across California.\",\n    \"The analysis found that AB 2011 could increase net local and state tax revenues.\",\n    \"AB 2011 could dramatically reduce the environmental footprint of new housing, with impacted households estimated to use 40% less water, drive 33% fewer miles, and produce up to 45% fewer greenhouse gas emissions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5284eeec786e025d9203fcfbfb4723961e94e155"
+}

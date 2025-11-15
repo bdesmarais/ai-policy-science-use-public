@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-senator-ochoa-boghs-bill-protecting-rights-established-speech-language.txt",
+  "party": "Republican",
+  "title": "Senator Ochoa Bogh (R-Yucaipa) announced Governor Gavin Newsom has signed Senate Bill 612 . This pivotal bill provides clarity regarding the application of training requirements fo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 612 provides clarity regarding the application of training requirements for speech-language pathologists (SLPs) performing specific diagnostic procedures.\",\n    \"The signing of SB 612 ensures that experienced speech-language pathologists can continue serving ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 612 provides clarity regarding the application of training requirements for speech-language pathologists (SLPs) performing specific diagnostic procedures.\",\n    \"The signing of SB 612 ensures that experienced speech-language pathologists can continue serving patients without unnecessary hindrances.\",\n    \"Many patients have required a Flexible Endoscopic Evaluation of Swallowing (FEES) assessment in the pandemic’s aftermath.\",\n    \"SLPs play an integral role in the diagnostic process for dysphagia issues stemming from intubation.\",\n    \"SB 1453 allowed SLPs to perform FEES without repeated authorizations from an Ear, Nose, and Throat (ENT) doctor.\",\n    \"SB 1453 required SLPs to receive a one-time written verification of competency after a defined number of supervised procedures.\",\n    \"SB 612 ensures that the additional training stipulations implemented by SB 1453 will only affect SLPs obtaining their written verification of competency on or post-January 1, 2023.\",\n    \"This clarification safeguards the rights of SLPs who were already practicing FEES before 2023.\",\n    \"SB 612 will allow previously certified competent SLPs to continue to perform FEES in their settings across the state.\",\n    \"Speech-language pathologists are the primary professionals who provide timely swallow evaluations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb414e94815c21961982c23951596d2c41ab635d"
+}

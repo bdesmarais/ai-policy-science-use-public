@@ -1,0 +1,13 @@
+{
+  "press_release": "north-state-lawmakers-introduce-new-legislation-to-help-save-paradise-water.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO, Calif. –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:00:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Paradise Irrigation District intertie project is expected to expedite the construction timelines for providing water to the Town of Paradise.\",\n    \"The intertie project would allow PID to temporarily sell surface water that is otherwise stranded in two reservoirs.\",",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Paradise Irrigation District intertie project is expected to expedite the construction timelines for providing water to the Town of Paradise.\",\n    \"The intertie project would allow PID to temporarily sell surface water that is otherwise stranded in two reservoirs.\",\n    \"The intertie project aims to provide greater resiliency to Butte County's groundwater basins.\",\n    \"The proposed project will utilize alternative delivery methods like design-build to enhance flexibility in design and construction.\",\n    \"The benefits of the intertie project include the installation of fire hydrants along the town's main evacuation route.\",\n    \"The intertie project presents an opportunity for power generation that could benefit the County’s Community Choice Aggregation power purchase program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "49620b719998dc16ea22b2fa550aa1511c26b848"
+}

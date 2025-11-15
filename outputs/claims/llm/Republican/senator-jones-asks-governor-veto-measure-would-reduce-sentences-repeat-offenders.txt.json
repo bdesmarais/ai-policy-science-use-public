@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-asks-governor-veto-measure-would-reduce-sentences-repeat-offenders.txt",
+  "party": "Republican",
+  "title": "El Cajon – Senator Brian Jones (R-Santee) today sent the following letter to Governor Gavin Newsom requesting a veto of Senate Bill 136, a measure by Senator Scott Wiener (D-San Fr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 136 would eliminate the one-year enhancement imposed on every repeat offender for each prior felony conviction.\",\n    \"Those who repeatedly violate the law are generally more of a public safety threat than first-time offenders.\",\n    \"There is a genuine conce",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 136 would eliminate the one-year enhancement imposed on every repeat offender for each prior felony conviction.\",\n    \"Those who repeatedly violate the law are generally more of a public safety threat than first-time offenders.\",\n    \"There is a genuine concern among Californians that recent legislation has led to more potentially dangerous individuals on the streets.\",\n    \"Enhancements acknowledge the seriousness of the harm inflicted upon victims and hold accountable habitual and dangerous offenders who commit violent felonies.\",\n    \"Senator Brian Jones believes that SB 136 will undermine the public safety of Californians.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a5abc2ff3045238cd8881083efd88bd705f77f84"
+}

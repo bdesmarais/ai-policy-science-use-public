@@ -1,0 +1,13 @@
+{
+  "press_release": "20220708-california-approves-5-million-fund-diversity-science-and-technology.txt",
+  "party": "Democratic",
+  "title": "The State of California has approved $5 million in funding for the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The State of California has approved $5 million in funding for the Cal-Bridge program.\",\n    \"The Cal-Bridge program provides a pathway for underrepresented students to pursue advanced Ph.D. degrees and join the California science and technology workforce.\",\n    \"The Cal",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The State of California has approved $5 million in funding for the Cal-Bridge program.\",\n    \"The Cal-Bridge program provides a pathway for underrepresented students to pursue advanced Ph.D. degrees and join the California science and technology workforce.\",\n    \"The Cal-Bridge program is a partnership between 9 UC, 23 CSU, and 116 community colleges across California.\",\n    \"The new funding will enable the Cal-Bridge program to expand the subject areas covered.\",\n    \"Diversifying the professoriate will lead to increased representation in the technology workforce by supporting historically underrepresented groups in completing STEM degrees.\",\n    \"Countries around the world are increasing their investment in science and technology.\",\n    \"Using all available talent in developing expertise and capabilities in science and technology is an issue of economic and national security.\",\n    \"The Cal-Bridge program creates a comprehensive pathway from undergraduate education to membership in the professoriate and science and technology workforce.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4a6cb486ad5c3905d6417c8d39dcc33a3c84da5f"
+}

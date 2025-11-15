@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-joness-airport-bill-flies-governors-desk-unanimous-approval.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones (R-San Diego) announced his Senate Bill 654 , a measure sponsored by his constituents, unanimously passed off the Assembly Floor. SB 65",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 654 addresses ambiguity in state law regarding airport and hangar leases.\",\n    \"The County’s policy has hampered investment in airport facility maintenance, which relies on lessee investments that often take decades to pay off.\",\n    \"SB 654 clarifies existing law to",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 654 addresses ambiguity in state law regarding airport and hangar leases.\",\n    \"The County’s policy has hampered investment in airport facility maintenance, which relies on lessee investments that often take decades to pay off.\",\n    \"SB 654 clarifies existing law to give explicit permission to local airports to extend airport hangar leases beyond a 50-year total.\",\n    \"SB 654 ensures equal application of state law across counties.\",\n    \"SB 654 restores investment in California’s airport infrastructure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ab38d7e55b8a85c0cf5d8aa0c436181f32c565c9"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250303-bennett-bill-create-accessibility-committee-state-parks.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) - Assemblymember Steve Bennett (D-Ventura) introduced AB 1225 to establish an Accessibility Advisory Committee under the state's Department of Parks & Recreation to su",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:29:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The establishment of an Accessibility Advisory Committee can enhance accessibility in California's State Parks system.\",\n    \"California's State Parks system has historical roots dating back to the establishment of Yosemite Valley and Mariposa Grove in 1864.\",\n    \"Major",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The establishment of an Accessibility Advisory Committee can enhance accessibility in California's State Parks system.\",\n    \"California's State Parks system has historical roots dating back to the establishment of Yosemite Valley and Mariposa Grove in 1864.\",\n    \"Major advancements towards the inclusion of disabled people in public society have occurred since the turn of the century.\",\n    \"The Americans with Disabilities Act (ADA) was passed in 1990.\",\n    \"Many state parks' trails and public access planning predate the ADA, highlighting a historical oversight of accessibility.\",\n    \"The implementation of a dedicated advisory body can help remedy systemic accessibility issues affecting visitors of state parks.\",\n    \"Public spaces should be accessible to people of all abilities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f93cdd5c0da1578796173fab1e56b01ccc683ceb"
+}

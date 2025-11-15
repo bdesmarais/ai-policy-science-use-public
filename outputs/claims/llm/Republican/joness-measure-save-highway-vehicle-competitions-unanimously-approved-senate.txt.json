@@ -1,0 +1,13 @@
+{
+  "press_release": "joness-measure-save-highway-vehicle-competitions-unanimously-approved-senate.txt",
+  "party": "Republican",
+  "title": "Legislation by Senator Brian W. Jones (R-Santee) to save off-highway vehicle (OHV) competitions in California was unanimously approved by the State Senate.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:55:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Senate recognized that the measure is not just for the OHV community, but also for environmental programs and local economies throughout California.\",\n    \"Competition OHVs have long been regulated through the Red Sticker program under the California Air Resources Bo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Senate recognized that the measure is not just for the OHV community, but also for environmental programs and local economies throughout California.\",\n    \"Competition OHVs have long been regulated through the Red Sticker program under the California Air Resources Board (CARB).\",\n    \"The Red Sticker program allowed competition OHVs to operate in the state for the past two decades.\",\n    \"The Red Sticker program ended last year with no program planned to replace it.\",\n    \"The uncertainty around OHV competitions negatively impacts local businesses, jobs, and the economy of many rural and suburban regions.\",\n    \"Funding for environmental work and law enforcement has been lost due to the uncertainty caused by the end of the Red Sticker program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "24aa11f1dcbff2c0ebd0b019f70664a93f7a4e6d"
+}

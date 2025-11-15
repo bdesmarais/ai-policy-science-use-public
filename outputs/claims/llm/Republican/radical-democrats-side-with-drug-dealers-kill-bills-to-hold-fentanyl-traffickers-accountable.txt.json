@@ -1,0 +1,13 @@
+{
+  "press_release": "radical-democrats-side-with-drug-dealers-kill-bills-to-hold-fentanyl-traffickers-accountable.txt",
+  "party": "Republican",
+  "title": "Task forces and increased coordination are better than nothing, but Californians are demanding accountability.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "66bb927c8a9c098796f4ca17a1a7912c24b67490"
+}

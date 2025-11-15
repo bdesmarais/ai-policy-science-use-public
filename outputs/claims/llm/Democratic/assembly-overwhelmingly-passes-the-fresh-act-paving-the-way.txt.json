@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-overwhelmingly-passes-the-fresh-act-paving-the-way.txt",
+  "party": "Democratic",
+  "title": "SB 1254 (The FRESH Act) connects incarcerated individuals with vital services such as CalFresh and other resources prior to release in order to increase the success of reentry.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The FRESH Act allows incarcerated individuals to pre-apply for CalFresh benefits 90 days prior to their release.\",\n    \"The FRESH Act taps into underutilized federal funding that supports CalFresh.\",\n    \"Expanding eligibility for CalFresh would unlock an estimated $1.8 ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The FRESH Act allows incarcerated individuals to pre-apply for CalFresh benefits 90 days prior to their release.\",\n    \"The FRESH Act taps into underutilized federal funding that supports CalFresh.\",\n    \"Expanding eligibility for CalFresh would unlock an estimated $1.8 billion in additional CalFresh dollars from the federal government each year.\",\n    \"The new federal money from expanded CalFresh eligibility would generate an estimated additional $3.3 billion in economic activity per year.\",\n    \"Food insecurity is one of the most challenging hurdles that previously-incarcerated individuals face upon reentry.\",\n    \"In 2019, roughly 1 in 5 formerly incarcerated people suffered from food insecurity.\",\n    \"The FRESH Act creates a process for CalFresh enrollment, which previously did not exist for supportive services.\",\n    \"The CalFresh Employment and Training program can further drive economic benefits for recently incarcerated individuals.\",\n    \"Expanding and streamlining access to benefits increases the success of reentry for incarcerated individuals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7438c5b16cb3167897eb5dff861a0ba567352b1c"
+}

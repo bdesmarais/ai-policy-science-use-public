@@ -1,0 +1,13 @@
+{
+  "press_release": "20221206-statement-assemblymember-dawn-addis-federal-offshore-wind-auction.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA — Assemblymember Dawn Addis (D-Morro Bay) made the following statement in response to the opening of today's Bureau of Ocean Energy Management (BOEM) first-ever auct",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:51:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The development of offshore wind off the central coast will impact communities in ways that are not fully understood today.\",\n    \"If done right, offshore wind will benefit California's push for 100 percent clean energy and the economy.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The development of offshore wind off the central coast will impact communities in ways that are not fully understood today.\",\n    \"If done right, offshore wind will benefit California's push for 100 percent clean energy and the economy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "be82ff5cd4d9a9c64fdf2927751259ccf68a14bf"
+}

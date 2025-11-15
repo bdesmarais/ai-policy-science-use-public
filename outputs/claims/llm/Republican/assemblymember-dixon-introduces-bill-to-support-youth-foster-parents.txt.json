@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-introduces-bill-to-support-youth-foster-parents.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Diane Dixon (R-Newport Beach) introduced Assembly Bill 1952 which seeks to increase support for infants parented by foster youth.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill seeks to increase support for infants parented by foster youth.\",\n    \"Organizations like Mary's Path provide intensive support to pregnant youth and parenting teens who have experienced trauma and child sex trafficking.\",\n    \"There are only 49 beds in the stat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill seeks to increase support for infants parented by foster youth.\",\n    \"Organizations like Mary's Path provide intensive support to pregnant youth and parenting teens who have experienced trauma and child sex trafficking.\",\n    \"There are only 49 beds in the state specifically dedicated to pregnant foster youth or those who recently gave birth.\",\n    \"Mary's Path operates 30 percent of the 49 beds dedicated to pregnant foster youth.\",\n    \"State support for caring for young mothers has not kept pace with the costs of caring for both mother and baby.\",\n    \"Approximately 32 percent of foster youth become parents before the age of 21.\",\n    \"The infant supplement formula has not been increased since 2016, while products like diapers have risen 22% since 2018.\",\n    \"Increasing the infant supplement formula will be adjusted for future inflation in accordance with the California Necessities Index (CNI).\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "de88dce2b1b285272fb03007e54d924d74dfe73a"
+}

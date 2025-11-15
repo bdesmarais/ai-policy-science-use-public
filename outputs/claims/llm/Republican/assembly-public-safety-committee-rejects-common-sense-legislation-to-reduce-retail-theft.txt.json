@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-public-safety-committee-rejects-common-sense-legislation-to-reduce-retail-theft.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:38:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A recent UC Berkeley/LA Times poll found that 78% of voters believe crime has risen over the past year.\",\n    \"59% of voters would support increasing penalties on property crimes.\",\n    \"Folsom businesses experienced $1.4 million in losses in 2021, including $353,000 in ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A recent UC Berkeley/LA Times poll found that 78% of voters believe crime has risen over the past year.\",\n    \"59% of voters would support increasing penalties on property crimes.\",\n    \"Folsom businesses experienced $1.4 million in losses in 2021, including $353,000 in shoplifting alone.\",\n    \"Proposition 47 makes it very tough to do business in California because of a lack of accountability.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "408e959e6d5a4fdc43b44f4b8184082d2bfc8727"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240130-assemblymember-connolly-joint-authors-bill-repealing-fixed-utility-charge.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) participated in a press conference announcing the introduction of a new bill, which repeals the California Publ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:33:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The new fixed utility charge will unfairly burden ratepayers and increase costs on working families.\",\n    \"The proposal is unjust to low energy-using households.\",\n    \"The income-based fixed utility charge could remove the incentive for energy conservation needed to av",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The new fixed utility charge will unfairly burden ratepayers and increase costs on working families.\",\n    \"The proposal is unjust to low energy-using households.\",\n    \"The income-based fixed utility charge could remove the incentive for energy conservation needed to avoid environmental ramifications.\",\n    \"The decision regarding the new fixed utility charge was made without public participation hearings.\",\n    \"The legislation to repeal the income-graduated fixed utility charge acknowledges that while a fixed charge may be needed, significant policy shifts should not proceed without sufficient public participation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba2547735e003a8bf0cab8538dcf25a7b8dc2a0d"
+}

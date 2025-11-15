@@ -1,0 +1,13 @@
+{
+  "press_release": "20210317-asm-wicks-announces-bill-address-racial-healthcare-disparities.txt",
+  "party": "Democratic",
+  "title": "OAKLAND — To begin addressing the disproportionate impact of COVID-19 on communities of color, Assemblymember Buffy Wicks (D-Oakland) is taking the lead and working with frontline ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The Race & Healthcare Transparency Act will establish the collection of data on patient health outcomes by race, ethnicity, and other vulnerable demographic groups.\",\n    \"Public health officials need to understand the long-term impact of COVID-19 and other determin",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The Race & Healthcare Transparency Act will establish the collection of data on patient health outcomes by race, ethnicity, and other vulnerable demographic groups.\",\n    \"Public health officials need to understand the long-term impact of COVID-19 and other determinants of health on communities of color to make informed decisions.\",\n    \"Limited data from healthcare providers on the health and wellbeing of people of color exists in California.\",\n    \"Black, Latino, and Indigenous people are at increased risk of exposure, illness, hospitalization, and death due to Coronavirus relative to their share of the population.\",\n    \"Healthcare disparities can be addressed by requiring healthcare providers to publicly post and submit annual reports on health outcomes by demographic groups.\",\n    \"Annual reports by healthcare providers must include a plan to address any identified disparities to improve care.\",\n    \"Healthcare employers with more than 100 employees are required to include in their reports their most recent pay data and a plan for improving equity and diversity of staff and management.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f8f205c021f0ca2de196e530d966c1ab484b2d4a"
+}

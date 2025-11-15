@@ -1,0 +1,13 @@
+{
+  "press_release": "wildfires-erupt-throughout-state-california-senator-corteses-bill-reducing-wildfire-risk-while.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Senator Dave Cortese’s (D-Silicon Valley) Senate Bill 653 that defines and promotes environmentally sensitive vegetation management to reduce catastrophic wildfire ris",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Senate Bill 653 promotes environmentally sensitive vegetation management to reduce catastrophic wildfire risk while protecting native plants and wildlife.\",\n    \"Senate Bill 653 is a science-based approach that addresses the tension between wildfire prevention and e",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Senate Bill 653 promotes environmentally sensitive vegetation management to reduce catastrophic wildfire risk while protecting native plants and wildlife.\",\n    \"Senate Bill 653 is a science-based approach that addresses the tension between wildfire prevention and environmental conservation.\",\n    \"The bill aims to guide state agencies to prioritize ecological best practices while reducing long-term catastrophic wildfire risk.\",\n    \"The passage of SB 653 ensures that wildfire prevention efforts are both effective and ecologically sound.\",\n    \"The bill will help prevent the proliferation of invasive weeds that are often highly fire prone.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "83f237a41267961d2b72b2dfbdea7374f878a3e0"
+}

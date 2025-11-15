@@ -1,0 +1,13 @@
+{
+  "press_release": "20231218-assemblymember-haney-and-community-partners-host-joy-city-holiday.txt",
+  "party": "Democratic",
+  "title": "San Francisco -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2efa9d85f6cb33e76fe7ae51a37ac9470de1d4f5"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-minority-leader-jones-urges-friendly-veto-measure-legalizing-psychedelics.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones (R-San Diego) sent a letter to Governor Newsom urging a “friendly veto” of Senate Bill 58 (Wiener, D-San Francisco) . If not vetoed, SB 58 wil",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:06:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 58 will decriminalize the personal use of specified hallucinogens for people over age 21 starting in January 2025.\",\n    \"SB 58 would decriminalize the personal use of dimethyltryptamine (DMT), mescaline, psilocybin, and psilocin by people age 21 or older.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 58 will decriminalize the personal use of specified hallucinogens for people over age 21 starting in January 2025.\",\n    \"SB 58 would decriminalize the personal use of dimethyltryptamine (DMT), mescaline, psilocybin, and psilocin by people age 21 or older.\",\n    \"The drugs mentioned in SB 58 remain illegal under federal law.\",\n    \"Leader Jones expressed concerns that SB 58 allows for unsupervised, 'self-medicating' use of hallucinogens.\",\n    \"Jones stated that as currently written, SB 58 will put people's lives in jeopardy.\",\n    \"Law enforcement officials and organizations throughout the state have voiced concerns regarding SB 58.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6d78b8e340395f7242fe0a1d16532d026f7018f8"
+}

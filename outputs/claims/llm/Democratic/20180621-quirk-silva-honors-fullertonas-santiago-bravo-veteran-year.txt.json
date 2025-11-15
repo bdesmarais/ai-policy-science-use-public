@@ -1,0 +1,13 @@
+{
+  "press_release": "20180621-quirk-silva-honors-fullertonas-santiago-bravo-veteran-year.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Santiago Bravo served in the US Army from 2003-2007.\",\n    \"Santiago Bravo earned the National Defense Medal during his military service.\",\n    \"Santiago Bravo earned the Overseas Service Ribbon during his military service.\",\n    \"Santiago Bravo earned the Iraqi Campaign",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Santiago Bravo served in the US Army from 2003-2007.\",\n    \"Santiago Bravo earned the National Defense Medal during his military service.\",\n    \"Santiago Bravo earned the Overseas Service Ribbon during his military service.\",\n    \"Santiago Bravo earned the Iraqi Campaign Ribbon during his military service.\",\n    \"Santiago Bravo earned the Presidential Unit Citation during his military service.\",\n    \"Santiago Bravo was deployed on two separate occasions during the Global War on Terrorism.\",\n    \"Santiago Bravo's Battalion took part in Operation Red Dawn, which led to the capture of Iraqi dictator Saddam Hussein.\",\n    \"The Sgt. Bravo Foundation is committed to fighting Post-Traumatic Stress Disorder.\",\n    \"The Sgt. Bravo Foundation is committed to fighting traumatic brain injuries.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0577ffeb83973eca5148dafe6705bd2edfe1522d"
+}

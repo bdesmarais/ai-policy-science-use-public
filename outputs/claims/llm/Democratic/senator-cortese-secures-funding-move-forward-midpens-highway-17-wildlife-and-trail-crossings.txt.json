@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-secures-funding-move-forward-midpens-highway-17-wildlife-and-trail-crossings.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) has secured $2 million to move forward the Midpeninsula Regional Open Space District’s (Midpen) Highway 17 Wildlife and Trail Crossings Project an",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Highway 17 Wildlife and Trail Crossings Project will create a secure crossing for trail users while facilitating the safe movement of wildlife in the Santa Cruz Mountains.\",\n    \"Highway 17 fragments thousands of acres in the Santa Cruz Mountains, limiting the abilit",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Highway 17 Wildlife and Trail Crossings Project will create a secure crossing for trail users while facilitating the safe movement of wildlife in the Santa Cruz Mountains.\",\n    \"Highway 17 fragments thousands of acres in the Santa Cruz Mountains, limiting the ability of animals like mountain lions to find food and mates.\",\n    \"The Highway 17 Crossings Project will improve highway safety by alleviating driver-animal collisions in an important wildlife corridor documented as a road-kill hotspot.\",\n    \"The project aims to increase genetic viability for deer and other species that migrate.\",\n    \"The project will connect wildlife access to over 30,000 acres of watershed and protected public open space lands currently bisected by Highway 17.\",\n    \"The project will close gaps in the Bay Area Ridge Trail and the Juan Batista de Anza National Historic Trail.\",\n    \"The project will connect local trails, together linking over 50 miles of existing trail.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a4b76a36b105691c609bb7d73470b43e3d07dd71"
+}

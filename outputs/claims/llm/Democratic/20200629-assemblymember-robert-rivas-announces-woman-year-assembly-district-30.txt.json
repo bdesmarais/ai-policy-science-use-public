@@ -1,0 +1,13 @@
+{
+  "press_release": "20200629-assemblymember-robert-rivas-announces-woman-year-assembly-district-30.txt",
+  "party": "Democratic",
+  "title": "Cecelia Ponzini of Morgan Hill Honored for her Work with the Edward Boss Prado Foundation",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "062a9b3e6bc6e62451a21b7d236eda1623ab3061"
+}

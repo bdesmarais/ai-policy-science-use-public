@@ -1,0 +1,13 @@
+{
+  "press_release": "20210218-bennett-rivas-and-limon-introduce-farmworker-resource-center-legislation.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) –Assemblymembers Steve Bennett (D-Ventura), Robert Rivas (D-Holister) and Senator Monique Limon (D-Santa Barbara), introduced legislation today to establish a state-wi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:24:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Covid pandemic demonstrated the value of county employees who have developed trusted relationships with the farmworker community.\",\n    \"Farmworkers face a plethora of resource barriers, ranging from cultural to language to different immigration statuses.\",\n    \"Thes",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Covid pandemic demonstrated the value of county employees who have developed trusted relationships with the farmworker community.\",\n    \"Farmworkers face a plethora of resource barriers, ranging from cultural to language to different immigration statuses.\",\n    \"These barriers may prevent farmworkers from accessing much-needed government assistance and information.\",\n    \"The Farmworker Resource program can help low-income non-native speakers navigate systems.\",\n    \"Establishing trusted county resource centers for farmworkers can potentially save lives.\",\n    \"AB 941 is based on a successful Ventura County program that has served over 1,400 farmworkers and their families since opening.\",\n    \"The Ventura County program assists farmworkers in navigating government assistance and workplace regulations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5a42562faa9414c035858eb30c3bd5378870131c"
+}

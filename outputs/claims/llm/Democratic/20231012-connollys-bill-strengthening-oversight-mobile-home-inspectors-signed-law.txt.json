@@ -1,0 +1,13 @@
+{
+  "press_release": "20231012-connollys-bill-strengthening-oversight-mobile-home-inspectors-signed-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:30:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Auditor identified inadequacies in the conflict of interest code regulating mobile home park inspectors.\",\n    \"The Department of Housing and Community Development (HCD) did not require inspectors to report certain investments in mobile home park pro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Auditor identified inadequacies in the conflict of interest code regulating mobile home park inspectors.\",\n    \"The Department of Housing and Community Development (HCD) did not require inspectors to report certain investments in mobile home park properties.\",\n    \"The lack of required investment disclosures failed to address potential conflicts of interest when reviewing inspectors' disclosure forms.\",\n    \"AB 319 creates greater transparency and eliminates potential conflicts of interest for mobile home park inspectors.\",\n    \"AB 319 requires all inspectors to disclose their interests and investments in real property.\",\n    \"AB 319 directs HCD to review inspectors' annual statements of economic interests to identify potential conflicts of interest.\",\n    \"AB 319 mandates the establishment of better policies by HCD to document complaints against inspectors and steps taken to address those complaints.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f90c23c2b5c31858139922802bb8fe4aba5d520d"
+}

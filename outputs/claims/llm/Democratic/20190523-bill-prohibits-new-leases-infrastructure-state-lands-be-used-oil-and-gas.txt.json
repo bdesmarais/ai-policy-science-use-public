@@ -1,0 +1,13 @@
+{
+  "press_release": "20190523-bill-prohibits-new-leases-infrastructure-state-lands-be-used-oil-and-gas.txt",
+  "party": "Democratic",
+  "title": "Bill meant to protect national monuments from further drilling by Trump Administration in California",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 342 prohibits state agencies from entering into new leases for oil and gas-related infrastructure on state lands.\",\n    \"The bill aims to protect federally protected lands and national monuments in California from oil and gas drilling.\",\n    \"The Trump Admi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 342 prohibits state agencies from entering into new leases for oil and gas-related infrastructure on state lands.\",\n    \"The bill aims to protect federally protected lands and national monuments in California from oil and gas drilling.\",\n    \"The Trump Administration is planning to open one million acres of land in Central and Southern California to oil drilling.\",\n    \"If an oil or gas lease is authorized on federal land, it will likely require supporting infrastructure on state land for production.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f7bcbc4f22d2f5653ec6a118f521d9cd22506e6c"
+}

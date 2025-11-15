@@ -1,0 +1,13 @@
+{
+  "press_release": "20170209-muratsuchi-colleagues-raise-concerns-assembly-labor-committee-hearing.txt",
+  "party": "Democratic",
+  "title": "“Refinery workers are on the front line of refinery safety”",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:53:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The explosion at the Torrance refinery on February 18, 2015, caused an 80,000-pound section of the refinery to fly almost a hundred feet.\",\n    \"The explosion at the Torrance refinery was described by the chair of the U.S. Chemical Safety Board as a near catastrophe.\",\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The explosion at the Torrance refinery on February 18, 2015, caused an 80,000-pound section of the refinery to fly almost a hundred feet.\",\n    \"The explosion at the Torrance refinery was described by the chair of the U.S. Chemical Safety Board as a near catastrophe.\",\n    \"Hydrofluoric acid, if released, can form a ground-hugging cloud and drift for miles, posing a threat to the lives of refinery workers and nearby residents.\",\n    \"Refineries can be dangerous places, necessitating a highly skilled workforce to maintain and operate them safely.\",\n    \"The presence of out-of-state contract workers with little training and experience at refineries is a concern for safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "47f2988bb98b0f1c63c3be9f7c6f528aa903f1df"
+}

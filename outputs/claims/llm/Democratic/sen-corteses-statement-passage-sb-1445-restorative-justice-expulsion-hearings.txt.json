@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-corteses-statement-passage-sb-1445-restorative-justice-expulsion-hearings.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE, CA – Senator Dave Cortese (D-San Jose) issued the following statement regarding the California Assembly’s approval of his Senate Bill 1445 (SB 1445), which now advances t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1445 (SB 1445) seeks to uplift students' voices during school expulsion hearings.\",\n    \"SB 1445 allows school district student board members to receive limited case information regarding student expulsion proceedings.\",\n    \"SB 1445 enables student board mem",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1445 (SB 1445) seeks to uplift students' voices during school expulsion hearings.\",\n    \"SB 1445 allows school district student board members to receive limited case information regarding student expulsion proceedings.\",\n    \"SB 1445 enables student board members to make restorative justice recommendations to the larger school board during deliberations.\",\n    \"The restorative justice approach to student expulsion hearings considers the student perspective as part of the school community.\",\n    \"Involving students in the school expulsion process aims to create a system that corrects behavior while healing and strengthening school communities.\",\n    \"The California Association of Student Councils (CASC) supports SB 1445 as a means to empower student voices in legislative advocacy.\",\n    \"SB 1445 emerged from discussions at the CASC’s Student Advisory Board on Legislation in Education (SABLE) conference.\",\n    \"The bill aims to create a more supportive educational environment by focusing on resolution rather than punitive measures.\",\n    \"SB 1445 is expected to effect change in hundreds of school districts around California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6dcb0e3829c2cabd8646adb464257e423d09c991"
+}

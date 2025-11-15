@@ -1,0 +1,13 @@
+{
+  "press_release": "california-state-senate-approves-sb-697-expanding-role-physician-assistants.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Today, Senate Bill 697 by state Senator Anna M. Caballero, D-Salinas, received bipartisan support by the state Senate with a vote of 37-0. SB 697, eliminates the outmode",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 697 eliminates the requirement that each physician assistant (PA) work with a single physician.\",\n    \"The bill aims to end disparities between PAs and other medical providers in similar professional regulations.\",\n    \"A recent report from the University of ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 697 eliminates the requirement that each physician assistant (PA) work with a single physician.\",\n    \"The bill aims to end disparities between PAs and other medical providers in similar professional regulations.\",\n    \"A recent report from the University of California San Francisco predicts a potential shortfall of 4,700 clinicians in California by 2025.\",\n    \"The California Future Health Workforce Commission's report highlights PAs as a priority profession that can help grow and sustain California's health workforce.\",\n    \"Care organizations employing more PAs and allowing them to provide a full range of primary care services report lower costs and reduced use of services.\",\n    \"Implementing a more flexible work arrangement for PAs could incentivize physicians to utilize their full potential.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4e87ee0ae22ab35043b5b1df7e4d020855b1a84a"
+}

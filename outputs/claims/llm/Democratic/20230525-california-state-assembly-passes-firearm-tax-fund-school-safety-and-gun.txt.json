@@ -1,0 +1,13 @@
+{
+  "press_release": "20230525-california-state-assembly-passes-firearm-tax-fund-school-safety-and-gun.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Gun violence has become the leading cause of death for kids in the United States.\",\n    \"The tax is estimated to raise over $160 million annually.\",\n    \"The California Violence Intervention and Prevention Grant Program will receive funding from the new tax.\",\n    \"Schoo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Gun violence has become the leading cause of death for kids in the United States.\",\n    \"The tax is estimated to raise over $160 million annually.\",\n    \"The California Violence Intervention and Prevention Grant Program will receive funding from the new tax.\",\n    \"School mental health services and safety measures will be funded by the new tax.\",\n    \"Firearm investigation and clearance rate initiatives will be supported by the tax proceeds.\",\n    \"Firearm relinquishment programs for domestic abusers and other prohibited persons will be funded.\",\n    \"Trauma-informed services for victims of gun violence will be financed through the new excise tax.\",\n    \"Firearm safety education will be funded by the new tax.\",\n    \"Gun sales surged to record levels in 2020 and 2021.\",\n    \"An estimated 43 million guns were purchased in the United States during 2020 and 2021.\",\n    \"Gun manufacturers have recorded record-breaking profits in recent years.\",\n    \"A 2022 report documented a 269% increase in the firearm and ammunition industry's estimated economic impact from 2008 to 2021.\",\n    \"There was an 11% increase in the firearm and ammunition industry's economic impact from 2020 to 2021.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "239504f2df8eb5311ebe39b2cf7f4c4aa59d31ba"
+}

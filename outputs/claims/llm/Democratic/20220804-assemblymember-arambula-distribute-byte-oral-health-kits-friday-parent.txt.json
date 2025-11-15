@@ -1,0 +1,13 @@
+{
+  "press_release": "20220804-assemblymember-arambula-distribute-byte-oral-health-kits-friday-parent.txt",
+  "party": "Democratic",
+  "title": "FRESNO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic increased patient visits with physicians, demonstrating that video appointments are a viable choice.\",\n    \"There is a need to increase access to telehealth and teleorthodontics in underserved communities.\",\n    \"80% of Latinos do not have access to",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic increased patient visits with physicians, demonstrating that video appointments are a viable choice.\",\n    \"There is a need to increase access to telehealth and teleorthodontics in underserved communities.\",\n    \"80% of Latinos do not have access to a dentist in their local area.\",\n    \"Teledentistry may provide access and affordable options for underserved communities.\",\n    \"Telehealth encounters have risen by 2,000 percent in some areas during COVID-19.\",\n    \"The American Dental Association encourages dentists to use telecommunication technology to support dental care.\",\n    \"78 percent of patients are likely to engage with teledentistry services by 2025.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9cd2ecc5136afb2b7dc21b34881c8d3952f5974b"
+}

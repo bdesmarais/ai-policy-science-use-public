@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-cortese-introduced-legislation-stop-california-exporting-dirty-pollution.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – California State Senator Dave Cortese (D-Silicon Valley), who serves as the chair of the Senate Transportation Committee, has introduced Senate Bill 30 prohibiting the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 30 prohibits the resale, donation, or transfer of decommissioned diesel locomotives for continued use.\",\n    \"Caltrain's electrification of the system between San Jose and San Francisco aims to reduce diesel emissions in that corridor by 96 percent.\",\n    \"Di",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 30 prohibits the resale, donation, or transfer of decommissioned diesel locomotives for continued use.\",\n    \"Caltrain's electrification of the system between San Jose and San Francisco aims to reduce diesel emissions in that corridor by 96 percent.\",\n    \"Diesel fuel is harmful to people and the environment, regardless of geographical location.\",\n    \"The exhaust from diesel fuel contains over 40 substances known to cause cancer.\",\n    \"Diesel emissions have been attributed to an increase in hospital admissions for heart disease and respiratory illness.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1b5022d17e3920996085e5a9ee8c92274c530ae5"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20160630-ghost-gun-legislation-passes-state-legislature.txt",
+  "party": "Democratic",
+  "title": "Bill to Close Ghost Gun Loophole Heads  to Governor Brown.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill AB 1673 aims to redefine the term 'firearm' to include unfinished gun frames in California.\",\n    \"Current California law requires background checks for each purchaser and a serial number for firearms.\",\n    \"People are avoiding California's gun laws by creating",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill AB 1673 aims to redefine the term 'firearm' to include unfinished gun frames in California.\",\n    \"Current California law requires background checks for each purchaser and a serial number for firearms.\",\n    \"People are avoiding California's gun laws by creating partially completed or '80 percent' lower receivers or frames.\",\n    \"Unserialized weapons, referred to as 'ghost guns', become untraceable and undetectable.\",\n    \"Unfinished gun frames have the capability of being converted into functional and dangerous weapons.\",\n    \"Law enforcement currently has no way of tracking homemade guns.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5767921b4a555f35f0efe320197d65a306805378"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240104-assemblywoman-quirk-silva-unveils-comprehensive-legislation-tackle.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1788 establishes homeless adult and family multidisciplinary teams in each county to expedite the identification, assessment, and linkage of individuals experiencing homelessness to housing and supportive services.\",\n    \"AB 1788 allows the sharing of confidential inf",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1788 establishes homeless adult and family multidisciplinary teams in each county to expedite the identification, assessment, and linkage of individuals experiencing homelessness to housing and supportive services.\",\n    \"AB 1788 allows the sharing of confidential information among provider agencies for coordinating services.\",\n    \"AB 1788 authorizes counties to form mental health multidisciplinary teams for justice-involved individuals diagnosed with mental illness, both during incarceration and post-release.\",\n    \"Members of the mental health teams are bound by privacy and confidentiality obligations.\",\n    \"AB 1789 empowers the Department of Housing and Community Development to provide loans or grants for rehabilitating housing projects that qualify as 'challenged developments.'\",\n    \"A 'challenged development' is defined as a project at least 15 years old, serving very low or extremely low-income households, and lacking access to sufficient private or public resources for substantial rehabilitation.\",\n    \"Priority for loans and grants under AB 1789 is given to department-funded housing projects with expired affordability restrictions or a remaining term of less than 10 years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70fbd1fd7e20bc47a677b87282cf29bf84051a9f"
+}

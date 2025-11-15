@@ -1,0 +1,13 @@
+{
+  "press_release": "20210218-landmark-legislation-will-transform-californias-response-mental-health.txt",
+  "party": "Democratic",
+  "title": "Legislation introduced today will transform the way California responds to mental health emergencies to ensure those in crisis receive the urgent care they need. The system uses an",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:24:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A comprehensive crisis response system can help prevent tragedies, save money, and increase access to the right kind of care.\",\n    \"AB 988 aims to decriminalize the response to mental health crises, addressing systemic injustice and a major driver of homelessness.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A comprehensive crisis response system can help prevent tragedies, save money, and increase access to the right kind of care.\",\n    \"AB 988 aims to decriminalize the response to mental health crises, addressing systemic injustice and a major driver of homelessness.\",\n    \"Police officers are not mental health experts and cities in California are deploying social workers and trained crisis intervention experts for non-police calls.\",\n    \"Current systems for responding to mental health emergencies often rely on law enforcement and confinement, leading to expensive and traumatizing experiences for individuals suffering from mental illness.\",\n    \"AB 988 will facilitate the development of a robust mental health crisis response system in California that prioritizes recovery over incarceration.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d21c814f16aefb1ab4e083e48d5562851e921484"
+}

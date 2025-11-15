@@ -1,0 +1,13 @@
+{
+  "press_release": "20230824-california-delivers-multimillion-dollar-aid-help-reopen-madera-community.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:06:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Madera Community Hospital will receive immediate financial assistance from the state.\",\n    \"The state allocated a total of $300 million to help California hospitals most in need.\",\n    \"Assemblywoman Soria authored legislation to launch the loan program in response to t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Madera Community Hospital will receive immediate financial assistance from the state.\",\n    \"The state allocated a total of $300 million to help California hospitals most in need.\",\n    \"Assemblywoman Soria authored legislation to launch the loan program in response to the closure of Madera Community Hospital.\",\n    \"The loan program is designed to strengthen hospital services across California.\",\n    \"Madera Community Hospital is eligible for the largest sum of $50 million in assistance under the loan program.\",\n    \"California has shown a commitment to maintaining access to care for all communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a693229efda282cdf1fa067515af916e534bfbd6"
+}

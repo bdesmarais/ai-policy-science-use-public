@@ -1,0 +1,13 @@
+{
+  "press_release": "20200513-ramos-announces-he-will-reschedule-district-events-and-select-committee.txt",
+  "party": "Democratic",
+  "title": "SAN BERNARDINO—Assemblymember James C. Ramos (D-Highland) today announced that he is postponing or rescheduling district events and an informational hearing planned for Wednesday, ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "83252a82121d325963674d33077c4622174b15d4"
+}

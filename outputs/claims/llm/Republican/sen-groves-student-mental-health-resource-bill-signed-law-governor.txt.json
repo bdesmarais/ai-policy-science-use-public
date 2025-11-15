@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-groves-student-mental-health-resource-bill-signed-law-governor.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove ( R-Bakersfield ) is pleased to announce her legislation, Senate Bill 1063 (SB 1063), has been signed into law by Governor Newsom. SB 1063 will provide additi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1063 will provide additional mental health resources for students by adding QR codes to the back of student ID cards.\",\n    \"The Governor used a QR code for his signing message of Senate Bill 1063.\",\n    \"Incorporating QR codes into student IDs enhances acces",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1063 will provide additional mental health resources for students by adding QR codes to the back of student ID cards.\",\n    \"The Governor used a QR code for his signing message of Senate Bill 1063.\",\n    \"Incorporating QR codes into student IDs enhances accessibility to mental health resources.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1045d4b2c32b3f551585d35fae56e3c5f98308c0"
+}

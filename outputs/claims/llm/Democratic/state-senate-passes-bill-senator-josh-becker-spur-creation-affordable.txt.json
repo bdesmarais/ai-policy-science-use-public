@@ -1,0 +1,13 @@
+{
+  "press_release": "state-senate-passes-bill-senator-josh-becker-spur-creation-affordable.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:34:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Intergenerational housing enables seniors and transition-age foster youth to live, learn, and thrive together.\",\n    \"Intergenerational living environments create a dynamic and supportive community that surpasses traditional age-restricted housing.\",\n    \"Tax credits are",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Intergenerational housing enables seniors and transition-age foster youth to live, learn, and thrive together.\",\n    \"Intergenerational living environments create a dynamic and supportive community that surpasses traditional age-restricted housing.\",\n    \"Tax credits are effective tools to finance affordable housing for seniors aged 55 and older.\",\n    \"Current financing restrictions often prevent affordable housing projects designed for seniors from including units for transition-aged youth.\",\n    \"There are well-documented social and health benefits for seniors associated with intergenerational housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c2f3c5df8a999d45c0ba76b55167377c42d41d19"
+}

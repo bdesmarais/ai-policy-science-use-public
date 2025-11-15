@@ -1,0 +1,13 @@
+{
+  "press_release": "ab-1356-passes-through-assembly-health-committee.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO (May 1, 2025) – Assemblymember Diane Dixon (R-Newport Beach) presented Assembly Bill 1356 in the Assembly Health Committee on April 22, 2025. The bill passed through the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The California Department of Health Care Services is required to investigate and write a report on the death of a resident within a drug and alcohol recovery program at a licensed facility.\",\n    \"AB 1356 will require drug and alcohol recovery facilities to submit i",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The California Department of Health Care Services is required to investigate and write a report on the death of a resident within a drug and alcohol recovery program at a licensed facility.\",\n    \"AB 1356 will require drug and alcohol recovery facilities to submit information within 60 days of a death incident if additional relevant information arises.\",\n    \"Facilities will be required to submit a report detailing follow-up actions if deficiencies are identified in their response to a resident's death.\",\n    \"Many facilities are not providing full details on their reports of incidents.\",\n    \"The legislation AB 1356 aims to improve the safety of residents receiving treatment in drug and alcohol recovery facilities.\",\n    \"Expert testimony confirmed that the death of John Mclister at Asana Recovery was entirely preventable.\",\n    \"AB 1356 could help prevent failures in the drug and alcohol recovery system from claiming more lives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2c9f23d66b74c6ebec853ad5587d9135240cbbd8"
+}

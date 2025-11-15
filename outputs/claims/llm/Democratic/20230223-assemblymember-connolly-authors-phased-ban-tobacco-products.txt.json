@@ -1,0 +1,13 @@
+{
+  "press_release": "20230223-assemblymember-connolly-authors-phased-ban-tobacco-products.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today Assemblymember Damon Connolly introduced AB 935, which would establish a phased tobacco ban for those born on or after January 1st, 2007. While on the Board ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:55:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Tobacco products cause cancer, are incredibly addictive, and decrease quality of life.\",\n    \"A phased ban on tobacco products can help prevent a new generation from becoming addicted to tobacco.\",\n    \"Preventing tobacco product use among youth is critical to ending the",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Tobacco products cause cancer, are incredibly addictive, and decrease quality of life.\",\n    \"A phased ban on tobacco products can help prevent a new generation from becoming addicted to tobacco.\",\n    \"Preventing tobacco product use among youth is critical to ending the tobacco epidemic in the United States.\",\n    \"Nearly 9 out of 10 adults who smoke cigarettes daily first try smoking by age 18.\",\n    \"99% of adults who smoke cigarettes first try smoking by age 26.\",\n    \"Each day in the U.S., about 1,600 youth smoke their first cigarette.\",\n    \"Nearly 200 youth start smoking every day in the U.S.\",\n    \"In 2022, about 4 of every 100 middle school students reported current use of a tobacco product.\",\n    \"In 2022, about 1 of every 6 high school students reported current use of a tobacco product.\",\n    \"Numerous countries have introduced legislation similar to AB 935, including Norway, New Zealand, and the Philippines.\",\n    \"As of January 1, 2023, 247 municipalities throughout the United States have implemented a total sales ban on tobacco products.\",\n    \"Smoking kills more people than alcohol, AIDS, car crashes, illegal drugs, murders, and suicides combined.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ff80cf40574a93bfd9155d4dfe202ff2411551fd"
+}

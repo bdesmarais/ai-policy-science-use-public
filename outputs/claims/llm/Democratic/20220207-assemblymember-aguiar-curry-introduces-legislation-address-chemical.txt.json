@@ -1,0 +1,13 @@
+{
+  "press_release": "20220207-assemblymember-aguiar-curry-introduces-legislation-address-chemical.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Some nursing homes in the United States routinely give antipsychotic drugs to residents with dementia to control their behavior.\",\n    \"These chemical restraints are being prescribed to sedate and subdue residents, who often use behavior to communicate their pain, discom",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Some nursing homes in the United States routinely give antipsychotic drugs to residents with dementia to control their behavior.\",\n    \"These chemical restraints are being prescribed to sedate and subdue residents, who often use behavior to communicate their pain, discomfort, or distress.\",\n    \"According to a 2018 report by Human Rights Watch, the abusive practice of overmedicating nursing home residents has become more widespread.\",\n    \"Every week in U.S. nursing facilities, more than 179,000 people, mostly older and living with dementia, are given antipsychotic drugs without an appropriate diagnosis.\",\n    \"Facilities administer these drugs in many cases without obtaining informed consent from residents or their families.\",\n    \"Antipsychotic drugs have been developed to treat psychiatric conditions like schizophrenia.\",\n    \"The Food and Drug Administration (FDA) requires manufacturers to label antipsychotic drugs with the strongest 'black box' warning about the risks they pose to people with dementia.\",\n    \"The FDA has never approved antipsychotic drugs as safe and effective for treatment of dementia symptoms.\",\n    \"Studies find that antipsychotic drugs nearly double the risk of death in older people with dementia.\",\n    \"Using antipsychotic drugs on people with dementia because staff want to control a patient who is deemed 'unruly' is considered wrong by experts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "38abe095bab5fbd00847c126e876b1651bef0afb"
+}

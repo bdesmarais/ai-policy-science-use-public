@@ -1,0 +1,13 @@
+{
+  "press_release": "20250221-california-moves-ban-toxic-plastic-microbeads-cleaning-products-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblymember Tasha Boerner (D-Encinitas)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:28:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A 2023 study found that household cleaning products alone release 40 trillion microplastic particles each year.\",\n    \"Microplastics have been detected in human lungs, the bloodstream, placentas, and even brain tissue.\",\n    \"Epidemiological studies have suggested potent",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A 2023 study found that household cleaning products alone release 40 trillion microplastic particles each year.\",\n    \"Microplastics have been detected in human lungs, the bloodstream, placentas, and even brain tissue.\",\n    \"Epidemiological studies have suggested potential links between exposure to microplastics and the onset of various chronic diseases.\",\n    \"Microplastics trigger uncontrolled cell proliferation and ensue tissue growth leading to various cancers affecting the lungs, blood, breasts, prostate, and ovaries.\",\n    \"Supporters of the bill point out that alternatives to plastic microbeads already exist, like coconut shells, sand, and salt.\",\n    \"Microplastics act like sponges, absorbing toxic chemicals and making their way into human bodies through inhalation, ingestion, and skin exposure.\",\n    \"Research links microplastic exposure to a range of health issues.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7caec7288fc5aa23f1fd4a498de5a4658317bfa0"
+}

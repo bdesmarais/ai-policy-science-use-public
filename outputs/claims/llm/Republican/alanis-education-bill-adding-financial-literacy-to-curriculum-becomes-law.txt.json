@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-education-bill-adding-financial-literacy-to-curriculum-becomes-law.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –  This evening, Assemblymember Alanis proudly announced that his financial literacy bill was signed into law by Governor Newsom.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The bill AB 1871 adds personal finance to the required subject matter to be taught within the social studies curriculum for students in grades 7-12.\",\n    \"AB 2927 creates a graduation requirement for high school students to complete a semester-long course in financ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The bill AB 1871 adds personal finance to the required subject matter to be taught within the social studies curriculum for students in grades 7-12.\",\n    \"AB 2927 creates a graduation requirement for high school students to complete a semester-long course in financial literacy before earning their diploma.\",\n    \"AB 2927 will go into effect for students graduating in 2031.\",\n    \"AB 1871 becomes operative on January 1, 2025.\",\n    \"California has inadequately prepared students to turn 18 without knowledge of concepts like debt, loans, down payments, and interest.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "90577f700842da1ccd5f525ca1065614a13fa06d"
+}

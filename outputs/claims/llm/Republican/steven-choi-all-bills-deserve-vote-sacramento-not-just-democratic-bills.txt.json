@@ -1,0 +1,74 @@
+{
+  "press_release": "steven-choi-all-bills-deserve-vote-sacramento-not-just-democratic-bills.txt",
+  "party": "Republican",
+  "title": "Under legislative parliamentary procedure, a member may use the “condition of the file” before adjournment of the Session to make a statement about business they believe still requ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Senate Bill 405 would have allowed communities throughout California to authorize voter ID requirements for their local elections.\"\n    },\n    {\n      \"claim_text\": \"A survey by the Berkeley Institute of Government Studies found that a vast majority",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Senate Bill 405 would have allowed communities throughout California to authorize voter ID requirements for their local elections.\"\n    },\n    {\n      \"claim_text\": \"A survey by the Berkeley Institute of Government Studies found that a vast majority of Californians support requiring a government ID to vote.\"\n    },\n    {\n      \"claim_text\": \"As of 2024, 46.2% of California voters are registered as Democrats, while 24.7% are registered Republicans.\"\n    },\n    {\n      \"claim_text\": \"Each Republican Senator in California represents approximately 1 million constituents.\"\n    },\n    {\n      \"claim_text\": \"Numerous committees in the California State Senate only have one member from the minority party.\"\n    },\n    {\n      \"claim_text\": \"California is represented by a Democratic supermajority, which stifles representation for Republicans.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Senate Bill 405 would have allowed communities throughout California to authorize voter ID requirements for their local elections.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "A survey by the Berkeley Institute of Government Studies found that a vast majority of Californians support requiring a government ID to vote.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "As of 2024, 46.2% of California voters are registered as Democrats, while 24.7% are registered Republicans.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Each Republican Senator in California represents approximately 1 million constituents.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Numerous committees in the California State Senate only have one member from the minority party.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California is represented by a Democratic supermajority, which stifles representation for Republicans.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "054f4a9f17fec2cdf2cee8f22495a0efce71a97d"
+}

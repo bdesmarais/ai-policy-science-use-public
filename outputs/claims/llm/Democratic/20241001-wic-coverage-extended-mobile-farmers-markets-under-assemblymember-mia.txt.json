@@ -1,0 +1,13 @@
+{
+  "press_release": "20241001-wic-coverage-extended-mobile-farmers-markets-under-assemblymember-mia.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Mobile farmers markets are an emerging strategy to bring fresh fruits and vegetables directly to communities.\",\n    \"The bill AB 2786 will make nutritious, culturally relevant options more accessible to Californians.\",\n    \"California is home to five active mobile farmer",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Mobile farmers markets are an emerging strategy to bring fresh fruits and vegetables directly to communities.\",\n    \"The bill AB 2786 will make nutritious, culturally relevant options more accessible to Californians.\",\n    \"California is home to five active mobile farmers' markets operating across various counties.\",\n    \"The bill establishes a legal definition for Certified Mobile Farmers Markets in state law.\",\n    \"Allowing WIC participants to use their benefits at mobile farmers' markets will increase access to nutritious food for low-income communities.\",\n    \"Access to nutritious food from mobile farmers' markets will improve recipients' long-term health outcomes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9b74684fe4a1b31e4489191e7623a7fd93f76cf8"
+}

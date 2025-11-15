@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-announces-bill-boost-transparency-public-records.txt",
+  "party": "Democratic",
+  "title": "State Senator Dave Cortese (D-San Jose) announced legislation today that will bring greater transparency to government communications for journalists and the public. SB 908 mandate",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 908 mandates the swift transfer of text messages and emails by elected officials and public employees to official channels.\",\n    \"SB 908 makes communications conducted on private accounts or devices discoverable upon requests for public records if they relate to publ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 908 mandates the swift transfer of text messages and emails by elected officials and public employees to official channels.\",\n    \"SB 908 makes communications conducted on private accounts or devices discoverable upon requests for public records if they relate to public business.\",\n    \"SB 908 requires public employees to use or copy a public server when discussing public business through text or email on a privately owned device or to forward the communication to a public server within 20 days.\",\n    \"The California Public Records Act (CPRA) contains remedies for violations, which can include civil litigation and court-ordered attorney's fees.\",\n    \"Federal law requires federal employees to either use or copy a government server when conducting public business.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6af78ad8fbb370ed4144893495b789e3afdeec17"
+}

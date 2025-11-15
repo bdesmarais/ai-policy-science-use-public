@@ -1,0 +1,13 @@
+{
+  "press_release": "20210309-qa-february-9-2021-vaccine-town-hall-hosted-assemblymember-james-c-ramos.txt",
+  "party": "Democratic",
+  "title": "Distribution And Scheduling Questions",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The county received its vaccine allocation from the state based on population size and other factors on a weekly basis.\",\n    \"The county's vaccine distribution is prioritized based on access, accessibility, and vulnerability of populations.\",\n    \"The county recently co",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The county received its vaccine allocation from the state based on population size and other factors on a weekly basis.\",\n    \"The county's vaccine distribution is prioritized based on access, accessibility, and vulnerability of populations.\",\n    \"The county recently conducted a training exercise that included more than 70 providers and staff for large-scale vaccine distribution.\",\n    \"The county brought on 176 new hires, many of whom are Licensed Vocational Nurses or medical assistants, to support vaccination efforts.\",\n    \"The county has created a network of distribution sites including physician practices, pharmacies, and large-scale sites run by hospitals.\",\n    \"The county aims to utilize its entire vaccine inventory within four days of receiving the supply.\",\n    \"The scheduling process for second vaccine doses has changed to include registration during the 15-minute waiting period after the first dose.\",\n    \"The state is moving to a registration system called 'My Turn,' which allows individuals to schedule their first and second vaccine doses at the same time.\",\n    \"Vaccination plans for schools are being developed in coordination with various school districts and county offices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d3888abe7f404146266a3689f9d96ddda5ccb9ab"
+}

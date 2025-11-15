@@ -1,0 +1,13 @@
+{
+  "press_release": "guaranteed-income-homeless-youth-bill-heads-assembly.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese’s (D-Silicon Valley) bill to provide guaranteed income payments to California’s unhoused youth has cleared a crucial hurdle today, advancing through the State Senat",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1341 would create the California Success, Opportunity, and Academic Resilience (CalSOAR) Guaranteed Income Program to provide guaranteed direct cash assistance to homeless youth in grade 12.\",\n    \"Approximately 15,000 students experiencing homelessness were ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1341 would create the California Success, Opportunity, and Academic Resilience (CalSOAR) Guaranteed Income Program to provide guaranteed direct cash assistance to homeless youth in grade 12.\",\n    \"Approximately 15,000 students experiencing homelessness were enrolled in the 12th grade in California during the 2020-21 academic year.\",\n    \"Over 90% of youth experiencing homelessness in California wish to pursue careers that require some form of postsecondary education.\",\n    \"Guaranteed income for students can potentially disrupt the cycle of poverty for these students and put them on stable footing for the future.\",\n    \"Only about 50% of students experiencing homelessness end up enrolling in higher education due to insurmountable costs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c23b7c4178d4914d0c381fe7737cdae97e5af6d5"
+}

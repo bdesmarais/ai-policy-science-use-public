@@ -1,0 +1,13 @@
+{
+  "press_release": "20250421-victims-continue-be-sold-sex-alarming-rates-survivors-law-enforcement-seek.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Human traffickers are selling young girls for sex.\",\n    \"More than 13,000 people were trafficked for sex in Sacramento from 2015-2020.\",\n    \"The average age of entry into sex trafficking is 16 years old.\",\n    \"Nationally, Native Americans account for 40% of traffickin",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Human traffickers are selling young girls for sex.\",\n    \"More than 13,000 people were trafficked for sex in Sacramento from 2015-2020.\",\n    \"The average age of entry into sex trafficking is 16 years old.\",\n    \"Nationally, Native Americans account for 40% of trafficking victims, despite comprising only 3% of the U.S. population.\",\n    \"AB 379 establishes the Survivor Support Fund, directing fines collected from offenders to community-based organizations that provide direct services to sex trafficking victims.\",\n    \"The bill makes loitering with the intent to purchase commercial sex a misdemeanor, punishable by a $1,000 fine.\",\n    \"The crime of purchasing a minor for sex applies in any case where the victim is under the age of 18.\",\n    \"AB 379 provides a meaningful pathway for young survivors to escape the sex trade through diversion programs.\",\n    \"The Survivor Support Fund will provide essential resources such as housing, mental health care, and job training to help survivors heal.\",\n    \"Demand drives the human trafficking criminal industry.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "133163393597e9831b64b2818c1de98c818c4b23"
+}

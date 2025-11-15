@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-panel-unanimously-approves-two-public-safety-bills.txt",
+  "party": "Democratic",
+  "title": "Bills improve criminal justice system by expanding jail facility standards for incarcerated individuals and protecting juveniles from unnecessary detention",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 448 creates equity in youth detention regardless of where a child lives.\",\n    \"SB 448 prevents the juvenile justice system from separating children from their families, their education, and their communities, solely due to their zip code.\",\n    \"SB 762 requires the B",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 448 creates equity in youth detention regardless of where a child lives.\",\n    \"SB 448 prevents the juvenile justice system from separating children from their families, their education, and their communities, solely due to their zip code.\",\n    \"SB 762 requires the Board of State and Community Corrections to improve deficiencies in Sheriff’s Department’s jail facility policies.\",\n    \"SB 762 updates jail facility standards to include specific procedures to ensure that incarcerated individuals are alive and well in the county jail facilities.\",\n    \"SB 762 requires a consistent statewide protocol across jail facilities in line with the procedures already in place for the California Department of Corrections and Rehabilitation.\",\n    \"The public safety bills protect juveniles from being subject to unnecessary exposure to the criminal justice system.\",\n    \"The public safety bills ensure that all incarcerated individuals are subject to the same universal standard in all jail facilities.\",\n    \"Addressing conditions for juveniles and incarcerated individuals will guarantee quality health and treatment for people in jail facilities.\",\n    \"The approval of SB 448 and SB 762 will improve the criminal justice system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c76d48caacfadb6dcdbe6eb5cf7071740144cc20"
+}

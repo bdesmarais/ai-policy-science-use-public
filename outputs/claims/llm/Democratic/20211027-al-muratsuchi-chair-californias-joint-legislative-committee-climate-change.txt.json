@@ -1,0 +1,13 @@
+{
+  "press_release": "20211027-al-muratsuchi-chair-californias-joint-legislative-committee-climate-change.txt",
+  "party": "Democratic",
+  "title": "Assemblymember is author of AB 1395, the California Climate Crisis Act",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California aims to achieve carbon neutrality by or before 2045.\",\n    \"The California Climate Crisis Act seeks to reduce emissions by 90 percent.\",\n    \"The California Climate Crisis Act incentivizes natural carbon sinks.\",\n    \"The California Climate Crisis Act supports",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California aims to achieve carbon neutrality by or before 2045.\",\n    \"The California Climate Crisis Act seeks to reduce emissions by 90 percent.\",\n    \"The California Climate Crisis Act incentivizes natural carbon sinks.\",\n    \"The California Climate Crisis Act supports real, verifiable carbon capture and storage technology.\",\n    \"California's climate crisis is evident in worsening wildfires, droughts, extreme heat, and rising sea levels.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c49a0106c98d3b062fd9776ed75b98e9797028e1"
+}

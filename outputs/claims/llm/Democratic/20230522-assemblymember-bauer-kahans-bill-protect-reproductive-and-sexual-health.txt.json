@@ -1,0 +1,13 @@
+{
+  "press_release": "20230522-assemblymember-bauer-kahans-bill-protect-reproductive-and-sexual-health.txt",
+  "party": "Democratic",
+  "title": "Sacramento CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 254 ensures the privacy and security of individuals' information when they use apps and websites for reproductive and sexual health services.\",\n    \"The lack of protection for sensitive information collected by menstrual tracking apps leaves individuals vulnerable to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 254 ensures the privacy and security of individuals' information when they use apps and websites for reproductive and sexual health services.\",\n    \"The lack of protection for sensitive information collected by menstrual tracking apps leaves individuals vulnerable to criminalization.\",\n    \"The information sharing from menstrual tracking apps can lead to predatory advertising based on users' reproductive health choices.\",\n    \"Predatory advertising related to sensitive health information can be stigmatizing and dissuades individuals from seeking care.\",\n    \"AB 254 extends the privacy safeguards of the CA Confidential Medical Information Act to digital services offering sexual and reproductive healthcare.\",\n    \"AB 254 prevents vulnerable health data from falling into the wrong hands by creating secure data protection across all health platforms.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "127595ab24a55cf4dc9f8c7b99f9bdc991a765a2"
+}

@@ -1,0 +1,94 @@
+{
+  "press_release": "20250505-papan-bill-restrict-harmful-synthetic-chemicals-cosmetics-and-personal-care.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:34:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The MUSK Act will dramatically restrict synthetic nitro musk chemicals in cosmetics and personal care products by 2027.\"\n    },\n    {\n      \"claim_text\": \"Musk chemicals have been linked to endocrine disruption, early puberty, and increased risks of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The MUSK Act will dramatically restrict synthetic nitro musk chemicals in cosmetics and personal care products by 2027.\"\n    },\n    {\n      \"claim_text\": \"Musk chemicals have been linked to endocrine disruption, early puberty, and increased risks of breast cancer and infertility.\"\n    },\n    {\n      \"claim_text\": \"Nitro musks remain unregulated in the United States despite being banned in the European Union for decades.\"\n    },\n    {\n      \"claim_text\": \"Exposure to nitro musks disproportionately affects women and young girls, particularly those in communities of color and lower-income areas.\"\n    },\n    {\n      \"claim_text\": \"Studies have shown that early puberty, strongly linked to repeated nitro musk exposure, can lead to serious lifelong health complications, including increased risks of cancer, diabetes, heart disease, and reproductive issues.\"\n    },\n    {\n      \"claim_text\": \"Nitro musks are major environmental pollutants, accumulating in wastewater, soil, and even the air.\"\n    },\n    {\n      \"claim_text\": \"Nitro musk chemicals have been detected in marine life and agricultural water supplies.\"\n    },\n    {\n      \"claim_text\": \"AB 60 brings California in line with global standards by adopting restrictions similar to those enforced in the European Union.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The MUSK Act will dramatically restrict synthetic nitro musk chemicals in cosmetics and personal care products by 2027.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Musk chemicals have been linked to endocrine disruption, early puberty, and increased risks of breast cancer and infertility.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Nitro musks remain unregulated in the United States despite being banned in the European Union for decades.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Exposure to nitro musks disproportionately affects women and young girls, particularly those in communities of color and lower-income areas.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Studies have shown that early puberty, strongly linked to repeated nitro musk exposure, can lead to serious lifelong health complications, including increased risks of cancer, diabetes, heart disease, and reproductive issues.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Nitro musks are major environmental pollutants, accumulating in wastewater, soil, and even the air.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Nitro musk chemicals have been detected in marine life and agricultural water supplies.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 60 brings California in line with global standards by adopting restrictions similar to those enforced in the European Union.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 8,
+  "doc_sha1": "9e0df5e59373f707d876866e9a7617e592bc7160"
+}

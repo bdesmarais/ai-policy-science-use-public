@@ -1,0 +1,13 @@
+{
+  "press_release": "20190501-assemblymember-ash-kalra-releases-statement-future-work-commission.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Ash Kalra (D-San Jose), Chair of the Assembly Committee on Labor and Employment, released the following statement today in response to the establishment",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California has established its first Future of Work Commission.\",\n    \"The establishment of the Future of Work Commission is intended to guide the state in leveraging technology to create a more equitable workplace.\",\n    \"New technologies can promote quality jobs a",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California has established its first Future of Work Commission.\",\n    \"The establishment of the Future of Work Commission is intended to guide the state in leveraging technology to create a more equitable workplace.\",\n    \"New technologies can promote quality jobs and foster income equality.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4b1cd75bd266193c2d56bcbbaa8449ec769fe268"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-urges-newsoms-parole-board-deny-early-release-santana-high-school-shooter.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones (R-San Diego) announced he sent a letter to the Commissioners on Governor Gavin Newsom’s Board of Parole Hearings, urging them to deny ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Charles Andrew Williams murdered two students and wounded 13 others at Santana High School in Santee, California, on March 5, 2001.\",\n    \"Williams was sentenced to 50 years to life for his crimes.\",\n    \"Williams had the opportunity to be released early due to criminal ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Charles Andrew Williams murdered two students and wounded 13 others at Santana High School in Santee, California, on March 5, 2001.\",\n    \"Williams was sentenced to 50 years to life for his crimes.\",\n    \"Williams had the opportunity to be released early due to criminal justice reforms.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0fc290d5b698ad6d4b48944c7af079474d0d295f"
+}

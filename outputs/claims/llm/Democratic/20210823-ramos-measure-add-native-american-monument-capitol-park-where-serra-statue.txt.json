@@ -1,0 +1,13 @@
+{
+  "press_release": "20210823-ramos-measure-add-native-american-monument-capitol-park-where-serra-statue.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—California’s State Senate today approved placement of a monument honoring Sacramento-area tribes in Capitol Park at the former site of a sculpture commemorating Junipero",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 338 will honor the Native people on whose land the Capitol now stands.\",\n    \"The mission period had a devastating impact on California’s first people.\",\n    \"Junipero Serra is seen as the creator and director of a system that held Indians in servitude to force conver",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 338 will honor the Native people on whose land the Capitol now stands.\",\n    \"The mission period had a devastating impact on California’s first people.\",\n    \"Junipero Serra is seen as the creator and director of a system that held Indians in servitude to force conversions and build the missions.\",\n    \"The mission period led to starvation and disease among Native Americans.\",\n    \"Attempts by Native Americans to escape servitude during the mission period were dealt with harshly.\",\n    \"Pope Francis acknowledged the 'grave sins' of colonialism against Indigenous people in the Americas during a trip to Bolivia in 2015.\",\n    \"The statue of Junipero Serra on Capitol grounds represents a double injury to the Miwok and Nisenan people.\",\n    \"The history of Native Americans in the region has not been fully told.\",\n    \"AB 338 allows for the vigorous debate and analysis that was missing when the Serra monument was commemorated in 1967.\",\n    \"AB 338 removes the statutory requirement for a monument to Junipero Serra on the State Capitol grounds.\",\n    \"AB 338 requires the replacement of the Serra statue with a monument created with the input of local Tribal Nations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8dc93ddd33cb54245cbb0329a8ac13ca1e009213"
+}

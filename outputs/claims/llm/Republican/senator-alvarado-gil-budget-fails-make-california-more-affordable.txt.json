@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-alvarado-gil-budget-fails-make-california-more-affordable.txt",
+  "party": "Republican",
+  "title": "Today, Sen. Marie Alvarado-Gil (R–Jackson) released the following statement in opposition to today’s budget vote, saying it fails to make California more affordable for families:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "da6f96a6172099224cfb116c2e3bdc46d2f7dcd1"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20200519-bill-make-it-illegal-first-responders-take-photos-deceased-clears-first.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- Today, the Assembly Public Safety Committee approved AB 2655, authored by Assemblymember Mike A. Gipson, to make it a misdemeanor for first responders to take",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2655 seeks to make it a misdemeanor for first responders to take unauthorized pictures during an accident or crime scene.\",\n    \"The bill proposes penalties of up to a year in jail and up to $5,000 in fines for law enforcement officials who photograph a deceased perso",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2655 seeks to make it a misdemeanor for first responders to take unauthorized pictures during an accident or crime scene.\",\n    \"The bill proposes penalties of up to a year in jail and up to $5,000 in fines for law enforcement officials who photograph a deceased person without authorization.\",\n    \"The legislation aims to address a deficiency in current law regarding the handling of images captured by first responders at accident scenes.\",\n    \"The bill was introduced in response to a reported incident involving a sheriff’s deputy showing photos of a deceased person to others in a bar.\",\n    \"The Los Angeles County Sheriff’s Department sponsored AB 2655.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "02b4273e3db46dab93d631982b208f11d92fc80c"
+}

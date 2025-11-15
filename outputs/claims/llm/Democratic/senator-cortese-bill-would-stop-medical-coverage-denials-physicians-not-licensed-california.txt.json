@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-bill-would-stop-medical-coverage-denials-physicians-not-licensed-california.txt",
+  "party": "Democratic",
+  "title": "A bill introduced Thursday by Senator Dave Cortese would stop insurance companies from enlisting out-of-state doctors to cancel medical treatment plans proposed by California docto",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Insurance companies can deny a recommended medical treatment made by a California-licensed doctor through a process called 'utilization review.'\",\n    \"Doctors performing a utilization review on private sector patients must be licensed in California under SB 636.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Insurance companies can deny a recommended medical treatment made by a California-licensed doctor through a process called 'utilization review.'\",\n    \"Doctors performing a utilization review on private sector patients must be licensed in California under SB 636.\",\n    \"Physicians who are not licensed in California operate without a regulatory structure to hold them accountable.\",\n    \"The Division of Workers’ Compensation and the Medical Board of California lack the jurisdiction to discipline out-of-state doctors for medical malpractice.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9fa18c6eaf460ac53b3592a9528e7889a1fc20c7"
+}

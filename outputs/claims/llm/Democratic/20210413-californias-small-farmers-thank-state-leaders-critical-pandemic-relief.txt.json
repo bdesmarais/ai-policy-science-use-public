@@ -1,0 +1,13 @@
+{
+  "press_release": "20210413-californias-small-farmers-thank-state-leaders-critical-pandemic-relief.txt",
+  "party": "Democratic",
+  "title": "From the Community Alliance with Family Farmers (CAFF):",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California state leaders enacted budget legislation to provide critical support for small and historically underserved farmers impacted by the pandemic.\",\n    \"The budget legislation SB 85 allocates $3.35 million from the California Department of Food and Agriculture for",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California state leaders enacted budget legislation to provide critical support for small and historically underserved farmers impacted by the pandemic.\",\n    \"The budget legislation SB 85 allocates $3.35 million from the California Department of Food and Agriculture for direct relief to farmers.\",\n    \"Many smaller-sized farmers, particularly black, indigenous, and people of color farmers, were left out of previous federal and state relief efforts.\",\n    \"The budget investment will enable the California Department of Food and Agriculture to provide direct small grants to farmers in need.\",\n    \"The investment will allow the California Department of Food and Agriculture to hire new University of California small farm specialists in at least two regions of the state.\",\n    \"Technical assistance specialists will be contracted across the state to support farmers in connecting to federal resources.\",\n    \"Direct aid is essential for the success of farmers, along with support from trusted and experienced partner organizations.\",\n    \"The investment of over $3 million in SB 85 for technical assistance to small and disadvantaged farmers is a significant victory.\",\n    \"Federal disaster assistance programs are nearly impossible for small farmers to access, despite them being some of the hardest hit by the pandemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0f01e28589c7c2d81b361b1cedf6833a09386754"
+}

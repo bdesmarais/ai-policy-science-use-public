@@ -1,0 +1,13 @@
+{
+  "press_release": "20240627-assemblymember-boerner-secures-state-funding-continuous-coverage-children.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Tasha Boerner was able to secure state funds protecting Medi-Cal coverage for zero to five year-olds.\",\n    \"As of June 2023, redeterminations for Medi-Cal have returned, with federal flexibilities expected to end in December 2024.\",\n    \"As of November 20",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Tasha Boerner was able to secure state funds protecting Medi-Cal coverage for zero to five year-olds.\",\n    \"As of June 2023, redeterminations for Medi-Cal have returned, with federal flexibilities expected to end in December 2024.\",\n    \"As of November 2023, 92% of Californians have been procedurally disenrolled from Medi-Cal after the rollback of federal flexibilities.\",\n    \"One third of those procedurally disenrolled from Medi-Cal in California are children.\",\n    \"The Latine community continues to be the most impacted by the Medi-Cal disenrollment crisis, with over 800,000 disenrollments in the last 12 months.\",\n    \"California's budget includes multi-year Medi-Cal eligibility for children ages 0-5, ensuring they do not experience gaps in health care during critical development times.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2d7ec06b5c08647403ac1565caf77dea05a62cd4"
+}

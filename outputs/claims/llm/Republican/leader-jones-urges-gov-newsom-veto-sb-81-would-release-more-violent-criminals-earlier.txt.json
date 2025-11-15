@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-urges-gov-newsom-veto-sb-81-would-release-more-violent-criminals-earlier.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones (R-San Diego) is calling on the governor to veto Senate Bill 81 (D-Skinner, Berkeley), which would force the courts to review and reverse the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 81 would force the courts to review and reverse the parole board’s and governor’s decisions to deny parole unless specific evidentiary conditions are met.\",\n    \"SB 81 will require courts to review parole denials based on whether the felon is currently a dang",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 81 would force the courts to review and reverse the parole board’s and governor’s decisions to deny parole unless specific evidentiary conditions are met.\",\n    \"SB 81 will require courts to review parole denials based on whether the felon is currently a danger to society.\",\n    \"SB 81 ignores the full range of considerations required in parole decisions, including an inmate's record in prison and their level of rehabilitation.\",\n    \"SB 81 denies courts their role as gatekeepers in habeas cases.\",\n    \"SB 81 forces courts to review any case brought before them with a presumption for reversal.\",\n    \"There are numerous existing procedures in place to ensure accountability and fairness at parole hearings.\",\n    \"SB 81 puts a thumb on the scales of justice, tipping them in favor of violent felons.\",\n    \"The premature release of violent criminals will inevitably endanger the public.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dd86260a1df468fe51b68c4073b104a311143de7"
+}

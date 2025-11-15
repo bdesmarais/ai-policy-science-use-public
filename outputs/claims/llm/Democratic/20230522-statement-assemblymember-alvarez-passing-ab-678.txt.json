@@ -1,0 +1,13 @@
+{
+  "press_release": "20230522-statement-assemblymember-alvarez-passing-ab-678.txt",
+  "party": "Democratic",
+  "title": "AB678 Biomethane Procurement Standards",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California was the first state to establish a Renewable Gas Standard in 2015.\",\n    \"Biomethane is a renewable energy source.\",\n    \"AB678 will support the state’s net zero emission goals by requiring all gas suppliers to include biomethane.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California was the first state to establish a Renewable Gas Standard in 2015.\",\n    \"Biomethane is a renewable energy source.\",\n    \"AB678 will support the state’s net zero emission goals by requiring all gas suppliers to include biomethane.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "531b5a23c0e75bb89ab0d2c7b0f640a9ad6ca8a3"
+}

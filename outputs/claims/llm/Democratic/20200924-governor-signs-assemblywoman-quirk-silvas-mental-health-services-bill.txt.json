@@ -1,0 +1,13 @@
+{
+  "press_release": "20200924-governor-signs-assemblywoman-quirk-silvas-mental-health-services-bill.txt",
+  "party": "Democratic",
+  "title": "Governor Signs Assemblywoman Quirk-Silva’s Mental Health Services Bill",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A third of adults who receive county mental health services for serious mental illnesses have a co-occurring substance or alcohol use disorder.\",\n    \"Numerous studies demonstrate that integrated care is necessary for successful treatment of co-occurring mental illness a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A third of adults who receive county mental health services for serious mental illnesses have a co-occurring substance or alcohol use disorder.\",\n    \"Numerous studies demonstrate that integrated care is necessary for successful treatment of co-occurring mental illness and substance use conditions.\",\n    \"Integrated care must ensure there is 'no wrong door' to access services and support for individuals with co-occurring disorders.\",\n    \"The COVID-19 pandemic, economic loss, and wildfires have increased levels of stress, depression, and anxiety among Californians.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8ace7336caab8d1d8c0c02123cb9e12a42e7a22a"
+}

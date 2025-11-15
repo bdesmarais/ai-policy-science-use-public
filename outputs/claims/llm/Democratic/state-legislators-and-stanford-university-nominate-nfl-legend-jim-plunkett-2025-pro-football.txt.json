@@ -1,0 +1,13 @@
+{
+  "press_release": "state-legislators-and-stanford-university-nominate-nfl-legend-jim-plunkett-2025-pro-football.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE – This month, legendary Raiders quarterback and two-time Super Bowl winner Jim Plunkett received a significant boost behind his nomination into the 2025 Pro Football Hall ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:34:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "04a9cdb2a72f557db61ad4496a19568e3a395168"
+}

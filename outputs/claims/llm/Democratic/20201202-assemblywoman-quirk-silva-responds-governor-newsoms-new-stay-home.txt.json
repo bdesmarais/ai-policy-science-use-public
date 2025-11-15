@@ -1,0 +1,13 @@
+{
+  "press_release": "20201202-assemblywoman-quirk-silva-responds-governor-newsoms-new-stay-home.txt",
+  "party": "Democratic",
+  "title": "Assemblywoman Quirk-Silva Responds to Governor Newsom's New Stay-at-Home Guidelines",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:20:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8ebe6701088387c6f3f67590a8e7185f60f36673"
+}

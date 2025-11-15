@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republicans-urge-veto-bill-authorize-government-mandated-speed-trackers-all-cars.txt",
+  "party": "Republican",
+  "title": "Today, California Senate Republicans sent a formal veto request letter to Governor Newsom asking that he veto Senate Bill 961 . Authored by progressive San Francisco Senator Scott ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 961 would mandate all new cars come equipped with speed monitors that would alert drivers visually and audibly every time the posted speed limit is exceeded by 10 miles per hour.\",\n    \"The original version of Senate Bill 961 was intended to mandate that all ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 961 would mandate all new cars come equipped with speed monitors that would alert drivers visually and audibly every time the posted speed limit is exceeded by 10 miles per hour.\",\n    \"The original version of Senate Bill 961 was intended to mandate that all new cars autonomously reduce their speed when drivers exceeded the posted limit by more than 10 miles per hour.\",\n    \"Senate Republicans argue that the current version of Senate Bill 961 is a first step towards the incremental implementation of cars that force speed reductions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "166aaa3b6348939db396c5900d1c779109f85d72"
+}

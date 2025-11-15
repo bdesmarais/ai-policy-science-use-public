@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-celebrates-passage-of-2024-legislation.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1938 ensures that children who are deaf, hard of hearing, or deaf-blind receive the educational opportunities they deserve.\",\n    \"The bill requires schools to consider the unique communication needs of deaf and hard-of-hearing students.\",\n    \"AB 2549 safeguards visi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1938 ensures that children who are deaf, hard of hearing, or deaf-blind receive the educational opportunities they deserve.\",\n    \"The bill requires schools to consider the unique communication needs of deaf and hard-of-hearing students.\",\n    \"AB 2549 safeguards visitation rights for immediate family members in health care facilities.\",\n    \"The bill guarantees that patients receive dignity, care, and support during end-of-life situations.\",\n    \"AB 2069 allows bars and restaurants to sell domestically produced soju and shochu.\",\n    \"AB 2069 corrects an imbalance in California's alcohol regulations that disadvantage local distilleries.\",\n    \"AB 2750 ensures the viability of biomass facilities that voluntarily use a more restrictive federal EPA tier.\",\n    \"Biomass energy production plays a critical role in forest waste management and reducing wildfire risk.\",\n    \"Biomass facilities provide a stable source of electricity that is available 24/7.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5c2e5d62d1e09cf04b55fb613d70ba08270960dc"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20170417-quirk-silva-bill-help-homeless-veterans-advances.txt",
+  "party": "Democratic",
+  "title": "Legislation to Reduce Driverâs License Fees for Veterans Passes Transportation Committee",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:54:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3129eb30ad515c43a9ce35f0f72c4e8f4b98c1a1"
+}

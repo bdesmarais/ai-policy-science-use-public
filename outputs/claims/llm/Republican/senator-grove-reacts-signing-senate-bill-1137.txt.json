@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-reacts-signing-senate-bill-1137.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) released the following statement after Senate Bill 1137 was signed into law:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1137 will force thousands of oil wells to stop producing.\",\n    \"California will have to import more oil from countries like Ecuador and Saudi Arabia.\",\n    \"Ecuador, where California gets 55 percent of its imported oil, has few environmental safeguards.\",\n    \"Ecuado",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1137 will force thousands of oil wells to stop producing.\",\n    \"California will have to import more oil from countries like Ecuador and Saudi Arabia.\",\n    \"Ecuador, where California gets 55 percent of its imported oil, has few environmental safeguards.\",\n    \"Ecuador is bulldozing down the Amazon rainforest to meet California’s demand for oil.\",\n    \"The actions taken by the Governor will continue to finance human rights abuses in Saudi Arabia.\",\n    \"California oil producers operate under the most stringent environmental and regulatory rules in the world.\",\n    \"Much of the oil imported by California could be replaced by in-state producers, providing California jobs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d61de47eb74a192c46a6ff7c9918a6cbcbd8e84"
+}

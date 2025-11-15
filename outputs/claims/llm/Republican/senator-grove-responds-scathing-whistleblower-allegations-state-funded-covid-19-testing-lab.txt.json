@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-responds-scathing-whistleblower-allegations-state-funded-covid-19-testing-lab.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Senate Republican Leader Shannon Grove ( R-Bakersfield ) responded to scathing whistleblower reports coming out of a state-funded COVID-19 testing facility. Yes",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The lab was not meeting their obligated demand and mismanaging specimen samples.\",\n    \"The lab is processing 80,000 fewer tests a day than they are paid to.\",\n    \"There were thousands of inconclusive COVID-19 test results.\",\n    \"Repeated errors impacted patient result",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The lab was not meeting their obligated demand and mismanaging specimen samples.\",\n    \"The lab is processing 80,000 fewer tests a day than they are paid to.\",\n    \"There were thousands of inconclusive COVID-19 test results.\",\n    \"Repeated errors impacted patient results, including swapped samples and contamination.\",\n    \"Uncertified lab techs were reported to be sleeping and on their phones during work.\",\n    \"The COVID-19 testing program was described as dangerously inaccurate.\",\n    \"Whistleblower allegations expose the misuse of taxpayer dollars.\",\n    \"There is a concern regarding broken trust within the state government.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b2b46f5efa3f54e638d38e0bb3a82d03897c7c4e"
+}

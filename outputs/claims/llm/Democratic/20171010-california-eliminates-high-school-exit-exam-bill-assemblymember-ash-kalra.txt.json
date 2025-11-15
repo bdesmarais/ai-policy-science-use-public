@@ -1,0 +1,13 @@
+{
+  "press_release": "20171010-california-eliminates-high-school-exit-exam-bill-assemblymember-ash-kalra.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Governor Brown signed Assembly Bill (AB) 830 authored by Assemblymember Ash Kalra (D-San Jose), repealing the California High School Exit Exam (CAHSEE).",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The California High School Exit Exam (CAHSEE) is outdated and incompatible with new educational standards.\",\n    \"The repeal of CAHSEE will allow tens of thousands of otherwise-qualified students to graduate each year.\",\n    \"California has adopted new and rigorous ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The California High School Exit Exam (CAHSEE) is outdated and incompatible with new educational standards.\",\n    \"The repeal of CAHSEE will allow tens of thousands of otherwise-qualified students to graduate each year.\",\n    \"California has adopted new and rigorous standards to prepare students for college and career readiness in the 21st century.\",\n    \"California's new accountability and continuous improvement system has significantly changed how the state provides resources to public schools.\",\n    \"School districts in California are required to grant high school diplomas to students who meet all state and locally-required coursework except for passing the high school exit exam.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fedd6a546c96ad911246e098833faa61bf02fc6b"
+}

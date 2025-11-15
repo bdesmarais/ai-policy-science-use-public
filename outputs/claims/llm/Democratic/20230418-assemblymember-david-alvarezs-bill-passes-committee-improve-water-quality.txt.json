@@ -1,0 +1,13 @@
+{
+  "press_release": "20230418-assemblymember-david-alvarezs-bill-passes-committee-improve-water-quality.txt",
+  "party": "Democratic",
+  "title": "(",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:58:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB-1597 would make $50,000,000 available from the General Fund to address water quality problems in California-Mexico cross-border rivers.\",\n    \"The environmental disaster in the California-Mexico border region is worsening and cannot be ignored.\",\n    \"Imperial Beach h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB-1597 would make $50,000,000 available from the General Fund to address water quality problems in California-Mexico cross-border rivers.\",\n    \"The environmental disaster in the California-Mexico border region is worsening and cannot be ignored.\",\n    \"Imperial Beach has been closed for the past 500 days due to contamination.\",\n    \"The most recent study from Scripps Institution of Oceanography indicates that the impacts of water quality issues go beyond just water quality.\",\n    \"NADBank has leveraged over $9.5 billion to support 295 infrastructure projects focused on long-term environmental sustainability along the U.S.-Mexico border.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "92ae8b9d59258a6a2c7c4cee1b49f02014054fbc"
+}

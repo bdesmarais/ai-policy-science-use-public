@@ -1,0 +1,13 @@
+{
+  "press_release": "20250701-assemblymember-al-muratsuchis-statement-california-auditor-investigation.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:40:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Highlands Community Charter Schools inappropriately received over $180 million in public education funding during two audited fiscal years.\",\n    \"Highlands engaged in wasteful spending and nepotism in hiring and contracting practices.\",\n    \"Highlands Charter's teachers",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Highlands Community Charter Schools inappropriately received over $180 million in public education funding during two audited fiscal years.\",\n    \"Highlands engaged in wasteful spending and nepotism in hiring and contracting practices.\",\n    \"Highlands Charter's teachers lectured for only a few hours while still receiving full school day funding per student.\",\n    \"Highlands staff inflated student attendance numbers to receive K-12 funding.\",\n    \"Highlands spent $1.96 million on a staff retreat in San Diego in 2023.\",\n    \"Highlands spent over $82 thousand on staff travel to locations like Paris and Maui.\",\n    \"The California Auditor’s report found that Highlands was not eligible to receive $177 million in K-12 funding due to failure to meet funding conditions related to its mode of instruction.\",\n    \"Highlands lacked sufficient controls over its spending to prevent the waste of public funding.\",\n    \"Many Highlands teachers did not hold the appropriate credentials for the classes they taught.\",\n    \"Highlands exceeded the allowable student-to-teacher ratio for its independent study school, CICA.\",\n    \"Highlands did not offer 11th grade for its students, which is required by California law for administering standardized testing.\",\n    \"Twin Rivers Unified School District conducted only minimal oversight of Highlands, relying heavily on inaccurate annual audits.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d2ae0eb224647e6ffbee5c34ab5cdf5b032a430e"
+}

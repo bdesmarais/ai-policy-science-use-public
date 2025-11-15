@@ -1,0 +1,13 @@
+{
+  "press_release": "20250811-palomar-and-politics-care-two-approaches-representation.txt",
+  "party": "Democratic",
+  "title": "When someone you love ends up in the ER, healthcare isn't political, it’s personal. It’s the child who falls off a bike, the expectant mother going into labor sooner than expected,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Proposed federal cuts to healthcare for millions of Californians would strip access to healthcare institutions.\",\n    \"Palomar Health faced a crisis that nearly led to a default on a critical state loan and the potential closure of its two public hospitals.\",\n    \"Paloma",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Proposed federal cuts to healthcare for millions of Californians would strip access to healthcare institutions.\",\n    \"Palomar Health faced a crisis that nearly led to a default on a critical state loan and the potential closure of its two public hospitals.\",\n    \"Palomar serves over 850,000 San Diego County residents and houses the only public maternity ward in North County.\",\n    \"By 2024, Palomar faced a staggering $165 million operational loss and carried over $700 million in bond debt.\",\n    \"The extension of Palomar’s State loan ensures proper oversight by requiring Palomar to share relevant financial documents with the State Treasurer whenever requested.\",\n    \"Proposed federal policies would significantly cut reimbursements for hospitals and remove over $30 billion from California’s healthcare system.\",\n    \"These proposed policies would cause hospital closures, reduced services, crowded emergency rooms, and rising medical debt across the state.\",\n    \"The closure of Madera’s hospital in 2023 resulted in entire communities losing immediate access to essential medical services.\",\n    \"The state had to step in with a costly $57 million loan to reopen the Madera facility.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0f7013b3ad0b6920ad6d1e9851cc9190bc10acd7"
+}

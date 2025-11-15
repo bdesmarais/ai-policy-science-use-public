@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-essayli-condemn-democrats-refusal-to-hear-bill-protecting-parental-rights.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republican Leader James Gallagher (Yuba City) and Assemblyman Bill Essayli (R-Corona) issued the following statements on the announcement by Assembly E",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1314 would require schools to notify parents within three days if their child begins a gender transition at school.\",\n    \"Studies are clear that trans minors do better with parental involvement.\",\n    \"Gender dysphoria is a serious issue, and parents need to be aware",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1314 would require schools to notify parents within three days if their child begins a gender transition at school.\",\n    \"Studies are clear that trans minors do better with parental involvement.\",\n    \"Gender dysphoria is a serious issue, and parents need to be aware of the associated mental health risks trans minors face.\",\n    \"A recent study by University of Texas researchers found that LGBTQ+ young people with supportive parents were significantly less likely to experience depression.\",\n    \"The Supreme Court has already ruled that parents have a fundamental right to direct the care, upbringing, and education of their children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "49faa261c37a5f32da6af6a89913909b644b59bd"
+}

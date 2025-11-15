@@ -1,0 +1,13 @@
+{
+  "press_release": "20230426-food-medicine-initiative-launched-california.txt",
+  "party": "Democratic",
+  "title": "Medically Supportive Food and Nutrition Advocates Gather in Support of AB 1644 to Improve Patient Health and Lower Soaring Health Care Costs",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Incorporating medically supportive food and nutrition into patient care can improve health outcomes.\",\n    \"Medically supportive food and nutrition interventions can significantly improve a patient's quality of life and health status while reducing healthcare costs.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Incorporating medically supportive food and nutrition into patient care can improve health outcomes.\",\n    \"Medically supportive food and nutrition interventions can significantly improve a patient's quality of life and health status while reducing healthcare costs.\",\n    \"Behaviors related to diet, exercise, and smoking are major factors in determining health status and the likelihood of chronic disease.\",\n    \"Food as medicine programs aim to leverage targeted interventions to prevent, manage, treat, and reverse disease by improving nutrition.\",\n    \"Medically supportive food and nutrition interventions include plans comprised of nutrient-rich whole food, medically tailored meals, food pharmacies, and produce prescriptions.\",\n    \"Providing medically supportive food and nutrition services to individuals with specific medical conditions promotes health equity.\",\n    \"Access to nutritious foods can help people perform better, heal better, and feel better.\",\n    \"Certain 'medically necessary food' has proven to reduce symptoms and improve quality of life in individuals with inherited metabolic and digestive disorders.\",\n    \"There are real food deserts in communities, affecting access to healthy markets.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ce67622bd0f9ee0f9f22b5eb33e9bcf8ecb023ff"
+}

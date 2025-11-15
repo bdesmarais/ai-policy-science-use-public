@@ -1,0 +1,13 @@
+{
+  "press_release": "20230110-assemblymember-liz-ortega-responds-governor-newsoms-proposed-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Following the release of Governor Gavin Newsom’s proposed 2023-24 State Budget,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:52:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a7679b511527fb8c3f82ab4409884aae7fab2f75"
+}

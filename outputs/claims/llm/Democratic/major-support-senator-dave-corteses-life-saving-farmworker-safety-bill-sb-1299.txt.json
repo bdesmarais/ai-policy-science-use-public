@@ -1,0 +1,13 @@
+{
+  "press_release": "major-support-senator-dave-corteses-life-saving-farmworker-safety-bill-sb-1299.txt",
+  "party": "Democratic",
+  "title": "Today marks a significant milestone for SB 1299, authored by Senator Dave Cortese (D-San Jose), as it successfully passed out of the Senate Insurance Committee. Highlighting the cr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1299 aims to save lives by compelling employer compliance with state heat regulations for California’s agricultural workers.\",\n    \"Senator Cortese stated that the passage of SB 1299 is a critical step towards ensuring safer working conditions for agricultural workers",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1299 aims to save lives by compelling employer compliance with state heat regulations for California’s agricultural workers.\",\n    \"Senator Cortese stated that the passage of SB 1299 is a critical step towards ensuring safer working conditions for agricultural workers.\",\n    \"Teresa Romero, President of the United Farm Workers, testified that California’s outdoor heat regulations increase the chances that farm workers come home safe.\",\n    \"The dangers faced by farmworkers include extremely high temperatures that create life-threatening risks.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5bcee5bf8c16dd51055b3c962e80e6eb17f35fc1"
+}

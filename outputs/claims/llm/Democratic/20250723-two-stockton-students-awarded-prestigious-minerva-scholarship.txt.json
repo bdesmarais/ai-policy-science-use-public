@@ -1,0 +1,13 @@
+{
+  "press_release": "20250723-two-stockton-students-awarded-prestigious-minerva-scholarship.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Minerva Scholarship program was established by Women in California Leadership to support the advancement of women in the State of California.\",\n    \"The foundation provides annual scholarships to select women of promise in order to help them achieve their educational",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Minerva Scholarship program was established by Women in California Leadership to support the advancement of women in the State of California.\",\n    \"The foundation provides annual scholarships to select women of promise in order to help them achieve their educational objectives.\",\n    \"Advocacy, community involvement, and adequate funding can make a real difference in a student’s ability to learn and thrive.\",\n    \"Alejandra Garibay Ordaz was recognized for her volunteer work at a local animal shelter and a friend’s church food pantry.\",\n    \"Alejandra Garibay Ordaz is interning with the American Chemical Society.\",\n    \"Julissa Nuñez maintained a 4.0 GPA during her high school education.\",\n    \"Julissa Nuñez has volunteered with Changeist, El Concilio, Campus Ministry, Drill/Dance, Theater, and more.\",\n    \"Julissa Nuñez serves on the Stockton Service Corps Youth Council.\",\n    \"Julissa Nuñez plans to pursue a career in social policy and advocacy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7852accf6d2490f2861180e2be57fdacbff9b6c0"
+}

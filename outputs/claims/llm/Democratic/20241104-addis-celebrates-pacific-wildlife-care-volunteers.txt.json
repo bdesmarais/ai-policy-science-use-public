@@ -1,0 +1,13 @@
+{
+  "press_release": "20241104-addis-celebrates-pacific-wildlife-care-volunteers.txt",
+  "party": "Democratic",
+  "title": "SAN LUIS OBISPO —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e0c84cab9321446989e17ccd5dcdf4ba214907c7"
+}

@@ -1,0 +1,114 @@
+{
+  "press_release": "20240925-governor-newsom-signs-ab-2426-law-increases-transparency-surrounding.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Assemblymember Jacqui Irwin's legislation AB 2426 requires sellers of digital goods to disclose that consumers are only receiving a license to use the digital media.\"\n    },\n    {\n      \"claim_text\": \"The legislation aims to address consumer protect",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Assemblymember Jacqui Irwin's legislation AB 2426 requires sellers of digital goods to disclose that consumers are only receiving a license to use the digital media.\"\n    },\n    {\n      \"claim_text\": \"The legislation aims to address consumer protection issues stemming from the revocation of access to digital media purchases.\"\n    },\n    {\n      \"claim_text\": \"Consumers around the world may lose access to digital media purchases without notice.\"\n    },\n    {\n      \"claim_text\": \"AB 2426 makes California the first state to officially recognize that the use of terms like 'buy' and 'purchase' for digital media licenses constitutes false advertising.\"\n    },\n    {\n      \"claim_text\": \"A white paper published by the Department of Commerce’s Internet Policy Task Force in 2016 concluded that consumers would benefit from more information regarding the nature of their transactions for digital media.\"\n    },\n    {\n      \"claim_text\": \"AB 2426 implements recommendations from the Internet Policy Task Force's 2016 report for consumers engaging in the digital marketplace.\"\n    },\n    {\n      \"claim_text\": \"Sellers of digital goods that offer permanent offline downloads will be exempt from the need to provide a disclosure about the nature of the purchase.\"\n    },\n    {\n      \"claim_text\": \"In 2024, video game publisher Ubisoft revoked licenses for purchases of its video game 'The Crew', leaving consumers without access.\"\n    },\n    {\n      \"claim_text\": \"In 2023, Sony threatened to revoke access to Discovery TV shows but later reached an agreement following consumer backlash.\"\n    },\n    {\n      \"claim_text\": \"Sony's PlayStation Store permanently revoked access to hundreds of purchased movies in Germany and Austria.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Assemblymember Jacqui Irwin's legislation AB 2426 requires sellers of digital goods to disclose that consumers are only receiving a license to use the digital media.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The legislation aims to address consumer protection issues stemming from the revocation of access to digital media purchases.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Consumers around the world may lose access to digital media purchases without notice.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 2426 makes California the first state to officially recognize that the use of terms like 'buy' and 'purchase' for digital media licenses constitutes false advertising.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "A white paper published by the Department of Commerce’s Internet Policy Task Force in 2016 concluded that consumers would benefit from more information regarding the nature of their transactions for digital media.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 2426 implements recommendations from the Internet Policy Task Force's 2016 report for consumers engaging in the digital marketplace.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Sellers of digital goods that offer permanent offline downloads will be exempt from the need to provide a disclosure about the nature of the purchase.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "In 2024, video game publisher Ubisoft revoked licenses for purchases of its video game 'The Crew', leaving consumers without access.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "In 2023, Sony threatened to revoke access to Discovery TV shows but later reached an agreement following consumer backlash.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Sony's PlayStation Store permanently revoked access to hundreds of purchased movies in Germany and Austria.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 10,
+  "doc_sha1": "2f361436afe205f94a258632811a0b1813ab242f"
+}

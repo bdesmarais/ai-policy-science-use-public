@@ -1,0 +1,13 @@
+{
+  "press_release": "20250603-assemblymember-harabedians-wildfire-recovery-package-clears-assembly-heads.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Harabedian’s Wildfire Recovery Package Clears Assembly, Heads to Senate",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:37:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Mortgage Forbearance Act provides wildfire-impacted homeowners up to 12 months of mortgage payment forbearance.\",\n    \"The Disaster Housing Task Force will streamline and align resources for effective rebuilding in disaster-impacted areas.\",\n    \"The Disaster Interes",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Mortgage Forbearance Act provides wildfire-impacted homeowners up to 12 months of mortgage payment forbearance.\",\n    \"The Disaster Housing Task Force will streamline and align resources for effective rebuilding in disaster-impacted areas.\",\n    \"The Disaster Interest Accrual Act ensures homeowners receive the interest earned on post-loss insurance funds held in escrow.\",\n    \"The Insurance Payment Protection Act caps public adjuster fees at 15% of insurance payments made after contract execution.\",\n    \"The Community Stabilization Act uses Community Reinvestment Act funds to help nonprofits purchase and manage homes in disaster-affected areas.\",\n    \"The Wildfire Trauma Recovery and Resiliency Act requires health plans and insurers to cover up to 12 additional visits per year with licensed behavioral health providers for residents affected by wildfires.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fadc08b87201d748b81c5f2c8ae5b7e9b48e0841"
+}

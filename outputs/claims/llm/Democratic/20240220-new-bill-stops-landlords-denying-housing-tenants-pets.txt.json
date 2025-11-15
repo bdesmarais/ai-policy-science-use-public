@@ -1,0 +1,13 @@
+{
+  "press_release": "20240220-new-bill-stops-landlords-denying-housing-tenants-pets.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has the second highest number of tenants in the country, with 17 million families and individuals renting.\",\n    \"Seventy percent of these renters, approximately 12 million, are pet owners.\",\n    \"Only 30% of available rentals in any given Californian city are",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has the second highest number of tenants in the country, with 17 million families and individuals renting.\",\n    \"Seventy percent of these renters, approximately 12 million, are pet owners.\",\n    \"Only 30% of available rentals in any given Californian city are pet friendly.\",\n    \"In San Francisco, only 21% of available rentals currently on the market allow for pets.\",\n    \"In Los Angeles, only 26% of rentals allow for pets despite having close to 3 million pet owning renters.\",\n    \"The lack of pet friendly housing is causing over 829,000 tenants to have pets in their units without the knowledge of their landlord.\",\n    \"This situation leaves landlords without adequate coverage for potential damages that could be mitigated if they knew their tenants had a pet.\",\n    \"Many tenants are being forced to surrender their pets to overrun shelters that lack adequate resources to care for more animals.\",\n    \"A survey of 240 California-based shelters revealed that 67,881 pets were surrendered by their owners, with the leading cause being a lack of access to pet friendly housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4de363184cc0c568d2d5de048581441c110d0292"
+}

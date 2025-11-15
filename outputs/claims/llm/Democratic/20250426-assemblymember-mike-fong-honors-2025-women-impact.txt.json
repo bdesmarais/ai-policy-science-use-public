@@ -1,0 +1,13 @@
+{
+  "press_release": "20250426-assemblymember-mike-fong-honors-2025-women-impact.txt",
+  "party": "Democratic",
+  "title": "SAN MARINO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3f2b35be1643825ce1182050a2220e0f5f560eb3"
+}

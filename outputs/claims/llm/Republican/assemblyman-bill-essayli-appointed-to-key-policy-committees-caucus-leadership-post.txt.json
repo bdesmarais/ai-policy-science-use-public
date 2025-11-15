@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-bill-essayli-appointed-to-key-policy-committees-caucus-leadership-post.txt",
+  "party": "Republican",
+  "title": "Today Asm. Essayli was appointed to several key committees, will serve as Vice Chair of Judiciary, Insurance, and Deputy Republican Floor Leader",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4e73ab5da66f3bcc10b4559536b1e1f7764bfe0a"
+}

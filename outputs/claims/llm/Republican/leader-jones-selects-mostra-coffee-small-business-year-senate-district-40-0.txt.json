@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-selects-mostra-coffee-small-business-year-senate-district-40-0.txt",
+  "party": "Republican",
+  "title": "Leader Jones with Senate District 40 Small Business of the Year Mostra Coffee Co-Owners Beverly, Jelynn, Mike, and Sam (left) and Leader Jones with Mostra Coffee Founders and four ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Mostra Coffee was named the 2024 'Small Business of the Year' for Senate District 40.\",\n    \"Mostra Coffee has committed to extensive charity work, including free coffee programs for frontline workers and educators.\",\n    \"Over 47.9% of California employees are employed ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Mostra Coffee was named the 2024 'Small Business of the Year' for Senate District 40.\",\n    \"Mostra Coffee has committed to extensive charity work, including free coffee programs for frontline workers and educators.\",\n    \"Over 47.9% of California employees are employed by small businesses.\",\n    \"Mostra Coffee's co-founders sought to help Filipino farmers get paid fairly for their coffee crops.\",\n    \"Mostra Coffee earned the title 'Roaster of the Year,' given to only a select few coffee roasters globally.\",\n    \"Mostra Coffee was recognized as Micro-Roaster of the Year by Roast Magazine in 2020.\",\n    \"In 2022, Mostra Coffee achieved 1st Place in the United States Coffee Roasting Championships.\",\n    \"In 2022, Mostra Coffee secured 11th place in the World Roasting Championships in Milan, Italy.\",\n    \"Mostra Coffee currently holds the best showing by a U.S. coffee roaster in the World Roasting Championships.\",\n    \"Mostra Coffee was listed among the 'Top 50 Coffee Shops in the World' by travel blog Big 7 Travel in 2022.\",\n    \"Mostra Coffee partnered with educational institutions to create for-credit internship opportunities for students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8a62f4b766849bcd3550a4ec80098c04b4cf30d1"
+}

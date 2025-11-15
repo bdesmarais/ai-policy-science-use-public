@@ -1,0 +1,13 @@
+{
+  "press_release": "20230630-assemblymember-connolly-congratulates-robert-rivas-becoming-new-speaker.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Robert Rivas's appointment as Speaker of the Assembly marks a significant milestone in his political career.\",\n    \"Speaker Rivas's commitment to combating climate change aligns with the efforts to protect California's environment and communities.\",\n    \"D",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Robert Rivas's appointment as Speaker of the Assembly marks a significant milestone in his political career.\",\n    \"Speaker Rivas's commitment to combating climate change aligns with the efforts to protect California's environment and communities.\",\n    \"Developing innovative solutions can reduce the risk of wildfires in California.\",\n    \"The collective efforts of Assemblymember Connolly and Speaker Rivas will strengthen California's resilience to climate change.\",\n    \"Protecting California's natural resources is essential for creating a sustainable future.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "48c6aec9f2e32c95bbf3e173e5a81ee538a9c9d9"
+}

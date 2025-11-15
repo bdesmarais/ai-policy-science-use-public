@@ -1,0 +1,13 @@
+{
+  "press_release": "20210917-governor-newsom-signs-assemblymember-arambulas-bill-ab-559-new-law-will.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 559 aims to broaden representation on the governing board of the San Joaquin River Conservancy through environmental and social justice community-based organizations.\",\n    \"AB 559 will allow the Conservancy Board to more accurately reflect the demographics of Califor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 559 aims to broaden representation on the governing board of the San Joaquin River Conservancy through environmental and social justice community-based organizations.\",\n    \"AB 559 will allow the Conservancy Board to more accurately reflect the demographics of California and the San Joaquin Valley.\",\n    \"The bill introduces equity by making the chairmanship of the board open to all members.\",\n    \"AB 559 will provide a seat dedicated to a local Native American tribe member to recognize the historical significance of the lands.\",\n    \"The legislation adds a seat for a youth member between the ages of 18 and 26 to the board.\",\n    \"The San Joaquin River Conservancy currently has approximately 5,900 acres of land, but only about 1,000 acres are opened for public use.\",\n    \"Insufficient funding for operations and maintenance has limited public access to the lands managed by the Conservancy.\",\n    \"The State Budget includes $15 million earmarked for the Conservancy to improve access and recreation opportunities for the public.\",\n    \"Supporters of AB 559 believe it will increase access to the San Joaquin River for low-income and underserved communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "94321cabc2cd13585143a6a0257a0438b1f84a78"
+}

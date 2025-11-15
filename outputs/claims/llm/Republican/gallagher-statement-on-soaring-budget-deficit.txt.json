@@ -1,0 +1,84 @@
+{
+  "press_release": "gallagher-statement-on-soaring-budget-deficit.txt",
+  "party": "Republican",
+  "title": "“It’s no coincidence that California’s budget deficit and Gavin Newsom’s disapproval numbers hit an all-time high on the same day.”",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California's budget deficit has reached $68 billion.\"\n    },\n    {\n      \"claim_text\": \"Gavin Newsom's disapproval numbers have hit an all-time high.\"\n    },\n    {\n      \"claim_text\": \"Democrats' fiscal mismanagement has contributed to California's ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California's budget deficit has reached $68 billion.\"\n    },\n    {\n      \"claim_text\": \"Gavin Newsom's disapproval numbers have hit an all-time high.\"\n    },\n    {\n      \"claim_text\": \"Democrats' fiscal mismanagement has contributed to California's budget deficit.\"\n    },\n    {\n      \"claim_text\": \"In the last five years, California's spending has increased by more than 60%.\"\n    },\n    {\n      \"claim_text\": \"The increase in spending in California is described as unsustainable.\"\n    },\n    {\n      \"claim_text\": \"Californians' quality of life has collapsed.\"\n    },\n    {\n      \"claim_text\": \"People are moving from California to Florida.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "California's budget deficit has reached $68 billion.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Gavin Newsom's disapproval numbers have hit an all-time high.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Democrats' fiscal mismanagement has contributed to California's budget deficit.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "In the last five years, California's spending has increased by more than 60%.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The increase in spending in California is described as unsustainable.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Californians' quality of life has collapsed.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "People are moving from California to Florida.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "8d1b34d7699835fa4e718b9bef581eff2395d5bb"
+}

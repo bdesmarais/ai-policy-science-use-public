@@ -1,0 +1,13 @@
+{
+  "press_release": "20241002-assemblymember-mia-bontas-bill-reshape-youth-restitution-signed-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1186 will alleviate the economic hardships faced by many families burdened by youth restitution fines.\",\n    \"AB 1186 will make the assessment of youth restitution more equitable.\",\n    \"The inability to pay restitution often creates long-standing financial harm and i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1186 will alleviate the economic hardships faced by many families burdened by youth restitution fines.\",\n    \"AB 1186 will make the assessment of youth restitution more equitable.\",\n    \"The inability to pay restitution often creates long-standing financial harm and instability that prevents young people from moving forward.\",\n    \"Two-thirds of those paying restitution indicated that unpaid restitution or fines impacted their ability to afford food and rent.\",\n    \"60% of those paying restitution said it threatened their ability to pay utilities.\",\n    \"93% of those paying restitution reported it affected their ability to pay other debts.\",\n    \"Parents can also be liable for their child's restitution and subject to unforgiving collection practices.\",\n    \"AB 1186 will eliminate youth restitution fines and fines older than 10 years.\",\n    \"AB 1186 will end joint & several liability and end wage & account garnishment, which further drive young people into cycles of poverty.\",\n    \"Mandatory youth restitution fines have undermined California’s progress in debt-free youth justice.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c579f9deca005b353fae672d66ef1ef43fe4106b"
+}

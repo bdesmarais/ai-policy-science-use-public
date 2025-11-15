@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-becker-invests-2-million-to-make-dream-black-history.txt",
+  "party": "Democratic",
+  "title": "Currently a pop-up museum, Becker’s investment will help solidify the preservation of Black History in San Mateo by providing money toward a permanent home for museum",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Domini Hoskins Black History Museum serves an invaluable role in educating the youth in the community about the contributions of Black Americans.\",\n    \"Senator Becker's investment of $2 million will help solidify the preservation of Black History in San Mateo by sup",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Domini Hoskins Black History Museum serves an invaluable role in educating the youth in the community about the contributions of Black Americans.\",\n    \"Senator Becker's investment of $2 million will help solidify the preservation of Black History in San Mateo by supporting the museum's permanent establishment.\",\n    \"The Domini Hoskins Black History Museum has been searching for a permanent home for nearly ten years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "84cc3ff0035b36f444364fbc0767c057a04d40ce"
+}

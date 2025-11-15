@@ -1,0 +1,13 @@
+{
+  "press_release": "20250717-assemblywoman-sorias-legislation-aimed-protecting-hospital-patients.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblywoman Esmeralda Soria’s patient safety bill package is now one-step closer to reaching the Governor’s desk. The two bills will help create a safer environm",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Medical Safety Chaperone Act will require healthcare facilities that offer ultrasounds to notify and provide patients with medical chaperones before conducting an ultrasound on a sensitive area of a patient.\",\n    \"The Medical Safety Chaperone Act will establish new ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Medical Safety Chaperone Act will require healthcare facilities that offer ultrasounds to notify and provide patients with medical chaperones before conducting an ultrasound on a sensitive area of a patient.\",\n    \"The Medical Safety Chaperone Act will establish new standards for chaperone training to ensure that hospital staff are educated on how to identify non-standard behavior and protect patient safety.\",\n    \"The provisions of the Medical Safety Chaperone Act aim to protect the physical and psychological safety of patients in vulnerable situations.\",\n    \"The Medical Safety Chaperone Act is intended to enhance trust and transparency in the patient-provider relationship.\",\n    \"The patient safety bill AB 848 recognizes the uniquely vulnerable nature of hospital patients and the serious nature of sexual abuse committed against them by codifying aggravating factors in felony sexual battery cases.\",\n    \"AB 848 allows for just sentencing for medical professionals who engage in sexual battery against hospital patients.\",\n    \"California law currently acknowledges that significant power imbalances between an employer and an employee merit aggravated sentencing for felony sexual battery, but there's no similar provision for medical professionals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "be032cb862e6c1e724fa761d35e2a58969647126"
+}

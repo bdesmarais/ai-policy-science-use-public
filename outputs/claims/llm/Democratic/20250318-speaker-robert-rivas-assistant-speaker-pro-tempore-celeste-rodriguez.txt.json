@@ -1,0 +1,13 @@
+{
+  "press_release": "20250318-speaker-robert-rivas-assistant-speaker-pro-tempore-celeste-rodriguez.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:30:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's immigrant communities contribute significantly to the state's economy.\",\n    \"Immigrant workers in California pay billions in taxes.\",\n    \"The current federal administration's policies threaten California's economy.\",\n    \"Demands for medical care and menta",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's immigrant communities contribute significantly to the state's economy.\",\n    \"Immigrant workers in California pay billions in taxes.\",\n    \"The current federal administration's policies threaten California's economy.\",\n    \"Demands for medical care and mental health support are prevalent among vulnerable immigrant communities.\",\n    \"Many individuals in the immigrant community in California are fearful of potential deportation actions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "aacaa107c4482827c8947441ce1ef98448b797ba"
+}

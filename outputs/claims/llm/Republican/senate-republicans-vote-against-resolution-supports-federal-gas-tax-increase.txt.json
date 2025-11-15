@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republicans-vote-against-resolution-supports-federal-gas-tax-increase.txt",
+  "party": "Republican",
+  "title": "Senate Republican Leader Shannon Grove ( R-Bakersfield ) issued the following statement after Senate Democrats passed Senate Joint Resolution 5 (SJR) which urges Congress and the U",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "699ba1f91483fca758141df3a687dbbbdf39935e"
+}

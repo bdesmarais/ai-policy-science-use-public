@@ -1,0 +1,13 @@
+{
+  "press_release": "sr-49-75th-anniversary-korean-war.txt",
+  "party": "Republican",
+  "title": "The California State Senate today joined Senator Steven Choi, Ph.D., in supporting SR 49, commemorating the 75 th Anniversary of the Korean War. This resolution remembers the over ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "83df845ebb7bb00921d3a41dd5619e045493e49f"
+}

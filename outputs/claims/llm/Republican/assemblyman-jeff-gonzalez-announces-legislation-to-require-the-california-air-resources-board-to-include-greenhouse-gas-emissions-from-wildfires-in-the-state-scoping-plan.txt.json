@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-jeff-gonzalez-announces-legislation-to-require-the-california-air-resources-board-to-include-greenhouse-gas-emissions-from-wildfires-in-the-state-scoping-plan.txt",
+  "party": "Republican",
+  "title": "INDIO — Today, Assemblyman Jeff Gonzalez (R-Indio) announced the introduction of Assembly Bill X1-13 to the Special Session of the California State Assembly. This bill would ensure",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's recent wildfires have burned over 7.1 million acres between 2020 and 2023.\",\n    \"These wildfires have released significant amounts of carbon dioxide and particulate matter into the atmosphere.\",\n    \"The California Air Resources Board's current framework fo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's recent wildfires have burned over 7.1 million acres between 2020 and 2023.\",\n    \"These wildfires have released significant amounts of carbon dioxide and particulate matter into the atmosphere.\",\n    \"The California Air Resources Board's current framework for greenhouse gas emissions overlooks wildfire emissions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d681661720d5568ec33cb89fb07eb1c74f7e998b"
+}

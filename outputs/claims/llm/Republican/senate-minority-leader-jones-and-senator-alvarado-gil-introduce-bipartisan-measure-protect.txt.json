@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-minority-leader-jones-and-senator-alvarado-gil-introduce-bipartisan-measure-protect.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones ( R-San Diego ) and Senator Marie Alvarado-Gil ( D-Jackson ) announce the introduction of the bipartisan Senate Bill 1074, called the “",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:06:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1074 aims to prevent the state from continuing to secretly dump Sexually Violent Predators (SVPs) in unsuspecting communities with no regard to public safety.\",\n    \"The SAFE Act is designed to protect neighborhoods and families from dangerous sexually violent predato",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1074 aims to prevent the state from continuing to secretly dump Sexually Violent Predators (SVPs) in unsuspecting communities with no regard to public safety.\",\n    \"The SAFE Act is designed to protect neighborhoods and families from dangerous sexually violent predators.\",\n    \"Public safety is to be made the highest criterion of any potential placement of an SVP according to SB 1074.\",\n    \"The Department of State Hospitals (DSH) will be required to approve any placements of SVPs before vendors can sign leases for placement locations.\",\n    \"State Hospital officials have been accused of giving vendors too much freedom in targeting unsuspecting communities for SVP placements.\",\n    \"The lack of transparency in the decision-making process surrounding the placement of SVPs fuels public distrust.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ee90bd8e07a4ae841d8f4d7e157a3b2f27d812d1"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250421-ab-1414-advances-fairness-and-affordability-renters.txt",
+  "party": "Democratic",
+  "title": "What You Need to Know:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed AB 1414 with a 72-0 vote.\",\n    \"AB 1414 ensures that renters in California are not forced by landlords to use a specific internet service provider (ISP).\",\n    \"AB 1414 allows tenants the freedom to choose the broadband service that ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed AB 1414 with a 72-0 vote.\",\n    \"AB 1414 ensures that renters in California are not forced by landlords to use a specific internet service provider (ISP).\",\n    \"AB 1414 allows tenants the freedom to choose the broadband service that best fits their needs and budget.\",\n    \"High-quality internet connections are essential for work, school, healthcare, and daily life.\",\n    \"AB 1414 protects renters from being locked into costly or inadequate internet plans.\",\n    \"AB 1414 promotes a competitive market for internet service providers.\",\n    \"If a landlord imposes a required ISP on tenants, renters can deduct that cost from their rent.\",\n    \"AB 1414 closes a gap in California law regarding exclusive ISP agreements in multi-unit buildings.\",\n    \"AB 1414 aligns with guidance from the Federal Communications Commission (FCC).\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "57308f40a96769819f640f17ea0b5ac490971118"
+}

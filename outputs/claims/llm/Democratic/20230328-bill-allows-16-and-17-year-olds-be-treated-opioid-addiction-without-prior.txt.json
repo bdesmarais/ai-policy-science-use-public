@@ -1,0 +1,13 @@
+{
+  "press_release": "20230328-bill-allows-16-and-17-year-olds-be-treated-opioid-addiction-without-prior.txt",
+  "party": "Democratic",
+  "title": "Sacramento -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:57:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Buprenorphine is a physician-supervised medication that reduces opioid withdrawal symptoms and has been recommended by the American Academy of Pediatrics as a treatment for opioid addiction in youth.\",\n    \"Current law in California restricts access to buprenorphine and ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Buprenorphine is a physician-supervised medication that reduces opioid withdrawal symptoms and has been recommended by the American Academy of Pediatrics as a treatment for opioid addiction in youth.\",\n    \"Current law in California restricts access to buprenorphine and requires physicians to receive parental consent before prescribing it to minors.\",\n    \"Overdose deaths among minors have increased in California by nearly 300% in the last 2 years.\",\n    \"Opioid overdoses now account for 1 out of every 5 deaths of minors in California.\",\n    \"Enrolling opioid addicted youth in medically proven treatments, as early as possible, is one of the best tools physicians have to save their lives.\",\n    \"Buprenorphine is one of three medications currently used for medication assisted treatment for opioid addiction.\",\n    \"Buprenorphine is the safest and most effective medication for opioid addiction due to its natural chemical ceiling that makes it difficult to abuse and impossible to overdose on.\",\n    \"The most common brand of buprenorphine, Suboxone, includes naloxone, which helps treat withdrawal symptoms and blocks further opioid use.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b454cc236a12172f6d09e6547b96a80c03bb2e48"
+}

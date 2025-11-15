@@ -1,0 +1,13 @@
+{
+  "press_release": "20220523-affordable-housing-and-high-road-jobs-act-ab-2011-advances-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California needs approximately 2.5 million new units of housing over the next eight years, including over one million units affordable to lower-income households.\",\n    \"The state will need 180,000 new units of housing each year just to keep up with existing demand, incl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California needs approximately 2.5 million new units of housing over the next eight years, including over one million units affordable to lower-income households.\",\n    \"The state will need 180,000 new units of housing each year just to keep up with existing demand, including 80,000 units affordable to lower-income households.\",\n    \"California averages fewer than 100,000 new housing units per year and has never produced more than 25,000 new affordable homes in any year.\",\n    \"AB 2011 pairs new opportunities to build 100% affordable housing and mixed-income housing on underutilized commercial sites with developer responsibility for wage and training standards.\",\n    \"Prevailing wage is required on all projects under AB 2011.\",\n    \"For projects of 50 or more units, contractors must participate in a state-approved apprenticeship program or provide health benefits for their workers.\",\n    \"An analysis found the potential for building three million units of affordable housing in just the Bay Area and Los Angeles County.\",\n    \"AB 2011 promotes climate-friendly affordable development on sites close to jobs and transit.\",\n    \"AB 2011’s provisions and labor protections are the first to be endorsed by both affordable housing and labor groups.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e992d3695c47b211cef80ff30154933c656f876c"
+}

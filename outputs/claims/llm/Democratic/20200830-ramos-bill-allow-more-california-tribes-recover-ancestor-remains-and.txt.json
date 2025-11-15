@@ -1,0 +1,13 @@
+{
+  "press_release": "20200830-ramos-bill-allow-more-california-tribes-recover-ancestor-remains-and.txt",
+  "party": "Democratic",
+  "title": "UPDATE: As of approximately 10:15 p.m. on Sunday, August 30, the Assembly concurred in the Senate amendments. The measure will now be sent to Gov. Gavin Newsom for his review. He h",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:18:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 275 aims to strengthen and clarify the process for repatriating California Native American remains and artifacts.\",\n    \"The state auditor issued a report indicating that the University of California is not adequately overseeing its return of Native American remains a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 275 aims to strengthen and clarify the process for repatriating California Native American remains and artifacts.\",\n    \"The state auditor issued a report indicating that the University of California is not adequately overseeing its return of Native American remains and artifacts.\",\n    \"The report from the state auditor recommended changes to hasten the repatriation process.\",\n    \"AB 275 would allow more tribes to be eligible for inclusion on the Native American Heritage Commission’s list of recognized tribes.\",\n    \"The bill requires consultation with California Indian tribes during the creation of preliminary inventories.\",\n    \"AB 275 revises the process by which a direct lineal descendant or a California Indian tribe can request the return of human remains or cultural items.\",\n    \"The bill requests the UC Regents to designate liaisons for engaging in consultation with California Native American tribes.\",\n    \"The definition of 'California Indian tribe' in AB 275 is revised to include both federally recognized tribes and non-federally recognized tribes located in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d724e5a04b7780102220aa5daf8f07f6deaf8964"
+}

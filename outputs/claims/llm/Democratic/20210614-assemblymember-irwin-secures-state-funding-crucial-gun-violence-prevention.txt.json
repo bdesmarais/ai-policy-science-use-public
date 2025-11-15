@@ -1,0 +1,13 @@
+{
+  "press_release": "20210614-assemblymember-irwin-secures-state-funding-crucial-gun-violence-prevention.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Legislature approved $10 million in funding for a Gun Violence Prevention Grant Program.\",\n    \"The purpose of the Gun Violence Prevention Grant Program is to support county sheriff’s departments in seizing firearms from prohibited individuals.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Legislature approved $10 million in funding for a Gun Violence Prevention Grant Program.\",\n    \"The purpose of the Gun Violence Prevention Grant Program is to support county sheriff’s departments in seizing firearms from prohibited individuals.\",\n    \"Funding for gun violence prevention builds upon $3 million allocated in the 2019-2020 budget.\",\n    \"Four pilot counties, including Ventura County, have shown progress in removing firearms from dangerous individuals.\",\n    \"The Ventura County Sheriff’s Office has created an advanced software tool to identify and confiscate firearms from prohibited possessors.\",\n    \"The software tool developed by the Ventura County Sheriff’s Office enables deputies to identify APPS suspects in the field.\",\n    \"The Ventura County Family Justice Center has connected nearly 4,000 victims to services provided by over 35 partnering agencies since its opening.\",\n    \"The expansion of the Family Justice Center into Oxnard aims to improve access to justice for underserved victims, including indigenous and Spanish-speaking communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ef8b681cd42cb3982f435e2c5ebba03de45c9230"
+}

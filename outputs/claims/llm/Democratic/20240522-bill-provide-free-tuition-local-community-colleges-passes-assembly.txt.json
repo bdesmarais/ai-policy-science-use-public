@@ -1,0 +1,13 @@
+{
+  "press_release": "20240522-bill-provide-free-tuition-local-community-colleges-passes-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Two-thirds of California’s community college students struggle with basic needs insecurities such as food and housing.\",\n    \"The soaring costs of living pose a steep hurdle for local community college students.\",\n    \"AB 3158 will alleviate the burden of state-mandated ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Two-thirds of California’s community college students struggle with basic needs insecurities such as food and housing.\",\n    \"The soaring costs of living pose a steep hurdle for local community college students.\",\n    \"AB 3158 will alleviate the burden of state-mandated tuition fees.\",\n    \"WVMCCD has successfully balanced its budget in recent years without imposing student fees.\",\n    \"The College Promise Scholarship has enrolled over 5,000 students in West Valley-Mission Community College District.\",\n    \"The Promise Program has been a complex and costly endeavor.\",\n    \"By increasing access to free education, this bill will ease financial strain for students.\",\n    \"Higher education correlates with increased economic activity, reduced crime rates, and enhanced civic engagement.\",\n    \"This bill is poised to yield long-term benefits for the local economy and community well-being.\",\n    \"WVMCCD has seen a resurgence in overall enrollment following the COVID-19 Pandemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2dabf41c234259e01ed3d2e0e401970be39433c4"
+}

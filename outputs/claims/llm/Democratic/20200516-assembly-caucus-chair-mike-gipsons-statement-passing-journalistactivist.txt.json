@@ -1,0 +1,13 @@
+{
+  "press_release": "20200516-assembly-caucus-chair-mike-gipsons-statement-passing-journalistactivist.txt",
+  "party": "Democratic",
+  "title": "CARSON, Calif --- Assemblymember Mike A. Gipson (D-Carson) released the following statement on the passing of journalist and activist Larry Aubry:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e3b88fa87cd518c62216e9e83dac7d72455dbdcd"
+}

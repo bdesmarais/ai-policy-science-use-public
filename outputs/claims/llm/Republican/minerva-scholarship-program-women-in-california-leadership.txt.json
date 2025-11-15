@@ -1,0 +1,13 @@
+{
+  "press_release": "minerva-scholarship-program-women-in-california-leadership.txt",
+  "party": "Republican",
+  "title": "Looking for help with college? The Women in California Leadership Foundation’s Minerva Scholarship program is now accepting applications from eligible students!",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "59d155b69ffca200a47935d90e0f82f5a9f4cb41"
+}

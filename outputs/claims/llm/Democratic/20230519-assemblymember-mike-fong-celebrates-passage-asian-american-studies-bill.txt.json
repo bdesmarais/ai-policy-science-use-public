@@ -1,0 +1,13 @@
+{
+  "press_release": "20230519-assemblymember-mike-fong-celebrates-passage-asian-american-studies-bill.txt",
+  "party": "Democratic",
+  "title": "ALHAMBRA, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1354 will create curriculum frameworks for Asian American Studies in grades K-12.\",\n    \"Pacific Islander and Asian American history and economics is fundamentally American history and economics.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1354 will create curriculum frameworks for Asian American Studies in grades K-12.\",\n    \"Pacific Islander and Asian American history and economics is fundamentally American history and economics.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "93060041b5702158cc53b3bf4f5eeb015ef2c36e"
+}

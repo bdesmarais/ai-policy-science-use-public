@@ -1,0 +1,13 @@
+{
+  "press_release": "20231009-statement-assemblymember-boerner-governor-signing-ab-1294.txt",
+  "party": "Democratic",
+  "title": "Contact: Rob Charles | 916-319-3362 |",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Surfing as a sport has millions of fans around the globe.\",\n    \"Surfing is the official state sport of California.\",\n    \"Surf Ranch in Lemoore, CA hosts surfing competitions in regions not typically known for surfing.\",\n    \"Since its inception in 2015, Surf Ranch has ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Surfing as a sport has millions of fans around the globe.\",\n    \"Surfing is the official state sport of California.\",\n    \"Surf Ranch in Lemoore, CA hosts surfing competitions in regions not typically known for surfing.\",\n    \"Since its inception in 2015, Surf Ranch has hosted surfers from around the world at competitive events.\",\n    \"Surf Ranch has attracted thousands of visitors to King’s County and local businesses.\",\n    \"Surf Ranch has created close to a hundred full and part-time jobs.\",\n    \"The Surf Ranch Pro is one of the major stops on the World Surf League’s professional surfing tour.\",\n    \"AB 1294 was authored to ensure that Surf Ranch has access to the same types of financial opportunities as other professional sports venues in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3efe35ae4596b4ec0e2f8424d87da5e69f063f54"
+}

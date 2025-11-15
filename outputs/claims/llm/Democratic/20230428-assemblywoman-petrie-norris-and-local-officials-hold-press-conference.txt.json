@@ -1,0 +1,13 @@
+{
+  "press_release": "20230428-assemblywoman-petrie-norris-and-local-officials-hold-press-conference.txt",
+  "party": "Democratic",
+  "title": "IRVINE-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Fentanyl is one of the most dangerous and deadly drugs circulating on the illegal drug market.\",\n    \"Just 2 milligrams of fentanyl is enough to kill.\",\n    \"According to the California Department of Public Health, statewide fentanyl deaths increased from 239 deaths in 2",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Fentanyl is one of the most dangerous and deadly drugs circulating on the illegal drug market.\",\n    \"Just 2 milligrams of fentanyl is enough to kill.\",\n    \"According to the California Department of Public Health, statewide fentanyl deaths increased from 239 deaths in 2016 to 3,946 in 2020.\",\n    \"In California, 71% of all opioid related deaths in 2020 were a result of fentanyl poisoning.\",\n    \"Legislation like AB 955 and AB 1027 will strengthen laws to help law enforcement hold drug traffickers accountable.\",\n    \"AB 1027 will require social media platforms to provide a general description of their information retention policies.\",\n    \"AB 955 would increase penalties for those convicted of fentanyl sales by imprisonment for a period of 3, 6, or 9 years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0fe436b6f5ac0d28d4b1e92f0aec066621dd992d"
+}

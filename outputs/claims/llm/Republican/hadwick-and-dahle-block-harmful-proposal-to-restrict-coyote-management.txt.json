@@ -1,0 +1,13 @@
+{
+  "press_release": "hadwick-and-dahle-block-harmful-proposal-to-restrict-coyote-management.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Fish and Game Commission referred the coyote reclassification proposal back to the Wildlife Resources Committee for further review.\",\n    \"The initial coyote reclassification proposal sparked significant backlash due to its lack of transparency.\",\n    \"Ass",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Fish and Game Commission referred the coyote reclassification proposal back to the Wildlife Resources Committee for further review.\",\n    \"The initial coyote reclassification proposal sparked significant backlash due to its lack of transparency.\",\n    \"Assemblywoman Hadwick and Senator Megan Dahle opposed the initial recommendation due to its potential to restrict rural agricultural communities’ ability to manage coyote populations effectively.\",\n    \"Limiting predator management could expose livestock, pets, and public safety to risks in rural and agricultural areas.\",\n    \"Coyotes pose a significant threat to livestock, causing economic hardship for agricultural producers.\",\n    \"Coyotes contribute to rising food prices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4240a0dee193d0f1baaacfeefdd0fa3fdea05630"
+}

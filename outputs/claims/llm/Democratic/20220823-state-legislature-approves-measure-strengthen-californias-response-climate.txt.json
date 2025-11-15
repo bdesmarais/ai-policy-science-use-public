@@ -1,0 +1,13 @@
+{
+  "press_release": "20220823-state-legislature-approves-measure-strengthen-californias-response-climate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:45:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's average daily temperature is projected to increase by five to nine degrees.\",\n    \"By the year 2100, the water supply from snowpack in California is projected to decline by two-thirds.\",\n    \"By the year 2050, California's agricultural production could face ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's average daily temperature is projected to increase by five to nine degrees.\",\n    \"By the year 2100, the water supply from snowpack in California is projected to decline by two-thirds.\",\n    \"By the year 2050, California's agricultural production could face water shortages of up to 16 percent.\",\n    \"The frequency of extreme wildfires in California is expected to surge.\",\n    \"The average area burned statewide in California is projected to increase by approximately 77 percent.\",\n    \"California has seen rising average temperatures, destructive fires, higher sea levels, severe drought, and floods.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4a109e88c51882a28a8a5176cea88a8e70679a26"
+}

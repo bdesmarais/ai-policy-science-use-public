@@ -1,0 +1,13 @@
+{
+  "press_release": "20240402-addis-tackles-gender-violence-legislation-survivors.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:38:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1905, the Retreat Rights Reform Act, will eliminate retreat rights for individuals who commit acts of sexual harassment in California's higher education institutions.\",\n    \"The Justice for Survivors of Child Sexual Assault Act (AB 452) removes the civil st",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1905, the Retreat Rights Reform Act, will eliminate retreat rights for individuals who commit acts of sexual harassment in California's higher education institutions.\",\n    \"The Justice for Survivors of Child Sexual Assault Act (AB 452) removes the civil statute of limitations for survivors of child sexual assault effective January 1, 2024.\",\n    \"AB 1913 updates mandated reporter training in TK-12 education to include child abuse prevention training.\",\n    \"AB 2295 removes the criminal statute of limitations for child sexual assault in California.\",\n    \"AB 2961 mandates that minors applying for a work permit must undergo training on sexual harassment prevention, retaliation, and reporting.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4919431a60109678555c04d9ae3457d9b34ae0d3"
+}

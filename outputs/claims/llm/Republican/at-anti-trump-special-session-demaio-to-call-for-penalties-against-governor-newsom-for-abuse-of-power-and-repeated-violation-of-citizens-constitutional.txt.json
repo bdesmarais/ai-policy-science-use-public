@@ -1,0 +1,13 @@
+{
+  "press_release": "at-anti-trump-special-session-demaio-to-call-for-penalties-against-governor-newsom-for-abuse-of-power-and-repeated-violation-of-citizens-constitutional.txt",
+  "party": "Republican",
+  "title": "“Given how many times he has abused his power and been found by federal courts to have infringed on our constitutional rights, it is clear that Californians need protection from Ga",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Carl DeMaio asserts that Californians need protection from Gavin Newsom's abuse of power.\",\n    \"DeMaio claims that the Special Session should be used to defend Californians' rights from Governor Newsom.\",\n    \"DeMaio states that Newsom has a record of imposing laws that",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Carl DeMaio asserts that Californians need protection from Gavin Newsom's abuse of power.\",\n    \"DeMaio claims that the Special Session should be used to defend Californians' rights from Governor Newsom.\",\n    \"DeMaio states that Newsom has a record of imposing laws that federal courts have ruled unlawful and unconstitutional.\",\n    \"DeMaio is introducing the 'Punish Unconstitutional Actions Act of 2025' to impose penalties on officials for constitutional rights violations.\",\n    \"The proposed law would penalize any Governor or legislator with a 25% cut in their annual state compensation for each unconstitutional law passed.\",\n    \"DeMaio argues that California politicians currently face no consequences for imposing unconstitutional laws.\",\n    \"California state laws and regulations have increasingly been overturned by the US Supreme Court and lower federal courts for being unconstitutional.\",\n    \"DeMaio criticizes a law signed by Newsom that penalizes individuals for election-related speech on social media as election interference and unconstitutional.\",\n    \"DeMaio claims that penalizing officials for constitutional violations would serve as a deterrent and punishment for harm done to citizens.\",\n    \"DeMaio asserts that Newsom's political ambition poses a threat to democracy and civil rights.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cca826cdd3c61bc1064ad1e041ae07e380f9dbdd"
+}

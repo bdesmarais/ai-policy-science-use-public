@@ -1,0 +1,13 @@
+{
+  "press_release": "newsom-defunds-prop-36-republicans-fight-back.txt",
+  "party": "Republican",
+  "title": "Public safety measure left unfunded despite backing from every county in California",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Proposition 36 replaces incarceration with mandatory treatment for nonviolent drug offenders.\",\n    \"Without funding for mental health and substance abuse programs, Proposition 36 cannot be enforced.\",\n    \"The lack of funding for Proposition 36 renders the promise of re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Proposition 36 replaces incarceration with mandatory treatment for nonviolent drug offenders.\",\n    \"Without funding for mental health and substance abuse programs, Proposition 36 cannot be enforced.\",\n    \"The lack of funding for Proposition 36 renders the promise of reform ineffective.\",\n    \"District attorneys, law enforcement officials, and victim advocates argue that Proposition 36 is meaningless without investment in treatment infrastructure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f6093df5e8952e1aecc0fbcf5d705a307092bf21"
+}

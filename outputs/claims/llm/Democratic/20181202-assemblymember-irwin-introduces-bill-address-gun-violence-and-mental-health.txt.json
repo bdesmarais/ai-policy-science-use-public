@@ -1,0 +1,13 @@
+{
+  "press_release": "20181202-assemblymember-irwin-introduces-bill-address-gun-violence-and-mental-health.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:03:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 12 aims to address gaps in California's efforts to prevent gun violence and treat those with mental illness.\",\n    \"AB 12 will focus on the effective implementation of gun violence restraining orders as a tool for law enforcement.\",\n    \"The bill proposes a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 12 aims to address gaps in California's efforts to prevent gun violence and treat those with mental illness.\",\n    \"AB 12 will focus on the effective implementation of gun violence restraining orders as a tool for law enforcement.\",\n    \"The bill proposes availability of funds for local law enforcement to engage in firearm recovery efforts.\",\n    \"Mental health evaluations will include new scaled options for law enforcement and mental health professionals to intervene.\",\n    \"The bill seeks to increase awareness and utilization by local governments of existing policies and programs related to gun violence prevention.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "04088e9fa8ae2345a10ce32af06900c4309b73bf"
+}

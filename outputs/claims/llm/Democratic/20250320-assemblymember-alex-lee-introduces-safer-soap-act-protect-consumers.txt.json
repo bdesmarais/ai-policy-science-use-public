@@ -1,0 +1,13 @@
+{
+  "press_release": "20250320-assemblymember-alex-lee-introduces-safer-soap-act-protect-consumers.txt",
+  "party": "Democratic",
+  "title": "Despite the lack of any evidence showing antibacterial soaps’ safety and efficacy, these products have been a boon for the cleaning products industry. The global antibacterial soap",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:30:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There is no evidence showing that consumer antibacterial soaps are better at preventing illness than hand washing with plain soap and water.\",\n    \"Antibacterial soaps may give people a false sense of security.\",\n    \"Long-term daily use of antibacterial soap may be unsa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There is no evidence showing that consumer antibacterial soaps are better at preventing illness than hand washing with plain soap and water.\",\n    \"Antibacterial soaps may give people a false sense of security.\",\n    \"Long-term daily use of antibacterial soap may be unsafe for consumers.\",\n    \"Companies manufacturing antibacterial soaps have failed to provide evidence that these soaps are more effective than regular soap and water at preventing illness.\",\n    \"Studies suggest that antibacterial soaps may contribute to antibiotic resistance.\",\n    \"Antibacterial soaps may pollute waterways.\",\n    \"Antibacterial soaps may irritate skin.\",\n    \"Research has shown that Benzalkonium chloride, Benzethonium chloride, and Chloroxylenol may be harmful to human health.\",\n    \"Benzalkonium chloride, Benzethonium chloride, and Chloroxylenol have been linked to health risks including skin irritation and respiratory illness.\",\n    \"Long-term use of antibacterial products may cause bacteria to evolve and evade the effects of antibacterial chemicals.\",\n    \"Antimicrobial ingredients in hand soaps are increasingly linked to health problems and may contribute to the rise of antibiotic-resistant superbugs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e6c02b5e3ff2c0ae550c6f6eff6d12ef96b9023d"
+}

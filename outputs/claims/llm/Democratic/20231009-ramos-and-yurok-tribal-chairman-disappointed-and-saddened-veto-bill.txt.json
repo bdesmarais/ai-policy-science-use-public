@@ -1,0 +1,13 @@
+{
+  "press_release": "20231009-ramos-and-yurok-tribal-chairman-disappointed-and-saddened-veto-bill.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"County practices are routinely out of compliance with both federal and state law regarding missing foster children.\",\n    \"The minimum California Department of Social Services guidance standards are insufficient for protecting foster children.\",\n    \"The risk of serious ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"County practices are routinely out of compliance with both federal and state law regarding missing foster children.\",\n    \"The minimum California Department of Social Services guidance standards are insufficient for protecting foster children.\",\n    \"The risk of serious consequences for children who go missing is particularly high for Native American children in the system.\",\n    \"In 36 states, the average number of days foster children were missing varied from seven to 46.\",\n    \"Nine states reported that missing children disappeared for more than 50 days on average.\",\n    \"An estimated 60 percent of child sex-trafficking victims have been in foster care or another part of the child welfare system.\",\n    \"Native American children enter the child welfare system at a rate that is 2.7 times their representation in the population.\",\n    \"85% of all missing Indigenous children over a 10-year period were classified as endangered runaways.\",\n    \"American Indian or Alaska Native children had the highest rate of victimization at 14.8 per 1,000 children in their population.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0dc8d1f98ce8a44a5f57deba93e6138cc6ba4c72"
+}

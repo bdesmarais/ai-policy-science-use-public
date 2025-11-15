@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-passes-senator-corteses-sb-9-raise-age-extended-foster-care.txt",
+  "party": "Democratic",
+  "title": "The State Senate on Tuesday unanimously passed legislation by Senator Dave Cortese to give young people the ability to stay in the extended foster care system for an additional yea",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Extending foster care raises the likelihood that a young person will attend college.\",\n    \"Extending foster care raises the likelihood that a young person will earn more money.\",\n    \"Extending foster care raises the likelihood that a young person will stay out of ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Extending foster care raises the likelihood that a young person will attend college.\",\n    \"Extending foster care raises the likelihood that a young person will earn more money.\",\n    \"Extending foster care raises the likelihood that a young person will stay out of trouble with the law.\",\n    \"Approximately 4,000 youth age out of foster care in California every year.\",\n    \"One fifth of youth aging out of foster care in California end up homeless.\",\n    \"Santa Clara County launched the first universal basic income program for transition age foster youth in 2020.\",\n    \"SB 739 provides direct cash assistance to approximately 2,500 youth aging out of the Extended Foster Care Program in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d12ae3d0152a6fe3d006bd800452041adb6b0d21"
+}

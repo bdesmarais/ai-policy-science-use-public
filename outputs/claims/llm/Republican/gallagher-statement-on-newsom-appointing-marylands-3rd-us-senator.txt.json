@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-statement-on-newsom-appointing-marylands-3rd-us-senator.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assembly Republican Leader James Gallagher (Yuba City) issued the following statement on Gov. Gavin Newsom’s appointment of Laphonza Butler to serve as",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8d051b74e91bb515756ff4a01f008e7ce229c8a7"
+}

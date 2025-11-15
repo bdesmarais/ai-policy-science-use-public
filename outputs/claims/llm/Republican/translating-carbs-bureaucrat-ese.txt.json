@@ -1,0 +1,13 @@
+{
+  "press_release": "translating-carbs-bureaucrat-ese.txt",
+  "party": "Republican",
+  "title": "We’ve got good news and bad news.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"82% of the increase in gasoline prices since 2019 is attributable to the cost of producing fuel.\",\n    \"California's climate mandates will increase gas costs as a way to push people into electric vehicles.\",\n    \"Clean fuels will increase as California's regulatory progr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"82% of the increase in gasoline prices since 2019 is attributable to the cost of producing fuel.\",\n    \"California's climate mandates will increase gas costs as a way to push people into electric vehicles.\",\n    \"Clean fuels will increase as California's regulatory program becomes more stringent.\",\n    \"There is a tradeoff between climate programs and gas costs in California's move towards a zero-carbon economy.\",\n    \"Renewable diesel and ethanol currently provide lower-cost alternatives to petroleum diesel and gasoline.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9aa337d7791b190324fa6a89413a40f6efa066ad"
+}

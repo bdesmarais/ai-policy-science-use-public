@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-and-sheriff-robert-jonsen-host-911-day-remembrance.txt",
+  "party": "Democratic",
+  "title": "State Senator Dave Cortese (D-San Jose) joined Santa Clara County Sheriff Robert Jonsen on Sunday to mark the 22nd anniversary of the tragic events of 9/11 with a solemn Day of Rem",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2c128f031277de6e24a4ea4bcbe77d6f05339e0c"
+}

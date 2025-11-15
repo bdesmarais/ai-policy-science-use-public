@@ -1,0 +1,13 @@
+{
+  "press_release": "california-lanza-los-primeros-proyectos-piloto-de-ingreso-garantizado-financiados-por-el.txt",
+  "party": "Democratic",
+  "title": "Hoy se lanzaron dos programas piloto de ingresos garantizados, financiados por el estado para atender a ex jóvenes en hogares de crianza como parte del “ Programa Piloto de Ingreso",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"El Estado ha otorgado a la Ciudad y al Condado de San Francisco $3,439,090 para proporcionar a 150 ex jóvenes de crianza $1,200 mensuales durante 18 meses.\",\n    \"La Agencia de Servicios Humanos del Condado de Ventura ha recibido $1,538,758 para ofrecer a 150 ex jóvenes ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"El Estado ha otorgado a la Ciudad y al Condado de San Francisco $3,439,090 para proporcionar a 150 ex jóvenes de crianza $1,200 mensuales durante 18 meses.\",\n    \"La Agencia de Servicios Humanos del Condado de Ventura ha recibido $1,538,758 para ofrecer a 150 ex jóvenes de crianza $1,000 mensuales por el mismo período.\",\n    \"Los programas de ingresos garantizados pueden romper ciclos de pobreza y brindar estabilidad económica.\",\n    \"Los programas de ingresos garantizados tienen el potencial de cambiar vidas.\",\n    \"El proyecto de ley SB 739 fue incorporado al presupuesto 2021-22 a través de una inversión estatal de $35,000,000 en el 'Programa Piloto de Ingresos Garantizados de California'.\",\n    \"El Senador Cortese lideró la creación del primer programa de ingreso básico universal del Condado de Santa Clara para atender a jóvenes de crianza en edad de transición.\",\n    \"El Senador Cortese obtuvo $3 millones en fondos estatales para lanzar un programa piloto local 'CalSOAR' dirigido a estudiantes de secundaria sin vivienda.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "752bfd80f65fac523b6620ea3c07b882ad4f2844"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20180829-assemblymember-cecilia-aguiar-currys-resolution-urging-congress-take-big.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"H.R. 669 would prohibit the President from unilaterally authorizing the deployment of nuclear weapons in an offensive attack absent express authorization from Congress.\",\n    \"H.R. 669 does not impede a President’s ability to respond with all necessary force to a nu",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"H.R. 669 would prohibit the President from unilaterally authorizing the deployment of nuclear weapons in an offensive attack absent express authorization from Congress.\",\n    \"H.R. 669 does not impede a President’s ability to respond with all necessary force to a nuclear attack on the United States.\",\n    \"AJR 30 demonstrates Californians’ commitment to protecting all of the world’s people from the terror of a nuclear war.\",\n    \"AJR 30 calls for every member of California’s Congressional Delegation to support the balance of powers proposed in H.R. 669.\",\n    \"H.R. 669 would prohibit the President from launching a first nuclear strike without first coming to Congress for a declaration of war.\",\n    \"The passing of AJR 30 is a step towards preventing a United States President from launching an unprovoked nuclear strike without Congressional oversight.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3052953ecd19fc316a7d0012f01a09bf33f15d1f"
+}

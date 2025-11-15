@@ -1,0 +1,13 @@
+{
+  "press_release": "progressive-democrats-bad-crime-reform-results-emboldened-criminals-lawlessness.txt",
+  "party": "Republican",
+  "title": "In the face of progressive Democrats’ intransigence in dealing with the problems created by Proposition 47, California Senate Republicans delivered a letter requesting the Little H",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Proposition 47 effectively decriminalized drug use and minimized the consequences of theft by eliminating felony penalties for theft under $950.\",\n    \"In Los Angeles County, reported shoplifting incidents are up 61% in the last 4 years.\",\n    \"From mid-2019 through mid-",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Proposition 47 effectively decriminalized drug use and minimized the consequences of theft by eliminating felony penalties for theft under $950.\",\n    \"In Los Angeles County, reported shoplifting incidents are up 61% in the last 4 years.\",\n    \"From mid-2019 through mid-2023, reported shoplifting incidents in Los Angeles increased 61%, the second largest increase in the nation.\",\n    \"Retailers estimate losses of $112 billion due to retail theft.\",\n    \"The cost of the losses and increased insurance costs are passed to consumers in the form of higher prices.\",\n    \"Almost 81% of respondents to a national retail security survey said that criminals behind organized retail theft were more aggressive and violent compared to just one year ago.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "88dd80302f946c90e705958b7ecfe38388f33156"
+}

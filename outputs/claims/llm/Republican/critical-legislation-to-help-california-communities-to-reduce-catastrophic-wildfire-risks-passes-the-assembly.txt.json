@@ -1,0 +1,13 @@
+{
+  "press_release": "critical-legislation-to-help-california-communities-to-reduce-catastrophic-wildfire-risks-passes-the-assembly.txt",
+  "party": "Republican",
+  "title": "To help prevent catastrophic wildfires across California, Assemblyman Vince Fong (R-Central Valley) introduced two critical pieces of legislation – Assembly Bills 295 and 297. Both",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 295 requires the state to start roadside maintenance projects within 90 days at the request of local governments to prevent the loss or impairment of life, health, property, or essential public services.\",\n    \"AB 295 will prevent disastrous wildfires from ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 295 requires the state to start roadside maintenance projects within 90 days at the request of local governments to prevent the loss or impairment of life, health, property, or essential public services.\",\n    \"AB 295 will prevent disastrous wildfires from starting along the state’s highways by helping prioritize CalTrans’ efforts to implement defensible space maintenance projects.\",\n    \"Assembly Bill 297 accelerates wildfire prevention projects by advancing CalFIRE payments to organizations and fire departments responsible for removing overgrown brush.\",\n    \"AB 297 helps the state meet its goal of treating 500,000 acres of forest annually.\",\n    \"AB 297 ensures communities can continue to jumpstart local fire prevention projects to safeguard residents from the impacts of wildfires.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "67c5cc70c65e92428aa11d30f2755702039fed76"
+}

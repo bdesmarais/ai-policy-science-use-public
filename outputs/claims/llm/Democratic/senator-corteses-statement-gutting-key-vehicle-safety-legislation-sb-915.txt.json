@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-statement-gutting-key-vehicle-safety-legislation-sb-915.txt",
+  "party": "Democratic",
+  "title": "“This week, my bill on autonomous vehicles, SB 915, hit a roadblock after it became clear that the bill’s essential element of local control was being stripped out by the Assembly ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The essential element of local control in the bill on autonomous vehicles, SB 915, was being stripped out by the Assembly Transportation Committee.\",\n    \"Stripping city and county officials of their power to regulate robotaxis fundamentally undermines the purpose of thi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The essential element of local control in the bill on autonomous vehicles, SB 915, was being stripped out by the Assembly Transportation Committee.\",\n    \"Stripping city and county officials of their power to regulate robotaxis fundamentally undermines the purpose of this legislation.\",\n    \"Local control of the roads is critical for keeping the community safe.\",\n    \"Local law enforcement agencies and governments have long had the authority to govern how vehicles use their roads.\",\n    \"The need for local control and accountability is greater than ever with the introduction of robot-driven vehicles.\",\n    \"There have been many tragic incidents related to autonomous vehicles that underscore the need for local governance.\",\n    \"The safety of streets and the well-being of local communities must remain a top priority in vehicle governance.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "35079640b66ad1ce46066234b04ca640f033a07a"
+}

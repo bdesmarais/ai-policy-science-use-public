@@ -1,0 +1,13 @@
+{
+  "press_release": "20190714-saving-our-sons-grammy-award-winning-recording-artist-jay-rock-give-keynote.txt",
+  "party": "Democratic",
+  "title": "CARSON, Calif --- Assemblymember Mike A. Gipson (D-Carson) will host a transformational one-day conference “Saving Our Sons” for boys of color in middle school and high school, war",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:09:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cf59010e0887b5a9a57bae15dc5979407d0bbbbe"
+}

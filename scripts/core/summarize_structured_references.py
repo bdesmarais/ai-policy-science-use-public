@@ -8,8 +8,8 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 """
-Summarize structured claim references (from gpt_references.py) into analysis-ready tables
-and optional figures. Also flattens references to a long CSV for Tableau.
+Summarize structured claim references (from gpt_references.py) into analysis-ready tables,
+JSON summaries, and optional figures. Also flattens references to a long CSV for Tableau.
 
 Inputs (from outputs/structured_refs/):
 - dem_claim_references.json
@@ -24,6 +24,7 @@ Outputs (to outputs/viz_data/references/ by default):
 - references_by_press_release.csv      # references per press release (+ by party)
 - duplicates_report.csv                # duplicate keys and counts (DOI, title+year)
 - provider_counts.csv                  # provider counts (+ by party)
+- summary.json                         # aggregate statistics in JSON
 
 Optional figures (to outputs/figures/references/):
 - refs_per_claim_distribution.png      # boxplot by party
@@ -34,7 +35,7 @@ Optional figures (to outputs/figures/references/):
 """
 
 
-WORKSPACE = Path(__file__).parent
+WORKSPACE = Path(__file__).resolve().parents[2]
 
 
 def _ensure_dir(path: Path) -> None:
@@ -336,6 +337,64 @@ def build_figures(viz_dir: Path, fig_dir: Path, top_venues_n: int, top_press_rel
     plt.close()
 
 
+def build_summary(flat: List[Dict[str, object]], tables: Dict[str, List[Dict[str, object]]]) -> Dict[str, Any]:
+    summary: Dict[str, Any] = {}
+    summary["total_references"] = len(flat)
+
+    # References per party
+    ref_counts: Dict[str, int] = defaultdict(int)
+    for row in flat:
+        ref_counts[str(row.get("party"))] += 1
+    summary["references_per_party"] = [{"party": p, "references": ref_counts[p]} for p in sorted(ref_counts.keys())]
+
+    # Claims coverage stats
+    refs_per_claim = tables.get("references_per_claim", [])
+    total_claims = len(refs_per_claim)
+    nonzero_claims = sum(1 for row in refs_per_claim if int(row.get("references", 0)) > 0)
+    avg_refs_overall = round(sum(int(row.get("references", 0)) for row in refs_per_claim) / max(1, total_claims), 3)
+    summary["claim_coverage"] = {
+        "total_claims": total_claims,
+        "claims_with_references": nonzero_claims,
+        "coverage_rate": round(nonzero_claims / max(1, total_claims), 4),
+        "avg_references_per_claim": avg_refs_overall,
+    }
+
+    # Coverage by party
+    summary["coverage_by_party"] = tables.get("refs_coverage_by_party", [])
+
+    # Open access rates
+    summary["open_access_rates"] = tables.get("open_access_rate", [])
+
+    # Venues and providers (top 10 each per party)
+    venues = tables.get("venues", [])
+    venues_by_party: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    for row in venues:
+        venues_by_party[row["party"]].append(row)
+    summary["top_venues_by_party"] = {party: rows[:10] for party, rows in venues_by_party.items()}
+
+    providers = tables.get("provider_counts", [])
+    providers_by_party: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    for row in providers:
+        providers_by_party[row["party"]].append(row)
+    summary["top_providers_by_party"] = {party: rows[:10] for party, rows in providers_by_party.items()}
+
+    # Reference year distribution (aggregate)
+    years = tables.get("years", [])
+    year_totals: Dict[str, int] = defaultdict(int)
+    for row in years:
+        year_totals[row["year"]] += int(row.get("count", 0))
+    summary["references_by_year_overall"] = [{"year": y, "count": year_totals[y]} for y in sorted(year_totals.keys())]
+
+    # Duplicate references
+    duplicates = tables.get("duplicates_report", [])
+    summary["duplicates"] = {
+        "duplicate_entries": len(duplicates),
+        "top_duplicates": duplicates[:10],
+    }
+
+    return summary
+
+
 def _read_json_csv(path: Path) -> List[Dict[str, str]]:
     rows: List[Dict[str, str]] = []
     with open(path, "r", encoding="utf-8") as f:
@@ -364,6 +423,7 @@ def main(argv: Optional[Iterable[str]] = None) -> int:
     ap.add_argument("--top-venues", type=int, default=15)
     ap.add_argument("--top-press-releases", type=int, default=20)
     ap.add_argument("--no-figures", action="store_true")
+    ap.add_argument("--summary-json", default=str(WORKSPACE / "outputs" / "viz_data" / "references" / "summary.json"))
     args = ap.parse_args(list(argv) if argv is not None else None)
 
     sdir = Path(args.structured_refs_dir)
@@ -384,7 +444,14 @@ def main(argv: Optional[Iterable[str]] = None) -> int:
     tables = build_tables(flat)
     table_paths = write_tables(tables, vdir)
 
-    print({"flat": str(flat_path), **{k: str(p) for k, p in table_paths.items()}})
+    summary = build_summary(flat, tables)
+    summary_path = Path(args.summary_json)
+    summary_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(summary_path, "w", encoding="utf-8") as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
+
+    output_info = {"flat": str(flat_path), **{k: str(p) for k, p in table_paths.items()}, "summary_json": str(summary_path)}
+    print(json.dumps(output_info))
 
     if not args.no_figures:
         build_figures(vdir, fdir, top_venues_n=max(1, args.top_venues), top_press_releases_k=max(1, args.top_press_releases))

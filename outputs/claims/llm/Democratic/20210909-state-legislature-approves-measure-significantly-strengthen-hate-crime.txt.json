@@ -1,0 +1,13 @@
+{
+  "press_release": "20210909-state-legislature-approves-measure-significantly-strengthen-hate-crime.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:33:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Legislature passed legislation to significantly strengthen California’s response to the recent surge in hate crimes and hate-motivated violence.\",\n    \"The measure passed with overwhelming bipartisan support in both the State Assembly and the State Senate.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Legislature passed legislation to significantly strengthen California’s response to the recent surge in hate crimes and hate-motivated violence.\",\n    \"The measure passed with overwhelming bipartisan support in both the State Assembly and the State Senate.\",\n    \"Hate crimes targeting Asian Americans in America’s largest cities increased 164% in the past year.\",\n    \"The Anti-Defamation League reported a surge of anti-Jewish incidents in recent months, which included violent attacks in major urban areas.\",\n    \"A 2018 audit by the California State Auditor found that law enforcement agencies in California routinely failed to adequately identify, report, or respond to hate crimes.\",\n    \"The audit concluded that inadequate policies and lack of oversight by the California Department of Justice contributed to systemic under-reporting of hate crimes across the state.\",\n    \"More than 70 percent of Asian Americans in California live in fear of racially motivated violence and hate crimes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3cd99ed130ac2cbe06d07beff8ee75ee10efb574"
+}

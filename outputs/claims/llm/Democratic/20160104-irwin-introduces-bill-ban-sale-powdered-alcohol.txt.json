@@ -1,0 +1,13 @@
+{
+  "press_release": "20160104-irwin-introduces-bill-ban-sale-powdered-alcohol.txt",
+  "party": "Democratic",
+  "title": "New Alcohol Product Concerning to Law Enforcement and Public Health Officials",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Powdered alcohol has the potential to undermine important laws that protect youth from alcohol abuse.\",\n    \"Powdered alcohol is designed to be easily concealed and transportable.\",\n    \"Powdered alcohol poses an unnecessary public health and safety risk because of its h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Powdered alcohol has the potential to undermine important laws that protect youth from alcohol abuse.\",\n    \"Powdered alcohol is designed to be easily concealed and transportable.\",\n    \"Powdered alcohol poses an unnecessary public health and safety risk because of its high potential for abuse, particularly by youth.\",\n    \"Powdered alcohol can be dissolved in any liquid and can be carried easily and without detection in venues such as schools, concerts, and movie theaters.\",\n    \"Powdered alcohol is created through a process in which alcohol is absorbed by a sugar derivative called Dextrin, which can hold 60% of its weight in alcohol.\",\n    \"Once mixed with water, powdered alcohol can be consumed like a regular alcoholic beverage.\",\n    \"The ease in which powdered alcohol can be concealed and transported raises serious concerns about underage drinking.\",\n    \"Powdered alcohol can easily be marketed to children.\",\n    \"Several powdered alcohol products have been approved by the Treasury Department's Alcohol and Tobacco Tax and Trade Bureau (TTB).\",\n    \"Widespread concerns from public health and law enforcement officials have prompted similar powdered alcohol bans in 25 states.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3d5dd4710f00a8e68677da4a1a98fbdce3add578"
+}

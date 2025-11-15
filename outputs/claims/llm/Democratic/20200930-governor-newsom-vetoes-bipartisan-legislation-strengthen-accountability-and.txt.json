@@ -1,0 +1,13 @@
+{
+  "press_release": "20200930-governor-newsom-vetoes-bipartisan-legislation-strengthen-accountability-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:20:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has invested billions of dollars to address the state’s severe housing and homelessness crisis.\",\n    \"Homelessness has continued to increase significantly in many communities across California.\",\n    \"Homelessness increased by double digits for the second con",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has invested billions of dollars to address the state’s severe housing and homelessness crisis.\",\n    \"Homelessness has continued to increase significantly in many communities across California.\",\n    \"Homelessness increased by double digits for the second consecutive year in both the city and county of Los Angeles.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "89a037f9291bf86c5d8de651fe0d280f723d420d"
+}

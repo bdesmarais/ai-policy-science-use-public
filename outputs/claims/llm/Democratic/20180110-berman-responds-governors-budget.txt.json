@@ -1,0 +1,13 @@
+{
+  "press_release": "20180110-berman-responds-governors-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:59:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The budget allocates $134.3 million in state funding to help counties replace aging voting systems.\",\n    \"The updated voting equipment aims to ensure the security, integrity, and accuracy of elections.\",\n    \"Modernizing voting systems will provide voters with more choi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The budget allocates $134.3 million in state funding to help counties replace aging voting systems.\",\n    \"The updated voting equipment aims to ensure the security, integrity, and accuracy of elections.\",\n    \"Modernizing voting systems will provide voters with more choices about how, when, and where they cast their ballots.\",\n    \"The Governor's proposal includes spending $40.3 million on outreach planning for the 2020 Census.\",\n    \"Census data determines state representation in Congress and is used to allocate federal funding for vital programs and services.\",\n    \"California is the largest and hardest-to-count state in the nation for the Census.\",\n    \"There are clear indications that California will face unique challenges in achieving an accurate count in the 2020 Census due to new and untested methodology.\",\n    \"High levels of mistrust of the federal government will create further obstacles to an accurate count in the 2020 Census.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "02f92e1a8cb954c0c06de358eaec91bccb728b59"
+}

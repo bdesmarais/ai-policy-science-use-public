@@ -1,0 +1,13 @@
+{
+  "press_release": "20210422-assemblymember-alex-lees-ab-1444-protect-small-businesses-and-enhance.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Listing websites such as Yelp and third-party platforms like Grubhub do not inform consumers when calls are being tracked or monitored.\",\n    \"Over 40,000 restaurants have closed in California due to the impacts of COVID-19.\",\n    \"Asian restaurants have a significantly ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Listing websites such as Yelp and third-party platforms like Grubhub do not inform consumers when calls are being tracked or monitored.\",\n    \"Over 40,000 restaurants have closed in California due to the impacts of COVID-19.\",\n    \"Asian restaurants have a significantly higher rate of closure than non-Asian restaurants during the COVID-19 pandemic.\",\n    \"Roughly half of the Chinese restaurants in the U.S. have closed because of COVID-19.\",\n    \"Small businesses are increasingly relying on third-party food delivery platforms due to the necessity created by COVID-19.\",\n    \"Small businesses are operating with narrow margins that are becoming smaller due to high fees from third-party ordering applications.\",\n    \"AB 1444 requires listing services to provide clear information about contacting a restaurant.\",\n    \"AB 1444 ensures that restaurant owners are only charged for calls that result in orders.\",\n    \"A food delivery platform shall not charge a food facility a referral fee for any calls that do not result in orders.\",\n    \"A listing website must disclose if an order may result in a commission or fee to a party other than the food facility.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bd7bfbdf177a08581cb656e863cbdd038ce37b7f"
+}

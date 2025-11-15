@@ -1,0 +1,13 @@
+{
+  "press_release": "20231128-speaker-robert-rivas-congratulates-historic-and-diverse-assembly-leadership.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Speaker Robert Rivas appointed more than two dozen Caucus Members to significant positions in the California State Assembly.\",\n    \"The new leadership team includes 23 women in leadership roles.\",\n    \"The new leadership team includes 14 women of color in leadership role",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Speaker Robert Rivas appointed more than two dozen Caucus Members to significant positions in the California State Assembly.\",\n    \"The new leadership team includes 23 women in leadership roles.\",\n    \"The new leadership team includes 14 women of color in leadership roles.\",\n    \"The new leadership team includes 31 Assembly members of color in leadership roles.\",\n    \"The new leadership team includes 18 members of the California Latino Legislative Caucus in leadership roles.\",\n    \"Every returning Assembly Black Legislative Caucus member has received a leadership appointment.\",\n    \"The new leadership team includes 6 California Asian & Pacific Islander Legislative Caucus members in leadership roles.\",\n    \"The new leadership team includes 4 members of the California Legislative LGBTQ Caucus in leadership roles.\",\n    \"The appointments made by Speaker Rivas represent a record for women serving as the Chair of an Assembly committee.\",\n    \"Speaker Rivas believes in entrusting and empowering women with positions of leadership.\",\n    \"The diversity of the California State Assembly is its greatest strength.\",\n    \"The appointments of Black legislators to key leadership positions in the Assembly will benefit all residents of California.\",\n    \"AAPI legislators are among one of the fastest-growing populations in California.\",\n    \"Speaker Rivas' commitment to uplift Latino voices is a significant step toward maximizing the Legislature's ability to serve all Californians.\",\n    \"Housing affordability and homelessness are among the most important issues facing Californians.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ca0f2cdfc110a532b88d6b6bcdaf547e70cc33dd"
+}

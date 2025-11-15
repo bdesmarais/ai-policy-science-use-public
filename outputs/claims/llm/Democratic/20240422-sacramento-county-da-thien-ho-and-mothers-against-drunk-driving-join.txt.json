@@ -1,0 +1,13 @@
+{
+  "press_release": "20240422-sacramento-county-da-thien-ho-and-mothers-against-drunk-driving-join.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:40:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Every day, drunk drivers kill 37 people in the United States.\",\n    \"California’s drunk driving deaths have increased by 53% since 2019.\",\n    \"In states that enacted all-offender interlock laws, they saw DUI deaths decrease by 15%.\",\n    \"An Ignition Interlock Device pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Every day, drunk drivers kill 37 people in the United States.\",\n    \"California’s drunk driving deaths have increased by 53% since 2019.\",\n    \"In states that enacted all-offender interlock laws, they saw DUI deaths decrease by 15%.\",\n    \"An Ignition Interlock Device prevents a vehicle from starting if the driver is drunk.\",\n    \"Mothers Against Drunk Driving (MADD) has helped cut drunk driving fatalities in half through advocacy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e56e8047cbd5958ec74f2f5c33ef9f989ee6c329"
+}

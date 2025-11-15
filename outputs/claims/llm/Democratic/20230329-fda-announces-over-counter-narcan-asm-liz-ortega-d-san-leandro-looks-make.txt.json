@@ -1,0 +1,13 @@
+{
+  "press_release": "20230329-fda-announces-over-counter-narcan-asm-liz-ortega-d-san-leandro-looks-make.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO ― As the Federal Drug Administration announced that Naloxone will now be made available over the counter, California Assemblymember Liz Ortega is seeking to remove cost ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:57:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Naloxone will now be made available over the counter.\",\n    \"California Assemblymember Liz Ortega is seeking to remove cost barriers by requiring Medi-Cal and private insurers to cover the life-saving drug Naloxone.\",\n    \"Fentanyl has become a major public health concer",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Naloxone will now be made available over the counter.\",\n    \"California Assemblymember Liz Ortega is seeking to remove cost barriers by requiring Medi-Cal and private insurers to cover the life-saving drug Naloxone.\",\n    \"Fentanyl has become a major public health concern in California and the US.\",\n    \"Annual overdose deaths from fentanyl reached more than 100,000 in 2021, making it the leading cause of death among 18- to 45-year-olds in the United States.\",\n    \"Fentanyl is 50 to 100 times as potent as heroin.\",\n    \"As little as 2mg of fentanyl can be fatal.\",\n    \"Fentanyl is far cheaper to manufacture than heroin.\",\n    \"The drug supply has become increasingly contaminated with fentanyl.\",\n    \"Public health and law enforcement officials have reported a rise in unintentional fentanyl poisonings.\",\n    \"Youth are marketed counterfeit prescription drugs through social media apps like SnapChat and Instagram.\",\n    \"Naloxone nasal spray can reverse an overdose in minutes.\",\n    \"Naloxone can cost upwards of $140 or more depending on the dosage and source.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "84f6ee126d03e03d8add7424da36bd566cadcbe1"
+}

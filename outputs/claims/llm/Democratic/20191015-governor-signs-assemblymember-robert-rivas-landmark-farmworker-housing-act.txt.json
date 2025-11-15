@@ -1,0 +1,13 @@
+{
+  "press_release": "20191015-governor-signs-assemblymember-robert-rivas-landmark-farmworker-housing-act.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1783 creates an opt in, new streamlined process to build housing on surplus agricultural land.\",\n    \"AB 1783 sets quality standards to ensure that the new housing is dignified and family friendly.\",\n    \"AB 1783 focuses state financial support for permanent and famil",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1783 creates an opt in, new streamlined process to build housing on surplus agricultural land.\",\n    \"AB 1783 sets quality standards to ensure that the new housing is dignified and family friendly.\",\n    \"AB 1783 focuses state financial support for permanent and family-oriented farmworker housing rather than for a temporary guest worker program.\",\n    \"AB 1783 aims to provide more affordable housing for farmworker families.\",\n    \"AB 1783 is designed to combat the housing crisis affecting California's farmworker community.\",\n    \"The passage of AB 1783 is considered a milestone in farmworker rights.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2325b8c45ffc80e46385362853d84cc9a0c6b212"
+}

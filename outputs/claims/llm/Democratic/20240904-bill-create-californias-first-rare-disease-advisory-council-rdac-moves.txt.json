@@ -1,0 +1,13 @@
+{
+  "press_release": "20240904-bill-create-californias-first-rare-disease-advisory-council-rdac-moves.txt",
+  "party": "Democratic",
+  "title": "AB 2613, a bill to establish a Rare Disease Advisory Council (RDAC) in California, named in memory of Assemblymember Rick Chavez Zbur's late sister Jacqueline Marie Zbur, heads to ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:49:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2613 establishes the Jacqueline Marie Zbur Rare Disease Advisory Council (RDAC) in California.\",\n    \"The RDAC will provide a platform for addressing the needs of Californians affected by rare diseases.\",\n    \"California's policies must reflect the real needs of the v",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2613 establishes the Jacqueline Marie Zbur Rare Disease Advisory Council (RDAC) in California.\",\n    \"The RDAC will provide a platform for addressing the needs of Californians affected by rare diseases.\",\n    \"California's policies must reflect the real needs of the vulnerable population affected by over 10,000 rare diseases.\",\n    \"Critical decisions regarding rare diseases are often made without input from those most affected, which can lead to poor health and economic outcomes.\",\n    \"AB 2613 aims to ensure that the rare disease community has input in shaping legislation and policies.\",\n    \"The establishment of the RDAC is intended to amplify the voices of those affected by rare diseases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3f595fd77788f29ac407c3de4cb32eb35487f338"
+}

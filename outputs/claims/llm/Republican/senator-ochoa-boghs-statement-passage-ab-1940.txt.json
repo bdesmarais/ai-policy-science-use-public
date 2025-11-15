@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-boghs-statement-passage-ab-1940.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) released the following statement after Assembly Bill 1940 was passed on a party-line vote on the Senate Floor:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1940 permits a school-based health center to provide new services, including behavioral health and dental care alongside reproductive services without parental notification.\",\n    \"Governor Newsom signed into law AB 1184, which limits parents' abilities to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1940 permits a school-based health center to provide new services, including behavioral health and dental care alongside reproductive services without parental notification.\",\n    \"Governor Newsom signed into law AB 1184, which limits parents' abilities to protect their children by removing them from sensitive conversations as early as 12 years old.\",\n    \"The implications of Assembly Bill 1940 are described as a great danger for families across the state.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "46fe1beac5b259767f1adad480fd1197c6cc99df"
+}

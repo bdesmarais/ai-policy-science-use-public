@@ -1,0 +1,13 @@
+{
+  "press_release": "for-immediate-release-california-state-parks-and-the-u-s-department-of-navy-reach-long-term-lease-agreement-for-san-onofre-state-beach.txt",
+  "party": "Republican",
+  "title": "Visitors will continue to enjoy uninterrupted access to iconic beach and recreational opportunities",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "647fec50aa0cbef4502e7338b2b0d94df26a12bc"
+}

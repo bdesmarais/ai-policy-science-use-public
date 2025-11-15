@@ -1,0 +1,13 @@
+{
+  "press_release": "20240411-assemblymember-al-muratsuchi-introduces-california-freedom-read-act-fight.txt",
+  "party": "Democratic",
+  "title": "Assembly Bill 1825 passes Education Committee",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:39:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Public libraries in California are prohibited from banning books based on topics, views, or opinions contained in the materials.\",\n    \"Assembly Bill 1825 aims to ensure access to diverse perspectives in public libraries.\",\n    \"The number of reported book challenges in ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Public libraries in California are prohibited from banning books based on topics, views, or opinions contained in the materials.\",\n    \"Assembly Bill 1825 aims to ensure access to diverse perspectives in public libraries.\",\n    \"The number of reported book challenges in the United States increased by 65 percent from 2022 to 2023, reaching the highest level ever documented by the American Library Association.\",\n    \"The number of book titles targeted for censorship at public libraries increased by 92 percent from the previous year.\",\n    \"Book titles containing subject matter on LGBTQ and communities of color made up 47 percent of those targeted in censorship attempts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ccd7729ac7b457f0f5fa815129c27dd360d61410"
+}

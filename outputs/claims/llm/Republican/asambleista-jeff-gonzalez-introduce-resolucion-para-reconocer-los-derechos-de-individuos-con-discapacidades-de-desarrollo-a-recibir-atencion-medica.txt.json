@@ -1,0 +1,13 @@
+{
+  "press_release": "asambleista-jeff-gonzalez-introduce-resolucion-para-reconocer-los-derechos-de-individuos-con-discapacidades-de-desarrollo-a-recibir-atencion-medica.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Hoy, el Asambleísta Jeff Gonzalez (R-Indio ) publicó la siguiente declaración sobre ACR 55, que reconoce el 40 Aniversario de la decisión de la Corte Suprema de Califo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "55560c648b62bf5f794c794c6a39df34d07f8e88"
+}

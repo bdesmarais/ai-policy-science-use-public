@@ -1,0 +1,13 @@
+{
+  "press_release": "20170608-statement-assemblymember-al-muratsuchi-d-torrance-south-coast-air-quality.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The City of Torrance and Sonoma Technology will be receiving $3 million to install refinery air quality monitors and upgrades to the community emergency alert system.\",\n    \"Assemblymember Muratsuchi has introduced a package of bills to make refineries safer in Californi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The City of Torrance and Sonoma Technology will be receiving $3 million to install refinery air quality monitors and upgrades to the community emergency alert system.\",\n    \"Assemblymember Muratsuchi has introduced a package of bills to make refineries safer in California.\",\n    \"AB 1645 will ban the use of Hydrofluoric Acid at California refineries.\",\n    \"AB 1646 requires refineries to maintain a publicly accessible risk management plan including emergency notifications to residents.\",\n    \"AB 1647 will require that refineries install and maintain air quality monitors at fence-line and in the community, with real-time reporting of readings.\",\n    \"AB 1648 increases the number of refinery inspectors at Cal/OSHA.\",\n    \"AB 1649 will codify and make permanent the existing Interagency Refinery Task Force.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "02bae086e15f20d930260e2cb4b9c064d3f994a9"
+}

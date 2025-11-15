@@ -1,0 +1,154 @@
+{
+  "press_release": "20240417-assemblywoman-sorias-ab-2104-and-ab-3275-pass-first-policy-committees.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:40:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 2104 authorizes the California Community Colleges to establish a pilot program to allow up to 15 community college districts to offer a Bachelor of Science in nursing degree.\"\n    },\n    {\n      \"claim_text\": \"AB 2104 will expand the access and a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 2104 authorizes the California Community Colleges to establish a pilot program to allow up to 15 community college districts to offer a Bachelor of Science in nursing degree.\"\n    },\n    {\n      \"claim_text\": \"AB 2104 will expand the access and affordability of Bachelor of Science in nursing degrees in local communities.\"\n    },\n    {\n      \"claim_text\": \"The shortage of nurses in California is hurting vulnerable communities, particularly in the Central Valley.\"\n    },\n    {\n      \"claim_text\": \"Expanding access to nursing training programs is necessary to tackle the workforce challenge in California.\"\n    },\n    {\n      \"claim_text\": \"AB 2104 aims to grow the nursing workforce in areas of the state most in need.\"\n    },\n    {\n      \"claim_text\": \"The advancement of AB 2104 through the Higher Education Committee is important to meet California's demand for qualified nurses.\"\n    },\n    {\n      \"claim_text\": \"Community colleges have highly-respected faculty ready to assist in educating the next generation of nurses.\"\n    },\n    {\n      \"claim_text\": \"AB 2104 enhances diversity in the nursing profession, benefiting underserved communities.\"\n    },\n    {\n      \"claim_text\": \"Without action, the nursing shortage in California could worsen, limiting access to needed healthcare.\"\n    },\n    {\n      \"claim_text\": \"AB 3275 requires health plans or insurers to reimburse an uncontested claim within 10 business days for small and rural hospitals.\"\n    },\n    {\n      \"claim_text\": \"AB 3275 requires the Department of Managed Health Care to develop a list of claim categories to be paid within five days if care was documented.\"\n    },\n    {\n      \"claim_text\": \"Timely payments to small and rural hospitals are essential for their financial stability.\"\n    },\n    {\n      \"claim_text\": \"The closure of Madera Community Hospital highlighted the critical issue of healthcare claim reimbursement.\"\n    },\n    {\n      \"claim_text\": \"Small and rural hospitals rely on timely payments to operate efficiently and reduce financial vulnerability.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "AB 2104 authorizes the California Community Colleges to establish a pilot program to allow up to 15 community college districts to offer a Bachelor of Science in nursing degree.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 2104 will expand the access and affordability of Bachelor of Science in nursing degrees in local communities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The shortage of nurses in California is hurting vulnerable communities, particularly in the Central Valley.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Expanding access to nursing training programs is necessary to tackle the workforce challenge in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 2104 aims to grow the nursing workforce in areas of the state most in need.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The advancement of AB 2104 through the Higher Education Committee is important to meet California's demand for qualified nurses.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Community colleges have highly-respected faculty ready to assist in educating the next generation of nurses.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 2104 enhances diversity in the nursing profession, benefiting underserved communities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Without action, the nursing shortage in California could worsen, limiting access to needed healthcare.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 3275 requires health plans or insurers to reimburse an uncontested claim within 10 business days for small and rural hospitals.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 3275 requires the Department of Managed Health Care to develop a list of claim categories to be paid within five days if care was documented.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Timely payments to small and rural hospitals are essential for their financial stability.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The closure of Madera Community Hospital highlighted the critical issue of healthcare claim reimbursement.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Small and rural hospitals rely on timely payments to operate efficiently and reduce financial vulnerability.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 14,
+  "doc_sha1": "a2f4c3e4ec737d14746a6c28ad9bf3ea47a9e2c9"
+}

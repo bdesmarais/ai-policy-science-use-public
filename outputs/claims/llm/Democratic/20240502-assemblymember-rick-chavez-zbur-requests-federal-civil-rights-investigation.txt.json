@@ -1,0 +1,13 @@
+{
+  "press_release": "20240502-assemblymember-rick-chavez-zbur-requests-federal-civil-rights-investigation.txt",
+  "party": "Democratic",
+  "title": "Zbur, Who Represents UCLA, Urges U.S. Department of Education to Review Potential Title VI Civil Rights Violations, Calls on UC Regents To Conduct Independent Investigation of Secu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The U.S. Department of Education's Office for Civil Rights enforces Title VI in public and federally funded schools at all educational levels, including public universities like UCLA.\",\n    \"Title VI protects all students, including Jewish students, from discrimination b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The U.S. Department of Education's Office for Civil Rights enforces Title VI in public and federally funded schools at all educational levels, including public universities like UCLA.\",\n    \"Title VI protects all students, including Jewish students, from discrimination based on race and national origin.\",\n    \"Schools must take immediate and appropriate action to respond to complaints of discrimination, including harassment, intimidation, or denial of equal access to education based on race, color, or national origin.\",\n    \"Demonstrators at UCLA maintained checkpoints throughout campus with signs such as 'Zionists not welcome.'\",\n    \"A Jewish student was refused access to the main entrance of Powell Library because he self-identified as a Zionist.\",\n    \"A Jewish student was assaulted by more than a dozen demonstrators, with no intervention from UCLA's private security present during the assault.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "161537726663d066010a2aec0eef917898c44338"
+}

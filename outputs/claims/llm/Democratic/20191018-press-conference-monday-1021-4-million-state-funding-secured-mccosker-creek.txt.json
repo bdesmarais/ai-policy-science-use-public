@@ -1,0 +1,13 @@
+{
+  "press_release": "20191018-press-conference-monday-1021-4-million-state-funding-secured-mccosker-creek.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1d18b74898b70836e6869a49740eb6e2a7f873ba"
+}

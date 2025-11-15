@@ -1,0 +1,13 @@
+{
+  "press_release": "republican-leader-warns-against-nationwide-adoption-of-ca-labor-policy-10-12-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 5 is already going to cause more than 70,000 trucking jobs to be lost in California.\",\n    \"Making California's labor policy a national policy will lead to further breaks in the supply chain.\",\n    \"California's labor policy will result in higher costs for hardworking",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 5 is already going to cause more than 70,000 trucking jobs to be lost in California.\",\n    \"Making California's labor policy a national policy will lead to further breaks in the supply chain.\",\n    \"California's labor policy will result in higher costs for hardworking Americans.\",\n    \"AB 5 has more than 75 exemptions for specific professions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e7a9201ef657ba32dd1c42e5798520f9935bb37f"
+}

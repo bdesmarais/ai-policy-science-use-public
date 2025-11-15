@@ -1,0 +1,13 @@
+{
+  "press_release": "californias-school-bus-drivers-get-their-due.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –Senator Dave Cortese’s (D-Silicon Valley) Senate Concurrent Resolution (SCR) 60 designating April 22 as School Bus Drivers’ Day in California has been passed by both th",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eba7300be8f67b7a8a7124fe44f061c9f782ce05"
+}

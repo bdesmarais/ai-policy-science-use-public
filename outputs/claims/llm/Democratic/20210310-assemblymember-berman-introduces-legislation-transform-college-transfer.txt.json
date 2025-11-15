@@ -1,0 +1,13 @@
+{
+  "press_release": "20210310-assemblymember-berman-introduces-legislation-transform-college-transfer.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Student Transfer Achievement Reform Act of 2021 strengthens transfer by removing barriers and building upon the highly successful Associate Degree for Transfer (ADT).\",\n    \"The ADT is designed to simplify the transfer pathway, save students time and money, and guara",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Student Transfer Achievement Reform Act of 2021 strengthens transfer by removing barriers and building upon the highly successful Associate Degree for Transfer (ADT).\",\n    \"The ADT is designed to simplify the transfer pathway, save students time and money, and guarantee admission to the state’s public universities.\",\n    \"Over the last ten years, the California Community Colleges have awarded over 280,000 ADTs.\",\n    \"Fewer than half of California's 2.2 million community college students transfer to a four-year university within six years of their initial enrollment.\",\n    \"The ADT reduces the number of unnecessary credits students earn on their transfer journeys.\",\n    \"The ADT drives an increase in the number of students who transfer to the California State University (CSU) with an associate's degree.\",\n    \"The ADT has a proven track record of success and is intended to transform the transfer process and close racial equity gaps.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1609b84fbc0be58924ef5eceb5ed84f46d910d3d"
+}

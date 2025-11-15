@@ -1,0 +1,13 @@
+{
+  "press_release": "california-senator-dave-cortese%E2%80%99s-statement-events-us-capitol.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-Silicon Valley) made the following statement about the events occurring at the U.S. Capitol when members of Congress met to certify President-elect Joe Bide",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1ab36399db9abfdf6196764aa2e3a5e644833938"
+}

@@ -1,0 +1,74 @@
+{
+  "press_release": "20200611-california-assembly-approves-bill-assemblywoman-rubio-reduce-activity.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The illegal cannabis market accounts for as much as 80% of cannabis sales.\"\n    },\n    {\n      \"claim_text\": \"The underground cannabis market presents public safety and health threats.\"\n    },\n    {\n      \"claim_text\": \"Cannabis products sold in the",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The illegal cannabis market accounts for as much as 80% of cannabis sales.\"\n    },\n    {\n      \"claim_text\": \"The underground cannabis market presents public safety and health threats.\"\n    },\n    {\n      \"claim_text\": \"Cannabis products sold in the illegal market do not meet established standards.\"\n    },\n    {\n      \"claim_text\": \"Cannabis products sold illegally evade state testing and put people at risk.\"\n    },\n    {\n      \"claim_text\": \"Civil penalties for aiding unlicensed cannabis activity will encourage operators to join the legal market.\"\n    },\n    {\n      \"claim_text\": \"The illicit cannabis market contributes to dwindling tax revenues in California.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The illegal cannabis market accounts for as much as 80% of cannabis sales.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The underground cannabis market presents public safety and health threats.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Cannabis products sold in the illegal market do not meet established standards.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Cannabis products sold illegally evade state testing and put people at risk.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Civil penalties for aiding unlicensed cannabis activity will encourage operators to join the legal market.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The illicit cannabis market contributes to dwindling tax revenues in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "c3f847df7dbf9e9f0dbe475ae2bec5da2edbb6dc"
+}

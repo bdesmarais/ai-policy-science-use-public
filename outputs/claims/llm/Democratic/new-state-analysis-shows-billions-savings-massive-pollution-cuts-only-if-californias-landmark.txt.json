@@ -1,0 +1,13 @@
+{
+  "press_release": "new-state-analysis-shows-billions-savings-massive-pollution-cuts-only-if-californias-landmark.txt",
+  "party": "Democratic",
+  "title": "View the 2024 Annual Report",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's landmark plastic pollution reduction law could deliver $32 billion in net benefits and slash plastic waste by 1.9 billion pounds.\",\n    \"Senate Bill 54 is a first-in-the-nation law that forces producers to take responsibility for reducing plastic in how they",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's landmark plastic pollution reduction law could deliver $32 billion in net benefits and slash plastic waste by 1.9 billion pounds.\",\n    \"Senate Bill 54 is a first-in-the-nation law that forces producers to take responsibility for reducing plastic in how they design packaging.\",\n    \"The implementation of SB 54 will produce more than seven times the benefits than previously reported.\",\n    \"The estimated implementation costs of SB 54 fell by nearly 50 percent due to more precise data about single-use packaging and plastic foodware.\",\n    \"The implementation of SB 54 will generate avoided costs for California consumers and businesses of $53.3 billion, compared with $21 billion in costs.\",\n    \"SB 54 is expected to avoid damage costs associated with PFAS in the environment and our bodies of more than $25 billion.\",\n    \"The implementation of SB 54 is projected to increase personal income by more than $14 billion.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2f5fba830ef96bdd786ee782f943c3574085adce"
+}

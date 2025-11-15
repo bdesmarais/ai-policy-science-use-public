@@ -1,0 +1,13 @@
+{
+  "press_release": "20240912-faq-californias-special-session-prevent-gas-price-spikes.txt",
+  "party": "Democratic",
+  "title": "California Governor Gavin Newsom announced a special session of the Legislature on August 31, focusing on reducing spikes in gas prices, and with his proclamation came many questio",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:16:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4c34bff2307c53b87d2abb1080cdb24ae4cd1c25"
+}

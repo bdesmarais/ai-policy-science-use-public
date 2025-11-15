@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-limons-statement-regarding-actions-taken-against-senator-alex-padilla.txt",
+  "party": "Democratic",
+  "title": "\"I am appalled that Senator Alex Padilla (D-California) was thrown to the ground and handcuffed at a press conference. As a United States Senator he has the right to ask questions ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d9957cdb18cb518bf6b9a9f87444bf96f631771f"
+}

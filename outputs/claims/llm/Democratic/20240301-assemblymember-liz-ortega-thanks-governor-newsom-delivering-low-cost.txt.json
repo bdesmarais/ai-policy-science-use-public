@@ -1,0 +1,13 @@
+{
+  "press_release": "20240301-assemblymember-liz-ortega-thanks-governor-newsom-delivering-low-cost.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"On February 15, 2023, an FDA panel recommended that naloxone be approved for over-the-counter (OTC) sales.\",\n    \"Public health experts warned that naloxone's high price point would limit access.\",\n    \"Assemblymember Ortega introduced AB 1060 to cap out-of-pocket costs ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"On February 15, 2023, an FDA panel recommended that naloxone be approved for over-the-counter (OTC) sales.\",\n    \"Public health experts warned that naloxone's high price point would limit access.\",\n    \"Assemblymember Ortega introduced AB 1060 to cap out-of-pocket costs for OTC naloxone at $10 by requiring MediCal and private insurers to cover the drug.\",\n    \"Governor Newsom announced that the CalRX program would include a cheaper naloxone nasal spray.\",\n    \"CalRX would have a contract in place to provide low-cost naloxone to Californians by this summer.\",\n    \"Naloxone is a safe and easy-to-administer drug that can reverse a fentanyl overdose within minutes.\",\n    \"The focus on expanding access to naloxone was spurred by a sharp increase in fentanyl and synthetic opioid overdoses.\",\n    \"US overdose deaths exceeded 100,000 in 2021.\",\n    \"Prior to the political efforts, drugstores began selling naloxone over the counter at $44.99.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "33a2d6d661d4458033dc12dd23edcf9faa6d97cc"
+}

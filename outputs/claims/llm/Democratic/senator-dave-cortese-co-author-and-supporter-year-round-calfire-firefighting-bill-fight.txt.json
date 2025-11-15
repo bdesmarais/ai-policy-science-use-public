@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-cortese-co-author-and-supporter-year-round-calfire-firefighting-bill-fight.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO -  California State Senator Dave Cortese (D-Silicon Valley) today joined CalFire firefighters, Senate President pro Tempore Mike McGuire and a bipartisan group of State ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Fire season in California is now year-round instead of seasonal.\",\n    \"The Fight for Firefighters Act proposes transitioning 3,000 seasonal CalFire firefighters to full-time status.\",\n    \"The state plans to fully operationalize all 356 CalFire fire engines 365 days per",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Fire season in California is now year-round instead of seasonal.\",\n    \"The Fight for Firefighters Act proposes transitioning 3,000 seasonal CalFire firefighters to full-time status.\",\n    \"The state plans to fully operationalize all 356 CalFire fire engines 365 days per year.\",\n    \"All 38 of CalFire's vegetation management crews would be operational throughout the year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "53a33646106366c9b4634dbafa943bbcf0ccf56f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240312-assemblywoman-pilar-schiavo-calls-state-emergency-response-chiquita-canyon.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO– Assemblywoman Pilar Schiavo today announced a significant step towards addressing the severe environmental and public health crisis at the Chiquita Canyon Landfill by f",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Ongoing underground chemical reactions within the Chiquita Canyon Landfill have significantly impacted surrounding communities since 2023.\",\n    \"Residents of Val Verde, Castaic, and nearby schools have been subjected to prolonged exposure to harmful emissions.\",\n    \"He",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Ongoing underground chemical reactions within the Chiquita Canyon Landfill have significantly impacted surrounding communities since 2023.\",\n    \"Residents of Val Verde, Castaic, and nearby schools have been subjected to prolonged exposure to harmful emissions.\",\n    \"Health issues among residents include headaches, nausea, asthma, and heart palpitations.\",\n    \"Nearly all respondents in a community survey reported direct health impacts from the landfill.\",\n    \"The Los Angeles County Public Health Department has declared Chiquita Canyon a public nuisance.\",\n    \"There are elevated findings of benzene and carbon tetrachloride associated with the landfill.\",\n    \"The landfill's containment challenges pose an imminent threat to public health and the environment.\",\n    \"The Environmental Protection Agency (EPA) issued a Unilateral Administrative Order due to significant risk to public health and the environment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d62f6cbfb64fd35e152f1373f78405ca8bf9c8cc"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250519-assemblymember-stephanie-nguyens-bill-restore-judicial-discretion-mental.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 46 allows judges to take into account factors such as treatment plans, criminal history, and seriousness of the offense when deciding whether to grant mental health diversion.\",\n    \"The California State Assembly has passed Assembly Bill 46, which provides judges disc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 46 allows judges to take into account factors such as treatment plans, criminal history, and seriousness of the offense when deciding whether to grant mental health diversion.\",\n    \"The California State Assembly has passed Assembly Bill 46, which provides judges discretion in mental health diversion cases.\",\n    \"AB 46 aims to protect public safety by allowing consideration of the defendant's risk to others when evaluating diversion requests.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9ddc7563f06986db1b5846449d4105fbe0228dc8"
+}

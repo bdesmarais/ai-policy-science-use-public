@@ -1,0 +1,13 @@
+{
+  "press_release": "20250401-video-assembly-speaker-robert-rivas-statement-protecting-rights-californias.txt",
+  "party": "Democratic",
+  "title": "Click Here To Watch/Download a Video of Speaker Rivas’ Remarks",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:31:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There is no epidemic of transgender kids playing basketball and soccer or any other sport.\",\n    \"There are more kids right now with measles in Texas than there are transgender athletes playing in the NCAA.\",\n    \"Californians have lost their jobs because of DOGE.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There is no epidemic of transgender kids playing basketball and soccer or any other sport.\",\n    \"There are more kids right now with measles in Texas than there are transgender athletes playing in the NCAA.\",\n    \"Californians have lost their jobs because of DOGE.\",\n    \"Gender identity is a protected class in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e7bb4f8aba2f519f81cdb86b6216aa05dd83880e"
+}

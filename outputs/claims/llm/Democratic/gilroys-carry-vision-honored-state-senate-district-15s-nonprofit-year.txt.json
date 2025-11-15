@@ -1,0 +1,13 @@
+{
+  "press_release": "gilroys-carry-vision-honored-state-senate-district-15s-nonprofit-year.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - The California Senate today honored the Gilroy-based, county-wide organization “Carry the Vision” as District 15’s Nonprofit of the Year. The organization was celebrat",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Carry the Vision helps people who were formerly incarcerated heal through a variety of programs aimed at creating lasting positive changes.\",\n    \"The programs offered by Carry the Vision have been quite effective.\",\n    \"Carry The Vision's Resource Navigation program pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Carry the Vision helps people who were formerly incarcerated heal through a variety of programs aimed at creating lasting positive changes.\",\n    \"The programs offered by Carry the Vision have been quite effective.\",\n    \"Carry The Vision's Resource Navigation program provides case management for formerly justice-involved individuals, families, and caregivers impacted by the criminal justice system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "07a99a35fc6e099c9bb8637b1bbdc186d558309a"
+}

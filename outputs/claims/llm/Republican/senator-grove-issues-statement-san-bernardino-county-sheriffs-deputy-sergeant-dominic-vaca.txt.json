@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-issues-statement-san-bernardino-county-sheriffs-deputy-sergeant-dominic-vaca.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) representing California’s 16th Senate District, issued the following statement on the death of San Bernardino County Sheriff’s Sergeant Domini",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3940252e3009768ed206dec9e01342788a4cd087"
+}

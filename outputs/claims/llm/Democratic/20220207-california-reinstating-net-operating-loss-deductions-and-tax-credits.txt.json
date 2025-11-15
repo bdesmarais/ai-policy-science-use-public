@@ -1,0 +1,13 @@
+{
+  "press_release": "20220207-california-reinstating-net-operating-loss-deductions-and-tax-credits.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Restoring tax credits for California companies and reinstating Net Operating Loss deductions is a significant policy lever to encourage investment and growth in California's innovation economy.\",\n    \"California's innovation economy has driven breakthroughs in technology",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Restoring tax credits for California companies and reinstating Net Operating Loss deductions is a significant policy lever to encourage investment and growth in California's innovation economy.\",\n    \"California's innovation economy has driven breakthroughs in technology, advanced manufacturing, farming, aerospace, and life sciences.\",\n    \"The restoration of R&D tax credits is expected to spur innovation in California.\",\n    \"The biotechnology industry in California employs hundreds of thousands of people who have developed vital lifesaving treatments.\",\n    \"California's biotech industry has played a crucial role in developing vaccines and treatments for COVID-19.\",\n    \"Restoring R&D tax credits will help California maintain its competitive edge in the biotechnology industry.\",\n    \"The life sciences industry contributes well-paying jobs and advances research aimed at saving lives in California and beyond.\",\n    \"Ending limitations on R&D tax credits is expected to encourage businesses to invest in new innovations.\",\n    \"The restoration of tax credits and NOL options is projected to create jobs and drive economic growth in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9e46f8e13e1bfc642aded74a29ec428a55de6557"
+}

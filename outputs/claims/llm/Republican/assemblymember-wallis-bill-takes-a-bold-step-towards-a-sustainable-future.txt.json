@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-wallis-bill-takes-a-bold-step-towards-a-sustainable-future.txt",
+  "party": "Republican",
+  "title": "(SACRAMENTO)—Yesterday on the west steps of the State Capitol, Assemblymember Greg Wallis announced his bill AB 3118 amidst legislative colleagues and advocates for the solar indus",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is establishing solar energy as its official state energy.\",\n    \"California leads the nation in solar energy production, accounting for over 30% of electricity production in 2022.\",\n    \"The Million Solar Roofs Initiative has resulted in over two million sola",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is establishing solar energy as its official state energy.\",\n    \"California leads the nation in solar energy production, accounting for over 30% of electricity production in 2022.\",\n    \"The Million Solar Roofs Initiative has resulted in over two million solar rooftops in California.\",\n    \"The solar industry contributes to innovation and job creation in California.\",\n    \"AB 3118 reflects California's commitment to renewable energy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "12265f1541c72f0d2a1efafc42bb9581a3adff69"
+}

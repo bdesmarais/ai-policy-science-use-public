@@ -1,0 +1,13 @@
+{
+  "press_release": "20240524-assemblywoman-pilar-schiavos-legislative-package-advances-senate-strong.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - Assemblywoman Pilar Schiavo announced today that all of her bills on the Assembly floor have passed with all but one receiving bipartisan support, and are now moving f",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0bc4725490f2b750849b6dd9021f9da73ae84afb"
+}

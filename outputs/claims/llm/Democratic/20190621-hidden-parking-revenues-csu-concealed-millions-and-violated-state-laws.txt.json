@@ -1,0 +1,13 @@
+{
+  "press_release": "20190621-hidden-parking-revenues-csu-concealed-millions-and-violated-state-laws.txt",
+  "party": "Democratic",
+  "title": "The California state auditor today reported that the CSU has been funneling hundreds of millions to accounts outside of the State Treasury, disregarded state laws, and used million",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:09:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The CSU has been funneling hundreds of millions to accounts outside of the State Treasury.\",\n    \"The CSU has disregarded state laws regarding revenue from campus parking permit fees.\",\n    \"Revenue from campus parking permit fees has been used to fund projects unrelated",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The CSU has been funneling hundreds of millions to accounts outside of the State Treasury.\",\n    \"The CSU has disregarded state laws regarding revenue from campus parking permit fees.\",\n    \"Revenue from campus parking permit fees has been used to fund projects unrelated to the CSU parking program.\",\n    \"The surplus from campus parking fees was hidden in separate accounts from public and state overview.\",\n    \"The CSU executive leadership has been subject to highly critical state audits multiple times.\",\n    \"A 2018 state audit raised concerns about ongoing campus violations that threaten the health and safety of employees and students working with hazardous materials.\",\n    \"A 2017 state audit cited unjustified and excessive growth in administration positions and salaries at CSU.\",\n    \"CSU has an inability to document how state funds are spent.\",\n    \"California college students have an average of $20,000 in debt.\",\n    \"CSU had accumulated a surplus of more than $1.5 billion as of June 30, 2018, primarily from doubling student tuition.\",\n    \"CSU leadership has ignored requirements to maintain committees for alternative transportation programs.\",\n    \"CSU holds approximately $3.7 billion in outside investment accounts, with about $2 billion in surplus.\",\n    \"The State has minimal oversight and is unaware of the management or use of CSU's outside accounts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "81e70b0a0b6e4ec22560e21eb92bcb0165b2288d"
+}

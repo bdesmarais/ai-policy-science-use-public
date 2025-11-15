@@ -1,0 +1,13 @@
+{
+  "press_release": "20250512-california-assembly-passes-groundbreaking-legislation-hold-social-media.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Social media platforms can be held financially accountable if their negligence contributes to harm suffered by children and teens.\",\n    \"California Assembly Bill 2 aims to compel social media companies to take responsibility for the damage caused by their algorithms and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Social media platforms can be held financially accountable if their negligence contributes to harm suffered by children and teens.\",\n    \"California Assembly Bill 2 aims to compel social media companies to take responsibility for the damage caused by their algorithms and design choices.\",\n    \"Large social media companies have been informed through internal research that their platforms are addictive and harmful, particularly to young users.\",\n    \"The bill establishes a legal pathway for financial liability when a platform's negligence results in harm to a minor.\",\n    \"Strengthening penalties for harms caused by social media companies could help incentivize them to implement age-appropriate safety features.\",\n    \"The design of social media platforms can exploit the vulnerabilities of youth, leading to potential harm.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fd25fd3abf2a0b6759acf03c786709d07b00430e"
+}

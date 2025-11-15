@@ -1,0 +1,74 @@
+{
+  "press_release": "sen-corteses-statement-sb-483-banning-prone-restraints-advancing-governors-desk.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE, CA – Senator Dave Cortese (D-San Jose) issued the following statement regarding his Senate Bill 483 (SB 483) advancing to the Governor for his signing and adoption.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:20:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"SB 483 bans the archaic and deadly practice of prone restraint from being used in California schools.\"\n    },\n    {\n      \"claim_text\": \"The U.S. Department of Education has recommended banning the use of prone restraint.\"\n    },\n    {\n      \"claim_",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"SB 483 bans the archaic and deadly practice of prone restraint from being used in California schools.\"\n    },\n    {\n      \"claim_text\": \"The U.S. Department of Education has recommended banning the use of prone restraint.\"\n    },\n    {\n      \"claim_text\": \"Prone restraints are used in schools at a disproportionate rate against students with disabilities and students of color.\"\n    },\n    {\n      \"claim_text\": \"Prone restraints have harmed and even killed students.\"\n    },\n    {\n      \"claim_text\": \"SB 483 will encourage schools to identify, adopt, and implement evidence-based rehabilitative intervention and prevention strategies.\"\n    },\n    {\n      \"claim_text\": \"Students in California will not have to deal with the indignity and trauma of prone restraint due to SB 483.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "SB 483 bans the archaic and deadly practice of prone restraint from being used in California schools.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The U.S. Department of Education has recommended banning the use of prone restraint.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Prone restraints are used in schools at a disproportionate rate against students with disabilities and students of color.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Prone restraints have harmed and even killed students.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 483 will encourage schools to identify, adopt, and implement evidence-based rehabilitative intervention and prevention strategies.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Students in California will not have to deal with the indignity and trauma of prone restraint due to SB 483.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "9e40e8e7c30d1fa4f1fdf062ac0487c3ac32641e"
+}

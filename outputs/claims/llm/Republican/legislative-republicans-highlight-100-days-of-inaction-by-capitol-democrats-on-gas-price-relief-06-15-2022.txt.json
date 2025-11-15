@@ -1,0 +1,13 @@
+{
+  "press_release": "legislative-republicans-highlight-100-days-of-inaction-by-capitol-democrats-on-gas-price-relief-06-15-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California gas prices are higher than the federal minimum wage.\",\n    \"The current gas tax increases are affecting costs in food, service, housing, and business operations.\",\n    \"The gas tax increase scheduled for July 1st will rise to 54 cents.\",\n    \"Californians are ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California gas prices are higher than the federal minimum wage.\",\n    \"The current gas tax increases are affecting costs in food, service, housing, and business operations.\",\n    \"The gas tax increase scheduled for July 1st will rise to 54 cents.\",\n    \"Californians are facing hardships due to high gas prices, impacting essentials like baby formula.\",\n    \"Five other states have recently suspended their gas taxes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "419b5a4e33f99513b6b362e2501875e4081ef5f9"
+}

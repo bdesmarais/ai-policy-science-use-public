@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-bill-secure-nationwide-collective-bargaining-agreement-minor-league-baseball.txt",
+  "party": "Democratic",
+  "title": "The nation’s first collective bargaining agreement for minor league baseball took a significant step toward becoming reality for California’s 362 minor league players on Wednesday,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 332 guarantees that minor league baseball players across the country will see a significant increase in regular season salary and benefits.\",\n    \"SB 332 includes compensation for Spring Training and the off-season for minor league baseball players.\",\n    \"The legisla",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 332 guarantees that minor league baseball players across the country will see a significant increase in regular season salary and benefits.\",\n    \"SB 332 includes compensation for Spring Training and the off-season for minor league baseball players.\",\n    \"The legislation is needed to carry out the collective bargaining agreement approved by Major League Baseball (MLB) and the Major League Baseball Players Association (MLBPA) on March 29, 2023.\",\n    \"The collective bargaining agreement established minor league baseball players as salaried employees.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5af895489ba4dc20dacde343140f60d0cfc9f6fa"
+}

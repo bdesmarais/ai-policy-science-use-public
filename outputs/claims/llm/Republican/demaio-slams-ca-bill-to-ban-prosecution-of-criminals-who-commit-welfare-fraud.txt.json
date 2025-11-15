@@ -1,0 +1,13 @@
+{
+  "press_release": "demaio-slams-ca-bill-to-ban-prosecution-of-criminals-who-commit-welfare-fraud.txt",
+  "party": "Republican",
+  "title": "“Democrat politicians are advancing legislation to LEGALIZE welfare fraud in California. SB 560 by Senator Smallwood-Cuevas illustrates exactly what’s wrong with California: Democr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "448f9e83ff4e4a1ca5bd69710d1988b348c2f43e"
+}

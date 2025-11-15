@@ -1,0 +1,13 @@
+{
+  "press_release": "20170324-assembly-bill-ab-491-which-establishes-3m-grants-education-japanese.txt",
+  "party": "Democratic",
+  "title": "With President Trump’s travel ban targeting Muslims, Muratsuchi’s bill intends to ensure such discrimination never happens again",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:54:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d28af3785eb706f7f56ccf11a714d1462af0931"
+}

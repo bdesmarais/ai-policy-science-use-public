@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-corteses-statement-ca-assembly-appropriations-committee-approving-his-sb-1298-improving.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE, CA – Senator Dave Cortese (D-San Jose) issued the following statement regarding his Senate Bill 1298 (SB 1298) being approved by the California Assembly Appropriations Co",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Expanding data center infrastructure is essential for the continued growth and competitiveness of the tech industry in California.\",\n    \"SB 1298 aims to meet the increasing demand for data centers while maintaining environmental standards.\",\n    \"The bill would increase",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Expanding data center infrastructure is essential for the continued growth and competitiveness of the tech industry in California.\",\n    \"SB 1298 aims to meet the increasing demand for data centers while maintaining environmental standards.\",\n    \"The bill would increase the threshold for data center eligibility under the Small Power Plant Exemption from 100 MW to 150 MW.\",\n    \"SB 1298 is designed to support critical services such as hospitals, transportation, banking, and public safety.\",\n    \"The bill balances infrastructure upgrades with environmental review.\",\n    \"Passing SB 1298 could generate thousands of jobs for communities across California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fe46790266ca7d09cefd5667482218f95a2ff6d2"
+}

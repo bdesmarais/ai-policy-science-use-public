@@ -1,0 +1,13 @@
+{
+  "press_release": "second-alanis-bill-fighting-opioid-crisis-is-signed-by-governor.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Juan Alanis announced that AB 1859, aimed at tackling the rise in Tranq overdoses, has been signed into law by the Governor.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Xylazine, commonly known as Tranq, is a potent and addictive drug whose effects cannot be reversed with naloxone.\",\n    \"AB 1859 requires coroners to test for xylazine in the bodily fluids of individuals who have died from suspected opioid overdoses.\",\n    \"The testing f",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Xylazine, commonly known as Tranq, is a potent and addictive drug whose effects cannot be reversed with naloxone.\",\n    \"AB 1859 requires coroners to test for xylazine in the bodily fluids of individuals who have died from suspected opioid overdoses.\",\n    \"The testing for xylazine will provide essential data to identify trends, allocate resources, and develop targeted interventions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dc7490107d363413655ab739cea22050c3724551"
+}

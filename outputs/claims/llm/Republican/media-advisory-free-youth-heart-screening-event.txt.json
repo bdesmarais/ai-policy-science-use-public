@@ -1,0 +1,13 @@
+{
+  "press_release": "media-advisory-free-youth-heart-screening-event.txt",
+  "party": "Republican",
+  "title": "Who? Senator Brian W. Jones (R-Santee), Eric Paredes Save A Life Foundation",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"One in 300 children have an undetected heart condition.\",\n    \"Youth heart screening events help with early identification of a heart condition and can save lives.\",\n    \"Senate Bill 1135 will establish a pilot program to increase youth heart screenings at both public an",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"One in 300 children have an undetected heart condition.\",\n    \"Youth heart screening events help with early identification of a heart condition and can save lives.\",\n    \"Senate Bill 1135 will establish a pilot program to increase youth heart screenings at both public and private schools.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "831ad3417f72111d44c88b47679f92a39374fb52"
+}

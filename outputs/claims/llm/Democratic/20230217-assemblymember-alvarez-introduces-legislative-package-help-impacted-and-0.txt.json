@@ -1,0 +1,13 @@
+{
+  "press_release": "20230217-assemblymember-alvarez-introduces-legislative-package-help-impacted-and-0.txt",
+  "party": "Democratic",
+  "title": "Sacramento – Assemblymember David Alvarez (D-San Diego) introduced Assembly Bill’s 979, 991, and 1005 to streamline services and public programs for vulnerable Californians. The th",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:54:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 979 would modernize regulations for family councils in long-term care facilities by ensuring that meetings can occur electronically.\",\n    \"AB 979 aims to improve the efficiency of addressing complaints and sharing information in long-term care facilities.\",\n    \"Reci",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 979 would modernize regulations for family councils in long-term care facilities by ensuring that meetings can occur electronically.\",\n    \"AB 979 aims to improve the efficiency of addressing complaints and sharing information in long-term care facilities.\",\n    \"Recipients of social service programs often rely on outdated procedures that hinder their access to critical programs.\",\n    \"Over 50% of applications to CalFresh are denied for procedural reasons, including issues related to the submission of information via email.\",\n    \"AB 991 proposes to improve communication pathways for recipients of social services to ensure they can access critical programs without disruption.\",\n    \"AB 1005 intends to streamline the matching process between IHSS caregivers and hospice care recipients to reduce bureaucratic hurdles.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "77c7c2d740798066487beca5308e187822918980"
+}

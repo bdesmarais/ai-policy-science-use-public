@@ -1,0 +1,13 @@
+{
+  "press_release": "20151012-california-able-act-signed.txt",
+  "party": "Democratic",
+  "title": "Bi-Partisan Bill to Create Tax-Free Savings for Californians with  Disabilities",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Starting January 1st, 2016, individuals with disabilities and their families will be able to save money tax-free without fear of losing eligibility for public assistance programs.\",\n    \"The ABLE Act allows people with disabilities to open special accounts to save withou",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Starting January 1st, 2016, individuals with disabilities and their families will be able to save money tax-free without fear of losing eligibility for public assistance programs.\",\n    \"The ABLE Act allows people with disabilities to open special accounts to save without risking eligibility for Social Security and other government programs.\",\n    \"ABLE accounts are similar to 529 education savings plans but are used for disability-related expenses.\",\n    \"A person diagnosed with a disability cannot have assets worth more than $2,000 or earn more than $680 per month without forfeiting eligibility for government programs like Medicaid and SSI.\",\n    \"The ABLE Act will allow people with disabilities to earn money and save without losing access to essential safety net programs such as Medi-Cal and Social Security.\",\n    \"The accounts created under the ABLE Act will be able to fund various needed expenses, including medical and dental care, housing, and education.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "80b44183b9318acfe566a88457a07bade743648d"
+}

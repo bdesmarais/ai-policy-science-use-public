@@ -1,0 +1,13 @@
+{
+  "press_release": "key-bipartisan-senate-housing-bill-sb-1385-failed-pass-assembly-local-government.txt",
+  "party": "Democratic",
+  "title": "Yesterday, the Assembly Local Government Committee rejected Senate Bill 1385, the Neighborhood Homes Act. This bill provided local governments with the necessary tools to allow res",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The Neighborhood Homes Act provided local governments with tools to develop residential housing on underperforming or vacant commercial retail and office space.\",\n    \"The bill aimed to eliminate blight and create housing close to services and transportation routes.",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The Neighborhood Homes Act provided local governments with tools to develop residential housing on underperforming or vacant commercial retail and office space.\",\n    \"The bill aimed to eliminate blight and create housing close to services and transportation routes.\",\n    \"Consumers are shifting their purchasing power online at an accelerated rate due to the pandemic.\",\n    \"Big box retailers and strip malls have struggled with abandoned retail space throughout California before the pandemic.\",\n    \"More retailers are facing bankruptcy and closing their physical locations.\",\n    \"The bill was seen as a pragmatic solution to reuse commercially zoned real estate for housing.\",\n    \"The Neighborhood Homes Act was considered a pathway to increase the supply of affordable housing in California.\",\n    \"The failure to pass the bill has been linked to the ongoing housing crisis in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "82f828e2b238dac91fd17c478a26c0c56e27b359"
+}

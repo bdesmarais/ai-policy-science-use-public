@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-stern-asm-schiavo-look-expedite-closure-aliso-canyon-discounts-energy-upgrades-san.txt",
+  "party": "Democratic",
+  "title": "Newsletter: Sign Up For The Latest Updates",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:20:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Public Utilities Commission has proposed to expand the use of Aliso Canyon until at least 2039.\",\n    \"The $71 million investment aims to support community initiatives to reduce gas demand from the Aliso Canyon gas field.\",\n    \"The funding is intended to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Public Utilities Commission has proposed to expand the use of Aliso Canyon until at least 2039.\",\n    \"The $71 million investment aims to support community initiatives to reduce gas demand from the Aliso Canyon gas field.\",\n    \"The funding is intended to help create healthier homes and schools in areas impacted by the Aliso Canyon gas leak disaster.\",\n    \"Replacing old gas furnaces or water heaters with new electric heat pumps can save money on heating and cooling.\",\n    \"Heat pumps are described as the future of indoor climate control and comfort.\",\n    \"Heat pump HVAC systems can provide affordable indoor comfort and performance advantages in various climate conditions.\",\n    \"LG Electronics is committed to helping California meet its electrification goals by offering a range of heat pump products.\",\n    \"$40 million is allocated for strategic and equitable building decarbonization through the existing TECH program.\",\n    \"$14 million is designated for Extreme Heat Resilience, prioritizing senior community centers.\",\n    \"$15 million is allocated for Green Schoolyards via the Department of Forestry and Fire Protection.\",\n    \"$2 million is designated for outreach and education efforts to support electrification through the AB 205 Equity & Access Program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e33d274866c659eb51d92cea536f559ce09040c6"
+}

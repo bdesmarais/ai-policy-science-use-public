@@ -1,0 +1,13 @@
+{
+  "press_release": "facts-from-sac-dems-arent-serious-about-fentanyl.txt",
+  "party": "Republican",
+  "title": "First, Democrats refuse to get tough on fentanyl dealers. Now they’re blocking expanded access to Narcan and addiction treatment.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "65fea65ba1dc74bbd52977033d2137bf24b6e930"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-responds-indictment-3-prison-based-unemployment-benefits-scheme.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) responds to today’s announcement by the United States Department of Justice that three inmates have been charged in a prison-based COVID-19 un",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The EDD failed to check UI claims against current inmate roles, allowing fraud to occur.\",\n    \"Audits have uncovered billions of dollars in misspent UI benefits at the EDD due to fraud prevention failures.\",\n    \"Between March and August 2020, more than 35,000 Pandemic ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The EDD failed to check UI claims against current inmate roles, allowing fraud to occur.\",\n    \"Audits have uncovered billions of dollars in misspent UI benefits at the EDD due to fraud prevention failures.\",\n    \"Between March and August 2020, more than 35,000 Pandemic Unemployment Assistance claims were filed on behalf of inmates, with over half being paid.\",\n    \"California was one of only 15 states that failed to cross match unemployment benefit claims with jail and prison rolls as of March 2019.\",\n    \"Vulnerabilities in the EDD system have been identified, contributing to significant fraud.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9bc3562fe98b4c793aae86cab033e5da8fe46823"
+}

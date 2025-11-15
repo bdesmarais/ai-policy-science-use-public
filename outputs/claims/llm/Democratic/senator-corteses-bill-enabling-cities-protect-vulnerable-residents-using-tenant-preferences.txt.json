@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-bill-enabling-cities-protect-vulnerable-residents-using-tenant-preferences.txt",
+  "party": "Democratic",
+  "title": "Today Governor Gavin Newsom signed into law Senator Dave Cortese’s Senate Bill 649, enabling cities to use local tenant preferences to help stabilize neighborhoods and prevent peop",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 649 enables cities to use local tenant preferences to help stabilize neighborhoods and prevent displacement.\",\n    \"The housing crisis impacts communities by increasing risks of displacement for vulnerable residents.\",\n    \"Studies show that displaced low-inc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 649 enables cities to use local tenant preferences to help stabilize neighborhoods and prevent displacement.\",\n    \"The housing crisis impacts communities by increasing risks of displacement for vulnerable residents.\",\n    \"Studies show that displaced low-income individuals experience increased commutes and move to areas with fewer economic opportunities.\",\n    \"Displacement leads to higher discretionary spending on non-housing costs such as food, daycare, clothes, and medications.\",\n    \"Tenant preferences allow apartment owners to set aside low-income units for people most in need of affordable and stable housing.\",\n    \"Senate Bill 649 allows affordable housing developments that use tenant preferences to receive state housing funds.\",\n    \"The implementation of tenant preference policies can improve access to stable housing for affected families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cf5d623e6bebe95aede248afe56e837e193bdfae"
+}

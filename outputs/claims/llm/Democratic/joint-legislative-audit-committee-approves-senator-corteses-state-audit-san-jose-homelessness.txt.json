@@ -1,0 +1,13 @@
+{
+  "press_release": "joint-legislative-audit-committee-approves-senator-corteses-state-audit-san-jose-homelessness.txt",
+  "party": "Democratic",
+  "title": "The Joint Legislative Audit Committee approved a bipartisan audit request Wednesday by State Senator Dave Cortese that will examine public funding spent on homelessness in the City",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Auditor will evaluate the City of San Jose's approach to homelessness spending and its efficacy in helping move unhoused people into shelter, housing, and supportive services.\",\n    \"The audit will include a second city selected by the State Auditor ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Auditor will evaluate the City of San Jose's approach to homelessness spending and its efficacy in helping move unhoused people into shelter, housing, and supportive services.\",\n    \"The audit will include a second city selected by the State Auditor for a comparable evaluation.\",\n    \"The 2021 state budget included $12 billion over two years to address homelessness.\",\n    \"The population of people living on the streets of San Jose continues to rise.\",\n    \"San Jose has the highest number of unhoused youth in the nation, according to a recent report.\",\n    \"The 2022 Point-In-Time Report on Homelessness counted 6,650 unhoused individuals in the City of San Jose.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "32c1f31a2d61b63742c9938e2a3c56c59f130166"
+}

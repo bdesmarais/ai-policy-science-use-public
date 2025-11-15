@@ -1,0 +1,13 @@
+{
+  "press_release": "20180403-rubio-legislation-providing-resources-california-dreamers-passes-committee.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE:                                                       CONTACT:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California public high schools for grades 9-12, California State Universities, and California Community Colleges will have a designated Dreamer Resource Liaison staffer to support undocumented and AB 540 students.\",\n    \"It is estimated that approximately 65,000 undocume",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California public high schools for grades 9-12, California State Universities, and California Community Colleges will have a designated Dreamer Resource Liaison staffer to support undocumented and AB 540 students.\",\n    \"It is estimated that approximately 65,000 undocumented students graduate from high schools in the United States each year.\",\n    \"College affordability has become more attainable for undocumented students in California since the passage of AB 540, the CA Dream Act, and DACA.\",\n    \"Many students expressed concerns about the lack of knowledge their college faculty, staff, and administrators have regarding policies and services for undocumented students.\",\n    \"The Dreamer Resource Liaison created under AB 2477 will streamline financial aid and academic opportunities for AB 540 students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "52cf78711d4270836c8a0c072722a2df8afe0721"
+}

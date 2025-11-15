@@ -1,0 +1,13 @@
+{
+  "press_release": "20231218-river-channel-cleanup-prevents-record-3100-pounds-trash-polluting-upper.txt",
+  "party": "Democratic",
+  "title": "Costa Mesa, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Nearly 3,100 pounds of trash were collected during the river channel cleanup event.\",\n    \"This amount of trash collected is the largest in the history of Orange Coast Coastkeeper volunteer cleanup events.\",\n    \"Community cleanups are one of the best ways for the public",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Nearly 3,100 pounds of trash were collected during the river channel cleanup event.\",\n    \"This amount of trash collected is the largest in the history of Orange Coast Coastkeeper volunteer cleanup events.\",\n    \"Community cleanups are one of the best ways for the public to help prevent debris from polluting the sea and harming marine wildlife.\",\n    \"Over the years, volunteers have removed over 11,300 pounds of debris from the waterway and along the Orange County coast.\",\n    \"The Santa Ana-Delhi Channel leads directly into Upper Newport Bay, which is Southern California's largest remaining natural estuary.\",\n    \"Channel cleanups can serve as the last opportunity to remove trash and debris before it impacts marine life.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e85b81f1f0281ffc6551b88d69b6bdfc3826b838"
+}

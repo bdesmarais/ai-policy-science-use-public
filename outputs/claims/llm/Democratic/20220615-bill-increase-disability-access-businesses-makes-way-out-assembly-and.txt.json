@@ -1,0 +1,13 @@
+{
+  "press_release": "20220615-bill-increase-disability-access-businesses-makes-way-out-assembly-and.txt",
+  "party": "Democratic",
+  "title": "AB 2164 by Assemblymember Alex Lee (D-San José), passed out of the Senate Governmental Organization Committee with bipartisan support after recently passing out of the State Assemb",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:42:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b961351023153397f7c86d34366c8cccd6111945"
+}

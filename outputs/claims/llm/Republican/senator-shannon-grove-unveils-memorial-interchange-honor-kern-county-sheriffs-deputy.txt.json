@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-shannon-grove-unveils-memorial-interchange-honor-kern-county-sheriffs-deputy.txt",
+  "party": "Republican",
+  "title": "Today, Senator Shannon Grove hosted a ceremony to unveil Deputy Phillips Campas’ memorial interchange signs. Senator Grove was joined by the Campas family, Kern County Law Enforcem",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c6cdfe320786abc3b250d37868bf1a4db251091f"
+}

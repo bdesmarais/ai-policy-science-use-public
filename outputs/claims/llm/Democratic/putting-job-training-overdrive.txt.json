@@ -1,0 +1,13 @@
+{
+  "press_release": "putting-job-training-overdrive.txt",
+  "party": "Democratic",
+  "title": "Becker Unveils “California Workforce Pay for",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California has the fourth largest economy in the world.\",\n    \"Many individuals from underserved communities struggle to find quality jobs.\",\n    \"SB 382 aims to expedite funding for workforce development projects with proven success in training workers.\",\n    \"The ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California has the fourth largest economy in the world.\",\n    \"Many individuals from underserved communities struggle to find quality jobs.\",\n    \"SB 382 aims to expedite funding for workforce development projects with proven success in training workers.\",\n    \"The state could terminate contracts with non-profits that do not meet application goals.\",\n    \"One training program for underserved individuals found that graduates earned more than twice as much annually four years after leaving the program compared to before entering.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ead73cf812e4bb417c5d6923189e6eb034f2d5bf"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-child-protections-bill-advances-to-assembly-floor.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assemblyman Juan Alanis celebrated a significant victory as his bill, AB 1880, passed out of the Assembly Judiciary Committee with unanimous bipartisan support.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill AB 1880 extends the existing regulations of the Coogan Law to cover contracts involving child influencers in paid online content.\",\n    \"AB 1880 ensures that child influencers receive the same legal protections and financial safeguards as their counterparts in t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill AB 1880 extends the existing regulations of the Coogan Law to cover contracts involving child influencers in paid online content.\",\n    \"AB 1880 ensures that child influencers receive the same legal protections and financial safeguards as their counterparts in traditional forms of artistic employment.\",\n    \"The Coogan Law was originally enacted in 1939 to protect child actors by establishing trust accounts for a portion of their earnings.\",\n    \"AB 1880 updates and expands the Coogan Law to reflect the realities of the modern entertainment industry, where social media platforms and online content creation are significant.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "09efbfbbf16e5c45031c43c547f5c16df2f91b0a"
+}

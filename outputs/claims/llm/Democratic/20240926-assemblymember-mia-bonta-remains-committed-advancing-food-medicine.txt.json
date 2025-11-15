@@ -1,0 +1,13 @@
+{
+  "press_release": "20240926-assemblymember-mia-bonta-remains-committed-advancing-food-medicine.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Over 20% of Californians are food insecure, accounting for approximately 8 million people lacking access to properly nutritious food.\",\n    \"Diets rich in nutritious food have been proven to be effective strategies for preventing heart disease, diabetes, strokes, and num",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Over 20% of Californians are food insecure, accounting for approximately 8 million people lacking access to properly nutritious food.\",\n    \"Diets rich in nutritious food have been proven to be effective strategies for preventing heart disease, diabetes, strokes, and numerous other chronic conditions.\",\n    \"Black Californians face disproportionate rates of heart disease, strokes, and diabetes, all of which can be mitigated by a healthy diet.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9095d1661d8dda052637c27925960c60156c5e8f"
+}

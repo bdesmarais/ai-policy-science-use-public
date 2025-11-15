@@ -1,0 +1,13 @@
+{
+  "press_release": "20170724-gipson-bill-ensure-student-safety-signed-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- Governor Jerry Brown signed Assembly Bill (AB) 949 by Assemblymember Mike A. Gipson (D – Carson), known as the Background Checks for Sole Proprietors on Schoo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "195f5ccb064caf39175bc28a09f39d6e04bdc1b0"
+}

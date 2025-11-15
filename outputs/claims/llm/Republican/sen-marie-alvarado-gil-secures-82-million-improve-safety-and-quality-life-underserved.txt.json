@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-marie-alvarado-gil-secures-82-million-improve-safety-and-quality-life-underserved.txt",
+  "party": "Republican",
+  "title": "Sen. Marie Alvarado-Gil ( R-Jackson ) announced today that she successfully secured $82 million in state funding from the California Transportation Commission (CTC) to support two ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Sen. Marie Alvarado-Gil secured $82 million in state funding from the California Transportation Commission to support critical infrastructure projects in Stanislaus County.\",\n    \"The funding includes $15 million for the Seventh Street Bridge Replacement Project and $67 ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Sen. Marie Alvarado-Gil secured $82 million in state funding from the California Transportation Commission to support critical infrastructure projects in Stanislaus County.\",\n    \"The funding includes $15 million for the Seventh Street Bridge Replacement Project and $67 million for the State Route 132 West Gates to Dakota Project.\",\n    \"The Seventh Street Bridge is severely deteriorated and is no longer safe for heavy vehicles including emergency responders and transit services.\",\n    \"Replacing the Seventh Street Bridge has been a priority for local officials due to its condition.\",\n    \"The State Route 132 extension will build five new miles of expressway west of Modesto, aimed at easing congestion and improving safety.\",\n    \"The highway project will take pressure off local streets in disadvantaged areas and create a more efficient connection to Highway 33 and Interstate 5.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9140f07d99990671d01bcf02688102f4b8fcb81e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-statement-central-valley-direct-capture-hub-awards.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Direct Air Capture offers a solution to remove and permanently store atmospheric carbon dioxide (CO2) using low carbon emissions energy.\",\n    \"Direct Air Capture is a necessary tool to meet California's climate and clean air goals.\",\n    \"The Direct Air Capture Hub will",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Direct Air Capture offers a solution to remove and permanently store atmospheric carbon dioxide (CO2) using low carbon emissions energy.\",\n    \"Direct Air Capture is a necessary tool to meet California's climate and clean air goals.\",\n    \"The Direct Air Capture Hub will boost the local economy in the Central Valley.\",\n    \"The Direct Air Capture Hub will create quality, union jobs in construction and low carbon technologies for the regional workforce.\",\n    \"A community-driven approach is essential for the Direct Air Capture hub concept.\",\n    \"The feasibility of a Direct Air Capture hub will be evaluated with a focus on social equity and environmental fairness.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "99708f998d6a145557df73be498b9e89d00e92d2"
+}

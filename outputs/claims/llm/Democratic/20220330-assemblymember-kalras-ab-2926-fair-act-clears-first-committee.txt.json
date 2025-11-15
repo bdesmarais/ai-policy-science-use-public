@@ -1,0 +1,13 @@
+{
+  "press_release": "20220330-assemblymember-kalras-ab-2926-fair-act-clears-first-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:40:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The FAIR Act enables actors and recording artists in California to take on additional work as long as there is no material conflict of interest with their original employer.\",\n    \"The FAIR Act limits the unfair practice of production studios and record labels unilateral",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The FAIR Act enables actors and recording artists in California to take on additional work as long as there is no material conflict of interest with their original employer.\",\n    \"The FAIR Act limits the unfair practice of production studios and record labels unilaterally holding artists off the job market for unreasonable periods of time.\",\n    \"If passed, AB 2926 will affirmatively state that artists in film and television may work for multiple employers if there is no scheduling conflict with their original employer.\",\n    \"The bill will extend existing labor protections to recording artists by allowing them to end their personal services agreements after seven years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b93b4a4ef1c98daaa16bf34d10f8faaa7d1f8716"
+}

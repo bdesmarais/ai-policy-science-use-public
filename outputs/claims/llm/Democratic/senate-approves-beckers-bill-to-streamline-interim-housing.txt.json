@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-approves-beckers-bill-to-streamline-interim-housing.txt",
+  "party": "Democratic",
+  "title": "Senator Becker’s SB 1395 gives local governments the tools to fast track building interim housing and scale up efforts to bring people indoors and save lives",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:20:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has the fourth highest rate of homelessness and the highest rate of unsheltered homelessness in the nation.\",\n    \"California's homeless population reached a record 181,399 individuals in 2023 and will continue to grow without significantly increasing housing ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has the fourth highest rate of homelessness and the highest rate of unsheltered homelessness in the nation.\",\n    \"California's homeless population reached a record 181,399 individuals in 2023 and will continue to grow without significantly increasing housing production.\",\n    \"SB 1395 clarifies that relocatable, non-congregate interim housing is eligible for streamlined zoning.\",\n    \"Streamlined zoning under SB 1395 will reduce construction time and costs for interim housing.\",\n    \"SB 1395 empowers local governments by cutting red tape and expediting approvals for interim housing projects.\",\n    \"SB 1395 extends existing streamlining authorities for interim housing beyond 2026.\",\n    \"SB 1395 frees up state funding for the development of interim housing.\",\n    \"Interim housing is essential to solving California's homelessness crisis.\",\n    \"Interim housing can improve public health and revitalize public spaces.\",\n    \"SB 1395 will allow the construction of attractive and cost-effective interim housing communities within months.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7c5ce51ef99e87c8ed0657dec4637285db072931"
+}

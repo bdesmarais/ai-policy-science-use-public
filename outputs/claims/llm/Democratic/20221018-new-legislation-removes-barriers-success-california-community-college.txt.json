@@ -1,0 +1,13 @@
+{
+  "press_release": "20221018-new-legislation-removes-barriers-success-california-community-college.txt",
+  "party": "Democratic",
+  "title": "MOORPARK– Assemblymember Jacqui Irwin (D-Thousand Oaks) held a press conference this morning at Moorpark Community College to highlight the passage of AB 1705 and AB 1187, as well ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:50:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 705 has contributed to significant reductions in racial equity gaps in access to, and completion of, transfer-level courses.\",\n    \"AB 1705 addresses the misapplication of AB 705 and ensures community colleges place students directly into transfer-level courses with a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 705 has contributed to significant reductions in racial equity gaps in access to, and completion of, transfer-level courses.\",\n    \"AB 1705 addresses the misapplication of AB 705 and ensures community colleges place students directly into transfer-level courses with additional support when needed.\",\n    \"AB 1187 expands the eligible courses campuses can provide students with state-funded tutoring.\",\n    \"Data shows that many more students, especially young men of color, will finish college and successfully reach their goals due to AB 1705.\",\n    \"The evidence is unequivocal that remedial courses don't help students succeed.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ce28531754297d936c1e8fa83c01fc4087cb3bf2"
+}

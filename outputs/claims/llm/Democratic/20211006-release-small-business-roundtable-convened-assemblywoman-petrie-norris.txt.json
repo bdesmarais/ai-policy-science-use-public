@@ -1,0 +1,13 @@
+{
+  "press_release": "20211006-release-small-business-roundtable-convened-assemblywoman-petrie-norris.txt",
+  "party": "Democratic",
+  "title": "COSTA MESA – At a small business roundtable held by the Chair of the Select Committee on Small Business and Entrepreneurship (SB&E), Assemblywoman Cottie Petrie-Norris; economists,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Small businesses depend on tourism and traffic along the coast and will face undeniable loss of revenue due to environmental crises like an oil spill.\",\n    \"California’s complex regulatory system has been exacerbated during the COVID-19 pandemic.\",\n    \"Research shows t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Small businesses depend on tourism and traffic along the coast and will face undeniable loss of revenue due to environmental crises like an oil spill.\",\n    \"California’s complex regulatory system has been exacerbated during the COVID-19 pandemic.\",\n    \"Research shows that economic recovery in California is dictated by the ebb and flow of COVID-19 cases.\",\n    \"A survey suggested that many Orange County businesses believe pandemic restrictions will last until 2023 and beyond.\",\n    \"In the last quarter of 2021, the major concerns voiced by businesses included inflation, labor shortages, and supply chain issues.\",\n    \"California has sixteen different paid leave programs, which impose a burden on small employers.\",\n    \"Constantly changing COVID regulations have placed small businesses in a uniquely stressful situation regarding employee and customer safety.\",\n    \"Small businesses often lack the technical and logistical support necessary to stay compliant with regulatory requirements.\",\n    \"Recent statutory changes regarding employee classification have left small businesses uncertain about their operational decisions.\",\n    \"There are large discrepancies in what constitutes a small business, indicating that a standard definition is inadequate.\",\n    \"Expansion efforts of businesses located on city borders are often hindered by conflicting regulations.\",\n    \"Small business owners argue that regulations should be developed from a business perspective to be more effective.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "21d49c28bcf58ab25a085ee47fdbde992f593681"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republicans-fight-millions-unemployed-californians.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – With 3.7 million Californians filing for unemployment insurance claims since March 15, glaring and mounting problems have surfaced with the state’s Employment Developm",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The state’s Employment Development Department (EDD) has problems processing unemployment insurance claims.\",\n    \"EDD website crashes have impacted the ability to process claims.\",\n    \"Californians are experiencing long hold times when attempting to reach the EDD hotlin",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The state’s Employment Development Department (EDD) has problems processing unemployment insurance claims.\",\n    \"EDD website crashes have impacted the ability to process claims.\",\n    \"Californians are experiencing long hold times when attempting to reach the EDD hotline.\",\n    \"There are long wait periods for payment of unemployment insurance benefits.\",\n    \"Californians are facing a lack of customer service from the EDD.\",\n    \"Benefits are being denied without explanation by the EDD.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "09b3002d0eb0f220271d99798d2162e07f5e0bee"
+}

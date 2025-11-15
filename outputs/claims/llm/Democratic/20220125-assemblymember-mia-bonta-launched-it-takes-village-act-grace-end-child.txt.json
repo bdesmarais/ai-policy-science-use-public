@@ -1,0 +1,13 @@
+{
+  "press_release": "20220125-assemblymember-mia-bonta-launched-it-takes-village-act-grace-end-child.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Mia Bonta (D-Oakland), along with cosponsors GRACE, End Child Poverty California, and the Cradle to Career Coalition, virtually launched the It Takes a Village Act b",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic highlighted that communities with coordinated, place-based initiatives and service delivery are more resilient.\",\n    \"Neighborhood-based programs have a demonstrated track record of helping children and families thrive.\",\n    \"Combined programs lik",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic highlighted that communities with coordinated, place-based initiatives and service delivery are more resilient.\",\n    \"Neighborhood-based programs have a demonstrated track record of helping children and families thrive.\",\n    \"Combined programs like Promise Neighborhoods and Cradle to Career systems have the power to create real change for California families.\",\n    \"Networks often lack the funding they need to coordinate their services for the greatest level of impact.\",\n    \"The It Takes a Village Act is intended to strengthen communities by creating partnerships and increasing communication across regional networks.\",\n    \"Establishing a grant program will empower community-based networks with funding to combat poverty.\",\n    \"The Hayward Promise Neighborhood features a family education program from preschool to college.\",\n    \"Student success coaches in partnership with CSU East Bay are included in the Hayward Promise Neighborhood model.\",\n    \"The Alameda County Community Food Bank provides healthy food access through the Hayward Promise Neighborhood.\",\n    \"Promise Neighborhoods and Cradle to Career regional networks use data-driven solutions to ensure that families receive necessary resources.\",\n    \"Both Promise Neighborhoods and Cradle to Career programs aim to tackle racial and economic inequities in communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c87f40529e13b1b6785c77c7b096db033a64ef2b"
+}

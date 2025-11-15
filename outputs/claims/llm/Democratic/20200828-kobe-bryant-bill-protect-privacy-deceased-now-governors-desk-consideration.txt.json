@@ -1,0 +1,13 @@
+{
+  "press_release": "20200828-kobe-bryant-bill-protect-privacy-deceased-now-governors-desk-consideration.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- Today, Assembly Bill 2655 by Assemblymember Mike A. Gipson (D-Carson) passed in the Legislature and now makes its way onto Governor Gavin Newsom’s desk for hi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:18:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2655 would make it a misdemeanor for first responders to take unauthorized photos of the deceased.\",\n    \"The bill was introduced following the sharing of graphic images from the scene of a helicopter crash that killed Kobe Bryant and others.\",\n    \"Current",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2655 would make it a misdemeanor for first responders to take unauthorized photos of the deceased.\",\n    \"The bill was introduced following the sharing of graphic images from the scene of a helicopter crash that killed Kobe Bryant and others.\",\n    \"Current law does not prohibit first responders from capturing images of deceased persons for any purpose.\",\n    \"The violation of the bill by a first responder could result in a misdemeanor penalty and fines of up to $1000 per offense.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ac5a437819fec933703ce963df75dd0944fdf0c7"
+}

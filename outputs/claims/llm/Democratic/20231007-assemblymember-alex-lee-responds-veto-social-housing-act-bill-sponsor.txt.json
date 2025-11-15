@@ -1,0 +1,13 @@
+{
+  "press_release": "20231007-assemblymember-alex-lee-responds-veto-social-housing-act-bill-sponsor.txt",
+  "party": "Democratic",
+  "title": "Following the veto of AB 309, Assemblymember Alex Lee and the bill’s sponsor have issued the following statements:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:10:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 309, The Social Housing Act, aimed to provide housing as a fundamental and universal right in California.\",\n    \"Social housing holds promise in providing affordable homes and can help tackle the housing crisis.\",\n    \"Social housing can create publicly backed housing",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 309, The Social Housing Act, aimed to provide housing as a fundamental and universal right in California.\",\n    \"Social housing holds promise in providing affordable homes and can help tackle the housing crisis.\",\n    \"Social housing can create publicly backed housing that accommodates residents of mixed incomes.\",\n    \"AB 309 was seen as a first step to building social housing in California.\",\n    \"The idea behind AB 309 promotes public development with long-term social ownership to deliver affordability and security of tenure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a6f907d0565e8871da7e8be255493cb9bdc17e8e"
+}

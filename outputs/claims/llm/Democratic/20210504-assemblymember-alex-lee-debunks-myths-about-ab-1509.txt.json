@@ -1,0 +1,13 @@
+{
+  "press_release": "20210504-assemblymember-alex-lee-debunks-myths-about-ab-1509.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:28:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1509 aims to reduce sentence 'add-ons' or enhancements which disproportionately punish people of color without improving public safety.\",\n    \"Extreme prison terms have no significant impact in deterring crime.\",\n    \"For each additional year of sentencing, it can inc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1509 aims to reduce sentence 'add-ons' or enhancements which disproportionately punish people of color without improving public safety.\",\n    \"Extreme prison terms have no significant impact in deterring crime.\",\n    \"For each additional year of sentencing, it can increase recidivism by 4 to 7%.\",\n    \"89% of firearm enhancements are applied to people of color.\",\n    \"97.7% of people granted parole do not commit new crimes.\",\n    \"Testimony about a firearm is enough for a sentence add-on enhancement to apply, even if the firearm is not physically recovered.\",\n    \"If a firearm is recovered, it does not need to be loaded or operable for the enhancement to apply.\",\n    \"There aren't any credible studies that detail a much higher rate of usage of firearms within communities of color compared to their white counterparts.\",\n    \"Extremely long sentences have been proven to run counter to the objective of creating safer communities.\",\n    \"It costs the state over $112,000 a year for a person to be incarcerated.\",\n    \"Only 97.7% of people granted parole were never convicted of new crimes, countering many misconceptions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9ec13cbbbcddd24aa7b9ea54e1f232d61d8fc11f"
+}

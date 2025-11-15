@@ -1,0 +1,13 @@
+{
+  "press_release": "20220831-assemblymember-mckinnor-bill-address-californias-housing-crisis-approved.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) – California’s work to address the ongoing housing crisis got a boost with the unanimous approval of legislation by newly elected Assemblymember Tina McKinnor (D -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:46:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California lacks over 2 million units of housing to meet the needs of its residents.\",\n    \"AB 1743 requires local governments to report the amount of housing that was actually produced and occupied in the previous year.\",\n    \"There is currently no mechanism to determin",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California lacks over 2 million units of housing to meet the needs of its residents.\",\n    \"AB 1743 requires local governments to report the amount of housing that was actually produced and occupied in the previous year.\",\n    \"There is currently no mechanism to determine how many housing units from public funds were built and occupied.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "36a5f2e189a9439e5920fd5ca5e09fdd76ec85d1"
+}

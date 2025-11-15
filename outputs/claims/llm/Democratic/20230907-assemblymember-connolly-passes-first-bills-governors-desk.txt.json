@@ -1,0 +1,13 @@
+{
+  "press_release": "20230907-assemblymember-connolly-passes-first-bills-governors-desk.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:07:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 319 will create protections for mobile home residents by strengthening conflict-of-interest practices for mobile home inspectors.\",\n    \"Assembly Bill 1109 addresses teen suicide by restricting the sale of sodium nitrite to minors.\",\n    \"Young people have ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 319 will create protections for mobile home residents by strengthening conflict-of-interest practices for mobile home inspectors.\",\n    \"Assembly Bill 1109 addresses teen suicide by restricting the sale of sodium nitrite to minors.\",\n    \"Young people have increasingly been purchasing sodium nitrite online for the purpose of committing suicide.\",\n    \"AB 319 requires the Department of Housing and Community Development to review mobile home park inspector's statements of economic interests.\",\n    \"AB 319 includes measures to document complaints against inspectors and the steps taken to address those complaints.\",\n    \"AB 1109 specifies that retailers and online marketplaces must implement an effective age verification system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a3064cd2146146487094697d7537591c0c57eb79"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-announces-passage-sb-1449-provide-state-grants.txt",
+  "party": "Democratic",
+  "title": "Monday, April 11, 2022",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Unincorporated communities next to urban areas often lack basic city amenities and infrastructure, particularly in rural parts of the state.\",\n    \"Residents in unincorporated areas may not have the same sidewalks and properly paved roads as residents living within city ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Unincorporated communities next to urban areas often lack basic city amenities and infrastructure, particularly in rural parts of the state.\",\n    \"Residents in unincorporated areas may not have the same sidewalks and properly paved roads as residents living within city borders.\",\n    \"The cost to connect unincorporated communities to city services and build the necessary infrastructure is a significant barrier to the annexation process.\",\n    \"SB 1449 will provide cities with financial support to incentivize the annexation process.\",\n    \"The bill prioritizes grants for cities annexing disadvantaged communities to ensure state funding is directed to the areas that need it the most.\",\n    \"SB 1449 aims to transform communities and enhance residents' pride in their living conditions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "515c8e3adf58dd64d5b703cffc3aa6b635258fe0"
+}

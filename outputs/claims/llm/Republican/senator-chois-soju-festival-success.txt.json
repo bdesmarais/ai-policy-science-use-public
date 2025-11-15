@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-chois-soju-festival-success.txt",
+  "party": "Republican",
+  "title": "This afternoon, Senator Steven Choi (R-Irvine) welcomed community leaders, cultural organizations, and elected officials to the historic Leland Stanford Mansion in Sacramento for a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Soju is recognized for its growing cultural significance in the United States.\",\n    \"Soju serves as a bridge of cultural exchange and enhances cross-cultural understanding in diverse societies.\",\n    \"Assembly Bill 2069 allows beer and wine license holders to sell soju ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Soju is recognized for its growing cultural significance in the United States.\",\n    \"Soju serves as a bridge of cultural exchange and enhances cross-cultural understanding in diverse societies.\",\n    \"Assembly Bill 2069 allows beer and wine license holders to sell soju and shochu without requiring a special liquor license.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0974a891b6ca3ca8752eda9f482aebc3dba7e3f3"
+}

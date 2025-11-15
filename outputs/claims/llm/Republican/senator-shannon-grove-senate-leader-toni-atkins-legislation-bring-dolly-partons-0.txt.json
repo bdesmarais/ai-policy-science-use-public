@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-shannon-grove-senate-leader-toni-atkins-legislation-bring-dolly-partons-0.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) and Senate President pro Tempore Toni G. Atkins (D-San Diego) announced that Senate Bill 1183, their bipartisan legislation in partnership wit",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Imagination Library program has gifted over 186 million books across five countries since its inception.\",\n    \"One out of every 10 children under the age of five in the United States receives a book in the mail each month.\",\n    \"California is the 15th state to comm",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Imagination Library program has gifted over 186 million books across five countries since its inception.\",\n    \"One out of every 10 children under the age of five in the United States receives a book in the mail each month.\",\n    \"California is the 15th state to commit to creating a statewide Imagination Library program.\",\n    \"Currently, one percent of California children age 0-5 are enrolled in existing local Imagination Library programs.\",\n    \"The 2022-23 state budget includes $68.2 million in one-time funding to establish the Imagination Library program in California.\",\n    \"Research shows that early reading offers numerous benefits for childhood development in the first five years of life.\",\n    \"Getting children excited about books and inspiring shared family reading time helps build language and memory skills.\",\n    \"Young children who are exposed to books and who read early and often are better prepared for kindergarten and excel academically.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "737e9497914527d4c4bac9c5406422d50a7ff4ec"
+}

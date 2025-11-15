@@ -1,0 +1,13 @@
+{
+  "press_release": "20250429-chinese-small-businesses-and-haney-sound-alarm-trump-tariffs-devastating.txt",
+  "party": "Democratic",
+  "title": "SAN FRANCISCO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:34:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The unprecedented 145% tariff on Chinese imported goods has caused prices to skyrocket in San Francisco's Chinatown.\",\n    \"Family-run businesses in San Francisco's Chinatown are facing price hikes of 15–30% on imported goods due to tariffs.\",\n    \"Wholesale produce vend",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The unprecedented 145% tariff on Chinese imported goods has caused prices to skyrocket in San Francisco's Chinatown.\",\n    \"Family-run businesses in San Francisco's Chinatown are facing price hikes of 15–30% on imported goods due to tariffs.\",\n    \"Wholesale produce vendors in San Francisco's Chinatown have reported a 20% drop in sales since the tariffs were implemented.\",\n    \"Up to 90% of store inventories in some shops in Chinatown come from imports from China and Asia.\",\n    \"The 145% tariff on Chinese imports is described as a death sentence for neighborhood businesses.\",\n    \"The impact of tariffs has been deeply felt in communities like Chinatown, where many small, immigrant-owned businesses depend on cross-border trade.\",\n    \"Rising costs from import taxes are threatening not only the livelihoods of small business owners in Chinatown but also the cultural fabric that defines them.\",\n    \"Los Angeles County ports expect a 40 percent drop in traffic as a result of the tariffs.\",\n    \"Businesses in New York City's Chinatown have already raised prices at least 10% to cope with rising import costs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e338f464ebd1405a5c80eff4d344f893ef37fe67"
+}

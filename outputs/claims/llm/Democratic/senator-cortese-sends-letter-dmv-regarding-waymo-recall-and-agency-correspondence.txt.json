@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-sends-letter-dmv-regarding-waymo-recall-and-agency-correspondence.txt",
+  "party": "Democratic",
+  "title": "This letter asks DMV about any correspondence with Waymo regarding a software recalls following collisions involving two of its robotaxis in Phoenix, AZ.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Waymo has reported software recalls related to its robotaxis.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Waymo has reported software recalls related to its robotaxis.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "701af1cae2ab260e1fe18cc119f81bd0437ca81d"
+}

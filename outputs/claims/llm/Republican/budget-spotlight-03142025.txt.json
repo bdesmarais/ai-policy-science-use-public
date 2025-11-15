@@ -1,0 +1,13 @@
+{
+  "press_release": "budget-spotlight-03142025.txt",
+  "party": "Republican",
+  "title": "Subcommittee #1 (Education) Laird (D-Santa Cruz) Chair, Ochoa Bogh (R-Yucaipa), and Pérez (D-Pasadena)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's proposal includes a reduction of nearly $400 million to California's Middle Class Scholarship program.\",\n    \"The state has spent more than $27 billion on homelessness efforts since Governor Newsom took office.\",\n    \"California's homeless population ha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's proposal includes a reduction of nearly $400 million to California's Middle Class Scholarship program.\",\n    \"The state has spent more than $27 billion on homelessness efforts since Governor Newsom took office.\",\n    \"California's homeless population has reached more than 187,000, a 58 percent increase since 2016.\",\n    \"Senator Steven Choi advocates for undergrounding power lines as a permanent solution to alleviate fire risk.\",\n    \"Burying utility lines is argued to reduce greenhouse gas emissions by reducing the incidence of wildfires.\",\n    \"The proposal to eliminate the California Rehabilitation Oversight Board is part of the Governor's plan to achieve $3.9 million in annual savings.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7ae51f24db9e0e485a8ade872c9c0512848dcaa6"
+}

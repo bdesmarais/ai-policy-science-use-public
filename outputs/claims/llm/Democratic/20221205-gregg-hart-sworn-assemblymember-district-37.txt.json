@@ -1,0 +1,13 @@
+{
+  "press_release": "20221205-gregg-hart-sworn-assemblymember-district-37.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Gregg Hart was sworn in as the Assemblymember for District 37 today in the State Capitol. The newly elected Assemblymember will represent Santa Barbara County and ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:50:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e34dbd8f51c7a77fdb288fece6ec391f524832e4"
+}

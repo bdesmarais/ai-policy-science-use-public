@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-honors-east-county-icon-barry-jantz.txt",
+  "party": "Republican",
+  "title": "During the Grossmont Healthcare District Board meeting this morning, Senator Brian W. Jones (R-Santee) “zoomed in” and surprised Chief Executive Officer Barry Jantz with a Senate R",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ac20c86a6307a22b4c190754182bec3461b93d63"
+}

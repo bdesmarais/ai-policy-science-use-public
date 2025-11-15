@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-legislation-ensure-veterans-services-are-accessible-signed-governor-newsom.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) announced her bill, Senate Bill 1195 was signed by the Governor today. SB 1195 requires the California Department of Veterans Affairs (CalVet)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1195 requires the California Department of Veterans Affairs to explore opportunities for satellite medical clinics near California’s Veterans Homes.\",\n    \"Residents of California Veterans Homes typically require services provided by the federal VHA, which may be loca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1195 requires the California Department of Veterans Affairs to explore opportunities for satellite medical clinics near California’s Veterans Homes.\",\n    \"Residents of California Veterans Homes typically require services provided by the federal VHA, which may be located hours away.\",\n    \"Delays in accessing necessary and lifesaving treatments can occur due to the distance of VHA services from California Veterans Homes.\",\n    \"SB 1195 aims to bring health care services closer to the veteran community.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cbfc577ba5732b44cb26ffe9566ddaf7f674c750"
+}

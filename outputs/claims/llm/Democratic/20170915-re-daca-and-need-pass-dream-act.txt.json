@@ -1,0 +1,13 @@
+{
+  "press_release": "20170915-re-daca-and-need-pass-dream-act.txt",
+  "party": "Democratic",
+  "title": "To:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The DACA program had approximately 800,000 recipients in the United States.\",\n    \"220,000 DACA recipients live in California.\",\n    \"According to an April Morning Consult and Politico Poll, 78% of American voters support giving Dreamers the chance to stay permanently in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The DACA program had approximately 800,000 recipients in the United States.\",\n    \"220,000 DACA recipients live in California.\",\n    \"According to an April Morning Consult and Politico Poll, 78% of American voters support giving Dreamers the chance to stay permanently in America.\",\n    \"73% of Trump voters support giving Dreamers the chance to stay permanently in America.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "01f8b2a970e2d817588cc9d11a68684154adb733"
+}

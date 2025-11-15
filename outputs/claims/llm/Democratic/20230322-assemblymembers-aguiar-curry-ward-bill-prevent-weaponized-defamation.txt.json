@@ -1,0 +1,13 @@
+{
+  "press_release": "20230322-assemblymembers-aguiar-curry-ward-bill-prevent-weaponized-defamation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:57:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 933 will strengthen the legal protection of survivors who may face retaliatory defamation lawsuits from speaking publicly about their personal experiences.\",\n    \"Survivors of sexual assault, harassment, and discrimination are often victimized by perpetrato",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 933 will strengthen the legal protection of survivors who may face retaliatory defamation lawsuits from speaking publicly about their personal experiences.\",\n    \"Survivors of sexual assault, harassment, and discrimination are often victimized by perpetrators who use the court system to punish them for speaking out.\",\n    \"Defamation lawsuits have become the weapon of choice by perpetrators to intimidate, punish, and silence their accusers.\",\n    \"Existing law provides limited protections for speech made by survivors regarding their experiences of sexual assault, harassment, or discrimination.\",\n    \"AB 933 expands protections for speech made by a survivor, without malice, about their own experiences of sexual assault, harassment, or discrimination.\",\n    \"The bill aims to make it harder for perpetrators to retaliate against survivors with legal threats and intimidation.\",\n    \"AB 933 provides reasonable attorneys’ fees and damages to survivors if they successfully defend themselves against meritless defamation lawsuits.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ffff428595b2ccaf6f1caf6b2b7e2daca24b638e"
+}

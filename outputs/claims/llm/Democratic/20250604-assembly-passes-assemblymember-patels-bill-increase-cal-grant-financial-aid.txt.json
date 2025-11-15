@@ -1,0 +1,13 @@
+{
+  "press_release": "20250604-assembly-passes-assemblymember-patels-bill-increase-cal-grant-financial-aid.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:37:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Cal Grant program provides financial aid to students based on merit and need.\",\n    \"Since its inception in 2001, the amount granted to students attending private nonprofits has dropped by 4%.\",\n    \"The awards for University of California (UC) students have risen by",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Cal Grant program provides financial aid to students based on merit and need.\",\n    \"Since its inception in 2001, the amount granted to students attending private nonprofits has dropped by 4%.\",\n    \"The awards for University of California (UC) students have risen by 274% since the inception of the Cal Grant program.\",\n    \"The awards for California State University (CSU) students have risen by 224% since the inception of the Cal Grant program.\",\n    \"39% of low-income students who attend private nonprofit colleges rise to the top 20% of income earners.\",\n    \"AB 402 aims to return the maximum Cal Grant level for students attending private nonprofit colleges to what was envisioned over 20 years ago.\",\n    \"AB 402 is designed to expand access for low-income, first-generation, and nontraditional students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b2ee55a2100657a69eb602b7962ae6259b9d6ae7"
+}

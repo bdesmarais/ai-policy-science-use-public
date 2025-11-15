@@ -1,0 +1,13 @@
+{
+  "press_release": "20200830-senate-approves-ramos-bill-create-first-statewide-office-suicide-prevention.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – A bill to establish the first statewide Office of Suicide Prevention was passed unanimously today by the state Senate on a 36 to 0 vote.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:18:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The novel coronavirus pandemic is exacerbating the suicide crisis in California.\",\n    \"More than 40 percent of respondents in a June survey reported that the pandemic created mental stress in their lives.\",\n    \"Eleven percent of respondents in the same survey said they",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The novel coronavirus pandemic is exacerbating the suicide crisis in California.\",\n    \"More than 40 percent of respondents in a June survey reported that the pandemic created mental stress in their lives.\",\n    \"Eleven percent of respondents in the same survey said they had seriously considered suicide in the last 30 days.\",\n    \"Youth aged 15 to 24 is particularly vulnerable, with suicide being the second leading cause of death in this age group.\",\n    \"One in six high school students reported seriously considering ending their lives, according to the CDC's High School Youth Risk Behavior Survey Data.\",\n    \"More than one in 12 high school students reported attempted suicides.\",\n    \"In 2014, 3,575 children aged five to 20 in California were hospitalized for non-fatal self-inflicted injuries.\",\n    \"Tribal young people are particularly vulnerable to suicide but possess the strength and resiliency to overcome this crisis if engaged.\",\n    \"Vigilant monitoring of suicide data is necessary, especially for high-risk groups such as youth, Native American youth, older adults, and LGBTQ people.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "804ebfbb416b7e44499da682b7a50d81eb0ab014"
+}

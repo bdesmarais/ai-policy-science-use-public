@@ -1,0 +1,13 @@
+{
+  "press_release": "20171005-daca-protection-bill-authored-assemblymember-ash-kalra-signed-law-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Governor Brown today signed Assembly Bill (AB) 21, a bill authored by Assemblymember Ash Kalra (D-San Jose) that seeks to mitigate the impacts of potential federal cha",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4855c3a3c0266db1378c6ea5d39ca27f312ca672"
+}

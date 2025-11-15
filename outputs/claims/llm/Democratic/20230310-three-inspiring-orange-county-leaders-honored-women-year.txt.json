@@ -1,0 +1,13 @@
+{
+  "press_release": "20230310-three-inspiring-orange-county-leaders-honored-women-year.txt",
+  "party": "Democratic",
+  "title": "IRVINE-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:56:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Alteryx is recognized as the world’s leading data science and analytics company.\",\n    \"Alteryx was co-founded by Olivia “Libby” Duane Adams, who serves as the company’s Chief Advocacy Officer.\",\n    \"Project Hope Alliance uses a long-term, site-based model of providing ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Alteryx is recognized as the world’s leading data science and analytics company.\",\n    \"Alteryx was co-founded by Olivia “Libby” Duane Adams, who serves as the company’s Chief Advocacy Officer.\",\n    \"Project Hope Alliance uses a long-term, site-based model of providing whole-person care for youth experiencing homelessness.\",\n    \"Under Jennifer Friend's leadership, Project Hope Alliance now serves students attending over 40 schools in three districts.\",\n    \"Project Hope Alliance has achieved a high school graduation rate more than 30% above the national average.\",\n    \"Dr. Shaista Malik led the expansion of integrative health at UCI, resulting in the largest philanthropic gift in history given to UCI of $200 million.\",\n    \"Sabil USA has served 18,000 individuals with food security in the past year.\",\n    \"Sabil USA has provided rental assistance and utility assistance to 5,000 individuals.\",\n    \"Sabil USA has provided free mental health services, including crisis intervention and suicide prevention, to 600 individuals in the past year.\",\n    \"Dr. Samar Aziz has helped 1.5 million people with food and financial security for their families over the last 11 years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bc331c24daccd15674c25fa0646a5eb9f7bd0ff1"
+}

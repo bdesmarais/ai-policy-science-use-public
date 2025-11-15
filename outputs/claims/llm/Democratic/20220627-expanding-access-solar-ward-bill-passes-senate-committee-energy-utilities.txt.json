@@ -1,0 +1,13 @@
+{
+  "press_release": "20220627-expanding-access-solar-ward-bill-passes-senate-committee-energy-utilities.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO,CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:43:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California law requires renewable and zero-carbon energy resources to supply 100% of electric retail sales to customers by 2045.\",\n    \"Roughly 45% of California households are renters who can’t install a solar system on their own.\",\n    \"Assembly Bill 2316 will establis",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California law requires renewable and zero-carbon energy resources to supply 100% of electric retail sales to customers by 2045.\",\n    \"Roughly 45% of California households are renters who can’t install a solar system on their own.\",\n    \"Assembly Bill 2316 will establish a statewide community and solar storage program in California.\",\n    \"Community solar projects are smaller-scale installations that allow multiple customers to subscribe and save money on their monthly energy bill.\",\n    \"Californians who participate in the community solar program will save money on their monthly energy bills.\",\n    \"Financial incentives would be available for low-income customers participating in the community solar program.\",\n    \"California has failed to unleash community solar’s potential without the implementation of Assembly Bill 2316.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3d0200b975a949c565a34aee54099ebcc122a040"
+}

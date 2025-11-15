@@ -1,0 +1,13 @@
+{
+  "press_release": "mercury-news-new-california-bill-could-provide-cash-homeless-high-school-seniors.txt",
+  "party": "Democratic",
+  "title": "Student homelessness has risen to pre-pandemic levels, after years of decline. Now, a San Jose legislator has introduced a California bill to provide unhoused high school seniors w",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Student homelessness has risen to pre-pandemic levels after years of decline.\",\n    \"A recent data analysis from the Public Policy Institute of California found that the number of K-12 students experiencing homelessness in the state increased for the 2022-23 school year,",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Student homelessness has risen to pre-pandemic levels after years of decline.\",\n    \"A recent data analysis from the Public Policy Institute of California found that the number of K-12 students experiencing homelessness in the state increased for the 2022-23 school year, with at least 246,000 students having experienced homelessness at some point.\",\n    \"The proposed California Success, Opportunity and Academic Resilience (SOAR) program aims to provide direct cash assistance to nearly 15,000 high school seniors experiencing homelessness.\",\n    \"The current educational system can act as a 'conveyor belt' from child to adult homelessness for students who are unhoused.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2d3321ef6ef5357d8b3aca05d591770c655dcbca"
+}

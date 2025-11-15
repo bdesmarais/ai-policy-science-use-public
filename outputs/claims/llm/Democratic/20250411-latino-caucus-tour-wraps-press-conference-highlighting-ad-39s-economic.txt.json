@@ -1,0 +1,13 @@
+{
+  "press_release": "20250411-latino-caucus-tour-wraps-press-conference-highlighting-ad-39s-economic.txt",
+  "party": "Democratic",
+  "title": "Palmdale, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California continues to lead in innovation.\",\n    \"Plant 42 is a beacon of California’s role in developing cutting-edge technology.\",\n    \"Transportation initiatives like the High Desert Corridor and SR-14 improvements are integral to regional mobility and growth.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California continues to lead in innovation.\",\n    \"Plant 42 is a beacon of California’s role in developing cutting-edge technology.\",\n    \"Transportation initiatives like the High Desert Corridor and SR-14 improvements are integral to regional mobility and growth.\",\n    \"Public-private partnerships are essential in developing infrastructure that supports youth and future leaders.\",\n    \"The Latino Caucus Tour has brought together key legislators and local leaders to gain firsthand insight into the needs and opportunities across AD 39.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6232f63c37d3335bd51699851fca312cd4bf0070"
+}

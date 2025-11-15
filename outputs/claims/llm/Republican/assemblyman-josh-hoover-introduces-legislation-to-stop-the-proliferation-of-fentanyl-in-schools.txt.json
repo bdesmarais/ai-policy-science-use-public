@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-josh-hoover-introduces-legislation-to-stop-the-proliferation-of-fentanyl-in-schools.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblyman Josh Hoover (R-Folsom) announced the introduction of groundbreaking legislation to address the alarming rise of fentanyl in California schools and c",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "23d032d7f25b45475232a4bc4b15fd622a7a8b38"
+}

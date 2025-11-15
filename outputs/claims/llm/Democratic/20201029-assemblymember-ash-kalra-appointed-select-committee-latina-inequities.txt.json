@@ -1,0 +1,13 @@
+{
+  "press_release": "20201029-assemblymember-ash-kalra-appointed-select-committee-latina-inequities.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Ash Kalra (D-San Jose) released a statement today in response to his appointment to the newly-formed Select Committee on Latina Inequities, created by A",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:20:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Low-income, largely immigrant communities have been hit hardest by the global pandemic.\",\n    \"Covid-19 death rates are far higher in low-income communities compared to wealthier areas throughout the greater San Francisco Bay Area.\",\n    \"Latinas, many of whom are essent",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Low-income, largely immigrant communities have been hit hardest by the global pandemic.\",\n    \"Covid-19 death rates are far higher in low-income communities compared to wealthier areas throughout the greater San Francisco Bay Area.\",\n    \"Latinas, many of whom are essential workers, face the added challenge of being unable to stay safely at home during the coronavirus pandemic due to economic stress and the nature of their jobs.\",\n    \"The long-standing wage and opportunity gaps for Latinas are more egregious in comparison to other communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6e01a08108892db6d1acba3884d0e289fa8c754b"
+}

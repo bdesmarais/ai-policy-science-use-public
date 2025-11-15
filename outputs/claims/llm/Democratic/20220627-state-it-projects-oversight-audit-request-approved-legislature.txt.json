@@ -1,0 +1,13 @@
+{
+  "press_release": "20220627-state-it-projects-oversight-audit-request-approved-legislature.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—The California",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:43:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Joint Legislative Audit Committee has voted to approve a performance audit of the California Department of Technology's responsibilities regarding oversight of state information technology procurements.\",\n    \"The State Auditor has audited portions of IT s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Joint Legislative Audit Committee has voted to approve a performance audit of the California Department of Technology's responsibilities regarding oversight of state information technology procurements.\",\n    \"The State Auditor has audited portions of IT systems under the California Department of Technology umbrella.\",\n    \"The California Department of Technology oversees 26 IT projects costing the State nearly $3.5 billion.\",\n    \"The pandemic revealed the inadequacies of state IT systems that are overloaded and antiquated.\",\n    \"The audit will provide a comprehensive view of the technology systems supporting California's departments.\",\n    \"The California Department of Technology's responsibilities may increase as departments replace outdated legacy systems.\",\n    \"The audit request includes an examination of the role of the California Department of Technology in project procurement and oversight.\",\n    \"Californians are increasingly interacting with government services online.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4846effe426dcc74e33f16b30d42dfd754574fc3"
+}

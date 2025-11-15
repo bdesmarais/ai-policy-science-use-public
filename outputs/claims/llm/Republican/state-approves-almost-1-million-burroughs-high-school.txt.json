@@ -1,0 +1,13 @@
+{
+  "press_release": "state-approves-almost-1-million-burroughs-high-school.txt",
+  "party": "Republican",
+  "title": "Yesterday, the State Allocation Board approved $988,025 as a reimbursement for a facility hardship project at Sherman E. Burroughs High School to solve a plumbing issue that arose.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a03faaa4a3e7ac20138796c2955e988053f2587c"
+}

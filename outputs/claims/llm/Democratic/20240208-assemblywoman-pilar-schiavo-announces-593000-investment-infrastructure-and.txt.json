@@ -1,0 +1,13 @@
+{
+  "press_release": "20240208-assemblywoman-pilar-schiavo-announces-593000-investment-infrastructure-and.txt",
+  "party": "Democratic",
+  "title": "SANTA CLARITA -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:34:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Child & Family Center received $593,000 in funding for infrastructure and safety enhancements.\",\n    \"The funding will facilitate the implementation of a robust phone system capable of withstanding power outages and emergencies.\",\n    \"The funding will support the ac",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Child & Family Center received $593,000 in funding for infrastructure and safety enhancements.\",\n    \"The funding will facilitate the implementation of a robust phone system capable of withstanding power outages and emergencies.\",\n    \"The funding will support the acquisition of a dedicated vehicle to transport domestic violence survivors to safety.\",\n    \"The funding will enable the installation of bulletproof glass at entry points to enhance security measures.\",\n    \"The funding will allow for upgrades to technology, wellness facilities, and overall infrastructure at community spaces within the Child & Family Center.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1eace554509b727cb5f2dd54728ff16daaf4608c"
+}

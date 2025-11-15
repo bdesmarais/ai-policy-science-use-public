@@ -1,0 +1,84 @@
+{
+  "press_release": "20200128-assemblymember-ash-kalra-introduces-bill-make-california-leader-protecting.txt",
+  "party": "Democratic",
+  "title": "If passed, AB 2002 would mandate state contracts involving forest-risk commodities to only go to companies with responsible practices",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:13:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 2002 would mandate state contracts involving tropical forest-risk commodities to only go to companies with responsible practices.\"\n    },\n    {\n      \"claim_text\": \"The world’s rainforests are in crisis.\"\n    },\n    {\n      \"claim_text\": \"Tropica",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 2002 would mandate state contracts involving tropical forest-risk commodities to only go to companies with responsible practices.\"\n    },\n    {\n      \"claim_text\": \"The world’s rainforests are in crisis.\"\n    },\n    {\n      \"claim_text\": \"Tropical forests cover roughly seven percent of the Earth’s surface but harbor close to half of all species on Earth.\"\n    },\n    {\n      \"claim_text\": \"An estimated 18 million acres of forest are lost every year, largely due to the expansion of agribusiness plantations.\"\n    },\n    {\n      \"claim_text\": \"Tropical deforestation and related land-use changes are responsible for nearly a quarter of global carbon dioxide emissions.\"\n    },\n    {\n      \"claim_text\": \"Tropical forests are essential for stabilizing the global climate.\"\n    },\n    {\n      \"claim_text\": \"The rapid loss of tropical forests is a crisis of epic proportions.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "AB 2002 would mandate state contracts involving tropical forest-risk commodities to only go to companies with responsible practices.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The world’s rainforests are in crisis.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Tropical forests cover roughly seven percent of the Earth’s surface but harbor close to half of all species on Earth.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "An estimated 18 million acres of forest are lost every year, largely due to the expansion of agribusiness plantations.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Tropical deforestation and related land-use changes are responsible for nearly a quarter of global carbon dioxide emissions.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Tropical forests are essential for stabilizing the global climate.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The rapid loss of tropical forests is a crisis of epic proportions.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "51da1fe7640cfa0adfa0b197b034e2d72fc5e0c5"
+}

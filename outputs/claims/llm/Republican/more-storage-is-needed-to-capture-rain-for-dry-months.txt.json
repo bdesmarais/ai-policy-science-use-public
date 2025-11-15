@@ -1,0 +1,13 @@
+{
+  "press_release": "more-storage-is-needed-to-capture-rain-for-dry-months.txt",
+  "party": "Republican",
+  "title": "Today, the Department of Water Resources announced the increase of water supplies from 5% to 30%. Vice Chair of the Assembly Budget Committee Vince Fong (R-Central Valley) issued t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "28a287badfd525d339692dee62affbb7a49df815"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-blakespear-calls-federal-arrest-encinitas-illegal-and-inhumane.txt",
+  "party": "Democratic",
+  "title": "View the 2024 Annual Report",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Videos show an apprehension made by federal police working for ICE in Encinitas.\",\n    \"Federal agents removed a father from his car without showing identification or providing a warrant.\",\n    \"The agents did not allow the father to say goodbye to his family members bef",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Videos show an apprehension made by federal police working for ICE in Encinitas.\",\n    \"Federal agents removed a father from his car without showing identification or providing a warrant.\",\n    \"The agents did not allow the father to say goodbye to his family members before taking him away.\",\n    \"The actions of the federal agents represent a police state in which civil liberties and constitutional protections are ignored.\",\n    \"There is a lack of due process associated with the government's actions in apprehending individuals without probable cause.\",\n    \"The immigrant community is particularly at risk of being subjected to such apprehensions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eaaa8d87a8e8c949a2770b13fa5eb8e137484181"
+}

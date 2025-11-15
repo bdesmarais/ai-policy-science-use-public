@@ -1,0 +1,13 @@
+{
+  "press_release": "20250429-ab-366-expands-ignition-interlock-device-use-dui-offenders.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Ignition interlock devices (IIDs) are proven to save lives.\",\n    \"In states that have implemented all-offender IID laws, drunk driving fatalities have dropped by 26%.\",\n    \"In 2023 alone, IIDs prevented more than 30,500 attempts to drive under the influence in Californ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Ignition interlock devices (IIDs) are proven to save lives.\",\n    \"In states that have implemented all-offender IID laws, drunk driving fatalities have dropped by 26%.\",\n    \"In 2023 alone, IIDs prevented more than 30,500 attempts to drive under the influence in California.\",\n    \"IIDs stop tragedies before they happen, keeping dangerous drivers off the road and saving lives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f59241f6b7df6836bd605858d24db0ff3b357e5"
+}

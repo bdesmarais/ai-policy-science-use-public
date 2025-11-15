@@ -1,0 +1,13 @@
+{
+  "press_release": "media-advisory-joness-religion-essential-act-be-heard-committee-tomorrow.txt",
+  "party": "Republican",
+  "title": "Senate Bill 397, the “Religion is Essential Act” authored by Senator Brian W. Jones (R-Santee), will be heard tomorrow afternoon in the Senate Judiciary Committee.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0509cf1f73c667502a083d521e9f402eee9b3442"
+}

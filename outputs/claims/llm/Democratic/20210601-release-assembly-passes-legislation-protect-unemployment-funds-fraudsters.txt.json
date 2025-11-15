@@ -1,0 +1,13 @@
+{
+  "press_release": "20210601-release-assembly-passes-legislation-protect-unemployment-funds-fraudsters.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – After tens of thousands of fraudulent claims and more than $810 million taxpayer dollars lost, the California State Assembly voted to pass legislation to implement sta",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed legislation to implement standard fraud-prevention practices at California's Employment Development Department (EDD).\",\n    \"California's unemployment benefit system has experienced significant fraud, leading to over $810 million in t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed legislation to implement standard fraud-prevention practices at California's Employment Development Department (EDD).\",\n    \"California's unemployment benefit system has experienced significant fraud, leading to over $810 million in taxpayer losses.\",\n    \"AB 110 will require the EDD to cross-check incarceration records to prevent fraudulent unemployment benefits.\",\n    \"Cross-checking lists of unemployment benefit claimants against incarceration data is a common fraud prevention practice in other states.\",\n    \"Current California law restricts the inmate information that can be shared with other state agencies.\",\n    \"AB 110 will enable EDD to cross-check claimants' information against inmate databases maintained by the California Department of Corrections and Rehabilitation and counties.\",\n    \"The California Chamber of Commerce supports AB 110 as a way to facilitate information sharing between the EDD and California's correctional system.\",\n    \"AB 110 aims to address serious loopholes that allow fraudsters to exploit the unemployment benefit system.\",\n    \"Inmates have exploited the unemployment benefit system, leading to significant financial losses for the state and taxpayers.\",\n    \"The bill is part of a package of reforms needed to improve the EDD and prevent fraudulent spending.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "337611065b89e1cfecb4155820963d14282c6f31"
+}

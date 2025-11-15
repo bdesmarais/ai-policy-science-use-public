@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-choi-introduces-measure-give-teachers-tax-credit.txt",
+  "party": "Republican",
+  "title": "Last week, Senator Steven Choi (R-Irvine) introduced Senate Bill 267, which seeks to support California educators by offering them a tax credit for out-of-pocket school supply expe",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8a14945792b6f0d60e5c51d06b3c868f01843bcf"
+}

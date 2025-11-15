@@ -1,0 +1,13 @@
+{
+  "press_release": "20201120-asm-mike-gipson-appalled-edds-failure-serve-and-protect-californias.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- (Nov. 20, 2020)    Assemblymember Mike A. Gipson (D-Carson) released the following statement as millions of unemployed Californians continue to suffer the chr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:21:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Since business shutdowns imposed by state and local government officials began in mid-March, a stunning 8.13 million California workers have filed initial claims for unemployment benefits.\",\n    \"The California State Auditor released a report stating that EDD persisted i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Since business shutdowns imposed by state and local government officials began in mid-March, a stunning 8.13 million California workers have filed initial claims for unemployment benefits.\",\n    \"The California State Auditor released a report stating that EDD persisted in mailing documents containing social security numbers, putting Californians at risk for identity theft.\",\n    \"In March 2019, auditors recommended that EDD remove Social Security Numbers from three unemployment insurance forms by March 2020, but this has not happened.\",\n    \"Since Covid-19 caused unemployment claims to surge in March 2020, EDD sent at least 38 million pieces of mail with Social Security Numbers.\",\n    \"California's EDD is conducting an emergency audit of its response to the surge of unemployment claims, including its backlog of unemployment claims, call center performance, and adequacy of its information technology infrastructure.\",\n    \"As many as one out of three unemployment claims filed in California may be fraudulent, according to a security company hired by EDD.\",\n    \"In September 2020, nearly 1.6 million claims remained pending in California, with the backlog expected to grow by at least 10,000 claims per day.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0ba1769950fcc74981a7e5df38f25ddc8a3f0efa"
+}

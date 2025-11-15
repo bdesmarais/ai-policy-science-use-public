@@ -1,0 +1,13 @@
+{
+  "press_release": "bill-help-alleviate-county-mental-health-bed-capacity-deficit-approved-committee.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) announced today that the Senate Health Committee approved in a unanimous bipartisan vote Senate Bill 1298 . SB 1298 will continuously appro",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:44:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1298 will continuously appropriate at least $1 billion annually to help counties build out essential mental health bed capacity.\",\n    \"Issues resulting from the lack of investment in mental health have been on the rise across communities.\",\n    \"California has an inp",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1298 will continuously appropriate at least $1 billion annually to help counties build out essential mental health bed capacity.\",\n    \"Issues resulting from the lack of investment in mental health have been on the rise across communities.\",\n    \"California has an inpatient psychiatric bed capacity of 21 beds per 100,000 people, whereas the estimated need is 50 beds per 100,000 people.\",\n    \"In 2017, California had among the lowest inpatient psychiatric bed capacity in the country.\",\n    \"Almost half of the counties in California had no adult acute psychiatric beds as of 2015.\",\n    \"The majority of counties in California had no psychiatric beds for children as of 2015.\",\n    \"Only about 2,600 sub-acute mental health treatment beds are licensed in California.\",\n    \"The number of Substance Use Disorder treatment facilities in California has decreased by 13 percent over the last three years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "955c8245c29729cb13ddb5c469f23072c59a0546"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-valladares-bill-expand-health-access-cancer-patients-gets-senate-approval.txt",
+  "party": "Republican",
+  "title": "Today Senator Suzette Martinez Valladares (R-Santa Clarita) announced that Senate Bill 508 , which would expand continuum of care options for some cancer patients by allowing them ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 508 will allow cancer patients in California to consult with established out-of-state doctors using a telehealth platform.\",\n    \"The bill aims to eliminate geographic barriers to healthcare for cancer patients.\",\n    \"Under current law, telehealth visits are",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 508 will allow cancer patients in California to consult with established out-of-state doctors using a telehealth platform.\",\n    \"The bill aims to eliminate geographic barriers to healthcare for cancer patients.\",\n    \"Under current law, telehealth visits are restricted within state borders, except for terminal patients or those in clinical trials.\",\n    \"Senate Bill 508 expands access to telehealth consultations for California cancer patients who are not terminally ill.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "311045302b4b499fa61bea7176a3baa3a17cdf58"
+}

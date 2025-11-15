@@ -1,0 +1,13 @@
+{
+  "press_release": "20170704-governor-takes-action-assemblywoman-quirk-silva-request-assist-orange.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO â Earlier last month, Assembly woman Quirk-Silva sent a letter to Governor Jerry Brown concerning the awareness of the a five mile long âplumeâ of contamination fr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8702c7b14cf2aeae1714d98465db603407e6d64a"
+}

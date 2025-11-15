@@ -1,0 +1,124 @@
+{
+  "press_release": "bills-senator-becker-climate-action-digital-divide-justice-reform-and-voter-equity.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release – Office of State Senator Josh Becker – Friday, May 21, 2021",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The worldwide concrete and cement industry accounts for almost 8 percent of global emissions.\"\n    },\n    {\n      \"claim_text\": \"SB 596 sets a 2045 target date in California for carbon neutral cement and concrete, with a 40% emissions reduction by 2",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The worldwide concrete and cement industry accounts for almost 8 percent of global emissions.\"\n    },\n    {\n      \"claim_text\": \"SB 596 sets a 2045 target date in California for carbon neutral cement and concrete, with a 40% emissions reduction by 2030.\"\n    },\n    {\n      \"claim_text\": \"Transportation is the greatest source of greenhouse gas emissions in California.\"\n    },\n    {\n      \"claim_text\": \"SB 771 provides a state sales tax break for lower income Californians purchasing electric or hybrid vehicles.\"\n    },\n    {\n      \"claim_text\": \"SB 68 aims to lower costs and reduce delays for property owners seeking to upgrade their electric panels.\"\n    },\n    {\n      \"claim_text\": \"SB 767 establishes the Digital Education Equity Program to provide education technology and network support to California public school districts.\"\n    },\n    {\n      \"claim_text\": \"SB 775 aims to clarify existing law to allow less culpable individuals convicted of attempted murder to petition for modified sentences.\"\n    },\n    {\n      \"claim_text\": \"SB 355 seeks to improve access to civil justice by updating eligibility criteria for low-income Californians seeking fee waivers.\"\n    },\n    {\n      \"claim_text\": \"SB 503 would implement a uniform statewide standard for signature verification of mail-in ballots.\"\n    },\n    {\n      \"claim_text\": \"Challenged signatures disproportionately impact vulnerable communities, including those with limited English proficiency and individuals living with disabilities.\"\n    },\n    {\n      \"claim_text\": \"SB 504 ensures that Californians involved with the criminal justice system maintain access to voter registration.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The worldwide concrete and cement industry accounts for almost 8 percent of global emissions.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 596 sets a 2045 target date in California for carbon neutral cement and concrete, with a 40% emissions reduction by 2030.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Transportation is the greatest source of greenhouse gas emissions in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 771 provides a state sales tax break for lower income Californians purchasing electric or hybrid vehicles.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 68 aims to lower costs and reduce delays for property owners seeking to upgrade their electric panels.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 767 establishes the Digital Education Equity Program to provide education technology and network support to California public school districts.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 775 aims to clarify existing law to allow less culpable individuals convicted of attempted murder to petition for modified sentences.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 355 seeks to improve access to civil justice by updating eligibility criteria for low-income Californians seeking fee waivers.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 503 would implement a uniform statewide standard for signature verification of mail-in ballots.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Challenged signatures disproportionately impact vulnerable communities, including those with limited English proficiency and individuals living with disabilities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 504 ensures that Californians involved with the criminal justice system maintain access to voter registration.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 11,
+  "doc_sha1": "417db08357e63afa68c1f913fd9248d578bd348d"
+}

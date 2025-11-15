@@ -1,0 +1,13 @@
+{
+  "press_release": "20230531-unicorn-homes-lgbtq-youth-passes-assembly-floor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif. — Today, Assemblymember Tasha Boerner’s (D-Encinitas) bill to promote housing stability and a positive support system that helps transition LGBTQ+ youth experien",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Stable and affirming housing plays a vital role in the safety of all youth, especially youth identifying as LGBTQ+.\",\n    \"AB 589 creates the Unicorn Homes Transitional Housing for Homeless LGBTQ+ Youth Program pilot project to help identify, screen, and train LGBTQ+ aff",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Stable and affirming housing plays a vital role in the safety of all youth, especially youth identifying as LGBTQ+.\",\n    \"AB 589 creates the Unicorn Homes Transitional Housing for Homeless LGBTQ+ Youth Program pilot project to help identify, screen, and train LGBTQ+ affirming households.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f5bb049b6d98d8229a83a64bb375fc4641cbf309"
+}

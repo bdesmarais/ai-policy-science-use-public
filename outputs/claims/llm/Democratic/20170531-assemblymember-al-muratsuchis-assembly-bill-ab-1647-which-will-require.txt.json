@@ -1,0 +1,13 @@
+{
+  "press_release": "20170531-assemblymember-al-muratsuchis-assembly-bill-ab-1647-which-will-require.txt",
+  "party": "Democratic",
+  "title": "AB 1647 part of Assemblymember Muratsuchi’s “California Refinery Jobs and Safety Action Plan,” which includes five Assembly bills to improve public safety at all California refiner",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1647 will require refineries to install and maintain air quality monitors at the refinery fence line and in the community.\",\n    \"The governing air quality agency will be required to publicly report the readings from the monitors in real-time.\",\n    \"There is currentl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1647 will require refineries to install and maintain air quality monitors at the refinery fence line and in the community.\",\n    \"The governing air quality agency will be required to publicly report the readings from the monitors in real-time.\",\n    \"There is currently no state-wide requirement for fence-line and community monitoring of most chemicals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5fbf0c815d08670e017769ed0428e24eee36042d"
+}

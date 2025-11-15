@@ -1,0 +1,13 @@
+{
+  "press_release": "20190226-assemblymember-ramos-and-senator-portantino-introduce-bill-provide-tax.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:05:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed bill could lower a corporation's franchise tax by $200 to $600 annually.\",\n    \"California corporations currently pay either a minimum franchise tax of $800 or 8.84 percent of apportioned net income, whichever is greater.\",\n    \"The proposed bill aims to cre",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed bill could lower a corporation's franchise tax by $200 to $600 annually.\",\n    \"California corporations currently pay either a minimum franchise tax of $800 or 8.84 percent of apportioned net income, whichever is greater.\",\n    \"The proposed bill aims to create a fee structure based on a corporation's annual gross receipts.\",\n    \"California has 3.9 million small businesses employing roughly half of the state's workforce.\",\n    \"Of all the small businesses in California, 1.6 million are minority-owned.\",\n    \"Small businesses generate 43 percent of California's $152.1 billion in international exports.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4b2491e86b7d9255158541bb0218ef26920a3d0c"
+}

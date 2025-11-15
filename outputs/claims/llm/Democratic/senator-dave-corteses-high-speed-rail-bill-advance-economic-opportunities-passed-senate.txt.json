@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-corteses-high-speed-rail-bill-advance-economic-opportunities-passed-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – On an 11- to-1 vote, the California Senate Transportation Committee on Tuesday passed SB 545, Senate Transportation chair Dave Cortese’s bill to advance major economic",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 545 would commission a study on the economic development opportunities along the California High Speed Rail corridor.\",\n    \"The bill aims to leverage commercial and residential development along the High Speed Rail corridor to create jobs.\",\n    \"The High Sp",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 545 would commission a study on the economic development opportunities along the California High Speed Rail corridor.\",\n    \"The bill aims to leverage commercial and residential development along the High Speed Rail corridor to create jobs.\",\n    \"The High Speed Rail project has the potential to attract businesses and generate new revenue streams.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "433dac871a3ecc4f2b7f4c0c9d3a107fddc01c59"
+}

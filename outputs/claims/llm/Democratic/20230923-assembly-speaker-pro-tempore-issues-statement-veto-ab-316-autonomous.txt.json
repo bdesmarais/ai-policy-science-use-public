@@ -1,0 +1,13 @@
+{
+  "press_release": "20230923-assembly-speaker-pro-tempore-issues-statement-veto-ab-316-autonomous.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Cecilia Aguiar-Curry (D-Winters) today released the following statement:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:09:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 316 acknowledges the need to move forward with testing and deployment of autonomous heavy vehicles.\",\n    \"AB 316 requires a human safety operator for autonomous vehicle technology.\",\n    \"Collaboration between the Legislative and Executive branches is necessary for t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 316 acknowledges the need to move forward with testing and deployment of autonomous heavy vehicles.\",\n    \"AB 316 requires a human safety operator for autonomous vehicle technology.\",\n    \"Collaboration between the Legislative and Executive branches is necessary for the deployment of autonomous vehicle technology.\",\n    \"The decision regarding autonomous vehicles should incorporate perspectives from local public safety experts and elected officials.\",\n    \"Support for AB 316 includes California Highway Patrol personnel, local police and firefighters, and a majority of bipartisan colleagues.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6b290e661540e65914608a8ac5fe3146727ac899"
+}

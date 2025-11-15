@@ -1,0 +1,13 @@
+{
+  "press_release": "20200922-african-american-community-service-agency-selected-2020-nonprofit-year.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE, Calif. – Assemblymember Ash Kalra (D-San Jose) today announced African American Community Service Agency (AACSA) as the 2020 California Nonprofit of the Year for Assembly",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"distinct_claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"distinct_claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b9ab38cae71cab4980bd7bd2cc93238d82566761"
+}

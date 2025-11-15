@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-responds-governors-latest-water-restrictions.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Senate Republican Leader Shannon Grove ( R-Bakersfield ) issued the following statement after Governor Newsom’s administration released its Incidental Take Perm",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California grows much of the nation’s food.\",\n    \"California is home to the top three agricultural-producing counties.\",\n    \"Restricting water flows could jeopardize America's food security.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California grows much of the nation’s food.\",\n    \"California is home to the top three agricultural-producing counties.\",\n    \"Restricting water flows could jeopardize America's food security.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c492f93be4ba41f864deffd227c109a713c34842"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20190702-senate-housing-committee-approves-assemblymember-robert-rivas-farmworker.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:09:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1783 creates a streamlined process to build dignified, family-friendly housing for farmworkers in California.\",\n    \"AB 1783 helps make it easier for farmers and non-profit organizations to build dignified, family-friendly housing for farmworkers.\",\n    \"AB 1783 incen",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1783 creates a streamlined process to build dignified, family-friendly housing for farmworkers in California.\",\n    \"AB 1783 helps make it easier for farmers and non-profit organizations to build dignified, family-friendly housing for farmworkers.\",\n    \"AB 1783 incentivizes the construction of affordable family housing for farmworkers.\",\n    \"AB 1783 bans the use of state funds to advance the Trump Administration's immigration policies.\",\n    \"AB 1783 sets quality standards to ensure that new housing is dignified and family-friendly.\",\n    \"AB 1783 puts safeguards in place to protect the environment.\",\n    \"State financial support of farmworker housing under AB 1783 will be focused on dignified, family-oriented projects.\",\n    \"The 2018 Farmworker Study & Action Plan for the Salinas Valley and Pajaro Valley confirmed that agricultural workers are living in severe overcrowded conditions.\",\n    \"The current housing crisis has had a greater impact on low-income farmworkers and their families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f1038e0e37b49ec63bf2aaf0b9b8b09da0b6ab3"
+}

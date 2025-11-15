@@ -1,0 +1,13 @@
+{
+  "press_release": "20190222-wicks-seeks-restore-healthy-start-connect-students-and-families-services.txt",
+  "party": "Democratic",
+  "title": "Richmond, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:05:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has the highest rate of childhood poverty in the U.S., with 46 percent of children living at or near poverty level.\",\n    \"On any given day, 1 in 5 California children may go hungry.\",\n    \"An estimated 75 percent of children on Medi-Cal don’t receive the ment",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has the highest rate of childhood poverty in the U.S., with 46 percent of children living at or near poverty level.\",\n    \"On any given day, 1 in 5 California children may go hungry.\",\n    \"An estimated 75 percent of children on Medi-Cal don’t receive the mental healthcare they need.\",\n    \"Economically underprivileged children and children from communities of color continue to underperform their peers on California’s standardized math and reading tests.\",\n    \"The original Healthy Start program provided grants to local education agencies to develop coordinated, comprehensive services to improve the health and wellness of children and families.\",\n    \"Healthy Start boasted a strong track record of success with markedly higher test scores, decreased hunger and health problems, and improved student behavior.\",\n    \"With the original Healthy Start, drug use went down and immunization rates, graduation rates, and math and reading scores went up.\",\n    \"Healthy Start 2.0 will feature increased focus on data collection and evidence-based interventions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ac205c5501e14ee2574aa956b2960d1262103077"
+}

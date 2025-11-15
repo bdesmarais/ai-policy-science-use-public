@@ -1,0 +1,13 @@
+{
+  "press_release": "20170525-assemblymember-ash-kalra-responds-failure-bill-restricting-predatory.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember (D-San Jose) Ash Kalra expressed his disappointment that AB 784, authored by Assemblymember Matt Dababneh (D-Encino), did not pass out of the Assembly A",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 784 aimed to implement sound and reasonable financial consumer protections.\",\n    \"The current market of predatory lending is largely unregulated.\",\n    \"Annual percentage rates (APR) for consumer loans between $300 and $2,500 are capped at 24 percent under current la",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 784 aimed to implement sound and reasonable financial consumer protections.\",\n    \"The current market of predatory lending is largely unregulated.\",\n    \"Annual percentage rates (APR) for consumer loans between $300 and $2,500 are capped at 24 percent under current law.\",\n    \"Lenders can opt-into a pilot program that permits APRs as high as 36 percent for loans between $300 and $2,500.\",\n    \"Loans over $2,500 have no APR cap, allowing lenders to charge exorbitant rates.\",\n    \"According to the California Department of Business Oversight, 54 percent of all loans between $2,500 and $5,000 have an APR of 100 percent or more.\",\n    \"AB 784 received support from various economic justice and consumer rights groups.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f4628fcfb30d1ca5a33341feff5165da5ceac7d8"
+}

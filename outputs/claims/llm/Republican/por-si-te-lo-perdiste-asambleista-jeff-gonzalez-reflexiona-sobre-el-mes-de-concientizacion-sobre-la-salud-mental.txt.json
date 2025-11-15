@@ -1,0 +1,13 @@
+{
+  "press_release": "por-si-te-lo-perdiste-asambleista-jeff-gonzalez-reflexiona-sobre-el-mes-de-concientizacion-sobre-la-salud-mental.txt",
+  "party": "Republican",
+  "title": "A sambleísta Jeff Gonzalez Reflexiona sobre el Mes de Concientización sobre la Salud Mental",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "23f1baf1be6af32f4d503d2f7c442346878e87b8"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-hosts-annual-holiday-open-house-0.txt",
+  "party": "Republican",
+  "title": "Over the weekend, Senate Minority Leader Brian W. Jones (R-San Diego) hosted a successful legislative open house at his Scripps Ranch office. The event on December 14, 2024 drew hu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e3f27efcb69e68be988b4c6e7eb3fdd61bdeb884"
+}

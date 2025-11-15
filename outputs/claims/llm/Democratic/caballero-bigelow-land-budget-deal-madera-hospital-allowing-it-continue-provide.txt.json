@@ -1,0 +1,13 @@
+{
+  "press_release": "caballero-bigelow-land-budget-deal-madera-hospital-allowing-it-continue-provide.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Rural California lacks access to health care and routinely faces a shortage of health care workers.\",\n    \"The COVID-19 pandemic exacerbated the existing health care challenges in rural areas.\",\n    \"Madera Community Hospital is essential for the approximately 100,000 pe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Rural California lacks access to health care and routinely faces a shortage of health care workers.\",\n    \"The COVID-19 pandemic exacerbated the existing health care challenges in rural areas.\",\n    \"Madera Community Hospital is essential for the approximately 100,000 people in its service area.\",\n    \"Without state funding, Madera Community Hospital would face insolvency and potentially close its doors.\",\n    \"Madera Community Hospital receives more than 80% of its revenue from Medi-Cal and Medicare programs.\",\n    \"The budget allocation is critical to ensuring the continued operation of Madera Community Hospital.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5d8b927aeb561f8f501ecf39174f69bc1713d82b"
+}

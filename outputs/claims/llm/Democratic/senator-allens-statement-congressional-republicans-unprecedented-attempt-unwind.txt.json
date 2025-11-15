@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-allens-statement-congressional-republicans-unprecedented-attempt-unwind.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Senator Ben Allen (D-Santa Monica) released the following statement in response to Congressional Republicans’ recent unprecedented attempt to bypass their parliame",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California has received clean-air waivers from both Republican and Democratic administrations for years.\",\n    \"California has led the way on clean air protections that has saved hundreds of thousands of lives.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California has received clean-air waivers from both Republican and Democratic administrations for years.\",\n    \"California has led the way on clean air protections that has saved hundreds of thousands of lives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e052cf96c8487179818ab5fe2b8eb547cfa30d5a"
+}

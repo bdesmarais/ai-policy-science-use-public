@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-jeff-gonzalez-and-assemblymember-greg-wallis-introduce-ab-1145-tristins-bill-to-investigate-safety-risks-on-hwy-74-and-similar-roads.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO —Today, Assemblyman Jeff Gonzalez (R-Indio) and Assemblymember Greg Wallis (R-Bermuda Dunes) announced the introduction of AB 1145, also known as Tristin’s Bill , a crit",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Highway 74 has become increasingly dangerous due to heavy semi-truck traffic and worsening road conditions.\",\n    \"The safety study will analyze the number of fatal and non-fatal accidents over the past 10 years.\",\n    \"The study will include 911 calls related to ti",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Highway 74 has become increasingly dangerous due to heavy semi-truck traffic and worsening road conditions.\",\n    \"The safety study will analyze the number of fatal and non-fatal accidents over the past 10 years.\",\n    \"The study will include 911 calls related to tire blowouts and road conditions.\",\n    \"The analysis will cover incidents involving semi-trucks and large commercial vehicles.\",\n    \"The study will investigate the number and type of citations issued for vehicle code violations on Highway 74.\",\n    \"The legislation seeks to gather data on injuries and fatalities occurring on Highway 74.\",\n    \"The study will examine brake failure or mechanical issues as contributing factors in accidents.\",\n    \"The legislation will identify transportation corridors used to bypass enforcement facilities.\",\n    \"The study will assess the dangers, hazards, and poor conditions resulting from these transportation corridors.\",\n    \"The analysis will identify hot spots on the corridors used by trucks.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2b8fa31f9a09ab261f5d2bd0571684b771aa2704"
+}

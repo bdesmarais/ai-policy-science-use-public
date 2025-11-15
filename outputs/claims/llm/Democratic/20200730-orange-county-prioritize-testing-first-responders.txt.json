@@ -1,0 +1,13 @@
+{
+  "press_release": "20200730-orange-county-prioritize-testing-first-responders.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE: Thursday, July 30, 2020",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The OC Health Agency announced expedited testing for first responders.\",\n    \"The Anaheim Convention Center can serve more than 1,000 people daily for COVID-19 testing.\",\n    \"Accelerated test results enable quick identification of COVID-19 cases.\",\n    \"Quick treatment ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The OC Health Agency announced expedited testing for first responders.\",\n    \"The Anaheim Convention Center can serve more than 1,000 people daily for COVID-19 testing.\",\n    \"Accelerated test results enable quick identification of COVID-19 cases.\",\n    \"Quick treatment for COVID-19 cases is facilitated by expedited testing.\",\n    \"Early testing helps to identify anyone who came into contact with infected people.\",\n    \"The CDC has guidance on two kinds of COVID-19 tests: viral tests and antibody tests.\",\n    \"A viral test tells if a person has a current COVID-19 infection.\",\n    \"An antibody test might tell if a person had a past COVID-19 infection, but not necessarily a current infection.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e151f64feb90185eeb1ff838f75e7f12d988e026"
+}

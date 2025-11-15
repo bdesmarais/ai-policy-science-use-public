@@ -1,0 +1,13 @@
+{
+  "press_release": "20230221-assemblymember-tina-mckinnor-announces-407-million-state-award-construction.txt",
+  "party": "Democratic",
+  "title": "(INGLEWOOD, CA) – Fulfilling her commitment to improve infrastructure and bring state investments to the South Bay, Assemblymember Tina McKinnor (D - Inglewood) today announced tha",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:55:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Transportation Agency awarded $407 million to support the construction of the Inglewood Transportation Connector (ITC), a 1.6-mile automated transit system.\",\n    \"The ITC is designed to provide safe, efficient, and environmentally friendly service t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Transportation Agency awarded $407 million to support the construction of the Inglewood Transportation Connector (ITC), a 1.6-mile automated transit system.\",\n    \"The ITC is designed to provide safe, efficient, and environmentally friendly service to major sports and entertainment venues.\",\n    \"The ITC Project is anticipated to support a capacity of up to 11,000 travelers per hour.\",\n    \"The City estimates that the ITC Project will generate approximately 9.7 million annual boardings on the regional transportation system in 2028.\",\n    \"The ITC Project is expected to prevent 3.9 billion vehicle miles travelled over its lifespan.\",\n    \"The investment in the ITC Project is anticipated to result in a reduction of 1.2 million metric tons of greenhouse gasses over its lifecycle.\",\n    \"The ITC Project is estimated to create over 14,000 jobs during construction and operations.\",\n    \"The ITC JPA aims for disadvantaged business enterprises to receive 16% of contracting opportunities related to the project.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "72283f84dceb7f09a36e982c0e6edb1cb70a887a"
+}

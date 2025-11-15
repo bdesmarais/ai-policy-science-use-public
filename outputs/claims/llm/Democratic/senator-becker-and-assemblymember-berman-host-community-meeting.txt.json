@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-becker-and-assemblymember-berman-host-community-meeting.txt",
+  "party": "Democratic",
+  "title": "Mountain View, CA – Today Senator Josh Becker (D- Menlo Park) and Assemblymember Marc Berman (D-Menlo Park) hosted a community meeting with the California Department of Transportat",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "220ad114a09599dbe148ba95e4665e9485bd2ba6"
+}

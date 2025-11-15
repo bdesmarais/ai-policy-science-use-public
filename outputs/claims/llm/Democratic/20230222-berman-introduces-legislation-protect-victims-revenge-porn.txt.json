@@ -1,0 +1,13 @@
+{
+  "press_release": "20230222-berman-introduces-legislation-protect-victims-revenge-porn.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:55:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1380 will strengthen California's laws against revenge porn.\",\n    \"The bill closes a loophole in current law used by perpetrators to evade punishment for distributing private sexual images without consent.\",\n    \"Existing law does not prevent someone from secretly re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1380 will strengthen California's laws against revenge porn.\",\n    \"The bill closes a loophole in current law used by perpetrators to evade punishment for distributing private sexual images without consent.\",\n    \"Existing law does not prevent someone from secretly recording an explicit video or taking an explicit picture for the purpose of revenge.\",\n    \"Revenge porn is an increasingly common crime intended to shame and intimidate its victims.\",\n    \"Victims often suffer additional harm such as threats of physical violence, stalking, and criminal threats.\",\n    \"A study by the Cyber Civil Rights Initiative found that 93% of victims suffered significant emotional distress due to their victimization.\",\n    \"51% of victims reported having suicidal thoughts.\",\n    \"49% of victims stated they had been stalked or harassed online by users who saw their explicit images.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70e6ae0caa919f43dcb1077549fa6389662eb261"
+}

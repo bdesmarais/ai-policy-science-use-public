@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymembers-greg-wallis-and-eduardo-garcia-welcome-american-idol-winner-abi-carter-to-sacramento-capitol.txt",
+  "party": "Republican",
+  "title": "Sacramento, CA – August 6, 2024",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "49fdc1f5005b7d7f716a0e164647296757ce50ea"
+}

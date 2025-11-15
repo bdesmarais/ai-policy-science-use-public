@@ -1,0 +1,13 @@
+{
+  "press_release": "20190523-assemblymember-ramos-requests-10-million-tribal-youth-diversion-program.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Today's Native American youth have inherited a legacy of historical trauma caused by loss of home, land, culture, visibility, and language.\",\n    \"The Tribal Youth Diversion Grant program uses trauma-informed, community-based, and health-based interventions to address th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Today's Native American youth have inherited a legacy of historical trauma caused by loss of home, land, culture, visibility, and language.\",\n    \"The Tribal Youth Diversion Grant program uses trauma-informed, community-based, and health-based interventions to address the needs of tribal communities.\",\n    \"High rates of arrest, suicide, alcohol and substance abuse, and lower than 75 percent average high school graduation rates are common in some tribal communities.\",\n    \"The Youth Reinvestment Grant program is designed to divert low-level offenders from initial contact with the juvenile justice system.\",\n    \"Communities with high juvenile arrest rates or high rates of racial disproportionality within those arrests are targeted for grant funding.\",\n    \"Funding for diversion programs includes academic and vocational education services, mentoring, behavioral health services, mental health services, and alternative-sanction programs.\",\n    \"Typical diversion programs do not meet the culturally-specific needs of tribal youth.\",\n    \"Services created and operated by tribes or tribal organizations are necessary to address the unique needs of Native children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "aab4ba510c4258cb534ffb307d2767d56dccb811"
+}

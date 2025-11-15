@@ -1,0 +1,13 @@
+{
+  "press_release": "20250122-addis-calls-investigation-moss-landing-fire.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — Assemblymember Dawn Addis (D-Morro Bay)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The January 2025 fire at the Vistra Battery Energy Storage System at the Moss Landing Power Plant lasted five days.\",\n    \"The January 2025 fire at the Moss Landing facility is the fourth safety incident involving Battery Energy Storage Systems at that location since 201",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The January 2025 fire at the Vistra Battery Energy Storage System at the Moss Landing Power Plant lasted five days.\",\n    \"The January 2025 fire at the Moss Landing facility is the fourth safety incident involving Battery Energy Storage Systems at that location since 2019.\",\n    \"This incident marks the third safety incident on Vistra property.\",\n    \"The Moss Landing Battery Energy Storage System has previously caused the closure of Highway 1 due to fire.\",\n    \"There are concerns regarding the health and welfare of local residents and the environment surrounding the Moss Landing Power Plant due to the fire.\",\n    \"The Vistra BESS is a critical component of California's energy future.\",\n    \"The fire has undermined the public's trust in utility-scale lithium-ion battery energy storage systems.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6955e18e21d7f5b1f0f9098bef325b76408dd117"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-statement-on-elon-musk-relocating-x-spacex-headquarters-to-texas.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assembly Republican Leader James Gallagher issued the following statement on Elon Musk’s announcement that he would relocate the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Elon Musk announced that he would relocate the headquarters of X and SpaceX to Texas.\",\n    \"Musk cited the need to 'dodge gangs of violent drug addicts' as a reason for moving.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Elon Musk announced that he would relocate the headquarters of X and SpaceX to Texas.\",\n    \"Musk cited the need to 'dodge gangs of violent drug addicts' as a reason for moving.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "91ac6e5606be19f6b3b1e262522e1a9fe41f1805"
+}

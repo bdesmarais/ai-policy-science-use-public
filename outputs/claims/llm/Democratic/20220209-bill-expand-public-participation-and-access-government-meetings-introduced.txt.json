@@ -1,0 +1,13 @@
+{
+  "press_release": "20220209-bill-expand-public-participation-and-access-government-meetings-introduced.txt",
+  "party": "Democratic",
+  "title": "Today, California Assemblymember Alex Lee (D-San José) introduced AB 1944 to require a remote participation option for members of the public as well as allow members of a local leg",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Remote public participation for governments is vital for individuals who would otherwise be excluded from decision-making spaces.\",\n    \"Existing legislation requires local elected officials who choose to teleconference to make their private addresses known if there is n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Remote public participation for governments is vital for individuals who would otherwise be excluded from decision-making spaces.\",\n    \"Existing legislation requires local elected officials who choose to teleconference to make their private addresses known if there is no majority vote to waive this requirement.\",\n    \"The ability to teleconference into meetings without revealing private addresses could lead to reduced travel and childcare costs for members.\",\n    \"Enabling remote participation through teleconferencing could increase member participation in local government meetings.\",\n    \"The implementation of livestreams and call-in or video options for public participation can benefit traditionally underrepresented groups, such as working families and people with disabilities.\",\n    \"Allowing members of a Brown Act body to teleconference without revealing private addresses may diversify the composition of board members and commissioners.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "65140ca007d0f0aa5207a878938417f5ba596d84"
+}

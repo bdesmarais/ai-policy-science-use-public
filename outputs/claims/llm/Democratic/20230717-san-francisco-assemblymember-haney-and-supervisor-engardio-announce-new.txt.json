@@ -1,0 +1,13 @@
+{
+  "press_release": "20230717-san-francisco-assemblymember-haney-and-supervisor-engardio-announce-new.txt",
+  "party": "Democratic",
+  "title": "San Francisco, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Night markets, which have their roots in medieval China, became popular as urban renewal efforts in the 80s and 90s.\",\n    \"Night markets offer a wide variety of goods and services, most famously street food, clothing, souvenirs, and entertainment.\",\n    \"Night markets a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Night markets, which have their roots in medieval China, became popular as urban renewal efforts in the 80s and 90s.\",\n    \"Night markets offer a wide variety of goods and services, most famously street food, clothing, souvenirs, and entertainment.\",\n    \"Night markets are often seen as a way to promote local culture and tourism.\",\n    \"Regular community events like night markets and farmers markets can revitalize neighborhoods by drawing foot traffic into local small businesses.\",\n    \"The California Department of Public Health currently doesn’t have specific permitting appropriate for regularly occurring community events like night markets.\",\n    \"AB 441 will create a dedicated permit for night markets and farmers markets, allowing them to recur throughout the year without repeating paperwork and fees.\",\n    \"Removing barriers and cutting through unnecessary bureaucracy can help bring culture and business back into downtown areas.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b48bd2897cf9d9f3505f302ff3ff83c7b0766bb3"
+}

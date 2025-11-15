@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-becker-to-present-45-million-check-to-menlo-park.txt",
+  "party": "Democratic",
+  "title": "(Menlo Park) – Senator Josh Becker (D-Menlo Park) will present a $4.5 million “big check” to Menlo Park city officials at a City Council meeting next week, representing the funds h",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Homes and commercial buildings make up nearly 10% of California's carbon emissions.\",\n    \"Menlo Park has reduced its carbon output by about 35% after switching to Peninsula Clean Energy and relying on more renewable power.\",\n    \"The state’s goal is to cut greenhouse ga",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Homes and commercial buildings make up nearly 10% of California's carbon emissions.\",\n    \"Menlo Park has reduced its carbon output by about 35% after switching to Peninsula Clean Energy and relying on more renewable power.\",\n    \"The state’s goal is to cut greenhouse gas emissions by 85% by 2045.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "be58f756bfd54f5b4f61af5dd3d5eacd4e477fa8"
+}

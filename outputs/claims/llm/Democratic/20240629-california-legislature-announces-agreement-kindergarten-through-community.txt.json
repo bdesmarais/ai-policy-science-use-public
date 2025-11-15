@@ -1,0 +1,13 @@
+{
+  "press_release": "20240629-california-legislature-announces-agreement-kindergarten-through-community.txt",
+  "party": "Democratic",
+  "title": "$10 billion Statewide School Bond to be placed on November 2024 Ballot",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "609ce30b92971b83d26291270947c90fc7e88f31"
+}

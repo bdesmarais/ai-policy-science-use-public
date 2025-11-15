@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-rosilicie-ochoa-bogh-invites-public-community-swearing-ceremony.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh ( R-Yucaipa ) invites members of the press and the public to attend her Community Swearing-In Ceremony on Friday, March 7, from 10:00 AM to 11:00 AM at",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d5bbefd48da46545b7d8f9fd139e1ea9a98989a9"
+}

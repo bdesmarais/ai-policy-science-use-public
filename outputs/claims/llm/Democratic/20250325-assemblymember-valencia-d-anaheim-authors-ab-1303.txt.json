@@ -1,0 +1,13 @@
+{
+  "press_release": "20250325-assemblymember-valencia-d-anaheim-authors-ab-1303.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:30:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1303 aims to strengthen privacy protections for Californians in the Lifeline Program.\",\n    \"The Lifeline Program provides discounted home phone and cell phone services to eligible low-income households.\",\n    \"AB 1303 ensures that Californians can access essential co",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1303 aims to strengthen privacy protections for Californians in the Lifeline Program.\",\n    \"The Lifeline Program provides discounted home phone and cell phone services to eligible low-income households.\",\n    \"AB 1303 ensures that Californians can access essential communication services without fear of unnecessary government overreach.\",\n    \"AB 1303 makes clear there are legal protocols to follow if the federal government wants to access someone's personal information.\",\n    \"AB 1303 mandates that the CPUC must obtain a judicial warrant before sharing customer data with federal agencies.\",\n    \"AB 1303 ensures that the CPUC will not require customers' social security numbers.\",\n    \"By strengthening data security, AB 1303 aims to encourage more residents to subscribe to the Lifeline Program, confident that their privacy is protected.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cdae5273a95508100b3c309dde94cc5c6589b9cb"
+}

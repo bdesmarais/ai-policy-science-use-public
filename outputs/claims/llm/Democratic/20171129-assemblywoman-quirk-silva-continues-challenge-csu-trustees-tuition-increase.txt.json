@@ -1,0 +1,13 @@
+{
+  "press_release": "20171129-assemblywoman-quirk-silva-continues-challenge-csu-trustees-tuition-increase.txt",
+  "party": "Democratic",
+  "title": "ORANGE COUNTY - Last week, in accordance with the Working Families Student Fee Transparency and Accountability Act, the California State Student Association (CSSA) Executive Board ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:59:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d0e9be3fbdfbb0f8587c9c02a5f06020e21778c2"
+}

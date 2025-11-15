@@ -1,0 +1,13 @@
+{
+  "press_release": "20250612-assemblymember-kalra-43-assembly-democrats-oppose-trumps-attempt-ban-court.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:38:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The provision in the President's tax cutting bill amounts to an act of legislative assault on the core functions of the judicial branch of government.\",\n    \"The bill would strip the judiciary branch of one of the last meaningful checks on the actions of the administrati",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The provision in the President's tax cutting bill amounts to an act of legislative assault on the core functions of the judicial branch of government.\",\n    \"The bill would strip the judiciary branch of one of the last meaningful checks on the actions of the administration.\",\n    \"The President's 'Big Beautiful Bill' would eviscerate judicial oversight of the executive branch of government.\",\n    \"The language of the bill would invalidate virtually all temporary restraining orders, preliminary injunctions, and even permanent injunctions ordered by federal courts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3f9bd35d2d791a22595e863c28972dce7d4408d4"
+}

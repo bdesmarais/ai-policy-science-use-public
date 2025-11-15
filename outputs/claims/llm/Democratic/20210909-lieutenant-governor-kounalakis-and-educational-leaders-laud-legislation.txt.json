@@ -1,0 +1,13 @@
+{
+  "press_release": "20210909-lieutenant-governor-kounalakis-and-educational-leaders-laud-legislation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – The Student Transfer Achievement Reform Act of 2021, authored by Assemblymember Marc Berman, passed out of the Legislature today and now awaits Governor Gavin News",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:33:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Only 19 percent of students with a transfer goal successfully transfer within four years.\",\n    \"Only 28 percent of students with a transfer goal successfully transfer within six years.\",\n    \"AB 928 is comprehensive legislation designed to streamline and improve the tra",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Only 19 percent of students with a transfer goal successfully transfer within four years.\",\n    \"Only 28 percent of students with a transfer goal successfully transfer within six years.\",\n    \"AB 928 is comprehensive legislation designed to streamline and improve the transfer process for community college students in California.\",\n    \"AB 928 aims to increase degree attainment and improve time to degree for students in California.\",\n    \"AB 928 seeks to close racial equity gaps in higher education by improving the transfer process.\",\n    \"The establishment of one streamlined lower division general education pathway is intended to ease the path for students transferring to a four-year degree.\",\n    \"AB 928 allows students to opt-out of the Associate Degree for Transfer pathway if it does not align with their educational goals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bc467dec2b1d62a634049c0f925ddf607d52c744"
+}

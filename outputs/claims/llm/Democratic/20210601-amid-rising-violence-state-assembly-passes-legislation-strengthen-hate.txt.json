@@ -1,0 +1,84 @@
+{
+  "press_release": "20210601-amid-rising-violence-state-assembly-passes-legislation-strengthen-hate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Hate crimes targeting Asian Americans in America’s largest cities have increased 164% in the past year.\"\n    },\n    {\n      \"claim_text\": \"The Anti-Defamation League has reported a surge of anti-Jewish incidents in recent weeks, including violent at",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Hate crimes targeting Asian Americans in America’s largest cities have increased 164% in the past year.\"\n    },\n    {\n      \"claim_text\": \"The Anti-Defamation League has reported a surge of anti-Jewish incidents in recent weeks, including violent attacks in Los Angeles and other major urban areas.\"\n    },\n    {\n      \"claim_text\": \"Law enforcement agencies in California routinely fail to adequately identify, report, or respond to hate crimes.\"\n    },\n    {\n      \"claim_text\": \"Inadequate policies and lack of oversight by the California Department of Justice contributed to a systemic under-reporting of hate crimes across the state.\"\n    },\n    {\n      \"claim_text\": \"Hate crimes in the City of Los Angeles increased 40% from 2016 to 2019.\"\n    },\n    {\n      \"claim_text\": \"Data collected by the U.S. Department of Justice suggests that hate crimes occur 24 to 28 times more frequently than they are reported.\"\n    },\n    {\n      \"claim_text\": \"More than 70% of Asian Americans in California live in fear of racially motivated violence and hate crimes.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Hate crimes targeting Asian Americans in America’s largest cities have increased 164% in the past year.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Anti-Defamation League has reported a surge of anti-Jewish incidents in recent weeks, including violent attacks in Los Angeles and other major urban areas.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Law enforcement agencies in California routinely fail to adequately identify, report, or respond to hate crimes.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Inadequate policies and lack of oversight by the California Department of Justice contributed to a systemic under-reporting of hate crimes across the state.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Hate crimes in the City of Los Angeles increased 40% from 2016 to 2019.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Data collected by the U.S. Department of Justice suggests that hate crimes occur 24 to 28 times more frequently than they are reported.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "More than 70% of Asian Americans in California live in fear of racially motivated violence and hate crimes.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "1ef5fdbe5a92830c3435e759fed65f81ec3f0d44"
+}

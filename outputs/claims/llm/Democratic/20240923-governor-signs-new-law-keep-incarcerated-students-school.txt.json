@@ -1,0 +1,13 @@
+{
+  "press_release": "20240923-governor-signs-new-law-keep-incarcerated-students-school.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Constitution guarantees incarcerated youth the right to an equitable education.\",\n    \"More than a dozen California court schools reported that over 30% of their students were chronically absent in the 2021-2022 school year.\",\n    \"Chronic absenteeism is l",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Constitution guarantees incarcerated youth the right to an equitable education.\",\n    \"More than a dozen California court schools reported that over 30% of their students were chronically absent in the 2021-2022 school year.\",\n    \"Chronic absenteeism is linked to lower graduation rates, diminished academic achievement, and reduced college attendance.\",\n    \"Research shows that denying access to education increases recidivism, violence in juvenile halls, and suicidal ideation among incarcerated youth.\",\n    \"AB 2176 will reaffirm every child's fundamental right to an equitable education in California.\",\n    \"AB 2176 establishes new systems to support juvenile justice programs that are struggling to ensure children have access to school.\",\n    \"The Office of Youth and Community Restoration is required to develop an annual report on chronic absenteeism rates in juvenile court schools.\",\n    \"AB 2176 provides an opportunity for collaboration between county offices of education, the Office of Youth and Community Restoration, and probation departments to identify causes of chronic absenteeism.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "11883cde940ab6a33ce890711d1005e1a9aeb6e6"
+}

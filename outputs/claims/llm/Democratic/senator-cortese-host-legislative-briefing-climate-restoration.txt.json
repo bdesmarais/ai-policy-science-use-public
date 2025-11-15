@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-host-legislative-briefing-climate-restoration.txt",
+  "party": "Democratic",
+  "title": "WHAT: On Wednesday, State Senator Dave Cortese (D-San Jose) will host a free, public Zoom briefing for the California Legislature on climate restoration , a critical third pillar a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has recognized climate restoration as a policy goal through the passage of SR 34.\",\n    \"SR-34 calls upon the U.S. to propose an international climate treaty to restore and stabilize greenhouse gas levels.\",\n    \"Promising outcomes of climate restoration inclu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has recognized climate restoration as a policy goal through the passage of SR 34.\",\n    \"SR-34 calls upon the U.S. to propose an international climate treaty to restore and stabilize greenhouse gas levels.\",\n    \"Promising outcomes of climate restoration include climate justice, reduced wildfire impacts, and economic benefits.\",\n    \"Climate restoration means restoring concentrations of carbon dioxide (CO2) back to safe levels that have historically supported human survival.\",\n    \"About one trillion tons of old CO2 must be removed from the atmosphere to achieve climate restoration.\",\n    \"Restoration can be achieved by imitating natural processes that remove CO2.\",\n    \"Examples of natural processes that can help restore CO2 levels include boosting the creation of limestone and the growth of underwater plants that encourage photosynthesis.\",\n    \"These methods to remove CO2 are relatively affordable and have the potential to eliminate all the world's 'legacy CO2' by 2050.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "08f443cacda6618e9a9a51eb64e5f6bc2085505b"
+}

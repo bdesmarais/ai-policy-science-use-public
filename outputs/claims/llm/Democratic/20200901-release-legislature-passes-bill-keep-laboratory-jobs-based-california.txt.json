@@ -1,0 +1,13 @@
+{
+  "press_release": "20200901-release-legislature-passes-bill-keep-laboratory-jobs-based-california.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE: September 1, 2020",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:18:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1327 aims to prevent cuts to Medi-Cal lab rates that could negatively affect laboratory services in California.\",\n    \"By removing the cap on Medi-Cal lab rates, California labs can avoid federally triggered cuts.\",\n    \"Laboratories in California provide 75,826 jobs ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1327 aims to prevent cuts to Medi-Cal lab rates that could negatively affect laboratory services in California.\",\n    \"By removing the cap on Medi-Cal lab rates, California labs can avoid federally triggered cuts.\",\n    \"Laboratories in California provide 75,826 jobs that are essential for supporting the state's health and economy.\",\n    \"AB 1327 will help maintain access to important clinical laboratory tests for Medi-Cal patients.\",\n    \"The bill will facilitate an increase in COVID-19 testing and expand laboratory infrastructure in anticipation of the flu season.\",\n    \"Adequate Medi-Cal lab rates are crucial for safety-net providers like Planned Parenthood to deliver essential health care services.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5d5f308c1f9bf085073ec81bc3d1132b175d309f"
+}

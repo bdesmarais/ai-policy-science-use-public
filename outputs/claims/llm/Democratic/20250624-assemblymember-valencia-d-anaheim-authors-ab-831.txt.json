@@ -1,0 +1,13 @@
+{
+  "press_release": "20250624-assemblymember-valencia-d-anaheim-authors-ab-831.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill (AB) 831 prohibits online sweepstakes games that use a 'dual currency' model to mimic casino-style wagering.\",\n    \"Sweepstakes platforms sell virtual coins that can be redeemed for cash or prizes, operating as unlicensed gambling businesses.\",\n    \"Ma",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill (AB) 831 prohibits online sweepstakes games that use a 'dual currency' model to mimic casino-style wagering.\",\n    \"Sweepstakes platforms sell virtual coins that can be redeemed for cash or prizes, operating as unlicensed gambling businesses.\",\n    \"Many sweepstakes operators are based offshore and function without proper oversight, evading regulatory requirements.\",\n    \"AB 831 reinforces the legality of internet-based sweepstakes that use the dual currency model.\",\n    \"AB 831 strengthens the existing framework that affirms Tribal governments’ sovereign right to conduct gaming in California.\",\n    \"Illegal online gaming threatens the foundation of regulated Tribal government gaming.\",\n    \"Tribal government gaming contributes nearly $25 billion to California’s economy, sustains over 112,000 jobs, and funds critical community programs.\",\n    \"Unregulated online sweepstakes threaten the benefits of regulated gaming while exposing consumers to serious risks.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "179f0c7d4b2bc715223f811108f8d2ce1b303a6e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220210-bill-expand-travel-options-and-create-pilot-increase-jury-duty-pay.txt",
+  "party": "Democratic",
+  "title": "Today, Assemblymember Alex Lee (D-San José) introduced AB 1981 to increase juror diversity by allowing jurors to be reimbursed for using public transportation, which will encourage",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Allowing jurors to be reimbursed for taking public transit can encourage greener ways to travel.\",\n    \"Reimbursing jurors for public transit can expand access to Californians without cars.\",\n    \"Jurors in California currently receive $15 per day starting on the second ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Allowing jurors to be reimbursed for taking public transit can encourage greener ways to travel.\",\n    \"Reimbursing jurors for public transit can expand access to Californians without cars.\",\n    \"Jurors in California currently receive $15 per day starting on the second day of service.\",\n    \"The federal court system pays jurors $50 per day, potentially increasing to $60 after ten days of service.\",\n    \"A 2004 study found that diverse groups deliberated longer and considered a wider range of information than homogeneous groups.\",\n    \"The low payment of $15 per day leads to jurors being excused for financial hardship, decreasing jury diversity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "469a2a7c96d5a5513070c89ca94856af44237b27"
+}

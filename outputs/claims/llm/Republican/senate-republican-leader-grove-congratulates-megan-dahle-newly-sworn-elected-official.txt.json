@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-grove-congratulates-megan-dahle-newly-sworn-elected-official.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Senate Republican Leader Shannon Grove ( R-Bakersfield ) issued the following statement after Megan Dahle took the oath of office to represent California Assemb",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8bcd25a1353d38a5694377f4949f28bf4522b1d2"
+}

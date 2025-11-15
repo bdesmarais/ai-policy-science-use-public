@@ -1,0 +1,13 @@
+{
+  "press_release": "20250319-california-lawmakers-introduce-first-nation-legislation-phase-out-harmful.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:30:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1264 would phase out particularly harmful ultra-processed foods from school meals in California by 2032.\",\n    \"State scientists will identify 'particularly harmful' ultra-processed foods based on scientific research linking them to various health issues.\",\n    \"Scien",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1264 would phase out particularly harmful ultra-processed foods from school meals in California by 2032.\",\n    \"State scientists will identify 'particularly harmful' ultra-processed foods based on scientific research linking them to various health issues.\",\n    \"Scientific research has linked ultra-processed foods to serious health harms including cancer, cardiovascular disease, and type 2 diabetes.\",\n    \"Consumption of ultra-processed foods has been confirmed to be linked to greater risks of being overweight or obese.\",\n    \"Americans, particularly children, consume a significant portion of their daily calories from ultra-processed foods.\",\n    \"Excessive consumption of ultra-processed foods is a leading driver of poor health outcomes and rising healthcare costs.\",\n    \"Ultra-processed foods are engineered to trigger the brain's reward center, which can lead to food addiction.\",\n    \"Poor nutrition in childhood, primarily due to processed foods high in added sugars, is a major factor contributing to lifelong chronic diseases.\",\n    \"California's health system is increasingly strained due to rising costs associated with diabetes and obesity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "327aa19fe2563660a5f087b4c0a26f894734a56b"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-archuleta-recognizes-pico-rivera-station-captain-jodi-hutak-woman-year.txt",
+  "party": "Democratic",
+  "title": "Pico Rivera – In celebration of International Women’s Day, Senator Bob Archuleta (D-Pico Rivera) recognized Pico Rivera Sheriff’s Station Captain Jodi Hutak as Woman of the Year fo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "64c5e5ee11a3171c3e689c02f2009973c8ff4501"
+}

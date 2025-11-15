@@ -1,0 +1,13 @@
+{
+  "press_release": "20250618-senate-education-committee-approves-ramos-bill-strengthen-native-american.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—A measure prohibiting schools from creating any process that would discourage or prevent Native American students from displaying any tribal adornment or ceremonial rega",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Native American youth and their families face obstacles and challenges despite existing legislation and constitutional protections that allow students to wear traditional tribal regalia at graduation ceremonies.\",\n    \"AB 1369 adds clarity to current law to ensure that s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Native American youth and their families face obstacles and challenges despite existing legislation and constitutional protections that allow students to wear traditional tribal regalia at graduation ceremonies.\",\n    \"AB 1369 adds clarity to current law to ensure that students’ and families’ celebration during graduation is not marred by unnecessary turmoil.\",\n    \"Regalia worn by Native American students may include cultural items such as eagle feathers or beading, representing their cultural and religious traditions.\",\n    \"In 2018, the California Legislature passed AB 1248, which states that a pupil may wear traditional tribal regalia or recognized objects of religious or cultural significance as adornment at school graduation ceremonies.\",\n    \"Despite the language of AB 1248, school districts continue to deny Native American students the right to wear tribal regalia.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "af495eac04c0dea7d32ff97868b067d7d8ffe3ee"
+}

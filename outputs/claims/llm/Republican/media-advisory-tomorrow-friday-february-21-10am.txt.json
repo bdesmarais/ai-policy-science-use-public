@@ -1,0 +1,13 @@
+{
+  "press_release": "media-advisory-tomorrow-friday-february-21-10am.txt",
+  "party": "Republican",
+  "title": "Who?",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Minority Leader Brian W. Jones announced the introduction of new legislation to overhaul California’s 'Sanctuary State' law.\",\n    \"The proposed legislation will prevent local jurisdictions from passing sanctuary city measures stronger than current law.\",\n    \"The",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Minority Leader Brian W. Jones announced the introduction of new legislation to overhaul California’s 'Sanctuary State' law.\",\n    \"The proposed legislation will prevent local jurisdictions from passing sanctuary city measures stronger than current law.\",\n    \"The proposed legislation will require law enforcement to cooperate with ICE for violent offenders and specific crimes.\",\n    \"SB 54 (De León, 2017) designated California as a sanctuary state, restricting the use of state and local resources for federal immigration enforcement.\",\n    \"The law SB 54 includes exceptions allowing local law enforcement to cooperate with ICE for individuals convicted of serious or violent crimes.\",\n    \"San Diego County passed an ordinance declaring itself a 'Super Sanctuary County' which bans law enforcement from cooperating with ICE for any offense unless a federal warrant is issued.\",\n    \"The San Diego County ordinance makes it easier for undocumented immigrants charged with violent crimes, gang activity, or weapons offenses to return to the streets.\",\n    \"The San Diego County ordinance undermines public safety and increases the county’s misalignment with federal law.\",\n    \"Leader Jones’s new legislation aims to ensure that violent offenders are not shielded from federal immigration authorities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4db6eafcab980d78dc3499b58480e9a9eacac9ad"
+}

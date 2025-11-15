@@ -1,0 +1,104 @@
+{
+  "press_release": "top-10-failures-governor-newsom-his-second-term-begins.txt",
+  "party": "Republican",
+  "title": "With the inauguration of Governor Gavin Newsom’s second term to take place this morning, the California Senate Republican Caucus shares a list of the governor’s top 10 failures tha",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California is home to America’s most homeless people despite spending more than $20 billion of taxpayer dollars under Governor Newsom's leadership.\"\n    },\n    {\n      \"claim_text\": \"California lacks the water storage capacity to capture water from ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California is home to America’s most homeless people despite spending more than $20 billion of taxpayer dollars under Governor Newsom's leadership.\"\n    },\n    {\n      \"claim_text\": \"California lacks the water storage capacity to capture water from atmospheric river storms, impacting farmers and farmworkers.\"\n    },\n    {\n      \"claim_text\": \"Governor Newsom's proposed 'Windfall Profits Tax' on the gasoline industry would increase the cost of gasoline at the pump.\"\n    },\n    {\n      \"claim_text\": \"Two-thirds of California students failed to meet Math standards according to statewide test scores.\"\n    },\n    {\n      \"claim_text\": \"Stanford University Hoover Institution Study reveals that businesses are leaving California twice as fast as in previous years.\"\n    },\n    {\n      \"claim_text\": \"Governor Newsom's Employment Development Department sent out $33 billion in unemployment fraud during the disorganized effort to provide benefits.\"\n    },\n    {\n      \"claim_text\": \"An investigation found that Governor Newsom overstated the number of acres treated with fuel breaks and prescribed burns by 690%.\"\n    },\n    {\n      \"claim_text\": \"The actual number of acres treated as a result of Governor Newsom's executive order was only 11,399 acres, contrary to his claim of 90,000 acres.\"\n    },\n    {\n      \"claim_text\": \"Governor Newsom has been criticized for his inconsistent stance on the High-Speed Rail project, leading to significant taxpayer expenditures.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "California is home to America’s most homeless people despite spending more than $20 billion of taxpayer dollars under Governor Newsom's leadership.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California lacks the water storage capacity to capture water from atmospheric river storms, impacting farmers and farmworkers.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Governor Newsom's proposed 'Windfall Profits Tax' on the gasoline industry would increase the cost of gasoline at the pump.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Two-thirds of California students failed to meet Math standards according to statewide test scores.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Stanford University Hoover Institution Study reveals that businesses are leaving California twice as fast as in previous years.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Governor Newsom's Employment Development Department sent out $33 billion in unemployment fraud during the disorganized effort to provide benefits.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "An investigation found that Governor Newsom overstated the number of acres treated with fuel breaks and prescribed burns by 690%.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The actual number of acres treated as a result of Governor Newsom's executive order was only 11,399 acres, contrary to his claim of 90,000 acres.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Governor Newsom has been criticized for his inconsistent stance on the High-Speed Rail project, leading to significant taxpayer expenditures.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 9,
+  "doc_sha1": "fc915f22597377128246f2b63d910c4805898c02"
+}

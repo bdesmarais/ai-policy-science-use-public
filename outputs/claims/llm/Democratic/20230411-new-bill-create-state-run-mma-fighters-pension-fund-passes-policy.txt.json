@@ -1,0 +1,13 @@
+{
+  "press_release": "20230411-new-bill-create-state-run-mma-fighters-pension-fund-passes-policy.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:58:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"MMA fighters do not have a guaranteed source of income or retirement benefits once their careers have ended.\",\n    \"Many MMA fighters have long-term injuries from their time in the ring.\",\n    \"The MMA Pension Fund will be financed through ticket sales, sports parapherna",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"MMA fighters do not have a guaranteed source of income or retirement benefits once their careers have ended.\",\n    \"Many MMA fighters have long-term injuries from their time in the ring.\",\n    \"The MMA Pension Fund will be financed through ticket sales, sports paraphernalia, and souvenirs.\",\n    \"For every ticket sold, $1 will go towards the MMA Fighters Pension Fund.\",\n    \"MMA fighters would become vested between 12-14 fights, which is around 39 scheduled rounds at Commission regulated MMA events.\",\n    \"California is the national leader in MMA, hosting the most fights and most fighters of any state.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f6a1abf9070f1fa184432de279e9dc7a81d0e155"
+}

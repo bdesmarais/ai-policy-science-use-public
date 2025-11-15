@@ -1,0 +1,13 @@
+{
+  "press_release": "icymi-newsoms-podcast-playbook-looks-like-a-post-office-payday.txt",
+  "party": "Republican",
+  "title": "Newsom’s distracted by his personal podcast brand, and the ethics behind it are getting harder to ignore",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Gavin Newsom launched a podcast called 'Politickin' in July 2024.\",\n    \"Newsom acquired at least 10% of BBF Productions, the company behind the podcast.\",\n    \"BBF Productions is managed by a trust controlled by Shyla Hendrickson, who manages Newsom's blind trust.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Gavin Newsom launched a podcast called 'Politickin' in July 2024.\",\n    \"Newsom acquired at least 10% of BBF Productions, the company behind the podcast.\",\n    \"BBF Productions is managed by a trust controlled by Shyla Hendrickson, who manages Newsom's blind trust.\",\n    \"Doug Hendrickson denied involvement in the founding documents of BBF Productions, despite signing them.\",\n    \"Newsom claims that BBF Productions is valued under $2,000 and earned him less than $500.\",\n    \"BBF Productions is funneling money into Newsom's blind trust.\",\n    \"There is a possibility that Newsom could financially benefit from BBF Productions after leaving office.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a6d1d9d39ae698b4d6ffa9072b41977f6b0a03f"
+}

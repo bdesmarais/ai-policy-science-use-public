@@ -1,0 +1,13 @@
+{
+  "press_release": "20210422-earth-day-assemblymembers-al-muratsuchi-and-cristina-garcia-announce.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California aims to achieve carbon neutrality in statewide greenhouse gas emissions by or before 2045 and maintain net negative emissions thereafter.\",\n    \"The California Air Resources Board is required to update the scoping plan to recommend measures to achieve carbon n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California aims to achieve carbon neutrality in statewide greenhouse gas emissions by or before 2045 and maintain net negative emissions thereafter.\",\n    \"The California Air Resources Board is required to update the scoping plan to recommend measures to achieve carbon neutrality by or before 2045.\",\n    \"A minimum of 90 percent of gross greenhouse gas emission reductions must be achieved only through emission reductions as per the California Climate Crisis Act.\",\n    \"The California Climate Crisis Act prioritizes the use of nature-based solutions to achieve carbon neutrality.\",\n    \"Innovative carbon capture and storage solutions will be established as a criterion for achieving California's climate policy goals.\",\n    \"Limiting global warming to 1.5 degrees Celsius would reduce the probability, intensity, and frequency of climate-related events.\",\n    \"To limit warming to 1.5 degrees Celsius, net zero carbon dioxide emissions must be reached around 2050, along with reductions in other greenhouse gases such as methane.\",\n    \"California must aggressively reduce greenhouse gas emissions and urgently deploy negative emissions technologies to remove existing greenhouse gases from the atmosphere.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d87c4656a6ad5521bad1d2fd2ff7565c6b4d93f1"
+}

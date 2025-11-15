@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-wallis-introduces-bill-to-protect-consumer-choice-and-energy-affordability.txt",
+  "party": "Republican",
+  "title": "Sacramento, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California families are paying nearly double the national average for electricity.\",\n    \"Propane is a clean, reliable, and cost-effective energy solution that reduces emissions.\",\n    \"Propane has no methane emissions.\",\n    \"Propane is highly energy efficient.\",\n    \"P",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California families are paying nearly double the national average for electricity.\",\n    \"Propane is a clean, reliable, and cost-effective energy solution that reduces emissions.\",\n    \"Propane has no methane emissions.\",\n    \"Propane is highly energy efficient.\",\n    \"Propane can be blended with renewable propane to further reduce carbon intensity.\",\n    \"Propane is a vital energy source for cold-climate, rural, and low-income communities.\",\n    \"Propane is an incredibly efficient energy source that provides an affordable energy solution for consumers.\",\n    \"The carbon intensity of propane in California is on par with the electric grid.\",\n    \"Propane tankless water heaters enhance efficiency by providing on-demand hot water while reducing energy waste and lowering emissions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "293f53b0f8ac1ca40454ebc31d520ba69b790994"
+}

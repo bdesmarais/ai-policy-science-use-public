@@ -1,0 +1,13 @@
+{
+  "press_release": "20220616-assemblymember-mia-bonta-introduces-bill-protecting-bay-area-floating-home.txt",
+  "party": "Democratic",
+  "title": "Legislation would include Bay Area’s 477 floating homes within the state’s existing rent protection cap",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:42:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Bay Area's floating home communities provide housing for a diverse population, including seniors and those living on low and fixed incomes.\",\n    \"Floating home owners currently have no state-level protections from excessive rent increases.\",\n    \"Residents on low or",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Bay Area's floating home communities provide housing for a diverse population, including seniors and those living on low and fixed incomes.\",\n    \"Floating home owners currently have no state-level protections from excessive rent increases.\",\n    \"Residents on low or fixed incomes will be displaced if protections against rent increases are not enacted.\",\n    \"AB 252 will cap the amount a marina owner can increase berth rent per year to either 3% plus cost of living adjustment (COLA) or 5%, whichever is lower.\",\n    \"Floating home owners are especially vulnerable to rising rents due to the lack of alternative housing options.\",\n    \"Berth rent directly affects how much a floating home can sell for and whether it sells at all.\",\n    \"Currently, there are no limits on rent increases when a floating home transfers to a new owner.\",\n    \"In one Bay Area marina, the doubling of berth rents caused a home to fall out of escrow and two others to receive no offers due to high rents.\",\n    \"Approximately 60 local jurisdictions in California provide vacancy control to mobile homes, limiting space rent increases when a home sells.\",\n    \"AB 252 would correct the power imbalance between floating homeowners and marina owners.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b2b5ccebbc4cf0d33819ad225250f0283c1efefc"
+}

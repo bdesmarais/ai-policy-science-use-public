@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-statement-on-phillips-66-refinery-closure.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Phillips 66 Los Angeles refinery accounts for more than 8% of California’s refining capacity.\",\n    \"The closure of the Phillips 66 refinery will result in hundreds of workers losing their jobs.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Phillips 66 Los Angeles refinery accounts for more than 8% of California’s refining capacity.\",\n    \"The closure of the Phillips 66 refinery will result in hundreds of workers losing their jobs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "93645edbf2705c98d3f1ddb48545fc382acca2f3"
+}

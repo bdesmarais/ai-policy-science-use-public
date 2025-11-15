@@ -1,0 +1,13 @@
+{
+  "press_release": "eclaracion-del-asambleista-jeff-gonzalez-sobre-ab-1145-el-proyecto-de-ley-de-tristin-sale-del-comite-de-transporte-con-fuerte-apoyo.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Hoy, el Asambleísta Jeff Gonzalez (R-Indio) anunció que el Proyecto de Ley 1145 , también conocido como el Proyecto de Tristin, ha salido del Comité de Transporte de l",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"El Proyecto de Ley 1145 busca proporcionar supervisión de la seguridad en carreteras montañosas peligrosas como la autopista 74 de California.\",\n    \"La autopista 74 no fue diseñada para el tránsito diario de camiones pesados que soporta actualmente.\",\n    \"El Proyecto d",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"El Proyecto de Ley 1145 busca proporcionar supervisión de la seguridad en carreteras montañosas peligrosas como la autopista 74 de California.\",\n    \"La autopista 74 no fue diseñada para el tránsito diario de camiones pesados que soporta actualmente.\",\n    \"El Proyecto de Ley de Tristin está enfocado en salvar vidas relacionadas con la seguridad vial.\",\n    \"La legislación AB 1145 ordena a Caltrans realizar un estudio integral de seguridad de la autopista 74 y carreteras similares a través del estado.\",\n    \"La legislación aspira a resolver problemas relacionados con el tráfico de semi-camiones y las condiciones peligrosas de las carreteras.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "52f006103ea99b3bded07246e89c0ef32f58c060"
+}

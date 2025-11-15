@@ -1,0 +1,13 @@
+{
+  "press_release": "20250424-ab-741-protects-foster-youth-casa-programs-now-passed-state-assembly.txt",
+  "party": "Democratic",
+  "title": "What You Need to Know:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"CASA programs currently rely on scheduled re-fingerprinting every four years to screen their volunteers and staff for any instances of child abuse.\",\n    \"This creates a gap during which individuals listed on the Child Abuse Central Index may continue working with childr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"CASA programs currently rely on scheduled re-fingerprinting every four years to screen their volunteers and staff for any instances of child abuse.\",\n    \"This creates a gap during which individuals listed on the Child Abuse Central Index may continue working with children undetected.\",\n    \"AB 741 requires the Department of Justice to immediately notify the California Court Appointed Special Advocates (CASA) Association if any of their advocates appears on the Child Abuse Central Index (CACI) after those individuals have completed their background checks.\",\n    \"This bill ensures that any potential advocates with any recent incidents of child abuse are immediately identified.\",\n    \"Ongoing monitoring will keep CASA programs and all the children they serve safer than ever.\",\n    \"AB 741 ensures that CASA programs are not just trusting the intentions of volunteers but are actively verifying them over time.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ddc0e1436ef20a54416e4e84c7370a14b013de0b"
+}

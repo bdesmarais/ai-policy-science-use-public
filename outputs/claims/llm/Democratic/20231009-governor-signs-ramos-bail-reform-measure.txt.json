@@ -1,0 +1,13 @@
+{
+  "press_release": "20231009-governor-signs-ramos-bail-reform-measure.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—A bill prohibiting a person convicted of an offense punishable by life without possibility of parole from being released on bail pending imposition or execution of a sen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:28:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 791 aims to improve public safety by prohibiting bail for individuals convicted of offenses punishable by life without possibility of parole.\",\n    \"The suspect in Deputy Cordero's fatal shooting had an extensive criminal history.\",\n    \"The suspect was out on bail wh",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 791 aims to improve public safety by prohibiting bail for individuals convicted of offenses punishable by life without possibility of parole.\",\n    \"The suspect in Deputy Cordero's fatal shooting had an extensive criminal history.\",\n    \"The suspect was out on bail while awaiting a 25 years to life sentence for stabbing a California Highway Patrol canine.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1444aed18706457714d4c521c8a37dde6bdd5daa"
+}

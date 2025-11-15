@@ -1,0 +1,13 @@
+{
+  "press_release": "20230921-assemblymember-diane-papan-presents-2-million-water-reliability-safety-and.txt",
+  "party": "Democratic",
+  "title": "EAST PALO ALTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:09:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The old and corroded water main serving East Palo Alto's civic facilities is beyond its useful life.\",\n    \"The current water main delivers frequently discolored water that is inadequate for residents, visitors, and employees.\",\n    \"Seventy percent of East Palo Alto's w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The old and corroded water main serving East Palo Alto's civic facilities is beyond its useful life.\",\n    \"The current water main delivers frequently discolored water that is inadequate for residents, visitors, and employees.\",\n    \"Seventy percent of East Palo Alto's water distribution pipelines are below minimum standards.\",\n    \"Some of the water distribution pipelines in East Palo Alto are over 100 years old.\",\n    \"The City has approximately $90 million in costs to upgrade its aging and deteriorating water distribution system to meet environmental requirements.\",\n    \"Replacing the water main will improve the reliability of the local water system.\",\n    \"The new water main will provide a reliable water supply and improved water pressure for future development projects citywide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b116b8cd49776b63f39d0e24093636eeb781b112"
+}

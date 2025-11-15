@@ -1,0 +1,13 @@
+{
+  "press_release": "20250306-connolly-introduces-bill-improve-safety-and-rehabilitation-prisons.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael), in partnership with San Francisco District Attorney Brooke Jenkins, announced Assembly Bill (AB) 1140, the Sin",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:29:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Single-occupancy cells provide better safety and security for both prisoners and correctional staff.\",\n    \"Single-occupancy cells can allow prisoners to better engage in rehabilitative programs.\",\n    \"Innovative solutions such as single-occupancy cells will help improv",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Single-occupancy cells provide better safety and security for both prisoners and correctional staff.\",\n    \"Single-occupancy cells can allow prisoners to better engage in rehabilitative programs.\",\n    \"Innovative solutions such as single-occupancy cells will help improve public safety inside and outside of correctional facilities.\",\n    \"The Single Occupancy Pilot Program will work to reduce recidivism by making CDCR facilities safer and more effective in providing rehabilitation opportunities to incarcerated people.\",\n    \"There have been dialogues with incarcerated men as well as guards and staff at San Quentin to understand what kinds of prison reforms will have meaningful impacts on facility and community safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b539af16679c1b455a34fd68c4cff84bd5f53585"
+}

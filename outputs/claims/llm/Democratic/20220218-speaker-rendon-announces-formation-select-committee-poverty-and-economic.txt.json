@@ -1,0 +1,13 @@
+{
+  "press_release": "20220218-speaker-rendon-announces-formation-select-committee-poverty-and-economic.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Bryan to Chair New Select Committee",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:39:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Select Committee on Poverty and Economic Inclusion will be a forum to address the growing divide in prosperity across California.\",\n    \"The Committee will critically examine the root causes of poverty and contrast them with potential evidence-based, cross-sector, in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Select Committee on Poverty and Economic Inclusion will be a forum to address the growing divide in prosperity across California.\",\n    \"The Committee will critically examine the root causes of poverty and contrast them with potential evidence-based, cross-sector, innovative and intersectional policy solutions.\",\n    \"There is a need to take a hard look at the structural inequities that stifle innovation and restrict opportunity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4815cc383907fc15941167dd083e7d54bac691e8"
+}

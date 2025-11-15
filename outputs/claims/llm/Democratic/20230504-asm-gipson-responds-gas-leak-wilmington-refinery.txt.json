@@ -1,0 +1,13 @@
+{
+  "press_release": "20230504-asm-gipson-responds-gas-leak-wilmington-refinery.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif. (May 4, 2023) – In response to a gas leak at a Wilmington refinery, Assembly Democratic Caucus Chair",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e6fb1cd5a8f76ed24d3db347cdac41d2eb3b569a"
+}

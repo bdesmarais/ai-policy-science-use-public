@@ -1,0 +1,13 @@
+{
+  "press_release": "20240319-assemblywoman-petrie-norris-joins-child-marriage-survivors-discuss-end.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"In 2021, an estimated 8,700 children were married in California.\",\n    \"California is one of only four states in the nation without a minimum age for marriage.\",\n    \"States such as New York, Michigan, Pennsylvania, and Washington have enacted laws to safeguard children ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"In 2021, an estimated 8,700 children were married in California.\",\n    \"California is one of only four states in the nation without a minimum age for marriage.\",\n    \"States such as New York, Michigan, Pennsylvania, and Washington have enacted laws to safeguard children from child marriage.\",\n    \"Child marriage strips children of their autonomy, sexual and reproductive freedom, and forces them into adulthood prematurely.\",\n    \"Child marriage often results in a life filled with isolation, limited educational opportunities, and exposure to abuse.\",\n    \"AB 2924 seeks to provide legal protection to children under 18 in California by prohibiting marriage without exceptions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9707f17f9c73d3e26e746451cee9607d54d6ba39"
+}

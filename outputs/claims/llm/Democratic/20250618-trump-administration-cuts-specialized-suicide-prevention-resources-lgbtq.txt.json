@@ -1,0 +1,13 @@
+{
+  "press_release": "20250618-trump-administration-cuts-specialized-suicide-prevention-resources-lgbtq.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The national 988 LGBTQ+ suicide prevention funding has been officially ordered to end.\",\n    \"The 988 hotline offers specialized services for LGBTQ+ callers in need.\",\n    \"AB 727 would require student ID cards for grades 7–12 and higher education institutions to include",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The national 988 LGBTQ+ suicide prevention funding has been officially ordered to end.\",\n    \"The 988 hotline offers specialized services for LGBTQ+ callers in need.\",\n    \"AB 727 would require student ID cards for grades 7–12 and higher education institutions to include the Trevor Project Crisis Support Line.\",\n    \"Governor Newsom's effort to allocate $17.5 million supports the 988 State Suicide and Behavioral Health Crisis Services Fund.\",\n    \"The $17.5 million investment will help ensure crisis intervention and stabilization services are available to callers.\",\n    \"The funding will be used to ensure calls are directed to trained, culturally competent counselors.\",\n    \"Schools were the third most common location for hate crimes reported against LGBTQ+ youth according to the FBI.\",\n    \"The number of hate crimes against LGBTQ+ youth in schools more than doubled between 2018 and 2022.\",\n    \"The reporting of hate crimes is likely underreported due to the voluntary nature of the reporting process.\",\n    \"Studies have shown the need for increased specialized suicide prevention services for LGBTQ+ youth.\",\n    \"20% of surveyed students who identified as gay, lesbian, or bisexual reported having attempted suicide, compared to 6% of their heterosexual peers.\",\n    \"Nearly 26% of transgender high school students reported having attempted suicide.\",\n    \"AB 727 represents a step toward creating safer, more affirming school environments in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7eb8e15cb17400070a10652a5db5e24f0da10bd8"
+}

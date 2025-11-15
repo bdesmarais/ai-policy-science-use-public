@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballeros-2023-2024-legislative-package-heads-governors-desk.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Tax Credit Allocation Committee (TCAC) is required to revise the regulations for low-income housing tax credits (LIHTC) to increase the housing goal to 20% for senior housing.\",\n    \"California's Extreme Heat Action Plan of 2022 is codified to ensure regio",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Tax Credit Allocation Committee (TCAC) is required to revise the regulations for low-income housing tax credits (LIHTC) to increase the housing goal to 20% for senior housing.\",\n    \"California's Extreme Heat Action Plan of 2022 is codified to ensure regions experiencing extreme heat have necessary resources.\",\n    \"The CalFile system for low or no income filers is improved to expand access to tax credits like CalEITC and the Young Child Tax Credit.\",\n    \"Virtual visitation is authorized in statutes when a restraining order has been issued due to allegations of domestic violence.\",\n    \"School Districts, County Offices of Education (COEs), and charter schools are required to post the current school year's approved Local Control and Accountability Plans (LCAPs) on the California School Dashboard.\",\n    \"The California Permanent Residency Program allows the Governor to work with the federal government to establish a program for undocumented agricultural workers in California.\",\n    \"The Advanced Air Mobility and Aviation Electrification Advisory Panel is created to assess the feasibility and readiness of existing infrastructure for air mobility.\",\n    \"The legislation allows for expedited judicial review under the California Environmental Quality Act (CEQA) for energy, transportation, water, and semiconductor projects.\",\n    \"The Progressive Design-Build (PDB) procurement method is permitted for counties, cities, and special districts to expedite construction and reduce costs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5fe5dce4f4f81cd2254c20a6bbeba4b8ed60e4aa"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230320-assemblymember-bauer-kahan-introduces-groundbreaking-bill-regulate.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:56:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of Pesticide Regulation currently does not regulate all pesticide uses.\",\n    \"A large volume of pesticide use in California may be completely unknown due to the lack of regulation on pesticides used to treat seeds.\",\n    \"Pesticides on seeds ha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of Pesticide Regulation currently does not regulate all pesticide uses.\",\n    \"A large volume of pesticide use in California may be completely unknown due to the lack of regulation on pesticides used to treat seeds.\",\n    \"Pesticides on seeds have serious implications for pollinator health, water quality, and human exposure to unregulated toxics.\",\n    \"Between 2011 and 2021, numerous pesticide products not approved for use in California appeared on seeds.\",\n    \"Systemic pesticides, when applied directly to a seed, can contaminate soil and water supplies, with 95% or more of the active ingredients remaining in the soil.\",\n    \"Seed treatments with harmful pesticides are often applied unnecessarily, and they do not necessarily address the needs of farmers.\",\n    \"Studies suggest that for a majority of cases, the cost of seed treatment is not recouped by the farmer through yield.\",\n    \"Seed coatings are the main use of pesticides in California, yet they are unregulated by the state.\",\n    \"Monitoring and regulation of pesticide use on seeds is necessary to protect pollinators and keep water sources clean.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "64012290cbf39b69603ff660f1c9ac1e75b052e1"
+}

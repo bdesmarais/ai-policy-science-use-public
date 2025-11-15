@@ -1,0 +1,13 @@
+{
+  "press_release": "perils-created-medical-misinformation-must-be-challenged.txt",
+  "party": "Democratic",
+  "title": "Senator Anna M. Caballero (D-12) Comments on Recent Medical Misinformation and Invites Ceres’ Jeff Benziger to Work a Farm",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Medical misinformation must be immediately challenged to ensure that conflicting messages do not encourage public behavior that increases risks for everyone.\",\n    \"The federal Center for Disease Control and the state’s Department of Public Health provide guidance based ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Medical misinformation must be immediately challenged to ensure that conflicting messages do not encourage public behavior that increases risks for everyone.\",\n    \"The federal Center for Disease Control and the state’s Department of Public Health provide guidance based on real science and data.\",\n    \"COVID-19 does not infect based on political parties.\",\n    \"Farm workers often do their jobs working shoulder to shoulder.\",\n    \"Farm workers face crowded living conditions due to high housing costs.\",\n    \"Farm workers ride share to their jobs, putting them in close proximity during commutes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "35bb54b2455100aba7900770688c067f8e950ff3"
+}

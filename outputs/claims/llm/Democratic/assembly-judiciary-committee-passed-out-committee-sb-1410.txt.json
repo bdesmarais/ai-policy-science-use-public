@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-judiciary-committee-passed-out-committee-sb-1410.txt",
+  "party": "Democratic",
+  "title": "Last week, the Assembly Judiciary Committee passed out of committee SB 1410, the Senate’s priority legislation to protect renters from evictions and provide financial relief to lan",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ab922b68d6fe105851d30c1fca2146180e85a401"
+}

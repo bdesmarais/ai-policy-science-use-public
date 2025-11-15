@@ -1,0 +1,13 @@
+{
+  "press_release": "innovation-center-senator-corteses-2022-plans.txt",
+  "party": "Democratic",
+  "title": "As the 2022 Legislative Calendar begins today for the California State Legislature, Senator Dave Cortese (D-Silicon Valley), is excited to get back to work and build on the innovat",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Cortese plans to introduce a bill to reduce electricity prices for low-income families by establishing a program that will expand rooftop solar to multifamily housing units.\",\n    \"Senator Cortese intends to introduce legislation in 2022 to enhance recreational o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Cortese plans to introduce a bill to reduce electricity prices for low-income families by establishing a program that will expand rooftop solar to multifamily housing units.\",\n    \"Senator Cortese intends to introduce legislation in 2022 to enhance recreational opportunities, expand access to recreational facilities, and protect natural resources.\",\n    \"Senator Cortese will be introducing legislation on climate change education that would integrate climate literacy into California’s education system and ensure all students learn about climate change.\",\n    \"Senator Cortese will focus on providing unconditional and direct cash assistance through universal basic income (UBI) to vulnerable students in the California State University system.\",\n    \"SB 435 will tackle online sexual exploitation, giving victims more civil causes of action against the distribution of naked or sexual photographs and video.\",\n    \"Senator Cortese plans to introduce legislation that sets up a first-in-the-nation regulatory process to improve safety on the set of theatrical productions.\",\n    \"Senator Cortese intends to introduce legislation to expand and improve California’s 'red flag' laws to prevent gun violence and mass shootings.\",\n    \"Wildfire preparedness technologies will be funded to provide state-of-the-art communication during wildfires or natural disasters, including emergency mobile cell phone coverage.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2ac125d14dfaacfab675ec8fe9850bad796d4aba"
+}

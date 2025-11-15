@@ -1,0 +1,13 @@
+{
+  "press_release": "20231010-governor-signs-ramos-bill-expedite-csu-accountability-requirements-meet.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—California State University campuses will be required to follow State Auditor recommendations for repatriation of Native American human remains and items wrongfully in t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California State University campuses will be required to follow State Auditor recommendations for repatriation of Native American human remains and items.\",\n    \"The CSU system has almost 700,000 human remains and cultural objects in its possession despite a 1995 federal",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California State University campuses will be required to follow State Auditor recommendations for repatriation of Native American human remains and items.\",\n    \"The CSU system has almost 700,000 human remains and cultural objects in its possession despite a 1995 federal and state deadline to return them.\",\n    \"Only about six percent of the campus collections have been returned as required by the 1990 federal Native American Graves Protection and Repatriation Act and its 2001 California counterpart, CalNAGPRA.\",\n    \"AB 389 will ensure that CSU takes the responsibility of repatriating remains seriously after decades of non-compliance.\",\n    \"The ancestral remains and cultural items held in the CSU inventories are critical to preserving Native American cultures and histories.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0e6ac206275ddb4d7ddb91153846fd3f41f1cab6"
+}

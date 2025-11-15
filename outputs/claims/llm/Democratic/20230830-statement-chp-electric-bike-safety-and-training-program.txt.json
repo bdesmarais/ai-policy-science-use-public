@@ -1,0 +1,13 @@
+{
+  "press_release": "20230830-statement-chp-electric-bike-safety-and-training-program.txt",
+  "party": "Democratic",
+  "title": "Contact: Rajeena Bisla | 916-319-2389 |",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:06:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Highway Patrol has established an electric bike safety and training program.\",\n    \"The electric bike safety and training program is in compliance with Assembly Bill 1946.\",\n    \"Assembly Bill 1946 was signed into law by Governor Gavin Newsom and took effe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Highway Patrol has established an electric bike safety and training program.\",\n    \"The electric bike safety and training program is in compliance with Assembly Bill 1946.\",\n    \"Assembly Bill 1946 was signed into law by Governor Gavin Newsom and took effect on January 1, 2023.\",\n    \"The e-bike training program includes safety, emergency maneuver skills, rules of the road, and other laws related to e-bikes.\",\n    \"The promotion and enforcement of safe pedestrian, bicyclist, and motorist behavior is a priority for the California Highway Patrol.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "aba3a06c5db71a7c6f374d3f1809e0ee8fabd193"
+}

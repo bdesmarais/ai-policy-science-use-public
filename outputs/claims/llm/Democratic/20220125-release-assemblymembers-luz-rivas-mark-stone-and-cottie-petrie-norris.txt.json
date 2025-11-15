@@ -1,0 +1,13 @@
+{
+  "press_release": "20220125-release-assemblymembers-luz-rivas-mark-stone-and-cottie-petrie-norris.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Today, Assemblywoman Luz Rivas (D-San Fernando Valley), Chair of the Assembly Committee on Natural Resources, introduced Assembly Bill (AB) 1690 at a virtual press con",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Tobacco filters used in cigarettes and cigars have been declared useless in reducing harm to the average smoker.\",\n    \"Plastic fibers found in tobacco filters break down into microplastics and leach toxic chemicals into ecosystems.\",\n    \"Cigarette filters are the ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Tobacco filters used in cigarettes and cigars have been declared useless in reducing harm to the average smoker.\",\n    \"Plastic fibers found in tobacco filters break down into microplastics and leach toxic chemicals into ecosystems.\",\n    \"Cigarette filters are the most pervasive form of litter worldwide, with approximately 4.5 trillion being littered annually.\",\n    \"Improperly disposed cigarette filters and single-use vapes can seep toxic chemicals into the environment, pollute water, and harm wildlife.\",\n    \"The United Nations World Health Organization noted that one tobacco filter could kill 50% of saltwater and freshwater fish exposed to its toxins within 96 hours.\",\n    \"Local governments and state agencies incur enormous annual costs to clean up littered cigarette filters and single-use vapes, with the City of Los Angeles facing $19 million a year in clean-up costs.\",\n    \"Cigarette litter forces public agencies in California to spend over $41 million annually on sanitation services.\",\n    \"Single-use plastic products, such as cigarette filters and electronic vapes, cause significant externalized costs of litter and water pollution.\",\n    \"Cigarette butts made up close to 30% of the trash collected on Coastal Cleanup Day in California in 2020.\",\n    \"Cigarette butts contain plastic filters that never break down and leach toxic chemicals and microplastics into the environment indefinitely.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c41844a82c31929a3c46577d15b678ae3db9ca61"
+}

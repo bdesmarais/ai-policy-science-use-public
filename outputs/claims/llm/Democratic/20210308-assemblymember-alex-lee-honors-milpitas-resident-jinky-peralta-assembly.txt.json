@@ -1,0 +1,13 @@
+{
+  "press_release": "20210308-assemblymember-alex-lee-honors-milpitas-resident-jinky-peralta-assembly.txt",
+  "party": "Democratic",
+  "title": "San Jose, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5d54b7d82d3b6d153ccfd386bc78dfc07fa4dbc8"
+}

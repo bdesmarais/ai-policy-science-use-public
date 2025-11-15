@@ -1,0 +1,13 @@
+{
+  "press_release": "legislature-passes-senator-corteses-sb-553-preventing-workplace-violence.txt",
+  "party": "Democratic",
+  "title": "The California Legislature passed Senator Cortese’s Senate Bill (SB) 553 today, a bill to protect workers from workplace violence. SB 553 requires employers to develop their own wo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assaults in retail establishments rose during the pandemic.\",\n    \"Assaults in grocery stores grew by 63 percent from 2018 to 2020.\",\n    \"Assaults in convenience stores grew by 75 percent from 2018 to 2020.\",\n    \"Senator Cortese helped establish a 'Worker Wellness Cent",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assaults in retail establishments rose during the pandemic.\",\n    \"Assaults in grocery stores grew by 63 percent from 2018 to 2020.\",\n    \"Assaults in convenience stores grew by 75 percent from 2018 to 2020.\",\n    \"Senator Cortese helped establish a 'Worker Wellness Center' to support grieving individuals and families after the VTA massacre.\",\n    \"SB 553 requires employers to develop their own workplace violence prevention plans.\",\n    \"SB 553 requires all employers to maintain a Violent Incident Log of all violent incidents against employees.\",\n    \"SB 553 requires employers to post-incident investigations of violent incidents.\",\n    \"SB 553 allows an employee representative to be a petitioner for a temporary workplace violence restraining order.\",\n    \"Employers must annually review the workplace violence prevention plan.\",\n    \"Under SB 553, employers must explain to employees how to report violent incidents without fear of retaliation.\",\n    \"SB 553 lays out procedures for responding to violent emergencies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4edf9ea8e047de8df5014652e242fda8c30b25af"
+}

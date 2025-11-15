@@ -1,0 +1,13 @@
+{
+  "press_release": "20160914-assemblymember-jacqui-irwin-applauds-passage-bill-protect-california-cyber.txt",
+  "party": "Democratic",
+  "title": "“It’s a critical step toward building defenses that ensure our safety,”  says Irwin.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:53:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed legislation aimed at protecting public and private digital systems from cyber-attacks.\",\n    \"The bill requires the State Office of Emergency Services to develop a plan to enhance cyber defenses of public networks.\",\n    \"The bill ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed legislation aimed at protecting public and private digital systems from cyber-attacks.\",\n    \"The bill requires the State Office of Emergency Services to develop a plan to enhance cyber defenses of public networks.\",\n    \"The bill mandates collaboration between the State Office of Emergency Services and private entities to improve cybersecurity.\",\n    \"California's infrastructure, including refineries, the power grid, and public water systems, relies on digital controls.\",\n    \"The reliance on computers in critical infrastructure has increased both efficiency and vulnerability to cyber-attacks.\",\n    \"In the first half of 2015, the Department of Homeland Security responded to 108 cyber incidents involving critical infrastructure in the U.S.\",\n    \"Many cyber incidents aimed at critical infrastructure were focused on facilities in California.\",\n    \"Governor Jerry Brown identified cyber-attacks against the state's infrastructure as a major security risk.\",\n    \"Most critical infrastructure systems in California are owned and operated by private companies.\",\n    \"Public sector and private sector collaboration in building cyber defenses currently relies on voluntary information-sharing programs.\",\n    \"The bill aims to strengthen the partnership between public and private sectors in cybersecurity by requiring recommendations for private companies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4c301b45decd9ce4fdcd5006134bb21a1923f7f5"
+}

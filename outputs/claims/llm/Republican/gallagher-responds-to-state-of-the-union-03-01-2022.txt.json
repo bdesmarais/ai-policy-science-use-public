@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-responds-to-state-of-the-union-03-01-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assembly Republican Leader James Gallagher (Yuba City) issued the following statement in response to President Joe Biden’s State of the Union address:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1c5637875d77e3d17ba864155d80bade44a5e02c"
+}

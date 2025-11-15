@@ -1,0 +1,13 @@
+{
+  "press_release": "20191011-governor-newsom-signs-bill-stem-tide-untraceable-firearms.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- A measure authored by Assemblymember Mike A. Gipson (D-Carson), Assembly Bill 879 responds to the state and nationwide proliferation in untraceable firearms, ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 879 requires handgun frames and unfinished receivers to be sold by licensed vendors after a state background check.\",\n    \"Ghost guns are made from parts-kits that can be legally assembled into a functional weapon without undergoing a background check.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 879 requires handgun frames and unfinished receivers to be sold by licensed vendors after a state background check.\",\n    \"Ghost guns are made from parts-kits that can be legally assembled into a functional weapon without undergoing a background check.\",\n    \"Guns made at home without serialized parts are referred to as ghost guns because they are untraceable to law enforcement.\",\n    \"Individuals on the prohibited persons list can purchase necessary parts online to assemble an automatic weapon at home.\",\n    \"Assembly Bill 879 seeks to implement a requirement for background checks for unfinished firearm frames and receivers.\",\n    \"The bill will close a dangerous loophole in California's firearm regulatory framework.\",\n    \"The bill eliminates access to firearms for individuals on the prohibited persons list by ensuring precursor parts are sold only after a background check.\",\n    \"The bill will allow the Attorney General to seek injunctions to stop the manufacture, importation, sale, and offering of assault weapons and .50 BMG rifles.\",\n    \"The California Department of Justice will retain a digital database of precursor part purchasers as part of the bill's provisions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2e1cdd48885d8954ff5f1aab02ea5bd136c989e5"
+}

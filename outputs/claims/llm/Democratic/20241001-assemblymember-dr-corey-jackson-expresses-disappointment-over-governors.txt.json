@@ -1,0 +1,13 @@
+{
+  "press_release": "20241001-assemblymember-dr-corey-jackson-expresses-disappointment-over-governors.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 637 was designed to create flexibility for companies and fleet owners as they transition toward California's emissions reduction targets.\",\n    \"The veto of Assembly Bill 637 sends a concerning message about California's commitment to achieving its climate ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 637 was designed to create flexibility for companies and fleet owners as they transition toward California's emissions reduction targets.\",\n    \"The veto of Assembly Bill 637 sends a concerning message about California's commitment to achieving its climate goals.\",\n    \"A one-size-fits-all approach to climate policy is not realistic for fleet operators.\",\n    \"Assembly Bill 637 would have provided a tailored solution that considered the unique challenges faced by different fleet operators.\",\n    \"Climate action requires innovation and flexibility, not rigid mandates.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "96bbc9d637f3a25ef3f86dfaefdde98fd69739a0"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-grove-earns-perfect-score-supporting-businesses.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove ( R-Bakersfield ) earned a perfect score from the California Chamber of Commerce (CalChamber) in its 2020 Vote Record on legisla",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "691a0672ff7af7f16965cec24e31be76d7902d68"
+}

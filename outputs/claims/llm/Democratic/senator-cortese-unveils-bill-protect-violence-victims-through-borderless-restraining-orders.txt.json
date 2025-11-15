@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-unveils-bill-protect-violence-victims-through-borderless-restraining-orders.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese today unveiled the Survivor's Protection Act, a groundbreaking bill that will help ensure the safety of survivors of domestic and sexual violence, regardless of whe",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 554 clarifies that an individual has the right to petition for a restraining order in California if their perpetrator lives in California or the incident occurred within the state, regardless of the individual's residency.\",\n    \"California currently has a la",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 554 clarifies that an individual has the right to petition for a restraining order in California if their perpetrator lives in California or the incident occurred within the state, regardless of the individual's residency.\",\n    \"California currently has a lack of clear guidelines that leads courts to dismiss restraining order petitions from survivors who have relocated for safety.\",\n    \"The uncertainty in California courts regarding restraining order petitions may lead survivors to forgo crucial healing resources, such as domestic violence and sexual assault clinics.\",\n    \"Senate Bill 554 aims to allow restraining order petitions to be filed in California if the perpetrator lives in the state or if the offense occurred in the state, irrespective of the survivor's location.\",\n    \"In 2023, the group Restraining Orders Without Borders sponsored a bill in Hawaii that allowed survivors to petition out-of-state courts for restraining orders, which was signed into law with unanimous support.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a08948934d3f575c85c1c31c66df616669488aa3"
+}

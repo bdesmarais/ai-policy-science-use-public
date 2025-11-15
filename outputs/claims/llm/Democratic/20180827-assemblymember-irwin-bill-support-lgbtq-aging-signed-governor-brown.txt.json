@@ -1,0 +1,13 @@
+{
+  "press_release": "20180827-assemblymember-irwin-bill-support-lgbtq-aging-signed-governor-brown.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The new law adds sexual orientation, gender identity, and gender expression to the definition of elderly communities in California.\",\n    \"The estimated number of adults over the age of 60 in California will be roughly 10.9 million by 2030.\",\n    \"Approximately 5-10% of ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The new law adds sexual orientation, gender identity, and gender expression to the definition of elderly communities in California.\",\n    \"The estimated number of adults over the age of 60 in California will be roughly 10.9 million by 2030.\",\n    \"Approximately 5-10% of the U.S. population identifies as LGBTQ.\",\n    \"There are currently 380,000-760,000 older LGBTQ individuals in California, with that number expected to double by 2030.\",\n    \"LGBTQ individuals may face employment discrimination that contributes to their risk of economic insecurity and lack of adequate health care.\",\n    \"LGBT elders experience high rates of social isolation and poverty due to thin support networks.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ca16920f1ee34828e37bb2321cbeff54693ac150"
+}

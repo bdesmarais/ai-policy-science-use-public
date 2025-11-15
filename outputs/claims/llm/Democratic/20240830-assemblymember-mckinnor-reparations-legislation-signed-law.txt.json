@@ -1,0 +1,13 @@
+{
+  "press_release": "20240830-assemblymember-mckinnor-reparations-legislation-signed-law.txt",
+  "party": "Democratic",
+  "title": "California's historic efforts to repair harms inflicted upon the descendants of formerly enslaved people moved forward with the signing of AB 1929 by Assemblymember Tina McKinnor (",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1929 aims to rectify racial disparities within career technical education (CTE) programs.\",\n    \"There is currently an underrepresentation of descendants of formerly enslaved people in science, technology, engineering, and mathematics (STEM) and related CTE programs.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1929 aims to rectify racial disparities within career technical education (CTE) programs.\",\n    \"There is currently an underrepresentation of descendants of formerly enslaved people in science, technology, engineering, and mathematics (STEM) and related CTE programs.\",\n    \"Existing law does not specifically focus on addressing the underrepresentation of descendants of formerly enslaved people in CTE fields.\",\n    \"The underrepresentation of descendants of formerly enslaved people in STEM fields contributes to systemic racial disparities.\",\n    \"California has implemented various programs and grants to support and enhance CTE, but they lack a specific focus on descendants of enslaved people.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "015e5c5949c5bcf3b691c2657941a45d16cc05e5"
+}

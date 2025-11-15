@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-welcomes-sen-alvarado-gil-to-legislative-republicans.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republican Leader James Gallagher (Yuba City) celebrated Sen. Marie Alvarado-Gil’s announcement that she has joined the Republican Party and will caucu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70ba39d67bd3cc70bc4a29dd1468f0334a7a4cc8"
+}

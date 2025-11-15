@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-maria-elena-durazo-applauds-passage-sjr-9-federal-court-strikes-down-trumps-illegal.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Senator María Elena Durazo (D–Los Angeles) issued the following statement after the California State Senate passed Senate Joint Resolution 9 (SJR 9) in July with a 29-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The passage of SJR 9 coincides with a federal court ruling that declared the Trump administration's deployment of National Guard and Marines in Los Angeles illegal under the Posse Comitatus Act.\",\n    \"The ruling validates the assertion that the militarization of immigra",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The passage of SJR 9 coincides with a federal court ruling that declared the Trump administration's deployment of National Guard and Marines in Los Angeles illegal under the Posse Comitatus Act.\",\n    \"The ruling validates the assertion that the militarization of immigration enforcement is not only morally wrong but legally unjustifiable.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "67032a2b6af5bdd2133008f05ca1380821ae543a"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-legislative-democrats-turn-california-budget-surpluses-deficit.txt",
+  "party": "Republican",
+  "title": "The nonpartisan Legislative Analyst’s Office (LAO ) announced this morning that California has a projected $58 billion revenue shortfall through the next fiscal year, a sharp but e",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c0b43fe3ee4ff4a26212d822a1218997e631750f"
+}

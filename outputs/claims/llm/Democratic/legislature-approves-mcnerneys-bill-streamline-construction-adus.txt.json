@@ -1,0 +1,13 @@
+{
+  "press_release": "legislature-approves-mcnerneys-bill-streamline-construction-adus.txt",
+  "party": "Democratic",
+  "title": "Both houses of the California Legislature have approved SB 543, legislation by Sen. Jerry McNerney, D-Pleasanton, that will streamline the construction of accessory dwelling units ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California must build over 2.5 million homes by 2031, with at least 1 million of those being affordable for low- and very-low-income residents.\",\n    \"Building more accessory dwelling units (ADUs) and junior accessory dwelling units (JADUs) can help California meet its h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California must build over 2.5 million homes by 2031, with at least 1 million of those being affordable for low- and very-low-income residents.\",\n    \"Building more accessory dwelling units (ADUs) and junior accessory dwelling units (JADUs) can help California meet its housing goals quicker.\",\n    \"ADUs and JADUs are cheaper and faster to construct compared to traditional housing.\",\n    \"California was permitting about 800 ADUs per year a decade ago, but is now permitting about 25,000 new ADUs and JADUs each year.\",\n    \"Nearly one in four new homes in California is an ADU or JADU.\",\n    \"Over 50 local governments in California have incorrectly applied state laws for ADUs and JADUs.\",\n    \"SB 543 clarifies existing state laws governing ADUs and JADUs to eliminate confusion and conflicts at the local level.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a822f10c0ab613ba0ef01f8c7a29934d0d557826"
+}

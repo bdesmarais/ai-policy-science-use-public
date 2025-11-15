@@ -1,0 +1,13 @@
+{
+  "press_release": "20240516-assemblywoman-sorias-key-legislation-advances-assembly-floor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:42:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2661 will help achieve California’s renewable goals by focusing the efforts of the California Public Utilities Commission.\",\n    \"AB 2661 will leverage the existing capabilities of California’s water districts to create new skilled jobs in the Central Valley.\",\n    \"A",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2661 will help achieve California’s renewable goals by focusing the efforts of the California Public Utilities Commission.\",\n    \"AB 2661 will leverage the existing capabilities of California’s water districts to create new skilled jobs in the Central Valley.\",\n    \"AB 2900 directs the California Air Resource Board to establish a Small Agricultural Truck Fleet Assistance Program.\",\n    \"AB 2900 aims to provide technical and funding assistance to help owner-operators or owners of small fleets transition to emission-compliant trucks.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b85f7b18e5d13f139428e0609bff48ef1b6132e5"
+}

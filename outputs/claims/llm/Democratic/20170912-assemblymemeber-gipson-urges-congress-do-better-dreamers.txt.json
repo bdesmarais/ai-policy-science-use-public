@@ -1,0 +1,13 @@
+{
+  "press_release": "20170912-assemblymemeber-gipson-urges-congress-do-better-dreamers.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- In the wake of Trump’s repeal of Deferred Action for Childhood Arrivals, or DACA, Assemblymember Mike A. Gipson (D- Carson) presented House Resolution 66, whi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"DACA assisted nearly 790,000 young unauthorized immigrants in the United States.\",\n    \"There were 222,795 DACA recipients in California alone.\",\n    \"The DACA program provided deportation relief and work permits to undocumented immigrants who came to the United States b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"DACA assisted nearly 790,000 young unauthorized immigrants in the United States.\",\n    \"There were 222,795 DACA recipients in California alone.\",\n    \"The DACA program provided deportation relief and work permits to undocumented immigrants who came to the United States before the age of 16.\",\n    \"California has nearly 10 million immigrants.\",\n    \"A Politico poll indicates that 78% of American voters support giving Dreamers the chance to stay permanently in America.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1ffed70f2d6873991e83019cb51725a8b6a7c892"
+}

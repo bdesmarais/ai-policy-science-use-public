@@ -1,0 +1,13 @@
+{
+  "press_release": "housing-legislation-delays-relief-struggling-homeowners-sets-vague-investment-scheme.txt",
+  "party": "Republican",
+  "title": "Senate Republican Leader Shannon Grove (R-Bakersfield) released the following statement after Governor Gavin Newsom signed Senate Bill 113, a housing trailer bill into law. The new",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 113 addresses the state’s plan to spend $331 million in national mortgage settlement funds.\",\n    \"The $331 million was created as part of the National Settlement Defense Fund in 2012 following the mortgage crisis.\",\n    \"The funds were intended to help distr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 113 addresses the state’s plan to spend $331 million in national mortgage settlement funds.\",\n    \"The $331 million was created as part of the National Settlement Defense Fund in 2012 following the mortgage crisis.\",\n    \"The funds were intended to help distressed homeowners who were victims of predatory lending.\",\n    \"Governor Jerry Brown used the funds to backfill the state budget.\",\n    \"The National Asian American Coalition (NAAC) sued the state of California in 2012 for the return of the funds.\",\n    \"The California Supreme Court directed the state of California to assist homeowners as originally promised.\",\n    \"Governor Newsom’s administration plans to take a year or more to set up a nonprofit trust to invest the funds.\",\n    \"The nonprofit trust would spend only investment profits, not the actual settlement funds.\",\n    \"The decision to delay assistance to homeowners might create a delay of potentially two more years.\",\n    \"If the investments lose money, there is no guarantee that the trust would have any profits to spend on homeowner assistance.\",\n    \"California families already face affordability issues.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "03b110628e37010653f4ee0c5952063613949967"
+}

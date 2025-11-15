@@ -1,0 +1,13 @@
+{
+  "press_release": "20240401-california-introduces-bill-give-workers-right-disconnect-non-emergency.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:38:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"In the last 15 years, modern technology has fundamentally changed the nature of work by making all workers accessible to their employers 24 hours a day 7 days a week.\",\n    \"Right-to-disconnect laws have currently been enacted in thirteen countries including Australia, A",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"In the last 15 years, modern technology has fundamentally changed the nature of work by making all workers accessible to their employers 24 hours a day 7 days a week.\",\n    \"Right-to-disconnect laws have currently been enacted in thirteen countries including Australia, Argentina, Belgium, Columbia, Greece, Mexico, Portugal, Italy, and Spain.\",\n    \"Studies have shown that workers with the right to disconnect are healthier, happier, and more productive.\",\n    \"Employees that are expected to respond during off-hours face 'anticipatory stress' waiting for potential work communications.\",\n    \"Constant connectivity and overwork can lead employees to experience burnout, having detrimental effects on one's health.\",\n    \"Workers in companies without the right to disconnect have reported health issues such as overall fatigue, stress, and anxiety.\",\n    \"Workers in companies with right to disconnect policies have reported higher levels of job satisfaction and fewer health issues.\",\n    \"California would be the first in the nation with a right to disconnect law if AB 2751 is passed.\",\n    \"California businesses will benefit from having more productive and healthier workers as a result of the right to disconnect law.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fc2852ca7ebb94ffc6dd389ab5653d0116d9e903"
+}

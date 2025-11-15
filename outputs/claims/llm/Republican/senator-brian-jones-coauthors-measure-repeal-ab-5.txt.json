@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-coauthors-measure-repeal-ab-5.txt",
+  "party": "Republican",
+  "title": "Sacramento – State Senator Brian jones (R-Santee) today announced he coauthored “The Right to Earn a Living Act,” a measure by Assemblyman Kevin Kiley (R-Rocklin) that would overtu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 5 is forcing thousands of independent contractors to become formal employees of a business.\",\n    \"AB 5 has been a boon to union leaders but horrible for California's economy, workers, and businesses.\",\n    \"AB 5 is particularly harmful to less traditional businesses,",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 5 is forcing thousands of independent contractors to become formal employees of a business.\",\n    \"AB 5 has been a boon to union leaders but horrible for California's economy, workers, and businesses.\",\n    \"AB 5 is particularly harmful to less traditional businesses, particularly for those owned by women and persons of color.\",\n    \"ACA 19 would, if approved by the voters, overturn AB 5 and allow Californians to have maximum flexibility in deciding what type of work environment best serves their needs.\",\n    \"Individuals have the right to pursue a chosen business or profession free from arbitrary or excessive government interference.\",\n    \"State law shall not prevent an employer from agreeing to an employee's request for a flexible work schedule.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6fca219d850625937abd7c8c7bfb2442025904d1"
+}

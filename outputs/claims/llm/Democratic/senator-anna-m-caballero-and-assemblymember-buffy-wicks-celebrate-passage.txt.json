@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-and-assemblymember-buffy-wicks-celebrate-passage.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE Tuesday, August 30, 2022",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 6, also known as the Middle-Class Housing Act, would greatly spur housing production and make homeownership attainable for working families.\",\n    \"AB 2011, the Affordable Housing and High Road Jobs Act, would accelerate production of approximately 2 million units of ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 6, also known as the Middle-Class Housing Act, would greatly spur housing production and make homeownership attainable for working families.\",\n    \"AB 2011, the Affordable Housing and High Road Jobs Act, would accelerate production of approximately 2 million units of affordable and mixed-income housing along transit-friendly commercial corridors.\",\n    \"The bills are anticipated to increase housing production efficiencies across California while strengthening labor standards and growing the workforce.\",\n    \"By concentrating housing close to city centers, near jobs, transit, and services, the bills would contribute to California's efforts to avoid sprawl and fight climate change.\",\n    \"The state will need an estimated 2.5 million new housing units over the next eight years, with the need for more than a million units to be affordable for lower-income households.\",\n    \"The bills are critical to meeting the housing needs in California and will jumpstart the production of millions of safe, affordable homes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e089274690ac186e306f06e58cc4f24156fdf305"
+}

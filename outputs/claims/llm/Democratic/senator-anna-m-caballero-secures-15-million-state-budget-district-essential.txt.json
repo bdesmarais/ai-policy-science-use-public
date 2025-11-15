@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-secures-15-million-state-budget-district-essential.txt",
+  "party": "Democratic",
+  "title": "Sacramento: Senator Anna M. Caballero (D-Salinas) is pleased to announce that the state budget includes $15 million to fund essential needs in five of the communities in the 12th S",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The state budget includes $15 million to fund essential needs in five communities in the 12th Senate District.\",\n    \"The allocation of $2 million for the City of Mendota will be used for public safety regional support.\",\n    \"The allocation of $2 million for the City of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The state budget includes $15 million to fund essential needs in five communities in the 12th Senate District.\",\n    \"The allocation of $2 million for the City of Mendota will be used for public safety regional support.\",\n    \"The allocation of $2 million for the City of Firebaugh will be used for public safety regional support.\",\n    \"The allocation of $2 million for the City of San Joaquin will be used for public safety regional support.\",\n    \"The allocation of $4 million for the City of Huron will be used for an ambulance and facility.\",\n    \"The allocation of $5 million for the City of Gonzalez will help create a youth innovation center.\",\n    \"Currently, Huron residents wait a minimum of 30 minutes for an ambulance to arrive.\",\n    \"The youth innovation center will provide access to high-speed internet, computers, printers, and other amenities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "63dd5dcdb8066abe7735e10563c7fde5b0347543"
+}

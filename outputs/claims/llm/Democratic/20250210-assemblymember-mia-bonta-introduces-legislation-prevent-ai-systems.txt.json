@@ -1,0 +1,13 @@
+{
+  "press_release": "20250210-assemblymember-mia-bonta-introduces-legislation-prevent-ai-systems.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AI systems that misrepresent themselves as health professionals can pose dangers to consumers.\",\n    \"Generative AI systems are not licensed health professionals and should not present themselves as such.\",\n    \"Generative AI systems are rapidly gaining popularity across",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AI systems that misrepresent themselves as health professionals can pose dangers to consumers.\",\n    \"Generative AI systems are not licensed health professionals and should not present themselves as such.\",\n    \"Generative AI systems are rapidly gaining popularity across the internet.\",\n    \"There are reports of individuals developing unhealthy relationships with AI chatbots.\",\n    \"Some AI chatbots have been found to pose as licensed practitioners in healthcare settings.\",\n    \"AI is increasingly being deployed in healthcare applications.\",\n    \"Some companies are pushing staff to use Generative AI to respond to patients.\",\n    \"There are for-hire 'AI nurses' being developed for the healthcare market.\",\n    \"There is a risk that systems that appear human-like can mislead children and individuals with low health or digital literacy.\",\n    \"Children tend to overestimate the trustworthiness and capabilities of AI systems.\",\n    \"It is critical to use AI thoughtfully in medicine to protect patients from unintended risks.\",\n    \"Patients deserve to know whether the medical advice they receive is from a bot or a qualified healthcare professional.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "16c9fca43e233847859bf4422a277f870e6bce02"
+}

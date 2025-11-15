@@ -1,0 +1,13 @@
+{
+  "press_release": "20240905-assemblywoman-pilar-schiavo-holds-conference-highlighting-first-nation.txt",
+  "party": "Democratic",
+  "title": "SANTA CLARITA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:49:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2424 mandates greater transparency in the foreclosure process, ensuring that homeowners have access to clear information.\",\n    \"AB 2424 provides critical safeguards for homeowners facing the threat of foreclosure.\",\n    \"AB 2863 makes it easier for consumers to cance",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2424 mandates greater transparency in the foreclosure process, ensuring that homeowners have access to clear information.\",\n    \"AB 2424 provides critical safeguards for homeowners facing the threat of foreclosure.\",\n    \"AB 2863 makes it easier for consumers to cancel online subscriptions.\",\n    \"AB 2863 addresses the issue of companies deliberately making the cancellation process difficult.\",\n    \"California is the first state to require straightforward and accessible cancellation options for online subscriptions.\",\n    \"The foreclosure system in California often strips people in communities of color of their home equity and harms their financial well-being.\",\n    \"CFC's bills aim to keep consumers from wasting their time and money on difficult cancellation processes and predatory loan brokering.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "484aa3b48ce1e37895d7348f29c060ef36841b73"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20180507-assemblymember-irwin-bill-ensuring-access-mental-health-services-military.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Research has shown that veterans are more likely to suffer from a mental or behavioral health condition than the general population.\",\n    \"Lack of access to critical mental health services may worsen suicidal behavior, especially among young military veterans who have c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Research has shown that veterans are more likely to suffer from a mental or behavioral health condition than the general population.\",\n    \"Lack of access to critical mental health services may worsen suicidal behavior, especially among young military veterans who have completed multiple combat tours.\",\n    \"More than 107,000 veterans are homeless on any given night in the U.S.\",\n    \"Veterans comprise 25 percent or more of California’s homeless population, an estimated 35,000 people.\",\n    \"Data on suicide rates among army veterans, reported by the Department of Defense (DOD), showed an increase of more than 18% from 2011 to 2014.\",\n    \"Improved and more accessible mental health services would combat not only mental illness, but homelessness and suicide rates as well.\",\n    \"Mental health resources are not always readily available at USDVA facilities due to a shortage of critical mental health personnel.\",\n    \"Veterans who do not rely primarily on the VA system to address their mental health needs do not have easy access to critical crisis-intervention services.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4b3f0d0a96d0aeb98b6d8a7a536ef6eb5bcee5ac"
+}

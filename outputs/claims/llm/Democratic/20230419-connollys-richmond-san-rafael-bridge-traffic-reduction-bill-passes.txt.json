@@ -1,0 +1,13 @@
+{
+  "press_release": "20230419-connollys-richmond-san-rafael-bridge-traffic-reduction-bill-passes.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblymember Damon Connolly",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Richmond San-Rafael Bridge traffic congestion causes local streets and roads to back up in the City of Richmond.\",\n    \"Approximately 18,000 Bay Area residents cross the Richmond San-Rafael Bridge each workday.\",\n    \"During peak hours, commuters on the Richmond San-",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Richmond San-Rafael Bridge traffic congestion causes local streets and roads to back up in the City of Richmond.\",\n    \"Approximately 18,000 Bay Area residents cross the Richmond San-Rafael Bridge each workday.\",\n    \"During peak hours, commuters on the Richmond San-Rafael Bridge face approximately 16 minutes of gridlocked, stop-and-go traffic, which is predicted to grow to 24 minutes in the next three years.\",\n    \"The morning freeway backup on the Richmond San-Rafael Bridge has become the largest source of non-wildfire air pollution in the City of Richmond.\",\n    \"Commuters on the Richmond-San Rafael Bridge are generally lower-income and reside in historically underserved and systemically marginalized communities.\",\n    \"There have been no near-term projects to reduce the congestion and pollution disproportionately affecting low-income communities in the City of Richmond.\",\n    \"Adding a second movable-barrier bike lane on the lower deck of the Richmond-San Rafael Bridge allows for active management of traffic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6147a514e29e251ceeedd379449f100cc22f895c"
+}

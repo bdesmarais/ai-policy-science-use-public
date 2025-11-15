@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-judiciary-committee-advances-senator-corteses-legislation-enforce-skilled-workforce.txt",
+  "party": "Democratic",
+  "title": "Building on California's commitment to a skilled and trained workforce, Senator Dave Cortese has introduced new legislation to strengthen the state's labor force reporting requirem",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:21:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Dave Cortese introduced legislation to strengthen California's labor force reporting requirements.\",\n    \"Senate Bill 1162 aims to enhance compliance with skilled and trained workforce requirements on public projects.\",\n    \"The legislation represents an initiati",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Dave Cortese introduced legislation to strengthen California's labor force reporting requirements.\",\n    \"Senate Bill 1162 aims to enhance compliance with skilled and trained workforce requirements on public projects.\",\n    \"The legislation represents an initiative to synchronize California's labor standards with state and federal infrastructure objectives.\",\n    \"SB 1162 guarantees that the workforce driving relevant projects adheres to skilled and trained workforce standards.\",\n    \"The introduction of SB 1162 is expected to lead to the creation of higher-quality, family-supporting jobs.\",\n    \"The bill allows Labor-Management Cooperation Committees to verify that workers have the necessary training.\",\n    \"SB 1162 aims to improve compliance with labor standards more effectively.\",\n    \"The introduction of SB 1162 has garnered support from key labor organizations for its potential to improve labor standards compliance on public works projects.\",\n    \"The bill underscores the importance of detailed and accurate reporting in upholding labor laws and protecting workers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "666b235afa1cdef3b3a5de38f8e8dfe947bf5018"
+}

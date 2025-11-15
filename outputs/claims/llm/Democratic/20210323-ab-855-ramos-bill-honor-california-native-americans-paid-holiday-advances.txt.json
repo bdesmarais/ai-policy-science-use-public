@@ -1,0 +1,13 @@
+{
+  "press_release": "20210323-ab-855-ramos-bill-honor-california-native-americans-paid-holiday-advances.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—The Assembly Judiciary Committee today approved a measure on a bipartisan 10-0 vote to allow state and local court employees to receive a paid holiday in celebration of ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:26:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has the greatest number of Native Americans residing within its boundaries.\",\n    \"The Judicial Council of California is committed to providing equal access and fairness in the justice system.\",\n    \"Recognizing the importance of Native Americans acknowledges ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has the greatest number of Native Americans residing within its boundaries.\",\n    \"The Judicial Council of California is committed to providing equal access and fairness in the justice system.\",\n    \"Recognizing the importance of Native Americans acknowledges shortcomings in the state’s past treatment of them.\",\n    \"California Native American Day would provide proper recognition for Native American people and celebrate their history in the state.\",\n    \"Chris Wright expressed hope that the bill would spur greater knowledge and respect for California tribal cultures and history.\",\n    \"Chris Wright suggested that the bill is a step toward correcting inaccuracies and omissions of California's history.\",\n    \"Chief Judge Abby Abinanti stated that recognizing California Native American Day is a long awaited and welcomed first step by the justice system to be inclusive of Native citizens.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b1c72260c68aac47e2028cda1b8165fd7ca153a6"
+}

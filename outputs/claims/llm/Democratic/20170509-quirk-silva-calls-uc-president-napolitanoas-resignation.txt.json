@@ -1,0 +1,13 @@
+{
+  "press_release": "20170509-quirk-silva-calls-uc-president-napolitanoas-resignation.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The University of California Office of the President secretly hid $175 million from legislative oversight.\",\n    \"The University of California raised student fees while concealing financial information.\",\n    \"The State Auditor's office found that the UC Office of the Pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The University of California Office of the President secretly hid $175 million from legislative oversight.\",\n    \"The University of California raised student fees while concealing financial information.\",\n    \"The State Auditor's office found that the UC Office of the President spent lavishly on parties and extravagant events.\",\n    \"The spending of $13,000 on a retirement dinner is equivalent to one undergraduate student's tuition for an entire year.\",\n    \"The UC Regents recently raised tuition despite financial mismanagement in the Office of the President.\",\n    \"AB 393: The Student Protection Act aims to place a moratorium on student tuition and fees at California’s public community colleges and state universities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "361b1646bf8bb9992fcac0bd0655a6895dfcdd82"
+}

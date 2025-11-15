@@ -1,0 +1,13 @@
+{
+  "press_release": "20200221-assemblymembers-rebecca-bauer-kahan-and-tim-grayson-introduce-legislation.txt",
+  "party": "Democratic",
+  "title": "AB 2925 will give district attorneys the ability to seek lengthier pretrial detention for individuals charged with making terrorist threats",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:14:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2925 will give district attorneys the ability to seek lengthier pretrial detention for individuals charged with making terrorist threats.\",\n    \"The bill increases prosecutorial discretion for those charged with making terrorist threats against a protected class.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2925 will give district attorneys the ability to seek lengthier pretrial detention for individuals charged with making terrorist threats.\",\n    \"The bill increases prosecutorial discretion for those charged with making terrorist threats against a protected class.\",\n    \"The bill aims to prevent suspects charged with making terrorist threats from being released on bail and carrying out those threats.\",\n    \"Current law allows district attorneys to charge individuals making terrorist threats against protected classes only as misdemeanors.\",\n    \"Terrorist threats against protected classes can be charged as felonies under the proposed amendment to California Penal Code Section 422.6.\",\n    \"The bill will empower prosecutors to advocate for longer pretrial detentions in order to help keep communities safe.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "595212f393ba1032c080b81c87b3644f1c947d6a"
+}

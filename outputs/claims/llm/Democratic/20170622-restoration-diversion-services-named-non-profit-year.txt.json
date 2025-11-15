@@ -1,0 +1,13 @@
+{
+  "press_release": "20170622-restoration-diversion-services-named-non-profit-year.txt",
+  "party": "Democratic",
+  "title": "CARSON, Calif ---Assemblymember Mike A. Gipson (D-Carson) will honor Restoration Diversion Services (RDS) in Compton as the 64th Assembly District’s Non-Profit of the Year. The loc",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"In 2009, Sinetta Farley was disturbed by the large number of girls and young women soliciting sex on Long Beach Boulevard, many appearing to be no older than 13 years old.\",\n    \"Sinetta Farley's research revealed that pimps confiscated all forms of identification, inclu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"In 2009, Sinetta Farley was disturbed by the large number of girls and young women soliciting sex on Long Beach Boulevard, many appearing to be no older than 13 years old.\",\n    \"Sinetta Farley's research revealed that pimps confiscated all forms of identification, including driver's licenses and passports, from young women involved in sex trafficking.\",\n    \"The pimps systematically estranged young women from their families, friends, and children to prevent them from escaping.\",\n    \"Compton gangs control the sex trafficking industry on Long Beach Boulevard.\",\n    \"Statistics show that crimes such as robbery, beatings, and homicides increase wherever sex trafficking is allowed to thrive.\",\n    \"There was no organization in Compton designed to help sex trafficking victims exit the streets before Restoration Diversion Services was formed.\",\n    \"Sinetta Farley formulated a diversion service for victims of sex trafficking in conjunction with the Compton Clergy Council.\",\n    \"Restoration Diversion Services started as a Street Outreach program aimed at supporting young women transitioning from the streets.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d7ac79e820b472c994e083d7caa3e3a9c7e53e1e"
+}

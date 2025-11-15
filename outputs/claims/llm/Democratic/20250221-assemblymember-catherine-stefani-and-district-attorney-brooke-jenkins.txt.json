@@ -1,0 +1,13 @@
+{
+  "press_release": "20250221-assemblymember-catherine-stefani-and-district-attorney-brooke-jenkins.txt",
+  "party": "Democratic",
+  "title": "San Francisco, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:28:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Restitution First Act prioritizes restitution payments to victims of crime ahead of other financial obligations of convicted individuals.\",\n    \"Victims of crime are entitled to financial restitution as guaranteed by the California Constitution.\",\n    \"Current law al",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Restitution First Act prioritizes restitution payments to victims of crime ahead of other financial obligations of convicted individuals.\",\n    \"Victims of crime are entitled to financial restitution as guaranteed by the California Constitution.\",\n    \"Current law allows convicted individuals to incur multiple fines and fees that may delay restitution payments to victims.\",\n    \"The Restitution First Act ensures that victims receive what they are owed before any other government fines or debts are paid by the offender.\",\n    \"Receiving restitution is an essential component of helping victims of crime recover after the offense.\",\n    \"Victims should always come first in the judicial system, especially concerning restitution owed.\",\n    \"Restitution can be a critical step toward a survivor's wholeness and healing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b86bfb95409898a2d3215398454c20c17e22f77e"
+}

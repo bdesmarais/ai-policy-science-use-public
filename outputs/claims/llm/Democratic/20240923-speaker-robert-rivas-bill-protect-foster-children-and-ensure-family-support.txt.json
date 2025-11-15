@@ -1,0 +1,13 @@
+{
+  "press_release": "20240923-speaker-robert-rivas-bill-protect-foster-children-and-ensure-family-support.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Research shows that keeping foster children with relatives or loved ones improves their behavioral and mental health outcomes.\",\n    \"Keeping foster children with relatives or loved ones contributes to greater academic success.\",\n    \"Maintaining foster children with rel",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Research shows that keeping foster children with relatives or loved ones improves their behavioral and mental health outcomes.\",\n    \"Keeping foster children with relatives or loved ones contributes to greater academic success.\",\n    \"Maintaining foster children with relatives or loved ones provides greater stability and a stronger sense of belonging.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f782f3f4b0e6c5b64f9aa03f126faaf807565734"
+}

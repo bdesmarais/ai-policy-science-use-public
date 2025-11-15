@@ -1,0 +1,13 @@
+{
+  "press_release": "20220201-assemblymember-bennett-senators-limon-and-min-announce-gun-show-legislation.txt",
+  "party": "Democratic",
+  "title": "MEDIA ADVISORY",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "871ad6b8ded5ee71a556deb4bef83c7846a5452b"
+}

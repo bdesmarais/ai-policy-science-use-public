@@ -1,0 +1,13 @@
+{
+  "press_release": "20220516-ward-bill-ensure-culturally-competent-care-lgbtq-patients-advances-state.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO,CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The LGBTQ+ community faces unique barriers when navigating the healthcare system, including a lack of access, stigma, and discrimination.\",\n    \"One bad experience in healthcare can lead to individuals not seeking medical care in the future, worsening healthcare outcomes",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The LGBTQ+ community faces unique barriers when navigating the healthcare system, including a lack of access, stigma, and discrimination.\",\n    \"One bad experience in healthcare can lead to individuals not seeking medical care in the future, worsening healthcare outcomes.\",\n    \"Training pharmacists and pharmacy technicians in culturally competent care can improve the healthcare experience for LGBTQ+ individuals.\",\n    \"AB 2194 will help ensure that pharmacists and pharmacy technicians can provide culturally competent care for the estimated 2.6 million people identifying as LGBTQ+ in California.\",\n    \"According to the California Department of Health, 220,000 adults in California identify as trans, transgender, or non-binary.\",\n    \"AB 2914 provides a pathway for healthcare providers to learn appropriate and empathetic communication skills specifically to serve the LGBTQ+ community.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f5963890c04644fcaf7dfcacc47221e02631e3fb"
+}

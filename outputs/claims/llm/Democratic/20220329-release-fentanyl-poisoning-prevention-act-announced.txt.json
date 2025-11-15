@@ -1,0 +1,13 @@
+{
+  "press_release": "20220329-release-fentanyl-poisoning-prevention-act-announced.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:40:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"More than 10 Californians die because of fentanyl every single day.\",\n    \"Fentanyl is cutting short the lives of children and devastating the communities left behind.\",\n    \"The deceptive use of fentanyl in counterfeit pills escalates the dangers of the drug.\",\n    \"Soc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"More than 10 Californians die because of fentanyl every single day.\",\n    \"Fentanyl is cutting short the lives of children and devastating the communities left behind.\",\n    \"The deceptive use of fentanyl in counterfeit pills escalates the dangers of the drug.\",\n    \"Social media is being used to traffic illicit substances to young people.\",\n    \"AB 2246 proposes to establish 20 years to life as the penalty for the distribution of fentanyl resulting in death.\",\n    \"Currently, possession of fentanyl is a misdemeanor offense requiring just a citation and subsequent release.\",\n    \"AB 2246 proposes to establish possession of 2 or more grams of fentanyl as a felony.\",\n    \"AB 2246 will enhance the penalty for illegally selling fentanyl online.\",\n    \"Fentanyl analogs are illicitly manufactured chemical replicas of fentanyl.\",\n    \"This bill does not change the standing of actual fentanyl as a schedule II drug.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "34faa83c24eef83392422184eb3a5eed066c48bd"
+}

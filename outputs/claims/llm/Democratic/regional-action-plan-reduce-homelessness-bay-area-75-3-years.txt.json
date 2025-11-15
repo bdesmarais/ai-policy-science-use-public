@@ -1,0 +1,13 @@
+{
+  "press_release": "regional-action-plan-reduce-homelessness-bay-area-75-3-years.txt",
+  "party": "Democratic",
+  "title": "All Home released a new Regional Action Plan this week to bring together all nine Bay Area counties in an effort to house unsheltered people indoors and reduce the number of people",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Regional Action Plan aims to house 75% of the Bay Area’s unsheltered population by 2024.\",\n    \"The Regional Impact Council was convened by All Home in April 2020.\",\n    \"The plan includes prioritizing both transitional shelter and permanent housing along with preven",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Regional Action Plan aims to house 75% of the Bay Area’s unsheltered population by 2024.\",\n    \"The Regional Impact Council was convened by All Home in April 2020.\",\n    \"The plan includes prioritizing both transitional shelter and permanent housing along with preventative services.\",\n    \"The Regional Action Plan focuses on extremely low-income residents with racial equity at the center of the effort.\",\n    \"The plan proposes an integrated approach to planning and resource allocation for homelessness.\",\n    \"The Regional Action Plan recommends the simultaneous provision of Interim Housing to stabilize those living outdoors.\",\n    \"The plan includes a range of flexible Permanent Housing options, such as rental subsidies to ensure long-term stability for formerly homeless individuals.\",\n    \"The Regional Action Plan incorporates Homelessness Prevention measures, including financial assistance and legal services for at-risk families facing eviction.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0bd85292566599cce781393135a12e41ed4734cc"
+}

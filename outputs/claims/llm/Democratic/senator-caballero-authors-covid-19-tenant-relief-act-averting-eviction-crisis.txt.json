@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-caballero-authors-covid-19-tenant-relief-act-averting-eviction-crisis.txt",
+  "party": "Democratic",
+  "title": "Today, the California State Senate passed landmark legislation to protect renters across the state from looming evictions from job and revenue loss due to the COVID-19 pandemic.  T",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "483eb568375500dc6601a7edf26b819c18cfc401"
+}

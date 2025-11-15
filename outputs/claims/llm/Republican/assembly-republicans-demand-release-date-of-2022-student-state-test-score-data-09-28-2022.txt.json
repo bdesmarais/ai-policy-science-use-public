@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-demand-release-date-of-2022-student-state-test-score-data-09-28-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Early detection and treatment are the best approaches to addressing learning deficits.\",\n    \"COVID-19 school closures led to learning loss.\",\n    \"Publicly available test scores allow parents to make informed choices about their child’s education.\",\n    \"Preventing the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Early detection and treatment are the best approaches to addressing learning deficits.\",\n    \"COVID-19 school closures led to learning loss.\",\n    \"Publicly available test scores allow parents to make informed choices about their child’s education.\",\n    \"Preventing the public from seeing test scores raises questions about student performance.\",\n    \"Preliminary 2022 results from Los Angeles Unified School District show a record decline in scores from before the pandemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "952aee11e5fc0a0152deca39d20878e03c67f4af"
+}

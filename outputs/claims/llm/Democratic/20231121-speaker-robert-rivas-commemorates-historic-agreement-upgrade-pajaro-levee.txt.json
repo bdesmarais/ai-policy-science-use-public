@@ -1,0 +1,13 @@
+{
+  "press_release": "20231121-speaker-robert-rivas-commemorates-historic-agreement-upgrade-pajaro-levee.txt",
+  "party": "Democratic",
+  "title": "WATSONVILLE, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Pajaro levee upgrades will provide 100-year flood protection and enhanced safety to the Pajaro community.\",\n    \"The Pajaro levee upgrades aim to preserve the environmental integrity of valley waterways.\",\n    \"The levee modernization project is expected to be comple",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Pajaro levee upgrades will provide 100-year flood protection and enhanced safety to the Pajaro community.\",\n    \"The Pajaro levee upgrades aim to preserve the environmental integrity of valley waterways.\",\n    \"The levee modernization project is expected to be completed years earlier than originally scheduled.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1c5db147e4e724cfddf77ca48421fd39fe87e262"
+}

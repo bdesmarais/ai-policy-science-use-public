@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-tri-ta-celebrates-committee-passage-of-utility-rate-cap-bill.txt",
+  "party": "Republican",
+  "title": "Assemblyman Tri Ta Celebrates Committee Passage of Utility Rate Cap Bill",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "83100686c0e4567b6839e99071d5ffc25a5bc57d"
+}

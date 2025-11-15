@@ -1,0 +1,13 @@
+{
+  "press_release": "20240831-ramos-measure-requiring-k-12-education-accurately-reflect-impact-european.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—When teaching about the Spanish Mission and Gold Rush Eras, California public schools would be required to teach the true history of the impact on California Native Amer",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California public schools would be required to teach the true history of the impact on California Native Americans during the Spanish Mission and Gold Rush Eras if AB 1821 is approved.\",\n    \"For far too long, California's First People and their history have been ig",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California public schools would be required to teach the true history of the impact on California Native Americans during the Spanish Mission and Gold Rush Eras if AB 1821 is approved.\",\n    \"For far too long, California's First People and their history have been ignored or misrepresented in classroom instruction.\",\n    \"Classroom instruction about the Mission and Gold Rush periods fails to include the loss of life, enslavement, starvation, illness, and violence inflicted upon California Native American people.\",\n    \"Omissions from the curriculum regarding California Native Americans are misleading.\",\n    \"Legislation such as AB 1821 aims to ensure curriculum on California’s Spanish mission and Gold Rush Era accurately captures the treatment and impact of Native Americans.\",\n    \"The initiative supports California’s diverse students to be seen, heard, and understood in their instructional materials.\",\n    \"A poll released by the Institute of Governmental Studies showed strong support to require California schools to incorporate teaching about Native American tribes’ history and culture, with 80% of respondents in favor.\",\n    \"AB 1703, the California Indian Education Act, encourages local educational agencies to create California Indian Education Task Forces to develop curriculum about the history and culture of tribes native or residing in their region.\",\n    \"AB 1703 did not require changes in curriculum, while AB 1821 aims to take that extra step.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a9e89963b75c4b77e4cea1afb570e77ef10a891b"
+}

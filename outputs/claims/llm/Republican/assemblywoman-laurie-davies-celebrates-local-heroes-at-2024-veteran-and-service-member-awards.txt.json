@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblywoman-laurie-davies-celebrates-local-heroes-at-2024-veteran-and-service-member-awards.txt",
+  "party": "Republican",
+  "title": "Honorees and Families Recognized at Veterans Association of North County",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "324b6d49b864a849081533bb5b21115ab207fc68"
+}

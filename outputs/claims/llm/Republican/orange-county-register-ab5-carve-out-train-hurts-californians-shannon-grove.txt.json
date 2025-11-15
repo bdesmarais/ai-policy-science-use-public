@@ -1,0 +1,13 @@
+{
+  "press_release": "orange-county-register-ab5-carve-out-train-hurts-californians-shannon-grove.txt",
+  "party": "Republican",
+  "title": "Published in the Orange County Register on November 22, 2019. Link to article here: https://www.ocregister.com/ 2019/11/22/the-ab5-carve-out- train-hurts-californians- shannon-grov",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is one of the least business-friendly and most unaffordable states in the nation.\",\n    \"A new law will strip hundreds of thousands of independent contractors of their workplace flexibility by classifying them as employees.\",\n    \"The law affects about two mil",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is one of the least business-friendly and most unaffordable states in the nation.\",\n    \"A new law will strip hundreds of thousands of independent contractors of their workplace flexibility by classifying them as employees.\",\n    \"The law affects about two million Californians who currently call themselves independent contractors.\",\n    \"AB5 creates one of the strictest employment tests in the nation.\",\n    \"The law will have severe consequences for many industries that are not exempt from AB5.\",\n    \"AB5 completely takes away the ability for many Californians to have workplace flexibility and choose when and how long they work.\",\n    \"Republicans offered amendments intended to help industries left out of AB5, but these amendments were rejected.\",\n    \"Some industries, such as newspaper carriers and distributors, received a reprieve from AB5's implementation.\",\n    \"The bill AB5 is criticized for favoring unions over independent contractors and diverse workplace needs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "154fee467d9502d4f97b4a4b436a7bf805baf24c"
+}

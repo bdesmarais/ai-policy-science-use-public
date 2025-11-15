@@ -1,0 +1,13 @@
+{
+  "press_release": "california-state-senator-dave-corteses-leadership-and-committee-assignments-2025-2026.txt",
+  "party": "Democratic",
+  "title": "Santa Clara County – California State Senator Dave Cortese (D-Silicon Valley) begins his second four-year term in office with the following leadership and committee assignments:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5383f8a1349c2b78c63c976c988328e5039a8091"
+}

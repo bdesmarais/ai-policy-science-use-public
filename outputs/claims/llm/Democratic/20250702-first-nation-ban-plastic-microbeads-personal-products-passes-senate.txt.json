@@ -1,0 +1,13 @@
+{
+  "press_release": "20250702-first-nation-ban-plastic-microbeads-personal-products-passes-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:40:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 823 would ban the sale of non-rinse-off personal care products and cleaning products containing plastic microbeads by January 1, 2029.\",\n    \"AB 823 would prohibit the sale of personal care products containing plastic glitter by January 1, 2030.\",\n    \"Plastic microbe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 823 would ban the sale of non-rinse-off personal care products and cleaning products containing plastic microbeads by January 1, 2029.\",\n    \"AB 823 would prohibit the sale of personal care products containing plastic glitter by January 1, 2030.\",\n    \"Plastic microbeads in everyday products can pose a public health threat.\",\n    \"Microplastics have been detected in human lungs, blood, placentas, and brain tissue.\",\n    \"Exposure to microplastics may be associated with chronic health conditions.\",\n    \"Preliminary findings have indicated possible links between microplastics and cancers in the lungs, blood, breasts, prostate, and ovaries.\",\n    \"California's previous law banning plastic microbeads in rinse-off personal care products excluded leave-on personal care products and cleaning products.\",\n    \"If signed by the Governor, AB 823 would make California the first state to ban plastic microbeads in leave-on cosmetics, cleaning products, and plastic glitter in personal care products.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8fbd2e3289cf5310c192a3d21721474da68cfac0"
+}

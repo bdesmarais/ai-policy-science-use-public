@@ -1,0 +1,13 @@
+{
+  "press_release": "monumental-package-bills-investing-firesafe-california-passed-state-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –  Senator Dave Cortese (D-Silicon Valley) today stood with California Senate President Pro Tem Mike McGuire and a strong, bipartisan coalition of Senators to pass an hi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill creates the nation’s first public wildfire catastrophe model, improving insurance transparency and risk planning.\",\n    \"A public wildfire catastrophe model predicts future losses and can be a benchmark for fair and accurate insurance rates.\",\n    \"The Community",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill creates the nation’s first public wildfire catastrophe model, improving insurance transparency and risk planning.\",\n    \"A public wildfire catastrophe model predicts future losses and can be a benchmark for fair and accurate insurance rates.\",\n    \"The Community Hardening Commission will develop new wildfire mitigation standards that reduce fire risk and improve insurance access.\",\n    \"Aligning policies across state agencies and streamlining home hardening efforts can enhance wildfire risk data-sharing.\",\n    \"One set of bedrock standards will make it easier for homeowners, developers, and builders to comply with fire mitigation requirements.\",\n    \"The legislation will transition all 3,000 CAL FIRE firefighters to year-round permanent positions.\",\n    \"The public model strategy group, chaired by Cal Poly Humboldt, released final recommendations for wildfire management.\",\n    \"Streamlining environmental reviews can significantly reduce the time required for rebuilding after disasters.\",\n    \"The Wildfire Risk Mitigation Planning Framework will evaluate wildfire risk mitigation actions every three years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "686de7051bb3839797824172873cb0dba513973e"
+}

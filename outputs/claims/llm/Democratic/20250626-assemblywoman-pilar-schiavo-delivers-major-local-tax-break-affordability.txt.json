@@ -1,0 +1,13 @@
+{
+  "press_release": "20250626-assemblywoman-pilar-schiavo-delivers-major-local-tax-break-affordability.txt",
+  "party": "Democratic",
+  "title": "Building off of the initial successes in the Legislature’s budget proposal, Assemblywoman Pilar Schiavo announced additional victories following negotiations with the Governor’s Of",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e3a9809fdf6300f598498378f7368e3a59b9334f"
+}

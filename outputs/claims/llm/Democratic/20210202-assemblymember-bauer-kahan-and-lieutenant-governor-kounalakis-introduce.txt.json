@@ -1,0 +1,114 @@
+{
+  "press_release": "20210202-assemblymember-bauer-kahan-and-lieutenant-governor-kounalakis-introduce.txt",
+  "party": "Democratic",
+  "title": "AB 378 would replace all outdated language in the California Government Code that refers to constitutional officers with the male pronouns “he/his” with gender neutral language",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:22:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 378 seeks to update gender-specific code sections relating to the offices of California constitutional officers.\"\n    },\n    {\n      \"claim_text\": \"Current language in California law that assumes constitutional officers are male plays into sexist",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 378 seeks to update gender-specific code sections relating to the offices of California constitutional officers.\"\n    },\n    {\n      \"claim_text\": \"Current language in California law that assumes constitutional officers are male plays into sexist bias.\"\n    },\n    {\n      \"claim_text\": \"Gender-neutral language reflects that anyone, regardless of gender identity, can serve at the highest levels of California government.\"\n    },\n    {\n      \"claim_text\": \"The majority of California’s constitutional offices are held by women.\"\n    },\n    {\n      \"claim_text\": \"California Government Code currently refers to some office holders using male pronouns.\"\n    },\n    {\n      \"claim_text\": \"Words used in legislation matter and should reflect the representation of all genders.\"\n    },\n    {\n      \"claim_text\": \"Diversity and inclusion should be reflected at all levels of state government.\"\n    },\n    {\n      \"claim_text\": \"California’s Government Code is a reflection of the state's values.\"\n    },\n    {\n      \"claim_text\": \"Gender-neutral language will reflect a modern understanding of representation.\"\n    },\n    {\n      \"claim_text\": \"AB 378 eliminates gendered language in reference to government officers and members of the public.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "AB 378 seeks to update gender-specific code sections relating to the offices of California constitutional officers.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Current language in California law that assumes constitutional officers are male plays into sexist bias.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Gender-neutral language reflects that anyone, regardless of gender identity, can serve at the highest levels of California government.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The majority of California’s constitutional offices are held by women.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California Government Code currently refers to some office holders using male pronouns.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Words used in legislation matter and should reflect the representation of all genders.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Diversity and inclusion should be reflected at all levels of state government.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California’s Government Code is a reflection of the state's values.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Gender-neutral language will reflect a modern understanding of representation.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 378 eliminates gendered language in reference to government officers and members of the public.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 10,
+  "doc_sha1": "8e7655e2a792706c68d01d3a1745390852e09e7c"
+}

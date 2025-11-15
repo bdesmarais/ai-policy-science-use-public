@@ -1,0 +1,13 @@
+{
+  "press_release": "20240129-assemblywoman-soria-hosts-law-enforcement-officials-roundtable-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:33:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1960 provides prosecutors the ability to hold criminals accountable by imposing a stiffer sentence for retail theft.\",\n    \"The bill reinstates a tiered penalties enhancement system for retail theft based on the value of the stolen or damaged property.\",\n    \"AB 1960 ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1960 provides prosecutors the ability to hold criminals accountable by imposing a stiffer sentence for retail theft.\",\n    \"The bill reinstates a tiered penalties enhancement system for retail theft based on the value of the stolen or damaged property.\",\n    \"AB 1960 would provide a sentence enhancement up to five years when the property loss is more than $50,000.\",\n    \"Retail theft and organized retail theft have become an increasingly growing problem in California in the last few years.\",\n    \"Enhanced penalties for retail theft will make a significant difference in protecting businesses and their patrons.\",\n    \"Assemblywoman Soria's legislation aims to address rising retail theft across California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "87ca815e76a297e26bc354ceaecc3f317dcb3905"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240924-papan-legislation-limit-proliferation-ghost-guns-signed-governor-newsom.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Ghost guns are assembled from parts or kits without serial numbers.\",\n    \"The proliferation of ghost guns is partly fueled by unethical practices of some firearm destruction companies.\",\n    \"Current laws allow firearm destruction companies to resell components of destr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Ghost guns are assembled from parts or kits without serial numbers.\",\n    \"The proliferation of ghost guns is partly fueled by unethical practices of some firearm destruction companies.\",\n    \"Current laws allow firearm destruction companies to resell components of destroyed firearms.\",\n    \"Between 2010 and 2020, over 39,000 ghost guns were linked to criminal activities in California.\",\n    \"The number of ghost guns linked to criminal activities surged to over 45,000 in the two years following 2020.\",\n    \"AB 2842 prohibits the resale of gun parts by third-party destruction companies.\",\n    \"The passage of AB 2842 aims to eliminate untraceable weapons and prevent them from reaching criminals.\",\n    \"The bill ensures that firearms recovered from crime scenes and buy-back programs cannot contribute to the creation of new ghost guns.\",\n    \"AB 2842 mandates law enforcement agencies to contract with firearm destruction companies that prohibit the resale of any gun parts.\",\n    \"The bill is intended to significantly reduce the availability of ghost gun kits among criminals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e941d1c5f06d8109eadd29c9bc88f75d731042ac"
+}

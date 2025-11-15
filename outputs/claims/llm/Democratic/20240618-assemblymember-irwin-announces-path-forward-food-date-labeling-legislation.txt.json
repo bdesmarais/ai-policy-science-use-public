@@ -1,0 +1,13 @@
+{
+  "press_release": "20240618-assemblymember-irwin-announces-path-forward-food-date-labeling-legislation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 660 will require packaged food sold in California to be labeled with clear and consistent expiration dates.\",\n    \"Consumer uncertainty about food expiration dates is estimated by the Food and Drug Administration to cause about 20 percent of food waste.\",\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 660 will require packaged food sold in California to be labeled with clear and consistent expiration dates.\",\n    \"Consumer uncertainty about food expiration dates is estimated by the Food and Drug Administration to cause about 20 percent of food waste.\",\n    \"Standardizing date labels could lead to the potential to save more than half a million tons of food from going to waste each year nationally.\",\n    \"Studies have shown that consumers often throw away food before it has spoiled due to confusion over expiration date labels.\",\n    \"The bill aims to reduce climate change impacts by cutting the amount of food sent to landfills, where it produces methane gas as it decomposes.\",\n    \"Methane is over 80 times more powerful as a greenhouse gas than carbon dioxide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3255f8649a185dc95436eeb40cebdb3bea3d9e2e"
+}

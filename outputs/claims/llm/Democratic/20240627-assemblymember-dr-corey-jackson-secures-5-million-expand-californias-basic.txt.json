@@ -1,0 +1,13 @@
+{
+  "press_release": "20240627-assemblymember-dr-corey-jackson-secures-5-million-expand-californias-basic.txt",
+  "party": "Democratic",
+  "title": "Sacramento",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The number of seniors aged 65+ living in poverty is on the rise according to the U.S. Census.\",\n    \"In early 2023, the poverty rate was notably higher for seniors (15.2%) compared to children (13.8%) and adults aged 18–64 (12.6%) according to the Public Policy Institute",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The number of seniors aged 65+ living in poverty is on the rise according to the U.S. Census.\",\n    \"In early 2023, the poverty rate was notably higher for seniors (15.2%) compared to children (13.8%) and adults aged 18–64 (12.6%) according to the Public Policy Institute of California.\",\n    \"Rising housing costs are adding an extra burden on seniors who are on fixed incomes.\",\n    \"The Basic Income Pilot Program aims to alleviate financial burdens on seniors living in poverty in California.\",\n    \"There is hope to expand the basic income initiative to all seniors facing poverty in California if the pilot program is successful.\",\n    \"The $5 million appropriation is a critical step towards reducing poverty among the senior population.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "55f53f7b8670a375f9b2dec29cbd9150503f748f"
+}

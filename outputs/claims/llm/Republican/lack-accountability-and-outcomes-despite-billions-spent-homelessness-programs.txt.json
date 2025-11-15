@@ -1,0 +1,13 @@
+{
+  "press_release": "lack-accountability-and-outcomes-despite-billions-spent-homelessness-programs.txt",
+  "party": "Republican",
+  "title": "California Students Still Failing Despite Historic Investments in Education. A fundamental issue that continues to plague California’s education system is the severe underperforman",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California students continue to fail to meet academic standards despite approximately $24 billion in federal funding.\",\n    \"Only about 35 percent of California students met Mathematics standards in the 2022-23 test results.\",\n    \"The percentage of California students m",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California students continue to fail to meet academic standards despite approximately $24 billion in federal funding.\",\n    \"Only about 35 percent of California students met Mathematics standards in the 2022-23 test results.\",\n    \"The percentage of California students meeting English Language Arts/Literacy standards decreased to 47 percent in the 2022-23 test results.\",\n    \"California's education system suffers from severe underperformance despite historic investments.\",\n    \"Democrats' environmental policies may threaten wildlife habitats while advocating for green energy.\",\n    \"Onshore wind turbine development in critical migratory bird habitats may jeopardize entire bird species.\",\n    \"Diablo Canyon Power Plant supplies 10 percent of California's electricity.\",\n    \"California's grid reliability is at risk if the operating licenses for Diablo Canyon Power Plant are not renewed.\",\n    \"Many Medi-Cal providers face bankruptcy due to insufficient reimbursement rates.\",\n    \"The California Interagency Counsel on Homelessness has not evaluated homelessness funding in recent years.\",\n    \"Homelessness in California has worsened despite billions spent on homelessness programs.\",\n    \"The Employment Development Department (EDD) systems failed during the pandemic, leading to $20 billion in fraudulent claims.\",\n    \"California has spent about $334 million on the EDDNext initiative to improve claims processing and fraud tools.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7c006c7be12e9b0d50511e0e06596ec62e150eff"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20221129-small-businesses-convene-red-tape-cutting-listening-tour.txt",
+  "party": "Democratic",
+  "title": "COSTA MESA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:50:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblywoman Cottie Petrie-Norris has secured $85 million in state funding for 7,154 entrepreneurs in various cities.\",\n    \"AB 2019 requires the State to contract with small businesses by a minimum of 25%.\",\n    \"Many small businesses in attendance benefitted from fund",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblywoman Cottie Petrie-Norris has secured $85 million in state funding for 7,154 entrepreneurs in various cities.\",\n    \"AB 2019 requires the State to contract with small businesses by a minimum of 25%.\",\n    \"Many small businesses in attendance benefitted from funding, counseling, and technical assistance from the state and OCIE SBDC.\",\n    \"Small businesses are struggling post-COVID with access to capital, workforce issues, and supply chain delays.\",\n    \"Inflation has a detrimental role in the current performance of small businesses.\",\n    \"Businesses seeking new financing are facing higher interest rates and are looking for flexibility on fixed terms with lenders.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "41d942620389f092f72c79bd1a2107462d927383"
+}

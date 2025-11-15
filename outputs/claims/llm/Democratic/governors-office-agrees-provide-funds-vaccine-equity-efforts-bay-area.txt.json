@@ -1,0 +1,13 @@
+{
+  "press_release": "governors-office-agrees-provide-funds-vaccine-equity-efforts-bay-area.txt",
+  "party": "Democratic",
+  "title": "Negotiations with Bay Area Legislators and Governor’s Office Lead to Increased Funds for Vaccine Distribution to Integrate Hardest-Hit Communities in the Bay Area",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Approximately $7,600,000 will be allocated to the nine Bay Area counties for administering vaccines in communities at increased risk of COVID-19 infection and hospitalization.\",\n    \"The Bay Area accounts for 20% of the population of California but only 2% of Bay Area re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Approximately $7,600,000 will be allocated to the nine Bay Area counties for administering vaccines in communities at increased risk of COVID-19 infection and hospitalization.\",\n    \"The Bay Area accounts for 20% of the population of California but only 2% of Bay Area residents fell under zip codes prioritized for nearly half of the available COVID-19 vaccine doses.\",\n    \"The vaccine distribution formula excluded Bay Area zip codes that have COVID-19 infection rates nearly twice that of the state's overall rate.\",\n    \"Funding can be used for expanding vaccination sites in hard-hit areas and hiring workers for culturally competent outreach.\",\n    \"Each local health jurisdiction will deploy funding to accelerate vaccines to vulnerable, high-risk populations.\",\n    \"The state is expecting an increase of 4,000,000 vaccine doses per week from the federal government by mid-May.\",\n    \"The COVID-19 pandemic has exacerbated health and economic disparities, with underserved communities experiencing the brunt of job loss and health impacts.\",\n    \"Only an equitable vaccination rollout will ensure life-saving treatment reaches those who need it.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "38062f5c6a022e1042ec1e8c3558fc425e801fd4"
+}

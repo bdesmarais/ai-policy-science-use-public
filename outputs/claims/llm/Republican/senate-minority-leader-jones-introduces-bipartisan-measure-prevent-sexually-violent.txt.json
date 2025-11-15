@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-minority-leader-jones-introduces-bipartisan-measure-prevent-sexually-violent.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones (R-San Diego), Senator Marie Alvarado-Gil (D-Jackson), Senator Shannon Grove (R-Bakersfield), Assembly Republican Leader James Gallagher (R-Yu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:06:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The SAFE Act aims to prevent the state from secretly placing Sexually Violent Predators (SVPs) in unsuspecting communities.\",\n    \"Senate Bill 832 would require the placement of SVPs to prioritize public safety.\",\n    \"The Department of State Hospitals (DSH) must approve",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The SAFE Act aims to prevent the state from secretly placing Sexually Violent Predators (SVPs) in unsuspecting communities.\",\n    \"Senate Bill 832 would require the placement of SVPs to prioritize public safety.\",\n    \"The Department of State Hospitals (DSH) must approve any SVP placements before leases can be signed.\",\n    \"The Director of DSH will be mandated to publicly report the number of SVPs in each county and supervisorial district annually.\",\n    \"DSH, the Department of Corrections and Rehabilitation, and CAL FIRE must assess lands under their control for potential SVP housing facilities.\",\n    \"The SAFE Act will prevent SVPs from being placed within 5 miles of federally recognized 'Indian country.'\",\n    \"Families in rural California may lack adequate police enforcement to ensure safety from violent sexual predators.\",\n    \"If SVPs are deemed too dangerous for their home counties, they should remain in confinement rather than being placed in new communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c8a6bd9d774497eae0eb3cd4a7ccd1e85cedbf67"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-monique-limons-statement-being-elected-senate-pro-tem-designee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - Senator Monique Limón released the following statement regarding her election by the Senate Democratic Caucus to serve as the 53rd President pro Tempore of the Califor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "32e9cf988a85ee9c710ef1ae04b0b03ba2c0bde6"
+}

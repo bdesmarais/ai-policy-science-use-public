@@ -1,0 +1,13 @@
+{
+  "press_release": "20250210-assemblywoman-celeste-rodriguez-introduces-critical-legislation-protect.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Forty-five percent of California children have at least one immigrant parent.\",\n    \"An estimated 1 million children in California have at least one undocumented parent.\",\n    \"Approximately 133,000 children in California public schools are undocumented.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Forty-five percent of California children have at least one immigrant parent.\",\n    \"An estimated 1 million children in California have at least one undocumented parent.\",\n    \"Approximately 133,000 children in California public schools are undocumented.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f9adb83e34cc8843d16367666583ec09aae1b542"
+}

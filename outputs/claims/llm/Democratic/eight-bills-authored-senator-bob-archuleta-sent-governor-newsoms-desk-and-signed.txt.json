@@ -1,0 +1,13 @@
+{
+  "press_release": "eight-bills-authored-senator-bob-archuleta-sent-governor-newsoms-desk-and-signed.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Eight bills authored by Senator Bob Archuleta (D-Pico Rivera) and passed by the California Legislature to address issues ranging from veterans affairs to public sa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Legislature passed eight bills aimed at improving public and professional safety.\",\n    \"One of the bills aims to increase the number of zero emission sites available to hydrogen fuel cell vehicles.\",\n    \"The California Department of Forestry and Fire Pro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Legislature passed eight bills aimed at improving public and professional safety.\",\n    \"One of the bills aims to increase the number of zero emission sites available to hydrogen fuel cell vehicles.\",\n    \"The California Department of Forestry and Fire Protection’s Office of the State Fire Marshal has been granted authority to manage illegal fireworks.\",\n    \"The Department of Industrial Relations is required to establish a database of electronic-Certified Payroll Records to enhance labor compliance and save taxpayer dollars.\",\n    \"California's program regulating lead-related construction work must conform to the United States Environmental Protection Agency’s Lead Renovation, Repair, and Painting Rule.\",\n    \"Local governments are required to expand their permitting processes for zero emission vehicle infrastructure to include hydrogen-fueling infrastructure.\",\n    \"A new category of registered mental health professional, called psychological testing technicians, has been created to meet the growing demand for psychological services.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "baf95ceca31fede80d45b7e8f73a740c76e14bde"
+}

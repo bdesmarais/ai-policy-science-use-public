@@ -1,0 +1,13 @@
+{
+  "press_release": "20200507-california-native-americans-covid-19-yet-another-existential-threat-survive.txt",
+  "party": "Democratic",
+  "title": "California is home to more Native Americans than any other state, with urban, rural and suburban populations. Health epidemics decimated California’s First People since the encroac",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has more Native Americans than any other state.\",\n    \"Health epidemics have historically decimated California’s First People.\",\n    \"Native Americans have much higher levels of chronic, underlying medical conditions that increase susceptibility to COVID-19 in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has more Native Americans than any other state.\",\n    \"Health epidemics have historically decimated California’s First People.\",\n    \"Native Americans have much higher levels of chronic, underlying medical conditions that increase susceptibility to COVID-19 infection and death.\",\n    \"Overcrowded and substandard housing on reservations heightens the risks for Native Americans during the COVID-19 pandemic.\",\n    \"Efforts to protect Indian people from coronavirus are hampered by historical insufficiencies.\",\n    \"There is a lack of infrastructure in Indian Country that impedes the flow of crucial information during the COVID-19 crisis.\",\n    \"Many tribes confront enormous challenges during the COVID-19 pandemic.\",\n    \"Some tribes have achieved economic progress, while many others have not.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "29ae687566912ca24d5e9dc4ab58e0d754c12b62"
+}

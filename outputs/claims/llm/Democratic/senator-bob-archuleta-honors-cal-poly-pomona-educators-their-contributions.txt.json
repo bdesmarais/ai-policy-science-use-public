@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-honors-cal-poly-pomona-educators-their-contributions.txt",
+  "party": "Democratic",
+  "title": "Pomona, CA –As part of the national celebration of Hispanic Heritage Month, Senator Bob Archuleta (D-Pico Rivera) proudly recognized the achievements of two outstanding educational",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Provost S. Terri Gomez has been a lifelong advocate for underserved students and a leader in advancing educational access and equity.\",\n    \"Gomez's efforts have paved the way for future generations of students from diverse backgrounds to achieve academic success and pro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Provost S. Terri Gomez has been a lifelong advocate for underserved students and a leader in advancing educational access and equity.\",\n    \"Gomez's efforts have paved the way for future generations of students from diverse backgrounds to achieve academic success and professional growth.\",\n    \"Dr. Álvaro Huerta’s research and advocacy focus on social justice, immigration, and improving the quality of life for marginalized communities across California.\",\n    \"Dr. Huerta's commitment to uplifting communities and creating pathways for immigrant populations has earned him national recognition.\",\n    \"Latina/o students represent an estimated 50 percent of Cal Poly Pomona’s student body.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1cc4c6ad8457acef3c47976c40a708848e41e4ac"
+}

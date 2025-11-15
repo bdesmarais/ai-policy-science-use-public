@@ -1,0 +1,13 @@
+{
+  "press_release": "silicon-valley-pain-index-inspires-guaranteed-income-program-unhoused-students-santa-clara.txt",
+  "party": "Democratic",
+  "title": "The Silicon Valley Pain Index , a meta-analysis crafted by San José State University’s Human Rights Institute that revealed Santa Clara County’s growing racial and wealth dispariti",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:34:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Silicon Valley Pain Index revealed growing racial and wealth disparities in Santa Clara County.\",\n    \"The Silicon Valley Pain Index identified a troubling trend of housing and food insecurity among young adults.\",\n    \"The pilot program for unhoused students provide",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Silicon Valley Pain Index revealed growing racial and wealth disparities in Santa Clara County.\",\n    \"The Silicon Valley Pain Index identified a troubling trend of housing and food insecurity among young adults.\",\n    \"The pilot program for unhoused students provides monthly payments of about $1,000 with no strings attached.\",\n    \"The CalSOAR Guaranteed Income Program is designed to support unhoused high school seniors in their transition to further education or work opportunities.\",\n    \"There are approximately 2500 students in Santa Clara County experiencing homelessness.\",\n    \"The work of the Human Rights Institute inspired the first-of-its-kind program for unhoused students.\",\n    \"Senator Cortese believes that systemic change is needed to close the generational wealth gap in Santa Clara County.\",\n    \"Universal basic income for high school seniors experiencing homelessness is viewed as a small investment with large dividends.\",\n    \"Navigating life transitions after high school is especially difficult for students experiencing homelessness.\",\n    \"The SJSU Human Rights Institute aims to inform policy and practice according to the highest standards of international human rights law.\",\n    \"The Silicon Valley Pain Index serves as an annual report on human rights conditions in Santa Clara County.\",\n    \"Santa Clara County previously launched basic income programs, including one for transition age foster youth.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0b9277546f6da1365130fa95d5b825005704d77f"
+}

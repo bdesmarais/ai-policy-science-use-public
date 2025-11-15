@@ -1,0 +1,13 @@
+{
+  "press_release": "20250708-assemblymember-juan-carrillo-partners-caravanserai-caravan-sbdc-and-regina.txt",
+  "party": "Democratic",
+  "title": "Victorville, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:40:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The BizUp High Desert program offers a free, 10-week virtual training and consulting series for local small business owners and aspiring entrepreneurs.\",\n    \"The program provides guidance on business foundations, financial management, branding, and access to capital.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The BizUp High Desert program offers a free, 10-week virtual training and consulting series for local small business owners and aspiring entrepreneurs.\",\n    \"The program provides guidance on business foundations, financial management, branding, and access to capital.\",\n    \"The Caravanserai Project and Caravan SBDC plan to deliver more programs and tools to empower local entrepreneurs in the future.\",\n    \"Comprehensive training and access to resources for entrepreneurs are essential to building a thriving, sustainable economy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "68b0cedba47b940beb0edd9bc9ee4ce2a91ee8da"
+}

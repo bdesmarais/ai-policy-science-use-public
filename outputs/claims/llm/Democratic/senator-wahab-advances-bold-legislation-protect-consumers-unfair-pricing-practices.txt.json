@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-wahab-advances-bold-legislation-protect-consumers-unfair-pricing-practices.txt",
+  "party": "Democratic",
+  "title": "Newsletter: Sign Up For The Latest Updates",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 259 prohibits companies from charging consumers different prices online based on device type, browsing history, or location.\",\n    \"SB 384 prohibits companies from using software that allows competitors to secretly share private data on prices and stock.\",\n    \"The ma",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 259 prohibits companies from charging consumers different prices online based on device type, browsing history, or location.\",\n    \"SB 384 prohibits companies from using software that allows competitors to secretly share private data on prices and stock.\",\n    \"The majority of apps collect more data than is necessary for them to function properly.\",\n    \"Up to 42% of all apps appear to collect data from a user’s other apps and frequented websites.\",\n    \"Up to 76% of loyalty program participants oppose giving discounts based on demographics or online actions.\",\n    \"Two high-profile anti-trust cases involved digital tools being used for collusion.\",\n    \"Digital handshakes can create anti-competitive practices and unjustly increase the cost of goods and services for consumers.\",\n    \"Differential pricing may rely on data points that could infer personal attributes such as income or need.\",\n    \"SB 384 addresses the emerging issue of algorithmic price-fixing, which has been shown to result in market manipulation.\",\n    \"Algorithmic price-fixing can lead to increased costs for consumers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "155e134b4161cdb3b13d8738f6b5b3677ec76ba1"
+}

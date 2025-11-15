@@ -1,0 +1,13 @@
+{
+  "press_release": "20200913-assemblywoman-quirk-silva-appointed-chair-assembly-committee-arts.txt",
+  "party": "Democratic",
+  "title": "Assemblywoman Quirk-Silva Appointed Chair of the Assembly Committee on Arts, Entertainment, Sports, Tourism, and Internet Media",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Arts and technology contribute significantly to innovation.\",\n    \"California has been a leader in innovation.\",\n    \"The role that technology and the internet plays in California is crucial in this digital time and age.\",\n    \"The COVID-19 pandemic has highlighted issue",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Arts and technology contribute significantly to innovation.\",\n    \"California has been a leader in innovation.\",\n    \"The role that technology and the internet plays in California is crucial in this digital time and age.\",\n    \"The COVID-19 pandemic has highlighted issues in California, including the digital divide.\",\n    \"The digital divide has affected low-income households and children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1c3ca799930bbe9fbaa788f644b1d4f75d87b904"
+}

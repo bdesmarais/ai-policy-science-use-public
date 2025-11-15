@@ -1,0 +1,13 @@
+{
+  "press_release": "20230525-addis-bills-offshore-wind-and-ocean-life-recovery-pass-state-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Two ocean/coastal protection bills by Assemblymember Dawn Addis (D-Morro Bay) won approval in the State Assembly today. The two bills are:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California requires a science-based monitoring program to understand the impact of offshore wind energy on ocean life and habitat.\",\n    \"Assembly Bill 1407 establishes recovery goals for critical ocean ecosystems in California.\",\n    \"AB 1407 creates a state structure t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California requires a science-based monitoring program to understand the impact of offshore wind energy on ocean life and habitat.\",\n    \"Assembly Bill 1407 establishes recovery goals for critical ocean ecosystems in California.\",\n    \"AB 1407 creates a state structure to develop and support marine life restoration projects.\",\n    \"California's ocean faces challenges including habitat destruction, biodiversity loss, and threats from climate change.\",\n    \"The restoration of kelp forests, eelgrass meadows, and native oyster beds is critical for supporting California's unique biodiversity.\",\n    \"Dramatic declines in key marine habitats threaten the value of California's ocean economy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b80f19b1feb43e92e4f87320c4a6368504dde5b8"
+}

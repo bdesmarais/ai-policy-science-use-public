@@ -1,0 +1,13 @@
+{
+  "press_release": "20201030-assemblymember-berman-host-health-care-affordability-panel.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:20:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Convergence Center for Policy Resolution released a report authored by a diverse set of health care policy stakeholders.\",\n    \"A diverse group of experts collaborated to craft a proposal aimed at improving health care affordability in California.\",\n    \"Improving he",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Convergence Center for Policy Resolution released a report authored by a diverse set of health care policy stakeholders.\",\n    \"A diverse group of experts collaborated to craft a proposal aimed at improving health care affordability in California.\",\n    \"Improving health care affordability requires greater transparency and accountability.\",\n    \"The proposed solution aims to contain health care costs in the wake of COVID-19.\",\n    \"The proposal garnered broad support from consumers, doctors, insurers, employers, and workers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f2c361495bcb4bddfcd61426470fad3af5e8c8c3"
+}

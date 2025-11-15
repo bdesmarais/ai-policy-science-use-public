@@ -1,0 +1,13 @@
+{
+  "press_release": "20190603-assemblymember-arambulas-bill-seeking-expanded-health-care-coverage.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:08:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 4 aims to ensure that undocumented adults in California have access to health care.\",\n    \"AB 4 will remove immigration status as a barrier to adults accessing full scope Medi-Cal services.\",\n    \"The lack of access to health care for undocumented individua",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 4 aims to ensure that undocumented adults in California have access to health care.\",\n    \"AB 4 will remove immigration status as a barrier to adults accessing full scope Medi-Cal services.\",\n    \"The lack of access to health care for undocumented individuals results in acute medical problems and ongoing health issues.\",\n    \"In California, as of 2016, full-scope Medi-Cal coverage is provided to all children regardless of their immigration status.\",\n    \"Approximately 3 million Californians do not have health insurance coverage, with about 58 percent of them being undocumented adults.\",\n    \"Expanding Medi-Cal is expected to benefit individual Californians and bolster the health and financial vitality of their families and communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2dc3c3cac429c267c60701df32b45d321432042a"
+}

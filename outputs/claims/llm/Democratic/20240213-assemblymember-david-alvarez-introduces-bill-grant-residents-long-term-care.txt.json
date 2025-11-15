@@ -1,0 +1,13 @@
+{
+  "press_release": "20240213-assemblymember-david-alvarez-introduces-bill-grant-residents-long-term-care.txt",
+  "party": "Democratic",
+  "title": "(Sacramento) Last week, Assemblymember David Alvarez (D-San Diego) introduced Assembly Bill 2075, which would grant residents of Long-Term Care Facilities the right to access a des",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Between 2020 and 2023, Covid-19 cost the lives of millions of Americans and irrevocably disrupted the lives of millions more.\",\n    \"The working group found that visitation is essential for preventing social isolation and loneliness among people who reside in Long-Term C",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Between 2020 and 2023, Covid-19 cost the lives of millions of Americans and irrevocably disrupted the lives of millions more.\",\n    \"The working group found that visitation is essential for preventing social isolation and loneliness among people who reside in Long-Term Care Facilities.\",\n    \"Family interaction plays a critical role in identifying care issues and advocating for care in Long-Term Care Facilities.\",\n    \"Assembly Bill 2075 aims to formalize recommendations for Long-Term Care Facilities into law.\",\n    \"The separation of long-term care facility residents from their loved ones during the COVID pandemic caused isolation and misery.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d0fa26c885d3161673877e89fd739c5aaaa655d0"
+}

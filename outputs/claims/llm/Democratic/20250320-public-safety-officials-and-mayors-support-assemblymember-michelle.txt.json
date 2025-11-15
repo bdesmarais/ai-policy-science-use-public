@@ -1,0 +1,13 @@
+{
+  "press_release": "20250320-public-safety-officials-and-mayors-support-assemblymember-michelle.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:30:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 63 reinstates prohibiting loitering in a public place with the intent to commit prostitution.\",\n    \"Assembly Bill 63 will make it unlawful to loiter with the intent to commit prostitution.\",\n    \"California's recent decriminalization of loitering has embol",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 63 reinstates prohibiting loitering in a public place with the intent to commit prostitution.\",\n    \"Assembly Bill 63 will make it unlawful to loiter with the intent to commit prostitution.\",\n    \"California's recent decriminalization of loitering has emboldened traffickers who prey on vulnerable victims.\",\n    \"There has been a sharp increase in prostitution and human trafficking in San Diego since the passage of SB 357.\",\n    \"Assembly Bill 63 is designed to restore law enforcement's ability to stop illegal activity related to prostitution.\",\n    \"California's decriminalization of loitering for prostitution has helped both prostitution and human trafficking to flourish.\",\n    \"AB 63 gives law enforcement a valuable tool to help deal with human trafficking.\",\n    \"Law enforcement has been experiencing significant challenges in intervening to stop open-air prostitution markets.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6c6cf250c963ae7ec541308d14521ab562a4b08b"
+}

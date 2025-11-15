@@ -1,0 +1,13 @@
+{
+  "press_release": "20250113-assemblymember-mike-fong-speaker-rivas-and-la-delegation-meet-emergency.txt",
+  "party": "Democratic",
+  "title": "Assembly leaders committed to keeping Southern Californians safe and putting residents on path to recovery, rebuilding and healing",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:23:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Wildfires in Los Angeles have caused historic levels of devastation, impacting communities for generations.\",\n    \"The California Assembly is committed to fast-tracking relief efforts for victims of the wildfires.\",\n    \"Emergency response and recovery efforts for fire-a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Wildfires in Los Angeles have caused historic levels of devastation, impacting communities for generations.\",\n    \"The California Assembly is committed to fast-tracking relief efforts for victims of the wildfires.\",\n    \"Emergency response and recovery efforts for fire-affected areas will require resources from federal, state, and local partners.\",\n    \"There is a need to develop effective policy solutions for historically underserved communities affected by the wildfires.\",\n    \"The wildfires have resulted in a significant loss of lives, homes, and livelihoods in Los Angeles.\",\n    \"Collaborative efforts among first responders and community members are crucial for recovery from the wildfires.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "54663dc937e0bebaa6dc7f2ca85665ff2e1a6983"
+}

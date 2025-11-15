@@ -1,0 +1,13 @@
+{
+  "press_release": "20200122-statement-assemblymember-tasha-boerner-horvath-department-park-recreations.txt",
+  "party": "Democratic",
+  "title": "Carlsbad, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:13:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bb2e642211dfbce86eeceebf17bfdc6e341a8618"
+}

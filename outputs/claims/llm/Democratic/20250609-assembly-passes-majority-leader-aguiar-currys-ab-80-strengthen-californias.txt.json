@@ -1,0 +1,13 @@
+{
+  "press_release": "20250609-assembly-passes-majority-leader-aguiar-currys-ab-80-strengthen-californias.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:38:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Carpet America Recovery Effort (CARE) has struggled to meet recycling targets, paying over $2.6 million in penalties between 2013 and 2020.\",\n    \"CARE's underperformance has been attributed to limited stakeholder input, insufficient statewide access to collection si",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Carpet America Recovery Effort (CARE) has struggled to meet recycling targets, paying over $2.6 million in penalties between 2013 and 2020.\",\n    \"CARE's underperformance has been attributed to limited stakeholder input, insufficient statewide access to collection sites, and weak product labeling standards.\",\n    \"Recyclable carpet continues to be landfilled due to inadequate collection and material identification.\",\n    \"Inadequate collection and material identification have contributed to recyclers going out of business and undermined California’s extended producer responsibility laws.\",\n    \"AB 80 expands collection infrastructure and improves labeling and backstamping for better material tracking.\",\n    \"AB 80 requires five nonvoting members from labor, recycling, and other sectors to be on the CARE board.\",\n    \"The bill includes a January 1, 2026, deadline for CalRecycle to implement regulations and technical updates mandated by AB 863.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "789987022e82365fe51c0bbdbec65e56a5d9e590"
+}

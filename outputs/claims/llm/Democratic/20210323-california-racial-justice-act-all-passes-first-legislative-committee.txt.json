@@ -1,0 +1,13 @@
+{
+  "press_release": "20210323-california-racial-justice-act-all-passes-first-legislative-committee.txt",
+  "party": "Democratic",
+  "title": "The legislation challenging racial bias in court cases would ensure the recently-signed Racial Justice Act can be applied retroactively for all Californians",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:26:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The California Racial Justice Act can be applied retroactively for all Californians.\",\n    \"AB 2542 prohibits the use of race, ethnicity, or national origin in sentencing and convictions.\",\n    \"Many incarcerated Californians have had their convictions upheld despit",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The California Racial Justice Act can be applied retroactively for all Californians.\",\n    \"AB 2542 prohibits the use of race, ethnicity, or national origin in sentencing and convictions.\",\n    \"Many incarcerated Californians have had their convictions upheld despite blatantly racist statements and practices in the court system.\",\n    \"Systemic racial disparities have fueled mass incarceration in California.\",\n    \"Four out of every ten people incarcerated in California state prison are African American men, representing a ten times higher imprisonment rate compared to white men.\",\n    \"African American women are imprisoned in California at five times the rate of white women.\",\n    \"The California Racial Justice Act is a countermeasure to a legal precedent established by the U.S. Supreme Court in McCleskey v. Kemp.\",\n    \"The McCleskey decision requires that criminal defendants prove intentional discrimination when challenging racial bias, making it difficult to remedy such bias.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3c0f9d6866113a779b5c7cae3f9e846ace5569e0"
+}

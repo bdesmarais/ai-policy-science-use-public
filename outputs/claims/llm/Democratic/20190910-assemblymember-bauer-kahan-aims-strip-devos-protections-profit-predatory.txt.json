@@ -1,0 +1,13 @@
+{
+  "press_release": "20190910-assemblymember-bauer-kahan-aims-strip-devos-protections-profit-predatory.txt",
+  "party": "Democratic",
+  "title": "AB 1344, which enhances State oversight and establishes protections against online college scandals and issues of accreditation, heads to Governor Newsom",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1344 enhances State oversight and establishes protections against online college scandals and issues of accreditation.\",\n    \"AB 1344 protects nearly 100,000 California students enrolled in online colleges by increasing State oversight of out-of-state, online, for-pro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1344 enhances State oversight and establishes protections against online college scandals and issues of accreditation.\",\n    \"AB 1344 protects nearly 100,000 California students enrolled in online colleges by increasing State oversight of out-of-state, online, for-profit institutions.\",\n    \"Out-of-state online for-profit institutions have a history of accreditation issues and misleading students.\",\n    \"Student borrowers default on their student loans at a much higher rate after enrolling in deceptive and predatory out-of-state colleges compared to those who enroll in in-state institutions.\",\n    \"In-state institutions must operate under significantly higher standards than out-of-state online for-profit colleges.\",\n    \"Online for-profit colleges often promise employment and counseling benefits to students after completing their degree programs, which they frequently fail to provide.\",\n    \"AB 1344 would apply existing regulations to online for-profit institutions and establish a complaint-based process for student protections.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6f08bd1129c5ec15e52ab77f70d8a88613d425ee"
+}

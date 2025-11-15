@@ -1,0 +1,13 @@
+{
+  "press_release": "20200109-assemblymember-ash-kalra-releases-statement-governors-office-health.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Ash Kalra (D-San Jose) today responded to Governor Gavin Newsom’s announcement proposing the establishment of an Office of Health Care Affordability:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:13:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The establishment of an Office of Health Care Affordability is a step forward in addressing rising health care costs.\",\n    \"Many individuals forego needed medical treatment due to increasing health care costs.\",\n    \"The escalating cost of health care contributes to wag",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The establishment of an Office of Health Care Affordability is a step forward in addressing rising health care costs.\",\n    \"Many individuals forego needed medical treatment due to increasing health care costs.\",\n    \"The escalating cost of health care contributes to wage stagnation and income inequality in California.\",\n    \"If left unchecked, health care costs will become unsustainable for working families and employers.\",\n    \"Assembly Bill 3087 changed the conversation about health care affordability to focus on controlling rising costs.\",\n    \"Assembly Bill 731 aims to increase transparency in health care costs.\",\n    \"Hospital costs and physician services account for 75% of the overall projected premium dollar in 2018.\",\n    \"The United States spends 18% of its GDP on health care, which is twice as much as other industrialized nations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a2c01362eb3f059e8c230646705fdcec54005bf0"
+}

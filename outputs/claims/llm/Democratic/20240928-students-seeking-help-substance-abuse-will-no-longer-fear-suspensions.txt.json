@@ -1,0 +1,13 @@
+{
+  "press_release": "20240928-students-seeking-help-substance-abuse-will-no-longer-fear-suspensions.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California students will no longer be suspended for voluntarily disclosing their use of substances when seeking help.\",\n    \"The implementation of AB 2711 can be lifesaving for youth struggling with substance abuse.\",\n    \"Allowing students to come forward without fear o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California students will no longer be suspended for voluntarily disclosing their use of substances when seeking help.\",\n    \"The implementation of AB 2711 can be lifesaving for youth struggling with substance abuse.\",\n    \"Allowing students to come forward without fear of suspension is a proactive approach to addressing addiction.\",\n    \"California Department of Education data indicates that 13 percent of 7th graders used alcohol to get drunk, increasing to 52 percent by grade 11.\",\n    \"44 percent of 11th graders have used cold or cough medicine, and 22 percent have used prescription pain medications to get high four or more times in their lives.\",\n    \"More than 59 percent of drug-related suspensions are for boys.\",\n    \"More than 83 percent of drug-related suspensions are for socioeconomically disadvantaged students.\",\n    \"83 percent of drug-related suspensions are for youth of color.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "650d5409126dfb28ddfe52b46915df382ec421b7"
+}

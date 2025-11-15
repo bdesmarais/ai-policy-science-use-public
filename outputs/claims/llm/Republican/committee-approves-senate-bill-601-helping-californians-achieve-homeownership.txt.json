@@ -1,0 +1,13 @@
+{
+  "press_release": "committee-approves-senate-bill-601-helping-californians-achieve-homeownership.txt",
+  "party": "Republican",
+  "title": "en español",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California has the highest median home prices for single-family homes in the nation, exceeding $750,000.\",\n    \"The current capital gains exclusion when selling a home to a first-time buyer is $250,000 for single filers and $500,000 for joint filers.\",\n    \"Senate B",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California has the highest median home prices for single-family homes in the nation, exceeding $750,000.\",\n    \"The current capital gains exclusion when selling a home to a first-time buyer is $250,000 for single filers and $500,000 for joint filers.\",\n    \"Senate Bill 601 proposes to increase the capital gains exclusion to $300,000 for single filers and $600,000 for joint filers when selling to first-time buyers.\",\n    \"California is ranked as the toughest state in the nation for first-time homebuyers due to high housing costs and a tight market.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e7ac510b1e776a6e6358486f120b064cbaf38e91"
+}

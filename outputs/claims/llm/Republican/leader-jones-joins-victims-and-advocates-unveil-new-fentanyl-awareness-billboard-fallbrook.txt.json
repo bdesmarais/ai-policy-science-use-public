@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-joins-victims-and-advocates-unveil-new-fentanyl-awareness-billboard-fallbrook.txt",
+  "party": "Republican",
+  "title": "Last week, Senate Minority Leader Brian W. Jones ( R-San Diego ) joined parents and families of fentanyl overdose victims to unveil a new billboard raising awareness about the dead",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Every week, fentanyl poisoning claims the lives of over 110 Californians.\",\n    \"98% of seized fentanyl entering the U.S. comes through the U.S.-Mexico border.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Every week, fentanyl poisoning claims the lives of over 110 Californians.\",\n    \"98% of seized fentanyl entering the U.S. comes through the U.S.-Mexico border.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c415d1db0e4d3ab08fae596f2fb35389f8f9585d"
+}

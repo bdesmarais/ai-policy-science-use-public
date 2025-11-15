@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-beckers-bill-to-increase-access-to-affordable-housing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO— Today the California State Assembly Committee on Housing and Community Development voted unanimously to approve Senate Bill 341, authored by State Senator Josh Becker ,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 341 aims to stop penalizing developers who provide affordable housing in less housing-friendly jurisdictions.\",\n    \"SB 341 helps unlock state funding for affordable housing by removing penalties against private developers in non-compliant cities and counties",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 341 aims to stop penalizing developers who provide affordable housing in less housing-friendly jurisdictions.\",\n    \"SB 341 helps unlock state funding for affordable housing by removing penalties against private developers in non-compliant cities and counties.\",\n    \"SB 341 ensures fair treatment of affordable housing developments in all areas of California when accessing state funding.\",\n    \"SB 948 frees up an estimated $40 million per year in rarely-used funds for more pressing affordable housing needs.\",\n    \"SB 591 authorizes the establishment of intergenerational housing developments for senior citizens, caregivers, and transition age youths.\",\n    \"SB 591 increases the production of affordable housing units and addresses homelessness by allowing developments that serve both seniors and transition age youth.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "851648dfbdb07dfde9f710a3ee8725a38de0cb70"
+}

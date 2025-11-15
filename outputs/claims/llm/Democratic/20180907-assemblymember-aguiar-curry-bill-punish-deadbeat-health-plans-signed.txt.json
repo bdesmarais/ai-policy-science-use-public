@@ -1,0 +1,13 @@
+{
+  "press_release": "20180907-assemblymember-aguiar-curry-bill-punish-deadbeat-health-plans-signed.txt",
+  "party": "Democratic",
+  "title": "AB 2674, by Assemblymember Cecilia Aguiar-Curry (D-Winters) was signed into law today by Governor Jerry Brown. The new law will require the Department of Managed Health Care (DMHC)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2674 will require the Department of Managed Health Care (DMHC) to annually review complaints filed by providers who believe a health care service plan is engaging in an 'unfair payment pattern.'\",\n    \"The new law aims to deter health care service plans from purposefu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2674 will require the Department of Managed Health Care (DMHC) to annually review complaints filed by providers who believe a health care service plan is engaging in an 'unfair payment pattern.'\",\n    \"The new law aims to deter health care service plans from purposefully underpaying providers in order to increase profits by increasing the opportunities for DMHC to discover dishonest business behavior.\",\n    \"If the DMHC identifies a violation or a pattern of improper activity, the provider will be repaid for the amount they are owed with interest.\",\n    \"AB 2674 grants greater discretion to the DMHC in determining if a health care service plan has engaged in a pattern of violating the Knox Keene Act.\",\n    \"Health plans that profit from taking advantage of the system will become easier targets under the enforcement provisions of AB 2674.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4bacc3267645529461e74007633d88702af738e5"
+}

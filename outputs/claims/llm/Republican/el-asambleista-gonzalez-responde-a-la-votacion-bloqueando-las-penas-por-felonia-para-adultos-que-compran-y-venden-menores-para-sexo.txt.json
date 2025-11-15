@@ -1,0 +1,13 @@
+{
+  "press_release": "el-asambleista-gonzalez-responde-a-la-votacion-bloqueando-las-penas-por-felonia-para-adultos-que-compran-y-venden-menores-para-sexo.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Hoy, el Asambleísta Jeff Gonzalez (R-Indio) emitió la siguiente declaración en respuesta a la decisión profundamente preocupante de la súper mayoría de California a vo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5a01169c8f7ddb8f0ccd44122d6bd60f783f4a66"
+}

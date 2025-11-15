@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-introduces-bill-tackle-youth-fentanyl-crisis.txt",
+  "party": "Democratic",
+  "title": "On the first day of Legislative Session, State Senator Dave Cortese (D-San Jose) introduced legislation to prevent opioid and fentanyl overdoses and death among California’s youth.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Bill (SB) 10 will expand statewide prevention and education efforts to combat opioid and fentanyl overdoses among California’s youth.\",\n    \"The Santa Clara County Fentanyl Working Group has saved the lives of two students in San Jose in one month.\",\n    \"Senator",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Bill (SB) 10 will expand statewide prevention and education efforts to combat opioid and fentanyl overdoses among California’s youth.\",\n    \"The Santa Clara County Fentanyl Working Group has saved the lives of two students in San Jose in one month.\",\n    \"Senator Cortese believes that solutions to the fentanyl crisis must include universal preventative measures that will result in lifesaving outcomes for youth.\",\n    \"Narcan kits and training provided to school staff in Santa Clara County have already been successfully used to save students' lives.\",\n    \"Fentanyl was responsible for one in five youth deaths (ages 15-to-24) in California last year.\",\n    \"In one year alone (2019-2020), fentanyl overdoses among youth nearly doubled.\",\n    \"Fentanyl and other synthetic opioids were responsible for more than 105,000 deaths in America from October 2020 to October 2021.\",\n    \"69,000 deaths during that period were caused by fentanyl.\",\n    \"Fentanyl is responsible for more deaths among youth than all other drugs combined.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "db06be422bd4eb017c5da6233b76f5ffe07a428f"
+}

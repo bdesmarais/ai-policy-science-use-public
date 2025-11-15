@@ -1,0 +1,13 @@
+{
+  "press_release": "20190422-state-assembly-votes-invest-green-infrastructure.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"67% of Southern California beaches are under threat of vanishing by the year 2100.\",\n    \"Green infrastructure is less expensive than conventional gray infrastructure, which can be costly to maintain.\",\n    \"Natural restoration projects not only protect the coast but als",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"67% of Southern California beaches are under threat of vanishing by the year 2100.\",\n    \"Green infrastructure is less expensive than conventional gray infrastructure, which can be costly to maintain.\",\n    \"Natural restoration projects not only protect the coast but also restore ecosystems, improve recreation, and support coastal economies.\",\n    \"Natural infrastructure, such as beaches, wetlands, reefs, and parks, can play a critical role in protecting communities from climate change impacts.\",\n    \"Using natural infrastructure to respond to sea level rise is possible and sensible.\",\n    \"Sea level rise threatens California's coastal ecosystems, communities, and economy.\",\n    \"Natural infrastructure has been proven to be equally if not more effective than built alternatives when designed to mimic natural processes and preserve biodiversity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a738aded0c4d8f9518a8137521d4bd1d6477dc39"
+}

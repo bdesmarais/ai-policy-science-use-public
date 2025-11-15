@@ -1,0 +1,13 @@
+{
+  "press_release": "media-availability-senator-cortese-introduces-legislation-provide-universal-basic-income-ubi.txt",
+  "party": "Democratic",
+  "title": "WHAT: Senator Dave Cortese (D-San Jose), is available to discuss a new bill he has introduced, SB 739, the “Universal Basic Income for Transition Age Foster Youth Act”, which would",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"In 2019, there were 20,000 children in the United States who aged out of foster care without ever finding a permanent placement with families.\",\n    \"Children who have been in the U.S. foster care system are at a significantly higher risk of mental and physical health pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"In 2019, there were 20,000 children in the United States who aged out of foster care without ever finding a permanent placement with families.\",\n    \"Children who have been in the U.S. foster care system are at a significantly higher risk of mental and physical health problems than children who haven’t been in foster care.\",\n    \"Foster youth face significant disadvantages compared to their peers in the general population, including unfavorable employment outcomes, physical and mental health issues, and low rates of educational attainment.\",\n    \"Research shows that remaining in Extended Foster Care improves the likelihood of favorable outcomes for Transition Age Youth (TAY).\",\n    \"Abruptly cutting off the majority of resources for TAY Youth at age 21 has negative consequences.\",\n    \"Universal basic income (UBI) can serve as a lifeline for foster youth in a post-pandemic world.\",\n    \"A growing body of evidence suggests that UBI can reduce health inequities and increase career and educational opportunities.\",\n    \"Senator Cortese launched the first program in the nation to provide UBI to young adults transitioning out of foster care in Santa Clara County.\",\n    \"Transitioning young adults who age out of the foster care system in Santa Clara County receive direct cash payments of $1,000 a month for one year under the UBI program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2840f0e3bb2bc4c8832cafde5dcc808ee1e6144d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20231007-statement-assemblymember-boerner-governors-veto-ab-719.txt",
+  "party": "Democratic",
+  "title": "Contact: Rob Charles | 916-319-3362 |",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:10:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b47618b67bbd84eb2207f1a28e7df296a480a392"
+}

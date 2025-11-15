@@ -1,0 +1,13 @@
+{
+  "press_release": "20210528-release-legislation-cut-unnecessary-green-tape-passes-1st-house.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – With bipartisan support in the Legislature, AB 72 – The 2021 Coastal Adaptation Permitting Act – passed out of the Assembly. AB 72, authored by Assemblywoman Cottie Pe",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:28:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Scientists have identified promising nature-based coastal adaptation initiatives to help mitigate the effects of sea-level rise.\",\n    \"Rehabilitation of tidal marshes can buffer rising tides.\",\n    \"Replacing shoreline armoring with living shorelines is a viable coastal",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Scientists have identified promising nature-based coastal adaptation initiatives to help mitigate the effects of sea-level rise.\",\n    \"Rehabilitation of tidal marshes can buffer rising tides.\",\n    \"Replacing shoreline armoring with living shorelines is a viable coastal adaptation strategy.\",\n    \"Beach nourishments and planting vegetation are part of nature-based coastal adaptation initiatives.\",\n    \"Using natural breakwaters of oysters can dissipate wave action and protect shorelines.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1190fdf800bac62a8e5fa720ec73f1ebfbe6f42e"
+}

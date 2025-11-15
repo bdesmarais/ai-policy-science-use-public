@@ -1,0 +1,13 @@
+{
+  "press_release": "20250613-assemblymember-alex-lee-responds-trump-administrations-release-medicaid.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Alex Lee released the following statement after the Trump administration’s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:38:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f927a8b8f84f7f0bf4a85ffcbc3b7530d3d5be91"
+}

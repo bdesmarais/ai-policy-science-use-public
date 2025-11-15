@@ -1,0 +1,13 @@
+{
+  "press_release": "20170716-berman-supports-passage-bills-extend-cap-and-trade-and-address-air-quality.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 398 extends California’s cap-and-trade program until December 31, 2030.\",\n    \"AB 398 requires the Air Resources Board to develop ways to increase offset projects with direct environmental benefits in California.\",\n    \"Under AB 398, 50 percent of offset projects must",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 398 extends California’s cap-and-trade program until December 31, 2030.\",\n    \"AB 398 requires the Air Resources Board to develop ways to increase offset projects with direct environmental benefits in California.\",\n    \"Under AB 398, 50 percent of offset projects must be located in California.\",\n    \"The Legislative Analyst’s Office will annually report on the economic impacts and benefits of greenhouse gas reduction efforts under AB 398.\",\n    \"AB 617 addresses air quality and pollution control issues, including increasing penalties against violators of air quality regulations.\",\n    \"AB 617 requires the retrofit of air pollution control devices at industrial facilities that are part of the cap-and-trade program using the best available retrofit control technology.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0c234ffbc1049de6e121296cb7f4d63ef1a61b75"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20191010-governor-signs-first-nation-legislation-assemblymember-ash-kalra.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Governor Gavin Newsom today signed Assembly Bill (AB) 1162, authored by Assemblymember Ash Kalra (D-San Jose), effectively restricting the use of tiny plastic toiletri",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has become the first state in the country to restrict the use of tiny plastic toiletries in hotels and lodging establishments.\",\n    \"Single-use products like tiny plastic bottles in hotels contribute significantly to waste that can be replaced with more susta",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has become the first state in the country to restrict the use of tiny plastic toiletries in hotels and lodging establishments.\",\n    \"Single-use products like tiny plastic bottles in hotels contribute significantly to waste that can be replaced with more sustainable alternatives.\",\n    \"The legislation is expected to help reduce the impact of plastic waste in the environment by eliminating the use of small single-use toiletry bottles in hotels.\",\n    \"It is estimated that billions of half-full plastic bottles are thrown away every year, leading to significant environmental waste.\",\n    \"The phase-out of tiny bottles of personal care products is being implemented by major hotel chains including Marriott International and InterContinental Group.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1a761b4bc6512cde45687f93c53f684b510ddbf2"
+}

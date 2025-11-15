@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-joins-socal-gas-unveiling-renewable-hydrogen-microgrid.txt",
+  "party": "Democratic",
+  "title": "DOWNEY, CA – Senator Bob Archuleta (D-Pico Rivera) joined SoCalGas, Lieutenant Governor Eleni Kounalakis, Assemblymember Blanca Pacheco, labor leaders and renewable hydrogen fuel p",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The H2 Innovation Experience is the nation’s first-of-its-kind renewable hydrogen Microgrid powered home.\",\n    \"The H2 Innovation Experience hydrogen home demonstrates how renewable hydrogen can be delivered to homes safely and effectively around the clock.\",\n    \"The p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The H2 Innovation Experience is the nation’s first-of-its-kind renewable hydrogen Microgrid powered home.\",\n    \"The H2 Innovation Experience hydrogen home demonstrates how renewable hydrogen can be delivered to homes safely and effectively around the clock.\",\n    \"The project demonstrates resiliency by providing a way to power homes other than the electric grid.\",\n    \"SoCalGas aims to have net zero greenhouse gas emissions by 2045.\",\n    \"The microgrid at the H2 Innovation Experience produces clean, renewable hydrogen made from solar electricity on-site.\",\n    \"Co-locating hydrogen production near end-uses will improve best practices ranging from distribution to conversion and potential energy losses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fa1fe1e446784d29a3b2e791d7548390c08c58b7"
+}

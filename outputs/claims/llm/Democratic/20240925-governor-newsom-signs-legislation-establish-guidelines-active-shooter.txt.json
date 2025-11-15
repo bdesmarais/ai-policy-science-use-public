@@ -1,0 +1,13 @@
+{
+  "press_release": "20240925-governor-newsom-signs-legislation-establish-guidelines-active-shooter.txt",
+  "party": "Democratic",
+  "title": "(",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Safe and Prepared Schools Act aims to provide clear guidance on implementing active shooter drills in schools.\",\n    \"There is a lack of guidance from the California Department of Education regarding active shooter drills.\",\n    \"Mock drills have caused mass confusio",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Safe and Prepared Schools Act aims to provide clear guidance on implementing active shooter drills in schools.\",\n    \"There is a lack of guidance from the California Department of Education regarding active shooter drills.\",\n    \"Mock drills have caused mass confusion and panic among school staff and parents.\",\n    \"Active shooter drills have been linked to increased depression, anxiety, and stress among students.\",\n    \"The efficacy of active shooter drills in preventing school shootings is not well supported by evidence.\",\n    \"The Safe and Prepared Schools Act includes guidelines for age-appropriate drills for students.\",\n    \"The Act mandates parental notification before and after active shooter drills.\",\n    \"The use of simulated fire in school shooter drills is prohibited by the Safe and Prepared Schools Act.\",\n    \"The implementation of standardized guidelines for school shooter drills aims to minimize negative psychological impacts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b500fd1951e1fc66f55d8a2cafd8bbf076f4ce73"
+}

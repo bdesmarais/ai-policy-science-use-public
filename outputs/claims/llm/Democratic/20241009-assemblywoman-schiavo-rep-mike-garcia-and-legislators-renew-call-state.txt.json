@@ -1,0 +1,13 @@
+{
+  "press_release": "20241009-assemblywoman-schiavo-rep-mike-garcia-and-legislators-renew-call-state.txt",
+  "party": "Democratic",
+  "title": "SANTA CLARITA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Residents of Val Verde, Castaic, and students of nearby schools have been subjected to prolonged exposure to harmful emissions.\",\n    \"Prolonged exposure to harmful emissions has led to health issues including headaches, nausea, asthma, heart palpitations, and a newly id",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Residents of Val Verde, Castaic, and students of nearby schools have been subjected to prolonged exposure to harmful emissions.\",\n    \"Prolonged exposure to harmful emissions has led to health issues including headaches, nausea, asthma, heart palpitations, and a newly identified cancer cluster.\",\n    \"On a street of 14 houses, seven neighbors have been fighting cancer, and one has passed away.\",\n    \"The landfill has been releasing harmful gases into surrounding communities since the reaction escalated in 2023.\",\n    \"The temperature of the fire deep in the landfill remains steady at around 200 degrees.\",\n    \"Surrounding communities continue to be exposed to toxic and cancer-causing chemicals such as benzene and carbon tetrachloride.\",\n    \"Benzene and carbon tetrachloride are known cancer-causing chemicals identified by the Los Angeles County Department of Public Health.\",\n    \"The health and safety of residents is of primary importance, and the community's need for support remains pressing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e2321837228cf13c8297f5e9cacbab8249c889bc"
+}

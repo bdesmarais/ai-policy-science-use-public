@@ -1,0 +1,13 @@
+{
+  "press_release": "legislative-republicans-call-on-newsom-to-detail-costs-of-gas-storage-mandate-steps-to-mitigate-shortages.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – In a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Energy Commission warned that the fuel storage mandate may artificially create shortages in downstream markets.\",\n    \"The fuel storage mandate could increase average prices for refiners to maintain additional storage.\",\n    \"Legislative Republicans claim ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Energy Commission warned that the fuel storage mandate may artificially create shortages in downstream markets.\",\n    \"The fuel storage mandate could increase average prices for refiners to maintain additional storage.\",\n    \"Legislative Republicans claim that the governor's plan will increase costs for drivers.\",\n    \"Senate Minority Leader Brian W. Jones stated that SB 950 will increase gas prices and further burden financially strapped Californians.\",\n    \"The Republican lawmakers inquired about the expected impact on retail fuel prices of requiring refiners to withhold inventory from the market.\",\n    \"The Republican lawmakers questioned how the governor plans to mitigate or prevent fuel shortages if SB 950 becomes law.\",\n    \"There is a concern that California's energy policies could destabilize the fuels market and increase costs in neighboring states.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "961cf71c7fe7c0130fdbefe53bc6df981362a41f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-bill-stemmed-vta-tragedy.txt",
+  "party": "Democratic",
+  "title": "Governor Gavin Newsom signed into law SB 1294 authored by Senator Dave Cortese, (D-San Jose), Chair of the Senate Labor, Public Employment and Retirement Committee, that will addre",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Workplace violence is on the rise.\",\n    \"There have been 37 mass workplace shootings between 2009 and 2021.\",\n    \"Five of those 37 mass workplace shootings occurred in the Spring of last year.\",\n    \"Individuals that commit workplace attacks are likely to be reacting t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Workplace violence is on the rise.\",\n    \"There have been 37 mass workplace shootings between 2009 and 2021.\",\n    \"Five of those 37 mass workplace shootings occurred in the Spring of last year.\",\n    \"Individuals that commit workplace attacks are likely to be reacting to stress or pain in the workplace.\",\n    \"A recent study of workplace shootings between 2011 and 2015 showed that out of over 1,000 shootings, three quarters involved an argument or conflict.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5004baf82445c8eb06442ad1b2d49377ea1ce136"
+}

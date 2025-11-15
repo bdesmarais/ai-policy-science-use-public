@@ -1,0 +1,13 @@
+{
+  "press_release": "20230522-ramos-bill-exemption-military-pensions-heads-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Military retirees and their surviving spouses are one step closer to seeing their armed forces pensions exempt from state taxation after the Assembly today approved AB 4",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is the only state to tax the pensions of military personnel.\",\n    \"Military retirees contribute to California's workforce development after retirement.\",\n    \"California has the largest number of active-duty military personnel in the country.\",\n    \"Californi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is the only state to tax the pensions of military personnel.\",\n    \"Military retirees contribute to California's workforce development after retirement.\",\n    \"California has the largest number of active-duty military personnel in the country.\",\n    \"California's military retiree population has been in steady decline since 2010.\",\n    \"California loses millions of dollars in federal funds that follow military retirees after retirement.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cf346200c6347fba90364bb75f31a43e4f9da1df"
+}

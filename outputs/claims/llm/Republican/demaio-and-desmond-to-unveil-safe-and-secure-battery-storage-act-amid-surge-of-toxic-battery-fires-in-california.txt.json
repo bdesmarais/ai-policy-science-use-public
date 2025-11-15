@@ -1,0 +1,13 @@
+{
+  "press_release": "demaio-and-desmond-to-unveil-safe-and-secure-battery-storage-act-amid-surge-of-toxic-battery-fires-in-california.txt",
+  "party": "Republican",
+  "title": "With Wave of Toxic Battery Fires and Forced Evacuations Hitting California, DeMaio and Desmond Unveil the “Safe and Secure Battery Storage Act” (AB 434)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is building large-scale lithium-ion battery storage facilities in residential neighborhoods with virtually no safety regulations.\",\n    \"These battery storage facilities are known fire hazards that can ignite, burn for days, release toxic smoke, and require ma",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is building large-scale lithium-ion battery storage facilities in residential neighborhoods with virtually no safety regulations.\",\n    \"These battery storage facilities are known fire hazards that can ignite, burn for days, release toxic smoke, and require mass evacuations.\",\n    \"The current permitting process for battery storage sites in California overrides local governments and ignores community safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "322673c98f77ac6b030130c43901f1b3e5db83fc"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "putting-unused-medication-in-the-hands-those-who-cant-afford.txt",
+  "party": "Democratic",
+  "title": "SB 1346 Allows Santa Clara, San Mateo & San Francisco Counties to Create A Regional Free Pharmacy To Help Those In Need",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Nearly 1 in 4 Americans skip doses or don’t get prescriptions filled because they can’t afford to.\",\n    \"The annual financial cost of discarded medications in skilled nursing facilities is estimated to be $2 billion, $100 million of which is in California.\",\n    \"From A",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Nearly 1 in 4 Americans skip doses or don’t get prescriptions filled because they can’t afford to.\",\n    \"The annual financial cost of discarded medications in skilled nursing facilities is estimated to be $2 billion, $100 million of which is in California.\",\n    \"From August 2015 to January 2022, the Better Health Pharmacy dispensed 152,039 prescriptions to patients, saving the county an estimated $8.5 million.\",\n    \"Better Health Pharmacy is California’s first and only surplus drug redistribution pharmacy.\",\n    \"There is huge potential — and huge need — for more work to connect thousands of patients in need with surplus medication that is going to waste each year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d3bd294bf0d9c1d1fad3947747706c84e97cb3db"
+}

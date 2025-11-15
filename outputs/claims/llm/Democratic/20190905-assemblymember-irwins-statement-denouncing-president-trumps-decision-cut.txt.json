@@ -1,0 +1,13 @@
+{
+  "press_release": "20190905-assemblymember-irwins-statement-denouncing-president-trumps-decision-cut.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) – “The Trump administration’s decision to redirect necessary funding from the military is short-sighted and unnecessarily risky,” said Assemblymember Jacqui Irwin.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "facdb87bab06d64d0a0fa01d5851793cf26c2158"
+}

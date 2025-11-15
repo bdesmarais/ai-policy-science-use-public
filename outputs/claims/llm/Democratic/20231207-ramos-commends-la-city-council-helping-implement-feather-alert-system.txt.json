@@ -1,0 +1,54 @@
+{
+  "press_release": "20231207-ramos-commends-la-city-council-helping-implement-feather-alert-system.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Assemblymember James C. Ramos (D-San Bernardino) issued the following statement today after the Los Angeles City Council unanimously approved a motion recently requestin",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Feather Alert system alerts the public when a Native American individual goes missing, similar to AMBER alerts.\"\n    },\n    {\n      \"claim_text\": \"More than 70 percent of California Native Americans live in urban areas.\"\n    },\n    {\n      \"clai",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Feather Alert system alerts the public when a Native American individual goes missing, similar to AMBER alerts.\"\n    },\n    {\n      \"claim_text\": \"More than 70 percent of California Native Americans live in urban areas.\"\n    },\n    {\n      \"claim_text\": \"Los Angeles is home to the largest Native American population in the nation with more than 270,000 enrolled members from tribes from across the country.\"\n    },\n    {\n      \"claim_text\": \"Collaboration between local law enforcement and Native American communities is essential for effectively using the Feather Alert system.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The Feather Alert system alerts the public when a Native American individual goes missing, similar to AMBER alerts.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "More than 70 percent of California Native Americans live in urban areas.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Los Angeles is home to the largest Native American population in the nation with more than 270,000 enrolled members from tribes from across the country.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Collaboration between local law enforcement and Native American communities is essential for effectively using the Feather Alert system.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 4,
+  "doc_sha1": "0e65e3194ad2e8e89bd8c4a4faafd1189eddaa74"
+}

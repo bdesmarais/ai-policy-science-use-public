@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-vince-fong-and-local-officials-encourage-emergency-preparedness.txt",
+  "party": "Republican",
+  "title": "The City of Visalia declared a local State of Emergency amidst the recent storms. More rain is expected in the coming week. While no evacuations are anticipated at this time, the C",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "478792d4d6084312c95988e184c2ecc56d0bcbcb"
+}

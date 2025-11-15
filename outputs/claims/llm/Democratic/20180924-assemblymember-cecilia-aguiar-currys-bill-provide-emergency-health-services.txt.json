@@ -1,0 +1,13 @@
+{
+  "press_release": "20180924-assemblymember-cecilia-aguiar-currys-bill-provide-emergency-health-services.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:03:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The roughly 1,300 community health centers in California provide high-quality comprehensive care to 6.5 million people.\",\n    \"Community clinics provide the full spectrum of care, including primary care, dental and behavioral care, to everyone, regardless of ability to p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The roughly 1,300 community health centers in California provide high-quality comprehensive care to 6.5 million people.\",\n    \"Community clinics provide the full spectrum of care, including primary care, dental and behavioral care, to everyone, regardless of ability to pay or individual circumstances.\",\n    \"Current rules restrict health providers from delivering health services in the field when a clinic is damaged or burned down.\",\n    \"The 2017 wildfire season was one of the worst in California's history, impacting nearly two dozen health center corporations.\",\n    \"AB 2576 will clarify state law to ensure that during an emergency providers can conduct telephonic appointments with patients and provide check-ups at shelters.\",\n    \"AB 2576 will create an accelerated Board of Pharmacy permitting process for health centers to establish temporary pharmacy sites when the clinic is inaccessible.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8cde4fe7ca2c6c27ca1323e61895cc83f27f774f"
+}

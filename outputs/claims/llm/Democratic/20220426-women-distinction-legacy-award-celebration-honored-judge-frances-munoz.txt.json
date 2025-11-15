@@ -1,0 +1,13 @@
+{
+  "press_release": "20220426-women-distinction-legacy-award-celebration-honored-judge-frances-munoz.txt",
+  "party": "Democratic",
+  "title": "On Thursday, April 21, Assemblywoman Cottie Petrie-Norris along with Girls Inc. co-hosted an event where six women were recognized for their distinguished service and leadership wi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:40:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bfe131e198c5b740eba4a65e7d2d690f673551a0"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240214-berman-introduces-bill-combat-voter-intimidation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"AB 2642 strengthens safeguards allowing voters to cast their ballot free from interference and intimidation.\",\n    \"AB 2642 updates existing anti-intimidation laws passed under the Voting Rights Act of 1965 for the current era of increased gun violence and election ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"AB 2642 strengthens safeguards allowing voters to cast their ballot free from interference and intimidation.\",\n    \"AB 2642 updates existing anti-intimidation laws passed under the Voting Rights Act of 1965 for the current era of increased gun violence and election denialism.\",\n    \"The presence of guns in proximity to elections can be presumptively intimidating.\",\n    \"AB 2642 creates a first-in-the-nation policy to protect both voters and election workers.\",\n    \"AB 2642 establishes a presumption that a person openly carrying a firearm while engaging in election-related activities is also engaging in voter intimidation.\",\n    \"AB 2642 provides civil remedies for individuals who experience voter intimidation.\",\n    \"A nationwide poll found that over half of election workers are concerned that threats, harassment, and intimidation may harm retention and recruitment efforts.\",\n    \"30% of election workers admitted to personally experiencing abuse, harassment, or threats due to their role.\",\n    \"In California, 44% of voters will see a different election administrator in 2024 than the one who administered the 2020 election.\",\n    \"The United States Supreme Court has recognized that states have the authority to restrict the carrying of firearms in sensitive places, including polling places.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "82f7d325fc86b2e2c26e62562fb5cd30070b9e88"
+}

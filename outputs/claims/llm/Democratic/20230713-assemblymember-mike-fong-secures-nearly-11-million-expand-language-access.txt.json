@@ -1,0 +1,13 @@
+{
+  "press_release": "20230713-assemblymember-mike-fong-secures-nearly-11-million-expand-language-access.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Mike Fong secured $10.8 million in the 2023-2024 state budget for language access initiatives.\",\n    \"$6.8 million is allocated to increase the number of court interpreters.\",\n    \"$4 million is allocated to educate the public and law enforcement personnel",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Mike Fong secured $10.8 million in the 2023-2024 state budget for language access initiatives.\",\n    \"$6.8 million is allocated to increase the number of court interpreters.\",\n    \"$4 million is allocated to educate the public and law enforcement personnel on protective orders in at least 10 of the most commonly spoken languages other than English.\",\n    \"The request to increase the number of court interpreters is based on AB 432, which aims to establish a Court Interpreter Workforce Pilot Program.\",\n    \"Funds will cover training, coursework, and exam fees for participants who will be employed by a court upon successful completion of the program.\",\n    \"Funds were secured in response to a tragic mass shooting in Monterey Park to raise public awareness of red flag laws.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ce806642207e9ccea013caa19b0c98c9cf800719"
+}

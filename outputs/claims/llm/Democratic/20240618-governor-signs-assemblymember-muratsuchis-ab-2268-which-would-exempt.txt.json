@@ -1,0 +1,13 @@
+{
+  "press_release": "20240618-governor-signs-assemblymember-muratsuchis-ab-2268-which-would-exempt.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The English Language Proficiency Assessments for California (ELPAC) is not developmentally appropriate for four-year-olds.\",\n    \"The ELPAC has not been proven valid and reliable for four-year-olds, as required by state and federal law.\",\n    \"Currently, the assessment u",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The English Language Proficiency Assessments for California (ELPAC) is not developmentally appropriate for four-year-olds.\",\n    \"The ELPAC has not been proven valid and reliable for four-year-olds, as required by state and federal law.\",\n    \"Currently, the assessment used for young English learner students leads to an over-identification of four-year-olds as English learners.\",\n    \"The assessment does not yield useful information about children's language proficiency and causes considerable distress to some children.\",\n    \"AB 2268 aims to create supports tailored to the needs and strengths of young multilingual learners.\",\n    \"California will have the largest universal preschool program in the nation by 2025-26 due to the expansion of the Transitional Kindergarten program.\",\n    \"California has a significant percentage of children ages 0-5 who speak or are exposed to multiple languages at home.\",\n    \"Assessment instruments designed for older students are inappropriate for Transitional Kindergarten students.\",\n    \"Using inappropriate assessments can lead to placing Transitional Kindergarten students on educational tracks that do not correspond to their abilities and needs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c12a98dee4ffd75b667e14dd68a41102cc0be833"
+}

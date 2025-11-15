@@ -1,0 +1,13 @@
+{
+  "press_release": "20220216-ab-2289-tax-extreme-wealth-reintroduced-california.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Alex Lee (D-San José) has reintroduced the tax on extreme wealth in California. Similar to the Ultra-Millionaire Tax Act proposed by Senator Elizabeth Warren, this t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The number of billionaires has increased by over 30% last year, equating to a new billionaire roughly every 17 hours.\",\n    \"The collective wealth of billionaires has increased by $5 trillion since last year.\",\n    \"The richest 25 Americans pay a tiny fraction of their w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The number of billionaires has increased by over 30% last year, equating to a new billionaire roughly every 17 hours.\",\n    \"The collective wealth of billionaires has increased by $5 trillion since last year.\",\n    \"The richest 25 Americans pay a tiny fraction of their wealth in taxes, with some able to pay little to nothing in income tax.\",\n    \"Effective tax rates for ultra-wealthy individuals are lower than for the average American.\",\n    \"The proposed wealth tax would apply a 1% tax on extreme wealth of $50 million or more per household and 1.5% on wealth in excess of one billion dollars.\",\n    \"Income and wealth is more concentrated in California than in the US overall, and this concentration and inequality has been growing.\",\n    \"The collective wealth of California billionaires surged from $300 billion a decade ago to $960 billion in January 2021.\",\n    \"The proposed wealth tax is estimated to raise about $22.3 billion per year.\",\n    \"It has been reported that the wealthiest Americans may be avoiding $163 billion in income taxes every year according to a report from the U.S. Department of the Treasury.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "800aa97502d17b7992c94be7266c29fa40f8cece"
+}

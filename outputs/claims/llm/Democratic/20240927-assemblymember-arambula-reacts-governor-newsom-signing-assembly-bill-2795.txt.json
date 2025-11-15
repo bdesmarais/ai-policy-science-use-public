@@ -1,0 +1,13 @@
+{
+  "press_release": "20240927-assemblymember-arambula-reacts-governor-newsom-signing-assembly-bill-2795.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Governor Gavin Newsom today signed Assembly Bill 2795 authored by Assemblymember Dr. Joaquin Arambula (D-Fresno).",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2795 reduces administrative barriers to CalWORKS and Temporary Assistance for Needy Families (TANF) services at Indian Health Clinics in California.\",\n    \"Current reporting and reimbursement requirements have rendered funds for Indian Health Clinics nearly",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2795 reduces administrative barriers to CalWORKS and Temporary Assistance for Needy Families (TANF) services at Indian Health Clinics in California.\",\n    \"Current reporting and reimbursement requirements have rendered funds for Indian Health Clinics nearly inaccessible.\",\n    \"Assembly Bill 2795 aims to provide tribal nations with better access to services such as CalWORKS and CalFresh.\",\n    \"The bill is intended to ensure equitable access to safety net programs for members of tribal communities.\",\n    \"The measure aims to ensure greatly needed and culturally responsive care in tribal communities.\",\n    \"The bill is designed to remove barriers to healthcare and boost employment for traditionally underserved populations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fd7078930c687c1304305ce735c2d50ad578bf70"
+}

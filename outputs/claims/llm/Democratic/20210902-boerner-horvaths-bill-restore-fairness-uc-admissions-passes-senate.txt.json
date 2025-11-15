@@ -1,0 +1,13 @@
+{
+  "press_release": "20210902-boerner-horvaths-bill-restore-fairness-uc-admissions-passes-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1215 installs a strict firewall between admissions and philanthropy staff to address incidents of bought-and-paid-for acceptances.\",\n    \"The bill requires verification of an applicant’s participation in a sport before and after their arrival on campus.\",\n    \"The imp",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1215 installs a strict firewall between admissions and philanthropy staff to address incidents of bought-and-paid-for acceptances.\",\n    \"The bill requires verification of an applicant’s participation in a sport before and after their arrival on campus.\",\n    \"The implementation of AB 1215 aims to restore integrity to the University of California system’s admission process.\",\n    \"A state-level audit requested by Assemblymember Boerner Horvath revealed inappropriate admissions of 64 wealthy applicants at UC campuses.\",\n    \"The audit found a lack of consistent decision criteria in UC admissions practices.\",\n    \"The State Auditor’s report indicated that internal recommendations did not address significant aspects of the UC admissions process.\",\n    \"The audit highlighted inadequate training and lack of monitoring of application reviewers in the UC admissions process.\",\n    \"The Office of the President lacks a minimum set of protocols and procedures to guard against improper admissions decisions.\",\n    \"The Office of the President has failed to monitor the admissions practices at all nine UC undergraduate campuses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8a40a11b85cbfebf539d5a9c9e935a62fc37c847"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "sex-trafficking-of-16-and-17-year-old-children-must-be-punished-with-a-felony.txt",
+  "party": "Republican",
+  "title": "Following pressure from the California Assembly Republicans, Democrat lawmakers refused to vote on a bill that would make purchasing a 16 or 17 child for sex a felony. Instead, Dem",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "28a75d1e3e7d28f21ccbffce8840f64790b681e3"
+}

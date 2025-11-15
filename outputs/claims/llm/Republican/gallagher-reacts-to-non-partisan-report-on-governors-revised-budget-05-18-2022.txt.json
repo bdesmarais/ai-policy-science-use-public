@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-reacts-to-non-partisan-report-on-governors-revised-budget-05-18-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republican Leader James Gallagher (R-Yuba City) issued the following statement on the recent reports released by the Legislative Analyst’s Office (LAO)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Legislative Analyst's Office (LAO) shows that Governor Newsom's budget surplus spending is ineffective and unsustainable.\",\n    \"The LAO confirms that suspending the gas tax is the most effective way to help curb the cost of gas.\",\n    \"The Governor's plan to provide",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Legislative Analyst's Office (LAO) shows that Governor Newsom's budget surplus spending is ineffective and unsustainable.\",\n    \"The LAO confirms that suspending the gas tax is the most effective way to help curb the cost of gas.\",\n    \"The Governor's plan to provide tax rebates for zero-emission vehicles does not help provide relief at the pump.\",\n    \"The Governor’s proposals set California up for a fiscal cliff in 2023.\",\n    \"The Governor is not allocating sufficient resources to the state's rainy day fund.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a57b8d36f3dc51ec7140664fe08beff8c2c88b8"
+}

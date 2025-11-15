@@ -1,0 +1,13 @@
+{
+  "press_release": "legislation-establish-clear-pipeline-restart-requirements-clears-first-committee.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) – On Tuesday, legislation by Senator Monique Limón to establish requirements for the approval and restart of oil pipelines in California passed out of the Senate Natur",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The oil pipeline restart process has been concerning from the moment this pipeline project began.\",\n    \"SB 542 seeks to provide a clear opportunity for the public to weigh in on the restart process.\",\n    \"SB 542 strengthens required integrity testing to better protect ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The oil pipeline restart process has been concerning from the moment this pipeline project began.\",\n    \"SB 542 seeks to provide a clear opportunity for the public to weigh in on the restart process.\",\n    \"SB 542 strengthens required integrity testing to better protect communities from a possible oil spill in the future.\",\n    \"Testing the integrity of a pipeline is vital to protecting the environment.\",\n    \"The testing process used in the pipeline that spilled in 2015 was not thorough enough to detect corrosion that eventually led to the spill.\",\n    \"A more comprehensive testing method, the hydrostatic test, seeks to better assess the safety and integrity of the pipeline.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6c55f8213cf0ae6578099f9577c03db8674268af"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240830-california-strengthens-landmark-gvro-law-hate-based-gun-violence-prevention.txt",
+  "party": "Democratic",
+  "title": "AB 2917, a bill designed to enhance the state's Gun Violence Restraining Order (GVRO) law by drawing the civil court’s attention to a broader set of risk factors, passed the Legisl",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Gun Violence Restraining Orders (GVROs) have proven to be one of the most effective tools for preventing gun violence before it occurs.\",\n    \"GVROs have been instrumental in preventing mass shootings and suicides.\",\n    \"Hate crimes involving racial, religious, sexual o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Gun Violence Restraining Orders (GVROs) have proven to be one of the most effective tools for preventing gun violence before it occurs.\",\n    \"GVROs have been instrumental in preventing mass shootings and suicides.\",\n    \"Hate crimes involving racial, religious, sexual orientation, and gender bias increased between 2021 and 2022.\",\n    \"There has been a rise in hate-motivated threats of violence and armed extremism over the last decade.\",\n    \"The Hate-Based Gun Violence Prevention Act will give public law offices more tools to prevent gun violence.\",\n    \"When warning signs such as threats of violence driven by hate or extremist ideologies are present, California has additional tools to prevent tragedies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6a79a619778714c65603e107b95ad683d06db1d1"
+}

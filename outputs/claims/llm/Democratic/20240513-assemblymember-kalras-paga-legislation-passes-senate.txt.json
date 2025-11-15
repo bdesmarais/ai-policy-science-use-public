@@ -1,0 +1,13 @@
+{
+  "press_release": "20240513-assemblymember-kalras-paga-legislation-passes-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:42:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2288 strengthens worker protection by allowing injunctive relief under the Private Attorneys General Act (PAGA).\",\n    \"Injunctive relief in PAGA claims enables courts to order employers to quickly correct and remediate workplace violations.\",\n    \"Injunctive relief c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2288 strengthens worker protection by allowing injunctive relief under the Private Attorneys General Act (PAGA).\",\n    \"Injunctive relief in PAGA claims enables courts to order employers to quickly correct and remediate workplace violations.\",\n    \"Injunctive relief could have expedited policy changes by allowing courts to direct employers like Google to change practices.\",\n    \"Forced arbitration agreements prevent employees from filing class actions for injunctive relief.\",\n    \"AB 2288 is the first PAGA reform in 20 years aimed at empowering workers to end wage theft and misclassification.\",\n    \"AB 2288 gives workers a stronger hand in seeking justice for wage theft and other employer wrongdoing.\",\n    \"By providing courts with greater tools under PAGA, AB 2288 allows for the compelling of employers to change their unethical behavior.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "97ba0934c0b8858717fb0787f69c3e34eba337a5"
+}

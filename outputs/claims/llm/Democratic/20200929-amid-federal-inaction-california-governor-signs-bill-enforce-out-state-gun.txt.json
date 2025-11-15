@@ -1,0 +1,13 @@
+{
+  "press_release": "20200929-amid-federal-inaction-california-governor-signs-bill-enforce-out-state-gun.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2617 ensures that California honors and enforces gun violence restraining orders (GVROs) issued in other states.\",\n    \"GVROs have proven to be a powerful tool that can prevent mass shootings and suicides and save lives.\",\n    \"Laws providing for GVROs have been enact",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2617 ensures that California honors and enforces gun violence restraining orders (GVROs) issued in other states.\",\n    \"GVROs have proven to be a powerful tool that can prevent mass shootings and suicides and save lives.\",\n    \"Laws providing for GVROs have been enacted in numerous other states.\",\n    \"California enacted the first Gun Violence Restraining Order law in 2014.\",\n    \"Nearly 20 states have empowered courts to take proactive, evidence-based steps to prevent shootings before they occur.\",\n    \"AB 2617 will help ensure that people found to present a clear risk of violence by courts in other states cannot acquire deadly weapons in California.\",\n    \"Every day in America, more than 100 lives are taken by gun violence.\",\n    \"Suicides are the second leading cause of death among preteens to young adults.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "96a193e61d9edb46aa005a0984952e0e08277643"
+}

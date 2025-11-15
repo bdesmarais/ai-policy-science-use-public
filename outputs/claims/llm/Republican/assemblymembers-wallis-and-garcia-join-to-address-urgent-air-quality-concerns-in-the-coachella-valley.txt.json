@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymembers-wallis-and-garcia-join-to-address-urgent-air-quality-concerns-in-the-coachella-valley.txt",
+  "party": "Republican",
+  "title": "Sacramento, CA – June 28, 2024",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The air quality in the Coachella Valley has not shown significant improvement despite claims from the AQMD.\",\n    \"The windy spring season has exacerbated air quality issues by stirring up dust and clay deposits.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The air quality in the Coachella Valley has not shown significant improvement despite claims from the AQMD.\",\n    \"The windy spring season has exacerbated air quality issues by stirring up dust and clay deposits.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "32a579491d52a8d0745ef78cded1bd408ccc7ccb"
+}

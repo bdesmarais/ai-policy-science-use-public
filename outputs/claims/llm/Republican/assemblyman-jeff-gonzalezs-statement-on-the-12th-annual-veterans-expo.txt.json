@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-jeff-gonzalezs-statement-on-the-12th-annual-veterans-expo.txt",
+  "party": "Republican",
+  "title": "INDIO – Assemblyman Jeff Gonzalez (R-Indio) issued the following statement on the 12th Annual Veterans Expo held this past Saturday in the Coachella Valley:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bd02ba7be926186059deeed38341c4e6af3f2007"
+}

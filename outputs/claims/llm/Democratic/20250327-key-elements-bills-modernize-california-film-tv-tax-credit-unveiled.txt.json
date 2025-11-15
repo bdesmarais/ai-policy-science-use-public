@@ -1,0 +1,13 @@
+{
+  "press_release": "20250327-key-elements-bills-modernize-california-film-tv-tax-credit-unveiled.txt",
+  "party": "Democratic",
+  "title": "AB 1138 and SB 630, introduced by Assemblymember Rick Chavez Zbur and Senator Ben Allen, with joint authorship from Assemblymembers Isaac Bryan and Sharon Quirk-Silva and Senators ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:31:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1138 and SB 630 will strengthen and modernize the California Film & TV Tax Credit.\",\n    \"These enhancements seek to retain and expand entertainment industry jobs.\",\n    \"AB 1138 and SB 630 aim to make California’s Film & Television Tax Credit Program more competitive",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1138 and SB 630 will strengthen and modernize the California Film & TV Tax Credit.\",\n    \"These enhancements seek to retain and expand entertainment industry jobs.\",\n    \"AB 1138 and SB 630 aim to make California’s Film & Television Tax Credit Program more competitive with other states and countries.\",\n    \"California's Film and TV Tax Credit program has created 197,000 cast and crew jobs statewide since 2009.\",\n    \"The California Film and TV Tax Credit program has generated $26 billion in economic activity.\",\n    \"For every dollar invested in California's Film and TV Tax Credit program, there is an economic output of $24.40.\",\n    \"For every dollar invested, there is a $16.14 output in gross domestic product (GDP).\",\n    \"For every dollar invested, there is an $8.60 return in wages.\",\n    \"For every dollar invested, there is a $1.07 output in state and local tax revenue.\",\n    \"The latest round of awards under the California Film and TV Tax Credit program is projected to generate nearly $580 million in economic activity.\",\n    \"The projected economic activity from the latest round of awards will employ more than 6,490 cast and crew members statewide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f3ecf7d74c97fe34c95644cffdfd8e6100c36271"
+}

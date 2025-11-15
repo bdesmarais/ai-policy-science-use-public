@@ -1,0 +1,13 @@
+{
+  "press_release": "20240701-historic-new-tax-gun-industry-goes-effect-california.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 28 imposes an 11 percent excise tax on the sale of guns and ammunition by gun manufacturers and dealers in California.\",\n    \"AB 28 is expected to generate upwards of $160 million annually for school safety and violence prevention programs.\",\n    \"The Calif",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 28 imposes an 11 percent excise tax on the sale of guns and ammunition by gun manufacturers and dealers in California.\",\n    \"AB 28 is expected to generate upwards of $160 million annually for school safety and violence prevention programs.\",\n    \"The California Violence Intervention and Prevention (CalVIP) program has proven highly effective at reducing gun violence in communities across California.\",\n    \"Since 2020, gun violence has been the leading cause of death for children in the United States.\",\n    \"The firearm death rate for American children increased by 40 percent between 2018 and 2021.\",\n    \"Gun deaths and injuries cost California billions annually, much of which is paid for directly by taxpayers.\",\n    \"California's investment in violence intervention initiatives helps to interrupt cycles of shootings, trauma, and retaliation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3e593b8dfd045e53a8e6ab572a93c28d3349566e"
+}

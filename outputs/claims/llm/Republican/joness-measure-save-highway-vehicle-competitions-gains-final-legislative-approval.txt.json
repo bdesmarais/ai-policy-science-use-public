@@ -1,0 +1,13 @@
+{
+  "press_release": "joness-measure-save-highway-vehicle-competitions-gains-final-legislative-approval.txt",
+  "party": "Republican",
+  "title": "Legislation by Senator Brian W. Jones (R-Santee) to save off-highway vehicle (OHV) competitions in California was approved by wide bipartisan votes in both the Assembly (71 - 2) an",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:55:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 894 will create a new registration program for off-highway vehicle competition vehicles that is narrowly tailored for legitimate competitors only.\",\n    \"Competition OHVs have long been regulated through the Red Sticker program under the California Air Resour",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 894 will create a new registration program for off-highway vehicle competition vehicles that is narrowly tailored for legitimate competitors only.\",\n    \"Competition OHVs have long been regulated through the Red Sticker program under the California Air Resources Board (CARB).\",\n    \"The Red Sticker program allowed competition OHVs to operate in the state for the past two decades.\",\n    \"The end of the Red Sticker program last year left no program to replace it.\",\n    \"Without a new program, OHV competitions on public lands have been thrown into confusion.\",\n    \"Reports indicate that some competitors are still getting Red Stickers and permission to compete while others have not.\",\n    \"This uncertainty negatively impacts local businesses, jobs, and the economy of many rural and suburban regions that have long hosted competitions.\",\n    \"Funding for environmental work and law enforcement has also been lost due to the confusion surrounding OHV competitions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e7e1526d61f03b029a83ff33fcbb010530f5e71b"
+}

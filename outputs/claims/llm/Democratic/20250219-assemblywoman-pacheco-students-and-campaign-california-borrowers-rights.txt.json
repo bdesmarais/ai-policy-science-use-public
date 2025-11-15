@@ -1,0 +1,13 @@
+{
+  "press_release": "20250219-assemblywoman-pacheco-students-and-campaign-california-borrowers-rights.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblywoman Blanca Pacheco (D-Downey) today introduced AB 850, known as the Increasing Institutional Debt Transparency and Protecting Students Act, which address",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's students are facing significant barriers to education due to institutional debts totaling $390 million statewide.\",\n    \"Institutional debt lacks basic consumer protections, which can derail a student's education following any financial setback.\",\n    \"AB 85",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's students are facing significant barriers to education due to institutional debts totaling $390 million statewide.\",\n    \"Institutional debt lacks basic consumer protections, which can derail a student's education following any financial setback.\",\n    \"AB 850 aims to establish critical reporting and safeguards to prevent institutional debt from creating permanent obstacles to education.\",\n    \"The growth of institutional debt in California has been exacerbated by the pandemic, resulting in over 750,000 students owing more than $390 million to public colleges.\",\n    \"Colleges can impose holds on a student's account, preventing them from re-enrolling, withholding degrees, and reporting them to private collections due to institutional debt.\",\n    \"The rise of institutional debt predominantly affects low-income students and students from racially marginalized communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0fd0a13ea4e6a504ba04162d9e5c732a1d5ca5af"
+}

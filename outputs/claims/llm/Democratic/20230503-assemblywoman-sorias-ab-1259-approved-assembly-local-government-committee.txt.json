@@ -1,0 +1,13 @@
+{
+  "press_release": "20230503-assemblywoman-sorias-ab-1259-approved-assembly-local-government-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1259 authorizes the City of Merced to establish an Enhanced Infrastructure Financing District to fund projects that advance the City’s affordable housing goals.\",\n    \"The Enhanced Infrastructure Financing District aims to align with the State's priorities such as tra",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1259 authorizes the City of Merced to establish an Enhanced Infrastructure Financing District to fund projects that advance the City’s affordable housing goals.\",\n    \"The Enhanced Infrastructure Financing District aims to align with the State's priorities such as transit-oriented development and rail projects.\",\n    \"EIFDs allow a city or county to finance public capital facilities or other specified projects of communitywide significance.\",\n    \"The City of Merced is unable to establish an Enhanced Infrastructure Financing District without the passage of AB 1259 due to past issues with the dissolution of its former Redevelopment Agency.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e0a3a55e583adba6bb0497f5c4b2dddee0a980fa"
+}

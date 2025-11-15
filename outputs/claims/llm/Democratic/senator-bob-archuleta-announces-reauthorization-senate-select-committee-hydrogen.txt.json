@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-announces-reauthorization-senate-select-committee-hydrogen.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Senator Bob Archuleta (D-Pico Rivera) announced the reauthorization of the Senate Select Committee on Hydrogen Energy to provide an overview of the State and the p",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California continues making use of emerging energy technology to help the State meet its clean energy goals.\",\n    \"Hydrogen energy will be an important part of California's clean energy future.\",\n    \"Hydrogen hub projects and new technologies in the clean energy sector",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California continues making use of emerging energy technology to help the State meet its clean energy goals.\",\n    \"Hydrogen energy will be an important part of California's clean energy future.\",\n    \"Hydrogen hub projects and new technologies in the clean energy sector will pave the way for more zero emissions vehicles.\",\n    \"Clean transportation options in California will benefit from advancements in hydrogen energy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7d5ed06ae594ed0420ed9bc82936c1035c41fc15"
+}

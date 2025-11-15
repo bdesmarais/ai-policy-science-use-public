@@ -1,0 +1,13 @@
+{
+  "press_release": "20240206-connolly-strengthens-gate-safety-regulations-response-child-fatality.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) introduced Assembly Bill (AB) 2149, also known as Alex’s Law, which will improve the safety regulations for any",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:34:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Alex's Law will improve the safety regulations for automatic and manual vehicular gates.\",\n    \"Alex Quanbeck's death was determined to be preventable if the gate had been equipped with a safety device called a post stop.\",\n    \"Ensuring that gates are properly equipped ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Alex's Law will improve the safety regulations for automatic and manual vehicular gates.\",\n    \"Alex Quanbeck's death was determined to be preventable if the gate had been equipped with a safety device called a post stop.\",\n    \"Ensuring that gates are properly equipped with safety devices is essential to user safety and can prevent future tragedies.\",\n    \"Numerous child fatalities from gate failures have been discovered that could have been prevented with safety devices.\",\n    \"Alex's Law requires gates larger than 48 inches wide and 84 inches high to meet specified industry standards.\",\n    \"Alex's Law mandates that the owner of a regulated gate has it inspected and re-inspected by a professional.\",\n    \"Gates must not fall more than 45 degrees from a vertical plane when detached according to Alex's Law.\",\n    \"Gates must not move under their own weight as per the standards outlined in Alex's Law.\",\n    \"The rolling wheels of the gates must be covered to comply with Alex's Law.\",\n    \"Gates must have a positive stop to impede motion as required by Alex's Law.\",\n    \"Immediate repairs by a licensed contractor are required if a gate is determined to be an immediate threat to safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6d68df6738f0c79a8e2c5e8853ff4ecd9a9ed2a0"
+}

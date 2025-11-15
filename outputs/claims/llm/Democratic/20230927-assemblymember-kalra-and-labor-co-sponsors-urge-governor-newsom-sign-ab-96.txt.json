@@ -1,0 +1,13 @@
+{
+  "press_release": "20230927-assemblymember-kalra-and-labor-co-sponsors-urge-governor-newsom-sign-ab-96.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:09:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 96 would require public transit agencies to notify transit unions of their intention to procure or deploy autonomous transit vehicle technology at least ten months prior.\",\n    \"AB 96 aims to ensure that workers have a say when it comes to automation in the workplace.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 96 would require public transit agencies to notify transit unions of their intention to procure or deploy autonomous transit vehicle technology at least ten months prior.\",\n    \"AB 96 aims to ensure that workers have a say when it comes to automation in the workplace.\",\n    \"Autonomous technologies may displace workers and are enticing to employers because they can save money on labor costs.\",\n    \"Transit employees play a critical role in facilitating a safe and smooth passenger experience for commuters and passengers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "898e7324fe8e99fa40177f150c3a7bdcfacdc8a0"
+}

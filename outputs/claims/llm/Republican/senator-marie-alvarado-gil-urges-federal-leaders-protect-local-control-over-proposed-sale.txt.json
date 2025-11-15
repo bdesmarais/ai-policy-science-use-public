@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-marie-alvarado-gil-urges-federal-leaders-protect-local-control-over-proposed-sale.txt",
+  "party": "Republican",
+  "title": "Today, Sen. Marie Alvarado-Gil (R–Jackson) released the following statement regarding proposed federal actions to allow the sale of public lands near Lake Tahoe and Yosemite:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "460b717b4872e5bd00247a46a53c22583af27514"
+}

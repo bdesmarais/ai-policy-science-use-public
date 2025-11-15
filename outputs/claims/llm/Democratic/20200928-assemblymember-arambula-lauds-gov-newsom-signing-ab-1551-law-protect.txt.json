@@ -1,0 +1,13 @@
+{
+  "press_release": "20200928-assemblymember-arambula-lauds-gov-newsom-signing-ab-1551-law-protect.txt",
+  "party": "Democratic",
+  "title": "(FRESNO, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1551 aims to protect vulnerable residents from fraudulent practices involving solar panel installations.\",\n    \"High-pressure, unethical tactics have been reported by third-party contractors and installers targeting senior citizens and low-income residents.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1551 aims to protect vulnerable residents from fraudulent practices involving solar panel installations.\",\n    \"High-pressure, unethical tactics have been reported by third-party contractors and installers targeting senior citizens and low-income residents.\",\n    \"AB 1551 requires clear disclosures and contract language related to energy efficiency measures.\",\n    \"The law is anticipated to stop unethical practices in energy-efficient home upgrades.\",\n    \"The Property Assessed Clean Energy (PACE) program allows homeowners to finance upgrades for energy and water efficiency.\",\n    \"Common sense reforms are needed in the PACE assessment process to protect consumers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "416a68cf16cb96297cf7be0d04ca2c950f93338f"
+}

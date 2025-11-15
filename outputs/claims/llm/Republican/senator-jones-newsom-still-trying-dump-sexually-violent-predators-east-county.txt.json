@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-newsom-still-trying-dump-sexually-violent-predators-east-county.txt",
+  "party": "Republican",
+  "title": "With a hearing coming up on the planned release of serial Sexually Violent Offender (SVP) Douglas Badger this Friday, Senator Brian W. Jones (R-Santee) issued the following stateme",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Californians long for the days of Governors such as George Deukmejian and Pete Wilson, who opposed the release of sexually violent predators into residential neighborhoods.\",\n    \"Liberty Healthcare is described as a front group for the Newsom Administration.\",\n    \"The ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Californians long for the days of Governors such as George Deukmejian and Pete Wilson, who opposed the release of sexually violent predators into residential neighborhoods.\",\n    \"Liberty Healthcare is described as a front group for the Newsom Administration.\",\n    \"The release of child predator Michael Martinez into Borrego Springs was protested by Senator Jones.\",\n    \"Previous judges have blocked Douglas Badger from living in proposed homes in Borrego Springs and Mt. Helix.\",\n    \"Former Governors Pete Wilson and George Deukmejian ordered dangerous parolees to be housed in trailers at state correctional facilities.\",\n    \"In 1994, state officials tried to parole convicted serial rapist Melvin Carter into several Bay Area communities.\",\n    \"In 1987, state officials tried to parole sadistic torturer-rapist Lawrence Singleton to several Bay Area communities.\",\n    \"Senator Jones has authored bipartisan legislation, such as Senate Bill 841 'The SAFE Act,' aimed at preventing the placement of sexually violent predators.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "05f6b126d98b6867a03db3425dcbfd90f22e63de"
+}

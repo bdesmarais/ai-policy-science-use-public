@@ -1,0 +1,13 @@
+{
+  "press_release": "20230706-assemblywoman-cottie-petrie-norris-advances-bill-address-fentanyl-crisis.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Fentanyl is currently the most deadly drug circulating on the illegal drug market.\",\n    \"Fentanyl is easy and cheap to manufacture.\",\n    \"Fentanyl is often masked and marketed in the form of counterfeit prescription pills.\",\n    \"The Drug Enforcement Administration (DE",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Fentanyl is currently the most deadly drug circulating on the illegal drug market.\",\n    \"Fentanyl is easy and cheap to manufacture.\",\n    \"Fentanyl is often masked and marketed in the form of counterfeit prescription pills.\",\n    \"The Drug Enforcement Administration (DEA) released a warning on the sharp increase in fake prescription drugs containing fentanyl.\",\n    \"Fentanyl accounted for nearly 108,000 deaths in the United States in 2022.\",\n    \"Drug dealers have capitalized on the easy communication and anonymity of social media sites to target pre-teens, teens, and unhoused youth.\",\n    \"Some social media platforms have chat settings designed to erase chat history after just a few hours.\",\n    \"The requirement for social media platforms to retain data for 90 days on removed content will aid law enforcement in tracking down drug traffickers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e699f49bf30a9ec87647d2aa595d14f8ab347bbc"
+}

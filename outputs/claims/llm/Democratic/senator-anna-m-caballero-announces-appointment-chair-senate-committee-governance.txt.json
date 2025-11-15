@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-announces-appointment-chair-senate-committee-governance.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO : Senator Anna M. Caballero (D-Merced) announced her appointment as Chair of the Senate Governance and Finance Committee. The Committee exercises oversight on bills rela",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6d0a9c633866410a50f689f8f3961f2b2ccdcb2d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20201015-state-election-leaders-umberg-and-berman-condemn-fake-ballot-boxes-issue.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Today,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:20:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1dec982ca4338c6299a9dc7f255f6ccc3aa70ffc"
+}

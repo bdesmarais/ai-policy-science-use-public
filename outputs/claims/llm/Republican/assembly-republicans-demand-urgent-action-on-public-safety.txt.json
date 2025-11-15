@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-demand-urgent-action-on-public-safety.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Earlier today, Assembly Republicans joined law enforcement leaders and victims’ rights advocates to call for swift and decisive action to address the public safety cha",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9f83eeab4563c4e5517864767c5b19953c7e57af"
+}

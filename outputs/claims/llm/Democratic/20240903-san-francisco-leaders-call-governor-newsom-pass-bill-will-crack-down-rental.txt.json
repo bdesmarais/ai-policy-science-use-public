@@ -1,0 +1,13 @@
+{
+  "press_release": "20240903-san-francisco-leaders-call-governor-newsom-pass-bill-will-crack-down-rental.txt",
+  "party": "Democratic",
+  "title": "SAN FRANCISCO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2741 improves public safety outcomes by addressing the rising rates of stolen rental cars linked to serious crimes.\",\n    \"The bill shortens the time that rental car companies have to activate their vehicle tracking system after a vehicle fails to return on time from ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2741 improves public safety outcomes by addressing the rising rates of stolen rental cars linked to serious crimes.\",\n    \"The bill shortens the time that rental car companies have to activate their vehicle tracking system after a vehicle fails to return on time from 72 to 24 hours.\",\n    \"Shortening the window for activating vehicle tracking can help stop criminals before they commit more serious crimes or leave the country.\",\n    \"Criminals exploit a loophole in California law by using rental cars as getaway vehicles.\",\n    \"Under current law, rental car companies must wait 72 hours before activating their vehicle tracking systems, often resulting in lost location data.\",\n    \"Stolen rental cars are frequently recovered in severely damaged conditions or contain stolen goods.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cdcf06745117a2cbe2e65b54110566eba4d669fd"
+}

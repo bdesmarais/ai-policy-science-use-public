@@ -1,0 +1,13 @@
+{
+  "press_release": "case-you-missed-it-sacramento-bee-ca-senator-ochoa-bogh-after-senseless-killing-lauri-ann.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) authored an opinion editorial published in the Sacramento Bee expressing her heartfelt thoughts after the death of Lauri Ann Carleton, a be",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "454a21618f358c7c4b1d029bbcba701c24d58c95"
+}

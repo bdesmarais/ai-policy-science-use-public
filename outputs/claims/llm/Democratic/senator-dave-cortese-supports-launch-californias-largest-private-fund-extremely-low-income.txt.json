@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-cortese-supports-launch-californias-largest-private-fund-extremely-low-income.txt",
+  "party": "Democratic",
+  "title": "A partnership of Facebook, the Local Initiative Support Corporation (LISC), and Destination: Home was launched this morning and is set to become California’s largest private fund f",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The partnership aims to become California’s largest private fund for extremely low-income housing.\",\n    \"The Community Housing Fund will support the production of affordable housing units for households making less than 30% of the median income.\",\n    \"$150 million",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The partnership aims to become California’s largest private fund for extremely low-income housing.\",\n    \"The Community Housing Fund will support the production of affordable housing units for households making less than 30% of the median income.\",\n    \"$150 million is allocated for the Community Housing Fund.\",\n    \"At least $50 million of the fund will go towards County-funded Measure A projects.\",\n    \"The Measure A affordable housing bond is projected to create approximately 4,800 affordable housing units in Santa Clara County.\",\n    \"Santa Clara County has seen 27 housing projects approved or opened since the passage of Measure A.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e829453f64a0325ea98fc0562bae6d588f3272df"
+}

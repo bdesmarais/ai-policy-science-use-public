@@ -1,0 +1,13 @@
+{
+  "press_release": "20250206-berman-introduces-bill-establish-physician-health-and-wellness-program.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Physicians struggling with substance use disorders can feel pressure to hide their condition.\",\n    \"Creating a Physician Health and Wellness Program will help healthcare providers get the care they need.\",\n    \"Impaired healthcare providers can cause devastating harm.\",",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Physicians struggling with substance use disorders can feel pressure to hide their condition.\",\n    \"Creating a Physician Health and Wellness Program will help healthcare providers get the care they need.\",\n    \"Impaired healthcare providers can cause devastating harm.\",\n    \"The Physician Health and Wellness Program aims to prevent patient harm by providing care to physicians before they become unsafe to practice.\",\n    \"Physicians experience mental health struggles and often navigate these situations on their own due to fear of professional repercussions.\",\n    \"AB 408 would establish an effective, confidential program that supports physicians' health and wellness.\",\n    \"The previous diversion program for impaired physicians was found to be ineffective and was eliminated.\",\n    \"The prior statutory authority for a physician health and wellness program was determined to be inconsistent with evidence-based best practices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "74b7a5897bc48336356d9af605849c73b6bedb5b"
+}

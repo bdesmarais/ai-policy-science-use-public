@@ -1,0 +1,13 @@
+{
+  "press_release": "20201207-ramos-sworn-second-term-state-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Assemblymember James C. Ramos (D-Highland), first elected in November 2018, was sworn in today for his second term representing the 40",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:21:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "99fdffff5065827be240d0511949a82e902a0d5b"
+}

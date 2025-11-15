@@ -1,0 +1,13 @@
+{
+  "press_release": "20240906-costa-mesa-breaks-ground-new-fire-rescue-regional-training-center.txt",
+  "party": "Democratic",
+  "title": "COSTA MESA, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:49:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Costa Mesa Fire & Rescue Regional Training Center will enhance firefighters' readiness and ultimately save lives and safeguard property.\",\n    \"The new facility will use realistic simulation capabilities for training purposes.\",\n    \"The new training facility will im",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Costa Mesa Fire & Rescue Regional Training Center will enhance firefighters' readiness and ultimately save lives and safeguard property.\",\n    \"The new facility will use realistic simulation capabilities for training purposes.\",\n    \"The new training facility will improve the region's fire and emergency preparedness and response.\",\n    \"The facility will provide high-quality training resources and tools for professional firefighters.\",\n    \"The new facility aims to bridge the gap between fire dynamics knowledge and hands-on training.\",\n    \"The project will use locally sourced and environmentally friendly products and materials.\",\n    \"Water reclamation elements will be incorporated to enhance the recovery of water used in training exercises.\",\n    \"The facility will include energy-efficient lighting fixtures, such as LEDs.\",\n    \"The facility plans to incorporate elements of solar-powered backup energy for power outages.\",\n    \"The project will promote water efficiency and conservation through the installation of low-flow faucets and drought-resistant landscapes.\",\n    \"More than 40 percent of Orange County is designated as a Very High Fire Hazard Severity Zone according to CalFire.\",\n    \"The upgraded facilities are expected to help manage increased demand and mitigate wildfire risk during extreme heat events.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4e067336af7db6bf23e8b5549a39dda12a61f2b4"
+}

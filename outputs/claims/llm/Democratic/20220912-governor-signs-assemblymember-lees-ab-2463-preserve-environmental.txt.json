@@ -1,0 +1,13 @@
+{
+  "press_release": "20220912-governor-signs-assemblymember-lees-ab-2463-preserve-environmental.txt",
+  "party": "Democratic",
+  "title": "Governor Gavin Newsom recently signed AB 2463, legislation by Assemblymember Alex Lee (D-San José) to preserve conservation corps and promote volunteerism across California.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:47:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Local Conservation Corps are state-certified regional organizations that develop and deploy a trained workforce for environmental conservation.\",\n    \"Corps members work in areas such as habitat enhancement, fire protection, and emergency response to natural disaster",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Local Conservation Corps are state-certified regional organizations that develop and deploy a trained workforce for environmental conservation.\",\n    \"Corps members work in areas such as habitat enhancement, fire protection, and emergency response to natural disasters.\",\n    \"The local corps contribute to California's efforts to protect its natural resources.\",\n    \"Volunteers and conservation corps members in California have been exempt from prevailing wage on public works projects for over 15 years.\",\n    \"The exemption from the prevailing wage is vital for preserving conservation corps and promoting volunteerism in California.\",\n    \"AB 2463 extends the sunset date of the California public works prevailing wage exemption for volunteers and conservation corps members to January 1, 2031.\",\n    \"Extending the exemption ensures that conservation corps can continue providing important services in combating climate change.\",\n    \"The Local Conservation Corps' educational and workforce programs assist young people in career development within the green workforce.\",\n    \"AB 2463 enables the continuation of pivotal job training for young adults in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "750cf0bddc439106ec8a491ef85e8cdbb4c2ac8b"
+}

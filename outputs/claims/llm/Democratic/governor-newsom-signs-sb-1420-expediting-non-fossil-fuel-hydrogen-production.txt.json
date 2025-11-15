@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-newsom-signs-sb-1420-expediting-non-fossil-fuel-hydrogen-production.txt",
+  "party": "Democratic",
+  "title": "September 26, 2024",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1420 ensures California's ability to produce enough hydrogen to help achieve the state's climate change goals.\",\n    \"SB 1420 is expected to unlock private sector investment estimated at $10 billion in California.\",\n    \"SB 1420 will create an additional pathway for C",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1420 ensures California's ability to produce enough hydrogen to help achieve the state's climate change goals.\",\n    \"SB 1420 is expected to unlock private sector investment estimated at $10 billion in California.\",\n    \"SB 1420 will create an additional pathway for California to achieve a clean energy economy.\",\n    \"Hydrogen can boost economic growth, lower energy costs, and reduce diesel and jet fuel usage in regions with poor air quality.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "14aed429f6fdc68e3cd81b7008bc2be2ffac48a4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220708-senator-wiener-and-assemblymember-haney-joint-statement-growing-monkeypox.txt",
+  "party": "Democratic",
+  "title": "SAN FRANCISCO - Monkeypox is a growing public health issue in our community. While the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Monkeypox is a growing public health issue.\",\n    \"The monkeypox virus can infect anyone, but particularly impacts gay and bisexual men.\",\n    \"There is an effective vaccine that prevents monkeypox.\",\n    \"The federal government has failed to order enough vaccine doses t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Monkeypox is a growing public health issue.\",\n    \"The monkeypox virus can infect anyone, but particularly impacts gay and bisexual men.\",\n    \"There is an effective vaccine that prevents monkeypox.\",\n    \"The federal government has failed to order enough vaccine doses to prepare for the monkeypox outbreak.\",\n    \"The supply of monkeypox vaccines needs to be dramatically increased and distributed quickly to impacted communities.\",\n    \"The San Francisco AIDS Foundation and other community clinics are receiving insufficient doses of the monkeypox vaccine.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "76f19c1c4ddd76083fd77f8b1f80e245cd6b220e"
+}

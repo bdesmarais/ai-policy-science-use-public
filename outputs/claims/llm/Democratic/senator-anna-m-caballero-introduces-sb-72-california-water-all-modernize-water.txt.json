@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-introduces-sb-72-california-water-all-modernize-water.txt",
+  "party": "Democratic",
+  "title": "January 24, 2025",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Recent studies project a future water supply shortfall without state intervention of 4.6 to 9 million acre-feet annually by 2050.\",\n    \"This shortfall represents up to 90% of California’s urban water use or the irrigation of 3 million acres of farmland.\",\n    \"SB 72 aim",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Recent studies project a future water supply shortfall without state intervention of 4.6 to 9 million acre-feet annually by 2050.\",\n    \"This shortfall represents up to 90% of California’s urban water use or the irrigation of 3 million acres of farmland.\",\n    \"SB 72 aims to close this gap by setting an interim target of 9 million acre-feet of additional water supply by 2040.\",\n    \"SB 72 establishes long-term water supply targets using a 50-year planning horizon.\",\n    \"California has made significant investments to combat water shortages, including over $8 billion for water infrastructure and management projects.\",\n    \"The Administration’s 2022 'Water Supply Strategy: Adapting to a Hotter, Drier Future' outlines strategies to address the state’s changing water needs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fd33842b11439b9af03418706c389f7b8d33307a"
+}

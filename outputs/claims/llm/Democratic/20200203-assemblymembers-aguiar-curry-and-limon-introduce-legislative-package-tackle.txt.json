@@ -1,0 +1,13 @@
+{
+  "press_release": "20200203-assemblymembers-aguiar-curry-and-limon-introduce-legislative-package-tackle.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:14:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Alzheimer's disease is a growing public health crisis.\",\n    \"Alzheimer's is a progressive, neurodegenerative disease that results in memory loss and impaired cognitive function.\",\n    \"The over-65 population in California is projected to grow to 8.6 million by 2030.\",\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Alzheimer's disease is a growing public health crisis.\",\n    \"Alzheimer's is a progressive, neurodegenerative disease that results in memory loss and impaired cognitive function.\",\n    \"The over-65 population in California is projected to grow to 8.6 million by 2030.\",\n    \"Aging is the greatest known risk factor for developing Alzheimer's disease.\",\n    \"Deaths in California due to Alzheimer's disease increased 243% from 2000 to 2015.\",\n    \"In 2015, Alzheimer's was the third leading cause of death in California.\",\n    \"The 'Assessment of Cognitive Complaints Toolkit' aims to provide healthcare providers with tools to facilitate early diagnosis of Alzheimer's disease.\",\n    \"There is a critical need for increased and early diagnosis of Alzheimer's and dementia.\",\n    \"Early diagnosis can extend quality of life for Alzheimer's patients and help families access necessary benefits.\",\n    \"AB 2048 creates an informational tool to assist individuals with cognitive impairment and their caregivers in communicating with healthcare providers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5b0309b65e404fdd47ac10ad081dcf73258b71a8"
+}

@@ -1,0 +1,84 @@
+{
+  "press_release": "sen-marie-alvarado-gil-prioritizes-wildfire-resiliency-rural-issues-2025-legislative.txt",
+  "party": "Republican",
+  "title": "Today, Sen. Marie Alvarado-Gil ( R-Jackson) rolled out her 2025 legislative package, featuring five bills focused on wildfire resiliency and rural issues—including two that were ki",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The devastation from recent fires poses a significant threat to rural Californians.\"\n    },\n    {\n      \"claim_text\": \"Families affected by wildfires are potentially facing long-term health conditions due to smoke.\"\n    },\n    {\n      \"claim_text\": ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The devastation from recent fires poses a significant threat to rural Californians.\"\n    },\n    {\n      \"claim_text\": \"Families affected by wildfires are potentially facing long-term health conditions due to smoke.\"\n    },\n    {\n      \"claim_text\": \"A comprehensive database to measure the specific health impacts of wildfires and the effectiveness of fuels mitigation investments is necessary.\"\n    },\n    {\n      \"claim_text\": \"Annual reporting on the impact of non-renewals within the Wildland Urban Interface (WUI) is required.\"\n    },\n    {\n      \"claim_text\": \"CEQA exemptions for defensible space projects can help property owners reduce wildfire risk more efficiently.\"\n    },\n    {\n      \"claim_text\": \"Sales and use tax exemptions on fire equipment purchases may encourage investment in wildfire response resources.\"\n    },\n    {\n      \"claim_text\": \"Access to funding for water districts in high fire hazard zones is critical for strengthening infrastructure for drought resilience and wildfire response.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The devastation from recent fires poses a significant threat to rural Californians.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Families affected by wildfires are potentially facing long-term health conditions due to smoke.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "A comprehensive database to measure the specific health impacts of wildfires and the effectiveness of fuels mitigation investments is necessary.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Annual reporting on the impact of non-renewals within the Wildland Urban Interface (WUI) is required.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "CEQA exemptions for defensible space projects can help property owners reduce wildfire risk more efficiently.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Sales and use tax exemptions on fire equipment purchases may encourage investment in wildfire response resources.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Access to funding for water districts in high fire hazard zones is critical for strengthening infrastructure for drought resilience and wildfire response.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "133713f6488683f6941c8f88a00ff9156ac7fd5f"
+}

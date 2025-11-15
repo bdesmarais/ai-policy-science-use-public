@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-celebrates-womens-history-month.txt",
+  "party": "Republican",
+  "title": "NEWPORT BEACH – Assemblymember Diane Dixon (R-Newport Beach) honors Marcia Manker as her Woman of the Year for Assembly District 72.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0d89b999b3be5b41a33f7fb76569e318d3e6e780"
+}

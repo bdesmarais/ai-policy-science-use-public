@@ -1,0 +1,13 @@
+{
+  "press_release": "20210628-boerner-horvath-comments-budget-bills-headed-governors-desk.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:30:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has made a historic investment of $21,000 per pupil, per year in K-12 education.\",\n    \"California's budget plan includes funding for Universal Transitional Kindergarten statewide.\",\n    \"The budget allocates $3.7 billion for wildfire prevention, drought mitig",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has made a historic investment of $21,000 per pupil, per year in K-12 education.\",\n    \"California's budget plan includes funding for Universal Transitional Kindergarten statewide.\",\n    \"The budget allocates $3.7 billion for wildfire prevention, drought mitigation, and climate resiliency initiatives.\",\n    \"California will invest $500 million in Active Transportation Programs to prioritize sustainability in transportation infrastructure.\",\n    \"$2 billion is allocated to combat homelessness with strict accountability for the use of these funds.\",\n    \"$180 million is designated to increase California resident enrollment in the UC and CSU systems.\",\n    \"The budget includes a one-time $10.5 million assistance to help IDD facilities recovering from the pandemic.\",\n    \"California is committing $4 billion to develop an innovative behavioral health system for children and teens transitioning out of the pandemic.\",\n    \"The budget includes funding to restructure the Department of Toxic Substances Control to better protect against environmental disasters.\",\n    \"$10 million is dedicated to an e-bike purchase incentive program to encourage sustainable transportation alternatives.\",\n    \"$2.5 million is allocated to boost research into coastal erosion and develop an early warning system for bluff collapses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "83dbccf6c8cfd6f81166ca8ff20bfa1a1d15f18b"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230110-ramos-pleased-see-taxes-not-part-new-state-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO--",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:52:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California faces a budget deficit that impacts funding for various initiatives.\",\n    \"A funding package of more than $15 billion will include community care assistance, $750 million for encampment cleanup, and $2.2 billion for behavioral health.\",\n    \"Fentanyl use is i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California faces a budget deficit that impacts funding for various initiatives.\",\n    \"A funding package of more than $15 billion will include community care assistance, $750 million for encampment cleanup, and $2.2 billion for behavioral health.\",\n    \"Fentanyl use is increasing among all populations, including young people.\",\n    \"Schools are taking steps to provide Narcan to help prevent overdose deaths on campuses.\",\n    \"$3.5 million allocated by the governor will help schools fund the provision of Narcan.\",\n    \"Another $4 million is allocated for test strips to check for fentanyl contamination in other drugs.\",\n    \"California provides $4.2 billion in grants, more than $1 billion in small business credits, and $2.1 billion for workforce development to support small businesses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "06b65b7dae689f7b620192f6e9e0a5efa550d393"
+}

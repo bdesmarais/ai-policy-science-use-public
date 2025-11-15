@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-celebrates-balboa-island-ferry-win.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Balboa Island Ferry has been offered a $7.9 million grant to aid in the required electrification of their fleet.\",\n    \"The California Air Resource Board (CARB) has passed regulations that require the Ferry to renovate all three of its vessels with electric motors by",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Balboa Island Ferry has been offered a $7.9 million grant to aid in the required electrification of their fleet.\",\n    \"The California Air Resource Board (CARB) has passed regulations that require the Ferry to renovate all three of its vessels with electric motors by 2026.\",\n    \"The Ferry has applied for multiple sources of funding offered by grant programs through CARB to accomplish electrification goals.\",\n    \"The total estimated cost to convert the three ferry boats is $13 million.\",\n    \"The Ferry plans to work with Aurora Marine Design and Green Yachts to convert their operations to zero-emission.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "af22db12ca4cbd012ab52eb8b60dea74071c21d0"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210108-asm-robert-rivas-applauds-gov-newsom-critical-investments-2021-22-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:21:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's budget proposes $385 million for sustainable agriculture.\",\n    \"The budget provides farms and ranches with the ability to help combat climate change.\",\n    \"The budget prioritizes sustainable groundwater management to benefit the environment.\",\n    \"$6",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's budget proposes $385 million for sustainable agriculture.\",\n    \"The budget provides farms and ranches with the ability to help combat climate change.\",\n    \"The budget prioritizes sustainable groundwater management to benefit the environment.\",\n    \"$6.7 million is proposed as direct technical assistance to small and mid-sized farms.\",\n    \"The budget allocates over $60 million to Listos CA for public engagement and community outreach to Spanish-speaking communities.\",\n    \"Investments in health equity resources for Latino communities are included in the budget.\",\n    \"Latinos in California continue to contract and die of COVID-19 at disproportionately high rates.\",\n    \"Nearly $100 million in funds for telehealth is included in the budget to maintain and expand telehealth access established during the pandemic.\",\n    \"The budget aims to tackle the teacher shortage experienced in California prior to the pandemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a327ced6b66b914c81c851028abdfeb8e96db3aa"
+}

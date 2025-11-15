@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-padilla-secures-independent-fiscal-analysis-coachella-valley-unified-school-district.txt",
+  "party": "Democratic",
+  "title": "Body",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c645f932bcdf77139e0e8cb6992659c3b7cb126e"
+}

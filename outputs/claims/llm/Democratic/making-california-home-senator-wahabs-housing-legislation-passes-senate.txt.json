@@ -1,0 +1,13 @@
+{
+  "press_release": "making-california-home-senator-wahabs-housing-legislation-passes-senate.txt",
+  "party": "Democratic",
+  "title": "Newsletter: Sign Up For The Latest Updates",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 384, the Preventing Algorithmic Price Fixing Act, prohibits businesses from using or selling price fixing software that creates digital collusion amongst competitors regarding the prices they set for their goods and services.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 384, the Preventing Algorithmic Price Fixing Act, prohibits businesses from using or selling price fixing software that creates digital collusion amongst competitors regarding the prices they set for their goods and services.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "074dd8bb04425d98dea4a1af32ead24ec0840dff"
+}

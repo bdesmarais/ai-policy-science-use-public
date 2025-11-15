@@ -1,0 +1,13 @@
+{
+  "press_release": "california-moves-closer-to-creating-first-its-kind-battery.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA— Yesterday, the Senate Committee on Energy, Utilities and Communications passed SB 1206, authored by Senator Josh Becker (D-Menlo Park). This bill would incentivize ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"SB 1206 incentivizes the creation of a first-of-its-kind battery manufacturing facility for next generation batteries in California.\",\n    \"The creation of the battery manufacturing facility will create dependable, high-paying manufacturing jobs.\",\n    \"SB 1206 aims",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"SB 1206 incentivizes the creation of a first-of-its-kind battery manufacturing facility for next generation batteries in California.\",\n    \"The creation of the battery manufacturing facility will create dependable, high-paying manufacturing jobs.\",\n    \"SB 1206 aims to decrease costs and increase access to next-generation batteries.\",\n    \"The legislation will advance California's clean energy and EV deployment goals.\",\n    \"SB 1206 will support the transition to EVs and clean technologies.\",\n    \"The bill includes provisions for project labor agreements (PLAs), labor peace policies, and local hire.\",\n    \"SB 1206 will support California's efforts to secure grants from the Inflation Reduction Act.\",\n    \"The public-private partnership established by SB 1206 will support innovation and commercialization of new technologies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7cda9f3364049a28d27dc3162093b72350332198"
+}

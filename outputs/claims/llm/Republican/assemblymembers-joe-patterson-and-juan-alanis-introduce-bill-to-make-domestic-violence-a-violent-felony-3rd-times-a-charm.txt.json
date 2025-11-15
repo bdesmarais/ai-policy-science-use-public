@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymembers-joe-patterson-and-juan-alanis-introduce-bill-to-make-domestic-violence-a-violent-felony-3rd-times-a-charm.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Nearly two-thirds of mass shooters have documented histories of domestic violence or have killed a family member.\",\n    \"There is an ongoing risk posed by violent offenders with a history of domestic violence.\",\n    \"Violent domestic abusers are the individuals most like",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Nearly two-thirds of mass shooters have documented histories of domestic violence or have killed a family member.\",\n    \"There is an ongoing risk posed by violent offenders with a history of domestic violence.\",\n    \"Violent domestic abusers are the individuals most likely to commit mass shootings.\",\n    \"Felony domestic violence is classified as an inherently violent crime.\",\n    \"Many felony domestic abuse convictions are currently considered 'nonviolent' under California law.\",\n    \"Domestic violence convictions are one of the leading indicators of future violent behavior, including mass shootings.\",\n    \"Reclassifying violent domestic violence offenses as 'violent crimes' under state law may increase accountability and protect victims.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "029a0041b684e253a9ecda082328a6cb4f831ee3"
+}

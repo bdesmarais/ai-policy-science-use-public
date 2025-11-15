@@ -1,0 +1,13 @@
+{
+  "press_release": "20250725-statement-condemning-republicans-congress-and-donald-trump-defunding-health.txt",
+  "party": "Democratic",
+  "title": "CUPERTINO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The closure of five Planned Parenthood Mar Monte health clinics in Northern California is a result of defunding by Republicans in Congress and Donald Trump.\",\n    \"The federal budget signed by Donald Trump illegally targeted and blocked all federal funding to Planned Par",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The closure of five Planned Parenthood Mar Monte health clinics in Northern California is a result of defunding by Republicans in Congress and Donald Trump.\",\n    \"The federal budget signed by Donald Trump illegally targeted and blocked all federal funding to Planned Parenthood.\",\n    \"The discontinuation of family medicine, behavioral health, and prenatal care services at Planned Parenthood clinics is linked to defunding by Republicans in Congress.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1af322a79602129db58a59a8af8c66dc480beac9"
+}

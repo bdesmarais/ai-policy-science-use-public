@@ -1,0 +1,13 @@
+{
+  "press_release": "california-should-not-chastise-federal-government-when-state-fails-disarm-violent-felons.txt",
+  "party": "Republican",
+  "title": "Following Governor Gavin Newsom's press conference this week in which he demanded national background checks, Senate Republican Leader Shannon Grove (R-Bakersfield) called on him t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Since 2013, the Department of Justice (DOJ) has been provided more than $63 million to fully implement the Armed & Prohibited Persons System (APPS).\",\n    \"The backlog of individuals in the APPS currently stands at 23,000 people.\",\n    \"The DOJ identified a growing backl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Since 2013, the Department of Justice (DOJ) has been provided more than $63 million to fully implement the Armed & Prohibited Persons System (APPS).\",\n    \"The backlog of individuals in the APPS currently stands at 23,000 people.\",\n    \"The DOJ identified a growing backlog of some 20,000 APPS subjects in 2013.\",\n    \"Attorney General Harris' staff testified that if given $24 million, the backlog could be cleared within a year.\",\n    \"As of December 31, 2015, only 54 of the 75 agent positions for the APPS program were filled.\",\n    \"Attorney General Becerra has not provided any formal plan to fulfill his commitment to address the APPS backlog.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f2a8e4c8f9300932a85671ce0e88fabe43ceb72b"
+}

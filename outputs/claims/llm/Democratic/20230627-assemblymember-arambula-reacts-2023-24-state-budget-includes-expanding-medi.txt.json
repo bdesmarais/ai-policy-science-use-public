@@ -1,0 +1,13 @@
+{
+  "press_release": "20230627-assemblymember-arambula-reacts-2023-24-state-budget-includes-expanding-medi.txt",
+  "party": "Democratic",
+  "title": "FRESNO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The State budget includes expanding full scope Medi-Cal to income-eligible adults ages 26 to 49, regardless of immigration status.\",\n    \"The State budget includes extending the MCO (Managed Care Organization) tax through the end of 2026, which will increase payment",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The State budget includes expanding full scope Medi-Cal to income-eligible adults ages 26 to 49, regardless of immigration status.\",\n    \"The State budget includes extending the MCO (Managed Care Organization) tax through the end of 2026, which will increase payments to doctors and other Medi-Cal providers.\",\n    \"The budget addresses the need to broaden efforts to provide mental health care services to youth and older adults.\",\n    \"The budget increases funds for programs and resources aimed at supporting the well-being of older adults and the disabled.\",\n    \"A temporary increase in CalWorks benefits will become permanent for recipients.\",\n    \"The State will eliminate most of the copayments that poor families pay for child care.\",\n    \"The budget extends the CalFresh Fruit and Vegetable EBT Pilot to support food security amidst ending federal funding.\",\n    \"The budget allocates $10 million for Promotoras de Salud to improve access to health care services for non-English speakers.\",\n    \"The ambitious plan to merge physical health, mental and behavioral health, and social services through CalAIM is being implemented.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6088224b4643c54715b7803f27ed05d1ebc14cf6"
+}

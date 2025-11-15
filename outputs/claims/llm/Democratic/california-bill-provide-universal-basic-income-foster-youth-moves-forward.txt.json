@@ -1,0 +1,13 @@
+{
+  "press_release": "california-bill-provide-universal-basic-income-foster-youth-moves-forward.txt",
+  "party": "Democratic",
+  "title": "A bill authored by Senator Dave Cortese (D-San Jose) to provide universal basic income (UBI) to our youth aging out of the foster care system and transitioning into adulthood has c",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 739 would provide unconditional and direct cash assistance of $1,000 a month to approximately 2,500 youth aging out of the Extended Foster Care Program in California.\",\n    \"The pilot program is based on a successful model previously implemented in Santa Clara County.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 739 would provide unconditional and direct cash assistance of $1,000 a month to approximately 2,500 youth aging out of the Extended Foster Care Program in California.\",\n    \"The pilot program is based on a successful model previously implemented in Santa Clara County.\",\n    \"Study after study indicate that foster youth are disproportionately impacted in nearly every facet of life compared to their peers in the general population.\",\n    \"Results from the Stockton Economic Empowerment Demonstration (SEED) program displayed that participants were more than twice as likely to be fully employed compared to their peers who did not participate in the program.\",\n    \"It is argued that programs delivering direct cash assistance contribute to the local economy by enabling recipients to spend money on essential needs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5f51cfe648aef937ce201424322f7e662188954c"
+}

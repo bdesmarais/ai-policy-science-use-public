@@ -1,0 +1,13 @@
+{
+  "press_release": "20221220-first-nation-law-require-opioid-blocking-nasal-spray-gas-stations-bars-0.txt",
+  "party": "Democratic",
+  "title": "Sacramento",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:51:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is experiencing a new level of the opioid crisis, with opioid deaths reaching 6800 in 2021.\",\n    \"One out of every five California youths aged 15 to 24 who died in 2021 was killed by a fentanyl overdose.\",\n    \"The California Department of Justice has seized ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is experiencing a new level of the opioid crisis, with opioid deaths reaching 6800 in 2021.\",\n    \"One out of every five California youths aged 15 to 24 who died in 2021 was killed by a fentanyl overdose.\",\n    \"The California Department of Justice has seized over 4 million fentanyl pills and almost 900 pounds of fentanyl powder since last spring.\",\n    \"A fentanyl overdose can be completely reversed in 30 seconds by using an opioid blocker nasal spray as a first aid treatment.\",\n    \"Opioid blocker nasal sprays bind to the same receptors in the brain used by opioids and can reverse or block the effects of the drug.\",\n    \"Opioid blockers have no side effects and are completely safe to use, even if the person is having a medical issue other than an overdose.\",\n    \"The effectiveness of opioid blockers requires that someone near the person overdosing has access to the medication.\",\n    \"AB 24 aims to increase accessibility to opioid blocker nasal sprays in public locations to reduce overdose deaths.\",\n    \"The approach of distributing opioid blockers to employees in public locations is based upon similar public health interventions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ef2669720f4e9c85b7e217d893610419d0fcdb7b"
+}

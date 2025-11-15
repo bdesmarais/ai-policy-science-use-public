@@ -1,0 +1,13 @@
+{
+  "press_release": "20240928-governor-newsom-signs-first-nation-legislation-ban-harmful-chemicals-school.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is the first state in the nation to prohibit public schools from serving foods containing six synthetic food dyes linked to developmental and behavioral issues in children.\",\n    \"The consumption of synthetic food dyes can result in hyperactivity and other neu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is the first state in the nation to prohibit public schools from serving foods containing six synthetic food dyes linked to developmental and behavioral issues in children.\",\n    \"The consumption of synthetic food dyes can result in hyperactivity and other neurobehavioral problems in some children.\",\n    \"Current FDA approvals of synthetic food dyes are based on outdated research.\",\n    \"The percentage of American children diagnosed with Attention Deficit/Hyperactivity Disorder (ADHD) has increased dramatically in recent years.\",\n    \"The California School Food Safety Act could help prompt a nationwide transition to safer alternative ingredients.\",\n    \"The California Food Safety Act helped to spark a national conversation about the need for the U.S. to modernize its antiquated food safety laws.\",\n    \"The FDA announced its decision to ban the use of brominated vegetable oil (BVO) following a prohibition first legislated in California under the California Food Safety Act.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5be18cb0da0411d3dd83d4053948d9b87b0fcabb"
+}

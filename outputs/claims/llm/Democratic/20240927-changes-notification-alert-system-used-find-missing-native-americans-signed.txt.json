@@ -1,0 +1,13 @@
+{
+  "press_release": "20240927-changes-notification-alert-system-used-find-missing-native-americans-signed.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Governor Gavin Newsom today signed AB 2348, a bill that would revise and strengthen California’s Feather Alert – a notification alert system similar to the AMBER and S",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's Feather Alert system was created to notify the public when Indigenous people are missing.\",\n    \"Since the Feather Alert took effect, tribal communities have made five requests for its activation.\",\n    \"The California Highway Patrol granted activation for t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's Feather Alert system was created to notify the public when Indigenous people are missing.\",\n    \"Since the Feather Alert took effect, tribal communities have made five requests for its activation.\",\n    \"The California Highway Patrol granted activation for the Feather Alert in only two instances since its inception.\",\n    \"Of the two approved Feather Alerts, only one missing individual was found.\",\n    \"AB 2348 would provide tribal governments with a pathway to directly communicate with the California Highway Patrol about Feather Alert requests.\",\n    \"AB 2348 requires law enforcement agencies to respond within 24 hours of a request for a Feather Alert.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "face3cf47faf5b1f239f74b8091bd277f8d50564"
+}

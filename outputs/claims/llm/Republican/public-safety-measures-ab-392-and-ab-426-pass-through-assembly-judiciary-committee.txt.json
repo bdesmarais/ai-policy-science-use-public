@@ -1,0 +1,13 @@
+{
+  "press_release": "public-safety-measures-ab-392-and-ab-426-pass-through-assembly-judiciary-committee.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO (April 23, 2025) – Assemblymember Diane Dixon (R-Newport Beach) presented Assembly Bill 392 and Assembly Bill 426 in the Assembly Judiciary Committee. Both bills passed ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Safeguards must be put in place to protect citizens from exploitation by malicious actors as online technology continues to evolve.\",\n    \"California is a leader in online privacy protection, making the expansion of those protections necessary.\",\n    \"Assembly Bill 392 r",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Safeguards must be put in place to protect citizens from exploitation by malicious actors as online technology continues to evolve.\",\n    \"California is a leader in online privacy protection, making the expansion of those protections necessary.\",\n    \"Assembly Bill 392 requires that individuals uploading sexually explicit content to adult media sites provide a statement under penalty of perjury that all individuals depicted are at least 18 years of age and have given consent.\",\n    \"Assembly Bill 392 mandates that operators of adult media sites implement measures to ensure that uploaded sexually explicit content does not include a non-consenting individual or minor.\",\n    \"Assembly Bill 392 creates a mandatory 48-hour takedown window to remove non-consensual content from adult media sites.\",\n    \"There has been an alarming rise in cases of unauthorized content being uploaded to the internet, making it extremely difficult to remove once uploaded.\",\n    \"Artificial intelligence and deep fakes increase the risk of individuals becoming victims of non-consensual content uploads.\",\n    \"Assembly Bill 426 establishes a civil penalty of up to $75,000 against drone operators who interfere with emergency response operations, such as wildfire suppression.\",\n    \"Drones flying at low altitudes create risks of collision with firefighting aircraft.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7ea5733e6e9795ef8d57813a29edfa37c0aeb600"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "statement-from-assemblyman-josh-hoover-following-oversight-hearing-on-homelessness.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assemblyman Josh Hoover (R-Folsom) released the following statement regarding today’s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has spent nearly $24 billion taxpayer dollars since 2018 to solve the homelessness crisis.\",\n    \"During the same period, California's overall homeless population increased by 32 percent.\",\n    \"Half of the nation’s unsheltered homeless now live in California.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has spent nearly $24 billion taxpayer dollars since 2018 to solve the homelessness crisis.\",\n    \"During the same period, California's overall homeless population increased by 32 percent.\",\n    \"Half of the nation’s unsheltered homeless now live in California.\",\n    \"The California Department of Housing and Community Development and the Interagency Council on Homelessness have no data to share on existing homelessness programs and investments.\",\n    \"The Interagency Council on Homelessness claimed they would need more money to implement transparency measures recommended by the State Auditor.\",\n    \"The state has failed to systematically track homelessness spending and is not adequately positioned to collect data and assess outcomes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "35f51c0447ced1237ff1e6270777bed01fbfc83a"
+}

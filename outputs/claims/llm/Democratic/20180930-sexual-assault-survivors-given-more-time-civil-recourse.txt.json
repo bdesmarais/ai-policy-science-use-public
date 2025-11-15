@@ -1,0 +1,13 @@
+{
+  "press_release": "20180930-sexual-assault-survivors-given-more-time-civil-recourse.txt",
+  "party": "Democratic",
+  "title": "Amid the #MeToo movement, California extends the statute of limitations for sexual assault survivors to seek civil damages from assailants.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:03:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has extended the statute of limitations for sexual assault survivors to seek civil damages from assailants by eight years.\",\n    \"Adult sexual assault survivors now have ten years from the date of the assault to file a civil case, or three years from the disco",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has extended the statute of limitations for sexual assault survivors to seek civil damages from assailants by eight years.\",\n    \"Adult sexual assault survivors now have ten years from the date of the assault to file a civil case, or three years from the discovery of an illness or injury related to the assault.\",\n    \"One in three women and one in six men have experienced sexual violence, according to the Centers for Disease Control and Prevention.\",\n    \"The typical two-year window for adults to file a civil lawsuit for sexual assault is often not realistic due to various recovery and procedural challenges.\",\n    \"Recovery from sexual assault can take many years and is not a linear process.\",\n    \"Victims of sexual assault may experience deep emotional trauma that can lead to suicide attempts, drug addiction, reckless driving, and academic and job performance issues.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b37a3412caaf07c92c2601042bb4090638684923"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-corteses-bill-expand-health-services-animals-shelters-clears-first-legislative.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –  The California Senate Business, Professions & Economic Committee today passed Senator Dave Cortese’s SB 602 which would permit a Registered Veterinary Technician (RVT",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Dave Cortese's SB 602 would permit a Registered Veterinary Technician (RVT) to conduct vaccine and parasite control wellness appointments in animal shelters.\",\n    \"The bill aims to expand opportunities for animals to gain health services across California.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Dave Cortese's SB 602 would permit a Registered Veterinary Technician (RVT) to conduct vaccine and parasite control wellness appointments in animal shelters.\",\n    \"The bill aims to expand opportunities for animals to gain health services across California.\",\n    \"There is an enormous shortage of veterinary professionals, especially in animal shelters, according to Senator Dave Cortese.\",\n    \"A significant number of California pets have not been receiving necessary care due to the shortfall of veterinarians in the state.\",\n    \"More than 344,000 California shelter animals do not have adequate access to veterinary care staff, according to a 2023 survey by the SF SPCA.\",\n    \"The veterinary professional shortages are profoundly impacting California's most vulnerable animals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6d277773c0f81088d4037f6a4d6888399fb840fd"
+}

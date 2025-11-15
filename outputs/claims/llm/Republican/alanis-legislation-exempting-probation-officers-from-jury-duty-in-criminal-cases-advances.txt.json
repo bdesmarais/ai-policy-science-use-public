@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-legislation-exempting-probation-officers-from-jury-duty-in-criminal-cases-advances.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO—Today, Assemblymember Juan Alanis announced that his first bill of the 2025-26 legislative cycle passed the Assembly Floor on a unanimous vote of 67-0.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "56acab40b6ccd1b68577600c07256fcce63571c2"
+}

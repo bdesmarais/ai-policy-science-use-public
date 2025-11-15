@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-honors-three-brothers-who-earned-national-eagle-scout-awards.txt",
+  "party": "Republican",
+  "title": "El Cajon – Senator Brian Jones (R-Santee) yesterday met with and presented official Senate Certificates of Recognition to three local brothers who all earned their National Eagle S",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "66461cf2d3e6a5e47317dd82342951c7ea8d9657"
+}

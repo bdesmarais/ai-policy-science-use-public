@@ -1,0 +1,13 @@
+{
+  "press_release": "20150308-assemblywoman-irwin-honors-ventura-county-supervisor-kathy-long-2015-woman.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Jacqui Irwin (D-Thousand Oaks)  today recognized Kathy Long, Ventura County Supervisor, as the Woman of the  Year for the 44th Assembly District.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:51:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0397c39625e29757a7a63a6ffcc4984e3a36d6c3"
+}

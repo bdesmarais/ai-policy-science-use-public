@@ -1,0 +1,13 @@
+{
+  "press_release": "legislative-democrats-pass-incomplete-state-budget-9-billion-tax-increase.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove ( R-Bakersfield ) issued the following statement after legislative Democrats passed a fake budget bill, Senate Bill 74 , just to",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The state is facing a government-induced recession with more than 4.8 million unemployed Californians.\",\n    \"California has a budget deficit of $54 billion.\",\n    \"The proposed budget includes a $9 billion tax increase on businesses.\",\n    \"The budget allocates $22 mill",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The state is facing a government-induced recession with more than 4.8 million unemployed Californians.\",\n    \"California has a budget deficit of $54 billion.\",\n    \"The proposed budget includes a $9 billion tax increase on businesses.\",\n    \"The budget allocates $22 million to enforce the anti-worker law (AB 5, 2019).\",\n    \"The budget includes $5 million to buy a new state park.\",\n    \"The budget allocates $2.9 billion to continue the high-speed rail project despite delays and cost increases.\",\n    \"The Governor's budget relies on billions of dollars from the federal government while allocating $6.5 million to sue the federal government.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1cb04a8c1c527e44f7c8c3b62c0b986b3dbe1f10"
+}

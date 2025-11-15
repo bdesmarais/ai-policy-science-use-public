@@ -1,0 +1,13 @@
+{
+  "press_release": "20240821-assemblymember-kalra-senator-umberg-author-ab-1755-reform-californias-lemon.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's Lemon Law provides strong remedies for consumers.\",\n    \"Unprecedented lemon law filings in recent years have slowed down the judicial process.\",\n    \"This legislation seeks to improve current procedures so consumers can get remedies within months rather tha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's Lemon Law provides strong remedies for consumers.\",\n    \"Unprecedented lemon law filings in recent years have slowed down the judicial process.\",\n    \"This legislation seeks to improve current procedures so consumers can get remedies within months rather than years.\",\n    \"CAOC's top priority is to ensure consumers can exercise their lemon law rights quickly and fairly.\",\n    \"The reforms will make California's Lemon Law easier for consumers to use.\",\n    \"Public resources dedicated to the judicial branch should be utilized economically and efficiently to ensure access to justice.\",\n    \"The bill will reduce unnecessary motions while providing earlier resolution for litigants.\",\n    \"Lemon law cases have increased geometrically in some areas of California, causing delays in other civil matters.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7cffde3ccde7f2b8750f63f755d533d2ef2185f2"
+}

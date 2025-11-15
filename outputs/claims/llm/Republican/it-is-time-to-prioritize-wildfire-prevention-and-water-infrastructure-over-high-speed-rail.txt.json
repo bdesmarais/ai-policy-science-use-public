@@ -1,0 +1,13 @@
+{
+  "press_release": "it-is-time-to-prioritize-wildfire-prevention-and-water-infrastructure-over-high-speed-rail.txt",
+  "party": "Republican",
+  "title": "Today, U.S. Transportation Secretary Sean Duffy announced that the federal government will investigate the California High-Speed Rail project. Assemblywoman Alexandra M. Macedo (R-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"After 17 years and $13.7 billion spent, no tracks have been laid for the California High-Speed Rail project.\",\n    \"Taxpayers are spending a billion dollars a year on the California High-Speed Rail project.\",\n    \"Residents in Southern California are suffering from the a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"After 17 years and $13.7 billion spent, no tracks have been laid for the California High-Speed Rail project.\",\n    \"Taxpayers are spending a billion dollars a year on the California High-Speed Rail project.\",\n    \"Residents in Southern California are suffering from the aftermath of wildfires, including life-threatening flooding.\",\n    \"People in the Central Valley do not have access to drinkable water.\",\n    \"The annual funding of $1 billion for the High-Speed Rail project could be better used for wildfire prevention and water infrastructure projects.\",\n    \"Wildfire prevention and water infrastructure projects will provide safe drinking water and support jobs in the agricultural industry.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6f0f33f35d6a0ca737a174d9cc1dbcf8c7fca801"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20180719-assemblywoman-quirk-silva-reacts-uc-regents-reducing-tuition-calls.txt",
+  "party": "Democratic",
+  "title": "(Orange County, CA) â After many efforts to secure more funding for schools, and freezing tuition costs for state universities,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The UC Regents made a decision to decrease tuition for the 2018-19 academic year.\",\n    \"A $60 decrease in tuition is a step in the right direction but is ultimately not enough.\",\n    \"Tuition and fees still remain unaffordable for many students.\",\n    \"Assemblywoman Sha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The UC Regents made a decision to decrease tuition for the 2018-19 academic year.\",\n    \"A $60 decrease in tuition is a step in the right direction but is ultimately not enough.\",\n    \"Tuition and fees still remain unaffordable for many students.\",\n    \"Assemblywoman Sharon Quirk-Silva introduced Assembly Constitutional Amendment 27 (ACA 27) to check the power of the UC Regents and the UC President.\",\n    \"The legislation requires greater transparency in setting salaries and spending in the UC system.\",\n    \"Quirk-Silva called on the UC Regents to halt any discussion of a tuition increase until the public understands the UC system's financial standing.\",\n    \"Quirk-Silva authored Assembly Bill 393: The Student Protection Act to address financial challenges for college students.\",\n    \"The Student Protection Act aimed to place a moratorium on student tuition and fees at California's public community colleges and state universities.\",\n    \"The state auditor uncovered a $175 million reserve held by the administration of the University of California.\",\n    \"Quirk-Silva participated in a joint hearing discussing the failure of the University of California Office of the President to disclose surplus funds.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2cd8e207625440f97dd56668238a87a7e7b619b8"
+}

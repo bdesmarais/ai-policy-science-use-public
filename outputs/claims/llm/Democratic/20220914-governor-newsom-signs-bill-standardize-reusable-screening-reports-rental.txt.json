@@ -1,0 +1,13 @@
+{
+  "press_release": "20220914-governor-newsom-signs-bill-standardize-reusable-screening-reports-rental.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:47:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Renters in California often have to pay an application fee ranging from $25 to $55 per adult for credit checks, employment verifications and criminal background reports each time they apply to lease an apartment or home.\",\n    \"These fees can add up to several hundreds o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Renters in California often have to pay an application fee ranging from $25 to $55 per adult for credit checks, employment verifications and criminal background reports each time they apply to lease an apartment or home.\",\n    \"These fees can add up to several hundreds of dollars before a prospective tenant even gets approved to move into a new residence.\",\n    \"Governor Newsom signed AB 2559 into law to standardize reusable screening reports for rental applications.\",\n    \"AB 2559 will standardize reusable screening reports in California.\",\n    \"Landlords who wish to accept reusable screening reports will receive them from a third-party company that provides the service.\",\n    \"The reusable screening reports would include name, contact information, eviction history, employment, rental history, and last known address.\",\n    \"The tenant is not able to tamper with the report contents but does have the opportunity to review the report for accuracy and dispute any errors with the tenant screening company.\",\n    \"In 2019, the State of Washington and in 2021, the State of Maryland passed legislation to allow landlords to accept reusable screening reports.\",\n    \"According to the Zillow Consumer Housing Trends Report for 2022, 26% of U.S. renters who moved in the past two years listed multiple application fees as the top stressor of a rental search.\",\n    \"AB 2559 will make rental properties more accessible to renters, while saving landlords time and effort in collecting fees and purchasing the reports.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c4eed9b37cb460afe80b9418eb629f20b3049ed7"
+}

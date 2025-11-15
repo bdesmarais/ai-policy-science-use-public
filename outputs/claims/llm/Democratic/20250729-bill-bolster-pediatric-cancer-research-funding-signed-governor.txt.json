@@ -1,0 +1,13 @@
+{
+  "press_release": "20250729-bill-bolster-pediatric-cancer-research-funding-signed-governor.txt",
+  "party": "Democratic",
+  "title": "Childhood cancer is the leading cause of death by disease among children nationwide. Roughly 15,000 children are diagnosed with cancer every year. But the federal government is exa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Childhood cancer is the leading cause of death by disease among children nationwide.\",\n    \"Roughly 15,000 children are diagnosed with cancer every year.\",\n    \"The federal government is exacerbating existing gaps in pediatric cancer by slashing scientific research.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Childhood cancer is the leading cause of death by disease among children nationwide.\",\n    \"Roughly 15,000 children are diagnosed with cancer every year.\",\n    \"The federal government is exacerbating existing gaps in pediatric cancer by slashing scientific research.\",\n    \"AB 703 provides Californians the opportunity to donate a portion of their state tax refund to support pediatric cancer research.\",\n    \"Sahil Mehta's brother Ronil passed away from Diffuse Intrinsic Pontine Glioma (DIPG), a rare and aggressive brain cancer with a near-zero survival rate.\",\n    \"One in five children diagnosed with cancer will not survive.\",\n    \"Most survivors of childhood cancer develop chronic conditions or experience a severe or life-threatening condition due to treatment.\",\n    \"The Trump administration proposed a roughly 40% budget cut to the National Institutes of Health.\",\n    \"The Trump administration proposed about a 37% reduction to the National Cancer Institute’s budget.\",\n    \"Research institutions nationwide are seeing their cancer research grants on the chopping blocks.\",\n    \"AB 703 will create an essential funding stream in California dedicated towards research into childhood cancer.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "57caa511c7ea74a98ada213a484a5571379d21a8"
+}

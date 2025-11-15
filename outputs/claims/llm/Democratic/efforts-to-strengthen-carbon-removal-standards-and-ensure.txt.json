@@ -1,0 +1,13 @@
+{
+  "press_release": "efforts-to-strengthen-carbon-removal-standards-and-ensure.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA — In a major step toward ensuring California meets its net-zero greenhouse gas (GHG) emissions targets with scientific integrity, the Senate Committee on Environment",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Senate Committee on Environmental Quality approved SB 285, which establishes rigorous standards for carbon dioxide removal (CDR) and offsets used to balance out emissions.\",\n    \"SB 285 ensures that carbon removal solutions are effective, durable, and aligned with cl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Senate Committee on Environmental Quality approved SB 285, which establishes rigorous standards for carbon dioxide removal (CDR) and offsets used to balance out emissions.\",\n    \"SB 285 ensures that carbon removal solutions are effective, durable, and aligned with climate science.\",\n    \"Current law lacks clear rules on what qualifies as legitimate carbon removal.\",\n    \"SB 285 sets clear, enforceable criteria for carbon removal to ensure that only legitimate and durable solutions count toward net-zero goals.\",\n    \"SB 285 requires removed carbon to be stored durably, including financial responsibility for long-term monitoring and replacement of losses.\",\n    \"SB 285 restricts carbon removal to using waste materials only, preventing deforestation and ensuring environmental sustainability.\",\n    \"SB 285 excludes Enhanced Oil Recovery (EOR) to stop carbon removal projects from being used to assist increased fossil fuel production.\",\n    \"SB 285 mandates transparency in emissions reporting by requiring separate documentation of actual emissions and carbon dioxide removal used to balance those emissions.\",\n    \"SB 285 aligns with California's broader climate strategy by ensuring that carbon removal complements emissions reductions rather than replacing them.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "54afcc0838168479f0553c7ce9cdb319266ceea2"
+}

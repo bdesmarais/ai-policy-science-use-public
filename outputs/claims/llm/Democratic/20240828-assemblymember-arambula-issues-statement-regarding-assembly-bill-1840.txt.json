@@ -1,0 +1,13 @@
+{
+  "press_release": "20240828-assemblymember-arambula-issues-statement-regarding-assembly-bill-1840.txt",
+  "party": "Democratic",
+  "title": "FRESNO – Assemblymember Dr. Joaquin Arambula (D-Fresno) today is issuing his statement about his bill, Assembly Bill 1840:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b29d40810e727ea50b9ea7e1a46a74d9ab6671bb"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-condemns-early-release-twice-deported-felon-who-killed-two-oc-teens.txt",
+  "party": "Republican",
+  "title": "In response to news that Oscar Eduardo Ortega-Anguiano — a twice-deported illegal immigrant with a violent criminal history — will be released from prison after serving just 3.5 ye",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's sanctuary state policies and soft-on-crime approach contribute to preventable deaths.\",\n    \"The release of violent offenders can pose risks to community safety.\",\n    \"Senate Bill 554 requires law enforcement to cooperate with federal immigration authoritie",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's sanctuary state policies and soft-on-crime approach contribute to preventable deaths.\",\n    \"The release of violent offenders can pose risks to community safety.\",\n    \"Senate Bill 554 requires law enforcement to cooperate with federal immigration authorities regarding convicted, violent illegal immigrants.\",\n    \"California's sanctuary state laws may hinder the fulfillment of federal detainer requests.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e42664e7187c74d2b8d45470c53be45c0ee7c276"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240524-e-bike-safety-bill-assemblymember-boerner-passes-assembly-floor-during.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"With the increased number of e-bikes on the road, e-bike injuries have become more common.\",\n    \"E-bike injuries have become more prevalent than traditional bicycle injuries.\",\n    \"Children 13 years and under make up the majority of e-bike injuries requiring a hospital",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"With the increased number of e-bikes on the road, e-bike injuries have become more common.\",\n    \"E-bike injuries have become more prevalent than traditional bicycle injuries.\",\n    \"Children 13 years and under make up the majority of e-bike injuries requiring a hospital visit.\",\n    \"According to the National Electronic Injury Surveillance System, there were 3,945 e-bike injuries between 2011 and 2020.\",\n    \"E-bike injuries increased over time during the study period.\",\n    \"The 10-13 year old age group made up 44% of e-bike injuries during the study period.\",\n    \"Children under the age of 14 made up 72% of e-bike injuries over the study period.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5b0fdc3c5c36887453391f641b0945d08ce18bb6"
+}

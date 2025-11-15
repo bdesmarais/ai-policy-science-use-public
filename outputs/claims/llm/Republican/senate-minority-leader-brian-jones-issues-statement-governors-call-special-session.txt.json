@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-minority-leader-brian-jones-issues-statement-governors-call-special-session.txt",
+  "party": "Republican",
+  "title": "Moments ago, Senate Minority Leader Brian W. Jones (R-San Diego) released the following statement regarding Senate President pro Tempore Mike McGuire’s rejection of Governor Newsom",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0760b28c64bc3a7ece9599d310c359bf9b2dec8c"
+}

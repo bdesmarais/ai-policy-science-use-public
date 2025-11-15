@@ -1,0 +1,13 @@
+{
+  "press_release": "asm-carl-demaio-statement-on-ca-democrats-dropping-opposition-to-ab-379-child-trafficking-bill.txt",
+  "party": "Republican",
+  "title": "“This is a huge win in the fight to combat child sex trafficking, but the fight is far from over.”",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California Democrats reversed their opposition to a bill making it a felony to purchase 16 and 17 year-old minors for sex.\",\n    \"Public backlash influenced California Democrats to bring the bill back to the floor.\",\n    \"Purchasing all minors for sex can be treated as a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California Democrats reversed their opposition to a bill making it a felony to purchase 16 and 17 year-old minors for sex.\",\n    \"Public backlash influenced California Democrats to bring the bill back to the floor.\",\n    \"Purchasing all minors for sex can be treated as a felony crime following the bill's revival.\",\n    \"The fight to protect children from sex predators continues beyond the recent legislative changes.\",\n    \"SB 145 (2020) allows an adult to molest a child as young as age 14 and avoid mandatory sex offender registry.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3ce5fc3742226d19c7d883e308fbbadb9ed50b34"
+}

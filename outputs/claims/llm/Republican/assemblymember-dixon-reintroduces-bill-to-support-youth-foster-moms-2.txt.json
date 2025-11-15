@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-reintroduces-bill-to-support-youth-foster-moms-2.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO (February 4, 2025) – Yesterday, Assemblymember Diane Dixon (R-Newport Beach) introduced AB 392, which would require users to verify age and consent when uploading sexual",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"It is easy for sexually explicit material to end up online.\",\n    \"Once sexually explicit content is online, it is extremely difficult to remove.\",\n    \"One in 12 people have been a victim of image-based sexual abuse.\",\n    \"The Protect Act would require users to verify ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"It is easy for sexually explicit material to end up online.\",\n    \"Once sexually explicit content is online, it is extremely difficult to remove.\",\n    \"One in 12 people have been a victim of image-based sexual abuse.\",\n    \"The Protect Act would require users to verify the age and consent of individuals depicted in sexually explicit content before uploading to adult media sites.\",\n    \"The Protect Act will require sufficient information to ensure the uploader can be contacted in cases where they did not provide necessary consent and age verifications.\",\n    \"Verification technology for age and consent already exists.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "73097f93ea7bf536a29a2e7f331d66564f076c48"
+}

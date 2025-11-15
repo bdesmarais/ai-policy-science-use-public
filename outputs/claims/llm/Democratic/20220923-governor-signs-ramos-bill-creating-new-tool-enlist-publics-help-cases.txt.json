@@ -1,0 +1,13 @@
+{
+  "press_release": "20220923-governor-signs-ramos-bill-creating-new-tool-enlist-publics-help-cases.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Gov. Gavin Newsom today signed AB 1314 which would enlist public assistance when",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:48:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"AB 1314 creates a state Endangered Missing Advisory (EMA) system when Native Americans are at risk.\",\n    \"Currently, law enforcement agencies use the EMA to investigate suspicious disappearances of at-risk missing children or other threatened persons.\",\n    \"Califo",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"AB 1314 creates a state Endangered Missing Advisory (EMA) system when Native Americans are at risk.\",\n    \"Currently, law enforcement agencies use the EMA to investigate suspicious disappearances of at-risk missing children or other threatened persons.\",\n    \"California has the greatest population of Native Americans in the nation.\",\n    \"California has among the highest rates of reported cases of Missing and Murdered Indigenous People (MMIP).\",\n    \"Only nine percent of murders of indigenous women in California have ever been solved.\",\n    \"The Feather Alert system will aid law enforcement and families in quickly disseminating information when a Native individual is missing or endangered.\",\n    \"Enlisting public assistance through the Feather Alert is aimed at addressing the crisis of Missing and Murdered Indigenous People.\",\n    \"Legislation for similar emergency alert systems has been approved in Washington state and Colorado this year.\",\n    \"The emergency notification system aims to reduce the disproportionate rate of MMIP cases in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cdf5d8942d216e5b9726b427cf62de81edf5887e"
+}

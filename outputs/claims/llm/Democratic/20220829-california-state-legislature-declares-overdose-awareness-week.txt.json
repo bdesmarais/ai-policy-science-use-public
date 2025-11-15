@@ -1,0 +1,13 @@
+{
+  "press_release": "20220829-california-state-legislature-declares-overdose-awareness-week.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:45:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"About 10,000 people died of a drug overdose in California in the year-long period ending in April 2021.\",\n    \"The death rate from drug overdoses has increased from one every 9 minutes to one every 5 minutes.\",\n    \"Fentanyl is being used to counterfeit drugs so commonly",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"About 10,000 people died of a drug overdose in California in the year-long period ending in April 2021.\",\n    \"The death rate from drug overdoses has increased from one every 9 minutes to one every 5 minutes.\",\n    \"Fentanyl is being used to counterfeit drugs so commonly that fatality rates are increasing exponentially.\",\n    \"There is a need for the California Legislature to strengthen penalties for trafficking fentanyl.\",\n    \"Innovations from companies like Masimo are being used to help clinicians and consumers address the opioid epidemic.\",\n    \"The resolution aims to increase support for individuals battling addiction.\",\n    \"There is a proposal to establish a penalty of 20 years to life for the distribution of fentanyl resulting in death.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fa20adb77167d14fa3b4b2f3a4257ed8572cd5f3"
+}

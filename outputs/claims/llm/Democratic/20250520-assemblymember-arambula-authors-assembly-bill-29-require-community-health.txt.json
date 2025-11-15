@@ -1,0 +1,13 @@
+{
+  "press_release": "20250520-assemblymember-arambula-authors-assembly-bill-29-require-community-health.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Dr. Joaquin Arambula (D-Fresno) has authored Assembly Bill 29 to ensure that community health workers and doulas – who are vital to serving our most vul",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Community health workers and doulas are vital to serving vulnerable communities and improving health outcomes.\",\n    \"ACEs screenings can help diagnose and treat children who have experienced traumatic episodes.\",\n    \"Screening for ACEs is essential for helping children",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Community health workers and doulas are vital to serving vulnerable communities and improving health outcomes.\",\n    \"ACEs screenings can help diagnose and treat children who have experienced traumatic episodes.\",\n    \"Screening for ACEs is essential for helping children overcome adverse experiences and achieve stable lives.\",\n    \"Currently, community health workers and doulas are not reimbursed through Medi-Cal for conducting ACEs trauma screenings.\",\n    \"Adding community health workers and doulas to the list of Medi-Cal providers for ACEs screenings can increase access to critical health services.\",\n    \"Expanding reimbursement for community health workers and doulas will improve the consistency of ACEs screenings in underserved communities.\",\n    \"Compensating community health workers and doulas for their work can promote earlier identification and intervention for trauma-related challenges.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ffa9c17d5c94a45a2245269b8a87085779413f89"
+}

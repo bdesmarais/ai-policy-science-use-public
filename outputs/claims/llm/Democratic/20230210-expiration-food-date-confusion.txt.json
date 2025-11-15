@@ -1,0 +1,13 @@
+{
+  "press_release": "20230210-expiration-food-date-confusion.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:53:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The introduction of clear and consistent expiration date labels is expected to dramatically reduce food waste.\",\n    \"About 20 percent of food waste is caused by consumer uncertainty regarding vague expiration date labeling.\",\n    \"Making current voluntary expiration dat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The introduction of clear and consistent expiration date labels is expected to dramatically reduce food waste.\",\n    \"About 20 percent of food waste is caused by consumer uncertainty regarding vague expiration date labeling.\",\n    \"Making current voluntary expiration date labeling standards mandatory will reduce food waste and save consumers money.\",\n    \"Food waste contributes to climate change by producing methane gas in landfills.\",\n    \"Methane is over 80 times more powerful as a greenhouse gas than carbon dioxide.\",\n    \"Most consumers do not realize that date labels generally refer to a product's estimated quality, not its safety for consumption.\",\n    \"A standardized set of date labels focused on quality and safety can potentially save more than half a million tons of food from going to waste each year nationally.\",\n    \"The phrases 'BEST if used by' and 'USE by' indicate peak freshness and food safety, respectively.\",\n    \"Many food companies continue to use confusing labels such as 'expires on' and 'enjoy by', despite efforts to standardize labeling.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7a018759e18e46fef0cbff0d3caf0df0fba355e2"
+}

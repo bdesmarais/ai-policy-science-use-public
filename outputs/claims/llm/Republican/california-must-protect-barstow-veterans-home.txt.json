@@ -1,0 +1,13 @@
+{
+  "press_release": "california-must-protect-barstow-veterans-home.txt",
+  "party": "Republican",
+  "title": "Link: https://www.sbsun.com/2020/05/27/california-must-protect-the-barstow-veterans-home/ By PAUL COOK, SHANNON GROVE, JAY OBERNOLTE and DAWN ROWE",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed closure of the Barstow Veterans Home will not help the state’s budget shortfall.\",\n    \"The state will lose up to $3 million annually in federal funds if the Barstow Veterans Home is closed.\",\n    \"The nearest veterans home to Barstow is located in Lancaster",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed closure of the Barstow Veterans Home will not help the state’s budget shortfall.\",\n    \"The state will lose up to $3 million annually in federal funds if the Barstow Veterans Home is closed.\",\n    \"The nearest veterans home to Barstow is located in Lancaster, which is an hour and a half away.\",\n    \"CalVet cannot guarantee sufficient space in the veterans homes located in Lancaster and West Los Angeles.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0a30e68af78f404bb45daac96f117115ec7eb256"
+}

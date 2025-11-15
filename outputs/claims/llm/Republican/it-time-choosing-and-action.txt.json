@@ -1,0 +1,13 @@
+{
+  "press_release": "it-time-choosing-and-action.txt",
+  "party": "Republican",
+  "title": "Published in the San Diego Union-Tribune",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The decisions made today to address challenges will have long-term effects.\",\n    \"The knowledge of COVID-19 has evolved dramatically.\",\n    \"The COVID-19 lockdowns have caused social and economic havoc.\",\n    \"Businesses have been irreversibly damaged due to the lockdow",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The decisions made today to address challenges will have long-term effects.\",\n    \"The knowledge of COVID-19 has evolved dramatically.\",\n    \"The COVID-19 lockdowns have caused social and economic havoc.\",\n    \"Businesses have been irreversibly damaged due to the lockdowns.\",\n    \"The mental health of countless Californians has declined due to the pandemic response.\",\n    \"The disease isn’t spreading in schools.\",\n    \"The proposed homelessness package included measures aimed at moving Californians currently homeless into temporary, transitional housing.\",\n    \"The homelessness package emphasized a compassionate assessment of each homeless person's behavior, mental health, and substance issues.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ae45d65c5f7ff8950db36bb4331dea7583c18b2d"
+}

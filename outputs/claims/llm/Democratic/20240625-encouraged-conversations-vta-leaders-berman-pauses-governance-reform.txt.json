@@ -1,0 +1,13 @@
+{
+  "press_release": "20240625-encouraged-conversations-vta-leaders-berman-pauses-governance-reform.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"VTA's official response to the government audit recommendations was found to be inadequate.\",\n    \"VTA has recently broken ground on some of the biggest, most expensive projects in the agency's history.\",\n    \"The processes for appointing VTA’s directors are not always t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"VTA's official response to the government audit recommendations was found to be inadequate.\",\n    \"VTA has recently broken ground on some of the biggest, most expensive projects in the agency's history.\",\n    \"The processes for appointing VTA’s directors are not always transparent enough to ensure the appointment of directors with experience in transportation.\",\n    \"VTA’s directors have briefer tenures than those of peer transit agencies.\",\n    \"The shorter term lengths established by state law contribute to VTA’s directors having less experience overseeing the agency’s operations compared to the boards of peer agencies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "659e21c7ad41cbf68bd96b8f444e725dae1d25c1"
+}

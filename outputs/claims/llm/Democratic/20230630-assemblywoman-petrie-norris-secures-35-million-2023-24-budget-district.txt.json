@@ -1,0 +1,13 @@
+{
+  "press_release": "20230630-assemblywoman-petrie-norris-secures-35-million-2023-24-budget-district.txt",
+  "party": "Democratic",
+  "title": "IRVINE",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The establishment of a Real Time Crime Center (RTCC) will enable the embedding of crime analysts in the Irvine Police Department communications and dispatch center.\",\n    \"The Real Time Crime Center is expected to provide officers with real-time information to increase t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The establishment of a Real Time Crime Center (RTCC) will enable the embedding of crime analysts in the Irvine Police Department communications and dispatch center.\",\n    \"The Real Time Crime Center is expected to provide officers with real-time information to increase the apprehension of offenders and prevent crime.\",\n    \"Equipping the Real Time Crime Center will involve new software, hardware, and expansion of the existing dispatch center.\",\n    \"The project in Costa Mesa aims to expand access to behavioral and mental health services through a mobile mental health response program.\",\n    \"The mobile mental health response program is designed to provide case management, resources, and transport to local behavioral health facilities.\",\n    \"The Tustin Legacy Park will be a linear park system that will connect the Tustin Metrolink station with jobs and housing in the Tustin Legacy area.\",\n    \"Improvements to park amenities in Tustin are expected to enhance the user experience for area residents and employees.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7e643d81a3a28e4ef02e06f665323c5e6f0c6adb"
+}

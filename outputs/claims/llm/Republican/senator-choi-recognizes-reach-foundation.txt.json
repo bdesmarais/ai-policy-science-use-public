@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-choi-recognizes-reach-foundation.txt",
+  "party": "Republican",
+  "title": "Today, Senator Choi shown a spotlight on the REACH Foundation as the 37 th Senate District 2025 California Nonprofit of the Year. The REACH Foundation is among many nonprofits bein",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The REACH Foundation engages with 23,000 students throughout 34 schools.\",\n    \"The REACH Foundation focuses on improving students' life and learning skills.\",\n    \"The REACH Foundation partners with over 50 community organizations and businesses.\",\n    \"The REACH Founda",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The REACH Foundation engages with 23,000 students throughout 34 schools.\",\n    \"The REACH Foundation focuses on improving students' life and learning skills.\",\n    \"The REACH Foundation partners with over 50 community organizations and businesses.\",\n    \"The REACH Foundation fosters student excitement for STEAM (science, technology, engineering, arts, and math).\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "de052c58741b6e5f84b65fb67715c945a3eca943"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210119-asm-robert-rivas-introduces-bill-assist-timely-expert-completion-anderson.txt",
+  "party": "Democratic",
+  "title": "Building on Assemblymember Rivas’ efforts last year, AB 271 authorizes Valley Water to hire the best, most skilled contractors to move critical project forward",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:22:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Anderson Dam has been deemed an 'unacceptably high' seismic risk by the Federal Energy Regulatory Commission.\",\n    \"Anderson Dam is over 70 years old and was built before engineers knew about the two nearby fault lines.\",\n    \"A sufficiently large earthquake could s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Anderson Dam has been deemed an 'unacceptably high' seismic risk by the Federal Energy Regulatory Commission.\",\n    \"Anderson Dam is over 70 years old and was built before engineers knew about the two nearby fault lines.\",\n    \"A sufficiently large earthquake could spell disaster for hundreds of thousands of residents throughout the region.\",\n    \"The 'best value' contracting provisions in AB 271 authorize Valley Water to select the most skilled and trained construction contractors for the Anderson Dam Seismic Retrofit Project.\",\n    \"Currently, Valley Water is required to select contractors offering the lowest bid, regardless of experience.\",\n    \"Experts estimate that a magnitude 7.25 earthquake on the Calaveras Fault or a magnitude 6.6 earthquake on the Coyote Creek Fault could significantly damage the dam embankment and lead to dam failure.\",\n    \"Assembly Bill 271 will ensure Anderson Dam is properly constructed using up-to-date science and information.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "de9c3b8f7c7fd48f1879c55a48f40c5b6fb029e7"
+}

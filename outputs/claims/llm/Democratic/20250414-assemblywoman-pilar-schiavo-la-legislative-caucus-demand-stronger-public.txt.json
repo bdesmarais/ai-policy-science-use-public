@@ -1,0 +1,13 @@
+{
+  "press_release": "20250414-assemblywoman-pilar-schiavo-la-legislative-caucus-demand-stronger-public.txt",
+  "party": "Democratic",
+  "title": "Schiavo Delivers Letter to Board of Supervisor Urging Immediate Action",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The fire burning at the Chiquita Canyon Landfill is resulting in exposure to hazardous chemicals like methane, hydrogen sulfide, and cancer-causing toxins such as acrolein and benzene.\",\n    \"Residents near the Chiquita Canyon Landfill have reported health issues includi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The fire burning at the Chiquita Canyon Landfill is resulting in exposure to hazardous chemicals like methane, hydrogen sulfide, and cancer-causing toxins such as acrolein and benzene.\",\n    \"Residents near the Chiquita Canyon Landfill have reported health issues including headaches, nausea, nosebleeds, dizziness, heart palpitations, vomiting, breathing difficulties, and tremors.\",\n    \"Some residents near the Chiquita Canyon Landfill have been diagnosed with and died from cancer.\",\n    \"Since April 2023, over 28,000 odor and symptom complaints have been submitted to the South Coast Air Quality Management District, which is over 20,000% higher than the number of complaints filed during the early days of the Aliso Canyon gas leak.\",\n    \"The County's response to the Aliso Canyon gas leak included relocation orders based on far fewer health complaints and lower toxic gas readings than those currently reported at the Chiquita Canyon Landfill.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "081107c7cae6e39a2e060bf41ac2af02c0ecedb2"
+}

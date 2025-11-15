@@ -1,0 +1,13 @@
+{
+  "press_release": "20241227-speaker-robert-rivas-announces-new-assembly-committee-chair-appointments.txt",
+  "party": "Democratic",
+  "title": "On Friday, Speaker Robert Rivas announced California State Assembly committee chairperson appointments for the 2025 legislative year.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:23:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "273e56c4f4d90f604fbed1d48edce4321a84a8cd"
+}

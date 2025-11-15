@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-newsom-approves-sb-697-expanding-role-physician-assistants.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Today, Senate Bill 697 by state Senator Anna M. Caballero, D-Salinas, was signed into law by Governor Gavin Newsom. SB 697 eliminates outmoded requirements that Physicia",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 697 eliminates outmoded requirements that Physician Assistants work under by creating a more flexible work arrangement.\",\n    \"SB 697 ends the disparities between Physician Assistants and other medical providers.\",\n    \"Many physicians and Physician Assistants current",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 697 eliminates outmoded requirements that Physician Assistants work under by creating a more flexible work arrangement.\",\n    \"SB 697 ends the disparities between Physician Assistants and other medical providers.\",\n    \"Many physicians and Physician Assistants currently work in group practices or hospital settings where state laws interfere with practice-level decisions.\",\n    \"The bill will enhance the flexibility of healthcare teams at the practice level to increase healthcare access, especially in rural communities.\",\n    \"A report from the University of California San Francisco concluded that the state could see a potential shortfall of 4,700 clinicians as soon as 2025.\",\n    \"The California Future Health Workforce Commission Final Report identified Physician Assistants as one of the priority professions that can help grow, support, and sustain California's health workforce.\",\n    \"Care organizations that employ more Physician Assistants and allow them to provide a full range of primary care services have lower costs, lower use of services and advanced diagnostic imaging, fewer emergency department visits, and fewer inpatient hospital stays.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "90670907d6bbac8f598afccd16e764072b35b413"
+}

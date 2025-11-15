@@ -1,0 +1,13 @@
+{
+  "press_release": "20221206-assemblymember-kalra-introduces-bill-promote-urban-greening.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:51:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Pocket forests are small plots of urban land that have been densely planted with native plant species.\",\n    \"Pocket forests offer communities access to healthy, self-sustaining natural green areas.\",\n    \"Pocket forests are an efficient and effective way to address the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Pocket forests are small plots of urban land that have been densely planted with native plant species.\",\n    \"Pocket forests offer communities access to healthy, self-sustaining natural green areas.\",\n    \"Pocket forests are an efficient and effective way to address the scarcity of urban green spaces.\",\n    \"Pocket forests can provide crucial habitat for important native animal species.\",\n    \"Pocket forests serve as pit stops for vital pollinators.\",\n    \"Pocket forests can reshape the urban landscape into something more equitable for all.\",\n    \"Pocket forests are designed according to the Miyawaki method, which emulates an area’s native ecosystem.\",\n    \"AB 57 directs CAL FIRE to prioritize grant applications for pocket forest projects in disadvantaged communities.\",\n    \"Pocket forests are different from other urban forest programs, as they do not involve planting linear street trees or tidy tree groves.\",\n    \"Pocket forests could serve as an introduction to natural, non-manicured wilderness for children who live in cities.\",\n    \"AB 57 advances nature-based solutions to ameliorate extreme heat.\",\n    \"AB 57 addresses water and air pollution issues.\",\n    \"AB 57 aims to reverse the decades-long trend of urban nature loss.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9415ac717aabfe3cc31496e9c9e4111c75d67ef0"
+}

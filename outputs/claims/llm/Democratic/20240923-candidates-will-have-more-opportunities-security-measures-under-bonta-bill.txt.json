@@ -1,0 +1,13 @@
+{
+  "press_release": "20240923-candidates-will-have-more-opportunities-security-measures-under-bonta-bill.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2041 updates California's 30 year old candidate finance policies to better reflect the modern-day political climate.\",\n    \"The bill doubles the lifetime cap on security expenses from $5,000 to $10,000.\",\n    \"AB 2041 extends eligibility for security expenses to inclu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2041 updates California's 30 year old candidate finance policies to better reflect the modern-day political climate.\",\n    \"The bill doubles the lifetime cap on security expenses from $5,000 to $10,000.\",\n    \"AB 2041 extends eligibility for security expenses to include a candidate's or elected official's family and staff.\",\n    \"Nearly two-thirds of women (65.38%) experienced harassment during their campaign, compared to 50% of men.\",\n    \"54.76% of women of color experienced stalking at least once during their campaign.\",\n    \"28.57% of women of color reported experiencing stalking frequently or very frequently during their campaign.\",\n    \"53.33% of LGBTQ+ women experienced stalking during their campaign.\",\n    \"Women candidates experience greater severity of threats and harassment than their male counterparts, especially women of color and Black women candidates.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a52f653d4a3ddc5a4623d73aebe2043f5540a3a"
+}

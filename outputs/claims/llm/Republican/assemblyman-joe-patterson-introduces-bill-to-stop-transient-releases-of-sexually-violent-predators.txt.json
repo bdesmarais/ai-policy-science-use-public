@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-joe-patterson-introduces-bill-to-stop-transient-releases-of-sexually-violent-predators.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Transient releases of Sexually Violent Predators (SVPs) are a threat to safety.\",\n    \"Transient releases of SVPs have a 50% failure rate according to Liberty Healthcare.\",\n    \"Legislators did not intend to allow transient releases of SVPs.\",\n    \"SVPs must have suitabl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Transient releases of Sexually Violent Predators (SVPs) are a threat to safety.\",\n    \"Transient releases of SVPs have a 50% failure rate according to Liberty Healthcare.\",\n    \"Legislators did not intend to allow transient releases of SVPs.\",\n    \"SVPs must have suitable housing with constant, appropriate monitoring to prevent re-victimization.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "345d4d7b4ef2629ac4d455e3b7c28196fdf83815"
+}

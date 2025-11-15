@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-lairds-audit-california-office-aids-now-complete-actionable-recommendations.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – In 2024, Senator John Laird (D – Santa Cruz), Vice Chair of the Joint Legislative Audit Committee, requested an audit by the California State Auditor on the effect",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Auditor conducted an audit on the effectiveness of the California Office of AIDS in coordinating state programs related to HIV/AIDS.\",\n    \"The audit included recommendations aimed at improving oversight, accountability, and efficiency in the adminis",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Auditor conducted an audit on the effectiveness of the California Office of AIDS in coordinating state programs related to HIV/AIDS.\",\n    \"The audit included recommendations aimed at improving oversight, accountability, and efficiency in the administration of Office of AIDS grants and programs.\",\n    \"Establishing a policy to verify the cost of work performed by subcontractors is recommended to reduce the likelihood of fraud in the Office of AIDS.\",\n    \"Creating guidance for evaluating contractors' use of funds is recommended to ensure efficient allocation of resources by the Office of AIDS.\",\n    \"The Office of AIDS should establish oversight processes for new programs to ensure program recipients follow key program guidance.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70d85e72bb32511df5b9cb539cfc0b44fca8e5d4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210319-ramos-introduces-bill-package-save-small-business-jobs-0.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—A package of measures providing relief to California’s struggling small businesses by offering protection from unfounded lawsuits, a reduction in state tax liability and",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Tens of thousands of California businesses have temporarily or permanently closed.\",\n    \"Small businesses are resilient but need immediate and targeted assistance.\",\n    \"The Ramos small business relief package includes protections from unfounded lawsuits for small",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Tens of thousands of California businesses have temporarily or permanently closed.\",\n    \"Small businesses are resilient but need immediate and targeted assistance.\",\n    \"The Ramos small business relief package includes protections from unfounded lawsuits for small businesses following pandemic-related health laws.\",\n    \"AB 632 implements a tiered reduction in the minimum franchise tax for small businesses with gross receipts less than $15 million.\",\n    \"AB 643 requires school districts to notify apprenticeship programs about career or college fairs, increasing awareness and participation in these programs.\",\n    \"AB 743 clarifies that COVID-19 is considered direct physical damage under business interruption for insured businesses.\",\n    \"AB 743 retroactively applies to insured parties from March 4, 2020.\",\n    \"AB 743 allows businesses that paid premiums for business interruption insurance to meet disputed burdens of proof related to pandemic closures.\",\n    \"AB 1571 implements a moratorium on new regulations affecting small businesses in disaster areas unless certified necessary.\",\n    \"AB 1572 establishes a state New Market Tax Credit to help community development entities invest in small businesses in low-income communities.\",\n    \"AB 1573 establishes the California Business Retention Program to support local economic recovery efforts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6e272aa7dca811c85180ff3f4ef99d68f69ac0b3"
+}

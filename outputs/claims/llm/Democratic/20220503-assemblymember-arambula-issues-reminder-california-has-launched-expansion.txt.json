@@ -1,0 +1,13 @@
+{
+  "press_release": "20220503-assemblymember-arambula-issues-reminder-california-has-launched-expansion.txt",
+  "party": "Democratic",
+  "title": "FRESNO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has expanded full-scope Medi-Cal to all income-eligible adults 50 years of age and older, regardless of immigration status.\",\n    \"California is the first state in the nation to provide full-scope Medi-Cal coverage to undocumented seniors and elders aged 50 an",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has expanded full-scope Medi-Cal to all income-eligible adults 50 years of age and older, regardless of immigration status.\",\n    \"California is the first state in the nation to provide full-scope Medi-Cal coverage to undocumented seniors and elders aged 50 and older.\",\n    \"The number of new eligible recipients for Medi-Cal under this expansion is more than 185,000 people.\",\n    \"The COVID-19 pandemic highlighted inequities in the health care system that adversely impacted poor and underserved populations.\",\n    \"The proposed 2022-23 budget includes an expansion of full-scope Medi-Cal coverage to income-eligible adults ages 26 through 49, regardless of immigration status.\",\n    \"There have been successful efforts over the past six years to gain Medi-Cal coverage for children and young adults up to age 26.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ab055413a6fcf4be913f9ca117dd755e2db455db"
+}

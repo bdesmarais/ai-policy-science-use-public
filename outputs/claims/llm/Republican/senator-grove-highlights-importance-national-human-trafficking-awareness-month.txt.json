@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-highlights-importance-national-human-trafficking-awareness-month.txt",
+  "party": "Republican",
+  "title": "As a strong advocate against human trafficking, Senator Shannon Grove ( R-Bakersfield ) co-hosted a bipartisan press conference with survivors, advocates, and members of the Califo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The transportation industry plays a critical role in fighting against human traffickers.\",\n    \"More than 1.7 million trucking industry professionals have received critical training through the partnership with Truckers Against Trafficking.\",\n    \"Senate Bill 14 classifi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The transportation industry plays a critical role in fighting against human traffickers.\",\n    \"More than 1.7 million trucking industry professionals have received critical training through the partnership with Truckers Against Trafficking.\",\n    \"Senate Bill 14 classifies the crime of child sex trafficking as a serious felony under California’s Three Strikes law.\",\n    \"SB 14, which took effect January 1, 2024, ensures longer prison sentences for those who profit from the sale of children.\",\n    \"California has earned the distinction of being one of the largest sites of human trafficking in the United States.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7906d4200ad308c262899e7d9f213c2038238472"
+}

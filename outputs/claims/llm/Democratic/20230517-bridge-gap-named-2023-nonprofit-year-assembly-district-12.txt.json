@@ -1,0 +1,13 @@
+{
+  "press_release": "20230517-bridge-gap-named-2023-nonprofit-year-assembly-district-12.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblymember Connolly (D-San Rafael) announced that Sausalito-based Bridge the Gap was selected as Assembly District (AD) 12’s 2023 California Nonprofit of the Y",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Bridge the Gap provides comprehensive educational, social, and emotional resources to underserved students in Marin City and Southern Marin.\",\n    \"The goal of Bridge the Gap is to ensure that all students graduate high school and achieve their greatest potential through",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Bridge the Gap provides comprehensive educational, social, and emotional resources to underserved students in Marin City and Southern Marin.\",\n    \"The goal of Bridge the Gap is to ensure that all students graduate high school and achieve their greatest potential through college completion or other pathways to economic sustainability and independence.\",\n    \"Research demonstrates that higher education is a powerful way for under-resourced and first-generation students to achieve increased opportunity and earnings.\",\n    \"Bridge the Gap has been recognized for its leadership in addressing educational equity and community development.\",\n    \"Innovative programs by Bridge the Gap have empowered countless individuals, ensuring that no one is left behind.\",\n    \"Bridge the Gap has dedicated itself to narrowing educational disparities in Marin County through after-school academic and college access support.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "78f9d85fa3c5c7673f7025f1d38bc7957f91de7f"
+}

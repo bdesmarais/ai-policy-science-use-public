@@ -1,0 +1,74 @@
+{
+  "press_release": "gallagher-calls-for-independent-analysis-of-democrats-health-care-takeover-01-11-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblyman Gallagher (R-Yuba City), along with his Assembly Republican colleagues, called for an independent analysis of the cost and potential impacts of Demo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Costs for previous single-payer proposals were estimated at $400 billion per year.\"\n    },\n    {\n      \"claim_text\": \"There has been no impartial analysis of AB 1400’s price tag.\"\n    },\n    {\n      \"claim_text\": \"A companion measure, ACA 11, is pro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Costs for previous single-payer proposals were estimated at $400 billion per year.\"\n    },\n    {\n      \"claim_text\": \"There has been no impartial analysis of AB 1400’s price tag.\"\n    },\n    {\n      \"claim_text\": \"A companion measure, ACA 11, is projected to increase taxes by more than $160 billion per year.\"\n    },\n    {\n      \"claim_text\": \"ACA 11 allows the Legislature to raise taxes further with a simple majority vote.\"\n    },\n    {\n      \"claim_text\": \"ACA 11 eliminates Prop. 13’s two-thirds vote requirement.\"\n    },\n    {\n      \"claim_text\": \"ACA 11 skirts education funding requirements that were approved by voters in Prop. 98.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Costs for previous single-payer proposals were estimated at $400 billion per year.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "There has been no impartial analysis of AB 1400’s price tag.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "A companion measure, ACA 11, is projected to increase taxes by more than $160 billion per year.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "ACA 11 allows the Legislature to raise taxes further with a simple majority vote.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "ACA 11 eliminates Prop. 13’s two-thirds vote requirement.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "ACA 11 skirts education funding requirements that were approved by voters in Prop. 98.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "827c6c1688d61168d08c80eb16451bd4f48abaf2"
+}

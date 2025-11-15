@@ -1,0 +1,13 @@
+{
+  "press_release": "halloween-safety.txt",
+  "party": "Republican",
+  "title": "By Senator Rosilicie Ochoa Bogh, 23rd Senate District",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Children are more than twice as likely to be hit by a car and killed on Halloween than on any other day of the year.\",\n    \"Small outdoor events and indoor in-person gatherings where everyone is masked and 6 feet apart are considered moderately risky according to CD",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Children are more than twice as likely to be hit by a car and killed on Halloween than on any other day of the year.\",\n    \"Small outdoor events and indoor in-person gatherings where everyone is masked and 6 feet apart are considered moderately risky according to CDC guidance.\",\n    \"Medium- to large-size gatherings, as well as close contact from door-to-door trick-or-treating, can be high-risk for spreading COVID-19.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2aff8fef8a9fbc6b4e8e00d94ff571c29d98d5bc"
+}

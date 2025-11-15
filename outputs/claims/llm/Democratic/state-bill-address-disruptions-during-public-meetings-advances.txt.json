@@ -1,0 +1,13 @@
+{
+  "press_release": "state-bill-address-disruptions-during-public-meetings-advances.txt",
+  "party": "Democratic",
+  "title": "SB 1100 authored by Senator Cortese (D-Silicon Valley) along with principal co-author Assemblymember Evan Low (D-Silicon Valley) is moving forward after passing the Senate Governan",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:34:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1100 is designed to restore order during disruptions in public meetings.\",\n    \"SB 1100 presents safeguards to ensure implementation is consistent with First Amendment principles.\",\n    \"The mechanisms provided by the Brown Act are insufficient to deal with extreme di",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1100 is designed to restore order during disruptions in public meetings.\",\n    \"SB 1100 presents safeguards to ensure implementation is consistent with First Amendment principles.\",\n    \"The mechanisms provided by the Brown Act are insufficient to deal with extreme disorderly conduct during public meetings.\",\n    \"Public officials and attendees in California face disruptions during meetings at a high magnitude that impair critical business.\",\n    \"There has been a notable increase in disruptive behavior, hate speech, intimidation, and threats against local elected officials and the public.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "68dd2e84462da89583bf25bcf9595860c1402f2a"
+}

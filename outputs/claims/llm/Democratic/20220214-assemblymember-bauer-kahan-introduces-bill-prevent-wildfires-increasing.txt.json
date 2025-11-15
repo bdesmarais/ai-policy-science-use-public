@@ -1,0 +1,13 @@
+{
+  "press_release": "20220214-assemblymember-bauer-kahan-introduces-bill-prevent-wildfires-increasing.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The legislation will increase accountability and transparency when a private utility company conducts high-risk fire mitigation work.\",\n    \"Local fire districts will be aware and prepared when utility companies conduct 'hot work' or controlled burns within their jurisdi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The legislation will increase accountability and transparency when a private utility company conducts high-risk fire mitigation work.\",\n    \"Local fire districts will be aware and prepared when utility companies conduct 'hot work' or controlled burns within their jurisdiction.\",\n    \"Notifying fire districts in advance about risky work allows them to be prepared with personnel and equipment to respond to potential fires.\",\n    \"Lack of notification from utilities can result in fire districts being caught off guard, leading to a loss of critical time to prevent fires.\",\n    \"Utility work must happen in collaboration with fire chiefs to ensure community safety from accidental fires.\",\n    \"The legal ruling in favor of the San Ramon Valley Fire Protection District led to a compromise with PG&E that is being codified into new legislation.\",\n    \"The bill requires utility companies to notify fire protection districts 24 hours before beginning high-risk mitigation work during fire season.\",\n    \"Utility companies will incur a fine of $500 for failing to notify fire protection districts about high-risk work.\",\n    \"Having up-to-date information on utility work in high fire risk areas will help with fire prevention efforts.\",\n    \"The legislation establishes a framework for utilities to compensate fire districts for emergency transport team services if adequate notice is not provided.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c2830052a2d47f10910ccf0f7edb84a63ae68537"
+}

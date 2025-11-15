@@ -1,0 +1,64 @@
+{
+  "press_release": "assemblyman-hoovers-legislation-to-combat-fentanyl-in-schools-approved-by-public-safety-committee.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – On Tuesday the Assembly Public Safety Committee approved",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Fentanyl is 50 times more potent than heroin.\"\n    },\n    {\n      \"claim_text\": \"Fentanyl is 100 times stronger than morphine.\"\n    },\n    {\n      \"claim_text\": \"Fentanyl is a major contributor to fatal overdose deaths in the United States.\"\n    },\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Fentanyl is 50 times more potent than heroin.\"\n    },\n    {\n      \"claim_text\": \"Fentanyl is 100 times stronger than morphine.\"\n    },\n    {\n      \"claim_text\": \"Fentanyl is a major contributor to fatal overdose deaths in the United States.\"\n    },\n    {\n      \"claim_text\": \"In 2023 alone, 62,224 pounds of fentanyl were seized in California.\"\n    },\n    {\n      \"claim_text\": \"The seizure of fentanyl in California represents a 1066% increase in just 2 years.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Fentanyl is 50 times more potent than heroin.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Fentanyl is 100 times stronger than morphine.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Fentanyl is a major contributor to fatal overdose deaths in the United States.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "In 2023 alone, 62,224 pounds of fentanyl were seized in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The seizure of fentanyl in California represents a 1066% increase in just 2 years.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "940def70f43fbf7a14ce5dd2761f8fd439418aac"
+}

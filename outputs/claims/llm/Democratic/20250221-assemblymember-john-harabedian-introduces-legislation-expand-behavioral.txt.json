@@ -1,0 +1,13 @@
+{
+  "press_release": "20250221-assemblymember-john-harabedian-introduces-legislation-expand-behavioral.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:28:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1032 would require health care insurers to cover 12 annual visits per year with a licensed behavioral health provider for residents affected by wildfires.\",\n    \"Coverage under AB 1032 applies to individuals residing in counties under wildfire emergency declarations.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1032 would require health care insurers to cover 12 annual visits per year with a licensed behavioral health provider for residents affected by wildfires.\",\n    \"Coverage under AB 1032 applies to individuals residing in counties under wildfire emergency declarations.\",\n    \"Benefits of AB 1032 extend until one year after the emergency declaration is lifted.\",\n    \"Data from the California Parent & Youth Helpline indicate a 62% increase in calls related to mental and behavioral health needs from Southern California.\",\n    \"There has been a 366% increase in overnight calls related to mental health after the wildfires.\",\n    \"Live chat usage for mental health support has risen by 68% following the wildfires.\",\n    \"Text message inquiries for mental health support increased by 45% after the wildfires.\",\n    \"Overall call volume for behavioral health has seen a 22% increase following the wildfires.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "92cb30749e8290e50ae3a9a0914dd68d4b6a86cd"
+}

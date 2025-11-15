@@ -1,0 +1,13 @@
+{
+  "press_release": "el-asambleista-jeff-gonzalez-celebra-la-financiacion-estatal-de-10-millones-de-dolares-para-el-colegio-de-las-naciones-indigenas-de-california.txt",
+  "party": "Republican",
+  "title": "INDIO — Hoy el Asambleísta Jeff González (R-Indio) se unió a sus colegas del Caucus Nativo Americano de California para celebrar la inclusión de 10 millones de dólares en la financ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California includes 10 million dollars in its state budget to support the College of Indigenous Nations of California (CINC).\",\n    \"CINC aims to become the first federally accredited tribal university in California.\",\n    \"The funding for CINC is intended to expand acce",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California includes 10 million dollars in its state budget to support the College of Indigenous Nations of California (CINC).\",\n    \"CINC aims to become the first federally accredited tribal university in California.\",\n    \"The funding for CINC is intended to expand access to culturally-based higher education for both Native and non-Native students.\",\n    \"CINC is actively working towards full federal accreditation.\",\n    \"California does not currently have a fully accredited tribal university despite having the largest Indigenous population in the country.\",\n    \"There are approximately 40 tribal colleges and universities (TCUs) recognized by the federal government in the United States.\",\n    \"TCUs play significant roles in preserving native languages, strengthening cultural identity, and supporting tribal self-governance.\",\n    \"The 10 million dollars in state support will help CINC expand its academic programs and infrastructure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "08612c7a6d17424671566b6eab1734bace06dd37"
+}

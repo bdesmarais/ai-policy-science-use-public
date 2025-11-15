@@ -1,0 +1,13 @@
+{
+  "press_release": "bill-to-protect-cities-misuse-builders-remedy-fails-to-advance.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA — Senate Bill 457, a targeted measure to strengthen California’s housing laws and prevent misuse of the Builder’s Remedy, did not advance out of the Senate Housing C",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Builder's Remedy is intended to be a tool of last resort for urgent housing needs.\",\n    \"A proposed Builder's Remedy project in Menlo Park includes three towers, with the tallest reaching 37 stories, making it the tallest building in the Bay Area outside of San Fran",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Builder's Remedy is intended to be a tool of last resort for urgent housing needs.\",\n    \"A proposed Builder's Remedy project in Menlo Park includes three towers, with the tallest reaching 37 stories, making it the tallest building in the Bay Area outside of San Francisco.\",\n    \"The proposed Builder's Remedy project consists of 665 housing units, with only 20% designated as affordable.\",\n    \"The affordability of the proposed project is superficial, as the rent thresholds exclude essential workers.\",\n    \"SB 457 was designed to protect existing compliant projects and prevent future misuse of the Builder's Remedy.\",\n    \"SB 457 aimed to reduce litigation risks and clarify planning rules related to housing development.\",\n    \"SB 457 sought to align new housing initiatives with infrastructure, transportation, and climate goals.\",\n    \"The Builder's Remedy system is being exploited to approve luxury towers that bypass community standards.\",\n    \"SB 457 proposed to define the compliance status of housing elements based on the adoption date, subject to confirmation by HCD or judicial review.\",\n    \"SB 457 required developers to submit complete applications before receiving Builder's Remedy protections, targeting speculative filings.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "53349b8e152b81d5bc1700dc2c20c14914a45cf2"
+}

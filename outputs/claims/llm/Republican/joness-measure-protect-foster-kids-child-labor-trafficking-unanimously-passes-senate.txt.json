@@ -1,0 +1,13 @@
+{
+  "press_release": "joness-measure-protect-foster-kids-child-labor-trafficking-unanimously-passes-senate.txt",
+  "party": "Republican",
+  "title": "A measure authored by Senator Brian W. Jones (R-Santee), based on recommendations of the California Little Hoover Commission and the Coalition to Abolish Slavery and Trafficking, w",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:55:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Foster kids are particularly vulnerable to being targeted by criminals for child labor trafficking.\",\n    \"SB 584 requires foster family training to include education on child labor trafficking.\",\n    \"The bill SB 584 adds child labor trafficking to the training req",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Foster kids are particularly vulnerable to being targeted by criminals for child labor trafficking.\",\n    \"SB 584 requires foster family training to include education on child labor trafficking.\",\n    \"The bill SB 584 adds child labor trafficking to the training requirements for foster families.\",\n    \"Labor trafficking can be difficult to detect and is often hidden in plain sight within otherwise legitimate businesses.\",\n    \"Victims of labor trafficking need to be seen and heard.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba887a0ffe8b4c4148436eb36f60ff514e848362"
+}

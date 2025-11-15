@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-demands-audit-newsoms-gas-price-hike.txt",
+  "party": "Republican",
+  "title": "This morning, Senate Minority Leader Brian W. Jones (R-San Diego) announced he requested an independent audit of the California Air Resources Board (CARB) for its secretive overhau",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Low Carbon Fuel Standard (LCFS) is expected to raise gasoline prices by up to 65 cents per gallon when it takes effect on July 1.\",\n    \"Leader Jones has requested an independent audit of the California Air Resources Board (CARB) regarding its overhaul of the LCFS.\",",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Low Carbon Fuel Standard (LCFS) is expected to raise gasoline prices by up to 65 cents per gallon when it takes effect on July 1.\",\n    \"Leader Jones has requested an independent audit of the California Air Resources Board (CARB) regarding its overhaul of the LCFS.\",\n    \"The audit request aims to determine whether CARB uses sound methods when estimating economic impacts.\",\n    \"The audit will assess if CARB meets legal transparency requirements.\",\n    \"The California Air Resources Board has withdrawn its estimation that gasoline prices would increase by more than a dollar by 2042 due to the LCFS.\",\n    \"CARB Chair Liane Randolph admitted that the Board does not consider how its regulations affect prices at the pump.\",\n    \"According to USC Professor Michael Mische, California gas prices could soar to $8.43 per gallon by 2026.\",\n    \"The projected increase in gas prices could be driven by refinery shutdowns and excessive regulation and taxation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fd34f9c8b8d869f78ae6a794b3b28b52fc531e91"
+}

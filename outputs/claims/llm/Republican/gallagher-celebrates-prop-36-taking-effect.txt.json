@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-celebrates-prop-36-taking-effect.txt",
+  "party": "Republican",
+  "title": "YUBA CITY",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Proposition 36 allows law enforcement to aggregate the value of merchandise stolen during multiple thefts to reach the $950 felony threshold.\",\n    \"Proposition 36 makes shoplifters eligible for felony prosecution after three or more offenses.\",\n    \"Proposition 36 incre",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Proposition 36 allows law enforcement to aggregate the value of merchandise stolen during multiple thefts to reach the $950 felony threshold.\",\n    \"Proposition 36 makes shoplifters eligible for felony prosecution after three or more offenses.\",\n    \"Proposition 36 increases penalties for smash-and-grab robberies committed by large groups.\",\n    \"Proposition 36 requires hard-drug offenders to receive addiction treatment or face a felony charge after three or more offenses.\",\n    \"Proposition 36 adopts 'Alexandra’s Law', warning fentanyl dealers that they could be prosecuted for murder if they continue selling the drug and someone dies as a result.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "82016b7bfc8092208e5a15916a1a547582d439ec"
+}

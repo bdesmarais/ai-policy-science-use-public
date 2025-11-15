@@ -1,0 +1,13 @@
+{
+  "press_release": "la-senadora-anna-m-caballero-entrega-1-millon-para-la-comunidad-rural-de.txt",
+  "party": "Democratic",
+  "title": "26 de octubre, 2023",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The city of Livingston currently has limited resources and a limited tax base to generate funds.\",\n    \"The proposed project improvements will help the city's water system meet water quality requirements.\",\n    \"City leaders have worked to improve the quality of water su",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The city of Livingston currently has limited resources and a limited tax base to generate funds.\",\n    \"The proposed project improvements will help the city's water system meet water quality requirements.\",\n    \"City leaders have worked to improve the quality of water supplied to residents through various treatment and capacity enhancement projects.\",\n    \"Providing clean, reliable, and safe drinking water for the community of Livingston is a top priority for the city.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b002258ca595591e851463f2321e8398448ff079"
+}

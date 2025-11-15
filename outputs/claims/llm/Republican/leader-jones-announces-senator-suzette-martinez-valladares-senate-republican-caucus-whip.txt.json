@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-announces-senator-suzette-martinez-valladares-senate-republican-caucus-whip.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones ( R-San Diego ) announced that Senator Suzette Martinez Valladares ( R-Santa Clarita ) has been selected to serve as Caucus Whip.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a143f8be3acb04c7fa73cfe4f029d281b8a7d96e"
+}

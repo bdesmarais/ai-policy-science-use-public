@@ -1,0 +1,74 @@
+{
+  "press_release": "highly-destructive-summer-vegetation-wildfires-are-underway-senator-corteses-bill-reducing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – As highly destructive vegetation fires start off the summer in California, Senator Dave Cortese’s (D-Silicon Valley) bill developed in response to the fires was passed",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Senator Dave Cortese's bill SB 653 is designed to define vegetation management practices that reduce wildfire risk.\"\n    },\n    {\n      \"claim_text\": \"SB 653 supports native wildlife and plant health through its defined vegetation management practic",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Senator Dave Cortese's bill SB 653 is designed to define vegetation management practices that reduce wildfire risk.\"\n    },\n    {\n      \"claim_text\": \"SB 653 supports native wildlife and plant health through its defined vegetation management practices.\"\n    },\n    {\n      \"claim_text\": \"The bill encourages the use of environmentally sensitive vegetation management (ESVM) practices.\"\n    },\n    {\n      \"claim_text\": \"ESVM practices maintain ecological health and biodiversity while reducing long-term catastrophic wildfire risk.\"\n    },\n    {\n      \"claim_text\": \"Senator Cortese's legislation SB 429 creates the nation’s first public wildfire catastrophe model to improve insurance transparency.\"\n    },\n    {\n      \"claim_text\": \"SB 616 establishes a Community Hardening Commission to unify and modernize home fire protection standards.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Senator Dave Cortese's bill SB 653 is designed to define vegetation management practices that reduce wildfire risk.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 653 supports native wildlife and plant health through its defined vegetation management practices.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The bill encourages the use of environmentally sensitive vegetation management (ESVM) practices.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "ESVM practices maintain ecological health and biodiversity while reducing long-term catastrophic wildfire risk.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Senator Cortese's legislation SB 429 creates the nation’s first public wildfire catastrophe model to improve insurance transparency.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 616 establishes a Community Hardening Commission to unify and modernize home fire protection standards.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "f9b09be07aebaee0179db72c43272190aaaf1d10"
+}

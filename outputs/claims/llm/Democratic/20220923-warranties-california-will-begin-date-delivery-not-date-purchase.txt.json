@@ -1,0 +1,13 @@
+{
+  "press_release": "20220923-warranties-california-will-begin-date-delivery-not-date-purchase.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:48:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Beginning on July 1, 2023, all express warranties in California will start no earlier than the date of delivery rather than the date of purchase.\",\n    \"An express warranty guarantees a certain expectation of quality or functionality for a specific period of time.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Beginning on July 1, 2023, all express warranties in California will start no earlier than the date of delivery rather than the date of purchase.\",\n    \"An express warranty guarantees a certain expectation of quality or functionality for a specific period of time.\",\n    \"The pandemic and supply chain issues have heightened the need for changes to consumer protection legislation.\",\n    \"If a consumer buys a product with a one-year warranty but does not receive the product for six months, then the consumer has essentially lost half of the warranty.\",\n    \"California is one of the first states to require all express warranties to begin on the date of delivery for every consumer product.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e129ee0c142bcfc4db5c0964aa5146dbae0e6ea4"
+}

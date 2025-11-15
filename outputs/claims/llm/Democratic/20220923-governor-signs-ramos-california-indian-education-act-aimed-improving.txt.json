@@ -1,0 +1,13 @@
+{
+  "press_release": "20220923-governor-signs-ramos-california-indian-education-act-aimed-improving.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Governor Gavin Newsom approved a bill encouraging local schools to create task forces of area educators and tribal representatives to share local tribal history and cult",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:48:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Indian Education Act encourages local schools to create task forces to share local tribal history and culture.\",\n    \"AB 1703 aims to develop Native American curriculum and classroom materials.\",\n    \"The California Indian Education Act supports the teachi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Indian Education Act encourages local schools to create task forces to share local tribal history and culture.\",\n    \"AB 1703 aims to develop Native American curriculum and classroom materials.\",\n    \"The California Indian Education Act supports the teaching of diverse tribal languages, customs, and histories in schools.\",\n    \"AB 1703 requires local districts to identify the extent of the achievement gap between Native American students and their non-Native peers.\",\n    \"Strategies to close the achievement gap between Native American students and their peers must be developed by local school districts.\",\n    \"AB 1703 will assist in sharing Native American curriculum and instructional materials with the California Department of Education.\",\n    \"The California Native Vote Project supports AB 1703 and emphasizes the importance of teaching local tribal curriculum.\",\n    \"California Native Vote Project is already collaborating with schools on the implementation of Native American history and culture education.\",\n    \"The Governor's approval of AB 1703 was announced on California Native American Day.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c9ef3cef2c21dc0f02f72d6563efe07bfcc6d93b"
+}

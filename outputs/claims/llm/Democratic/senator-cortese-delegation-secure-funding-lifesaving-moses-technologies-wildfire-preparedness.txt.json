@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-delegation-secure-funding-lifesaving-moses-technologies-wildfire-preparedness.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-Silicon Valley) announced today that, thanks to a budget request he championed, the City of San Jose will be able to purchase a Mobile Operations Satellite ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The MOSES satellite communication unit can communicate securely and effectively during a wildfire or natural disaster.\",\n    \"The MOSES satellite unit has been successfully deployed in Santa Clara County.\",\n    \"The MOSES system provides cellular, WiFi, and satellite ser",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The MOSES satellite communication unit can communicate securely and effectively during a wildfire or natural disaster.\",\n    \"The MOSES satellite unit has been successfully deployed in Santa Clara County.\",\n    \"The MOSES system provides cellular, WiFi, and satellite service in areas affected by disasters.\",\n    \"A MOSES satellite unit can support 100,000 data users.\",\n    \"The MOSES satellite unit can operate at altitudes of up to 15,000 feet with wind conditions over 50 miles per hour.\",\n    \"The MOSES technology allows first responders to track and coordinate resources during emergencies.\",\n    \"The MOSES satellite can form an independent emergency communication system if existing infrastructure fails.\",\n    \"Clear and timely communication is essential for keeping firefighters safe during emergencies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3615536a07f1d27491b898b27495933ac9523493"
+}

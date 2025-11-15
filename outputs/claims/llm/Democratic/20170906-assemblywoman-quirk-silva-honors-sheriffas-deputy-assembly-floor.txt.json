@@ -1,0 +1,13 @@
+{
+  "press_release": "20170906-assemblywoman-quirk-silva-honors-sheriffas-deputy-assembly-floor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO â Assemblywoman Sharon Quirk Silva (D-Orange County) and the California State Legislature adjourned in the memory of Michael Leonard Haak, a Los Angeles County Sheriff",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e20105b33447dd276c0a4735a1ec383d1a5dc1a8"
+}

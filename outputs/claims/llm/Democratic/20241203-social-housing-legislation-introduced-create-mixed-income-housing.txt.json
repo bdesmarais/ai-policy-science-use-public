@@ -1,0 +1,13 @@
+{
+  "press_release": "20241203-social-housing-legislation-introduced-create-mixed-income-housing.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Alex Lee has introduced legislation to create social housing in California, publicly developed and owned homes that will be affordable to Californians of mixed incom",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:22:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"40% of households in California are rent-burdened, spending more than 30% of their income on housing.\",\n    \"The median sale price of a home in San Jose, California, was $1.5 million in August 2024.\",\n    \"California needs to build at least 2.5 million more housing units",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"40% of households in California are rent-burdened, spending more than 30% of their income on housing.\",\n    \"The median sale price of a home in San Jose, California, was $1.5 million in August 2024.\",\n    \"California needs to build at least 2.5 million more housing units by 2030 to meet demand.\",\n    \"Between 2018 to 2022, California built roughly 85,000 housing units annually.\",\n    \"Social housing is a model that has proven successful both in the U.S. and globally.\",\n    \"Social housing is financially self-sustaining, as people with higher incomes subsidize low-income units.\",\n    \"Social housing avoids the problem of concentrated poverty by creating mixed-income neighborhoods.\",\n    \"Singapore and Vienna are considered international gold standards of social housing.\",\n    \"Roughly 80% of Singaporeans live in social housing.\",\n    \"75% of the Viennese population qualifies for social housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1f05e94e4422e5e8138fe6ddd85ee035c49251ff"
+}

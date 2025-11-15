@@ -1,0 +1,13 @@
+{
+  "press_release": "20200909-release-2460000-state-grant-allocated-huntington-beach-wetlands-conservancy.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE: Wednesday, September 9, 2020",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The California State Coastal Conservancy has allocated a $2,460,000 grant for habitat restoration projects.\",\n    \"This grant will help preserve the sensitive wetland habitat of Newland Marsh.\",\n    \"The acquisition and restoration of Newland Marsh will provide habi",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The California State Coastal Conservancy has allocated a $2,460,000 grant for habitat restoration projects.\",\n    \"This grant will help preserve the sensitive wetland habitat of Newland Marsh.\",\n    \"The acquisition and restoration of Newland Marsh will provide habitat for endangered and threatened species of birds.\",\n    \"The restoration will remove standing fresh water along the northern edge of Newland Marsh West.\",\n    \"The standing fresh water issue has plagued the area for over two decades.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6356238e112aa38b8f44f443c01d0b853f10c829"
+}

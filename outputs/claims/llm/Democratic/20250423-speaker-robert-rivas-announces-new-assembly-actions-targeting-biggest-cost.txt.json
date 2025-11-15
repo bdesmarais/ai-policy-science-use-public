@@ -1,0 +1,13 @@
+{
+  "press_release": "20250423-speaker-robert-rivas-announces-new-assembly-actions-targeting-biggest-cost.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's cost-of-living is the single biggest threat to its future.\",\n    \"Middle-class families earning $125,000 a year are struggling to afford rent, child care, and groceries.\",\n    \"Only 1 in 9 eligible kids in California receive subsidized child care.\",\n    \"Man",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's cost-of-living is the single biggest threat to its future.\",\n    \"Middle-class families earning $125,000 a year are struggling to afford rent, child care, and groceries.\",\n    \"Only 1 in 9 eligible kids in California receive subsidized child care.\",\n    \"Many child care providers in California are forced to close their doors due to inadequate funding.\",\n    \"Over a million eligible Californians in California face daily food insecurity.\",\n    \"Billions in federal dollars for nutrition programs are left unutilized in California.\",\n    \"With demand for housing outpacing funding by 4 to 1, California cannot afford to ignore financing solutions for affordable housing.\",\n    \"Gas prices in California are projected to spike, prompting a need for accountability in the Low Carbon Fuel Standard program.\",\n    \"The Low Carbon Fuel Standard needs to demonstrate measurable results for California families.\",\n    \"Internet service providers in California are mandated to offer affordable home internet plans to residents.\",\n    \"Streamlining the process for affordable housing for farmworkers in California is necessary.\",\n    \"Housing construction timelines in California should be expedited to address the housing crisis.\",\n    \"Ongoing legislative actions by the California Assembly will significantly speed up housing construction.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6136bb6e4234a98e0bbd8e6b2d14c7cd5bf7c217"
+}

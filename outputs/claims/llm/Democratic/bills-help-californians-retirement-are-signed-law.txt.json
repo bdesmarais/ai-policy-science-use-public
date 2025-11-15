@@ -1,0 +1,13 @@
+{
+  "press_release": "bills-help-californians-retirement-are-signed-law.txt",
+  "party": "Democratic",
+  "title": "Governor Gavin Newsom signed into law two bills authored by Senator Dave Cortese, (D-San Jose), Chair of the Senate Labor, Public Employment and Retirement Committee, to help retir",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:44:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1126 will ensure that nearly every working Californian has access to a workplace retirement savings program.\",\n    \"SB 1126 is estimated to expand access to CalSavers to approximately three quarters of a million California workers.\",\n    \"SB 1168 raises the minimum st",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1126 will ensure that nearly every working Californian has access to a workplace retirement savings program.\",\n    \"SB 1126 is estimated to expand access to CalSavers to approximately three quarters of a million California workers.\",\n    \"SB 1168 raises the minimum statutory CalPERS postretirement benefit for local public agency employees from $500 to $2,000.\",\n    \"The original $300 lump sum postretirement death benefit for all CalPERS annuitants in 1945 would be $4,699 in 2022 when adjusted for inflation.\",\n    \"The current CalPERS postretirement death benefit amount for most public employees is far below the actual cost of a funeral.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "659b2cfc4a2d830a52e7fbeef1000578a3801483"
+}

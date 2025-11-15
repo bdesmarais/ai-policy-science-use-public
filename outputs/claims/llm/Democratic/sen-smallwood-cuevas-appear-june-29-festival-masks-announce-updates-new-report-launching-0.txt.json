@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-smallwood-cuevas-appear-june-29-festival-masks-announce-updates-new-report-launching-0.txt",
+  "party": "Democratic",
+  "title": "What: Senator Lola Smallwood-Cuevas (D-Los Angeles) invites the public to join her at this Sunday’s Day of the Ancestors: Festival of Masks cultural celebration, where she’ll make ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:20:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Black cultural spaces are under attack by the Trump administration.\",\n    \"Creating a Black Cultural District is needed to protect these spaces.\",\n    \"The Historic South LA Black Cultural District will serve as a hub for South LA landmarks, businesses, and institutions.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Black cultural spaces are under attack by the Trump administration.\",\n    \"Creating a Black Cultural District is needed to protect these spaces.\",\n    \"The Historic South LA Black Cultural District will serve as a hub for South LA landmarks, businesses, and institutions.\",\n    \"The initiative aims to support the preservation and economic revitalization of the community.\",\n    \"California has 14 established cultural districts, but none represent historically Black communities.\",\n    \"The Historic South LA Black Cultural District is designed to preserve the community's rich history and culture.\",\n    \"The initiative aims to stimulate economic growth by promoting local Black-owned businesses.\",\n    \"The Senator secured $3 million in state funding to support the installation of cultural markers and monuments for the proposed cultural district.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "21721654b94903b480c3ab7710ba58c8ba94b966"
+}

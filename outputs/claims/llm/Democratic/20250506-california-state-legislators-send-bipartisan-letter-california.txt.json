@@ -1,0 +1,13 @@
+{
+  "press_release": "20250506-california-state-legislators-send-bipartisan-letter-california.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:34:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Head Start provides critical early learning, health services, and childcare options to support the most disadvantaged families.\",\n    \"60% of California families live in childcare deserts.\",\n    \"California receives $1.5 billion annually in federal Head Start funding.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Head Start provides critical early learning, health services, and childcare options to support the most disadvantaged families.\",\n    \"60% of California families live in childcare deserts.\",\n    \"California receives $1.5 billion annually in federal Head Start funding.\",\n    \"Head Start is a proven $12 billion program that pays for itself in long-term benefits to children, families, and the economy.\",\n    \"Cutting Head Start would hurt families, eliminate jobs, weaken education systems, and increase financial strain on parents.\",\n    \"Head Start supports working parents and sustains critical jobs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0f3b2ffa7cc4b1394e0fdbd82b54e99cf2cb7dd1"
+}

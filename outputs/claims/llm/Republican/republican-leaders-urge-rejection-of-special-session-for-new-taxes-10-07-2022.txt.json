@@ -1,0 +1,13 @@
+{
+  "press_release": "republican-leaders-urge-rejection-of-special-session-for-new-taxes-10-07-2022.txt",
+  "party": "Republican",
+  "title": "Say California Policy Decisions are to Blame for High Gas Prices",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "042fae89711e505baa388a7b337eca43e4fe9332"
+}

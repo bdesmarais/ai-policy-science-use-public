@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-senator-corteses-bill-create-high-quality-jobs-green-industry.txt",
+  "party": "Democratic",
+  "title": "A bipartisan bill by Senator Dave Cortese protecting California communities from hazardous industrial pollution while securing high-quality, good-paying jobs in green industries ha",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill (SB) 740 extends skilled and trained workforce standards to emerging green industries including hydrogen manufacturing, biofuels manufacturing, and carbon dioxide capture.\",\n    \"Communities are safer, more prosperous, and more equitable when green industry h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill (SB) 740 extends skilled and trained workforce standards to emerging green industries including hydrogen manufacturing, biofuels manufacturing, and carbon dioxide capture.\",\n    \"Communities are safer, more prosperous, and more equitable when green industry has a skilled and trained workforce.\",\n    \"SB 740 will protect neighborhoods from hazardous factory accidents.\",\n    \"SB 740 aims to create good-paying jobs in California's emerging sustainable industries.\",\n    \"The implementation of SB 740 is intended to help California meet the climate crisis.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1be68cdab7cce343860b52022d9e13b94f1cbb2a"
+}

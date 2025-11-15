@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-recognizes-may-as-skin-cancer-awareness-month.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO (May 27, 2025) – Today, Assemblymember Diane Dixon (R-Newport Beach) presented Assembly Concurrent Resolution 66 on the Assembly Floor, commemorating May 2025 as Skin Ca",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b4cc13581e494bf593a207f1f401c8d9654ed1ff"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "for-immediate-release-assemblywoman-laurie-davies-bill-extending-length-of-restraining-orders-to-15-years-signed-into-law.txt",
+  "party": "Republican",
+  "title": "Gives Victims of Domestic Violence Greater Protection from Abusers",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "380c94ce774d4c6c0a1112ded31a25b2dc4b8749"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250605-assembly-majority-leader-cecilia-aguiar-curry-applauds-assembly-passage-ab.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:37:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's AB 250 strengthens protections for adult survivors of sexual assault.\",\n    \"AB 250 holds both perpetrators and private entities legally accountable for attempts to cover up sexual violence.\",\n    \"The statute of limitations for sexual assault claims is reop",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's AB 250 strengthens protections for adult survivors of sexual assault.\",\n    \"AB 250 holds both perpetrators and private entities legally accountable for attempts to cover up sexual violence.\",\n    \"The statute of limitations for sexual assault claims is reopened through December 31, 2027, under AB 250.\",\n    \"AB 250 revives lapsed civil claims for sexual assault and related harms when tied to an underlying assault and a private entity's effort to conceal it.\",\n    \"Survivors may take years to come forward due to trauma, stigma, and fear of retaliation.\",\n    \"AB 250 provides a new two-year window for survivors to revive claims even if the statute of limitations has expired.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9d0709ef6506ec6d60d36868d55da79b30be4bf2"
+}

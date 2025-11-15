@@ -1,0 +1,13 @@
+{
+  "press_release": "20210909-boerner-horvaths-bill-improve-school-lands-management-passes-legislature.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:33:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Antiquated restrictions governing the State Lands Commission's management of school lands prevent effective revenue generation for the California State Teachers' Retirement System.\",\n    \"AB 1390 updates the law to allow the State Lands Commission to optimize its landhol",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Antiquated restrictions governing the State Lands Commission's management of school lands prevent effective revenue generation for the California State Teachers' Retirement System.\",\n    \"AB 1390 updates the law to allow the State Lands Commission to optimize its landholdings to meet revenue generation and renewable energy partnership goals.\",\n    \"The Commission needs to be able to sell noncontiguous, square mile plots in remote desert and forestlands to maximize revenue from existing state landholdings.\",\n    \"Existing law's restrictions cause the Commission to lose opportunities to investors due to a cap on land acquisition fee expenditures.\",\n    \"AB 1390 removes constraints that limit the State Lands Commission's ability to manage public lands effectively.\",\n    \"AB 1390 positions the State Lands Commission to better collaborate with the federal government on renewable energy and land conservation projects.\",\n    \"The Biden Administration aims to work with states on leasing land suitable for solar and wind projects to achieve greenhouse gas emission reduction goals by 2030.\",\n    \"AB 1390 enhances California's capacity to work productively with federal agencies toward common climate goals for 2030.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c28537f7fa2459ea44c48850686d554805bbadc0"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "joness-measure-helping-protect-foster-children-child-labor-trafficking-signed-law.txt",
+  "party": "Republican",
+  "title": "A measure authored by Senator Brian W. Jones (R-Santee) to help keep foster children from becoming victims of child labor trafficking was signed into law by Governor Newsom.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:55:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 584 adds 'child labor trafficking' to the list of subjects foster families are required to receive training and information about.\",\n    \"Foster children are disproportionately more vulnerable to being targeted by criminals for child labor trafficking.\"\n  ]\n}",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 584 adds 'child labor trafficking' to the list of subjects foster families are required to receive training and information about.\",\n    \"Foster children are disproportionately more vulnerable to being targeted by criminals for child labor trafficking.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1f2785813f06944a2c57688682a4b697cbee846b"
+}

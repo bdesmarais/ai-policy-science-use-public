@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-reacts-update-federal-high-speed-rail-funding.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The following statement was issued by Senate Transportation Chair Senator Dave Cortese (D-Silicon Valley) on August 7, 2025, regarding the status of $4 billion in fede",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California High-Speed Rail Authority has reached an agreement with the Federal Railroad Administration to prevent $4 billion in federal high-speed rail funding from being lost while litigation is pending.\",\n    \"These funds were terminated under the Trump Administrat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California High-Speed Rail Authority has reached an agreement with the Federal Railroad Administration to prevent $4 billion in federal high-speed rail funding from being lost while litigation is pending.\",\n    \"These funds were terminated under the Trump Administration following a compliance review, despite no findings of fraud, waste, or abuse.\",\n    \"The Authority challenged the decision to terminate the funding in court.\",\n    \"The agreement ensures that the funding will remain available until the legal process is resolved.\",\n    \"Senator Cortese advocates for continued progress on high-speed rail through legislative efforts.\",\n    \"Senator Cortese's bill SB 545 aims to secure opportunities for major residential and commercial development along the high-speed rail corridor.\",\n    \"The development along the high-speed rail corridor is expected to create public-private synergy that can help fund the infrastructure of the project.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a2691bd38d94439dfa3a17083d3ca53279464927"
+}

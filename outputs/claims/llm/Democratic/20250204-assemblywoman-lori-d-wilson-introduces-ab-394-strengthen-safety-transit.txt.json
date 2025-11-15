@@ -1,0 +1,13 @@
+{
+  "press_release": "20250204-assemblywoman-lori-d-wilson-introduces-ab-394-strengthen-safety-transit.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:25:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 394 strengthens penalties for assaults against transit employees in California.\",\n    \"AB 394 broadens enforcement against trespassing on transit systems.\",\n    \"AB 394 empowers courts to issue prohibition orders restricting access to individuals convicted of violent ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 394 strengthens penalties for assaults against transit employees in California.\",\n    \"AB 394 broadens enforcement against trespassing on transit systems.\",\n    \"AB 394 empowers courts to issue prohibition orders restricting access to individuals convicted of violent offenses against transit workers.\",\n    \"An increase in violent incidents against public transit workers has undermined confidence in the safety and reliability of public transportation.\",\n    \"California's public transit systems are a key component to everyday life for millions of riders.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "954025ec59511f02e5ebe685441fe591e03ef5a5"
+}

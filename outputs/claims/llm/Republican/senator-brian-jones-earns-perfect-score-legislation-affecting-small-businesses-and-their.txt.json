@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-earns-perfect-score-legislation-affecting-small-businesses-and-their.txt",
+  "party": "Republican",
+  "title": "On its recent “CalChamber Vote Record,” the California Chamber of Commerce announced that Senator Brian W. Jones (R-Santee) was the only State Senator to receive a perfect score, c",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Brian W. Jones was the only State Senator to receive a perfect score from the California Chamber of Commerce on 15 major jobs, business, and economy related measures.\",\n    \"Senator Brian Jones was one of two State Senators to receive a perfect score on 11 major ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Brian W. Jones was the only State Senator to receive a perfect score from the California Chamber of Commerce on 15 major jobs, business, and economy related measures.\",\n    \"Senator Brian Jones was one of two State Senators to receive a perfect score on 11 major small business-related measures from the National Federation of Independent Business (NFIB).\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "76f1f3ce2a130afda7568bae1fc90a7b2624eca5"
+}

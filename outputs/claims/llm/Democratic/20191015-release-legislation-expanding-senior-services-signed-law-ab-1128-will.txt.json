@@ -1,0 +1,13 @@
+{
+  "press_release": "20191015-release-legislation-expanding-senior-services-signed-law-ab-1128-will.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Assembly Bill 1128, authored by Assemblywoman Cottie Petrie-Norris has been signed into law by Governor Gavin Newsom. This bill will expand access to the Program of All-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1128 will expand access to the Program of All-Inclusive Care for the Elderly (PACE).\",\n    \"PACE is a proven model that serves eligible participants by providing all-inclusive Medicare and Medi-Cal covered benefits.\",\n    \"PACE saves the state as much as $23 million c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1128 will expand access to the Program of All-Inclusive Care for the Elderly (PACE).\",\n    \"PACE is a proven model that serves eligible participants by providing all-inclusive Medicare and Medi-Cal covered benefits.\",\n    \"PACE saves the state as much as $23 million compared to other models of care.\",\n    \"California currently has 10,000 PACE slots for over 100,000 seniors who qualify for the program.\",\n    \"The current dual licensing requirements for PACE delay the rollout of new and expanding programs by up to two years.\",\n    \"AB 1128 will create a more efficient licensure process by consolidating the responsibilities within one state department.\",\n    \"The streamlined approval process of AB 1128 is expected to eliminate government redundancy and save the state money.\",\n    \"Expanding access to PACE programs will help keep older Californians in their homes and communities, out of nursing homes.\",\n    \"The streamlined licensing process will facilitate program growth and increase access for eligible seniors.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8b65936b56b05c9012f0aa4b8327892c3d18d507"
+}

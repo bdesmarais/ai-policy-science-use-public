@@ -1,0 +1,13 @@
+{
+  "press_release": "20241202-assemblymember-michelle-rodriguez-introduces-bill-human-trafficking.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Human trafficking is the fastest growing criminal industry in the world.\",\n    \"Human trafficking involves the use of force, fraud, or coercion to gain labor or sexual acts from those being exploited.\",\n    \"Human trafficking is a world-wide issue affecting millions ever",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Human trafficking is the fastest growing criminal industry in the world.\",\n    \"Human trafficking involves the use of force, fraud, or coercion to gain labor or sexual acts from those being exploited.\",\n    \"Human trafficking is a world-wide issue affecting millions every year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b604f68e71d52ff984b32c71f779af61698f514e"
+}

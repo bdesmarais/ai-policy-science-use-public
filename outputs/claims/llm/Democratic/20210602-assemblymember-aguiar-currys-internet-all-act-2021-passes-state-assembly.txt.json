@@ -1,0 +1,13 @@
+{
+  "press_release": "20210602-assemblymember-aguiar-currys-internet-all-act-2021-passes-state-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic has highlighted significant gaps in internet connectivity for many Californians.\",\n    \"Access to the internet is an essential requirement for participating in today's online world.\",\n    \"The Internet for All Act of 2021 aims to provide all Califor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic has highlighted significant gaps in internet connectivity for many Californians.\",\n    \"Access to the internet is an essential requirement for participating in today's online world.\",\n    \"The Internet for All Act of 2021 aims to provide all Californians access to internet-based services such as telehealth and education.\",\n    \"The digital divide affects low-income, rural, and urban communities of color disproportionately.\",\n    \"The Internet for All Act of 2021 prioritizes the deployment of broadband infrastructure in vulnerable and unserved communities.\",\n    \"AB 14 aims to connect California's workforce to gainful employment and support telemedicine and distance learning.\",\n    \"The Act facilitates grants for local and tribal governments to quickly connect households and community institutions.\",\n    \"AB 14 proposes building a statewide fiber middle-mile network to provide higher speeds and access to connectivity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0261a3683249ed544e050386ac3e0c2f285dd3d9"
+}

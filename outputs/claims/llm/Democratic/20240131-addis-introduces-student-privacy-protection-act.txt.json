@@ -1,0 +1,13 @@
+{
+  "press_release": "20240131-addis-introduces-student-privacy-protection-act.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — Assemblymember Dawn Addis (D-Morro Bay) introduced Assembly Bill 1971, the Student Privacy Protection Act.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:33:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Advances in artificial intelligence have surpassed California's privacy laws, leaving students vulnerable to irresponsible uses of their personal data.\",\n    \"The Student Online Personal Information Act (SOPIPA) prohibits organizations that deal primarily with K-12 educa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Advances in artificial intelligence have surpassed California's privacy laws, leaving students vulnerable to irresponsible uses of their personal data.\",\n    \"The Student Online Personal Information Act (SOPIPA) prohibits organizations that deal primarily with K-12 education data from selling student data or using a student's information to amass a personal profile.\",\n    \"SOPIPA requires modernization to keep up with the exponential growth in the technology sector.\",\n    \"AB 1971 adds education-adjacent institutions that assemble and administer standardized tests to the list of organizations that must abide by SOPIPA.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1c53d931f9ddf979f655e851e26f8336b1948551"
+}

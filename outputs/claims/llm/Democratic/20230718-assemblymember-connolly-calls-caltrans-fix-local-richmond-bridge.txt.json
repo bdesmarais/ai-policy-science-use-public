@@ -1,0 +1,13 @@
+{
+  "press_release": "20230718-assemblymember-connolly-calls-caltrans-fix-local-richmond-bridge.txt",
+  "party": "Democratic",
+  "title": "SONOMA, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Regional Measure 3, approved by the voters in 2018, promised to improve the approach to the Richmond-San Rafael Bridge and alleviated the traffic congestion.\",\n    \"$210 million was specifically dedicated to improve the Richmond-San Rafael Bridge.\",\n    \"63% of drivers i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Regional Measure 3, approved by the voters in 2018, promised to improve the approach to the Richmond-San Rafael Bridge and alleviated the traffic congestion.\",\n    \"$210 million was specifically dedicated to improve the Richmond-San Rafael Bridge.\",\n    \"63% of drivers in Richmond Bridge traffic are people of color.\",\n    \"60% of drivers in Richmond Bridge traffic are below the Bay Area median household income.\",\n    \"Keeping the third lane of the upper deck closed to cars extends commutes for vulnerable workers.\",\n    \"The traffic situation near the Richmond Bridge contributes to air pollution for frontline communities, specifically with black carbon and nitrogen dioxide.\",\n    \"Adding a movable barrier to the upper deck would better manage traffic by providing three lanes during peak commute times.\",\n    \"Fine particulate matter (PM2.5), nitrogen dioxide (NO2), ozone (O3), and black carbon (BC) spike in Richmond during the morning commute near Interstate 580.\",\n    \"The I-580 freeway area during the morning commute is the largest and most concentrated source of harmful emissions in Richmond.\",\n    \"Harmful emissions during the morning commute can cause respiratory, cardiovascular, and neurological diseases, especially in children and the elderly.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "89e04cf297058cd4a44a62c1ca755fcb033fe172"
+}

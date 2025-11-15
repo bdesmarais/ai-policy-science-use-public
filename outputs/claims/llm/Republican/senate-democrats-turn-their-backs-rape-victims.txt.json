@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-democrats-turn-their-backs-rape-victims.txt",
+  "party": "Republican",
+  "title": "Legislation by Senator Brian W. Jones (R-Santee) to exclude rapists from early release from prison was defeated yesterday on a party-line vote in the Senate Public Safety Committee",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Current law forces the Board of Parole Hearings to justify why violent sex offenders shouldn’t get early release.\",\n    \"Victims of rape have to show up at parole hearings year after year to keep their attackers incarcerated.\",\n    \"SB 445 would have made violent sexual ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Current law forces the Board of Parole Hearings to justify why violent sex offenders shouldn’t get early release.\",\n    \"Victims of rape have to show up at parole hearings year after year to keep their attackers incarcerated.\",\n    \"SB 445 would have made violent sexual offenders ineligible for early release as 'elderly' prisoners.\",\n    \"The age threshold for 'elderly parole' was lowered from 60 years to 50 years by Assembly Bill 3234.\",\n    \"Victims should not have to face the upheaval of a parole hearing for violent sex offenders with justified long-term sentences.\",\n    \"There is a well-documented propensity for violent sex offenders to reoffend.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ab8fb79b32b22015b486fe28f3708f051c307924"
+}

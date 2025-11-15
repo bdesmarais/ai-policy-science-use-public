@@ -1,0 +1,13 @@
+{
+  "press_release": "20230216-asm-gipson-hosts-press-conference-unveil-new-bill-gun-manufacturing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:54:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB-1089 seeks to regulate three dimensional printing and CNC milling of firearms on the state level.\",\n    \"AB-1089 would require anybody who uses a three dimensional printer or CNC milling machine to manufacture a firearm to be a state-licensed manufacturer.\",\n    \"AB-1",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB-1089 seeks to regulate three dimensional printing and CNC milling of firearms on the state level.\",\n    \"AB-1089 would require anybody who uses a three dimensional printer or CNC milling machine to manufacture a firearm to be a state-licensed manufacturer.\",\n    \"AB-1089 would prohibit the sale, purchase, possession, or receipt of a three dimensional printer or CNC milling machine intended for manufacturing firearms, except by state-licensed manufacturers.\",\n    \"The bill would allow for civil action against individuals who distribute code or digital instructions for manufacturing firearms using 3D printing or CNC milling.\",\n    \"A person is strictly liable for any personal injury or property damage caused by firearms manufactured using distributed code.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e03aea8343b10f3ee1a8e99af889724b345f5abb"
+}

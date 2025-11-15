@@ -1,0 +1,13 @@
+{
+  "press_release": "20150813-patient-safety-bill-signed-governor-brown.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Gipson authors law to  extend deadline to approve new medical devices",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:51:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The adoption of new standards for medical connectors can help prevent serious medical complications from device misconnections.\",\n    \"The International Organization for Standardization (ISO) developed a working group of 31 countries to standardize medical intravenous (I",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The adoption of new standards for medical connectors can help prevent serious medical complications from device misconnections.\",\n    \"The International Organization for Standardization (ISO) developed a working group of 31 countries to standardize medical intravenous (IV), enteral, and epidural connectors.\",\n    \"California was originally on track to implement new medical connector standards by January 1, 2016.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "374f10b8f424b1f5054a1e5ac69a3e959d2474c6"
+}

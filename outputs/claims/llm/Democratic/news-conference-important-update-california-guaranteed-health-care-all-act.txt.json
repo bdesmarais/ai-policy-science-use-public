@@ -1,0 +1,13 @@
+{
+  "press_release": "news-conference-important-update-california-guaranteed-health-care-all-act.txt",
+  "party": "Democratic",
+  "title": "WHAT: Important Legislative Update for AB 1400, the California Guaranteed Health Care for All Act and unveiling progressive taxation to fund Single-Payer Health Care System",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1171dd77945cfe51da622ec5c277377714cd73f7"
+}

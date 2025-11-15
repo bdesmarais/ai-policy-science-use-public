@@ -1,0 +1,13 @@
+{
+  "press_release": "20240716-county-approves-8m-plan-dr-bains-fight-fentanyl-epidemic.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) July 16, 2024",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Kern County Board of Supervisors approved the allocation of just over $8 million in state funding to combat the spread of fentanyl.\",\n    \"Dr. Jasmeet Bains is an expert in addiction medicine and has used her expertise to craft policy at the state level.\",\n    \"The f",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Kern County Board of Supervisors approved the allocation of just over $8 million in state funding to combat the spread of fentanyl.\",\n    \"Dr. Jasmeet Bains is an expert in addiction medicine and has used her expertise to craft policy at the state level.\",\n    \"The funding allocated by the Kern County Board will enhance substance use and addiction services provided by medical providers.\",\n    \"The allocations will be used for specialized rapid response units that concentrate on drug suppression and community education.\",\n    \"The task force approach helps local law enforcement take a regional strategy to enforce and investigate drug trafficking.\",\n    \"The Kern County District Attorney is receiving $660,000 to enhance the capabilities of their crime lab.\",\n    \"Kern Medical will receive $1,000,000 to expand a fellowship program and medication assistance recovery clinic.\",\n    \"Clinica Sierra Vista will receive $1,000,000 to expand its specialized healthcare workforce and increase access to street medicine.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f28d12c9bd5f736c11b11fe6c35378d3c9f6057f"
+}

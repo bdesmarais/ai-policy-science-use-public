@@ -1,0 +1,13 @@
+{
+  "press_release": "icymi-democrats-blocked-felon-restrictions-now-theyre-quietly-adding-them.txt",
+  "party": "Republican",
+  "title": "Rules tightened after GOP push to stop deportation defense for convicted criminals",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b05b36e99f748af8786330c6ec2a83b89eb65d8c"
+}

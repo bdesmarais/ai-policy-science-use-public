@@ -1,0 +1,13 @@
+{
+  "press_release": "20200916-assemblymembers-robert-rivas-lorena-gonzalez-eduardo-garcia-and-farmworker.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Agriculture workers in Monterey County are three times more likely to contract the coronavirus than those in the general population.\",\n    \"Latinos in Monterey County account for 93 percent of COVID-19 cases while only representing 61 percent of the population.\",\n    \"Th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Agriculture workers in Monterey County are three times more likely to contract the coronavirus than those in the general population.\",\n    \"Latinos in Monterey County account for 93 percent of COVID-19 cases while only representing 61 percent of the population.\",\n    \"The 700,000 farmworkers in California are in jobs that were risky before the pandemic and are now facing unbearable, life-threatening risks.\",\n    \"AB 2043 ensures enforcement by Cal/OSHA of its COVID-19 guidance and funds a targeted bilingual outreach campaign.\",\n    \"AB 2164 expands telehealth services for rural and community health centers to the benefit of marginalized groups.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e93e84c2733cf436aa2aea050264fa422f465004"
+}

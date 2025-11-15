@@ -1,0 +1,13 @@
+{
+  "press_release": "20210623-boerner-horvath-commemorates-49th-anniversary-title-ix.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:30:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Before 1972, women and girls were routinely discriminated against at educational institutions.\",\n    \"Title IX conditions federal funding on an institution’s commitment to ensuring equal treatment in recruitment, admissions, counseling, financial assistance, discipline, ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Before 1972, women and girls were routinely discriminated against at educational institutions.\",\n    \"Title IX conditions federal funding on an institution’s commitment to ensuring equal treatment in recruitment, admissions, counseling, financial assistance, discipline, employment, and athletics.\",\n    \"Title IX incentivizes institutions to balance their offerings and promote equal opportunity with respect to gender.\",\n    \"High school girls' participation in sports has increased more than 1000% since the passage of Title IX.\",\n    \"The success of the top-ranked U.S. Women’s National Soccer Team is tied to the impact of Title IX on collegiate athletics.\",\n    \"There are seven California colleges and universities under investigation by the U.S. Department of Education for their handling of sexual violence cases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "01499800e4bd6e70afa47ecb8b845563e8c0564d"
+}

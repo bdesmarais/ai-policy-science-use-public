@@ -1,0 +1,13 @@
+{
+  "press_release": "20240201-military-and-veterans-affairs-committee-chair-pilar-schiavo-introduces-bill.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:34:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Members of the Guard and Reserve are often called to active duty on very short notice.\",\n    \"The bill AB 1854 creates a 180-day window for activated Guard and Reserve members to apply for retroactive deferment of payment and interest on specified debts.\",\n    \"The Calif",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Members of the Guard and Reserve are often called to active duty on very short notice.\",\n    \"The bill AB 1854 creates a 180-day window for activated Guard and Reserve members to apply for retroactive deferment of payment and interest on specified debts.\",\n    \"The California Department of Veterans Affairs is required to report to the Legislature on the findings of its internal auditor as per bill AB 1908.\",\n    \"AB 1994 aims to strengthen representation in state government of minority and underrepresented veterans.\",\n    \"Minority veterans are less likely to receive benefits and often live in areas where there are service gaps.\",\n    \"Native American veterans have a representation in the Armed Forces that is about double their proportion of the general population.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "13b393e8944af66d8fe9855d9a58d3c01e17c20b"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230419-california-constitutional-amendment-restore-voting-rights-californians-who.txt",
+  "party": "Democratic",
+  "title": "Sacramento—A proposed constitutional amendment to restore voting rights to all California citizens who are currently completing prison sentences, passed the Assembly Committee on E",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"ACA 4 not only reduces recidivism, it acknowledges the racial injustice and systemic racism that underpins voter suppression in all forms.\",\n    \"Voting is crucial to effective policymaking, community building, and growing equity in all aspects of the lives of California",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"ACA 4 not only reduces recidivism, it acknowledges the racial injustice and systemic racism that underpins voter suppression in all forms.\",\n    \"Voting is crucial to effective policymaking, community building, and growing equity in all aspects of the lives of Californians.\",\n    \"Participation in voting has been shown to support rehabilitation by fostering a sense of civic opportunity and responsibility.\",\n    \"Many incarcerated Californians are also survivors of abuse and other crimes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "abf9d6c696946ca143abd6d402c3e704020082bb"
+}

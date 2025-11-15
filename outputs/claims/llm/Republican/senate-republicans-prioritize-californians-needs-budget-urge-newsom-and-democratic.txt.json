@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republicans-prioritize-californians-needs-budget-urge-newsom-and-democratic.txt",
+  "party": "Republican",
+  "title": "Republicans in the Senate, led by Senate Budget and Fiscal Review Committee Vice Chair Senator Roger Niello ( R-Fair Oaks), have submitted a letter to outline statewide budget prio",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's budget has increased by nearly $86 billion, or 60%, since Governor Gavin Newsom took office.\",\n    \"The budget process in California has become increasingly less transparent.\",\n    \"Senate Republicans propose $3 billion annually for wildfire prevention and p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's budget has increased by nearly $86 billion, or 60%, since Governor Gavin Newsom took office.\",\n    \"The budget process in California has become increasingly less transparent.\",\n    \"Senate Republicans propose $3 billion annually for wildfire prevention and preparedness.\",\n    \"Senate Republicans request $1 billion to build projects enhancing water reliability and supply.\",\n    \"Senate Republicans advocate for allocating $400 million in annual funding to reduce California's crime rate through a treatment-focused approach.\",\n    \"Senate Republicans aim to relieve job creators of $21 billion in unemployment debt incurred during pandemic-related business shutdowns.\",\n    \"Senate Republicans oppose the governor’s plan to cut more than $1.2 billion in funding to the University of California and Cal State University systems.\",\n    \"Senate Republicans propose $8 million annually to increase the Medi-Cal provider reimbursement rate for pediatric day health centers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "af4255750369dadfae1fe8c47a6205fe19b939eb"
+}

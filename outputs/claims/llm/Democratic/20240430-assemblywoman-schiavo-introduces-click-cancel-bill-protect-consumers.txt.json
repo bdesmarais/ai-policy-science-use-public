@@ -1,0 +1,64 @@
+{
+  "press_release": "20240430-assemblywoman-schiavo-introduces-click-cancel-bill-protect-consumers.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The subscription economy is on track to reach a $1.5 trillion market by 2025.\"\n    },\n    {\n      \"claim_text\": \"An average of 42% of consumers continue to pay for subscriptions they no longer utilize.\"\n    },\n    {\n      \"claim_text\": \"Continuing t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The subscription economy is on track to reach a $1.5 trillion market by 2025.\"\n    },\n    {\n      \"claim_text\": \"An average of 42% of consumers continue to pay for subscriptions they no longer utilize.\"\n    },\n    {\n      \"claim_text\": \"Continuing to pay for unused subscriptions costs consumers approximately $133 more each month.\"\n    },\n    {\n      \"claim_text\": \"Many companies fail to remind consumers of upcoming renewals, leveraging forgetfulness to boost profits.\"\n    },\n    {\n      \"claim_text\": \"AB 2863 will help people keep the approximately $133 they spend each month on subscriptions they don’t use.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The subscription economy is on track to reach a $1.5 trillion market by 2025.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "An average of 42% of consumers continue to pay for subscriptions they no longer utilize.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Continuing to pay for unused subscriptions costs consumers approximately $133 more each month.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Many companies fail to remind consumers of upcoming renewals, leveraging forgetfulness to boost profits.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 2863 will help people keep the approximately $133 they spend each month on subscriptions they don’t use.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "f2da473f82c9be8bbf13b646eecacdde4a3147b7"
+}

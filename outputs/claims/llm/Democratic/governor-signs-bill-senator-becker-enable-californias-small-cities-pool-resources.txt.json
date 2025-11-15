@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-bill-senator-becker-enable-californias-small-cities-pool-resources.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 640 will allow cities and counties to pool state transportation funds for mutually beneficial road projects.\",\n    \"SB 640 aims to help small cities that lack the advantages of scale in using transportation funds.\",\n    \"The bill is expected to promote more e",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 640 will allow cities and counties to pool state transportation funds for mutually beneficial road projects.\",\n    \"SB 640 aims to help small cities that lack the advantages of scale in using transportation funds.\",\n    \"The bill is expected to promote more efficient use of state transportation funds by allowing collaboration between neighboring jurisdictions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a3d3ea9c1c6042498e1f915d73f4934b61a47b3f"
+}

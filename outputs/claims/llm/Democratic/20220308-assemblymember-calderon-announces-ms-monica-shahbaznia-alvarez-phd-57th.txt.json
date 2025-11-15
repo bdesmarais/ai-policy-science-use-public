@@ -1,0 +1,13 @@
+{
+  "press_release": "20220308-assemblymember-calderon-announces-ms-monica-shahbaznia-alvarez-phd-57th.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:39:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Monica Shahbaznia Alvarez, Ph.D. has dedicated her education, training, and career to strengthening the mental health of individuals and communities.\",\n    \"Dr. Shahbaznia Alvarez has been providing psychotherapy to children, adolescents, parents, and families in Ca",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Monica Shahbaznia Alvarez, Ph.D. has dedicated her education, training, and career to strengthening the mental health of individuals and communities.\",\n    \"Dr. Shahbaznia Alvarez has been providing psychotherapy to children, adolescents, parents, and families in California since July 1997.\",\n    \"Dr. Shahbaznia Alvarez has a B.A. degree in Psychology from the University of California, Los Angeles (UCLA).\",\n    \"Dr. Shahbaznia Alvarez focused her doctoral studies on Family and Child Psychology with an interest in child abuse prevention.\",\n    \"Dr. Shahbaznia Alvarez's doctoral dissertation involved research on child abuse and aspects of acculturation.\",\n    \"Dr. Shahbaznia Alvarez completed a Pediatric Psychology pre-doctoral fellowship at the Department of Psychiatry at University of California, San Francisco Benioff Children's Hospital Oakland.\",\n    \"Dr. Shahbaznia Alvarez worked with patients living with diabetes and cancer as part of her training at Children's Hospital Los Angeles.\",\n    \"Dr. Shahbaznia Alvarez created a self-monitoring tool for adolescents struggling with diabetes care regimens.\",\n    \"Dr. Shahbaznia Alvarez specializes in both Pediatric Psychology and Health Psychology.\",\n    \"Dr. Shahbaznia Alvarez has extended clinical services to patients of diverse communities in Los Angeles County.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b44c0d76e5f44afaca8041457604bb1ad1441db6"
+}

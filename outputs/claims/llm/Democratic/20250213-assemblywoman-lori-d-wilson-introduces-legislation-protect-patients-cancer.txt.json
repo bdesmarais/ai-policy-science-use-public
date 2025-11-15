@@ -1,0 +1,13 @@
+{
+  "press_release": "20250213-assemblywoman-lori-d-wilson-introduces-legislation-protect-patients-cancer.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 577 aims to protect the rights of patients with serious illnesses such as cancer and rheumatoid arthritis.\",\n    \"The legislation seeks to ensure that patients can receive critical infusions and prescription drugs directly from their own doctors.\",\n    \"The",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 577 aims to protect the rights of patients with serious illnesses such as cancer and rheumatoid arthritis.\",\n    \"The legislation seeks to ensure that patients can receive critical infusions and prescription drugs directly from their own doctors.\",\n    \"The introduction of AB 577 is intended to safeguard patients from the burden of traveling to distant infusion centers.\",\n    \"Physicians should have the ability to manage and administer treatments within their own offices.\",\n    \"Restrictive policies from Pharmaceutical Benefit Managers (PBMs) and health insurance companies can compromise patient safety and treatment effectiveness.\",\n    \"AB 577 proposes to prohibit health plans, PBMs, and insurers from enforcing restrictive policies regarding treatment locations as determined by a patient's physician.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6a973e9309ce6a8953d6306dd710e109917d0ca9"
+}

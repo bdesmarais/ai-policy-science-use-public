@@ -1,0 +1,13 @@
+{
+  "press_release": "gop-state-lawmakers-call-for-president-biden-to-exempt-middle-class-tax-refunds-from-federal-income-tax.txt",
+  "party": "Republican",
+  "title": "On behalf of the state’s taxpayers who received the Middle-Class Tax Refund, Republican lawmakers of California urge the President to exempt these payments from federal income tax.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fa38a6e4bfe93a05727accaf44276d1d4b846085"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-introduces-sb-520-legislation-expand-nurse-midwifery.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has one of the highest maternal and newborn death rates among high-income countries.\",\n    \"More than 50 maternity units have closed in California since 2013.\",\n    \"Twenty freestanding birth centers have shuttered in California in the last three years.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has one of the highest maternal and newborn death rates among high-income countries.\",\n    \"More than 50 maternity units have closed in California since 2013.\",\n    \"Twenty freestanding birth centers have shuttered in California in the last three years.\",\n    \"California is experiencing a shortage of obstetric and reproductive health providers.\",\n    \"Without enough trained providers, maternal and infant health will continue to suffer.\",\n    \"Nurse-midwives play a critical role in reducing maternal and infant mortality.\",\n    \"Research shows that well-integrated midwives lead to more spontaneous vaginal births.\",\n    \"Research shows that midwives lead to successful labor after Cesarean (TOLAC).\",\n    \"Research shows that midwives lead to vaginal births after Cesarean (VBAC).\",\n    \"Midwifery care is linked to lower overall maternity care costs.\",\n    \"California currently has only one nurse-midwifery master’s degree program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5093563fa0761b86bcecd451e0dffc823f873fa4"
+}

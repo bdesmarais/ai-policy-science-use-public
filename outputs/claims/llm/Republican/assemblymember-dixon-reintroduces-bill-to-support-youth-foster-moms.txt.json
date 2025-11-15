@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-reintroduces-bill-to-support-youth-foster-moms.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The infant supplement formula for parenting foster youth in California has not been increased since 2016.\",\n    \"The foster children population includes individuals who are survivors of human trafficking resulting in pregnancies.\",\n    \"Mary's Path is one of only four re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The infant supplement formula for parenting foster youth in California has not been increased since 2016.\",\n    \"The foster children population includes individuals who are survivors of human trafficking resulting in pregnancies.\",\n    \"Mary's Path is one of only four residences in California that serve vulnerable teen mothers within the foster care system.\",\n    \"The cost of caring for infants, including diapers and formula, is increasing.\",\n    \"Almost 19% of parenting foster youth lose their child to the foster care system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "84bc75ba55ad073787ba54ad8b3922a1e9e36306"
+}

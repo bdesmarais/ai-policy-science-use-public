@@ -1,0 +1,84 @@
+{
+  "press_release": "20230424-gipson-bill-ab-360-ban-term-excited-delirium-passes-assembly-floor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The term 'excited delirium' is not a reliable, independent medical or psychiatric diagnosis.\"\n    },\n    {\n      \"claim_text\": \"There are no diagnostic guidelines for 'excited delirium.'\"\n    },\n    {\n      \"claim_text\": \"'Excited delirium' is not r",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The term 'excited delirium' is not a reliable, independent medical or psychiatric diagnosis.\"\n    },\n    {\n      \"claim_text\": \"There are no diagnostic guidelines for 'excited delirium.'\"\n    },\n    {\n      \"claim_text\": \"'Excited delirium' is not recognized in the DSM-5, which is the main diagnosis guide for mental health providers.\"\n    },\n    {\n      \"claim_text\": \"Neither the American Medical Association nor the American Psychiatric Association recognizes 'excited delirium' as a legitimate diagnosis.\"\n    },\n    {\n      \"claim_text\": \"The term 'excited delirium' has been disproportionately applied to communities of color.\"\n    },\n    {\n      \"claim_text\": \"The term 'excited delirium' was first used in 1985 to explain a series of sudden deaths of 32 Black Women in police custody.\"\n    },\n    {\n      \"claim_text\": \"'Excited delirium' is predominantly used to describe deaths that occur in police custody.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The term 'excited delirium' is not a reliable, independent medical or psychiatric diagnosis.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "There are no diagnostic guidelines for 'excited delirium.'",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "'Excited delirium' is not recognized in the DSM-5, which is the main diagnosis guide for mental health providers.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Neither the American Medical Association nor the American Psychiatric Association recognizes 'excited delirium' as a legitimate diagnosis.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The term 'excited delirium' has been disproportionately applied to communities of color.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The term 'excited delirium' was first used in 1985 to explain a series of sudden deaths of 32 Black Women in police custody.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "'Excited delirium' is predominantly used to describe deaths that occur in police custody.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "9e8f72f4f4765e14b44e036a1e2a2aefd9f868ed"
+}

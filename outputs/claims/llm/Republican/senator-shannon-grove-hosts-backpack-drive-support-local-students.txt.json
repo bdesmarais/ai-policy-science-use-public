@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-shannon-grove-hosts-backpack-drive-support-local-students.txt",
+  "party": "Republican",
+  "title": "Senator Grove's staff displaying backpacks ﻿ that will be distributed to local students.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:15:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "852344dbc558e1924cc92e828eacc4ad05d15223"
+}

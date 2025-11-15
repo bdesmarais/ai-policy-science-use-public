@@ -1,0 +1,13 @@
+{
+  "press_release": "20250428-assembly-majority-leader-aguiar-curry-lead-new-select-committee-child-care.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) — Assembly Majority Leader Cecilia Aguiar-Curry",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Affordability is a growing crisis for the over 3 million California households raising children under 12 years of age.\",\n    \"Although universal Transitional Kindergarten starts in 2025–2026, the biggest gap remains for infants and toddlers.\",\n    \"Child care costs ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Affordability is a growing crisis for the over 3 million California households raising children under 12 years of age.\",\n    \"Although universal Transitional Kindergarten starts in 2025–2026, the biggest gap remains for infants and toddlers.\",\n    \"Child care costs rival housing across much of the state.\",\n    \"When families can't afford care, parents can't work.\",\n    \"When parents can't work, they can't buy groceries, gas, or pay their rent or mortgage.\",\n    \"The inability to afford child care exacerbates California’s affordability crisis.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "10758e551d81deda28701132e956863aae18031c"
+}

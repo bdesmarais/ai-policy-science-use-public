@@ -1,0 +1,13 @@
+{
+  "press_release": "20210927-california-continue-mailing-voters-ballots-every-election.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 37 makes permanent several election reforms that were adopted and used for the November 2020 General Election.\",\n    \"California will automatically mail every active registered voter a ballot before every future election.\",\n    \"Voters in California will ha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 37 makes permanent several election reforms that were adopted and used for the November 2020 General Election.\",\n    \"California will automatically mail every active registered voter a ballot before every future election.\",\n    \"Voters in California will have the opportunity to track their ballots to ensure they are counted.\",\n    \"California has seen the highest voter turnout since Harry Truman was president during the 2020 General Election.\",\n    \"Approximately 15 million Californians voted in the 2020 General Election using a ballot that was mailed to them.\",\n    \"More than 5 million Californians registered for ballot tracking during the 2020 General Election.\",\n    \"California is now the sixth state to require active registered voters to be mailed a ballot before each election.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2ce4ad2fcc4c1471ed0d83dec0e540866bf84824"
+}

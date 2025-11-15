@@ -1,0 +1,13 @@
+{
+  "press_release": "food-security-wildlife-water-quality-development-protections-all-included-senator-corteses.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – In a move to safeguard food security by maintaining productive farmland, California State Senator Dave Cortese today introduced Senate Bill 462 requiring a yearly $20-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 462 requires a yearly $20 million appropriation to the California Farmland Conservancy Program to permanently preserve California agricultural lands through conservation easements.\",\n    \"The money from Senate Bill 462 will contribute to the preservation of u",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 462 requires a yearly $20 million appropriation to the California Farmland Conservancy Program to permanently preserve California agricultural lands through conservation easements.\",\n    \"The money from Senate Bill 462 will contribute to the preservation of up to 12,000 acres in Santa Clara County.\",\n    \"An agricultural conservation easement (ACE) is a voluntary agreement that limits development on land used for farming and ranching.\",\n    \"Agricultural conservation easements are legally recorded on the property deed and remain in place even if the land changes ownership.\",\n    \"Conservation easements are intended to support food security, economic impact, environmental benefits, wildlife protection, water quality protection, legal protection, community benefits, and to address development pressure.\",\n    \"The California Farmland Conservancy Program was established by the California Farmland Conservancy Program Act of 1995.\",\n    \"As of January 2024, the California Farmland Conservancy Program has received $88.6 million and preserved 59,460 acres of farmland.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "40965cddde62c513fa77506f7096f390e5c6c393"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-addresses-synagogue-shooting-and-honors-victims.txt",
+  "party": "Republican",
+  "title": "In the wake of Saturday’s shooting in Poway, Senator Brian Jones (R-Santee) adjourned today’s Senate floor session in memory of Lori Gilbert-Kaye, a Chabad of Poway synagogue congr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4818d85aac4bc922333f1ff3150b07d000bf441d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230425-assemblymember-wicks-announces-aim-put-10b-housing-bond-2024-primary-ballot.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The Affordable Housing Bond of 2024 would provide $10 billion to California’s affordable housing programs.\",\n    \"AB 1657 would authorize $10 billion in general obligation bonds for affordable rental housing, homeownership opportunities, and supportive housing for p",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The Affordable Housing Bond of 2024 would provide $10 billion to California’s affordable housing programs.\",\n    \"AB 1657 would authorize $10 billion in general obligation bonds for affordable rental housing, homeownership opportunities, and supportive housing for people experiencing homelessness.\",\n    \"California still needs an additional 2.5 million housing units to meet the state’s unmet housing needs.\",\n    \"California needs an additional 180,000 new units of housing a year to keep up with demand, including about 80,000 units affordable to lower-income households.\",\n    \"The production of fewer than 100,000 housing units per year in the past decade is inadequate for meeting California's housing demand.\",\n    \"The last round of funding for the Multi-family Housing Program was oversubscribed ten to one.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "661e29f09338204aaa846c83c229aaa40e32476d"
+}

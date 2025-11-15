@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-suzette-martinez-valladares-releases-statement-legislatures-approval-gov-newsoms.txt",
+  "party": "Republican",
+  "title": "Today Senator Suzette Martinez Valladares (R-Santa Clarita) released the following statement in response to the legislature’s passage of the Governor’s Redistricting legislative pa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "994ab114e86bd56cba7e5d5c90f3d001d7d72fa9"
+}

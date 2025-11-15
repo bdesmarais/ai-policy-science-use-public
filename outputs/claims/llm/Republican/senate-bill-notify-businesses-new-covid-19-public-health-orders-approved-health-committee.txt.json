@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-bill-notify-businesses-new-covid-19-public-health-orders-approved-health-committee.txt",
+  "party": "Republican",
+  "title": "The Senate Health Committee passed Senate Bill (SB) 336 , authored by Senator Rosilicie Ochoa Bogh (R-Yucaipa), which would ensure local communities are aware of any changes to the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 336 aims to ensure local communities are aware of changes to public health orders related to COVID-19.\",\n    \"The bill requires the California Department of Public Health and local health officers to publish new COVID-19 measures on their websites.\",\n    \"Sen",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 336 aims to ensure local communities are aware of changes to public health orders related to COVID-19.\",\n    \"The bill requires the California Department of Public Health and local health officers to publish new COVID-19 measures on their websites.\",\n    \"Senate Bill 336 mandates the creation of a distribution list for notifications regarding changes in public health requirements.\",\n    \"The bill is intended to provide timely notice to businesses about evolving public health orders during the COVID-19 pandemic.\",\n    \"SB 336 is designed to assist small businesses in adapting to new public health orders.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f312242d0931680f71e1287df9558de4c7a26774"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20231213-assemblymember-mike-gipson-chair-arts-entertainment-sports-and-tourism.txt",
+  "party": "Democratic",
+  "title": "LOS ANGELES, Calif. - (December 13, 2023) — In a momentous declaration today,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SoFi Stadium is equipped with cutting-edge technology.\",\n    \"SoFi Stadium is poised to provide an unparalleled experience for fans, athletes, and attendees.\",\n    \"The selection of Los Angeles and SoFi Stadium as the host for Super Bowl LXI is a testament to the collabo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SoFi Stadium is equipped with cutting-edge technology.\",\n    \"SoFi Stadium is poised to provide an unparalleled experience for fans, athletes, and attendees.\",\n    \"The selection of Los Angeles and SoFi Stadium as the host for Super Bowl LXI is a testament to the collaborative efforts of local governments, private entities, and community stakeholders.\",\n    \"The Super Bowl is expected to generate significant economic impact and drive tourism.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "18dc90bde086702fa3ead6b1f142b9d45ba50019"
+}

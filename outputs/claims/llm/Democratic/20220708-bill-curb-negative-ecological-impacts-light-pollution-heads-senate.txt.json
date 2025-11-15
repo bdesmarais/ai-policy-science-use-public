@@ -1,0 +1,13 @@
+{
+  "press_release": "20220708-bill-curb-negative-ecological-impacts-light-pollution-heads-senate.txt",
+  "party": "Democratic",
+  "title": "AB 2382 by Assemblymember Alex Lee recently passed out of the Senate Governmental Organization Committee (10-2) and is now headed to the Senate Appropriations Committee. In order t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill AB 2382 requires all outdoor lighting fixtures installed or replaced on state buildings and structures after Jan 1, 2023, to have external shields to redirect light.\",\n    \"Excess artificial light attracts nocturnal-migratory birds and diverts them away from saf",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill AB 2382 requires all outdoor lighting fixtures installed or replaced on state buildings and structures after Jan 1, 2023, to have external shields to redirect light.\",\n    \"Excess artificial light attracts nocturnal-migratory birds and diverts them away from safe migration routes to human environments.\",\n    \"At least one million birds die from colliding with buildings or structures every day in the United States.\",\n    \"Studies have demonstrated that light pollution can alter the behavior of wildlife, resulting in the death or decline of species such as turtles, birds, fish, reptiles, and insects.\",\n    \"ALAN can affect insect movement, foraging, and reproduction, leading to negative outcomes when insects become trapped in light plumes.\",\n    \"Artificial light at night can interfere with natural circadian rhythms in humans.\",\n    \"Circadian disruption in humans has been linked to sleep disorders, depression, cancer, and other adverse health conditions.\",\n    \"Teens and adolescents living in areas with high levels of artificial light at night are more likely to experience mood and anxiety disorders, as well as interrupted sleep patterns.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc2c23e0ffdbb8e11aa5508e5f943a0051a40fd2"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250204-new-legislation-introduced-police-k9s.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:25:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 400 represents a significant step forward in standardizing law enforcement K9 programs.\",\n    \"AB 400 will ensure uniformity, accountability, and excellence in the use of police canines throughout California.\",\n    \"The updated POST K9 guidelines include legal standar",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 400 represents a significant step forward in standardizing law enforcement K9 programs.\",\n    \"AB 400 will ensure uniformity, accountability, and excellence in the use of police canines throughout California.\",\n    \"The updated POST K9 guidelines include legal standards regarding the use of force and minimum training requirements.\",\n    \"The guidelines for police K9s were developed with input from legal experts, K9 trainers, law enforcement professionals, and members of the public.\",\n    \"Police K9s play an exceptional role in protecting their partners and communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d0fa727171131ab0421d437e61dd7ce0f4ab403c"
+}

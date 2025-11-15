@@ -1,0 +1,13 @@
+{
+  "press_release": "20200521-bill-reduce-rates-missing-and-murdered-indigenous-women-and-girls-boost.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –A measure to improve public safety on tribal lands by increasing collaboration among law enforcement agencies and that would also help reduce the number of Missing and ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The murder rates of Native American women can be ten times the national average on some reservations.\",\n    \"Jurisdictional confusion has occurred because of a 1953 federal law, Public Law 280, which removed federal criminal jurisdiction over most major offenses com",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The murder rates of Native American women can be ten times the national average on some reservations.\",\n    \"Jurisdictional confusion has occurred because of a 1953 federal law, Public Law 280, which removed federal criminal jurisdiction over most major offenses committed on reservations.\",\n    \"Public Law 280 limited civil jurisdiction in Indian Country to six states, including California.\",\n    \"AB 3099 would create three new positions within the Department of Justice to assist tribal police concerning crime issues on tribal lands and in Native American communities.\",\n    \"AB 3099 would require the Department of Justice to coordinate education and outreach between tribal police and state and local law enforcement agencies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fb61f55f94b8738d9789096f6ce19c744fbd202e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230602-assemblywoman-soria-recognize-robotics-world-champions-madera-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The MadTown Robotics 1323 Team was declared the winner of the 2023 FIRST Championship, competing against over 600 teams from across the world.\",\n    \"The MadTown Robotics 1323 Team was already ranked #1 prior to the championship after winning the Central Valley Regional ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The MadTown Robotics 1323 Team was declared the winner of the 2023 FIRST Championship, competing against over 600 teams from across the world.\",\n    \"The MadTown Robotics 1323 Team was already ranked #1 prior to the championship after winning the Central Valley Regional and going undefeated at the Monterey Bay Regional of the FIRST Robotics Competition.\",\n    \"The MadTown Robotics 1323 Team earned the Industrial Design Award at the final international competition in Houston.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1cf9166f5e29e68c8f745468410caac1523555bd"
+}

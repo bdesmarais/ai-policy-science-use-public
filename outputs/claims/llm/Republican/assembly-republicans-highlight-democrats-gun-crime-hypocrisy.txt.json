@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-highlight-democrats-gun-crime-hypocrisy.txt",
+  "party": "Republican",
+  "title": "Democrats talk tough on guns but refuse to hold violent criminals accountable.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There is a direct correlation between mass shootings and domestic violence.\",\n    \"More than two-thirds of mass shooters have a history of domestic violence.\",\n    \"Classifying domestic violence as a 'violent' crime could tackle gun violence from a new angle.\",\n    \"Cali",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There is a direct correlation between mass shootings and domestic violence.\",\n    \"More than two-thirds of mass shooters have a history of domestic violence.\",\n    \"Classifying domestic violence as a 'violent' crime could tackle gun violence from a new angle.\",\n    \"California is lacking sufficient enforcement and deterrence to stop gun violence.\",\n    \"Reinstating the firearm sentencing enhancement in California would ensure that individuals who hurt someone with a gun go to prison for a long time.\",\n    \"Three out of four Californians find violence and street crime to be a problem.\",\n    \"Current legislative approaches are failing to effectively address issues related to gun violence.\",\n    \"Ghost guns are criminally used because they are untraceable.\",\n    \"Certain common-sense proposals aimed at addressing gun violence were killed by Assembly Democrats.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8ca84d11cbc7bc257a543f4c158ec2c19340370e"
+}

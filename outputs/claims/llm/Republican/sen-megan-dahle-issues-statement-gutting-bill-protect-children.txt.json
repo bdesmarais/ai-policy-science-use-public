@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-megan-dahle-issues-statement-gutting-bill-protect-children.txt",
+  "party": "Republican",
+  "title": "On Thursday in the Assembly, Democrats shut down an attempt to protect 16- and 17-year-olds and let the law punish the customers who would buy teenagers for sex.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Soliciting a minor for sex is a serious crime.\",\n    \"Assembly Bill 379 was intended to close loopholes that prevent felony charges for soliciting sex from a 16- or 17-year-old.\",\n    \"There is a call for serious criminal penalties for those who buy children for sex.\"\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Soliciting a minor for sex is a serious crime.\",\n    \"Assembly Bill 379 was intended to close loopholes that prevent felony charges for soliciting sex from a 16- or 17-year-old.\",\n    \"There is a call for serious criminal penalties for those who buy children for sex.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "746ad28a83034dcd7d06f974a33697e84a3b0419"
+}

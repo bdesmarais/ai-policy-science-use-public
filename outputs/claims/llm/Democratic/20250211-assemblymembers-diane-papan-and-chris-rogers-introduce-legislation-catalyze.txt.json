@@ -1,0 +1,13 @@
+{
+  "press_release": "20250211-assemblymembers-diane-papan-and-chris-rogers-introduce-legislation-catalyze.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Geothermal power is key to achieving 100% clean energy around the clock.\",\n    \"Geothermal energy provides clean, continuous power, ensuring energy reliability as California transitions to a carbon-free future.\",\n    \"California has set ambitious climate goals requiring ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Geothermal power is key to achieving 100% clean energy around the clock.\",\n    \"Geothermal energy provides clean, continuous power, ensuring energy reliability as California transitions to a carbon-free future.\",\n    \"California has set ambitious climate goals requiring all retail electricity sales to be carbon-free by 2045 and for the state to reach net-zero emissions.\",\n    \"Despite its potential, geothermal energy currently accounts for only 5% of California’s in-state electricity generation.\",\n    \"Next-generation geothermal projects can take a decade or more to develop.\",\n    \"Geothermal exploration is the first step in developing new geothermal energy resources.\",\n    \"Geothermal exploratory projects can result in no permanent environmental harm when conducted with high environmental stewardship.\",\n    \"AB 527 will help accelerate the development of in-state geothermal resources and assist California in achieving its climate objectives.\",\n    \"Most geothermal plants are 10 to 30 megawatts in size and are currently excluded from the Environmental Leadership Development Project designation.\",\n    \"Developing more geothermal energy production is an important component of California's efforts to diversify and expand its energy supply portfolio.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ee3536876035968055683891c94622859b0d596c"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "guaranteed-income-homeless-youth-program-moves-forward-santa-clara-county.txt",
+  "party": "Democratic",
+  "title": "The Santa Clara County Board of Supervisors unanimously approved an item authored by Santa Clara County Supervisor Susan Ellenberg to move forward the framework proposed in Senator",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Santa Clara County is the first county in California to refuse to graduate high school seniors into homelessness.\",\n    \"The California Success, Opportunity, and Academic Resilience (CalSOAR) Guaranteed Income Program aims to combat 'summer melt' among homeless youth.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Santa Clara County is the first county in California to refuse to graduate high school seniors into homelessness.\",\n    \"The California Success, Opportunity, and Academic Resilience (CalSOAR) Guaranteed Income Program aims to combat 'summer melt' among homeless youth.\",\n    \"The program provides guaranteed direct cash assistance of about $1,000 per month to homeless youth in grade 12.\",\n    \"In the 2020-21 academic year, there were approximately 15,000 students experiencing homelessness who were enrolled in the 12th grade in California.\",\n    \"The majority of homeless youth aspire to attend post-secondary education.\",\n    \"Over 90% of homeless youth wish to pursue careers that require some form of post-secondary education.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "31341cfb3945f3d7cbf48b433d09760474ea4203"
+}

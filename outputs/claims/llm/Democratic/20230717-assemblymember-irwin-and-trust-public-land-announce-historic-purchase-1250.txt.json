@@ -1,0 +1,13 @@
+{
+  "press_release": "20230717-assemblymember-irwin-and-trust-public-land-announce-historic-purchase-1250.txt",
+  "party": "Democratic",
+  "title": "BACKGROUND:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Deer Creek property is the single largest privately held parcel between Santa Barbara and the Mexican Border.\",\n    \"The Deer Creek parcel includes 2.2 miles of pristine California coastline, with beach access and critical biodiversity and wildlife habitat.\",\n    \"Pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Deer Creek property is the single largest privately held parcel between Santa Barbara and the Mexican Border.\",\n    \"The Deer Creek parcel includes 2.2 miles of pristine California coastline, with beach access and critical biodiversity and wildlife habitat.\",\n    \"Preserving the Deer Creek property is in keeping with Governor Newsom’s 30x30 California Plan designed to protect and restore biodiversity.\",\n    \"The 30x30 California Plan aims to conserve natural habitats and build climate resilience to reduce the impacts of climate change.\",\n    \"Trust for Public Land plans to convey the Deer Creek property to the National Park Service.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d648dbd089b9d39ee799857a3c448c42f4bfec59"
+}

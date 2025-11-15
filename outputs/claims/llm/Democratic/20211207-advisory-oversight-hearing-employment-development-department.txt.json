@@ -1,0 +1,13 @@
+{
+  "press_release": "20211207-advisory-oversight-hearing-employment-development-department.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The pandemic has demonstrated that safety net programs like EDD need long overdue structural changes.\",\n    \"Earlier this year, the State Auditor confirmed the myriad deficiencies at the Employment Development Department (EDD).\",\n    \"The Assembly is looking for EDD solu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The pandemic has demonstrated that safety net programs like EDD need long overdue structural changes.\",\n    \"Earlier this year, the State Auditor confirmed the myriad deficiencies at the Employment Development Department (EDD).\",\n    \"The Assembly is looking for EDD solutions that help the state, not excuses for inaction.\",\n    \"System modernization efforts at EDD are necessary to meet the demands of Californians who have faced delays in receiving aid.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "42e7e48d062adc0c07fcbc47dbaed4eba7be166b"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-celebrates-budget-win-parnell-park-city-whittier.txt",
+  "party": "Democratic",
+  "title": "WHITTIER – Senator Bob Archuleta (D-Pico Rivera) celebrated a major budget win for Senate District 32 by announcing $5,019,000 in funding for Parnell Park in the City of Whittier f",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2057bbd6d6f338073e63c6b3ff386046126b928c"
+}

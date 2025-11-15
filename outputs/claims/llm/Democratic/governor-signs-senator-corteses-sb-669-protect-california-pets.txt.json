@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-senator-corteses-sb-669-protect-california-pets.txt",
+  "party": "Democratic",
+  "title": "Governor Gavin Newsom announced today that he has signed Senator Cortese’s legislation expanding healthcare access to California’s dogs and cats. SB 669 allows veterinarian technic",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 669 allows veterinarian technicians to take on new responsibilities under the supervision of a licensed veterinarian.\",\n    \"SB 669 enables vet techs to administer vaccines and prophylactic treatments for pets.\",\n    \"A veterinarian shortage is leaving lower-income re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 669 allows veterinarian technicians to take on new responsibilities under the supervision of a licensed veterinarian.\",\n    \"SB 669 enables vet techs to administer vaccines and prophylactic treatments for pets.\",\n    \"A veterinarian shortage is leaving lower-income residents struggling to care for their pets.\",\n    \"The new law will dramatically expand access to pet healthcare in California.\",\n    \"SB 669 increases access to and education of basic veterinary care for all California's pets.\",\n    \"Rising competition for veterinarians has caused nonprofits in California to scale down or shut down low-cost or free vaccine clinics.\",\n    \"Sixty percent of California's animal shelters and animal welfare groups report vacant veterinary positions.\",\n    \"Eighty percent of shelters have faced challenges in consistently offering community care programs.\",\n    \"Unvaccinated pets pose a public health hazard as they are at risk of catching and transmitting rabies and canine parvovirus.\",\n    \"Registered vet techs are trained professionals who have completed two-year programs and passed national and state examinations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ca032fab717a46a58afef0c60c035e1a9866e8e0"
+}

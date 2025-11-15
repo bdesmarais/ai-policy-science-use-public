@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-latest-effort-give-californians-relief-pump-fails.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California consistently holds the title for highest gas prices in the nation.\",\n    \"The average price of gasoline in California is up to $5.76 per gallon compared to a national average of $4.24 per gallon.\",\n    \"The significant price difference between California and t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California consistently holds the title for highest gas prices in the nation.\",\n    \"The average price of gasoline in California is up to $5.76 per gallon compared to a national average of $4.24 per gallon.\",\n    \"The significant price difference between California and the national average is $1.52 per gallon.\",\n    \"Gas prices in California have continued to rise due to Sacramento Democrats’ goal to eliminate California’s domestic production and increase foreign imports.\",\n    \"Senate Bill 1 (Beall) signed in 2017 increased taxes and fees on gasoline and diesel by $52 billion over ten years.\",\n    \"The law requires that the tax rates and fees be adjusted annually to reflect the California Consumer Price Index.\",\n    \"An excise tax increase of 5.6% will take effect on July 1, raising gasoline prices further.\",\n    \"The Department of Finance estimates that the July 1 excise tax increase will cost taxpayers an additional $523 million a year.\",\n    \"Senator Grove's bill aimed to provide relief at the pump by stopping the annual inflation escalator on gas taxes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9d63758ffa3570747d96ef54e290d1149e14ffad"
+}

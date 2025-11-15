@@ -1,0 +1,13 @@
+{
+  "press_release": "20241106-statement-assemblymember-berman-regarding-challenge-ahead.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has an economy that is the fifth largest in the world.\",\n    \"Investing in science and education can contribute to economic and social improvements.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has an economy that is the fifth largest in the world.\",\n    \"Investing in science and education can contribute to economic and social improvements.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3feacb542ed06b3f072f8b9986888ed4d8f9b55d"
+}

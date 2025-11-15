@@ -1,0 +1,13 @@
+{
+  "press_release": "20230403-bill-allow-amsterdam-style-cannabis-cafes-california-introduced-asm-haney.txt",
+  "party": "Democratic",
+  "title": "Sacramento – Assemblymember Matt Haney (D-San Francisco) has introduced AB 374 which allows local California governments to license Amsterdam-style cannabis cafes. While cannabis c",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:58:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 374 allows local California governments to license Amsterdam-style cannabis cafes.\",\n    \"Cannabis cafes in the Netherlands thrive by offering coffee, food, and live music.\",\n    \"AB 374 will allow struggling cannabis businesses in California to diversify away from th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 374 allows local California governments to license Amsterdam-style cannabis cafes.\",\n    \"Cannabis cafes in the Netherlands thrive by offering coffee, food, and live music.\",\n    \"AB 374 will allow struggling cannabis businesses in California to diversify away from the marijuana-only dispensary model.\",\n    \"Cannabis cafes in the Netherlands generate significant tourist revenue.\",\n    \"In the Netherlands, over 1.5 million tourists visit cannabis cafes annually.\",\n    \"10% of the Netherlands' 4.5 million annual tourists cite cannabis cafes as their reason for visiting.\",\n    \"There are over 700 cannabis cafes operating across the Netherlands.\",\n    \"Over 1 billion dollars is spent annually in Dutch cannabis cafes.\",\n    \"California's cannabis dispensaries have replaced the social aspect of cannabis with a pharmacy-like business model.\",\n    \"California's legal cannabis sales reached $4 billion in 2020.\",\n    \"California's illicit market cannabis sales were projected to exceed $8 billion in 2020.\",\n    \"Selling non-cannabis-infused products is currently illegal for cannabis retailers in California.\",\n    \"AB 374 allows cannabis retailers in California to sell non-cannabis-infused foods.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c5e9943470200878b97394e9b86816809c4a58c8"
+}

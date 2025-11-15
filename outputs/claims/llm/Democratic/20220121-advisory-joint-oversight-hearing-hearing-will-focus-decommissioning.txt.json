@@ -1,0 +1,13 @@
+{
+  "press_release": "20220121-advisory-joint-oversight-hearing-hearing-will-focus-decommissioning.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – On Tuesday, January 25, 2022, as Chair of the Assembly’s Select Committee on the Orange County Oil Spill, Assemblywoman Cottie Petrie-Norris is convening a Joint Overs",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Offshore drilling poses enormous risks to coastal ecosystems.\",\n    \"California's coast is home to some of the most diverse marine life in the world.\",\n    \"The recent oil spill in Orange County proves that offshore drilling in federal waters must end to protect the coas",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Offshore drilling poses enormous risks to coastal ecosystems.\",\n    \"California's coast is home to some of the most diverse marine life in the world.\",\n    \"The recent oil spill in Orange County proves that offshore drilling in federal waters must end to protect the coastal ecosystem.\",\n    \"Stronger regulations and accountability will not harm petroleum companies, despite claims to the contrary.\",\n    \"The oil industry poses billions of dollars of risk to California's coastal economy.\",\n    \"An aggressive approach is required to end offshore drilling following the recent oil spill.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "67debc2817f64e38bbb2773f5c6497046af7e773"
+}

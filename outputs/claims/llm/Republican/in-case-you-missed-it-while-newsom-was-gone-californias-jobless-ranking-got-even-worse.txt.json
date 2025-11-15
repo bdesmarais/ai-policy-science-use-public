@@ -1,0 +1,13 @@
+{
+  "press_release": "in-case-you-missed-it-while-newsom-was-gone-californias-jobless-ranking-got-even-worse.txt",
+  "party": "Republican",
+  "title": "Gavin Newsom was MIA for nearly half of April, as",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's jobless rate rose to the second-highest in the nation.\",\n    \"California's unemployment rate rose to 4.5%, placing it 49th in the nation.\",\n    \"Other states have lower unemployment rates than California, with Alabama at 2.2%, Arkansas at 2.8%, Mississippi a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's jobless rate rose to the second-highest in the nation.\",\n    \"California's unemployment rate rose to 4.5%, placing it 49th in the nation.\",\n    \"Other states have lower unemployment rates than California, with Alabama at 2.2%, Arkansas at 2.8%, Mississippi at 3.4%, and Florida at 2.6%.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e984f91cefd15ade3d245ad860bdbad45b3dd0c3"
+}

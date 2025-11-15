@@ -1,0 +1,94 @@
+{
+  "press_release": "assembly-panel-unanimously-approves-the-fresh-act-to-fast-track.txt",
+  "party": "Democratic",
+  "title": "SB 1254 (The FRESH Act) connects incarcerated individuals with vital services such as CalFresh and other resources prior to release in order to increase the success of reentry.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The FRESH Act allows incarcerated individuals to pre-apply for CalFresh benefits 90 days prior to their release.\"\n    },\n    {\n      \"claim_text\": \"Expanding eligibility for CalFresh would unlock an estimated $1.8 billion in additional CalFresh doll",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The FRESH Act allows incarcerated individuals to pre-apply for CalFresh benefits 90 days prior to their release.\"\n    },\n    {\n      \"claim_text\": \"Expanding eligibility for CalFresh would unlock an estimated $1.8 billion in additional CalFresh dollars from the federal government each year.\"\n    },\n    {\n      \"claim_text\": \"The new federal money would support local grocery stores and farms.\"\n    },\n    {\n      \"claim_text\": \"The FRESH Act aims to reduce food insecurity in California.\"\n    },\n    {\n      \"claim_text\": \"1 in 5 formerly incarcerated people suffered from food insecurity in 2019.\"\n    },\n    {\n      \"claim_text\": \"The FRESH Act creates a uniform process for reentry for all incarcerated individuals.\"\n    },\n    {\n      \"claim_text\": \"Expanding access to benefits and programs increases the success of reentry.\"\n    },\n    {\n      \"claim_text\": \"The new federal funding could generate an estimated additional $3.3 billion in economic activity per year.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The FRESH Act allows incarcerated individuals to pre-apply for CalFresh benefits 90 days prior to their release.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Expanding eligibility for CalFresh would unlock an estimated $1.8 billion in additional CalFresh dollars from the federal government each year.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The new federal money would support local grocery stores and farms.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The FRESH Act aims to reduce food insecurity in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "1 in 5 formerly incarcerated people suffered from food insecurity in 2019.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The FRESH Act creates a uniform process for reentry for all incarcerated individuals.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Expanding access to benefits and programs increases the success of reentry.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The new federal funding could generate an estimated additional $3.3 billion in economic activity per year.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 8,
+  "doc_sha1": "0800109b4a3324cfd9d340702f39520c1dad462a"
+}

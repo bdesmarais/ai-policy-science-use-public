@@ -1,0 +1,13 @@
+{
+  "press_release": "video-celebrity-advocate-paris-hilton-calls-passage-child-protection-measure-ahead-key-vote.txt",
+  "party": "Republican",
+  "title": "Today, celebrity advocate Paris Hilton called for passage of Senator Shannon Grove’s (R-Bakersfield) SB 373 ahead of a key vote in the Assembly Appropriations Committee on Friday. ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Shannon Grove's SB 373 aims to protect California’s vulnerable youth in nonpublic schools.\",\n    \"SB 373 seeks to address the issues faced by children placed in out-of-state residential facilities without proper oversight.\",\n    \"Almost 300 California children re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Shannon Grove's SB 373 aims to protect California’s vulnerable youth in nonpublic schools.\",\n    \"SB 373 seeks to address the issues faced by children placed in out-of-state residential facilities without proper oversight.\",\n    \"Almost 300 California children remain in out-of-state facilities, often isolated from their families and with little oversight.\",\n    \"California has taken steps in recent years to stop placing foster youth in out-of-state facilities after reports of mistreatment.\",\n    \"Under the IEP process, students with disabilities can still be placed in institutions with records of abuse and mistreatment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "82e438dcefa253bafed29eca71ab4ce9b62fe6ba"
+}

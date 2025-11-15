@@ -1,0 +1,13 @@
+{
+  "press_release": "20240923-governor-newsom-signs-ab-2575-valencia-advance-oversight-alcoholism-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2574 mandates disclosure of financial interests by agents, partners, directors, officers, or owners of recovery homes.\",\n    \"The disclosure of financial interests is intended to enable effective oversight by the California Department of Health Care Services.\",\n    \"A",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2574 mandates disclosure of financial interests by agents, partners, directors, officers, or owners of recovery homes.\",\n    \"The disclosure of financial interests is intended to enable effective oversight by the California Department of Health Care Services.\",\n    \"AB 2574 empowers the California Department of Health Care Services to suspend or revoke certifications or licenses for non-disclosure.\",\n    \"The California Department of Health Care Services may act against unlicensed treatment facilities that provide recovery, treatment, and detoxification services.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f4f613ba90b57d8c7b1e73f41c7bc557231ce674"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-newsom-signs-ab-2186-to-crack-down-on-dangerous-sideshows-as-part-of-a-bipartisan-public-safety-package.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom signed AB 2186 as part of a bipartisan public safety package aimed at curbing illegal sideshows and street takeovers.\",\n    \"The new laws strengthen law enforcement’s ability to address illegal speed contests, drifting, and other reckless activities",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom signed AB 2186 as part of a bipartisan public safety package aimed at curbing illegal sideshows and street takeovers.\",\n    \"The new laws strengthen law enforcement’s ability to address illegal speed contests, drifting, and other reckless activities.\",\n    \"AB 2186 clarifies that vehicles involved in sideshows or exhibitions of speed in parking lots are subject to the same impoundment laws as those on roadways.\",\n    \"This measure ensures that law enforcement can stop dangerous activities regardless of their location.\",\n    \"Illegal sideshows are described as disruptive and deadly activities.\",\n    \"Stricter penalties, including the potential loss of the vehicle, are now in place for participating in or attending a sideshow.\",\n    \"The public safety package is aimed at addressing the rise in illegal street takeovers and sideshows.\",\n    \"California's new measures provide law enforcement with enhanced tools to impound vehicles and hold organizers and participants accountable.\",\n    \"The definitions of sideshows and street takeovers are being standardized across California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6904de3f0c409641f390c599eb49bc4fe24dae4b"
+}

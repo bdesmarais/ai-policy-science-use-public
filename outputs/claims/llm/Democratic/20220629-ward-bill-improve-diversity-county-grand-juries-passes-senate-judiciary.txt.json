@@ -1,0 +1,13 @@
+{
+  "press_release": "20220629-ward-bill-improve-diversity-county-grand-juries-passes-senate-judiciary.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:43:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Civil grand juries play an essential role as a watchdog over local government and investigating citizen complaints about public agencies and officials.\",\n    \"Racial and ethnic minorities are under-represented in the makeup of civil grand juries.\",\n    \"Assembly Bill 197",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Civil grand juries play an essential role as a watchdog over local government and investigating citizen complaints about public agencies and officials.\",\n    \"Racial and ethnic minorities are under-represented in the makeup of civil grand juries.\",\n    \"Assembly Bill 1972 aims to improve diversity within the grand jury selection process.\",\n    \"The current standards for grand jury participation limit it to those with the time and financial means to devote to this civic duty.\",\n    \"AB 1972 will help increase diversity in the civil juror pool by ensuring jurors are fairly compensated for their time.\",\n    \"Current state statute requires jury commissioners to note the geographic makeup of a jury pool, but does not require further action to enhance diversity.\",\n    \"Improving diversity in grand juries is important for the success of court systems and government.\",\n    \"A diverse grand jury composition can lead to more community faith in the work being done by the judicial system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "78210ff28bc40679a781221fc0fd2e2f68008703"
+}

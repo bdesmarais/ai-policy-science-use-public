@@ -1,0 +1,13 @@
+{
+  "press_release": "20240929-governor-newsom-signs-crucial-legislation-protect-and-expand-access.txt",
+  "party": "Democratic",
+  "title": "[Sacramento, CA]",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:19:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2085 facilitates the development of community clinics that offer reproductive health services by streamlining the permitting process.\",\n    \"Assembly Bill 2085 mandates ministerial approval for community clinics, eliminating unnecessary delays caused by loc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2085 facilitates the development of community clinics that offer reproductive health services by streamlining the permitting process.\",\n    \"Assembly Bill 2085 mandates ministerial approval for community clinics, eliminating unnecessary delays caused by local opposition.\",\n    \"Assembly Bill 2099 strengthens the California Freedom of Access to Clinics and Church Entrances (FACCE) Act by increasing penalties for violations.\",\n    \"Assembly Bill 2099 imposes harsher consequences for individuals who engage in nonviolent physical obstruction or intimidation against patients and providers.\",\n    \"Both Assembly Bills 2085 and 2099 received strong bipartisan support across legislative committees.\",\n    \"The passage of Assembly Bill 2099 passed the Assembly Public Safety Committee with a unanimous 8-0 vote.\",\n    \"Assembly Bill 2085 received significant backing, passing the Senate with a 31-8 vote.\",\n    \"The passage of AB 2085 and AB 2099 is intended to protect patients' rights and prevent intimidation and obstruction for those seeking reproductive health care.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f61ff51062843ef404356a53ae11076f6cc3d36a"
+}

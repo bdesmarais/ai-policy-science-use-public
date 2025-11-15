@@ -1,0 +1,13 @@
+{
+  "press_release": "20250604-assemblymember-harabedian-passes-ab-740-senate-advance-virtual-power-plants.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:37:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A Virtual Power Plant (VPP) connects everyday clean energy technologies to operate as one coordinated energy source.\",\n    \"Virtual Power Plants help balance the grid by harnessing the power available in homes and businesses.\",\n    \"Virtual Power Plants contribute to cut",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A Virtual Power Plant (VPP) connects everyday clean energy technologies to operate as one coordinated energy source.\",\n    \"Virtual Power Plants help balance the grid by harnessing the power available in homes and businesses.\",\n    \"Virtual Power Plants contribute to cutting emissions and building a more decentralized energy system.\",\n    \"The implementation of Virtual Power Plants can lower energy costs for Californians.\",\n    \"Creating a statewide plan for virtual power plants will enable everyday home appliances to become energy assets.\",\n    \"Virtual Power Plants can enhance the reliability of the electric grid during emergencies.\",\n    \"The modeling of Virtual Power Plants on electricity costs and rate reduction is required in the biennial Integrated Energy Policy Reports.\",\n    \"Investor-owned utilities are mandated to report annually on their progress toward the state’s load shift goal.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "095910b04410e94955d0818133974e978d254dcf"
+}

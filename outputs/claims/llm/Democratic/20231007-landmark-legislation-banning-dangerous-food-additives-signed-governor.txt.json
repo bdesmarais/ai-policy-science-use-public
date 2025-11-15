@@ -1,0 +1,13 @@
+{
+  "press_release": "20231007-landmark-legislation-banning-dangerous-food-additives-signed-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:10:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The use of Red Dye No. 3, Potassium Bromate, Brominated Vegetable Oil, and Propyl Paraben has been banned in the 27 nations in the European Union due to scientific research linking them to significant health harms, including cancer and reproductive issues.\",\n    \"AB 418 ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The use of Red Dye No. 3, Potassium Bromate, Brominated Vegetable Oil, and Propyl Paraben has been banned in the 27 nations in the European Union due to scientific research linking them to significant health harms, including cancer and reproductive issues.\",\n    \"AB 418 is designed to require food companies to make modifications to their recipes and switch to safer alternative ingredients already used in other countries.\",\n    \"The FDA approval process for food chemicals has allowed close to 99 percent of food chemicals to escape meaningful, independent review.\",\n    \"Succeeding in California's AB 418 could likely prompt a nationwide transition to safer food alternatives.\",\n    \"Major brands and manufacturers, including Coke and Pepsi, have voluntarily stopped using the additives targeted by AB 418 due to concerns about their impact on human health.\",\n    \"Red Dye No. 3 is banned by the FDA for use in cosmetics but is still permitted in food products.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c51ecf7b7efcd2f6258ef19dba26e8756397558c"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20190913-state-legislature-approves-assemblymember-rivas-oil-transportation-safety.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:11:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 936 improves the state’s preparedness to protect communities from a potential spill of nonfloating oil.\",\n    \"Nonfloating oil tends to sink to the bottom of oceans and lakes and can require specialized techniques and equipment for cleanup.\",\n    \"AB 936 ensures that ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 936 improves the state’s preparedness to protect communities from a potential spill of nonfloating oil.\",\n    \"Nonfloating oil tends to sink to the bottom of oceans and lakes and can require specialized techniques and equipment for cleanup.\",\n    \"AB 936 ensures that California is prepared to protect coastal regions and communities through which oil is transported in the event of a nonfloating oil spill.\",\n    \"California has developed a strong response system since the first major coastal oil spill decades ago, which has had to be updated as factors change.\",\n    \"The legislation identifies differences in spills caused by newer, heavier forms of oil.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d732df172a6b3d195f450b1893a987539f61977e"
+}

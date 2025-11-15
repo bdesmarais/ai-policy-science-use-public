@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-grove-responds-announcement-friant-kern-canal-restoration-project.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove (R-Bakersfield) has issued the following statement after an announcement was made by the U.S. Bureau of Reclamation that the pro",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Friant-Kern Canal plays a key role in the economy of the Central Valley.\",\n    \"The Friant-Kern Canal provides water to one million acres of farmland in Tulare and Kern counties.\",\n    \"Restoring the Friant-Kern Canal will support farmers and increase the water suppl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Friant-Kern Canal plays a key role in the economy of the Central Valley.\",\n    \"The Friant-Kern Canal provides water to one million acres of farmland in Tulare and Kern counties.\",\n    \"Restoring the Friant-Kern Canal will support farmers and increase the water supply.\",\n    \"Restoring the Friant-Kern Canal will benefit the environment by helping recharge aquifers.\",\n    \"The canal has lost over 50 percent of its original capacity due to design deficiencies and land subsidence.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5bc186ad0227f99052bd159fbd6c073653b65237"
+}

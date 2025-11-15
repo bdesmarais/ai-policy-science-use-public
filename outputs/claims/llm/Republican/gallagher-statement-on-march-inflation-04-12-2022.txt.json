@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-statement-on-march-inflation-04-12-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republican Leader James Gallagher (Yuba City) issued the following statement on the release of Consumer Price Index data showing",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3a4caa75ab48d05ebe71442860e42aab39ec7683"
+}

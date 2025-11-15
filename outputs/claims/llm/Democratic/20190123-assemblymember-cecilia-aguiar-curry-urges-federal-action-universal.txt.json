@@ -1,0 +1,13 @@
+{
+  "press_release": "20190123-assemblymember-cecilia-aguiar-curry-urges-federal-action-universal.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Cecilia Aguiar-Curry (D-Winters) has introduced Assembly Joint Resolution 4 with coauthors Senators Bill Dodd (D-Napa) and Mike McGuire (D-Healdsburg), and Assemblym",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:04:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"H.R. 8 requires uniform and universal background checks on all gun purchases and transfers.\",\n    \"The law obligates unlicensed gun sellers to perform background checks on gun purchasers by requiring them to utilize licensed dealers.\",\n    \"Current federal law includes a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"H.R. 8 requires uniform and universal background checks on all gun purchases and transfers.\",\n    \"The law obligates unlicensed gun sellers to perform background checks on gun purchasers by requiring them to utilize licensed dealers.\",\n    \"Current federal law includes a loophole that allows unlicensed firearm dealers to sell without performing background checks.\",\n    \"Gun offenders overwhelmingly obtain their guns without a background check through private sales.\",\n    \"H.R. 8 would require all firearms purchases to use the National Instant Criminal Background Check System.\",\n    \"When background checks are used, they help keep guns out of the hands of people who should not have them.\",\n    \"The introduction of AJR 4 showcases a formal support for the passage of H.R. 8.\",\n    \"There is a pressing need to close the loophole in federal law regarding background checks for gun purchases and transfers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "371fdc68cab109d090a63e4d9d8cda2ced788c22"
+}

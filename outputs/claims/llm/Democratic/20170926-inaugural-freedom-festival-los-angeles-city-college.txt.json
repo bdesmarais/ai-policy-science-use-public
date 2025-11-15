@@ -1,0 +1,13 @@
+{
+  "press_release": "20170926-inaugural-freedom-festival-los-angeles-city-college.txt",
+  "party": "Democratic",
+  "title": "Los Angeles, Calif --- On Thursday, September 28, and Friday, September 29, Los Angeles City College will be hosting their first Freedom Festival. The event will highlight the role",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "12645634054278c9e3ca6412e5b541444b1518db"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-awarded-2023-legislator-year-selpa.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) has announced she has been presented the 2023 Legislator of the Year award by the Special Education Local Plan Areas (SELPAs) Administrator",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "41cc16e6010a152967fd9a429a73e0afd422a8f3"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250114-assemblywoman-pilar-schiavo-naacp-santa-clarita-host-fire-relief-donation.txt",
+  "party": "Democratic",
+  "title": "Santa Clarita, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:23:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ab92f0bff48443b7cc4f3d75a9dddaf1fb377e5c"
+}

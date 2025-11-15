@@ -1,0 +1,13 @@
+{
+  "press_release": "20240515-zbur-bill-increase-access-gender-affirming-care-moves-senate.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Rick Chavez Zbur's bill to expedite medical licensure for gender-affirming care advances out of the Assembly and moves to the Senate with bipartisan support",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:42:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2442 prioritizes licensure applications for providers of gender-affirming care in California.\",\n    \"The bill aims to create a robust network of providers capable of meeting the needs of out-of-state transgender patients.\",\n    \"California is positioned to serve as a ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2442 prioritizes licensure applications for providers of gender-affirming care in California.\",\n    \"The bill aims to create a robust network of providers capable of meeting the needs of out-of-state transgender patients.\",\n    \"California is positioned to serve as a beacon of inclusivity in the realm of gender-affirming care.\",\n    \"Over 40 states have introduced over 500 bills that block transgender people from receiving basic health care.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b437c2bbc36be248b43d5e11fbefc274427da56b"
+}

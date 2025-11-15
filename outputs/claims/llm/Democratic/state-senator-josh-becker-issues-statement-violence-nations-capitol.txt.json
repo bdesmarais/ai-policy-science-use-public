@@ -1,0 +1,13 @@
+{
+  "press_release": "state-senator-josh-becker-issues-statement-violence-nations-capitol.txt",
+  "party": "Democratic",
+  "title": "MENLO PARK – “Our democracy and our institutions held firm against direct assault today and four years of relentless attack on their integrity. Democracy and integrity won. History",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:34:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f78e9249e24e9e0e961e3ed8051cb971198a12ff"
+}

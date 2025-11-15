@@ -1,0 +1,13 @@
+{
+  "press_release": "20250218-assemblymember-bauer-kahan-introduces-ab-578-strengthen-consumer.txt",
+  "party": "Democratic",
+  "title": "[Sacramento, CA]",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Food delivery platforms such as DoorDash, Uber Eats, and GrubHub are involved in unfair business practices.\",\n    \"Assemblymember Rebecca Bauer-Kahan introduced AB 578 to protect Californians from these unfair business practices.\",\n    \"Consumers currently do not receive",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Food delivery platforms such as DoorDash, Uber Eats, and GrubHub are involved in unfair business practices.\",\n    \"Assemblymember Rebecca Bauer-Kahan introduced AB 578 to protect Californians from these unfair business practices.\",\n    \"Consumers currently do not receive full refunds when their food is not delivered or when they receive incorrect or incomplete orders.\",\n    \"Many food delivery platforms offer only partial credits toward future purchases instead of full refunds.\",\n    \"Customers remain responsible for non-refundable service fees and tips even when orders are incorrect or missing.\",\n    \"Food delivery platforms often rely on automated responses and chatbots instead of providing adequate customer service.\",\n    \"AB 578 strengthens the Fair Food Delivery Act by requiring full refunds to customers’ original payment method for undelivered, incomplete, or incorrect orders.\",\n    \"The bill eliminates forced platform credits, ensuring consumers do not have unusable future order balances.\",\n    \"AB 578 mandates food delivery platforms to provide a way for customers to speak with a live representative for refund requests.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "481ee530abf36ac5cff228dccfb3c93823dd0101"
+}

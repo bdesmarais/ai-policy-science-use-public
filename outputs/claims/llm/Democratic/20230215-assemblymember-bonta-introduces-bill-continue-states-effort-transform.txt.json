@@ -1,0 +1,13 @@
+{
+  "press_release": "20230215-assemblymember-bonta-introduces-bill-continue-states-effort-transform.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) – Today, Assemblymember Bonta (AD-18) introduced a bill to continue moving California’s prison system away from the hyper-punitive approach that characterized the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:54:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The purpose of incarceration is rehabilitation and preparation for reentry, not levying additional punishment.\",\n    \"Current law is silent on the purpose of incarceration.\",\n    \"AB 1104 states that the deprivation of liberty satisfies the punishment purpose of sentenci",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The purpose of incarceration is rehabilitation and preparation for reentry, not levying additional punishment.\",\n    \"Current law is silent on the purpose of incarceration.\",\n    \"AB 1104 states that the deprivation of liberty satisfies the punishment purpose of sentencing.\",\n    \"Incarcerated individuals should be afforded enhanced opportunities for restorative justice, trauma healing, education, and participation in community-based programming.\",\n    \"Community-based prison programs receive less than 1% of CDCR’s $14B annual budget.\",\n    \"AB 1104 facilitates the continued success and expansion of community-based programs.\",\n    \"Programs provided by the community have an important role in the rehabilitation of incarcerated people.\",\n    \"This bill aims to move away from the antiquated eye-for-an-eye approach to corrections.\",\n    \"Investing in the rehabilitation of incarcerated people is an investment in California’s future.\",\n    \"The bill aligns with efforts to move the state’s prison system closer to the Norwegian Model of corrections.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9c9d87c50f3cda0ede18f4d6a691ea0b80a3d82e"
+}

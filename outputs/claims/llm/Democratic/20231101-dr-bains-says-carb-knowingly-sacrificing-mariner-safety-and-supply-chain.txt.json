@@ -1,0 +1,13 @@
+{
+  "press_release": "20231101-dr-bains-says-carb-knowingly-sacrificing-mariner-safety-and-supply-chain.txt",
+  "party": "Democratic",
+  "title": "(Sacramento)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's ports are responsible for 40% of all the imports and exports of the United States.\",\n    \"Disruptions at ports create supply chain ripple effects throughout the state and country, driving up inflation and costs for commodities like gasoline.\",\n    \"The Calif",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's ports are responsible for 40% of all the imports and exports of the United States.\",\n    \"Disruptions at ports create supply chain ripple effects throughout the state and country, driving up inflation and costs for commodities like gasoline.\",\n    \"The California Air Resources Board adopted amendments to regulations governing tugboats and harbor vessels despite objections from the US Coast Guard.\",\n    \"The recent amendments to harbor vessel regulations could jeopardize the safety of crewmembers and the environment.\",\n    \"The regulations would require vessel owners to retrofit their ships with technologies that could cause engines to heat up to 1,500 degrees Fahrenheit and potentially catch fire.\",\n    \"The regulations pose a risk of tugboats losing control of oil tankers, potentially leading to oil spills that would harm marine wildlife and sensitive habitats.\",\n    \"Assembly Bill 1122 aims to ensure that any equipment mandated for maritime operators by CARB must be approved by experts to prevent dangers to mariner safety and the marine environment.\",\n    \"Requiring approval by experts for maritime equipment is considered standard practice globally.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "41a9a05ea6f7de2b4780c268d23c03ad9ad7079c"
+}

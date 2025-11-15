@@ -1,0 +1,13 @@
+{
+  "press_release": "20211118-preventing-distribution-fentanyl-through-social-media-will-be-aim-ramos.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO— Preventing distribution of the lethal fentanyl opiate through social media platforms and increasing availability and public knowledge of medicines such as Narcan to tre",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Fentanyl-related deaths are skyrocketing across the state and nation.\",\n    \"Fentanyl was involved in more than 60 percent of the overdose deaths last year.\",\n    \"The CDC announced that 100,000 people had died of overdoses between April 2020 and April 2021.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Fentanyl-related deaths are skyrocketing across the state and nation.\",\n    \"Fentanyl was involved in more than 60 percent of the overdose deaths last year.\",\n    \"The CDC announced that 100,000 people had died of overdoses between April 2020 and April 2021.\",\n    \"It was the first time drug-related deaths reached six figures in any 12-month period.\",\n    \"There are now more overdose deaths from the illegal synthetic opioid fentanyl than there were from all drugs in 2016.\",\n    \"The high number of deaths is related to fentanyl contamination of cocaine, heroin, methamphetamines, and other drugs.\",\n    \"Making Naloxone more readily available would help save lives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6f7af416a284c1043a60d4fac6d49c1784d95530"
+}

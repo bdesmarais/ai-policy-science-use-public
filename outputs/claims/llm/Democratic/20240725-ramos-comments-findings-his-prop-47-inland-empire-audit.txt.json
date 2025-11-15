@@ -1,0 +1,64 @@
+{
+  "press_release": "20240725-ramos-comments-findings-his-prop-47-inland-empire-audit.txt",
+  "party": "Democratic",
+  "title": "For Release                                                                        Contact: Maria L. Lopez: 916-712-9854 (Cell)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The 2014 state proposition that changed sentencing in California needs attention.\"\n    },\n    {\n      \"claim_text\": \"There is a problem with repeat offenders in San Bernardino and Riverside Counties.\"\n    },\n    {\n      \"claim_text\": \"The State Audi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The 2014 state proposition that changed sentencing in California needs attention.\"\n    },\n    {\n      \"claim_text\": \"There is a problem with repeat offenders in San Bernardino and Riverside Counties.\"\n    },\n    {\n      \"claim_text\": \"The State Auditor’s report underscores the urgency of addressing repeat offenders with four or more convictions.\"\n    },\n    {\n      \"claim_text\": \"Rehabilitative programs have been proven to reduce recidivism.\"\n    },\n    {\n      \"claim_text\": \"Improving how the Legislature deals with criminal classification and sentencing is necessary.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The 2014 state proposition that changed sentencing in California needs attention.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "There is a problem with repeat offenders in San Bernardino and Riverside Counties.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The State Auditor’s report underscores the urgency of addressing repeat offenders with four or more convictions.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Rehabilitative programs have been proven to reduce recidivism.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Improving how the Legislature deals with criminal classification and sentencing is necessary.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "a103c3dba89c7adf42efdfa8197dc4a88b4ec0b3"
+}

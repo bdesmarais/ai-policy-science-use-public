@@ -1,0 +1,13 @@
+{
+  "press_release": "20241203-assemblymember-ward-introduces-legislation-help-reduce-housing-costs.txt",
+  "party": "Democratic",
+  "title": "(",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:22:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 6 aims to reduce construction cost pressures by directing California Housing and Community Development to identify cost-contributing standards.\",\n    \"AB 6 has a goal of reducing housing costs by 30%.\",\n    \"The California Residential Code governs the construction of ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 6 aims to reduce construction cost pressures by directing California Housing and Community Development to identify cost-contributing standards.\",\n    \"AB 6 has a goal of reducing housing costs by 30%.\",\n    \"The California Residential Code governs the construction of one- and two-family dwellings and townhouses of three stories or less.\",\n    \"The California Building Code establishes requirements for all buildings, including medium and high-density housing.\",\n    \"Certain requirements in the California Building Code can complicate development for smaller projects and render the economics infeasible.\",\n    \"Several jurisdictions in the United States have begun to allow smaller housing types, like triplexes and fourplexes, to be built under the California Residential Code.\",\n    \"FHA-backed mortgages offer affordable financing for constructing one- to four-unit dwellings.\",\n    \"The rigidity of the California Building Code hinders the possibility of utilizing FHA-backed financing for smaller multi-family developments.\",\n    \"AB 6 will streamline code requirements to unlock the production of smaller multi-family housing types, such as triplexes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "54c0ec78dc9206cca04b01d4220621675285f476"
+}

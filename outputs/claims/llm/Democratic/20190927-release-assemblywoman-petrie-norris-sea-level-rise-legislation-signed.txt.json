@@ -1,0 +1,13 @@
+{
+  "press_release": "20190927-release-assemblywoman-petrie-norris-sea-level-rise-legislation-signed.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO— In an effort to combat the effects of our climate crisis, Assemblywoman Cottie Petrie-Norris (D-Laguna Beach) authored Assembly Bill 65 which was signed into law by Gov",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:11:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Sea levels are expected to rise 4-8 feet by the end of this century.\",\n    \"The rate of global sea-level rise was 2.5 times faster from 2006 to 2016 than it was for nearly all of the 20th century.\",\n    \"In the Antarctic ice sheet, the rate of mass loss has tripled relat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Sea levels are expected to rise 4-8 feet by the end of this century.\",\n    \"The rate of global sea-level rise was 2.5 times faster from 2006 to 2016 than it was for nearly all of the 20th century.\",\n    \"In the Antarctic ice sheet, the rate of mass loss has tripled relative to the previous decade.\",\n    \"In Greenland, the rate of mass loss has doubled over the past decade.\",\n    \"Natural restoration projects can restore ecosystems, improve recreation and access opportunities, and support coastal economies.\",\n    \"Natural infrastructure projects, such as restoring tidal marshes, can help combat sea-level rise.\",\n    \"Investment in natural infrastructure is a cost-effective strategy for coastal adaptation.\",\n    \"Healthy ocean habitats, such as kelp forests and sea grass beds, can buffer climate change impacts.\",\n    \"AB 65 prioritizes the use of natural infrastructure in California's efforts to adapt to climate change.\",\n    \"Sandy beaches are nature's defense against coastal flooding and need more projects to supply sand.\",\n    \"Natural infrastructure can help capture rainfall, increase water supplies, reduce water pollution, and prevent flooding.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a3821990b796421e98d05c4fc4e7b1377323a4bd"
+}

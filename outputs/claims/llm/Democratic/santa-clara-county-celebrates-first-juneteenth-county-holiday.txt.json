@@ -1,0 +1,13 @@
+{
+  "press_release": "santa-clara-county-celebrates-first-juneteenth-county-holiday.txt",
+  "party": "Democratic",
+  "title": "This year, Santa Clara County is celebrating its first Juneteenth as a paid county holiday after becoming the first County in the state to pass a resolution for the holiday commemo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0647c646ab13851c23e35c0b69dae14f80859c67"
+}

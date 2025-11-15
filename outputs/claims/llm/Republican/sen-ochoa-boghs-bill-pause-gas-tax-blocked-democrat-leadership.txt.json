@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-ochoa-boghs-bill-pause-gas-tax-blocked-democrat-leadership.txt",
+  "party": "Republican",
+  "title": "Today, Senate Democrat leadership blocked Senator Rosilicie Ochoa Bogh’s ( R-Yucaipa ) bill to immediately halt the state’s gas tax and provide significant economic relief to Calif",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Ochoa Bogh’s measure would have suspended the gas tax for one year.\",\n    \"The suspension of the gas tax would have ensured cost savings were passed directly to the consumer.\",\n    \"If passed, Senator Ochoa Bogh’s bill would have lowered gas prices by 60 cents pe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Ochoa Bogh’s measure would have suspended the gas tax for one year.\",\n    \"The suspension of the gas tax would have ensured cost savings were passed directly to the consumer.\",\n    \"If passed, Senator Ochoa Bogh’s bill would have lowered gas prices by 60 cents per gallon.\",\n    \"The current price for a gallon of gas in California is $4.68, while the national average is $3.17.\",\n    \"The suspension of the gas tax would have created a ripple effect across various sectors that depend on transportation, production, and manufacturing within California.\",\n    \"Reducing gas tax costs could alleviate the burden of the rising cost of living for families and businesses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "21519b9ac6a0f939fa503c5d7f91c6bb6aeee2e0"
+}

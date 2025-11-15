@@ -1,0 +1,13 @@
+{
+  "press_release": "20190219-aaaaaaaassemblywoman-quirk-silva-introduces-flexible-housing-program-help.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:05:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 816 aims to establish a Flexible Housing Program (FHP) to secure quality housing for Californians experiencing homelessness.\",\n    \"The State FHP would consolidate funding for people experiencing homelessness into one centralized resource.\",\n    \"Eligible u",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 816 aims to establish a Flexible Housing Program (FHP) to secure quality housing for Californians experiencing homelessness.\",\n    \"The State FHP would consolidate funding for people experiencing homelessness into one centralized resource.\",\n    \"Eligible uses of the FHP include operating funds for housing developments, move-in assistance, rental assistance, and intensive case management.\",\n    \"Housing programs should integrate health, criminal justice, and child welfare systems to prevent individuals exiting these systems from becoming homeless.\",\n    \"Housing is crucial to health and well-being, education, and successful reentry to communities.\",\n    \"California's homeless population increased by 13.7% between 2016 and 2017.\",\n    \"The Flexible Housing Program aims to help cities, counties, and continuums of care maximize state and local funding sources.\",\n    \"Evidence suggests that flexible funding can allow local governments to pursue effective solutions to homelessness.\",\n    \"More housing is required to address homelessness in California.\",\n    \"The Flexible Housing Program is designed to foster collaboration at the local and state levels.\",\n    \"Applicants for the Flexible Housing Program must demonstrate regional coordination and commit services funds for sustainability.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e267113f0a8830bedc1065e52c2102695142a38a"
+}

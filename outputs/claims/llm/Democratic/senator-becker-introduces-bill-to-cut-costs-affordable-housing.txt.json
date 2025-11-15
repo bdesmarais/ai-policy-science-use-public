@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-becker-introduces-bill-to-cut-costs-affordable-housing.txt",
+  "party": "Democratic",
+  "title": "Legislation would free up significant financial resources for affordable housing developments by shifting individual project reserves to a pooled statewide model",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Legislation would free up significant financial resources for affordable housing developments by shifting individual project reserves to a pooled statewide model.\",\n    \"SB 948 would shift the responsibility to hold a certain amount of money from the individual project l",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Legislation would free up significant financial resources for affordable housing developments by shifting individual project reserves to a pooled statewide model.\",\n    \"SB 948 would shift the responsibility to hold a certain amount of money from the individual project level to a pooled reserve model operated by the Department of Housing and Community Development.\",\n    \"Currently, affordable housing developments in the state that receive specific types of rental or operating subsidies are required to hold a certain percentage of total project costs in a transition reserve fund.\",\n    \"The reserve requirement was originally designed to serve as a backstop in case an operating subsidy or voucher program expired.\",\n    \"Field research shows use of transition reserves is so low as to be nonexistent, with no HCD-funded project needing to access its transition reserves in the past decade.\",\n    \"The creation of a systemwide insurance policy to replace large reserves previously locked into individual properties will effectively repurpose tens of millions of dollars a year to help create more affordable homes.\",\n    \"This bill allows the creation of a statewide fund of reserves so that affordable housing developers can make the best use of their limited resources.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a52ca1c5a7f1261d2122877b012ca01ae7e336ff"
+}

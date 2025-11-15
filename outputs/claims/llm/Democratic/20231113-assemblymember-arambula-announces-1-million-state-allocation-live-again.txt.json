@@ -1,0 +1,13 @@
+{
+  "press_release": "20231113-assemblymember-arambula-announces-1-million-state-allocation-live-again.txt",
+  "party": "Democratic",
+  "title": "FRESNO – Assemblymember Dr. Joaquin Arambula (D-Fresno) on Tuesday, November 14, will present a $1 million check to Live Again Fresno to help support the nonprofit organization’s p",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Live Again Fresno provides a safe place for nearly 400 children from families that are struggling.\",\n    \"The organization strives to provide access to education, nutrition, and proper health care for vulnerable children.\",\n    \"Assemblymember Dr. Joaquin Arambula secure",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Live Again Fresno provides a safe place for nearly 400 children from families that are struggling.\",\n    \"The organization strives to provide access to education, nutrition, and proper health care for vulnerable children.\",\n    \"Assemblymember Dr. Joaquin Arambula secured a $1 million allocation in this year’s State budget.\",\n    \"Live Again Fresno was started in 2012 by Richard Burrell, who experienced homelessness and was once a gang member.\",\n    \"Live Again Fresno has provided economic mobility for mothers seeking a better life for their families.\",\n    \"Live Again Fresno partners with the Fresno Unified School District through the district’s Project ACCESS program to support homeless students.\",\n    \"Live Again Fresno has earned the trust and respect of the families it serves and of leading community organizations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ec4bc4e2f999fbdf947380c5bf50c4235bdae647"
+}

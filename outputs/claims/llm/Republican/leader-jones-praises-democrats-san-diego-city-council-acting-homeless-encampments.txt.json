@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-praises-democrats-san-diego-city-council-acting-homeless-encampments.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones (R-San Diego) praised the San Diego City Council, comprised of entirely Democrat members, for passing the Unsafe Camping Ordinance, accomplish",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "41bb2780ed97760b900c474f21e9ff8536869489"
+}

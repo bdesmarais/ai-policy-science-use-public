@@ -1,0 +1,13 @@
+{
+  "press_release": "20240307-naacp-childrens-defense-fund-and-other-state-wide-advocacy-organizations.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Only 2 in 10 Black third-grade students and 3 in 10 Latino third-grade students from low-income communities are reading on grade level in California.\",\n    \"These numbers have remained mostly flat over the last eight years.\",\n    \"CDF has a long-standing commitment to en",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Only 2 in 10 Black third-grade students and 3 in 10 Latino third-grade students from low-income communities are reading on grade level in California.\",\n    \"These numbers have remained mostly flat over the last eight years.\",\n    \"CDF has a long-standing commitment to ensure underserved youth have access to a quality education.\",\n    \"Nearly 1,000 concerned California residents have signed a petition voicing their support for early literacy reform grounded in the science of reading.\",\n    \"Only four in 10 third-grade students are reading on grade level in California.\",\n    \"An evidence-based approach to early literacy instruction is critical to preventing high school graduation rates from plummeting and adult illiteracy rates from increasing.\",\n    \"By third grade, students move from learning to read to reading to learn, and those who are not on grade level rarely catch up on their academic journey.\",\n    \"This is a major contributing factor to the 28% adult illiteracy rate in our state, one of the highest in the nation.\",\n    \"Research shows more than 90% of students can learn to read with effective reading instruction grounded in the science of reading.\",\n    \"The evidence-based approach to reading instruction also benefits English learners.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e56cdd72ddc7b1c1f6acccd81c681e45b437e6e7"
+}

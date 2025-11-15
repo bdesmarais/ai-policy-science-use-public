@@ -1,0 +1,13 @@
+{
+  "press_release": "20240524-all-12-bills-call-action-legislative-package-pass-first-house.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2047 establishes a systemwide Office of Civil Rights to oversee policies at the California State University (CSU) and University of California (UC).\",\n    \"AB 2047 requires each campus of the CSU and UC to establish a campus-based Title IX office to assist in addressi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2047 establishes a systemwide Office of Civil Rights to oversee policies at the California State University (CSU) and University of California (UC).\",\n    \"AB 2047 requires each campus of the CSU and UC to establish a campus-based Title IX office to assist in addressing sexual harassment complaints.\",\n    \"AB 2048 requires the Chancellor of the California Community Colleges (CCC) to establish a community college sexual harassment and Title IX working group.\",\n    \"AB 810 requires all public higher education institutions to implement UC Davis’ policy to conduct employment verification checks for past allegations of misconduct.\",\n    \"AB 2407 requires the California State Auditor to conduct an audit every three years on the ability of the CCC, CSU, and UC to address and prevent sexual harassment.\",\n    \"AB 2608 requires campuses to include drug-facilitated sexual assault prevention training in their sexual harassment training.\",\n    \"SB 1166 establishes annual reporting requirements for the CCC and CSU on the outcomes of sexual harassment complaints.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b114b73f22ebd6861d87d40eab4ec904452fad77"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "carb-withdraws-federal-waiver-allowing-truck-drivers-to-stay-in-business.txt",
+  "party": "Republican",
+  "title": "The California Air Resources Board (CARB) today withdrew its Advanced Clean Fleets Rule, which required California truck drivers to transition from diesel to electric trucks. Assem",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Air Resources Board (CARB) withdrew its Advanced Clean Fleets Rule.\",\n    \"The Advanced Clean Fleets Rule required California truck drivers to transition from diesel to electric trucks.\",\n    \"California truck drivers are a pivotal component of the state’s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Air Resources Board (CARB) withdrew its Advanced Clean Fleets Rule.\",\n    \"The Advanced Clean Fleets Rule required California truck drivers to transition from diesel to electric trucks.\",\n    \"California truck drivers are a pivotal component of the state’s agricultural industry and supply chain.\",\n    \"Diesel trucks facilitate timely transport of perishable agricultural products.\",\n    \"The withdrawal of the Advanced Clean Fleets Rule prevents potential job loss among truck drivers.\",\n    \"The Advanced Clean Fleets Rule could contribute to an affordability crisis in California.\",\n    \"Policies regulating diesel to electric truck transitions fail to consider the financial impact on businesses and consumers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "570066de591795469a5f195ebc6e96636911c59e"
+}

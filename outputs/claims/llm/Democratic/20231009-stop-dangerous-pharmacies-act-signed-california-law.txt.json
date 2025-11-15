@@ -1,0 +1,13 @@
+{
+  "press_release": "20231009-stop-dangerous-pharmacies-act-signed-california-law.txt",
+  "party": "Democratic",
+  "title": "Sacramento –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The 'Stop Dangerous Pharmacies Act' (AB 1286) creates first-in-the-nation regulations for corporate chain pharmacies in California.\",\n    \"Under the new law, chain pharmacies will be required to report all medication errors.\",\n    \"The new law mandates that pharmacies st",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The 'Stop Dangerous Pharmacies Act' (AB 1286) creates first-in-the-nation regulations for corporate chain pharmacies in California.\",\n    \"Under the new law, chain pharmacies will be required to report all medication errors.\",\n    \"The new law mandates that pharmacies staff at least one clerk or pharmacy technician fully dedicated to pharmacy-related services.\",\n    \"California pharmacies are making millions of medication errors a year.\",\n    \"California law currently requires at least one employee to assist the pharmacist to prevent fatigue and distraction.\",\n    \"Surveys indicate that 91% of pharmacists feel that staffing is insufficient to ensure safety in pharmacies.\",\n    \"46% of patients reportedly cannot understand the information on their prescription drug labels.\",\n    \"83% of pharmacists feel they do not have enough time to provide appropriate consultations to patients.\",\n    \"Staffing decisions in chain pharmacies are often made by management without medical or pharmaceutical training.\",\n    \"AB 1286 empowers pharmacists to make staffing decisions in unsafe work environments.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "16fd08ce13c9c7e9afbfc20d4b46e63285fd1dd0"
+}

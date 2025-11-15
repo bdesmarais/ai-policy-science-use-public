@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-presents-hr-17-in-honor-of-women-in-carpentry.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The B.O.O.T.S program has 376 women enrolled and 74 percent are hired by signatory contractors.\",\n    \"Nationally, women comprise only three to four percent of the building trade’s workforce.\",\n    \"Only 2.6 percent of apprentices in California are women.\",\n    \"The B.O.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The B.O.O.T.S program has 376 women enrolled and 74 percent are hired by signatory contractors.\",\n    \"Nationally, women comprise only three to four percent of the building trade’s workforce.\",\n    \"Only 2.6 percent of apprentices in California are women.\",\n    \"The B.O.O.T.S program focuses on safety, math, framing, concrete form building, and more.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8cdf7e512db09ca7f20f2b7c82b4da1a9c9d21b3"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "grand-opening-senator-brian-joness-scripps-ranch-office-wednesday-evening.txt",
+  "party": "Republican",
+  "title": "WHO? Senator Brian Jones (R-San Diego), Local Schools, Restaurants, Non-profits, Community Groups, and Residents of Senate District 40 (North and East San Diego County, and the Cit",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8d4a8b0ccf85eb783abdcebf312931fae8d8f777"
+}

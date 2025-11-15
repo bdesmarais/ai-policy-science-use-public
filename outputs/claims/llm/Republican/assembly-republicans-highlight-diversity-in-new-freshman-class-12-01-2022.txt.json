@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-highlight-diversity-in-new-freshman-class-12-01-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republican Leader James Gallagher (Yuba City) is proud to highlight the diversity of the incoming Republican class. Among the new members is Assemblyma",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblyman Bill Essayli is the first American Muslim to serve in the California State Assembly.\",\n    \"Bill Essayli is the son of Lebanese-American immigrants.\",\n    \"Bill Essayli has a strong criminal justice background.\",\n    \"Bill Essayli was a former federal prosecu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblyman Bill Essayli is the first American Muslim to serve in the California State Assembly.\",\n    \"Bill Essayli is the son of Lebanese-American immigrants.\",\n    \"Bill Essayli has a strong criminal justice background.\",\n    \"Bill Essayli was a former federal prosecutor.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1ad408fcde49a5d5e900f74d92b84ae04491ae6d"
+}

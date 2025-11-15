@@ -1,0 +1,13 @@
+{
+  "press_release": "california-takes-stand-against-transnational-repression-sb-509-new-legislation.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Transnational repression refers to the efforts of foreign governments to intimidate, harass, threaten, or harm individuals living outside their home country.\",\n    \"Transnational repression often targets dissidents, activists, journalists, or marginalized communities.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Transnational repression refers to the efforts of foreign governments to intimidate, harass, threaten, or harm individuals living outside their home country.\",\n    \"Transnational repression often targets dissidents, activists, journalists, or marginalized communities.\",\n    \"Digital surveillance, coercion, and misuse of INTERPOL notices are actions included in transnational repression.\",\n    \"The bill SB 509 ensures that law enforcement officers receive specialized training to identify and respond to the persecution of diaspora communities by foreign governments.\",\n    \"Victims of transnational repression are often silenced out of fear for their safety or the safety of their families.\",\n    \"Transnational repression undermines the rights to free speech, association, and political participation.\",\n    \"Existing federal protections address some aspects of transnational repression, but local law enforcement agencies often lack the necessary training to recognize these threats.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "577eed3c1fa3017a3993984841bd6675b107e777"
+}

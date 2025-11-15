@@ -1,0 +1,13 @@
+{
+  "press_release": "20240409-assemblywoman-pilar-schiavo-champions-legislation-combat-retail-theft.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:39:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2943 targets the organized crime rings behind a growing wave of 'smash and grab' retail theft.\",\n    \"AB 2943 creates stringent penalties for 'professional' retail thieves.\",\n    \"AB 2943 introduces measures to combat the online sale of stolen goods.\",\n    \"AB 2943 in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2943 targets the organized crime rings behind a growing wave of 'smash and grab' retail theft.\",\n    \"AB 2943 creates stringent penalties for 'professional' retail thieves.\",\n    \"AB 2943 introduces measures to combat the online sale of stolen goods.\",\n    \"AB 2943 includes provisions for aggregating theft values to meet grand theft criteria.\",\n    \"AB 2943 enhances the ability of law enforcement to respond effectively to retail theft crimes.\",\n    \"The Select Committee on Retail Theft was formed to tackle the growing crisis of organized retail crime.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e2fec2ff5a50e97babd3969f7a05a0ba93c1575c"
+}

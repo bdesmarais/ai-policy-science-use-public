@@ -1,0 +1,13 @@
+{
+  "press_release": "asambleista-jeff-gonzalez-sobre-ab-1016-avanzando-fuera-del-comite-de-recursos-naturales.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Hoy, el Asambleísta Jeff Gonzalez (R-Indio) emitió la siguiente declaración sobre AB 1016 pasando con éxito através del Comité de Recursos Naturales de la Asamblea:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The advancement of AB 1016 is a significant step forward in harnessing geothermal energy in California.\",\n    \"AB 1016 paves the way for innovation in clean energy.\",\n    \"Investing in geothermal energy can create sustainable and well-paying jobs.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The advancement of AB 1016 is a significant step forward in harnessing geothermal energy in California.\",\n    \"AB 1016 paves the way for innovation in clean energy.\",\n    \"Investing in geothermal energy can create sustainable and well-paying jobs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "695a8bd8039bb9059fd54004b6e8a9fcdec92b2e"
+}

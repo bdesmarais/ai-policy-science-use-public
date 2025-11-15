@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-alvarado-gil-issues-statement-taylen-and-wyatts-law.txt",
+  "party": "Republican",
+  "title": "Today, Senator Marie Alvarado-Gil ( R-Jackson ) issued the following statement clarifying the status of Senate Bill 818 (SB 818), also known as “Taylen and Wyatt’s Law\":",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fbb73a9284d5246a57e9dc65d0614845ae93b91b"
+}

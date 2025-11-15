@@ -1,0 +1,13 @@
+{
+  "press_release": "el-comite-conjunto-de-auditoria-legislativa-aprueba-solicitud-del-asambleista-jeff-gonzalez-para-considerar-una-auditoria-del-distrito-escolar-del-valle-de-coachella.txt",
+  "party": "Republican",
+  "title": "INDIO, CA – En respuesta a un asombroso déficit presupuestario proyectado de $60 millones, el asambleísta Jeff Gonzalez (R-Indio) anunció hoy que el Comité Conjunto de Auditoría Le",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"El Comité Conjunto de Auditoría Legislativa ha aprobado la solicitud para considerar una auditoría a gran escala del Distrito Escolar del Valle de Coachella.\",\n    \"Una auditoría de 2023 realizada por la Oficina de Educación del Condado de Riverside identificó un déficit",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"El Comité Conjunto de Auditoría Legislativa ha aprobado la solicitud para considerar una auditoría a gran escala del Distrito Escolar del Valle de Coachella.\",\n    \"Una auditoría de 2023 realizada por la Oficina de Educación del Condado de Riverside identificó un déficit estructural en el Distrito Escolar del Valle de Coachella desde 2019.\",\n    \"La Junta del Distrito Escolar del Valle de Coachella votó para eliminar más de 300 puestos de trabajo debido a un déficit presupuestario.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "08fe5b361d9387d6019c55bffeafca94796a73ce"
+}

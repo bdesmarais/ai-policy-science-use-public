@@ -1,0 +1,104 @@
+{
+  "press_release": "20241202-assemblymember-mia-bonta-introduces-bills-support-reproductive-maternal.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Abortion is healthcare, including emergency care.\"\n    },\n    {\n      \"claim_text\": \"California hospitals have a duty to provide emergency care to anyone needing stabilizing care.\"\n    },\n    {\n      \"claim_text\": \"Ending overly burdensome and extra",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Abortion is healthcare, including emergency care.\"\n    },\n    {\n      \"claim_text\": \"California hospitals have a duty to provide emergency care to anyone needing stabilizing care.\"\n    },\n    {\n      \"claim_text\": \"Ending overly burdensome and extraneous licensure requirements can help prevent birth center closures.\"\n    },\n    {\n      \"claim_text\": \"Licensed birth centers have been found to improve newborn and maternal health outcomes.\"\n    },\n    {\n      \"claim_text\": \"California faces a crisis in access to maternity care that disproportionately affects low-income, Black, Latino, Indigenous, and rural communities.\"\n    },\n    {\n      \"claim_text\": \"Freestanding birth centers offer high quality, midwifery-led care and can expand access in maternity care shortage areas.\"\n    },\n    {\n      \"claim_text\": \"Over-the-counter birth control increases accessibility for more people.\"\n    },\n    {\n      \"claim_text\": \"Medi-Cal recipients face barriers to accessing over-the-counter contraceptives that private insurance holders do not.\"\n    },\n    {\n      \"claim_text\": \"Pharmacists are recognized as essential access points for reproductive health services and products in California.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Abortion is healthcare, including emergency care.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California hospitals have a duty to provide emergency care to anyone needing stabilizing care.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Ending overly burdensome and extraneous licensure requirements can help prevent birth center closures.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Licensed birth centers have been found to improve newborn and maternal health outcomes.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California faces a crisis in access to maternity care that disproportionately affects low-income, Black, Latino, Indigenous, and rural communities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Freestanding birth centers offer high quality, midwifery-led care and can expand access in maternity care shortage areas.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Over-the-counter birth control increases accessibility for more people.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Medi-Cal recipients face barriers to accessing over-the-counter contraceptives that private insurance holders do not.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Pharmacists are recognized as essential access points for reproductive health services and products in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 9,
+  "doc_sha1": "1b81dcdb66549025d951411a37ea3eb317f704ad"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymembers-hoover-and-patterson-introduce-beyond-housing-measure-to-address-homelessness.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today Assemblymembers Josh Hoover (R-Folsom) and Joe Patterson (R-Rocklin) announced",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has spent over $20 billion taxpayer dollars to solve the homelessness crisis since 2018.\",\n    \"The overall homelessness population in California has increased by 32 percent since 2018.\",\n    \"Half of the nation’s unsheltered homeless live in California.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has spent over $20 billion taxpayer dollars to solve the homelessness crisis since 2018.\",\n    \"The overall homelessness population in California has increased by 32 percent since 2018.\",\n    \"Half of the nation’s unsheltered homeless live in California.\",\n    \"The current approach to homelessness in California is failing to get the results communities are asking for.\",\n    \"Shelters without accountability have proven to be ineffective in addressing homelessness.\",\n    \"AB 2417 shifts California’s focus to recognize that individuals experiencing homelessness have diverse needs.\",\n    \"AB 2417 would allow state agencies to allocate funds to programs that prioritize mental health and drug treatment as prerequisites for participation.\",\n    \"The 'Housing First' model has failed to adequately address the root causes of homelessness in many cases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0073c996d28f3ee8ccca7189c9b4b5921769cf9a"
+}

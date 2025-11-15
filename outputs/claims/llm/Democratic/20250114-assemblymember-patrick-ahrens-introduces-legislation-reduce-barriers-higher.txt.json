@@ -1,0 +1,13 @@
+{
+  "press_release": "20250114-assemblymember-patrick-ahrens-introduces-legislation-reduce-barriers-higher.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Reducing barriers to public higher education for youth involved in the juvenile justice or child welfare systems can increase their likelihood of becoming successful and productive community members.\",\n    \"Streamlining the process for local governments to assist at",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Reducing barriers to public higher education for youth involved in the juvenile justice or child welfare systems can increase their likelihood of becoming successful and productive community members.\",\n    \"Streamlining the process for local governments to assist at-risk youth can improve their access to public higher education institutions.\",\n    \"Youth involved in the juvenile justice or child welfare systems face challenges providing proof of financial independence, which creates barriers to accessing post-secondary education.\",\n    \"Removing barriers to higher education disproportionately affects Latino and Black youth.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6ce65645298d0aa0cfb2fbd1cc80faab039087f6"
+}

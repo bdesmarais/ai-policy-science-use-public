@@ -1,0 +1,13 @@
+{
+  "press_release": "20240322-asm-bains-ag-partners-fight-food-insecurity-kern-county.txt",
+  "party": "Democratic",
+  "title": "(Delano, CA) Mar. 22, 2024",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:38:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A new commercial refrigeration unit has been donated to the First Assembly of God Church in Delano to help preserve donated food.\",\n    \"California Dairies donated the refrigeration unit to ensure that donated food lasts longer and stays fresher.\",\n    \"The donation of t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A new commercial refrigeration unit has been donated to the First Assembly of God Church in Delano to help preserve donated food.\",\n    \"California Dairies donated the refrigeration unit to ensure that donated food lasts longer and stays fresher.\",\n    \"The donation of the industrial refrigerator will significantly enhance efforts to provide healthy, fresh, and nutritious food to the Delano community.\",\n    \"Citrus stays fresher longer when kept in cold places.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "be1e4e519410276d83facd2104554ba46f93202e"
+}

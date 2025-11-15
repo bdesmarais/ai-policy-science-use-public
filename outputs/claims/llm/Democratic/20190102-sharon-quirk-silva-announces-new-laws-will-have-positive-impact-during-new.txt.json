@@ -1,0 +1,13 @@
+{
+  "press_release": "20190102-sharon-quirk-silva-announces-new-laws-will-have-positive-impact-during-new.txt",
+  "party": "Democratic",
+  "title": "ORANGE COUNTY â Hundreds of new laws took effect in California on New Yearâs Day, bringing protections and regulations to many issue areas, from addressing some of the stateâ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:04:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2698 will increase access to early childhood mental health consultation services for children enrolled in the California State Preschool Program.\",\n    \"The law bars state-subsidized preschool programs from expelling children until they first take actions t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2698 will increase access to early childhood mental health consultation services for children enrolled in the California State Preschool Program.\",\n    \"The law bars state-subsidized preschool programs from expelling children until they first take actions to support the child and family.\",\n    \"Assembly Bill 1871 requires charter schools to provide students in need with one nutritional free or reduced-price meal each school day.\",\n    \"Senate Bill 1045 allows specific counties to place chronically homeless individuals into conservatorship if they are incapable of caring for their own health due to serious mental illness and substance use disorder.\",\n    \"Senate Bill 823 mandates that the Department of Health Care Services adopt evidence-based standards of care for licensed recovery or treatment facilities addressing adult alcoholism or drug abuse.\",\n    \"Senate Bill 822 prohibits internet service providers from blocking or slowing specific types of content or applications.\",\n    \"Senate Bill 822 prevents internet service providers from charging companies for faster access to customers.\",\n    \"Assembly Bill 2941 allows health plans to authorize care by out-of-network providers for individuals displaced by emergencies.\",\n    \"Assembly Bill 2188 aims to improve disclosure in online political ads, making true funders of campaigns more transparent to voters.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3010167e5411ecb79f17f43f704f07437f1d4ce8"
+}

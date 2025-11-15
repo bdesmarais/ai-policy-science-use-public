@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-passes-senator-corteses-bill-create-high-quality-jobs-green-industry.txt",
+  "party": "Democratic",
+  "title": "The State Senate on Monday passed a bipartisan bill by Senator Dave Cortese to protect California communities from hazardous industrial pollution while securing high-quality, good-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:21:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 740 extends the skilled and trained workforce requirements applied to petroleum refineries to emerging green industries including hydrogen manufacturing, biofuels manufacturing, and carbon dioxide capture.\",\n    \"A skilled and trained workforce ensures that workers ar",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 740 extends the skilled and trained workforce requirements applied to petroleum refineries to emerging green industries including hydrogen manufacturing, biofuels manufacturing, and carbon dioxide capture.\",\n    \"A skilled and trained workforce ensures that workers are performing work in apprenticeable occupations.\",\n    \"The shift to a skilled and trained workforce in California’s refineries did not result in worker shortages or disruptions.\",\n    \"Many California refineries chose to enter into direct project labor agreements with the Building Trades after the shift to a skilled and trained workforce.\",\n    \"SB 740 is aimed at preventing accidents and toxic discharges that harm local communities by ensuring that workers in industrial facilities have the necessary training and skills.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f57fbded824855a294623206ee5250ce75abab8e"
+}

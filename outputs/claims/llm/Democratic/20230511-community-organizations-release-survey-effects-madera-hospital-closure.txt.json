@@ -1,0 +1,13 @@
+{
+  "press_release": "20230511-community-organizations-release-survey-effects-madera-hospital-closure.txt",
+  "party": "Democratic",
+  "title": "MADERA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Over 60% of community members surveyed will have to find outside community medical centers to receive treatment due to the closure of Madera Community Hospital.\",\n    \"More than 15% of respondents are unsure of where to go for treatment after the hospital's closure.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Over 60% of community members surveyed will have to find outside community medical centers to receive treatment due to the closure of Madera Community Hospital.\",\n    \"More than 15% of respondents are unsure of where to go for treatment after the hospital's closure.\",\n    \"Over 60% of indigenous farmworkers surveyed were not informed about the closure of Madera Community Hospital.\",\n    \"52% of survey participants do not have a reliable mode of transportation to the nearest hospital.\",\n    \"147 out of 347 surveyed participants will now seek treatment at Community Regional Medical Center in Fresno.\",\n    \"Many survey participants reported extra-long wait times at outside community hospitals.\",\n    \"There is a lack of public transportation available to travel to outside community hospitals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c681847e9cd88fa4b418624c579dcaddbc8b7cfa"
+}

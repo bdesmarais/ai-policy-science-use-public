@@ -1,0 +1,13 @@
+{
+  "press_release": "20220927-berman-bill-will-put-vote-mail-drop-boxes-california-university-campuses.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:48:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2815 ensures that voting is accessible for students attending public universities.\",\n    \"AB 2815 requires all California State University (CSU) campuses to have a vote by mail (VBM) ballot drop box location on campus.\",\n    \"The California State Student Association b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2815 ensures that voting is accessible for students attending public universities.\",\n    \"AB 2815 requires all California State University (CSU) campuses to have a vote by mail (VBM) ballot drop box location on campus.\",\n    \"The California State Student Association believes that AB 2815 will improve the accessibility of thousands of students across California to all statewide elections.\",\n    \"Placing ballot drop boxes on college campuses is expected to elevate student voices and strengthen democracy.\",\n    \"Voters between the ages of 18 to 24 are the most underrepresented among California’s voting electorate.\",\n    \"The implementation of AB 2815 will alleviate issues for students who might forgo voting due to transportation, health, or other extenuating circumstances.\",\n    \"The passage of AB 2815 is considered a major step forward for expanding access to voting among college-aged students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3bd24322f662c9e91946182eca8a19384b16afec"
+}

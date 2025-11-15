@@ -1,0 +1,13 @@
+{
+  "press_release": "20210823-slice-new-york-honored-district-25-business-year.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A Slice of New York (ASONY) became a worker-owned cooperative in 2017.\",\n    \"In a worker-owned cooperative, decisions are made democratically.\",\n    \"Employees of ASONY have direct involvement in creating their paid-time-off plan and health care plan.\",\n    \"During the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A Slice of New York (ASONY) became a worker-owned cooperative in 2017.\",\n    \"In a worker-owned cooperative, decisions are made democratically.\",\n    \"Employees of ASONY have direct involvement in creating their paid-time-off plan and health care plan.\",\n    \"During the COVID pandemic, ASONY's worker-owners voted to mandate masks and social distancing policies before state regulations were implemented.\",\n    \"ASONY's worker-owners voted to eliminate individual slice options to ensure safety during the pandemic.\",\n    \"ASONY voluntarily closed for a week to provide employees with a paid, mandatory break due to burnout.\",\n    \"ASONY's model has been used to educate others on the benefits of cooperatives through the City of Santa Clara’s Worker Cooperative Initiative.\",\n    \"ASONY is the first worker co-op business in Santa Clara.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3b70e1c32855e43a7d4d12fea151c3d5a3cd0c69"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "taking-care-our-veterans.txt",
+  "party": "Democratic",
+  "title": "The state is working closely with the Centers for Disease Control and Prevention (CDC) and other federal partners to provide COVID 19 vaccines to Veterans and VA health care person",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:35:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8246397948f17f5bfd90411e1b7b88b311420a86"
+}

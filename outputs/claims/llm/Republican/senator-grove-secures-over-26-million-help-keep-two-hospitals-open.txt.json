@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-secures-over-26-million-help-keep-two-hospitals-open.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) is pleased to announce that two hospitals in her district received more than $26 million in desperately needed funds as part of the Distressed",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Two hospitals in Senator Shannon Grove's district received more than $26 million in funding as part of the Distressed Hospital Loan Program.\",\n    \"The Madera Community Hospital closure sent a warning across California about the critical financial crisis facing hospitals",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Two hospitals in Senator Shannon Grove's district received more than $26 million in funding as part of the Distressed Hospital Loan Program.\",\n    \"The Madera Community Hospital closure sent a warning across California about the critical financial crisis facing hospitals, particularly in rural areas.\",\n    \"The closure of hospitals can have potentially disastrous consequences for their communities.\",\n    \"Rural medical facilities like Ridgecrest Regional Hospital provide vital access to healthcare for community members.\",\n    \"Losing a facility like Ridgecrest Regional Hospital would have a devastating impact on both the local community and the mission of Naval Weapons Center China Lake.\",\n    \"Senator Grove has advocated for measures to protect financially distressed rural hospitals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1231ac4899c55240d1049b505958548ec8ec8631"
+}

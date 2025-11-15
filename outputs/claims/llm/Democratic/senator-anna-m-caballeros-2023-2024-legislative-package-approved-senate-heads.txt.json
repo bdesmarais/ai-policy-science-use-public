@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballeros-2023-2024-legislative-package-approved-senate-heads.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Water Plan will be revised to address the extreme climate impacts of the 21st century.\",\n    \"Carbon Capture Removal, Utilization, and Storage (CCRUS) projects will be implemented under a new state framework.\",\n    \"The Advanced Air Mobility and Aviation E",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Water Plan will be revised to address the extreme climate impacts of the 21st century.\",\n    \"Carbon Capture Removal, Utilization, and Storage (CCRUS) projects will be implemented under a new state framework.\",\n    \"The Advanced Air Mobility and Aviation Electrification Committee will be created to facilitate the development of aerial electrified transportation and infrastructure in California.\",\n    \"Senator Anna M. Caballero's legislative package includes provisions to enhance training for homeless service providers to better assist older adults experiencing homelessness.\",\n    \"A new emergency loan program will be created for closed hospitals seeking to re-open or those at risk of closure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f26fe1a67fd33c4dcea6e3e4d32470da0cda1e0"
+}

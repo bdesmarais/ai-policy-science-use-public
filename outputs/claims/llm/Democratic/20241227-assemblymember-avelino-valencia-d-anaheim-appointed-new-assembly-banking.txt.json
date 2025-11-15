@@ -1,0 +1,13 @@
+{
+  "press_release": "20241227-assemblymember-avelino-valencia-d-anaheim-appointed-new-assembly-banking.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:23:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Avelino Valencia has been appointed as the new Chair of the Assembly Banking and Finance Committee.\",\n    \"The Assembly Banking and Finance Committee oversees financial institutions, real property finance, consumer finance, and corporate securities law.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Avelino Valencia has been appointed as the new Chair of the Assembly Banking and Finance Committee.\",\n    \"The Assembly Banking and Finance Committee oversees financial institutions, real property finance, consumer finance, and corporate securities law.\",\n    \"Assemblymember Valencia has championed initiatives to enhance government accountability and transparency since joining the State Assembly.\",\n    \"Assemblymember Valencia has played a vital role in addressing issues like homelessness, broadband access, housing, and government efficiency.\",\n    \"As Chair of the Assembly Banking and Finance Committee, Assemblymember Valencia aims to ensure financial stability and growth for Californians.\",\n    \"Assemblymember Valencia is enthusiastic about addressing emerging financial technologies, such as cryptocurrency.\",\n    \"Assemblymember Valencia seeks to modernize the financial systems utilized by state agencies to enhance security and efficiency.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "00088eb73041f14f4a82db56c32ad669e168a710"
+}

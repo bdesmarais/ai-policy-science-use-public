@@ -1,0 +1,13 @@
+{
+  "press_release": "20231009-governor-signs-ramos-bill-requiring-csu-community-college-campuses-stock.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—California Community Colleges and California State Universities will be required to stock fentanyl test strips at the campus health center and provide information about ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California Community Colleges and California State Universities will be required to stock fentanyl test strips at campus health centers.\",\n    \"One out of every five California youths aged 15 to 24 who died in 2021 were killed by a fentanyl overdose.\",\n    \"The use ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California Community Colleges and California State Universities will be required to stock fentanyl test strips at campus health centers.\",\n    \"One out of every five California youths aged 15 to 24 who died in 2021 were killed by a fentanyl overdose.\",\n    \"The use of fentanyl test strips can prevent inadvertent consumption of fentanyl.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "476b26a508077dd9fdda975558c66dfaeee1abf6"
+}

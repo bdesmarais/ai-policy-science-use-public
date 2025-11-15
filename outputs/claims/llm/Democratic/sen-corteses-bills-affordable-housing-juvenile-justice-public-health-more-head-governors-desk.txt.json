@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-corteses-bills-affordable-housing-juvenile-justice-public-health-more-head-governors-desk.txt",
+  "party": "Democratic",
+  "title": "Several bills authored by California State Senator Dave Cortese (D-San Jose) have advanced to the Governor’s desk as this year’s legislative session came to a close earlier this ev",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1171 will bring parity to California’s rape statutes by requiring the same standards for spousal rape as those for non-spousal rape.\",\n    \"The elimination of the spousal rape exception in California Penal Code will ensure that spousal rape is treated as seriously as ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1171 will bring parity to California’s rape statutes by requiring the same standards for spousal rape as those for non-spousal rape.\",\n    \"The elimination of the spousal rape exception in California Penal Code will ensure that spousal rape is treated as seriously as the rape of a non-spouse.\",\n    \"SB 564 will ensure access to health services for County residents by extending the hospital seismic compliance deadline.\",\n    \"SB 780 will improve the functioning and usefulness of Special Tax Districts used by local governments for economic development and affordable housing.\",\n    \"SB 791 will expedite the construction of affordable housing on local government surplus land through the creation of the California Surplus Land Unit.\",\n    \"SB 383 aims to increase access to diversion programs for youth committing non-violent felonies to focus on rehabilitation rather than incarceration.\",\n    \"SB 383 follows the science of adolescent brain development and grants additional judicial discretion for youth committing first-time, non-violent offenses.\",\n    \"SB 461 will enhance consumer protection by allowing certain county counsels to prosecute unfair competition law violations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "892e3c19f44fa795405e285d366ac0de92c82712"
+}

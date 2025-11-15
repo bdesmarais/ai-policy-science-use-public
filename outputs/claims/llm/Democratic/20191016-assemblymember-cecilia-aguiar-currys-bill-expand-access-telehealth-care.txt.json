@@ -1,0 +1,13 @@
+{
+  "press_release": "20191016-assemblymember-cecilia-aguiar-currys-bill-expand-access-telehealth-care.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"AB 744 requires true telehealth parity in coverage and reimbursement in California.\",\n    \"Health plans must provide reimbursement to healthcare providers for performing covered services, regardless of whether the care is provided in-person or through telehealth.\",\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"AB 744 requires true telehealth parity in coverage and reimbursement in California.\",\n    \"Health plans must provide reimbursement to healthcare providers for performing covered services, regardless of whether the care is provided in-person or through telehealth.\",\n    \"Telehealth can overcome barriers to healthcare access by using technology to connect patients to their doctors.\",\n    \"Utilizing technological innovations in healthcare can enable more efficient use of doctors' time and expertise.\",\n    \"The existing law prior to AB 744 allowed individual health plans to exclude common and cost-effective types of telehealth.\",\n    \"Requiring reimbursement for telehealth only through one specific technology platform creates additional burdens for patients and providers.\",\n    \"During the 2017 North Bay Fires, telehealth allowed Sutter Lakeside Hospital to continue treating patients despite being closed.\",\n    \"California's working families should not have to choose between their pay and the health of their loved ones when accessing care.\",\n    \"The California Medical Association states that modernizing the healthcare system can improve access, convenience, and reduce costs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "60e80a1eb39d46f16d316855111d9697c4edba89"
+}

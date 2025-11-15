@@ -1,0 +1,13 @@
+{
+  "press_release": "20250110-assemblywoman-esmeralda-soria-releases-statement-2025-26-proposed-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:23:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The 2025-26 budget includes $45.1 billion for three higher education segments and the California Student Aid Commission.\",\n    \"$3.1 billion in total aid is included in the budget for California students.\",\n    \"$2.6 billion is allocated for Cal Grants in the proposed bu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The 2025-26 budget includes $45.1 billion for three higher education segments and the California Student Aid Commission.\",\n    \"$3.1 billion in total aid is included in the budget for California students.\",\n    \"$2.6 billion is allocated for Cal Grants in the proposed budget.\",\n    \"$527.2 million is proposed for the Middle-Class Scholarship in the budget.\",\n    \"The budget proposes $2.7 billion to implement the $10 billion Climate Bond.\",\n    \"The Climate Bond plan aims to speed up projects to improve water quality in homes, protect communities from floods and droughts, and restore rivers and lakes.\",\n    \"$134 million is provided for Climate Smart Agriculture projects in the budget.\",\n    \"$37.6 million is allocated for the State Water Efficiency and Enhancement Program to improve irrigation systems on farms and ranches.\",\n    \"$35.9 million is designated for the Healthy Soils Program to sequester carbon and reduce emissions through soil health practices.\",\n    \"$19.9 million is allocated for funding invasive species projects as recommended by the Invasive Species Council of California.\",\n    \"$24.9 million is proposed for Farm to School Roadmap for Success programs to benefit California communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2ecde670cb9a2da977542b85f2a38c5208e47fb0"
+}

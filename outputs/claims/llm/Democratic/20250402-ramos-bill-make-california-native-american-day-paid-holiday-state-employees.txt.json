@@ -1,0 +1,13 @@
+{
+  "press_release": "20250402-ramos-bill-make-california-native-american-day-paid-holiday-state-employees.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—A key policy committee today approved a measure in the Assembly Committee on Governmental Organization to make California Native American Day a paid holiday – celebrated",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:31:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember James C. Ramos is the first California Native American lawmaker elected in the state’s history.\",\n    \"Native American Day began in California in 1939.\",\n    \"In 1968, California designated a holiday called American Indian Day to be held on the fourth Frid",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember James C. Ramos is the first California Native American lawmaker elected in the state’s history.\",\n    \"Native American Day began in California in 1939.\",\n    \"In 1968, California designated a holiday called American Indian Day to be held on the fourth Friday in September.\",\n    \"California has recognized the fourth Friday in September as 'Native American Day' as an official state holiday since 2014.\",\n    \"The current unpaid holiday designation for Native American Day is viewed as an inadequate acknowledgment of California’s First People.\",\n    \"In 2021, Ramos authored AB 855 that created a paid judicial holiday.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8fdd2cdc83506c8d280dba991ef7bed5af9f4ea5"
+}

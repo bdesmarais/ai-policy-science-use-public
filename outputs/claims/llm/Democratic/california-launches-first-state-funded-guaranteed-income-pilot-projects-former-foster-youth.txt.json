@@ -1,0 +1,13 @@
+{
+  "press_release": "california-launches-first-state-funded-guaranteed-income-pilot-projects-former-foster-youth.txt",
+  "party": "Democratic",
+  "title": "Two state-funded Guaranteed Income Pilot Programs to serve former foster youth have launched today as part of the “California Guaranteed Income Pilot Program”.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The state has awarded funding to provide former foster youth with monthly cash payments.\",\n    \"The California Guaranteed Income Pilot Program aims to break cycles of poverty and provide economic stability.\",\n    \"The California Success, Opportunity, and Academic Resilie",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The state has awarded funding to provide former foster youth with monthly cash payments.\",\n    \"The California Guaranteed Income Pilot Program aims to break cycles of poverty and provide economic stability.\",\n    \"The California Success, Opportunity, and Academic Resilience (CalSOAR) Guaranteed Income Program offers direct cash assistance to homeless students.\",\n    \"Santa Clara County initiated the nation's first universal basic income program targeting transition age foster youth.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4c6218ea95a06b752660aa1d7fc6454226943f95"
+}

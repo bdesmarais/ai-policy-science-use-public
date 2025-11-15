@@ -1,0 +1,13 @@
+{
+  "press_release": "ca-senator-josh-becker-urges-state-immediately-expand-vaccine-eligibility-all.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"East Palo Alto has the lowest vaccination rate at just 24 percent.\",\n    \"Atherton has the highest vaccination rate at 75 percent despite only 33 percent of its population being priority eligible.\",\n    \"Essential frontline workers in communities like East Palo Alto rema",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"East Palo Alto has the lowest vaccination rate at just 24 percent.\",\n    \"Atherton has the highest vaccination rate at 75 percent despite only 33 percent of its population being priority eligible.\",\n    \"Essential frontline workers in communities like East Palo Alto remain largely unvaccinated.\",\n    \"Expanding vaccine eligibility will simplify access in vulnerable communities.\",\n    \"Many people in East Palo Alto may not come in for vaccination if they are uncertain about their eligibility.\",\n    \"Expanded eligibility and non-traditional outreach will help lower the rate of community infection, hospitalization, and death.\",\n    \"Reducing vaccine hesitancy and increasing access can prevent the emergence of new variants.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c3f818b603142776115d0547090a71f85e190846"
+}

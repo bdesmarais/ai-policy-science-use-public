@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-reacts-to-latest-state-budget-details-06-28-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California's revenue estimates represent the weakest performance the state has experienced since the Great Recession.\",\n    \"Democratic policies and spending have triggered inflation and recession in California.\",\n    \"California faced a historical budget surplus of",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California's revenue estimates represent the weakest performance the state has experienced since the Great Recession.\",\n    \"Democratic policies and spending have triggered inflation and recession in California.\",\n    \"California faced a historical budget surplus of $97 billion last year.\",\n    \"California will be facing a $25 billion budget shortfall this coming year.\",\n    \"The LAO report recommends that the Legislature not tap into the rainy day fund yet due to a looming recession.\",\n    \"The LAO report calls for a pause, delay, or reassessment in the funding of expanded programs to see if they are working as expected.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "970e33019572d0739aee5c6dfa947df4a1a482eb"
+}

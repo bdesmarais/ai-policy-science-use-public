@@ -1,0 +1,13 @@
+{
+  "press_release": "20210312-boerner-horvath-announces-2021-women-impact-recipients-assembly-district-76.txt",
+  "party": "Democratic",
+  "title": "CARLSBAD",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7020a9356cc0a714d4becef00375eb35a6932436"
+}

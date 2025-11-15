@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-rubio-and-city-south-el-monte-help-students-gear-school.txt",
+  "party": "Democratic",
+  "title": "500 Backpacks and Supplies Distributed at South El Monte National Night Out Event",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Families are expected to spend more than $550 on back-to-school shopping this year, which creates real challenges for many households.\",\n    \"Preparation impacts a student's confidence and performance.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Families are expected to spend more than $550 on back-to-school shopping this year, which creates real challenges for many households.\",\n    \"Preparation impacts a student's confidence and performance.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "79ae5678485cb42859c2fad44c5106a7f18d8970"
+}

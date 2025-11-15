@@ -1,0 +1,13 @@
+{
+  "press_release": "20240402-asm-public-safety-committee-approves-dr-bains-bill-fight-emerging-drug.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) April 2, 2024",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:38:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Xylazine is an emerging street additive to fentanyl.\",\n    \"Xylazine is scheduled as a Schedule III controlled substance, contingent upon Congressional action.\",\n    \"The emergence of xylazine is following the same path as fentanyl, spreading westward from the Northeast ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Xylazine is an emerging street additive to fentanyl.\",\n    \"Xylazine is scheduled as a Schedule III controlled substance, contingent upon Congressional action.\",\n    \"The emergence of xylazine is following the same path as fentanyl, spreading westward from the Northeast and South.\",\n    \"Between 2020 and 2021, the US Census South region saw a 1,127% increase in xylazine-positive overdose deaths.\",\n    \"Naloxone will not reverse the effects of xylazine.\",\n    \"There is no approved xylazine antidote for human use.\",\n    \"Routine toxicology screens do not detect xylazine.\",\n    \"The bill requires coroners and medical examiners to test for xylazine in suspected overdose deaths.\",\n    \"The California Department of Public Health is given the authority to create testing equipment for emerging polydrug threats.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "aa64584e6e44dfb38453c49801e38a2ccd3abfd1"
+}

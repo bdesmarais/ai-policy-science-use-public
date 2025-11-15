@@ -1,0 +1,13 @@
+{
+  "press_release": "20210722-assemblymember-arambula-present-15-million-allocation-san-joaquin-river.txt",
+  "party": "Democratic",
+  "title": "Fresno, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:31:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Communities of color have less access to parks and green space.\",\n    \"Access to public land along the San Joaquin River will be expanded by the allocated funds.\",\n    \"Families and individuals benefit from outdoor spaces to support their health and well-being.\",\n    \"Th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Communities of color have less access to parks and green space.\",\n    \"Access to public land along the San Joaquin River will be expanded by the allocated funds.\",\n    \"Families and individuals benefit from outdoor spaces to support their health and well-being.\",\n    \"The COVID-19 pandemic magnified the importance of outdoor recreational spaces.\",\n    \"Open space available for recreational use is essential to community health and quality of life.\",\n    \"California became the first state in the nation to commit to protect 30 percent of the state's land and coastal water.\",\n    \"Investments in outdoor spaces and nature preservation are investments in people and the community.\",\n    \"Expanding access to the river will create a more equitable and healthier California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d6c1475dfec187a06c77e3aa10de4f2bc5009747"
+}

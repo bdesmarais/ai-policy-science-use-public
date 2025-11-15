@@ -1,0 +1,13 @@
+{
+  "press_release": "20190828-release-legislature-approves-pro-bono-legal-services-active-military.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – In an effort to address the legal services gap for active duty military, Assemblywoman Cottie Petrie-Norris, Chair of the Assembly Committee on Accountability and Admi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is home to nearly 155,000 stationed active duty service members.\",\n    \"There are approximately 70,000 spouses of active duty service members in California.\",\n    \"Over 17 million veterans reside in California.\",\n    \"Service members and their families have ac",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is home to nearly 155,000 stationed active duty service members.\",\n    \"There are approximately 70,000 spouses of active duty service members in California.\",\n    \"Over 17 million veterans reside in California.\",\n    \"Service members and their families have access to military legal assistance attorneys for advice and assistance in certain situations.\",\n    \"Active duty service members must generally obtain their own counsel to represent them in court.\",\n    \"The largest area of unmet legal need for active service duty members is housing.\",\n    \"Other areas of unmet legal need for active service duty members include family law, VA benefits, consumer protection, and employment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "73c20f3db6108192722e16f866b7d41bf1d51fad"
+}

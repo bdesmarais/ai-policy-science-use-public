@@ -1,0 +1,13 @@
+{
+  "press_release": "20240523-california-marks-10-years-isla-vista-killings-california-assembly-passes.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif. —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Hate-motivated violence and armed extremism are on the rise.\",\n    \"California's Gun Violence Restraining Order (GVRO) law allows family members, law enforcement, or other designated individuals to petition the court for a temporary order to remove firearms from people w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Hate-motivated violence and armed extremism are on the rise.\",\n    \"California's Gun Violence Restraining Order (GVRO) law allows family members, law enforcement, or other designated individuals to petition the court for a temporary order to remove firearms from people who pose a significant danger of harming themselves or others.\",\n    \"According to a 2022 study, California's GVRO law was used most often by law enforcement officers to prevent firearm assault and homicide.\",\n    \"About 80% of GVROs were used in cases of threatened interpersonal violence.\",\n    \"The GVRO law was utilized for 58 threatened mass shootings.\",\n    \"In an average year, 3,299 people die and 9,787 are wounded by guns in California.\",\n    \"California ranks 45th in both gun death rates and societal cost of gun violence at $1,060 per person each year.\",\n    \"Gun deaths and injuries cost California $41.9 billion, of which $1.1 billion is paid by taxpayers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7921ef22c06738df45c78bcbcfbcc658b341d0e5"
+}

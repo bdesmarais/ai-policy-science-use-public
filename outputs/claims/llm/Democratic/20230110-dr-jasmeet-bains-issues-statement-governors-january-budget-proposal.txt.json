@@ -1,0 +1,13 @@
+{
+  "press_release": "20230110-dr-jasmeet-bains-issues-statement-governors-january-budget-proposal.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:52:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Fentanyl overdose is the leading cause of death in the United States for adults between the ages of 18-45.\",\n    \"The number of adolescent deaths linked to fentanyl has quadrupled since 2019.\",\n    \"California needs to move beyond band-aid solutions that fail to address ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Fentanyl overdose is the leading cause of death in the United States for adults between the ages of 18-45.\",\n    \"The number of adolescent deaths linked to fentanyl has quadrupled since 2019.\",\n    \"California needs to move beyond band-aid solutions that fail to address the root causes of the opioid epidemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a9629a70dfbc6001b63b73da6f286167d24e75ee"
+}

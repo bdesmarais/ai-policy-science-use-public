@@ -1,0 +1,13 @@
+{
+  "press_release": "la-senadora-caballero-aplaude-el-exito-de-las-fuerzas-del-orden-en-operacion.txt",
+  "party": "Democratic",
+  "title": "La Senadora Caballero Aplaude el Éxito de las Fuerzas del Orden en Operación \"Para Atrapar a un Depredador\"",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has converted the trafficking of minors for sexual exploitation into a felony.\",\n    \"The approval of SB 14 aims to strengthen protections for vulnerable children in California.\",\n    \"Predators will face severe consequences for their crimes due to strict laws",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has converted the trafficking of minors for sexual exploitation into a felony.\",\n    \"The approval of SB 14 aims to strengthen protections for vulnerable children in California.\",\n    \"Predators will face severe consequences for their crimes due to strict laws currently in effect.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e60fb3a51d773d515419e9732001909cea2c9ee8"
+}

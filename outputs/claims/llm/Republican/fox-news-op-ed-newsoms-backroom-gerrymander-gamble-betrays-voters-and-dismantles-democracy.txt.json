@@ -1,0 +1,13 @@
+{
+  "press_release": "fox-news-op-ed-newsoms-backroom-gerrymander-gamble-betrays-voters-and-dismantles-democracy.txt",
+  "party": "Republican",
+  "title": "California has always touted itself as a beacon of democracy . In 2008 and 2010, voters enacted constitutional amendments establishing an independent Citizens Redistricting Commiss",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California voters enacted constitutional amendments establishing an independent Citizens Redistricting Commission, which is the gold standard for redistricting.\",\n    \"Gavin Newsom drafted maps behind closed doors without community input, splitting counties 16 times and ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California voters enacted constitutional amendments establishing an independent Citizens Redistricting Commission, which is the gold standard for redistricting.\",\n    \"Gavin Newsom drafted maps behind closed doors without community input, splitting counties 16 times and cities more than 100 times.\",\n    \"Newsom's redistricting scheme will result in no competitive districts in California.\",\n    \"Gavin Newsom's gerrymandering will cost the state between $200 million and $250 million.\",\n    \"When governors abandon a system built to prevent manipulation, they undermine democracy itself.\",\n    \"Former California Governor Arnold Schwarzenegger stated that gerrymandering is the evil of politics and an attack on the people's choice.\",\n    \"California Congressman Kevin Kiley's pro-democracy legislation aims to abolish mid-decade redistricting nationwide.\",\n    \"Abandoning the independent redistricting commission for short-term political gain invites a dangerous trend in governance.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "60b2fa3296ac6611d711b0465d148597f81a8844"
+}

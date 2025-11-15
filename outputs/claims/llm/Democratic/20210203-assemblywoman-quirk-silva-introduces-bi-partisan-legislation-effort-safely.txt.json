@@ -1,0 +1,13 @@
+{
+  "press_release": "20210203-assemblywoman-quirk-silva-introduces-bi-partisan-legislation-effort-safely.txt",
+  "party": "Democratic",
+  "title": "Assemblywoman Quirk-Silva Introduces Bi-Partisan Legislation in Effort to Safely Reopen Theme Parks",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:22:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The prolonged COVID-19 related closures of California’s amusement parks have created devastating outcomes for surrounding businesses and communities.\",\n    \"Job losses due to COVID-19 have occurred most acutely in sectors not fully able to telework, such as hospitality a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The prolonged COVID-19 related closures of California’s amusement parks have created devastating outcomes for surrounding businesses and communities.\",\n    \"Job losses due to COVID-19 have occurred most acutely in sectors not fully able to telework, such as hospitality and leisure.\",\n    \"Theme parks worldwide have proven they can reopen responsibly while protecting the health of guests and staff.\",\n    \"Scientific data supports that theme parks can reopen responsibly in the Orange - Moderate - Tier 3.\",\n    \"Reopening theme parks could trigger a ripple effect to the local economy and create more jobs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "baa8b19ffe2ffc9cf94f7ebc19d66765803256e1"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250603-assemblymember-harabedian-advances-mena-inclusion-act-senate.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Harabedian Advances MENA Inclusion Act to the Senate",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The MENA Inclusion Act will require agencies, boards, and commissions in California to disaggregate Middle Eastern and North African (MENA) groups in demographic data.\",\n    \"Accurate data drives resources, representation, and respect.\",\n    \"MENA individuals have been m",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The MENA Inclusion Act will require agencies, boards, and commissions in California to disaggregate Middle Eastern and North African (MENA) groups in demographic data.\",\n    \"Accurate data drives resources, representation, and respect.\",\n    \"MENA individuals have been miscategorized as 'white' for decades, which has resulted in a failure to capture their unique identities and challenges.\",\n    \"The undercounting of MENA individuals has limited access to targeted services, funding, and policy responses.\",\n    \"Requiring separate categories for MENA groups will ensure more accurate representation in line with national efforts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9dcf86988218ba0e3bbd780fe6e1f43326d0ec37"
+}

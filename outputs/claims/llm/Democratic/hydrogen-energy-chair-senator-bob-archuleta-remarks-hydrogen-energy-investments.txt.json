@@ -1,0 +1,13 @@
+{
+  "press_release": "hydrogen-energy-chair-senator-bob-archuleta-remarks-hydrogen-energy-investments.txt",
+  "party": "Democratic",
+  "title": "Pico Rivera – Senator Bob Archuleta (D-Pico Rivera), chair of the Senate Select Committee on Hydrogen Energy focusing on the role of hydrogen energy in helping the state meet its z",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Governor's proposed budget for 2022-2023 includes $6.1 billion for investments in zero emission vehicles.\",\n    \"$1.1 billion is set aside for zero emission trucks, buses, off-road equipment, and fueling infrastructure.\",\n    \"There is an emerging consensus that hydr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Governor's proposed budget for 2022-2023 includes $6.1 billion for investments in zero emission vehicles.\",\n    \"$1.1 billion is set aside for zero emission trucks, buses, off-road equipment, and fueling infrastructure.\",\n    \"There is an emerging consensus that hydrogen is well-suited to power the medium and heavy-duty transportation sector.\",\n    \"The omission of funding to accelerate the development of light and medium duty hydrogen infrastructure will negatively impact California's zero emission vehicle goals.\",\n    \"Access to an electric vehicle-charging outlet may not be feasible for every resident in densely populated communities.\",\n    \"Hydrogen fuel cell vehicles could allow residents a zero emission vehicular option that can be parked anywhere.\",\n    \"California must commit resources to attract private sector investment in hydrogen infrastructure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f514fa6d2060443dcff13a8c08d3fd7c74ac31c"
+}

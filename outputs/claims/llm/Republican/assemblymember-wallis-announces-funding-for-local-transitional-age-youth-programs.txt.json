@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-wallis-announces-funding-for-local-transitional-age-youth-programs.txt",
+  "party": "Republican",
+  "title": "RANCHO MIRAGE – Assemblymember Greg Wallis today announced more than $4.7 million in funding for Transitional Age Youth (TAY) programs in his district.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "37e9c07c1b3798400a9f9a41c2549e1951a7b9af"
+}

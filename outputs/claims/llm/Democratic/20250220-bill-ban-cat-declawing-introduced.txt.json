@@ -1,0 +1,13 @@
+{
+  "press_release": "20250220-bill-ban-cat-declawing-introduced.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Alex Lee introduced legislation to safeguard the welfare of cats by protecting them from the harmful and barbaric surgical procedure of declawing. AB 867 affirms Cal",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:28:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Cat declawing is an outdated, cruel, and unethical surgical procedure that results in lifelong disfigurement and pain.\",\n    \"Surgical complications from declawing include hemorrhage, infection, pain, and anesthetic complications.\",\n    \"Removing cats' claws increas",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Cat declawing is an outdated, cruel, and unethical surgical procedure that results in lifelong disfigurement and pain.\",\n    \"Surgical complications from declawing include hemorrhage, infection, pain, and anesthetic complications.\",\n    \"Removing cats' claws increases the likelihood of behaviors like biting, aggression, and litter box avoidance.\",\n    \"Declawing can lead to long-term effects such as overgrooming, chronic back pain, residual bone fragments, and mobility issues.\",\n    \"Scratching is a natural cat behavior, and non-surgical alternatives like nail trimming, soft claw caps, and behavioral training are available.\",\n    \"Experts emphasize the importance of proper hygiene and parasite control rather than cat declawing for immunocompromised cat owners.\",\n    \"Declawed cats are more likely to lose their homes because they are more prone to biting and not using the litter box due to pain.\",\n    \"Approximately 20% of cats are subjected to the practice of declawing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "36173540414901f5f4b1e4bf31474ccca0aaf82f"
+}

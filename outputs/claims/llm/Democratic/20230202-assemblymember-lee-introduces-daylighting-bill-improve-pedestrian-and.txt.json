@@ -1,0 +1,13 @@
+{
+  "press_release": "20230202-assemblymember-lee-introduces-daylighting-bill-improve-pedestrian-and.txt",
+  "party": "Democratic",
+  "title": "Today, Assemblymember Alex Lee (D-San José) introduced AB 413 to improve public safety by increasing the visibility of pedestrians and bicyclists for drivers at crosswalks and inte",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:53:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Daylighting is a proven way to improve street safety for all transportation modes.\",\n    \"California's pedestrian fatality rate is more than 25% higher than the national average.\",\n    \"California has the highest number of pedestrian deaths on its roadways in the United ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Daylighting is a proven way to improve street safety for all transportation modes.\",\n    \"California's pedestrian fatality rate is more than 25% higher than the national average.\",\n    \"California has the highest number of pedestrian deaths on its roadways in the United States.\",\n    \"In 2021, pedestrian deaths in the U.S. reached a four-decade high.\",\n    \"26% of cyclist fatalities occur at intersections.\",\n    \"Removing parked or stopped vehicles from within 20-25 feet of an intersection is a widely accepted pedestrian safety measure.\",\n    \"Daylighting has been implemented in various cities across the United States.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3cfa9c949e8f4bdb05579dfb81d9eac6a0b8925c"
+}

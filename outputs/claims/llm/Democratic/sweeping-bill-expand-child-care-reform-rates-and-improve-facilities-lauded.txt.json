@@ -1,0 +1,13 @@
+{
+  "press_release": "sweeping-bill-expand-child-care-reform-rates-and-improve-facilities-lauded.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:35:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's support of child care, care providers and working parents will be unparalleled.\",\n    \"This legislation will make California the best state in the nation to raise a child.\",\n    \"The proposed changes will increase child care rates by a projected 30%.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's support of child care, care providers and working parents will be unparalleled.\",\n    \"This legislation will make California the best state in the nation to raise a child.\",\n    \"The proposed changes will increase child care rates by a projected 30%.\",\n    \"Good, reliable child care that is affordable for working parents and provides living wages for caregivers is integral to the success of kids and their parents.\",\n    \"Women who are child care providers often faced long hours during the pandemic for little pay.\",\n    \"The legislation ensures 200,000 more child care slots over the next five years.\",\n    \"The legislation provides $250 million to retrofit, upgrade, or expand child care facilities.\",\n    \"Stable, affordable child care is essential for families and the economy to recover from financial turmoil caused by the pandemic.\",\n    \"Adequately compensated child care providers are necessary for everyone to make a living.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "860ea4f515dcfdc25acc156b2a4b86c63b0f6411"
+}

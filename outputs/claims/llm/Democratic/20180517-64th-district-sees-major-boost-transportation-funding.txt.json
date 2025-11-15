@@ -1,0 +1,13 @@
+{
+  "press_release": "20180517-64th-district-sees-major-boost-transportation-funding.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- With the advocacy of Assemblymember Mike Gipson, the California Transportation Commission approved $27.6 million in funding for the Trade Corridor Enhancement",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Transportation Commission approved $27.6 million in funding for the Trade Corridor Enhancement Program.\",\n    \"The funding will improve transportation efficiency and safety while reducing emissions in one of California’s most congested highway networks.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Transportation Commission approved $27.6 million in funding for the Trade Corridor Enhancement Program.\",\n    \"The funding will improve transportation efficiency and safety while reducing emissions in one of California’s most congested highway networks.\",\n    \"The funding for two rail system projects will reduce truck emissions while keeping goods moving swiftly and sustainably through the Port of LA.\",\n    \"Securing roughly $330 million in grant funding for LA Metro will help reduce congestion significantly in Los Angeles.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "597345204b6843f096f91b1f910100777f9da7a7"
+}

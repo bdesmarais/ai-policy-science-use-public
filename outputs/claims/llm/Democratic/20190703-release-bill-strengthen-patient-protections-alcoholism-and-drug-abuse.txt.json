@@ -1,0 +1,13 @@
+{
+  "press_release": "20190703-release-bill-strengthen-patient-protections-alcoholism-and-drug-abuse.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:09:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The current framework for how the State handles substance abuse treatment has not caught up with how unscrupulous actors have been exploiting the system.\",\n    \"There is little to no oversight or accountability of sober living homes on either a federal, state, or lo",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The current framework for how the State handles substance abuse treatment has not caught up with how unscrupulous actors have been exploiting the system.\",\n    \"There is little to no oversight or accountability of sober living homes on either a federal, state, or local level.\",\n    \"The lack of regulation at some sober living homes can lead to preventable deaths.\",\n    \"In 2017, there were 2,196 opioid overdose related deaths in California.\",\n    \"Unscrupulous operators exploit vulnerable patients to reap high profits.\",\n    \"Body brokers encourage patients in recovery to start using drugs again in order to be eligible for recovery services.\",\n    \"Some facilities are organized and designed to generate quick profits rather than assist patients with treatment and recovery from a substance use disorder.\",\n    \"After exhausting a patient's insurance, some facilities may abandon the patient, exacerbating the homelessness crisis in California.\",\n    \"AB 919 will require the Department of Health Care Services to establish an enforcement program to effectively prevent and stop body brokering schemes.\",\n    \"AB 920 will direct the Department of Health Care Services to convene a working group to update California law pertaining to substance abuse treatment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2955d323c8040f54af8c3ef78b528d01a34f6a49"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220106-asm-gipson-quinto-family-introduces-bill-separating-coroners-offices.txt",
+  "party": "Democratic",
+  "title": "AB 1608 co-sponsored by Angelo Quinto Family after death of their son in  law enforcement custody",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1608 seeks to increase transparency in law enforcement by separating Coroner’s offices from Sheriff’s departments.\",\n    \"AB 1608 is intended to ensure that death investigations are conducted objectively, minimizing any potential influence from the criminal justice sy",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1608 seeks to increase transparency in law enforcement by separating Coroner’s offices from Sheriff’s departments.\",\n    \"AB 1608 is intended to ensure that death investigations are conducted objectively, minimizing any potential influence from the criminal justice system.\",\n    \"The introduction of AB 1608 follows previous laws that ban law enforcement from using chokeholds and restraints causing positional asphyxia.\",\n    \"The lack of independence between Coroner's and Sheriff's offices hinders objective investigations into deaths occurring in police custody.\",\n    \"Independence in the Coroner's office could reduce the likelihood of cover-ups regarding the causes of death.\",\n    \"Sheriff's offices possess significant political power that often limits oversight and accountability.\",\n    \"AB 1608 is aimed at addressing conflicts of interest that arise when Sheriffs investigate incidents involving their own officers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2e6022edb34462b5ef0128e6664bf2e485d733ee"
+}

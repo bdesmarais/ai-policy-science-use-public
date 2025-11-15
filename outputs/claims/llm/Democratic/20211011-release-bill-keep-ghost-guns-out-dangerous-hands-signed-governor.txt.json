@@ -1,0 +1,13 @@
+{
+  "press_release": "20211011-release-bill-keep-ghost-guns-out-dangerous-hands-signed-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"31% of guns recovered in California were unserialized, untraceable ghost guns.\",\n    \"In Los Angeles, 41% of recovered guns were untraceable ghost guns.\",\n    \"More than 2,500 ghost guns were connected to criminal activity in 114 Federal cases from 2010 through April 202",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"31% of guns recovered in California were unserialized, untraceable ghost guns.\",\n    \"In Los Angeles, 41% of recovered guns were untraceable ghost guns.\",\n    \"More than 2,500 ghost guns were connected to criminal activity in 114 Federal cases from 2010 through April 2020.\",\n    \"The presence of firearms in a situation of domestic violence significantly increases the risk of homicide.\",\n    \"Ghost guns quickly became the fastest growing issue in gun safety in California.\",\n    \"Gun Violence Restraining Orders (GVROs) have enjoyed broad bipartisan support in California.\",\n    \"Using GVROs can prevent dangerous individuals from having access to firearms.\",\n    \"Ghost-gun parts should be included as seizable items under gun violence restraining orders.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0cfad03efbbe6dc13135e1c68d96f0421924023a"
+}

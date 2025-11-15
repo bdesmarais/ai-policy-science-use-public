@@ -1,0 +1,13 @@
+{
+  "press_release": "statement-senator-john-laird-moss-landing-fire.txt",
+  "party": "Democratic",
+  "title": "The recent fire at the Moss Landing battery storage facility is deeply troubling, and the community continues to seek answers nearly a week later. The day after the fire began, I j",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:35:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's Senate Bill 38 requires battery storage facilities to develop and submit an emergency safety plan to meet clean energy goals.\",\n    \"The emergency safety plans for battery storage facilities must be coordinated with local emergency management agencies and fi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's Senate Bill 38 requires battery storage facilities to develop and submit an emergency safety plan to meet clean energy goals.\",\n    \"The emergency safety plans for battery storage facilities must be coordinated with local emergency management agencies and first response agencies.\",\n    \"Vistra completed an emergency safety plan in September 2023, four months before Senate Bill 38 formally went into effect.\",\n    \"There are questions regarding whether Vistra's emergency safety plan adequately covered incidents of significant magnitude.\",\n    \"PG&E has not filed an emergency safety plan for its adjacent battery storage facility in compliance with Senate Bill 38.\",\n    \"It is necessary to evaluate the implementation effectiveness of the emergency safety plan submitted by Vistra during the incident.\",\n    \"Proposing deadlines for emergency safety plan submissions could enhance ongoing coordination between cities, counties, and facilities.\",\n    \"Providing sufficient SPM Flex gas detectors to monitor hydrogen fluoride levels is essential for tracking air quality post-incident.\",\n    \"Collaboration with the North County Fire Protection District is needed to improve readiness for responding to large-scale incidents.\",\n    \"Initiating additional environmental monitoring and testing of air, soil, water, and particulate matter is critical following the fire.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2cd6cea4f0e9b215c9d2a23aa48a2aa5bda783ec"
+}

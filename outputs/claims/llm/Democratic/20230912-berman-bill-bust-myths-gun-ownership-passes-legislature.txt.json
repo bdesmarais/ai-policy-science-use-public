@@ -1,0 +1,13 @@
+{
+  "press_release": "20230912-berman-bill-bust-myths-gun-ownership-passes-legislature.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:07:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Keeping a firearm in your home dramatically increases the likelihood that you or someone you love will be a victim of gun violence.\",\n    \"Having a firearm at home increases the risk of death or serious injury by suicide, homicide, or unintentional injury.\",\n    \"The pre",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Keeping a firearm in your home dramatically increases the likelihood that you or someone you love will be a victim of gun violence.\",\n    \"Having a firearm at home increases the risk of death or serious injury by suicide, homicide, or unintentional injury.\",\n    \"The presence of a gun in the home increases the risk of homicide for women by 500 percent.\",\n    \"Gun violence is a national public health epidemic.\",\n    \"Gun violence is a physical and psychological trauma that affects the health of patients, families, and communities.\",\n    \"AB 1598 will provide firearm owners with accurate information about the risks posed by having a firearm in the home.\",\n    \"AB 1598 requires education and demonstrated knowledge about the responsibilities of gun ownership and operation.\",\n    \"AB 1598 will expand the firearm safety certificate (FSC) test to cover the reasons for and risks of owning a firearm and bringing a firearm into the home.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "df8d9827e980f9178a03b389d792ed29e4440503"
+}

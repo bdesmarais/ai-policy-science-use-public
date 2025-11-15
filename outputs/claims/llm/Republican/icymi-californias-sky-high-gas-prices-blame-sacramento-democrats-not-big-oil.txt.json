@@ -1,0 +1,13 @@
+{
+  "press_release": "icymi-californias-sky-high-gas-prices-blame-sacramento-democrats-not-big-oil.txt",
+  "party": "Republican",
+  "title": "A new USC study confirms what Californians already know: our high gas prices are the result of deliberate policy choices. From Sacramento’s 60 cents per gallon gas tax to Cap-and-T",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California’s high gas prices are the result of directed policies and a litany of regulations, taxes, fees, and costs.\",\n    \"California gas prices are $1.60 above the national average.\",\n    \"Experts refute the claim that oil companies are gouging California drivers.\"\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California’s high gas prices are the result of directed policies and a litany of regulations, taxes, fees, and costs.\",\n    \"California gas prices are $1.60 above the national average.\",\n    \"Experts refute the claim that oil companies are gouging California drivers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc4ffbc26ed6468d04f501c01ca257cf5f23c65d"
+}

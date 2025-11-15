@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-bill-supporting-the-blind-community-signed-into-law.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –  Today, Assemblymember Alanis announced that his bill supporting Californians who identify as blind or having low-vision has been signed into law by the Governor.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill AB 1902 requires pharmacy dispensers to provide accessible prescription medication labels for patients who identify as blind or having low-vision upon request.\",\n    \"Accessible prescription medication labels include supplemental documentation with large font, b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill AB 1902 requires pharmacy dispensers to provide accessible prescription medication labels for patients who identify as blind or having low-vision upon request.\",\n    \"Accessible prescription medication labels include supplemental documentation with large font, braille, or text-to-speech technology.\",\n    \"The initiative for accessible prescription medication labels has persisted for more than a decade.\",\n    \"AB 1902 was based on recommendations published in 2013 from a United States Access Board Working Group.\",\n    \"AB 1902 represents a significant step toward ensuring that all Californians can receive accommodations within the healthcare space.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "05ad825c4157eb197f67cb87e6add62d3855e456"
+}

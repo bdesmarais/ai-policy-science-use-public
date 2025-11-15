@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-introduces-bill-to-repeal-prop-47-01-05-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assemblyman James Gallagher (R-Yuba City) has teamed up Kevin Kiley (R-Rocklin) and a dozen other legislators to introduce legislation that will repeal Proposition 47,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Proposition 47 has been described as a colossal failure across the state of California.\",\n    \"There has been an unprecedented increase in property crime in California attributed to the reclassification of felony theft offenses as misdemeanors under Proposition 47.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Proposition 47 has been described as a colossal failure across the state of California.\",\n    \"There has been an unprecedented increase in property crime in California attributed to the reclassification of felony theft offenses as misdemeanors under Proposition 47.\",\n    \"The absence of punishment for theft has allegedly led to more brazen criminal behavior.\",\n    \"Legislation such as AB 1599 aims to allow voters to repeal Proposition 47 and give law enforcement the authority to incarcerate criminals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "79044824427bce99b9367d885994975f74030822"
+}

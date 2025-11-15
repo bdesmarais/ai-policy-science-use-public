@@ -1,0 +1,13 @@
+{
+  "press_release": "20250624-assemblymember-ward-lawmakers-and-advocates-unveil-groundbreaking-privacy.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Location Privacy Act (AB 322) aims to establish unique protections against the sale and misuse of precise location data by private companies and data brokers.\",\n    \"The rapid growth of the location data industry has led to tech companies harvesting and se",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Location Privacy Act (AB 322) aims to establish unique protections against the sale and misuse of precise location data by private companies and data brokers.\",\n    \"The rapid growth of the location data industry has led to tech companies harvesting and selling detailed information about individuals' movements.\",\n    \"Federal agencies, such as ICE, have purchased location data to conduct surveillance and detain individuals, circumventing legal safeguards and public accountability.\",\n    \"The California Location Privacy Act claims that no Californian should have their movements tracked, sold, or exploited.\",\n    \"The bill seeks to prevent the sale of personal information regarding individuals' travel, housing, and healthcare to immigration enforcement.\",\n    \"Reports indicate that data brokers have sold flight data to ICE, leading to fears of deportation for individuals seeking medical services.\",\n    \"The California Location Privacy Act aims to protect communities from misuse of personal information by corporations and the federal government.\",\n    \"There have been multiple complaints filed by the Federal Trade Commission against data brokers for selling billions of location data points.\",\n    \"The California Location Privacy Act seeks to establish strong, enforceable consumer protections in response to the lack of national standards.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c8bb90f2c7eeb33f672b509eb282eb4ed48c62a9"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-statement-on-the-destruction-of-chicos-historic-bidwell-mansion.txt",
+  "party": "Republican",
+  "title": "YUBA CITY",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8826765fecc8f7fbadc7b019494486b4755fecbb"
+}

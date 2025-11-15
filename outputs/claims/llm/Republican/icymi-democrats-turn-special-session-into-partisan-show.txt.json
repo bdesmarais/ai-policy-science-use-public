@@ -1,0 +1,74 @@
+{
+  "press_release": "icymi-democrats-turn-special-session-into-partisan-show.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – In a new column,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The $50 million slush fund proposal could go to protecting illegal immigrants with felony convictions from deportation.\"\n    },\n    {\n      \"claim_text\": \"A letter in the legislative journal is NOT legally binding.\"\n    },\n    {\n      \"claim_text\": ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The $50 million slush fund proposal could go to protecting illegal immigrants with felony convictions from deportation.\"\n    },\n    {\n      \"claim_text\": \"A letter in the legislative journal is NOT legally binding.\"\n    },\n    {\n      \"claim_text\": \"The bill could result in taxpayer funds going to the legal defense of undocumented immigrants who have been convicted of a crime.\"\n    },\n    {\n      \"claim_text\": \"Democrats rejected a safeguard to prohibit taxpayer-funded legal aid from helping felons.\"\n    },\n    {\n      \"claim_text\": \"The rejection of the safeguard is described as disingenuous by legal scholars.\"\n    },\n    {\n      \"claim_text\": \"Voters expressed a desire for lawmakers to crack down on crime in the November election.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The $50 million slush fund proposal could go to protecting illegal immigrants with felony convictions from deportation.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "A letter in the legislative journal is NOT legally binding.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The bill could result in taxpayer funds going to the legal defense of undocumented immigrants who have been convicted of a crime.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Democrats rejected a safeguard to prohibit taxpayer-funded legal aid from helping felons.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The rejection of the safeguard is described as disingenuous by legal scholars.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Voters expressed a desire for lawmakers to crack down on crime in the November election.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "e18c9bc216dd3a5acc0f854946739f3d8163d5d1"
+}

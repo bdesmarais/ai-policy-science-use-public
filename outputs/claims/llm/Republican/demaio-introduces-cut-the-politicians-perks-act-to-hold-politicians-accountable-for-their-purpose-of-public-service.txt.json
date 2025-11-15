@@ -1,0 +1,13 @@
+{
+  "press_release": "demaio-introduces-cut-the-politicians-perks-act-to-hold-politicians-accountable-for-their-purpose-of-public-service.txt",
+  "party": "Republican",
+  "title": "“Politicians like Insurance Commissioner Ricardo Lara need to focus on doing their job rather than accepting lavish gifts like free trips to Bermuda. I’ve introduced AB 26 to cut p",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3c11d39a9883da5250234f94294dbd92ee112727"
+}

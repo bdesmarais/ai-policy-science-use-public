@@ -1,0 +1,13 @@
+{
+  "press_release": "20210316-assemblymember-ash-kalra-partners-audubon-california-bill-recognizing.txt",
+  "party": "Democratic",
+  "title": "First-of-its-kind bill would help address disparities in access to outdoor recreation in communities of color and elsewhere",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Studies indicate profound benefits of time spent outdoors in natural settings.\",\n    \"Research shows that communities of color are three times more likely than white communities to live in nature-deprived areas.\",\n    \"Seventy percent of low-income communities live in na",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Studies indicate profound benefits of time spent outdoors in natural settings.\",\n    \"Research shows that communities of color are three times more likely than white communities to live in nature-deprived areas.\",\n    \"Seventy percent of low-income communities live in nature-deprived areas.\",\n    \"Black, Latino, and indigenous people often encounter hostility or threats when trying to enjoy time outdoors.\",\n    \"California has set an ambitious goal of setting aside and preserving 30 percent of the state’s open space by 2030.\",\n    \"Maintaining urban green space is an important part of the international effort '30 x 30' to maintain biodiversity and create resilience against climate change.\",\n    \"Multiple studies show a steep decline in bird populations that depend on urban green spaces in California and beyond.\",\n    \"The number of birds in North America has dropped by one-third over the past 50 years, likely due in large part to loss of suitable habitat.\",\n    \"Audubon research shows that remaining birds face an uncertain future as the continent warms.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "77d09c0bea54517f7a3a9aef7902bbd4378eeb9c"
+}

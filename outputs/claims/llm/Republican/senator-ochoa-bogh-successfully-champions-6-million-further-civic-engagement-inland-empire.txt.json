@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-successfully-champions-6-million-further-civic-engagement-inland-empire.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) has announced that the budget request she spearheaded for $6,000,000 to aid the Inland Congregation United for Change’s (ICUC) efforts to s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The budget request for $6,000,000 aims to aid the Inland Congregation United for Change’s efforts to support civic engagement in the Inland Empire.\",\n    \"The COVID-19 pandemic has had a negative impact on civic engagement in the Inland Region.\",\n    \"The investment in c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The budget request for $6,000,000 aims to aid the Inland Congregation United for Change’s efforts to support civic engagement in the Inland Empire.\",\n    \"The COVID-19 pandemic has had a negative impact on civic engagement in the Inland Region.\",\n    \"The investment in community engagement will ensure that efforts to mitigate the health, economic, and social impacts of COVID-19 are addressed equitably.\",\n    \"Inland Congregations United for Change (ICUC) has developed grassroots leaders in the Riverside and San Bernardino counties for over 30 years.\",\n    \"ICUC currently serves over 90,000 families and 22 schools across San Bernardino and Riverside counties.\",\n    \"ICUC's leadership has increased civic engagement and built partnerships with local government and schools to address issues impacting underserved communities.\",\n    \"The 2021-22 state budget allocated the $6 million to be used over a three-year period.\",\n    \"The appropriation will support teams of youth and parent outreach workers as trusted messengers to address the impacts of the pandemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dc58ca2252cf5ade04bcb3d11304fa60e6d90b94"
+}

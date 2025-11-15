@@ -1,0 +1,13 @@
+{
+  "press_release": "20211105-boerner-horvath-north-county-students-discuss-climate-action-live-un.txt",
+  "party": "Democratic",
+  "title": "GLASGOW",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Assembly Delegation to the UN Convention on Climate Change is working to foster dialogue with stakeholders engaged in efforts to combat climate change.\",\n    \"Young people are actively participating in climate dialogue and demanding immediate action ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Assembly Delegation to the UN Convention on Climate Change is working to foster dialogue with stakeholders engaged in efforts to combat climate change.\",\n    \"Young people are actively participating in climate dialogue and demanding immediate action from leaders.\",\n    \"Every Conference of the Parties has included a Young and Future Generations Day to elevate the role of young people in policy discussions affecting their future.\",\n    \"The Fridays for Future movement was started by climate activist Greta Thunberg in 2018.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6edcdffbb0e83d95ccf267aff382506b0bd7fd73"
+}

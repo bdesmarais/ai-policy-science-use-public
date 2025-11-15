@@ -1,0 +1,13 @@
+{
+  "press_release": "20240220-berman-unveils-legislation-free-tuition-wvmccd.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Two-thirds of California’s community college students struggle with basic needs insecurities such as food and housing.\",\n    \"AB 3158 aims to alleviate the burden of state-mandated tuition fees for students in the West Valley-Mission Community College District.\",\n    \"WV",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Two-thirds of California’s community college students struggle with basic needs insecurities such as food and housing.\",\n    \"AB 3158 aims to alleviate the burden of state-mandated tuition fees for students in the West Valley-Mission Community College District.\",\n    \"WVMCCD has successfully balanced its budget in recent years without imposing student fees.\",\n    \"The District’s College Promise Scholarship has resulted in over 5,000 students enrolling in the program.\",\n    \"Making the College Promise Program operational has proven challenging for students and staff.\",\n    \"Studies indicate that higher education correlates with increased economic activity, reduced crime rates, and enhanced civic engagement.\",\n    \"Expanding access to free education is an investment in the community.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5cfe1685cf6ef1884c120e14dc0f0d8e3107ebc5"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20170928-governor-brown-signs-bill-preserve-sea-level-rise-database.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Two-thirds of Californians inhabit coastal regions, which means sea level rise will have a catastrophic impact on coastal communities, infrastructure, and the economy if left unaddressed.\",\n    \"In San Mateo County alone, nearly $40 billion worth of land is at risk of lo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Two-thirds of Californians inhabit coastal regions, which means sea level rise will have a catastrophic impact on coastal communities, infrastructure, and the economy if left unaddressed.\",\n    \"In San Mateo County alone, nearly $40 billion worth of land is at risk of long-term flooding and erosion caused by sea level rise.\",\n    \"Collecting and making data on sea level rise planning available is vital to California's ability to overcome challenges presented by sea level rise.\",\n    \"Hurricanes Harvey and Irma exemplify the need to plan for more intense storm events and sea level rise in response to climate change.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3f9ab5bd9dd555fa6303c0d2c74df74340684bb0"
+}

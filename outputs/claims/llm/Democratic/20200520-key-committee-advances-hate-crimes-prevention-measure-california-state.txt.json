@@ -1,0 +1,13 @@
+{
+  "press_release": "20200520-key-committee-advances-hate-crimes-prevention-measure-california-state.txt",
+  "party": "Democratic",
+  "title": "Legislation Supported by Leading Jewish Organizations Will Enable Law Enforcement to Better Respond to Violent Bigotry and Protect Vulnerable Communities",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2236 aims to strengthen California's response to the rise in hate crimes and antisemitic incidents.\",\n    \"AB 2236 includes provisions for comprehensive training on hate crime trends and best enforcement practices for law enforcement.\",\n    \"A 2018 audit by",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2236 aims to strengthen California's response to the rise in hate crimes and antisemitic incidents.\",\n    \"AB 2236 includes provisions for comprehensive training on hate crime trends and best enforcement practices for law enforcement.\",\n    \"A 2018 audit by the California State Auditor found that law enforcement agencies in California routinely failed to adequately identify, report, or respond to hate crimes.\",\n    \"The audit concluded that inadequate policies and lack of oversight by the Department of Justice contributed to systemic underreporting of hate crimes in California.\",\n    \"California's reported hate crimes reached 1,066 in 2018 after falling to a low of 758 in 2014.\",\n    \"In 2019, the Anti-Defamation League (ADL) recorded a record number of antisemitic incidents in the U.S., including 330 incidents in California.\",\n    \"According to the Los Angeles Police Department, hate crimes in Los Angeles increased 40% from 2016 to 2019.\",\n    \"Data collected by the U.S. Department of Justice suggests that hate crimes occur 24 to 28 times more frequently than they are reported.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dbb5f1f2adf382300b9991d7bdf31d9383d0c71c"
+}

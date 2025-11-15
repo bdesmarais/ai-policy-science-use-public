@@ -1,0 +1,13 @@
+{
+  "press_release": "20231116-governor-gavin-newsom-signs-assembly-bill-483-enable-california-schools.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 483 will expand access to school-based health and mental health services in California.\",\n    \"AB 483 aims to make it easier for schools to participate in the Local Education Agency Billing Option Program (LEA BOP) and receive federal Medicaid reimbursement",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 483 will expand access to school-based health and mental health services in California.\",\n    \"AB 483 aims to make it easier for schools to participate in the Local Education Agency Billing Option Program (LEA BOP) and receive federal Medicaid reimbursement.\",\n    \"Currently, the LEA BOP is considered administratively burdensome with punitive audits and excessive documentation requirements.\",\n    \"More than half of all children in California are enrolled in Medi-Cal.\",\n    \"A recent change in California's Medi-Cal program allows schools to bill Medi-Cal for health services provided to all Medi-Cal eligible students.\",\n    \"California schools bill and draw significantly less in reimbursements for Medicaid services compared to other states.\",\n    \"California spends $29 per Medi-Cal eligible child while other states like Montana generate over $500 per eligible child.\",\n    \"There is a severe need for mental and behavioral health services for students in California.\",\n    \"In the first year of the COVID-19 pandemic, intentional self-harm among 13-18 year olds increased by 91%.\",\n    \"During the pandemic, overdoses among youth increased by 95% and diagnoses of major depressive disorder increased by 84%.\",\n    \"Schools need significant support to build capacity for comprehensive health and mental health services for children and youth.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b5bfaa97ef8f0cf7a46805cde86020a6c1bf96a3"
+}

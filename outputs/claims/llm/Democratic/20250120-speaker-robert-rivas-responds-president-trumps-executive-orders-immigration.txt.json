@@ -1,0 +1,13 @@
+{
+  "press_release": "20250120-speaker-robert-rivas-responds-president-trumps-executive-orders-immigration.txt",
+  "party": "Democratic",
+  "title": "“I am a first generation Californian from a family of immigrant farmworkers. My grandfather came here because he believed in the California Dream and wanted to provide a better lif",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9735d905b4d7f3f0028facdf8f670ec3b309b9a8"
+}

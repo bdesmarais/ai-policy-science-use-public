@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-minority-leader-jones-and-san-diego-city-councilmember-lacava-announce-bipartisan.txt",
+  "party": "Republican",
+  "title": "In a bipartisan and intergovernmental cooperation success, Senate Minority Leader Brian W. Jones ( R-San Diego) and San Diego City Councilmember Joe LaCava (D-San Diego) successful",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:06:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The exemption amendment passed by the San Diego City Council is a lifeline for vulnerable individuals such as veterans and domestic violence victims.\",\n    \"The Warrior Foundation Freedom Station transitional housing program in San Diego is a model for the nation.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The exemption amendment passed by the San Diego City Council is a lifeline for vulnerable individuals such as veterans and domestic violence victims.\",\n    \"The Warrior Foundation Freedom Station transitional housing program in San Diego is a model for the nation.\",\n    \"The Jones-LaCava amendment will save the Warrior Foundation Freedom Station along with many other non-profits that provide critical transitional housing services to vulnerable groups.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "11d237234b1ebad8277f6303f99ef7dd191f2d25"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20180128-strategic-growth-council-oks-35-million-watts-community.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- Today, the Strategic Growth Council, under the California Environmental Protection Agency, voted in support of a $35 million Transformative Climate Communitie",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:59:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Transformative Climate Communities Program aims to support community-led plans with coordinated greenhouse gas emission reduction projects.\",\n    \"The implementation of neighborhood-level transformative climate community plans can provide local economic, environmenta",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Transformative Climate Communities Program aims to support community-led plans with coordinated greenhouse gas emission reduction projects.\",\n    \"The implementation of neighborhood-level transformative climate community plans can provide local economic, environmental, and health benefits to disadvantaged communities.\",\n    \"The TCC grant represents an opportunity for economic development and to reduce greenhouse gases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f5b7a9ee83cc38d535695cbe169877cab39724d"
+}

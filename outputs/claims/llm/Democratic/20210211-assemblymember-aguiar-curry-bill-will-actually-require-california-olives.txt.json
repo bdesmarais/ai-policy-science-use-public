@@ -1,0 +1,13 @@
+{
+  "press_release": "20210211-assemblymember-aguiar-curry-bill-will-actually-require-california-olives.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:23:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Currently, the state produces approximately 4% of the world's olive oil from over 75 varieties of olives.\",\n    \"The demand for Californian olive oil is increasing due to California's well-established reputation for producing high-quality goods.\",\n    \"Some olive oil pro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Currently, the state produces approximately 4% of the world's olive oil from over 75 varieties of olives.\",\n    \"The demand for Californian olive oil is increasing due to California's well-established reputation for producing high-quality goods.\",\n    \"Some olive oil products labeled as 'California' have included as little as 14% California olive oil in their blends.\",\n    \"Existing law prohibits the labeling of olive oil as 'California Olive Oil' unless 100% of the oil is derived from olives grown in the state.\",\n    \"AB 535 strengthens existing law by making it illegal to make any false representation that an olive oil is produced entirely from olives grown within California.\",\n    \"The bill applies a prohibition on false representations that an olive oil was produced from olives grown in a specific region of California, unless at least 85% of the olive oil was produced from olives grown in that region.\",\n    \"The California Department of Food and Agriculture requires California Olive Oil to meet strict quality standards, such as mandatory testing and sampling.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "67636da08eb17d2620c020e62b130eae2bf41862"
+}

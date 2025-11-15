@@ -1,0 +1,13 @@
+{
+  "press_release": "20240229-assemblymember-kalra-announces-paga-legislation-strengthen-worker.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2288 aims to strengthen the Private Attorneys General Act (PAGA) by allowing injunctive relief.\",\n    \"Injunctive relief will enable courts to order employers to remedy violations of labor laws.\",\n    \"The inclusion of injunctive relief in PAGA claims is intended to i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2288 aims to strengthen the Private Attorneys General Act (PAGA) by allowing injunctive relief.\",\n    \"Injunctive relief will enable courts to order employers to remedy violations of labor laws.\",\n    \"The inclusion of injunctive relief in PAGA claims is intended to improve the enforcement of labor laws.\",\n    \"A recent court ruling required Qwick to convert misclassified workers to employees, providing them with full employee benefits.\",\n    \"Only 2% of the $2 billion lost by workers to wage theft each year is recovered.\",\n    \"AB 2288 is seen as a necessary measure to provide workers with more avenues to hold employers accountable for wage theft.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0c1f5d8b3abf11bd62c4a45fdd5d7b0eda25acc2"
+}

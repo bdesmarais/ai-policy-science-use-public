@@ -1,0 +1,13 @@
+{
+  "press_release": "20210629-release-legislation-increase-marine-life-restoration-projects-advances.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – In a win in the fight against climate change, Assemblywoman Cottie Petrie-Norris’ bill to expand critical coastal restoration work passed through the Senate’s Natural ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:30:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 63 permits restoration in marine conservation areas.\",\n    \"AB 63 expands opportunities for marine life restoration projects that reduce the effects of climate change and human impacts.\",\n    \"California's coastal waters are home to animals and plants that play a crit",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 63 permits restoration in marine conservation areas.\",\n    \"AB 63 expands opportunities for marine life restoration projects that reduce the effects of climate change and human impacts.\",\n    \"California's coastal waters are home to animals and plants that play a critical role in biodiversity needed to sustain a healthy ocean and planet.\",\n    \"California's iconic kelp forests are home to more than 800 species.\",\n    \"Kelp forests play a crucial role in protecting coastlines from erosion and absorbing carbon dioxide.\",\n    \"90% of bull kelp has been lost due to rising sea temperatures in Northern California.\",\n    \"Restoration is a critical tool to respond to changes such as the loss of bull kelp.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "27802a5c360cf3589736a4afa045125f2f7f86a5"
+}

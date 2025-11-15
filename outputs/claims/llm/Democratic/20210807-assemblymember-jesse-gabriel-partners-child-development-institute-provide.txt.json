@@ -1,0 +1,13 @@
+{
+  "press_release": "20210807-assemblymember-jesse-gabriel-partners-child-development-institute-provide.txt",
+  "party": "Democratic",
+  "title": "LOS ANGELES, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:31:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Child Development Institute specializes in the holistic development of children and families.\",\n    \"The 2021 Back-to-School Health and Safety Fair provided health and developmental screenings to children and families.\",\n    \"The fair offered COVID-19 vaccinations at",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Child Development Institute specializes in the holistic development of children and families.\",\n    \"The 2021 Back-to-School Health and Safety Fair provided health and developmental screenings to children and families.\",\n    \"The fair offered COVID-19 vaccinations at no cost to families in need.\",\n    \"CDI aims to address the needs of every child through investments in underserved communities.\",\n    \"Assemblymember Jesse Gabriel secured $1.5 million in the state budget for the development of the CDI Early Learning Center.\",\n    \"The CDI Early Learning Center will provide space for early intervention programs and child care.\",\n    \"CDI anticipates that the budget allocation will allow them to serve an additional 100,000 children and families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "98282a58ef0f2c2287ed45df331a2114b1c8335d"
+}

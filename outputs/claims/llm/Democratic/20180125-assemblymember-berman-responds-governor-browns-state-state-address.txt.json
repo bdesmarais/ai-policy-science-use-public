@@ -1,0 +1,13 @@
+{
+  "press_release": "20180125-assemblymember-berman-responds-governor-browns-state-state-address.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:59:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has championed policies to combat climate change and protect our natural resources.\",\n    \"California has extended Cap-and-Trade.\",\n    \"California has increased renewable energy generation.\",\n    \"The number of zero-emission vehicles on California's roads has",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has championed policies to combat climate change and protect our natural resources.\",\n    \"California has extended Cap-and-Trade.\",\n    \"California has increased renewable energy generation.\",\n    \"The number of zero-emission vehicles on California's roads has grown.\",\n    \"California has increased its reserves through fiscally prudent budgeting.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6bd332045b85c23d0905b924d1fcd3dc9d193a2c"
+}

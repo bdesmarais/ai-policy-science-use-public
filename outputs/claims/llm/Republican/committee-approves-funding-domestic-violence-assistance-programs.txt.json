@@ -1,0 +1,13 @@
+{
+  "press_release": "committee-approves-funding-domestic-violence-assistance-programs.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) announced today that the Senate Public Safety Committee unanimously approved her Senate Bill 720 . Her bill would authorize recipients of D",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Little Hoover Commission analyzed California’s government structure to assess its efficiency in supporting individuals affected by Intimate Partner Violence (IPV).\",\n    \"The Little Hoover Commission recommended eliminating bureaucratic hurdles to allow Domestic Viol",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Little Hoover Commission analyzed California’s government structure to assess its efficiency in supporting individuals affected by Intimate Partner Violence (IPV).\",\n    \"The Little Hoover Commission recommended eliminating bureaucratic hurdles to allow Domestic Violence Assistance Program (DVAP) recipients to access grant funds upfront.\",\n    \"Currently, DVAP recipients receive about half a million dollars a year, with approximately 60 percent originating from federal funds.\",\n    \"Many IPV service providers are small organizations that lack reserves to cover expenses until reimbursement checks arrive.\",\n    \"The wait for reimbursement for IPV service providers can be up to three months.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e9445f8e8eb5ee23b5d4f1524734c41fabb48038"
+}

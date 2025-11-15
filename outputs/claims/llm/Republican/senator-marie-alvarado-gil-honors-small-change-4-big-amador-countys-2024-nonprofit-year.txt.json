@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-marie-alvarado-gil-honors-small-change-4-big-amador-countys-2024-nonprofit-year.txt",
+  "party": "Republican",
+  "title": "Senator Marie Alvarado-Gil (R-Jackson) has awarded \"Small Change 4 Big\" as the Nonprofit of the Year honoree for Amador County. This award recognizes the exceptional dedication by ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "45f700e373342b795068a92dab51cfcff007282c"
+}

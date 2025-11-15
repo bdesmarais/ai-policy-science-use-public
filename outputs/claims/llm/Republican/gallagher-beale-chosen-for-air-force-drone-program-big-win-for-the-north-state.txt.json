@@ -1,0 +1,64 @@
+{
+  "press_release": "gallagher-beale-chosen-for-air-force-drone-program-big-win-for-the-north-state.txt",
+  "party": "Republican",
+  "title": "YUBA COUNTY – Beale Air Force Base has been selected as the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Beale Air Force Base has been selected as the preferred site for the U.S. Air Force’s new Collaborative Combat Aircraft (CCA) program.\"\n    },\n    {\n      \"claim_text\": \"The Collaborative Combat Aircraft program is a next-generation drone initiative",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Beale Air Force Base has been selected as the preferred site for the U.S. Air Force’s new Collaborative Combat Aircraft (CCA) program.\"\n    },\n    {\n      \"claim_text\": \"The Collaborative Combat Aircraft program is a next-generation drone initiative that will shape the future of air combat.\"\n    },\n    {\n      \"claim_text\": \"The CCA program will bring national defense innovation, high-tech jobs, and economic momentum to the North State.\"\n    },\n    {\n      \"claim_text\": \"The selection of Beale for the CCA program will keep it at the forefront of national defense.\"\n    },\n    {\n      \"claim_text\": \"The CCA program will deliver high-paying jobs and advanced technology to Yuba County.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Beale Air Force Base has been selected as the preferred site for the U.S. Air Force’s new Collaborative Combat Aircraft (CCA) program.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Collaborative Combat Aircraft program is a next-generation drone initiative that will shape the future of air combat.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The CCA program will bring national defense innovation, high-tech jobs, and economic momentum to the North State.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The selection of Beale for the CCA program will keep it at the forefront of national defense.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The CCA program will deliver high-paying jobs and advanced technology to Yuba County.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "993309f3f071a28e0df87e83802861e19cc0c9e0"
+}

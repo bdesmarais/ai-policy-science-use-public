@@ -1,0 +1,13 @@
+{
+  "press_release": "20231011-statement-assemblymember-boerner-governor-signing-ab-548.txt",
+  "party": "Democratic",
+  "title": "Contact: Rob Charles | 916-319-3362 |",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Unhealthy housing conditions can trigger asthma and respiratory infections.\",\n    \"Mold and mildew can affect multiple units in a building, not just the unit where a complaint is filed.\",\n    \"Local agencies are required to develop procedures for expanding code enforceme",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Unhealthy housing conditions can trigger asthma and respiratory infections.\",\n    \"Mold and mildew can affect multiple units in a building, not just the unit where a complaint is filed.\",\n    \"Local agencies are required to develop procedures for expanding code enforcement inspections under AB 548.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b7ca75eb6adfec8a908d0d2b007bc1fcdff09fd2"
+}

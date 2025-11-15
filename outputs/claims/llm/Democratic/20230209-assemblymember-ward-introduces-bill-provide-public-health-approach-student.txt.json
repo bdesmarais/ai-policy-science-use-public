@@ -1,0 +1,13 @@
+{
+  "press_release": "20230209-assemblymember-ward-introduces-bill-provide-public-health-approach-student.txt",
+  "party": "Democratic",
+  "title": "(",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:53:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Substance use among youth can develop into lifelong health and mental health problems.\",\n    \"AB 599 will give school administrators and teachers more tools to address substance use.\",\n    \"AB 599 requires the California Department of Education to create a model for",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Substance use among youth can develop into lifelong health and mental health problems.\",\n    \"AB 599 will give school administrators and teachers more tools to address substance use.\",\n    \"AB 599 requires the California Department of Education to create a model for handling situations involving students with illicit drug paraphernalia.\",\n    \"AB 599 allows school faculty to collaborate with local stakeholders to develop plans for students with substance use issues.\",\n    \"Most schools in California have few options other than suspensions, expulsions, and policing to address substance use issues.\",\n    \"In 2022, there were 3,200 drug-related suspensions in California, making up about 20% of all suspensions.\",\n    \"According to the 2017-2019 California Student Survey, 16% of eleventh-graders reported having consumed alcohol.\",\n    \"According to the 2017-2019 California Student Survey, 16% of eleventh-graders admitted to using marijuana.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f936edf7ea360f5641d1511c97b1a84f4da506b"
+}

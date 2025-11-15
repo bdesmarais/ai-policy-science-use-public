@@ -1,0 +1,13 @@
+{
+  "press_release": "20210922-assemblymember-arambula-present-1-million-allocation-reedley-college-its.txt",
+  "party": "Democratic",
+  "title": "REEDLEY, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Reedley College's Aviation Maintenance Technology and Flight Science programs are at the forefront of technological advances in aviation.\",\n    \"The funding allocated to Reedley College will enhance the quality and relevance of the training provided to students in aviati",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Reedley College's Aviation Maintenance Technology and Flight Science programs are at the forefront of technological advances in aviation.\",\n    \"The funding allocated to Reedley College will enhance the quality and relevance of the training provided to students in aviation maintenance.\",\n    \"Students will be able to complete a portion of their training at Reedley Municipal Airport, allowing for practical experiences such as operating jet engines.\",\n    \"Transferring training activities to the airport will provide greater capability and enhanced learning experiences for students.\",\n    \"The funding will allow Reedley College to purchase airplanes, significantly lowering the cost of flight training for students.\",\n    \"The cost reduction from purchasing airplanes will increase access to professional pilot career training for underrepresented and economically challenged residents of the Central San Joaquin Valley.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "25fa2a4ed144522ddc4fdb99fd304b56f85ae764"
+}

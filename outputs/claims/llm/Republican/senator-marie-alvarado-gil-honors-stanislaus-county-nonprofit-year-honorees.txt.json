@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-marie-alvarado-gil-honors-stanislaus-county-nonprofit-year-honorees.txt",
+  "party": "Republican",
+  "title": "Senator Marie Alvarado-Gil (D-Jackson) proudly announces the recipients of the 2024 Nonprofit of the Year Honoree Awards for Stanislaus County. This year’s honorees are recognized ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "03b1be8c86ed6873e88ffa9bc5c30645648dec90"
+}

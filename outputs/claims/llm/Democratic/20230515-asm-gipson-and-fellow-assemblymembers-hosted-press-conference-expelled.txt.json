@@ -1,0 +1,13 @@
+{
+  "press_release": "20230515-asm-gipson-and-fellow-assemblymembers-hosted-press-conference-expelled.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif. (May 15, 2023) – Assemblymembers Mike A. Gipson and Mia Bonta hosted a press conference today in anticipation of AJR 5, which condemns the Tennessee Legislature ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f25f1e8ba505b06249e074d29fce8abb354a1fa5"
+}

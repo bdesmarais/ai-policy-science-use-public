@@ -1,0 +1,13 @@
+{
+  "press_release": "20210324-boerner-horvaths-bill-fund-research-bluff-collapse-early-warning-system.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:26:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 66 allocates $2.5 million to accelerate research on bluff failures and develop an early warning notification system for California's coastal bluff collapses.\",\n    \"Bluff failures have resulted in fatalities, injuries, and millions of dollars in property damage in Cal",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 66 allocates $2.5 million to accelerate research on bluff failures and develop an early warning notification system for California's coastal bluff collapses.\",\n    \"Bluff failures have resulted in fatalities, injuries, and millions of dollars in property damage in California.\",\n    \"An early warning notification system for bluff collapses could help avoid fatalities and injuries.\",\n    \"The Scripps Institution of Oceanography will conduct research to understand when and why bluffs fail.\",\n    \"AB 66 aims to improve public safety by better predicting bluff failures.\",\n    \"Research funded by AB 66 will examine how tides, large surf, groundwater, and rainfall impact the processes leading to bluff failures.\",\n    \"Coastal cliffs are actively eroding, threatening billions in development, including critical infrastructure.\",\n    \"Bluff collapses in vulnerable coastal areas can jeopardize commercial rail corridors.\",\n    \"Current trends indicate that coastal cliffs in Southern California could erode at more than twice the historical rate by 2100 due to climate change and sea-level rise.\",\n    \"Increased scientific understanding of bluff failures will enable California to develop safer coastal communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7b6e3977a5f1bab2871d131a1dda2db490b0b7eb"
+}

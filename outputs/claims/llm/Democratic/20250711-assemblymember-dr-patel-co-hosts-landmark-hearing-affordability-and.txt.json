@@ -1,0 +1,13 @@
+{
+  "press_release": "20250711-assemblymember-dr-patel-co-hosts-landmark-hearing-affordability-and.txt",
+  "party": "Democratic",
+  "title": "San Marcos, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2c1a30384760d326b856ff6c82ee2579e710d9fc"
+}

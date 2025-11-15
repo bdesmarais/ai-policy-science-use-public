@@ -1,0 +1,13 @@
+{
+  "press_release": "20220721-county-orange-awarded-10-million-deliver-urgently-needed-mental-health.txt",
+  "party": "Democratic",
+  "title": "Santa Ana, Calif. (July 21, 2022) The Orange County Board of Supervisors announced today that the County of Orange was awarded $10 million in state funding to continue delivering m",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The County of Orange was awarded $10 million in state funding to improve mental health services for children in crisis and their family members.\",\n    \"The Orange County Board of Supervisors prioritized transforming the county's approach to behavioral health through the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The County of Orange was awarded $10 million in state funding to improve mental health services for children in crisis and their family members.\",\n    \"The Orange County Board of Supervisors prioritized transforming the county's approach to behavioral health through the 'Be Well Orange County' initiative.\",\n    \"According to a survey, 51 percent of parents indicated their children experienced some form of anxiety or depression.\",\n    \"One in four families sought some form of mental health assistance, with therapists being the most utilized support service.\",\n    \"One in five parents faced two or more barriers in accessing mental health help, with inconvenient appointment times being a top barrier.\",\n    \"Assembly Bill 178 includes funding to expedite the completion of a Behavioral Health Families and Children’s Campus in Orange County.\",\n    \"The Behavioral Health Families and Children’s Campus will deliver coordinated mental health services to children and their family members.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "03de9f71594d761cb2a1977c2803a0e0979a1144"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20231205-assemblywoman-letter-navy-tustin-hangar-fire.txt",
+  "party": "Democratic",
+  "title": "December 5, 2023",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Air and ash samples in the surrounding area tested positive for asbestos, lead, arsenic, and nickel.\",\n    \"Toxic debris and ash from the fire blanketed the community, landing in nearby parks, schools, open spaces, and residential properties.\",\n    \"The ash, debris, and ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Air and ash samples in the surrounding area tested positive for asbestos, lead, arsenic, and nickel.\",\n    \"Toxic debris and ash from the fire blanketed the community, landing in nearby parks, schools, open spaces, and residential properties.\",\n    \"The ash, debris, and other pollutants emitted may have lasting and detrimental health and environmental impacts on the surrounding community.\",\n    \"Some residents have contracted for private interior testing, which has revealed positive results for asbestos, lead, and other heavy metals.\",\n    \"Some homes have been declared inhabitable and reported to the Orange County Healthcare Agency.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d6936509955a325f889e21527e5e1a4321ef4779"
+}

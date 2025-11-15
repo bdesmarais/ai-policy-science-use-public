@@ -1,0 +1,13 @@
+{
+  "press_release": "20240826-legislature-passes-bill-keep-incarcerated-students-school.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Constitution guarantees incarcerated youth the right to an equitable education.\",\n    \"Youth in juvenile facilities are prevented from accessing school for more than 10% of the year in some counties.\",\n    \"Chronic absenteeism is linked to lower graduation",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Constitution guarantees incarcerated youth the right to an equitable education.\",\n    \"Youth in juvenile facilities are prevented from accessing school for more than 10% of the year in some counties.\",\n    \"Chronic absenteeism is linked to lower graduation rates.\",\n    \"Chronic absenteeism is linked to diminished academic achievement.\",\n    \"Chronic absenteeism is linked to reduced college attendance.\",\n    \"Denying access to education increases recidivism among incarcerated youth.\",\n    \"Denying access to education increases violence in juvenile halls.\",\n    \"Denying access to education increases suicidal ideation among incarcerated youth.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4126a689d9850e2dc0ba18d2f8bba3d06620adab"
+}

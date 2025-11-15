@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-leads-opposition-board-parole-hearing-commissioners-senate-confirmation.txt",
+  "party": "Republican",
+  "title": "Senator Brian W. Jones (R-Santee) yesterday spoke out on the Senate Floor against the confirmation of four of Governor Newsom’s appointees to the Board of Parole Hearings (BOPH).",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c8985692cca5cdc1f500bf8684180b43d3de4979"
+}

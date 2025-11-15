@@ -1,0 +1,13 @@
+{
+  "press_release": "el-senador-estatal-de-california-dave-cortese-tiene-un-historial-legal-comprobado-en-la.txt",
+  "party": "Democratic",
+  "title": "SILICON VALLEY – El Senador Estatal de California Dave Cortese (Demócrata por Silicon Valley) dijo que está más que preparado como Senador Estatal de California para defender a los",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70cc22ac2cd51265bfc4f261138926e890a06d92"
+}

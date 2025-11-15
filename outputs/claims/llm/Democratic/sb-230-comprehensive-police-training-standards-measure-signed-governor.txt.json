@@ -1,0 +1,13 @@
+{
+  "press_release": "sb-230-comprehensive-police-training-standards-measure-signed-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Today, Senate Bill 230, by Senator Anna Caballero (D-Salinas) was signed by Governor Gavin Newsom. SB 230 is a comprehensive measure that would require every law enfor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 230 requires every law enforcement officer to be trained in techniques to reduce the need for deadly force.\",\n    \"SB 230 establishes a minimum standard for the use of force for all 500 law enforcement agencies throughout California.\",\n    \"SB 230 mandates ne",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 230 requires every law enforcement officer to be trained in techniques to reduce the need for deadly force.\",\n    \"SB 230 establishes a minimum standard for the use of force for all 500 law enforcement agencies throughout California.\",\n    \"SB 230 mandates new evidence-based policies and procedures for utilizing de-escalation techniques.\",\n    \"The bill requires training in implicit and explicit bias and cultural competency for law enforcement officers.\",\n    \"SB 230 introduces a new duty for officers to intercede and report if they witness the use of excessive force by a fellow officer.\",\n    \"The implementation of SB 230 aims to restore public trust and mutual respect between law enforcement and the community.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "65ded973aa279db37741567342826cbd9fe1c109"
+}

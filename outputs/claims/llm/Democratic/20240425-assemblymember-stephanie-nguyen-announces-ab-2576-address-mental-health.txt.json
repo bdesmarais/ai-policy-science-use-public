@@ -1,0 +1,13 @@
+{
+  "press_release": "20240425-assemblymember-stephanie-nguyen-announces-ab-2576-address-mental-health.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2576 adds attempted murder to the list of crimes ineligible for mental health diversion in California.\",\n    \"Individuals who attempt murder should serve their sentence in addition to receiving mental health diversion.\",\n    \"Current law allows defendants w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2576 adds attempted murder to the list of crimes ineligible for mental health diversion in California.\",\n    \"Individuals who attempt murder should serve their sentence in addition to receiving mental health diversion.\",\n    \"Current law allows defendants with a mental health disorder charged with attempted murder to complete mental health treatment without serving time.\",\n    \"Completion of a designated mental health program can lead to the expungement of any record of arrest and criminal charges for attempted murder.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bd2f49cf5f8b689f38376a7838f6bd4e1e192b71"
+}

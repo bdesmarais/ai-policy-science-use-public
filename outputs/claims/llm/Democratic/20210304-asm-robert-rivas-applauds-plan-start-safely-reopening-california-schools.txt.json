@@ -1,0 +1,13 @@
+{
+  "press_release": "20210304-asm-robert-rivas-applauds-plan-start-safely-reopening-california-schools.txt",
+  "party": "Democratic",
+  "title": "Legislature Passes Assembly Bill 86, the Safe Schools for All Plan",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"COVID-19 has resulted in over 50,000 deaths and over 3.5 million cases in California.\",\n    \"Safe in-person instruction provides education and social development that cannot be achieved through remote learning.\",\n    \"Assembly Bill 86 is based on data and science to faci",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"COVID-19 has resulted in over 50,000 deaths and over 3.5 million cases in California.\",\n    \"Safe in-person instruction provides education and social development that cannot be achieved through remote learning.\",\n    \"Assembly Bill 86 is based on data and science to facilitate the safe return of students to classrooms.\",\n    \"The Safe Schools for All Plan will provide billions of dollars for COVID-19 testing, protective equipment, and safety upgrades at schools.\",\n    \"The plan ensures that teachers and staff are prioritized for vaccine doses.\",\n    \"$4.6 billion is allocated to fund learning loss mitigation initiatives.\",\n    \"The Safe Schools for All Plan will prioritize California's youngest and most high-need students for in-person learning.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c550ad7262d7e481e4c82071753e8a94438be28f"
+}

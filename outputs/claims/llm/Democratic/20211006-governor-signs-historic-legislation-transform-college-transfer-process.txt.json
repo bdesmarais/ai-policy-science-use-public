@@ -1,0 +1,104 @@
+{
+  "press_release": "20211006-governor-signs-historic-legislation-transform-college-transfer-process.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Only 19 percent of students with a transfer goal successfully transfer within four years.\"\n    },\n    {\n      \"claim_text\": \"Only 28 percent of students with a transfer goal transfer within six years.\"\n    },\n    {\n      \"claim_text\": \"AB 928 addres",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Only 19 percent of students with a transfer goal successfully transfer within four years.\"\n    },\n    {\n      \"claim_text\": \"Only 28 percent of students with a transfer goal transfer within six years.\"\n    },\n    {\n      \"claim_text\": \"AB 928 addresses persistent community college transfer rates by increasing coordination between California’s public colleges and universities.\"\n    },\n    {\n      \"claim_text\": \"AB 928 aims to eliminate unnecessary hurdles that keep students from transferring.\"\n    },\n    {\n      \"claim_text\": \"AB 928 establishes a committee to provide coordination between California’s higher education systems.\"\n    },\n    {\n      \"claim_text\": \"AB 928 requires the creation of a single lower division general education pathway that meets transfer admission requirements to both CSU and UC.\"\n    },\n    {\n      \"claim_text\": \"AB 928 ensures every community college student wanting to transfer is placed on the Associate Degree for Transfer pathway.\"\n    },\n    {\n      \"claim_text\": \"AB 1111 requires all California Community Colleges to adopt a common course numbering system for all general education requirement courses and transfer pathway courses.\"\n    },\n    {\n      \"claim_text\": \"The State Budget includes $10 million to fund the creation of a common course numbering system.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Only 19 percent of students with a transfer goal successfully transfer within four years.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Only 28 percent of students with a transfer goal transfer within six years.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 928 addresses persistent community college transfer rates by increasing coordination between California’s public colleges and universities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 928 aims to eliminate unnecessary hurdles that keep students from transferring.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 928 establishes a committee to provide coordination between California’s higher education systems.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 928 requires the creation of a single lower division general education pathway that meets transfer admission requirements to both CSU and UC.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 928 ensures every community college student wanting to transfer is placed on the Associate Degree for Transfer pathway.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 1111 requires all California Community Colleges to adopt a common course numbering system for all general education requirement courses and transfer pathway courses.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The State Budget includes $10 million to fund the creation of a common course numbering system.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 9,
+  "doc_sha1": "38a74016177e1f23747c1e7dd1b3f740533f6b23"
+}

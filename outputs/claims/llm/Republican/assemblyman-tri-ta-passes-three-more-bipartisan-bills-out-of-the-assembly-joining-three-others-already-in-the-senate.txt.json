@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-tri-ta-passes-three-more-bipartisan-bills-out-of-the-assembly-joining-three-others-already-in-the-senate.txt",
+  "party": "Republican",
+  "title": "Assemblyman Tri Ta Passes Three More Bipartisan Bills out of the Assembly, Joining Three Others Already in the Senate",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 718 would require the California Department of Veterans Affairs to conduct a study of mental health among women veterans.\",\n    \"AB 1458 would streamline decision-making within HOAs and allow community members to have their voices heard.\",\n    \"AB 1370 would update th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 718 would require the California Department of Veterans Affairs to conduct a study of mental health among women veterans.\",\n    \"AB 1458 would streamline decision-making within HOAs and allow community members to have their voices heard.\",\n    \"AB 1370 would update the Economic Workforce Development program at community colleges to focus on student-centered outcomes.\",\n    \"AB 1080 would require the Legislative Analyst’s Office to conduct a study on the impact of California’s public safety realignment law.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc6f7a6ae0c0822e18ec2ec55815b303a04dd0ee"
+}

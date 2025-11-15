@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-statement-super-bowl-returning-levis-stadium.txt",
+  "party": "Democratic",
+  "title": "Here is a statement from Senator Dave Cortese (D-San Jose) on the announcement that Levi’s Stadium will host the 2026 Super Bowl:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e420f81ce5081775c3a89f67674aa036783bf200"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "budget-spotlight-05022025.txt",
+  "party": "Republican",
+  "title": "Subcommittee #1 (Education) Laird (D-Santa Cruz) Chair, Ochoa Bogh (R-Yucaipa), and Pérez (D-Pasadena) Subcommittee 1 did not meet this week.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Choi questioned the cost-effectiveness of policies like the state’s push toward zero-emission vehicles, arguing that high program costs can outweigh benefits to taxpayers.\",\n    \"California's 2020 wildfire season released nearly twice the greenhouse gas emissions",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Choi questioned the cost-effectiveness of policies like the state’s push toward zero-emission vehicles, arguing that high program costs can outweigh benefits to taxpayers.\",\n    \"California's 2020 wildfire season released nearly twice the greenhouse gas emissions as all state emission reductions since 2003 combined.\",\n    \"California's climate spending has negligible impact on global climate change despite significant costs to consumers and the state.\",\n    \"California contributes less than one percent of global emissions, while countries like China emit far more than the rest of the world combined.\",\n    \"California has made progress in lowering its own emissions, but that progress has had no measurable impact on atmospheric concentrations of greenhouse gases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "55d71bb11e260fc0d827370f4ef9ac70f09279dc"
+}

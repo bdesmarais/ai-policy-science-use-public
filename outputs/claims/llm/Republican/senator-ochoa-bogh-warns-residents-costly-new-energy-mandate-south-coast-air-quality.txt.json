@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-warns-residents-costly-new-energy-mandate-south-coast-air-quality.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) is alerting Inland Empire residents to a proposed mandate from the South Coast Air Quality Management District (SCAQMD) that could drive up",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed amendments to Rules 1111 and 1121 would phase out natural gas furnaces and water heaters in favor of all-electric units starting in 2026.\",\n    \"The changes would apply to Los Angeles, Orange, Riverside, and San Bernardino Counties, potentially affecting mil",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed amendments to Rules 1111 and 1121 would phase out natural gas furnaces and water heaters in favor of all-electric units starting in 2026.\",\n    \"The changes would apply to Los Angeles, Orange, Riverside, and San Bernardino Counties, potentially affecting millions.\",\n    \"Retrofitting homes to switch to electric units could cost up to $47,000 for a single-family home and $40,100 for a multi-family rental unit.\",\n    \"The added costs of retrofitting do not include the burden on electrical infrastructure, permits, or lost time.\",\n    \"Future updates to the rule could eliminate the gas replacement option entirely, leaving electric conversion as the only path forward.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "670c87cd4cc90e1d95a24312fecdcd3acfdb61c2"
+}

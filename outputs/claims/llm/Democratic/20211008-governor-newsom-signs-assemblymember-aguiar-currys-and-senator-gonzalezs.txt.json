@@ -1,0 +1,13 @@
+{
+  "press_release": "20211008-governor-newsom-signs-assemblymember-aguiar-currys-and-senator-gonzalezs.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 14 and SB 4 revolutionize California's broadband deployment program.\",\n    \"The COVID-19 pandemic has exposed significant gaps in internet connectivity for Californians.\",\n    \"The need for sufficient internet connectivity has reached crisis proportions in California.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 14 and SB 4 revolutionize California's broadband deployment program.\",\n    \"The COVID-19 pandemic has exposed significant gaps in internet connectivity for Californians.\",\n    \"The need for sufficient internet connectivity has reached crisis proportions in California.\",\n    \"Modern, adaptable technology will provide access to education, job training, and health care in California.\",\n    \"SB 4 and AB 14 will improve access to telehealth services for medically fragile individuals.\",\n    \"Increased internet access will provide economic opportunities for small businesses and workers in California.\",\n    \"The California Internet for All Act of 2021 prioritizes broadband deployment in vulnerable communities.\",\n    \"AB 14 and SB 4 create a pathway for connecting California's workforce to employment opportunities.\",\n    \"The bills aim to democratize distance learning and enable precision agriculture.\",\n    \"AB 14 and SB 4 support the development of a statewide fiber middle-mile network for higher internet speeds.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fc148a7559465037c557a934b88c9d60476351fa"
+}

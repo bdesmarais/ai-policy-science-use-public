@@ -1,0 +1,13 @@
+{
+  "press_release": "20180718-bill-address-repeat-sexual-harassers-workplace-signed-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2770 helps protect victims and employers from frivolous lawsuits.\",\n    \"The bill addresses the issue of repeat sexual harassers in the workplace.\",\n    \"Businesses are afraid to inform each other when a person is fired for sexual harassment due to the threat of lawsu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2770 helps protect victims and employers from frivolous lawsuits.\",\n    \"The bill addresses the issue of repeat sexual harassers in the workplace.\",\n    \"Businesses are afraid to inform each other when a person is fired for sexual harassment due to the threat of lawsuits.\",\n    \"Repeat harassers continue to victimize women in the workplace as they move from job to job.\",\n    \"Harassers have been using lawsuits to silence and intimidate victims and employers.\",\n    \"AB 2770 will end the practice of harassers using lawsuits to intimidate.\",\n    \"The legislation provides protections for former employers to discuss sexual harassment investigations with prospective employers.\",\n    \"Credible claims of sexual harassment by victims to their employers are protected under this legislation.\",\n    \"The bill reduces the likelihood of accused harassers filing defamation suits against victims.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3c7784157c0d5fe612a13254bb7ed6a669e0c7ab"
+}

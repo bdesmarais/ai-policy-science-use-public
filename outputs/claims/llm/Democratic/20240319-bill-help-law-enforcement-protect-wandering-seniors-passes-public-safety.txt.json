@@ -1,0 +1,13 @@
+{
+  "press_release": "20240319-bill-help-law-enforcement-protect-wandering-seniors-passes-public-safety.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) Mar. 19, 2024",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2541 requires the commission for the Peace Officer Training Standard (POST) to work with experts to create guidelines addressing wandering associated with Alzheimer's disease, autism, and dementia.\",\n    \"Finding people when they are wandering is critical because the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2541 requires the commission for the Peace Officer Training Standard (POST) to work with experts to create guidelines addressing wandering associated with Alzheimer's disease, autism, and dementia.\",\n    \"Finding people when they are wandering is critical because the survival rate drops dramatically the longer it takes to find a missing person.\",\n    \"Over 70% of counties in California do not have a rapid response program or registry to aid in finding a missing person with a cognitive impairment.\",\n    \"More than 60% of the people diagnosed with Alzheimer's disease will wander at some point.\",\n    \"Nearly 50% of children with autism will engage in wandering behavior.\",\n    \"Instances of wandering increase the chances of individuals needing assistance from or coming into contact with local law enforcement.\",\n    \"An estimated 6 million Americans are living with Alzheimer's.\",\n    \"Dementia is a generalized term for memory and decision impairment that impacts everyday activities.\",\n    \"Recent data from the Centers for Disease Control (CDC) states that autism affects approximately 1 in 36 children and 1 in 45 adults in the United States.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fc1f385b50ea5b7e896aeebbd22b843ee9b09aee"
+}

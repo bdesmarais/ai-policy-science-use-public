@@ -1,0 +1,13 @@
+{
+  "press_release": "sb-389-governors-desk-preserve-student-health-services.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R–Yucaipa) has announced that Senate Bill 389 has passed the California State Assembly with bipartisan support and is headed to the Governor for signa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 389 ensures that licensed vocational nurses (LVNs) working in schools can provide essential respiratory care to students with special healthcare needs under the supervision of a credentialed school nurse.\",\n    \"SB 389 addresses an unintended consequence of S",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 389 ensures that licensed vocational nurses (LVNs) working in schools can provide essential respiratory care to students with special healthcare needs under the supervision of a credentialed school nurse.\",\n    \"SB 389 addresses an unintended consequence of Senate Bill 1436 (Roth, 2022), which created uncertainty about whether LVNs in educational settings could provide medically necessary suctioning support and tracheostomy care.\",\n    \"Without the clarification provided by SB 389, students requiring suctioning and tracheostomy care could face disruptions in care.\",\n    \"School districts could face increased staffing and fiscal burdens without the provisions of SB 389.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0bd3ddb211de5c757763c34a3426bf5351383ebd"
+}

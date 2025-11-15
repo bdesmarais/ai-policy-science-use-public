@@ -1,0 +1,13 @@
+{
+  "press_release": "20250410-california-state-assembly-speaker-robert-rivas-hosts-district-29-mayors.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7090049e8877016d8225da7192229c85035b165b"
+}

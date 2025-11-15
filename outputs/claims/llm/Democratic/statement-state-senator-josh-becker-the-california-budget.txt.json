@@ -1,0 +1,13 @@
+{
+  "press_release": "statement-state-senator-josh-becker-the-california-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — \"Our state Senate and Assembly have approved historic investments for the recovery and resiliency of Californians and our state, while banking hefty reserves and posit",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:35:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's state budget is the largest in its history and the largest of any state at $300 billion.\",\n    \"California has budgeted $19 billion for climate investments.\",\n    \"Crucial decisions made in the budget can set California on a firmer path to achieve its climat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's state budget is the largest in its history and the largest of any state at $300 billion.\",\n    \"California has budgeted $19 billion for climate investments.\",\n    \"Crucial decisions made in the budget can set California on a firmer path to achieve its climate goals.\",\n    \"California is experiencing severe climate impacts, including rising temperatures, drought, wildfire risk, and sea level rise.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6786f273ae8b89117f8b9c13a5ff5f2521175a77"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20211008-state-lands-commission-empowered-meet-its-mission-thanks-assemblymember.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1390 modernizes the State Lands Commission's authority over school lands.\",\n    \"School lands are state property used to bolster teachers' retirement funds and reach clean energy goals.\",\n    \"AB 1390 empowers the State Lands Commission to better meet its mission.\",\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1390 modernizes the State Lands Commission's authority over school lands.\",\n    \"School lands are state property used to bolster teachers' retirement funds and reach clean energy goals.\",\n    \"AB 1390 empowers the State Lands Commission to better meet its mission.\",\n    \"The Commission can optimize its landholdings to effectively generate revenues for the California State Teachers’ Retirement System (CalSTRS).\",\n    \"AB 1390 positions the state to work with the federal government to meet clean energy and sustainability goals.\",\n    \"The Commission is currently constrained by an obsolete cap on land acquisition fee expenditures.\",\n    \"Existing limitations in the law resulted in the Commission losing out to other investors.\",\n    \"AB 1390 removes constraints that limit the Commission's ability to manage its landholdings effectively.\",\n    \"AB 1390 facilitates the return of ancestral lands to Native American tribes.\",\n    \"The implementation of AB 1390 will help California reach its renewable energy and sustainability goals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0c4619d3b7694e3d7af97f9018141403c0e15bb7"
+}

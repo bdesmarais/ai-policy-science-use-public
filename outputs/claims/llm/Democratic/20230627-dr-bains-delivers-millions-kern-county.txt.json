@@ -1,0 +1,13 @@
+{
+  "press_release": "20230627-dr-bains-delivers-millions-kern-county.txt",
+  "party": "Democratic",
+  "title": "(Sacramento)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Dr. Bains secured $21 million to improve public safety in the 35th Assembly District.\",\n    \"$10.5 million will be dedicated to a local task force designed to provide resources for law enforcement and healthcare providers addressing the fentanyl crisis.\",\n    \"Fentanyl p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Dr. Bains secured $21 million to improve public safety in the 35th Assembly District.\",\n    \"$10.5 million will be dedicated to a local task force designed to provide resources for law enforcement and healthcare providers addressing the fentanyl crisis.\",\n    \"Fentanyl poisoning has become the leading cause of death for younger people in the United States.\",\n    \"The situation regarding drug trafficking and access to support services is worse in rural communities compared to urban ones.\",\n    \"The Economic Mobility Lab at the Kern Community College District will focus on providing career technical education in business services, advanced manufacturing, and IT/cyber security.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e0a32ad1521a28c47580c7bc586c7262bba010fd"
+}

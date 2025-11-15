@@ -1,0 +1,13 @@
+{
+  "press_release": "sb-1420-would-expand-hydrogen-production-and-create-highest-global-hydrogen.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California cannot reach its emission goals without expanding hydrogen production by 1,700 times the present rate of production.\",\n    \"SB 1420 would enable California to leverage its federally awarded Hydrogen Hub grant by unlocking private sector investment estimated to",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California cannot reach its emission goals without expanding hydrogen production by 1,700 times the present rate of production.\",\n    \"SB 1420 would enable California to leverage its federally awarded Hydrogen Hub grant by unlocking private sector investment estimated to bring in $10 billion.\",\n    \"SB 1420 would establish the highest emission standard for hydrogen in the world.\",\n    \"Hydrogen is a critical part of California’s transition to a zero-emission transportation and energy system.\",\n    \"SB 1420 requires that on a statewide basis, no less than 60% of hydrogen used in transportation be renewable by 2030.\",\n    \"By 2045, the remaining 40% of hydrogen used in transportation must be a mix of renewable and 'clean hydrogen.'\",\n    \"The bill borrows from the federal Inflation Reduction Act definition of clean hydrogen, which stipulates a lifecycle greenhouse gas emissions rate of not greater than 4 kilograms of CO2e per kilogram of hydrogen.\",\n    \"SB 1420 requires clean hydrogen to have a carbon intensity that is less than or equal to the annual average carbon intensity of the grid.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3b60c2eef5bdc73ce111e9cbc5bcf653c98f4a20"
+}

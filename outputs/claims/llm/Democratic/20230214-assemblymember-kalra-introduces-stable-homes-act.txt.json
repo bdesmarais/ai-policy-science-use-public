@@ -1,0 +1,13 @@
+{
+  "press_release": "20230214-assemblymember-kalra-introduces-stable-homes-act.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:54:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 919 allows tenants and eligible entities to have the first opportunity to purchase rental properties when owners choose to sell.\",\n    \"The implementation of AB 919 is intended to help mitigate housing instability and overcrowding for low-income families.\",\n    \"AB 91",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 919 allows tenants and eligible entities to have the first opportunity to purchase rental properties when owners choose to sell.\",\n    \"The implementation of AB 919 is intended to help mitigate housing instability and overcrowding for low-income families.\",\n    \"AB 919 aims to help low-income renters build generational wealth and preserve at-risk affordable housing.\",\n    \"Properties acquired under AB 919 will be preserved as permanently affordable with protections for existing and future tenants.\",\n    \"Several states, including Massachusetts, Delaware, and Colorado, have similar 'right of first offer' policies.\",\n    \"AB 919 creates a mechanism to preserve the affordability of existing housing stock.\",\n    \"The policy is designed to level the playing field between renters, nonprofit affordable housing providers, and private investors.\",\n    \"AB 919 is expected to expand California's supply of permanently affordable housing.\",\n    \"This policy aims to give working-class families and marginalized communities a better opportunity to build wealth through homeownership.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "67bf2b89fa207b1715b16797b343931322217114"
+}

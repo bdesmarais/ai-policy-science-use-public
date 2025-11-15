@@ -1,0 +1,13 @@
+{
+  "press_release": "fentanyl-crisis-killing-minors-lackey-pushes-bill-to-hold-dealers-accountable.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – California’s fentanyl crisis is reaching catastrophic levels, claiming the lives of minors at an alarming rate. Despite the outcry from families and law enforcement, t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California’s fentanyl crisis is reaching catastrophic levels, claiming the lives of minors at an alarming rate.\",\n    \"In 2021, more than 1,500 children died from fentanyl overdoses, many after taking counterfeit pills disguised as medications like Percocet and Xanax.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California’s fentanyl crisis is reaching catastrophic levels, claiming the lives of minors at an alarming rate.\",\n    \"In 2021, more than 1,500 children died from fentanyl overdoses, many after taking counterfeit pills disguised as medications like Percocet and Xanax.\",\n    \"California treats selling meth and heroin more seriously than selling fentanyl to minors.\",\n    \"Other states have taken aggressive action to crack down on fentanyl trafficking, while California lags behind.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d640cf526d65bfc264516c88f5a7d4f46e17f945"
+}

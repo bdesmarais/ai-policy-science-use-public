@@ -1,0 +1,13 @@
+{
+  "press_release": "20160315-sex-trade-offender-program-stop-act-passes-unanimous-support.txt",
+  "party": "Democratic",
+  "title": "Unique Legislation Focused on the  Demand Side of Sex Trafficking Passes through Public Safety Committee",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Sex-Trade Offender Program (STOP) Act aims to reduce the demand side of the sex trade business.\",\n    \"Several successful programs throughout the country have proven to be effective in significantly reducing the number of repeat offenders from soliciting sex after co",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Sex-Trade Offender Program (STOP) Act aims to reduce the demand side of the sex trade business.\",\n    \"Several successful programs throughout the country have proven to be effective in significantly reducing the number of repeat offenders from soliciting sex after completing the program.\",\n    \"STOP programs would provide 6 to 8 hours of education on the effects of sex trade on sellers, the legal consequences of subsequent offenses, dynamics of trafficking, and sexual addictions.\",\n    \"The global sex-trade has grown into a powerful industry worth approximately $32 billion.\",\n    \"In California, there were 979 reported cases of human trafficking in 2015, with most victims being women and children forced into the sex trade.\",\n    \"The concept of the STOP program has been effectively implemented in over 50 cities and counties across the U.S., including San Francisco and San Diego.\",\n    \"The implementation of STOP programs in certain cities has resulted in a 50% reduction in recidivism rates.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9c0eab4b2bbd0b474124c747d04d818636edf613"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250219-assemblymember-connolly-streamlines-wildfire-preparedness-efforts.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) introduced AB 846, which will provide local agencies with a voluntary, streamlined process that prioritizes wil",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Damon Connolly introduced AB 846 to provide local agencies with a streamlined process for wildfire preparedness.\",\n    \"AB 846 aims to improve wildfire preparedness efforts while upholding environmental laws and permitting authorities.\",\n    \"The bill is d",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Damon Connolly introduced AB 846 to provide local agencies with a streamlined process for wildfire preparedness.\",\n    \"AB 846 aims to improve wildfire preparedness efforts while upholding environmental laws and permitting authorities.\",\n    \"The bill is designed to help communities prepare for wildfires and steward endangered wildlife and habitats.\",\n    \"The introduction of AB 846 responds to the growing threat of wildfires in California.\",\n    \"AB 846 will establish a voluntary process for local agencies to submit wildfire preparedness programs to the California Department of Fish and Wildlife.\",\n    \"The legislation aims to avoid and mitigate disruptions to endangered, threatened, or candidate species and habitats.\",\n    \"AB 846 allows vegetative management activities in fire hazard severity zones to mitigate wildfire risk.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "47d05cc330d00c6e83db80ca15a9f8c7fed6b768"
+}

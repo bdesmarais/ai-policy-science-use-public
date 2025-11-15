@@ -1,0 +1,13 @@
+{
+  "press_release": "20250521-asm-wicks-announces-partnership-state-library-support-work-california.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Civic Media Fund is part of a first-in-the-nation agreement to support community news across the state.\",\n    \"The Civic Media Fund aims to improve the information available to Californians about their communities and public policy.\",\n    \"The Civic Media ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Civic Media Fund is part of a first-in-the-nation agreement to support community news across the state.\",\n    \"The Civic Media Fund aims to improve the information available to Californians about their communities and public policy.\",\n    \"The Civic Media Fund seeks to confront the crisis facing local news by investing in trusted, community-based journalism.\",\n    \"Investments from the Civic Media Fund will prioritize strengthening community news coverage.\",\n    \"The State Library will coordinate regional assessments of the current community news and information landscape across California.\",\n    \"Public funding from the Civic Media Fund will be used to develop tools that help reporters and content creators access information.\",\n    \"OpenAI will collaborate on the project to help news organizations harness AI for real-world benefits.\",\n    \"California is pioneering a model of public-private support for journalism innovation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "40c3213be162c3094fadae0b0bf15282bf150aec"
+}

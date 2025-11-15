@@ -1,0 +1,13 @@
+{
+  "press_release": "20210301-assemblymembers-irwin-and-wicks-continue-fight-protect-individuals-mobility.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A bill has been re-introduced in the State Legislature to enforce limits on government’s ability to compel mobility data from micro-mobility companies.\",\n    \"Some local governments have unlawfully collected individual on-trip location data of e-scooter and e-bike riders",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A bill has been re-introduced in the State Legislature to enforce limits on government’s ability to compel mobility data from micro-mobility companies.\",\n    \"Some local governments have unlawfully collected individual on-trip location data of e-scooter and e-bike riders.\",\n    \"A federal judge dismissed the ACLU’s lawsuit against the Los Angeles Department of Transportation regarding privacy violations from their Mobility Data Specification permit requirement.\",\n    \"The California Electronic Communications Privacy Act prohibits government entities from compelling access to electronic device information without a search warrant, wiretap order, or subpoena.\",\n    \"Local governments have ignored the California Electronic Communications Privacy Act by requiring businesses to provide individual, on-trip data to transportation planning agencies.\",\n    \"AB 859 would give local government agencies data collection authority that they currently do not have.\",\n    \"AB 859 allows local government entities to acquire de-identified and aggregate micro-mobility device data.\",\n    \"AB 859 aims to balance local planning needs with Californians’ constitutionally and statutorily protected right to privacy.\",\n    \"AB 859 provides for reasonable mobility data collection of operational data without a user, and anonymized trip data when there is a user.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d232489d0f98173df412251edd2855cd7520d885"
+}

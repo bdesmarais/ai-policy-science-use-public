@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-committee-unanimously-approves-measure-sen-valladares-expand-healthcare-access.txt",
+  "party": "Republican",
+  "title": "Today the Senate Business, Professions & Economic Development Committee unanimously approved Senator Suzette Valladares’ (R-Santa Clarita) Senate Bill 508 , which will provide pati",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 508 will provide patients with greater flexibility and more access to their established specialized care provider.\",\n    \"The bill seeks to improve the continuum of care by allowing patients who once met specific requirements to continue telehealth visits wit",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 508 will provide patients with greater flexibility and more access to their established specialized care provider.\",\n    \"The bill seeks to improve the continuum of care by allowing patients who once met specific requirements to continue telehealth visits with their out-of-state provider.\",\n    \"Under current law, telehealth visits between physicians and patients are confined within state borders, with exceptions for individuals with terminal diagnoses or those enrolled in clinical trials.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9bd0eccbdd20f71cff33626acb8442953306259c"
+}

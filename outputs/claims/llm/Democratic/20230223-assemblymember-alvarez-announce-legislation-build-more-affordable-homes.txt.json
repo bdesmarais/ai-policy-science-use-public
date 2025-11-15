@@ -1,0 +1,13 @@
+{
+  "press_release": "20230223-assemblymember-alvarez-announce-legislation-build-more-affordable-homes.txt",
+  "party": "Democratic",
+  "title": "Assemblymember David Alvarez to Announce Legislation to Build More Affordable Homes",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:55:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d24819e026272b30b3efcc500dde7bf8ff91b302"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-archuletas-bill-ensure-preservation-home-equity-foreclosure-proceedings.txt",
+  "party": "Democratic",
+  "title": "Pico Rivera, CA – Senator Archuleta’s bill SB 1323 to require lenders in foreclosure proceedings to hire a realtor and sell the secured property for its appraised value on a multip",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Foreclosed homeowners are often low-income, elderly, immigrant, or disabled members of vulnerable communities.\",\n    \"The loss of even a single dollar of home equity puts consumers at increased risk of poverty and homelessness.\",\n    \"A quarter of foreclosed California h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Foreclosed homeowners are often low-income, elderly, immigrant, or disabled members of vulnerable communities.\",\n    \"The loss of even a single dollar of home equity puts consumers at increased risk of poverty and homelessness.\",\n    \"A quarter of foreclosed California homeowners have their properties sold at auction for over 30% less than actual market value.\",\n    \"A tenth of foreclosed California homeowners have their properties sold for under 52% of market value.\",\n    \"One in twenty foreclosed California homeowners have their properties sold at auction for over 70% less than the actual market value of their property.\",\n    \"The average loss in home equity for California homeowners facing foreclosure is over $376,000.\",\n    \"Home ownership is the primary savings vehicle for low- and middle-class households in the United States.\",\n    \"For families without liquid funds to pay their mortgage, accrued home equity may be their only savings.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "398398d0768adb005f5386552a86a9262c7ced97"
+}

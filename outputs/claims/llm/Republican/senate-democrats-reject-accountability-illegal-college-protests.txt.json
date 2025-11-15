@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-democrats-reject-accountability-illegal-college-protests.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian Jones ( R-San Diego ) presented an amendment to address illegal and violent protests on public state colleges and universities. Click here to re",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Violence and illegal activity of any kind is NOT protected by the First Amendment.\",\n    \"Taxpayers should not be bankrolling lawlessness on college campuses.\",\n    \"Students involved in illegal protest activities should have their Cal Grants revoked.\",\n    \"UCLA’s handl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Violence and illegal activity of any kind is NOT protected by the First Amendment.\",\n    \"Taxpayers should not be bankrolling lawlessness on college campuses.\",\n    \"Students involved in illegal protest activities should have their Cal Grants revoked.\",\n    \"UCLA’s handling of the illegal protests was described by a judge as 'unimaginable' and 'abhorrent.'\",\n    \"UCLA failed to protect the religious freedom of Jewish students during the protests.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "53447c0c144fa4d21d4b1dd7cd2e550e9546267e"
+}

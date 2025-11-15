@@ -1,0 +1,13 @@
+{
+  "press_release": "20250116-addis-urges-safety-and-caution-moss-landing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The safety and wellbeing of communities is a priority concerning energy storage facilities.\",\n    \"There are serious questions about the safety of battery energy storage plants.\",\n    \"There is a need for transparency and accountability regarding safety incidents at batt",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The safety and wellbeing of communities is a priority concerning energy storage facilities.\",\n    \"There are serious questions about the safety of battery energy storage plants.\",\n    \"There is a need for transparency and accountability regarding safety incidents at battery energy storage plants.\",\n    \"Options are being explored to prevent future battery energy storage fires.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6ad188f056658b414a80db1b8bec80bc442a82f8"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230317-assemblymember-gipson-hosts-clean-california-community-days.txt",
+  "party": "Democratic",
+  "title": "Compton, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:56:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Caltrans has removed nearly 1.4 million cubic yards of litter from state highways since launching Clean California in 2021.\",\n    \"The amount of litter removed by Caltrans is equivalent to more than 23,000 tons.\",\n    \"The litter removed by Caltrans is enough to fill mor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Caltrans has removed nearly 1.4 million cubic yards of litter from state highways since launching Clean California in 2021.\",\n    \"The amount of litter removed by Caltrans is equivalent to more than 23,000 tons.\",\n    \"The litter removed by Caltrans is enough to fill more than 420 Olympic-Size swimming pools.\",\n    \"The Clean California initiative has created more than 800 new jobs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70dea29516ca10740512bb91c0aba3b6925d97cd"
+}

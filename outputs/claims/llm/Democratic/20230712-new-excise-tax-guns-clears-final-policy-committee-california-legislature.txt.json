@@ -1,0 +1,13 @@
+{
+  "press_release": "20230712-new-excise-tax-guns-clears-final-policy-committee-california-legislature.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proceeds from excise taxes on firearm manufacturers, dealers, and ammunition vendors in California will be directed towards efforts to protect Californians from mass shootings and gun violence.\",\n    \"Legislation that imposes a new excise tax is expected to raise ove",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proceeds from excise taxes on firearm manufacturers, dealers, and ammunition vendors in California will be directed towards efforts to protect Californians from mass shootings and gun violence.\",\n    \"Legislation that imposes a new excise tax is expected to raise over $160 million annually.\",\n    \"The funds generated from the excise tax will support the California Violence Intervention and Prevention Grant Program (CalVIP).\",\n    \"The bill seeks to improve school safety and bolster firearm investigations.\",\n    \"The excise tax will help remove guns from domestic abusers and other prohibited persons.\",\n    \"The bill aims to provide trauma-informed services for victims of gun violence.\",\n    \"The introduction of AB 28 coincided with hundreds of mass shootings in the United States.\",\n    \"Firearm purchases rose to record levels in 2020 and 2021, with an estimated 43 million guns purchased.\",\n    \"Gun manufacturers have reported record-breaking profits during the period of rising firearm purchases and gun violence.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4b5615eaff8819473c0fedbe52ffd333818f96ff"
+}

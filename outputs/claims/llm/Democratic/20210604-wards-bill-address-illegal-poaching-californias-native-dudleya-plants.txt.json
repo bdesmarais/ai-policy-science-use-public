@@ -1,0 +1,13 @@
+{
+  "press_release": "20210604-wards-bill-address-illegal-poaching-californias-native-dudleya-plants.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Poachers have been harvesting populations of California succulents known as Dudleya by the thousands.\",\n    \"The illegal poaching of the California Dudleya plant is removing thousands of these sensitive, native species from California's wildlands.\",\n    \"AB 223 will assi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Poachers have been harvesting populations of California succulents known as Dudleya by the thousands.\",\n    \"The illegal poaching of the California Dudleya plant is removing thousands of these sensitive, native species from California's wildlands.\",\n    \"AB 223 will assist in deterring Dudleya poaching.\",\n    \"AB 223 will establish clear enforcement guidelines for law enforcement regarding Dudleya poaching.\",\n    \"AB 223 will give populations of this native plant species an opportunity to recover.\",\n    \"AB 223 will make it unlawful to sell or possess with the intent to sell any Dudleya illegally taken from its natural habitat.\",\n    \"AB 223 establishes minimum penalties of $5,000 per plant for the first offense of illegally taking Dudleya.\",\n    \"AB 223 establishes minimum penalties of $40,000 per plant for any subsequent offenses of illegally taking Dudleya.\",\n    \"The continued poaching of Dudleya will cause catastrophic damage to these species.\",\n    \"The continued poaching of Dudleya elevates the risk of extinction for these plants.\",\n    \"The continued poaching of Dudleya threatens the biodiversity of the state of California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "722d8967a05f650f41fa25206d50b815187afcd3"
+}

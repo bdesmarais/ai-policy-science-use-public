@@ -1,0 +1,13 @@
+{
+  "press_release": "suzette-martinez-valladares-sworn-senate-alongside-new-diverse-class-senate-republicans.txt",
+  "party": "Republican",
+  "title": "Senator Suzette Martinez Valladares (R-Santa Clarita) celebrated a momentous day with California Senate Republicans as three new members and one returning member of the Senate Repu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0a5456857f67b961b56c901fe987baad795f2887"
+}

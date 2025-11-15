@@ -1,0 +1,13 @@
+{
+  "press_release": "20231015-california-cracks-down-hotel-junk-fees.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:30:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom has signed legislation requiring mandatory hotel and resort fees to be disclosed in the advertised, offered, and displayed room rates.\",\n    \"Reports show that U.S. hotels generate billions of dollars from mandatory hotel fees.\",\n    \"Deceptive adve",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom has signed legislation requiring mandatory hotel and resort fees to be disclosed in the advertised, offered, and displayed room rates.\",\n    \"Reports show that U.S. hotels generate billions of dollars from mandatory hotel fees.\",\n    \"Deceptive advertising in the short-term lodging industry has significantly increased over the last few years.\",\n    \"At least one thousand of the 40,000 Airbnb listings studied charged a cleaning fee that was only $10 less than the nightly rate.\",\n    \"83% of short-term rentals in Los Angeles charged a cleaning fee, which typically ranged from $5 to $1,500, with one fee as much as $2,500.\",\n    \"In 2018, across the U.S., hotels generated approximately $3 billion in mandatory hotel fees, an 8.5% increase compared to 2017.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "23a30765d00f53a4f51cd8ec3be8746c21524b0c"
+}

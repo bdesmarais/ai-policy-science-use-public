@@ -1,0 +1,13 @@
+{
+  "press_release": "20250627-750-million-film-tax-credit-funding-moves-forward.txt",
+  "party": "Democratic",
+  "title": "SB 132, a budget trailer bill that expands the California Film and Television Tax Credit Program from  $330 million to $750 million has passed the Legislature and now heads to the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Film and Television Tax Credit Program has created over 197,000 jobs statewide since its inception in 2009.\",\n    \"The Film & Television Tax Credit Program has generated $26 billion in economic activity in California.\",\n    \"Every dollar spent through the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Film and Television Tax Credit Program has created over 197,000 jobs statewide since its inception in 2009.\",\n    \"The Film & Television Tax Credit Program has generated $26 billion in economic activity in California.\",\n    \"Every dollar spent through the Film & Television Tax Credit Program generates $24.40 in economic output.\",\n    \"Every dollar spent through the Film & Television Tax Credit Program generates $16.14 in GDP.\",\n    \"Every dollar spent through the Film & Television Tax Credit Program generates $8.60 in wages.\",\n    \"Every dollar spent through the Film & Television Tax Credit Program generates $1.07 in state and local tax revenue.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6c590f239916d37330fe9868f6e6c77b28e31f01"
+}

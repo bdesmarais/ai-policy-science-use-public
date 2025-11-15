@@ -1,0 +1,13 @@
+{
+  "press_release": "20240416-assemblymember-david-alvarezs-bill-help-protect-california-insurance.txt",
+  "party": "Democratic",
+  "title": "(Sacramento) Today, the Assembly Committee on Jobs, Economic Development, and the Economy passed Assemblymember David Alvarez’s (D-San Diego) Assembly Bill 2996, which would help s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:40:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2996 aims to stabilize the insurance marketplace by bolstering the state's Fair Access to Insurance Requirements (FAIR) Plan.\",\n    \"The FAIR Plan experienced a 22% increase in its Policies in Force in 2023, currently standing at 350,000.\",\n    \"The FAIR Pl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2996 aims to stabilize the insurance marketplace by bolstering the state's Fair Access to Insurance Requirements (FAIR) Plan.\",\n    \"The FAIR Plan experienced a 22% increase in its Policies in Force in 2023, currently standing at 350,000.\",\n    \"The FAIR Plan's risk exposure was over $311 billion as of December 2023, compared to $50 billion in 2018.\",\n    \"A major disaster could result in an insolvent FAIR Plan and its subsequent bail out by member insurers.\",\n    \"Assembly Bill 2996 aims to provide financial certainty by increasing the financial tools available to offset increases in exposure that threaten the FAIR Plan's solvency.\",\n    \"The legislation is intended to improve insurance coverage for homeowners and support the construction of new housing units.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2efbe58b4e7b31dff41034a7b0f2a41a01235e4c"
+}

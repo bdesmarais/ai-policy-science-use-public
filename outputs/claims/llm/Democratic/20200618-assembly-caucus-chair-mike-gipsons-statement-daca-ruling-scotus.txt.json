@@ -1,0 +1,13 @@
+{
+  "press_release": "20200618-assembly-caucus-chair-mike-gipsons-statement-daca-ruling-scotus.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- Assemblymember Mike A. Gipson (D-Carson) released the following statement on the Supreme Court ruling on DACA (Deferred Action for Childhood Arrivals):",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb67ae92e53e7768dbdc174844017d436750057f"
+}

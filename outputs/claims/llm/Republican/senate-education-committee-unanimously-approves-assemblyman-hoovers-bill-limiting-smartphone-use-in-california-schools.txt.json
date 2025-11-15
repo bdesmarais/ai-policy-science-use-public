@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-education-committee-unanimously-approves-assemblyman-hoovers-bill-limiting-smartphone-use-in-california-schools.txt",
+  "party": "Republican",
+  "title": "Sacramento – Today the Senate Education Committee unanimously passed landmark legislation authored by Assemblymembers Josh Hoover (R-Folsom), Al Muratsuchi (D-Torrance), and Josh L",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Research demonstrates the potential harms of smartphone use among children.\",\n    \"The growing use of smartphones can contribute to lower test scores, anxiety, depression, and suicide among children.\",\n    \"Excessive smartphone use interferes with learning and contribute",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Research demonstrates the potential harms of smartphone use among children.\",\n    \"The growing use of smartphones can contribute to lower test scores, anxiety, depression, and suicide among children.\",\n    \"Excessive smartphone use interferes with learning and contributes to teenage anxiety, depression, and cyberbullying.\",\n    \"Removing smartphones from classrooms has been associated with an average increase of six percent in standardized test scores.\",\n    \"There is a noted increase in the percentage of high school seniors expressing that 'life often feels meaningless' since the advent of widespread smartphone use.\",\n    \"Rates of anxiety, depression, and suicide are on the rise among young people, particularly those under the age of 14.\",\n    \"Up to 15% of teenagers engage in 'problematic social media use,' which includes negative symptoms like preoccupation and withdrawal.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1839c6c54a892dfe799310052ce01e417440ab46"
+}

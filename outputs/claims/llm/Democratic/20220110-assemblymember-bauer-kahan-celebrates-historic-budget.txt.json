@@ -1,0 +1,13 @@
+{
+  "press_release": "20220110-assemblymember-bauer-kahan-celebrates-historic-budget.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The budget contains a comprehensive commitment of $7.5 million dollars, with $6 million ongoing, to the Assemblymember Bauer-Kahan’s priority 988 system.\",\n    \"The investment in 988 seeks to ensure that Californians suffering from mental health crises receive a comprehe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The budget contains a comprehensive commitment of $7.5 million dollars, with $6 million ongoing, to the Assemblymember Bauer-Kahan’s priority 988 system.\",\n    \"The investment in 988 seeks to ensure that Californians suffering from mental health crises receive a comprehensive healthcare response instead of a law enforcement response.\",\n    \"The proposed budget includes plans to create seamless connections between the 988 system and emergency services like 911.\",\n    \"The 988 system has the potential to transform California's mental health crisis response.\",\n    \"Governor Newsom's proposed budget aims to ensure mental health emergencies receive a mental health response.\",\n    \"The current system of responding to mental health emergencies is characterized by criminalization, resulting in trauma and worsening conditions.\",\n    \"The budget includes $750 million in drought mitigation funds to address drought conditions in California.\",\n    \"There is an ongoing need for climate resiliency in California to prepare for additional drought years.\",\n    \"The budget allocates $60 million for investments in reproductive healthcare to address accessibility and availability of care.\",\n    \"The investments in reproductive healthcare aim to tackle patient safety, wellbeing, and critical workforce shortages.\",\n    \"The budget includes expanded plans to protect Californians from retail theft.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d57a720bb673a6c909f090d9e235baeaf04b907"
+}

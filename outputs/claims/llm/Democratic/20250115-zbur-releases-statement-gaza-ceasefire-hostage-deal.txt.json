@@ -1,0 +1,13 @@
+{
+  "press_release": "20250115-zbur-releases-statement-gaza-ceasefire-hostage-deal.txt",
+  "party": "Democratic",
+  "title": "Israel and Hamas reach a ceasefire and hostage deal to reunite hostages with their families and surge much-needed humanitarian assistance to Palestinian civilians",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "14ce119636d68daf4a6822fb251c8d02c5b1f03b"
+}

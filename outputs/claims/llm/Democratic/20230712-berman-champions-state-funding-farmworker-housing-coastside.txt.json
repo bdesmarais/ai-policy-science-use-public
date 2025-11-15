@@ -1,0 +1,13 @@
+{
+  "press_release": "20230712-berman-champions-state-funding-farmworker-housing-coastside.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Marc Berman secured $2.5 million in the 2023-24 state budget for two affordable farmworker housing projects on the San Mateo County Coast.\",\n    \"Renting a two-bedroom apartment in Half Moon Bay costs approximately 97% of the median income for a County far",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Marc Berman secured $2.5 million in the 2023-24 state budget for two affordable farmworker housing projects on the San Mateo County Coast.\",\n    \"Renting a two-bedroom apartment in Half Moon Bay costs approximately 97% of the median income for a County farmworker.\",\n    \"The average rent for a two-bedroom apartment in the City and surrounding Coastside communities is $3,000 a month.\",\n    \"The median farmworker household income is $37,150, which is less than 20% of the County area median income for a family of four.\",\n    \"San Mateo County farmworkers and their families are among the most economically vulnerable residents in the county due to the high cost of housing and the very limited supply of affordable units.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b5dacac33405969e2fd850ee50490dac05ff0fca"
+}

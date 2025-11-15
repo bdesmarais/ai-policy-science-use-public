@@ -1,0 +1,13 @@
+{
+  "press_release": "california-defies-federal-civil-rights-order-risks-billions-to-keep-biological-males-in-girls-sports.txt",
+  "party": "Republican",
+  "title": "State refuses to comply with Title IX ruling, putting girls’ sports and school funding in jeopardy",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of Education announced it will not follow a directive from the U.S. Department of Education regarding Title IX.\",\n    \"The U.S. Department of Education found California violated Title IX by allowing biological males to compete in girls’ sports.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of Education announced it will not follow a directive from the U.S. Department of Education regarding Title IX.\",\n    \"The U.S. Department of Education found California violated Title IX by allowing biological males to compete in girls’ sports.\",\n    \"California's refusal to comply with federal directives could cost the state billions in federal education funding.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "722f9daa33feb01dd1f0a1c855bae5d37a07a214"
+}

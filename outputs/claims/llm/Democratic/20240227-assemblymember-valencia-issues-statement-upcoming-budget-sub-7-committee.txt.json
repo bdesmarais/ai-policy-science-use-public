@@ -1,0 +1,13 @@
+{
+  "press_release": "20240227-assemblymember-valencia-issues-statement-upcoming-budget-sub-7-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – The Assembly’s new Budget Subcommittee on Accountability and Oversight will hold its first oversight hearing on February 28 to review whether the State’s investmen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The State’s investment in broadband infrastructure aims to connect all Californians to reliable high-speed internet service.\",\n    \"Senate Bill 156 directed $3.25 billion to the California Department of Technology to build a statewide middle-mile broadband network.\"",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The State’s investment in broadband infrastructure aims to connect all Californians to reliable high-speed internet service.\",\n    \"Senate Bill 156 directed $3.25 billion to the California Department of Technology to build a statewide middle-mile broadband network.\",\n    \"An additional $2.75 billion was allocated to the California Public Utilities Commission to fund service providers for internet deployment to unserved locations.\",\n    \"California is currently in year three of the 'Broadband for All' infrastructure investment.\",\n    \"Broadband is essential to participate in today’s digital society.\",\n    \"California has invested over $7 billion to expand broadband infrastructure to households and communities without proper internet access.\",\n    \"The recent pandemic highlighted the urgency and importance of expanding broadband access.\",\n    \"The state aims to ensure that the historic investment in broadband is spent equitably and efficiently.\",\n    \"The Assembly Committee on Communications and Conveyance is demanding accountability from the California Public Utilities Commission and Department of Technology for broadband expansion efforts.\",\n    \"The Biden Administration has partnered with the state through the 2021 bipartisan infrastructure stimulus package to improve broadband access.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bdadc89d02650d9b2cd7630f93ebc6f370ad082d"
+}

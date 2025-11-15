@@ -1,0 +1,13 @@
+{
+  "press_release": "20211018-assemblymember-james-ramos-getting-national-award-mental-wellbeing-advocacy.txt",
+  "party": "Democratic",
+  "title": "Sacramento—California Assemblymember James C. Ramos will be recognized by the National Council for Mental Wellbeing on",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"As a result of Assemblymember Ramos’ leadership, California now has a statewide Office of Suicide Prevention with dedicated funding to help support crisis services.\",\n    \"The establishment of the Office of Suicide Prevention aims to provide leadership on suicide prevent",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"As a result of Assemblymember Ramos’ leadership, California now has a statewide Office of Suicide Prevention with dedicated funding to help support crisis services.\",\n    \"The establishment of the Office of Suicide Prevention aims to provide leadership on suicide prevention and focus on vulnerable groups, including youth, tribal youth, LGBTQ+, and older adults.\",\n    \"Assemblymember Ramos successfully introduced legislation to expand school suicide prevention policies to cover K-6 students.\",\n    \"Ramos authored AB 2112 to establish California’s first Office of Suicide Prevention at the California Department of Public Health.\",\n    \"The California Alliance of Child and Family Services recognizes Assemblymember Ramos as a champion of children’s behavioral health care.\",\n    \"Assemblymember Ramos has secured funding to implement the state’s first Office of Suicide Prevention.\",\n    \"The National Council has trained more than 2.5 million people in the U.S. through the Mental Health First Aid program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e034928a8f324315c8c648450ae9b53706aa46b0"
+}

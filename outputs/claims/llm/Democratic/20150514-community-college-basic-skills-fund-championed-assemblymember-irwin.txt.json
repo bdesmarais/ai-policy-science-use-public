@@ -1,0 +1,13 @@
+{
+  "press_release": "20150514-community-college-basic-skills-fund-championed-assemblymember-irwin.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember  Jacqui Irwin (D-Thousand Oaks) today announced that her plan to allow more  community college campuses to implement innovative basic skills programs to",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:51:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Governor Brown has included $60 million from Prop 98 to fund basic skills innovation in California's community college system.\",\n    \"California's community college system has an opportunity for a targeted one-time investment that will have a long-term impact on stu",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Governor Brown has included $60 million from Prop 98 to fund basic skills innovation in California's community college system.\",\n    \"California's community college system has an opportunity for a targeted one-time investment that will have a long-term impact on students' lives and success.\",\n    \"Over 70% of students enrolling in California’s community colleges for the first time are deemed unprepared and in need of remedial basic skills courses.\",\n    \"In early efforts that served as the model for the bill’s language, students’ completion rates for college-level English courses more than doubled compared to those in traditional remediation.\",\n    \"Completion rates for college-level mathematics increased more than four times for students compared to those in traditional remediation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e56d133283c4e726df489667768b0f4257c950b8"
+}

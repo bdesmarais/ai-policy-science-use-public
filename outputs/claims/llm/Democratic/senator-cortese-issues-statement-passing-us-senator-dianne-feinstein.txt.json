@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-issues-statement-passing-us-senator-dianne-feinstein.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) issued the following statement on the passing of U.S. Senator Dianne Feinstein:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2d322291d69eb6f5e589b478b06a219241101e7f"
+}

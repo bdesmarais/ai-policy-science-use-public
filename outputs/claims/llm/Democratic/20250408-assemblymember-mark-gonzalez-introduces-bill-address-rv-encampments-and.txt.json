@@ -1,0 +1,13 @@
+{
+  "press_release": "20250408-assemblymember-mark-gonzalez-introduces-bill-address-rv-encampments-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA - Assemblymember Mark González (D-Los Angeles)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:31:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The number of individuals experiencing homelessness in Los Angeles who live in RVs has surged by 40% since 2018.\",\n    \"Nearly 6,500 individuals experiencing homelessness in Los Angeles live in approximately 4,000 RVs.\",\n    \"The RVs occupied by unhoused individuals in L",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The number of individuals experiencing homelessness in Los Angeles who live in RVs has surged by 40% since 2018.\",\n    \"Nearly 6,500 individuals experiencing homelessness in Los Angeles live in approximately 4,000 RVs.\",\n    \"The RVs occupied by unhoused individuals in Los Angeles now make up 22% of the city's unsheltered homeless population.\",\n    \"Many RVs occupied by unhoused individuals in Los Angeles are in severe disrepair, exposing their occupants to hazardous conditions.\",\n    \"Improper waste disposal and fire hazards from external generators associated with RVs pose public health and safety risks.\",\n    \"Predatory buyers, referred to as 'vanlords,' purchase dilapidated RVs for low prices and rent them out to individuals lacking basic utilities and safety standards.\",\n    \"AB 630 proposes the expedited removal and responsible disposal of impounded RVs valued under $4,000.\",\n    \"Current law allows for RVs valued at $500 or less to be dismantled without lien sales.\",\n    \"The delay in lien sales due to a backlog at the DMV strains local governments' storage capacity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba0b642bbdf7b1f227634c96bb0b180b97afe2d7"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "holy-cannoli-selected-senator-corteses-small-business-year.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) has selected local small business, Holy Cannoli San Jose , as his “Small Business of the Year” in honor of California Small Business Day™ 2021. Co",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2c9375f2753193e6116f706e608ff4df66a601e6"
+}

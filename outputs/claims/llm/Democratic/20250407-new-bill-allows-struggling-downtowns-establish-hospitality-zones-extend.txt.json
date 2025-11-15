@@ -1,0 +1,13 @@
+{
+  "press_release": "20250407-new-bill-allows-struggling-downtowns-establish-hospitality-zones-extend.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's nightlife economy is under threat due to strict 'last call' laws.\",\n    \"A thriving nightlife can positively impact various sectors, including retail, the arts, restaurants, housing, and conventions.\",\n    \"Over a dozen states, including Nevada and Florida, ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's nightlife economy is under threat due to strict 'last call' laws.\",\n    \"A thriving nightlife can positively impact various sectors, including retail, the arts, restaurants, housing, and conventions.\",\n    \"Over a dozen states, including Nevada and Florida, allow cities to set their own 'last call' hours.\",\n    \"California has experienced a decline in hosting large conventions, with events relocating to nearby states.\",\n    \"Large conventions can potentially generate close to $587 million for local economies.\",\n    \"Hotel revenue in the Bay Area remains down by 45%, and restaurant revenue is 20% less than in 2019.\",\n    \"Major events like music festivals contribute significantly to the local economy, as seen with Coachella generating over $700 million.\",\n    \"The 2025 Super Bowl generated $1 billion for the New Orleans economy.\",\n    \"California's upcoming hosting of major events, including the Super Bowl and World Cup, presents opportunities for small businesses.\",\n    \"AB 342 will enhance competitiveness in attracting conventions to the Los Angeles Convention Center.\",\n    \"AB 342 allows local governments to create Hospitality Zones with flexibility in closing times.\",\n    \"Only one venue in California currently has a later last call beyond 2 a.m.\",\n    \"A 4 a.m. last call could provide a staggered closing time and improve the flow of people returning home, enhancing safety.\",\n    \"The expansion of rideshare services like Uber and Lyft has improved safe transportation options at night.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c8fadb51908761cc6fa04c9c642fde305a942b6b"
+}

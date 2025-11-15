@@ -1,0 +1,13 @@
+{
+  "press_release": "20210215-new-vista-vaccination-clinic-opens-existing-testing-facility.txt",
+  "party": "Democratic",
+  "title": "VISTA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:23:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The County of San Diego began operating a new COVID-19 vaccination clinic at the Linda Rhoades Recreation Center in Vista.\",\n    \"The Linda Rhoades Recreation Center has been operational as a COVID-19 testing facility since November 11th.\",\n    \"Vaccinations will be admi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The County of San Diego began operating a new COVID-19 vaccination clinic at the Linda Rhoades Recreation Center in Vista.\",\n    \"The Linda Rhoades Recreation Center has been operational as a COVID-19 testing facility since November 11th.\",\n    \"Vaccinations will be administered on non-testing days to avoid cross-traffic between eligible vaccine recipients and potentially COVID-19 positive individuals.\",\n    \"The partnership convened by Assemblymember Boerner Horvath aimed to expand no-cost, walk-in testing in the hardest hit areas of North County.\",\n    \"Thousands of residents have been tested at the Linda Rhoades site.\",\n    \"The vaccination clinic at the Vista site was established as a result of collaborative efforts between local government and stakeholders.\",\n    \"Underserved communities have been described as often the hardest hit by the pandemic.\",\n    \"Efforts have been focused on ensuring equitable deployment of resources for testing, tracing, treatment, and vaccinations.\",\n    \"The testing site at the Linda Rhoades Recreation Center has been successfully utilized by the Vista community.\",\n    \"The Linda Rhoades Recreation Center is positioned on a busy corridor, making it easily accessible for community members.\",\n    \"The expansion of vaccination services at Linda Rhoades Recreation Center aims to address the equity gap for the hardest hit neighborhoods in Vista.\",\n    \"Collaboration between multiple levels of government and organizations has brought much-needed services to Vista during the pandemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "83b56c1ee73f7c31b68c936325cd9c3321d5dbeb"
+}

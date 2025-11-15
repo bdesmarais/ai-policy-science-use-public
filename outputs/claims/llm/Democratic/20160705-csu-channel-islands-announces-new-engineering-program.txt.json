@@ -1,0 +1,13 @@
+{
+  "press_release": "20160705-csu-channel-islands-announces-new-engineering-program.txt",
+  "party": "Democratic",
+  "title": "Camarillo, Calif., July 6, 2016— After years of work and  planning, CSU Channel Islands (CI) is announcing the launch of its own  Engineering Program.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"CSU Channel Islands is launching its own Engineering Program.\",\n    \"The Engineering Program at CSU Channel Islands aims to deliver quality graduates to fill hundreds of engineering jobs available each year in Ventura County.\",\n    \"A needs assessment study conducted in ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"CSU Channel Islands is launching its own Engineering Program.\",\n    \"The Engineering Program at CSU Channel Islands aims to deliver quality graduates to fill hundreds of engineering jobs available each year in Ventura County.\",\n    \"A needs assessment study conducted in 2012 revealed that about half of Ventura County companies planned to hire engineers.\",\n    \"The state Employment Development Department indicated that almost 300 new engineers are needed each year in Ventura County.\",\n    \"CSU Channel Islands has a significant female and Latino population, both of which are under-represented in STEM fields.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e449408d0a27cf63d2aedcf8f0af844428cd2c96"
+}

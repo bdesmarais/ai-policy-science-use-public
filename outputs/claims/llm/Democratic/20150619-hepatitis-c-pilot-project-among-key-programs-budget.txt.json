@@ -1,0 +1,13 @@
+{
+  "press_release": "20150619-hepatitis-c-pilot-project-among-key-programs-budget.txt",
+  "party": "Democratic",
+  "title": "State funds heading to health programs, education and local",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:51:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ea5705e4a13937388600d0d2fa23e41e2d5e7141"
+}

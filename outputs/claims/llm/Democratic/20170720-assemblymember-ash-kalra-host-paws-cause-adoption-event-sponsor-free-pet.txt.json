@@ -1,0 +1,13 @@
+{
+  "press_release": "20170720-assemblymember-ash-kalra-host-paws-cause-adoption-event-sponsor-free-pet.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE – Assemblymember Ash Kalra (D-San Jose) will hold a press conference tomorrow at 11:30 a.m. at the San Jose Animal Care Center on 2750 Monterey Road to kick off “Paws for ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Paws for a Cause pet adoption drive will have zero adoption fees from July 22 to August 6.\",\n    \"The San Jose Animal Care Center has become a no-kill shelter.\",\n    \"Adult animals are often overlooked in a shelter environment.\",\n    \"Adopting an adult pet allows pot",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Paws for a Cause pet adoption drive will have zero adoption fees from July 22 to August 6.\",\n    \"The San Jose Animal Care Center has become a no-kill shelter.\",\n    \"Adult animals are often overlooked in a shelter environment.\",\n    \"Adopting an adult pet allows potential adopters to see the pet's personality more clearly, such as whether they are calm or energetic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4b710a6c97bedcd16c96b628408e8533efb52cfa"
+}

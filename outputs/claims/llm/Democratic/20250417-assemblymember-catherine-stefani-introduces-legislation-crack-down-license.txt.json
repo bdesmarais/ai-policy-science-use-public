@@ -1,0 +1,13 @@
+{
+  "press_release": "20250417-assemblymember-catherine-stefani-introduces-legislation-crack-down-license.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblymember Catherine Stefani (D-San Francisco) introduced legislation to strengthen enforcement against illegal license plate covers that help drivers evade to",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Illegal license plate covers help drivers evade tolls, escape traffic enforcement, and avoid accountability for criminal activity.\",\n    \"License plate covers are linked to vehicle thefts, robberies, and toll evasion, undermining public safety.\",\n    \"The California High",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Illegal license plate covers help drivers evade tolls, escape traffic enforcement, and avoid accountability for criminal activity.\",\n    \"License plate covers are linked to vehicle thefts, robberies, and toll evasion, undermining public safety.\",\n    \"The California Highway Patrol issued over 1,300 citations for obscured plates in 2024, a steep rise from previous years.\",\n    \"License plate flippers are marketed as a way to avoid tolls, parking enforcement, or red-light and speed cameras.\",\n    \"The availability of license plate covers in California sends the message to consumers that these products are not illegal.\",\n    \"Manufacturers of license plate obstruction devices enable reckless behavior that undermines accountability for dangerous drivers.\",\n    \"Increasing penalties for the manufacture and sale of license plate obstruction devices aims to protect pedestrians, cyclists, and drivers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1e3053ce9e41ed47470737e170aad5001953086f"
+}

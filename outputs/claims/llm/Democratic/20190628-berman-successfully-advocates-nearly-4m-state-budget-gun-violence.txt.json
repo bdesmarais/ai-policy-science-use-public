@@ -1,0 +1,13 @@
+{
+  "press_release": "20190628-berman-successfully-advocates-nearly-4m-state-budget-gun-violence.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:09:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California's high rate of firearm-related death and injury is a significant concern.\",\n    \"The Centers for Disease Control and Prevention reported 3,184 gun-related deaths in California in 2017.\",\n    \"The American College of Physicians issued recommendations encou",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California's high rate of firearm-related death and injury is a significant concern.\",\n    \"The Centers for Disease Control and Prevention reported 3,184 gun-related deaths in California in 2017.\",\n    \"The American College of Physicians issued recommendations encouraging physicians to discuss firearm risks with patients.\",\n    \"Many health care providers recognize their obligation to help prevent firearm-related death and injury.\",\n    \"Lack of knowledge is cited as the principal barrier to action by health care providers regarding firearm violence.\",\n    \"Expanded education and training are needed to improve clinician familiarity with the benefits and risks of firearm ownership.\",\n    \"Appropriate discussions of firearm safety by medical professionals can help prevent firearm-related death and injury.\",\n    \"The initiative aims to provide medical professionals with knowledge, skills, and resources to protect patient health and safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c4a049d5e8264f28f5eaf428cd9928d2844bf266"
+}

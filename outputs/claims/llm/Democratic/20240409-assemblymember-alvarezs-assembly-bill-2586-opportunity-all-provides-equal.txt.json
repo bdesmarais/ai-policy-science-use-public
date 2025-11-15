@@ -1,0 +1,13 @@
+{
+  "press_release": "20240409-assemblymember-alvarezs-assembly-bill-2586-opportunity-all-provides-equal.txt",
+  "party": "Democratic",
+  "title": "(Sacramento) Today, Assembly Bill 2586, the Opportunity for All Act was approved by the Assembly Higher Education Committee. This groundbreaking bill, sponsored by Assemblymember D",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:39:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2586 will provide equal access to employment opportunities for all students, regardless of their immigration status, at California public universities.\",\n    \"Many undocumented students in higher education do not have access to DACA, limiting their employme",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2586 will provide equal access to employment opportunities for all students, regardless of their immigration status, at California public universities.\",\n    \"Many undocumented students in higher education do not have access to DACA, limiting their employment opportunities.\",\n    \"44,326 undocumented students in California's higher education cannot apply for educational employment opportunities due to their immigration status.\",\n    \"AB 2586 addresses the inequities faced by undocumented students in completing their degrees and financially supporting themselves.\",\n    \"The legislation ensures that all students, regardless of immigration status, can contribute to and benefit from California's educational and employment ecosystem.\",\n    \"AB 2586 will end the separate-but-equal educational system in California's university systems.\",\n    \"The University of California, California State University, and California Community Colleges have the legal authority to hire students regardless of immigration status.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a5207bb314bcbd9d95699f6d3c3469748ef6dbe7"
+}

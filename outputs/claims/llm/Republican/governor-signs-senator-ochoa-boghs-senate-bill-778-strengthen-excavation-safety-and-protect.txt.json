@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-senator-ochoa-boghs-senate-bill-778-strengthen-excavation-safety-and-protect.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh ( R-Yucaipa ) is pleased to announce that Governor Gavin Newsom has signed Senate Bill 778 into law, marking a significant step forward in improving ex",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 778 introduces important technical and functional changes aimed at reducing the risk of damage to underground utilities during excavation projects.\",\n    \"SB 778 addresses several issues identified by the California Regional Common Ground Alliance (CARCGA), a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 778 introduces important technical and functional changes aimed at reducing the risk of damage to underground utilities during excavation projects.\",\n    \"SB 778 addresses several issues identified by the California Regional Common Ground Alliance (CARCGA), a group dedicated to improving excavation safety.\",\n    \"The updates provided by SB 778 will benefit local communities by more quickly identifying and reporting damage to essential utilities like water, gas, and electricity during excavation projects.\",\n    \"SB 778 ensures that both contractors and homeowners have clear guidelines, reducing the risk of costly and dangerous utility disruptions.\",\n    \"Key improvements in SB 778 include clarifying start dates and times for excavation projects.\",\n    \"SB 778 enhances communication between utility operators and excavators.\",\n    \"SB 778 codifies the use of vacuum excavation devices.\",\n    \"The changes introduced by SB 778 will streamline the excavation process and ensure that safety remains the top priority.\",\n    \"The implementation of SB 778 is expected to result in reduced construction times and costs for both public and private construction projects.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "216b1dc682cc71f066cb5989e41e8c1e84a84b08"
+}

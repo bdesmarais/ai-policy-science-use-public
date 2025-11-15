@@ -1,0 +1,13 @@
+{
+  "press_release": "20210917-asm-rivas-mayor-dutra-celebrate-7m-state-funding-watsonville-ramsay.txt",
+  "party": "Democratic",
+  "title": "SALINAS",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:33:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The pandemic demonstrated the importance of outdoor spaces for physical and mental health.\",\n    \"The Ramsay Regional Sports Complex Project will create more opportunities for local youth and adults to participate in soccer leagues.\",\n    \"The current soccer fields at Ra",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The pandemic demonstrated the importance of outdoor spaces for physical and mental health.\",\n    \"The Ramsay Regional Sports Complex Project will create more opportunities for local youth and adults to participate in soccer leagues.\",\n    \"The current soccer fields at Ramsay Park do not have the capacity to meet the demand of local residents.\",\n    \"Inadequate drainage and lack of lighting cause the soccer fields at Ramsay Park to be unusable for nearly half the year.\",\n    \"The lack of sufficient space at the Ramsay Park fields forces teams to practice or compete outside of city limits.\",\n    \"State funding will increase playable days at Ramsay Park to approximately 260 days a year.\",\n    \"State funding will increase the overall field dimensions at Ramsay Park to 65x110 yards.\",\n    \"State funds will convert the existing softball field at Ramsay Park to a synthetic, multi-use sports field for year-round use.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6bc175ad364d1acd280ed52cb03f2e1e3a00e747"
+}

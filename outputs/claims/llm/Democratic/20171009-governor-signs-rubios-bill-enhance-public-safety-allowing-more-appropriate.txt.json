@@ -1,0 +1,13 @@
+{
+  "press_release": "20171009-governor-signs-rubios-bill-enhance-public-safety-allowing-more-appropriate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Jail overcrowding is a major issue in various counties across the state.\",\n    \"Jail overcrowding poses a significant safety threat to communities where arrestees are released without supervision or monitoring.\",\n    \"Assembly Bill 789 gives judges the discretion to rele",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Jail overcrowding is a major issue in various counties across the state.\",\n    \"Jail overcrowding poses a significant safety threat to communities where arrestees are released without supervision or monitoring.\",\n    \"Assembly Bill 789 gives judges the discretion to release arrestees with three or more failures to appear into court-approved supervised pretrial services programs.\",\n    \"Arrestees evaluated using a risk assessment tool that demonstrates they do not pose a safety threat will be released into a supervised pretrial program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "158d7bd01a57a3f2cf9749bf7d61be9b1639da36"
+}

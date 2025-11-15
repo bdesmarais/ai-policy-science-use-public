@@ -1,0 +1,13 @@
+{
+  "press_release": "20240311-new-bill-requires-self-driving-cars-report-accidents-and-traffic-violations.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Self-driving cars, also called autonomous vehicles (AVs), are currently not required to report data on collisions, accidents, and vehicle malfunctions to the state.\",\n    \"AV companies are preparing to roll out in nearly every city in California.\",\n    \"Data on which AV ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Self-driving cars, also called autonomous vehicles (AVs), are currently not required to report data on collisions, accidents, and vehicle malfunctions to the state.\",\n    \"AV companies are preparing to roll out in nearly every city in California.\",\n    \"Data on which AV companies are safe and law-abiding is being kept from the public and the state.\",\n    \"The AV Safety and Transparency Bill will mandate the disclosure of essential safety data concerning AV collisions and other traffic violations to the DMV.\",\n    \"The DMV will be required to make safety data available to the public.\",\n    \"The DMV has not updated their regulations since 2018 to account for new data or developments in AV technology.\",\n    \"The DMV has authorized permits for more than 40 companies to test their AVs in San Francisco.\",\n    \"Data reporting in the bill would mirror what is already required on the federal level by the National Highway Traffic Safety Administration (NHTSA).\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7b09ea12de2ffdc493a249b4141f37f59f742280"
+}

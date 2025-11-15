@@ -1,0 +1,13 @@
+{
+  "press_release": "20240215-asm-steve-bennett-introduces-bill-targeting-states-single-use-plastic.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The impact of plastics is pervasive and well-documented.\",\n    \"Less than 30% of plastic bottles have been recycled, with most becoming plastic waste in landfills and the environment.\",\n    \"Plastic breaks into small pieces that can end up in food, drinking water, and ev",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The impact of plastics is pervasive and well-documented.\",\n    \"Less than 30% of plastic bottles have been recycled, with most becoming plastic waste in landfills and the environment.\",\n    \"Plastic breaks into small pieces that can end up in food, drinking water, and even human bodies.\",\n    \"Single-use plastic bottles are among the top items found polluting California's beaches, national parks, and neighborhoods.\",\n    \"Micro- and nanoplastics are found in the food we eat and the air we breathe.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "422b60c994703496f99cc2e1057d8bc7ea461b22"
+}

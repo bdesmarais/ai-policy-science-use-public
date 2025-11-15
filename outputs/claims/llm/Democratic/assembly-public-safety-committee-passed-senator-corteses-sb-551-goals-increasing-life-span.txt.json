@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-public-safety-committee-passed-senator-corteses-sb-551-goals-increasing-life-span.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Senator Dave Cortese’s (D-Silicon Valley) SB 551 is an effort to improve the prison stress level for correctional officers and the rehabilitative environment for inmat",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Dave Cortese's SB 551 aims to improve the stress levels of correctional officers and the rehabilitative environment for inmates.\",\n    \"About 85 percent of California prison inmates are released into local communities.\",\n    \"Re-offenses among released inmates in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Dave Cortese's SB 551 aims to improve the stress levels of correctional officers and the rehabilitative environment for inmates.\",\n    \"About 85 percent of California prison inmates are released into local communities.\",\n    \"Re-offenses among released inmates in California have reached as high as 70 percent.\",\n    \"SB 551 is designed to dramatically reduce recidivism rates.\",\n    \"The average life expectancy of a correctional officer in the U.S. is 59 years, which is 16 years shorter than that of the general population.\",\n    \"The principle of Dynamic Security is characterized by ongoing and respectful communication between correctional staff and incarcerated persons.\",\n    \"Ensuring a rehabilitative culture within the California Department of Corrections and Rehabilitation is a key goal of SB 551.\",\n    \"Assembly Bill 1104 states that the purpose of incarceration is to provide rehabilitative services for successful reintegration into the community.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "84d709177b189489d6321137d752c06e152f1449"
+}

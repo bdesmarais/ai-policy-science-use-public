@@ -1,0 +1,13 @@
+{
+  "press_release": "education-equity-bills-state-senator-josh-becker-clear-key-committee.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 767 would create the statewide Digital Education Equity Program, called DEEP, to equitably provide education technology, network and professional development support to all California public school districts.\",\n    \"The transition to distance learning during ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 767 would create the statewide Digital Education Equity Program, called DEEP, to equitably provide education technology, network and professional development support to all California public school districts.\",\n    \"The transition to distance learning during the pandemic has exposed and exacerbated the stark inequities among school districts in California.\",\n    \"Many school districts do not have equal access to the resources they need to effectively select, acquire, and implement technology for classroom instruction.\",\n    \"SB 767 seeks to re-establish and fund a centralized support program for digital learning in California schools.\",\n    \"SB 659 empowers community college districts to provide and expand equitable access to underrepresented student populations.\",\n    \"SB 659 allows community college districts to waive or reduce enrollment fees for students who demonstrate need.\",\n    \"The bill SB 659 grants community college districts more flexibility in using existing local funds to cover educational costs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c6e398d622281b3e4aff6ce5765070172a26440e"
+}

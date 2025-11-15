@@ -1,0 +1,13 @@
+{
+  "press_release": "20210222-assemblymember-arambula-introduces-first-its-kind-life-data-bill-collect.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:24:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"AB 1094 aims to equip coroners and medical examiners with the training necessary to collect data on sexual orientation and gender identity in cases of violent death.\",\n    \"Data on violent deaths among the LGBTQ community is crucial for deploying resources and shapi",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"AB 1094 aims to equip coroners and medical examiners with the training necessary to collect data on sexual orientation and gender identity in cases of violent death.\",\n    \"Data on violent deaths among the LGBTQ community is crucial for deploying resources and shaping policies to reduce preventable deaths.\",\n    \"Suicide is the second leading cause of death among youth ages 10–24 in the United States.\",\n    \"LGBTQ youth are more than four times as likely to attempt suicide compared to their straight/cisgender peers.\",\n    \"40% of LGBTQ youth seriously considered attempting suicide in the past year according to the Trevor Project's 2020 National Survey.\",\n    \"More than half of transgender and nonbinary youth have seriously considered suicide.\",\n    \"It is currently unknown how many LGBTQ youth die by suicide or homicide each year because sexual orientation and gender identity data is not collected in violent death investigations.\",\n    \"More than four in five adults (84%) believe it is important to include sexual orientation and gender identity when evaluating suicide and other violent death statistics.\",\n    \"Los Angeles County is the only jurisdiction in the entire nation that is legally required to collect information about individuals' sexual orientation at the time of death.\",\n    \"AB 1094 would establish a three-year pilot program for SOGI data collection in violent death investigations across six California counties.\",\n    \"The CDC reports that more than seven people per hour die a violent death in the United States.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7eb1a85abf08a32f74d7353e72b5680e5bd7eef6"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20191011-governor-newsom-signs-legislation-establishing-new-program-protect.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's historic commitment includes allocating $15 million in security funding to nonprofit organizations at risk of hate-motivated violence.\",\n    \"Hate crimes and antisemitism are on the rise in California and across the country.\",\n    \"The California State Nonpr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's historic commitment includes allocating $15 million in security funding to nonprofit organizations at risk of hate-motivated violence.\",\n    \"Hate crimes and antisemitism are on the rise in California and across the country.\",\n    \"The California State Nonprofit Security Grant Program (NSGP) will provide critical resources to protect vulnerable communities from hate-motivated violence.\",\n    \"Members of the LGBTQ community, African Americans, and Jews are frequently targeted for hate-motivated violence according to the Center for the Study of Hate and Extremism.\",\n    \"The NSGP will allocate funds through a competitive grant program, with a maximum grant of $200,000 per institution.\",\n    \"Many nonprofit institutions operate on tight budgets and cannot fund necessary security enhancements without support from the NSGP.\",\n    \"Hate crimes against people of color, immigrants, the Jewish community, and LGBTQ individuals are increasing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "916139ddfa9af26c8b8e634f9d8c28d2847e74b6"
+}

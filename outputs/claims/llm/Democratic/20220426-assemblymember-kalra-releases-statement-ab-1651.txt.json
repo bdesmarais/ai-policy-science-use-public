@@ -1,0 +1,13 @@
+{
+  "press_release": "20220426-assemblymember-kalra-releases-statement-ab-1651.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Workplaces are changing dramatically due to the increase of remote work and gig work.\",\n    \"Legislation is overdue to mitigate negative impacts on workers from data collection, electronic monitoring, and algorithmic management.\",\n    \"AB 1651 would establish a regulator",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Workplaces are changing dramatically due to the increase of remote work and gig work.\",\n    \"Legislation is overdue to mitigate negative impacts on workers from data collection, electronic monitoring, and algorithmic management.\",\n    \"AB 1651 would establish a regulatory framework for the use of data-driven technology in the workplace.\",\n    \"Workers would receive meaningful notice when an employer intends to use technology to collect their data, monitor their movements, or make key employment-related decisions.\",\n    \"The collection of worker data would be reasonably restricted to information that meets a legitimate business need and is relevant to a worker's job.\",\n    \"Technologies that pose a higher risk of producing bias-based decisions will undergo an impact assessment with worker input.\",\n    \"Workers will have the ability to seek recourse with the state Labor Commissioner for violations of their rights under AB 1651.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "79a38e2110b50d896fd2ba58125d67d757b6c5b6"
+}

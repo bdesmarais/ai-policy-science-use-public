@@ -1,0 +1,13 @@
+{
+  "press_release": "key-housing-legislation-introduced-help-mitigate-impacts-coronavirus-pandemic.txt",
+  "party": "Democratic",
+  "title": "Senator Anna M. Caballero (SD 12) to work collaboratively once again with her colleagues in both houses to address the unprecedented housing crisis faced by millions of Californian",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California renters are facing a crisis exacerbated by the COVID-19 pandemic.\",\n    \"The lack of action by the federal government justifies an extension of relief for renters and landlords.\",\n    \"California continues to experience an extreme housing crisis due to low rat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California renters are facing a crisis exacerbated by the COVID-19 pandemic.\",\n    \"The lack of action by the federal government justifies an extension of relief for renters and landlords.\",\n    \"California continues to experience an extreme housing crisis due to low rates of homeownership and a housing shortage.\",\n    \"Up to 25% of malls across the nation are expected to close, according to Credit Suisse.\",\n    \"California's SB 6 authorizes local governments to approve housing development on commercial retail and office spaces.\",\n    \"Creating mixed-use infill development can help meet California's housing goals and spur economic activity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "77bc007f7b973b0441102d59967dc7b1da90789b"
+}

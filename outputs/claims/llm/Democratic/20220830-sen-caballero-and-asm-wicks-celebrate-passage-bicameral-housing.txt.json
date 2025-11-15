@@ -1,0 +1,13 @@
+{
+  "press_release": "20220830-sen-caballero-and-asm-wicks-celebrate-passage-bicameral-housing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:46:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 6 (Caballero) will greatly spur housing production and make homeownership attainable for working families.\",\n    \"Assembly Bill 2011 (Wicks) will accelerate the production of approximately 2 million units of affordable and mixed-income housing along transit-f",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 6 (Caballero) will greatly spur housing production and make homeownership attainable for working families.\",\n    \"Assembly Bill 2011 (Wicks) will accelerate the production of approximately 2 million units of affordable and mixed-income housing along transit-friendly commercial corridors.\",\n    \"The combination of SB 6 and AB 2011 is anticipated to increase housing production efficiencies across California.\",\n    \"AB 2011 and SB 6 will contribute to California’s efforts to avoid urban sprawl and combat climate change by concentrating housing near city centers.\",\n    \"The state of California will need an estimated 2.5 million new housing units over the next eight years, with more than a million units needed to be affordable for lower-income households.\",\n    \"The housing package will kickstart California’s affordable housing construction.\",\n    \"AB 2011 will open up blighted commercial properties to tens of thousands of affordable homes for lower-income and working-class families.\",\n    \"AB 2011 will dramatically raise wages and improve working conditions for thousands of low-wage construction workers in a mostly non-union industry.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8921b80fb8f2edd775daf67f3a5e51cbb0138558"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-applauds-rejection-barstow-veterans-home-closure.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove (R-Bakersfield) released the following statement after the California Legislature’s proposed 2020-2021 budget rejected a proposa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "92c5892cac56908c1e128b1cc195d20be0280dc2"
+}

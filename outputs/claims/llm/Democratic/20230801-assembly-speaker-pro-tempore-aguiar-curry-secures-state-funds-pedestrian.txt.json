@@ -1,0 +1,13 @@
+{
+  "press_release": "20230801-assembly-speaker-pro-tempore-aguiar-curry-secures-state-funds-pedestrian.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:05:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Highway 29 is one of the most heavily traveled roads in Napa County.\",\n    \"The intersection of Main Street and Spring Street in St. Helena has been the site of numerous pedestrian injuries.\",\n    \"Improvements to pedestrian crosswalks at this intersection will enhance p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Highway 29 is one of the most heavily traveled roads in Napa County.\",\n    \"The intersection of Main Street and Spring Street in St. Helena has been the site of numerous pedestrian injuries.\",\n    \"Improvements to pedestrian crosswalks at this intersection will enhance pedestrian safety.\",\n    \"The City plans to add bulb-out sidewalk extensions, rectangular rapid flashing beacons (RRFBs), and improved lighting to enhance safety.\",\n    \"Pedestrian-actuated signaling with RRFBs will provide robust communication to drivers.\",\n    \"These improvements are expected to improve pedestrian visibility to drivers and reduce the time pedestrians spend in traffic lanes.\",\n    \"The funding secured for this intersection aims to reduce collisions that harm pedestrians.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ed4746574d66fb8becdcd0b99d60a0638c127ba4"
+}

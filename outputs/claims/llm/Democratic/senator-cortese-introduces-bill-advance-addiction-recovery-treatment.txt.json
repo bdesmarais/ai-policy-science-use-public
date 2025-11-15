@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-introduces-bill-advance-addiction-recovery-treatment.txt",
+  "party": "Democratic",
+  "title": "Today, Senator Dave Cortese (D-Silicon Valley) introduced a bill to ensure access to critical treatment for those in need of substance use disorder and addiction recovery services.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Health insurance companies often discharge patients from residential treatment early against the recommendations of qualified physicians.\",\n    \"Early discharges from addiction treatment can lead to patient relapse and, in some cases, death.\",\n    \"The addiction treatmen",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Health insurance companies often discharge patients from residential treatment early against the recommendations of qualified physicians.\",\n    \"Early discharges from addiction treatment can lead to patient relapse and, in some cases, death.\",\n    \"The addiction treatment industry is affected by peer-to-peer utilization reviews that can arbitrarily deny additional medically necessary treatment for patients.\",\n    \"SB 999 is designed to save lives by ensuring insurance companies provide necessary treatment for addiction recovery.\",\n    \"California law mandates that insurance companies cover treatment for addiction recovery.\",\n    \"Many insurance companies still deny critical addiction recovery services to patients despite legal requirements.\",\n    \"SB 999 aims to align addiction treatment with criteria developed by the American Society of Addiction Medicine (ASAM).\",\n    \"The current practices of denying and delaying treatment for substance use disorder services have negative impacts on health, family functioning, employment productivity, and can lead to loss of life.\",\n    \"SB 999 will provide Californians with medically appropriate access to addiction services covered under their insurance plans.\",\n    \"Residential substance use disorder facilities face significant challenges in providing effective recovery tools necessary for long-term sobriety due to unfair insurance practices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b2ac8e7f85ec33ffe97f3afd682573e905ec3d68"
+}

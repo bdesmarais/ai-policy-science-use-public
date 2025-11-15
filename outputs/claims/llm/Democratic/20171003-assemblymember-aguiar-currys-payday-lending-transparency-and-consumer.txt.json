@@ -1,0 +1,13 @@
+{
+  "press_release": "20171003-assemblymember-aguiar-currys-payday-lending-transparency-and-consumer.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1636 strengthens the tools that the Department of Business Oversight (DBO) uses to oversee payday lenders in California.\",\n    \"The bill makes payday lenders' reports public, thereby increasing accountability and transparency.\",\n    \"Payday loans are widely known to b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1636 strengthens the tools that the Department of Business Oversight (DBO) uses to oversee payday lenders in California.\",\n    \"The bill makes payday lenders' reports public, thereby increasing accountability and transparency.\",\n    \"Payday loans are widely known to be expensive and risky financial products.\",\n    \"Better public data on the payday lending industry can promote responsible lending.\",\n    \"The DBO is authorized to issue financial penalties on payday lenders that do not submit their annual reports on time.\",\n    \"AB 1636 gives the DBO greater discretion to require payday lenders to report additional information about consumer trends and business practices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "636b331ad28ffe1c39e3e80ae99183804cf7a8f9"
+}

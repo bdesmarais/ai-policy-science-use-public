@@ -1,0 +1,13 @@
+{
+  "press_release": "20220105-assemblymember-muratsuchi-introduces-bill-package-help-school-districts.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Al Muratsuchi has introduced three bills to help school districts with funding to deal with the ongoing COVID-19 crisis.\",\n    \"The bills aim to hold school districts fiscally harmless from short-term attendance declines due to the pandemic.\",\n    \"The cal",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Al Muratsuchi has introduced three bills to help school districts with funding to deal with the ongoing COVID-19 crisis.\",\n    \"The bills aim to hold school districts fiscally harmless from short-term attendance declines due to the pandemic.\",\n    \"The calculation of average daily attendance (ADA) for funding will be based on a three-year average.\",\n    \"An increase in the base grant portion of the state's Local Control Funding Formula (LCFF) is proposed to provide greater flexibility for school districts.\",\n    \"The Legislative Analyst's Office (LAO) projects state general fund revenue collection data significantly higher than previous estimates for 2022-23.\",\n    \"The LAO estimates the Proposition 98 guarantee in 2022-23 will be $11.6 billion higher than the 2021-22 State Budget.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e1a41d35e5e0b0545cb0780f0e03be8befbf7829"
+}

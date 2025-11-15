@@ -1,0 +1,13 @@
+{
+  "press_release": "20210201-assembly-committee-arts-entertainment-sports-tourism-and-internet-media.txt",
+  "party": "Democratic",
+  "title": "Assembly Committee on Arts, Entertainment, Sports, Tourism, and Internet Media Held an Informational Hearing on",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:22:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The arts, culture, and creative economy sectors have been among the hardest hit by the coronavirus pandemic.\",\n    \"The arts and entertainment industry is a driving engine of $650 billion in financial output per year in California.\",\n    \"The arts and entertainment indus",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The arts, culture, and creative economy sectors have been among the hardest hit by the coronavirus pandemic.\",\n    \"The arts and entertainment industry is a driving engine of $650 billion in financial output per year in California.\",\n    \"The arts and entertainment industry accounts for roughly 16% of jobs in California.\",\n    \"The role of the arts, culture, and entertainment business is crucial in the reopening and rebuilding of California's economy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9c8665f91a9d474902791ded4acbc238bcae52b6"
+}

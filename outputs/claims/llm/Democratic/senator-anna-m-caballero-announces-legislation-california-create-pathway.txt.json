@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-announces-legislation-california-create-pathway.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is the top agricultural producing state in the United States, with over $50 billion in agricultural annual revenue.\",\n    \"California produces over 13 percent of the U.S. agricultural value.\",\n    \"California produces two-thirds of all fruits and nuts consumed",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is the top agricultural producing state in the United States, with over $50 billion in agricultural annual revenue.\",\n    \"California produces over 13 percent of the U.S. agricultural value.\",\n    \"California produces two-thirds of all fruits and nuts consumed in the United States.\",\n    \"California produces more than one-third of all vegetables consumed in the United States.\",\n    \"Farmers and agricultural producers in California are struggling to find a reliable and consistent workforce.\",\n    \"Undocumented workers are a primary workforce in agriculture in California.\",\n    \"Undocumented agricultural workers are at risk of deportation by the Federal Government for lacking legal resident status.\",\n    \"Undocumented workers face multiple forms of exploitation and unsafe or unsanitary workplace conditions.\",\n    \"Undocumented agricultural workers have no access to the disability benefits and social security benefits that they earn.\",\n    \"During the pandemic, undocumented agricultural workers were classified as essential workers but were ineligible for unemployment benefits or COVID relief.\",\n    \"Undocumented agricultural workers suffered higher rates of infection and death due to COVID.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "035b59656ee259a9078b9627edad7bfb497335ec"
+}

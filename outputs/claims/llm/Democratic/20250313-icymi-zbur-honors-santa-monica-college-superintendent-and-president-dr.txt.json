@@ -1,0 +1,13 @@
+{
+  "press_release": "20250313-icymi-zbur-honors-santa-monica-college-superintendent-and-president-dr.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Rick Chavez Zbur presents Dr. Kathryn Jeffery with a 2025 Woman of the Year Honoree Commendation on Monday, March 10, 2025.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:29:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Dr. Kathryn Jeffery's leadership has guided Santa Monica College through both challenges and triumphs.\",\n    \"Santa Monica College continues to be a beacon of opportunity and access to higher education.\",\n    \"Santa Monica College is the top transfer institution to the U",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Dr. Kathryn Jeffery's leadership has guided Santa Monica College through both challenges and triumphs.\",\n    \"Santa Monica College continues to be a beacon of opportunity and access to higher education.\",\n    \"Santa Monica College is the top transfer institution to the University of California system for African American and Hispanic students.\",\n    \"Dr. Kathryn Jeffery has served as Superintendent and President of Santa Monica College since February 2016.\",\n    \"Under Dr. Jeffery's leadership, Santa Monica College continues to send more students—particularly African American and Hispanic students—than any other California community college.\",\n    \"Dr. Jeffery has guided Santa Monica College through challenges and natural disasters with calm and steady leadership.\",\n    \"Santa Monica College hosted events and roundtables to provide essential support and resources to those affected by wildfires in Los Angeles County.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "539f2c4ce5c4c2e1c3d1cbdf58045999f7875927"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20180214-assemblymember-ash-kalra-host-press-conference-announce-introduction-bill.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Triple-digit, high-cost interest rate loans have forced families into an endless cycle of debt.\",\n    \"High-cost loans can lead to car repossession, wage garnishment, and bankruptcy.\",\n    \"According to a 2016 report by the California Department of Business Oversight, 58",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Triple-digit, high-cost interest rate loans have forced families into an endless cycle of debt.\",\n    \"High-cost loans can lead to car repossession, wage garnishment, and bankruptcy.\",\n    \"According to a 2016 report by the California Department of Business Oversight, 58% of installment loans between $2,500 and $10,000 had 100% APRs or higher.\",\n    \"In 2014, the default rate for loans between $2,500 and $10,000 was reported to be between 20% and 40%.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "480b578580ec37829cd58b961f900ec5cd840d5d"
+}

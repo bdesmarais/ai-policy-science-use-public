@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-marie-alvarado-gil-champions-infrastructure-upgrades-improve-quality-life-underserved.txt",
+  "party": "Republican",
+  "title": "Sen. Marie Alvarado-Gil ( R-Jackson ) is championing two vital infrastructure projects that promise to enhance the quality of life for underserved families in Modesto. In letters t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "df5ecbef0f069c6e66ac70676d4eaded3bb99a74"
+}

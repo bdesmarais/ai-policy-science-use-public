@@ -1,0 +1,13 @@
+{
+  "press_release": "20220523-assemblymember-bauer-kahans-bill-create-legal-shield-ca-abortion-care.txt",
+  "party": "Democratic",
+  "title": "Sacramento CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1666 protects individuals in California from civil liability for providing, aiding, or receiving abortion care.\",\n    \"The right to an abortion is enshrined in California’s constitution.\",\n    \"AB 1666 declares any action brought against the right to abortion to be ag",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1666 protects individuals in California from civil liability for providing, aiding, or receiving abortion care.\",\n    \"The right to an abortion is enshrined in California’s constitution.\",\n    \"AB 1666 declares any action brought against the right to abortion to be against the public policy of California.\",\n    \"AB 1666 will decrease the risks of potential liability for California providers offering essential health care, including abortion.\",\n    \"Patients are forced to delay their care, travel long distances, and face financial difficulties to obtain abortion services due to restrictive laws in other states.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4881c6b0e3de2122551ac49490febf7a0d563e12"
+}

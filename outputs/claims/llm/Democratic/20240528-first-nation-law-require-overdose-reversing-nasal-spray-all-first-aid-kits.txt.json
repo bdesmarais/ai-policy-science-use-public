@@ -1,0 +1,13 @@
+{
+  "press_release": "20240528-first-nation-law-require-overdose-reversing-nasal-spray-all-first-aid-kits.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:44:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Naloxone nasal spray can completely reverse a deadly opioid overdose.\",\n    \"More than half of the counterfeit prescription pills being trafficked in the U.S. contain a potentially deadly dose of fentanyl.\",\n    \"If fentanyl continues to be more accessible than naloxone,",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Naloxone nasal spray can completely reverse a deadly opioid overdose.\",\n    \"More than half of the counterfeit prescription pills being trafficked in the U.S. contain a potentially deadly dose of fentanyl.\",\n    \"If fentanyl continues to be more accessible than naloxone, there will be an increase in overdose deaths in communities.\",\n    \"AB 1976 aims to increase the accessibility of naloxone in California workplaces.\",\n    \"California will become a world leader in access to naloxone if AB 1976 is enacted.\",\n    \"Any person witnessing someone exhibiting symptoms of an overdose will know naloxone is available in the first aid kit of the nearest business after AB 1976 is implemented.\",\n    \"Cal-OSHA is responsible for developing standards to ensure naloxone is in all first aid kits in California.\",\n    \"Naloxone is considered a miracle drug by some, but it must be present when needed to be effective.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "770bc5e3ce3a85a40c22e6a914edc423cde8c763"
+}

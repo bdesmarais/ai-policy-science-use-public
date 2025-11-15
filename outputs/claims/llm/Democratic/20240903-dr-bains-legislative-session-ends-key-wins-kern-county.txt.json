@@ -1,0 +1,13 @@
+{
+  "press_release": "20240903-dr-bains-legislative-session-ends-key-wins-kern-county.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:49:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Grow Our Own Bill requires the University of California to build a medical school in Kern County once certain funding requirements are met.\",\n    \"AB 2376 enables healthcare facilities to accept more patients for addiction and substance use disorder treatments by cut",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Grow Our Own Bill requires the University of California to build a medical school in Kern County once certain funding requirements are met.\",\n    \"AB 2376 enables healthcare facilities to accept more patients for addiction and substance use disorder treatments by cutting red tape.\",\n    \"Current law restricts the types of facilities that can offer care for substance use disorder patients by requiring segregation despite no risk of contagion.\",\n    \"AB 892 ensures that Kern Hospital Authority remains financially stable to serve Kern families.\",\n    \"AB 2689 extends the option to contribute to Alzheimer's research on tax returns.\",\n    \"AB 2541 requires local law enforcement to collaborate with experts to create guidelines on responding to wandering associated with Alzheimer’s disease, autism, and dementia.\",\n    \"AB 2620 makes changes to the California Commission on Aging to enhance participation and engagement.\",\n    \"As of 2022, California's ports processed about 40 percent of all containerized imports and 30 percent of all exports in the United States.\",\n    \"California's tugboats, towboats, and barges facilitate the movement of $34 billion worth of agricultural and food products.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "105a308a11b543a05ee9e3d8da6ff8ac85e1a995"
+}

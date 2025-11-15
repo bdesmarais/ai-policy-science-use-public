@@ -1,0 +1,13 @@
+{
+  "press_release": "20230926-governor-signs-assemblywoman-quirk-silvas-ab-1175-extending-sign-provisions.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:09:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1175 extends provisions related to redevelopment area signs under the California Outdoor Advertising Act for two years.\",\n    \"Well-established freeway signs attract both locals and visitors to business centers and destination places.\",\n    \"AB 1175 provides more time",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1175 extends provisions related to redevelopment area signs under the California Outdoor Advertising Act for two years.\",\n    \"Well-established freeway signs attract both locals and visitors to business centers and destination places.\",\n    \"AB 1175 provides more time for local governments, helping protect their general fund tax revenue dollars.\",\n    \"The California Outdoor Advertising Act regulates highway advertising displays but not 'on premise' signs promoting businesses or property sales.\",\n    \"Historically, redevelopment areas captured property tax increases for community development.\",\n    \"AB 1175 empowers local governments to seek a two-year extension for existing advertising displays constructed before January 1, 2012.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0e727beb1c66447f1f3464bf254106e630694579"
+}

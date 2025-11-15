@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-bill-give-school-nurses-cafeteria-workers-and-other-classified-school.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO -  Senator Cortese’s SB 494 would give cafeteria workers, counselors, nurses, janitors and others in California’s public schools and community colleges basic disciplinar",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f11647feab5944d8bbf66b7e59fc143b9e582afd"
+}

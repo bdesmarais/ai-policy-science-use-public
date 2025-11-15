@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-introduces-bipartisan-measure-prevent-sexually-violent-predators-being-dumped.txt",
+  "party": "Republican",
+  "title": "Sacramento – State Senator Brian W. Jones (R-Santee), Senator Ben Hueso (D-San Diego), and Assemblyman Jim Cooper (D-Elk Grove) have introduced the “Sexually Violent Predator Accou",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The SAFE Act aims to prevent the state from secretly placing Sexually Violent Predators (SVPs) in unsuspecting communities.\",\n    \"Jones' Senate Bill 841 would limit the placement of SVPs within a county to no more than 40% in any one supervisorial district.\",\n    \"The S",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The SAFE Act aims to prevent the state from secretly placing Sexually Violent Predators (SVPs) in unsuspecting communities.\",\n    \"Jones' Senate Bill 841 would limit the placement of SVPs within a county to no more than 40% in any one supervisorial district.\",\n    \"The SAFE Act mandates that the Director of the Department of State Hospitals publicly report annually on the number of SVPs in each county and supervisorial district.\",\n    \"The highest criterion for the placement of an SVP will be public safety.\",\n    \"The SAFE Act requires the Department of State Hospitals to approve any SVP placements before vendors can sign leases for placement locations.\",\n    \"The SAFE Act requires multiple state departments to report any inventory of facilities that could house SVPs to the Governor and Legislature.\",\n    \"State Hospital officials have previously attempted to place dangerous SVPs in residential neighborhoods without proper oversight.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "39d63e4ee948e4844b4f3549603ac1c5fa0be8f4"
+}

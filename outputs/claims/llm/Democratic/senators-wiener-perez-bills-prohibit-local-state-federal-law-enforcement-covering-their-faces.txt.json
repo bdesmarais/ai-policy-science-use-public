@@ -1,0 +1,13 @@
+{
+  "press_release": "senators-wiener-perez-bills-prohibit-local-state-federal-law-enforcement-covering-their-faces.txt",
+  "party": "Democratic",
+  "title": "Los Angeles Mayor Karen Bass joins the coalition in support of Senator Pérez’s No Vigilantes Act (SB 805) and Senator Wiener’s No Secret Police Act (SB 627).",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The No Secret Police Act (SB 627) prohibits law enforcement at all levels from concealing their faces.\",\n    \"The No Vigilantes Act (SB 805) requires law enforcement to identify themselves clearly.\",\n    \"Expanding the use of secret police tactics has prompted public saf",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The No Secret Police Act (SB 627) prohibits law enforcement at all levels from concealing their faces.\",\n    \"The No Vigilantes Act (SB 805) requires law enforcement to identify themselves clearly.\",\n    \"Expanding the use of secret police tactics has prompted public safety concerns.\",\n    \"Masked law enforcement officers have created confusion and fear among citizens.\",\n    \"The increase in masked law enforcement operations has spurred dangerous impersonation activities.\",\n    \"A man in South Carolina was charged with kidnapping and impersonating a police officer during a traffic stop.\",\n    \"An individual in North Carolina was arrested for impersonating an ICE officer and sexually assaulting a woman.\",\n    \"A woman in Florida was arrested for dressing as a masked ICE officer and kidnapping her ex-boyfriend's wife.\",\n    \"The No Vigilantes Act (SB 805) aims to address public fear caused by recent aggressive law enforcement operations.\",\n    \"SB 627 defines law enforcement officers as any peace officer at any level or any person acting on behalf of a federal law enforcement agency.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "11dc24c5e02d722da8c14c149c2f566a31467563"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-senator-corteses-legislation-protecting-public-environmental-hazards.txt",
+  "party": "Democratic",
+  "title": "Governor Gavin Newsom announced today that he had finished approving Senator Cortese’s 2023 legislation to protect the public from air pollution and other hazards. The bills, SB 69",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 69 raises transparency around California's environmental review process for new development projects.\",\n    \"SB 69 mandates that all California Environmental Quality Act (CEQA) notices be published on the State Clearinghouse website.\",\n    \"SB 642 gives county counsel",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 69 raises transparency around California's environmental review process for new development projects.\",\n    \"SB 69 mandates that all California Environmental Quality Act (CEQA) notices be published on the State Clearinghouse website.\",\n    \"SB 642 gives county counsels full authority to enforce civil penalties for hazardous waste violations.\",\n    \"The Cortese List is an annually updated planning document used to inform the public about the location of hazardous material release sites.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc46d9f69a2faa0f80c98066bfbac8276ec0cda8"
+}

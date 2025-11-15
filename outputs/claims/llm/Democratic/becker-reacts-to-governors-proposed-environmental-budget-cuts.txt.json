@@ -1,0 +1,13 @@
+{
+  "press_release": "becker-reacts-to-governors-proposed-environmental-budget-cuts.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – “We spent the last two years making a historic $54 billion investment to battle climate change.  The proposed cuts and delays are concerning at a time when we should b",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:44:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed budget reduces climate-related program funding from $54 billion to $48 billion.\",\n    \"Zero-emission vehicle (ZEV) programs funding is reduced from $10 billion to approximately $8.9 billion.\",\n    \"Proposed budget cuts include a 30% reduction in funding for ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed budget reduces climate-related program funding from $54 billion to $48 billion.\",\n    \"Zero-emission vehicle (ZEV) programs funding is reduced from $10 billion to approximately $8.9 billion.\",\n    \"Proposed budget cuts include a 30% reduction in funding for the state’s residential solar program.\",\n    \"A 13% cut in the long duration energy storage program is proposed, amounting to a $50 million reduction.\",\n    \"The budget plans a 25% reduction in the California Energy Commission’s carbon removal program, which totals a drop of $25 million.\",\n    \"A 9% cut to the program to decarbonize homes and buildings is proposed, affecting $370 million in the 2023-24 budget and $87 million in the 2025-26 budget.\",\n    \"Funding for coastal resilience programs is set to be cut by 43%, resulting in a reduction of more than $550 million.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "92543f3ec4ed4f8c06d98be0e38c2d48e85fbbec"
+}

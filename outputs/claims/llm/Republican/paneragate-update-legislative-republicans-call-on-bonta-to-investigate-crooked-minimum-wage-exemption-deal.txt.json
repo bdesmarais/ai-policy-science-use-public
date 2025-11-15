@@ -1,0 +1,13 @@
+{
+  "press_release": "paneragate-update-legislative-republicans-call-on-bonta-to-investigate-crooked-minimum-wage-exemption-deal.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Legislative Republicans",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1228 increased the minimum wage for fast-food workers by 25%.\",\n    \"There is an allegation that the bill contains an unjustified carveout benefiting a longtime acquaintance of Governor Gavin Newsom.\",\n    \"The billionaire owner of Panera Bread locations in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1228 increased the minimum wage for fast-food workers by 25%.\",\n    \"There is an allegation that the bill contains an unjustified carveout benefiting a longtime acquaintance of Governor Gavin Newsom.\",\n    \"The billionaire owner of Panera Bread locations in California contributed tens of thousands of dollars to reelect Newsom.\",\n    \"The request for an investigation stems from the allegation that campaign contributions influenced official actions impacting Californians' livelihoods.\",\n    \"Legislative Republicans allege that campaign contributions should not lead to exemptions in legislation.\",\n    \"The appearance of crony capitalism in this case is described as deeply troubling.\",\n    \"Legislative Republicans are urging for an independent investigation to determine if there was any quid pro quo or impropriety in the decision-making process.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b540e32e0237c1919f2b1b681dacaaa247ab56a8"
+}

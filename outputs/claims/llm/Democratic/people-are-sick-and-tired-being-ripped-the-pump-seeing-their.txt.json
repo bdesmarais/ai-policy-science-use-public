@@ -1,0 +1,13 @@
+{
+  "press_release": "people-are-sick-and-tired-being-ripped-the-pump-seeing-their.txt",
+  "party": "Democratic",
+  "title": "Becker Applauds Governor’s Proclamation Calling Special Session On Record High Oil Company Profits & Gas Prices",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The top five refining companies in California saw their per gallon profit margins soar by 3-10 times between April and June of 2022 compared to the same period in 2021.\",\n    \"These companies own and control 97% of the refining capacity in California.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The top five refining companies in California saw their per gallon profit margins soar by 3-10 times between April and June of 2022 compared to the same period in 2021.\",\n    \"These companies own and control 97% of the refining capacity in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fcc7cc9b04970d65c172ce7ff1d932657100492b"
+}

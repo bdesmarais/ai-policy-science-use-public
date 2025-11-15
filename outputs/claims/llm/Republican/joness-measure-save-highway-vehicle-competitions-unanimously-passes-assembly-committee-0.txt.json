@@ -1,0 +1,13 @@
+{
+  "press_release": "joness-measure-save-highway-vehicle-competitions-unanimously-passes-assembly-committee-0.txt",
+  "party": "Republican",
+  "title": "Last week, Senate Bill 708 by Senate Minority Leader Brian W. Jones ( R-San Diego ) to save off-highway vehicle (OHV) competitions in California was approved on a unanimous, bipart",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:55:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 708 establishes a special permit for Californians to operate certain off-road motorcycles at sanctioned events.\",\n    \"The measure will create a new sanctioned event permit program for competition motorcycles to replace the Red Sticker registration program th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 708 establishes a special permit for Californians to operate certain off-road motorcycles at sanctioned events.\",\n    \"The measure will create a new sanctioned event permit program for competition motorcycles to replace the Red Sticker registration program that ended in 2021.\",\n    \"SB 708 will provide a cost-effective, bureaucratically streamlined identification decal for competition motorcycles operated at sanctioned events on public lands.\",\n    \"Competition OHVs have long been regulated through the Red Sticker program under the California Air Resources Board (CARB).\",\n    \"The Red Sticker program allowed competition OHVs to operate in California for the past two decades.\",\n    \"The end of the Red Sticker program in 2021 has created confusion for OHV competitions as rules now fall to individual land managers.\",\n    \"The lack of a new program negatively impacts local businesses, jobs, and the economy of rural and suburban regions that host OHV competitions.\",\n    \"Funding for environmental work and law enforcement has been lost due to the end of the Red Sticker program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3effb33926c89950cb12cc2d3b8869667a081a37"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20171116-statement-assemblymember-muratsuchi-chairman-legislative-audit-committee.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:59:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The University of California Board of Regents’ investigation confirmed the State Auditor’s findings from her April 2017 report.\",\n    \"UC President Janet Napolitano and her top aides deliberately interfered with the Legislature’s audit regarding UCOP’s finances.\",\n ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The University of California Board of Regents’ investigation confirmed the State Auditor’s findings from her April 2017 report.\",\n    \"UC President Janet Napolitano and her top aides deliberately interfered with the Legislature’s audit regarding UCOP’s finances.\",\n    \"UCOP’s interference with the state audit undermines the Legislature’s trust in the University of California’s leadership.\",\n    \"Assembly Bill 562 authorizes civil penalties for anyone who obstructs the California State Auditor with intent to deceive or defraud.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ae899e74b9c4044923b376640dfbf03c6dc0b549"
+}

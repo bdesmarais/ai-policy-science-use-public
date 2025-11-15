@@ -1,0 +1,13 @@
+{
+  "press_release": "20240425-california-housing-security-act-advances-out-assembly-housing-and-community.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Housing Security Act aims to increase housing security by providing housing subsidies to low-income individuals, including former foster youth, older adults, veterans, adults with disabilities, people experiencing unemployment or homelessness, and recently",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Housing Security Act aims to increase housing security by providing housing subsidies to low-income individuals, including former foster youth, older adults, veterans, adults with disabilities, people experiencing unemployment or homelessness, and recently incarcerated individuals.\",\n    \"The California Master Plan for Aging 2023-2024 Initiatives recommends exploring emerging local government models to inform consideration of Rental Subsidy Programs for older adults and people with disabilities.\",\n    \"AB 2498 expands the parameters of existing recommendations to include other vulnerable populations in housing subsidy programs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c7a174fbbc64f9568daf5214d49e4dd31b38994a"
+}

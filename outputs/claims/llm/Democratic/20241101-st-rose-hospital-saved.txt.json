@@ -1,0 +1,13 @@
+{
+  "press_release": "20241101-st-rose-hospital-saved.txt",
+  "party": "Democratic",
+  "title": "Hayward, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"St. Rose Hospital is the only emergency room in Hayward and serves as a critical safety-net provider for Central and South Alameda County.\",\n    \"St. Rose Hospital treats more than 40,000 patients annually, with over 70% of patients relying on Medi-Cal.\",\n    \"St. Rose H",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"St. Rose Hospital is the only emergency room in Hayward and serves as a critical safety-net provider for Central and South Alameda County.\",\n    \"St. Rose Hospital treats more than 40,000 patients annually, with over 70% of patients relying on Medi-Cal.\",\n    \"St. Rose Hospital provides essential services in emergency and maternal healthcare.\",\n    \"Alameda Health System (AHS) is a public health system in Alameda County that operates five hospitals and four primary care clinics.\",\n    \"The acquisition of St. Rose Hospital by Alameda Health System was made possible through a collaborative effort involving community leaders, local officials, and legislators.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e572a3d8460cfd6758483e2b2ce2d9bb7f83cd7c"
+}

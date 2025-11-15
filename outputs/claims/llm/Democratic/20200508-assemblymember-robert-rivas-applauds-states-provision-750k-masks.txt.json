@@ -1,0 +1,13 @@
+{
+  "press_release": "20200508-assemblymember-robert-rivas-applauds-states-provision-750k-masks.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has agreed to supply Monterey County with 750,000 procedure masks specifically designated for agricultural workers.\",\n    \"This shipment of 750,000 masks is an important step in providing necessary protection for farmworkers.\",\n    \"The masks will benefit as m",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has agreed to supply Monterey County with 750,000 procedure masks specifically designated for agricultural workers.\",\n    \"This shipment of 750,000 masks is an important step in providing necessary protection for farmworkers.\",\n    \"The masks will benefit as many as 25,000 agricultural workers over the next 30 days.\",\n    \"A diverse group of organizations collaborated with elected leaders to achieve the goal of protecting agricultural employees.\",\n    \"Agricultural workers are considered vulnerable, essential workers who contribute to the food supply.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e5c6d1baf15122d30bf6d3c22c5637fab4fbcb60"
+}

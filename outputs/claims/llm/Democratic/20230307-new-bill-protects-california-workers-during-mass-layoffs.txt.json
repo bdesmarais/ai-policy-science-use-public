@@ -1,0 +1,13 @@
+{
+  "press_release": "20230307-new-bill-protects-california-workers-during-mass-layoffs.txt",
+  "party": "Democratic",
+  "title": "Sacramento –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:56:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Protect Laid-Off Workers Act will strengthen mass layoff protections for over 7 million California workers, including almost 2 million contract workers.\",\n    \"The tech industry has eliminated more than 200,000 jobs since the start of 2022.\",\n    \"Contract workers of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Protect Laid-Off Workers Act will strengthen mass layoff protections for over 7 million California workers, including almost 2 million contract workers.\",\n    \"The tech industry has eliminated more than 200,000 jobs since the start of 2022.\",\n    \"Contract workers often perform the same work as their directly-employed peers but receive less pay, fewer benefits, and have less career mobility.\",\n    \"If workers are given notice and sufficient time to seek other employment, they are more likely to remain in California.\",\n    \"AB 1356 closes loopholes in critical layoff protection laws and grants contract workers basic protections that directly-employed workers receive.\",\n    \"Employers who lay off more than 50 workers at a time are required to provide their employees with 90 days notice according to AB 1356.\",\n    \"AB 1356 prohibits employers from pressuring employees to relinquish their rights in exchange for mass layoff protections.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "066b554572829d233a8cb202b1821fc22f6c92bc"
+}

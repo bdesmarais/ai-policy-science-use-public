@@ -1,0 +1,13 @@
+{
+  "press_release": "20211021-legislators-respond-faux-classroom-native-american-dance-teacher-riverside.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The teacher's behavior was highly inappropriate and offensive.\",\n    \"There is a need for greater understanding of Native American culture and history.\",\n    \"AB 1554 and ACA 6 have been proposed to create the California Indian Education Act to increase student knowledge",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The teacher's behavior was highly inappropriate and offensive.\",\n    \"There is a need for greater understanding of Native American culture and history.\",\n    \"AB 1554 and ACA 6 have been proposed to create the California Indian Education Act to increase student knowledge about Native American people.\",\n    \"The state of California made ethnic studies a required course across California high schools.\",\n    \"Students of color often have their heritage inaccurately represented in the classroom.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "037c45457b04016982399bc8e3e2f9523738046b"
+}

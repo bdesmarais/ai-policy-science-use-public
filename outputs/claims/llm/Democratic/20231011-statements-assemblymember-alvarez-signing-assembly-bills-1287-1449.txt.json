@@ -1,0 +1,13 @@
+{
+  "press_release": "20231011-statements-assemblymember-alvarez-signing-assembly-bills-1287-1449.txt",
+  "party": "Democratic",
+  "title": "Assembly Bill 1287:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "79596fc8695802062d835790f3cc9e32ce5bfada"
+}

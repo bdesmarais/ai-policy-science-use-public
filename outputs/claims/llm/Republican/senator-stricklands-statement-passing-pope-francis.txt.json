@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-stricklands-statement-passing-pope-francis.txt",
+  "party": "Republican",
+  "title": "Senator Tony Strickland ( R-Huntington Beach ) released the following statement on the passing of Pope Francis:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f625af238bd0b4ab2af46e140932225d05c9f303"
+}

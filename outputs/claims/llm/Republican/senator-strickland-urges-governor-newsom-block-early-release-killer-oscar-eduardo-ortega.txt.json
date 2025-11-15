@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-strickland-urges-governor-newsom-block-early-release-killer-oscar-eduardo-ortega.txt",
+  "party": "Republican",
+  "title": "Senator Tony Strickland ( R-Huntington Beach ), a long-standing, fierce advocate for public safety, released the following statement following media reports that Oscar Eduardo Orte",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e9ff0f9a11a009567329304faf8625e45f6f9f90"
+}

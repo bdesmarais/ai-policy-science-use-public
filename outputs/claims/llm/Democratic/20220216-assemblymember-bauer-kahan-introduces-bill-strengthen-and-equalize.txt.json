@@ -1,0 +1,13 @@
+{
+  "press_release": "20220216-assemblymember-bauer-kahan-introduces-bill-strengthen-and-equalize.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The use of the noose, burning cross, and swastika can cause an equal level of panic in entire communities.\",\n    \"Hate crimes surged to the highest level in 12 years in the year 2020 according to FBI crime statistics.\",\n    \"The exact number of hate crimes is estimated t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The use of the noose, burning cross, and swastika can cause an equal level of panic in entire communities.\",\n    \"Hate crimes surged to the highest level in 12 years in the year 2020 according to FBI crime statistics.\",\n    \"The exact number of hate crimes is estimated to be much greater than reported incidents.\",\n    \"Current law allowed a neo-Nazi to use swastikas legally in certain contexts.\",\n    \"The proposed legislation aims to equalize criminal penalties for using the swastika, noose, and burning cross.\",\n    \"The proposed legislation increases the locations where the use of these symbols is banned.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0cf406af05efff47c78d36eba0e0b9dd112bdb74"
+}

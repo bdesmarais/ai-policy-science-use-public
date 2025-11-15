@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-competition-highway-vehicle-program-approved-senate.txt",
+  "party": "Republican",
+  "title": "Sacramento – The Senate today unanimously passed State Senator Brian Jones’ (R-Santee) Senate Bill 1024, a measure that saves competition off-highway vehicles (OHV) in California.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ff697d4bd01a5bd788af117c9e742a84b23b5a0e"
+}

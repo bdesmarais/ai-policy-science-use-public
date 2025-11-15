@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-responds-governor-newsoms-first-state-state-address.txt",
+  "party": "Republican",
+  "title": "Senator Brian Jones (R-Santee) on Governor Gavin Newsom’s State of the State address :",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Illegal border crossings are at a historic low.\",\n    \"Two thirds of the California National Guard will remain focused on border-related issues.\",\n    \"The California National Guard is being used to deal with drug and human trafficking at the border.\",\n    \"The Californi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Illegal border crossings are at a historic low.\",\n    \"Two thirds of the California National Guard will remain focused on border-related issues.\",\n    \"The California National Guard is being used to deal with drug and human trafficking at the border.\",\n    \"The California National Guard is addressing drug cartels in northern California involved in illegal marijuana grows.\",\n    \"The so-called High-Speed Rail project has been a complete failure.\",\n    \"California taxpayers should not continue funding the Central Valley commuter train from Merced to Bakersfield.\",\n    \"Billions of dollars should be spent on upgrading Highway 99 and Amtrak instead of the HSR project.\",\n    \"Homelessness and related mental health issues have worsened throughout California over the years.\",\n    \"Supportive housing is needed now for the homeless population.\",\n    \"There is a need for additional deregulation in California's housing policies, including litigation and rent control reforms.\",\n    \"Rent stabilization can be achieved by building more rental housing.\",\n    \"The Governor's plan for Alzheimer's and lower drug prices is an attempt to address issues that were previously neglected.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "604f836f6f8e865a89b38aea081fed5e64584117"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250326-assemblywoman-soria-announces-bill-calling-uc-merced-medical-school.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:30:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Medical workforce shortages have impacted the Central Valley.\",\n    \"UC Merced plans to expand the existing SJV PRIME+ BS to MD program.\",\n    \"UC Merced aims to transition to a fully independent medical school operated by UC Merced.\",\n    \"UC Merced has begun successful",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Medical workforce shortages have impacted the Central Valley.\",\n    \"UC Merced plans to expand the existing SJV PRIME+ BS to MD program.\",\n    \"UC Merced aims to transition to a fully independent medical school operated by UC Merced.\",\n    \"UC Merced has begun successfully delivering quality medical education through the SJV PRIME+ partnership with UCSF.\",\n    \"Funding limitations in the state budget have led to reductions in overall funding to the UC system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a2ce3c033d25ab9396bd1a54d6b57d9280f86f43"
+}

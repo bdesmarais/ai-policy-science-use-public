@@ -1,0 +1,13 @@
+{
+  "press_release": "asambleista-jeff-gonzalez-celebra-la-aprobacion-de-prestamos-para-hospitales-rurales-en-el-presupuesto-estatal.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO — El asambleísta Jeff Gonzalez (R-Indio) celebró la aprobación del proyecto de ley del presupuesto estatal que incluye extensiones de préstamos sin intereses para hospit",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "19a7ad55a30d1d9a272177f3db02aa4e54d417d2"
+}

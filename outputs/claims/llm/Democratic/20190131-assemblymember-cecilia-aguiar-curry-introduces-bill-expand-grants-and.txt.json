@@ -1,0 +1,104 @@
+{
+  "press_release": "20190131-assemblymember-cecilia-aguiar-curry-introduces-bill-expand-grants-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:04:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 324 will provide expanded childcare workforce development grants to new providers.\"\n    },\n    {\n      \"claim_text\": \"The bill aims to increase the state's capacity to administer a higher level of care to an increased number of children.\"\n    },\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 324 will provide expanded childcare workforce development grants to new providers.\"\n    },\n    {\n      \"claim_text\": \"The bill aims to increase the state's capacity to administer a higher level of care to an increased number of children.\"\n    },\n    {\n      \"claim_text\": \"Training and retaining qualified, committed professionals is critical to children's future.\"\n    },\n    {\n      \"claim_text\": \"AB 324 requires the California Department of Education to develop guidelines for a standardized, effective, and organized professional development and retention system for childcare professionals.\"\n    },\n    {\n      \"claim_text\": \"The guidelines expand eligibility in the program and link stipends to a teacher’s higher education attainment plan.\"\n    },\n    {\n      \"claim_text\": \"AB 324 aims to ensure that stipend amounts are sufficient to recruit and retain a high-quality, diverse childcare education workforce.\"\n    },\n    {\n      \"claim_text\": \"Supporting the childcare workforce is expected to help prevent the achievement gap.\"\n    },\n    {\n      \"claim_text\": \"Investing in the childcare workforce is anticipated to lead to more jobs and better outcomes for youth.\"\n    },\n    {\n      \"claim_text\": \"The legislation aims to provide new support for parents, which may contribute to stronger families.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "AB 324 will provide expanded childcare workforce development grants to new providers.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The bill aims to increase the state's capacity to administer a higher level of care to an increased number of children.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Training and retaining qualified, committed professionals is critical to children's future.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 324 requires the California Department of Education to develop guidelines for a standardized, effective, and organized professional development and retention system for childcare professionals.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The guidelines expand eligibility in the program and link stipends to a teacher’s higher education attainment plan.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 324 aims to ensure that stipend amounts are sufficient to recruit and retain a high-quality, diverse childcare education workforce.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Supporting the childcare workforce is expected to help prevent the achievement gap.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Investing in the childcare workforce is anticipated to lead to more jobs and better outcomes for youth.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The legislation aims to provide new support for parents, which may contribute to stronger families.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 9,
+  "doc_sha1": "4a88d42928187e59ca1ad34e6fcd0293d1867a5a"
+}

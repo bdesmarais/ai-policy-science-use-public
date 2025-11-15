@@ -1,0 +1,104 @@
+{
+  "press_release": "20240222-assemblymember-zbur-introduces-three-bills-improve-californias-social.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Jacqueline Marie Zbur Rare Disease Advisory Council bill aims to create a Rare Disease Advisory Council (RDAC) in California.\"\n    },\n    {\n      \"claim_text\": \"Rare disease patients face unique challenges, including obtaining accurate diagnoses",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Jacqueline Marie Zbur Rare Disease Advisory Council bill aims to create a Rare Disease Advisory Council (RDAC) in California.\"\n    },\n    {\n      \"claim_text\": \"Rare disease patients face unique challenges, including obtaining accurate diagnoses and accessing medical specialists.\"\n    },\n    {\n      \"claim_text\": \"Over 7,000 rare diseases affect 1-in-10 Californians.\"\n    },\n    {\n      \"claim_text\": \"The CalFresh for Board & Care Facilities bill will study the impact of extending CalFresh benefits to residents of board and care facilities.\"\n    },\n    {\n      \"claim_text\": \"Maintaining and growing board and care facilities is a key strategy to address homelessness in communities.\"\n    },\n    {\n      \"claim_text\": \"Residents of board and care facilities in California currently do not qualify for CalFresh benefits.\"\n    },\n    {\n      \"claim_text\": \"In-Home Supportive Services (IHSS) providers support home-bound aged, blind, and disabled individuals in California.\"\n    },\n    {\n      \"claim_text\": \"Current law mandates IHSS providers to pay for their criminal background checks, creating a financial burden on low-income workers.\"\n    },\n    {\n      \"claim_text\": \"The cost of criminal background checks for IHSS workers can amount to as much as $75.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The Jacqueline Marie Zbur Rare Disease Advisory Council bill aims to create a Rare Disease Advisory Council (RDAC) in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Rare disease patients face unique challenges, including obtaining accurate diagnoses and accessing medical specialists.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Over 7,000 rare diseases affect 1-in-10 Californians.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The CalFresh for Board & Care Facilities bill will study the impact of extending CalFresh benefits to residents of board and care facilities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Maintaining and growing board and care facilities is a key strategy to address homelessness in communities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Residents of board and care facilities in California currently do not qualify for CalFresh benefits.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "In-Home Supportive Services (IHSS) providers support home-bound aged, blind, and disabled individuals in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Current law mandates IHSS providers to pay for their criminal background checks, creating a financial burden on low-income workers.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The cost of criminal background checks for IHSS workers can amount to as much as $75.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 9,
+  "doc_sha1": "1c1f7c14cffe8d8940c4a53e8a7c9bd805ddd267"
+}

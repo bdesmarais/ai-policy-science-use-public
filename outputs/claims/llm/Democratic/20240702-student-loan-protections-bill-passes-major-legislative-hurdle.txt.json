@@ -1,0 +1,13 @@
+{
+  "press_release": "20240702-student-loan-protections-bill-passes-major-legislative-hurdle.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Legislation to provide consumer protections for students with institutional debt – debt owed to an institution of higher education – was approved by the Senate Jud",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"More than 750,000 low-income students owed more than $390 million to California public colleges during the first two years of the COVID pandemic.\",\n    \"Most of this debt is incurred when a student withdraws from a course before the end of the term and their school is re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"More than 750,000 low-income students owed more than $390 million to California public colleges during the first two years of the COVID pandemic.\",\n    \"Most of this debt is incurred when a student withdraws from a course before the end of the term and their school is required to repay federal student aid.\",\n    \"Pell Grants are awarded based on financial need, leading to debts that tend to fall on low-income students, who are more likely to be from marginalized communities.\",\n    \"Students with institutional debt lack many basic consumer safeguards compared to federal student loans and other privately held debts.\",\n    \"The Protecting Students from Creditor Colleges Act aims to shield students from the economic harm associated with institutional debt.\",\n    \"AB 1160 will help students reenroll in their coursework while they work to get on track with their institutional debt.\",\n    \"The bill establishes guardrails on the use of third-party debt collections and tax benefit offset while allowing schools to bring in revenues.\",\n    \"The bill will increase transparency for policymakers and researchers to protect students and families.\",\n    \"Provisions of the bill align student debt collection protections with those for medical and other debts under California law.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cf0af44c00788456d875e8ece267440098bd6a6f"
+}

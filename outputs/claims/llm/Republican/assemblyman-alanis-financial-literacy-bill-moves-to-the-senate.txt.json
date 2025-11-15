@@ -1,0 +1,54 @@
+{
+  "press_release": "assemblyman-alanis-financial-literacy-bill-moves-to-the-senate.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Alanis announced that his financial literacy bill, AB 1871, passed off the Assembly Floor unanimously. This is the Assemblyman’s fourth bill to p",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Learning about personal finance can change someone’s life.\"\n    },\n    {\n      \"claim_text\": \"Not everyone has the opportunity to learn important financial skills.\"\n    },\n    {\n      \"claim_text\": \"Teaching personal finance should be an educational",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Learning about personal finance can change someone’s life.\"\n    },\n    {\n      \"claim_text\": \"Not everyone has the opportunity to learn important financial skills.\"\n    },\n    {\n      \"claim_text\": \"Teaching personal finance should be an educational priority for all California students.\"\n    },\n    {\n      \"claim_text\": \"AB 1871 would require schools to teach personal finance as part of students' social studies coursework before they graduate high school.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Learning about personal finance can change someone’s life.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Not everyone has the opportunity to learn important financial skills.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Teaching personal finance should be an educational priority for all California students.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 1871 would require schools to teach personal finance as part of students' social studies coursework before they graduate high school.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 4,
+  "doc_sha1": "05e9c8bc20a90fdc7901fe7e5c3751ddc778f98b"
+}

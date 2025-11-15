@@ -1,0 +1,13 @@
+{
+  "press_release": "20200204-bipartisan-coalition-introduces-legislation-combat-imminent-loss-affordable.txt",
+  "party": "Democratic",
+  "title": "New Tax Credit Will Help Preserve 25,000 Subsidized Affordable Housing Units at Risk of Converting to Market Rate Units Over the Next Five Years",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:14:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is at risk of losing nearly 35,000 subsidized affordable rental units due to expiring state and federal subsidies and deed restrictions over the next five years.\",\n    \"This figure of 35,000 units represents 8% of the state’s subsidized affordable housing stoc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is at risk of losing nearly 35,000 subsidized affordable rental units due to expiring state and federal subsidies and deed restrictions over the next five years.\",\n    \"This figure of 35,000 units represents 8% of the state’s subsidized affordable housing stock.\",\n    \"Between 1997 and 2018, California lost over 15,000 affordable rental units as subsidies and affordability restrictions expired.\",\n    \"The construction of a new affordable unit in California costs an average of $425,000, with some urban areas exceeding $600,000.\",\n    \"AB 2058 is expected to enable California to preserve roughly 25,000 affordable housing units over the next five years at a cost of approximately $20,000 per unit.\",\n    \"The Affordable Housing Preservation Tax Credit is designed to incentivize owners of affordable housing to keep units affordable instead of converting them to market rate rents.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ac8becf08da9a0f6724e50d11165271981e3f839"
+}

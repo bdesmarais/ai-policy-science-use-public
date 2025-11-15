@@ -1,0 +1,13 @@
+{
+  "press_release": "20230606-veterans-honor-ramos-legislator-year.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—The California State Commanders Veterans Council today awarded the 2022 Pete Conaty Legislator of the Year Award to Assemblymember James C. Ramos (D-San Bernardino), for",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b84e262195670cf2e7d47cc1eb25ba1cde58bd5e"
+}

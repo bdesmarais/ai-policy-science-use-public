@@ -1,0 +1,13 @@
+{
+  "press_release": "20190910-press-release-assemblywoman-quirk-silvaas-legislation-help-visually.txt",
+  "party": "Democratic",
+  "title": "Assemblywoman Quirk-Silvaâs Legislation to Help Visually Impaired Students Heads to Governor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 947 promotes education that aims to maximize the potential of visually impaired students.\",\n    \"The Expanded Core Curriculum (ECC) includes skills beneficial to pupils who are blind, have low vision, or are visually impaired.\",\n    \"Instruction in the area",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 947 promotes education that aims to maximize the potential of visually impaired students.\",\n    \"The Expanded Core Curriculum (ECC) includes skills beneficial to pupils who are blind, have low vision, or are visually impaired.\",\n    \"Instruction in the areas of braille, large print media, assistive technology, orientation and mobility, socialization, independent living, and sensory efficiency may be beneficial for visually impaired students.\",\n    \"School districts often fail to adequately assess students for the need of Expanded Core Curriculum skill areas.\",\n    \"Orientation and mobility is a crucial skill area for students who are visually impaired.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "355aadc9f052bb9506c902ed5919f47dae4d4c7a"
+}

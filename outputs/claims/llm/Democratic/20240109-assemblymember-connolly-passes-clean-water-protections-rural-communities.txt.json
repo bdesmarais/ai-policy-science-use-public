@@ -1,0 +1,13 @@
+{
+  "press_release": "20240109-assemblymember-connolly-passes-clean-water-protections-rural-communities.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Connolly passed",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Managed wetlands and small disadvantaged communities will be allowed to use their average annual water usage without facing excessive fines from Groundwater Sustainability Agencies as part of the Sustainable Groundwater Management Act.\",\n    \"Several Groundwater Sustaina",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Managed wetlands and small disadvantaged communities will be allowed to use their average annual water usage without facing excessive fines from Groundwater Sustainability Agencies as part of the Sustainable Groundwater Management Act.\",\n    \"Several Groundwater Sustainability Agencies are proposing groundwater allocations that are unworkable for rural communities and endangered wetlands.\",\n    \"AB 828 will protect small communities' access to safe and affordable drinking water.\",\n    \"AB 828 aims to prevent some of California's wetlands from going dry.\",\n    \"Small disadvantaged communities are heavily reliant on a single source for their water supply, making them vulnerable to drought and affordability challenges.\",\n    \"California's historic wetlands have been reduced to only five percent of their original area.\",\n    \"Managed wetlands in California provide significant habitat for migratory waterfowl, endangered species, and other wildlife.\",\n    \"Managed wetlands offer public benefits including water quality improvement, flood protection, recreation, and opportunities for scientific research.\",\n    \"Nearly 85% of Californians rely on groundwater for their public water supply, a figure that increases for small water systems serving rural communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ac10b843676a36d18a6945d5c26bb0baa790b863"
+}

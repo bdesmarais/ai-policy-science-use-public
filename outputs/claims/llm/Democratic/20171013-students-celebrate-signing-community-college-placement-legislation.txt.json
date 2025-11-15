@@ -1,0 +1,13 @@
+{
+  "press_release": "20171013-students-celebrate-signing-community-college-placement-legislation.txt",
+  "party": "Democratic",
+  "title": "Today, Governor Jerry Brown announced the signing of AB 705, which changes the way that community college students are placed in remedial courses at all 114 of California’s Communi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:59:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Recent studies have shown that too many of California’s students are being placed in remedial courses when they don’t need to be.\",\n    \"A recent PPIC study found that 80% of students entering Community College enroll in at least one remedial level course in English, mat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Recent studies have shown that too many of California’s students are being placed in remedial courses when they don’t need to be.\",\n    \"A recent PPIC study found that 80% of students entering Community College enroll in at least one remedial level course in English, math, or both.\",\n    \"A majority of students placed into remedial courses are minority students who tend to have higher dropout rates than those who place into transfer-level courses.\",\n    \"Developmental courses are considered to be one of the largest impediments to student success in California’s community colleges due to added time needed to complete these courses, increased costs to students, and a psychological effect of not feeling challenged by the coursework.\",\n    \"Multiple measures programs have been implemented in other states with great success.\",\n    \"There have been multiple studies showing lower success rates for students that were placed in remedial English or math courses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "36cc8af04a57268ea5fa6918010015573644a905"
+}

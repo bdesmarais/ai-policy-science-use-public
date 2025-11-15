@@ -1,0 +1,13 @@
+{
+  "press_release": "democrats-to-force-vote-on-unworkable-climate-proposals-08-31-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's Assembly Bill 2133 sets a new 2030 greenhouse gas emissions reduction target of 55% below the 1990 level.\",\n    \"California's Assembly Bill 1279 establishes a state goal to be carbon neutral no later than 2045.\",\n    \"The California Air Resources Board concl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's Assembly Bill 2133 sets a new 2030 greenhouse gas emissions reduction target of 55% below the 1990 level.\",\n    \"California's Assembly Bill 1279 establishes a state goal to be carbon neutral no later than 2045.\",\n    \"The California Air Resources Board concluded that the proposed climate initiatives are economically and technically infeasible due to the current lack of low-carbon energy infrastructure.\",\n    \"The proposed climate initiatives could result in large job losses.\",\n    \"The implementation of new emission reduction mandates could potentially add $50,000 to the median price of a home.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "045744cc8a11420cc0c4f2aeb2da5547f0a3ba98"
+}

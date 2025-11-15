@@ -1,0 +1,13 @@
+{
+  "press_release": "20240703-assemblywoman-sorias-ab-2104-expand-nursing-programs-advances-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"AB 2104 authorizes the California Community Colleges to establish a pilot program to allow up to 10 community college districts to offer a Bachelor of Science in Nursing (BSN) degree.\",\n    \"The nursing shortage in the Central Valley has contributed to the closure o",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"AB 2104 authorizes the California Community Colleges to establish a pilot program to allow up to 10 community college districts to offer a Bachelor of Science in Nursing (BSN) degree.\",\n    \"The nursing shortage in the Central Valley has contributed to the closure of Madera Community Hospital.\",\n    \"Expanding access to nursing training programs is necessary to tackle the workforce challenge in California.\",\n    \"AB 2104 will create a pipeline that will train local talent with the cultural and linguistic backgrounds needed to serve unique communities.\",\n    \"Expanding the pipeline to meet California's demand for qualified nurses is imperative.\",\n    \"The initiative enhances diversity in the nursing profession, benefiting underserved communities.\",\n    \"Without action, the nursing shortage could worsen, limiting access to needed healthcare and compromising lives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e028c7ce270f9f88b970bdebea55c97693d22113"
+}

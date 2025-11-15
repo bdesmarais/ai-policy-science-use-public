@@ -1,0 +1,13 @@
+{
+  "press_release": "20250521-boys-girls-club-contra-costa-county-named-2025-nonprofit-year-assembly.txt",
+  "party": "Democratic",
+  "title": "District 15",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Boys and Girls Club empowers youth with skills, confidence, and support necessary for success in school, career, and life.\",\n    \"Nonprofits are a major economic force within California.\",\n    \"The nonprofit sector is the 4th largest industry in California, employing",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Boys and Girls Club empowers youth with skills, confidence, and support necessary for success in school, career, and life.\",\n    \"Nonprofits are a major economic force within California.\",\n    \"The nonprofit sector is the 4th largest industry in California, employing more than 1.2 million people.\",\n    \"California nonprofits generate more than $273 billion in revenue each year.\",\n    \"California nonprofits bring in $40 billion in revenue from outside of California.\",\n    \"The unpaid labor contributed by volunteers at nonprofits is equivalent to 330,000 full-time jobs every year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "88d397df468686daba69e4217f2401fcf5079740"
+}

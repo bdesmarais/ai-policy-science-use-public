@@ -1,0 +1,13 @@
+{
+  "press_release": "carl-demaio-moves-to-prohibit-use-of-taxpayer-funds-for-legal-defense-of-ca-politicians-when-charged-with-thwarting-trump-immigration-enforcement-efforts.txt",
+  "party": "Republican",
+  "title": "“If California politicians face civil lawsuits or criminal prosecution for willfully impeding the work of federal law enforcement, state taxpayers should not be forced to pay for t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California politicians may face civil lawsuits or criminal prosecution for willfully impeding the work of federal law enforcement.\",\n    \"Federal law imposes serious consequences for obstructing the execution of federal immigration law.\",\n    \"California politicians coul",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California politicians may face civil lawsuits or criminal prosecution for willfully impeding the work of federal law enforcement.\",\n    \"Federal law imposes serious consequences for obstructing the execution of federal immigration law.\",\n    \"California politicians could face criminal prosecution for concealing, harboring, or shielding aliens.\",\n    \"California politicians could face potential personal financial liability under civil RICO lawsuits.\",\n    \"Sworn state and local law enforcement personnel are being put in legal jeopardy by California's Sanctuary policies.\",\n    \"California's Sanctuary State policies may put state and local officials on a legal collision course with the federal government.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3e8773a3c83b381cc339fb3d305861a9bd5376d4"
+}

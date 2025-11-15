@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-introduces-california-senate-resolution-honor-united.txt",
+  "party": "Democratic",
+  "title": "Senator Anna M. Caballero Introduces California Senate Resolution in Honor of the United Mexican States Election of Dr. Claudia Sheinbaum",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Dr. Claudia Sheinbaum’s election represents a major advancement in gender equity.\",\n    \"Dr. Claudia Sheinbaum is the first female elected president among the three largest North American countries.\",\n    \"The election of Dr. Sheinbaum represents a significant step forwa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Dr. Claudia Sheinbaum’s election represents a major advancement in gender equity.\",\n    \"Dr. Claudia Sheinbaum is the first female elected president among the three largest North American countries.\",\n    \"The election of Dr. Sheinbaum represents a significant step forward in advancing gender equity by breaking longstanding barriers.\",\n    \"Dr. Sheinbaum's presidency will inspire young girls and women, particularly women of color, across California and the world.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cee8124a0cae10231069b295ce788181f6c3bd14"
+}

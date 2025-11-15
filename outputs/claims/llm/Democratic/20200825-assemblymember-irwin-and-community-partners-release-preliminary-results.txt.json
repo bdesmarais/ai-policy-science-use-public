@@ -1,0 +1,13 @@
+{
+  "press_release": "20200825-assemblymember-irwin-and-community-partners-release-preliminary-results.txt",
+  "party": "Democratic",
+  "title": "THOUSAND OAKS",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:18:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Researchers from UCI, UCLA, California Lutheran University, and 11Health are collaborating with Ventura County agencies to determine the true prevalence of COVID-19 within the region.\",\n    \"Over 10,000 individuals have volunteered for COVID-19 antibody testing in Ventur",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Researchers from UCI, UCLA, California Lutheran University, and 11Health are collaborating with Ventura County agencies to determine the true prevalence of COVID-19 within the region.\",\n    \"Over 10,000 individuals have volunteered for COVID-19 antibody testing in Ventura County.\",\n    \"The study provides insights to public health officials and local policymakers regarding COVID-19 transmission.\",\n    \"The Abbott Architect SARS-COV-2 IgG test may indicate a past infection with the virus that causes COVID-19.\",\n    \"According to the CDC, having antibodies to the virus that causes COVID-19 may provide protection from reinfection.\",\n    \"The antibody testing revealed that 1.3% of the tested population in Ventura County had a positive test.\",\n    \"Positive COVID-19 antibody rates varied by race/ethnicity, with Hispanic and Black non-Hispanic individuals having higher rates compared to White individuals.\",\n    \"The study found that younger age groups had higher positive rates for COVID-19 antibodies than older age groups.\",\n    \"There were important differences between the group of individuals tested and the general population of Ventura County.\",\n    \"Future research will investigate how antibody levels vary between individuals with different employment types and exposures.\",\n    \"The antibody testing planned for the coming months aims to provide critical insight into surges in COVID-19 cases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "335a667ca889c2c402002693fc8899f1379edc86"
+}

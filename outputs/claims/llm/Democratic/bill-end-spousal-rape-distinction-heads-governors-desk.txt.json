@@ -1,0 +1,13 @@
+{
+  "press_release": "bill-end-spousal-rape-distinction-heads-governors-desk.txt",
+  "party": "Democratic",
+  "title": "Today , California State Assemblymembers voted overwhelmingly on Concurrence in favor of modernizing and equalizing California’s spousal rape law. The bill, AB 1171, that has Assem",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:44:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1171 will bring parity to California's rape statutes by requiring the same standards for spousal rape as for non-spousal rape.\",\n    \"The bill eliminates the spousal rape exception in the California Penal Code to ensure spousal rape is punished as seriously as non-spo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1171 will bring parity to California's rape statutes by requiring the same standards for spousal rape as for non-spousal rape.\",\n    \"The bill eliminates the spousal rape exception in the California Penal Code to ensure spousal rape is punished as seriously as non-spousal rape.\",\n    \"Although spousal rape is illegal in all 50 states, California is one of nine states that distinguishes spousal rape from rape.\",\n    \"According to the National Coalition Against Domestic Violence, between 10-14% of married women have experienced rape by their spouse.\",\n    \"18% of victims of spousal rape state their children have witnessed the rape.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "13e8f15a33e5a6b448e046c6aaa60f045958a91d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20170119-assemblymember-al-muratsuchi-statement-south-coast-air-quality-management.txt",
+  "party": "Democratic",
+  "title": "TORRANCE, CA – “The South Coast AQMD has heard the concerns of South Bay residents and is proposing a ban on highly toxic hydrofluoric acid in our community.  Ending the use of thi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:53:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "74b6bdd63ac43f0b7b94d7ae0292e7b96342d921"
+}

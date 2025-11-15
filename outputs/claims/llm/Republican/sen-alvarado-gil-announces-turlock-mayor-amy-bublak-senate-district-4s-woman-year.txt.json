@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-alvarado-gil-announces-turlock-mayor-amy-bublak-senate-district-4s-woman-year.txt",
+  "party": "Republican",
+  "title": "In honor of Women’s History Month, Senator Marie Alvarado-Gil ( R-Jackson ) is proud to announce Turlock Mayor Amy Bublak as Senate District 4’s Woman of the Year.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "48e73b36a8f0c6e759ddfd07d6010c3a0fbfc45a"
+}

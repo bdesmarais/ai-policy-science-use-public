@@ -1,0 +1,13 @@
+{
+  "press_release": "20240828-assembly-speaker-robert-rivas-announces-millions-dollars-new-cal-fire-grant.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The program announced $90 million in total funding for 94 wildfire prevention projects across California.\",\n    \"More than two-thirds of the projects were allocated to low-income or disadvantaged communities.\",\n    \"The funding aims to improve public health outcomes and ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The program announced $90 million in total funding for 94 wildfire prevention projects across California.\",\n    \"More than two-thirds of the projects were allocated to low-income or disadvantaged communities.\",\n    \"The funding aims to improve public health outcomes and safety by reducing greenhouse gas emissions and hazardous fuels.\",\n    \"Funding for a Community Hazardous Fuels Reduction project will be received by the Monterey County Regional Fire District.\",\n    \"The fuel reduction efforts aim to educate the community about the importance of adequate defensible space.\",\n    \"The program has funded over 450 wildfire resilience projects over the last five years.\",\n    \"The program supports California’s Wildfire and Forest Resilience Action Plan, which is partially funded through California Climate Investments.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "14613c31cc84654fc9ce50968d4f5fce0f469f9c"
+}

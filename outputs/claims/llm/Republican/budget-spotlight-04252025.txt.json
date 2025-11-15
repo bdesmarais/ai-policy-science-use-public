@@ -1,0 +1,13 @@
+{
+  "press_release": "budget-spotlight-04252025.txt",
+  "party": "Republican",
+  "title": "Subcommittee #1 (Education) Laird (D-Santa Cruz) Chair, Ochoa Bogh (R-Yucaipa), and Pérez (D-Pasadena)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senators raised concerns about the limited public awareness of wildfire risks and prevention measures.\",\n    \"Embers are the leading cause of home ignitions during wildfires.\",\n    \"Creating a five-foot ember-resistant buffer—known as Zone 0—can significantly improve a h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senators raised concerns about the limited public awareness of wildfire risks and prevention measures.\",\n    \"Embers are the leading cause of home ignitions during wildfires.\",\n    \"Creating a five-foot ember-resistant buffer—known as Zone 0—can significantly improve a home’s chances of survival.\",\n    \"The condition of the home and its immediate surroundings determine the potential for ignition during a wildfire.\",\n    \"California is currently the only state that fully taxes military retirement income.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0327c039b3131fea87d562b149204e77d567cd3e"
+}

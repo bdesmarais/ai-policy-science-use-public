@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-marie-alvarado-gil-pledges-financial-support-save-modesto-veterans-day-parade-after.txt",
+  "party": "Republican",
+  "title": "After learning that this year’s Modesto Veterans Day Parade was canceled due to rising costs, Sen. Marie Alvarado-Gil is announcing she will match $5,000 in donations to support ne",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "db9d2ad57e39ac71eb98f0fb8bccca88ed7b9c76"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210827-assemblymember-jesse-gabriel-presents-500000-check-alliance-community.txt",
+  "party": "Democratic",
+  "title": "LOS ANGELES, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Alliance for Community Empowerment (ACE) provides education, workforce, and gang intervention programming integrated with counseling, mentoring, and other support services to underserved students and families.\",\n    \"ACE was established in 2013 when Canoga Park was i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Alliance for Community Empowerment (ACE) provides education, workforce, and gang intervention programming integrated with counseling, mentoring, and other support services to underserved students and families.\",\n    \"ACE was established in 2013 when Canoga Park was identified as an underserved neighborhood with high rates of poverty, educational challenges, and unemployment among individuals ages 14 to 25.\",\n    \"ACE specializes in serving individuals ages 14 to 25 in the West San Fernando Valley.\",\n    \"ACE's YouthBuild program provides tutoring, counseling, and college preparation for individuals ages 16-24.\",\n    \"The GRYD (Gang Reduction & Youth Development) program works to reduce gang-related crime and violence through counseling, case management, and court advocacy.\",\n    \"The SECTOR program offers career pathways and family-sustaining wages for individuals impacted by the justice system.\",\n    \"Over 179 young people have graduated from the YouthBuild program since ACE was established.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8b6099de5e3b73707af269715af70769666687d6"
+}

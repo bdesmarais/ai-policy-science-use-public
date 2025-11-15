@@ -1,0 +1,13 @@
+{
+  "press_release": "agricultural-theft-legislation-victory-californias-farmers.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – The governor recently signed Senate Bill 224 into law which seeks to protect farmers from rural agricultural theft. In partnership with Tulare County Sheriff Mike Boud",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 224 will create a new category for grand theft of agricultural property.\",\n    \"Senate Bill 224 requires that the fines collected be redistributed back to agriculture and rural-based crime prevention programs.\",\n    \"In 2018, Tulare County recorded a staggeri",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 224 will create a new category for grand theft of agricultural property.\",\n    \"Senate Bill 224 requires that the fines collected be redistributed back to agriculture and rural-based crime prevention programs.\",\n    \"In 2018, Tulare County recorded a staggering $2 million in agricultural theft.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3553681a133e150592329d427820a6ac38f5d38e"
+}

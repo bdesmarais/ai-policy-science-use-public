@@ -1,0 +1,13 @@
+{
+  "press_release": "20241018-select-committee-permitting-reform-puts-spotlight-climate-resilience-bay.txt",
+  "party": "Democratic",
+  "title": "SAN FRANCISCO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Permitting can take decades in California.\",\n    \"The current hundred-year high tide will be the annual high tide by 2050, and the daily high tide by 2100.\",\n    \"Sea level rise will increase the frequency and severity of flooding events.\",\n    \"Permitting fees have",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Permitting can take decades in California.\",\n    \"The current hundred-year high tide will be the annual high tide by 2050, and the daily high tide by 2100.\",\n    \"Sea level rise will increase the frequency and severity of flooding events.\",\n    \"Permitting fees have increased 1800%.\",\n    \"Streambed alteration permits take years and are required every year.\",\n    \"We need tens of carbon capture projects, which will take years to implement.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "15d5795de403df318aa2d8f347a41f5c662ceb58"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-tri-ta-releases-statement-following-designation-of-april-30-as-jane-fonda-day-by-the-los-angeles-county-board-of-supervisors.txt",
+  "party": "Republican",
+  "title": "Assemblyman Tri Ta Releases Statement Following Designation of April 30 as “Jane Fonda Day” by the Los Angeles County Board of Supervisors",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "10880417e15ed7a34f93abc771a967c85f816947"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220214-assemblymember-arambula-introduces-ab-1995-eliminate-medi-cal-premiums.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The current Medi-Cal system requires more than 535,000 pregnant women, children, and people with disabilities to pay monthly premiums to keep their coverage.\",\n    \"Many families on Medi-Cal may have an income just over the free Medi-Cal limit, resulting in financial har",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The current Medi-Cal system requires more than 535,000 pregnant women, children, and people with disabilities to pay monthly premiums to keep their coverage.\",\n    \"Many families on Medi-Cal may have an income just over the free Medi-Cal limit, resulting in financial hardships due to premium payments.\",\n    \"The premiums paid for Medi-Cal yield relatively little cost savings for the State.\",\n    \"Assembly Bill 1995 aims to eliminate Medi-Cal premiums charged to pregnant women, children, and people with disabilities.\",\n    \"Eliminating Medi-Cal premiums will ensure that families won’t lose their coverage and can maintain access to health care.\",\n    \"There is a significant financial burden imposed on people with disabilities who work part-time and are required to pay premiums.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4811c3f1105a8d4e8c98a3f30fee6810e4a92cd2"
+}

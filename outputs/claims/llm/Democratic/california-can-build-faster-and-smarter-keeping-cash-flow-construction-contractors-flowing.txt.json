@@ -1,0 +1,13 @@
+{
+  "press_release": "california-can-build-faster-and-smarter-keeping-cash-flow-construction-contractors-flowing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The California State Senate Judiciary Committee today approved Senator Dave Cortese’s Senate Bill 61 (SB 61), which would expedite money payments to construction contr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7c24c6eb1e88ad5cec5592367feac143c190246b"
+}

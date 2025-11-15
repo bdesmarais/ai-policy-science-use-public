@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-becker-fights-to-end-hygiene-injustice-in-county-jails.txt",
+  "party": "Democratic",
+  "title": "New Legislation Establishes a Standardized Indigence Threshold to End Harmful Hygiene Policies in County Jails and Juvenile Facilities",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Incarcerated individuals in county jails and youth detention centers should have guaranteed access to basic hygiene products like soap, toothpaste, and shampoo.\",\n    \"SB 498 standardizes the indigence threshold across counties to prevent individuals from falling into hy",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Incarcerated individuals in county jails and youth detention centers should have guaranteed access to basic hygiene products like soap, toothpaste, and shampoo.\",\n    \"SB 498 standardizes the indigence threshold across counties to prevent individuals from falling into hygiene debt.\",\n    \"The inconsistent standards in county jails often deny individuals access to hygiene essentials unless they are completely out of funds for days at a time.\",\n    \"Many county jails in California set extremely low indigence thresholds, often requiring individuals to have nearly zero dollars before qualifying for free hygiene products.\",\n    \"Access to hygiene products in juvenile detention facilities is often inconsistent, with items sometimes withheld as punishment.\",\n    \"The practices surrounding access to hygiene products disproportionately impact Black, Brown, transgender, and queer individuals in the justice system.\",\n    \"SB 498 establishes a standardized indigence threshold defining indigence as possessing $25 or less in an inmate account for seven consecutive days.\",\n    \"SB 498 bans charging indigent individuals for hygiene products or allowing them to accumulate commissary debt for these essentials.\",\n    \"The bill provides debt forgiveness for individuals who have accrued hygiene-related commissary debt while incarcerated.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8c002f776af224b1c75be7a6289a01569a2aa5e3"
+}

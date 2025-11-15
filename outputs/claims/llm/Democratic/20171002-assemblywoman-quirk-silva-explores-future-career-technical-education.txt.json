@@ -1,0 +1,13 @@
+{
+  "press_release": "20171002-assemblywoman-quirk-silva-explores-future-career-technical-education.txt",
+  "party": "Democratic",
+  "title": "Orange County, California",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Career Technical Education Incentive Grant is a 3-year initiative worth $900 million.\",\n    \"More than 300 California high schools and local education agencies applied for and received grants to develop and grow their Career Technical Education programs.\",",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Career Technical Education Incentive Grant is a 3-year initiative worth $900 million.\",\n    \"More than 300 California high schools and local education agencies applied for and received grants to develop and grow their Career Technical Education programs.\",\n    \"Career Technical Education programs are aligned with state workforce needs.\",\n    \"The Bureau of Labor Statistics indicates that 10 of the 20 fastest growing occupations in the U.S. require an associate's degree or less.\",\n    \"Thirteen of the 20 occupations with the largest projected new job numbers for 2018 require on-the-job training or an associate's degree.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "62fa47bc8bf9c3edfa5f31d1ca9973e6168f9189"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "la-senadora-anna-m-caballero-honra-las-mujeres-del-ano-del-distrito-senatorial.txt",
+  "party": "Democratic",
+  "title": "La Senadora Anna M. Caballero Honra a las Mujeres del Año del Distrito Senatorial 14° para el Valle de Salinas y el Condado de San Benito y Reconoce a Mujeres Distinguidas",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "96bb9a7561054990466fd6123b918de9ecf2eb63"
+}

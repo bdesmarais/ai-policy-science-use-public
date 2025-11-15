@@ -1,0 +1,13 @@
+{
+  "press_release": "20231007-assemblywoman-soria-presents-huron-elementary-school-barona-educational.txt",
+  "party": "Democratic",
+  "title": "HURON",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:10:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Huron Elementary School will implement a new coding curriculum for 3rd to 5th graders.\",\n    \"The coding curriculum aims to improve the technological skills of students.\",\n    \"The educational and technological advancements funded by the Barona Education Grant include ne",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Huron Elementary School will implement a new coding curriculum for 3rd to 5th graders.\",\n    \"The coding curriculum aims to improve the technological skills of students.\",\n    \"The educational and technological advancements funded by the Barona Education Grant include new books, computers, and iPads.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9489ccb8c11bcfcbea8484bcee289859d513260f"
+}

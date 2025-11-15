@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-and-assemblymember-kalra-tackle-racial-justice-and-poverty-silicon-valley.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE - On Saturday, State Senator Dave Cortese (D-San Jose) and Assemblymember Ash Kalra (Assembly District 25), along with an exceptional panel, successfully convened a Town H",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Silicon Valley Pain Index highlights significant disparities in wealth and homelessness in Santa Clara County.\",\n    \"Senator Dave Cortese's SB 333 aims to establish a guaranteed income program for homeless high school seniors in California.\",\n    \"The discussions hi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Silicon Valley Pain Index highlights significant disparities in wealth and homelessness in Santa Clara County.\",\n    \"Senator Dave Cortese's SB 333 aims to establish a guaranteed income program for homeless high school seniors in California.\",\n    \"The discussions highlighted during the town hall serve as tools to guide legislative efforts concerning labor, housing, and economic policies.\",\n    \"Economic disparities in Silicon Valley lead to increased criminalization and incarceration of poor communities and communities of color.\",\n    \"The Young Women’s Freedom Center advocates for alternatives to incarceration that prioritize meaningful employment and guaranteed income models.\",\n    \"TechEquity Collaborative calls for accountability from the tech industry regarding the economic harms it creates within communities.\",\n    \"Policies focusing on economic equity and community support are necessary to address incarceration stemming from a lack of resources.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a8ca894f21ed85ca691f9691338adf5add2d718b"
+}

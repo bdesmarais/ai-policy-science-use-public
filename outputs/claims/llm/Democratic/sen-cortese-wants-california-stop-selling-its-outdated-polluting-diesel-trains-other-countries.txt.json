@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-cortese-wants-california-stop-selling-its-outdated-polluting-diesel-trains-other-countries.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – When the California Legislature convened today, State Senator Dave Cortese (D-Silicon Valley) introduced a bill that restricts the resale of California decommissioned ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California State Senator Dave Cortese introduced a bill that restricts the resale of California decommissioned diesel trains for continued use.\",\n    \"The California Senate Transportation Committee is advocating for reduced greenhouse gas emissions from transportation.\",",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California State Senator Dave Cortese introduced a bill that restricts the resale of California decommissioned diesel trains for continued use.\",\n    \"The California Senate Transportation Committee is advocating for reduced greenhouse gas emissions from transportation.\",\n    \"California has established high targets for reducing greenhouse gas emissions.\",\n    \"California's efforts to clean the air include investing in trains that emit fewer greenhouse gas emissions.\",\n    \"Investment in new locomotives in California focuses on replacing them with either zero-emission or lower-emission alternatives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eac60586c9bc67bb459bce73931473bc1db2d08e"
+}

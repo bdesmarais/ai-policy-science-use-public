@@ -1,0 +1,13 @@
+{
+  "press_release": "first-time-homebuyer-opportunity-act-helping-californians-achieve-homeownership.txt",
+  "party": "Republican",
+  "title": "By Senator Rosilicie Ochoa Bogh, 23rd Senate District",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California routinely ranks as the toughest in the nation for first-time homebuyers.\",\n    \"The median home price in California has broken the $800,000 mark for the first time in history.\",\n    \"According to the National Association of REALTORS, first-time homebuyers repr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California routinely ranks as the toughest in the nation for first-time homebuyers.\",\n    \"The median home price in California has broken the $800,000 mark for the first time in history.\",\n    \"According to the National Association of REALTORS, first-time homebuyers represented one-third of all homebuyers in 2020.\",\n    \"In California's competitive real estate market, cash buyers typically have a decisive edge over first-time homebuyers.\",\n    \"In 2020, 26.6% of home sales in California were all cash transactions.\",\n    \"John Burns estimated that roughly one in every five houses sold in many of the nation's top markets is bought by someone who never moves in.\",\n    \"The First-Time Home Buyer Opportunity Act aims to incentivize homeowners to sell their homes to first-time buyers by increasing the capital gains exclusion.\",\n    \"SB 601 proposes to increase the capital gains exclusion to $300,000 for single filers and $600,000 for joint filers when selling to first-time buyers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1ff36cad0c5174632325c7417f13d1434995f3b2"
+}

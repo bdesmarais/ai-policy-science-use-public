@@ -1,0 +1,13 @@
+{
+  "press_release": "20231018-assemblymember-diane-papan-and-state-senator-josh-becker-secure-300000-city.txt",
+  "party": "Democratic",
+  "title": "Millbrae – Today, Assemblymember Diane Papan and State Senator Josh Becker presented a check for $300,000 for the City of Millbrae to upgrade Bayside Manor and Marina Vista parks. ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:30:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a502a0c7da46d1bae2760c0e8bbd57b031ca0a0"
+}

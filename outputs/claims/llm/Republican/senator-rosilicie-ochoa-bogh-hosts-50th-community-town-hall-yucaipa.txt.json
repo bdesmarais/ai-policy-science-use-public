@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-rosilicie-ochoa-bogh-hosts-50th-community-town-hall-yucaipa.txt",
+  "party": "Republican",
+  "title": "Senator Ochoa Bogh engaging her constituents at her town hall.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "80ba067d17cdeda4c8609d3989062910b6874930"
+}

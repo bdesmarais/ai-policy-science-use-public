@@ -1,0 +1,13 @@
+{
+  "press_release": "bill-address-public-meeting-disruptions-heads-governors-desk.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-Silicon Valley) and Assemblymember Evan Low’s (D-Silicon Valley) bill, SB 1100, to address the increased number of public meeting disruptions local governme",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:44:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Ralph M. Brown Act contains provisions that remain antiquated.\",\n    \"Senator Cortese and Assemblymember Low support mechanisms to address disruptions during public meetings.\",\n    \"SB 1100 aims to enhance public access to meetings and improve the democratic process.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Ralph M. Brown Act contains provisions that remain antiquated.\",\n    \"Senator Cortese and Assemblymember Low support mechanisms to address disruptions during public meetings.\",\n    \"SB 1100 aims to enhance public access to meetings and improve the democratic process.\",\n    \"Disruptions at public meetings can harm the democratic process.\",\n    \"Public officials and attendees should not have to end their business early due to bullying, harassment, or violence.\",\n    \"Hate speech, threats, bullying, harassment, and intimidation at public meetings are unacceptable.\",\n    \"SB 1100 could help protect individuals, especially women, who serve in public office from harassment and violence during meetings.\",\n    \"There has been a notable increase in disruptive behavior, hate speech, intimidation, and threats against local officials and the public.\",\n    \"The measure will clarify when the removal of disruptive individuals from public meetings is necessary.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "16383df4254370e12fabf23db462e40310977e31"
+}

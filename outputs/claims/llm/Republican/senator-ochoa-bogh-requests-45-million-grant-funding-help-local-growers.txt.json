@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-requests-45-million-grant-funding-help-local-growers.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh ( R-Yucaipa) , along with other members of the State Legislature, has sent a letter to Governor Gavin Newsom and leadership members requesting a $45 mi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"California is experiencing the highest level of exotic fruit fly infestations in its recorded history.\",\n    \"As of early 2024, there have been more than 900 fruit fly detections in 15 counties in California.\",\n    \"This is a significant increase from the seven flie",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"California is experiencing the highest level of exotic fruit fly infestations in its recorded history.\",\n    \"As of early 2024, there have been more than 900 fruit fly detections in 15 counties in California.\",\n    \"This is a significant increase from the seven flies found in a typical year.\",\n    \"Providing financial assistance to struggling growers can encourage them to comply with quarantine standards.\",\n    \"Compliance with quarantine standards is necessary to prevent the spread of exotic fruit flies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d4d78333ea74fbc882fde506dfdae4e6ce4d6ae3"
+}

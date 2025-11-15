@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-year-review.txt",
+  "party": "Democratic",
+  "title": "2020 has proven to be a very challenging year. COVID-19 has affected almost every aspect of our daily lives. From our physical and mental health to our financial and educational op",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cefd1a04790c6ee3d694a37f0a3bfcc5fa5a0276"
+}

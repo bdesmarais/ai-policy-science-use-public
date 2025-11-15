@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-unanimously-oppose-gavins-gas-tax.txt",
+  "party": "Republican",
+  "title": "Caucus is united against Newsom proposal that will risk price spikes & fuel rationing.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposal by Gov. Newsom would put Californians at risk of fuel shortages and price spikes.\",\n    \"Taxes, fees, and regulations drive up gas costs and restrict the fuel supply in California.\",\n    \"The governor’s tax plan could make the issues of high gas prices even ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposal by Gov. Newsom would put Californians at risk of fuel shortages and price spikes.\",\n    \"Taxes, fees, and regulations drive up gas costs and restrict the fuel supply in California.\",\n    \"The governor’s tax plan could make the issues of high gas prices even worse.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb8d57caad794c931aae3fc1c330149351224870"
+}

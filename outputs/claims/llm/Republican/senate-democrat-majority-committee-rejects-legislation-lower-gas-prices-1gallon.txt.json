@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-democrat-majority-committee-rejects-legislation-lower-gas-prices-1gallon.txt",
+  "party": "Republican",
+  "title": "Today, California Democrat lawmakers on the Senate Environmental Committee rejected a measure by Senate Minority Leader Brian W. Jones (R-San Diego) to lower gas prices by $1 per g",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California gas prices are over $1 more per gallon than the national average as of April 19, 2023.\",\n    \"Senate Bill 32 aims to suspend state gas taxes and fees to lower gas prices by $1 per gallon.\",\n    \"The suspension of gas taxes and fees under Senate Bill 32 is inte",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California gas prices are over $1 more per gallon than the national average as of April 19, 2023.\",\n    \"Senate Bill 32 aims to suspend state gas taxes and fees to lower gas prices by $1 per gallon.\",\n    \"The suspension of gas taxes and fees under Senate Bill 32 is intended to provide immediate relief to consumers struggling with high gas prices.\",\n    \"Senate Bill 32 requires that the $1 per gallon in savings be applied directly to the consumer.\",\n    \"The suspension of gas taxes and fees under Senate Bill 32 is proposed to last for one year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1d53b289e6cfb88fa74160b7f5ec49167ed325d4"
+}

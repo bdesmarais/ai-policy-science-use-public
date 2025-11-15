@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-announces-statewide-legislative-strategy-ensure-water.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 366 aims to establish long-term water supply targets for California.\",\n    \"California's water supply infrastructure is inadequate to meet present needs and is unprepared for future needs.\",\n    \"Recent storms will not resolve years of drought in California.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 366 aims to establish long-term water supply targets for California.\",\n    \"California's water supply infrastructure is inadequate to meet present needs and is unprepared for future needs.\",\n    \"Recent storms will not resolve years of drought in California.\",\n    \"California faces challenges to its water supply due to climate change, aging infrastructure, and an increasing population and economy.\",\n    \"A projected 20% decline in water supplies threatens 50,000 jobs and could lead to a GDP decline of $4.5 billion in California's agricultural sector.\",\n    \"Fallowing of more than 400,000 acres is already impacting farmers in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4f416eb371023bd3c5b8c8f3fc5a2d3564ba89a1"
+}

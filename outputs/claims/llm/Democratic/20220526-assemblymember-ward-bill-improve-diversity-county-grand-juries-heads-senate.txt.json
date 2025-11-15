@@ -1,0 +1,13 @@
+{
+  "press_release": "20220526-assemblymember-ward-bill-improve-diversity-county-grand-juries-heads-senate.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO,CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:42:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Racial and ethnic minorities are under-represented in the makeup of civil grand juries in California.\",\n    \"Assembly Bill 1972 aims to improve diversity within the grand jury selection process.\",\n    \"Increasing per diem compensation for grand jurors could help increase",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Racial and ethnic minorities are under-represented in the makeup of civil grand juries in California.\",\n    \"Assembly Bill 1972 aims to improve diversity within the grand jury selection process.\",\n    \"Increasing per diem compensation for grand jurors could help increase diversity in the civil juror pool.\",\n    \"Current state statute does not require further requirements to create a more diverse grand jury based on demographic characteristics.\",\n    \"California has deep racial disparities in access to justice, income, and wealth.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "034c415651f71ef19063775399ee071b95c21837"
+}

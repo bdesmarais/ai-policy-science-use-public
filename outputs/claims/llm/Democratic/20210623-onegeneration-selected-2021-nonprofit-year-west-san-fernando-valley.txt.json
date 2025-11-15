@@ -1,0 +1,13 @@
+{
+  "press_release": "20210623-onegeneration-selected-2021-nonprofit-year-west-san-fernando-valley.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:30:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"ONEgeneration has been recognized as the 2021 California Nonprofit of the Year for Assembly District 45.\",\n    \"ONEgeneration's mission is to enrich the lives of seniors, children, and families by fostering intergenerational relationships.\",\n    \"When seniors and youth p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"ONEgeneration has been recognized as the 2021 California Nonprofit of the Year for Assembly District 45.\",\n    \"ONEgeneration's mission is to enrich the lives of seniors, children, and families by fostering intergenerational relationships.\",\n    \"When seniors and youth participate in activities together, seniors recall favorite songs, games, and projects from their past.\",\n    \"Older adults tutoring young people provides one-on-one attention that aids youth skill-building.\",\n    \"Children help seniors become more comfortable with new technology.\",\n    \"ONEgeneration significantly increased its grant application output during the COVID-19 pandemic.\",\n    \"ONEgeneration expanded its food delivery services for homebound individuals during the COVID-19 pandemic.\",\n    \"ONEgeneration established a food pantry to assist community members in need during the COVID-19 pandemic.\",\n    \"ONEgeneration served over 32,000 meals each month during the COVID-19 pandemic.\",\n    \"ONEgeneration reclaimed and repurposed over 250,000 pounds of food per month from local markets for its food pantries.\",\n    \"ONEgeneration worked with over 40 community partners to serve the community.\",\n    \"ONEgeneration provided services to ensure over two thousand isolated, homebound seniors received COVID-19 vaccinations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fa6e038cc97b70b66dfb6b67435f3ea14690cff6"
+}

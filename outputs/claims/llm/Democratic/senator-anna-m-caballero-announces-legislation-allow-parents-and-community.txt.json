@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-announces-legislation-allow-parents-and-community.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 609 aims to increase transparency in the use of supplemental and concentration funds for disadvantaged students.\",\n    \"Current accessibility issues with Local Control Accountability Plans (LCAP) hinder parents and community members from understanding how fun",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 609 aims to increase transparency in the use of supplemental and concentration funds for disadvantaged students.\",\n    \"Current accessibility issues with Local Control Accountability Plans (LCAP) hinder parents and community members from understanding how funds are allocated.\",\n    \"SB 609 will require the California Department of Education to post links to all County Office of Education local control and accountability plans on the California School Dashboard.\",\n    \"The Local Control Funding Formula (LCFF) was intended to address educational inequities in California.\",\n    \"True local control in education necessitates that parents and communities are informed of decisions made by local education agencies.\",\n    \"SB 609 would ensure supplemental and concentration funds are utilized to serve the most vulnerable students as intended.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2a49b5deb144d972b57e65962b2492b57f7c7a95"
+}

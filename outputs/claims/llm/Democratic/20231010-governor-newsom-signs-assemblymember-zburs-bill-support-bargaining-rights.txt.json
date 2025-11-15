@@ -1,0 +1,13 @@
+{
+  "press_release": "20231010-governor-newsom-signs-assemblymember-zburs-bill-support-bargaining-rights.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Temporary employees are often rehired by the same agency year after year, suggesting that the need for the work they perform is not temporary.\",\n    \"The increasing reliance on temporary workers creates an overlooked class of workers who often do not receive retirement, ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Temporary employees are often rehired by the same agency year after year, suggesting that the need for the work they perform is not temporary.\",\n    \"The increasing reliance on temporary workers creates an overlooked class of workers who often do not receive retirement, health insurance, disability, job security, or union benefits.\",\n    \"Temporary employees are likely to earn less per hour despite performing the same jobs as permanent employees.\",\n    \"Temporary employees in the public sector provide essential services but are denied the wages, benefits, and job security of their co-workers.\",\n    \"An overwhelming number of temporary workers are women and people of color, exacerbating the inequity of the two-class employment system.\",\n    \"AB 1484 helps to ensure that temporary employees are better able to make their voices heard at the bargaining table.\",\n    \"The use of temporary workers by local governments in California is currently exploiting this class of employees.\",\n    \"AB 1484 will help correct the imbalance and give temporary workers more agency to advocate for their own basic labor rights.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d99dd13e5903e8df4acf2f82a2fdebb9201afc9e"
+}

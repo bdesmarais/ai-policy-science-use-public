@@ -1,0 +1,13 @@
+{
+  "press_release": "20200821-assemblywoman-rubios-ab-323-save-local-journalism-act-passes-out-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:18:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 323 establishes a path for community and ethnic news outlets to reach underserved communities through state advertising.\",\n    \"California newspapers have experienced declines of about half their average advertising revenue since the pandemic hit.\",\n    \"Wi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 323 establishes a path for community and ethnic news outlets to reach underserved communities through state advertising.\",\n    \"California newspapers have experienced declines of about half their average advertising revenue since the pandemic hit.\",\n    \"Without a temporary extension of their exemption from AB 5, newspapers face impending increased operational costs of up to 85%.\",\n    \"Local journalists and news organizations are uniquely equipped to report quickly on the issues that matter most to their readers.\",\n    \"The ability to improve democracy is predicated on an informed citizenry.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a7fdf0f425451ae6a9d92bd4a7f12d436dbd5e1e"
+}

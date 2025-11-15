@@ -1,0 +1,13 @@
+{
+  "press_release": "i-voted-against-electricity-rate-hikes-and-14-billion-gift-pge-i-did-not-vote-against.txt",
+  "party": "Republican",
+  "title": "Literally at the 13th hour, legislation to raise electricity rates statewide was thrown onto the Senate and Assembly Floors with a dictate from Democrat Governor Gavin Newsom, Sena",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 846 contains a $1.4 billion forgivable loan to PG&E.\",\n    \"The California Public Utilities Commission is authorized to raise electricity rates for all ratepayers statewide through SB 846.\",\n    \"Ratepayers in California will be assessed higher electrical rat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 846 contains a $1.4 billion forgivable loan to PG&E.\",\n    \"The California Public Utilities Commission is authorized to raise electricity rates for all ratepayers statewide through SB 846.\",\n    \"Ratepayers in California will be assessed higher electrical rates because of SB 846, regardless of whether they receive electricity from Diablo Canyon.\",\n    \"California's current electricity rates in San Diego County are the highest in the nation.\",\n    \"The closure of California's other nuclear power plants has contributed to energy shortages and flex-alerts.\",\n    \"Historical precedent suggests that last-minute energy legislation in California can lead to massive electricity rate hikes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "34388863102e84077b40c8d41329cdb82e2803ab"
+}

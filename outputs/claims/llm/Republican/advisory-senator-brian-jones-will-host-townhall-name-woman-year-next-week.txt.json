@@ -1,0 +1,13 @@
+{
+  "press_release": "advisory-senator-brian-jones-will-host-townhall-name-woman-year-next-week.txt",
+  "party": "Republican",
+  "title": "Who?          Senator Brian Jones (R-Santee), local community leaders and residents of Senate District 38 (North & East San Diego County)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "84a654e278271f804b9ec6dd1be4f8946f01a217"
+}

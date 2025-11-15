@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-elect-tony-strickland-hold-press-availability.txt",
+  "party": "Republican",
+  "title": "On his first day on the job after being elected to represent California Senate District 36, Senator-elect Tony Strickland ( R-Huntington Beach ) will hold a media availability with",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bb9e9b00c492a74a8c2284572a5cb7aeb685e55f"
+}

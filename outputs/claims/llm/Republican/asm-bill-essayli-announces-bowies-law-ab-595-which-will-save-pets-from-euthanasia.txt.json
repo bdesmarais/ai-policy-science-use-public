@@ -1,0 +1,13 @@
+{
+  "press_release": "asm-bill-essayli-announces-bowies-law-ab-595-which-will-save-pets-from-euthanasia.txt",
+  "party": "Republican",
+  "title": "AB 595 will require 72-hour public notice before an adoptable pet can be euthanized",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 595 will require 72-hour public notice before an adoptable pet can be euthanized.\",\n    \"AB 595 will commission a statewide study to provide data on overcrowding at animal shelters.\",\n    \"AB 595 aims to develop strategies to help stop unnecessary euthanasia of pets.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 595 will require 72-hour public notice before an adoptable pet can be euthanized.\",\n    \"AB 595 will commission a statewide study to provide data on overcrowding at animal shelters.\",\n    \"AB 595 aims to develop strategies to help stop unnecessary euthanasia of pets.\",\n    \"Some animal shelters provide little to no notice before euthanizing pets.\",\n    \"AB 595 aims to make every shelter in California a no-kill shelter.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "13043d8ad1de7bdb362d2089c2c800de2b0c7a37"
+}

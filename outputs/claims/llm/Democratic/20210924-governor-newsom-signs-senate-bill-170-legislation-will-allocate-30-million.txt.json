@@ -1,0 +1,13 @@
+{
+  "press_release": "20210924-governor-newsom-signs-senate-bill-170-legislation-will-allocate-30-million.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Fresno Future of Food Corridor aims to promote sustainable agriculture and create jobs in the Central Valley.\",\n    \"The project is a collaboration between multiple educational institutions and the Central Valley Community Foundation.\",\n    \"The San Joaquin Valley is",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Fresno Future of Food Corridor aims to promote sustainable agriculture and create jobs in the Central Valley.\",\n    \"The project is a collaboration between multiple educational institutions and the Central Valley Community Foundation.\",\n    \"The San Joaquin Valley is the top agricultural producer in the United States.\",\n    \"The Fresno Future of Food Corridor is expected to modernize the agricultural industry and expand its global influence.\",\n    \"Innovation is identified as a key factor in addressing new challenges faced by the agricultural industry.\",\n    \"The project intends to secure economic opportunities and protect livelihoods in California's agricultural sector.\",\n    \"The F3 project will integrate research from the University of California and California State University systems with knowledge from agri-business leaders.\",\n    \"The initiative includes the development of the Innovation Center for Research in Engineering, Ag-Food Technology and Entrepreneurship (iCREATE).\",\n    \"iCREATE is envisioned as a center for the applied research and commercialization of next-generation precision food systems and related technologies.\",\n    \"The project will involve cross-disciplinary applications, including digitalization, data science, mechatronics, and systems integration.\",\n    \"The investment reflects a commitment to address the health and sustainability of natural resources and the economy in the Valley.\",\n    \"The Fresno D.R.I.V.E. Initiative is a community investment plan created with input from a diverse group of stakeholders.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "083944c848b3aee5ad0e48caacadcbb27550d0b4"
+}

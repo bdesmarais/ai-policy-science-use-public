@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-becker-introduces-legislation-to-remove-barriers-to.txt",
+  "party": "Democratic",
+  "title": "SB 1095 removes outdated legal barriers blocking Californians from switching their home appliances from gas to electric, making it easier for them to choose appliances that make th",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1095 removes legal barriers that prevent Californians from switching their home appliances from gas to electric.\",\n    \"Enabling the switch to electric appliances can improve the health and coziness of buildings and homes.\",\n    \"The Cozy Homes Cleanup Act aims to hel",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1095 removes legal barriers that prevent Californians from switching their home appliances from gas to electric.\",\n    \"Enabling the switch to electric appliances can improve the health and coziness of buildings and homes.\",\n    \"The Cozy Homes Cleanup Act aims to help California achieve its climate goals by facilitating the transition to zero-emission appliances.\",\n    \"The state has set a target of deploying 6 million new heat pumps by 2030.\",\n    \"Residential buildings account for eight percent of greenhouse gas emissions in California.\",\n    \"SB 1095 streamlines the process for installing zero-emission appliances.\",\n    \"The legislation authorizes the California Housing and Community Development Department to update standards for appliance installations in mobile and manufactured homes.\",\n    \"The law prevents Home Owner Associations from blocking residents from switching from gas to electric appliances.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f606dd631caafec24c449716ea3391393633f369"
+}

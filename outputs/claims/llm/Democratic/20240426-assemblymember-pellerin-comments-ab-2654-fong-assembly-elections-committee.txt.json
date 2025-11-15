@@ -1,0 +1,13 @@
+{
+  "press_release": "20240426-assemblymember-pellerin-comments-ab-2654-fong-assembly-elections-committee.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Gail Pellerin made the following comments during Assembly Elections Committee yesterday, April 25, 2024.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6ba935c8c208dec41c2a5c1b51ae2d0382b6cd35"
+}

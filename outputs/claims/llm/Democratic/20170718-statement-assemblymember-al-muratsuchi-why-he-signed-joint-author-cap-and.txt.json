@@ -1,0 +1,13 @@
+{
+  "press_release": "20170718-statement-assemblymember-al-muratsuchi-why-he-signed-joint-author-cap-and.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Climate change is perhaps the greatest challenge facing our planet Earth.\",\n    \"California is leading the nation in the fight against climate change.\",\n    \"The cap and trade program is an important part of California's fight against climate change.\",\n    \"The cap and t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Climate change is perhaps the greatest challenge facing our planet Earth.\",\n    \"California is leading the nation in the fight against climate change.\",\n    \"The cap and trade program is an important part of California's fight against climate change.\",\n    \"The cap and trade bill addresses the global crisis of climate change.\",\n    \"The air quality improvement bill addresses local demands for cleaner, healthier air.\",\n    \"The air quality bill will require the Torrance Refinery to retrofit their equipment to reduce excessive flaring, toxic emissions, and pollutants.\",\n    \"The bill package is an important step forward in California's ongoing fight against climate change and air pollution.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9e68ebaa3b3892220cf5576ca3a9c8def979f565"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240524-zbur-bill-eliminate-barriers-home-supportive-services-ihss-advances-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:44:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Over 740,000 Californians rely on the IHSS program for essential domestic long-term care services.\",\n    \"The current supply of care providers is unable to meet the demand in California.\",\n    \"The IHSS program provides a cost-effective alternative to institutional ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Over 740,000 Californians rely on the IHSS program for essential domestic long-term care services.\",\n    \"The current supply of care providers is unable to meet the demand in California.\",\n    \"The IHSS program provides a cost-effective alternative to institutional care in California.\",\n    \"AB 2704 aims to shift the financial burden of criminal background checks for IHSS providers from individuals to the Department of Justice.\",\n    \"The costs of criminal background checks for IHSS providers can amount to as much as $75.\",\n    \"The practice of requiring IHSS providers to pay for their criminal background checks creates an inequitable burden on low-income workers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2f1bcfea83fe6df4acf6857119db313074899002"
+}

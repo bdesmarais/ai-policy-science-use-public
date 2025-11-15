@@ -1,0 +1,13 @@
+{
+  "press_release": "giant-step-toward-ending-homelessness-in-california.txt",
+  "party": "Democratic",
+  "title": "Becker Legislation Makes It Easier For Cities To Put Up “Opportunity Homes”",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Opportunity housing units are relocatable housing placed on unused land that can house tens of thousands of low-income and homeless Californians.\",\n    \"Traditional housing in California takes a long time to build and is very expensive.\",\n    \"Opportunity housing can be ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Opportunity housing units are relocatable housing placed on unused land that can house tens of thousands of low-income and homeless Californians.\",\n    \"Traditional housing in California takes a long time to build and is very expensive.\",\n    \"Opportunity housing can be built quickly and inexpensively using innovative prefabricated and modular construction.\",\n    \"Opportunity housing units can be built on land that is only available for a few years and can be easily moved.\",\n    \"There are around 45,000 unused federal housing vouchers in California due to the lack of affordable homes.\",\n    \"Opportunity housing has been successful as a non-congregate alternative to emergency shelter for some individuals.\",\n    \"Opportunity housing can provide a mid-term housing option while more permanent housing is being developed in California.\",\n    \"The model of opportunity housing has been successful in cities like Santa Barbara, San Francisco, and Rohnert Park.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "423399b0c7edeff80284a4306b7ca819d4586802"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240103-ramos-measure-would-count-prior-convictions-determining-penalties-retail.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Prosecutors will find it easier to seek sterner penalties against retail theft suspects if a bill, AB 1772, introduced today by Assemblymember James C. Ramos (D-San Bern",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Prosecutors will find it easier to seek sterner penalties against retail theft suspects if bill AB 1772 is approved.\",\n    \"If approved, store thefts would no longer be processed as a misdemeanor with no jail time if a suspect has been convicted of two or more speci",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Prosecutors will find it easier to seek sterner penalties against retail theft suspects if bill AB 1772 is approved.\",\n    \"If approved, store thefts would no longer be processed as a misdemeanor with no jail time if a suspect has been convicted of two or more specified theft-related offenses.\",\n    \"Punishment for retail theft could range from imprisonment in the county jail ranging from six months to as long as three years.\",\n    \"The Public Policy Institute reported that the 2022 rates for commercial burglary had increased by almost 16 percent compared to 2019.\",\n    \"Shoplifting in 2022 had increased by nearly 29% from the pandemic years according to the PPIC.\",\n    \"Proposition 47 increased the threshold amount for theft misdemeanors from $450 to $950.\",\n    \"Proposition 47 did not allow prior convictions for theft to count toward the new $950 threshold.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a6b76e2b9690f10d97312de027c192ff010bbd31"
+}

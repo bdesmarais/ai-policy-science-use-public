@@ -1,0 +1,13 @@
+{
+  "press_release": "fallbrook-bonsall-village-news-pointing-fingers-will-not-reform-bad-policies-changing.txt",
+  "party": "Republican",
+  "title": "Another horrific story from the Sanctuary State of California is yet another reason for Senate Bill 54 supporters to understand the fatal flaw in this ill-advised law imposed on Ca",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Carlos Eduardo Arevalo Carranza has been charged with the brutal murder of a San Jose woman.\",\n    \"DNA samples collected from Carranza matched the crime scene within 24 hours, leading to a warrant for his arrest.\",\n    \"Carranza had been previously deported by Homeland ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Carlos Eduardo Arevalo Carranza has been charged with the brutal murder of a San Jose woman.\",\n    \"DNA samples collected from Carranza matched the crime scene within 24 hours, leading to a warrant for his arrest.\",\n    \"Carranza had been previously deported by Homeland Security before returning to California.\",\n    \"Carranza has a history of multiple arrests for various crimes, including drug possession and burglary.\",\n    \"U.S. Immigration and Customs Enforcement placed six detainers for Carranza, which were ignored due to sanctuary laws.\",\n    \"The failure to enforce detainers for Carranza is linked to a murder in San Jose.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "74b1764c9ac55770e8c6871dc475dd9c639f365c"
+}

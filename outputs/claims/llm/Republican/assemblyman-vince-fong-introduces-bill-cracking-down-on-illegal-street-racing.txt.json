@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-vince-fong-introduces-bill-cracking-down-on-illegal-street-racing.txt",
+  "party": "Republican",
+  "title": "March 9, 2020",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2b7e1285ad362b7061cdfd21d89f84cba58f4087"
+}

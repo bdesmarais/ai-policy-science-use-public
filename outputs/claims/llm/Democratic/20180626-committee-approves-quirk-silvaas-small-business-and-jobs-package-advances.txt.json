@@ -1,0 +1,13 @@
+{
+  "press_release": "20180626-committee-approves-quirk-silvaas-small-business-and-jobs-package-advances.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) â Today, six bills authored by Assemblywoman Sharon Quirk-Silva (D-Orange County) passed major legislative hurdles on their way to helping Californiaâs number-one ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The establishment of the Small Business Assistance Expansion Program aims to support small businesses in California.\",\n    \"The California Economic Development Strategic Action Plan is designed to promote economic growth.\",\n    \"The Master Business License Center is",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The establishment of the Small Business Assistance Expansion Program aims to support small businesses in California.\",\n    \"The California Economic Development Strategic Action Plan is designed to promote economic growth.\",\n    \"The Master Business License Center is intended to simplify the requirements and regulations for business operations in California.\",\n    \"The new measures aim to make the discovery and submission of required business forms more accessible through an online platform.\",\n    \"The bills include expanded assistance for veteran-, women-, and minority-owned businesses.\",\n    \"The legislation prepares California for future natural disasters and a rapidly shifting economic landscape.\",\n    \"The collective efforts of these bills are intended to enhance California's economy by promoting a unified brand of business friendliness and economic justice.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "36f36f271af38a31c785957fc3b00359ec8b5971"
+}

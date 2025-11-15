@@ -1,0 +1,13 @@
+{
+  "press_release": "in-case-you-missed-it-carb-changes-its-story-on-gas-prices-again-newsom-backs-higher-costs-anyways.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The Low Carbon Fuel Standard could spike gas prices by as much as 65 cents per gallon.\",\n    \"The Air Resources Board predicted that prices would rise by 47 cents per gallon under the new rule.\",\n    \"The Air Resources Board ultimately stated they had no idea what i",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The Low Carbon Fuel Standard could spike gas prices by as much as 65 cents per gallon.\",\n    \"The Air Resources Board predicted that prices would rise by 47 cents per gallon under the new rule.\",\n    \"The Air Resources Board ultimately stated they had no idea what impact the rule would have on gas prices.\",\n    \"The regulations would increase costs on refineries, which would pass those costs on to consumers.\",\n    \"Governor Newsom claimed that forcing drivers out of their cars will save Californians billions every year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "65d8d7da3ed90b138536f96d3e819cfc8c103645"
+}

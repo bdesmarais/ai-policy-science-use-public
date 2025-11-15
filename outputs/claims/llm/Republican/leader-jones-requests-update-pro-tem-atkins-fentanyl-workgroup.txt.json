@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-requests-update-pro-tem-atkins-fentanyl-workgroup.txt",
+  "party": "Republican",
+  "title": "With just two weeks left in the 2023 legislative session, Senate Minority Leader Brian W. Jones (R-San Diego) delivered a letter to Senate President pro Tempore Toni Atkins (D-San ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Pro Tem Atkins confirmed the creation of a workgroup to help pass fentanyl legislation, including Senate Bill 44.\",\n    \"Nearly 6,000 Californians died from fentanyl overdoses in the most recent reporting period.\",\n    \"Fentanyl overdoses result in the deaths of a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Pro Tem Atkins confirmed the creation of a workgroup to help pass fentanyl legislation, including Senate Bill 44.\",\n    \"Nearly 6,000 Californians died from fentanyl overdoses in the most recent reporting period.\",\n    \"Fentanyl overdoses result in the deaths of approximately 110 Californians each week.\",\n    \"Senate Bill 44 requires courts to inform individuals convicted of fentanyl sales that subsequent offenses could lead to voluntary manslaughter or murder charges.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "36c8c1a1e25c74ab72a02e826490debb4a7dcfaa"
+}

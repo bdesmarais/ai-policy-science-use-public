@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-senator-corteses-motion-picture-safety-bill-prompted-rust-film-tragedy.txt",
+  "party": "Democratic",
+  "title": "Gov. Gavin Newsom on Monday signed Senate Bill (SB) 132 , a budget bill that incorporated legislation by Senator Dave Cortese establishing historic worker safety standards on motio",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The new law establishes historic worker safety standards on motion picture productions.\",\n    \"The safety standard applies to film, television, streaming production, and other related content production.\",\n    \"The legislation reflects two years of negotiations between s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The new law establishes historic worker safety standards on motion picture productions.\",\n    \"The safety standard applies to film, television, streaming production, and other related content production.\",\n    \"The legislation reflects two years of negotiations between studios and labor representatives.\",\n    \"The law protects workers on film and television productions by establishing clear, mandatory guidelines around the use of firearms and ammunition on sets.\",\n    \"The law creates minimum training standards for individuals responsible for overseeing firearms.\",\n    \"The law ensures compliance with enforcement standards regarding the use of firearms on productions.\",\n    \"The law creates a five-year Safety on Productions Pilot Program mandating the hiring of an independent Safety Advisor for film productions.\",\n    \"The California Film and Television Tax Credit program has led to the creation of hundreds of thousands of high-paying union jobs.\",\n    \"The 4.0 version of the California Film and Television Tax Credit program will create new commitments to diversity, equity, and inclusion.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f059de71ee108e3f1ad1749b7343efee355df917"
+}

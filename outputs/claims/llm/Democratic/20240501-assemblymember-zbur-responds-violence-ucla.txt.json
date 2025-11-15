@@ -1,0 +1,13 @@
+{
+  "press_release": "20240501-assemblymember-zbur-responds-violence-ucla.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Violence against students and demonstrators on the UCLA campus is condemned as abhorrent.\",\n    \"The administration of UCLA has failed in their duty to protect the safety and wellbeing of all students on campus.\",\n    \"There has been a rise in antisemitic incidents on th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Violence against students and demonstrators on the UCLA campus is condemned as abhorrent.\",\n    \"The administration of UCLA has failed in their duty to protect the safety and wellbeing of all students on campus.\",\n    \"There has been a rise in antisemitic incidents on the UCLA campus in recent weeks.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1f24bb24fc3c2c3784cd68b53c781f4717b2c8c6"
+}

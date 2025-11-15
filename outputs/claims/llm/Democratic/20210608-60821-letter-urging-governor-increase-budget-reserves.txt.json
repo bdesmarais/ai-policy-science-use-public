@@ -1,0 +1,13 @@
+{
+  "press_release": "20210608-60821-letter-urging-governor-increase-budget-reserves.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Cottie Petrie-Norris (D-Laguna Beach) has signed on to a letter authored by her colleagues Assemblymembers Tim Grayson (D-Concord) and Tom Daly (D-Anaheim) urging Go",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "825b4a81776b23d9a02912cffc2c69f9a81f9125"
+}

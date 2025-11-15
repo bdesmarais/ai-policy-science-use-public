@@ -1,0 +1,13 @@
+{
+  "press_release": "crime-victims-and-their-families-to-receive-more-protection-with-legislation-by-assemblyman-vince-fong.txt",
+  "party": "Republican",
+  "title": "More must be done to protect crime victims and their families as many have experienced unwanted encounters with convicted perpetrators of crimes that upended their lives. To provid",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Post-traumatic stress is common among victims and their families.\",\n    \"Unplanned encounters with convicted offenders exacerbate the trauma experienced by victims and their families.\",\n    \"Victims and their families must be able to request protections from convicted of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Post-traumatic stress is common among victims and their families.\",\n    \"Unplanned encounters with convicted offenders exacerbate the trauma experienced by victims and their families.\",\n    \"Victims and their families must be able to request protections from convicted offenders.\",\n    \"The effects of a crime often extend beyond the victim to their families.\",\n    \"Form 1707 protections allow family members to have input in the conditions of an offender's parole.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "db8820ffddfdb81ca48f3bff89857f3075f3576e"
+}

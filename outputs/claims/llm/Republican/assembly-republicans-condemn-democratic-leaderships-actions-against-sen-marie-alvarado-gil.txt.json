@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-condemn-democratic-leaderships-actions-against-sen-marie-alvarado-gil.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO — Assembly Republicans today strongly condemned the actions taken by Senate Democratic leadership to strip Sen. Marie Alvarado-Gil of all her committee assignments and t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3629c5587362773bf020e70bc66660743166a2ec"
+}

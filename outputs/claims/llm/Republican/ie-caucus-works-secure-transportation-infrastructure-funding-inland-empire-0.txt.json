@@ -1,0 +1,13 @@
+{
+  "press_release": "ie-caucus-works-secure-transportation-infrastructure-funding-inland-empire-0.txt",
+  "party": "Republican",
+  "title": "The Inland Empire is one of the fastest growing regions in the state, experiencing dramatic growth in both population and the movement of goods in recent years. This growth has cre",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Inland Empire is experiencing significant competition for space on roads and highways between trucks transporting goods and residents commuting to work.\",\n    \"The state is projected to have a budget surplus of $31 billion for the fiscal year beginning in July.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Inland Empire is experiencing significant competition for space on roads and highways between trucks transporting goods and residents commuting to work.\",\n    \"The state is projected to have a budget surplus of $31 billion for the fiscal year beginning in July.\",\n    \"Robust cap-and-trade revenues and new federal infrastructure funds present opportunities to support projects that will benefit residents of the Inland Empire.\",\n    \"Requested budget funds of $2.245 billion are aimed at improving transportation infrastructure in the Inland Empire.\",\n    \"A portfolio of multimodal transportation projects aims to connect diverse communities and promote economic prosperity.\",\n    \"The Coachella Valley-San Gorgonio Rail Corridor Service project aims to provide passenger rail service between LA and Coachella Valley.\",\n    \"Local sales tax measures have been approved by residents to provide ongoing funding for transportation projects in the region.\",\n    \"The requested funds would help reduce traffic congestion and improve air quality in San Bernardino and Riverside counties.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6abab0d7845d836d316dde0664ffaaffb241eb49"
+}

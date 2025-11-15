@@ -1,0 +1,13 @@
+{
+  "press_release": "20240321-california-state-assembly-approves-concurrent-resolution-156-authored.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The California State Assembly has passed a resolution commemorating the 203rd anniversary of Greece's rebellion against Ottoman rule.\",\n    \"The resolution acknowledges the pivotal role played by Greece in shaping democratic principles.\",\n    \"The ancient Greeks lai",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The California State Assembly has passed a resolution commemorating the 203rd anniversary of Greece's rebellion against Ottoman rule.\",\n    \"The resolution acknowledges the pivotal role played by Greece in shaping democratic principles.\",\n    \"The ancient Greeks laid the groundwork for modern democracy.\",\n    \"Greek Americans have made significant contributions to various fields including finance, technology, law, medicine, and the arts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2344d199f81cc3f9c261af3a81bb850831043a25"
+}

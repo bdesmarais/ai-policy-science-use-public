@@ -1,0 +1,13 @@
+{
+  "press_release": "20180601-bill-stop-trump-administration-expanding-offshore-oil-drilling-passes.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1775 will ensure that pipelines and other infrastructure cannot be built in California waters to support any new federal oil development.\",\n    \"The legislation will protect the California coast by prohibiting the State Lands Commission from approving any n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1775 will ensure that pipelines and other infrastructure cannot be built in California waters to support any new federal oil development.\",\n    \"The legislation will protect the California coast by prohibiting the State Lands Commission from approving any new leases for pipelines, piers, wharves, or other infrastructure needed to support new federal oil and gas development in the three-mile area off the coast that is controlled by the state.\",\n    \"The bill would also prohibit any lease renewal, extension, or modification that would support the production, transportation, or processing of new oil and gas.\",\n    \"A recent Public Policy Institute of California (PPIC) study found that an overwhelming 69% of Californians opposed additional offshore drilling.\",\n    \"Offshore oil drilling jeopardizes marine ecosystems, coastal economies based on fishing and tourism, and the health and safety of marine animals.\",\n    \"Since 1986, more than 600 oil and gas pipeline spills, explosions, and other incidents in California have caused at least $769 million in damages, 200 injuries, and close to 50 deaths.\",\n    \"California's coastal economy produces approximately $44.5 billion in GDP each year and employs almost half a million people in the state.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "73addd1a7aed9bcd76711b16afef16268ed52803"
+}

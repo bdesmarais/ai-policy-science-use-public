@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-minority-leader-brian-jones-coalition-democrat-and-republican-senators-local.txt",
+  "party": "Republican",
+  "title": "Click here to watch the SB 1011 press conference.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:06:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1011 aims to compassionately clear homeless encampments in California.\",\n    \"The measure seeks to prohibit encampments within 500 feet of sensitive community areas such as schools and transit stops.\",\n    \"The bill prohibits camping on sidewalks if a homeles",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1011 aims to compassionately clear homeless encampments in California.\",\n    \"The measure seeks to prohibit encampments within 500 feet of sensitive community areas such as schools and transit stops.\",\n    \"The bill prohibits camping on sidewalks if a homeless shelter is available.\",\n    \"Senate Bill 1011 mandates a 72-hour warning before an encampment sweep to allow individuals time to find alternatives.\",\n    \"Enforcement officers are required to provide information about available sleeping alternatives and homeless services.\",\n    \"Senate Bill 1011 aims to balance accountability and compassion in addressing the homelessness crisis.\",\n    \"The legislation is modeled after the City of San Diego's 'Unsafe Camping Ordinance.'\",\n    \"Compassionately clearing encampments is intended to improve public safety and health.\",\n    \"The initiative seeks to protect vulnerable populations, including children and seniors, from living in unsafe conditions.\",\n    \"Addressing homelessness is described as a shared responsibility among community members and legislators.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e71877fe1c87ebaa62f82b5e8772e08eaf9e64ea"
+}

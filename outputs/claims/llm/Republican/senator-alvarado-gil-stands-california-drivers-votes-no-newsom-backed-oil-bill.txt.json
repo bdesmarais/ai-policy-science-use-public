@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-alvarado-gil-stands-california-drivers-votes-no-newsom-backed-oil-bill.txt",
+  "party": "Republican",
+  "title": "Today, Sen. Marie Alvarado-Gil ( R-Jackson) issued the following statement after voting no on ABx2-1 (Hart), a bill sponsored by Governor Newsom as part of his extraordinary sessio",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill ABx2-1 is likely to raise gas prices instead of lowering them.\",\n    \"ABx2-1 expands the California Energy Commission's authority to impose more restrictions on oil refiners.\",\n    \"The California Air Resources Board's low carbon fuel standard could increase gas",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill ABx2-1 is likely to raise gas prices instead of lowering them.\",\n    \"ABx2-1 expands the California Energy Commission's authority to impose more restrictions on oil refiners.\",\n    \"The California Air Resources Board's low carbon fuel standard could increase gas prices by as much as 47 to 65 cents per gallon.\",\n    \"Californians currently pay the highest gas prices in the nation, averaging $4.67 per gallon.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "174ed9ab85767ffafc367907ca11c73223815743"
+}

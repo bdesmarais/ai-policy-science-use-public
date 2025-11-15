@@ -1,0 +1,13 @@
+{
+  "press_release": "20201210-assemblymember-aguiar-curry-introduces-internet-all-act-2021-announces.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:21:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"1 in 8 California homes still do not have internet access.\",\n    \"Communities of color face higher rates of disconnection compared to other groups.\",\n    \"The COVID-19 pandemic has highlighted significant gaps in internet connectivity in California.\",\n    \"Access to fast",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"1 in 8 California homes still do not have internet access.\",\n    \"Communities of color face higher rates of disconnection compared to other groups.\",\n    \"The COVID-19 pandemic has highlighted significant gaps in internet connectivity in California.\",\n    \"Access to fast internet is critical for distance learning, virtual work, telehealth services, and small business participation.\",\n    \"The 'Internet for All Act of 2021' prioritizes broadband infrastructure deployment in vulnerable and unserved communities.\",\n    \"The Act aims to bridge the digital divide by extending the California Advanced Services Fund to provide grants.\",\n    \"The digital divide impacts low-income, rural, and urban communities of color the most.\",\n    \"AB 14 provides a pathway to connect California's workforce to gainful employment and enables telemedicine and distance learning.\",\n    \"The Act offers eligibility for grants to local and tribal governments to connect households and community institutions efficiently.\",\n    \"AB 14 aims to build a statewide fiber middle-mile network to provide higher speeds and access to connectivity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "69f9590ce9540688bc69b8f1db16d3f78e4bf6e5"
+}

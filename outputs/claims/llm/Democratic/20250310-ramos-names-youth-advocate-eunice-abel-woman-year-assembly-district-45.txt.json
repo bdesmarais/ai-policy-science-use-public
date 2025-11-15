@@ -1,0 +1,13 @@
+{
+  "press_release": "20250310-ramos-names-youth-advocate-eunice-abel-woman-year-assembly-district-45.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Assemblymember James C. Ramos (D-San Bernardino) today named Eunice Abel, a youth advocate and undergraduate student, as 2025 Woman of the Year for Assembly District 45.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:29:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d0178a0bfd79253bff466c11d3a7374f8fdb2efa"
+}

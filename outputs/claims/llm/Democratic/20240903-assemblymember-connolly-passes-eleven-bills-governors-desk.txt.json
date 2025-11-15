@@ -1,0 +1,13 @@
+{
+  "press_release": "20240903-assemblymember-connolly-passes-eleven-bills-governors-desk.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblymember Damon Connolly (D-San Rafael) has passed eleven bills successfully through the State Legislature. These bills are now being considered by the Govern",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a3ac1765018745c5ac0e3045cb17b110d4be8d2a"
+}

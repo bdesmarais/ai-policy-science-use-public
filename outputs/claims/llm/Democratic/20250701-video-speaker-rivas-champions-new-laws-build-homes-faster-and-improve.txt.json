@@ -1,0 +1,13 @@
+{
+  "press_release": "20250701-video-speaker-rivas-champions-new-laws-build-homes-faster-and-improve.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:40:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The legislation will alter the trajectory of affordability in the state.\",\n    \"The new bills will lead to more infill housing.\",\n    \"Senate Bill 131 will help streamline the process to build more homes.\",\n    \"The new legislation will modernize CEQA protections.\",",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The legislation will alter the trajectory of affordability in the state.\",\n    \"The new bills will lead to more infill housing.\",\n    \"Senate Bill 131 will help streamline the process to build more homes.\",\n    \"The new legislation will modernize CEQA protections.\",\n    \"The newly signed legislation comes at no fiscal cost to the state.\",\n    \"Experts in development said the new legislation could provide the most significant reforms to CEQA in its 55-year history.\",\n    \"Supporters claim the changes to CEQA will lessen a major barrier to building housing.\",\n    \"Housing experts state that California needs 3.5 million housing units but only builds about 100,000 annually.\",\n    \"The bills mean most new apartment buildings will no longer face the open threat of environmental litigation.\",\n    \"Proponents believe CEQA’s overhaul will help relieve the housing shortage in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a330cdb39317f5c79ee619030e9567e260d8465d"
+}

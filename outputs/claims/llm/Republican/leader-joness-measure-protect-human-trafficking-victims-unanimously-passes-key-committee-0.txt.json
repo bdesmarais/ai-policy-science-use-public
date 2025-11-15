@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-joness-measure-protect-human-trafficking-victims-unanimously-passes-key-committee-0.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones (R-San Diego) announced that his measure to protect human trafficking victims and make it easier to prosecute human trafficking perpetr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Human trafficking is a form of modern day slavery.\",\n    \"Vertical prosecution allows one prosecutor to stay with a human trafficking case from start to finish.\",\n    \"Vertical prosecution programs ease strain on victims by allowing them to maintain a relationship with a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Human trafficking is a form of modern day slavery.\",\n    \"Vertical prosecution allows one prosecutor to stay with a human trafficking case from start to finish.\",\n    \"Vertical prosecution programs ease strain on victims by allowing them to maintain a relationship with a single prosecutor throughout the process.\",\n    \"Having one district attorney responsible for the prosecution streamlines and makes the process more effective.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "206912946aaf7157c2633e3af8f9f4f9832e2d35"
+}

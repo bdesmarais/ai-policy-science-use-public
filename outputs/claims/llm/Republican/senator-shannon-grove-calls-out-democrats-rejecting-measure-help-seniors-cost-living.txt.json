@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-shannon-grove-calls-out-democrats-rejecting-measure-help-seniors-cost-living.txt",
+  "party": "Republican",
+  "title": "Today, Senator Shannon Grove (R-Bakersfield) expressed frustration after the Senate Revenue and Taxation Committee along party lines killed her bill to expand the California Renter",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:15:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Renter’s Tax Credit in California has not been increased in over four decades.\",\n    \"The average home price in California increased from $85,000 in 1979 to over $900,000 today.\",\n    \"The current $7,000 Homeowner’s Exemption saves homeowners just $70 annually on pro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Renter’s Tax Credit in California has not been increased in over four decades.\",\n    \"The average home price in California increased from $85,000 in 1979 to over $900,000 today.\",\n    \"The current $7,000 Homeowner’s Exemption saves homeowners just $70 annually on property taxes.\",\n    \"The Renter’s Tax Credit offers only $60 for single filers and $120 for joint filers.\",\n    \"Senator Grove’s legislation aimed to increase the Homeowner’s Exemption from $7,000 to $50,000.\",\n    \"Senator Grove’s legislation would have increased the Renter’s Tax Credit from $60 to $275 for single individuals and from $120 to $550 for joint filers.\",\n    \"The proposed increases in the Homeowner's Exemption and Renter's Tax Credit reflect inflation adjustments based on costs originating from 1972.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fbfddb5a17d5e78216affcfe1be34a601339c48b"
+}

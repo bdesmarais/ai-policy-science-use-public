@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-greg-wallis-introduces-acr-8-designating-world-desert-day-in-california.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Deserts are home to unique species like the desert tortoise and are vital to California’s ecological health and biodiversity.\",\n    \"Desert ecosystems face significant threats due to habitat destruction and climate change.\",\n    \"The Living Desert’s Headstarting Project ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Deserts are home to unique species like the desert tortoise and are vital to California’s ecological health and biodiversity.\",\n    \"Desert ecosystems face significant threats due to habitat destruction and climate change.\",\n    \"The Living Desert’s Headstarting Project aims to protect the threatened desert tortoise.\",\n    \"Deserts play a critical role in California’s environmental and cultural identity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a3e8b0113fcefdabe372201a0d4462131848eb77"
+}

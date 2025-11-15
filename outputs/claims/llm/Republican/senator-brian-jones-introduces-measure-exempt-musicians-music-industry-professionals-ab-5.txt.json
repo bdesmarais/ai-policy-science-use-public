@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-introduces-measure-exempt-musicians-music-industry-professionals-ab-5.txt",
+  "party": "Republican",
+  "title": "Sacramento – State Senator Brian Jones (R-Santee) announced today he has introduced Senate Bill 881, a measure to exempt musicians and music industry professionals from Assembly Bi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 5 is forcing thousands of independent contractors to become formal employees of a business.\",\n    \"AB 5 has been a boon to union leaders but has been harmful to California’s economy, workers, and businesses.\",\n    \"AB 5 is particularly harmful to less traditional busi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 5 is forcing thousands of independent contractors to become formal employees of a business.\",\n    \"AB 5 has been a boon to union leaders but has been harmful to California’s economy, workers, and businesses.\",\n    \"AB 5 is particularly harmful to less traditional businesses, such as those owned by women and persons of color.\",\n    \"Under AB 5, for each 'gig' a musician or producer books, the hirer must add them to their payroll as an employee and start paying fees such as unemployment insurance.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fe9bb8c110ca77f0ad3c6c8b39b7559fb0393aec"
+}

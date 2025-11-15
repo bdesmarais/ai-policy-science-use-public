@@ -1,0 +1,13 @@
+{
+  "press_release": "20240903-california-legislature-expands-access-comprehensive-affordable-health-care.txt",
+  "party": "Democratic",
+  "title": "AB 2258, a bill requiring health plans and health insurers to cover services integral to the delivery of recommended preventive services, passed the Legislature and now awaits the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2258 requires health plans and health insurers to cover services integral to the delivery of recommended preventive services without cost sharing to the consumer.\",\n    \"A study found that even a $10 cost for HIV prevention medication doubled prescription abandonment ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2258 requires health plans and health insurers to cover services integral to the delivery of recommended preventive services without cost sharing to the consumer.\",\n    \"A study found that even a $10 cost for HIV prevention medication doubled prescription abandonment rates, increasing the risk of HIV infections.\",\n    \"Barriers to accessing preventive health care force individuals to choose between their health and basic necessities.\",\n    \"AB 2258 aims to codify longstanding federal guidance in California law regarding coverage for preventive care.\",\n    \"By removing barriers to lifesaving preventive care, the bill could reduce new cases of HIV and STIs.\",\n    \"The bill seeks to ensure access to vital preventive services like contraceptives and HIV prevention regardless of changes at the federal level.\",\n    \"Pharmacies owned by pharmacy benefit managers (PBMs) can lead to culturally incompetent LGBTQ+ healthcare and delayed medication delivery.\",\n    \"Addressing barriers to HIV testing and prevention is critical to improving health outcomes for individuals living with or at risk for HIV.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7853a06b32a95f06268079b6a57cffe487d444eb"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210924-governor-newsom-signs-assemblymember-arambulas-ab-263-ensure-public-health.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Private detention centers must now abide by state and local health orders to protect detainees and workers.\",\n    \"The new law, AB 263, will ensure that private detention facilities follow Cal/OSHA workplace safety rules and regulations.\",\n    \"Outbreaks in private deten",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Private detention centers must now abide by state and local health orders to protect detainees and workers.\",\n    \"The new law, AB 263, will ensure that private detention facilities follow Cal/OSHA workplace safety rules and regulations.\",\n    \"Outbreaks in private detention facilities can quickly overwhelm these facilities, drain medical resources, and threaten the health and safety of surrounding communities.\",\n    \"California's public health authorities have a vital role in protecting health during a pandemic.\",\n    \"Private immigration detention facilities in California are required to respect the state’s public health guidance and orders.\",\n    \"The passage of AB 263 is intended to safeguard the health of individuals in immigration detention as well as facility staff.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "075f9037d413e0af31104d36229def6984c0d04d"
+}

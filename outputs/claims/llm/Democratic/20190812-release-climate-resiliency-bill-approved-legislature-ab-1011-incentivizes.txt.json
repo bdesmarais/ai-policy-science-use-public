@@ -1,0 +1,13 @@
+{
+  "press_release": "20190812-release-climate-resiliency-bill-approved-legislature-ab-1011-incentivizes.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – In an effort to incentivize nonprofits to undertake projects that provide habitat restoration and improved public access to coastal resources, Assemblywoman Cottie Pet",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1011 authorizes the Coastal Commission to provide fee waivers to 501(c)(3) nonprofits seeking permits for public access and habitat restoration.\",\n    \"The fee-waiver allowance in AB 1011 will encourage nonprofit participation in habitat restoration projects.\",\n    \"P",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1011 authorizes the Coastal Commission to provide fee waivers to 501(c)(3) nonprofits seeking permits for public access and habitat restoration.\",\n    \"The fee-waiver allowance in AB 1011 will encourage nonprofit participation in habitat restoration projects.\",\n    \"Participation of nonprofits in habitat restoration projects is critical to protecting the coastline in the face of climate change.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7ccddd141749ce73bd3cee4bccd1851358abc532"
+}

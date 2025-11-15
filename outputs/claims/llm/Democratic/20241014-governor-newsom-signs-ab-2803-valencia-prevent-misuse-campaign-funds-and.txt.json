@@ -1,0 +1,13 @@
+{
+  "press_release": "20241014-governor-newsom-signs-ab-2803-valencia-prevent-misuse-campaign-funds-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Governor Newsom signed AB 2803 into law to prevent the misuse of campaign funds in California.\",\n    \"Under AB 2803, campaign funds will no longer be used to pay or reimburse legal costs for charges involving public crimes or fraud.\",\n    \"Candidates or elected offi",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Governor Newsom signed AB 2803 into law to prevent the misuse of campaign funds in California.\",\n    \"Under AB 2803, campaign funds will no longer be used to pay or reimburse legal costs for charges involving public crimes or fraud.\",\n    \"Candidates or elected officials who use campaign funds for legal costs and are later convicted must reimburse their campaign accounts.\",\n    \"AB 2803 aims to ensure that campaign contributions are used ethically and in accordance with the donors' intent.\",\n    \"The legislation seeks to restore public trust in the democratic process.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7dece3e986bfad277537b8be6cae014af673c9b1"
+}

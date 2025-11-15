@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-education-committee-fails-offer-diverse-choices-and-create-informed-futures-students.txt",
+  "party": "Republican",
+  "title": "Senator Ochoa Bogh at a press conference with supporters of SB 1368. Click here for high-resolution photos.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1368 would have provided students with information on licensed pregnancy centers.\",\n    \"Students receiving state-mandated education deserve access to information about all available options regarding sexual health.\",\n    \"In 2019, pregnancy centers in Califo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1368 would have provided students with information on licensed pregnancy centers.\",\n    \"Students receiving state-mandated education deserve access to information about all available options regarding sexual health.\",\n    \"In 2019, pregnancy centers in California provided services valued at more than $14.3 million.\",\n    \"Pregnancy centers in California served 93,957 women, men, youth, and families in 2019.\",\n    \"There were 33,802 free pregnancy tests conducted by pregnancy centers in 2019.\",\n    \"In 2019, pregnancy centers performed 22,264 free ultrasounds.\",\n    \"4,571 total STD/STI tests were performed by registered nurses at pregnancy centers, with 77% being female and 23% male.\",\n    \"The medical services provided by pregnancy centers in 2019 totaled $7,341,844 but were free of charge for communities.\",\n    \"Pregnancy centers provided a total of 187,127 free baby items to families in need in 2019.\",\n    \"Pregnancy centers distributed 56,100 packs of diapers in 2019.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6a164b7cd1477282927ebb6f562a23c3ed6bc103"
+}

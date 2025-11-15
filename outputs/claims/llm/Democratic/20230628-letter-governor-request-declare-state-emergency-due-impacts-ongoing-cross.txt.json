@@ -1,0 +1,13 @@
+{
+  "press_release": "20230628-letter-governor-request-declare-state-emergency-due-impacts-ongoing-cross.txt",
+  "party": "Democratic",
+  "title": "Subject: Request to declare State of Emergency due to impacts of ongoing cross-border pollution",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Over 100 billion gallons of untreated toxic wastewater has crossed the California border since December 2018.\",\n    \"35 billion gallons of untreated toxic wastewater has crossed the California border in 2023 alone.\",\n    \"The South San Diego coastline has been closed for",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Over 100 billion gallons of untreated toxic wastewater has crossed the California border since December 2018.\",\n    \"35 billion gallons of untreated toxic wastewater has crossed the California border in 2023 alone.\",\n    \"The South San Diego coastline has been closed for recreational beach access since December 8, 2021, due to an ongoing environmental disaster.\",\n    \"A study by the Scripps Institution of Oceanography identified 34,000 illnesses per year in the surrounding area could be attributed to contamination.\",\n    \"A more recent study linked 76% of bacteria in Imperial Beach air to coastal water pollution.\",\n    \"The ongoing pollution disaster has disrupted military training operations for US Navy Seals.\",\n    \"Local economies have been impacted through reduced tourism due to the ongoing pollution.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a07cc3721f67f5157f0c8934ced83f90344b14eb"
+}

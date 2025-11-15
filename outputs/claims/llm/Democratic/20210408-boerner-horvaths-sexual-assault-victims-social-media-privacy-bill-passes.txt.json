@@ -1,0 +1,13 @@
+{
+  "press_release": "20210408-boerner-horvaths-sexual-assault-victims-social-media-privacy-bill-passes.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:26:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Social media content is increasingly mined and admitted into evidence in sexual assault cases.\",\n    \"Mining social media content for evidence can embarrass, shame, or humiliate sexual assault victims.\",\n    \"The California Rape Shield Law has been repeatedly amended to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Social media content is increasingly mined and admitted into evidence in sexual assault cases.\",\n    \"Mining social media content for evidence can embarrass, shame, or humiliate sexual assault victims.\",\n    \"The California Rape Shield Law has been repeatedly amended to account for evolving technology since its passage in 1974.\",\n    \"AB 341 requires that social media content submitted as evidence must go through the same relevance verification process as other types of evidence.\",\n    \"The defense must prove the relevancy of social media material before it can be admitted as evidence in sexual assault cases under AB 341.\",\n    \"AB 341 aims to protect the dignity of rape survivors by requiring judicial review of social media evidence before it is used by the defense.\",\n    \"Social media platforms have been used by defense attorneys to impugn the credibility of crime victims.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5dce07b51a81f8b22d93525d2ec51eb15d4d0867"
+}

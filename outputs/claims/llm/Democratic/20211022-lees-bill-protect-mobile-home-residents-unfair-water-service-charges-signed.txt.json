@@ -1,0 +1,13 @@
+{
+  "press_release": "20211022-lees-bill-protect-mobile-home-residents-unfair-water-service-charges-signed.txt",
+  "party": "Democratic",
+  "title": "AB 1061 by Assemblymember Alex Lee (D-San Jose) was signed by the Governor and will go into effect January 1, 2022. AB 1061 protects mobile home residents (many who are low income ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1061 protects mobile home residents from unfair water service charges.\",\n    \"AB 1061 prohibits park management from charging residents for more than their actual share of water service charges paid by the park to the water utility.\",\n    \"Mobile homes provide afforda",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1061 protects mobile home residents from unfair water service charges.\",\n    \"AB 1061 prohibits park management from charging residents for more than their actual share of water service charges paid by the park to the water utility.\",\n    \"Mobile homes provide affordable homes to vulnerable residents such as seniors on fixed incomes, low-income families, immigrants, people with disabilities, and veterans.\",\n    \"The cost of living in the Bay Area is among the most expensive in the world.\",\n    \"Mobile home parks are billing for water separately, which has led to additional duplicative charges for residents.\",\n    \"AB 1061 will prevent mobile home parks from profiting off providing clean water to their residents.\",\n    \"Manufactured housing is a vital component of affordable housing that must be preserved and protected throughout California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d459c4cff50a919340262bd36ddd69f199b3609e"
+}

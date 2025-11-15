@@ -1,0 +1,13 @@
+{
+  "press_release": "20250515-san-diego-state-county-leaders-unite-crack-down-child-sex-trafficking.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 379 strengthens the penalties for adults who solicit a minor for sex.\",\n    \"AB 379 establishes a state grant program for survivors of human trafficking.\",\n    \"AB 379 equips law enforcement with tools to protect children from criminal buyers who fuel human traffickin",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 379 strengthens the penalties for adults who solicit a minor for sex.\",\n    \"AB 379 establishes a state grant program for survivors of human trafficking.\",\n    \"AB 379 equips law enforcement with tools to protect children from criminal buyers who fuel human trafficking.\",\n    \"AB 379 holds criminals accountable and expands the safety network and support for survivors.\",\n    \"AB 379 enhances penalties for crimes related to child sex trafficking and prostitution.\",\n    \"AB 379 focuses on victims by strengthening penalties for exploiters and supporting vertical prosecution.\",\n    \"AB 379 invests directly in services led by and developed for survivors.\",\n    \"California is increasing penalties on human traffickers with AB 379.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6bfb1c6585f6ada54896d5453d5e9a4a91c612b4"
+}

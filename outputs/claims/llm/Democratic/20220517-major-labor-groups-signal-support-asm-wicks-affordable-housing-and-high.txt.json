@@ -1,0 +1,13 @@
+{
+  "press_release": "20220517-major-labor-groups-signal-support-asm-wicks-affordable-housing-and-high.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — California’s largest labor union, SEIU California, and the California School Employees Association (CSEA) announced today that they would support Assemblymember Buffy ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The Affordable Housing and High Road Jobs Act has the potential to produce millions of units of affordable housing.\",\n    \"Strong labor protections ensure that all workers on these jobs earn high wages and health benefits.\",\n    \"Over half of California's classified",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The Affordable Housing and High Road Jobs Act has the potential to produce millions of units of affordable housing.\",\n    \"Strong labor protections ensure that all workers on these jobs earn high wages and health benefits.\",\n    \"Over half of California's classified school employees make less than $30,000 per year.\",\n    \"A 2019 survey of SEIU members in California found increasing the supply of homes affordable to workers is an urgent priority.\",\n    \"41% of SEIU members reported that housing costs have forced them into one or more adverse living situations in the past five years.\",\n    \"The housing provisions and strong labor protections in AB 2011 are the first to be endorsed by both affordable housing and labor groups.\",\n    \"The bill requires prevailing wage on all projects and mandates that contractors participate in state-approved apprenticeship programs for projects of 50 or more units.\",\n    \"The bill includes new enforcement mechanisms to ensure wage and benefits standards are being met.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d7c99b26038b0ad9fbaec8413d03f904cecd14d3"
+}

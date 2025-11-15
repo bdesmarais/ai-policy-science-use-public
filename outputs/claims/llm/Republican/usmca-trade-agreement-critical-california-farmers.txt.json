@@ -1,0 +1,13 @@
+{
+  "press_release": "usmca-trade-agreement-critical-california-farmers.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove ( R-Bakersfield ) released the following statement about the United States-Mexico-Canada (USMCA) Trade which officially begins t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c28f3059ddb29630885bfab1ef94b1a40fa90d1f"
+}

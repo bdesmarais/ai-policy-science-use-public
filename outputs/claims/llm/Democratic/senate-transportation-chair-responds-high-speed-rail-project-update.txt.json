@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-transportation-chair-responds-high-speed-rail-project-update.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The following statement was issued by State Senator Dave Cortese (D-Silicon Valley), Chair of the California Senate Transportation Committee, in response to the Califo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's High-Speed Rail project can serve as an engine for the state's economic growth.\",\n    \"The high-speed rail plan aims to connect California's population centers from the Bay Area to Northern Los Angeles.\",\n    \"High-speed rail can help accelerate economic rev",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's High-Speed Rail project can serve as an engine for the state's economic growth.\",\n    \"The high-speed rail plan aims to connect California's population centers from the Bay Area to Northern Los Angeles.\",\n    \"High-speed rail can help accelerate economic revival in many areas across California.\",\n    \"Building a station for high-speed rail offers opportunities to spark new housing, grow local businesses, and create jobs.\",\n    \"Stable, long-term funding is essential to keep high-speed rail projects on track.\",\n    \"Tying project funding to the growth of housing and commercial development along the high-speed rail corridor can make it a self-sustaining investment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e7a7175a88fbe2c0881f85a0f5135eed179c68bc"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220609-assemblymember-berman-announces-coalition-support-vta-governance-reform.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:42:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"VTA's operating performance has continued to deteriorate over the last 10 years relative to its historical performance and the performance of its peers.\",\n    \"VTA's 2021 Board Self-Assessment states that cities or agencies often select a VTA representative based on thei",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"VTA's operating performance has continued to deteriorate over the last 10 years relative to its historical performance and the performance of its peers.\",\n    \"VTA's 2021 Board Self-Assessment states that cities or agencies often select a VTA representative based on their interest in higher elected office, not on their interest in and familiarity with transportation.\",\n    \"A state audit in 2008 highlighted a lack of stability in VTA's leadership as a key issue.\",\n    \"The 2008 state audit recommended that VTA request the Legislature to amend its enabling statutes to allow for a four-year board term to promote stability.\",\n    \"VTA rejected the recommendation to increase board member terms to four years made by its own consultant in 2021.\",\n    \"Most VTA board members caution that VTA presents a steep learning curve for most members, with some elected members never fully understanding the complexities of VTA operations.\",\n    \"The 2019 Civil Grand Jury stated that the VTA Board is in need of structural change to better protect the interests of the County’s taxpayers.\",\n    \"Emerging trends in transportation and rapidly evolving technology pose complex challenges that the VTA Board needs to address.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6f70f7bb3a3bca6a0278a1b8e91c96a3b72119d4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20170511-assemblymember-arambula-joins-vsp-free-eye-clinic.txt",
+  "party": "Democratic",
+  "title": "(Orange Cove, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Regular vision examinations are an important component of health care.\",\n    \"An eye exam can determine whether or not a person needs a corrective prescription.\",\n    \"An eye exam can also detect other vision problems, assess eye health, and screen for eye disease.\"\n  ]\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Regular vision examinations are an important component of health care.\",\n    \"An eye exam can determine whether or not a person needs a corrective prescription.\",\n    \"An eye exam can also detect other vision problems, assess eye health, and screen for eye disease.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a2e0fe6488b1f4a29cb29110b67d2fb1dba1019f"
+}

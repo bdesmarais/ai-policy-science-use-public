@@ -1,0 +1,13 @@
+{
+  "press_release": "20240926-assemblywoman-sorias-ab-2661-accelerate-clean-energy-development-central.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2661 advances clean energy development projects in the Central Valley.\",\n    \"AB 2661 authorizes projects to convert fallowed farmland to solar farms.\",\n    \"Converting fallowed farmland to solar farms will create jobs.\",\n    \"AB 2661 helps farmworkers retrain and tra",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2661 advances clean energy development projects in the Central Valley.\",\n    \"AB 2661 authorizes projects to convert fallowed farmland to solar farms.\",\n    \"Converting fallowed farmland to solar farms will create jobs.\",\n    \"AB 2661 helps farmworkers retrain and transition into skilled trades.\",\n    \"AB 2661 better positions the Central Valley to meet California's clean energy goals.\",\n    \"AB 2661 allows Westlands Water District to oversee energy projects, including solar energy generation.\",\n    \"The law will help California achieve its climate goals.\",\n    \"AB 2661 provides opportunities to uplift disadvantaged communities in west Fresno County.\",\n    \"The bill directs Westlands Water District to develop a community benefits plan with local input.\",\n    \"The Central Valley is poised to play a key role in California's clean energy production.\",\n    \"AB 2661 creates pathways for projects that generate more clean energy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "309a0e20f1c92af3297199970f887bb8512660de"
+}

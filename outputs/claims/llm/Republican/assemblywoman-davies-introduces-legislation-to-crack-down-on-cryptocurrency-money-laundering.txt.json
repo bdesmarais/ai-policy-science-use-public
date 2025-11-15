@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblywoman-davies-introduces-legislation-to-crack-down-on-cryptocurrency-money-laundering.txt",
+  "party": "Republican",
+  "title": "Sacramento – Today, Assemblywoman Laurie Davies (R-Laguna Niguel) issued the following statement following the introduction of AB 76 :",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is a leader in consumer protection and ensuring laws reflect innovative technology used for transactions.\",\n    \"Cryptocurrency is an evolving technology that is now included in day-to-day transactions.\",\n    \"AB 76 aims to strengthen California's money launde",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is a leader in consumer protection and ensuring laws reflect innovative technology used for transactions.\",\n    \"Cryptocurrency is an evolving technology that is now included in day-to-day transactions.\",\n    \"AB 76 aims to strengthen California's money laundering statutes to address loopholes related to cryptocurrency.\",\n    \"There has been a rise in drug trafficking that involves the use of cryptocurrency to evade detection.\",\n    \"California law must adapt to the digital operating methods of financial criminal organizations.\",\n    \"Cryptocurrency usage has surged among those involved in human trafficking operations.\",\n    \"A 2021 Government Accountability Office report indicates that virtual currency was the second-most commonly accepted payment method on 40 platforms in the online commercial sex market.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f52fbf8991254a7588c7ad205d8c3ea47c74c856"
+}

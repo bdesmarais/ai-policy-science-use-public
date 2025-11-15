@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-statement-passage-2022-23-state-budget-act.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese (D-San Jose) made the following statement about the Legislature’s 2022-23 State Budget Bill that was passed by the Legislature earlier today.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "06b7c9112e00a97d28434a29ca3b78908c7f9b66"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-statement-californias-eviction-moratorium-extension-and-rent-relief-measures.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-Silicon Valley) made the following statement regarding the Senate’s vote on SB 91 today. This bill will extend the eviction moratorium in California through",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "71a9c049766d5f1c68844ec5b9f776b2fafbd13c"
+}

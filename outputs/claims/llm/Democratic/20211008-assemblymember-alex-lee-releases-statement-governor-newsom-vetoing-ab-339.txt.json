@@ -1,0 +1,13 @@
+{
+  "press_release": "20211008-assemblymember-alex-lee-releases-statement-governor-newsom-vetoing-ab-339.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The technology for remote participation in government meetings exists and has been successfully implemented in the past year.\",\n    \"Remote participation has increased accessibility to local government meetings for historically excluded groups such as working parents and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The technology for remote participation in government meetings exists and has been successfully implemented in the past year.\",\n    \"Remote participation has increased accessibility to local government meetings for historically excluded groups such as working parents and the differently-abled.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8d666045920d5dce5397c7e2ccb64f920415a213"
+}

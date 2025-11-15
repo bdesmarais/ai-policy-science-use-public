@@ -1,0 +1,13 @@
+{
+  "press_release": "20230607-recognizing-league-amazing-programmers-capitol.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif. — Today, Assemblymember Tasha Boerner (D-Encinitas) recognized The League of Amazing Programmers at the State Capitol. Each year, California Assemblymembers and ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The League of Amazing Programmers teaches kids and teens how to code through eight different levels that range from beginner to certified programmers.\",\n    \"The League aims to help more youth, including girls and underserved students, acquire the skills needed to be lea",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The League of Amazing Programmers teaches kids and teens how to code through eight different levels that range from beginner to certified programmers.\",\n    \"The League aims to help more youth, including girls and underserved students, acquire the skills needed to be leaders in the workforce of the 21st century.\",\n    \"The League intends to create a positive impact on all students by helping them develop critical thinking skills and self-confidence through computer programming education.\",\n    \"San Diego is a growing tech hub, and it is important to make tech opportunities accessible to underserved communities.\",\n    \"The League seeks to address unfilled programming jobs in the United States by encouraging students to get interested in coding at a young age.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "10e8b9f6a9de9e566c19882bc288c4c4a1adf4c4"
+}

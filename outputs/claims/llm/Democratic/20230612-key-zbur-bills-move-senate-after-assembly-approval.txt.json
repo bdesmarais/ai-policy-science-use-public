@@ -1,0 +1,13 @@
+{
+  "press_release": "20230612-key-zbur-bills-move-senate-after-assembly-approval.txt",
+  "party": "Democratic",
+  "title": "Nine bills authored by Assemblymember Rick Chavez Zbur (D-West Hollywood/Santa Monica) have been approved by the Assembly and are now headed to the Senate, tackling the issues of c",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Offshore wind energy will play a crucial role in meeting California’s goal of achieving 100% renewable energy by 2045.\",\n    \"Offshore wind energy has the potential to create a significant number of high-paying jobs in California.\",\n    \"California will need over one mil",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Offshore wind energy will play a crucial role in meeting California’s goal of achieving 100% renewable energy by 2045.\",\n    \"Offshore wind energy has the potential to create a significant number of high-paying jobs in California.\",\n    \"California will need over one million chargers to support the eight million electric vehicles anticipated on the road by 2030.\",\n    \"Residential and commercial buildings will need upgrades and retrofitting to cut greenhouse gas emissions in California.\",\n    \"Young people aging out of the foster care system frequently experience homelessness.\",\n    \"The RHNA and SCS programs rely on inconsistent data and assumptions for sustainable housing development in California.\",\n    \"Lack of adequate support in schools results in high dropout rates for LGBTQ+ students, leading to high rates of poverty and homelessness.\",\n    \"The bill AB 383 will help reduce California’s current teacher shortage by helping classified school employees become fully credentialed teachers.\",\n    \"Temporary employees often are not allowed to bargain alongside their permanent coworkers for wages and benefits.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "05c673c3687f93e9ee3a65d815ddc1aa8f9e00c9"
+}

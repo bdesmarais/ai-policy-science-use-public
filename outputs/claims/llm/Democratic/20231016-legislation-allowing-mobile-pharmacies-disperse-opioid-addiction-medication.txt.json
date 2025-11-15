@@ -1,0 +1,13 @@
+{
+  "press_release": "20231016-legislation-allowing-mobile-pharmacies-disperse-opioid-addiction-medication.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:30:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 663 will help local efforts to address the opioid crisis.\",\n    \"Medications like buprenorphine have been shown to reduce the mortality rate among people addicted to opioids by at least half.\",\n    \"Nearly 80% of Americans with opioid addiction do not receive buprenor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 663 will help local efforts to address the opioid crisis.\",\n    \"Medications like buprenorphine have been shown to reduce the mortality rate among people addicted to opioids by at least half.\",\n    \"Nearly 80% of Americans with opioid addiction do not receive buprenorphine or other medication-assisted treatment.\",\n    \"In California, buprenorphine was the least available, with only 31% of pharmacies carrying it.\",\n    \"Opioid use disorder can be effectively treated with FDA-approved medications such as buprenorphine and naltrexone.\",\n    \"There are significant barriers to the treatment of opioid use disorder despite improved access to medications over the past several years.\",\n    \"Mobile pharmacies that provide medications to treat opioid use disorder will complement other public health interventions to address unintentional overdose deaths.\",\n    \"Expanding access to medications to treat opioid use disorder is part of the City’s Overdose Prevention Plan.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "806884014fa3591db3644b6ff7a0b437babf2910"
+}

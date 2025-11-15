@@ -1,0 +1,13 @@
+{
+  "press_release": "20240926-governor-newsom-signs-ab-2300-toxic-free-medical-devices-act-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2300 phases out the use of Di(2-ethylhexyl)phthalate (DEHP) in intravenous (IV) bags and tubing.\",\n    \"DEHP has been linked to numerous adverse health effects, particularly impacting vulnerable patients undergoing critical treatments.\",\n    \"Research shows that DEHP ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2300 phases out the use of Di(2-ethylhexyl)phthalate (DEHP) in intravenous (IV) bags and tubing.\",\n    \"DEHP has been linked to numerous adverse health effects, particularly impacting vulnerable patients undergoing critical treatments.\",\n    \"Research shows that DEHP leaches out of IV bags and tubing into the medicine being transfused into sick patients.\",\n    \"The presence of DEHP in medical devices weakens the ability of chemotherapies to fight breast cancer.\",\n    \"Exposure to DEHP contributes to higher rates of breast cancer recurrence and mortality.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9375f2f0159b76c999c9f75f9c50a9a9034d3a92"
+}

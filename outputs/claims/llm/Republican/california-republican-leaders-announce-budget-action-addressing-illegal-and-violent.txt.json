@@ -1,0 +1,13 @@
+{
+  "press_release": "california-republican-leaders-announce-budget-action-addressing-illegal-and-violent.txt",
+  "party": "Republican",
+  "title": "Today, California Legislative Republican Leaders announced budget action addressing the ongoing wave of illegal and violent protests on California state colleges and universities. ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Violence and illegal activity of any kind is NOT protected by the First Amendment.\",\n    \"University Administrations must ensure campus safety and prevent unlawful activities.\",\n    \"Taxpayers should not be funding university administrations that fail to uphold law and o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Violence and illegal activity of any kind is NOT protected by the First Amendment.\",\n    \"University Administrations must ensure campus safety and prevent unlawful activities.\",\n    \"Taxpayers should not be funding university administrations that fail to uphold law and order on campus.\",\n    \"All Californians have a right to express their views, but that right ends when acts of violence occur.\",\n    \"School administrations have done nothing while protests escalated into lawlessness and violence.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6ee00c6da17937c32e6dd5beec1ae9b434abaaf0"
+}

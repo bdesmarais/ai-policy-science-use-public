@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-statement-on-democrats-early-action-budget-bill.txt",
+  "party": "Republican",
+  "title": "“Democrats do not have the daily and persistent focus or courage to reject the status quo in order to meet the urgent needs of working Californians.”",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1a51e90c20b04d64691334ecd3fcc03f9597858e"
+}

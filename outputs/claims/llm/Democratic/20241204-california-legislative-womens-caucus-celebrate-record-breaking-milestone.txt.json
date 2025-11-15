@@ -1,0 +1,13 @@
+{
+  "press_release": "20241204-california-legislative-womens-caucus-celebrate-record-breaking-milestone.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:22:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"This year marks a record number of women in the California State Legislature.\",\n    \"When a government reflects the diversity of its people, it creates policies that better serve all constituents.\",\n    \"Gender-diverse legislatures are shown to perform better when more d",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"This year marks a record number of women in the California State Legislature.\",\n    \"When a government reflects the diversity of its people, it creates policies that better serve all constituents.\",\n    \"Gender-diverse legislatures are shown to perform better when more diverse points of view are included.\",\n    \"The achievement highlights the increasing representation of women of color in the California State Legislature.\",\n    \"A clear shift in the status and priority of female leadership has been observed in California.\",\n    \"The California State Legislature is now the most diverse legislative body in America.\",\n    \"Having a historic number of women legislators brings bold and diverse perspectives to policy-making.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a109a0e1752d712da61f18032fb115158fbfbb0"
+}

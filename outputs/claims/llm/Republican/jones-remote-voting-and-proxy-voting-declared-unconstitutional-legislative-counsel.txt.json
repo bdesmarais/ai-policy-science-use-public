@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-remote-voting-and-proxy-voting-declared-unconstitutional-legislative-counsel.txt",
+  "party": "Republican",
+  "title": "El Cajon, CA – State Senator Brian Jones (R-Santee) today publicly released an official opinion by the Office of Legislative Counsel that declares it unconstitutional to allow legi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:55:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"It is unconstitutional to allow legislators to cast votes by proxy or by remotely calling in their vote from anywhere in the world.\",\n    \"Remote voting by legislators is not permitted under the California Constitution.\",\n    \"Senators and Assemblymembers must be physica",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"It is unconstitutional to allow legislators to cast votes by proxy or by remotely calling in their vote from anywhere in the world.\",\n    \"Remote voting by legislators is not permitted under the California Constitution.\",\n    \"Senators and Assemblymembers must be physically present at committee hearings or on the Senate or Assembly Floor to vote on legislation.\",\n    \"The California Constitution does not contemplate that members of the Legislature may participate or vote in legislative proceedings by means of remote access.\",\n    \"A Member of the Legislature serving on a committee may not lawfully cast his or her vote by telephone, rather than by being physically present at a hearing.\",\n    \"Legislating remotely arguably violates the constitutional guarantee of open and public meetings.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "198ff56d9a0a96416ecedd6a7afa78f75caed250"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "sacramento-democrats-kill-legislation-would-help-independent-contractors.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, California State Senate Republicans rallied with independent contractors in support of Senate Bill 238 . This proposed legislation would have allowed hardworkin",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Supreme Court ruling known as the Dynamex decision created a new test to determine whether a worker is an employee or an independent contractor.\",\n    \"The new test established by the Dynamex decision does not account for the diverse workforce in Cal",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Supreme Court ruling known as the Dynamex decision created a new test to determine whether a worker is an employee or an independent contractor.\",\n    \"The new test established by the Dynamex decision does not account for the diverse workforce in California.\",\n    \"Nearly half of all millennials are currently freelancers.\",\n    \"The Dynamex ruling has affected the livelihood of independent contractors in California.\",\n    \"The one-size-fits-all employment standard undercuts nearly two million workers’ freedom to choose independent work as a way to support themselves and their families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f3b9d2a7d0de96ee6532d814524b5de9106dd1f3"
+}

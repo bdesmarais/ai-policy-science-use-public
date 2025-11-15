@@ -1,0 +1,13 @@
+{
+  "press_release": "20240829-hart-sends-legislation-address-californias-idle-oil-well-crisis-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has an estimated 40,000 idle oil wells.\",\n    \"AB 1866 mandates that companies must plug 15% of their idle wells in the first year, increasing to 20% annually by 2030.\",\n    \"The legislation requires operators to prioritize plugging wells within 3,200 feet of ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has an estimated 40,000 idle oil wells.\",\n    \"AB 1866 mandates that companies must plug 15% of their idle wells in the first year, increasing to 20% annually by 2030.\",\n    \"The legislation requires operators to prioritize plugging wells within 3,200 feet of communities.\",\n    \"Idle oil wells can cause air and water pollution, threatening public health, the environment, and the climate.\",\n    \"California taxpayers have already paid $100 million to plug orphan wells in recent years.\",\n    \"The existing taxpayer liability for orphan wells in California exceeds $1 billion.\",\n    \"Plugging idle oil wells could create thousands of skilled and trained jobs statewide.\",\n    \"About two-thirds of idle oil wells are leaking methane, a climate super-pollutant over 80 times stronger than carbon dioxide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "54db1d839e5454a61c09716f353cb699cc1c447a"
+}

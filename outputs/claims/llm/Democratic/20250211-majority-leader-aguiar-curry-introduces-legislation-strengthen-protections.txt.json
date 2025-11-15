@@ -1,0 +1,13 @@
+{
+  "press_release": "20250211-majority-leader-aguiar-curry-introduces-legislation-strengthen-protections.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 250 gives survivors an opportunity to revive claims, with a new two-year window, even if the statute of limitations has expired.\",\n    \"AB 250 clarifies that sexual assault perpetrators and entities that cover up, or attempt to conceal, such crimes will be held accoun",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 250 gives survivors an opportunity to revive claims, with a new two-year window, even if the statute of limitations has expired.\",\n    \"AB 250 clarifies that sexual assault perpetrators and entities that cover up, or attempt to conceal, such crimes will be held accountable.\",\n    \"AB 464 allows survivors who were incarcerated and assaulted by public employees to file lawsuits up to four years after incarceration.\",\n    \"AB 464 will hold accountable California Department of Corrections and Rehabilitation (CDCR) staff who commit sexual assault toward an incarcerated person.\",\n    \"Sexual assault within California’s prisons is alarmingly pervasive.\",\n    \"In May 2023, the Madera County District Attorney charged a former corrections officer with 96 counts of rape and sexual assault against incarcerated women.\",\n    \"Investigations revealed reports of abuse dating back to 2014 were ignored, and survivors who spoke out faced retaliation.\",\n    \"In September 2024, federal prosecutors launched a civil rights investigation into widespread sexual abuse in two California women’s prisons.\",\n    \"Since the rise of the #MeToo movement in 2017, the need to expose the systemic assault and harassment of women is ever present.\",\n    \"Holding perpetrators accountable delivers justice to survivors and acts as a deterrent, sending a clear message that toxic workplace cultures and institutions may no longer ignore sexual violence.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ec26216509c1849bfbab281f5153aa2d4af06dd8"
+}

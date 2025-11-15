@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-introduces-measure-crackdown-catalytic-converter-theft-california.txt",
+  "party": "Republican",
+  "title": "Senator Brian W. Jones (R-Santee) today introduced a measure to crackdown on the growing crime of catalytic converter theft in California.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The crime of stealing catalytic converters in California has increased significantly in recent months.\",\n    \"Thieves often face few risks in getting caught or prosecuted for catalytic converter theft.\",\n    \"Car or truck owners could face thousands of dollars in repairs",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The crime of stealing catalytic converters in California has increased significantly in recent months.\",\n    \"Thieves often face few risks in getting caught or prosecuted for catalytic converter theft.\",\n    \"Car or truck owners could face thousands of dollars in repairs due to catalytic converter theft.\",\n    \"A measure will require new and used motor vehicle dealers to permanently mark the Vehicle Identification Number (VIN) on catalytic converters before selling vehicles.\",\n    \"Metal recyclers will be prohibited from purchasing catalytic converters that do not have a clearly visible and untampered VIN.\",\n    \"Metal recyclers must keep detailed records of transactions involving catalytic converters and make these records accessible to law enforcement.\",\n    \"The measure aims to increase penalties and require sales documentation for catalytic converter theft to facilitate easier arrests and prosecutions.\",\n    \"A stolen catalytic converter can be sold for up to $250.\",\n    \"The cost to replace a stolen catalytic converter can reach up to $4,000 for motorists.\",\n    \"The theft of an under-vehicle catalytic converter can be completed in less than two minutes using basic tools.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cf7020e07c1496db4346bfcb36fcd9512576f2dd"
+}

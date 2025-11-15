@@ -1,0 +1,13 @@
+{
+  "press_release": "20160621-play-conejo-honored-inaugural-california-nonprofits-day-celebration-awards.txt",
+  "party": "Democratic",
+  "title": "Organization raising  funds to build playground designed to include children with special needs",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Play Conejo has been recognized as the 44th Assembly District's Nonprofit of the Year.\",\n    \"Conejo Valley residents have benefited from the volunteers, charitable work, and financial support provided by Play Conejo.\",\n    \"Providing adequate funding is important i",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Play Conejo has been recognized as the 44th Assembly District's Nonprofit of the Year.\",\n    \"Conejo Valley residents have benefited from the volunteers, charitable work, and financial support provided by Play Conejo.\",\n    \"Providing adequate funding is important in creating quality recreation programs for youth.\",\n    \"Play Conejo helps ensure the next generation has access to healthy lifestyles through updated equipment and facilities.\",\n    \"The organization supports a scholarship program that provides children the opportunity to participate in recreation programs and adopt healthy habits.\",\n    \"Nonprofit organizations are vital to the economy and well-being of California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4e42245029857ccb541eec4b2d443c25bf7a0acc"
+}

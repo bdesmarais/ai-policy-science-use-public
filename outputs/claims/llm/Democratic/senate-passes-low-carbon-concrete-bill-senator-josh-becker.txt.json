@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-passes-low-carbon-concrete-bill-senator-josh-becker.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release – Office of State Senator Josh Becker – Monday, May 24, 2021",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:21:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Concrete is the most widely used building material in the world.\",\n    \"Concrete accounts for about 7% of global CO2 emissions.\",\n    \"The production of concrete is the second largest industrial source of greenhouse gas emissions in California.\",\n    \"Technologies and pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Concrete is the most widely used building material in the world.\",\n    \"Concrete accounts for about 7% of global CO2 emissions.\",\n    \"The production of concrete is the second largest industrial source of greenhouse gas emissions in California.\",\n    \"Technologies and processes exist for achieving large reductions in emissions from concrete and cement.\",\n    \"These emission reduction technologies have not been deployed at scale due to lack of supportive policies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "96c537b1b5cb3d0adc1df4386af5df10fc168d9c"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "legislature-passes-senator-corteses-bill-better-serve-doggies-and-kitties.txt",
+  "party": "Democratic",
+  "title": "The California Legislature passed Senator Cortese’s legislation on Friday that empowers veterinarians to delegate limited and specific tasks to registered veterinarian technicians ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 669 allows veterinary technicians to administer vaccines and prophylactic treatments at the behest of a licensed veterinarian.\",\n    \"Basic veterinary care is increasingly unaffordable for Californians due to a growing scarcity of veterinarians.\",\n    \"Sixty ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 669 allows veterinary technicians to administer vaccines and prophylactic treatments at the behest of a licensed veterinarian.\",\n    \"Basic veterinary care is increasingly unaffordable for Californians due to a growing scarcity of veterinarians.\",\n    \"Sixty percent of California's animal shelters report vacant veterinary positions.\",\n    \"Eighty percent of animal shelters in California have faced challenges in consistently offering community care programs.\",\n    \"Unvaccinated pets pose a public health hazard, as they are at risk of transmitting diseases like rabies and canine parvovirus.\",\n    \"Registered veterinary technicians are trained professionals who complete two-year programs and pass national and state examinations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "335ed8a38afa74b1257e84808e2b12f1c7cab50d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240806-addis-joins-2024-leadership-south-county-government-day.txt",
+  "party": "Democratic",
+  "title": "ARROYO GRANDE— Assemblymember Dawn Addis (D-Morro Bay) participated in the South County Chambers of Commerce 2024 Leadership Government Day, engaging with a diverse group of commun",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f8d8f7d81f8772c4525688cc32d741b40f2c9f40"
+}

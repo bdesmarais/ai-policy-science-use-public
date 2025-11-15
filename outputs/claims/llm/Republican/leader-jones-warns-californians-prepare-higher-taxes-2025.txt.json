@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-warns-californians-prepare-higher-taxes-2025.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones (R-San Diego) urged Californians to brace themselves for a new wave of tax hikes and higher costs driven by Democrat policies. These in",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"All businesses, including small businesses, will be forced to pay an extra $21 per employee on their payroll taxes in 2025.\",\n    \"California lost $33 billion in unemployment fraud during the pandemic.\",\n    \"The state borrowed $20 billion from the federal government to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"All businesses, including small businesses, will be forced to pay an extra $21 per employee on their payroll taxes in 2025.\",\n    \"California lost $33 billion in unemployment fraud during the pandemic.\",\n    \"The state borrowed $20 billion from the federal government to cover costs during the pandemic.\",\n    \"The average Californian will need to make $1,000 more in 2025 just to breakeven with 2024 gas costs, according to a USC study.\",\n    \"Gas prices in California are expected to skyrocket by 90 cents per gallon in 2025 due to tax hikes and new regulations.\",\n    \"California workers will have more money withheld from their paychecks starting in 2025.\",\n    \"Earners with $100,000 in taxable annual wages will have $100 more total withheld from their pay in 2025.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a25185d39c26ffe9d2372727d7dbae7fd261f8b"
+}

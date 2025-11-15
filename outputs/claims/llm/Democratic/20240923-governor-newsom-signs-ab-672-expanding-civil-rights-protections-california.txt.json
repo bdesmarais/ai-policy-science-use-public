@@ -1,0 +1,13 @@
+{
+  "press_release": "20240923-governor-newsom-signs-ab-672-expanding-civil-rights-protections-california.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 672 enhances the role of California’s Civil Rights Department in supporting communities hurt by racism, hate, and xenophobia.\",\n    \"The new law allows the Civil Rights Department to engage with communities facing hate crimes and other discriminatory practices.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 672 enhances the role of California’s Civil Rights Department in supporting communities hurt by racism, hate, and xenophobia.\",\n    \"The new law allows the Civil Rights Department to engage with communities facing hate crimes and other discriminatory practices.\",\n    \"The law enables the Civil Rights Department to step in sooner and provide essential services.\",\n    \"Essential services provided by the Civil Rights Department include conciliation, mediation, and the promotion of peaceful resolution.\",\n    \"AB 672 strengthens California's ability to address and resolve racism, hate, and xenophobia swiftly.\",\n    \"The legislation aims to ensure every Californian’s civil rights are protected.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d4d2b964e9e5135db92ae219a52a26f1841b9716"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210317-assemblymembers-alex-lee-evan-low-issue-joint-statement-san-jose-hiring.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Anthony Mata fired 10 shots during a foot chase, hitting an unarmed man named Odest Mitchell four times.\",\n    \"An investigation by the Monterey County District Attorney's Office found that Odest Mitchell was holding a pair of sunglasses at the time he was shot.\",\n    \"M",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Anthony Mata fired 10 shots during a foot chase, hitting an unarmed man named Odest Mitchell four times.\",\n    \"An investigation by the Monterey County District Attorney's Office found that Odest Mitchell was holding a pair of sunglasses at the time he was shot.\",\n    \"Mata's response to killing an unarmed man was to claim he 'paid it forward' by training other officers.\",\n    \"A lawsuit claimed Mata presided over a police briefing in which Islamophobic comments were made to harass a Palestinian officer.\",\n    \"Former SJPD officer Julie Callahan reported that Mata made unsettling comments to her regarding her transition.\",\n    \"The San José Police Department has made positive steps to repair its relationship with the LGBTQ+ community in recent years.\",\n    \"Mata had a leadership role in the San José Police Department when officers used excessive force against Black Lives Matter protesters.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b8ed7455f545b4a2991ab8cfd04162075e06b3ae"
+}

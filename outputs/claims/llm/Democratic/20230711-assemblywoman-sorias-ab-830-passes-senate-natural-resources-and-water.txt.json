@@ -1,0 +1,13 @@
+{
+  "press_release": "20230711-assemblywoman-sorias-ab-830-passes-senate-natural-resources-and-water.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"distinct_claims\": [\n    \"AB 830 aims to streamline the permitting process for capturing floodwaters to help recharge groundwater basins.\",\n    \"Capturing water during heavy rains can prevent potential flooding while simultaneously recharging regional groundwater basins.\",\n    \"AB 830 pr",
+  "raw_text": "```json\n{\n  \"distinct_claims\": [\n    \"AB 830 aims to streamline the permitting process for capturing floodwaters to help recharge groundwater basins.\",\n    \"Capturing water during heavy rains can prevent potential flooding while simultaneously recharging regional groundwater basins.\",\n    \"AB 830 provides an important flood fighting tool for communities that have experienced flooding.\",\n    \"AB 830 offers an opportunity for local communities to comply with the goals of the Sustainable Groundwater Management Act (SGMA).\",\n    \"AB 830 is considered a significant piece of legislation for groundwater management and flood-fighting.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "915cd10f3c9187bef958b17e44a54fcb852f24a1"
+}

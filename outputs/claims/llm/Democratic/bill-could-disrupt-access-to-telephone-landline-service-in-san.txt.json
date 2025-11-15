@@ -1,0 +1,13 @@
+{
+  "press_release": "bill-could-disrupt-access-to-telephone-landline-service-in-san.txt",
+  "party": "Democratic",
+  "title": "AB 2797 could have permitted AT&T, San Mateo County’s only telephone service provider, from no longer being the county’s carrier of last resort, putting in jeopardy access to relia",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:44:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2797 could have permitted AT&T to no longer be the county's carrier of last resort in San Mateo County.\",\n    \"If enacted, AB 2797 could have jeopardized access to reliable telephone services, including emergency calls.\",\n    \"Many residents in San Mateo County raised",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2797 could have permitted AT&T to no longer be the county's carrier of last resort in San Mateo County.\",\n    \"If enacted, AB 2797 could have jeopardized access to reliable telephone services, including emergency calls.\",\n    \"Many residents in San Mateo County raised significant concerns about the adverse impact of AB 2797 on their telephone service.\",\n    \"Residents in rural areas of San Mateo County expressed significant concerns that AB 2797 could disrupt telephone service or impact their ability to call 9-1-1 during emergencies.\",\n    \"Assemblymember Marc Berman stated that essential safeguards are provided under the carrier of last resort designation for Californians lacking dependable or affordable options for connectivity.\",\n    \"Increased reliance on landline service during emergencies is noted due to poor cellular reception and a fragile power grid.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "638849d798955bb28c99643fdf1abeb119fe571a"
+}

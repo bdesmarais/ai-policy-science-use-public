@@ -1,0 +1,13 @@
+{
+  "press_release": "senators-stern-and-cortese-speak-climate-restoration-emergency-bill-sb-582.txt",
+  "party": "Democratic",
+  "title": "Virtual “Earth Week” event will highlight S.B. 582 and California's recent initiative to restore the climate",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's Senate Bill 582 requires the state board to ensure that statewide greenhouse gas emissions are reduced to at least 80% below the 1990 level by 2030.\",\n    \"The bill requires various agencies to develop a climate restoration plan that achieves and maintains n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's Senate Bill 582 requires the state board to ensure that statewide greenhouse gas emissions are reduced to at least 80% below the 1990 level by 2030.\",\n    \"The bill requires various agencies to develop a climate restoration plan that achieves and maintains net-negative greenhouse gas emissions in California by 2035.\",\n    \"The bill commits to carbon-removal targets that are necessary to facilitate the achievement of greenhouse gas emissions goals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "11bac77fe5b55a2a70f1e1cfcede4323187e5e76"
+}

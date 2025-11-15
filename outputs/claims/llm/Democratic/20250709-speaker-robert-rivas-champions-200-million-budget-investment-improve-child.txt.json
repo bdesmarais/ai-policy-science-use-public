@@ -1,0 +1,13 @@
+{
+  "press_release": "20250709-speaker-robert-rivas-champions-200-million-budget-investment-improve-child.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is making a significant $200 million investment in child literacy in the state budget.\",\n    \"This funding will advance evidence-based early literacy.\",\n    \"The funding will help California’s children learn to read in a proficient and timely manner.\",\n    \"As",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is making a significant $200 million investment in child literacy in the state budget.\",\n    \"This funding will advance evidence-based early literacy.\",\n    \"The funding will help California’s children learn to read in a proficient and timely manner.\",\n    \"Assembly Bill 1454 will strengthen early literacy instruction in the state by ensuring credentialing and curriculum are aligned with evidence-based literacy practices.\",\n    \"The budget includes $250,000 to support guidance for the instructional materials adoption, informed by AB 1454.\",\n    \"Assembly Bill 1454 promotes evidence-based literacy instruction to teach reading skills.\",\n    \"AB 1454 will strengthen professional development for early literacy instruction.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3c2e7ab40c2210f71a27dc69a45aa32aade95711"
+}

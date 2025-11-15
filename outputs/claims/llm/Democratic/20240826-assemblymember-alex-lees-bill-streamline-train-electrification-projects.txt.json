@@ -1,0 +1,13 @@
+{
+  "press_release": "20240826-assemblymember-alex-lees-bill-streamline-train-electrification-projects.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Alex Lee’s legislation to streamline train electrification projects is headed to the Governor’s desk. AB 2503 will advance California’s climate goals by helping tran",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Electric trains are greener, faster, and more reliable.\",\n    \"Train electrification is crucial to reducing greenhouse gas emissions in California.\",\n    \"Electric rail improves air quality, speeds up train service, and increases ridership.\",\n    \"Currently, many pa",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Electric trains are greener, faster, and more reliable.\",\n    \"Train electrification is crucial to reducing greenhouse gas emissions in California.\",\n    \"Electric rail improves air quality, speeds up train service, and increases ridership.\",\n    \"Currently, many passenger and freight rail lines are reliant on diesel locomotives that emit greenhouse gas emissions.\",\n    \"Electric rail runs more efficiently and enables more frequent and/or faster train service to more riders.\",\n    \"The electrification of trains could increase fare revenues while decreasing fuel costs.\",\n    \"California has the goal of reducing greenhouse gas emissions to at least 85% below 1990 levels and achieving carbon neutrality by 2045.\",\n    \"The California Air Resources Board (CARB) identifies reductions of Vehicles Miles Traveled (VMT) as a critical strategy to achieving California’s climate goals.\",\n    \"Electric rail is a more sustainable alternative to traditional diesel trains.\",\n    \"In 2023, CARB set new regulations requiring locomotives built in 2030 or after to be zero-emissions.\",\n    \"The CARB estimates that new regulations will help reduce 21.6 million metric tons of greenhouse gas emissions by 2050.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "24105bd54948807c4418225c0dea639df02f44bf"
+}

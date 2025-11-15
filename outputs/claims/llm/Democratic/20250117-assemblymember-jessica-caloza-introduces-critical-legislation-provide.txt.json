@@ -1,0 +1,13 @@
+{
+  "press_release": "20250117-assemblymember-jessica-caloza-introduces-critical-legislation-provide.txt",
+  "party": "Democratic",
+  "title": "(Los Angeles, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 262 provides direct cash assistance, up to $1,500 per impacted household, to take care of essentials such as housing, food, and transportation.\",\n    \"AB 265 establishes a fund of $100 million to help small businesses and nonprofits recover and rebuild.\",\n    \"The Sma",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 262 provides direct cash assistance, up to $1,500 per impacted household, to take care of essentials such as housing, food, and transportation.\",\n    \"AB 265 establishes a fund of $100 million to help small businesses and nonprofits recover and rebuild.\",\n    \"The Small Business Recovery Act offers grants ranging from $2,500 to $100,000, paired with a 1:1 match, to help businesses not just reopen but emerge stronger and more resilient.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "11a9450c6daab100af046b1804346af9b55cb0c9"
+}

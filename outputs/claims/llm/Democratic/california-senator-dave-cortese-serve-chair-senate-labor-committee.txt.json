@@ -1,0 +1,13 @@
+{
+  "press_release": "california-senator-dave-cortese-serve-chair-senate-labor-committee.txt",
+  "party": "Democratic",
+  "title": "President pro Tempore of the California Senate, Toni Atkins, today announced that Senator Dave Cortese would serve as Chair of the Senate Labor, Public Employment and Retirement Co",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7601d718c82f44efc121ef048b6e538e1b6ede2b"
+}

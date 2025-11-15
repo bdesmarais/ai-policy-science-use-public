@@ -1,0 +1,13 @@
+{
+  "press_release": "sb-627-puts-a-target-on-peace-officer-families-republicans-demand-immediate-rejection.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assemblyman Tom Lackey (R-Palmdale) and Assembly Republicans blast Senate Bill 627, calling it a reckless proposal that exposes peace officers and their children to re",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "de195bd66ab4ac528a907332052f77d57f475c58"
+}

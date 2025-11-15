@@ -1,0 +1,13 @@
+{
+  "press_release": "20180627-berman-champions-funding-youth-suicide-prevention-training.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The CDC reports that suicide among youth is on the rise and is now the second leading cause of death among those 10 to 24 years of age.\",\n    \"The suicide rate for middle school students is at an all-time high.\",\n    \"According to the CDC, suicide is the third leading ca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The CDC reports that suicide among youth is on the rise and is now the second leading cause of death among those 10 to 24 years of age.\",\n    \"The suicide rate for middle school students is at an all-time high.\",\n    \"According to the CDC, suicide is the third leading cause of death among students aged 10 to 14.\",\n    \"More middle school students die by suicide than as a result of motor vehicle accidents.\",\n    \"Students reported that the number one person they would turn to for help with a suicidal friend is a teacher.\",\n    \"Research on school staff preparedness has identified a lack of experience, training, and confidence to appropriately address mental health issues and suicide ideation among students.\",\n    \"LGBTQ youth are more than four times as likely to attempt suicide as their peers.\",\n    \"Educators and school staff trained in suicide prevention can save lives, regardless of the identity of the student.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bb5a3bbf1d366bba665cbb46e61ba01686836e5b"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "state-auditor-releases-critical-audit-of-department-of-health-care-services-oversight-of-drug-alcohol-treatment-facilities.txt",
+  "party": "Republican",
+  "title": "ORANGE COUNTY",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There are more beds for Small Treatment Facilities per 10,000 residents in Orange County than any other county in California.\",\n    \"Inspections of drug and alcohol treatment facilities by DHCS take too long.\",\n    \"Investigations of wrongdoing in drug and alcohol treatm",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There are more beds for Small Treatment Facilities per 10,000 residents in Orange County than any other county in California.\",\n    \"Inspections of drug and alcohol treatment facilities by DHCS take too long.\",\n    \"Investigations of wrongdoing in drug and alcohol treatment facilities do not always happen.\",\n    \"There are infrequent follow-ups after wrongdoing is found in drug and alcohol treatment facilities.\",\n    \"Several small drug and alcohol treatment facilities near each other in the same neighborhood have the same owner and share amenities.\",\n    \"The presence of multiple facilities owned by the same entity may create an institutional-type environment for patients.\",\n    \"The State aimed to integrate patients into neighborhoods and communities rather than creating institutional environments.\",\n    \"Alcohol and Drug Treatment facilities have long lacked transparency and data.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d801f24ebb0fb50930d71ffcb5722e2453d3425b"
+}

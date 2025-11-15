@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-marie-alvarado-gil-secures-124m-homelessness-funding-senate-district-4s-rural.txt",
+  "party": "Republican",
+  "title": "Today, Sen. Marie Alvarado-Gil (R-Jackson ) announced that a total of $12.4 million of has been awarded to counties across Senate District 4 to help address homelessness. The fundi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A total of $12.4 million has been awarded to counties across Senate District 4 to help address homelessness.\",\n    \"The funding comes from the California Department of Housing and Community Development’s Homeless Housing and Assistance Prevention Program.\",\n    \"There is",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A total of $12.4 million has been awarded to counties across Senate District 4 to help address homelessness.\",\n    \"The funding comes from the California Department of Housing and Community Development’s Homeless Housing and Assistance Prevention Program.\",\n    \"There is a severe lack of transparency around homelessness spending in California.\",\n    \"Senator Alvarado-Gil has been a strong advocate for protecting Homeless Housing and Assistance Prevention funds and ensuring their effective use.\",\n    \"The Modesto Police Department’s Community Health and Assistance Team (CHAT) deploys trained outreach specialists to respond to mental health crises and other non-violent, non-criminal situations.\",\n    \"The CHAT program connects those in need with essential services.\",\n    \"Senator Alvarado-Gil has collaborated with local faith-based organizations to provide emergency food and intervention services for youth and families in crisis.\",\n    \"Senator Alvarado-Gil has worked with Stanislaus County to ensure public transportation provides reliable access to job centers, healthcare, and supportive nonprofits.\",\n    \"Senator Alvarado-Gil coauthored Senate Bill 1011, aimed at clearing encampments along sidewalks near parks and schools while also providing unhoused individuals with treatment and support services.\",\n    \"Experiencing life as someone experiencing homelessness deepened Senator Alvarado-Gil's insight into the daily challenges faced by homeless veterans and individuals with mental health issues.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "43fb5f000a1b57c7c94f0f9808404f19e6fd2b4c"
+}

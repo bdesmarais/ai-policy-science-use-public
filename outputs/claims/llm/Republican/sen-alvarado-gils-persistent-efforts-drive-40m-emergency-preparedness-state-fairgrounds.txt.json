@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-alvarado-gils-persistent-efforts-drive-40m-emergency-preparedness-state-fairgrounds.txt",
+  "party": "Republican",
+  "title": "Sen. Marie Alvarado-Gil ( R-Jackson ) is pleased to announce that her persistent efforts to secure funding for infrastructure improvements at California's fairgrounds have resulted",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's fairgrounds serve a vital function during times of crisis by providing shelter for families and animals, supplies, and essential support.\",\n    \"Many fairgrounds in California are in disrepair and require urgent repairs to critical infrastructure.\",\n    \"The",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's fairgrounds serve a vital function during times of crisis by providing shelter for families and animals, supplies, and essential support.\",\n    \"Many fairgrounds in California are in disrepair and require urgent repairs to critical infrastructure.\",\n    \"The demand for fairgrounds has grown, especially as emergency response centers during times of crisis.\",\n    \"The California Department of Food and Agriculture confirmed that $40 million would be allocated from the Clean Air Bond Act for emergency response upgrades.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2fa4240890cb2975089d7c08eeeb1a81815436b3"
+}

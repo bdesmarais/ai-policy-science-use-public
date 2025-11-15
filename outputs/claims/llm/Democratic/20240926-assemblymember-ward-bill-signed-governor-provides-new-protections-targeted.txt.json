@@ -1,0 +1,13 @@
+{
+  "press_release": "20240926-assemblymember-ward-bill-signed-governor-provides-new-protections-targeted.txt",
+  "party": "Democratic",
+  "title": "(",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Stop Hate Littering Act provides more tools for victims to pursue civil recourse and for prosecutors to hold offenders accountable.\",\n    \"The Anti-Defamation League reported over 3,600 acts of anti-Semitic assault, vandalism, and harassment in the United States in 2",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Stop Hate Littering Act provides more tools for victims to pursue civil recourse and for prosecutors to hold offenders accountable.\",\n    \"The Anti-Defamation League reported over 3,600 acts of anti-Semitic assault, vandalism, and harassment in the United States in 2023, the highest number since tracking began in 1979.\",\n    \"The distribution of anti-Semitic flyers is part of a disturbing trend of rising anti-Semitic hate in the United States.\",\n    \"Legislation regarding hate littering aims to address the intimidation and harassment of targeted communities.\",\n    \"In San Diego, at least eight instances of anti-Semitic flyers being distributed on car windshields were documented in 2023.\",\n    \"Hate flyers have been distributed in various California neighborhoods, including Los Angeles and Fresno.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3c0bc59345b62cbb3a3f6f3cf8b96b67abf3fd21"
+}

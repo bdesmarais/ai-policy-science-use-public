@@ -1,0 +1,13 @@
+{
+  "press_release": "20240424-bill-ban-sale-anti-aging-cosmetic-products-children-and-preteens-passes-key.txt",
+  "party": "Democratic",
+  "title": "Kids are buying anti-aging skincare with ingredients that can be harmful to their health. AB 2491 authored by Assemblymember Alex Lee will protect children and preteens from the un",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:40:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Kids are buying anti-aging skincare with ingredients that can be harmful to their health.\",\n    \"Anti-aging products with powerful active ingredients like retinol have become much more accessible in recent years.\",\n    \"Young children are driven to buy anti-aging product",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Kids are buying anti-aging skincare with ingredients that can be harmful to their health.\",\n    \"Anti-aging products with powerful active ingredients like retinol have become much more accessible in recent years.\",\n    \"Young children are driven to buy anti-aging products without receiving proper information about the effects or science behind the skincare.\",\n    \"Dermatologists agree that anti-aging products are generally unnecessary for younger skin.\",\n    \"Babies and young children have a faster cell turnover rate than adults, resulting in their naturally soft and smooth skin.\",\n    \"Skin cell turnover rate slows down as adults age, contributing to visible signs of aging like wrinkles and dullness.\",\n    \"Children have more sensitive skin than adults due to a thinner epidermis and developing immune system.\",\n    \"Children using anti-aging products can experience adverse skin reactions such as irritation, dryness, and eczema.\",\n    \"There is no reason for children to use anti-aging products, as they do not benefit from them.\",\n    \"The use of anti-aging products in children has been linked to visible skin reactions that can impact their self-esteem.\",\n    \"Certain skincare products have become status symbols for kids, driven by social media influence.\",\n    \"The irritation and damage caused by anti-aging products may impair the skin's ability to protect itself from sun exposure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4dc4ff384311a6ac63b5dbbef4bd5fbd5031c59e"
+}

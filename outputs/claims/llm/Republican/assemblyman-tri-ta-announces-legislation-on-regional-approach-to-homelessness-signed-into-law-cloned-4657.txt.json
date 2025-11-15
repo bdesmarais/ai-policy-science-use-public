@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-tri-ta-announces-legislation-on-regional-approach-to-homelessness-signed-into-law-cloned-4657.txt",
+  "party": "Republican",
+  "title": "Assemblyman Tri Ta Announces Passage of Landmark Legislation to Include",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The landmark civil rights case, Mendez v. Westminster, paved the way for school desegregation in California.\",\n    \"Including the Mendez v. Westminster case in the school social science curriculum will expose California students to the struggle for equality and the power",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The landmark civil rights case, Mendez v. Westminster, paved the way for school desegregation in California.\",\n    \"Including the Mendez v. Westminster case in the school social science curriculum will expose California students to the struggle for equality and the power of education.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ce6b9bf18e66911a990e0bc0c7885145a8b8f174"
+}

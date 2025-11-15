@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-jeff-gonzalez-statement-on-joining-the-ca-problem-solvers-caucus.txt",
+  "party": "Republican",
+  "title": "INDIO — Today, Assemblyman Jeff Gonzalez (R-Indio) released the following statement on joining the California Problem Solvers Caucus:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e54b70195d371548356e1f4177204f742d62f3eb"
+}

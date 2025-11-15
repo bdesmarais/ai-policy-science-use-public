@@ -1,0 +1,13 @@
+{
+  "press_release": "california-state-senator-josh-becker-introduces-bill-to-establish.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Senator Josh Becker announced legislation today to establish the Minor League Baseball Players’ Bill of Rights, which would modernize decades’ old and scathingly criti",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1248 aims to modernize the work conditions for Minor League baseball players.\",\n    \"Minor League baseball players have been criticized for receiving wages below the federal poverty level.\",\n    \"Players in the Minor Leagues are only paid during the champions",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1248 aims to modernize the work conditions for Minor League baseball players.\",\n    \"Minor League baseball players have been criticized for receiving wages below the federal poverty level.\",\n    \"Players in the Minor Leagues are only paid during the championship-playing season, which lasts less than six months of the year.\",\n    \"Wage scales for Minor League players are unilaterally set by Major League Baseball owners.\",\n    \"The current uniform player contract for Minor Leaguers includes a seven-year reserve clause.\",\n    \"Minor Leaguers have no control over the use of their name, likeness, or image for promotional purposes.\",\n    \"Minor Leaguers have been exempt from the federal minimum wage and overtime protections since 2018.\",\n    \"In contrast to a 9,000% increase in MLB's gross revenue since 1975, Minor League players' income increased only 75%.\",\n    \"Currently, Minor League players on Single-A teams earn $500 a week during the championship season.\",\n    \"The Minor League Baseball Players' Bill of Rights would prohibit any initial player contract from lasting longer than four years.\",\n    \"The legislation would guarantee that Minor Leaguers retain the rights to their name, image, and likeness.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "15f8151014e212c0cd8eabf475dce4d71e6875ce"
+}

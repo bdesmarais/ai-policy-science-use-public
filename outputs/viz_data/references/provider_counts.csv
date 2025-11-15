@@ -1,10 +1,19 @@
 party,provider,count
-Republican,publisher,92
-Democratic,publisher,87
-Republican,openai,40
+Republican,publisher,384
+Democratic,publisher,299
 Republican,arXiv,27
 Democratic,arXiv,24
-Democratic,OpenAlex,3
+Republican,openai,20
+Democratic,Crossref,7
+Republican,gov.ca.gov,7
+Republican,PubMed,4
 Republican,Crossref,3
-Democratic,Crossref,2
+Democratic,Frontiers in Marine Science,2
+Democratic,International Council on Clean Transportation,1
+Republican,preprints,1
+Republican,justice.gov,1
+Republican,cdph.ca.gov,1
+Republican,oag.ca.gov,1
 Republican,OpenAlex,1
+Republican,CalMatters,1
+Republican,CapRadio,1

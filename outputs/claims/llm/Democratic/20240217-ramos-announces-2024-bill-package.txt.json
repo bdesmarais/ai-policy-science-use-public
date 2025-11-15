@@ -1,0 +1,13 @@
+{
+  "press_release": "20240217-ramos-announces-2024-bill-package.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO— Assemblymember James C. Ramos (D-Highland) announced his 2024 bill package that deals with issues ranging from public safety to youth homelessness to education to menta",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2138 would grant tribal police officers peace officer status, authorizing them to enforce state law outside of the tribal lands in certain circumstances.\",\n    \"AB 2478 mandates all state local and state correctional facilities to share mental health records amongst e",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2138 would grant tribal police officers peace officer status, authorizing them to enforce state law outside of the tribal lands in certain circumstances.\",\n    \"AB 2478 mandates all state local and state correctional facilities to share mental health records amongst each other when incarcerated individuals are transferred between facilities.\",\n    \"AB 2601 would require appliances being replaced by the Energy Saving Assistant Program to be electric-efficient.\",\n    \"AB 2711 would revise school suspension and expulsion policies for drug-related infractions by requiring Local Education Agencies to develop public health approaches to support students in lieu of suspensions and expulsions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5b5298871963af1233cdfdead59e74f1ff2f0b66"
+}

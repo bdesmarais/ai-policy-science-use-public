@@ -1,0 +1,13 @@
+{
+  "press_release": "make-your-voice-heard-sierra-county-speed-limits.txt",
+  "party": "Republican",
+  "title": "In many Sierra County communities‚ the state highways are the local main streets‚ and I want to alert you to some important news affecting the highways in Sierra City and Sierravil",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8592b8d4b305b055944bc1f47a35c9636082983a"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20150604-overwhelming-bipartisan-support-assembly-local-assemblymembers-legislative.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:51:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The expansion of the 'Hire a Hero Tax Credit' through Assembly Bill 931 increases incentives for employers to connect veterans with quality, high-paying jobs.\",\n    \"Over the past two years, county veterans services officers' work has generated $546 million in new or inc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The expansion of the 'Hire a Hero Tax Credit' through Assembly Bill 931 increases incentives for employers to connect veterans with quality, high-paying jobs.\",\n    \"Over the past two years, county veterans services officers' work has generated $546 million in new or increased federal benefits for veterans, a return of $98 for every $1 invested.\",\n    \"Assembly Bill 770 provides financial support for community colleges to update and expand remedial college courses to help first-year students succeed.\",\n    \"The Achieving a Better Life Experience (ABLE) Act allows Californians with disabilities to save for the future without fear of losing access to essential public benefits.\",\n    \"The ABLE Act provides people with disabilities a path to employment and greater independence and dignity.\",\n    \"Assembly Bill 670 requires state agencies to conduct a network security assessment at least once every two years to protect information.\",\n    \"California is a prime target for cybersecurity threats, necessitating the passage of Assembly Bill 670.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ad3a7fa0ece30d1a71f6195daee8a7be512cd831"
+}

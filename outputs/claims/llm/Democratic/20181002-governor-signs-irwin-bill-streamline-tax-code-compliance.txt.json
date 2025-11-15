@@ -1,0 +1,13 @@
+{
+  "press_release": "20181002-governor-signs-irwin-bill-streamline-tax-code-compliance.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:03:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2503 creates an efficient process to dissolve businesses and comply with the tax code.\",\n    \"Without AB 2503, the Franchise Tax Board has to waste enforcement time on businesses that no longer exist.\",\n    \"The Franchise Tax Board can finally close the books on over ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2503 creates an efficient process to dissolve businesses and comply with the tax code.\",\n    \"Without AB 2503, the Franchise Tax Board has to waste enforcement time on businesses that no longer exist.\",\n    \"The Franchise Tax Board can finally close the books on over 180,000 accounts that remain on the state’s ledger due to the passing of AB 2503.\",\n    \"State law continues to impose the minimum franchise or annual tax for each tax year until an entity completes the dissolution process.\",\n    \"Tax, interest, and penalties can accrue for several years after a business closes down if the legal entity is not dissolved.\",\n    \"Taxpayers may walk away from accruing tax, interest, and penalties due to the Franchise Tax Board when a business ceases operations.\",\n    \"The Franchise Tax Board lacks authority to dissolve an entity to stop the accrual of minimum or annual tax.\",\n    \"Tax debts for entities that have ceased business operations may remain on the Franchise Tax Board's accounting system for up to 20 years.\",\n    \"Taxpayers may be unable to dissolve the corporation or LLC because of existing tax liability and lack of assets.\",\n    \"AB 2503 provides relief to small-business owners who formed LLCs but did not complete the dissolution process.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "299bae58d6c88d049177faa5fa615b8cabfa9baf"
+}

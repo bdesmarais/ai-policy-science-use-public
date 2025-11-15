@@ -1,0 +1,13 @@
+{
+  "press_release": "20230424-bill-offers-pathway-blockchain-and-crypto-organizations-incorporate.txt",
+  "party": "Democratic",
+  "title": "SAN FRANCISCO —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Tech experts forecast that within the next decade, blockchain technology will be essential to most tech companies and will be integrated into almost all industries.\",\n    \"The lack of legal clarity and opaque U.S. regulations is causing many new DAOs to incorporate offsh",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Tech experts forecast that within the next decade, blockchain technology will be essential to most tech companies and will be integrated into almost all industries.\",\n    \"The lack of legal clarity and opaque U.S. regulations is causing many new DAOs to incorporate offshore.\",\n    \"AB 1229 creates a new legal framework to regulate, tax, and legitimize DAOs in California.\",\n    \"Allowing DAOs to incorporate in California will ensure better protections for Californians participating in the crypto and web3 economy.\",\n    \"The new legislation is intended to help California maintain its status as a leader in technology.\",\n    \"Web3 is about building the next generation of the internet, which will give users control over their data, their creative works, and their innovations.\",\n    \"The lack of clear regulation in California is holding back the next generation of tech and driving it to other states and abroad.\",\n    \"An established framework for decentralized autonomous organizations is a crucial building block for the future of the digital economy.\",\n    \"DAOs empower users and creators by enabling user-centered systems that give people control over their data.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3344b00beff19d467a7e75b1d4eac01ac43cccaf"
+}

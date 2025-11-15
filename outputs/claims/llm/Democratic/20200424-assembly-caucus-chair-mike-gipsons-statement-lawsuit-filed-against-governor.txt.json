@@ -1,0 +1,13 @@
+{
+  "press_release": "20200424-assembly-caucus-chair-mike-gipsons-statement-lawsuit-filed-against-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- Assemblymember Mike A. Gipson (D-Carson) released the following statement on a lawsuit filed by a conservative group against Governor Gavin Newsom:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:15:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Undocumented workers paid more than $2.5 billion in California state and local taxes last year.\",\n    \"The California Governor's appropriation to nonprofit organizations aims to provide cash distribution to unemployed California workers ineligible for state unemployment ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Undocumented workers paid more than $2.5 billion in California state and local taxes last year.\",\n    \"The California Governor's appropriation to nonprofit organizations aims to provide cash distribution to unemployed California workers ineligible for state unemployment benefits due to immigration status.\",\n    \"California and the Governor are committed to supporting residents regardless of immigration status during the crisis caused by COVID-19.\",\n    \"The Black Alliance for Just Immigration's 2017 report estimates that California is home to more than 27,000 undocumented Californians of African descent.\",\n    \"The California legislature plans to address the economic status of all residents upon reconvening on May 4, 2020, including extending the Earned Income Tax Credit to all California taxpayers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "39edfa1055bc620de1a222f458b36088f11f77d6"
+}

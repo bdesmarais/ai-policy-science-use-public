@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-introduces-election-bills-addressing-counting-transparency.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assemblymember Alanis announced that he introduced his first two bills of the new legislative session last week. His first two bills were introduced to address his con",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's electoral process currently experiences delays in election result reporting.\",\n    \"Countries with similar population and geographical size to California can count their election results in hours.\",\n    \"Bill AB 16 aims to reduce delays in election results b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's electoral process currently experiences delays in election result reporting.\",\n    \"Countries with similar population and geographical size to California can count their election results in hours.\",\n    \"Bill AB 16 aims to reduce delays in election results by requiring officials to process ballots as they are returned.\",\n    \"Bill AB 17 seeks to enhance public access to county election information, including effective precinct boundaries.\",\n    \"Public access to election-related geographical information is important for voter responsibility.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0f1c33e1da15dc1d8e66fbd5eedf9c646f219a1a"
+}

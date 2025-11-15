@@ -1,0 +1,13 @@
+{
+  "press_release": "state-senator-josh-becker-calls-vaccinating-teachers-now-against-covid-19.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:34:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Vaccinating teachers creates a pathway for classroom support.\",\n    \"There is nothing that can replicate the classroom experience during distance learning.\",\n    \"Allowing teachers to receive COVID vaccinations will make it easier for students to return to the classroom.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Vaccinating teachers creates a pathway for classroom support.\",\n    \"There is nothing that can replicate the classroom experience during distance learning.\",\n    \"Allowing teachers to receive COVID vaccinations will make it easier for students to return to the classroom.\",\n    \"Vaccinating teachers and safely reopening schools will be a significant move towards returning to normalcy.\",\n    \"Teachers returning to COVID-safe environments is imperative for their mental health and that of students.\",\n    \"The vaccines will ease the risk and fear among staff and families as more students return to campus.\",\n    \"Providing teachers with immediate access to vaccinations is necessary for the profession that prioritizes children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "25c465825325ae833b1002930792d61775aaac6b"
+}

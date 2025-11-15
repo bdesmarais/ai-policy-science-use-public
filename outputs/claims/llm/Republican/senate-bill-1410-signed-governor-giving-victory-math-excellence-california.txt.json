@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-bill-1410-signed-governor-giving-victory-math-excellence-california.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh ( R-Yucaipa ) has announced that Senate Bill 1410 , a crucial piece of legislation ensuring that Algebra I (or Mathematics I) is offered but not requir",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1410 ensures that Algebra I (or Mathematics I) is offered but not required to all 8th-grade students in California.\",\n    \"The signing of SB 1410 takes a significant step towards ensuring that every student in California has the opportunity to excel in mathem",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1410 ensures that Algebra I (or Mathematics I) is offered but not required to all 8th-grade students in California.\",\n    \"The signing of SB 1410 takes a significant step towards ensuring that every student in California has the opportunity to excel in mathematics and achieve their fullest potential in STEM careers.\",\n    \"The revised mathematics curriculum framework recommended that Algebra I and Mathematics I be taught in the 9th grade rather than the 8th grade.\",\n    \"The shift in the mathematics curriculum threatened to limit students' opportunities to engage in advanced math courses, like calculus.\",\n    \"Senator Ochoa Bogh's SB 1410 is designed to foster higher-level math skills, critical thinking, and problem-solving abilities essential for success in STEM fields.\",\n    \"Offering algebra in middle school benefits individual students and society by fostering a more diverse range of socio-economic backgrounds in STEM workers.\",\n    \"Strengthening math skills of students coming out of elementary schools helps prepare them for algebra in middle school.\",\n    \"A New York Post article noted that the Defense Department has called for an initiative to support education in STEM.\",\n    \"There are eight times as many college graduates in STEM disciplines in China and four times as many engineers in Russia as in the United States.\",\n    \"The Aspen Institute warned that the United States is no longer keeping pace with other countries in technological dominance.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "077fec282cdfbdb4e44280d64cd888276e5a3caa"
+}

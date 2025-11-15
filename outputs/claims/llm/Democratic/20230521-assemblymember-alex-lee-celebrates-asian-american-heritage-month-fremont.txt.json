@@ -1,0 +1,13 @@
+{
+  "press_release": "20230521-assemblymember-alex-lee-celebrates-asian-american-heritage-month-fremont.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Loreto Dimaandal has been serving the unhoused community members in Milpitas for over 10 years.\",\n    \"LoretoQD's Brigade has been passing out food multiple days a week to unhoused families in need.\",\n    \"Many unhoused people have found jobs, housing, and transport",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Loreto Dimaandal has been serving the unhoused community members in Milpitas for over 10 years.\",\n    \"LoretoQD's Brigade has been passing out food multiple days a week to unhoused families in need.\",\n    \"Many unhoused people have found jobs, housing, and transportation because of Loreto Dimaandal and her group of volunteers.\",\n    \"Nina Chuang is the first Taiwanese American, first Malaysian American, and first Chinese American woman to serve as Associated Students Student Body President at San Jose State University.\",\n    \"Nina Chuang played a key role in the implementation and creation of the Asian and Pacific Islander Student Success Center at San Jose State University.\",\n    \"Nina Chuang helped create the Lunar New Year Celebration to increase visibility of the AAPI community at San Jose State University.\",\n    \"Nina Chuang coordinated a two-month exhibit to increase knowledge about the WWII incarceration of Japanese Americans in San Jose.\",\n    \"ICAN has over 20 years of experience successfully delivering culturally competent community outreach messages and education programs to the Vietnamese community.\",\n    \"ICAN's community outreach and education strategy includes raising awareness and offering participants a safe space to share their historical journey.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1b354c233127245bbf9e2ac07d1d4bd140f2309d"
+}

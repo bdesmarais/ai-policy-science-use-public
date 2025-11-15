@@ -1,0 +1,13 @@
+{
+  "press_release": "20210330-boerner-horvath-announces-jaqueline-kiki-bispo-2021-woman-year-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:26:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Family and Community Engagement Network (F.A.C.E) is an internationally recognized approach to student success.\",\n    \"The F.A.C.E program focuses on the role of the family, home life, and learning conditions in determining classroom outcomes for struggling students.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Family and Community Engagement Network (F.A.C.E) is an internationally recognized approach to student success.\",\n    \"The F.A.C.E program focuses on the role of the family, home life, and learning conditions in determining classroom outcomes for struggling students.\",\n    \"Kids who have both parents engaged in their learning and in touch with their teachers perform better in school and have more opportunities later in life.\",\n    \"Kiki's innovative approach brings parents into the conversation, resulting in better outcomes for struggling kids.\",\n    \"The implementation of the F.A.C.E Network has boosted the number of family engagement events at Vista schools, sometimes doubling the previous year's numbers.\",\n    \"The strengthening of family contact through the F.A.C.E program has helped address issues like chronic absenteeism and behavioral patterns in students.\",\n    \"The connections forged through the F.A.C.E program helped keep students engaged during remote learning during the pandemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b62c85a83370d2282ace1e3416e277d1af5a6cf9"
+}

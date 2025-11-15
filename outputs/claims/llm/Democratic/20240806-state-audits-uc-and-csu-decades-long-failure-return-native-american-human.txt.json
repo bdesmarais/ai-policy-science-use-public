@@ -1,0 +1,13 @@
+{
+  "press_release": "20240806-state-audits-uc-and-csu-decades-long-failure-return-native-american-human.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Exasperated and impatient California tribal leaders and lawmakers today listened to state university system leaders lay out the steps they are taking to meet the require",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The University of California (UC) and California State University (CSU) systems have conducted audits to assess their compliance with the Native American Graves Protection and Repatriation Act (NAGPRA).\",\n    \"The CSU audit revealed collections of more than 700,000 items",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The University of California (UC) and California State University (CSU) systems have conducted audits to assess their compliance with the Native American Graves Protection and Repatriation Act (NAGPRA).\",\n    \"The CSU audit revealed collections of more than 700,000 items related to Native American remains and artifacts.\",\n    \"The audit reports indicate that not all campuses of the CSU system have undertaken required inventories of their collections.\",\n    \"UC Berkeley holds sizable collections of Native American remains and artifacts according to reported audits.\",\n    \"The return of Native American human remains and artifacts is mandated by federal and state laws.\",\n    \"Assemblymember James C. Ramos stated that the UC and CSU systems are beginning to establish policies for the return of Native American remains.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a6f8a42ab409d338ac48b48ea06a2142ca6d5fa3"
+}

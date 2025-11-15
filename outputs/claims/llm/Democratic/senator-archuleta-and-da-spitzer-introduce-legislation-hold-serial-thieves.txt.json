@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-archuleta-and-da-spitzer-introduce-legislation-hold-serial-thieves.txt",
+  "party": "Democratic",
+  "title": "NORWALK, CA – Senator Bob Archuleta (D-Pico Rivera) is proud to announce the introduction of SB 923, which would increase penalties for repeat theft offenders by re-implementing se",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California continues to suffer from an unprecedented increase in all types of theft.\",\n    \"Prop 47 made certain property crimes under $950 a misdemeanor and removed Penal Code 666.1 dealing with Serial Theft.\",\n    \"SB 923 would re-implement serial theft provisions prio",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California continues to suffer from an unprecedented increase in all types of theft.\",\n    \"Prop 47 made certain property crimes under $950 a misdemeanor and removed Penal Code 666.1 dealing with Serial Theft.\",\n    \"SB 923 would re-implement serial theft provisions prior to Prop 47.\",\n    \"SB 923 specifically targets enforcement efforts at repeat criminals who continue to steal after multiple prior convictions.\",\n    \"Theft is not a victimless crime.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b0e429ddcdb2f0713c32913fcf9327d4a7d16684"
+}

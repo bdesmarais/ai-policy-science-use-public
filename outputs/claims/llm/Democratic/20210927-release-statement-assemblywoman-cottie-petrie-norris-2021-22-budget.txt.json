@@ -1,0 +1,13 @@
+{
+  "press_release": "20210927-release-statement-assemblywoman-cottie-petrie-norris-2021-22-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblywoman Cottie Petrie-Norris released the following statement following Governor Gavin Newsom’s signing of the final 2021-22 budget trailer bills:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The 2021-22 budget allocates $5 million for the County of Orange for the Be Well OC Campus in Irvine.\",\n    \"The budget includes $500 million to fund mitigation efforts to protect the California coast from sea-level rise.\",\n    \"AB 65 prioritizes funds for the use of gre",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The 2021-22 budget allocates $5 million for the County of Orange for the Be Well OC Campus in Irvine.\",\n    \"The budget includes $500 million to fund mitigation efforts to protect the California coast from sea-level rise.\",\n    \"AB 65 prioritizes funds for the use of green, natural infrastructure to protect against rising seas without harming habitats.\",\n    \"The budget makes an unprecedented investment of $21,000 per pupil, per year for K-12 students.\",\n    \"There will be 200,000 new childcare slots created statewide as part of the budget.\",\n    \"The budget includes a $3.7 billion investment in wildfire prevention, drought mitigation, and climate resiliency initiatives.\",\n    \"$12 billion is allocated to combat homelessness, with strict accountability for the use of these funds.\",\n    \"The budget provides $6 billion over three years for broadband infrastructure and improved access to services throughout the state.\",\n    \"The budget allocates $1 billion for workforce development including training, education, and 'upskilling.'\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "40cf7ac27a9126ae5abded552c07ed39a191b7bd"
+}

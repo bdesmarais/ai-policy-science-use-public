@@ -1,0 +1,13 @@
+{
+  "press_release": "20211215-advisory-banning-ranch-8-million-check-presentation.txt",
+  "party": "Democratic",
+  "title": "COSTA MESA – On Thursday, December 16, 2021, Assemblywoman Cottie Petrie-Norris will present a check for $8 million dollars from the State to support the purchase of one of the las",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Trust for Public Land plans to conserve Banning Ranch by converting a 385-acre parcel of land into a public park and nature preserve.\",\n    \"The new park and preserve will provide access to open space for nearly 9 million Californians who live within an hour's drive ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Trust for Public Land plans to conserve Banning Ranch by converting a 385-acre parcel of land into a public park and nature preserve.\",\n    \"The new park and preserve will provide access to open space for nearly 9 million Californians who live within an hour's drive of Banning Ranch.\",\n    \"This project will cultivate a model for low-carbon, climate-resilient coastal protection.\",\n    \"By conserving Banning Ranch, the project will make strides towards achieving the state’s climate change resiliency goals.\",\n    \"The project aims to improve the area's adaptability to sea level rise.\",\n    \"The initiative is expected to reduce the oil footprint by over 90%.\",\n    \"The conservation efforts will accelerate the natural removal of carbon in the environment.\",\n    \"The Banning Ranch Park and Preserve aims to promote park access for diverse disadvantaged communities.\",\n    \"The project will honor Native American cultural heritage.\",\n    \"Educational and recreational programs will be provided as part of the project.\",\n    \"The restoration of coastal wetlands is intended to help combat climate change.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3f69dfd40888113d6b9c9347caacd00ba762dad8"
+}

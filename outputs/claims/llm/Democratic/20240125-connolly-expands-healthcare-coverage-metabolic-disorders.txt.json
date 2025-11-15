@@ -1,0 +1,13 @@
+{
+  "press_release": "20240125-connolly-expands-healthcare-coverage-metabolic-disorders.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) introduced Assembly Bill (AB) 1926, which expands healthcare coverage for metabolic disorders to include entera",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:33:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Inflammatory Bowel Disease (IBD) affects an estimated 3 million Americans.\",\n    \"IBD causes chronic inflammation in the gastrointestinal (GI) tract.\",\n    \"Enteral nutrition (EN) is a liquid dietary treatment for IBD.\",\n    \"Enteral nutrition can be administered as the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Inflammatory Bowel Disease (IBD) affects an estimated 3 million Americans.\",\n    \"IBD causes chronic inflammation in the gastrointestinal (GI) tract.\",\n    \"Enteral nutrition (EN) is a liquid dietary treatment for IBD.\",\n    \"Enteral nutrition can be administered as the primary treatment of IBD, called exclusive enteral nutrition (EEN).\",\n    \"Exclusive Enteral Nutrition can provide the full amount of necessary calories without solid food.\",\n    \"EEN can be the main therapy for mild to moderate cases of Crohn’s Disease in children and adolescents.\",\n    \"EEN serves as an alternative to corticosteroids for treatment, mitigating the risk of tolerance and growth impairment associated with steroid use.\",\n    \"EEN is a cheaper alternative to steroids.\",\n    \"Studies show the benefits of medical enteral nutrition for IBD patients, particularly pediatric patients.\",\n    \"Health plans are not required to cover enteral nutrition, including over the counter options.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c277bea42d6acb81236f8b85d925dd99d4cc302f"
+}

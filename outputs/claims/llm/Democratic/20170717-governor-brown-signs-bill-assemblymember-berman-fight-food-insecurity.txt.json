@@ -1,0 +1,13 @@
+{
+  "press_release": "20170717-governor-brown-signs-bill-assemblymember-berman-fight-food-insecurity.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 323 employs technology to immediately refer individuals and families to reliable food providers.\",\n    \"2-1-1 is a free phone number and online database that connects Californians to health and human service programs.\",\n    \"Eleven counties utilize 2-1-1 referrals to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 323 employs technology to immediately refer individuals and families to reliable food providers.\",\n    \"2-1-1 is a free phone number and online database that connects Californians to health and human service programs.\",\n    \"Eleven counties utilize 2-1-1 referrals to provide up-to-date information around-the-clock and in 150 languages.\",\n    \"It can take up to 30 days for a CalFresh application to be reviewed and approved.\",\n    \"The waiting period for a CalFresh application can be detrimental to families, particularly children.\",\n    \"Hunger can cause development impairments that limit children's physical, intellectual, and emotional growth.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ae1e7f6e45c81e8270a3f7bf1dde02113caff9ea"
+}

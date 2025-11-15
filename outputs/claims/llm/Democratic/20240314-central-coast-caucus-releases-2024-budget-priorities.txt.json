@@ -1,0 +1,13 @@
+{
+  "press_release": "20240314-central-coast-caucus-releases-2024-budget-priorities.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — The California Central Coast Legislative Caucus, Chaired by Assemblymember Dawn Addis (D-Morro Bay) introduced",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's Central Coast plays a fundamental role in the world's fifth largest economy.\",\n    \"Industries such as clean technology, innovation, agriculture, and educational institutions contribute to an economic impact of over $12 billion.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's Central Coast plays a fundamental role in the world's fifth largest economy.\",\n    \"Industries such as clean technology, innovation, agriculture, and educational institutions contribute to an economic impact of over $12 billion.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b230df119ac52176bab289f537d8105b066bf79a"
+}

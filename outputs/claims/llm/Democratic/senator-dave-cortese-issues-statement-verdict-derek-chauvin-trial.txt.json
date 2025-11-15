@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-cortese-issues-statement-verdict-derek-chauvin-trial.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) issued the following statement on the verdict reached in the Derek Chauvin Trial. The former Minneapolis Police officer was found guilty of murder",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb2fd49a19a037515c9030b1a464285bdd472c86"
+}

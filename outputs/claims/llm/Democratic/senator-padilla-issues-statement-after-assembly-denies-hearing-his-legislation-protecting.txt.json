@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-padilla-issues-statement-after-assembly-denies-hearing-his-legislation-protecting.txt",
+  "party": "Democratic",
+  "title": "Body",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Tijuana River was named in the 10 most endangered rivers in America in 2024 by the environmental organization American Rivers.\",\n    \"The Tijuana River was named the second most polluted river in America in 2024 based on an analysis of hazardous industrial waste and ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Tijuana River was named in the 10 most endangered rivers in America in 2024 by the environmental organization American Rivers.\",\n    \"The Tijuana River was named the second most polluted river in America in 2024 based on an analysis of hazardous industrial waste and raw sewage.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "691f029700d14aa0d19333ddc66363bbb54c17bf"
+}

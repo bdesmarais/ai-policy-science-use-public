@@ -1,0 +1,13 @@
+{
+  "press_release": "20220112-assemblymember-alex-lees-ab-854-reform-ellis-act-passes-housing-committee.txt",
+  "party": "Democratic",
+  "title": "Today, AB 854 has crossed its first hurdle and passed out of the Assembly Housing and Community Development Committee. AB 854 reforms the Ellis Act and ends the revolving door of e",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 854 reforms the Ellis Act by creating a 5-year holding period before it can be used.\",\n    \"The Ellis Act allows landlords to evict residential tenants when exiting the rental business.\",\n    \"The loopholes in the Ellis Act have been used to acquire rent-controlled ho",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 854 reforms the Ellis Act by creating a 5-year holding period before it can be used.\",\n    \"The Ellis Act allows landlords to evict residential tenants when exiting the rental business.\",\n    \"The loopholes in the Ellis Act have been used to acquire rent-controlled housing, evict tenants, and sell properties for a higher profit.\",\n    \"The vast majority of Ellis Act evictions occur within the first five years of an owner purchasing a property.\",\n    \"There is a trend of 'serial evictors' who evict tenants from multiple buildings to convert the units to condominiums and tenancies-in-common.\",\n    \"The statutory right of long-term landlords to exit the rental business would be preserved while deterring speculator abuse with AB 854.\",\n    \"AB 854 applies only to the 21 rent-controlled jurisdictions in California, representing roughly 4% of all California jurisdictions.\",\n    \"The Ellis Act allows speculators and developers to destroy existing affordable housing and evict tenants.\",\n    \"AB 854 aims to stem the tide of abuse by amending the Ellis Act to include a 5-year hold on evictions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c5d778608cb005f384dd7e108bfe1d3c9b568c4e"
+}

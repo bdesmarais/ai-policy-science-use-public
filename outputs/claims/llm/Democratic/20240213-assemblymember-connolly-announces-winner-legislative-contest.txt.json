@@ -1,0 +1,13 @@
+{
+  "press_release": "20240213-assemblymember-connolly-announces-winner-legislative-contest.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblymember Damon Connolly (D-San Rafael) announced the conclusion of his second official",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:35:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The 'There Ought to Be a Law' contest allows residents of Assembly District 12 to propose new state legislation that could improve the lives of 38.9 million Californians.\",\n    \"The winning idea from the contest highlights the lack of evacuation and shelter-in-place",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The 'There Ought to Be a Law' contest allows residents of Assembly District 12 to propose new state legislation that could improve the lives of 38.9 million Californians.\",\n    \"The winning idea from the contest highlights the lack of evacuation and shelter-in-place protocols for schools located in high-risk wildfire and Wildland Urban Interface (WUI) zones.\",\n    \"California schools in high risk wildfire zones can sometimes lack proper evacuation procedures for students.\",\n    \"During the 2018 Camp Fire, schools in Paradise did not receive an evacuation notice before faculty had to facilitate their own evacuation.\",\n    \"The contest-winning idea mandates that all public and private schools in high risk wildfire zones and WUI zones establish comprehensive wildfire protocols for evacuations and shelters-in-place.\",\n    \"Proposed wildfire protocols include working with local fire departments to confirm that defensible space and building hardening have been achieved and maintained.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fd969ce636f23a4f11c5b721ebad7dc5e92da18f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-caballero-brings-parity-workers-compensation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Today, Senator Anna M. Caballero introduced SB 567, which expands worker’s compensation protections for first responder healthcare workers, the majority of which are wom",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Anna M. Caballero introduced SB 567, which expands worker’s compensation protections for first responder healthcare workers.\",\n    \"Worker’s compensation presumptions exist for first responders because they are inevitably exposed to dozens of potential illnesses ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Anna M. Caballero introduced SB 567, which expands worker’s compensation protections for first responder healthcare workers.\",\n    \"Worker’s compensation presumptions exist for first responders because they are inevitably exposed to dozens of potential illnesses as a condition of their work.\",\n    \"Certain occupational exposures in first responders can lead to health issues such as infectious diseases, respiratory illnesses, and cancer.\",\n    \"Presumptions streamline treatment for workers by reducing the burden of proof that their injury or illness was caused by the nature of their employment.\",\n    \"SB 567 creates a worker’s compensation rebuttable presumption for hospital employees who provide direct patient care in an acute hospital setting.\",\n    \"The California Nurses Association recognizes the inequality in worker’s compensation presumptions between different first responder professions.\",\n    \"90% of registered nurses are female, and they are treating the same patients in hospitals that public safety officers are treating in the field.\",\n    \"Ensuring first responder healthcare workers have access to the same worker’s compensation presumptions is a vital step in achieving economic and gender equality.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f9d5694beb4add713588bd8a13ae9526a62fa539"
+}

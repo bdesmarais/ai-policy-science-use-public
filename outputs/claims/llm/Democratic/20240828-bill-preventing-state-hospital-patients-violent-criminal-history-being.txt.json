@@ -1,0 +1,13 @@
+{
+  "press_release": "20240828-bill-preventing-state-hospital-patients-violent-criminal-history-being.txt",
+  "party": "Democratic",
+  "title": "Sacramento",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2475 allows state hospitals to hold patients for up to 30 additional days before their release.\",\n    \"The bill aims to facilitate collaboration between law enforcement and public health officials to secure housing, medication access, and mental health treatment for p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2475 allows state hospitals to hold patients for up to 30 additional days before their release.\",\n    \"The bill aims to facilitate collaboration between law enforcement and public health officials to secure housing, medication access, and mental health treatment for patients.\",\n    \"In the six years between 2018 and 2023, 1,656 people were released from a state hospital according to the California Department of Corrections and Rehabilitation.\",\n    \"Agencies only have five days before the release of individuals to coordinate housing, supervision, medication, and mental health services.\",\n    \"There is an expectation that all agencies involved have the resources and bandwidth to safely place a person back in the community within five days.\",\n    \"The bill is claimed to be a public safety measure that will help ensure ongoing treatment for individuals when they are released.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "84eb400e5db48be50d8ef72a6003ecfc40ed6688"
+}

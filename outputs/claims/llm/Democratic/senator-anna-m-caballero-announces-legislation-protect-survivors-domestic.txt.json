@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-announces-legislation-protect-survivors-domestic.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 599 will authorize superior court locations to serve as supervised visitation and exchange locations for custodial visits.\",\n    \"The bill provides options for virtual visitation when custodial parents and children are living in a confidential location due to",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 599 will authorize superior court locations to serve as supervised visitation and exchange locations for custodial visits.\",\n    \"The bill provides options for virtual visitation when custodial parents and children are living in a confidential location due to a restraining order from prior domestic abuse.\",\n    \"Routine visitations and exchanges have led to violence and death in the past.\",\n    \"Children and domestic violence survivors have the right to be safe after leaving an abusive partner.\",\n    \"SB 599 serves as a prevention strategy to reduce the risk of violence during custodial visitations.\",\n    \"The prevalence of firearms contributes to the risk of violence during custodial visitations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ae2d749d545c591694e7150d7a6d6c2a5cb167de"
+}

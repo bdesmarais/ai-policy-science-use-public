@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-celebrates-newport-beachs-new-trash-interceptor.txt",
+  "party": "Republican",
+  "title": "ORANGE COUNTY",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Newport Beach trash interceptor will greatly improve regional efforts to prevent trash and debris from entering the ocean.\",\n    \"The Trash Interceptor captures trash and debris before they enter the Pacific Ocean.\",\n    \"The floating platform of the Trash Intercepto",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Newport Beach trash interceptor will greatly improve regional efforts to prevent trash and debris from entering the ocean.\",\n    \"The Trash Interceptor captures trash and debris before they enter the Pacific Ocean.\",\n    \"The floating platform of the Trash Interceptor is powered by the current of San Diego Creek.\",\n    \"The 14-foot steel water wheel of the Trash Interceptor powers spring-loaded leaf rakes and a conveyor system that removes floating litter and debris.\",\n    \"The removal of pollutants by the Trash Interceptor prevents litter and contaminants from reaching the ocean and becoming marine debris.\",\n    \"The Trash Interceptor ultimately improves the water quality of the region.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "92e7640d232d79381a26c91c5cccd424dcf8709d"
+}

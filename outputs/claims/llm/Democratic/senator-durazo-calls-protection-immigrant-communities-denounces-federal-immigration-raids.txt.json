@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-durazo-calls-protection-immigrant-communities-denounces-federal-immigration-raids.txt",
+  "party": "Democratic",
+  "title": "SJR 9 strongly condemns militarized raids that have terrorized California families and workers since early June",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is home to over 10 ½ million immigrants, 2.3 million of whom are undocumented.\",\n    \"California stands to lose a staggering $275 billion in GDP if deportations continue.\",\n    \"Undocumented Californians contribute over $23 billion annually in local, state and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is home to over 10 ½ million immigrants, 2.3 million of whom are undocumented.\",\n    \"California stands to lose a staggering $275 billion in GDP if deportations continue.\",\n    \"Undocumented Californians contribute over $23 billion annually in local, state and federal taxes.\",\n    \"Discriminatory enforcement actions have disproportionately targeted Latino and AAPI communities.\",\n    \"The federal government’s actions have led to the detention and physical assault of peaceful protesters and elected leaders.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "92251a652103eabbc097f84811801fbdba0f8d39"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-urges-veto-of-bills-on-governors-desk-09-15-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2223 legalizes late-term abortions and prevents investigations of suspicious infant deaths.\",\n    \"AB 2223 immunizes unlicensed abortion providers from liability.\",\n    \"AB 2167 would require courts to consider 'alternatives to incarceration' in all criminal cases, al",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2223 legalizes late-term abortions and prevents investigations of suspicious infant deaths.\",\n    \"AB 2223 immunizes unlicensed abortion providers from liability.\",\n    \"AB 2167 would require courts to consider 'alternatives to incarceration' in all criminal cases, although these alternatives are not defined in the bill.\",\n    \"SB 1020 accelerates California's 2045 zero-carbon electricity mandate by setting interim targets for utilities beginning in 2035.\",\n    \"SB 1020 requires state agencies to use 100% zero-carbon energy before 2036, instead of 2046.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "59fb7829225ab16f032e2823564dd1ef57fedb48"
+}

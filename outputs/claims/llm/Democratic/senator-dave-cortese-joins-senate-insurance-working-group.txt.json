@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-cortese-joins-senate-insurance-working-group.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese is proud to announce he was selected by Senate President pro Tempore Mike McGuire to join the newly established Senate Insurance Working Group. This group aims",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "17339d51ac019e67dbb7dbedc7f20132926c3dac"
+}

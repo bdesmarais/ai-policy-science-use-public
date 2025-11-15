@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-encourages-college-graduates-apply-senate-fellows-program.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) today announced the availability of applications for the 2023-2024 California Senate Fellows program.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f24b6c8b57f1a1de3034b160bb3868691f423b7"
+}

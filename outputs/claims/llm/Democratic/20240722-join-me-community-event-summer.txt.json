@@ -1,0 +1,13 @@
+{
+  "press_release": "20240722-join-me-community-event-summer.txt",
+  "party": "Democratic",
+  "title": "I have a slate of community gatherings in the works this summer and fall. Check out my events calendar",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ddf42e85db3ff98a64131590846f680bbf962fb7"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-shannon-grove-announces-incarcerated-womens-protection-measure.txt",
+  "party": "Republican",
+  "title": "Today, Senator Shannon Grove ( R-Bakersfield ) announced the introduction of Senate Bill 311 (SB 311) , legislation aimed at improving health and safety in California’s women’s cor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:15:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 311 mandates the California Department of Corrections and Rehabilitation to establish secure, separate housing units for transgender women within women's prisons.\",\n    \"SB 311 addresses security risks and discomfort associated with shared intimate spaces in ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 311 mandates the California Department of Corrections and Rehabilitation to establish secure, separate housing units for transgender women within women's prisons.\",\n    \"SB 311 addresses security risks and discomfort associated with shared intimate spaces in women's prisons.\",\n    \"The bill prohibits housing transgender inmates convicted of certain sexual offenses in women's prisons.\",\n    \"SB 311 responds to reports of assaults, rapes, and pregnancies among female inmates.\",\n    \"The legislation aims to enhance prison safety and provide appropriate accommodations for transgender women while protecting the privacy and safety of biological women.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ab08b190c0eb9393dffbdb16f55ab997760d9a14"
+}

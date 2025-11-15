@@ -1,0 +1,13 @@
+{
+  "press_release": "20180920-laundry-love-day-homeless-service-watts.txt",
+  "party": "Democratic",
+  "title": "WATTS, Calif --- Clean clothes, a refreshing shower and a hot meal are a few things that many of us take for granted. On Thursday, September 20, Assemblymember Mike A. Gipson organ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b6188c46ea4ed79657b7d174a8aa055d299e9b7f"
+}

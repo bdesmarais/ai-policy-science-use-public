@@ -1,0 +1,13 @@
+{
+  "press_release": "20220719-boys-girls-club-receives-funding-state-california.txt",
+  "party": "Democratic",
+  "title": "Thanks to Assemblywoman Cottie Petrie-Norris for advocating local young people through investment in a new and improved play yard at the Boys & Girls Club in Laguna Beach. Californ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Play is essential to development as it contributes to cognitive, physical, social, and emotional well-being of young people.\",\n    \"Younger children thrive on play-based learning that cannot be equivalently replaced by digital means.\",\n    \"Play encourages communication,",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Play is essential to development as it contributes to cognitive, physical, social, and emotional well-being of young people.\",\n    \"Younger children thrive on play-based learning that cannot be equivalently replaced by digital means.\",\n    \"Play encourages communication, improves cognitive development, and encourages relationship building.\",\n    \"Structured play includes rules or boundaries that teach critical skills like leadership, teamwork, listening, problem-solving, goal setting, and how to grow from failing.\",\n    \"Free play allows children to use their creativity to develop imagination while discovering talents on their own.\",\n    \"Play teaches children self-regulation, decision making skills, empathy, and conflict resolution.\",\n    \"Anxiety and depression levels are at epidemic proportions and directly correlate to screen time.\",\n    \"Being outdoors in the sunshine and fresh air produces stronger immune systems and general happiness.\",\n    \"The play yard will support experiential education in Science, Technology, Engineering, Art, and Math (STEAM).\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c17a986a5e8f01e727dc217df76076a369c77b45"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220110-release-attorney-general-bonta-consents-disaffiliation-two-major-health.txt",
+  "party": "Democratic",
+  "title": "OAKLAND",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Hoag has committed to expand reproductive health services in Orange County.\",\n    \"The separation of Hoag from Providence will allow Hoag to expand access to essential reproductive care in the area.\",\n    \"Hoag will expand reproductive healthcare, including pregnanc",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Hoag has committed to expand reproductive health services in Orange County.\",\n    \"The separation of Hoag from Providence will allow Hoag to expand access to essential reproductive care in the area.\",\n    \"Hoag will expand reproductive healthcare, including pregnancy termination in Hoag hospital-owned facilities.\",\n    \"Hoag will create a formal program around family planning, contraception, and management of high-risk pregnancies.\",\n    \"Hoag will recruit experts in family planning, contraception, and abortion to provide the full range of expert family planning services.\",\n    \"Hoag will recruit primary care and medical specialists to provide sex-specific and gender-specific healthcare for the LGBTQ+ population.\",\n    \"Hoag's disaffiliation from Providence will increase the number of high-level healthcare facilities in Orange County.\",\n    \"The disaffiliation of Hoag from Providence will increase healthcare competition in the area.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "490171ab1029da6f41933d76e7d49c0f6b3b0bd7"
+}

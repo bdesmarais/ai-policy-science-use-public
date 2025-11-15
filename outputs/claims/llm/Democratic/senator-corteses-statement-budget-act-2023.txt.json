@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-statement-budget-act-2023.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) released the following statement on the Budget Act of 2023 and trailer bills to implement the budget, which was passed by the Legislature on Tuesd",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Silicon Valley BART extension project will alleviate Bay Area traffic and assist California in meeting its climate change goals.\",\n    \"The state budget allocates $3 million to launch a guaranteed income program for 50 homeless students exiting high school in Santa C",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Silicon Valley BART extension project will alleviate Bay Area traffic and assist California in meeting its climate change goals.\",\n    \"The state budget allocates $3 million to launch a guaranteed income program for 50 homeless students exiting high school in Santa Clara County.\",\n    \"The Guaranteed Basic Income Pilot Program for Unhoused High School Students provides monthly stipends of $1,200 and various lines of support to recipients.\",\n    \"The Tech Interactive Field Trip Program incorporates hands-on STEM education with exhibits in artificial intelligence, robotics, digital art, and environmental science.\",\n    \"The College of Adaptive Arts offers college-level education for adults with Intellectual and Developmental Disabilities, aiming to provide an equal college experience.\",\n    \"The African American Cultural Center will act as a gathering place to celebrate the achievements of African Americans and provide affordable housing and community services.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "00152e5528921ef204288d6684366b03a5d758da"
+}

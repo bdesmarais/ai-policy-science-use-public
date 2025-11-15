@@ -1,0 +1,13 @@
+{
+  "press_release": "20240918-assemblymember-boerner-hosts-menopause-webinar-womens-health-experts.txt",
+  "party": "Democratic",
+  "title": "SOLANA BEACH, CA.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:16:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Women have different health profiles during menopause and should be treated as such by healthcare providers.\",\n    \"There is little research on menopause despite it being a common experience for women.\",\n    \"Discussing menopause can empower women to communicate better w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Women have different health profiles during menopause and should be treated as such by healthcare providers.\",\n    \"There is little research on menopause despite it being a common experience for women.\",\n    \"Discussing menopause can empower women to communicate better with their doctors.\",\n    \"Women’s dietary choices can affect their health during menopause.\",\n    \"Supplementary options may help ease hormonal fluctuations during menopause.\",\n    \"Less than 5 percent of women in perimenopause or menopause receive hormone therapy.\",\n    \"The majority of women experiencing menopause symptoms are not treated, which impacts workplace productivity.\",\n    \"The estimated cost of untreated menopause symptoms in the workplace is over $180 billion annually.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "648b75f9ebe4e0cc5f1fd79d59e9535ad28f8942"
+}

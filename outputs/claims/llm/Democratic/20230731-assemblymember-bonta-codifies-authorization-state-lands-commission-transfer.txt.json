@@ -1,0 +1,13 @@
+{
+  "press_release": "20230731-assemblymember-bonta-codifies-authorization-state-lands-commission-transfer.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) – A bill introduced by Assemblymember Mia Bonta (D-Oakland) to authorize an agreement between the State Lands Commission and the City of Alameda has been signed into l",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:05:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The City of Alameda is moving forward with the development of the 32-acre site known as Encinal Terminals.\",\n    \"Over ten years ago, the City of Alameda re-zoned the Encinal Terminals property for housing.\",\n    \"The publicly owned parcel at Encinal Terminals is current",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The City of Alameda is moving forward with the development of the 32-acre site known as Encinal Terminals.\",\n    \"Over ten years ago, the City of Alameda re-zoned the Encinal Terminals property for housing.\",\n    \"The publicly owned parcel at Encinal Terminals is currently inaccessible to the public.\",\n    \"The State Lands Commission approved a Land Exchange and Title Settlement Agreement in August 2022.\",\n    \"The agreement resolves boundary disputes and reconfigures public trust lands at the Encinal Terminals.\",\n    \"The Encinal Terminals property consists of four parcels, three privately owned and one publicly owned.\",\n    \"The agreement facilitates mixed-use development at the Encinal Terminals waterfront site.\",\n    \"The City of Alameda plans to break ground on the redevelopment of the Encinal Terminals property.\",\n    \"Assembly Bill 1706 allows the construction of 589 housing units at the Encinal Terminals site.\",\n    \"The redevelopment plans include providing access to more than 4 acres of waterfront parks.\",\n    \"The plans also include transforming 13 acres of submerged lands into a marina.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f7e948def4b4f7bbc4382e24626db95defdcd029"
+}

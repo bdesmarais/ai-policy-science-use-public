@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-blakespear-names-algenesis-labs-small-business-year.txt",
+  "party": "Democratic",
+  "title": "View the 2024 Annual Report",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Algenesis Labs is pioneering technology to create environmentally friendly, biodegradable plastics.\",\n    \"Algenesis Labs has developed Soleic®, the world’s first high-performance, bio-based, fully biodegradable plastic material that leaves no harmful microplastics behin",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Algenesis Labs is pioneering technology to create environmentally friendly, biodegradable plastics.\",\n    \"Algenesis Labs has developed Soleic®, the world’s first high-performance, bio-based, fully biodegradable plastic material that leaves no harmful microplastics behind.\",\n    \"Soleic® technology is being applied in footwear and other consumer products.\",\n    \"The production of Algenesis' biodegradable plastics provides a better, more responsible alternative to petroleum-based plastics.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3da4be6275054acca8cf2feeec5feb3e53d08e9c"
+}

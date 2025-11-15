@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblywoman-diane-dixon-hits-the-ground-running.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblywoman Diane Dixon (",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b155af4fc2f9928185c45cf29ab8ace638f9cfbb"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-m-caballero-announces-legislation-increase-homeownership-opportunities.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"SB 684 makes it faster and easier to build smaller, naturally lower-cost homes.\",\n    \"Fewer than 55% of Californians live in homes they or their families own, which is the second lowest rate of homeownership in the U.S.\",\n    \"African American homeownership rates a",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"SB 684 makes it faster and easier to build smaller, naturally lower-cost homes.\",\n    \"Fewer than 55% of Californians live in homes they or their families own, which is the second lowest rate of homeownership in the U.S.\",\n    \"African American homeownership rates are 26% lower and Latino homeownership rates are 19% lower than white Californians.\",\n    \"Redlining historically prevented non-white families from buying homes in resource-rich neighborhoods.\",\n    \"Local policies continue the legacy of redlining by prohibiting smaller housing options that could be more affordable for working-class residents and communities of color.\",\n    \"SB 684 will expedite the subdivision mapping process to accelerate home construction by as much as 6-12 months.\",\n    \"The bill streamlines approvals for homeownership projects of 10 units or less in urban infill areas.\",\n    \"Streamlined projects cannot demolish low-income or rent-controlled housing and only apply to vacant lots in single-family neighborhoods.\",\n    \"Homeownership is at its lowest level since the 1940s in the U.S.\",\n    \"Creating more low-cost homes for sale will increase financial security for more Californians and help close the racial wealth gap.\",\n    \"Small lot developments are a proven tool to create more equitable ownership opportunities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "928794ff6575a0901b076ac0c8126d80413292af"
+}

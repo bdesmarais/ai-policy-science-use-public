@@ -1,0 +1,13 @@
+{
+  "press_release": "20190530-assemblymember-cecilia-aguiar-curry-passes-bill-out-assembly-enforce-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:08:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1036 requires the Secretary of State to modernize outdated regulations governing county voter outreach programs.\",\n    \"AB 1036 encourages the Secretary of State to provide additional support to counties with the lowest voter registration rates.\",\n    \"AB 1036 establi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1036 requires the Secretary of State to modernize outdated regulations governing county voter outreach programs.\",\n    \"AB 1036 encourages the Secretary of State to provide additional support to counties with the lowest voter registration rates.\",\n    \"AB 1036 establishes a High School Voter Education Pilot Program in Yolo County.\",\n    \"The pilot program allows county officials to conduct student government elections using voting machines and custom ballots to teach youth how to vote.\",\n    \"In the 16 most underperforming counties, 30 to 40 percent of eligible voters are not registered.\",\n    \"The counties with low voter registration rates are predominantly located in rural areas and overlap heavily with marginalized communities.\",\n    \"The High School Voter Education Pilot Program aims to inspire youth to participate in democracy.\",\n    \"Yolo County's pilot program provided students with a positive election experience that helps demystify the voting process.\",\n    \"The pilot program has the potential to engage and increase voter participation of 18 to 24 year olds in future elections.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fc008e2c8dfc62c1ffc7d9a945075472b6006269"
+}

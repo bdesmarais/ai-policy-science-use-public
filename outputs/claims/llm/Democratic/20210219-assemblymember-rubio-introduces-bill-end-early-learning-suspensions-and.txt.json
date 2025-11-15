@@ -1,0 +1,13 @@
+{
+  "press_release": "20210219-assemblymember-rubio-introduces-bill-end-early-learning-suspensions-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:24:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"National data indicates children are expelled, suspended, and counseled out of early learning and childcare programs at much higher rates than in K-12 education.\",\n    \"African American and Latino children, especially boys, are disproportionately impacted by expulsion an",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"National data indicates children are expelled, suspended, and counseled out of early learning and childcare programs at much higher rates than in K-12 education.\",\n    \"African American and Latino children, especially boys, are disproportionately impacted by expulsion and suspension in early education.\",\n    \"When children are excluded from early learning classrooms, they miss out on the opportunity to develop key social, emotional, and academic skills.\",\n    \"Research indicates early childhood mental health consultation can play an important role in reducing the rate of expulsions and suspensions of children from early learning and care programs.\",\n    \"Early childhood mental health consultation can improve the classroom climate resulting in more positive interactions between teachers, children, and families.\",\n    \"The bill aims to protect children from the high rate of expulsion and suspension in public preschool and child care.\",\n    \"Mental health supports can buffer the effects of toxic stress and trauma and support the optimal development of children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4662d2147697c7476c459b246673fc187036d3e7"
+}

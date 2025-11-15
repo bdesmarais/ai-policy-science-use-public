@@ -1,0 +1,13 @@
+{
+  "press_release": "legislation-protect-california-ratepayers-paying-data-centers-energy-costs-advances.txt",
+  "party": "Democratic",
+  "title": "Body",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The AI boom is powered by massive data centers that consume significant amounts of energy and water.\",\n    \"The recent rise of generative artificial intelligence has driven an increase in data center demand.\",\n    \"Siemens reported a 50% increase in data-center business ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The AI boom is powered by massive data centers that consume significant amounts of energy and water.\",\n    \"The recent rise of generative artificial intelligence has driven an increase in data center demand.\",\n    \"Siemens reported a 50% increase in data-center business revenue within a year.\",\n    \"Data centers consumed about 4.4% of total U.S. electricity in 2023 and are projected to consume approximately 6.7 to 12% by 2028.\",\n    \"Increases in data center energy demand are straining the electrical grid and requiring significant investments in infrastructure.\",\n    \"Utility prices are expected to rise due to the increased energy demands of data centers.\",\n    \"The Mid-Atlantic regional grid is projected to see rate increases of up to 20% this year due to data center demands.\",\n    \"The grid operator in the Mid-Atlantic is projected to pay $14.7 billion for power in the 2025/26 delivery year, up from $2.2 billion the year before.\",\n    \"The cost of building infrastructure to transmit energy for data centers is frequently not covered by the companies that build them.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0b44a495ee87cd3d6462242708c6d2a2478c341f"
+}

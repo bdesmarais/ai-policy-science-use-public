@@ -1,0 +1,13 @@
+{
+  "press_release": "20250110-assembly-military-and-vets-affairs-chair-schiavo-commends-california-guard.txt",
+  "party": "Democratic",
+  "title": "Santa Clarita, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:23:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Cal Guard has mobilized over 200 personnel across 10 hand crews assigned to Cal FIRE.\",\n    \"Cal Guard activated 400 soldiers from Los Alamitos and Ontario for assistance in firefighting and law enforcement operations.\",\n    \"An additional 200 soldiers are ready for assi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Cal Guard has mobilized over 200 personnel across 10 hand crews assigned to Cal FIRE.\",\n    \"Cal Guard activated 400 soldiers from Los Alamitos and Ontario for assistance in firefighting and law enforcement operations.\",\n    \"An additional 200 soldiers are ready for assignment by Cal Guard.\",\n    \"Ten rotary wing aircraft are conducting bucket-dropping operations for aerial support when weather conditions allow.\",\n    \"Two Modular Airborne Firefighting Systems aircraft are staged for operations in response to the wildfires.\",\n    \"Five major fires are currently burning thousands of acres in Southern California, including the Palisades Fire, Eaton Fire, Hurst Fire, Sunset Fire, and Lidia Fire.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "15a7349668d0ca120ef12a74d61b88d1709a622e"
+}

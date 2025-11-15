@@ -1,0 +1,64 @@
+{
+  "press_release": "leader-jones-warns-californians-brace-skyrocketing-gas-prices.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones ( R-San Diego ) warned Californians to prepare for unpredictable and fast-rising fuel prices as two major state-imposed gas cost increa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California gas prices could soar 75% to $8.43 per gallon by 2026, driven by refinery shutdowns and the state’s overreach with excessive regulation and taxation.\"\n    },\n    {\n      \"claim_text\": \"The Low Carbon Fuel Standard (LCFS) regulations could",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California gas prices could soar 75% to $8.43 per gallon by 2026, driven by refinery shutdowns and the state’s overreach with excessive regulation and taxation.\"\n    },\n    {\n      \"claim_text\": \"The Low Carbon Fuel Standard (LCFS) regulations could raise gas prices by 65 cents per gallon.\"\n    },\n    {\n      \"claim_text\": \"The state gas tax has reached 61.2 cents per gallon, the highest gas tax in the nation.\"\n    },\n    {\n      \"claim_text\": \"The California Air Resources Board (CARB) has imposed additional costs in the fuel supply chain.\"\n    },\n    {\n      \"claim_text\": \"State-imposed costs will lead to unpredictable spikes in fuel prices throughout the summer and the foreseeable future.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "California gas prices could soar 75% to $8.43 per gallon by 2026, driven by refinery shutdowns and the state’s overreach with excessive regulation and taxation.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Low Carbon Fuel Standard (LCFS) regulations could raise gas prices by 65 cents per gallon.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The state gas tax has reached 61.2 cents per gallon, the highest gas tax in the nation.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The California Air Resources Board (CARB) has imposed additional costs in the fuel supply chain.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "State-imposed costs will lead to unpredictable spikes in fuel prices throughout the summer and the foreseeable future.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "68cfbb72df4cb560c3170a8ad64acf34c608474c"
+}

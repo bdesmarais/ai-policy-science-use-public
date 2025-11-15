@@ -1,0 +1,13 @@
+{
+  "press_release": "20190910-ramos-workforce-bill-heads-governors-desk.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:11:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Expanding outreach and access for local apprenticeship programs can help students understand available options.\",\n    \"The 'earn as you learn' model in apprenticeship programs has proven effective in providing access and opportunity to the job market.\",\n    \"Local appren",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Expanding outreach and access for local apprenticeship programs can help students understand available options.\",\n    \"The 'earn as you learn' model in apprenticeship programs has proven effective in providing access and opportunity to the job market.\",\n    \"Local apprenticeship programs should be given the same forums to present opportunities to students as other college or career options.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a258c9693eb857292652fd0135f20dbb67ffdd8b"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20171007-quirk-silvaas-effort-shed-light-political-contributions-becomes-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO â Today, the California Disclose Act, coauthored by",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Disclose Act will regulate how campaign committees and independent expenditures must disclose who is paying for their political advertisements.\",\n    \"The California Disclose Act aims to bring the sources of dark money in politics into the light.\",\n    \"Th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Disclose Act will regulate how campaign committees and independent expenditures must disclose who is paying for their political advertisements.\",\n    \"The California Disclose Act aims to bring the sources of dark money in politics into the light.\",\n    \"The California Disclose Act will ensure that more campaign reports of big donors aren't limited to a list of innocuous sounding political action committees.\",\n    \"The California Disclose Act will clearly spell out the names of corporations or labor groups behind political advertisements.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "91edcdedc30ab36df6200b1e18c8b8bd851316b7"
+}

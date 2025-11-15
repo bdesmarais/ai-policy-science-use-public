@@ -1,0 +1,13 @@
+{
+  "press_release": "20240703-addis-chair-central-coast-caucus-applauds-climate-bond-act-2024.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO– Assemblymember Dawn Addis (D-Morro Bay), Chair of the California Central Coast Legislative Caucus, issued the following statement on Senate Bill 867, the Climate Bond A",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Climate change is an ever-evolving issue that affects people worldwide.\",\n    \"California has seen a large increase in extreme weather events such as storms, heatwaves, and droughts leading to floods, wildfires, and landslides.\",\n    \"The Central Coast was particularly i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Climate change is an ever-evolving issue that affects people worldwide.\",\n    \"California has seen a large increase in extreme weather events such as storms, heatwaves, and droughts leading to floods, wildfires, and landslides.\",\n    \"The Central Coast was particularly impacted by last year’s winter storms and other natural disasters, which have forced thousands of residents to evacuate.\",\n    \"California's infrastructure needs to be improved to be climate-resilient.\",\n    \"The Climate Bond Act of 2024 will support safe drinking water, sustainable agriculture and biodiversity, flood protection, wildfire resilience, coastal protection, and extreme heat and community resilience.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2d11cd2c2283f13d343640a7d97c1aac6118ecf4"
+}

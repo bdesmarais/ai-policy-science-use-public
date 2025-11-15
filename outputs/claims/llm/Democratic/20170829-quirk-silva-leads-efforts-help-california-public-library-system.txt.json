@@ -1,0 +1,13 @@
+{
+  "press_release": "20170829-quirk-silva-leads-efforts-help-california-public-library-system.txt",
+  "party": "Democratic",
+  "title": "FULLERTON â",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Libraries are important local resources that should be seen as a gathering point for the community.\",\n    \"Libraries need to stay on the cutting edge of modern teaching philosophies.\",\n    \"Libraries should incorporate resources that will better assist workforce developm",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Libraries are important local resources that should be seen as a gathering point for the community.\",\n    \"Libraries need to stay on the cutting edge of modern teaching philosophies.\",\n    \"Libraries should incorporate resources that will better assist workforce development in all vocations.\",\n    \"Libraries are central to a community and to democracy itself.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "58332c5f1bdc08691c37ad68b3281d8a02ada210"
+}

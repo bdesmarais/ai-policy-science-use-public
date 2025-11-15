@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-tri-ta-introduces-legislation-to-keep-utility-costs-affordable.txt",
+  "party": "Republican",
+  "title": "Assemblyman Tri Ta Introduces Legislation to Keep Utility Costs Affordable",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "31762f34792cb732f49764b1a542f7cc662c2af7"
+}

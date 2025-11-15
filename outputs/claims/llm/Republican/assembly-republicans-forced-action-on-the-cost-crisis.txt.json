@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-forced-action-on-the-cost-crisis.txt",
+  "party": "Republican",
+  "title": "Democrats Had the Chance to Help. They Voted No.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Republicans introduced a 15-bill affordability package aimed at cutting costs for California families.\",\n    \"The affordability package included proposals to cap utility rate hikes at the rate of inflation.\",\n    \"One proposal in the affordability package requir",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Republicans introduced a 15-bill affordability package aimed at cutting costs for California families.\",\n    \"The affordability package included proposals to cap utility rate hikes at the rate of inflation.\",\n    \"One proposal in the affordability package required gas price transparency and accountability.\",\n    \"The affordability package included a proposal to suspend the state gas tax.\",\n    \"The package also included a proposal to eliminate income tax on service tips.\",\n    \"An $11 billion middle-class tax cut was part of the affordability package introduced by Assembly Republicans.\",\n    \"None of the group’s 15 affordability bills made it all the way through the Assembly.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f245bcf5bfea1adf5c3d40faf7ff46b015376b42"
+}

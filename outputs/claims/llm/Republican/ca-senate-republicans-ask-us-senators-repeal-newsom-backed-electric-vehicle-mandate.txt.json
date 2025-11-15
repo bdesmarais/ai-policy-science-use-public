@@ -1,0 +1,13 @@
+{
+  "press_release": "ca-senate-republicans-ask-us-senators-repeal-newsom-backed-electric-vehicle-mandate.txt",
+  "party": "Republican",
+  "title": "All ten California State Senate Republicans today requested in a letter to the state’s two U.S. Senators – Adam Schiff and Alex Padilla – that they work to repeal an electric vehic",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The electric vehicle mandate in California would outlaw non-plug-in hybrids and gasoline-powered vehicles by 2035.\",\n    \"The mandate is claimed to be discriminatory, arbitrary, and poorly thought out.\",\n    \"There is a cited lack of a statewide charging station infrastr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The electric vehicle mandate in California would outlaw non-plug-in hybrids and gasoline-powered vehicles by 2035.\",\n    \"The mandate is claimed to be discriminatory, arbitrary, and poorly thought out.\",\n    \"There is a cited lack of a statewide charging station infrastructure in California.\",\n    \"The average Californian cannot afford to buy and charge an electric vehicle.\",\n    \"Californians are reportedly struggling with high prices for vehicles.\",\n    \"The mandate is described as an unrealistic pipedream of wealthy coastal elites.\",\n    \"The one-size-fits-all mandate is argued to be the wrong approach for transitioning to clean energy vehicles.\",\n    \"It is claimed that families cannot afford to gamble on expensive technology that relies on an unreliable electric grid.\",\n    \"The assertion is made that it does not make economic or practical sense for most working families to buy and maintain an electric vehicle.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "73680c6485946aa11c323cf6062ca686c7cdb09e"
+}

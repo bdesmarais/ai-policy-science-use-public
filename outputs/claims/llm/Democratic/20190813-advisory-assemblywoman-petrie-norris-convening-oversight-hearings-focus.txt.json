@@ -1,0 +1,54 @@
+{
+  "press_release": "20190813-advisory-assemblywoman-petrie-norris-convening-oversight-hearings-focus.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – As Chair of the Accountability & Administrative Review, Assemblywoman Cottie Petrie-Norris is working to better understand issues facing Californians in order focus th",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California consumers are served best when professional licensing laws balance regulatory efficiency with public protection.\"\n    },\n    {\n      \"claim_text\": \"The Accountability Committee plans to focus future hearings on issues identified in corres",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"California consumers are served best when professional licensing laws balance regulatory efficiency with public protection.\"\n    },\n    {\n      \"claim_text\": \"The Accountability Committee plans to focus future hearings on issues identified in correspondence with constituents.\"\n    },\n    {\n      \"claim_text\": \"The oversight hearings are a critical opportunity for the Committee to study the implementation, operation, and effectiveness of state programs and agencies.\"\n    },\n    {\n      \"claim_text\": \"The state’s accounting, budget, cash management, and procurement information technology system is referred to as FI$Cal.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "California consumers are served best when professional licensing laws balance regulatory efficiency with public protection.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Accountability Committee plans to focus future hearings on issues identified in correspondence with constituents.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The oversight hearings are a critical opportunity for the Committee to study the implementation, operation, and effectiveness of state programs and agencies.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The state’s accounting, budget, cash management, and procurement information technology system is referred to as FI$Cal.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 4,
+  "doc_sha1": "1691313288c35c505f123ae25c062b99caf688d5"
+}

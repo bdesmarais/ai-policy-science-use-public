@@ -1,0 +1,13 @@
+{
+  "press_release": "20190715-ramos-bills-improving-public-safety-and-strengthening-tribal-cultural-0.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:09:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1183 sets accountability for vessel operators by defining who is held responsible when operating a boat.\",\n    \"The measure aims to reduce risky behavior on waterways by holding accountable those who engage in reckless and dangerous behavior.\",\n    \"AB 1183 allows law",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1183 sets accountability for vessel operators by defining who is held responsible when operating a boat.\",\n    \"The measure aims to reduce risky behavior on waterways by holding accountable those who engage in reckless and dangerous behavior.\",\n    \"AB 1183 allows law enforcement to effectively patrol waterways by clarifying operator responsibility.\",\n    \"The bill closes loopholes that currently allow minors to operate vessels under the supervision of an adult who is under the influence.\",\n    \"Adults can now be held criminally liable for operating a vessel under the influence if an unlicensed, underage person is driving the boat.\",\n    \"AB 1662 will add an additional member of a California Native American tribe to the Cal NAGPRA Committee.\",\n    \"The Cal NAGPRA Committee assists tribes in reclaiming ancestral human remains and cultural items.\",\n    \"The addition of an extra voting member will enhance the voice of California Native Americans in reclaiming their ancestors' remains and items.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1a31bb8b4730f03482c2dc32a13d97411e22d657"
+}

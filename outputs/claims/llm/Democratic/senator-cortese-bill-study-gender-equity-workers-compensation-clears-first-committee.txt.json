@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-bill-study-gender-equity-workers-compensation-clears-first-committee.txt",
+  "party": "Democratic",
+  "title": "A bill by Senator Dave Cortese to study gender pay equity under California’s workers’ compensation system cleared its first committee hearing on Wednesday. The Senate Labor Committ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A bill to study gender pay equity under California’s workers’ compensation system has been advanced by the Senate Labor Committee.\",\n    \"The University of California, Berkeley is commissioned to study gender-based monetary disparities in workers’ compensation.\",\n    \"Re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A bill to study gender pay equity under California’s workers’ compensation system has been advanced by the Senate Labor Committee.\",\n    \"The University of California, Berkeley is commissioned to study gender-based monetary disparities in workers’ compensation.\",\n    \"Results of the study on gender-based monetary disparities in workers’ compensation will be presented to the California Legislature by late 2024.\",\n    \"Quantifying gender inequities in workers’ compensation is considered vital to achieving reform.\",\n    \"Senator Cortese has initiated policies aimed at advancing women's policy issues, including a Gender and Ethnicity Pay Equity Ordinance.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a9099d39d3d4fa1c67ba57b6559eb52a4160b276"
+}

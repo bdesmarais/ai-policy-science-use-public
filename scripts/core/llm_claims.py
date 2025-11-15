@@ -21,6 +21,8 @@ import json
 import os
 import sys
 import time
+import logging
+from logging.handlers import RotatingFileHandler
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
@@ -31,10 +33,16 @@ except Exception as e:  # pragma: no cover
     raise RuntimeError("Please install openai >= 1.0.0") from e
 
 
-WORKSPACE = Path(__file__).parent
-DATA_DIR = WORKSPACE / "data" / "press_releases"
-OUT_BASE = WORKSPACE / "outputs" / "claims" / "llm"
+# Resolve project root (two levels up from scripts/core/), fallback to CWD
+try:
+    PROJECT_ROOT = Path(__file__).resolve().parents[2]
+except Exception:
+    PROJECT_ROOT = Path.cwd()
+
+DATA_DIR = PROJECT_ROOT / "data" / "press_releases"
+OUT_BASE = PROJECT_ROOT / "outputs" / "claims" / "llm"
 RAW_DIR = OUT_BASE / "_raw"
+LOG_DIR = PROJECT_ROOT / "outputs" / "logs"
 
 
 # ------------------------------
@@ -451,7 +459,7 @@ def aggregate_compact_claims() -> Tuple[Path, Path]:
                     dem_rows.append(row)
                 else:
                     rep_rows.append(row)
-    out_claims_dir = WORKSPACE / "outputs" / "claims"
+    out_claims_dir = PROJECT_ROOT / "outputs" / "claims"
     ensure_dir(out_claims_dir)
     dem_path = out_claims_dir / "dem_claims.json"
     rep_path = out_claims_dir / "rep_claims.json"
@@ -466,9 +474,12 @@ def process_doc(client: OpenAI, model: str, doc: DocSpec, resume: bool) -> Tuple
     """
     Returns (party, filename, num_claims)
     """
+    logger = logging.getLogger("llm_claims")
     out_doc = OUT_BASE / doc.party / f"{doc.filename}.json"
     if should_skip_by_cache(out_doc, doc.sha1, resume=resume):
+        logger.debug("Skip (cache hit): %s | %s", doc.party, doc.filename)
         return (doc.party, doc.filename, -1)  # -1 indicates skipped
+    logger.info("Processing: %s | %s", doc.party, doc.filename)
     chunks = chunk_paragraphs(doc.text)
     all_claims: List[Dict[str, Any]] = []
     raw_merged = ""
@@ -495,6 +506,7 @@ def process_doc(client: OpenAI, model: str, doc: DocSpec, resume: bool) -> Tuple
         all_claims.extend(claims)
     all_claims = dedupe_claims(all_claims)
     write_doc_output(doc, model=model, prompt=f"[{len(chunks)} chunks] " + build_user_prompt(doc.title, doc.filename, doc.text[:2000]), raw_text=raw_merged, claims=all_claims)
+    logger.info("Finished: %s | %s | chunks=%d | claims=%d", doc.party, doc.filename, len(chunks), len(all_claims))
     return (doc.party, doc.filename, len(all_claims))
 
 
@@ -506,11 +518,38 @@ def parse_args(argv: Optional[Iterable[str]] = None) -> argparse.Namespace:
     ap.add_argument("--parallel", type=int, default=4)
     ap.add_argument("--limit", type=int, default=-1, help="Limit number of docs (after filtering)")
     ap.add_argument("--resume", action="store_true", help="Skip unchanged docs by comparing content hash")
+    ap.add_argument("--log-level", default=os.environ.get("LOG_LEVEL", "INFO"), help="Logging level (e.g., DEBUG, INFO)")
+    ap.add_argument("--log-file", default=str(LOG_DIR / "llm_claims.log"), help="Path to write rotating log file")
+    ap.add_argument("--progress-every", type=int, default=50, help="Log a progress summary every N documents")
     return ap.parse_args(list(argv) if argv is not None else None)
+
+
+def configure_logging(level: str, log_file: str) -> None:
+    # Ensure both default logs dir and the passed log file's parent exist
+    ensure_dir(LOG_DIR)
+    try:
+        ensure_dir(Path(log_file).parent)
+    except Exception:
+        pass
+    logger = logging.getLogger("llm_claims")
+    logger.setLevel(getattr(logging, str(level).upper(), logging.INFO))
+    logger.handlers = []
+    # Console handler
+    ch = logging.StreamHandler(stream=sys.stdout)
+    ch.setLevel(getattr(logging, str(level).upper(), logging.INFO))
+    ch.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
+    logger.addHandler(ch)
+    # Rotating file handler
+    fh = RotatingFileHandler(log_file, maxBytes=5 * 1024 * 1024, backupCount=3, encoding="utf-8")
+    fh.setLevel(getattr(logging, str(level).upper(), logging.INFO))
+    fh.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
+    logger.addHandler(fh)
 
 
 def main(argv: Optional[Iterable[str]] = None) -> int:
     args = parse_args(argv)
+    configure_logging(args.log_level, args.log_file)
+    logger = logging.getLogger("llm_claims")
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         print("OPENAI_API_KEY not set", file=sys.stderr)
@@ -530,9 +569,14 @@ def main(argv: Optional[Iterable[str]] = None) -> int:
     if not docs:
         print("No documents found to process.", file=sys.stderr)
         return 1
+    logger.info("Starting extraction | parties=%s | total_docs=%d | model=%s | parallel=%d | resume=%s",
+                ",".join(parties), len(docs), args.model, args.parallel, bool(args.resume))
 
     # Process in parallel
     results: List[Tuple[str, str, int]] = []
+    processed = 0
+    skipped = 0
+    errored = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.parallel)) as ex:
         fut_to_doc = {ex.submit(process_doc, client, args.model, d, bool(args.resume)): d for d in docs}
         for fut in concurrent.futures.as_completed(fut_to_doc):
@@ -540,11 +584,20 @@ def main(argv: Optional[Iterable[str]] = None) -> int:
             try:
                 res = fut.result()
             except Exception as e:
+                logger.error("Error processing %s | %s: %s", d.party, d.filename, e)
                 res = (d.party, d.filename, -2)  # -2 error
             results.append(res)
+            processed += 1
+            if res[2] == -1:
+                skipped += 1
+            elif res[2] == -2:
+                errored += 1
+            if args.progress_every > 0 and (processed % args.progress_every == 0):
+                logger.info("Progress: %d/%d processed | skipped=%d | errors=%d", processed, len(docs), skipped, errored)
 
     # Aggregate to compact JSONs
     dem_path, rep_path = aggregate_compact_claims()
+    logger.info("Completed extraction | processed=%d | skipped=%d | errors=%d", processed, skipped, errored)
     print(json.dumps({"processed": len(results), "outputs": {"dem": str(dem_path), "rep": str(rep_path)}}))
     return 0
 

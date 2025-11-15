@@ -1,0 +1,13 @@
+{
+  "press_release": "20240930-governor-newsom-signs-assemblywoman-sorias-ab-2900-helping-small.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:19:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2900 requires the California Air Resources Board to provide technical assistance to help small agricultural truck owners upgrade their truck fleets to comply with the state’s clean air goals.\",\n    \"Transitioning heavy-duty diesel trucks has proven challenging for own",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2900 requires the California Air Resources Board to provide technical assistance to help small agricultural truck owners upgrade their truck fleets to comply with the state’s clean air goals.\",\n    \"Transitioning heavy-duty diesel trucks has proven challenging for owner-operators and owners of small truck fleets that primarily serve the agricultural community.\",\n    \"AB 2900 will help California’s small agricultural truck owners navigate state requirements to successfully transition to emission-compliant trucks.\",\n    \"Ensuring agricultural truckers are provided the support needed to comply with emissions requirements is critical to improving the San Joaquin Valley’s air quality.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a3150345c5161ab1287e930774f453ec5f8f21c2"
+}

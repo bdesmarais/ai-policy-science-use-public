@@ -1,0 +1,13 @@
+{
+  "press_release": "senators-becker-stern-announce-pathways-bill-to-expand.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA — Today, Senate Chair of Energy, Utilities and Communication Josh Becker (D-Menlo Park) and Senator Henry Stern (D-Los Angeles) introduced SB 540, legislation aimed ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 540 aims to optimize California's energy markets and accelerate the transition to a clean energy future.\",\n    \"The Pathways bill establishes a framework for regional energy cooperation while preserving California’s authority over its electricity system.\",\n    \"SB 540",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 540 aims to optimize California's energy markets and accelerate the transition to a clean energy future.\",\n    \"The Pathways bill establishes a framework for regional energy cooperation while preserving California’s authority over its electricity system.\",\n    \"SB 540 is designed to enhance the reliability of California’s grid during extreme weather events.\",\n    \"Enhanced coordination among western states will increase the amount of clean, affordable electricity for the region.\",\n    \"SB 540 will reduce emissions in California while making electricity more affordable and reliable.\",\n    \"The bill will provide new tools to prevent blackouts and unlock clean energy growth opportunities.\",\n    \"The Pathways Initiative aims to improve reliability and deliver economic and energy independence benefits for local communities in the American West.\",\n    \"The legislation is expected to save California ratepayers nearly $800 million annually by enabling a least-cost dispatch across a broader pool of Western resources.\",\n    \"A regional market would improve resilience during system peaks by allowing excess solar energy in California to be consumed in states with cloudy weather.\",\n    \"California will be better positioned to export excess renewable energy and import clean energy from other states.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9d9cb89d8f43248559636bd99d5925df5b54ec7e"
+}

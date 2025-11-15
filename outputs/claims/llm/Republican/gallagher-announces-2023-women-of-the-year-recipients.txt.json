@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-announces-2023-women-of-the-year-recipients.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republican Leader James Gallagher (Yuba City) announced the selected recipients of the Assembly District 3 2023 Woman of the Year Awards. Gallagher wil",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "994256f147a06ccea56f3d6ee37bb351363dbc32"
+}

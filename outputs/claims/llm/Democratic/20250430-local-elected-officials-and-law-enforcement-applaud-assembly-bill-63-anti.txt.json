@@ -1,0 +1,13 @@
+{
+  "press_release": "20250430-local-elected-officials-and-law-enforcement-applaud-assembly-bill-63-anti.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:34:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 63 seeks to reinstate the prohibition against loitering in public with the intent to commit prostitution, making it a misdemeanor offense.\",\n    \"The bill explicitly prohibits law enforcement from making arrests based solely on an individual’s gender identi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 63 seeks to reinstate the prohibition against loitering in public with the intent to commit prostitution, making it a misdemeanor offense.\",\n    \"The bill explicitly prohibits law enforcement from making arrests based solely on an individual’s gender identity or sexual orientation.\",\n    \"Assemblymember Michelle Rodriguez stated that the implementation of SB 357 (2022) hindered law enforcement agencies' ability to effectively investigate and prosecute human trafficking and solicitation cases.\",\n    \"Proposition 36 indicated that Californians want stronger protections against crimes related to human trafficking and solicitation.\",\n    \"Supporting Assembly Bill 63 is crucial in the fight against sex trafficking and prostitution.\",\n    \"Prostitution occurring near elementary schools is causing real mental health issues for children who have to see these activities every day.\",\n    \"Assembly Bill 63 provides law enforcement officers with the ability to protect against dangerous criminals who exploit vulnerable people.\",\n    \"The California Police Chief’s Association claims that since the passage of SB 357, there has been a sharp increase in both prostitution and human trafficking.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "80f82e6e8f0eb9ed7d2ac03b8d8db156c18be4ab"
+}

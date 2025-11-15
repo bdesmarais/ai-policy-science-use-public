@@ -1,0 +1,13 @@
+{
+  "press_release": "20180828-california-acts-defend-elections-cyberattacks.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has established the first Office of Elections Cybersecurity in the country.\",\n    \"The Office of Elections Cybersecurity will equip state and county elections officials with resources to repel cyber-attacks.\",\n    \"The Office of Elections Cybersecurity will de",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has established the first Office of Elections Cybersecurity in the country.\",\n    \"The Office of Elections Cybersecurity will equip state and county elections officials with resources to repel cyber-attacks.\",\n    \"The Office of Elections Cybersecurity will develop strategies to counteract misinformation designed to suppress voter turnout.\",\n    \"Expert witnesses emphasized the importance of information sharing and coordination between government agencies for cybersecurity in elections.\",\n    \"The Office of Elections Cybersecurity is tasked with developing best practices for protecting election infrastructure from cyber threats.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1451739fd354c83cedcbad4c6d3c1fa1fe15bfb4"
+}

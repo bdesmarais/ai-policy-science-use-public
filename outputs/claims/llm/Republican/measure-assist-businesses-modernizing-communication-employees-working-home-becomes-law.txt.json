@@ -1,0 +1,13 @@
+{
+  "press_release": "measure-assist-businesses-modernizing-communication-employees-working-home-becomes-law.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) announced that the Governor has signed into law Senate Bill 657 , which will assist businesses in being able to better communicate with the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 657 allows businesses with employees working from home to send specific employment-related documents electronically.\",\n    \"The pandemic has shifted the workplace, leading businesses to seek innovative ways to communicate with employees.\",\n    \"Senate Bill 65",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 657 allows businesses with employees working from home to send specific employment-related documents electronically.\",\n    \"The pandemic has shifted the workplace, leading businesses to seek innovative ways to communicate with employees.\",\n    \"Senate Bill 657 modernizes communication methods between employers and employees.\",\n    \"The new law enables employers and employees to send and receive required posters and notices electronically.\",\n    \"COVID-19 has disrupted business practices, forcing many industries to adapt their operations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9e00cfad7526610f03553b5c428f60a06e8b4dfb"
+}

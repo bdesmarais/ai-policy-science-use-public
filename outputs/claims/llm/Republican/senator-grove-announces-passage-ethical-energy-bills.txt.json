@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-announces-passage-ethical-energy-bills.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove ( R-Bakersfield) announced the passage of two bills to encourage the ethical use of energy in California.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1239 requires suppliers of electric vehicles to the State of California to certify that the raw materials in zero-emission vehicles come from child-labor free mining enterprises.\",\n    \"Most of the cobalt used in electric vehicle batteries is mined by childre",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1239 requires suppliers of electric vehicles to the State of California to certify that the raw materials in zero-emission vehicles come from child-labor free mining enterprises.\",\n    \"Most of the cobalt used in electric vehicle batteries is mined by children in the Congo, some as young as 6 years old.\",\n    \"Cobalt needed for electric car batteries is primarily mined in the Democratic Republic of the Congo, where an estimated 200,000 people endure terrible environmental and working conditions, including slave labor.\",\n    \"In 2009, the U.S. Department of Labor placed cobalt ore from the Democratic Republic of the Congo on its list of goods produced by child labor or forced labor.\",\n    \"More than a decade after being placed on the U.S. Department of Labor's list, child labor persists in cobalt production.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0a37e492a9cb3d6f4814190a9077c52da7ec1d34"
+}

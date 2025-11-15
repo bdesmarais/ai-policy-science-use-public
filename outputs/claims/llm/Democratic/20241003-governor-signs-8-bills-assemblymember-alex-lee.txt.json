@@ -1,0 +1,13 @@
+{
+  "press_release": "20241003-governor-signs-8-bills-assemblymember-alex-lee.txt",
+  "party": "Democratic",
+  "title": "The Governor has signed 8 bills authored by Assemblymember Alex Lee, legislation that tackles a range of issues including access to potable water, sustainable transportation, food ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "101edc349acb58e78948351bcb6550f9a01f5b1c"
+}

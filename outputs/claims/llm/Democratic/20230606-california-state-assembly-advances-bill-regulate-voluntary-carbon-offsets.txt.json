@@ -1,0 +1,13 @@
+{
+  "press_release": "20230606-california-state-assembly-advances-bill-regulate-voluntary-carbon-offsets.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Up to 90 percent of claimed carbon offsets do not represent meaningful carbon reductions.\",\n    \"Many carbon offsets on the voluntary carbon market do not represent real emissions reductions.\",\n    \"Offset credit quality varies widely in the voluntary carbon market.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Up to 90 percent of claimed carbon offsets do not represent meaningful carbon reductions.\",\n    \"Many carbon offsets on the voluntary carbon market do not represent real emissions reductions.\",\n    \"Offset credit quality varies widely in the voluntary carbon market.\",\n    \"Lack of transparency in project details and carbon calculations makes it difficult to assess which carbon credits are real.\",\n    \"The global value of the voluntary carbon offset market is currently north of $2 billion and is projected to grow to between $10 and $40 billion by 2030.\",\n    \"Greater than 90% of rainforest offset projects listed on one of the largest voluntary offset standards bodies do not represent genuine carbon reductions.\",\n    \"AB 1305 will require buyers and sellers of voluntary offset credits to disclose project details, methodology, and data needed for independent recreation of emissions reduction estimates.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "21243d43c4a8e175e5568e416eece67302a75067"
+}

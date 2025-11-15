@@ -1,0 +1,13 @@
+{
+  "press_release": "20210415-release-legislation-protect-california-sea-level-rise-passes-first.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – With broad support from environmental groups, two coastal protection bills authored by Assemblywoman Cottie Petrie-Norris have passed unanimously out of the Assembly’s",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The climate crisis represents an existential threat to California’s coastal communities.\",\n    \"Scientists project that if greenhouse gas emissions stay on their current course, California will see a foot increase in sea level along its coast by 2030.\",\n    \"California w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The climate crisis represents an existential threat to California’s coastal communities.\",\n    \"Scientists project that if greenhouse gas emissions stay on their current course, California will see a foot increase in sea level along its coast by 2030.\",\n    \"California will experience nearly a 3-foot increase in sea level by 2050 and over a 7-foot increase by the end of this century if current greenhouse gas emission trends continue.\",\n    \"Millions of people and billions of dollars of infrastructure in California’s coastal communities are threatened by rising sea levels.\",\n    \"Coastal adaptation initiatives are one of the most promising strategies to combat sea-level rise.\",\n    \"Coastal adaptation efforts currently face challenges including high costs, lack of available resources, and complex approval processes that can last months or years.\",\n    \"AB 72 will direct the California Natural Resources Agency to evaluate and implement a more coordinated and efficient regulatory review process for coastal adaptation projects.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bab89f770c1ed5ed6ec0254c9d734fb78066bfb7"
+}

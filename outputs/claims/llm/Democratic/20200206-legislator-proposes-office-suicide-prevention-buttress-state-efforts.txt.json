@@ -1,0 +1,13 @@
+{
+  "press_release": "20200206-legislator-proposes-office-suicide-prevention-buttress-state-efforts.txt",
+  "party": "Democratic",
+  "title": "AB 2112 will target youth, veterans, LGBTQ, senior populations",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:14:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Legislation AB 2112 aims to create an Office of Suicide Prevention in California.\",\n    \"The proposal focuses on reducing suicides among vulnerable groups, including adolescents, older adults, veterans, and LGBTQ individuals.\",\n    \"More than 4,000 Californians die by su",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Legislation AB 2112 aims to create an Office of Suicide Prevention in California.\",\n    \"The proposal focuses on reducing suicides among vulnerable groups, including adolescents, older adults, veterans, and LGBTQ individuals.\",\n    \"More than 4,000 Californians die by suicide every year according to the strategic plan's research.\",\n    \"Suicide is the second leading cause of death among young people ages 15-24.\",\n    \"According to a 2017 CDC study, 1 in 6 high school students seriously considered ending their lives.\",\n    \"More than 1 in 12 high school students reported attempting suicide.\",\n    \"In 2014, 3,575 children aged 5-20 were hospitalized for non-fatal self-inflicted injuries in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "82f41dc1a9cd7ab973a4e03e80694547ba2357b4"
+}

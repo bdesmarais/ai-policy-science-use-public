@@ -1,0 +1,13 @@
+{
+  "press_release": "20250203-zbur-assembly-democrats-pass-legal-defense-fund-protect-california-economy.txt",
+  "party": "Democratic",
+  "title": "Assembly Democrats also approve Legal Aid Funding to Support Vulnerable Californians and Immigrant Workers Under Threat from White House’s Extreme Deportation Agenda",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:25:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California immigrants pay nearly $130 billion annually in state and federal taxes.\",\n    \"88% of farmworkers in California are immigrants, totaling approximately 880,000 people.\",\n    \"Approximately half of California's farmworkers are undocumented.\",\n    \"Immigrants hol",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California immigrants pay nearly $130 billion annually in state and federal taxes.\",\n    \"88% of farmworkers in California are immigrants, totaling approximately 880,000 people.\",\n    \"Approximately half of California's farmworkers are undocumented.\",\n    \"Immigrants hold one-third of all tourism and hospitality jobs in California.\",\n    \"Immigrants make up 41% of the construction workforce in Los Angeles.\",\n    \"50% of certified nursing assistants in California nursing homes are immigrants.\",\n    \"California immigrants contribute $715 billion in gross domestic product.\",\n    \"The Department of Justice spent approximately $40 million on legal defense to protect billions of dollars for California between 2016 and 2021.\",\n    \"Successful defenses by the California Department of Justice included securing nearly $60 million in federal public-safety grant reimbursements.\",\n    \"Trump lost about two-thirds of cases filed against his administration between 2016 and 2021.\",\n    \"The California Legislature invested more than $2.8 billion in Wildfire and Forest Resilience, including fire prevention efforts, across multiple budget years.\",\n    \"The number of positions dedicated to fire protection at CalFire increased from 5,756 to 10,275 between 2014 and 2024.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e3fcc6af9eae913e9714bd347c54d6a224ae3dfd"
+}

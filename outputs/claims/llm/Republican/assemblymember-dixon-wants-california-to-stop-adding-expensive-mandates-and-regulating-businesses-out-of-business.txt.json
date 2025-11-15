@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-wants-california-to-stop-adding-expensive-mandates-and-regulating-businesses-out-of-business.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Balboa Island Ferry faces an estimated $13 million cost to convert its fleet from diesel fuel to zero-emissions power.\",\n    \"The zero emission engine technologies and marketplace availability for ferries and vehicle fleets are not readily available.\",\n    \"The Advan",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Balboa Island Ferry faces an estimated $13 million cost to convert its fleet from diesel fuel to zero-emissions power.\",\n    \"The zero emission engine technologies and marketplace availability for ferries and vehicle fleets are not readily available.\",\n    \"The Advanced Clean Fleet regulation threatens the financial wellbeing of local communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b9fbd78d187071b52f6c40d4a5bfbc750b239d5d"
+}

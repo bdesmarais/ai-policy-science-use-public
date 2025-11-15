@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-becker-introduces-bill-to-make-telecom-free.txt",
+  "party": "Democratic",
+  "title": "The Keep Families Connected Act eliminates fees that help fuel a $1.4 billion prison telecom industry in the US and drive more than 1 in 3 families into debt",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Keep Families Connected Act eliminates all telecommunication fees in California’s county jails and state prisons.\",\n    \"Providing free communication through this bill can help incarcerated people remain hopeful and connect with resources that can support their re-en",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Keep Families Connected Act eliminates all telecommunication fees in California’s county jails and state prisons.\",\n    \"Providing free communication through this bill can help incarcerated people remain hopeful and connect with resources that can support their re-entry.\",\n    \"Studies show that disconnection from family creates mental health problems for incarcerated individuals and their families.\",\n    \"Research indicates that incarcerated people who maintain frequent contact with their loved ones are more successful in re-entering society than those who have limited or no contact.\",\n    \"The high costs of keeping in contact drive more than 1 in 3 families into debt for phone calls and visits with their loved ones.\",\n    \"87% of family members bearing the financial responsibility for prison telecom fees are women.\",\n    \"The fees paid for telecom services feed a nationwide jail and prison communication industry now estimated at $1.4 billion.\",\n    \"San Francisco became the first county in the U.S. to make phone calls free for people held in jail, saving families $1.1 million.\",\n    \"An analysis showed that since San Francisco made jail calls free, incarcerated people are spending 80% more time in contact with their families and support networks.\",\n    \"Research by the Insight Center indicates that debt and costs related to the criminal legal system are driving forces of racial and gender wealth inequality.\",\n    \"Making communication free for incarcerated families is a critical step toward racial and gender equity in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bf1e789031bf52c6188257836ab342b47f934614"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230911-assembly-bill-427-signed-law-fast-track-construction-otay-mesa-port-entry.txt",
+  "party": "Democratic",
+  "title": "(Sacramento) Today, Assemblymember Alvarez celebrates and thanks Governor Newsom for signing Assembly Bill 427 into law. This legislation will allow the San Diego Association of Go",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:07:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Otay Mesa Port of Entry project is expected to reduce peak wait times at existing border crossings in the region by up to 50%.\",\n    \"The Construction Manager/General Contractor method (CMGC) helps streamline construction projects by allowing the construction manager",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Otay Mesa Port of Entry project is expected to reduce peak wait times at existing border crossings in the region by up to 50%.\",\n    \"The Construction Manager/General Contractor method (CMGC) helps streamline construction projects by allowing the construction manager to be involved during the project's design phase.\",\n    \"Using the CMGC method reduces cost overruns and improves project delivery timelines.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "995b4ce8229d2ea89a6361b0a204470b1d13f819"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240423-california-latino-legislative-caucus-announces-ab-2131-valencia-priority.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:40:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The passage of AB 2131 will ensure better accessibility to individuals looking to be Certified Nursing Assistants (CNAs) by requiring the competency exam to be offered in Spanish.\",\n    \"California is experiencing a severe shortage of CNAs, with the Department of Public ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The passage of AB 2131 will ensure better accessibility to individuals looking to be Certified Nursing Assistants (CNAs) by requiring the competency exam to be offered in Spanish.\",\n    \"California is experiencing a severe shortage of CNAs, with the Department of Public Health declaring a workforce shortage in 34 out of 58 counties.\",\n    \"CNAs provide most of the hands-on care to patients in hospitals, continuing care retirement communities, nursing homes, and assisted living facilities.\",\n    \"Making the CNA exam available in Spanish could open the field to many more prospective nurses.\",\n    \"Translating the competency exam is one way to address the nursing shortage while ensuring high-quality care for patients in California.\",\n    \"AB 2131 will expand the number of Certified Nurse Assistants and help meet the need for more Spanish-speaking caregivers.\",\n    \"AB 2131 is a critical step forward in meeting California's severe shortage of direct caregivers.\",\n    \"AB 2131 ensures caregivers reflect the communities they serve and allows for a diverse nursing workforce.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8135c57f9c731def0b5ba8fe7c5a8e8f346f9f81"
+}

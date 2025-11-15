@@ -1,0 +1,13 @@
+{
+  "press_release": "20211216-assemblymember-alex-lee-recognizes-olympic-athletes-table-tennis-america.txt",
+  "party": "Democratic",
+  "title": "At an awards ceremony at Table Tennis America in Fremont, Assemblymember Alex Lee recognized Lily Zhang and Xin Zhou, two Olympic athletes from the South Bay region and Assembly Di",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Table tennis is currently one of the fastest growing sports in America.\",\n    \"Table tennis stimulates the brain while improving hand-eye coordination.\",\n    \"The low risk of injury in table tennis means it can be enjoyed by people of all ages and all fitness levels.\"\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Table tennis is currently one of the fastest growing sports in America.\",\n    \"Table tennis stimulates the brain while improving hand-eye coordination.\",\n    \"The low risk of injury in table tennis means it can be enjoyed by people of all ages and all fitness levels.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ff6c3105f38ce53ceb6042c048d4c9cad098c381"
+}

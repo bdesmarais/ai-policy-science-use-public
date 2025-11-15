@@ -1,0 +1,13 @@
+{
+  "press_release": "20160516-45-million-awarded-ventura-county-community-colleges.txt",
+  "party": "Democratic",
+  "title": "Funds  Awarded Through Basic Skills Transformation Program Championed by  Assemblymember Irwin",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Over 70% of students enrolling in community colleges as first-time students are deemed unprepared and in need of basic skills courses.\",\n    \"National research has found that the more semesters of remediation students are required to take, the less likely they are to com",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Over 70% of students enrolling in community colleges as first-time students are deemed unprepared and in need of basic skills courses.\",\n    \"National research has found that the more semesters of remediation students are required to take, the less likely they are to complete college-level English and math courses.\",\n    \"In early reform efforts represented by the Basic Skills and Student Outcomes Transformation Program, students’ completion rates for college-level English courses more than double compared to students in traditional remediation.\",\n    \"Students’ completion rates for college-level math are more than four times higher in comparison to students in traditional remediation.\",\n    \"Only roughly thirty percent of students in Ventura County who begin in remedial math or English succeed.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d4cd1097c009359c4c85573c1e5a94484f696d0a"
+}

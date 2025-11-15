@@ -1,0 +1,13 @@
+{
+  "press_release": "20231121-papan-named-chair-assembly-committee-water-parks-and-wildlife.txt",
+  "party": "Democratic",
+  "title": "SAN MATEO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a2476cdbe5939ba97361dd8b8021e25656de33ce"
+}

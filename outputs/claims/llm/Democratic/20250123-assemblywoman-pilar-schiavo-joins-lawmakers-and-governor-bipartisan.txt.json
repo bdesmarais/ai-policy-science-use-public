@@ -1,0 +1,13 @@
+{
+  "press_release": "20250123-assemblywoman-pilar-schiavo-joins-lawmakers-and-governor-bipartisan.txt",
+  "party": "Democratic",
+  "title": "PASADENA, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "371d80522b10f0ee30fa864c695a662c67c4b7ac"
+}

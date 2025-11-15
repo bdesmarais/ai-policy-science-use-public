@@ -1,0 +1,13 @@
+{
+  "press_release": "dahle-charters-remain-risk-after-disappointing-committee-vote.txt",
+  "party": "Republican",
+  "title": "Senator Megan Dahle, R-Bieber, issued the following statement today in response to the Senate Education Committee’s passage of Assembly Bill 84:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4be129262a9833631f8a9a4f267f19432c2a4935"
+}

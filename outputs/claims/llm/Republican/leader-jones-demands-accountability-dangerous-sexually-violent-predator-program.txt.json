@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-demands-accountability-dangerous-sexually-violent-predator-program.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones (R-San Diego) sat on the Joint Legislative Audit Committee’s oversight hearing today to hold the Department of State Hospitals (DSH) an",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Liberty Healthcare's track record has been criticized for dishonesty in communicating with constituents and communities regarding Sexually Violent Predator placements.\",\n    \"Since 2018, the Department of State Hospitals’ annual payments to Liberty Healthcare have increa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Liberty Healthcare's track record has been criticized for dishonesty in communicating with constituents and communities regarding Sexually Violent Predator placements.\",\n    \"Since 2018, the Department of State Hospitals’ annual payments to Liberty Healthcare have increased by 77%, from $5.3 million to $9.4 million.\",\n    \"The average cost per participant in California's Sexually Violent Predator program is approximately $495,000.\",\n    \"The failure rate for conditionally released Sexually Violent Predators is 36%, meaning that they either reoffend or return to state hospitals.\",\n    \"The Department of State Hospitals lacks consistent oversight of Liberty Healthcare.\",\n    \"There is no clear process within the Department of State Hospitals to inform treatment decisions and mitigate risks to public safety associated with the release of Sexually Violent Predators.\",\n    \"The Department of State Hospitals fails to evaluate whether placements of Sexually Violent Predators truly protect public safety.\",\n    \"A feasibility study on establishing state-run transitional housing for Sexually Violent Predators has been recommended by the State Auditor but has not been conducted by the Department of State Hospitals.\",\n    \"State-run transitional housing for Sexually Violent Predators is considered a best practice successfully used in multiple other states.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8ac4eced5a5a1bd2d98f82e68ba57f6bfbae2a46"
+}

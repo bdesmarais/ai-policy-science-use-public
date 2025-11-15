@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-groves-legislation-fight-agricultural-theft-passes-senate-floor.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Senate Bill 224 introduced by Senate Republican Leader Shannon Grove (R-Bakersfield) passed out of the California State Senate. Leader Grove partnered with Tula",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Law enforcement agencies must utilize innovative strategies and technology in combating agricultural theft.\",\n    \"It is challenging for law enforcement agencies to combat agricultural theft because criminals take advantage of rural areas.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Law enforcement agencies must utilize innovative strategies and technology in combating agricultural theft.\",\n    \"It is challenging for law enforcement agencies to combat agricultural theft because criminals take advantage of rural areas.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "99167ad82be84a284705ddb0d76c3e2fd8f1a5f2"
+}

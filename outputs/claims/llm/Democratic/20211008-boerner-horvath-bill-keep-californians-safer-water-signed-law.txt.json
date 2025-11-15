@@ -1,0 +1,13 @@
+{
+  "press_release": "20211008-boerner-horvath-bill-keep-californians-safer-water-signed-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 335 allows consumers of boats and marine engines to be notified of manufacturers' safety recalls and warranty verification.\",\n    \"This law promotes boating safety while preserving California consumers' privacy protections.\",\n    \"AB 335 provides consumers the certain",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 335 allows consumers of boats and marine engines to be notified of manufacturers' safety recalls and warranty verification.\",\n    \"This law promotes boating safety while preserving California consumers' privacy protections.\",\n    \"AB 335 provides consumers the certainty they need to feel safer on the water.\",\n    \"The law benefits manufacturers by providing them legal certainty to collect and retain consumer information for safety recalls.\",\n    \"Under AB 335, manufacturers may only receive and retain specific consumer contact information for conducting safety recalls and warranty verifications.\",\n    \"Californians bought $718 million in new boats, engines, and trailers in 2018.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "53430eb57ed31b5019010edd46cb5d6a3a569249"
+}

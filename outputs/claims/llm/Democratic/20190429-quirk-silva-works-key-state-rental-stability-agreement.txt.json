@@ -1,0 +1,13 @@
+{
+  "press_release": "20190429-quirk-silva-works-key-state-rental-stability-agreement.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA â Assemblywoman Sharon Quirk-Silva (D-Fullerton) voted in support on AB 1482 in the Housing and Community Development Committee.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9ec1f6978554372bb1063232f4fe2618890d5a7a"
+}

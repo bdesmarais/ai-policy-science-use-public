@@ -1,0 +1,13 @@
+{
+  "press_release": "20210610-ca-legislators-and-gun-control-advocates-back-ag-bonta-appeal-uphold.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –  In light of the recent ruling by U.S. District Judge Roger Benitez that overturned California’s long-standing ban on assault weapons, Assemblymember Buffy Wicks (D-Oa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Judge Benitez's decision likened the AR-15 assault rifle to a Swiss Army Knife and claimed that more people have died from the COVID vaccine than in mass shootings.\",\n    \"The ban on assault weapons in California has outlasted the Federal Government's ban on the same wea",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Judge Benitez's decision likened the AR-15 assault rifle to a Swiss Army Knife and claimed that more people have died from the COVID vaccine than in mass shootings.\",\n    \"The ban on assault weapons in California has outlasted the Federal Government's ban on the same weapons.\",\n    \"The decision in Miller v. Bonta is fundamentally flawed and will increase the risk of mass shootings.\",\n    \"California's strong gun safety laws help to protect communities from the pandemic of gun violence.\",\n    \"The use of assault weapons has been linked to mass shootings in the United States.\",\n    \"California's ban on assault weapons has saved lives.\",\n    \"The ruling to strike down California's assault weapons ban poses a direct threat to public safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "09c67601d279ca5597853e33827e0bab94ce7e2f"
+}

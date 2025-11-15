@@ -1,0 +1,104 @@
+{
+  "press_release": "lackey-introduces-legislation-to-address-critical-court-reporter-shortage-and-ensure-litigants-access-to-justice.txt",
+  "party": "Republican",
+  "title": "AB 1189 expands pool of qualified court reporters by certifying digital court reporters, legal transcriptionists.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 1189 expands the pool of qualified court reporters by certifying digital court reporters and legal transcriptionists.\"\n    },\n    {\n      \"claim_text\": \"California courts have held over 1.2 million hearings without a verbatim record between Octob",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 1189 expands the pool of qualified court reporters by certifying digital court reporters and legal transcriptionists.\"\n    },\n    {\n      \"claim_text\": \"California courts have held over 1.2 million hearings without a verbatim record between October 2023 and August 2024 due to a shortage of certified court reporters.\"\n    },\n    {\n      \"claim_text\": \"The shortage of certified court reporters particularly affects low-income or underserved communities, preventing them from appealing important decisions.\"\n    },\n    {\n      \"claim_text\": \"The legislation recognizes digital reporting as a valid and reliable method for capturing legal proceedings.\"\n    },\n    {\n      \"claim_text\": \"AB 1189 establishes a state-run certification process for digital court reporters and legal transcriptionists.\"\n    },\n    {\n      \"claim_text\": \"Certified digital reporters would be authorized to administer oaths and maintain chain-of-custody protocols for legal records.\"\n    },\n    {\n      \"claim_text\": \"California courts need 458 more full-time court reporters to meet current demand as of January 2025.\"\n    },\n    {\n      \"claim_text\": \"Nearly half of all active CSR licenses were issued more than 30 years ago, indicating a rapidly aging workforce.\"\n    },\n    {\n      \"claim_text\": \"Between January 2023 and September 2024, California courts experienced a net loss of court reporters despite aggressive hiring efforts.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "AB 1189 expands the pool of qualified court reporters by certifying digital court reporters and legal transcriptionists.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California courts have held over 1.2 million hearings without a verbatim record between October 2023 and August 2024 due to a shortage of certified court reporters.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The shortage of certified court reporters particularly affects low-income or underserved communities, preventing them from appealing important decisions.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The legislation recognizes digital reporting as a valid and reliable method for capturing legal proceedings.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 1189 establishes a state-run certification process for digital court reporters and legal transcriptionists.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Certified digital reporters would be authorized to administer oaths and maintain chain-of-custody protocols for legal records.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California courts need 458 more full-time court reporters to meet current demand as of January 2025.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Nearly half of all active CSR licenses were issued more than 30 years ago, indicating a rapidly aging workforce.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Between January 2023 and September 2024, California courts experienced a net loss of court reporters despite aggressive hiring efforts.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 9,
+  "doc_sha1": "1fcf9dd046bcd7231bb2d3f7e43936374889a535"
+}

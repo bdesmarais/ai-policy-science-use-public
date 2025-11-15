@@ -1,0 +1,13 @@
+{
+  "press_release": "california-senate-republicans-blast-decision-dump-sexually-violent-predator-placer-county.txt",
+  "party": "Republican",
+  "title": "California Senate Republicans join Placer County District Attorney Morgan Gire in blasting a court decision authorizing state contractor Liberty Healthcare to dump sexually violent",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Liberty Healthcare plans to purchase a brand new RV using taxpayer funds to house sexually violent predator William Robert Stephenson.\",\n    \"William Robert Stephenson has a long criminal history of sexual violence dating back to the 1980s.\",\n    \"A sexually violent pred",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Liberty Healthcare plans to purchase a brand new RV using taxpayer funds to house sexually violent predator William Robert Stephenson.\",\n    \"William Robert Stephenson has a long criminal history of sexual violence dating back to the 1980s.\",\n    \"A sexually violent predator (SVP) is defined as an individual convicted of a sexually violent offense and diagnosed with a mental disorder that causes them to be a danger to others with a high likelihood to reoffend.\",\n    \"Senator Roger Niello expressed concerns that releasing Stephenson as a 'transient' poses a danger to the community without 24-hour supervision.\",\n    \"Senate Minority Leader Brian W. Jones has criticized Liberty Healthcare's exclusive contract to manage the release of SVPs.\",\n    \"An audit of Liberty Healthcare was unanimously approved by the Joint Legislative Audit Committee to investigate their effectiveness in placing and monitoring SVPs.\",\n    \"Senator Jones stated that Liberty Healthcare employs a placement strategy that involves secretly releasing dangerous SVPs into residential neighborhoods.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "772016e27ae28f7c69c29105a2cb4b1db47e7cf5"
+}

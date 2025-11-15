@@ -1,0 +1,84 @@
+{
+  "press_release": "planned-parenthood-california-supports-senator-beckers-delete-act.txt",
+  "party": "Democratic",
+  "title": "Planned Parenthood California Supports Senator Becker’s “Delete Act” Ahead of Senate Appropriations Committee",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Data brokers collect, analyze, and sell personal information about consumers, aggregating data from public records, social media platforms, online transactions, and much more to create detailed profiles on millions of people.\"\n    },\n    {\n      \"cl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Data brokers collect, analyze, and sell personal information about consumers, aggregating data from public records, social media platforms, online transactions, and much more to create detailed profiles on millions of people.\"\n    },\n    {\n      \"claim_text\": \"Data brokers have to register with the California Attorney General, but they don’t have to report what kinds of information they collect and sell.\"\n    },\n    {\n      \"claim_text\": \"Under the California Consumer Privacy Act (CCPA), individuals have the right to require a data broker to delete information they collected directly from them.\"\n    },\n    {\n      \"claim_text\": \"Individuals cannot require a broker to delete information they may have acquired about them from other sources.\"\n    },\n    {\n      \"claim_text\": \"SB 362 would require data brokers to register with the California Privacy Protection Agency (CPPA) and disclose the types of personal information they collect.\"\n    },\n    {\n      \"claim_text\": \"The CPPA would create a simple way for Californians to direct all data brokers to delete their personal information, free of charge.\"\n    },\n    {\n      \"claim_text\": \"Data brokers that fail to adhere to the law would face civil penalties and administrative fines set by the Attorney General and the CPPA.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Data brokers collect, analyze, and sell personal information about consumers, aggregating data from public records, social media platforms, online transactions, and much more to create detailed profiles on millions of people.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Data brokers have to register with the California Attorney General, but they don’t have to report what kinds of information they collect and sell.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Under the California Consumer Privacy Act (CCPA), individuals have the right to require a data broker to delete information they collected directly from them.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Individuals cannot require a broker to delete information they may have acquired about them from other sources.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 362 would require data brokers to register with the California Privacy Protection Agency (CPPA) and disclose the types of personal information they collect.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The CPPA would create a simple way for Californians to direct all data brokers to delete their personal information, free of charge.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Data brokers that fail to adhere to the law would face civil penalties and administrative fines set by the Attorney General and the CPPA.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "c64eb4eef2dcbbf4dd8bc9a32a76dd8527ec3ce7"
+}

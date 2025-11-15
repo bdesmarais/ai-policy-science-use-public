@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblywoman-laurie-davies-hosts-senior-scam-stopper-events-in-vista-and-oceanside.txt",
+  "party": "Republican",
+  "title": "FOR IMMEDIATE RELEASE: In an effort to help seniors avoid scams, Assemblywoman Laurie Davies hosted two public seminars in Oceanside and Vista. Speakers featured San Diego’s top la",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"In 2023, seniors lost more than $97.3 million in San Diego County due to scams.\",\n    \"A common senior computer scam involves criminals posing as technology support representatives and gaining remote access to victims' devices.\",\n    \"Seniors are often targeted in scams ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"In 2023, seniors lost more than $97.3 million in San Diego County due to scams.\",\n    \"A common senior computer scam involves criminals posing as technology support representatives and gaining remote access to victims' devices.\",\n    \"Seniors are often targeted in scams where criminals pose as romantic partners on social media or dating websites.\",\n    \"The grandparent scam is a type of confidence scam where criminals impersonate relatives claiming immediate financial need.\",\n    \"Criminals impersonate government employees to threaten victims into providing funds or payments.\",\n    \"Scammers may operate under the guise of legitimate charitable organizations to gain victims' trust.\",\n    \"Home repair scams involve criminals charging in advance for services that are never provided.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c8ec4d145d876e27f0e4ec7bd515eddc9f6118ff"
+}

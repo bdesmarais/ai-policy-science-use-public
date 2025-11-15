@@ -1,0 +1,13 @@
+{
+  "press_release": "20240926-assemblymember-arambula-reacts-governor-newsom-signing-assembly-bill-1888.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Governor Gavin Newsom today signed Assembly Bill 1888 authored by Assemblymember Dr. Joaquin Arambula (D-Fresno) as part of a package of bills aimed at protecting vict",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1888 will establish a new Labor Trafficking Unit within the California Department of Justice.\",\n    \"The Labor Trafficking Unit aims to investigate and prosecute perpetrators who force or coerce vulnerable people into jobs with little or no pay.\",\n    \"The Legislation",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1888 will establish a new Labor Trafficking Unit within the California Department of Justice.\",\n    \"The Labor Trafficking Unit aims to investigate and prosecute perpetrators who force or coerce vulnerable people into jobs with little or no pay.\",\n    \"The Legislation intends to better coordinate efforts to target labor trafficking.\",\n    \"Labor trafficking preys on workers by making them vulnerable to threats regarding their immigration status, threats to their families’ safety, and threats involving their wages.\",\n    \"AB 1888 aims to stop labor trafficking abuse and ensure that all workers in California are safe and respected.\",\n    \"The new unit in the Department of Justice will serve as a hub for receiving reports and complaints about labor trafficking from law enforcement.\",\n    \"The unit created by AB 1888 will ensure that labor trafficking cases are directed to the appropriate agencies for thorough investigation and prosecution.\",\n    \"AB 1888 will prioritize offering technical assistance and training to enforcement agencies specifically targeting labor trafficking.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fe4274d7b0c588f4826c573cf3876865c0dcad97"
+}

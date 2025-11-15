@@ -1,0 +1,13 @@
+{
+  "press_release": "20240723-assemblymember-alex-lee-secures-10-million-state-funding-calfresh-pilot.txt",
+  "party": "Democratic",
+  "title": "A successful CalFresh pilot project that made healthy foods more affordable had ended in April due to the lack of funding. As a result, CalFresh recipients statewide saw a cut in t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The CalFresh Fruit and Vegetable EBT Pilot Project made healthy foods more affordable.\",\n    \"As a result of ending the pilot project, CalFresh recipients statewide saw a cut in their benefits.\",\n    \"The pilot project provided $10.5 million in rebates to 93,000 CalFresh",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The CalFresh Fruit and Vegetable EBT Pilot Project made healthy foods more affordable.\",\n    \"As a result of ending the pilot project, CalFresh recipients statewide saw a cut in their benefits.\",\n    \"The pilot project provided $10.5 million in rebates to 93,000 CalFresh households.\",\n    \"The pilot project included participation from over 85 grocery stores and several farmers' markets in California.\",\n    \"Research has shown that the annual health care costs associated with food insecurity totals over $7 billion annually in California.\",\n    \"Nearly a quarter of Californian households experienced food insecurity as of May 2024.\",\n    \"The CalFresh Fruit and Vegetable EBT Pilot Project is reported to be an effective solution to addressing food insecurity.\",\n    \"The loss of additional COVID-19 funding meant that families' monthly CalFresh assistance were reduced by at least $95 and up to $258.\",\n    \"The pilot project has served as a critical source of supplemental benefits for individuals and families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "da079c929df80bdc309287c78fd5f9851f2ebf13"
+}

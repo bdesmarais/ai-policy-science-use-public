@@ -1,0 +1,13 @@
+{
+  "press_release": "20230217-assemblywoman-pilar-schiavo-introduces-bill-aimed-postpartum-parental-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Today, Assemblywoman Pilar Schiavo announced the introduction of AB 608, aimed at supporting women, newborns, and families in the first year after childbirth. While cu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:54:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Current law provides full scope Medi-cal benefits for pregnant individuals for a full calendar year after pregnancy ends but does not include perinatal services.\",\n    \"AB 608 extends the Comprehensive Perinatal Services Program (CPSP) to be included in the Medi-cal cove",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Current law provides full scope Medi-cal benefits for pregnant individuals for a full calendar year after pregnancy ends but does not include perinatal services.\",\n    \"AB 608 extends the Comprehensive Perinatal Services Program (CPSP) to be included in the Medi-cal coverage for the full calendar year following pregnancy.\",\n    \"Postpartum depression affects 1 in 7 parents after delivery.\",\n    \"Untreated postpartum depression can lead to long-term behavioral health issues in children.\",\n    \"More than four of every five people who die by suicide after the end of their pregnancy, died in the late postpartum period 43-365 days after birth.\",\n    \"Extending CPSP into the first year after pregnancy may help treat postpartum depression and reduce the number of suicides.\",\n    \"The CPSP includes enhanced services in nutrition, psychosocial support, and health education for new mothers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3fcb0b81093d8de2292c40171ec25b922fe6071c"
+}

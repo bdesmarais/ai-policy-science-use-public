@@ -1,0 +1,13 @@
+{
+  "press_release": "yet-two-more-alanis-bills-unanimously-pass-out-of-committee-cloned-3993.txt",
+  "party": "Republican",
+  "title": "AB 255 Advanced to Appropriations & AB 1467 Advanced to the Assembly Floor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There are massive recruiting deficits for critical first responder jobs across the state.\",\n    \"AB 255 will help close the recruiting gaps for important public service jobs in California.\",\n    \"Access to an AED could have saved the lives of young individuals who passed",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There are massive recruiting deficits for critical first responder jobs across the state.\",\n    \"AB 255 will help close the recruiting gaps for important public service jobs in California.\",\n    \"Access to an AED could have saved the lives of young individuals who passed away in youth sports.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "87866a909acab0922012555e2590f9bfb8e775b6"
+}

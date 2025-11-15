@@ -1,0 +1,13 @@
+{
+  "press_release": "20250221-speaker-robert-rivas-partners-assemblymember-john-harabedian-expand.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO— Assemblymember John Harabedian (D-Pasadena) and Speaker Robert Rivas (D-Salinas) announced legislation today to support the behavioral health needs and wellness of Los ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:28:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1032 would require health care insurers to cover 12 annual visits per year with a licensed behavioral health provider to residents affected by wildfires.\",\n    \"Coverage applies to individuals residing in counties under wildfire emergency declarations.\",\n    \"Benefits",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1032 would require health care insurers to cover 12 annual visits per year with a licensed behavioral health provider to residents affected by wildfires.\",\n    \"Coverage applies to individuals residing in counties under wildfire emergency declarations.\",\n    \"Benefits extend until one year after the emergency declaration is lifted.\",\n    \"Data from the California Parent & Youth Helpline show a dramatic surge in activity, with 62% of all calls related to mental and behavioral health needs coming from Southern California.\",\n    \"There has been a 366% jump in overnight calls to the California Parent & Youth Helpline.\",\n    \"Live chat usage has increased by 68% since the wildfires.\",\n    \"Text message communication has risen by 45%.\",\n    \"Overall call volume to the California Parent & Youth Helpline has increased by 22%.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b63eddba1ba950fdff7b21b6d21edc67c556c8f3"
+}

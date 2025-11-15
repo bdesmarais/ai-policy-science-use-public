@@ -1,0 +1,13 @@
+{
+  "press_release": "20231019-governor-newsom-signs-assemblymember-bauer-kahans-legislation-eliminating.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Non-compete agreements are anticompetitive and intimidate workers, resulting in stagnation of wages, especially for middle class workers.\",\n    \"Non-compete agreements undermine an employee’s ability to build a better life.\",\n    \"About 45% of California businesses still",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Non-compete agreements are anticompetitive and intimidate workers, resulting in stagnation of wages, especially for middle class workers.\",\n    \"Non-compete agreements undermine an employee’s ability to build a better life.\",\n    \"About 45% of California businesses still include non-compete agreements in employee contracts.\",\n    \"Women and people of color are disproportionately affected by non-compete agreements and are less likely to negotiate for better terms.\",\n    \"Non-compete agreements restrict workers' mobility and opportunities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0900f940dc350848d1b5673a2e23b9b308f512b2"
+}

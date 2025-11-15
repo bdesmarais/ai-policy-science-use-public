@@ -1,0 +1,13 @@
+{
+  "press_release": "20220929-governor-signs-bill-support-small-businesses-and-entrepreneurs.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – California small businesses are thanking Governor Newsom for signing AB 2019 (Petrie-Norris, D-Irvine) and wrapping up decades of advocacy that spanned 3 administratio",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2019 will require departments and agencies to have 25% of its contract dollars go to small businesses.\",\n    \"AB 2019 will keep state departments accountable for contract spending towards small businesses.\",\n    \"The bill requires departments to develop a plan to ensu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2019 will require departments and agencies to have 25% of its contract dollars go to small businesses.\",\n    \"AB 2019 will keep state departments accountable for contract spending towards small businesses.\",\n    \"The bill requires departments to develop a plan to ensure that women, minority, and LGBTQ+ owned businesses are included in the procurement process.\",\n    \"In the fiscal year 2020-2021, $21.23 billion in contracting dollars were awarded, with only $3.1 billion going to small businesses.\",\n    \"Historically, only 14.6%, 23.75%, and 20.58% of contracting dollars have gone to small businesses over the past three years.\",\n    \"The demographic make-up of the participants in the state's procurement process has not shifted alongside the increase in women and minority-owned businesses.\",\n    \"Male business owners received 74.5% of state contract dollars while white business owners received the most of any ethnicity.\",\n    \"AB 2019 will study disparities in state contracting.\",\n    \"The bill aims to address structural barriers faced by minority-owned businesses in accessing state resources.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e65d7f193d2ac5971de238ee7eee99a0c822f541"
+}

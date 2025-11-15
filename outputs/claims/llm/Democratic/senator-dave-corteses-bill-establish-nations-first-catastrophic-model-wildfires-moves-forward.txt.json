@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-corteses-bill-establish-nations-first-catastrophic-model-wildfires-moves-forward.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The state Senate Insurance Committee today passed Senator Dave Cortese’s Senate Bill 429 that would establish the nation’s first public catastrophic model for wildfire",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Dave Cortese's Senate Bill 429 would establish the nation's first public catastrophic model for wildfires.\",\n    \"A public wildfire catastrophe model predicts future losses and can serve as a benchmark for fair and accurate insurance rates.\",\n    \"Publicly access",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Dave Cortese's Senate Bill 429 would establish the nation's first public catastrophic model for wildfires.\",\n    \"A public wildfire catastrophe model predicts future losses and can serve as a benchmark for fair and accurate insurance rates.\",\n    \"Publicly accessible information can drive positive change in wildfire risk management.\",\n    \"A public wildfire model will be an important resource for state agencies and local governments focused on protecting lives and homes from catastrophic wildfires.\",\n    \"The public wildfire catastrophe model will utilize the expertise of a research consortium or center, including universities, to create an independent and publicly accessible structure.\",\n    \"Funding for research and development on wildfire catastrophe models should align with public policy priorities.\",\n    \"Promoting public data collection and educational opportunities can strengthen the connection between the public and wildfire risk mitigation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "02cde342d2937c8bf065462809acc2cd4e322220"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20160825-bill-aimed-massive-child-identity-theft-problem-sent-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:53:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Children are 50 times more likely to have their identities stolen than adults.\",\n    \"Credit bureaus do not typically shield a child's credit record unless it has already been stolen.\",\n    \"Child identity theft is likely to go unnoticed for many years.\",\n    \"Children d",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Children are 50 times more likely to have their identities stolen than adults.\",\n    \"Credit bureaus do not typically shield a child's credit record unless it has already been stolen.\",\n    \"Child identity theft is likely to go unnoticed for many years.\",\n    \"Children do not have existing credit files, which makes them particularly valuable targets for thieves.\",\n    \"It is not uncommon for family members to commit 'friendly fraud' using the personal information of an underage relative.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9ac3c2fc514a623745560bd8f367bea9ab52989c"
+}

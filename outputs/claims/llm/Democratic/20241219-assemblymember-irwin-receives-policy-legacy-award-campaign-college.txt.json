@@ -1,0 +1,13 @@
+{
+  "press_release": "20241219-assemblymember-irwin-receives-policy-legacy-award-campaign-college.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:22:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Jacqui Irwin has worked to end exclusionary remedial course placement practices in community colleges.\",\n    \"Assemblymember Irwin has aimed to close equity gaps in higher education for community college students.\",\n    \"The passage of AB 705 and AB 1705 h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Jacqui Irwin has worked to end exclusionary remedial course placement practices in community colleges.\",\n    \"Assemblymember Irwin has aimed to close equity gaps in higher education for community college students.\",\n    \"The passage of AB 705 and AB 1705 has boosted transfer levels in California community colleges.\",\n    \"The implementation of AB 705 and AB 1705 has led to improved educational outcomes for marginalized students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0179b00440282d20039efb75f21737beb654f3c8"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20190930-ramos-leads-roundtable-behavioral-health-resources-san-bernardino-county.txt",
+  "party": "Democratic",
+  "title": "(San Bernardino, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:11:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The crisis stabilization unit model has shown to be a more cost-effective treatment option when compared to hospitalization.\",\n    \"Patients who utilize crisis stabilization units require less support later.\",\n    \"Crisis stabilization units contribute overall to a more ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The crisis stabilization unit model has shown to be a more cost-effective treatment option when compared to hospitalization.\",\n    \"Patients who utilize crisis stabilization units require less support later.\",\n    \"Crisis stabilization units contribute overall to a more resilient community.\",\n    \"Crisis residential treatment centers have shown successes in treating mental health crises.\",\n    \"Community crisis response teams have been effective in managing mental health crises.\",\n    \"Of the approximately 1,300 crisis calls that community crisis response teams fielded last year, 60 percent were diverted from hospitalization.\",\n    \"Crisis stabilization units provide outpatient treatment for patients following stabilization, including therapy, case management, and medication support.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8ebae3b0e71e9003d33912b75344acb1ec490733"
+}

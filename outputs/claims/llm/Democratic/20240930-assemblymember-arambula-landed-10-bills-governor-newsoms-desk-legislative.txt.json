@@ -1,0 +1,13 @@
+{
+  "press_release": "20240930-assemblymember-arambula-landed-10-bills-governor-newsoms-desk-legislative.txt",
+  "party": "Democratic",
+  "title": "FRESNO – Assemblymember Dr. Joaquin Arambula (D-Fresno) in this State Legislative year worked with bill sponsors and supporters to land 10 of his bills on Governor Newsom’s desk fo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:19:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Folic acid is essential to preventing birth defects, and food is the best way to get folic acid into women’s diets before they become pregnant.\",\n    \"The bill AB 1888 ensures that the State prioritizes victims of labor trafficking through more efficient and comprehensiv",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Folic acid is essential to preventing birth defects, and food is the best way to get folic acid into women’s diets before they become pregnant.\",\n    \"The bill AB 1888 ensures that the State prioritizes victims of labor trafficking through more efficient and comprehensive enforcement of existing labor trafficking laws.\",\n    \"AB 2080 requests that the University of California present an annual enrollment report and post data on its website regarding students in its medical schools.\",\n    \"There is a critical shortage of physicians in the Central Valley and the state of California, especially doctors who reflect the diversity of the communities.\",\n    \"The bill AB 2240 ensures that farm labor centers will comply with health and safety codes for heating, cooling, clean water, and other systems.\",\n    \"AB 2543 ensures that all small businesses will have access to the benefits of small business certification, regardless of the immigration status of the owners or operators.\",\n    \"Members of tribal communities should receive equitable access to safety net programs, as outlined in AB 2795.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ca489246e5784d92606dae1524d8b0fbe7cddef0"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210628-asm-robert-rivas-applauds-significant-investments-budget-agreement.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:30:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's state budget includes $262.6 billion in total funding.\",\n    \"The budget allocates $12 billion to tackle homelessness over the next two years.\",\n    \"California is providing $5.2 billion to cover 100% of back rent and up to three months of advance rent for e",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's state budget includes $262.6 billion in total funding.\",\n    \"The budget allocates $12 billion to tackle homelessness over the next two years.\",\n    \"California is providing $5.2 billion to cover 100% of back rent and up to three months of advance rent for eligible tenants and landlords.\",\n    \"The budget allocates $50 million for affordable farmworker housing.\",\n    \"There is an allocation of $3 million for the development of Farmworker Resource Centers.\",\n    \"The budget includes $23.37 million in funding for the Low-Income Weatherization Program aimed at low-income farmworkers.\",\n    \"The budget includes $200 million in new funding to expand the Golden State Teacher Grant program to help meet staffing needs in education.\",\n    \"The budget allocates $436 million in new funding for sustainable and equity agricultural programs.\",\n    \"The budget includes $1.385 billion in funding for drinking water and wastewater projects, as well as groundwater cleanup and water recycling projects.\",\n    \"The budget invests $3.7 billion in a Climate Resiliency Package to address the impacts of climate change.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "430f69e5e685745f6011e67b5fd319c4d3a294b0"
+}

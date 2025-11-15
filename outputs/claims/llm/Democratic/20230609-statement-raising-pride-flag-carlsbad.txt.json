@@ -1,0 +1,13 @@
+{
+  "press_release": "20230609-statement-raising-pride-flag-carlsbad.txt",
+  "party": "Democratic",
+  "title": "CARLSBAD, Calif. — During Pride Month we celebrate that love always wins. All orientations are included and welcomed in California, which is why I joined elected officials and the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Stable and affirming housing plays a vital role in the safety of youth identifying as LGBTQIA+.\",\n    \"The Unicorn Homes Transitional Housing for Homeless LGBTQIA+ Youth Program aims to help identify, screen, and train LGBTQIA+ affirming households.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Stable and affirming housing plays a vital role in the safety of youth identifying as LGBTQIA+.\",\n    \"The Unicorn Homes Transitional Housing for Homeless LGBTQIA+ Youth Program aims to help identify, screen, and train LGBTQIA+ affirming households.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "82469c5f92037349fa316a824d420409257de65e"
+}

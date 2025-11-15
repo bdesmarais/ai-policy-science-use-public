@@ -1,0 +1,13 @@
+{
+  "press_release": "declaracion-el-fiscal-general-bonta-solicita-al-tribunal-que-ponga-bajo-administracion.txt",
+  "party": "Democratic",
+  "title": "LOS ÁNGELES - La Senadora Caroline Menjivar (D-San Fernando Valley) emitió una declaración tras el anuncio de que el Fiscal General Bonta solicitó al Tribunal Superior del Condado ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Los Ángeles enfrenta una crisis de seguridad pública que afecta a jóvenes en entornos marginados.\",\n    \"Los jóvenes encarcelados en Los Ángeles requieren herramientas para forjar un mejor camino y evitar el ciclo de encarcelamiento.\",\n    \"El enfoque tradicional del sis",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Los Ángeles enfrenta una crisis de seguridad pública que afecta a jóvenes en entornos marginados.\",\n    \"Los jóvenes encarcelados en Los Ángeles requieren herramientas para forjar un mejor camino y evitar el ciclo de encarcelamiento.\",\n    \"El enfoque tradicional del sistema punitivo actual no ofrece las medidas necesarias para afrontar la gravedad de la situación de los jóvenes encarcelados.\",\n    \"Es necesario integrar la rendición de cuentas en el sistema punitivo actual para proteger a los jóvenes.\",\n    \"Las políticas centradas en la rehabilitación y reinserción social podrían contribuir a la seguridad pública.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bf303a0f9b3bdcd4f71bf32aa5e66babc9b8490a"
+}

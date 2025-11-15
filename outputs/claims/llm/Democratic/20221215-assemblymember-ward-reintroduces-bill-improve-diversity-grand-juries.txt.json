@@ -1,0 +1,13 @@
+{
+  "press_release": "20221215-assemblymember-ward-reintroduces-bill-improve-diversity-grand-juries.txt",
+  "party": "Democratic",
+  "title": "(",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:51:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Grand juries are essential to holding local governments accountable throughout California’s 58 counties.\",\n    \"The group of ordinary citizens that comprise grand juries often lack racial and ethnic minorities.\",\n    \"Increasing per diem compensation for jurors may help ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Grand juries are essential to holding local governments accountable throughout California’s 58 counties.\",\n    \"The group of ordinary citizens that comprise grand juries often lack racial and ethnic minorities.\",\n    \"Increasing per diem compensation for jurors may help attract a broader group of individuals.\",\n    \"Current state statute requires jury commissioners to note the geographic makeup of a jury pool.\",\n    \"There are no requirements to help judges create a more diverse grand jury based on race, gender, age, or other demographic characteristics.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "46a360c7909a458fa2944fc63ba3208b30a4da91"
+}

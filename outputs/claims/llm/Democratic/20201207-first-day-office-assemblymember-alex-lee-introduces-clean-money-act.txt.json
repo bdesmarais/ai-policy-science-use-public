@@ -1,0 +1,13 @@
+{
+  "press_release": "20201207-first-day-office-assemblymember-alex-lee-introduces-clean-money-act.txt",
+  "party": "Democratic",
+  "title": "Media contact: Charlsie Chang |",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:21:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Corporate special interests do not represent```json\n{\n  \"claims\": [\n    \"Corporate special interests do not represent the will of the people.\",\n    \"Assemblymember Alex Lee won his election without accepting campaign contributions from corporations.\",\n    \"Each year, bus",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Corporate special interests do not represent```json\n{\n  \"claims\": [\n    \"Corporate special interests do not represent the will of the people.\",\n    \"Assemblymember Alex Lee won his election without accepting campaign contributions from corporations.\",\n    \"Each year, business entities contribute hundreds of millions of dollars to campaigns across California.\",\n    \"Over $785 million was spent on the 2020 election in California alone.\",\n    \"Candidates often feel pressured to accept campaign contributions from business entities to remain competitive.\",\n    \"The k-shaped recovery is exacerbating inequality in California.\",\n    \"Corporations are completely barred from making direct contributions to federal candidates.\",\n    \"Corporations are barred from contributing to candidates in 22 states.\",\n    \"The intent of the 'Clean Money Act' is to bar all business entities from contributing to candidates in California.\",\n    \"Publicly financed elections have already been implemented in 13 other states.\",\n    \"Publicly financed elections would eliminate the need for candidates to perpetually fundraise.\",\n    \"Public financing allows candidates and officials to spend more time with their constituents.\",\n    \"Public financing breaks down barriers for underrepresented groups, including women and people of color, to run for office.\",\n    \"Public financing enables more individuals who are not independently wealthy to run for office.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "31e727b7d17098d6cdd5fdf950eef035e68be43b"
+}

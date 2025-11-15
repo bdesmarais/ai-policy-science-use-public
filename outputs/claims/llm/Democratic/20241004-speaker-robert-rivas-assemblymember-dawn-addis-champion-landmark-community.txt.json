@@ -1,0 +1,13 @@
+{
+  "press_release": "20241004-speaker-robert-rivas-assemblymember-dawn-addis-champion-landmark-community.txt",
+  "party": "Democratic",
+  "title": "MONTEREY, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 3233 affirms that local governments have the authority to limit or prohibit oil and gas operations in their communities.\",\n    \"Communities across California can now say no to pollution from oil and gas production.\",\n    \"California oil is among the dirties",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 3233 affirms that local governments have the authority to limit or prohibit oil and gas operations in their communities.\",\n    \"Communities across California can now say no to pollution from oil and gas production.\",\n    \"California oil is among the dirtiest and most climate-damaging in the world.\",\n    \"Oil production in California causes toxic pollution that can increase the risks of cancer and respiratory harms.\",\n    \"Oil production in California pollutes water and threatens public safety, risking fires, explosions, leaks, spills, and chemical releases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e6f72df5338c1b0bbea15c5de779462921b3a8c0"
+}

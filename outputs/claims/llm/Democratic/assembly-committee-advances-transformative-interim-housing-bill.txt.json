@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-committee-advances-transformative-interim-housing-bill.txt",
+  "party": "Democratic",
+  "title": "Senator Josh Becker’s Interim Housing Act fast tracks the building of interim housing and scales up efforts to bring people indoors and save lives",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has the fourth highest rate of homelessness in the nation.\",\n    \"California has the highest rate of unsheltered homelessness in the nation.\",\n    \"California's population experiencing homelessness reached a record 181,399 individuals in 2023.\",\n    \"67 percen",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has the fourth highest rate of homelessness in the nation.\",\n    \"California has the highest rate of unsheltered homelessness in the nation.\",\n    \"California's population experiencing homelessness reached a record 181,399 individuals in 2023.\",\n    \"67 percent of individuals experiencing homelessness in California are unsheltered.\",\n    \"SB 1395 will encourage the development of interim housing by clarifying that relocatable, non-congregate interim housing is eligible for streamlined zoning.\",\n    \"SB 1395 aims to reduce construction time and costs for interim housing.\",\n    \"SB 1395 empowers local governments by expediting approvals for interim housing.\",\n    \"SB 1395 extends the sunset for existing streamlining authorities beyond 2026.\",\n    \"Interim housing is a key part of the response to homelessness in California.\",\n    \"SB 1395 is designed to rapidly provide decent homes for people experiencing homelessness.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "830f12483c49a849c22e4ed9889a8a1e661f706b"
+}

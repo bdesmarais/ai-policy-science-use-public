@@ -1,0 +1,74 @@
+{
+  "press_release": "20230920-assemblymember-connolly-sends-robust-bill-package-governors-desk.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:09:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Assembly Bill 92 aims to limit body armor use in mass shootings.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 404 seeks to evaluate the reporting requirements for organic farmers to limit redundancy.\"\n    },\n    {\n      \"claim_text\": \"Assembly B",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Assembly Bill 92 aims to limit body armor use in mass shootings.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 404 seeks to evaluate the reporting requirements for organic farmers to limit redundancy.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 620 mandates health plans to cover Inflammatory Bowel Disease testing and treatment.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 935 explicitly authorizes the enforcement of the ban on flavored tobacco.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 1109 restricts online sales of sodium nitrite to minors.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 1132 extends the limitation on permit fees for solar energy systems until January 1, 2034.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Assembly Bill 92 aims to limit body armor use in mass shootings.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Assembly Bill 404 seeks to evaluate the reporting requirements for organic farmers to limit redundancy.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Assembly Bill 620 mandates health plans to cover Inflammatory Bowel Disease testing and treatment.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Assembly Bill 935 explicitly authorizes the enforcement of the ban on flavored tobacco.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Assembly Bill 1109 restricts online sales of sodium nitrite to minors.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Assembly Bill 1132 extends the limitation on permit fees for solar energy systems until January 1, 2034.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "063a3d5c362fcd0ce7bd77ab536e29879d948575"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250514-statement-california-2025-2026-budget-may-revision.txt",
+  "party": "Democratic",
+  "title": "\"Although I must look more closely into the details of the Governor's budget proposal, I am extremely concerned for our seniors and IDD communities. We must double down on their un",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9dd60213980a5427a90a7f79deb6bb00ee2260b8"
+}

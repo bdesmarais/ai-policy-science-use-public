@@ -1,0 +1,13 @@
+{
+  "press_release": "corteses-groundbreaking-low-carbon-construction-bill-aims-climate-restoration.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-Silicon Valley) has introduced SB 1297 to continue his innovative work on climate restoration.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Removing carbon from building and construction materials and using them to sequester carbon can be done safely, permanently, and economically.\",\n    \"Storing carbon in the built environment will enable net-negative emissions to help draw down atmospheric carbon dioxide l",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Removing carbon from building and construction materials and using them to sequester carbon can be done safely, permanently, and economically.\",\n    \"Storing carbon in the built environment will enable net-negative emissions to help draw down atmospheric carbon dioxide levels.\",\n    \"California uses enough aggregate, concrete, and other building materials that it could store all carbon emissions from major industrial sources in the built environment.\",\n    \"Policies like SB 1297 have the potential to remove significant amounts of carbon dioxide from the atmosphere.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f685471aea0599598010f9dd2a3344bfcf3ad8a6"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "icymi-california-needs-new-model-rural-maternity-care.txt",
+  "party": "Republican",
+  "title": "Nobody wants to land in the hospital, but the one time most of us are happy to be there is to see the miracle of childbirth safely and professionally attended.  After all, it wasn’",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Since 2012, 56 hospitals in California have stopped delivering babies.\",\n    \"The closures of hospitals providing labor-and-delivery care disproportionately impact rural areas.\",\n    \"Maternity ward closures are leading to expectant mothers having to travel long distance",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Since 2012, 56 hospitals in California have stopped delivering babies.\",\n    \"The closures of hospitals providing labor-and-delivery care disproportionately impact rural areas.\",\n    \"Maternity ward closures are leading to expectant mothers having to travel long distances for care.\",\n    \"Expectant mothers face risks to their health and safety due to the long distances required to access maternity care.\",\n    \"The 'Plumas Model' proposes that freestanding birthing centers handle low-risk births while local hospitals provide standby perinatal services.\",\n    \"The 'Plumas Model' aims to restore maternity care to communities where hospitals have closed their obstetric departments.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "548a12765062e495bd1626b0af557a2629aebc89"
+}

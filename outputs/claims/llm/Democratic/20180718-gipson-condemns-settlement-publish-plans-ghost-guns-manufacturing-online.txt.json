@@ -1,0 +1,13 @@
+{
+  "press_release": "20180718-gipson-condemns-settlement-publish-plans-ghost-guns-manufacturing-online.txt",
+  "party": "Democratic",
+  "title": "CARSON, Calif --- In an unprecedented legal decision, the Federal Department of Justice and the Second Amendment Foundation came to an agreement to allow gun-rights activists to po",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Gun-rights activists will be able to post 3-D printable gun plans online beginning August 1, 2018.\",\n    \"The decision to publish blueprints of firearms online follows a legal battle filed by Defense Distributed in 2013.\",\n    \"Ghost guns are a significant issue in ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Gun-rights activists will be able to post 3-D printable gun plans online beginning August 1, 2018.\",\n    \"The decision to publish blueprints of firearms online follows a legal battle filed by Defense Distributed in 2013.\",\n    \"Ghost guns are a significant issue in various communities, including those represented by Assemblymember Mike A. Gipson.\",\n    \"A shooting occurred in Rancho Tehama in Northern California where a man used a ghost gun to murder 5 people.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0d337ffee5fd23ff81e13f558d87064b3e1f1b42"
+}

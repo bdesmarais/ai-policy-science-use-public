@@ -1,0 +1,13 @@
+{
+  "press_release": "20240424-assemblymember-boerners-bills-lower-utility-rates-clears-first-hurdle.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:40:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"San Diego County already pays the second highest utility rates in the nation.\",\n    \"The audit found an electricity rate increase between 16 percent and 23 percent from 2022 to 2023 by Southern California Edison, Pacific Gas and Electric, and San Diego Gas and Electric.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"San Diego County already pays the second highest utility rates in the nation.\",\n    \"The audit found an electricity rate increase between 16 percent and 23 percent from 2022 to 2023 by Southern California Edison, Pacific Gas and Electric, and San Diego Gas and Electric.\",\n    \"These three utility companies raised natural gas prices between 27 percent and 162 percent within the same year.\",\n    \"The audit noted a lack of processes to protect consumers from exaggerated cost estimates.\",\n    \"SDG&E reported earnings higher than the CPUC-authorized rate of return for nine out of the ten years.\",\n    \"AB 2666 would require the CPUC to review actual utility costs compared to the authorized rate of return.\",\n    \"AB 2666 would align future authorized revenues based on past costs that were recorded.\",\n    \"AB 2683 would require Cal Advocates to push for lower utility rates every time rate increases are proposed.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2cf372fa98c6e81ce23936b9af90cf80f658ee11"
+}

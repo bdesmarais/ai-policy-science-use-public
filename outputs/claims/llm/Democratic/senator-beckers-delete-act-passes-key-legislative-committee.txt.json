@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-beckers-delete-act-passes-key-legislative-committee.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) – Today, Senator Josh Becker’s (D-San Mateo) Delete Act received support from the Assembly Committee on Privacy and Consumer Protection. SB 362 would allow Californian",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Delete Act would allow Californians to control access to their personal information by enabling them to require data brokers to delete their data.\",\n    \"Data brokers currently have the ability to use sensitive data related to reproductive healthcare, geolocation, an",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Delete Act would allow Californians to control access to their personal information by enabling them to require data brokers to delete their data.\",\n    \"Data brokers currently have the ability to use sensitive data related to reproductive healthcare, geolocation, and purchasing data for commercial purposes.\",\n    \"Data brokers collect and analyze personal information from public records, social media platforms, online transactions, and other sources to create detailed consumer profiles.\",\n    \"Data brokers in California are required to register with the Attorney General but are not mandated to disclose the types of information they collect and sell.\",\n    \"Under the California Consumer Privacy Act, individuals can request the deletion of information directly collected from them, but not of information acquired from other sources.\",\n    \"The California Privacy Protection Agency would create a method for consumers to instruct all data brokers to delete their personal information without charge.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "75955f1c5e90ffd2559485215812cdb6b34c83a1"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20190220-wicks-bill-would-whisk-sugary-drinks-out-checkout-aisles.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:05:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The sugar-sweetened beverage industry is fueling a public health crisis of obesity, diabetes, and heart disease.\",\n    \"Placing sugary beverages at checkout lines is a marketing tactic that induces customers to buy and consume products they didn't intend to.\",\n    \"Peopl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The sugar-sweetened beverage industry is fueling a public health crisis of obesity, diabetes, and heart disease.\",\n    \"Placing sugary beverages at checkout lines is a marketing tactic that induces customers to buy and consume products they didn't intend to.\",\n    \"People who buy soda and candy from the checkout line are often the same people who tried to avoid those items elsewhere in the store.\",\n    \"45 percent of shoppers interviewed had bought soda from the checkout line in the previous month.\",\n    \"People who consume 1-2 cans of soda per day or more have a 26 percent higher chance of developing type 2 diabetes than those who avoid sugary drinks.\",\n    \"Reducing population-level consumption of sugar-sweetened beverages would help prevent obesity and associated health problems like diabetes and heart disease.\",\n    \"30 to 40 percent of all U.S. healthcare costs could be linked to excess sugar in people's diets, much of which comes from sugar-sweetened beverages.\",\n    \"67 percent of customers prefer not to have soda, candy, chips, and other high-fat, high-sugar foods at checkouts at grocery stores.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "797c6eb41f87e7a23f913fdf8d97f07befe93b00"
+}

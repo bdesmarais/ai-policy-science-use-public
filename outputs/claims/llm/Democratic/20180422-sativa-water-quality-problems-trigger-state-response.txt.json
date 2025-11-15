@@ -1,0 +1,13 @@
+{
+  "press_release": "20180422-sativa-water-quality-problems-trigger-state-response.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Residents served by Sativa have been routinely complaining that brown water is coming from their kitchen faucets and bathtubs.\",\n    \"Assemblymember Mike A. Gipson has created the Water Complaint Task Force and Clearinghouse to address water quality issues.\",\n    \"Sativa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Residents served by Sativa have been routinely complaining that brown water is coming from their kitchen faucets and bathtubs.\",\n    \"Assemblymember Mike A. Gipson has created the Water Complaint Task Force and Clearinghouse to address water quality issues.\",\n    \"Sativa must be held accountable for the ongoing water quality problems.\",\n    \"The Water Board is aware of the water quality issue affecting residents but has received limited communication from the community.\",\n    \"Assembly Bill 272 sought to create partnerships between struggling water agencies and larger public water agencies to support funding efforts.\",\n    \"Small water districts often struggle to access state funds due to their lack of technical, managerial, and financial sophistication.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b76eb40f4a39ec59df9cb5da74280836d792da67"
+}

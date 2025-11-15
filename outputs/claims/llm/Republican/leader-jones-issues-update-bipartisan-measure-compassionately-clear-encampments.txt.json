@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-issues-update-bipartisan-measure-compassionately-clear-encampments.txt",
+  "party": "Republican",
+  "title": "Today,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 31 prohibits homeless encampments near sensitive community areas such as schools, daycare centers, parks, and libraries.\",\n    \"SB 31 requires enforcement officers to give a 72-hour notice before an encampment sweep.\",\n    \"SB 31 requires enforcement officers to provi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 31 prohibits homeless encampments near sensitive community areas such as schools, daycare centers, parks, and libraries.\",\n    \"SB 31 requires enforcement officers to give a 72-hour notice before an encampment sweep.\",\n    \"SB 31 requires enforcement officers to provide information about sleeping alternatives, homeless and mental health services, and homeless shelters.\",\n    \"Over 2,000 Californians have signed a petition in support of SB 31.\",\n    \"The proposed legislation is modeled after a recent measure passed by the City of Los Angeles.\",\n    \"Homelessness is reportedly soaring in California, particularly in San Diego.\",\n    \"Some believe it is inhumane to allow people to live on the street.\",\n    \"Law enforcement feels constrained by legal limitations in addressing homelessness.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0cfc58382b01eb4b8456d486949e7e2c1a9d5473"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230814-assemblymembers-kalra-and-mckinnor-senator-cortese-pen-letter-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:05:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"State workers are currently offered pre-pandemic wages in contract negotiations.\",\n    \"Delays in reaching a fair contract can prolong the economic impact on state workers.\",\n    \"100,000 public servants in California may face a pay cut of thousands of dollars for at lea",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"State workers are currently offered pre-pandemic wages in contract negotiations.\",\n    \"Delays in reaching a fair contract can prolong the economic impact on state workers.\",\n    \"100,000 public servants in California may face a pay cut of thousands of dollars for at least 6 months if negotiations are unresolved.\",\n    \"Workers deserve a livable wage to avoid struggles in making ends meet.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b22d4c3323f820b07d7218a584644b9a75889830"
+}

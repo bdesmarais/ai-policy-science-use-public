@@ -1,0 +1,13 @@
+{
+  "press_release": "save-our-hospitals-legislation-senate-bill-774-debate-and-vote-senate-health-committee.txt",
+  "party": "Republican",
+  "title": "Who?",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Brian W. Jones is advocating for SB 774, aimed at preventing the closure of financially distressed rural hospitals in California.\",\n    \"The proposed acquisition of Madera Community Hospital by Trinity Health was blocked by Attorney General Robert Bonta, resultin",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Brian W. Jones is advocating for SB 774, aimed at preventing the closure of financially distressed rural hospitals in California.\",\n    \"The proposed acquisition of Madera Community Hospital by Trinity Health was blocked by Attorney General Robert Bonta, resulting in the hospital's closure.\",\n    \"SB 774 would prohibit the Attorney General from imposing unreasonable conditions on rural hospitals seeking to merge or sell to another hospital.\",\n    \"Many rural hospitals in California are reported to be on the brink of collapse.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "63842a1985e083bf2737d6549e8dc8db4b1a3b83"
+}

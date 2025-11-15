@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-reacts-to-report-of-highest-gas-price-gap-ever-10-06-2022.txt",
+  "party": "Republican",
+  "title": "Gas is Now $2.55 More Expensive in California",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ee84d63a9eff35834329288df6094fccc66f3e0a"
+}

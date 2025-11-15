@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-jeff-gonzalez-recognizes-may-as-military-appreciation-month-in-california.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO, CA — Today, Assemblyman Jeff Gonzalez (R-Indio), a 21-year Marine Corps combat veteran and Vice Chair of the Assembly Committee on Military and Veterans Affairs, issued",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a3b699e0f818059777bb0d93dc2266edc16c5373"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250409-assemblywoman-sorias-ev-school-bus-extension-bill-approved-education.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1111 extends the deadline for small rural school districts to adopt zero-emission school buses to 2045.\",\n    \"Local educational agencies face challenges in adopting zero-emission school buses by the state-mandated deadline of 2035.\",\n    \"Many rural school districts ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1111 extends the deadline for small rural school districts to adopt zero-emission school buses to 2045.\",\n    \"Local educational agencies face challenges in adopting zero-emission school buses by the state-mandated deadline of 2035.\",\n    \"Many rural school districts do not have the resources, capacity, or infrastructure to meet the state-mandated requirements for zero-emission school buses.\",\n    \"A recent survey of superintendents found challenges including cost, increased maintenance, and lack of charging infrastructure for zero-emission school buses.\",\n    \"Existing electrical infrastructure often does not support new charging stations for zero-emission school buses.\",\n    \"Performance of electric vehicles varies across a range of topography and climate conditions, impacting their adoption by school districts.\",\n    \"Safety concerns and cost are significant barriers to the adoption of zero-emission school buses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d52bd0527baa08b8d2e4bb6fb1b579d6d3cc7a03"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-becker-rallies-tech-leaders-to-fundraise-palisades-fire.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Senator Josh Becker (D-Menlo Park) has announced a major fundraising initiative, uniting Silicon Valley’s tech leaders and entrepreneurs to support victims of the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Palisades Fire is the largest fire in California's history.\",\n    \"The Palisades Fire has destroyed over one thousand structures and burned over 11,000 acres.\",\n    \"The Palisades Fire has forced over 150,000 residents to evacuate.\",\n    \"There is a link between more",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Palisades Fire is the largest fire in California's history.\",\n    \"The Palisades Fire has destroyed over one thousand structures and burned over 11,000 acres.\",\n    \"The Palisades Fire has forced over 150,000 residents to evacuate.\",\n    \"There is a link between more extreme weather events and climate change.\",\n    \"Addressing the root causes of disasters includes climate resilience and sustainable community planning.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "458f32ee6b9bcaa4a7acab1bff65219b3ea71d1b"
+}

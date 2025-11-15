@@ -1,0 +1,13 @@
+{
+  "press_release": "20190211-assemblymember-ramos-holds-historic-swearing-ceremony.txt",
+  "party": "Democratic",
+  "title": "Milestone reached as the first California Native American elected to the State Legislature",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:04:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fc98bd654b67f277b07c56fff67f27010a38e494"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240425-assemblymember-kalra-celebrates-passage-ab-2441-reduce-harmful-police.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2441 aims to decrease law enforcement involvement in student behavioral issues at school.\",\n    \"Using law enforcement to discipline students has known negative impacts.\",\n    \"AB 2441 aims to empower teachers and administrators to prioritize the success and safety of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2441 aims to decrease law enforcement involvement in student behavioral issues at school.\",\n    \"Using law enforcement to discipline students has known negative impacts.\",\n    \"AB 2441 aims to empower teachers and administrators to prioritize the success and safety of students.\",\n    \"Current law mandates educators to involve law enforcement in various student behavior incidents.\",\n    \"Studies show interactions with law enforcement can harm academic success.\",\n    \"Studies have demonstrated that school police presence does not reduce student crime rates.\",\n    \"School police presence may lead to increased student misconduct.\",\n    \"Black students and students with disabilities are disproportionately impacted by referrals to law enforcement.\",\n    \"Officers handcuffed students with disabilities 41% of the time, compared to 15% of students without disabilities.\",\n    \"When students were referred to law enforcement, officers handcuffed Black students 20% of the time, compared to only 9% of White students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fb794868eb405a8d132c2aa92c050876fd2c697d"
+}

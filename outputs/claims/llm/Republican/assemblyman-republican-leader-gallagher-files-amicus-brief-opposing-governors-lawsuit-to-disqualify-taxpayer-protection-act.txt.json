@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-republican-leader-gallagher-files-amicus-brief-opposing-governors-lawsuit-to-disqualify-taxpayer-protection-act.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – The week,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Taxpayer Protection Act would require voter approval of all state and local taxes.\",\n    \"The Taxpayer Protection Act creates new transparency and accountability measures for how taxes are approved and how politicians spend tax revenue.\",\n    \"Government agencies hav",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Taxpayer Protection Act would require voter approval of all state and local taxes.\",\n    \"The Taxpayer Protection Act creates new transparency and accountability measures for how taxes are approved and how politicians spend tax revenue.\",\n    \"Government agencies have complied with similar voter initiatives in the past.\",\n    \"Creating a voter approval requirement on state taxes is allowed under California's democracy system.\",\n    \"The Taxpayer Protection Act builds on the foundation created by Proposition 13 and other popular voter-approved taxpayer rights ballot measures.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3e197036b7016b2953e3af4c5f1b8322ed4ebfa3"
+}

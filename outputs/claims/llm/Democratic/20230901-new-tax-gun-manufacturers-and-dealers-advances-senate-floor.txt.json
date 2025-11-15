@@ -1,0 +1,13 @@
+{
+  "press_release": "20230901-new-tax-gun-manufacturers-and-dealers-advances-senate-floor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:06:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"AB 28 would impose an 11 percent excise tax on the sale of guns and ammunition by gun manufacturers and dealers.\",\n    \"AB 28 is expected to generate over $100 million annually to fund school safety and violence prevention programs.\",\n    \"The firearm death rate for",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"AB 28 would impose an 11 percent excise tax on the sale of guns and ammunition by gun manufacturers and dealers.\",\n    \"AB 28 is expected to generate over $100 million annually to fund school safety and violence prevention programs.\",\n    \"The firearm death rate for American children increased 40 percent between 2018 and 2021.\",\n    \"Providing long-term investments in violence intervention and prevention programs is a proven way to stop gun violence before it begins.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bc45a315e873691ed2e6fcd616e53fa40e14a24e"
+}

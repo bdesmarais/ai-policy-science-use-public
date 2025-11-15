@@ -1,0 +1,13 @@
+{
+  "press_release": "20170529-quirk-silva-calls-out-orange-county-veteran-cemetery-opposition.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO â On Tuesday, May 30, a day after Memorial Day, Assemblywoman Sharon Quirk-Silva (Fullerton) was the focus of a stealth texting, email and robocall campaign in Fullert",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A veterans cemetery in Orange County is seriously needed.\",\n    \"The cemetery will offer more than 210,000 gravesites, enough to serve the needs of veterans for the next 100 years.\",\n    \"The state funds in question were secured for a cemetery that all Southern Californi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A veterans cemetery in Orange County is seriously needed.\",\n    \"The cemetery will offer more than 210,000 gravesites, enough to serve the needs of veterans for the next 100 years.\",\n    \"The state funds in question were secured for a cemetery that all Southern California Veterans have earned.\",\n    \"California's Department of Veterans Affairs estimated the first phase of the project would cost $77.4 million.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eb07cf2c727603a08158b34a0f2707f895a679d6"
+}

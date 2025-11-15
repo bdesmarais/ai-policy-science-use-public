@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-honored-golden-apple-award-championing-parent-choice-education.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones ( R-San Diego ) has been recognized with the Golden Apple Award by California Parents for Public Virtual Education (CPPVE) for his unwavering ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Public virtual schools play a vital role in California's education system.\",\n    \"Senator Brian W. Jones has demonstrated exceptional dedication to expanding educational opportunities for California families.\",\n    \"Senator Jones has consistently pushed for policies that",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Public virtual schools play a vital role in California's education system.\",\n    \"Senator Brian W. Jones has demonstrated exceptional dedication to expanding educational opportunities for California families.\",\n    \"Senator Jones has consistently pushed for policies that empower parents and expand school choice.\",\n    \"Senator Jones' leadership has been instrumental in ensuring students in non-traditional learning environments receive the resources they need to succeed.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ecf8e82edd0ff7cc53fedf18f42c1315634f39ab"
+}

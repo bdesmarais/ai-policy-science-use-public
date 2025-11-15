@@ -1,0 +1,13 @@
+{
+  "press_release": "20240208-new-legislation-asm-bennett-seeks-protect-californias-ocean-biodiversity.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Steve Bennett (D-Ventura) introduced",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:34:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2220 aims to reduce injury and death to marine life in California's set gillnet fishery.\",\n    \"More than half of the animals caught in set gillnets are thrown overboard as waste.\",\n    \"The set gillnet fishery is one of the highest rate discards of ocean a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2220 aims to reduce injury and death to marine life in California's set gillnet fishery.\",\n    \"More than half of the animals caught in set gillnets are thrown overboard as waste.\",\n    \"The set gillnet fishery is one of the highest rate discards of ocean animals in California.\",\n    \"Alternative fishing methods have been proven to diminish harm to marine life and reduce bycatch.\",\n    \"The current set gillnet fishery raises concerns for dozens of sensitive marine species, particularly rays, skates, and sharks.\",\n    \"Removal of exemptions in current law would prevent the incidental catch and sale of great white sharks and giant seabass.\",\n    \"The set gillnet fishery catches over 90 percent of the young great white sharks caught and thrown overboard in California fisheries.\",\n    \"The set gillnet fishery is prohibited from targeting white sharks and giant seabass in other commercial and recreational fisheries.\",\n    \"California's Channel Islands are recognized as a biodiversity hotspot in the Pacific Ocean.\",\n    \"The California Department of Fish and Wildlife will require third-party observers on state fisheries to accurately count and record catch.\",\n    \"More selective hook and line fishing methods yield significantly less bycatch compared to set gillnets.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3c5a81cb35ad669d0d3363ca44cd550ac721c359"
+}

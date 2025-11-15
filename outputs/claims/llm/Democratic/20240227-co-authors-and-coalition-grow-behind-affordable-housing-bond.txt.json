@@ -1,0 +1,13 @@
+{
+  "press_release": "20240227-co-authors-and-coalition-grow-behind-affordable-housing-bond.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"distinct_claims\": [\n    \"California's housing crisis will not wait for the state budget to improve.\",\n    \"Without the housing bond, the affordable housing pipeline will stall.\",\n    \"A $10 billion bond would provide financial stability to many of the state’s core housing and preservati",
+  "raw_text": "```json\n{\n  \"distinct_claims\": [\n    \"California's housing crisis will not wait for the state budget to improve.\",\n    \"Without the housing bond, the affordable housing pipeline will stall.\",\n    \"A $10 billion bond would provide financial stability to many of the state’s core housing and preservation programs.\",\n    \"Asm. Wicks’ bond would provide the funds to produce, preserve, and/or retrofit more than 120,000 affordable homes.\",\n    \"Collectively, these projects will result in tens of thousands of high-paying construction jobs.\",\n    \"Californians must earn $81,191 per year to afford the average two-bedroom apartment and avoid being rent-burdened.\",\n    \"California needs to produce an additional 2.5 million housing units, including 1.2 million for lower-income households, to meet the state’s unmet housing needs.\",\n    \"Resources from California's last housing bond, the $3 billion Veterans and Affordable Housing Bond Act of 2018, will be largely allocated by the end of 2024.\",\n    \"The last round of funding for the Multi-family Housing Program was oversubscribed 10:1.\",\n    \"AB 1657 will help ensure that California continues to make progress towards a future of housing stability and shared prosperity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c4972fd8f2c36ed30f522a743e76569d4309c1bc"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "california-senate-proposes-20-billion-transportation-investment.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-Silicon Valley) made the following statement regarding the California Senate proposed investment of $20 billion in transportation projects statewide. The Se",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "64bf87933e7634208ee12a5f9332d3097c378b28"
+}

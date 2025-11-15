@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-marie-alvarado-gil-criticizes-governor-newsoms-costly-power-grab-overturn.txt",
+  "party": "Republican",
+  "title": "Following the approval of Governor Newsom's gerrymandering initiative in the legislature, State Senator Marie Alvarado-Gil ( R-Jackson ) denounced it as a blatant seat-stealing sch",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's gerrymandering initiative is described by State Senator Marie Alvarado-Gil as a blatant seat-stealing scheme.\",\n    \"Senator Alvarado-Gil asserts that the initiative is driven by the governor’s presidential ambitions rather than benefits for Californian",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's gerrymandering initiative is described by State Senator Marie Alvarado-Gil as a blatant seat-stealing scheme.\",\n    \"Senator Alvarado-Gil asserts that the initiative is driven by the governor’s presidential ambitions rather than benefits for Californians or the state.\",\n    \"The plan to replace the Citizens Redistricting Commission’s voter-approved map is criticized for being drawn behind closed doors with no public input.\",\n    \"The special election required by the initiative is projected to cost taxpayers as much as $250 million.\",\n    \"Senator Alvarado-Gil claims that one-party control in California has led to escalating costs, underperforming schools, unsafe communities, and erosion of freedoms.\",\n    \"The initiative is said to threaten the foundation of democracy by dismantling voter-protection safeguards.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3f93b82014fe79243e5f235e8312e4b4e095ddcf"
+}

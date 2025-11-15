@@ -1,0 +1,13 @@
+{
+  "press_release": "20231012-haneys-bill-ban-expensive-security-deposits-signed-governor.txt",
+  "party": "Democratic",
+  "title": "Sacramento –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:30:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California now joins eleven other states in the country to limit security deposits to only one month's rent.\",\n    \"Massive security deposits can create insurmountable barriers to housing affordability and accessibility for millions of Californians.\",\n    \"53% of Califor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California now joins eleven other states in the country to limit security deposits to only one month's rent.\",\n    \"Massive security deposits can create insurmountable barriers to housing affordability and accessibility for millions of Californians.\",\n    \"53% of California renters indicate that they can afford their rent but cannot get an apartment due to the inability to pay two months' rent as a security deposit.\",\n    \"Expensive security deposits are often imposed on immigrants and people of color, limiting access to safe and affordable housing.\",\n    \"Capping high security deposits advances a measure of equity and empowers immigrants and people of color in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "24c0228f4475d60901c2fb6c5568863265e358b9"
+}

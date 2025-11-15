@@ -1,0 +1,13 @@
+{
+  "press_release": "radical-democrat-lawmakers-want-release-violent-murderers-sentenced-life-without-parole.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones (R-San Diego) and Senate Public Safety Committee Vice Chair Kelly Seyarto ( R-Murrieta) released the Senate Republican Analysis exposin",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 94 could let hundreds of the most heinous murderers out of prison early, even if they were sentenced to life without parole.\",\n    \"This harsh punishment is reserved for the worst of the worst criminals.\",\n    \"The bill allows violent murderers sentenced to life in pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 94 could let hundreds of the most heinous murderers out of prison early, even if they were sentenced to life without parole.\",\n    \"This harsh punishment is reserved for the worst of the worst criminals.\",\n    \"The bill allows violent murderers sentenced to life in prison without the possibility of parole to petition the court for a new sentence with parole after serving at least 25 years.\",\n    \"The individuals eligible for new sentencing under SB 94 are convicted of a 'special circumstance murder,' which involves particularly egregious acts such as torture or rape by instrument.\",\n    \"The efforts to empty California's prisons have become too focused on the criminals and neglect to consider the victims and their families.\",\n    \"The bill sends a terrible message and retraumatizes families of victims who were reassured that the criminals would never be released.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b3a7e6cc8f56640e4f222b4f6a573212bb850622"
+}

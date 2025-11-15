@@ -1,0 +1,13 @@
+{
+  "press_release": "landmark-law-prohibits-health-insurance-companies-using-ai-to.txt",
+  "party": "Democratic",
+  "title": "The Physicians Make Decisions Act Ensures Health Care Decisions Are Made by Medical Professionals, Not Algorithms",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Physicians Make Decisions Act prohibits decisions about medical treatments from being solely determined by artificial intelligence algorithms used by health insurers.\",\n    \"Artificial intelligence has immense potential to enhance healthcare delivery.\",\n    \"An algor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Physicians Make Decisions Act prohibits decisions about medical treatments from being solely determined by artificial intelligence algorithms used by health insurers.\",\n    \"Artificial intelligence has immense potential to enhance healthcare delivery.\",\n    \"An algorithm cannot fully understand a patient’s unique medical history or needs.\",\n    \"The misuse of AI algorithms can lead to devastating consequences in healthcare.\",\n    \"Errors in algorithm-driven denials of care can result in severe health outcomes or loss of life.\",\n    \"Under SB 1120, any denial, delay, or modification of care based on medical necessity must be reviewed by a licensed physician or qualified health care provider.\",\n    \"The law establishes fair and equitable standards for companies using AI in their utilization review processes.\",\n    \"California's SB 1120 sets a national precedent for ensuring responsible use of AI in healthcare.\",\n    \"Other states are following California's lead in implementing laws to protect patients from utilizing AI to determine healthcare decisions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c9afbe9b994950911c4a037421e0c29fbf9587d4"
+}

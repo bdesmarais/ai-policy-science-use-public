@@ -1,0 +1,13 @@
+{
+  "press_release": "one-billion-dollars-would-be-better-spent-on-wildfire-prevention-and-water-infrastructure-than-on-high-speed-rail.txt",
+  "party": "Republican",
+  "title": "Vice Chair of Natural Resources Committee introduces legislation to protect communities from wildfire and to strengthen water infrastructure.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:00:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"High-Speed Rail (HSR) has spent $13.7 billion in total.\",\n    \"$1.6 billion of HSR's budget has been spent on professional marketing materials and consultants.\",\n    \"The only completed segment of HSR so far is between the Kern-Tulare line and Shafter, which has cost $1.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"High-Speed Rail (HSR) has spent $13.7 billion in total.\",\n    \"$1.6 billion of HSR's budget has been spent on professional marketing materials and consultants.\",\n    \"The only completed segment of HSR so far is between the Kern-Tulare line and Shafter, which has cost $1.4 billion for 22 miles of raised dirt and 11 overpass structures.\",\n    \"Zero feet of track have been laid for the HSR project.\",\n    \"HSR's initial budget was promised to be completed for $34 billion, but it has ballooned to $128 billion.\",\n    \"The former Chair of HSR's peer review group testified that the project 'cannot be completed with the money available.'\",\n    \"The peer review group chair asserted that state lawmakers need to decide whether to continue spending tax dollars if there is not enough money to complete the project.\",\n    \"$1 billion spent annually on HSR would be better spent on wildfire prevention and water infrastructure projects.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "384830e3d29cd6eb38c42ce4bd6051e5ef293ea4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "states-mental-health-commission-welcomes-senator-cortese.txt",
+  "party": "Democratic",
+  "title": "The Mental Health Services Oversight and Accountability Commission is pleased to welcome California State Senator Dave Cortese as its newest Commissioner.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:35:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Mental health challenges have grown for many, particularly in the student community.\",\n    \"There is a need to expand existing support systems for individuals struggling with mental health.\",\n    \"The pandemic will have long-term implications on the psychological and soc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Mental health challenges have grown for many, particularly in the student community.\",\n    \"There is a need to expand existing support systems for individuals struggling with mental health.\",\n    \"The pandemic will have long-term implications on the psychological and social well-being of the younger generation.\",\n    \"The Commission is committed to strengthening school mental health support.\",\n    \"The Commission aims to reduce criminal justice involvement of people living with unmet mental health needs.\",\n    \"The Commission emphasizes improving mental health outcomes for all students through partnerships with schools and counties.\",\n    \"The Mental Health Services Act was enacted by California voters in 2014 to transform public and private mental health systems.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fe13e09127bbd9343ee05f0f5f806fd935135ea3"
+}

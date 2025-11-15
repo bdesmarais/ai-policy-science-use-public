@@ -1,0 +1,13 @@
+{
+  "press_release": "20170914-bills-aiming-secure-california-cyberattacks-reach-governors-desk.txt",
+  "party": "Democratic",
+  "title": "Two Bills passed by the Legislature are designed to bolster California’s Cybersecurity",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed two bills designed to help further secure California's valuable network from cybercriminals.\",\n    \"AB 531 would ensure that the state is using the most up-to-date technologies to protect the state network.\",\n    \"AB 531 requires t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed two bills designed to help further secure California's valuable network from cybercriminals.\",\n    \"AB 531 would ensure that the state is using the most up-to-date technologies to protect the state network.\",\n    \"AB 531 requires the California Department of Technology (CDT) to assess the current security technologies in place.\",\n    \"AB 531 mandates the development of a statewide plan to update policies and technology for the continued security and privacy of state networks and data.\",\n    \"AB 1022 requires state agencies and departments to submit inventories of the critical infrastructure controls and assets that reside on their networks.\",\n    \"The inventories submitted under AB 1022 will provide strategic insight into the composition of various parts of the state network.\",\n    \"The inventory information from AB 1022 will enable targeted threat information sharing and a more efficient allocation of resources in response to a cyberattack.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1b7ab7ebee6bf5ebce7280b9fbe9938f80d36368"
+}

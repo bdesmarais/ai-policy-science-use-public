@@ -1,0 +1,13 @@
+{
+  "press_release": "20240111-assemblymember-connolly-updates-criminal-procedure-mentally-incompetent.txt",
+  "party": "Democratic",
+  "title": "S",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"document_title\": \"S\",\n  \"document_id\": \"20240111-assemblymember-connolly-updates-criminal-procedure-mentally-incompetent.txt\",\n  \"claims\": [\n    \"Individuals charged with misdemeanor sexual assault crimes who are determined incompetent to stand trial should have the ability to restore t",
+  "raw_text": "```json\n{\n  \"document_title\": \"S\",\n  \"document_id\": \"20240111-assemblymember-connolly-updates-criminal-procedure-mentally-incompetent.txt\",\n  \"claims\": [\n    \"Individuals charged with misdemeanor sexual assault crimes who are determined incompetent to stand trial should have the ability to restore their competency and receive treatment services.\",\n    \"The restoration of mental competency for defendants charged with misdemeanor sexual assault is vital to community safety.\",\n    \"Defendants determined to be incompetent to stand trial on misdemeanor sexual offenses are often released without mental health treatment.\",\n    \"Dangerous defendants who commit sex crimes can be released to the community without intervention or registration as sex offenders.\",\n    \"Court-ordered treatment is necessary for individuals charged with misdemeanor predatory sexual offenses to ensure public safety.\",\n    \"Rehabilitation opportunities for defendants can protect communities from repeat offenses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0dec1574b63bd82ee9c37806f141fe7484a122d6"
+}

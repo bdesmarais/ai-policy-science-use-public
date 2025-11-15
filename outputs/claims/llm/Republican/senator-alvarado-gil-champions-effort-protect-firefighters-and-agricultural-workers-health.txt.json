@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-alvarado-gil-champions-effort-protect-firefighters-and-agricultural-workers-health.txt",
+  "party": "Republican",
+  "title": "Today, Senator Marie Alvarado-Gil announced her Wildfire Smoke and Health Outcomes Data Act ( SB 223 ) unanimously passed out of the Senate Health Committee. SB 223 would establish",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Wildfire smoke affects health outcomes for individuals exposed to it.\",\n    \"California policymakers currently lack the necessary data to assess if forest health and wildfire risk reduction investments improve health outcomes.\",\n    \"Regular updates to data tracking air ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Wildfire smoke affects health outcomes for individuals exposed to it.\",\n    \"California policymakers currently lack the necessary data to assess if forest health and wildfire risk reduction investments improve health outcomes.\",\n    \"Regular updates to data tracking air pollution concentrations from wildfire smoke are necessary for public health.\",\n    \"Tracking smoke impacts back to source fires is foundational for research on the health benefits of forest management strategies.\",\n    \"Establishing methodological guidelines for estimating air pollutant concentrations from wildfire smoke is vital for future research.\",\n    \"Estimating smoke emissions from human-made materials is essential for understanding wildfire impacts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "78c63acd539bacf57453b1b27aabb6dc4b4ff181"
+}

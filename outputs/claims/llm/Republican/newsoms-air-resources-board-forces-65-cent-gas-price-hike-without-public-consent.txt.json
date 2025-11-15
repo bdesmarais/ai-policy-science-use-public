@@ -1,0 +1,13 @@
+{
+  "press_release": "newsoms-air-resources-board-forces-65-cent-gas-price-hike-without-public-consent.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian Jones ( R-San Diego) released the following statement in response to the California Air Resources Board (CARB) expanding the state’s Low Carbon Fuel St",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:00:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Air Resources Board's 65-cent gas price hike is a direct cost to Californians.\",\n    \"The Air Resources Board is responsible for implementing Governor Newsom's plan to convert all California vehicles to electric by 2035.\",\n    \"California is currently not ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Air Resources Board's 65-cent gas price hike is a direct cost to Californians.\",\n    \"The Air Resources Board is responsible for implementing Governor Newsom's plan to convert all California vehicles to electric by 2035.\",\n    \"California is currently not on track to hit Governor Newsom's mandate to convert vehicles to electric by 2035.\",\n    \"The Air Resources Board is comprised of political appointees picked by the governor.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b517be9f0f723e94dc83aabdaf4a32e23ce02da9"
+}

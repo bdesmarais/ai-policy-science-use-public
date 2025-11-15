@@ -1,0 +1,13 @@
+{
+  "press_release": "20240930-bill-ensure-food-security-through-calfresh-signed-governor.txt",
+  "party": "Democratic",
+  "title": "A CalFresh pilot project served tens of thousands of people by improving access to healthy food. The project, known as the CalFresh Fruit and Vegetable Electronic Benefits Transfer",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:19:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The CalFresh Fruit and Vegetable EBT Pilot Project served tens of thousands of people by improving access to healthy food.\",\n    \"The CalFresh Fruit and Vegetable EBT Pilot Project benefited both low-income Californians and the agricultural economy.\",\n    \"The CalFresh F",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The CalFresh Fruit and Vegetable EBT Pilot Project served tens of thousands of people by improving access to healthy food.\",\n    \"The CalFresh Fruit and Vegetable EBT Pilot Project benefited both low-income Californians and the agricultural economy.\",\n    \"The CalFresh Fruit and Vegetable EBT Pilot Project is effective in addressing food insecurity.\",\n    \"The program provided tens of thousands of Californians with healthier and more nutritious food.\",\n    \"For every $1 of CalFresh benefits spent on fresh fruits and vegetables, CalFresh recipients received $1 back on their EBT card for up to $60 per month.\",\n    \"Nearly a quarter of Californian households experienced food insecurity as of August 2024.\",\n    \"The annual health care costs associated with food insecurity totals over $7 billion annually in California.\",\n    \"The CalFresh Fruit and Vegetable Pilot has served as a critical source of supplemental benefits for individuals and families.\",\n    \"The program provided a total of $10.5 million in rebates to 93,000 CalFresh households statewide since it launched.\",\n    \"The program served more than 7,200 households in Santa Clara County and brought over $460,000 additional dollars for families between fall 2023 to April 2024.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a857c8691df410745a8c4098151ee89c62b7d11a"
+}

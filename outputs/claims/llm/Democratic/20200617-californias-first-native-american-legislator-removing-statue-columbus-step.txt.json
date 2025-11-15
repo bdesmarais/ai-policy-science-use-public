@@ -1,0 +1,13 @@
+{
+  "press_release": "20200617-californias-first-native-american-legislator-removing-statue-columbus-step.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The statue of Christopher Columbus is a symbol of genocide and atrocities toward Indigenous people throughout the world.\",\n    \"The educational and economic opportunities of the Native American community in California lag behind those of fellow citizens.\",\n    \"Native Am",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The statue of Christopher Columbus is a symbol of genocide and atrocities toward Indigenous people throughout the world.\",\n    \"The educational and economic opportunities of the Native American community in California lag behind those of fellow citizens.\",\n    \"Native American women and girls are murdered and missing at rates as high as 10 times the national rate on some reservations.\",\n    \"The assailants of murdered and missing Native American women and girls are often protected by confused law enforcement and judicial authority covering crimes on tribal lands.\",\n    \"The University of California has not returned tribal remains and cultural artifacts despite state and federal laws.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bd73222ba0da5c91f5a9488571cdd66fb0d3250d"
+}

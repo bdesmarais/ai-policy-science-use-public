@@ -1,0 +1,13 @@
+{
+  "press_release": "20230424-assemblymember-mike-fong-support-law-enforcement-and-local-leaders.txt",
+  "party": "Democratic",
+  "title": "MONTEREY PARK, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Each year about 5,000 people are added to the Armed Prohibited Persons System (APPS) due to a criminal conviction.\",\n    \"As of January 1, 2023, there are 23,869 individuals prohibited from possessing a firearm who continue to have a gun registered in their name.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Each year about 5,000 people are added to the Armed Prohibited Persons System (APPS) due to a criminal conviction.\",\n    \"As of January 1, 2023, there are 23,869 individuals prohibited from possessing a firearm who continue to have a gun registered in their name.\",\n    \"The courts have failed to effectively confirm the surrender of firearms at the time a person is convicted.\",\n    \"AB 732 aims to strengthen the process for removing firearms from individuals prohibited from owning them due to a criminal conviction.\",\n    \"AB 732 would require proof that a firearm has been relinquished before a court can close a case.\",\n    \"There is a gap in communication between the Department of Justice and local law enforcement regarding armed prohibited persons.\",\n    \"Many local law enforcement agencies are unaware they receive information about armed prohibited persons.\",\n    \"AB 733 would prohibit state and local agencies from selling firearms, firearm parts, ammunition, and body armor.\",\n    \"More guns in communities correlates with more violence and more victims.\",\n    \"AB 1638 would require local public agencies to provide emergency information in languages spoken by at least 10% of the population.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "381379779be30342488558f5c5a44ebe8818596e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-the-interim-housing-act-giving-cities-and.txt",
+  "party": "Democratic",
+  "title": "The Interim Housing Act fast tracks the building of interim housing and scales up efforts to bring people indoors and save lives",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has the fourth highest rate of homelessness and the highest rate of unsheltered homelessness in the nation.\",\n    \"California's population experiencing homelessness reached a record 181,399 individuals in 2023, with 67 percent being unsheltered.\",\n    \"The Int",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has the fourth highest rate of homelessness and the highest rate of unsheltered homelessness in the nation.\",\n    \"California's population experiencing homelessness reached a record 181,399 individuals in 2023, with 67 percent being unsheltered.\",\n    \"The Interim Housing Act encourages the development of interim housing by clarifying that relocatable, non-congregate interim housing is eligible for streamlined zoning.\",\n    \"The Interim Housing Act reduces construction time and costs for interim housing.\",\n    \"The Interim Housing Act empowers local governments to build interim housing by cutting red tape and expediting approvals.\",\n    \"The Interim Housing Act extends the sunset for existing streamlining authorities to provide locals more assurance in addressing homelessness beyond 2026.\",\n    \"The Interim Housing Act frees up state funding for interim housing.\",\n    \"Interim housing is identified as the missing rung on the ladder to permanent housing.\",\n    \"San Jose achieved a 14% reduction in unsheltered homelessness over the last two years through interim housing efforts.\",\n    \"The Interim Housing Act eliminates red tape and encourages local governments to prioritize and scale interim housing.\",\n    \"Interim supportive housing is a key part of California's response to homelessness that expedites getting people into safe conditions.\",\n    \"The Interim Housing Act allows attractive and cost-effective interim housing communities to be built in a matter of months.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "091ce3c728ed7c1e0de064784c70b9cf252138bb"
+}

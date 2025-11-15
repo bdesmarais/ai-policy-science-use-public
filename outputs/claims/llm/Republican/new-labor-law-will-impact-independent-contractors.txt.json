@@ -1,0 +1,13 @@
+{
+  "press_release": "new-labor-law-will-impact-independent-contractors.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove (R-Bakersfield) issued the following statement after the governor signed Assembly Bill 5 into law. AB 5 will threaten the liveli",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 5 will threaten the livelihoods of many independent contractors in California because it only covers certain industries.\",\n    \"Senate Republicans proposed exemptions to AB 5 for various professions, including foresters, health care professionals, and single truck own",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 5 will threaten the livelihoods of many independent contractors in California because it only covers certain industries.\",\n    \"Senate Republicans proposed exemptions to AB 5 for various professions, including foresters, health care professionals, and single truck owner-operators.\",\n    \"Senate Democrats blocked Senate Republicans' efforts to protect the employment status of independent contractors in those industries.\",\n    \"The passage of AB 5 has created discrepancies in support for independent contractors across different industries.\",\n    \"Democrats, labor unions, and Governor Newsom have been accused of picking winners and losers with AB 5.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "820ae086a0ffa9607d03411eac4571afe9a6772f"
+}

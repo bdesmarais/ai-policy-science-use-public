@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-humbled-and-grateful-reelection-state-senate.txt",
+  "party": "Republican",
+  "title": "Senator Brian W. Jones (R-Santee) this afternoon issued the following statement after the most recent vote count put him over 20,000 votes ahead in the race for Senate District 40 ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "27d72fae06c51657c1b00d2ed9731bdc2e93e17b"
+}

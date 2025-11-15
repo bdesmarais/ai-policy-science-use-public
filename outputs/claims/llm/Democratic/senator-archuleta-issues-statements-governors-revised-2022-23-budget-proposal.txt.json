@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-archuleta-issues-statements-governors-revised-2022-23-budget-proposal.txt",
+  "party": "Democratic",
+  "title": "Pico Rivera, CA – Senator Archuleta released the following statement on Governor Gavin Newsom’s revised 2022-23 budget proposal:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The revised budget includes $10 million in funding for education outreach, prevention, and intervention to help prevent veteran suicides.\",\n    \"The budget allocates $40 million to match grants supporting veteran mental health services that provide or coordinate suicide ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The revised budget includes $10 million in funding for education outreach, prevention, and intervention to help prevent veteran suicides.\",\n    \"The budget allocates $40 million to match grants supporting veteran mental health services that provide or coordinate suicide prevention services for veterans and their families.\",\n    \"$2 billion is allocated in the budget to provide incentives for renewable hydrogen in California.\",\n    \"The funding for renewable hydrogen aims to help California meet its emission targets by modernizing the transportation infrastructure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c9cee2aa0861946796b5fd6f6a67c3d26dbdc634"
+}

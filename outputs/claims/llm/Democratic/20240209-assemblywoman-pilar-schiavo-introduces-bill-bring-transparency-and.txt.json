@@ -1,0 +1,13 @@
+{
+  "press_release": "20240209-assemblywoman-pilar-schiavo-introduces-bill-bring-transparency-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Today, Assemblywoman Pilar Schiavo announced the introduction of the Transportation Accountability Act, AB 2086, which will create needed transparency and accountabili",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:34:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The transportation sector is the single largest contributor to greenhouse gas emissions in California.\",\n    \"California has historically failed to align its transportation investments with state and federal goals.\",\n    \"Decades of inequitable transportation policies ha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The transportation sector is the single largest contributor to greenhouse gas emissions in California.\",\n    \"California has historically failed to align its transportation investments with state and federal goals.\",\n    \"Decades of inequitable transportation policies have burdened communities of color and low-income communities with worse health and economic outcomes.\",\n    \"Transportation investments have the potential to yield more economic opportunities by creating high-quality jobs, increasing options to get people to work, and improving local economic activity.\",\n    \"California is failing to meet its own climate and safety goals despite spending billions of dollars annually on transportation.\",\n    \"The Transportation Accountability Act aims to create transparency and accountability in California’s transportation investments.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "468fc347d02206be9cdf0f4f9f5c86ed4700cc27"
+}

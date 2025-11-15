@@ -1,0 +1,13 @@
+{
+  "press_release": "20230208-assemblymember-connolly-introduces-bill-protect-home-insurance-seniors.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) introduced",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:53:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 478 protects adults 65 years-of-age and older from losing their home insurance policy due to increasing risks of wildfires.\",\n    \"AB 478 prevents home insurance providers from cancelling or refusing to renew an insurance policy for seniors based solely on the fact th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 478 protects adults 65 years-of-age and older from losing their home insurance policy due to increasing risks of wildfires.\",\n    \"AB 478 prevents home insurance providers from cancelling or refusing to renew an insurance policy for seniors based solely on the fact that the homeowners live in a high or very high fire hazard severity zone.\",\n    \"The bill puts a 25% cap on the amount an insurance company can increase a senior homeowner’s policy in a high or very high fire hazard severity zone.\",\n    \"The legislation only allows one premium hike every five years for senior homeowners in high or very high fire hazard severity zones.\",\n    \"Seniors in rural areas are more likely to struggle under the pressures of increasing wildfire risks.\",\n    \"An estimated two-thirds of older Californians are at risk of having their homes be underinsured.\",\n    \"The average age of the people who died during the 2017 fires in Sonoma and Napa Counties was 73.\",\n    \"The average age of the people who died in the 2018 Camp fire was 72.\",\n    \"Seniors who are uninsured and lose their homes in wildfires often have few resources to rebuild, leading to potential homelessness or inadequate, temporary shelter.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "28659ddc24f3961be391644f597584ece36c398e"
+}

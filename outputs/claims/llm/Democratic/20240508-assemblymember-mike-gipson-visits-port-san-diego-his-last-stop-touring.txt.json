@@ -1,0 +1,13 @@
+{
+  "press_release": "20240508-assemblymember-mike-gipson-visits-port-san-diego-his-last-stop-touring.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Port of San Diego is making strides in green and sustainable operations.\",\n    \"The Port of San Diego has invested nearly $120 million into electrification.\",\n    \"The Port of San Diego operates all-electric mobile harbor cranes.\",\n    \"The Port of San Diego features",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Port of San Diego is making strides in green and sustainable operations.\",\n    \"The Port of San Diego has invested nearly $120 million into electrification.\",\n    \"The Port of San Diego operates all-electric mobile harbor cranes.\",\n    \"The Port of San Diego features the first electric tugboat in the country.\",\n    \"The Maritime Clean Air Strategy of the Port of San Diego is the most ambitious plan of its kind in California.\",\n    \"Ports contribute immensely to California's economy while holding the responsibility of protecting the environment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5898b1496b0c5e8ef4e980abd845293c566fbf45"
+}

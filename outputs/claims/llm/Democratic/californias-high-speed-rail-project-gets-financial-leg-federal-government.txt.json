@@ -1,0 +1,13 @@
+{
+  "press_release": "californias-high-speed-rail-project-gets-financial-leg-federal-government.txt",
+  "party": "Democratic",
+  "title": "SILICON VALLEY – State rail infrastructure projects that will help commuters connect to other modes of transportation and save them time got a financial boost from U.S. Senator Ale",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California will receive 12 grants totaling more than $279 million for rail infrastructure projects.\",\n    \"$24.7 million will be used for the Downtown Rail Extension design to accommodate California High-Speed Rail and Caltrain commuter rail into the Salesforce Transit C",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California will receive 12 grants totaling more than $279 million for rail infrastructure projects.\",\n    \"$24.7 million will be used for the Downtown Rail Extension design to accommodate California High-Speed Rail and Caltrain commuter rail into the Salesforce Transit Center in downtown San Francisco.\",\n    \"The California High-Speed Rail project at Hanford's Viaduct is the Central Valley system's largest construction site, creating thousands of jobs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4b26223f2f22c79bb8798a0a0781ac1e8dfcd5bd"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240701-addis-statement-2024-2025-state-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Legislature's 2024-2025 Budget Act focuses on protecting essential funding in critical areas such as education, healthcare, climate, housing, and safety.\",\n    \"The budget ensures vital areas such as education, healthcare, climate, housing, and security re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Legislature's 2024-2025 Budget Act focuses on protecting essential funding in critical areas such as education, healthcare, climate, housing, and safety.\",\n    \"The budget ensures vital areas such as education, healthcare, climate, housing, and security receive necessary funding to support California's diverse communities.\",\n    \"The budget includes significant investments in education.\",\n    \"Essential healthcare funding has been maintained within the budget.\",\n    \"Critical funding has been secured for land conservation at Wild Cherry Canyon in San Luis Obispo County.\",\n    \"$9 million has been allocated to maintain diaper bank services in areas like Santa Cruz.\",\n    \"$3.6 million has been allocated for scientific monitoring of offshore wind.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f22182c2228deb4d29b600d4075b27198e6398d3"
+}

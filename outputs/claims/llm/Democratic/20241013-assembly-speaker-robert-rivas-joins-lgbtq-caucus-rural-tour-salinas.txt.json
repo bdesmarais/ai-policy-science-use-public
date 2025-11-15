@@ -1,0 +1,13 @@
+{
+  "press_release": "20241013-assembly-speaker-robert-rivas-joins-lgbtq-caucus-rural-tour-salinas.txt",
+  "party": "Democratic",
+  "title": "SALINAS —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Roughly 20% of the LGBTQ+ community live in rural areas of California.\",\n    \"There is a severe lack of resources available to support and elevate minority voices in rural communities.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Roughly 20% of the LGBTQ+ community live in rural areas of California.\",\n    \"There is a severe lack of resources available to support and elevate minority voices in rural communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "557dfc75d3c88846deb4f75fd9b2ca6fc97df172"
+}

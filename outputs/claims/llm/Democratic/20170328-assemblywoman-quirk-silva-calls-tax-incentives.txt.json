@@ -1,0 +1,13 @@
+{
+  "press_release": "20170328-assemblywoman-quirk-silva-calls-tax-incentives.txt",
+  "party": "Democratic",
+  "title": "Assembly Jobs Committee Introduces Bill Package for California Businesses",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:54:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Entrepreneurship is one of the most effective means for creating wealth and economic security.\",\n    \"Small and medium-sized businesses are a key component of the economic foundation of the California economy.\",\n    \"The hard work, dedication, and entrepreneurial spirit ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Entrepreneurship is one of the most effective means for creating wealth and economic security.\",\n    \"Small and medium-sized businesses are a key component of the economic foundation of the California economy.\",\n    \"The hard work, dedication, and entrepreneurial spirit of California's small business owners help fuel the state's economic engine.\",\n    \"Most jobs in California benefit directly or indirectly from manufacturing.\",\n    \"Ensuring that the manufacturing industry is equipped to meet the needs of the 21st century economy will help ensure communities remain vibrant and economically diverse for future generations.\",\n    \"Economists suggest that 5% unemployment and marginal economic growth are the new norm.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "35558066aeb17795f69ad053877258f13790c287"
+}

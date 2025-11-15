@@ -1,0 +1,13 @@
+{
+  "press_release": "more-taxes-do-not-lower-gas-prices.txt",
+  "party": "Republican",
+  "title": "The Senate Committee on Energy, Utilities and Communications held its first hearing on the Governor’s energy tax. Vice Chair of the Assembly Budget Committee, Assemblyman Vince Fon",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "55cc33995d602c4a94c578900495b9d04f1e7766"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250213-asm-liz-ortega-introduce-bill-cover-diapers-under-medical.txt",
+  "party": "Democratic",
+  "title": "HAYWARD, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Californians pay more money in taxes to the Federal government than we get back in services or assistance.\",\n    \"Diaper costs can exceed $100 per month per child, creating a financial burden for many California families.\",\n    \"More than 1 in 4 households with children ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Californians pay more money in taxes to the Federal government than we get back in services or assistance.\",\n    \"Diaper costs can exceed $100 per month per child, creating a financial burden for many California families.\",\n    \"More than 1 in 4 households with children are facing hunger.\",\n    \"Diapers are one of the most frequently requested non-food items at food banks and charitable organizations.\",\n    \"A steady supply of diapers is vital for children's healthy development.\",\n    \"Access to a steady supply of diapers is necessary for parents struggling to make ends meet to access child care and be able to work.\",\n    \"Under AB 636, children enrolled in Medi-Cal who have a prescription for diapers can receive them at no cost through a federal program within Medicaid.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "752d1fd131c5d46df8281037290cb9f71ffc0fad"
+}

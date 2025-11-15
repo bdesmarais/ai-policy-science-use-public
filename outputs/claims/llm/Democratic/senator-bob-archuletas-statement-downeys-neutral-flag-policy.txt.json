@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuletas-statement-downeys-neutral-flag-policy.txt",
+  "party": "Democratic",
+  "title": "NORWALK, CA – The following is a statement from Senator Bob Archuleta regarding the Downey City Council’s passage of a neutral flag policy concerning the types of flags allowed to ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "89cc23be78345f07426feb06cb8eb2f43dc7aa05"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20200924-california-leads-countrys-first-mandate-recycled-content-plastic-crv.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California enacted the country’s first minimum recycled content standards for plastic CRV bottles.\",\n    \"By 2030, California's recycled content requirement for plastic bottles will reach a 50% threshold.\",\n    \"California's 50% recycled content mandate for plastic bottl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California enacted the country’s first minimum recycled content standards for plastic CRV bottles.\",\n    \"By 2030, California's recycled content requirement for plastic bottles will reach a 50% threshold.\",\n    \"California's 50% recycled content mandate for plastic bottles is the highest in the world, surpassing the 30% mandate in the European Union.\",\n    \"The dwindling U.S. demand for recycled plastic has contributed to recycling center closures in California.\",\n    \"12.7 billion CRV bottles were sold in California last year, but 27% of them were not recycled.\",\n    \"The 50 percent recycled content requirement in AB 793 is the most ambitious closed loop recycling requirement in the world.\",\n    \"Companies using one formula for plastic bottles sold in California may lead to more sustainable containers in new markets.\",\n    \"Naked Juice has been using plastic bottles made with 100% post-consumer recycled content since 2010.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bf7124fdf514346ccb583989ce132fa8975556ee"
+}

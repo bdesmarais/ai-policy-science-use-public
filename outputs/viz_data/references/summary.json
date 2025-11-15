@@ -1,0 +1,388 @@
+{
+  "total_references": 785,
+  "references_per_party": [
+    {
+      "party": "Democratic",
+      "references": 333
+    },
+    {
+      "party": "Republican",
+      "references": 452
+    }
+  ],
+  "claim_coverage": {
+    "total_claims": 159,
+    "claims_with_references": 159,
+    "coverage_rate": 1.0,
+    "avg_references_per_claim": 4.937
+  },
+  "coverage_by_party": [],
+  "open_access_rates": [
+    {
+      "party": "Democratic",
+      "open_access": 276,
+      "total": 333,
+      "oa_rate_for_party": 0.8288
+    },
+    {
+      "party": "Republican",
+      "open_access": 408,
+      "total": 452,
+      "oa_rate_for_party": 0.9027
+    },
+    {
+      "party": "Overall",
+      "open_access": 684,
+      "total": 785,
+      "oa_rate_for_party": 0.8713
+    }
+  ],
+  "top_venues_by_party": {
+    "Republican": [
+      {
+        "party": "Republican",
+        "venue": "arXiv",
+        "count": 41
+      },
+      {
+        "party": "Republican",
+        "venue": "Governor of California",
+        "count": 16
+      },
+      {
+        "party": "Republican",
+        "venue": "California State Senate",
+        "count": 11
+      },
+      {
+        "party": "Republican",
+        "venue": "California Energy Commission",
+        "count": 10
+      },
+      {
+        "party": "Republican",
+        "venue": "California Governor's Office",
+        "count": 7
+      },
+      {
+        "party": "Republican",
+        "venue": "Centers for Disease Control and Prevention",
+        "count": 7
+      },
+      {
+        "party": "Republican",
+        "venue": "California Department of Justice",
+        "count": 6
+      },
+      {
+        "party": "Republican",
+        "venue": "California Employment Development Department",
+        "count": 6
+      },
+      {
+        "party": "Republican",
+        "venue": "CalMatters",
+        "count": 6
+      },
+      {
+        "party": "Republican",
+        "venue": "California State Assembly",
+        "count": 5
+      }
+    ],
+    "Democratic": [
+      {
+        "party": "Democratic",
+        "venue": "arXiv",
+        "count": 24
+      },
+      {
+        "party": "Democratic",
+        "venue": "California Department of Justice",
+        "count": 17
+      },
+      {
+        "party": "Democratic",
+        "venue": "California State Legislature",
+        "count": 11
+      },
+      {
+        "party": "Democratic",
+        "venue": "SAE International Journal of Commercial Vehicles",
+        "count": 7
+      },
+      {
+        "party": "Democratic",
+        "venue": "BMC Public Health",
+        "count": 7
+      },
+      {
+        "party": "Democratic",
+        "venue": "Governor of California",
+        "count": 7
+      },
+      {
+        "party": "Democratic",
+        "venue": "California State Senate",
+        "count": 6
+      },
+      {
+        "party": "Democratic",
+        "venue": "JAMA",
+        "count": 6
+      },
+      {
+        "party": "Democratic",
+        "venue": "Journal of Adolescent Health",
+        "count": 5
+      },
+      {
+        "party": "Democratic",
+        "venue": "California State Assembly",
+        "count": 4
+      }
+    ]
+  },
+  "top_providers_by_party": {
+    "Republican": [
+      {
+        "party": "Republican",
+        "provider": "publisher",
+        "count": 384
+      },
+      {
+        "party": "Republican",
+        "provider": "arXiv",
+        "count": 27
+      },
+      {
+        "party": "Republican",
+        "provider": "openai",
+        "count": 20
+      },
+      {
+        "party": "Republican",
+        "provider": "gov.ca.gov",
+        "count": 7
+      },
+      {
+        "party": "Republican",
+        "provider": "PubMed",
+        "count": 4
+      },
+      {
+        "party": "Republican",
+        "provider": "Crossref",
+        "count": 3
+      },
+      {
+        "party": "Republican",
+        "provider": "preprints",
+        "count": 1
+      },
+      {
+        "party": "Republican",
+        "provider": "justice.gov",
+        "count": 1
+      },
+      {
+        "party": "Republican",
+        "provider": "cdph.ca.gov",
+        "count": 1
+      },
+      {
+        "party": "Republican",
+        "provider": "oag.ca.gov",
+        "count": 1
+      }
+    ],
+    "Democratic": [
+      {
+        "party": "Democratic",
+        "provider": "publisher",
+        "count": 299
+      },
+      {
+        "party": "Democratic",
+        "provider": "arXiv",
+        "count": 24
+      },
+      {
+        "party": "Democratic",
+        "provider": "Crossref",
+        "count": 7
+      },
+      {
+        "party": "Democratic",
+        "provider": "Frontiers in Marine Science",
+        "count": 2
+      },
+      {
+        "party": "Democratic",
+        "provider": "International Council on Clean Transportation",
+        "count": 1
+      }
+    ]
+  },
+  "references_by_year_overall": [
+    {
+      "year": "1977",
+      "count": 1
+    },
+    {
+      "year": "1987",
+      "count": 1
+    },
+    {
+      "year": "1996",
+      "count": 1
+    },
+    {
+      "year": "1999",
+      "count": 1
+    },
+    {
+      "year": "2001",
+      "count": 2
+    },
+    {
+      "year": "2002",
+      "count": 3
+    },
+    {
+      "year": "2003",
+      "count": 1
+    },
+    {
+      "year": "2006",
+      "count": 1
+    },
+    {
+      "year": "2008",
+      "count": 1
+    },
+    {
+      "year": "2009",
+      "count": 3
+    },
+    {
+      "year": "2010",
+      "count": 2
+    },
+    {
+      "year": "2011",
+      "count": 1
+    },
+    {
+      "year": "2012",
+      "count": 4
+    },
+    {
+      "year": "2013",
+      "count": 2
+    },
+    {
+      "year": "2014",
+      "count": 4
+    },
+    {
+      "year": "2015",
+      "count": 4
+    },
+    {
+      "year": "2016",
+      "count": 13
+    },
+    {
+      "year": "2017",
+      "count": 9
+    },
+    {
+      "year": "2018",
+      "count": 24
+    },
+    {
+      "year": "2019",
+      "count": 31
+    },
+    {
+      "year": "2020",
+      "count": 45
+    },
+    {
+      "year": "2021",
+      "count": 64
+    },
+    {
+      "year": "2022",
+      "count": 78
+    },
+    {
+      "year": "2023",
+      "count": 122
+    },
+    {
+      "year": "2024",
+      "count": 161
+    },
+    {
+      "year": "2025",
+      "count": 206
+    }
+  ],
+  "duplicates": {
+    "duplicate_entries": 19,
+    "top_duplicates": [
+      {
+        "key": "title:how the internet facilitates adverse childhood experiences for youth who self-identify as in need of services",
+        "year": 2024,
+        "count": 2
+      },
+      {
+        "key": "doi:10.1007/s10834-020-09721-9",
+        "year": "",
+        "count": 2
+      },
+      {
+        "key": "doi:10.3390/educsci9020129",
+        "year": "",
+        "count": 2
+      },
+      {
+        "key": "title:quantifying the causal effect of financial literacy courses on financial health",
+        "year": 2024,
+        "count": 2
+      },
+      {
+        "key": "doi:10.1145/3442188.3445922",
+        "year": "",
+        "count": 2
+      },
+      {
+        "key": "title:california seizes record 62,000 pounds of fentanyl",
+        "year": 2024,
+        "count": 2
+      },
+      {
+        "key": "title:cal guard counterdrug task force seizes more than 9.5 million pills with fentanyl",
+        "year": 2024,
+        "count": 2
+      },
+      {
+        "key": "title:california’s fentanyl task force seizes over 8.8 million fentanyl pills",
+        "year": 2024,
+        "count": 2
+      },
+      {
+        "key": "title:california seizes more than 5.8 million fentanyl pills since january",
+        "year": 2024,
+        "count": 2
+      },
+      {
+        "key": "title:governor newsom announces seizure of over half a million fentanyl pills at border, urges republicans in congress to act on border security",
+        "year": 2024,
+        "count": 2
+      }
+    ]
+  }
+}

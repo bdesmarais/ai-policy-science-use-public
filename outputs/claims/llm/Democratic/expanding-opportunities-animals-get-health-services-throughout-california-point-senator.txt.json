@@ -1,0 +1,13 @@
+{
+  "press_release": "expanding-opportunities-animals-get-health-services-throughout-california-point-senator.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The state Assembly Committee on Business and Professions today passed Senator Dave Cortese’s SB 602 which would permit a Registered Veterinary Technician (RVT) to cond",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Cortese's SB 602 would permit a Registered Veterinary Technician (RVT) to conduct vaccine and parasite control wellness appointments in many animal shelters.\",\n    \"The bill would allow Registered Veterinary Technicians to conduct vaccine appointments as long as ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Cortese's SB 602 would permit a Registered Veterinary Technician (RVT) to conduct vaccine and parasite control wellness appointments in many animal shelters.\",\n    \"The bill would allow Registered Veterinary Technicians to conduct vaccine appointments as long as a veterinarian is available by phone.\",\n    \"SB 602 would make veterinary care more accessible by expanding access to basic veterinary care and reducing barriers for underserved pet owners and shelter animals.\",\n    \"There is an enormous shortage of veterinary professionals, especially in animal shelters, impacting the availability of care for animals.\",\n    \"More than 344,000 California shelter animals do not have adequate access to veterinary care staff, according to a survey released in 2023 by the SF SPCA.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4a58b7f878a12d517f9208ca8d8125967c195dd3"
+}

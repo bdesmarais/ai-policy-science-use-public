@@ -1,0 +1,13 @@
+{
+  "press_release": "20230130-oversight-mobile-home-inspectors-strengthened-new-legislation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) highlighted the introduction of new legislation,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:53:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Auditor's report found that the Department of Housing and Community Development (HCD) did not require inspectors to report certain investments in mobile home park properties.\",\n    \"The report noted that some inspectors owned properties adjacent to m",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Auditor's report found that the Department of Housing and Community Development (HCD) did not require inspectors to report certain investments in mobile home park properties.\",\n    \"The report noted that some inspectors owned properties adjacent to mobile home parks that they were tasked with supervising.\",\n    \"The report indicated that two inspectors had ties to construction businesses in areas they were assigned to oversee.\",\n    \"AB 319 requires mobile home inspectors to provide greater transparency regarding their investments in properties.\",\n    \"AB 319 implements a more thorough annual review of inspectors' economic interests to identify potential conflicts of interest.\",\n    \"AB 319 requires HCD to establish firm policies to document complaints against inspectors and the steps taken to address those complaints.\",\n    \"The introduction of AB 319 aims to eliminate potential conflicts of interest that could compromise housing inspectors' ethical decision-making.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fd99832cf86c8f07e4af88c22dd4a4143575d4fa"
+}

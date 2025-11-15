@@ -1,0 +1,13 @@
+{
+  "press_release": "20190826-assemblywoman-blanca-rubio-legislation-increase-cal-grant-awards-clears-key.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE: July 3rd, 2019",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1307 would reinstate the Cal Grant funding formula for students who attend private nonprofit colleges and universities.\",\n    \"The Cal Grant funding formula will bring stability to the award, which has been subjected to cuts since the year 2000.\",\n    \"AB 1307 would s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1307 would reinstate the Cal Grant funding formula for students who attend private nonprofit colleges and universities.\",\n    \"The Cal Grant funding formula will bring stability to the award, which has been subjected to cuts since the year 2000.\",\n    \"AB 1307 would significantly increase the award amount to better reflect the increasing costs of attending college.\",\n    \"Private nonprofit universities play an integral role in meeting the needs of California students.\",\n    \"Approximately 15% of students attending college in California are enrolled in private nonprofit universities.\",\n    \"Cal Grant awards for students attending private nonprofit universities have not been adjusted in the last 19 years, providing approximately $9,000 in maximum awards.\",\n    \"Increasing the Cal Grant Award for private nonprofit universities will allow California’s students to choose from a wider range of higher education options.\",\n    \"Increasing the Cal Grant Award will provide financial stability for students and their families.\",\n    \"Increasing the Cal Grant Award will reduce reliance on financing education through student loans.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc91579c1e2abc5832c2a0ca0574366d594824c9"
+}

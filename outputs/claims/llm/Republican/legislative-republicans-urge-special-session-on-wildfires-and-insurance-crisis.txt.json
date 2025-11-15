@@ -1,0 +1,13 @@
+{
+  "press_release": "legislative-republicans-urge-special-session-on-wildfires-and-insurance-crisis.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Legislative Republicans sent a letter to Governor Gavin Newsom calling on him to convene a special session of the Legislature to address the devastating impacts",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is experiencing devastating impacts from wildfires and instability in the insurance market.\",\n    \"A special legislative session is proposed to expedite reviews, recovery efforts, and legal changes related to wildfires.\",\n    \"Immediate action is critical to a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is experiencing devastating impacts from wildfires and instability in the insurance market.\",\n    \"A special legislative session is proposed to expedite reviews, recovery efforts, and legal changes related to wildfires.\",\n    \"Immediate action is critical to address the ongoing wildfire crisis in California.\",\n    \"California families deserve concrete solutions to the threats posed by wildfires.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2165cc3ebf64d669fef44e6f030b66f9900658d3"
+}

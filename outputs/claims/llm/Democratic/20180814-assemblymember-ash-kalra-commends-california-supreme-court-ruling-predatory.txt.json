@@ -1,0 +1,64 @@
+{
+  "press_release": "20180814-assemblymember-ash-kalra-commends-california-supreme-court-ruling-predatory.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"High-interest rates on loans above $2,500 are deemed 'unconscionable' by the California Supreme Court.\"\n    },\n    {\n      \"claim_text\": \"The ruling in De La Torre v. CashCall found that interest rates on consumer loans of $2,500 or more can render ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"High-interest rates on loans above $2,500 are deemed 'unconscionable' by the California Supreme Court.\"\n    },\n    {\n      \"claim_text\": \"The ruling in De La Torre v. CashCall found that interest rates on consumer loans of $2,500 or more can render the loans unconscionable and void.\"\n    },\n    {\n      \"claim_text\": \"The California Legislature failed to pass AB 2500, which aimed to extend the interest rate cap for loans up to $5,000.\"\n    },\n    {\n      \"claim_text\": \"Predatory lenders deliberately target Latino and African American borrowers by establishing stores in minority and low-income communities.\"\n    },\n    {\n      \"claim_text\": \"According to a 2016 report by the California Department of Business Oversight (DBO), 58% of installment loans of $2,500 to $5,000 had APRs of 100% or higher.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "High-interest rates on loans above $2,500 are deemed 'unconscionable' by the California Supreme Court.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The ruling in De La Torre v. CashCall found that interest rates on consumer loans of $2,500 or more can render the loans unconscionable and void.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The California Legislature failed to pass AB 2500, which aimed to extend the interest rate cap for loans up to $5,000.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Predatory lenders deliberately target Latino and African American borrowers by establishing stores in minority and low-income communities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "According to a 2016 report by the California Department of Business Oversight (DBO), 58% of installment loans of $2,500 to $5,000 had APRs of 100% or higher.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "88e09907f0d56acedfe5b2a91ec2842ddfe7b87b"
+}

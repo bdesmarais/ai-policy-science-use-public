@@ -1,0 +1,13 @@
+{
+  "press_release": "20230601-anitracism-bill-package-successfully-passes-california-state-assembly-and.txt",
+  "party": "Democratic",
+  "title": "Sacramento",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Anitracism Bill Package aims to address and eradicate racial disparities, discrimination, and inequities across various sectors of society.\",\n    \"Assembly Bill 1078 requires the California Department of Education to issue guidance for managing conversations surround",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Anitracism Bill Package aims to address and eradicate racial disparities, discrimination, and inequities across various sectors of society.\",\n    \"Assembly Bill 1078 requires the California Department of Education to issue guidance for managing conversations surrounding race, socioeconomic status, gender identity/expression, and LGBTQ+ orientations.\",\n    \"Assembly Bill 1078 expands existing law to ensure that instructional materials accurately portray the full cultural and racial diversity of society.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b7556de5c9761205c1ba28aacdd64f45827f0f86"
+}

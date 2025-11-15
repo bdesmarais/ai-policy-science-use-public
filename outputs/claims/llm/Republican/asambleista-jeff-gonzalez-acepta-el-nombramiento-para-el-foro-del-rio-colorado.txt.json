@@ -1,0 +1,13 @@
+{
+  "press_release": "asambleista-jeff-gonzalez-acepta-el-nombramiento-para-el-foro-del-rio-colorado.txt",
+  "party": "Republican",
+  "title": "INDIO- Hoy, el Asambleísta Jeff Gonzalez (R-Indio) (Vice presidente del Comité de Agua, Parques, y la Vida Silvestre) publicó la siguiente declaración sobre ser recomendado por el ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "82f8d591088c2a5c7913b3c1c8148ab16bb81cb0"
+}

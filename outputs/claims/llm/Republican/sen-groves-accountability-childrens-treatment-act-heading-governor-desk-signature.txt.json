@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-groves-accountability-childrens-treatment-act-heading-governor-desk-signature.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove ( R-Bakersfield ) is pleased to announce her bipartisan legislation, Senate Bill 1043 , the Accountability in Children’s Treatment (ACT) measure, has passed t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's short-term residential therapeutic programs (STRTPs) serve children and young adults who need an increased level of care.\",\n    \"These treatment facilities have the ability to use restraints and seclusion rooms if the facility believes the patient is a dange",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's short-term residential therapeutic programs (STRTPs) serve children and young adults who need an increased level of care.\",\n    \"These treatment facilities have the ability to use restraints and seclusion rooms if the facility believes the patient is a danger to themselves or others.\",\n    \"STRTPs are required to report all restraint and seclusion room use to the California Department of Social Services (CDSS).\",\n    \"CDSS is required to make restraint and seclusion use information available to the public.\",\n    \"The Accountability in Children’s Treatment Act will require CDSS to publicly post data on restraint and seclusion incidents, including each incident report.\",\n    \"The act aims to promote transparency in the use of restraints or seclusion rooms on youth in short-term residential therapeutic programs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8314d025aa545fd163a0939f7915574c720c692d"
+}

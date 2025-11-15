@@ -1,0 +1,13 @@
+{
+  "press_release": "20230508-assemblymember-connolly-introduces-compost-awareness-week.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – On May 8",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Composting is an effective form of waste reduction, reuse, and recycling.\",\n    \"Organic materials make up over 30 percent of the material going to landfills.\",\n    \"Composting helps communities reach waste diversion goals and create sustainable communities.\",\n    \"Retur",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Composting is an effective form of waste reduction, reuse, and recycling.\",\n    \"Organic materials make up over 30 percent of the material going to landfills.\",\n    \"Composting helps communities reach waste diversion goals and create sustainable communities.\",\n    \"Returning organic resources remanufactured into compost and applied to the soil reduces water consumption by over 30 percent on all soil types.\",\n    \"Composting conserves water during extreme drought and flooding conditions.\",\n    \"Composting decreases dependence on chemical fertilizers and pesticides.\",\n    \"Composting decreases erosion and nonpoint source pollution.\",\n    \"Composting is recognized as an important tool to sequester massive amounts of carbon in California’s soils.\",\n    \"Composting helps reverse global warming by drawing down excess carbon dioxide from the atmosphere and storing it in soils.\",\n    \"Communities can positively impact clean water, soil, climate change, and landfill diversion by using compost for public works projects.\",\n    \"Composting creates green jobs and infrastructure for cities and states that implement composting programs.\",\n    \"California produces over 10 million tons of compost and mulch each year.\",\n    \"California intends to almost double its compost production capacity in the next five years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fbdc3bb8ee0c00ff2dd4a0bb56d70e6a7a7166c5"
+}

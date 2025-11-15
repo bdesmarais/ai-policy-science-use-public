@@ -1,0 +1,13 @@
+{
+  "press_release": "20190906-assemblywoman-quirk-silvaas-legislation-stop-college-cheats-advances.txt",
+  "party": "Democratic",
+  "title": "ASSEMBLYWOMAN QUIRK-SILVAâS LEGISLATION TO STOP COLLEGE CHEATS ADVANCES TO THE GOVERNORâS DESK",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Admissions to colleges and universities have become increasingly competitive.\",\n    \"A study found that at thirty-eight colleges in the United States, including Ivy League Schools, more students came from the top one percent of the income scale than from the entire botto",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Admissions to colleges and universities have become increasingly competitive.\",\n    \"A study found that at thirty-eight colleges in the United States, including Ivy League Schools, more students came from the top one percent of the income scale than from the entire bottom 60 percent.\",\n    \"Students from low to middle income families have even less of a chance of being admitted to these top colleges.\",\n    \"The criminal actions related to the college admissions scandal have victimized hard-working and low-income students who were denied admissions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8c8f0ebaacd5abc1b250040f5d0c42b81c6bced8"
+}

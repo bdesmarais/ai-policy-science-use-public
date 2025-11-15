@@ -1,0 +1,13 @@
+{
+  "press_release": "20160504-arambula-and-swearengin-make-strong-case-fresno.txt",
+  "party": "Democratic",
+  "title": "Bipartisan call  to help transform California’s most disadvantaged communities",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Fresno has the highest concentration of disadvantaged communities in California.\",\n    \"More than two thirds of the neighborhoods in Fresno are at poverty or extreme poverty levels.\",\n    \"Nearly 50% of all census tracts in Assembly District 31 are in the top 5% of disad",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Fresno has the highest concentration of disadvantaged communities in California.\",\n    \"More than two thirds of the neighborhoods in Fresno are at poverty or extreme poverty levels.\",\n    \"Nearly 50% of all census tracts in Assembly District 31 are in the top 5% of disadvantaged communities in California as per the California Environmental Protection Agency.\",\n    \"Investing in California's most disadvantaged communities can have a significant impact on their conditions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7db9faa70df65aea4bf0021a46cf2a035311458e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20231010-child-support-repayment-timeline-formerly-incarcerated-parents-extended.txt",
+  "party": "Democratic",
+  "title": "(Sacramento) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The new California bill AB 1148 extends the time for formerly incarcerated parents to resume child support payments from one month or less to 10 months after exiting incarceration.\",\n    \"Current child support obligations for formerly incarcerated parents resume immediat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The new California bill AB 1148 extends the time for formerly incarcerated parents to resume child support payments from one month or less to 10 months after exiting incarceration.\",\n    \"Current child support obligations for formerly incarcerated parents resume immediately upon release, which fails to account for their challenges in finding stable employment.\",\n    \"Data shows it can take individuals more than six months to find stable employment post-incarceration.\",\n    \"Women served by Root and Rebound report that it can take formerly incarcerated people an average of a year to find stable employment.\",\n    \"Research indicates that the unemployment rate for formerly incarcerated people is nearly five times higher than that of the general United States population.\",\n    \"When parents cannot make child support payments as ordered, it leads to punitive consequences such as license suspension and increased interest on debts.\",\n    \"Parents in arrears on child support are less likely to maintain relationships with their children.\",\n    \"The federal government recognizes that setting child support orders beyond a noncustodial parent's ability to pay can lead to unmanageable debt, reduced low-wage employment, and increased crime and recidivism.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "54b8a7c4b2002706f8684efe205c0b050b3624f3"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "padelford-park-expansion-celebration.txt",
+  "party": "Democratic",
+  "title": "ARTESIA – State Sen. Bob Archuleta (D-Pico Rivera) joined the Artesia City Council at the community event celebrating the $5 million he secured for major improvements to A.J. Padel",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The park size has not changed since its development in 1973 and provides 0.47 acres per 1,000 residents.\",\n    \"0.47 acres per 1,000 residents is significantly below the Los Angeles County average of 3.3 acres per 1,000 residents.\",\n    \"The project will improve park saf",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The park size has not changed since its development in 1973 and provides 0.47 acres per 1,000 residents.\",\n    \"0.47 acres per 1,000 residents is significantly below the Los Angeles County average of 3.3 acres per 1,000 residents.\",\n    \"The project will improve park safety.\",\n    \"The project will create more recreational opportunities for local youth and families.\",\n    \"The expansion will lower the density per square mile and create more park space per person.\",\n    \"The current configuration of the park has public safety issues.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b687338075e7735144bd4cf26996e8065bbf602f"
+}

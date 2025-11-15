@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-elections-efficiency-and-transparency-bills-advance.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Juan Alanis announced that his priority election bills have cleared key votes and moved forward in the State Assembly.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Recent elections have shown the necessity for quick and accurate reporting of results.\",\n    \"AB 16 empowers election officials to start processing ballots earlier, freeing up resources.\",\n    \"Processing vote-by-mail ballots earlier will help restore trust in the electi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Recent elections have shown the necessity for quick and accurate reporting of results.\",\n    \"AB 16 empowers election officials to start processing ballots earlier, freeing up resources.\",\n    \"Processing vote-by-mail ballots earlier will help restore trust in the election process.\",\n    \"AB 17 will provide digital precinct boundary maps to the public for free.\",\n    \"Access to digital precinct maps promotes civic engagement and eliminates confusion for voters.\",\n    \"AB 17 ensures that every Californian has the same access to essential election information, regardless of income or ZIP code.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9a52e312bfe5387d965bf826ce01379ae7ff92b8"
+}

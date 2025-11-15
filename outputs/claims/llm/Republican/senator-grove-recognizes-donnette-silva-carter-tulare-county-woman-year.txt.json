@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-recognizes-donnette-silva-carter-tulare-county-woman-year.txt",
+  "party": "Republican",
+  "title": "Today, Senator Shannon Grove named Tulare Chamber of Commerce Chief Executive Officer, Donnette Silva Carter as the 2024 Tulare County Woman of the Year. Donnette Silva Carter was ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "95da2a2b8e940ef69e9fbf8d8270059405814d1d"
+}

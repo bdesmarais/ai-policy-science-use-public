@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-introduces-sb1410-support-housing-production-prevent.txt",
+  "party": "Democratic",
+  "title": "Senator Anna M. Caballero Introduces SB1410 to Support Housing Production & Prevent Unnecessary Regulatory Burdens",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB-1410 modifies the vehicle miles traveled (VMT) regulations to limit use to Transit Priority Areas (TPAs).\",\n    \"In areas outside of TPAs, the traditional measurement of traffic impacts, Levels of Service, would be used to assess transportation impacts.\",\n    \"The Gov",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB-1410 modifies the vehicle miles traveled (VMT) regulations to limit use to Transit Priority Areas (TPAs).\",\n    \"In areas outside of TPAs, the traditional measurement of traffic impacts, Levels of Service, would be used to assess transportation impacts.\",\n    \"The Governor’s Office of Planning and Research (OPR) replaced the prior metric, Levels of Service, with VMT effective July 2020.\",\n    \"Developers must mitigate VMT through the California Environmental Quality Act (CEQA) process.\",\n    \"VMT mitigation increases project costs, which is ultimately passed on to the homebuyer or renter.\",\n    \"Applying VMT statewide creates a 'housing tax' that punishes individuals who cannot afford to live in their community.\",\n    \"The 'housing tax' disproportionately affects Latino and Black Californians and exacerbates existing inequities in homeownership.\",\n    \"Local jurisdictions are forced to assess fees that can add hundreds of thousands of dollars to homes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9365a72b80a9516a3047273b95ebfe701091f191"
+}

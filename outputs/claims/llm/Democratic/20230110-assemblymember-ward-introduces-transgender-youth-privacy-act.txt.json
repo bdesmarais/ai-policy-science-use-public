@@ -1,0 +1,13 @@
+{
+  "press_release": "20230110-assemblymember-ward-introduces-transgender-youth-privacy-act.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:52:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Transgender youth are three times more likely to attempt suicide than their cisgender peers.\",\n    \"Transgender youth are more likely to experience violence victimization, substance use and depression.\",\n    \"Transgender youth who feel supported report having better phys",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Transgender youth are three times more likely to attempt suicide than their cisgender peers.\",\n    \"Transgender youth are more likely to experience violence victimization, substance use and depression.\",\n    \"Transgender youth who feel supported report having better physical health and mental health outcomes.\",\n    \"The act of 'outing' or 'misgendering' someone can have severe negative consequences for adolescents.\",\n    \"Allowing minors to decide when and how they wish to share their personal information with their peers is vital in protecting their mental health and overall well-being.\",\n    \"Sealing name and gender marker change records will secure the safety and privacy of transgender youth.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eec1e2b57255804d41b58fa45500e6f2c63dbe16"
+}

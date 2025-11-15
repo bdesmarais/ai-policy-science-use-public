@@ -1,0 +1,13 @@
+{
+  "press_release": "20240614-media-advisory-select-committee-permitting-reform-convene-inaugural-meeting.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif. –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Select Committee on Permitting Reform will study the impacts of permitting on critical public policy areas.\",\n    \"The study will include the effects of permitting on achieving state goals related to housing, climate resilience, and clean energy.\",\n    \"The study wil",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Select Committee on Permitting Reform will study the impacts of permitting on critical public policy areas.\",\n    \"The study will include the effects of permitting on achieving state goals related to housing, climate resilience, and clean energy.\",\n    \"The study will analyze the costs and risks of inaction related to permitting.\",\n    \"The initiative aims to foster bipartisan collaboration to streamline regulatory frameworks in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7b1d60c33faafabcc855b9d0703f8d1051465832"
+}

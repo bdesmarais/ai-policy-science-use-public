@@ -1,0 +1,13 @@
+{
+  "press_release": "20200122-assemblymember-aguiar-curry-pushes-bill-expand-cancer-prevention-and-add.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:13:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"About 14 million Americans become infected with HPV each year.\",\n    \"HPV is a leading cause of cervical cancer.\",\n    \"Certain types of HPV infections can cause cancer.\",\n    \"HPV infections and cervical pre-cancers have dropped significantly since the vaccination has b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"About 14 million Americans become infected with HPV each year.\",\n    \"HPV is a leading cause of cervical cancer.\",\n    \"Certain types of HPV infections can cause cancer.\",\n    \"HPV infections and cervical pre-cancers have dropped significantly since the vaccination has been in use.\",\n    \"As many as 93% of cervical cancers could be avoided by screening and receiving the HPV vaccine.\",\n    \"The HPV vaccine is a proven cancer-prevention treatment.\",\n    \"The Family PACT program can include the HPV vaccine within its covered health services.\",\n    \"Cervical cancer screenings are standard reproductive health care.\",\n    \"Access to reproductive health, cancer screening, and prevention should not be restricted.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e66329ca9ce1a18f2de24c612eddfc614fdada76"
+}

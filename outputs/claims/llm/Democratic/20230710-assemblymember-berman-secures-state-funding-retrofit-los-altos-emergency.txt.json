@@ -1,0 +1,13 @@
+{
+  "press_release": "20230710-assemblymember-berman-secures-state-funding-retrofit-los-altos-emergency.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Marc Berman secured $500,000 in the 2023-24 state budget for the City of Los Altos to retrofit the City’s Community Center to house the Emergency Operations Center.\",\n    \"Retrofitting an existing building was identified as a less expensive but equally eff",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Marc Berman secured $500,000 in the 2023-24 state budget for the City of Los Altos to retrofit the City’s Community Center to house the Emergency Operations Center.\",\n    \"Retrofitting an existing building was identified as a less expensive but equally effective option for the Emergency Operations Center.\",\n    \"The retrofitted Emergency Operations Center will keep Los Altans safer when the next emergency strikes.\",\n    \"The recent storms underscored the need for a more robust emergency response network in Los Altos.\",\n    \"The additional resources from the grant will significantly advance the project timeline for the Emergency Operations Center.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5f9a0525cbef0cf3ff7af243267dc04cde367d64"
+}

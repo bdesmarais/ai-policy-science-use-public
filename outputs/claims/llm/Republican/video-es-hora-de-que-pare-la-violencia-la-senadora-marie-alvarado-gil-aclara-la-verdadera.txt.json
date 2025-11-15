@@ -1,0 +1,13 @@
+{
+  "press_release": "video-es-hora-de-que-pare-la-violencia-la-senadora-marie-alvarado-gil-aclara-la-verdadera.txt",
+  "party": "Republican",
+  "title": "Clic en la imagen para ver el video",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "306ac69e04d17e178a0759ea10ff7144f4d2ab27"
+}

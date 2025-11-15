@@ -1,0 +1,13 @@
+{
+  "press_release": "20240403-addis-bill-ratepayer-transparency-passes-first-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:38:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Residential electricity rates have increased 63% for PG&E customers in three years.\",\n    \"Residential electricity rates have increased 52% for SoCal Edison customers in three years.\",\n    \"Californians deserve to know what to expect when they open their monthly energy b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Residential electricity rates have increased 63% for PG&E customers in three years.\",\n    \"Residential electricity rates have increased 52% for SoCal Edison customers in three years.\",\n    \"Californians deserve to know what to expect when they open their monthly energy bills.\",\n    \"The new disclosure requirements in AB 2847 will help consumers understand the full cost of projects during utilities' approval process.\",\n    \"The California Public Utilities Commission can use the disclosures from AB 2847 to assess whether proposals to burden ratepayers with long-term debt are reasonable.\",\n    \"Assemblymember Dawn Addis has prioritized lowering the cost of utilities to ratepayers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a9f1f5547d8bc84a4719d1eca1dcc8bcae26b525"
+}

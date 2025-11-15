@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-becker-affirms-commitment-to-bridging-digital.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The pandemic exposed the stark inequities among school districts in their use of technology for in-class learning.\",\n    \"There is a need for schools to equitably access information, technical assistance, and teacher professional development for current and emerging educ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The pandemic exposed the stark inequities among school districts in their use of technology for in-class learning.\",\n    \"There is a need for schools to equitably access information, technical assistance, and teacher professional development for current and emerging educational technology.\",\n    \"Specific state funding for technology support in education ended when California adopted the Local Control Funding Formula about eight years ago.\",\n    \"Senate Bill 876 aims to close the digital divide in California schools by re-establishing and funding a centralized support program for educational technology.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5434a7a4a46fe14e99f09f7111e66de82109779f"
+}

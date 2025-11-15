@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-introduces-recall-reform-bill.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese (D-Silicon Valley) has introduced SB 1170 to ensure small school and community college districts, and their financial stability, are less disproportionately impacte",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The percentage of voter signatures needed to produce a regular recall for districts of all sizes is at a much higher threshold than what is needed for recalls of appointed board members.\",\n    \"For smaller school and community districts, a recall can severely threaten th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The percentage of voter signatures needed to produce a regular recall for districts of all sizes is at a much higher threshold than what is needed for recalls of appointed board members.\",\n    \"For smaller school and community districts, a recall can severely threaten their financial stability.\",\n    \"The cost of holding a special election can total a significant percentage of a small school district's annual budget.\",\n    \"A petition of only 90 signatures triggered a special election to recall an appointed Board Member of the Cloverdale Unified School District, adding almost $100,000 to the district's deficit.\",\n    \"A special election for the Dublin Unified School District Board was held costing $76,000 after 75 signatures were gathered for an appointment recall.\",\n    \"A special election for an appointment recall was triggered by a petition from 65 voters in the Rancho Santa Fe School District, costing the district an estimated $40,000 to $100,000.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e9daaeef64e6abbfc9b5dd7d76426fe2fc188bfa"
+}

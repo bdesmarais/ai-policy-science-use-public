@@ -1,0 +1,94 @@
+{
+  "press_release": "20230712-state-california-delivers-80m-port-hueneme-paced-project.txt",
+  "party": "Democratic",
+  "title": "[PORT HUENEME] The State of California has awarded $80 million to Port of Hueneme for their PACED (Port Action, Climate, and Economic Development) Project. The funds are for projec",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The State of California has awarded $80 million to Port of Hueneme for their PACED Project.\"\n    },\n    {\n      \"claim_text\": \"The PACED Project generates social and economic equity while providing substantial revenue streams.\"\n    },\n    {\n      \"c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The State of California has awarded $80 million to Port of Hueneme for their PACED Project.\"\n    },\n    {\n      \"claim_text\": \"The PACED Project generates social and economic equity while providing substantial revenue streams.\"\n    },\n    {\n      \"claim_text\": \"The funding will help transform the Port into a zero-emission hub.\"\n    },\n    {\n      \"claim_text\": \"The funding will create more job opportunities for local residents to support vital Port operations.\"\n    },\n    {\n      \"claim_text\": \"The investment will strengthen the supply chain and improve the efficient movement of goods.\"\n    },\n    {\n      \"claim_text\": \"The funding will help create good paying green jobs.\"\n    },\n    {\n      \"claim_text\": \"Residents will benefit from cleaner air as a result of the investment.\"\n    },\n    {\n      \"claim_text\": \"Workers will find better jobs due to the opportunities created by the funding.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The State of California has awarded $80 million to Port of Hueneme for their PACED Project.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The PACED Project generates social and economic equity while providing substantial revenue streams.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The funding will help transform the Port into a zero-emission hub.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The funding will create more job opportunities for local residents to support vital Port operations.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The investment will strengthen the supply chain and improve the efficient movement of goods.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The funding will help create good paying green jobs.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Residents will benefit from cleaner air as a result of the investment.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Workers will find better jobs due to the opportunities created by the funding.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 8,
+  "doc_sha1": "0692e9b12871512a694b43d398d6b858b8758060"
+}

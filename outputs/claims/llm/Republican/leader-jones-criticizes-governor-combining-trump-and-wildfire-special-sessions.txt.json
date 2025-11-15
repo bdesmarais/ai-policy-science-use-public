@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-criticizes-governor-combining-trump-and-wildfire-special-sessions.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones ( R-San Diego ) issued the following statement regarding Governor Newsom’s recent action to expand the current special session focused on suin",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "26308377149c544107320b127fbb93fd3a8734e2"
+}

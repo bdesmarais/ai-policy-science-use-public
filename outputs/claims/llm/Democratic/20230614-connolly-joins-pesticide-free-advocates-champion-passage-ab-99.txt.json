@@ -1,0 +1,13 @@
+{
+  "press_release": "20230614-connolly-joins-pesticide-free-advocates-champion-passage-ab-99.txt",
+  "party": "Democratic",
+  "title": "Connolly Joins Pesticide-Free Advocates to Champion the Passage of AB 99",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill (AB) 99 restricts the use of pesticide spraying by CalTrans.\",\n    \"AB 99 requires the California Department of Transportation to develop a statewide policy that uses integrated pest management excluding pesticides except in specific circumstances.\",\n    \"P",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill (AB) 99 restricts the use of pesticide spraying by CalTrans.\",\n    \"AB 99 requires the California Department of Transportation to develop a statewide policy that uses integrated pest management excluding pesticides except in specific circumstances.\",\n    \"Pesticides and synthetic herbicides like Roundup pose dangers and health risks.\",\n    \"Exposure to pesticides is linked to cancer, endocrine disruption, reproductive effects, neurotoxicity, kidney and liver damage, birth defects, and developmental changes in species.\",\n    \"Pesticides can be toxic to birds, fish, beneficial insects, and non-target plants.\",\n    \"More than 80 percent of U.S. children and adults likely have the chemical glyphosate in their bodies.\",\n    \"RoundUp is the primary tool used by Caltrans for killing brush along Sonoma County’s State Highways.\",\n    \"AB 99 would put a stop to the routine spraying of pesticides at Caltrans.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4801b60eaa774243e13c4c2d638a5419d6366b10"
+}

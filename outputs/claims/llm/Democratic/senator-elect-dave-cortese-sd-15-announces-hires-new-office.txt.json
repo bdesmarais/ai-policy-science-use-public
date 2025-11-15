@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-elect-dave-cortese-sd-15-announces-hires-new-office.txt",
+  "party": "Democratic",
+  "title": "Senator-Elect Dave Cortese, who will be replacing termed-out State Senator Jim Beall to represent the heart of Silicon Valley in the California State Senate, has announced his seni",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0bfc1d3a13a1109087765ee939389b6faa2174df"
+}

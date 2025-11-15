@@ -1,0 +1,13 @@
+{
+  "press_release": "20241202-assemblymember-rick-chavez-zbur-reintroduces-local-electrification-planning.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:22:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Local Electrification Planning Act (AB 39) requires cities and local jurisdictions with populations of 75,000 or more to adopt Climate Action Electrification Elements within their General Plans.\",\n    \"California mandates that all new passenger vehicles sold must be ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Local Electrification Planning Act (AB 39) requires cities and local jurisdictions with populations of 75,000 or more to adopt Climate Action Electrification Elements within their General Plans.\",\n    \"California mandates that all new passenger vehicles sold must be zero-emission by 2035.\",\n    \"California is a global leader in setting ambitious climate goals.\",\n    \"The state must significantly expand its EV charging infrastructure to meet climate goals.\",\n    \"AB 39 aims to ensure equitable access to electric vehicle (EV) charging stations and building electrification for disadvantaged communities.\",\n    \"Local governments must identify and address their electrification needs under AB 39.\",\n    \"There are gaps in electrification access for disadvantaged communities, renters, and those in multi-family housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4edb0cf7d09b4569ee8d456624e21e249028a53a"
+}

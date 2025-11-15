@@ -1,0 +1,13 @@
+{
+  "press_release": "20200117-assembly-members-quirk-silva-and-medina-introduced-legislation-increase.txt",
+  "party": "Democratic",
+  "title": "Assembly Members Quirk-Silva and Medina Introduced Legislation to Increase Oversight of California Public University Admission Policies",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:13:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1930 aims to protect students from changes in admission requirement policies at California State University and University of California.\",\n    \"The proposed expansion of admission requirements by California State University includes additional coursework in quantitat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1930 aims to protect students from changes in admission requirement policies at California State University and University of California.\",\n    \"The proposed expansion of admission requirements by California State University includes additional coursework in quantitative reasoning.\",\n    \"Changes to admissions requirements should be vetted through studies to determine their impact on students.\",\n    \"Changing admissions requirements may disproportionately affect students of color, creating additional barriers to education.\",\n    \"AB 1930 mandates that any change in student eligibility policy requirements must involve coordination between California State University and University of California.\",\n    \"An independent third-party research organization must assess whether changes in student eligibility policies would have a disparate impact on underrepresented student groups.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3b80204c9c24f621346cbb67f024d6e9d71cfd15"
+}

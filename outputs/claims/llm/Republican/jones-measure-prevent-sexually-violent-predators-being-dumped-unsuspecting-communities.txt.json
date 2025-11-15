@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-measure-prevent-sexually-violent-predators-being-dumped-unsuspecting-communities.txt",
+  "party": "Republican",
+  "title": "Bipartisan legislation by State Senator Brian W. Jones (R-Santee), Senator Ben Hueso (D-San Diego), and Assemblyman Jim Cooper (D-Elk Grove), aimed at preventing the state from con",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of State Hospitals has attempted to secretly place Sexually Violent Predators in communities without prior notification.\",\n    \"Senate Bill 841 mandates that the Director of the Department of State Hospitals publicly report the number of Sexuall",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of State Hospitals has attempted to secretly place Sexually Violent Predators in communities without prior notification.\",\n    \"Senate Bill 841 mandates that the Director of the Department of State Hospitals publicly report the number of Sexually Violent Predators in each county annually.\",\n    \"Public safety is designated as the highest criteria for any potential placement of a Sexually Violent Predator under Senate Bill 841.\",\n    \"Senate Bill 841 requires the Department of State Hospitals to approve any placements before any vendor can sign leases for placement locations.\",\n    \"Senate Bill 841 mandates multiple state departments to report any available facilities that could house Sexually Violent Predators to the Governor and Legislature.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fe417e11d7b2573d7c95e37820208ddce2bca47e"
+}

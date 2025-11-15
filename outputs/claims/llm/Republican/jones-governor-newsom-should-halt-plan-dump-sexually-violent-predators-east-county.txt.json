@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-governor-newsom-should-halt-plan-dump-sexually-violent-predators-east-county.txt",
+  "party": "Republican",
+  "title": "Earlier this month Senator Brian W. Jones (R-Santee) sent two letters to the Director of the Department of State Hospitals protesting the planned parole placement of two sexually v",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Brian W. Jones protests the planned parole placement of two sexually violent predators in a residential neighborhood.\",\n    \"Douglas Badger and Merle Wakefield are described as dangerous sexually violent predators who have repeatedly targeted and attacked childre",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Brian W. Jones protests the planned parole placement of two sexually violent predators in a residential neighborhood.\",\n    \"Douglas Badger and Merle Wakefield are described as dangerous sexually violent predators who have repeatedly targeted and attacked children.\",\n    \"Governor Newsom is urged to follow the examples of former governors who housed dangerous parolees in trailers at state correctional facilities.\",\n    \"In 1994, state officials attempted to parole convicted serial rapist Melvin Carter into several Bay Area communities, but he was ultimately sent to a trailer at a fire conservation camp.\",\n    \"In 1987, sadistic torturer-rapist Lawrence Singleton was similarly ordered to serve his parole in a trailer on the grounds of San Quentin Prison.\",\n    \"Senator Jones has authored Senate Bill 445 to prevent convicted rapists and other violent sex offenders from being released early from prison.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1dfb7fdbf7c84d19263054cb0f287970c8390e79"
+}

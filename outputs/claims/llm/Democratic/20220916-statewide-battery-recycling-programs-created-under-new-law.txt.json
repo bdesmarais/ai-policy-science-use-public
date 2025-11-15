@@ -1,0 +1,13 @@
+{
+  "press_release": "20220916-statewide-battery-recycling-programs-created-under-new-law.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:47:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California classifies batteries as hazardous waste and bans them from solid waste landfills due to the hazardous metals and corrosive materials they contain.\",\n    \"Improperly discarded batteries pose serious fire, health, and safety hazards that disrupt the waste stream",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California classifies batteries as hazardous waste and bans them from solid waste landfills due to the hazardous metals and corrosive materials they contain.\",\n    \"Improperly discarded batteries pose serious fire, health, and safety hazards that disrupt the waste stream and poison the environment.\",\n    \"The Responsible Battery Recycling Act aims to create a statewide collection and recycling program for consumer batteries and products that contain batteries.\",\n    \"SB 1215 expands California's Electronic Waste Recycling Act to include products containing batteries that cannot be easily removed with household tools.\",\n    \"The improper disposal of battery-embedded products poses a danger to companies and employees managing the waste stream.\",\n    \"Most people do not know that batteries are classified as hazardous waste, leading to their disposal in curbside waste bins.\",\n    \"Improper disposal of batteries damages recycling facilities, resulting in higher costs for rate payers on utility bills.\",\n    \"The signing of the Responsible Battery Recycling Act is part of a larger climate action package in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a9af1ff0fa1f10b73969857829a21588b0e4bec2"
+}

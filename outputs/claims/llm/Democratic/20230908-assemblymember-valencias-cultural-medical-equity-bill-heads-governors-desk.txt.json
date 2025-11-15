@@ -1,0 +1,13 @@
+{
+  "press_release": "20230908-assemblymember-valencias-cultural-medical-equity-bill-heads-governors-desk.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:07:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Nearly 44% of Californians speak a language other than English at home.\",\n    \"Expanding opportunities for physicians to take new language courses will improve communication with patients in their preferred languages.\",\n    \"Research has shown that patients who receive c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Nearly 44% of Californians speak a language other than English at home.\",\n    \"Expanding opportunities for physicians to take new language courses will improve communication with patients in their preferred languages.\",\n    \"Research has shown that patients who receive care from physicians who speak their language experience better health outcomes.\",\n    \"Cultural and linguistic competency is a core tenant of continuing medical education.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eb1d1c8f9f8025f687531e3c2279f1fd3289b836"
+}

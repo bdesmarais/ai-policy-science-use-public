@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-joins-bi-partisan-group-defending-restaurant-employees.txt",
+  "party": "Republican",
+  "title": "El Cajon – Senator Brian Jones (R-Santee) and ten other Senators sent a strongly worded letter to Governor Gavin Newsom on behalf of out of work restaurant employees and owners suf",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The restaurant industry has proposed guidelines that would allow restaurants to operate safely during COVID-19.\",\n    \"Reclassifying the restaurant industry as critical infrastructure could prevent more damage to communities.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The restaurant industry has proposed guidelines that would allow restaurants to operate safely during COVID-19.\",\n    \"Reclassifying the restaurant industry as critical infrastructure could prevent more damage to communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "032370d709444e446e8f8eed70e8ccbcb9903f41"
+}

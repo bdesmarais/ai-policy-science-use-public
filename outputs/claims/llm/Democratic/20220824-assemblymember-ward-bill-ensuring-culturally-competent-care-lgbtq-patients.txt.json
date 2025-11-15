@@ -1,0 +1,13 @@
+{
+  "press_release": "20220824-assemblymember-ward-bill-ensuring-culturally-competent-care-lgbtq-patients.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO,CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:45:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Nearly one in four transgender people avoid seeking necessary health care due to fear of discrimination or mistreatment based on their gender identity.\",\n    \"AB 2194 requires pharmacists and pharmacy technicians to undergo at least one hour of culturally competent train",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Nearly one in four transgender people avoid seeking necessary health care due to fear of discrimination or mistreatment based on their gender identity.\",\n    \"AB 2194 requires pharmacists and pharmacy technicians to undergo at least one hour of culturally competent training every two years.\",\n    \"This bill will ensure pharmacists have the training and knowledge to provide medication to LGBTQ+ individuals in a respectful and culturally competent manner.\",\n    \"California is home to the highest population of individuals who identify as LGBTQ+ in the United States.\",\n    \"An estimated 2.6 million people identify as LGBTQ+ in California.\",\n    \"There are 220,000 adults in California identifying as trans, transgender, or non-binary.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3d524e5023a5161ccc0aa43979bebced2b4f9369"
+}

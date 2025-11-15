@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-introduces-measure-reinstate-felony-murder-police-officer-crime.txt",
+  "party": "Republican",
+  "title": "Senator Brian W. Jones (R-Santee) today introduced a measure to reinstate the felony-murder of a police officer as a crime in California.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Criminals willing to kill, or be involved with the killing of a police officer, are among the most violent.\",\n    \"The felony-murder rule in California allowed any criminal involved in a serious crime resulting in death to face murder charges.\",\n    \"Senate Bill 1437 eli",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Criminals willing to kill, or be involved with the killing of a police officer, are among the most violent.\",\n    \"The felony-murder rule in California allowed any criminal involved in a serious crime resulting in death to face murder charges.\",\n    \"Senate Bill 1437 eliminated the felony-murder rule from California law.\",\n    \"Senate Bill 775 allowed for the reduction of sentences from previous felony-murder convictions in California.\",\n    \"Senate Bill 1129 aims to reinstate the felony-murder rule in California for those involved in the killing of a police officer.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f7ce4aa28a67ecee99c7c35dc67c6efdb67b88b7"
+}

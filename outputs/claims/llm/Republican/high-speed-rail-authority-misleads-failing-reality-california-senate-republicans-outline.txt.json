@@ -1,0 +1,13 @@
+{
+  "press_release": "high-speed-rail-authority-misleads-failing-reality-california-senate-republicans-outline.txt",
+  "party": "Republican",
+  "title": "Members of the Senate Transportation Committee held an oversight hearing yesterday to discuss the California Democrats’ overhyped and over budget California High-Speed Rail. Major ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The 171 mile segment from Merced to Bakersfield will now cost $33 billion, which is $10 billion more than the project’s budget from last year.\",\n    \"The cost of this single segment exceeds the original estimate for the entire 500 mile system that was approved by voters ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The 171 mile segment from Merced to Bakersfield will now cost $33 billion, which is $10 billion more than the project’s budget from last year.\",\n    \"The cost of this single segment exceeds the original estimate for the entire 500 mile system that was approved by voters in 2008.\",\n    \"California Senate Republicans argue that the High-Speed Rail project is not what voters approved under Proposition 1A in 2008.\",\n    \"The California High-Speed Rail project is referred to by some as a $100 billion amusement park ride from Bakersfield to Merced.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2e3fa8ac1831973df0aa78e64052e6eab8d521a4"
+}

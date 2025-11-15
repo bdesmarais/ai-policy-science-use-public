@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-continues-fight-veterans.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) announced her bill, Senate Bill 1195 passed unanimously through the Senate Military and Veterans Affairs Committee. SB 1195 requires the Calif",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1195 requires the California Department of Veterans Affairs to explore opportunities where satellite medical clinics could be placed at or near California Veterans Homes.\",\n    \"Senator Grove built a bipartisan coalition to fight against the closure of a veterans home",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1195 requires the California Department of Veterans Affairs to explore opportunities where satellite medical clinics could be placed at or near California Veterans Homes.\",\n    \"Senator Grove built a bipartisan coalition to fight against the closure of a veterans home in Barstow, California.\",\n    \"Residents of California Veterans homes may delay or put off necessary and lifesaving treatment due to the distance of services provided by the federal Veterans Health Administration.\",\n    \"SB 1195 aims to bring health care services closer to the veterans’ community.\",\n    \"The 'Veterans Homes of California Master Plan 2020' report published by CalVet states that their distribution of levels of care is not entirely consistent with community need.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c4488e4aad684a582ca1709d9e2554d3b3d52738"
+}

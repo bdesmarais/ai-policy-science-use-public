@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-alvarado-gil-joins-call-special-session-wildfires.txt",
+  "party": "Republican",
+  "title": "Sen. Marie Alvarado-Gil ( R-Jackson ) has joined Senate and Assembly Republicans in urging Governor Gavin Newsom to call a special session on the Southern California wildfires and ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California spends $6 billion to $9 billion annually on wildfire response.\",\n    \"The 2024-25 budget allocated just $200 million for wildfire prevention.\",\n    \"The California FAIR Plan faces a potential statewide claims exposure exceeding $400 billion.\",\n    \"Expediting ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California spends $6 billion to $9 billion annually on wildfire response.\",\n    \"The 2024-25 budget allocated just $200 million for wildfire prevention.\",\n    \"The California FAIR Plan faces a potential statewide claims exposure exceeding $400 billion.\",\n    \"Expediting permitting for wildfire prevention projects can mitigate fire risks efficiently.\",\n    \"Streamlining environmental reviews for fire safety efforts can enhance wildfire prevention initiatives.\",\n    \"Creating enhanced criminal penalties for arson and negligent fires may deter such activities.\",\n    \"Home-hardening incentives and assistance can help Californians afford upgrades to protect their property.\",\n    \"Increased funding for wildfire prevention could support local governments and conservation districts in effective projects.\",\n    \"Insurance market transparency is necessary to stabilize the California FAIR Plan and attract private insurers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b524bc01a8ad4da9d39fae8e357d6e1087ba9e28"
+}

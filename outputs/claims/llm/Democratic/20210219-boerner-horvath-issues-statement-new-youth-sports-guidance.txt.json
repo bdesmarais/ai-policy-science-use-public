@@ -1,0 +1,13 @@
+{
+  "press_release": "20210219-boerner-horvath-issues-statement-new-youth-sports-guidance.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:24:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The increased pace of vaccinations and consistent drops in community spread signal the opportunity to proceed cautiously with getting young athletes back to outdoor sports.\",\n    \"Sitting out the season can have a serious toll on children’s mental health, particularly in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The increased pace of vaccinations and consistent drops in community spread signal the opportunity to proceed cautiously with getting young athletes back to outdoor sports.\",\n    \"Sitting out the season can have a serious toll on children’s mental health, particularly in more disadvantaged communities.\",\n    \"The new guidance for outdoor practice and competitions is built on a rigorous analysis of data from other states where activities have resumed.\",\n    \"The state will provide resources to conduct periodic testing for high-contact sports.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc4bd0d3a1fd061012b004e259300d3d9c3c8ff8"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230907-california-legislature-passes-landmark-tax-firearm-manufacturers-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:07:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed Assembly Bill (AB) 28 to impose an 11 percent excise tax on firearms and ammunition sold by gun manufacturers and dealers.\",\n    \"AB 28 is expected to generate over $150 million annually to fund school safety and violence preventio",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Legislature passed Assembly Bill (AB) 28 to impose an 11 percent excise tax on firearms and ammunition sold by gun manufacturers and dealers.\",\n    \"AB 28 is expected to generate over $150 million annually to fund school safety and violence prevention programs.\",\n    \"AB 28 aims to prevent school shootings, bolster firearm investigations, reduce retaliatory violence, and remove guns from domestic abusers.\",\n    \"The firearm death rate for American children increased 40 percent between 2018 and 2021, according to a report by the American Academy of Pediatrics.\",\n    \"California has a long history of effective methods for reducing gun violence.\",\n    \"Imposing a tax on firearm and ammunition sales is presented as a way to provide sustained funding for violence intervention and prevention programs.\",\n    \"Long-term investments in violence intervention and prevention initiatives are characterized as a proven way to stop gun violence.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1db74cce96669269b36fa7a120406a627de09f0d"
+}

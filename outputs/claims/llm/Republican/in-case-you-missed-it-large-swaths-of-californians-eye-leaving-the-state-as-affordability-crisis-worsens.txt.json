@@ -1,0 +1,13 @@
+{
+  "press_release": "in-case-you-missed-it-large-swaths-of-californians-eye-leaving-the-state-as-affordability-crisis-worsens.txt",
+  "party": "Republican",
+  "title": "Today,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"More than 40% of Californians are seriously considering leaving the state.\",\n    \"About 61% of Californians cite the high cost of living as the reason for their potential move.\",\n    \"More than 40% of independents and nearly 30% of Democrats are considering a move out of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"More than 40% of Californians are seriously considering leaving the state.\",\n    \"About 61% of Californians cite the high cost of living as the reason for their potential move.\",\n    \"More than 40% of independents and nearly 30% of Democrats are considering a move out of California.\",\n    \"People of color are far more likely to say that the expense of living in California is the reason they might leave.\",\n    \"80% of California residents are dissatisfied with the cost of everyday living.\",\n    \"70% of Californians are dissatisfied with the economy.\",\n    \"55% of Californians are unhappy with health care and housing costs.\",\n    \"46% of people have trouble saving money or paying for unexpected expenses, which is a six percentage point increase since April 2022.\",\n    \"18% of Californians struggle to make ends meet every month.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "04d04317a63828428f8119a463c2d6785c88fc8f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250528-new-bill-targets-speeding-highway-work-zones-prevent-road-worker-and-driver.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Automated speed enforcement (ASE) cameras are proven to slow drivers down and prevent deadly crashes in highway construction zones.\",\n    \"In 2023, there were more than 100 vehicle intrusions into work sites on California highways, resulting in collisions that killed or ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Automated speed enforcement (ASE) cameras are proven to slow drivers down and prevent deadly crashes in highway construction zones.\",\n    \"In 2023, there were more than 100 vehicle intrusions into work sites on California highways, resulting in collisions that killed or seriously injured workers.\",\n    \"In 2021, California recorded 9,500 crashes in work zones, leading to nearly 3,000 injuries and 73 deaths.\",\n    \"In states like Maryland and Pennsylvania, the implementation of ASE cameras has led to an 80% drop in speeding violations and nearly a 20% decrease in crashes.\",\n    \"Enforcing speed controls on freeways is considered the most effective way to ensure safety for road workers and drivers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "27fed5e135d6aab384af4569993fa658724daf71"
+}

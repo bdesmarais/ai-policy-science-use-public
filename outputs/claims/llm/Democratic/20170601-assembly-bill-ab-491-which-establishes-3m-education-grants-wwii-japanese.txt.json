@@ -1,0 +1,13 @@
+{
+  "press_release": "20170601-assembly-bill-ab-491-which-establishes-3m-education-grants-wwii-japanese.txt",
+  "party": "Democratic",
+  "title": "With Trump in office, Assemblymember Muratsuchi’s bill meant to ensure such discrimination never happens again in California",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:55:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 491 establishes $3 million in education grants regarding the World War II Japanese American incarceration.\",\n    \"The funding from Assembly Bill 491 will extend the California Civil Liberties Public Education Program.\",\n    \"The California Civil Liberties P",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 491 establishes $3 million in education grants regarding the World War II Japanese American incarceration.\",\n    \"The funding from Assembly Bill 491 will extend the California Civil Liberties Public Education Program.\",\n    \"The California Civil Liberties Public Education Program aims to ensure that a significant part of the state's history is not repeated.\",\n    \"There are parallels between the presidential executive orders issued by Trump and those that led to the World War II Japanese American incarceration.\",\n    \"The rising climate of fear and racism is leading to increased targeting of Muslims, immigrants, and refugees.\",\n    \"The work of the California Civil Liberties Public Education Program is critical to ensure that the mistakes of the past are not forgotten.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6119f398abdd438d3abf74a775ec9c6e9a90e94b"
+}

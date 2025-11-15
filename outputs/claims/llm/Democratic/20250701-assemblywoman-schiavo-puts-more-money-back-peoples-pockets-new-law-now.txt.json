@@ -1,0 +1,13 @@
+{
+  "press_release": "20250701-assemblywoman-schiavo-puts-more-money-back-peoples-pockets-new-law-now.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:40:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblywoman Pilar Schiavo's legislation (AB 2863) makes it easy to cancel unwanted subscriptions with just one click.\",\n    \"The new law requires companies to offer a simple, online cancellation process for subscription services.\",\n    \"Research shows that nearly 42% o",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblywoman Pilar Schiavo's legislation (AB 2863) makes it easy to cancel unwanted subscriptions with just one click.\",\n    \"The new law requires companies to offer a simple, online cancellation process for subscription services.\",\n    \"Research shows that nearly 42% of consumers continue to pay for subscriptions they no longer use, costing them an average of $133 per month.\",\n    \"Companies use tactics known as 'dark patterns' to delay or prevent cancellations of subscriptions.\",\n    \"Click to Cancel ensures consumers can quickly and easily cancel services they don’t want or need.\",\n    \"Click to Cancel 2.0 (AB 656) offers safety protections on social media platforms.\",\n    \"Social media companies must provide a clear, conspicuous 'Delete My Account' button under the new legislation.\",\n    \"Companies are prohibited from using 'dark patterns' to prevent or delay account deletion.\",\n    \"Deleting an account must trigger the full deletion of the user’s personal data, restoring control to the user.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "898ffbbb7b93ef95c94ee0e4affee935f9b7a04e"
+}

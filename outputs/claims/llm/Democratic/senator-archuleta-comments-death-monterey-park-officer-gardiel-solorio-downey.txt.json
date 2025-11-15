@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-archuleta-comments-death-monterey-park-officer-gardiel-solorio-downey.txt",
+  "party": "Democratic",
+  "title": "PICO RIVERA, CA – Senator Bob Archuleta (D-Pico Rivera)  released the following statement following the tragic shooting death of Monterey Park police officer Gardiel Solorio while ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4a2f61c10587677b9873fc586efc121db087e214"
+}

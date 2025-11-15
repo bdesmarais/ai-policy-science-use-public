@@ -1,0 +1,13 @@
+{
+  "press_release": "20230829-speaker-rivas-moves-expedite-pajaro-levee-upgrades.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:06:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The levee system along the Pajaro River experienced extensive damage during the winter storms.\",\n    \"This damage resulted in devastating flooding in the community of Pajaro.\",\n    \"Assembly Bill 876 aims to accelerate the project timeline for levee upgrades before the l",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The levee system along the Pajaro River experienced extensive damage during the winter storms.\",\n    \"This damage resulted in devastating flooding in the community of Pajaro.\",\n    \"Assembly Bill 876 aims to accelerate the project timeline for levee upgrades before the legislative session concludes.\",\n    \"The Pajaro community currently receives an eight-year level of flood protection, which is among the lowest in California.\",\n    \"Pajaro has experienced several major floods since the original construction of the levee system in 1949.\",\n    \"The flooding in the 1990s resulted in multiple fatalities and caused over $100 million in damage.\",\n    \"The U.S. Army Corps of Engineers is prepared to begin construction on the levee upgrades next year.\",\n    \"Without AB 876, the start of construction would be delayed to 2025 at the earliest.\",\n    \"Governor Gavin Newsom issued an executive order to expedite emergency repairs to the levee system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6402299a62f4826d6c800b02bc83c363f28868b6"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20170901-audit-protection-act-jointly-authored-assemblymembers-al-muratsuchi-phil.txt",
+  "party": "Democratic",
+  "title": "Bill would impose civil penalty of up to $5,000 on anyone who intentionally deceives, defrauds, obstructs or interferes with an official state audit",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Senate passed AB 562, the Audit Protection Act, by a vote of 5-1.\",\n    \"The bill would impose a civil penalty of up to $5,000 on anyone who intentionally deceives, defrauds, obstructs, or interferes with the California State Auditor.\",\n    \"The introducti",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Senate passed AB 562, the Audit Protection Act, by a vote of 5-1.\",\n    \"The bill would impose a civil penalty of up to $5,000 on anyone who intentionally deceives, defrauds, obstructs, or interferes with the California State Auditor.\",\n    \"The introduction of the bill was in response to allegations of interference in the audit process by the University of California Office of the President.\",\n    \"Audits are essential to conducting robust oversight and ensuring transparency within state government.\",\n    \"Interfering with state audits hurts the public's trust and undermines the authority of the State Auditor to examine public agencies impartially.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "df8c57fb9f846041152dc95fea62bf66437b274f"
+}

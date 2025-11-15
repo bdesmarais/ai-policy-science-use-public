@@ -1,0 +1,13 @@
+{
+  "press_release": "20210217-bennett-introduces-legislation-provide-remote-access-courts.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) –Newly elected Assemblymember Steve Bennett (D-Ventura) introduced legislation today to modernize open court proceedings by requiring courts to provide remote access f",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:23:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The pandemic has revealed the need to provide more options for meaningful access for the press and public to open court proceedings.\",\n    \"AB 716 increases public transparency in government.\",\n    \"AB 716 establishes a path to ensuring remote access to court proceedings",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The pandemic has revealed the need to provide more options for meaningful access for the press and public to open court proceedings.\",\n    \"AB 716 increases public transparency in government.\",\n    \"AB 716 establishes a path to ensuring remote access to court proceedings.\",\n    \"The high transmission rate of COVID-19 created a greater need for remote work and remote events.\",\n    \"Access for the public and media to legal proceedings was limited when courthouses physically closed during the pandemic.\",\n    \"California courts have adapted and continued to operate during the COVID-19 pandemic.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1dd6becf7c3d15cf216824bb8d41d5022c24c99a"
+}

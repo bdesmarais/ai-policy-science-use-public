@@ -1,0 +1,13 @@
+{
+  "press_release": "20240919-whoopi-goldberg-joins-woody-harrelson-calling-governor-newsom-legalize.txt",
+  "party": "Democratic",
+  "title": "SAN FRANCISCO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:17:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's legal cannabis industry is affected by competition from illegal markets that do not contribute to the economy.\",\n    \"Whoopi Goldberg launched a medical cannabis brand in 2016 to help people seeking relief from menstrual cramps.\",\n    \"Assemblymember Matt Ha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's legal cannabis industry is affected by competition from illegal markets that do not contribute to the economy.\",\n    \"Whoopi Goldberg launched a medical cannabis brand in 2016 to help people seeking relief from menstrual cramps.\",\n    \"Assemblymember Matt Haney's bill, AB 1775, aims to allow licensed cannabis retailers to diversify their businesses in California.\",\n    \"Current restrictions prohibit cannabis lounges in California from serving food or non-alcoholic beverages.\",\n    \"The reintroduced bill AB 1775 includes support from the United Commercial and Food Workers to protect cannabis lounge workers from secondhand smoke.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ec4f3a44579dc29884c2991d7c2874b24a729d4a"
+}

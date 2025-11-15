@@ -1,0 +1,13 @@
+{
+  "press_release": "20240530-california-bill-increasing-access-opioid-addiction-treatments-gets-closer.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:44:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2115 represents a significant shift in how opioid addiction is treated in California.\",\n    \"The bill aligns California’s law with updated federal guidelines set by the Drug Enforcement Administration and the Substance Abuse and Mental Health Services Administration.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2115 represents a significant shift in how opioid addiction is treated in California.\",\n    \"The bill aligns California’s law with updated federal guidelines set by the Drug Enforcement Administration and the Substance Abuse and Mental Health Services Administration.\",\n    \"AB 2115 makes California one of the most accessible states for methadone treatment access.\",\n    \"Doctors are allowed to dispense their patients up to 72-hours worth of take-home doses of methadone for the first time.\",\n    \"The bill increases the amount of methadone a patient can take home from a clinic.\",\n    \"Patients can avoid lining up for methadone in front of clinics on a daily basis due to expanded take-home access.\",\n    \"The bill allows non-methadone clinic doctors to perform and fulfill the federally required physical exams of patients.\",\n    \"Patients can decline non-drug related blood testing and lab work as a result of the new regulations.\",\n    \"The requirement for a patient to have at least one year of recorded opioid usage before receiving treatment has been removed.\",\n    \"The requirement for patients to participate in frequent counseling services has been removed.\",\n    \"Patients can be absent from treatment for up to 30 days before being removed from a program.\",\n    \"Physicians have greater discretion to determine the appropriate dosage of methadone to administer for a patient.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "00d071376bbf7baec5aec9b6707a27d74eb3d086"
+}

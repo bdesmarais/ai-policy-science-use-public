@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-josh-becker-responds-to-senate-and-assembly-agreement-the.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —After months of extensive budget negotiations, the Senate and Assembly announced an agreement on the 2023-24 fiscal budget, which protects the progress that Califor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The budget agreement includes $7.5 million to implement SB 1203 (Becker, 2022) to make California government carbon neutral by 2035.\",\n    \"The budget allocates $445 million for electric vehicle charging and incentives, including $250 million for the Clean Cars 4 All pro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The budget agreement includes $7.5 million to implement SB 1203 (Becker, 2022) to make California government carbon neutral by 2035.\",\n    \"The budget allocates $445 million for electric vehicle charging and incentives, including $250 million for the Clean Cars 4 All program.\",\n    \"The budget provides $331 million for the state low emissions transit capital program.\",\n    \"The budget designates $234 million for air pollution programs, including $60 million for implementation.\",\n    \"The budget allocates $10 million for an organic farmer transition program.\",\n    \"The budget includes funding for clean job transition training programs totaling $2.8 million.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "53c37a964d35c4249715a3fd038295f884726fa3"
+}

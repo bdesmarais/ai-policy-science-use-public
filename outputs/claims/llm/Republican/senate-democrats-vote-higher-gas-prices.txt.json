@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-democrats-vote-higher-gas-prices.txt",
+  "party": "Republican",
+  "title": "This morning, Senate Minority Leader Brian Jones ( R-San Diego) forced a floor vote on Senate Bill 2 , his legislation to repeal Governor Gavin Newsom’s 65-cent gas price hike. Sen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 2 aims to repeal Governor Gavin Newsom’s 65-cent gas price hike.\",\n    \"The California Air Resources Board (CARB) estimates the update to the state’s Low Carbon Fuel Standard (LCFS) will raise gas prices by up to 65 cents per gallon.\",\n    \"CARB Chair Liane R",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 2 aims to repeal Governor Gavin Newsom’s 65-cent gas price hike.\",\n    \"The California Air Resources Board (CARB) estimates the update to the state’s Low Carbon Fuel Standard (LCFS) will raise gas prices by up to 65 cents per gallon.\",\n    \"CARB Chair Liane Randolph admitted that the Board does not consider how its regulations affect prices at the pump.\",\n    \"California gas prices could soar 75% to $8.43 per gallon by 2026 due to refinery shutdowns and excessive regulation and taxation.\",\n    \"California's gas excise tax is set to increase to 61.2 cents per gallon on July 1.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0873babac2f80d8761fece04018bb214827a4fc5"
+}

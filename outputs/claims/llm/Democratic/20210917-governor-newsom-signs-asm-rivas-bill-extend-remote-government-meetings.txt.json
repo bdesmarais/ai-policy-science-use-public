@@ -1,0 +1,13 @@
+{
+  "press_release": "20210917-governor-newsom-signs-asm-rivas-bill-extend-remote-government-meetings.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:33:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 361 provides state agencies and local legislative bodies the flexibility to meet remotely during emergencies.\",\n    \"AB 361 ensures the delivery of essential government services to Californians in times of crisis while maintaining high levels of transparenc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 361 provides state agencies and local legislative bodies the flexibility to meet remotely during emergencies.\",\n    \"AB 361 ensures the delivery of essential government services to Californians in times of crisis while maintaining high levels of transparency and public access.\",\n    \"The bill requires that the public can join meetings either via telephone or videoconference during emergencies.\",\n    \"AB 361 provides local public agencies the authority to meet remotely to continue delivering critical services during inevitable emergencies.\",\n    \"Counties host dozens of public meetings every month that must be conducted safely during a state of emergency.\",\n    \"AB 361 is seen as a key tool by county leaders to ensure continued operations, public participation, and increased awareness during times of emergency.\",\n    \"The bill allows local agencies to conduct government business and maintain local operations efficiently and effectively during any emergency situation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "71fcc68e2a988a668efc9204c0d9e76ad2e6f048"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-bill-streamline-permits-water-groundwater-recharge-projects-moves-forward.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) announced that her bill SB 651, which directs the State Judicial Council to limit the ability to stall water conservation and groundwater rech",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Shannon Grove's bill SB 651 would limit the ability to challenge water conservation and groundwater recharge projects to a maximum of 270 days.\",\n    \"California is experiencing extreme, sustained drought conditions due to climate change.\",\n    \"California's Wate",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Shannon Grove's bill SB 651 would limit the ability to challenge water conservation and groundwater recharge projects to a maximum of 270 days.\",\n    \"California is experiencing extreme, sustained drought conditions due to climate change.\",\n    \"California's Water Supply Strategy prioritizes the need for the state to modernize its water system.\",\n    \"Governor Newsom intends to create a more expeditious process for completing, reviewing, and finalizing CEQA reviews for drought resilience projects.\",\n    \"Frivolous environmental lawsuits contribute to delays in water storage projects in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "472bc5e3fc7ca91a000f20887e1bb401b325cad8"
+}

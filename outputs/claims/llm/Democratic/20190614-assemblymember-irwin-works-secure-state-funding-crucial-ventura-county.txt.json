@@ -1,0 +1,13 @@
+{
+  "press_release": "20190614-assemblymember-irwin-works-secure-state-funding-crucial-ventura-county.txt",
+  "party": "Democratic",
+  "title": "Sacramento –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:08:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Funding for law enforcement departments will allow local peace officers to assist with removing firearms from dangerous individuals on the state's Armed Prohibited Persons System (APPS).\",\n    \"California law prohibits individuals with felony or violent misdemeanor convi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Funding for law enforcement departments will allow local peace officers to assist with removing firearms from dangerous individuals on the state's Armed Prohibited Persons System (APPS).\",\n    \"California law prohibits individuals with felony or violent misdemeanor convictions, and those experiencing mental health crises or narcotics addiction from possessing firearms.\",\n    \"There is a backlog of over 10,000 subjects who are prohibited from possessing firearms in the California Armed Prohibited Persons System (APPS).\",\n    \"Empowering local law enforcement agencies to reduce the backlog of armed prohibited persons provides tools to proactively keep communities safe.\",\n    \"The pilot child care center at California State University Channel Islands (CSUCI) will serve as a teaching and learning lab for students and faculty.\",\n    \"The child care center aims to address systemic challenges to equitable access to early childhood education.\",\n    \"An estimated 12,000 preschool-age children in Ventura County cannot access or participate in preschool due to space, costs, and program limitations.\",\n    \"The investment in the child care center is expected to transform the lives of tens of thousands of children and their families.\",\n    \"The child care center will serve as a model for expanding equitable access to early childhood education.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8f6e3c19be75fb1d9e987b7325d7d78c7a682e66"
+}

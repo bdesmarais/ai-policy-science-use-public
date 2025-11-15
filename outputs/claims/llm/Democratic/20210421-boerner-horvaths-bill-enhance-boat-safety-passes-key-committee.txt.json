@@ -1,0 +1,13 @@
+{
+  "press_release": "20210421-boerner-horvaths-bill-enhance-boat-safety-passes-key-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Consumer Privacy Act allows consumers greater ability to protect their personal contact information from being shared.\",\n    \"Certain exceptions allowed under later legislation gave car dealers the ability to share consumer information for safety recall an",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Consumer Privacy Act allows consumers greater ability to protect their personal contact information from being shared.\",\n    \"Certain exceptions allowed under later legislation gave car dealers the ability to share consumer information for safety recall and warranty information.\",\n    \"AB 335 extends the exception for sharing consumer information to watercraft dealers.\",\n    \"Federal law requires sharing of safety recall information when a watercraft is purchased.\",\n    \"The California Consumer Privacy Act complicates sharing safety recall information when consumers exercise their privacy rights.\",\n    \"California is the third largest boating state.\",\n    \"Californians purchased $718 million in new boats, engines, and trailers in 2018.\",\n    \"Manufacturers of boats should be able to verify warranties and contact owners for safety recalls.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "79657d80270747a60f5be25ed92331fc3e3248ef"
+}

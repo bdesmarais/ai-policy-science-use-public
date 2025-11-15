@@ -1,0 +1,13 @@
+{
+  "press_release": "20190205-assemblymember-jesse-gabriel-introduces-bill-protect-seniors-requiring.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Today, Assemblymember Jesse Gabriel (D-San Fernando Valley) introduced legislation to protect patients by requiring physicians to include the purpose of any prescripti",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:04:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Labeling medications will help to avoid confusion and reduce the risk of adverse drug events.\",\n    \"Medications that look or sound alike can lead to severe consequences for patients.\",\n    \"Requiring doctors to note the purpose of a medication on its label can improve p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Labeling medications will help to avoid confusion and reduce the risk of adverse drug events.\",\n    \"Medications that look or sound alike can lead to severe consequences for patients.\",\n    \"Requiring doctors to note the purpose of a medication on its label can improve patient safety.\",\n    \"Mistakenly taking the wrong medication can lead to fatalities.\",\n    \"Many medications look alike and have similar names, increasing the risk of confusion.\",\n    \"Adverse drug events account for nearly 700,000 emergency room visits and 100,000 hospitalizations each year.\",\n    \"Seniors are at an elevated risk for adverse drug effects due to taking multiple medications.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "501582d68e0ce49e7e51eed87b7d4877762d9c0d"
+}

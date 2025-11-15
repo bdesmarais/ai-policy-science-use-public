@@ -1,0 +1,13 @@
+{
+  "press_release": "20230908-assemblywoman-schiavo-makes-progress-protecting-medicare-seniors-passage.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:07:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The ACO REACH pilot program undermines the principles of traditional Medicare by incentivizing profits and limiting healthcare delivery.\",\n    \"Seniors relying on traditional Medicare may be re-assigned into ACO REACH programs, threatening their choice of primary care pr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The ACO REACH pilot program undermines the principles of traditional Medicare by incentivizing profits and limiting healthcare delivery.\",\n    \"Seniors relying on traditional Medicare may be re-assigned into ACO REACH programs, threatening their choice of primary care providers.\",\n    \"ACO REACH programs have a documented history of overcharging billions of taxpayer dollars.\",\n    \"California hosts 20 percent of the nationally approved ACO REACH programs.\",\n    \"The ACO REACH pilot program could have detrimental effects on California's healthcare system and destabilize Medicare's funding.\",\n    \"The California Legislature is the first to pass a resolution requesting the termination of the ACO REACH pilot program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "39ad962303fc3dbfc9565b38245c0dcf4d4f2b0d"
+}

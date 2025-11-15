@@ -1,0 +1,13 @@
+{
+  "press_release": "20200928-boerner-horvaths-economic-recovery-bill-save-jobs-and-expand-unemployment.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1731 incentivizes businesses' participation in California's Work Share Program.\",\n    \"California's unemployment insurance Work Share Program allows businesses to reduce employees' hours and wages instead of laying them off.\",\n    \"Eligible workers in California's Wor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1731 incentivizes businesses' participation in California's Work Share Program.\",\n    \"California's unemployment insurance Work Share Program allows businesses to reduce employees' hours and wages instead of laying them off.\",\n    \"Eligible workers in California's Work Share Program receive prorated unemployment benefits to replace lost wages.\",\n    \"Less than 1% of initial UI claims in California during the pandemic have come from Work Sharing.\",\n    \"Michigan's Work Sharing claims are at 7.4%, indicating higher utilization than California's.\",\n    \"AB 1731 creates a simplified application process for the Work Share Program, allowing immediate approval upon receipt.\",\n    \"The EDD is instructed to collaborate with the Governor’s Office of Business and Economic Development on the Work Share Program.\",\n    \"Employers' participation in the State’s Work Share Program may improve their ability to survive economic fallout from the coronavirus.\",\n    \"There are potentially millions of dollars in underutilized federal funding available for the expansion of the Work Share Program in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "413a04116184663e56fdeb93ea24d845aa80af90"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210323-assemblymember-al-muratsuchi-introduces-bill-strengthen-state-oversight.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:26:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of Public Health (CDPH) currently lacks sufficient authority to prohibit unqualified and unethical owners from operating skilled nursing facilities.\",\n    \"Unscrupulous nursing home owners put profits above people's lives, especially during a pa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of Public Health (CDPH) currently lacks sufficient authority to prohibit unqualified and unethical owners from operating skilled nursing facilities.\",\n    \"Unscrupulous nursing home owners put profits above people's lives, especially during a pandemic.\",\n    \"At least two dozen nursing homes acquired by California's largest nursing home chain are operating without appropriate licensing from CDPH.\",\n    \"Six licensure applications from California's largest nursing home chain were denied due to horrific conditions in its facilities.\",\n    \"Gateway Care and Rehabilitation has a long history of licensure denials due to unfitness by CDPH dating back to 2004.\",\n    \"A facility operated by Gateway Care and Rehabilitation is under criminal investigation for a COVID-19 outbreak and deaths of residents during the pandemic.\",\n    \"The pandemic has highlighted the dangers of living in nursing homes operated by unfit owners.\",\n    \"AB 1502 aims to prevent unlicensed nursing home operators from endangering the lives of residents.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "77824a751ae09db94593fa56f948547f12e0485e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20221101-assemblymember-lisa-calderon-presents-check-los-angeles-county-fire.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:50:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Wildfires will continue to get worse due to climate change.\",\n    \"California has experienced 5 of the 20 largest wildfires in its history within the last 2 years.\",\n    \"Strategically placed dip tanks provide advantageous water sources that helicopters can use during a ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Wildfires will continue to get worse due to climate change.\",\n    \"California has experienced 5 of the 20 largest wildfires in its history within the last 2 years.\",\n    \"Strategically placed dip tanks provide advantageous water sources that helicopters can use during a wildfire.\",\n    \"The installation of new heli-hydrants and the retrofitting of portable dip tanks are critical to ensuring rapid wildfire response.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9f0cb96e62351dd81223a77e5bd1f39a4ab6d88a"
+}

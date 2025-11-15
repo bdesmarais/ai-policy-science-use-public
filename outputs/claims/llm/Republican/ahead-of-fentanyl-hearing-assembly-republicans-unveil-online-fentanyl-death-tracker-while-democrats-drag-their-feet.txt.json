@@ -1,0 +1,13 @@
+{
+  "press_release": "ahead-of-fentanyl-hearing-assembly-republicans-unveil-online-fentanyl-death-tracker-while-democrats-drag-their-feet.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – To mark today’s joint hearing on the fentanyl crisis (at which no action will be taken or bills heard), Assembly Republicans are unveiling an",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Nearly 2,300 Californians have lost their lives to fentanyl in 2023.\",\n    \"The estimate of fentanyl deaths in California for 2023 was derived from the pace of fentanyl deaths in 2021.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Nearly 2,300 Californians have lost their lives to fentanyl in 2023.\",\n    \"The estimate of fentanyl deaths in California for 2023 was derived from the pace of fentanyl deaths in 2021.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a11e5421194c3331add2b5cc8e1a42c1f0310d88"
+}

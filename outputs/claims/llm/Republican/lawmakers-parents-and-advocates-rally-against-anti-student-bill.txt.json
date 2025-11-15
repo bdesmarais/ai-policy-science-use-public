@@ -1,0 +1,13 @@
+{
+  "press_release": "lawmakers-parents-and-advocates-rally-against-anti-student-bill.txt",
+  "party": "Republican",
+  "title": "Members of the California State Senate & Assembly with parents and charter school advocates at today's press conference. Photo courtesy: Senate Rules Photography",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 84 would limit educational opportunities for students and parents.\",\n    \"AB 84 would defund charter schools and force students into state-run schools.\",\n    \"AB 84 would create an anti-charter school czar appointed by the governor.\",\n    \"AB 84 will reduce educationa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 84 would limit educational opportunities for students and parents.\",\n    \"AB 84 would defund charter schools and force students into state-run schools.\",\n    \"AB 84 would create an anti-charter school czar appointed by the governor.\",\n    \"AB 84 will reduce educational opportunities for children and prevent competitive alternatives for education.\",\n    \"AB 84 expands government control and overreach, which is costly, unnecessary, and harmful to the viability of charter schools.\",\n    \"AB 84 would strip away flexibility and limit individualized supports for students.\",\n    \"AB 84 would ignore the proven power of parent-teacher-community collaboration in student growth.\",\n    \"AB 84 would impose a mountain of red tape on nonclassroom-based charter schools.\",\n    \"AB 84 would put unnecessary bureaucratic burdens on successful charter schools.\",\n    \"AB 84 would harm the most vulnerable California students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "97d4f0dd2b67174565c067f415b3f4b14d36fed1"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220823-california-legislature-approves-assemblymember-kalras-ab-2167-encourage.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:45:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2167 requires courts presiding over a criminal matter to consider alternatives to incarceration.\",\n    \"AB 2167 aims to shift California away from an overly punitive process that disproportionately impacts Black and brown communities.\",\n    \"Reducing the incarcerated ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2167 requires courts presiding over a criminal matter to consider alternatives to incarceration.\",\n    \"AB 2167 aims to shift California away from an overly punitive process that disproportionately impacts Black and brown communities.\",\n    \"Reducing the incarcerated population in California carries a beneficial fiscal impact.\",\n    \"It costs about $106,000 per year to incarcerate an individual in California prisons.\",\n    \"The cost to supervise a person on probation in 2014 was about $12 daily, compared to $106 per day for jail and $164 per day for prison.\",\n    \"AB 2167 encourages judges to shift from criminal punishments that are expensive, ineffective, and racist.\",\n    \"Other states already encourage restraint in the use of incarceration.\",\n    \"California law has lacked a clear statement about when incarceration is appropriate.\",\n    \"Encouraging alternatives to incarceration can help improve public safety outcomes.\",\n    \"California's overreliance on incarceration has failed to improve public safety while harming vulnerable communities.\",\n    \"Alternatives to incarceration can produce better policy outcomes that keep communities safe while reducing racial inequities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ea9486e4a465c0780a5d489cb487cfd870ca7234"
+}

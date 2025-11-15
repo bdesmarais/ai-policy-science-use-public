@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-melanies-law-stop-youth-fentanyl-overdoses.txt",
+  "party": "Democratic",
+  "title": "Middle and high school students across California will be protected by a new law requiring life-saving prevention and response resources for fentanyl overdoses under legislation si",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A new law in California requires life-saving prevention and response resources for fentanyl overdoses in middle and high schools.\",\n    \"Fentanyl is responsible for one in five youth deaths in California.\",\n    \"Fentanyl deaths in Santa Clara County spiked by 863% betwee",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A new law in California requires life-saving prevention and response resources for fentanyl overdoses in middle and high schools.\",\n    \"Fentanyl is responsible for one in five youth deaths in California.\",\n    \"Fentanyl deaths in Santa Clara County spiked by 863% between 2018 and 2021.\",\n    \"Every public school in California is mandated to provide training to employees on opioid prevention and life-saving response.\",\n    \"The bill establishes a state framework to ensure that all students and adults understand the growing risk of youth fentanyl exposure.\",\n    \"The law aims to provide resources needed to prevent and respond to fentanyl poisoning and overdoses.\",\n    \"SB 10 was inspired by the Santa Clara County Fentanyl Working Group, which works to combat fentanyl's impact through various strategies.\",\n    \"The Santa Clara County Fentanyl Working Group started following a 12-year-old's death from fentanyl poisoning.\",\n    \"The distribution of Narcan has expanded to almost every school district in Santa Clara County.\",\n    \"Training sessions for staff regarding Narcan and fentanyl overdose response are already underway in Santa Clara County schools.\",\n    \"The expansion of Narcan distribution includes venues such as concert halls, bars, and restaurants.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0c30572792d8ba3192eae7eb26dabe2cf1d4b543"
+}

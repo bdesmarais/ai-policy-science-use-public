@@ -1,0 +1,13 @@
+{
+  "press_release": "edd-racking-billions-dollars-debt-due-fraudulent-claims-senator-groves-sb-39-solution.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove ( R-Bakersfield ) announced that her bill to strengthen protections against fraudulent unemployment insurance (UI) claims filed with the Employment Developmen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Senator Shannon Grove's bill SB 39 requires the Employment Development Department (EDD) to cross-check prison inmate roles to prevent unemployment benefits from going to ineligible recipients.\",\n    \"Audits have uncovered billions of dollars in misspent unemployment",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Senator Shannon Grove's bill SB 39 requires the Employment Development Department (EDD) to cross-check prison inmate roles to prevent unemployment benefits from going to ineligible recipients.\",\n    \"Audits have uncovered billions of dollars in misspent unemployment insurance benefits at the EDD due to the department's inability to prevent fraud.\",\n    \"Between March and August 2020, more than 35,000 Pandemic Unemployment Assistance claims were filed on behalf of inmates, with more than half paid despite inmates being ineligible under current law.\",\n    \"At the time of discovered fraud, 35 other states had adopted fraud protections for their various unemployment programs.\",\n    \"A widely utilized fraud scheme has reportedly stolen nearly $1 billion in taxpayer money from unemployment insurance benefits.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "db7497bb872970fb7bc8bd985b560c81883a6864"
+}

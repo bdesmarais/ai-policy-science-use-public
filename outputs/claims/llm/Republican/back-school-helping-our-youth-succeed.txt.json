@@ -1,0 +1,13 @@
+{
+  "press_release": "back-school-helping-our-youth-succeed.txt",
+  "party": "Republican",
+  "title": "By Senator Rosilicie Ochoa Bogh, 23rd Senate District",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Students benefit from in-person learning.\",\n    \"Reopening schools for in-person instruction is critical.\",\n    \"Good safety protocols need to be in place to ensure a safe learning experience.\",\n    \"Recess, involving fresh air, movement, and play, is critical to a child",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Students benefit from in-person learning.\",\n    \"Reopening schools for in-person instruction is critical.\",\n    \"Good safety protocols need to be in place to ensure a safe learning experience.\",\n    \"Recess, involving fresh air, movement, and play, is critical to a child's physical, social, and emotional development.\",\n    \"An increased emphasis on students' mental health is essential.\",\n    \"Mental health suffered greatly during the pandemic and school closures.\",\n    \"Resources should be focused on educating students about mental health.\",\n    \"Developing better protocols for educators is necessary for addressing student mental health concerns.\",\n    \"SB 224 will require schools to include medically accurate, age-appropriate instruction in mental health.\",\n    \"AB 309 would require the State Department of Education to develop model referral protocols for addressing student mental health concerns.\",\n    \"Back-to-school must focus on mental health as part of a well-rounded education.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a6e110602b98c66c5766c126fbcd6d4183382022"
+}

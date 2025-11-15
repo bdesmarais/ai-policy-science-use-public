@@ -1,0 +1,13 @@
+{
+  "press_release": "20170614-berman-expresses-support-california-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The budget allocates funds for computer science initiatives.\",\n    \"The budget includes the development of computer science education standards.\",\n    \"The budget supports the creation of a computer science strategic implementation advisory panel.\",\n    \"The initiatives ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The budget allocates funds for computer science initiatives.\",\n    \"The budget includes the development of computer science education standards.\",\n    \"The budget supports the creation of a computer science strategic implementation advisory panel.\",\n    \"The initiatives aim to expand and diversify access to computer science education.\",\n    \"Access to computer science education is intended to help students gain skills for good-paying jobs in the 21st Century Economy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6893f0a72c6871960c871405c3d567d438cc67b1"
+}

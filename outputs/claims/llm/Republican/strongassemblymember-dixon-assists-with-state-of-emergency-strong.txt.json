@@ -1,0 +1,13 @@
+{
+  "press_release": "strongassemblymember-dixon-assists-with-state-of-emergency-strong.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Last night the Governor added Orange County to the State of Emergency for the severe winter storms after the Board of Supervisors voted to pass a local declaration.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8a0e6f5a67b7033a14b2bc30573e78d58d3a6430"
+}

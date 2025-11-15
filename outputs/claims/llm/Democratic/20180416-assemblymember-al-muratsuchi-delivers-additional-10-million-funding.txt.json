@@ -1,0 +1,13 @@
+{
+  "press_release": "20180416-assemblymember-al-muratsuchi-delivers-additional-10-million-funding.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Assemblymember Al Muratsuchi secured $10 million in additional funding for the Southern California Regional Occupational Center (SoCal ROC).\",\n    \"SoCal ROC is an award-winning career technical education program.\",\n    \"The additional funding will ensure that SoCal",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Assemblymember Al Muratsuchi secured $10 million in additional funding for the Southern California Regional Occupational Center (SoCal ROC).\",\n    \"SoCal ROC is an award-winning career technical education program.\",\n    \"The additional funding will ensure that SoCal ROC continues to provide high-quality career technical education and teach valuable job skills to students.\",\n    \"The California Department of Finance certified that SoCal ROC’s financial plan for the next four years was stable.\",\n    \"SoCal ROC will designate a portion of the funds for building reserves while adapting to the Local Control Funding Formula.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "43496ee9dbb2b977d0b923a31c3abba655238f53"
+}

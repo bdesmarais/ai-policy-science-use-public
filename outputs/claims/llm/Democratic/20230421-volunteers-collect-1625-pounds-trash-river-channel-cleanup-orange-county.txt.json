@@ -1,0 +1,13 @@
+{
+  "press_release": "20230421-volunteers-collect-1625-pounds-trash-river-channel-cleanup-orange-county.txt",
+  "party": "Democratic",
+  "title": "COSTA MESA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Volunteers collected 1,625 pounds of trash during the river channel cleanup.\",\n    \"The amount of trash found in the channel was astounding.\",\n    \"Community cleanups are one of the best ways to help prevent debris from polluting the sea and harming marine wildlife.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Volunteers collected 1,625 pounds of trash during the river channel cleanup.\",\n    \"The amount of trash found in the channel was astounding.\",\n    \"Community cleanups are one of the best ways to help prevent debris from polluting the sea and harming marine wildlife.\",\n    \"Orange County waterways collect trash from inland communities via the county’s rivers and storm drains.\",\n    \"If not intercepted, pollution from inland communities impacts oceans and shorelines.\",\n    \"This record-breaking wet season has caused tons of trash to pile up in the storm drain system.\",\n    \"Cleaning up the channel can reduce stress on trash capture systems and remove pollution before it impacts the coast.\",\n    \"The Santa Ana-Delhi channel cleanup helps protect one of California’s few remaining estuaries, Upper Newport Bay.\",\n    \"Upper Newport Bay plays a vital role in the marine ecosystem.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5d81005b2f3c154bb712ce2d0faffdc7243203e8"
+}

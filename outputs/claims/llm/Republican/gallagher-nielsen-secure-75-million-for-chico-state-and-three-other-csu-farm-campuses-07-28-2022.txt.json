@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-nielsen-secure-75-million-for-chico-state-and-three-other-csu-farm-campuses-07-28-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Funding will help modernize agricultural facilities and equipment across four California State University Campuses.\",\n    \"These universities contribute to research and innovation in the agricultural industry.\",\n    \"The funding aims to support research contributions to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Funding will help modernize agricultural facilities and equipment across four California State University Campuses.\",\n    \"These universities contribute to research and innovation in the agricultural industry.\",\n    \"The funding aims to support research contributions to drought resiliency practices.\",\n    \"Funding is intended to aid in sustainable food production.\",\n    \"The budget allocation will assist in forest stewardship research.\",\n    \"Modernization of school farms is critical to ensuring future food supplies.\",\n    \"The funding will support research at CSU campuses to address energy procurement issues.\",\n    \"Research will focus on food insecurity and catastrophic wildfires.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "35b745d43c295f96d050770b06e2b6a411339492"
+}

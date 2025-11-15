@@ -1,0 +1,13 @@
+{
+  "press_release": "20201207-covid-19-crisis-continues-health4all-bill-will-be-introduced-provide-health.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:21:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Dr. Joaquin Arambula will introduce legislation to expand Medi-Cal coverage to those who are income-eligible but currently excluded due to their immigration status.\",\n    \"Assemblymember Arambula’s bill would remove the exclusion altogether and ensure heal",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Dr. Joaquin Arambula will introduce legislation to expand Medi-Cal coverage to those who are income-eligible but currently excluded due to their immigration status.\",\n    \"Assemblymember Arambula’s bill would remove the exclusion altogether and ensure health care access for all Californians.\",\n    \"The bill proposes the goal of expanding Medi-Cal to all Californians under 138% of the poverty level, without any exclusion based on birthplace or immigration status.\",\n    \"The COVID-19 pandemic has made it clear that everyone in California must have access to health care, including undocumented adults.\",\n    \"COVID-19 has disproportionately impacted communities of color, especially those who work in essential jobs.\",\n    \"Governor Newsom proposed to provide full-scope Medi-Cal to an estimated 27,000 low-income undocumented seniors by removing immigration status as an eligibility exclusion.\",\n    \"The pandemic has increased the urgency to expand Medi-Cal to all income-eligible Californians, regardless of immigration status.\",\n    \"California expanded full-scope Medi-Cal to all low-income children, regardless of their immigration status in 2016.\",\n    \"Governor Gavin Newsom signed a state budget plan in 2019 that funded an expansion of Medi-Cal to include income-eligible undocumented young adults ages 19-25.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f23ace0a8f5e95b96efcb4236791f06b30f3a327"
+}

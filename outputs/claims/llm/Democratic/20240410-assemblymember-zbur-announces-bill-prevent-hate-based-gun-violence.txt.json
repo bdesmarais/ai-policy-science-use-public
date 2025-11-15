@@ -1,0 +1,13 @@
+{
+  "press_release": "20240410-assemblymember-zbur-announces-bill-prevent-hate-based-gun-violence.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:39:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Hate crimes in California have risen by almost 150% over the last ten years.\",\n    \"There has been a significant increase in extremist activity and hate crime incidents motivated by antisemitism, prejudice based on sexual orientation, and racial bias.\",\n    \"California h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Hate crimes in California have risen by almost 150% over the last ten years.\",\n    \"There has been a significant increase in extremist activity and hate crime incidents motivated by antisemitism, prejudice based on sexual orientation, and racial bias.\",\n    \"California has adopted strong laws to prevent mass shootings and other acts of violence.\",\n    \"Gun violence restraining orders (GVROs) can be used when someone shows warning signs that they intend to carry out violence in the name of extremist ideology and/or fueled by hate-driven motivations.\",\n    \"GVROs have been utilized in cities like San Diego, San Francisco, and Sacramento to prevent hate crimes based on a general assessment of danger to the community.\",\n    \"AB 2917 clarifies that threats of hate-based or political violence can be used as a basis for temporarily restricting access to firearms.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "003a21c5061459ee72ddc7d1e4d6f428d1bc4c34"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-alvarado-gils-bill-protect-law-enforcement-and-expand-skilled-workforce-passes-senate.txt",
+  "party": "Republican",
+  "title": "Senator Marie Alvarado-Gil ( R-Jackson ) is proud to announce her bill enhancing rural public safety, SB 229, passed unanimously on the Senate floor last Friday. The bill expands t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Rural communities face distinct public safety challenges that require a strong, adaptable response.\",\n    \"SB 229 ensures law enforcement has the authority and support needed to act swiftly in emergencies, from natural disasters to public safety threats.\",\n    \"Expanding",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Rural communities face distinct public safety challenges that require a strong, adaptable response.\",\n    \"SB 229 ensures law enforcement has the authority and support needed to act swiftly in emergencies, from natural disasters to public safety threats.\",\n    \"Expanding the authority of deputies is essential for ensuring that they can respond swiftly to emergencies.\",\n    \"By empowering deputies with broader responsibilities, their ability to protect and serve communities is strengthened.\",\n    \"SB 229 expands the responsibilities of deputy sheriffs in Amador and Nevada counties to include emergency response roles.\",\n    \"Correctional officers are empowered to assist with essential duties like roadblocks, search-and-rescue operations, and evacuations under SB 229.\",\n    \"SB 229 aligns Nevada County with other counties across California by providing correctional officers with the same authority and operational scope as peace officers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c64fbfac6e934ff459a576130f788c3afc26b2b8"
+}

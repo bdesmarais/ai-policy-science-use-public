@@ -1,0 +1,13 @@
+{
+  "press_release": "20240130-assemblymember-berman-joint-authors-bill-halt-california-public-utilities.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:33:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Utility rates in California continue to rise.\",\n    \"The proposals from PG&E and other investor-owned utilities (IOUs) disproportionately burden Californians living in high-cost areas.\",\n    \"The proposed income-graduated fixed fee would disincentivize energy conservatio",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Utility rates in California continue to rise.\",\n    \"The proposals from PG&E and other investor-owned utilities (IOUs) disproportionately burden Californians living in high-cost areas.\",\n    \"The proposed income-graduated fixed fee would disincentivize energy conservation.\",\n    \"The proposed fee would cut a break to some of the biggest energy users while penalizing smaller, energy-efficient homes and working-class Californians.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "29a4f36e94a5b7cea9d9177f4e9fadf8df7468c1"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-speaker-designate-robert-rivas-assemblywoman-esmeralda.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic drained $12 billion from hospitals in California.\",\n    \"Skyrocketing prices for pharmaceutical drugs, staff, and medical supplies have put many hospitals on the brink of collapse.\",\n    \"Experts warn that dozens of hospitals across California are a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic drained $12 billion from hospitals in California.\",\n    \"Skyrocketing prices for pharmaceutical drugs, staff, and medical supplies have put many hospitals on the brink of collapse.\",\n    \"Experts warn that dozens of hospitals across California are at risk of closing or declaring bankruptcy without immediate action.\",\n    \"The Distressed Hospital Loan Program is funded with $150 million to provide loans to not-for-profit and public hospitals in significant financial distress.\",\n    \"The Department of Health Care Access and Information will oversee the Distressed Hospital Loan Program.\",\n    \"The Distressed Hospital Loan Program requires financially distressed hospitals to provide more transparency about their financial condition.\",\n    \"The Distressed Hospital Loan Program aims to create more accountability to ensure the long-term sustainability of hospital operations.\",\n    \"State verification of financial plans is required prior to any loan approval under the Distressed Hospital Loan Program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f3235ef05e9f09c14c4ef6e17c0364f633939c21"
+}

@@ -1,0 +1,64 @@
+{
+  "press_release": "democrats-kill-gun-reform-legislation.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Public Safety Committee defeated Assembly Bill 758 authored by Assemblymember Diane Dixon (R-Newport Beach) on a party-line vote. This bill would have ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"More than 30% of all guns that law enforcement recovers are considered ghost guns, or firearms without a serial number.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 758 would have created an enhancement for the possession or use of an unregister",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"More than 30% of all guns that law enforcement recovers are considered ghost guns, or firearms without a serial number.\"\n    },\n    {\n      \"claim_text\": \"Assembly Bill 758 would have created an enhancement for the possession or use of an unregistered gun when committing a felony.\"\n    },\n    {\n      \"claim_text\": \"The enhancement would add an additional two years in prison if the firearm is in possession during the felony or three years if the firearm is used in the commission of a felony or attempted felony.\"\n    },\n    {\n      \"claim_text\": \"The enhancement would elevate ghost guns to the same level of enhancement that one receives if using an assault weapon when a felony is committed.\"\n    },\n    {\n      \"claim_text\": \"Ghost guns are untraceable by law enforcement.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "More than 30% of all guns that law enforcement recovers are considered ghost guns, or firearms without a serial number.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Assembly Bill 758 would have created an enhancement for the possession or use of an unregistered gun when committing a felony.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The enhancement would add an additional two years in prison if the firearm is in possession during the felony or three years if the firearm is used in the commission of a felony or attempted felony.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The enhancement would elevate ghost guns to the same level of enhancement that one receives if using an assault weapon when a felony is committed.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Ghost guns are untraceable by law enforcement.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "eaff5c4381d97d2c00b9f16934df026995e22352"
+}

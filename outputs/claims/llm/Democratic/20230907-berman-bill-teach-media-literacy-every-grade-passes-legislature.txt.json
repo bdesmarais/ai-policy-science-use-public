@@ -1,0 +1,13 @@
+{
+  "press_release": "20230907-berman-bill-teach-media-literacy-every-grade-passes-legislature.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:07:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 873 would integrate media literacy instruction into core subjects for all students from kindergarten through 12th grade in California.\",\n    \"Children today are inundated by misinformation and disinformation on social media networks and digital platforms.\",\n    \"The s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 873 would integrate media literacy instruction into core subjects for all students from kindergarten through 12th grade in California.\",\n    \"Children today are inundated by misinformation and disinformation on social media networks and digital platforms.\",\n    \"The spread of online misinformation has had global and deadly consequences.\",\n    \"Media literacy instruction is essential to keeping students safer online and safeguarding the future of democracy.\",\n    \"The incorporation of media literacy content into K-12 curriculum is important for preparing students to engage critically with online content.\",\n    \"Media literacy develops students’ critical thinking skills around all types of media.\",\n    \"A growing number of states are requiring that students receive instruction in media and information literacy.\",\n    \"96 percent of high school students surveyed failed to consider that ties to the fossil fuel industry might affect the credibility of a website about climate change.\",\n    \"More than half of high school students believed a grainy video that claimed to show ballot stuffing constituted 'strong evidence' of voter fraud in the United States.\",\n    \"82 percent of middle school students struggled to distinguish advertisements from news stories.\",\n    \"17% of public TikTok content related to the Holocaust either denied or distorted it, according to a 2022 United Nations report.\",\n    \"Almost 1 in 5 Holocaust-related Twitter posts distorted the truth about the Holocaust.\",\n    \"49% of Holocaust content on Telegram either denied or distorted the Holocaust.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d6cb4ab80f532dc8543b3c46a2682f820819ed77"
+}

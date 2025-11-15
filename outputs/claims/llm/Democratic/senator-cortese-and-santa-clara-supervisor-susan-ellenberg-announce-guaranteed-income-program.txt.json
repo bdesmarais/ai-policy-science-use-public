@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-and-santa-clara-supervisor-susan-ellenberg-announce-guaranteed-income-program.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese joined Santa Clara County Board President Susan Ellenberg on Friday to announce the launch of a new Guaranteed Income Pilot Program for Unhoused High School St",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Approximately 270,000 students within California's K-12 school system are experiencing homelessness.\",\n    \"The number of homeless students in California has grown by half over the past decade.\",\n    \"In Santa Clara County alone, approximately 2,500 students are experien",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Approximately 270,000 students within California's K-12 school system are experiencing homelessness.\",\n    \"The number of homeless students in California has grown by half over the past decade.\",\n    \"In Santa Clara County alone, approximately 2,500 students are experiencing homelessness.\",\n    \"The Guaranteed Income Pilot Program aims to provide crucial support to students experiencing homelessness in Santa Clara County.\",\n    \"The Guaranteed Income Pilot Program will support 50 homeless students with a monthly stipend of $1,200.\",\n    \"Guaranteed income pilots around the country are presented as a solution that stabilizes communities and supports efforts out of poverty.\",\n    \"Senator Cortese's Senate Bill 333 is known as the California Success, Opportunity, and Academic Resilience (CalSOAR) Guaranteed Income Program.\",\n    \"In 2021, a guaranteed income program for foster children was scaled statewide under Senator Cortese’s SB 739, leading to a historic $35 million investment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e7c5036745227fb22b700a4579f9221e8a0868c3"
+}

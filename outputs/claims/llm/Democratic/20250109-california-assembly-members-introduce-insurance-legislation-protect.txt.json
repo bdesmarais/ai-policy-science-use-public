@@ -1,0 +1,13 @@
+{
+  "press_release": "20250109-california-assembly-members-introduce-insurance-legislation-protect.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:23:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The FAIR Plan Stabilization Act (Assembly Bill 226) authorizes the Fair Access to Insurance Requirements Plan to request the California Infrastructure and Economic Development Bank to issue bonds if the FAIR Plan faces liquidity challenges in the event of a major catastr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The FAIR Plan Stabilization Act (Assembly Bill 226) authorizes the Fair Access to Insurance Requirements Plan to request the California Infrastructure and Economic Development Bank to issue bonds if the FAIR Plan faces liquidity challenges in the event of a major catastrophe such as a wildfire.\",\n    \"AB 226 will alleviate some of the uncertainty that FAIR Plan policy holders may encounter as a result of this tragedy.\",\n    \"The bill aims to stabilize California’s insurance market by protecting the FAIR Plan.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1a748c3794244b0d650215c37f70e775a6ed3d06"
+}

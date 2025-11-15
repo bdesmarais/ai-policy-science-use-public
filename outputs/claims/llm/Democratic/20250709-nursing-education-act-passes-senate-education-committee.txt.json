@@ -1,0 +1,13 @@
+{
+  "press_release": "20250709-nursing-education-act-passes-senate-education-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Assemblywoman Esmeralda Soria’s Nursing Education Act (AB 1400) has passed the Senate Education Committee today on a unanimous and bipartisan vote. This bill will ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Nursing Education Act (AB 1400) aims to alleviate the critical nursing workforce shortage throughout California.\",\n    \"The act will allow select community colleges in California to offer Bachelor of Science in Nursing (BSN) degrees.\",\n    \"The pilot program will ena",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Nursing Education Act (AB 1400) aims to alleviate the critical nursing workforce shortage throughout California.\",\n    \"The act will allow select community colleges in California to offer Bachelor of Science in Nursing (BSN) degrees.\",\n    \"The pilot program will enable up to 15 community college districts to provide BSN degrees.\",\n    \"California's current healthcare workforce is not equipped to meet the growing nursing needs of the state.\",\n    \"Many nursing professionals are burdened by national student loan debt amounting to $1.77 trillion.\",\n    \"AB 1400 is considered a critical step toward addressing the student debt crisis facing nursing students.\",\n    \"The act is designed to create a more accessible, affordable, and equitable nursing education system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d268c3e87a534c4fb03c57fca2a3964ae7f63310"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20190531-look-west-podcast-assemblymember-rivas-dolores-huerta-farm-worker-housing.txt",
+  "party": "Democratic",
+  "title": "Since being elected as your Assemblymember in 2018, one of my priorities has always been to recognize and fight for farmworker families. My latest bill,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:08:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5b2f9af234e206fbaca380096ef966ae38ff593b"
+}

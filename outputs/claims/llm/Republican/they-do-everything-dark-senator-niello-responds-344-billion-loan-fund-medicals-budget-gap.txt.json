@@ -1,0 +1,13 @@
+{
+  "press_release": "they-do-everything-dark-senator-niello-responds-344-billion-loan-fund-medicals-budget-gap.txt",
+  "party": "Republican",
+  "title": "Once again, our state’s supermajority is making major financial decisions in the dark. This time, taking out a $3.44 billion loan to cover a massive gap in the budget largely due t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's government has taken out a $3.44 billion loan to cover a budget gap.\",\n    \"The budget gap is largely due to the expansion of Medical to undocumented adults.\",\n    \"The lack of transparency regarding the loan's details has been criticized by lawmakers.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's government has taken out a $3.44 billion loan to cover a budget gap.\",\n    \"The budget gap is largely due to the expansion of Medical to undocumented adults.\",\n    \"The lack of transparency regarding the loan's details has been criticized by lawmakers.\",\n    \"Factors such as senior enrollment and high drug costs may be contributing to the high expenses in healthcare.\",\n    \"California lawmakers have called for more information on the budget shortfall.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ff0b908448107816da68d0453ee6c09069c1d95d"
+}

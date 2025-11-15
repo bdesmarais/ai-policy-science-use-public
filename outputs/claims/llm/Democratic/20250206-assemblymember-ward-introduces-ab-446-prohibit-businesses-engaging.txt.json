@@ -1,0 +1,13 @@
+{
+  "press_release": "20250206-assemblymember-ward-introduces-ab-446-prohibit-businesses-engaging.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:25:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 446 is a bill prohibiting businesses from using personal information to adjust the price of goods based on individualized data profiles, known as surveillance pricing (SP).\",\n    \"No federal or state law currently prohibits companies from using collected data to chang",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 446 is a bill prohibiting businesses from using personal information to adjust the price of goods based on individualized data profiles, known as surveillance pricing (SP).\",\n    \"No federal or state law currently prohibits companies from using collected data to change their internal pricing.\",\n    \"In 2022, the County of San Diego settled a $5 million lawsuit against Target for engaging in false advertising and unfair competition stemming from surveillance pricing.\",\n    \"Prosecutors found that prices for items on Target's app changed when a customer entered the store's perimeter based on geographic location without clear disclosure.\",\n    \"Surveillance pricing utilizes a customer's individualized data profile to maximize spending on selected items.\",\n    \"Surveillance pricing is characterized as predatory, discriminatory, and a violation of public trust.\",\n    \"Many companies offer dynamic pricing, which fluctuates based on market factors, but surveillance pricing differs by using personal data.\",\n    \"Without legal protections, companies are likely to continue using opaque pricing practices that exploit ordinary consumers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5540dcd0072e264a7b9420211f7779a87974027c"
+}

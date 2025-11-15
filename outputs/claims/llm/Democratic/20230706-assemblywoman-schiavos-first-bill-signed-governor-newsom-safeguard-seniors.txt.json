@@ -1,0 +1,13 @@
+{
+  "press_release": "20230706-assemblywoman-schiavos-first-bill-signed-governor-newsom-safeguard-seniors.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - Assemblywoman Pilar Schiavo announced today that Governor Newsom signed her first bill, Elder and Adult Abuse Reporting (AB 751), aimed at protecting the safety and we",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 751 aims to protect the safety and well-being of California's senior and disabled communities.\",\n    \"AB 751 addresses the urgent need for law enforcement agencies to improve their training and investigative protocols concerning abuse inflicted on elderly and disabled",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 751 aims to protect the safety and well-being of California's senior and disabled communities.\",\n    \"AB 751 addresses the urgent need for law enforcement agencies to improve their training and investigative protocols concerning abuse inflicted on elderly and disabled people.\",\n    \"The legislation mandates that agencies provide comprehensive information and training on various types of abuse to ensure a more informed and effective response.\",\n    \"Approximately 8.5 million older adults and 9 million people with disabilities live in California.\",\n    \"Individuals with disabilities and older adults are uniquely susceptible to the harms of abuse and other serious crimes.\",\n    \"Abuse can manifest in diverse forms, including physical and psychological mistreatment, financial exploitation, and caregiver neglect.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1df60076bd05934dfc1e93c97cc907e881a7807a"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20211001-governor-signs-calderon-lung-health-bill-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Wildfire smoke will continue to pose an increasingly dire risk to the lung health of Californians due to the ongoing climate crisis.\",\n    \"Chronic Obstructive Pulmonary Disease (COPD) is the fifth-leading cause of death in California and is projected to be the third-lea",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Wildfire smoke will continue to pose an increasingly dire risk to the lung health of Californians due to the ongoing climate crisis.\",\n    \"Chronic Obstructive Pulmonary Disease (COPD) is the fifth-leading cause of death in California and is projected to be the third-leading cause of death nationally by 2030.\",\n    \"Close to 50% of those in California with COPD belong to minority populations.\",\n    \"One-third of individuals with COPD in California live below the 130% federal poverty level.\",\n    \"The state has experienced several of the largest wildfires in California history in the last few years, with 2020’s August Complex Fire regarded as the largest ever.\",\n    \"The California Department of Forestry and Fire Protection reports that in the last 2 years the state experienced thousands of fires that burned more than 6 million acres of land.\",\n    \"Wildfire smoke constitutes nearly half the fine particle pollution in the western part of the US.\",\n    \"Recent research has revealed that wildfire smoke contains harmful fungi and bacteria.\",\n    \"Air quality contributes to poor lung health.\",\n    \"AB 619 will improve health outcomes for vulnerable populations.\",\n    \"AB 619 will reduce healthcare costs to the state by reducing the frequency of emergency room visits related to respiratory health.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "740485f7925eea24dbea66cbb37073ad50c4e7f6"
+}

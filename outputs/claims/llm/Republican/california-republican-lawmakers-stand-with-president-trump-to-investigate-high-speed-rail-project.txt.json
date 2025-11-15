@@ -1,0 +1,13 @@
+{
+  "press_release": "california-republican-lawmakers-stand-with-president-trump-to-investigate-high-speed-rail-project.txt",
+  "party": "Republican",
+  "title": "Following a scathing report by the High-Speed Rail Office of the Inspector General, Republican lawmakers sent a letter to President Trump encouraging him to examine the viability o",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The High-Speed Rail Office of the Inspector General reported that the California High-Speed Rail Authority has not completed a risk analysis for the M-B segment.\",\n    \"The report states it is increasingly unlikely that the California High-Speed Rail Authority will compl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The High-Speed Rail Office of the Inspector General reported that the California High-Speed Rail Authority has not completed a risk analysis for the M-B segment.\",\n    \"The report states it is increasingly unlikely that the California High-Speed Rail Authority will complete the M-B segment on schedule.\",\n    \"The projected budget for the California High-Speed Rail project ballooned from $34 billion to over $128 billion.\",\n    \"Taxpayers face the reality of single-handedly funding massively inflated costs for the California High-Speed Rail project.\",\n    \"The California High-Speed Rail Authority has spent $13.7 billion in total, including $1.6 billion on professional marketing materials and consultants.\",\n    \"The only partially completed segment of the California High-Speed Rail project has cost $1.4 billion for 22 miles of raised dirt and includes 11 overpass structures.\",\n    \"Zero feet of track have been laid to date for the California High-Speed Rail project.\",\n    \"A former chair of HSRA’s peer review group testified that the project cannot be completed with the funding available.\",\n    \"The state spends $1 billion annually on the High-Speed Rail, which could be better spent on protecting lives and infrastructure against natural disasters.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "77c6f75eb21055c161332749c91b306ee793bf02"
+}

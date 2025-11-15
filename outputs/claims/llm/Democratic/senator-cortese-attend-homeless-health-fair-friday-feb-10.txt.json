@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-attend-homeless-health-fair-friday-feb-10.txt",
+  "party": "Democratic",
+  "title": "WHAT: State Senator Dave Cortese (D-San Jose) will participate in a press conference to kick off his annual community health fair serving individuals and families experiencing home",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ee1878255e88c5cdeba399cec35f5924a36cbeef"
+}

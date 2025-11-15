@@ -1,0 +1,13 @@
+{
+  "press_release": "20210928-governor-newsom-signs-bill-boost-workforce-housing-california.txt",
+  "party": "Democratic",
+  "title": "OAKLAND, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom signed legislation to provide incentives for local governments to increase the supply of affordable workforce housing.\",\n    \"Assembly Bill 787 allows local jurisdictions to earn credit towards their Regional Housing Needs Allocation goals by conver",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom signed legislation to provide incentives for local governments to increase the supply of affordable workforce housing.\",\n    \"Assembly Bill 787 allows local jurisdictions to earn credit towards their Regional Housing Needs Allocation goals by converting existing housing units into deed-restricted affordable units.\",\n    \"Only 15 out of 539 jurisdictions in California are on track to meet their moderate-income housing targets.\",\n    \"Acquiring and converting existing housing units is a faster, less expensive, and more efficient method to increase middle-income housing.\",\n    \"Close to half of California renters pay more than 30 percent of their income on housing costs.\",\n    \"Converting existing multifamily properties to affordable rents is critical for low- and moderate-income households in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4268bdd22b46c30dbeeb2ee89a1444f83d96cdcd"
+}

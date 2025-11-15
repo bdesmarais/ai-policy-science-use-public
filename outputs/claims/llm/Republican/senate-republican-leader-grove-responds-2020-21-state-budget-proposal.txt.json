@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-grove-responds-2020-21-state-budget-proposal.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Senate Republican Leader Shannon Grove ( R-Bakersfield) issued the following statement after the Governor announced his 2020-21 budget proposal:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Governor's 2020-21 budget proposal includes additional funding for CalFire positions to improve disaster preparedness and response.\",\n    \"More than 50% of Golden State residents are considering fleeing due to high costs on basic necessities imposed by Democrats.\",\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Governor's 2020-21 budget proposal includes additional funding for CalFire positions to improve disaster preparedness and response.\",\n    \"More than 50% of Golden State residents are considering fleeing due to high costs on basic necessities imposed by Democrats.\",\n    \"California has provided significant investments in addressing homelessness over the last several years, yet the homeless population has dramatically increased.\",\n    \"The proposed budget is seen as poorly prioritizing spending by not addressing the root causes of homelessness such as mental health and drug abuse.\",\n    \"Senate Republicans prioritize improving Californians' quality of life by lowering the cost of living and shortening commutes.\",\n    \"To address the homelessness crisis, California needs to provide shelter and access to mental health services and substance use treatment.\",\n    \"California needs to prepare for natural disasters and reduce the high cost of insuring rural homes.\",\n    \"There is a commitment to ensure California students have access to higher education and vocational training.\",\n    \"Investment in public safety requires proper funding for courts and law enforcement efforts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b9e6b6c56c7447a31dfeca13354c53d67fcc54a8"
+}

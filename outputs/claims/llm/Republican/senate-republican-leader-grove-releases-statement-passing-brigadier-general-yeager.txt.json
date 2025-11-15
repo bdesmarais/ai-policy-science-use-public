@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-grove-releases-statement-passing-brigadier-general-yeager.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –  Today, Senate Republican Leader Shannon Grove (R-Bakersfield) released the following statement on the passing of retired Brigadier General Chuck Yeager, a decorated W",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "96c6ed28023a3499777a95de596c92af3c934af3"
+}

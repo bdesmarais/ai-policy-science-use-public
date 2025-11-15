@@ -1,0 +1,13 @@
+{
+  "press_release": "republican-caucus-chair-brian-jones-leads-senate-reps-defeating-sb-50-again.txt",
+  "party": "Republican",
+  "title": "Sacramento – State Republican Caucus Chair Brian Jones (R-Santee) this morning rallied the majority of his caucus to withhold support for Senate Bill 50 on the Senate Floor.  This ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e0342c99e2ff7db2daac8f3cc77d485156b05850"
+}

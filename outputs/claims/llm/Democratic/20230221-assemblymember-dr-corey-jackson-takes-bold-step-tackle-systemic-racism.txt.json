@@ -1,0 +1,13 @@
+{
+  "press_release": "20230221-assemblymember-dr-corey-jackson-takes-bold-step-tackle-systemic-racism.txt",
+  "party": "Democratic",
+  "title": "Sacramento",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:55:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1077 aims to tackle systemic racism within state institutions.\",\n    \"The bill will require all state agencies and counties to conduct comprehensive antiracism audits.\",\n    \"The audits will establish action plans to rectify deficiencies within specific timelines appr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1077 aims to tackle systemic racism within state institutions.\",\n    \"The bill will require all state agencies and counties to conduct comprehensive antiracism audits.\",\n    \"The audits will establish action plans to rectify deficiencies within specific timelines approved by the State Controller.\",\n    \"If progress is not shown within 3 years, a penalty or fine will be levied or the agency could face conservatorship by a judge.\",\n    \"These audits will serve as a tool to expose and rectify systemic racism within state agencies and counties.\",\n    \"The audits will help to increase public trust in state institutions.\",\n    \"Tackling systemic racism within public institutions is crucial for creating a fairer and more equitable society.\",\n    \"The audits will bring to light disparities and injustices within public institutions.\",\n    \"The audits will create actionable plans to rectify disparities and injustices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7c135f177fa5b4c565898ec1a7a6b888bc41c98e"
+}

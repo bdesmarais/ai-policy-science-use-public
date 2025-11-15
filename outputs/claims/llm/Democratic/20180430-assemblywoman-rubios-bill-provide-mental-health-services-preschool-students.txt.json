@@ -1,0 +1,13 @@
+{
+  "press_release": "20180430-assemblywoman-rubios-bill-provide-mental-health-services-preschool-students.txt",
+  "party": "Democratic",
+  "title": "Assemblywoman Rubio’s Bill to Provide Mental Health Services to Preschool Students Passes Education Committee",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2698 allows providers to use existing funds to hire a mental health consultant to improve outcomes for preschool age children.\",\n    \"The bill aims to prevent expulsion of preschool students.\",\n    \"Current law fails to provide adequate resources to provide",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2698 allows providers to use existing funds to hire a mental health consultant to improve outcomes for preschool age children.\",\n    \"The bill aims to prevent expulsion of preschool students.\",\n    \"Current law fails to provide adequate resources to providers and students with behavioral challenges.\",\n    \"Early Childhood Mental Health Consultation can play an important role in helping children and families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "df193bd4333d5f22080476eb4d90913422166701"
+}

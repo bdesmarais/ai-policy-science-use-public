@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-introduces-measure-provide-local-law-enforcement-agencies-grants-send-homeless.txt",
+  "party": "Republican",
+  "title": "Senator Brian W. Jones (R-Santee) today introduced a measure to provide local law enforcement agencies with grants to send homeless assessment teams, also known as “wrap-around” te",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Wrap-around teams can make immediate assessments and decisions about how best to get a homeless individual off the street and into health and housing programs.\",\n    \"Local jurisdictions are currently responsible for coordinating funding for wrap-around teams.\",\n    \"Sen",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Wrap-around teams can make immediate assessments and decisions about how best to get a homeless individual off the street and into health and housing programs.\",\n    \"Local jurisdictions are currently responsible for coordinating funding for wrap-around teams.\",\n    \"Senate Bill 1006 would establish a competitive grant program in the California Department of Justice for local law enforcement agencies to apply for funding for homeless assessment team efforts.\",\n    \"Local homeless assessment teams would need to be composed of a law enforcement officer, a mental health professional, a medical services professional, and a representative of the county welfare department.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "354b3a3589ab754c9eb53f7698d01a60c19abbc2"
+}

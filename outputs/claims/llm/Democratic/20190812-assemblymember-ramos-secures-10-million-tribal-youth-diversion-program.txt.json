@@ -1,0 +1,13 @@
+{
+  "press_release": "20190812-assemblymember-ramos-secures-10-million-tribal-youth-diversion-program.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:10:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember James C. Ramos secured $10 million for the Tribal Youth Diversion Program in the 2019-2020 California state budget.\",\n    \"The funding for the Tribal Youth Diversion Program marks an increase of nearly $9 million from the previous year’s funding.\",\n    \"Th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember James C. Ramos secured $10 million for the Tribal Youth Diversion Program in the 2019-2020 California state budget.\",\n    \"The funding for the Tribal Youth Diversion Program marks an increase of nearly $9 million from the previous year’s funding.\",\n    \"The Tribal Youth Diversion Grant program is specifically designed for diversion programs catering to Native American youth.\",\n    \"The programs funded by the Tribal Youth Diversion Grant utilize trauma-informed, community-based, and health-based interventions.\",\n    \"Tribal communities targeted by the Tribal Youth Diversion Grant experience high rates of arrest, suicide, and alcohol and substance abuse.\",\n    \"The average high school graduation rates in the targeted tribal communities are lower than 75 percent.\",\n    \"The Youth Reinvestment Grant program allocates funding to local levels to divert low-level offenders from initial contact with the juvenile justice system.\",\n    \"Communities with high juvenile arrest rates or high rates of racial disproportionality within those arrests are specifically targeted for grant funding.\",\n    \"The funding for such diversion programs includes academic and vocational education services, mentoring, behavioral health services, mental health services, and alternative-sanction programs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "23799675b8d6478cf096f6a0c0ba037c13c8f5a2"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-introduces-first-bill-in-residential-and-treatment-recovery-facilities-legislative-package.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Auditor’s Office released a report on how the Department of Health Care Services handles oversight of residential drug and alcohol recovery and treatment facilities.\",\n    \"Assembly Bill 3 aims to improve rehabilitation outcomes in recovery homes in ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Auditor’s Office released a report on how the Department of Health Care Services handles oversight of residential drug and alcohol recovery and treatment facilities.\",\n    \"Assembly Bill 3 aims to improve rehabilitation outcomes in recovery homes in California.\",\n    \"The bill seeks to uphold the legislature's intent to deinstitutionalize individuals struggling with alcohol and drug addiction.\",\n    \"The bill will limit licenses for Drug and Alcohol Treatment Facilities when they are nearby and share the same amenities, staff, and ownership.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "458fff6b698c6a9c08f9799e68788bee2b94c220"
+}

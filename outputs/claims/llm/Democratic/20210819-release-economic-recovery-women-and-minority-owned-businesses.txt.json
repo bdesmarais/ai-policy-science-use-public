@@ -1,0 +1,13 @@
+{
+  "press_release": "20210819-release-economic-recovery-women-and-minority-owned-businesses.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:31:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic has had a disproportionately negative impact on women- and minority-owned businesses.\",\n    \"Between February 2020 and April 2020, the number of active Black-owned businesses decreased by 41%, Latinx-owned businesses by 32%, and Asian-owned business",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The COVID-19 pandemic has had a disproportionately negative impact on women- and minority-owned businesses.\",\n    \"Between February 2020 and April 2020, the number of active Black-owned businesses decreased by 41%, Latinx-owned businesses by 32%, and Asian-owned businesses by 25%.\",\n    \"Women and minority business owners have been especially hard hit during the pandemic due to their businesses being smaller and of a younger tenure compared to other businesses.\",\n    \"Early stage and small businesses are generally less resilient during times of economic stress.\",\n    \"A majority of women- and minority-owned businesses operate in sectors that were hardest hit during the pandemic, such as food services and personal services.\",\n    \"Women have faced disproportionate burdens related to caregiving during the COVID-19 pandemic, impacting their business operations.\",\n    \"Women- and minority-owned businesses often experience unequal access to capital and public programs designed to support them.\",\n    \"California faces recovery challenges regarding the uneven economic impacts of the pandemic on low-income communities and businesses owned by women and persons of color.\",\n    \"There is a persistent lack of access to capital for both new and growing businesses owned by women and minorities.\",\n    \"Systemic structural barriers exist in access to government services and compliance for women- and minority-owned businesses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2e847eae3b377e70e4fd6545034e0109ecd94fdc"
+}

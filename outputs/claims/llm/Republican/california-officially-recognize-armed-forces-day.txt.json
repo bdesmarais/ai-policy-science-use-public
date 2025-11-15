@@ -1,0 +1,13 @@
+{
+  "press_release": "california-officially-recognize-armed-forces-day.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove ( R-Bakersfield ) announced that her resolution to recognize Saturday, May 15th as Armed Forces Day in California passed the California State Senate with unan",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:45:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dc5638df34615e30c16b8c40c350475f8a5c24f1"
+}

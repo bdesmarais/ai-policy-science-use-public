@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-secures-44-million-upgrades-whittier-library.txt",
+  "party": "Democratic",
+  "title": "NORWALK CA – California State Senator Archuleta has secured $4.4 million needed for the city of Whittier’s multi-million dollar modernization library project. The money is part of ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9854c2c53b73ab2fced29a6a97a7c2a18b9c9467"
+}

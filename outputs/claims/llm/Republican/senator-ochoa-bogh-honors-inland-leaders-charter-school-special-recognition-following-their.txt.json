@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-honors-inland-leaders-charter-school-special-recognition-following-their.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) presented the Inland Leaders Charter School with a Senate Resolution celebrating their recent achievement after receiving the 2023 CA Disti",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b13ccd0f677ddef4df3ea65733e67af8f5fc7ad5"
+}

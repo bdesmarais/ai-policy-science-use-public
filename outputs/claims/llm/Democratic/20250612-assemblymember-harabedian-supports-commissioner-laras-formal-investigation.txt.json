@@ -1,0 +1,13 @@
+{
+  "press_release": "20250612-assemblymember-harabedian-supports-commissioner-laras-formal-investigation.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:38:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Department of Insurance has received troubling reports from survivors and advocacy groups regarding the handling of insurance claims.\",\n    \"Concerns have been raised about whether insurers in California are meeting the legal standard to pay claims fully, fairly, and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Department of Insurance has received troubling reports from survivors and advocacy groups regarding the handling of insurance claims.\",\n    \"Concerns have been raised about whether insurers in California are meeting the legal standard to pay claims fully, fairly, and promptly.\",\n    \"Recent cases have specifically raised concerns about the handling of smoke damage claims and large-scale recovery challenges.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a17025f30e115905173a685bf656651d99b8171d"
+}

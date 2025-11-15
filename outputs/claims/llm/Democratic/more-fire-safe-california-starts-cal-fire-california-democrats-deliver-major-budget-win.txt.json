@@ -1,0 +1,13 @@
+{
+  "press_release": "more-fire-safe-california-starts-cal-fire-california-democrats-deliver-major-budget-win.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO— As wildfire season intensifies across the state, California is investing more resources in CAL FIRE than ever before thanks to critical funding secured by California’s ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:17:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is transitioning all 3,000 seasonal CAL FIRE firefighters to full-time status 365 days per year.\",\n    \"The investment in CAL FIRE aims to address longer and more destructive fire seasons each year.\",\n    \"The ranks of CAL FIRE firefighters have nearly doubled",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is transitioning all 3,000 seasonal CAL FIRE firefighters to full-time status 365 days per year.\",\n    \"The investment in CAL FIRE aims to address longer and more destructive fire seasons each year.\",\n    \"The ranks of CAL FIRE firefighters have nearly doubled from 6,700 to over 12,000 in the past decade.\",\n    \"California plans to hire another 2,100 CAL FIRE firefighters over the next 48 months.\",\n    \"Recent wildfires in California have been some of the most destructive in the state's history.\",\n    \"Over $4 billion has been allocated in California for vegetation management projects to reduce wildfire risks.\",\n    \"Cutting-edge technology is included in vegetation management to prevent devastating wildfires.\",\n    \"New legislation provides CEQA exemptions for wildfire mitigation projects, which will speed up such efforts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bcd5cc091d37d8f025517a8df153035dc3b9c40b"
+}

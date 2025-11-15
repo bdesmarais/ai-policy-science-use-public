@@ -1,0 +1,13 @@
+{
+  "press_release": "corteses-bill-provide-guaranteed-income-homeless-youth-advances.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese (D-Silicon Valley) made the following statement when SB 1341 cleared the California Senate Committee on Human Services today, after previously clearing the Californ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:11:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Early findings have demonstrated the success of the Santa Clara County Transition-Aged Youth Basic Income Program.\",\n    \"Direct cash assistance is enabling underserved youth to achieve financial stability.\",\n    \"Direct cash support with no strings attached is a viable ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Early findings have demonstrated the success of the Santa Clara County Transition-Aged Youth Basic Income Program.\",\n    \"Direct cash assistance is enabling underserved youth to achieve financial stability.\",\n    \"Direct cash support with no strings attached is a viable solution for students experiencing homelessness.\",\n    \"The program would provide resources for moving expenses, tuition, books, rent or food to struggling students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c13f651593fdc67faf710980ac8e0765392cdd2f"
+}

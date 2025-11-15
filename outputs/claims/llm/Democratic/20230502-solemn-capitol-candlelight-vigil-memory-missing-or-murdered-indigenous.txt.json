@@ -1,0 +1,13 @@
+{
+  "press_release": "20230502-solemn-capitol-candlelight-vigil-memory-missing-or-murdered-indigenous.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Hundreds will join tribal leaders, lawmakers, advocates, and Native American cultural performers for a solemn candlelight vigil at the state Capitol Wednesday evening me",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Two California tribes have declared a state of emergency because of violence against their tribal members.\",\n    \"Round Valley Indian Tribes declared a state of emergency in April after two members were found murdered.\",\n    \"The Yurok Tribe took similar action in Decemb",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Two California tribes have declared a state of emergency because of violence against their tribal members.\",\n    \"Round Valley Indian Tribes declared a state of emergency in April after two members were found murdered.\",\n    \"The Yurok Tribe took similar action in December 2021 following an incident involving seven women reportedly approached by possible traffickers.\",\n    \"The case of Emmilee Risling, who has been missing since October 2021, remains unsolved.\",\n    \"The Yurok Tribe has called for a summit of California Tribes to address the issue of violence against Native Americans.\",\n    \"Participants at a summit called for the implementation of a public notification alert when Native Americans go missing, similar to the AMBER Alert.\",\n    \"The 2022 'Feather Alert' law was authored by Assemblymember James C. Ramos.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cf79ed99b4f56fd29de2f74bcbf116eb8c0cc859"
+}

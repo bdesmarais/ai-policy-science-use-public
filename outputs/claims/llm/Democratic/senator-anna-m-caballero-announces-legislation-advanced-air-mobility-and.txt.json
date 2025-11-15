@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-announces-legislation-advanced-air-mobility-and.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Urban air mobility (UAM) is a new mode of transportation that will modernize mobility for passengers and cargo by utilizing underutilized aerial transit routes.\",\n    \"UAM will reduce the current burden on infrastructure, decrease traffic congestion, and lower harmful em",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Urban air mobility (UAM) is a new mode of transportation that will modernize mobility for passengers and cargo by utilizing underutilized aerial transit routes.\",\n    \"UAM will reduce the current burden on infrastructure, decrease traffic congestion, and lower harmful emissions.\",\n    \"Current modes of transporting goods are slow, inefficient, and create pollution.\",\n    \"Ground transportation in congested urban centers has become increasingly difficult.\",\n    \"Urban Air Mobility (UAM) is a broad concept enabling access to on-demand air mobility, cargo and package delivery, healthcare applications, and emergency services.\",\n    \"AAM will leverage electric aerial vehicle designs and system technologies.\",\n    \"AAM will embrace the sharing economy to enable a novel transportation service network.\",\n    \"California must have a regulatory framework to develop Advanced Air Mobility technology to compete with other states.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7577b1bc381de96c50eb177005ece7ad52a6711d"
+}

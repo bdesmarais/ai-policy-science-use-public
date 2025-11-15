@@ -1,0 +1,13 @@
+{
+  "press_release": "20250715-governor-newsom-signs-assemblymember-avila-farias-bill-youth-mental-health.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is experiencing a youth mental health crisis.\",\n    \"The suicide rate for children aged 15-19 in California from 2020-2022 is 6.2%.\",\n    \"CDPH estimates that 496 children take their own lives each year.\",\n    \"Teachers equipped with mental health training can",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is experiencing a youth mental health crisis.\",\n    \"The suicide rate for children aged 15-19 in California from 2020-2022 is 6.2%.\",\n    \"CDPH estimates that 496 children take their own lives each year.\",\n    \"Teachers equipped with mental health training can recognize signs of distress in students.\",\n    \"AB 1034 directs the Commission on Teacher Credentialing to require a basic understanding of youth mental health in the health education experience for teachers.\",\n    \"Basic mental health skills training improves teachers’ understanding of mental health issues.\",\n    \"Mental health skills training provides teachers with an action plan and confidence to help students.\",\n    \"Educators are often the first to notice when a student is struggling.\",\n    \"AB 1034 aims to break stigma and strengthen student wellness in classrooms.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9f67b5d278fd73564adabf214c70980b41d6bbcb"
+}

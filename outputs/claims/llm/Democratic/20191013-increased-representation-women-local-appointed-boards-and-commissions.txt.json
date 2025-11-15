@@ -1,0 +1,13 @@
+{
+  "press_release": "20191013-increased-representation-women-local-appointed-boards-and-commissions.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:12:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 931 (AB 931) was signed into law by Governor Gavin Newsom on October 12, 2019.\",\n    \"AB 931 increases the representation of women on local appointed boards and commissions.\",\n    \"AB 931 seeks to remedy historical gender disparities in appointments to publ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 931 (AB 931) was signed into law by Governor Gavin Newsom on October 12, 2019.\",\n    \"AB 931 increases the representation of women on local appointed boards and commissions.\",\n    \"AB 931 seeks to remedy historical gender disparities in appointments to public, non-elected, non-salaried boards and commissions.\",\n    \"AB 931 requires fair representation among men and women on local boards and commissions.\",\n    \"Women make up 52 percent of California’s population.\",\n    \"Women have struggled to achieve fair representation on various boards and commissions that govern daily lives in California.\",\n    \"AB 931 requires that local boards and commissions with five or more members have both genders represented, with no gender representing more than 60% of the membership.\",\n    \"AB 931 prohibits local boards or commissions with four or fewer members from being comprised exclusively of people with the same gender identity.\",\n    \"AB 931 applies to cities with a population of over 50,000 people.\",\n    \"AB 931 is supported by multiple organizations advocating for women's rights and representation in government.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7c47d36ae81120fef4a852cabb8e7f103e9ebc51"
+}

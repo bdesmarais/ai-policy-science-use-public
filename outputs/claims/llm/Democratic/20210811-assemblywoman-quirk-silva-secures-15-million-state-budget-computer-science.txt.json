@@ -1,0 +1,84 @@
+{
+  "press_release": "20210811-assemblywoman-quirk-silva-secures-15-million-state-budget-computer-science.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –Assemblywoman Sharon Quirk-Silva (D – Fullerton), a teacher for over 30 years, successfully secured $15 million in this year’s budget to increase the number of teac",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:31:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The COVID-19 pandemic highlighted the need for teachers that are trained in computer science education.\"\n    },\n    {\n      \"claim_text\": \"Technology-related challenges posed a significant barrier to students’ education during the transition to remo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The COVID-19 pandemic highlighted the need for teachers that are trained in computer science education.\"\n    },\n    {\n      \"claim_text\": \"Technology-related challenges posed a significant barrier to students’ education during the transition to remote learning.\"\n    },\n    {\n      \"claim_text\": \"The Computer Science Access Initiative awards grants to support and encourage the preparation of credentialed teachers to earn a supplementary authorization in computer science.\"\n    },\n    {\n      \"claim_text\": \"Grants will be prioritized for teachers who work in school districts serving a higher proportion of low-income and underserved students.\"\n    },\n    {\n      \"claim_text\": \"The need for computer science as part of primary education for all students is paramount.\"\n    },\n    {\n      \"claim_text\": \"California's high schools offer few computer science courses despite a booming tech sector.\"\n    },\n    {\n      \"claim_text\": \"The Computer Science Access Initiative funding demonstrates the state's commitment to investing in computer science education.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The COVID-19 pandemic highlighted the need for teachers that are trained in computer science education.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Technology-related challenges posed a significant barrier to students’ education during the transition to remote learning.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Computer Science Access Initiative awards grants to support and encourage the preparation of credentialed teachers to earn a supplementary authorization in computer science.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Grants will be prioritized for teachers who work in school districts serving a higher proportion of low-income and underserved students.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The need for computer science as part of primary education for all students is paramount.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California's high schools offer few computer science courses despite a booming tech sector.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Computer Science Access Initiative funding demonstrates the state's commitment to investing in computer science education.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "13929cd9332bfe29d958b4729cb0f0852afa11a8"
+}

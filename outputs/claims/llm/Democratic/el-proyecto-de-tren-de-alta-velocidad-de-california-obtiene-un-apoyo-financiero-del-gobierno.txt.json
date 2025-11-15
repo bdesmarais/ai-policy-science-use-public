@@ -1,0 +1,13 @@
+{
+  "press_release": "el-proyecto-de-tren-de-alta-velocidad-de-california-obtiene-un-apoyo-financiero-del-gobierno.txt",
+  "party": "Democratic",
+  "title": "SILICON VALLEY – Los proyectos estatales de infraestructura ferroviaria que ayudarán a los viajeros a conectarse con otros modos de transporte y ahorrarles tiempo recibieron un imp",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California received $279 million for state railway infrastructure projects to aid travelers in connecting with other modes of transport.\",\n    \"The $24.7 million allocated to the Transbay Joint Powers Authority will be used for the design of the Railway Extension Center ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California received $279 million for state railway infrastructure projects to aid travelers in connecting with other modes of transport.\",\n    \"The $24.7 million allocated to the Transbay Joint Powers Authority will be used for the design of the Railway Extension Center to accommodate the California High-Speed Train and Caltrain.\",\n    \"The California High-Speed Railway project is the largest construction site in the Central Valley, creating thousands of jobs and providing a generational economic opportunity.\",\n    \"California is set to receive 12 grants totaling over $279 million as part of the Consolidated Railroad Safety and Infrastructure Improvement Grant program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "72ca93afc55a9fac3a7848b16bc43e15be9c3818"
+}

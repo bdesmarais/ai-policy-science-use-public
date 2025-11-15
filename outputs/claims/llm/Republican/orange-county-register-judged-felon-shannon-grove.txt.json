@@ -1,0 +1,13 @@
+{
+  "press_release": "orange-county-register-judged-felon-shannon-grove.txt",
+  "party": "Republican",
+  "title": "By Senator Shannon Grove Published in the Orange County Register on July 17, 2019 Link to article here: https://www.ocregister.com/ 2019/07/17/judged-by-a-felon- shannon-grove/",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California Democrats are seeking to weaken the criminal justice system and release more criminals into communities.\",\n    \"A Democratic state senator proposed allowing criminals convicted of serious felonies to serve on a jury immediately upon release from jail or prison",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California Democrats are seeking to weaken the criminal justice system and release more criminals into communities.\",\n    \"A Democratic state senator proposed allowing criminals convicted of serious felonies to serve on a jury immediately upon release from jail or prison.\",\n    \"Under current California law, a person convicted of a felony cannot serve on a jury.\",\n    \"Senate Bill 310 eliminates the process that restores civil and political rights for rehabilitated criminals and makes it automatic without investigation.\",\n    \"Convicted felons would no longer have to demonstrate rehabilitation, remorse, or make amends to serve on a jury.\",\n    \"Felons convicted of violent or serious property and drug crimes leave lasting impacts on their victims.\",\n    \"Senate Republicans believe that assisting formerly convicted individuals in re-entering society should focus on rehabilitation, job training, and drug treatment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3ab89799d2b5f6bdeb9833e528af0465d837eaf1"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210614-berman-applauds-state-budget-investments-critical-needs.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - Assemblymember Marc Berman (D-Menlo Park) released the following statement in response to the Legislature’s passage of the 2021-2022 State Budget:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The budget allocates $30 million in ongoing funds for every community college campus to establish a basic needs center and hire a basic needs coordinator.\",\n    \"The budget invests $10 million in a common course numbering system for community colleges, which will sa",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The budget allocates $30 million in ongoing funds for every community college campus to establish a basic needs center and hire a basic needs coordinator.\",\n    \"The budget invests $10 million in a common course numbering system for community colleges, which will save students time and money.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb8eb28bbfee8b1d7a9676a0fd10afd623721fa7"
+}

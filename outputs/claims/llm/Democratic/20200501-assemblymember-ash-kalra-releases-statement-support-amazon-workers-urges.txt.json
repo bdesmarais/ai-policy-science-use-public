@@ -1,0 +1,13 @@
+{
+  "press_release": "20200501-assemblymember-ash-kalra-releases-statement-support-amazon-workers-urges.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Ash Kalra (D-San Jose) released a statement today in support of workers at Amazon facilities across the state:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:15:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"COVID-19 cases in Amazon facilities are prevalent and on the rise.\",\n    \"A manager at an Amazon warehouse in Hawthorne passed away due to COVID-19.\",\n    \"There have been four confirmed COVID-19 cases at an Amazon facility in Rosemead in the last week.\",\n    \"Amazon has",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"COVID-19 cases in Amazon facilities are prevalent and on the rise.\",\n    \"A manager at an Amazon warehouse in Hawthorne passed away due to COVID-19.\",\n    \"There have been four confirmed COVID-19 cases at an Amazon facility in Rosemead in the last week.\",\n    \"Amazon has not followed the guidelines from the Centers for Disease Control and Prevention (CDC) for workplaces with a confirmed case of COVID-19.\",\n    \"Protecting workers at Amazon facilities is essential for the broader public health of Los Angeles County residents.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cfbe343ed3e90c95c8840e5dc260bb0c65991f74"
+}

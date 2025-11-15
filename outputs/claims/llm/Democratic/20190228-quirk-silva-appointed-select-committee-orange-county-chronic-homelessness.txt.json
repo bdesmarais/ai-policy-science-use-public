@@ -1,0 +1,13 @@
+{
+  "press_release": "20190228-quirk-silva-appointed-select-committee-orange-county-chronic-homelessness.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) â",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:05:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Solving the state’s housing crisis demands both local and global solutions.\",\n    \"Homelessness is an urgent and growing crisis in Orange County.\",\n    \"Addressing mental health and substance abuse treatment is essential for dealing with homelessness.\",\n    \"Chronic home",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Solving the state’s housing crisis demands both local and global solutions.\",\n    \"Homelessness is an urgent and growing crisis in Orange County.\",\n    \"Addressing mental health and substance abuse treatment is essential for dealing with homelessness.\",\n    \"Chronic homelessness in Orange County necessitates a thoughtful examination of affordability, economic opportunity, and mental wellness.\",\n    \"A single solution does not exist to help get people off the streets.\",\n    \"Collaboration with experts and stakeholders is necessary to tackle the homelessness crisis.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3a26056b94a4f94a520da09f3d29c29198e262ad"
+}

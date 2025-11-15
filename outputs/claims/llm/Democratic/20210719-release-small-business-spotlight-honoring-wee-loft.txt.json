@@ -1,0 +1,13 @@
+{
+  "press_release": "20210719-release-small-business-spotlight-honoring-wee-loft.txt",
+  "party": "Democratic",
+  "title": "NEWPORT BEACH – The Wee Loft, a local European Toy Shop, has been selected as part of the Small Business Spotlight for Assembly District 74. For more than 37 years, this Corona Del",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:31:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2c8815244b83361029b39eb3ef3e762a69761ec2"
+}

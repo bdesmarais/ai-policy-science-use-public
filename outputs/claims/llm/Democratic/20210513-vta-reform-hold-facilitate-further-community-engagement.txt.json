@@ -1,0 +1,13 @@
+{
+  "press_release": "20210513-vta-reform-hold-facilitate-further-community-engagement.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:28:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There is a strong desire throughout Santa Clara County to reform VTA governance.\",\n    \"The Civil Grand Jury has concluded that VTA’s governance structure is a root cause of the agency’s poor performance.\",\n    \"The VTA Board suffers from a lack of experience and continu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There is a strong desire throughout Santa Clara County to reform VTA governance.\",\n    \"The Civil Grand Jury has concluded that VTA’s governance structure is a root cause of the agency’s poor performance.\",\n    \"The VTA Board suffers from a lack of experience and continuity according to the 2019 Civil Grand Jury Report.\",\n    \"The VTA Board is composed of an 18-member board with 12 voting members, all current elected officials in Santa Clara County.\",\n    \"The Civil Grand Jury found that VTA directors often have inadequate time to devote to policymaking and oversight duties.\",\n    \"The Grand Jury recommended legislation to improve VTA's governance structure by including appointed directors with relevant transportation expertise.\",\n    \"AB 1091 aims to establish a smaller, more experienced, and more regionally focused VTA Board.\",\n    \"A reformed VTA Board is better positioned to address the transportation needs of Santa Clara County’s two million residents.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "089b51d457f7e28091b0002257be972bf25819f8"
+}

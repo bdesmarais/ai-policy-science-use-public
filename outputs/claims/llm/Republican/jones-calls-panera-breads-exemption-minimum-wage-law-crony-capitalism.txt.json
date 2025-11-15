@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-calls-panera-breads-exemption-minimum-wage-law-crony-capitalism.txt",
+  "party": "Republican",
+  "title": "Senate Minority Leader Brian W. Jones (R-San Diego) issued the following statement in response to news reports that Panera Bread was exempted from California’s new $20-an-hour mini",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Panera Bread was exempted from California's new $20-an-hour minimum wage hike for fast food chains due to their franchise owner's connections and campaign contributions to Governor Newsom.\",\n    \"Panera's franchise owner donated over $160,000 to Governor Newsom, which co",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Panera Bread was exempted from California's new $20-an-hour minimum wage hike for fast food chains due to their franchise owner's connections and campaign contributions to Governor Newsom.\",\n    \"Panera's franchise owner donated over $160,000 to Governor Newsom, which contributed to their exemption from the minimum wage law.\",\n    \"Other restaurants, lacking significant campaign contributions, are compelled to comply with the new minimum wage, leading to possible layoffs and increased automation.\",\n    \"Campaign contributions should not influence legislative outcomes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bbcc8a778e6b62c2ec86c246b9368f8eb02f835e"
+}

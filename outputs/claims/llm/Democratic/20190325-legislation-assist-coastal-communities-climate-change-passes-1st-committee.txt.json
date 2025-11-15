@@ -1,0 +1,13 @@
+{
+  "press_release": "20190325-legislation-assist-coastal-communities-climate-change-passes-1st-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — In an effort to assist coastal communities with adaptation to climate change, the Assembly Natural Resources Committee voted 11-0 to pass Assemblywoman Cottie Petrie-N",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:06:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 65 prioritizes projects that utilize green-natural infrastructure for coastal adaptation.\",\n    \"66% of Californians live in coastal communities, posing risks from sea level rise.\",\n    \"Green infrastructure is a cost-effective, resilient approach to managing natural ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 65 prioritizes projects that utilize green-natural infrastructure for coastal adaptation.\",\n    \"66% of Californians live in coastal communities, posing risks from sea level rise.\",\n    \"Green infrastructure is a cost-effective, resilient approach to managing natural weather patterns.\",\n    \"Natural restoration projects protect coastlines while restoring ecosystems and improving recreation.\",\n    \"Natural infrastructure has been proven to be equally if not more effective than built alternatives in climate adaptation.\",\n    \"The use of built infrastructure for climate change mitigation can have unintended consequences for ecosystems.\",\n    \"Investing in green infrastructure can preserve California's fisheries and ecological health.\",\n    \"Green infrastructure provides multiple benefits, including support for vital fisheries and recreational access.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3bde91e851af1b975e84f2985b33f0e07cd45250"
+}

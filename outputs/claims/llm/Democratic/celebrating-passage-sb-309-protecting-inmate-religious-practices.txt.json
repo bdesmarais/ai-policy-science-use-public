@@ -1,0 +1,13 @@
+{
+  "press_release": "celebrating-passage-sb-309-protecting-inmate-religious-practices.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese joined the Council on American-Islamic Relations and other groups supporting criminal justice and religious liberties on Tuesday to celebrate the passage of SB",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"When inmates can practice their spiritual tradition while in detention, they are less likely to be violent or engage in other negative behaviors.\",\n    \"Protection of religious rights among incarcerated people reduces the chances of recidivism.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"When inmates can practice their spiritual tradition while in detention, they are less likely to be violent or engage in other negative behaviors.\",\n    \"Protection of religious rights among incarcerated people reduces the chances of recidivism.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9df5216e17886a94b42f6869c4a2acc7e4590786"
+}

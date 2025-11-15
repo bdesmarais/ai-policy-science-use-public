@@ -1,0 +1,13 @@
+{
+  "press_release": "20250514-assemblymember-alex-lee-introduces-legislation-affirm-ca-legislatures.txt",
+  "party": "Democratic",
+  "title": "Birthright citizenship is enshrined in the Constitution, guaranteeing that all children born in the U.S. are citizens. In the face of President Trump’s attack on this fundamental r",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Birthright citizenship is enshrined in the Constitution, guaranteeing that all children born in the U.S. are citizens.\",\n    \"Wong Kim Ark's Supreme Court case guaranteed birthright citizenship to all children born in the U.S., regardless of their parents' immigrati",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Birthright citizenship is enshrined in the Constitution, guaranteeing that all children born in the U.S. are citizens.\",\n    \"Wong Kim Ark's Supreme Court case guaranteed birthright citizenship to all children born in the U.S., regardless of their parents' immigration status.\",\n    \"Trump's attempts to deny birthright citizenship are unconstitutional.\",\n    \"Ending birthright citizenship would strip an entire group of U.S. citizens of their rights and legal status.\",\n    \"It is estimated that Trump's executive order would lead to the wrongful denial of citizenship to roughly 150,000 U.S. born citizens annually.\",\n    \"24,500 children born in California would lose access to essential services due to the withdrawal of birthright citizenship.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5c0e5b3925da840a02af2fb9b04cf781c9c25ea1"
+}

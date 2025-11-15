@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-honors-dr-amy-young-19th-senate-district-woman-year-2025.txt",
+  "party": "Republican",
+  "title": "Senator Ochoa Bogh ( R-Yucaipa ) has honored Dr. Amy Young as the 19 th Senate District’s Woman of the Year 2025.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "802357bc2a8869816d42c6ff23923fc27013dc96"
+}

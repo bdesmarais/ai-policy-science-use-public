@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-education-committee-fails-protect-children.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) today announced that the Senate Education Committee failed to advance a measure that would protect our kids and provide guidance for school",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1435 updates statewide standards for local school libraries by aligning California Education Code with Penal Code section 313.\",\n    \"Penal Code section 313 defines harmful matter as any material that depicts sexual conduct in a patently offensive way and lac",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1435 updates statewide standards for local school libraries by aligning California Education Code with Penal Code section 313.\",\n    \"Penal Code section 313 defines harmful matter as any material that depicts sexual conduct in a patently offensive way and lacks serious literary, artistic, political, or scientific value for minors.\",\n    \"There is a lack of state guidelines specific for school libraries regarding the adoption of materials and books available.\",\n    \"Books containing harmful material have been regularly questioned and scrutinized for their potential impact on children.\",\n    \"California's current Education Code has not been updated in over 30 years to address the issue of harmful material in school libraries.\",\n    \"The Supreme Court has previously determined that obscene, indecent, and profane material is not protected under the First Amendment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1cc242a9e5f5ea6d584e72114dcd1b4400b17894"
+}

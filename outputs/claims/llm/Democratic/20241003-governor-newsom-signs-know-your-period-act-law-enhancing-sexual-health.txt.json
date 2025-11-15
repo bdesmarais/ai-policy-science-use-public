@@ -1,0 +1,13 @@
+{
+  "press_release": "20241003-governor-newsom-signs-know-your-period-act-law-enhancing-sexual-health.txt",
+  "party": "Democratic",
+  "title": "Governor Newsom has signed into law Assembly Bill 2229 (AB 2229), known as the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2229 mandates comprehensive menstrual health education in all California schools.\",\n    \"The Know Your Period Act addresses a crucial gap in the current curriculum by including menstrual health education.\",\n    \"The Know Your Period Act aims to break down b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2229 mandates comprehensive menstrual health education in all California schools.\",\n    \"The Know Your Period Act addresses a crucial gap in the current curriculum by including menstrual health education.\",\n    \"The Know Your Period Act aims to break down barriers of stigma and misinformation surrounding menstrual health.\",\n    \"The legislation builds upon the foundation laid by the California Healthy Youth Act of 2016.\",\n    \"The previous curriculum lacked explicit coverage of menstrual health, leaving many California students without critical information.\",\n    \"The Know Your Period Act integrates comprehensive menstrual health education into the existing sexual health curriculum.\",\n    \"The new law empowers California students to take control of their own health.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0b72ab42b86b4d303a67e5685aaac15c3a9b14f0"
+}

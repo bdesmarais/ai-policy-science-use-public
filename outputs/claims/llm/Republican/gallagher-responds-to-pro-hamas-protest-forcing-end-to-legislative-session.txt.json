@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-responds-to-pro-hamas-protest-forcing-end-to-legislative-session.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8c75e3dd2221f937188a9f1f8cdea4ef7ac2e5e1"
+}

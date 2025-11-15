@@ -1,0 +1,13 @@
+{
+  "press_release": "20250821-healing-not-incarceration-capitol-rally-urge-passage-ab-1231.txt",
+  "party": "Democratic",
+  "title": "What: Rally & Press Conference for the Safer Communities through Opportunities Act (AB 1231):",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "351fa73fdd9acf33561f88cee0f90fb806be8c53"
+}

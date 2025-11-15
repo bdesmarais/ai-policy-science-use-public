@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblywoman-macedo-asks-governor-newsom-to-help-medi-cal-patients.txt",
+  "party": "Republican",
+  "title": "Following CalMatters’ report that Governor Newsom’s Administration failed to submit a proposal to draw down millions in federal funding for Medi-Cal patients, Assemblywoman Alexand",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:43:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom’s Administration missed a critical deadline to obtain millions in federal dollars for Medi-Cal patients.\",\n    \"Missing the deadline for a State Plan Amendment to the Centers for Medicare and Medicaid Services may prevent doctors and hospitals from receiv",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom’s Administration missed a critical deadline to obtain millions in federal dollars for Medi-Cal patients.\",\n    \"Missing the deadline for a State Plan Amendment to the Centers for Medicare and Medicaid Services may prevent doctors and hospitals from receiving promised rate increases.\",\n    \"California may have lost federal matching dollars intended to bolster the Medi-Cal program during the first quarter of 2025.\",\n    \"The low reimbursement rates for Medi-Cal create challenges for doctors and hospitals providing critical care.\",\n    \"Rural communities in California are health care deserts with higher poverty rates and large populations of people of color.\",\n    \"Fifty-seven percent of the Central Valley’s population is Hispanic/Latino.\",\n    \"Forty-five percent of Central Valley residents live on an income that is 200% below the federal poverty level.\",\n    \"This percentage of residents living below the federal poverty level in the Central Valley is significantly higher than the state’s rate of 30%.\",\n    \"Residents in the Central Valley do not have adequate access to health care, exacerbated by low reimbursement rates for providers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8ebe8c6090c8e37367736786c1e053ef67f7374a"
+}

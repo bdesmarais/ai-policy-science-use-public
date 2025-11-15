@@ -1,0 +1,13 @@
+{
+  "press_release": "20180605-quirk-silva-honors-orange-countyas-illumination-foundation-nonprofit-year.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO â Today, during California Nonprofit Day,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:01:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Illumination Foundation has a record of a 78% job placement success rate.\",\n    \"More than 73,432 people are homeless in Southern California each year.\",\n    \"More than 32,000 children in Orange County are homeless or unstably housed.\",\n    \"54% of households in Oran",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Illumination Foundation has a record of a 78% job placement success rate.\",\n    \"More than 73,432 people are homeless in Southern California each year.\",\n    \"More than 32,000 children in Orange County are homeless or unstably housed.\",\n    \"54% of households in Orange County with full-time employment live below the poverty line.\",\n    \"The Illumination Foundation provides comprehensive, whole-person care to help break the cycle of homelessness.\",\n    \"Illumination Foundation offers recuperative care where medically vulnerable homeless individuals can receive integrated medical oversight and other services.\",\n    \"The Illumination Foundation has served 2,316 families through its housing programs.\",\n    \"The Illumination Foundation has provided medical and social services to more than 20,000 individuals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7b777ebb77e5fcf01d0861c526ddd43148a994ad"
+}

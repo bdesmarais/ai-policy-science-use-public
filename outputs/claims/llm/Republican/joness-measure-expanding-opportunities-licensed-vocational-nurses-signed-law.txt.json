@@ -1,0 +1,13 @@
+{
+  "press_release": "joness-measure-expanding-opportunities-licensed-vocational-nurses-signed-law.txt",
+  "party": "Republican",
+  "title": "A measure by Senator Brian W. Jones (R-Santee), which will expand the job opportunities for Licensed Vocational Nurses (LVNs), was signed into law last night.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:55:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 994 allows Naturopathic Doctors (NDs) to hire Licensed Vocational Nurses (LVNs).\",\n    \"The implementation of Senate Bill 994 will increase LVNs' exposure to the primary care setting.\",\n    \"Senate Bill 994 enables LVNs to work more closely with doctors and p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 994 allows Naturopathic Doctors (NDs) to hire Licensed Vocational Nurses (LVNs).\",\n    \"The implementation of Senate Bill 994 will increase LVNs' exposure to the primary care setting.\",\n    \"Senate Bill 994 enables LVNs to work more closely with doctors and patients.\",\n    \"Current law limits NDs to hiring Naturopathic Assistants, who can only perform limited tasks with the ND present.\",\n    \"The limitation in hiring practices for NDs reduces their efficiency and increases patient wait times.\",\n    \"The restrictions preventing NDs from hiring LVNs are described as outdated and a disservice to medical professionals and consumers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5e6dc5644aa1ca773c7af16ebd3d8d88c781f384"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220916-bill-expand-travel-options-and-create-pilot-increase-jury-duty-pay-signed.txt",
+  "party": "Democratic",
+  "title": "Yesterday, AB 1981 by Assemblymember Alex Lee (D-San Jose) was signed into law by Governor Gavin Newsom. AB 1981 allows jurors to be reimbursed for using public transportation and ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:47:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Jurors can be reimbursed for using public transportation under AB 1981.\",\n    \"AB 1981 creates a pilot program to increase juror compensation in California.\",\n    \"The reimbursement options for jurors will result in more diverse juries that are reflective of communities.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Jurors can be reimbursed for using public transportation under AB 1981.\",\n    \"AB 1981 creates a pilot program to increase juror compensation in California.\",\n    \"The reimbursement options for jurors will result in more diverse juries that are reflective of communities.\",\n    \"Allowing reimbursement for public transit will encourage greener travel options.\",\n    \"Currently, California jurors are only reimbursed for traveling by passenger vehicles at the rate of $0.34 per mile.\",\n    \"The low daily pay of $15 for California jurors compared to $50 for federal jurors creates financial hardship.\",\n    \"Studies show that diverse groups deliberate longer and consider a wider range of information than homogeneous groups.\",\n    \"The high cost of living in California makes it difficult for working families to make ends meet on the current juror compensation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1f67a3b219958d73f80f427a32db4ad4d829149b"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220907-assemblymember-arambula-present-7-million-allocation-arte-americas.txt",
+  "party": "Democratic",
+  "title": "FRESNO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:47:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Arte Américas is the only Latino cultural arts center in the Central San Joaquin Valley.\",\n    \"Arte Américas has attracted tens of thousands of people to its art exhibitions, live events, and educational programs.\",\n    \"Arte Américas aims to become a premier cultural c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Arte Américas is the only Latino cultural arts center in the Central San Joaquin Valley.\",\n    \"Arte Américas has attracted tens of thousands of people to its art exhibitions, live events, and educational programs.\",\n    \"Arte Américas aims to become a premier cultural center and an accredited museum to host more prominent art exhibitions.\",\n    \"The renovation and expansion plans for Arte Américas will boost its educational programs and connection to the community.\",\n    \"The State funds will significantly strengthen Arte Américas' operations and future plans.\",\n    \"The investment in Arte Américas will contribute to the economic vitality of downtown Fresno.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "065ee57ab127179fc98424a5996ba80c24872b75"
+}

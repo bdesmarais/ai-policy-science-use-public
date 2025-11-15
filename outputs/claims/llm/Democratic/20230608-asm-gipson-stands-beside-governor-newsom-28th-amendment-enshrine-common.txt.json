@@ -1,0 +1,13 @@
+{
+  "press_release": "20230608-asm-gipson-stands-beside-governor-newsom-28th-amendment-enshrine-common.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Over 21,000 deaths were attributed to gun violence in 2021.\",\n    \"Over 20,000 deaths were attributed to gun violence in 2022.\",\n    \"More than 8,000 deaths due to gun violence occurred in the first six months of 2023.\",\n    \"Raising the minimum age to purchase a gun to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Over 21,000 deaths were attributed to gun violence in 2021.\",\n    \"Over 20,000 deaths were attributed to gun violence in 2022.\",\n    \"More than 8,000 deaths due to gun violence occurred in the first six months of 2023.\",\n    \"Raising the minimum age to purchase a gun to 21 aligns with age restrictions for purchasing alcohol and renting a car.\",\n    \"Comprehensive and universal background checks for all gun purchases can enhance the ability to keep firearms away from individuals who pose a threat to public safety.\",\n    \"Introducing a reasonable waiting period before the completion of a gun purchase can prevent impulsive actions and provide additional protection.\",\n    \"Prohibiting the civilian purchase of assault weapons can reduce the impact of mass shootings and other acts of violence.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "090454835060233aef89337112fa52bc54cde89d"
+}

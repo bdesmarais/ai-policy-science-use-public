@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republicans-demand-newsom-improve-states-vaccine-distribution-efforts.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove ( R-Bakersfield ) and several members of the California Senate Republican Caucus recently delivered a letter to Governor Newsom ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has received more than 2.4 million vaccines.\",\n    \"California has administered less than 25% of doses received.\",\n    \"California has administered 2.07 doses per 100 people.\",\n    \"California lags the national average of 3.03 doses per 100 people.\",\n    \"The ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has received more than 2.4 million vaccines.\",\n    \"California has administered less than 25% of doses received.\",\n    \"California has administered 2.07 doses per 100 people.\",\n    \"California lags the national average of 3.03 doses per 100 people.\",\n    \"The rollout of the vaccine distribution has been an absolute failure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "81cea3900f8278ade4e0fc03262e13a5a7861a2a"
+}

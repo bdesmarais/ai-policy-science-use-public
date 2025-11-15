@@ -1,0 +1,13 @@
+{
+  "press_release": "20190214-assemblymember-tasha-boerner-horvath-introduces-bill-requiring-sports-prize.txt",
+  "party": "Democratic",
+  "title": "ENCINITAS, CA – Assemblymember Tasha Boerner Horvath (D-Encinitas)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:05:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 467 would require equal prize compensation for all athletes, regardless of gender, as a condition for approving a lease or permit request for any sporting event held on public land.\",\n    \"Women in all industries are fighting for equal pay in the workplace, including ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 467 would require equal prize compensation for all athletes, regardless of gender, as a condition for approving a lease or permit request for any sporting event held on public land.\",\n    \"Women in all industries are fighting for equal pay in the workplace, including in the world of sports.\",\n    \"These incredible athletes are competing on the same level as men.\",\n    \"The Mavericks Challenge, a world-class professional surfing event, had failed to include a women’s division or offer equitable prize compensation until recent actions required both inclusion and prize compensation equity as conditions for permits and leasing.\",\n    \"Pay disparities exist in almost every major sport.\",\n    \"The issue of pay disparities in sports has been historically prevalent and change has been slow to come.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "973acd9d134aeda5ef5ae8703af2ea3ec5fd18f4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210210-assemblymember-bauer-kahan-introduces-bill-increasing-collaboration-between.txt",
+  "party": "Democratic",
+  "title": "AB 529 would require that electrical utilities like PG&E give 48 hours’ notice to local fire districts when conducting potentially dangerous maintenance in high fire-risk areas",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:23:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 529 requires electrical utilities like PG&E to give 48 hours’ notice to local fire districts for potentially dangerous maintenance in high fire-risk areas.\",\n    \"The year 2020 was California's worst fire season in modern history, with over 10,000 wildfires burning ov",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 529 requires electrical utilities like PG&E to give 48 hours’ notice to local fire districts for potentially dangerous maintenance in high fire-risk areas.\",\n    \"The year 2020 was California's worst fire season in modern history, with over 10,000 wildfires burning over 4.2 million acres of land.\",\n    \"More than 4 percent of all land in California was burned by wildfires in 2020.\",\n    \"The August 'Complex Fire' was the first ever 'Gigafire' in California, burning over 1 million acres and crossing seven counties.\",\n    \"In 2020, 33 people lost their lives to wildfires in California.\",\n    \"AB 529 aims to aid in preventing wildfires by ensuring local fire districts are prepared and ready to respond if a fire starts due to maintenance work.\",\n    \"California's fire season has become longer and more intense in recent years due to climate change.\",\n    \"Proper notification to fire agencies can save time for fire response.\",\n    \"The Moraga-Orinda Fire District is promoting better communication and cooperation between PG&E and local fire agencies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "43fd04a77d0817ffa82399fdcb8c9c0ede05010d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-valladares-joins-legislators-and-advocates-call-governor-and-leg-leaders-restore.txt",
+  "party": "Republican",
+  "title": "Photo courtesy of Senate Republican Caucus",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Funding cuts will hurt California’s most vulnerable populations, including the intellectually and developmentally disabled.\",\n    \"Reductions in funding would decrease overtime and travel compensation for caregivers in California.\",\n    \"The proposed budget cuts would re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Funding cuts will hurt California’s most vulnerable populations, including the intellectually and developmentally disabled.\",\n    \"Reductions in funding would decrease overtime and travel compensation for caregivers in California.\",\n    \"The proposed budget cuts would restrict care for thousands of seniors and disabled individuals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "760fbbe58c351d57286229495017f6bcf7690808"
+}

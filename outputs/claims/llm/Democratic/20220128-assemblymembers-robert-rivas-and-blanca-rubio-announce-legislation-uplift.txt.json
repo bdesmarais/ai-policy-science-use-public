@@ -1,0 +1,13 @@
+{
+  "press_release": "20220128-assemblymembers-robert-rivas-and-blanca-rubio-announce-legislation-uplift.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A lack of adequate care and parental contact during the critical early years of childhood is strongly correlated with worse health, educational, and other outcomes later in life.\",\n    \"Numerous studies have demonstrated that infancy is a crucial time for brain developme",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A lack of adequate care and parental contact during the critical early years of childhood is strongly correlated with worse health, educational, and other outcomes later in life.\",\n    \"Numerous studies have demonstrated that infancy is a crucial time for brain development.\",\n    \"Early bonding time can have a significant impact on a child's long-term health.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6a9a16aa55cdc70f203aac4a7fdcd060b232c67f"
+}

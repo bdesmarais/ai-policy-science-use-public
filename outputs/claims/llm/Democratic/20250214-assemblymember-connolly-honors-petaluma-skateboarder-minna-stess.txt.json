@@ -1,0 +1,13 @@
+{
+  "press_release": "20250214-assemblymember-connolly-honors-petaluma-skateboarder-minna-stess.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) honored 2024 Olympic Team member and Petaluma native Minna Stess on the Assembly floor. Stess is an eighteen-ye",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Minna Stess represented the United States in the Paris 2024 Summer Olympics in U.S. skateboarding in the women’s park event.\",\n    \"Minna Stess is a member of the USA Skateboarding National Team.\",\n    \"Minna Stess competed in her first professional skateboarding contest",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Minna Stess represented the United States in the Paris 2024 Summer Olympics in U.S. skateboarding in the women’s park event.\",\n    \"Minna Stess is a member of the USA Skateboarding National Team.\",\n    \"Minna Stess competed in her first professional skateboarding contest at the age of eleven.\",\n    \"Minna Stess was competing in the X Games, Dew Tour, and USA National Championship by the age of thirteen.\",\n    \"Minna Stess served as an alternate at the Tokyo 2020 Summer Olympics.\",\n    \"At fifteen, Minna Stess was the youngest person in history to earn a gold medal at the 2021 USA National Championships’ Women’s Park competition.\",\n    \"Minna Stess was named to the USA Skateboarding Women’s Park National Team in 2019 and has been competing with the team ever since.\",\n    \"Minna Stess is the only American woman to podium in a Park event with a bronze medal at the 2023 World Championships.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7c5fb2519cd0444e482401c9aa13b41f5d005beb"
+}

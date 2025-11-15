@@ -1,0 +1,13 @@
+{
+  "press_release": "20150605-equality-crime-victims.txt",
+  "party": "Democratic",
+  "title": "Assembly supports equal  rights for victims at parole hearings",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:51:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ae7938180c4f2636a7593663b3bd71657fd4f327"
+}

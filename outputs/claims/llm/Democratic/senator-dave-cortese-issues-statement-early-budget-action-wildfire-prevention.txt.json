@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-cortese-issues-statement-early-budget-action-wildfire-prevention.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) issued the following statement during today’s Senate Budget and Fiscal Review Committee about the Legislature’s $536 million wildfire prevention p",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California continues to face year-round fire seasons.\",\n    \"The state must address the core issue of climate change to reduce conditions that spawn intense fires.\",\n    \"The Legislature’s wildfire resilience funding package will proactively address the state’s impending",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California continues to face year-round fire seasons.\",\n    \"The state must address the core issue of climate change to reduce conditions that spawn intense fires.\",\n    \"The Legislature’s wildfire resilience funding package will proactively address the state’s impending drought and wildfire season.\",\n    \"The funding package includes critical investments in fire prevention, forest management, and restoration initiatives.\",\n    \"Restoring the ecosystem is necessary to prevent flammable vegetation.\",\n    \"$155 million is appropriated to improve forest health in California.\",\n    \"$123 million is allocated for fire prevention grants for critical vegetation management.\",\n    \"$27 million is designated for community hardening, including home hardening and defensible space inspections.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2cd5a4bd73b3fd21704ffa1a4d712ecf10580475"
+}

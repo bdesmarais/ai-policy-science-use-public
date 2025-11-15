@@ -1,0 +1,13 @@
+{
+  "press_release": "20210422-boerner-horvaths-bill-promote-safe-efficient-biking-passes-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 122 is a bill that allows bicycle riders to treat a stop sign as a yield sign when safe to do so.\",\n    \"This policy has been successfully implemented in six states and is proven to reduce collisions while improving riders' mobility.\",\n    \"Complete stops at all stop ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 122 is a bill that allows bicycle riders to treat a stop sign as a yield sign when safe to do so.\",\n    \"This policy has been successfully implemented in six states and is proven to reduce collisions while improving riders' mobility.\",\n    \"Complete stops at all stop sign-controlled intersections make bike trips slower and require more energy from the rider.\",\n    \"Full stops at stop signs do not improve and can reduce rider safety.\",\n    \"Data collected by the Delaware State Police showed that crashes involving bicycles at stop-sign controlled intersections fell by 23 percent after the state allowed yielding at stop signs.\",\n    \"Implementing the change in treating stop signs as yield signs contributed to an 11 percent overall decrease in bicycle-involved crashes in Delaware.\",\n    \"Other states that implemented this change also reported similar trends, with none reporting an increase in riding collisions.\",\n    \"African American and Hispanic riders are disproportionately stopped and fined for moving violations, discouraging ridership in these communities.\",\n    \"Legalizing Idaho stops removes a potential for bias in traffic enforcement against people of color.\",\n    \"Supporting convenient and safe bike travel is imperative as society moves toward cycling as an alternative to motor vehicle transportation.\",\n    \"Legalizing the practice of treating stop signs as yield signs will make intersections safer for cyclists, pedestrians, and motorists.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "372a3e2c8aa1fdb4034b1ece1b9ae4f61de8fe73"
+}

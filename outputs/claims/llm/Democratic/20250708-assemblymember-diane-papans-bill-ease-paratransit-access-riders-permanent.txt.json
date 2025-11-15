@@ -1,0 +1,13 @@
+{
+  "press_release": "20250708-assemblymember-diane-papans-bill-ease-paratransit-access-riders-permanent.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:40:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill 1250 will reduce unnecessary bureaucracy by requiring transit agencies to create a simplified, five-year recertification process for riders whose disabilities are not expected to change.\",\n    \"Qualifying individuals could recertify by phone, mail, or ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Assembly Bill 1250 will reduce unnecessary bureaucracy by requiring transit agencies to create a simplified, five-year recertification process for riders whose disabilities are not expected to change.\",\n    \"Qualifying individuals could recertify by phone, mail, or an online form, eliminating repeated in-person assessments and medical documentation.\",\n    \"Paratransit services provide curb-to-curb or door-to-door transit for individuals unable to use fixed-route public transportation due to a disability.\",\n    \"Recertification requirements for paratransit services vary widely across California, often requiring complex forms, doctors' visits, and in-person interviews.\",\n    \"Assembly Bill 1250 establishes a reasonable standard for paratransit recertification for individuals with permanent and unchanging medical conditions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9eaeb4c544833d5ea771559018cf5eb36b9a1094"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-introduces-measure-combat-porch-piracy.txt",
+  "party": "Republican",
+  "title": "Sacramento – State Senator Brian Jones (R-Santee) today introduced Senate Bill 979, a measure to increase the penalties on persons who steal packages from the porch or entryway of ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The advent of increasing home delivery of goods has benefitted consumers, retailers, and the economy.\",\n    \"There has been an increase in theft of packages from outside Californians’ homes, termed 'porch piracy.'\",\n    \"Current law treats theft of packages from porches ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The advent of increasing home delivery of goods has benefitted consumers, retailers, and the economy.\",\n    \"There has been an increase in theft of packages from outside Californians’ homes, termed 'porch piracy.'\",\n    \"Current law treats theft of packages from porches as a misdemeanor regardless of repeat offenses.\",\n    \"Senate Bill 979 would allow prosecution of repeat offenders as a felony after a third conviction within 36 months.\",\n    \"Increasing penalties for package theft may reduce the frequency of these crimes.\",\n    \"Theft of packages drives up prices for consumers and increases insurance rates.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "20545c516ad2806891f43d057de9fd3a61c21d6a"
+}

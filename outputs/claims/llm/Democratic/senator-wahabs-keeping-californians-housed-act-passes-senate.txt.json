@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-wahabs-keeping-californians-housed-act-passes-senate.txt",
+  "party": "Democratic",
+  "title": "Newsletter: Sign Up For The Latest Updates",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 436 extends the notice period to terminate tenancy for nonpayment of rent from 3 days to 14 days.\",\n    \"Over two dozen states have 'pay or quit' periods longer than 3 days.\",\n    \"California's eviction laws have not been updated since 1863.\",\n    \"Extending ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 436 extends the notice period to terminate tenancy for nonpayment of rent from 3 days to 14 days.\",\n    \"Over two dozen states have 'pay or quit' periods longer than 3 days.\",\n    \"California's eviction laws have not been updated since 1863.\",\n    \"Extending the notice period to 14 days will help renters and landlords avoid unnecessary evictions.\",\n    \"Rent prices are growing 325% faster than incomes in California.\",\n    \"45% of California households are renting.\",\n    \"SB 436 aims to give tenants more time to collect their last paycheck, access rental assistance, or seek legal counsel.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fb12960571f657c1215e87c6c6e2e5f3eacde909"
+}

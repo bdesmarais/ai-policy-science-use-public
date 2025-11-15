@@ -1,0 +1,13 @@
+{
+  "press_release": "20230522-assemblymember-zburs-safe-and-supportive-schools-act-passes-out-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Safe and Supportive Schools Act aims to ensure that LGBTQ+ and every child has the opportunity to attend a safe and supportive school environment.\",\n    \"LGBTQ+ students still experience harassment, violence, and lack of affirmation in school settings, which can harm",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Safe and Supportive Schools Act aims to ensure that LGBTQ+ and every child has the opportunity to attend a safe and supportive school environment.\",\n    \"LGBTQ+ students still experience harassment, violence, and lack of affirmation in school settings, which can harm their school performance and mental health.\",\n    \"Inadequate support in schools leads to high dropout rates among LGBTQ+ students, contributing to poverty, homelessness, and engagement with the criminal justice system.\",\n    \"Fostering safe and inclusive school environments can contribute to the reduction of dropout rates and elevate academic achievement for all students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0e8326943d5e3329dea0fb2e03dca295b09d8db8"
+}

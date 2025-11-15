@@ -1,0 +1,13 @@
+{
+  "press_release": "20230906-bill-stop-frivolous-appeals-used-delay-new-housing-projects-heads-governors.txt",
+  "party": "Democratic",
+  "title": "Sacramento –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:06:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Matt Haney's AB 1114 will limit the ability of San Francisco to deny permits for new developments that have already received approvals.\",\n    \"The passage of AB 1114 is intended to help San Francisco address its housing shortage.\",\n    \"A recent affordable",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Matt Haney's AB 1114 will limit the ability of San Francisco to deny permits for new developments that have already received approvals.\",\n    \"The passage of AB 1114 is intended to help San Francisco address its housing shortage.\",\n    \"A recent affordable housing project on 2550 Irving Street was delayed by two and a half years due to frivolous appeals, adding an additional cost of $1 million to the project.\",\n    \"AB 1114 aims to accelerate the housing production process in San Francisco by eliminating unnecessary permit appeals.\",\n    \"AB 1114 has received broad bi-partisan support in the California Legislature.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "af7cded8ac7fc2c464cc52ca016130d9bf633cb0"
+}

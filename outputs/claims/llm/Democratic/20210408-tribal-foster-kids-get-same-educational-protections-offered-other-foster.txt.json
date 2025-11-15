@@ -1,0 +1,13 @@
+{
+  "press_release": "20210408-tribal-foster-kids-get-same-educational-protections-offered-other-foster.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Native American foster students would receive the same educational rights as other foster children under AB 1055, a proposal approved Wednesday by the Assembly Education",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:26:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "88a1e8ee99a77c6cae23d1fd8f4afb5f47169ecb"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20241114-assemblywoman-petrie-norris-celebrates-opening-irvines-first-universal.txt",
+  "party": "Democratic",
+  "title": "Irvine, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The City of Irvine opened its first universal playground at Sweet Shade Neighborhood Park.\",\n    \"The universal playground includes an adaptive basketball court designed for individuals with disabilities.\",\n    \"The playground was designed to be wheelchair accessible wit",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The City of Irvine opened its first universal playground at Sweet Shade Neighborhood Park.\",\n    \"The universal playground includes an adaptive basketball court designed for individuals with disabilities.\",\n    \"The playground was designed to be wheelchair accessible with multigenerational play components.\",\n    \"The design of the playground was shaped by extensive public outreach conducted by the City.\",\n    \"The playground features adaptive swings, a sensory garden, and an adjacent restroom with an adult changing area.\",\n    \"Assemblywoman Cottie Petrie-Norris secured $2.8 million in state funding for the project's development.\",\n    \"The Sweet Shade Neighborhood Park aims to serve as a STEM-based, all-inclusive playground for children of all abilities.\",\n    \"The creation of the universal playground complements the Sweet Shade Ability Center, expanding inclusive recreational opportunities in Irvine.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "070720c15fd0b38dfdca6e9f54c56425f5b49703"
+}

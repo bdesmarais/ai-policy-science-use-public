@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-becker-and-leader-introduce-legislation-authorizing.txt",
+  "party": "Democratic",
+  "title": "The Heal Our Heroes Act will help veterans and first responders",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Heal Our Heroes Act creates a pilot program to allow military veterans and first responders to access psilocybin and psilocin for mental health treatment in a regulated setting.\",\n    \"The pilot program authorizes the counties of San Francisco, Santa Cruz, and San Di",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Heal Our Heroes Act creates a pilot program to allow military veterans and first responders to access psilocybin and psilocin for mental health treatment in a regulated setting.\",\n    \"The pilot program authorizes the counties of San Francisco, Santa Cruz, and San Diego to offer treatment using psilocybin or psilocin to military veterans or first responders.\",\n    \"The program has several safety measures, including a suitability screening for each participant to ensure they are a safe candidate for treatment.\",\n    \"The Heal Our Heroes Act is designed to rigorously study the effectiveness of psilocybin and psilocin treatments for veterans and first responders grappling with PTSD.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "81ff50c0465695f48eec44ff6d95539877c4a50d"
+}

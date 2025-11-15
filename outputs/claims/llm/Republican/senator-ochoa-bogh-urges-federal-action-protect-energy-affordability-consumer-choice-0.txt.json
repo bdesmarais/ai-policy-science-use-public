@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-urges-federal-action-protect-energy-affordability-consumer-choice-0.txt",
+  "party": "Republican",
+  "title": "This week, Senator Ochoa Bogh ( R-Yucaipa) joined all California Legislative Republicans to call on the U.S. Department of Energy to intervene against state and local efforts to ba",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's electricity rates are 92% higher than the national average.\",\n    \"Many cities and counties in California have adopted bans on natural gas appliances or implemented zero-emission appliance requirements.\",\n    \"Families relying solely on electric heating face",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's electricity rates are 92% higher than the national average.\",\n    \"Many cities and counties in California have adopted bans on natural gas appliances or implemented zero-emission appliance requirements.\",\n    \"Families relying solely on electric heating faced severe hardships during the recent power outage in Grand Terrace.\",\n    \"The proposed mandate to transition all households to electric-only utilities would place an overwhelming financial burden on residents.\",\n    \"Limiting homes to a single power source is a dangerous and impractical policy, especially during disasters.\",\n    \"Homes that relied solely on electricity during power outages suffered the most, leaving residents without heat, the ability to cook, or even basic hygiene for days.\",\n    \"Banning gas appliances would force homes and businesses to rely solely on an increasingly strained electrical grid.\",\n    \"Removing natural gas as an energy source is impractical and dangerous, especially given the wildfires caused by electric infrastructure.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "354e40069a711b11eafe3d0aa7e03d91f8cb843e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "becker-bills-set-to-become-law-january-1-2023.txt",
+  "party": "Democratic",
+  "title": "Work On Equity, Opportunity, & Climate Issues Highlight San Mateo Senator’s Second Year In Legislature",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Providing prison telecommunication services is a $1.4 billion industry in the United States.\",\n    \"Exploitive fees from prison telecommunication services cost California families an estimated $68.2 million every year.\",\n    \"Studies show nearly 1 in 4 Americans skip dos",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Providing prison telecommunication services is a $1.4 billion industry in the United States.\",\n    \"Exploitive fees from prison telecommunication services cost California families an estimated $68.2 million every year.\",\n    \"Studies show nearly 1 in 4 Americans skip doses or don’t get prescriptions filled because they can’t afford to.\",\n    \"People who maintain contact with family members while incarcerated tend to perform better in life post-incarceration.\",\n    \"Sending individuals with mental health challenges to prison without treatment does not rehabilitate them and may lead to recidivism.\",\n    \"California requires utilities to meet certain greenhouse gas targets.\",\n    \"Requiring energy agencies to provide 15-year projections of energy resources and demands is essential for achieving clean energy goals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2c0adfb1398be1a9d74938a2f0e0f9cfaae98eb1"
+}

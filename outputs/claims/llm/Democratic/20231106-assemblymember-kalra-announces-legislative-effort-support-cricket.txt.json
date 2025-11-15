@@ -1,0 +1,13 @@
+{
+  "press_release": "20231106-assemblymember-kalra-announces-legislative-effort-support-cricket.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Cricket will be played in the 2028 Summer Olympics in Los Angeles, California, as one of five new sports to be included.\",\n    \"Cricket was last seen during the 1900 Olympics in Paris, France.\",\n    \"Cricket holds particular importance within the South Asian diaspora and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Cricket will be played in the 2028 Summer Olympics in Los Angeles, California, as one of five new sports to be included.\",\n    \"Cricket was last seen during the 1900 Olympics in Paris, France.\",\n    \"Cricket holds particular importance within the South Asian diaspora and broader international community.\",\n    \"The Cricket World Cup taking place now in India has garnered over 364 million viewers so far.\",\n    \"California Cricket Academy has grown from 23 kids to over 400 players, playing more than 200 games a year.\",\n    \"Indiana was the first state to add cricket as a physical education option to their in-class school curriculum in 2014.\",\n    \"Other states such as Illinois and Michigan have passed supportive resolutions for the sport of cricket.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b057ac214072844fb5cdf893f89bd11934a7a613"
+}

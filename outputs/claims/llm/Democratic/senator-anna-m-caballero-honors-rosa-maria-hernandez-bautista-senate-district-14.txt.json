@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-honors-rosa-maria-hernandez-bautista-senate-district-14.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE Monday March 17, 2025",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Rosa Maria Hernandez-Bautista has devoted her life to strengthen Indigenous immigrant communities, particularly women.\",\n    \"Hernandez-Bautista teaches civic engagement to indigenous migrant women.\",\n    \"She encourages indigenous migrant women to use their talents to d",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Rosa Maria Hernandez-Bautista has devoted her life to strengthen Indigenous immigrant communities, particularly women.\",\n    \"Hernandez-Bautista teaches civic engagement to indigenous migrant women.\",\n    \"She encourages indigenous migrant women to use their talents to develop economically.\",\n    \"Hernandez-Bautista has organized Madera’s first-ever Guelaguetza, celebrating traditional dances, costumes, food and crafts by different indigenous groups.\",\n    \"As a co-owner of Colectivo Sabor a Mi Tierra, Hernandez-Bautista integrates cultural identity with economic opportunity.\",\n    \"She promotes Indigenous food knowledge and supports women entrepreneurs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "107364b0a90573813fb45d8ad6d975954390e659"
+}

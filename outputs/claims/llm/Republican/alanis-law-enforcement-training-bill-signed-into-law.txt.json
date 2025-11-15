@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-law-enforcement-training-bill-signed-into-law.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Governor Gavin Newsom announced he has signed AB 355, authored by Assemblymember Alanis, into law.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 355 allows law enforcement cadets to use tactical rifles during firearms training under supervision.\",\n    \"Previously, law enforcement cadets could not complete tactical rifle training at most academies until they became full-time officers.\",\n    \"The delay in tactic",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 355 allows law enforcement cadets to use tactical rifles during firearms training under supervision.\",\n    \"Previously, law enforcement cadets could not complete tactical rifle training at most academies until they became full-time officers.\",\n    \"The delay in tactical rifle training for cadets posed an efficiency and public safety problem for law enforcement agencies in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fdcaba80c170f0ab6f018d7c2be39c565bdb46e2"
+}

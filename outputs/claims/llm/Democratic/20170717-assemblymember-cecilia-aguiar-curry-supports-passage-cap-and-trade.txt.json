@@ -1,0 +1,13 @@
+{
+  "press_release": "20170717-assemblymember-cecilia-aguiar-curry-supports-passage-cap-and-trade.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California law requires the state to cut greenhouse gas emissions to 40% below 1990 levels by 2030.\",\n    \"The cap-and-trade program allows businesses to buy and sell greenhouse gas emissions credits to meet a declining cap on total emissions.\",\n    \"Economists agree tha",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California law requires the state to cut greenhouse gas emissions to 40% below 1990 levels by 2030.\",\n    \"The cap-and-trade program allows businesses to buy and sell greenhouse gas emissions credits to meet a declining cap on total emissions.\",\n    \"Economists agree that the market-driven cap-and-trade system allows California businesses to reduce emissions in the most economically-feasible and environmentally-friendly way.\",\n    \"The passage of AB 398 is essential to extend the existing cap-and-trade program.\",\n    \"Cap-and-trade done right can successfully reduce greenhouse gas emissions and keep industries in California.\",\n    \"Without state assistance from the Greenhouse Gas Reduction Fund, it is doubtful whether agricultural leaders can continue to cover the costs of reducing greenhouse gas emissions.\",\n    \"Every scientific analysis indicates that connecting land use to carbon strategies is necessary for reducing greenhouse gas emissions.\",\n    \"Natural and working lands are priorities in reaching California's greenhouse gas emissions reduction goals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6933cd676c0c63df0d90d91748d2728511d487de"
+}

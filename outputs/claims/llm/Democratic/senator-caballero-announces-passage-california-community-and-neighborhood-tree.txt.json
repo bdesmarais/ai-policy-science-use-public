@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-caballero-announces-passage-california-community-and-neighborhood-tree.txt",
+  "party": "Democratic",
+  "title": "Sacramento: Senator Anna M. Caballero (D-Salinas) is pleased to announce that the first of her bills to pass through the legislature and to be signed by Governor Newsom, is SB 347 ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Disadvantaged and low-income communities have less canopy cover than other communities due to the cost of tree planting and tree care.\",\n    \"These communities struggle to fund and maintain urban forestry programs, leading to an inequitable distribution of environmental ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Disadvantaged and low-income communities have less canopy cover than other communities due to the cost of tree planting and tree care.\",\n    \"These communities struggle to fund and maintain urban forestry programs, leading to an inequitable distribution of environmental benefits.\",\n    \"Disadvantaged communities suffer from greater urban heat island effects and worse air pollution.\",\n    \"Trees provide vital benefits, including environmental services that can address public health outcomes and improve economic opportunities.\",\n    \"The California Community and Neighborhood Tree Fund will provide a reliable source of funding for tree planting programs.\",\n    \"San Joaquin Valley residents experience poor air quality and excessive summer heat, conditions that can be improved with an expanded tree canopy.\",\n    \"Trees protect from harmful sun exposure, filter air and water pollutants, and contribute to better mental and physical health.\",\n    \"The expansion of tree planting in 'severely under-treed' neighborhoods can lead to increased Tree Equity.\",\n    \"Planting trees can enhance community climate resiliency by cooling areas and sequestering carbon.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "890d4cb164a20d4a027f64ee155474f6ef58d2a9"
+}

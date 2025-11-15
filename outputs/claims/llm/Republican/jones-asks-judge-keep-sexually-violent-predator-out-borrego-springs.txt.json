@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-asks-judge-keep-sexually-violent-predator-out-borrego-springs.txt",
+  "party": "Republican",
+  "title": "Today, State Senator Brian W. Jones (R-Santee) sent the following letter to San Diego County Superior Court Judge David Gill asking that sexually violent predator (SVP) Michael Mar",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Michael Martinez has an extensive criminal history, including four separate convictions for child molestation and lewd acts upon a child under 14.\",\n    \"Michael Martinez has been designated by the state as a sexually violent predator.\",\n    \"The proposed placement of Mi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Michael Martinez has an extensive criminal history, including four separate convictions for child molestation and lewd acts upon a child under 14.\",\n    \"Michael Martinez has been designated by the state as a sexually violent predator.\",\n    \"The proposed placement of Michael Martinez in Borrego Springs is within 3 miles of elementary and middle schools, which poses a threat to children.\",\n    \"There are no medical, psychiatric, or social services facilities located in Borrego Springs.\",\n    \"Only two deputy Sheriffs cover the entire Borrego Springs Valley.\",\n    \"The placement of sexually violent predators in communities should prioritize public safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "49692fff9632b881171a1a5143d657b49eefb12c"
+}

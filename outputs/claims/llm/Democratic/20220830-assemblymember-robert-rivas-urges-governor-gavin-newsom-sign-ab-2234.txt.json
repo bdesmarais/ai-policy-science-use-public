@@ -1,0 +1,13 @@
+{
+  "press_release": "20220830-assemblymember-robert-rivas-urges-governor-gavin-newsom-sign-ab-2234.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:46:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is facing an estimated housing shortage of 3 million homes.\",\n    \"Delays in home-building result in higher costs passed along to eventual homeowners.\",\n    \"Housing security is vital to the California Dream.\",\n    \"Without available quality and affordable hou",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is facing an estimated housing shortage of 3 million homes.\",\n    \"Delays in home-building result in higher costs passed along to eventual homeowners.\",\n    \"Housing security is vital to the California Dream.\",\n    \"Without available quality and affordable housing, many residents are struggling economically.\",\n    \"AB 2234 will enhance transparency, accountability, and communication between city governments and home builders.\",\n    \"AB 2234 establishes a concrete timeline to ensure that much-needed housing development can proceed expeditiously through the permitting process.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4a72efcb8368074378d965ea6dea28cdbc9d3c1d"
+}

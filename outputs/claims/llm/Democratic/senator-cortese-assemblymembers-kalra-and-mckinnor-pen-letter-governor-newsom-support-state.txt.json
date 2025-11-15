@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-assemblymembers-kalra-and-mckinnor-pen-letter-governor-newsom-support-state.txt",
+  "party": "Democratic",
+  "title": "Today, Assembly Labor & Employment Committee Chair, Ash Kalra (D-San José), Assembly Public Employment & Retirement Committee Chair, Tina McKinnor (D-Inglewood), and Senate Labor, ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"State workers who provide public services in California are struggling to pay their bills due to being offered pre-pandemic wages in contract negotiations.\",\n    \"Delays in reaching a fair contract agreement for state workers prolong the economic impact on these workers.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"State workers who provide public services in California are struggling to pay their bills due to being offered pre-pandemic wages in contract negotiations.\",\n    \"Delays in reaching a fair contract agreement for state workers prolong the economic impact on these workers.\",\n    \"Prolonged contract negotiations increase the risk of state workers falling into dire financial situations.\",\n    \"Without a resolved contract, 100,000 public servants in California will face pay cuts of thousands of dollars for at least 6 months.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fa614c540cc810c269aa7413815cb114b7448d27"
+}

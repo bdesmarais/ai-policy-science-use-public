@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-secures-funds-first-community-park-santa-nella.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:24:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The lack of a community park in Santa Nella is detrimental to the health and wellbeing of residents.\",\n    \"Local parks serve as gathering places for families, social groups, and individuals from all walks of life.\",\n    \"The construction of a community park in Santa Nel",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The lack of a community park in Santa Nella is detrimental to the health and wellbeing of residents.\",\n    \"Local parks serve as gathering places for families, social groups, and individuals from all walks of life.\",\n    \"The construction of a community park in Santa Nella is a collaborative effort involving local residents and government officials.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f7e47e52b605279f15da0d2b766e5b1cdab2ecfd"
+}

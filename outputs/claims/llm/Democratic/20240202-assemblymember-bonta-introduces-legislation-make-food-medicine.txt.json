@@ -1,0 +1,13 @@
+{
+  "press_release": "20240202-assemblymember-bonta-introduces-legislation-make-food-medicine.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) – Assemblymember Mia Bonta (D-Oakland), has announced groundbreaking legislation, AB 1975, aimed at improving health outcomes and reducing healthcare spending by trans",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:34:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Legislation AB 1975 aims to improve health outcomes and reduce healthcare spending by transitioning medically supportive food and nutrition interventions to permanent benefits under Medi-Cal.\",\n    \"If passed, this legislation would make California the first state in the",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Legislation AB 1975 aims to improve health outcomes and reduce healthcare spending by transitioning medically supportive food and nutrition interventions to permanent benefits under Medi-Cal.\",\n    \"If passed, this legislation would make California the first state in the nation to provide medically supportive food and nutrition services as covered benefits.\",\n    \"Adequate food and nutrition are fundamental in preventing and treating chronic conditions, particularly among Californians of color who are disproportionately affected.\",\n    \"Making medically supportive food and nutrition interventions permanent would advance health equity by providing services to those impacted by diet-sensitive chronic conditions.\",\n    \"In the first 18 months of California's CalAIM initiative, food-based interventions ranked second in utilization out of 14 pilot services aimed at addressing social drivers of health.\",\n    \"As of July 2023, more than 26,000 Californians have accessed medically supportive food and nutrition services.\",\n    \"Research suggests that incorporating medically supportive food and nutrition into patient care has measurable benefits.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c51606d5cb6d0e24800299cc8000cc69da0d52e2"
+}

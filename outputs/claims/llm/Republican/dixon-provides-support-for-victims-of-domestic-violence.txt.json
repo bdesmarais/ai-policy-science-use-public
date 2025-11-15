@@ -1,0 +1,13 @@
+{
+  "press_release": "dixon-provides-support-for-victims-of-domestic-violence.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today Assembly Republicans gathered for a press conference at the State Capitol to speak about legislation they are putting forward to support law enforcement and Cali",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"One in three women will experience some form of physical violence by an intimate partner in their lifetime.\",\n    \"One in four men will experience some form of physical violence by an intimate partner in their lifetime.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"One in three women will experience some form of physical violence by an intimate partner in their lifetime.\",\n    \"One in four men will experience some form of physical violence by an intimate partner in their lifetime.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cc1d9c14077a1a9ec0d06e90f7b38a2e9a95f24d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250523-landmark-california-bill-turn-empty-office-towers-housing-clears-assembly.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The vacancy rates for office buildings in cities like Los Angeles and San Francisco are the highest they’ve been in three decades.\",\n    \"AB 507 aims to cut red tape and facilitate office-to-housing conversions.\",\n    \"The demand for urban housing is significantly high.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The vacancy rates for office buildings in cities like Los Angeles and San Francisco are the highest they’ve been in three decades.\",\n    \"AB 507 aims to cut red tape and facilitate office-to-housing conversions.\",\n    \"The demand for urban housing is significantly high.\",\n    \"AB 507 aims to streamline the approval process for office-to-housing conversions.\",\n    \"Supporters of AB 507 claim it will unlock thousands of new homes.\",\n    \"The shift in work patterns due to the pandemic has led to quieter downtown streets.\",\n    \"Commercial real estate across California is experiencing a decline.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bb53943fd551f72b272d20f158cc951141bb0364"
+}

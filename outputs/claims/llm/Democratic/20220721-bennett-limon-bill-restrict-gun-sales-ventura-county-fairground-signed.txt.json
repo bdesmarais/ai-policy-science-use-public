@@ -1,0 +1,94 @@
+{
+  "press_release": "20220721-bennett-limon-bill-restrict-gun-sales-ventura-county-fairground-signed.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) – Assemblymember Steve Bennett (D-Ventura) and Senator Monique Limon announced today that Legislation to restrict gun sales at the Ventura County Fairground has been",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Gun shows are a source for illegally trafficked firearms.\"\n    },\n    {\n      \"claim_text\": \"Gun shows have been criticized as being the critical moment in the chain of custody for many guns.\"\n    },\n    {\n      \"claim_text\": \"Gun violence is among ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Gun shows are a source for illegally trafficked firearms.\"\n    },\n    {\n      \"claim_text\": \"Gun shows have been criticized as being the critical moment in the chain of custody for many guns.\"\n    },\n    {\n      \"claim_text\": \"Gun violence is among the greatest public health crises facing children and youth.\"\n    },\n    {\n      \"claim_text\": \"Nearly 7,000 children younger than 18 are killed or wounded by gunshots each year.\"\n    },\n    {\n      \"claim_text\": \"Firearm-related deaths are now the leading cause of death for children ages 1 to 19.\"\n    },\n    {\n      \"claim_text\": \"The United States experiences far more gun violence per person than virtually every other modern industrialized country.\"\n    },\n    {\n      \"claim_text\": \"The United States has one of the most pervasive gun cultures in the world supported by a powerful gun lobby.\"\n    },\n    {\n      \"claim_text\": \"The legislation will make the Ventura Fairgrounds and surrounding communities safer from gun violence.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Gun shows are a source for illegally trafficked firearms.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Gun shows have been criticized as being the critical moment in the chain of custody for many guns.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Gun violence is among the greatest public health crises facing children and youth.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Nearly 7,000 children younger than 18 are killed or wounded by gunshots each year.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Firearm-related deaths are now the leading cause of death for children ages 1 to 19.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The United States experiences far more gun violence per person than virtually every other modern industrialized country.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The United States has one of the most pervasive gun cultures in the world supported by a powerful gun lobby.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The legislation will make the Ventura Fairgrounds and surrounding communities safer from gun violence.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 8,
+  "doc_sha1": "e61bb9b7f7cff33836328aa8afe617d2ea6712cd"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "exposed-wealthy-members-carb-look-down-their-ivory-tower-they-jack-gas-prices-65-cents.txt",
+  "party": "Republican",
+  "title": "Like Democrat Governor Gavin Newsom, the overwhelming majority of his hand-picked members of the California Air Resources Board (CARB) are wealthy and can easily handle paying more",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"10 of the 14 California Air Resources Board (CARB) members are considerably wealthier than the average Californian.\",\n    \"CARB’s Executive Officer, Steve Cliff, is a millionaire.\",\n    \"The California Air Resources Board has recently enacted a gas price hike of 65 cents",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"10 of the 14 California Air Resources Board (CARB) members are considerably wealthier than the average Californian.\",\n    \"CARB’s Executive Officer, Steve Cliff, is a millionaire.\",\n    \"The California Air Resources Board has recently enacted a gas price hike of 65 cents per gallon.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cbc93a043e5ac4852c61d6dcc4f3c7ebd01bc90d"
+}

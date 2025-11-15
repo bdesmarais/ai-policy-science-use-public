@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-tri-ta-announces-state-budget-funding-to-the-fountain-valley-community-foundation-for-universally-accessible-playground.txt",
+  "party": "Republican",
+  "title": "Assemblyman Tri Ta Announces State Budget Funding to the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblyman Tri Ta secured $1M in state budget funding for a new playground and park area that will be inclusive for children of all ages and abilities.\",\n    \"The Universally Accessible Playground will provide opportunities for fun and learning for individuals of all ab",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblyman Tri Ta secured $1M in state budget funding for a new playground and park area that will be inclusive for children of all ages and abilities.\",\n    \"The Universally Accessible Playground will provide opportunities for fun and learning for individuals of all abilities.\",\n    \"The playground is designed to promote social interaction and unite the community.\",\n    \"The Universally Accessible Playground will provide a welcoming and inclusive recreational environment for children with cognitive or physical impairments.\",\n    \"The park will feature sensory-rich amenities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b89a523bc232bbd79b16b598f7ab6e2cdeb11a40"
+}

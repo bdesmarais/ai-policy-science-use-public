@@ -1,0 +1,64 @@
+{
+  "press_release": "el-senador-cortese-defiende-el-desarrollo-economico-traves-del-ley-de-expansion-del-centro-de.txt",
+  "party": "Democratic",
+  "title": "El Senador Dave Cortese presentó hoy una legislación para sostener el crecimiento del sector tecnológico de Silicon Valley facilitando la expansión de los centros de datos en todo ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"El Proyecto de Ley del Senado (SB) 1298 permite que el desarrollo de infraestructura siga el ritmo de los avances en la computación en la nube y la inteligencia artificial.\"\n    },\n    {\n      \"claim_text\": \"La tasa actual de desocupación de los cen",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"El Proyecto de Ley del Senado (SB) 1298 permite que el desarrollo de infraestructura siga el ritmo de los avances en la computación en la nube y la inteligencia artificial.\"\n    },\n    {\n      \"claim_text\": \"La tasa actual de desocupación de los centros de datos en Silicon Valley es apenas del 1,6%, lo que subraya la necesidad de ampliar la capacidad para satisfacer la creciente demanda.\"\n    },\n    {\n      \"claim_text\": \"Los centros de datos son fundamentales para respaldar una amplia gama de servicios digitales y tecnologías nuevas y emergentes como la inteligencia artificial.\"\n    },\n    {\n      \"claim_text\": \"La SB 1298 impulsará la innovación y mejorará las vidas de todos los californianos involucrados en esta tecnología.\"\n    },\n    {\n      \"claim_text\": \"La SB 1298 propone elevar el umbral de elegibilidad de los centros de datos bajo el proceso de Exención para Pequeñas Plantas de Energía de 100 megavatios a 200 megavatios.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "El Proyecto de Ley del Senado (SB) 1298 permite que el desarrollo de infraestructura siga el ritmo de los avances en la computación en la nube y la inteligencia artificial.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "La tasa actual de desocupación de los centros de datos en Silicon Valley es apenas del 1,6%, lo que subraya la necesidad de ampliar la capacidad para satisfacer la creciente demanda.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Los centros de datos son fundamentales para respaldar una amplia gama de servicios digitales y tecnologías nuevas y emergentes como la inteligencia artificial.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "La SB 1298 impulsará la innovación y mejorará las vidas de todos los californianos involucrados en esta tecnología.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "La SB 1298 propone elevar el umbral de elegibilidad de los centros de datos bajo el proceso de Exención para Pequeñas Plantas de Energía de 100 megavatios a 200 megavatios.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "e1f6cde647b192e7aa670aea9ba93ac50aa7b1e2"
+}

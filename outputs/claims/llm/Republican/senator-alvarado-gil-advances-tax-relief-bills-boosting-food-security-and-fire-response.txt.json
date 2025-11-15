@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-alvarado-gil-advances-tax-relief-bills-boosting-food-security-and-fire-response.txt",
+  "party": "Republican",
+  "title": "Today, two tax relief bills authored by Senator Marie Alvarado-Gil ( R-Jackson ) passed out of the Senate Revenue and Taxation Committee with unanimous bipartisan support. Senate B",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8c9fd03698b8681bf2c7ca4470da112d02546df0"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "community-swearing-sen-laura-richardson-celebrates-determination-diversity.txt",
+  "party": "Democratic",
+  "title": "The community swearing-in of State Sen. Laura Richardson showcased the economic prowess and cultural diversity of the 35th District during a June 7 celebration at The Enclave in To",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:11:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "97986318c5215ea6d90fcfc5a0c5b58d13991320"
+}

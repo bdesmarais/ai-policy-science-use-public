@@ -1,0 +1,13 @@
+{
+  "press_release": "20230215-addis-introduces-bill-strengthen-california-military-communities.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Dawn Addis (D-Morro Bay) today introduced the Stronger Defense Communities Act, a bipartisan bill to create a way for California to partner with the fed",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:54:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "587815004620f1682719d9920102410b10c16efa"
+}

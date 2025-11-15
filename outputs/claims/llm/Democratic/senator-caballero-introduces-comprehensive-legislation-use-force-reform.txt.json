@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-caballero-introduces-comprehensive-legislation-use-force-reform.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Today, Senator Anna M. Caballero introduced SB 230, which includes changes to California’s use of force statutes, law enforcement agency policies, and training officers ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 230 will establish first-in-the-nation requirements for law enforcement agencies to adopt use-of-force policies.\",\n    \"California will lead the nation in use of force policy requirements by ensuring robust officer training.\",\n    \"SB 230 will provide comprehensive an",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 230 will establish first-in-the-nation requirements for law enforcement agencies to adopt use-of-force policies.\",\n    \"California will lead the nation in use of force policy requirements by ensuring robust officer training.\",\n    \"SB 230 will provide comprehensive and clear guidelines on utilizing de-escalation tactics for law enforcement agencies.\",\n    \"Police officers should always use serious force as a last resort.\",\n    \"Incidents involving serious use of force erode trust between communities and law enforcement officers.\",\n    \"SB 230 aims to bridge the divide in communities where there is a lack of trust between police officers and those they serve.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d044a1738886e645527bfe79677d63a7057d09dd"
+}

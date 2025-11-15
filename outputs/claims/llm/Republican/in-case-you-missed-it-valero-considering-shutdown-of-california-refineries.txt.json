@@ -1,0 +1,13 @@
+{
+  "press_release": "in-case-you-missed-it-valero-considering-shutdown-of-california-refineries.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Valero's two refineries account for a combined 13.5% of California's refining capacity.\",\n    \"Closure of Valero's and Phillips 66's refineries would reduce California's fuel-production capacity by more than one-fifth.\",\n    \"High taxes and expensive mandates in Californ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Valero's two refineries account for a combined 13.5% of California's refining capacity.\",\n    \"Closure of Valero's and Phillips 66's refineries would reduce California's fuel-production capacity by more than one-fifth.\",\n    \"High taxes and expensive mandates in California contribute to the state having the highest gas prices in the country.\",\n    \"California gas prices could increase by an additional 65 cents per gallon due to a new policy being approved by Newsom's administration.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "632c391273ec457efc830b4f8eee98460e466add"
+}

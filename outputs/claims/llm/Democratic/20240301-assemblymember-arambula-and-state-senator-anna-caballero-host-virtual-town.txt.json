@@ -1,0 +1,13 @@
+{
+  "press_release": "20240301-assemblymember-arambula-and-state-senator-anna-caballero-host-virtual-town.txt",
+  "party": "Democratic",
+  "title": "FRESNO – Assemblymember Dr. Joaquin Arambula (D-Fresno) and State Senator Anna Caballero (D-Merced) – in partnership with Proteus, Inc.—will host a virtual town hall on Monday, Mar",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Prima Wawona became the largest grower of peaches, plums, and nectarines in the nation after merging with another company.\",\n    \"The company issued more than 5,400 notices of impending layoffs in compliance with federal and state laws.\",\n    \"Some experts believe the nu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Prima Wawona became the largest grower of peaches, plums, and nectarines in the nation after merging with another company.\",\n    \"The company issued more than 5,400 notices of impending layoffs in compliance with federal and state laws.\",\n    \"Some experts believe the number of jobs affected by the Prima Wawona closure could reach 10,000.\",\n    \"The State’s Employment Development Department awarded $7 million to La Cooperativa Campesina de California to support laid-off agricultural workers.\",\n    \"La Cooperativa Campesina is partnering with Proteus, Inc. to assist the Prima Wawona workers.\",\n    \"Services provided to workers include assistance with unemployment applications, career pathway counseling, job training, and addressing employment barriers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a2042f51adf8f9fb305f4939b91d12c911e2d807"
+}

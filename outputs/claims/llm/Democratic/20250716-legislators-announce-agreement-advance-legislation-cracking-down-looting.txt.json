@@ -1,0 +1,13 @@
+{
+  "press_release": "20250716-legislators-announce-agreement-advance-legislation-cracking-down-looting.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Theft from homes in Altadena increased by nearly 450% compared to the prior year following the Southern California fires.\",\n    \"Widespread looting has occurred in communities impacted by wildfires in Southern California.\",\n    \"Individuals impersonating first responders",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Theft from homes in Altadena increased by nearly 450% compared to the prior year following the Southern California fires.\",\n    \"Widespread looting has occurred in communities impacted by wildfires in Southern California.\",\n    \"Individuals impersonating first responders create confusion that may deter residents from following public safety guidance during emergencies.\",\n    \"Looting and impersonation-related crimes significantly endanger public safety and undermine evacuation efforts.\",\n    \"Impersonation of first responders victimizes individuals who have lost their homes and stability after natural disasters.\",\n    \"The new legislation aims to provide law enforcement with better tools to crack down on looting and impersonation during emergencies.\",\n    \"The proposed laws will increase penalties for criminals who loot or impersonate first responders.\",\n    \"Ensuring the public can trust first responders is crucial for maintaining safety during states of emergency.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "53dad4994a00107359114af9db07f2ef5cc87c50"
+}

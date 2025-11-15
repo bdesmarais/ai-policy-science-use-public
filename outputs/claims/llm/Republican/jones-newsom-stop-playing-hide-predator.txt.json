@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-newsom-stop-playing-hide-predator.txt",
+  "party": "Republican",
+  "title": "State Senator Brian W. Jones (R-Santee) today called on Governor Gavin Newsom to order the Department of State Hospitals (DSH) to stop trying to release sexually violent predators ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"State Senator Brian W. Jones has called for the Department of State Hospitals to stop attempting to release sexually violent predators in residential neighborhoods throughout California.\",\n    \"Community protests ensued following the exposure of the Department of State H",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"State Senator Brian W. Jones has called for the Department of State Hospitals to stop attempting to release sexually violent predators in residential neighborhoods throughout California.\",\n    \"Community protests ensued following the exposure of the Department of State Hospitals' plan to place dangerous sexually violent predators in residential areas.\",\n    \"San Diego County Superior Court Judge Albert Harutunian disallowed the placement of one sexually violent predator but approval for another is still pending.\",\n    \"Historically, previous governors have intervened to stop state agencies from releasing or paroling dangerous sexually violent predators in residential neighborhoods.\",\n    \"The state is responsible for protecting children and vulnerable people in residential neighborhoods from being put at risk by the release of sexually violent predators.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b1b8cd9cd8be190fe3324b8089675e170e0f8e76"
+}

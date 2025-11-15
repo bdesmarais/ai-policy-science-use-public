@@ -1,0 +1,13 @@
+{
+  "press_release": "20211011-california-becomes-first-state-nation-phase-out-gas-powered-leaf-blowers.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has signed legislation to phase out the sale of new gas-powered small off-road engines.\",\n    \"Projections indicate that smog-forming pollution from small off-road engines will surpass that from passenger cars this year.\",\n    \"The state has allocated $30 mill",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has signed legislation to phase out the sale of new gas-powered small off-road engines.\",\n    \"Projections indicate that smog-forming pollution from small off-road engines will surpass that from passenger cars this year.\",\n    \"The state has allocated $30 million for a program to assist landscaping businesses in transitioning to zero-emission equipment.\",\n    \"Small gas engines contribute to environmental pollution and pose health risks, including asthma, for their operators.\",\n    \"The California Air Resources Board is required to set emissions requirements for small off-road engines to zero by 2024.\",\n    \"Small off-road engines emit high levels of oxides of nitrogen, reactive organic gases, and particulate matter, which adversely affect human health.\",\n    \"Gas-powered devices can potentially double the cancer risk for their operators due to volatile organic compounds.\",\n    \"California faces significant air pollution challenges, with small off-road engines being a growing source of health burden.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "de6cccd90548581716e4c3f051eb7ace0acfebb8"
+}

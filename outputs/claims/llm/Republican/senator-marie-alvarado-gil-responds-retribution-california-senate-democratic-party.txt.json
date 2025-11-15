@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-marie-alvarado-gil-responds-retribution-california-senate-democratic-party.txt",
+  "party": "Republican",
+  "title": "In a stunning display of political retribution, Democrats in the California State Senate have responded to Senator Alvarado-Gil’s (R-Jackson) decision to leave the Democratic Party",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Democrats in the California State Senate stripped Senator Alvarado-Gil of all her committee assignments and removed her from the Latino Caucus in response to her decision to leave the Democratic Party.\",\n    \"Killing SB 268 would indicate that the Democrats do not ca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Democrats in the California State Senate stripped Senator Alvarado-Gil of all her committee assignments and removed her from the Latino Caucus in response to her decision to leave the Democratic Party.\",\n    \"Killing SB 268 would indicate that the Democrats do not care about protecting victims of sexual violence.\",\n    \"If the Democrats axe SB 796, they would be turning a blind eye to the safety of children and communities, potentially allowing mass shooters to go unpunished.\",\n    \"Failure to push forward SB 1088 would abandon rural Californians in their time of need regarding water systems and wildfire prevention.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "61856866581fa22074440637314e579446a9f22b"
+}

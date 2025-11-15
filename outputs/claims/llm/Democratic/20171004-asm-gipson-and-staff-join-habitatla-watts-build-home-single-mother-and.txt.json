@@ -1,0 +1,13 @@
+{
+  "press_release": "20171004-asm-gipson-and-staff-join-habitatla-watts-build-home-single-mother-and.txt",
+  "party": "Democratic",
+  "title": "CARSON, Calif ---Assemblymember Mike A. Gipson (D-Carson) and staff will join HabitatLA, L.A. Councilmember Joe Buscaino, Delta Air Lines and volunteers to build a home for Ms. Den",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The homes built and repaired in the community will help eliminate poverty.\",\n    \"The initiative aims to provide much needed affordable housing.\",\n    \"Assemblymember Gipson co-authored SB35 to streamline the approval process for affordable housing.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The homes built and repaired in the community will help eliminate poverty.\",\n    \"The initiative aims to provide much needed affordable housing.\",\n    \"Assemblymember Gipson co-authored SB35 to streamline the approval process for affordable housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d300265d12afd96a84c76f051668c0f3e3b29ee0"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "broken-process-results-in-unaffordable-and-unsustainable-budget.txt",
+  "party": "Republican",
+  "title": "With little public input, the Legislature passed a $310 billion spending plan that carries a $32 billion deficit. Assemblyman Vince Fong (R-Central Valley), Vice Chair of the Assem",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:44:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d95a798cc28dfee941a0bc059ece8022ff4d12a2"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240111-assemblymember-mike-fong-statement-governor-newsoms-2024-2025-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Expanding access to higher education is a priority.\",\n    \"There is a proposal to eliminate the Student Housing Revolving Loan Fund in the 2024-25 budget.\",\n    \"No allocation is made to implement the 2022 Cal Grant Reform Act in the proposed budget.\",\n    \"It is importa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Expanding access to higher education is a priority.\",\n    \"There is a proposal to eliminate the Student Housing Revolving Loan Fund in the 2024-25 budget.\",\n    \"No allocation is made to implement the 2022 Cal Grant Reform Act in the proposed budget.\",\n    \"It is important to find new ways to increase accessibility to higher education, especially for vulnerable communities.\",\n    \"Collaboration with diverse stakeholders is required to develop a Master Plan for Career Education.\",\n    \"Career education is essential for preparing students to enter the workforce.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d87328ae0dc9d102d3a624382501c9b411d42f2a"
+}

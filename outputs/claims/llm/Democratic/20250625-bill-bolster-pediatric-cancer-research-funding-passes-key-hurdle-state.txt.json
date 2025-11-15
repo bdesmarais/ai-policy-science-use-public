@@ -1,0 +1,13 @@
+{
+  "press_release": "20250625-bill-bolster-pediatric-cancer-research-funding-passes-key-hurdle-state.txt",
+  "party": "Democratic",
+  "title": "Childhood cancer is the leading cause of death by disease among children nationwide. Roughly 15,000 children are diagnosed with cancer every year, and there remains a severe gap in",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Childhood cancer is the leading cause of death by disease among children nationwide.\",\n    \"Roughly 15,000 children are diagnosed with cancer every year.\",\n    \"There remains a severe gap in funding for pediatric cancer research.\",\n    \"The federal government is reducing",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Childhood cancer is the leading cause of death by disease among children nationwide.\",\n    \"Roughly 15,000 children are diagnosed with cancer every year.\",\n    \"There remains a severe gap in funding for pediatric cancer research.\",\n    \"The federal government is reducing funding for scientific research.\",\n    \"AB 703 will empower Californians to contribute to the development of effective treatments for childhood cancers.\",\n    \"AB 703 allows taxpayers to donate a portion of their state tax return in support of pediatric cancer research.\",\n    \"There are no cures or proven treatments for Diffuse Intrinsic Pontine Glioma (DIPG).\",\n    \"The survival rate for DIPG remains close to zero.\",\n    \"Approximately one in five children diagnosed with cancer will not survive.\",\n    \"Most survivors of childhood cancer develop chronic conditions or experience severe or life-threatening conditions due to treatment.\",\n    \"There is little financial incentive for private companies to invest in pediatric research compared to adult cancers.\",\n    \"Only 4% of federal funding is dedicated to studying childhood cancers.\",\n    \"National Institutes of Health’s cancer funding was cut by 30% through March under Trump's administration.\",\n    \"AB 703 will create an essential funding stream in California dedicated to research into childhood cancers.\",\n    \"The proposed cuts to research funding at the National Institutes of Health and the National Cancer Institute are unprecedented.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5b8410dc1fed99b6cfcefb9b8f560bedaf306e61"
+}

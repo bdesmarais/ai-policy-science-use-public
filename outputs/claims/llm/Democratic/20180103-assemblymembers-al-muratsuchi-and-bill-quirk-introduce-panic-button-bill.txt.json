@@ -1,0 +1,13 @@
+{
+  "press_release": "20180103-assemblymembers-al-muratsuchi-and-bill-quirk-introduce-panic-button-bill.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:59:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The panic button is intended to protect hotel employees from sexual harassment and sexual assault.\",\n    \"Employees can activate the panic button if they reasonably believe an ongoing crime or harassment is occurring.\",\n    \"Hotels are required to record accusations of v",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The panic button is intended to protect hotel employees from sexual harassment and sexual assault.\",\n    \"Employees can activate the panic button if they reasonably believe an ongoing crime or harassment is occurring.\",\n    \"Hotels are required to record accusations of violence or sexual harassment against employees for five years.\",\n    \"Guests accused of violence or sexual harassment will be denied service for three years upon a statement made under penalty of perjury.\",\n    \"Hotel employers must inform employees assigned to work alone in the room of an accused guest prior to the start of their shift.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "89d725c043f647aa363d50ada10070554f95dce5"
+}

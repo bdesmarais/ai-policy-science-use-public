@@ -1,0 +1,13 @@
+{
+  "press_release": "20210602-two-year-anniversary-miles-halls-death-assemblymember-bauer-kahans-justice.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 988 will implement in California the nationwide 9-8-8 Suicide Prevention and Mental Health Crisis Hotline.\",\n    \"The new system will provide an alternative to 911 and help deploy mental health professionals in mental health crises.\",\n    \"AB 988 aims to transform men",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 988 will implement in California the nationwide 9-8-8 Suicide Prevention and Mental Health Crisis Hotline.\",\n    \"The new system will provide an alternative to 911 and help deploy mental health professionals in mental health crises.\",\n    \"AB 988 aims to transform mental health emergency response and address systemic inequalities.\",\n    \"AB 988 intends to create a system where trained mental health professionals respond to mental health crisis calls instead of armed law enforcement officers.\",\n    \"In cases of serious public safety threats, mobile crisis teams and law enforcement would work together to deescalate situations.\",\n    \"The legislation aims to decriminalize mental illness and decrease fatal police shootings.\",\n    \"California is positioned to lead in ensuring mental health emergencies receive a mental health response.\",\n    \"AB 731 mandates accountability and transparency for existing recidivism programs within county jails.\",\n    \"AB 731 requires county sheriffs to report defined metrics on their programs’ success to the Legislature.\",\n    \"The State Auditor’s report indicates that California has invested heavily in county recidivism programs without information on program outcomes.\",\n    \"AB 624 mandates a review of the transfer process from juvenile to adult court systems.\",\n    \"The existing transfer process disproportionately affects black and brown youth compared to their white counterparts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "838d13cf6f6ea3e6e1d10bf1b22de96276dfb1e3"
+}

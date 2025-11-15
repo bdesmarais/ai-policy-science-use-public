@@ -1,0 +1,13 @@
+{
+  "press_release": "20250214-assemblywoman-soria-introduces-ab-707-fund-hwy-152-improvements-needed.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's water system needs increased water storage capacity to meet the needs of residents and the agricultural economy.\",\n    \"To increase water storage capacity, the surface of the B.F. Sisk Dam and the San Luis Reservoir must be raised.\",\n    \"State Route 152, wh",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's water system needs increased water storage capacity to meet the needs of residents and the agricultural economy.\",\n    \"To increase water storage capacity, the surface of the B.F. Sisk Dam and the San Luis Reservoir must be raised.\",\n    \"State Route 152, which crosses over the reservoir, must also be raised and improved to accommodate reservoir expansion.\",\n    \"The San Luis Reservoir has served as the hub of California's water storage system since its completion in 1967.\",\n    \"Investing in water supply storage projects is vital to support the people and businesses of California in the context of extreme weather caused by climate change.\",\n    \"The Sisk Dam Raise and San Luis Reservoir Expansion Project will improve water supply reliability to 2 million people in Santa Clara County.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "87151307ba8a513fc77b719145de031ddb15dd07"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20180510-gipson-responds-latest-state-budget-proposal.txt",
+  "party": "Democratic",
+  "title": "Sacramento, Calif --- Assemblymember and Democratic Caucus Chair Mike A. Gipson released the following statement in response to Governor Jerry Brown’s May revise of the California ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6ffadd94b3854ba55d4ab63beb3a0469f4a48bd5"
+}

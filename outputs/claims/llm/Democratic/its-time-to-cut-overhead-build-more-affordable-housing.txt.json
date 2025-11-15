@@ -1,0 +1,13 @@
+{
+  "press_release": "its-time-to-cut-overhead-build-more-affordable-housing.txt",
+  "party": "Democratic",
+  "title": "Becker Bill Steering Money Away From Bureaucratic Requirements & Into Building Homes Signed Into Law Today",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Becker Bill (SB 948) aims to let affordable housing developers allocate more funds directly to building homes instead of maintaining a reserve account.\",\n    \"SB 948 is expected to unlock as much as $40 million in affordable housing funds.\",\n    \"According to a 2020 ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Becker Bill (SB 948) aims to let affordable housing developers allocate more funds directly to building homes instead of maintaining a reserve account.\",\n    \"SB 948 is expected to unlock as much as $40 million in affordable housing funds.\",\n    \"According to a 2020 report by the California Department of Housing and Community Development, transition reserve funds are used less than 0.01% of the time.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f5affb0087ed50b291aa16204fcb9e0b9f8b750a"
+}

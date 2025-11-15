@@ -1,0 +1,13 @@
+{
+  "press_release": "20240815-joint-statement-related-ab-2918-bill-addressing-antisemitism-k-12-schools.txt",
+  "party": "Democratic",
+  "title": "AB 2918, a bill aimed at improving equity in K-12 curriculum, is being held to allow additional time for authentic engagement and open discussion leading to policy that is inclusiv",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill AB 2918 aims to improve equity in the K-12 curriculum.\",\n    \"The authors of the bill believe that students must see themselves accurately reflected in the curriculum.\",\n    \"The bill responds to incidents where antisemitic and anti-Israel content appeared in et",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill AB 2918 aims to improve equity in the K-12 curriculum.\",\n    \"The authors of the bill believe that students must see themselves accurately reflected in the curriculum.\",\n    \"The bill responds to incidents where antisemitic and anti-Israel content appeared in ethnic studies courses and teacher training.\",\n    \"Ethnic studies curriculum plays an essential role in honoring the diversity and complex history of California.\",\n    \"Inclusive education promotes academic success for students from all backgrounds.\",\n    \"With ethnic studies, students can learn about the contributions of African American, Latinx, Asian American and Pacific Islander, and Native American ancestors.\",\n    \"The Jewish community has long supported ethnic studies but seeks to ensure it does not include content that harms Jewish students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e8d09c21b421cf683c0423dc4662a26f490fb576"
+}

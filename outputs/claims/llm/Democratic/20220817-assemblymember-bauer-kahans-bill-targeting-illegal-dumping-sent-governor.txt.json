@@ -1,0 +1,13 @@
+{
+  "press_release": "20220817-assemblymember-bauer-kahans-bill-targeting-illegal-dumping-sent-governor.txt",
+  "party": "Democratic",
+  "title": "Today, Assembly Bill 2374 by Assemblymember Bauer-Kahan (D-Orinda) passed the Senate and was sent to Governor Gavin Newsom for his consideration.  AB 2374 strengthens fines against",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2374 strengthens fines against those caught illegally dumping garbage and waste.\",\n    \"The bill provides judges with flexibility to add penalties against violators of illegal dumping laws.\",\n    \"AB 2374 creates accessible public information for consumers regarding c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2374 strengthens fines against those caught illegally dumping garbage and waste.\",\n    \"The bill provides judges with flexibility to add penalties against violators of illegal dumping laws.\",\n    \"AB 2374 creates accessible public information for consumers regarding companies acting illegally.\",\n    \"Illegal dumping jeopardizes the health of communities and the environment.\",\n    \"AB 2374 raises fines for illegal dumping of commercial quantities of refuse by a person employing more than 10 full-time employees.\",\n    \"Fines for illegal dumping are increased to up to $5,000 upon first conviction, up to $10,000 on a second conviction, and up to $20,000 on third or subsequent convictions.\",\n    \"Judges may require convicted individuals and companies to pay for the removal of their illegal dumping.\",\n    \"The licensing board will be able to record and post convictions of illegal dumping on the public profile of offenders.\",\n    \"Illegal dumping contributes to a loss of community pride and decreases property values.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "490b03860c2e720d4bd6cfe86d545320e361ae60"
+}

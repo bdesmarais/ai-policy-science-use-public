@@ -1,0 +1,13 @@
+{
+  "press_release": "20210211-release-legislation-introduced-increase-access-senior-services.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — Assemblywoman Petrie-Norris has introduced Assembly Bill 540 which will help thousands of California’s growing population of seniors remain in their homes and in our c",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:23:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"PACE is designed to provide care for California’s frail population as an alternative to institutionalized care.\",\n    \"PACE programs coordinate and deliver preventative and long-term care services to the elderly who would otherwise be in nursing homes.\",\n    \"PACE is the",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"PACE is designed to provide care for California’s frail population as an alternative to institutionalized care.\",\n    \"PACE programs coordinate and deliver preventative and long-term care services to the elderly who would otherwise be in nursing homes.\",\n    \"PACE is the only provider-based model of care where a single entity is entirely responsible for the delivery, outcomes and cost of care.\",\n    \"Program recipients receive all of their services through a one-stop-shop PACE center, which is shown to improve mental and physical health.\",\n    \"Many beneficiaries are unaware of PACE eligibility and how it may benefit them.\",\n    \"PACE provides a safer, better, and less expensive alternative to nursing home care.\",\n    \"AB 540 will help patients and their families make the best choice for their care needs.\",\n    \"By requiring PACE programs be offered as a Medi-Cal or Medicare benefit, this bill will give more vulnerable individuals access to this highly effective service.\",\n    \"By keeping people out of institutions and in their communities, PACE helps Californians age with dignity.\",\n    \"Many seniors enrolled in PACE are diagnosed with dementia and the majority of dementia cases are caused by Alzheimer’s Disease.\",\n    \"PACE helps people live with dignity by enabling them to keep their relationships intact through long-term home and community-based care.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "455100f6f306038ce9b411f1319ac0d556052db3"
+}

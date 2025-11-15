@@ -1,0 +1,13 @@
+{
+  "press_release": "20220719-governor-newsom-signs-irwin-legislation-requiring-suicide-screening.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:44:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill requires general acute care hospitals to adopt universal suicide screening policies for patients twelve years of age or older by January 1, 2025.\",\n    \"Data from 2019-2020 indicates that youth aged 10-18 and individuals who identify as Asian/Pacific Islander ex",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill requires general acute care hospitals to adopt universal suicide screening policies for patients twelve years of age or older by January 1, 2025.\",\n    \"Data from 2019-2020 indicates that youth aged 10-18 and individuals who identify as Asian/Pacific Islander experienced an increase in suicide rates in California.\",\n    \"Health care settings present critical opportunities for suicide prevention and intervention.\",\n    \"Researchers have found that 38% of people made a medical visit within a week before attempting suicide, with this percentage increasing to 64% within a month.\",\n    \"AB 1394 will work to save lives by utilizing existing infrastructure to increase screening, providing intervention for individuals who may otherwise not seek care for their suicidal ideation or behavior.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7d0c230f71502c4fc070a1e21ca40704203e95b3"
+}

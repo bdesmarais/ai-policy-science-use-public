@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-grove-applauds-legislation-helping-central-valley-farmers.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Senate Republican Leader Shannon Grove ( R-Bakersfield ) praised the California State Senate for passing Senate Bill 559 which would provide $400 million for critical ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:06:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0883701aee2dde94659defd3e54e8a3809221352"
+}

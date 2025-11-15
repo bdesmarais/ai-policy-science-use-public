@@ -1,0 +1,13 @@
+{
+  "press_release": "20190306-ramos-state-audit-request-homeless-youth-data-clears-key-committee.txt",
+  "party": "Democratic",
+  "title": "Image",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:05:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"There will be a state audit focused on homeless youth in California.\",\n    \"The audit will examine data and practices related to homeless youth.\",\n    \"The audit will analyze a selection of Local Educational Agencies (LEA) that report zero homeless students.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"There will be a state audit focused on homeless youth in California.\",\n    \"The audit will examine data and practices related to homeless youth.\",\n    \"The audit will analyze a selection of Local Educational Agencies (LEA) that report zero homeless students.\",\n    \"The audit aims to provide local schools with critical tools to reduce the risk of homeless youth becoming homeless adults.\",\n    \"This will be the first audit on the subject of homeless youth conducted by the California State Auditor.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a97c7d2e4dfe9a16e131004d3d18272e624b3dc5"
+}

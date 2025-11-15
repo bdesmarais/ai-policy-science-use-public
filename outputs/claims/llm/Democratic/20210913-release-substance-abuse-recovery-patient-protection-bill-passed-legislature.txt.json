@@ -1,0 +1,13 @@
+{
+  "press_release": "20210913-release-substance-abuse-recovery-patient-protection-bill-passed-legislature.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – After one scheme out of Orange County ran up $60 million in fake charges before investigators at the California Department of Insurance stopped it, both houses of the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:33:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"AB 1158 requires minimum insurance coverages for substance use treatment centers and recovery residences.\",\n    \"The coverage will require treatment facilities to meet higher standards that protect patients from abuse or injury.\",\n    \"The Covid-19 pandemic has led ",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"AB 1158 requires minimum insurance coverages for substance use treatment centers and recovery residences.\",\n    \"The coverage will require treatment facilities to meet higher standards that protect patients from abuse or injury.\",\n    \"The Covid-19 pandemic has led to an unprecedented increase in substance use among Americans.\",\n    \"The US Centers for Disease Control and Prevention reported a nearly 30% rise in drug overdose deaths from 2019 to 2020.\",\n    \"As of June 2020, 13% of Americans reported starting or increasing substance use to cope with stress or emotions related to COVID-19.\",\n    \"Legislation AB 1158 aims to provide an extra layer of protection for patients and workers in the substance abuse recovery space.\",\n    \"Minimum insurance standards for treatment facilities will allow for quicker action against fraud and abuse.\",\n    \"Current laws allow unscrupulous sober living operators to operate with little to no requirements for health and safety.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "66799e6cd4006d2e0a9635376e5019b4008ca553"
+}

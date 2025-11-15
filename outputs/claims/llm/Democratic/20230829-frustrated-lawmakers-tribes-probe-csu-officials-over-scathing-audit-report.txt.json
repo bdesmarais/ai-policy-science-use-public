@@ -1,0 +1,13 @@
+{
+  "press_release": "20230829-frustrated-lawmakers-tribes-probe-csu-officials-over-scathing-audit-report.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO--",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:06:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n    \"claims\": [\n        \"The California State University system has failed to comply with the Native American Graves Protection and Repatriation Act (NAGPRA) since its enactment in 1990.\",\n        \"Only six percent of California State University’s nearly 700,000 Native American human remai",
+  "raw_text": "```json\n{\n    \"claims\": [\n        \"The California State University system has failed to comply with the Native American Graves Protection and Repatriation Act (NAGPRA) since its enactment in 1990.\",\n        \"Only six percent of California State University’s nearly 700,000 Native American human remains and artifacts have been repatriated to appropriate tribal descendants.\",\n        \"Twelve of the 21 California State University campuses with collections have not completed the reviews required by NAGPRA.\",\n        \"Six California State University campuses have violated California's NAGPRA counterpart, CalNAGPRA, by handling collections without consulting tribes.\",\n        \"California State University campuses lack the policies, funding, and staff to support repatriation efforts.\",\n        \"California has fallen behind in recognizing the importance of returning Native American remains and artifacts.\"\n    ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0fa752231093ab3931f669b1e13dba024cd06565"
+}

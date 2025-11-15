@@ -1,0 +1,13 @@
+{
+  "press_release": "newsoms-energy-experts-gas-storage-mandate-could-cause-shortages-increase-prices.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:00:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Newsom's bill will reduce gas prices and protect against supply shocks.\",\n    \"Newsom's own energy commission said the proposal could create shortages.\",\n    \"Newsom's own energy commission said the proposal could increase average prices.\",\n    \"High taxes and expensive ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Newsom's bill will reduce gas prices and protect against supply shocks.\",\n    \"Newsom's own energy commission said the proposal could create shortages.\",\n    \"Newsom's own energy commission said the proposal could increase average prices.\",\n    \"High taxes and expensive mandates are real culprits contributing to high gas prices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b84ab8db44258c54d08d89622c60bd9f362cb059"
+}

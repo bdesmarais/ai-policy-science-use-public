@@ -1,0 +1,13 @@
+{
+  "press_release": "california-senate-passes-resolution-denouncing-federal-immigration-raids-affirming-protection.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The California Senate today passed Senate Joint Resolution 9 (SJR 9), strongly denouncing the federal government's militarized immigration raids that have terrorized C",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The federal government's militarized immigration raids have terrorized California families and workers since early June.\",\n    \"Immigration raids targeted families, workers, and even arrested U.S. citizens.\",\n    \"The strategy of immigration enforcement is a clear-cut ex",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The federal government's militarized immigration raids have terrorized California families and workers since early June.\",\n    \"Immigration raids targeted families, workers, and even arrested U.S. citizens.\",\n    \"The strategy of immigration enforcement is a clear-cut example of racial profiling, as agents disproportionately target individuals who appear foreign born.\",\n    \"Communities across California have responded to immigration raids with remarkable solidarity.\",\n    \"Grassroots organizations in Los Angeles launched the LA Street Vendor Solidarity Fund to support families with food, supplies, and rent during the immigration raids.\",\n    \"A Cal State LA student is leading a collective that organized over 500 volunteers to distribute groceries to those affected by the immigration raids.\",\n    \"Mass immigration raids and actions by masked federal agents dressed in war regalia tear families apart, terrorize neighborhoods, and erode trust between communities and government institutions.\",\n    \"The resolution condemns the mass immigration raids and rejects the criminalization of peaceful protests.\",\n    \"California affirms its commitment to safeguarding the rights of all residents regardless of immigration status.\",\n    \"The resolution supports the expansion of legal services and emergency response resources for families affected by immigration enforcement.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0f11e665d19a773de6535ba53f3a90f3c7cedf06"
+}

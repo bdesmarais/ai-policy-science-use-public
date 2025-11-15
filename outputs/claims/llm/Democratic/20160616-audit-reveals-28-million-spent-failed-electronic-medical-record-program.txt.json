@@ -1,0 +1,13 @@
+{
+  "press_release": "20160616-audit-reveals-28-million-spent-failed-electronic-medical-record-program.txt",
+  "party": "Democratic",
+  "title": "(Sacramento,  CA) – An audit conducted at the request of Assemblymember Jacqui Irwin  (D-Thousand Oaks) was released today and concluded that the $28 million  Enterprise-Wide Veter",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:52:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The $28 million Enterprise-Wide Veterans Home Information System (EwVHIS) failed to meet any of its core objectives.\",\n    \"The audit reveals the EwVHIS system had significant instability and lack of functionality.\",\n    \"The EwVHIS system hindered staff effectiveness an",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The $28 million Enterprise-Wide Veterans Home Information System (EwVHIS) failed to meet any of its core objectives.\",\n    \"The audit reveals the EwVHIS system had significant instability and lack of functionality.\",\n    \"The EwVHIS system hindered staff effectiveness and overall patient care.\",\n    \"The implementation of the EwVHIS was terminated as it became a danger to patients.\",\n    \"The failure of the EwVHIS was compounded by poor management and oversight from CalVet and the Department of Technology.\",\n    \"CalVet initiated the EwVHIS project to improve the efficiency of patient care and reduce reliance on paper medical records.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d73194c81fc1f480d09f22209e4b31258ad8c6c8"
+}

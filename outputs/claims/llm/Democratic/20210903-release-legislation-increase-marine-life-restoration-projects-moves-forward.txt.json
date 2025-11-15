@@ -1,0 +1,13 @@
+{
+  "press_release": "20210903-release-legislation-increase-marine-life-restoration-projects-moves-forward.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Legislation to expand opportunities for marine life restoration projects passed off the Senate floor on a 39-0 vote and now heads back to the Assembly for a final vote",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Legislation to expand opportunities for marine life restoration projects has passed off the Senate floor with a 39-0 vote.\",\n    \"AB 63 will update the Marine Managed Areas Improvement Act (MMAIA) to increase opportunities for vital marine life restoration projects.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Legislation to expand opportunities for marine life restoration projects has passed off the Senate floor with a 39-0 vote.\",\n    \"AB 63 will update the Marine Managed Areas Improvement Act (MMAIA) to increase opportunities for vital marine life restoration projects.\",\n    \"Marine life restoration plays an essential role in mitigating the effects of climate change through the maintenance and enhancement of marine fisheries and habitats.\",\n    \"Kelp restoration ensures that oceans retain critical benefits such as carbon retention and providing food and habitats for over 800 species.\",\n    \"90% of bull kelp has been lost due to rising sea temperatures in Northern California.\",\n    \"Restoration is a critical tool to respond to changes in marine environments caused by climate change.\",\n    \"Current California code does not permit restoration in classified marine conservation areas, creating a barrier to coastal restoration initiatives.\",\n    \"AB 63 will permit restoration as an activity in marine conservation areas and reduce obstacles for NGOs, universities, and local conservation groups.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "86cb3a8de160f9d0db935152cad728193a7939d9"
+}

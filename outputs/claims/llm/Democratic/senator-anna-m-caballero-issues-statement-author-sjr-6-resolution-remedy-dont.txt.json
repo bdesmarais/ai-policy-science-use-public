@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-issues-statement-author-sjr-6-resolution-remedy-dont.txt",
+  "party": "Democratic",
+  "title": "Thursday June 27, 2024",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:23:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Under the Don’t Ask, Don’t Tell policy, military members who identified as LGBTQ could receive a 'dishonorable' or 'other than honorable' discharge.\",\n    \"More than 14,000 service members were discharged under the Don’t Ask, Don’t Tell policy between 1994 and 2011.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Under the Don’t Ask, Don’t Tell policy, military members who identified as LGBTQ could receive a 'dishonorable' or 'other than honorable' discharge.\",\n    \"More than 14,000 service members were discharged under the Don’t Ask, Don’t Tell policy between 1994 and 2011.\",\n    \"During the 1980s, more than 17,000 military members were dismissed from their duties due to their sexual orientation.\",\n    \"President Obama repealed the Don’t Ask, Don’t Tell policy in 2010, allowing members to serve openly without fear of discharge.\",\n    \"The process to upgrade the status of discharged veterans is on a case-by-case basis and requires an advocate to gather and submit documentation for review.\",\n    \"Reengaging with the Department of Defense may worsen trauma and amplify feelings of shame, anxiety, and anger among veterans wrongfully discharged.\",\n    \"SJR 6 urges the President and Congress to establish a straightforward process and provide legal aid to rectify wrongful discharges.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e504bff78c4fb7f9f577988672d0e58b7bc18584"
+}

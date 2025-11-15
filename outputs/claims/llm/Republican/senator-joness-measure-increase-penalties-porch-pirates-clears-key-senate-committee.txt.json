@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-joness-measure-increase-penalties-porch-pirates-clears-key-senate-committee.txt",
+  "party": "Republican",
+  "title": "Senate Bill 358, a measure by Senator Brian W. Jones (R-Santee) to increase penalties for package theft, was unanimously approved by the Senate Public Safety Committee.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Home delivery of packages has dramatically increased across the nation since the COVID-19 crisis began.\",\n    \"Seniors and disabled Californians rely on package delivery for fundamental items such as medication and food.\",\n    \"30% of package thefts nationwide occur in C",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Home delivery of packages has dramatically increased across the nation since the COVID-19 crisis began.\",\n    \"Seniors and disabled Californians rely on package delivery for fundamental items such as medication and food.\",\n    \"30% of package thefts nationwide occur in California.\",\n    \"Greater punishments and deterrents against package theft, referred to as 'porch piracy', are needed.\",\n    \"Theft of packages delivered by private carriers is currently only considered petty theft and is charged as a misdemeanor with a maximum available jail sentence of 6 months.\",\n    \"Theft of packages delivered by the U.S. Postal Service can currently be punished by up to one year in jail.\",\n    \"Senate Bill 358 will allow judges to treat theft of packages delivered by private carriers like mail delivered by the U.S. Postal Service.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a8d17d4292dc18066d0b5d1b3c23dcdc5edcd434"
+}

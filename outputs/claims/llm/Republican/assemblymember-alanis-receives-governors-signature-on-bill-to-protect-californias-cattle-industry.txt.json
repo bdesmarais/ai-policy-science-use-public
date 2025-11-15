@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-alanis-receives-governors-signature-on-bill-to-protect-californias-cattle-industry.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assemblymember Alanis announced that his bill, AB 2436, which supports farmers and ranchers, was signed into law by the Governor last week. This industry-supported mea",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2436 aims to protect livestock against theft and misuse.\",\n    \"The Bureau of Livestock’s identification fees will be adjusted to support ongoing livestock inspection services.\",\n    \"California's Department of Food and Agriculture’s Bureau of Livestock conducts inspe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2436 aims to protect livestock against theft and misuse.\",\n    \"The Bureau of Livestock’s identification fees will be adjusted to support ongoing livestock inspection services.\",\n    \"California's Department of Food and Agriculture’s Bureau of Livestock conducts inspections to protect cattle owners from theft and loss.\",\n    \"Inspections by the Bureau of Livestock aid in investigations and prosecutions of cattle theft cases.\",\n    \"AB 2436 allows the Bureau to adjust fees in a fair way to avoid adding extra financial burden on livestock producers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "76faf0fd8237bfdef177b7cc37f7dbedba01b26e"
+}

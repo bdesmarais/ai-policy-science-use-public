@@ -1,0 +1,13 @@
+{
+  "press_release": "newly-elected-assemblywoman-macedo-introduces-legislation-to-increase-government-transparency-in-an-effort-to-prevent-future-gas-price-hikes-by-newsom-administration.txt",
+  "party": "Republican",
+  "title": "Immediately after being sworn in to represent the 33",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 41 will increase transparency in government and help prevent gas price hikes.\",\n    \"California drivers may pay nearly $3.00 more per gallon than drivers in other states due to the Low Carbon Fuel Standard regulations.\",\n    \"Currently, California drivers p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 41 will increase transparency in government and help prevent gas price hikes.\",\n    \"California drivers may pay nearly $3.00 more per gallon than drivers in other states due to the Low Carbon Fuel Standard regulations.\",\n    \"Currently, California drivers pay about $1.40 more per gallon than drivers in other states.\",\n    \"With the Newsom Administration’s recent vote, drivers will likely pay an additional 65 cents for each gallon of gas.\",\n    \"The California Air Resources Board declined to conduct a cost analysis of their mandate.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3db456e60ac62e8087ae7383dc891aa53e980c75"
+}

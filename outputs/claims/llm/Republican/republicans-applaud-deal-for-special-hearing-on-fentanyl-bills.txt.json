@@ -1,0 +1,13 @@
+{
+  "press_release": "republicans-applaud-deal-for-special-hearing-on-fentanyl-bills.txt",
+  "party": "Republican",
+  "title": "Stalled fentanyl bills to advance after pressure from advocates, law enforcement & Republican legislators.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9f3494ffcac11369d422298c8c87944b80d19f77"
+}

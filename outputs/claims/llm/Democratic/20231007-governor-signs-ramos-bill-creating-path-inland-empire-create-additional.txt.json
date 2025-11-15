@@ -1,0 +1,13 @@
+{
+  "press_release": "20231007-governor-signs-ramos-bill-creating-path-inland-empire-create-additional.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Unused facilities at Patton State Hospital can be leased to a nonprofit corporation or local government to provide mental health and homeless services following the gove",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:10:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Unused facilities at Patton State Hospital can be leased to a nonprofit corporation or local government to provide mental health and homeless services.\",\n    \"The City of San Bernardino has seen a 175% increase in homelessness over the past five years.\",\n    \"AB 349 prov",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Unused facilities at Patton State Hospital can be leased to a nonprofit corporation or local government to provide mental health and homeless services.\",\n    \"The City of San Bernardino has seen a 175% increase in homelessness over the past five years.\",\n    \"AB 349 provides a solution to assist homeless individuals in need of mental health treatment.\",\n    \"Reducing homelessness has been a long-standing priority for Assemblymember James C. Ramos.\",\n    \"A model for the Patton transformation is the Norwalk HFL Cedar Homes for Life Foundation in Los Angeles County.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5d1e0b6c1acecba86e0ebce062304f382b2448a0"
+}

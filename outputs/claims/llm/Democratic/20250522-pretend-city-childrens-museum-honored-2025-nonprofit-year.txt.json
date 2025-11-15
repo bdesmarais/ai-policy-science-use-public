@@ -1,0 +1,13 @@
+{
+  "press_release": "20250522-pretend-city-childrens-museum-honored-2025-nonprofit-year.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:36:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Pretend City Children's Museum promotes cognitive, social, and emotional development in young children through immersive, play-based learning experiences.\",\n    \"The museum's innovative learning spaces and programs have reached thousands of families across Southern Calif",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Pretend City Children's Museum promotes cognitive, social, and emotional development in young children through immersive, play-based learning experiences.\",\n    \"The museum's innovative learning spaces and programs have reached thousands of families across Southern California.\",\n    \"Pretend City is planning to build a new 72,000-square-foot facility designed to be an environmentally responsible hub for early childhood development.\",\n    \"The new facility will be three times the size of its current location.\",\n    \"The expanded facility aims to serve several hundred thousand visitors annually.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "214b865239dffc24ab61513730f4ae2892f77680"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-bill-would-create-free-college-students-west-valley-mission-community-college.txt",
+  "party": "Democratic",
+  "title": "Students belonging to the West Valley-Mission Community College District would receive free tuition, books, transportation, technology, and other education-related fees under a bil",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6fe4e61d255680a8890506cd0699894212f9fdb4"
+}

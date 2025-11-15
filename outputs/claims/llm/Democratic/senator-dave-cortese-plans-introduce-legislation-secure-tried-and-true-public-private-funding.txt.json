@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-cortese-plans-introduce-legislation-secure-tried-and-true-public-private-funding.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – On the first day of the 2025 California Legislative session, California State Senator Dave Cortese, chair of the California Senate Transportation Committee, said he wi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is building the nation’s first 220-mph electrified high-speed rail system powered by 100% renewable energy.\",\n    \"The High Speed Rail project aims to avoid 142 million metric tons of carbon dioxide emissions during system operation.\",\n    \"The use of clean co",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is building the nation’s first 220-mph electrified high-speed rail system powered by 100% renewable energy.\",\n    \"The High Speed Rail project aims to avoid 142 million metric tons of carbon dioxide emissions during system operation.\",\n    \"The use of clean construction vehicles has already avoided 570,840 pounds of criteria air pollutants.\",\n    \"The High Speed Rail project has sequestered and avoided 27,707 metric tons of carbon through habitat and conservation.\",\n    \"The High Speed Rail project involves a $6.6 billion investment in disadvantaged communities.\",\n    \"The High Speed Rail system will be 800 miles long, with up to 24 stations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "368e99be6a46ffd86e4e89f76dc77efc53d450fd"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240927-ramos-measure-strengthening-native-american-children-and-family-rights.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—A bill safeguarding",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 81 is aimed at fortifying the federal Indian Child Welfare Act (ICWA) established in 1978.\",\n    \"Large numbers of Indian children were being removed from tribal families and placed in non-Indian families prior to the establishment of ICWA.\",\n    \"AB 81 helps to ensur",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 81 is aimed at fortifying the federal Indian Child Welfare Act (ICWA) established in 1978.\",\n    \"Large numbers of Indian children were being removed from tribal families and placed in non-Indian families prior to the establishment of ICWA.\",\n    \"AB 81 helps to ensure that every effort is made to keep California Native American children in their communities.\",\n    \"The U.S. Supreme Court upheld the decades-old ICWA law and the rights of Native families and communities.\",\n    \"AB 81 adds another layer of protection against issues that led to the creation of ICWA.\",\n    \"A Department of Interior report found that almost 1,000 Native students died at U.S. boarding schools and suffered physical and psychological abuse.\",\n    \"AB 81 requires clear notice of proceedings to parents, direct lineal ancestors, and custodians of the child in child welfare cases.\",\n    \"AB 81 enshrines the state’s duty to consult with local tribes regarding the placement of Native children in custody cases.\",\n    \"AB 81 mandates that county welfare agencies make active efforts to provide rehabilitation programs designed to prevent the breakup of Indian families.\",\n    \"AB 81 requires county welfare agencies to make active efforts to reunite an Indian child with their family.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "61e11972c61b946ae76377b1a820ed254c25ca87"
+}

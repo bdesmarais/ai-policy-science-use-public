@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-announces-legislation-will-present-diverse-choices-and-create-informed.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh >( R-Yucaipa ) will hold a press conference on Wednesday, April 24 to discuss her legislation, Senate Bill 1368 prior to presenting the measure in the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "77bebcb7d6183a555e2887ab0401a55311e4806f"
+}

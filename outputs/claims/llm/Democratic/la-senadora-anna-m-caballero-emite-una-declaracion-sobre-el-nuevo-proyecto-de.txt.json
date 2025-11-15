@@ -1,0 +1,13 @@
+{
+  "press_release": "la-senadora-anna-m-caballero-emite-una-declaracion-sobre-el-nuevo-proyecto-de.txt",
+  "party": "Democratic",
+  "title": "La Senadora Anna M. Caballero Emite Una Declaración Sobre El Nuevo Proyecto De Ley En Respuesta A La Prohibición Extrema Del Aborto En Arizona",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"El acceso a servicios de aborto seguros y legales es un derecho humano y una parte integral de la atención integral de la salud sexual y reproductiva.\",\n    \"La prohibición del aborto en Arizona restringe el acceso de las mujeres a la atención sanitaria reproductiva.\",\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"El acceso a servicios de aborto seguros y legales es un derecho humano y una parte integral de la atención integral de la salud sexual y reproductiva.\",\n    \"La prohibición del aborto en Arizona restringe el acceso de las mujeres a la atención sanitaria reproductiva.\",\n    \"La prohibición del aborto en Arizona amenaza la salud, autonomía y bienestar general de las mujeres.\",\n    \"Las comunidades marginadas soportarán las peores consecuencias de la prohibición del aborto en Arizona.\",\n    \"La prohibición del aborto en Arizona exacerbará las disparidades existentes en el acceso a la atención médica.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "19bede215ff0fe46d6f8517b536ddb05816f01ba"
+}

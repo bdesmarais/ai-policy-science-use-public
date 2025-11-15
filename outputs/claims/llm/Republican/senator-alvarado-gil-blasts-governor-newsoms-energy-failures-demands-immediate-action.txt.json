@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-alvarado-gil-blasts-governor-newsoms-energy-failures-demands-immediate-action.txt",
+  "party": "Republican",
+  "title": "Senator Marie Alvarado-Gil ( R-Jackson ) is demanding that Governor Gavin Newsom immediately take responsibility and act to stop the devastating refinery closures that are crushing",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's energy agenda is punishing middle-class families in California.\",\n    \"Higher fuel prices are a consequence of refinery closures in California.\",\n    \"Refinery closures are causing strain on the supply chain in California.\",\n    \"The loss of refining ca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom's energy agenda is punishing middle-class families in California.\",\n    \"Higher fuel prices are a consequence of refinery closures in California.\",\n    \"Refinery closures are causing strain on the supply chain in California.\",\n    \"The loss of refining capacity in California is leading to the loss of thousands of good-paying jobs.\",\n    \"There is a need to maintain current refining capacity during the transition to cleaner energy.\",\n    \"Regulatory processes should be streamlined to reduce uncertainty in the energy sector.\",\n    \"Supporting job protection and workforce development is important, especially in vulnerable communities.\",\n    \"Innovation should be rewarded rather than penalizing existing energy producers.\",\n    \"State and regulatory actions may be accelerating refinery closures.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ff36682061dcf3b9a5b3da925e711e89fc8c0ddb"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-approves-key-bill-to-reduce-greenhouse-gas-emissions.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA —Today the Senate approved and sent to the Assembly SB 1018, authored by Senator Josh Becker (D-Menlo Park), a bill that will foster a green hydrogen industry in Cal",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:20:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1018 aims to foster a green hydrogen industry in California.\",\n    \"The bill is intended to reduce greenhouse gas emissions in the industrial sector.\",\n    \"SB 1018 allows hydrogen producers or industrial customers to be supplied with clean electricity directly from l",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1018 aims to foster a green hydrogen industry in California.\",\n    \"The bill is intended to reduce greenhouse gas emissions in the industrial sector.\",\n    \"SB 1018 allows hydrogen producers or industrial customers to be supplied with clean electricity directly from large solar or wind farms.\",\n    \"The current regulations limit 'behind-the-meter' generation to a single property or an adjacent property.\",\n    \"SB 1018 creates an exception allowing large solar or wind generators to sell their output directly to a single customer for hydrogen production or industrial heat.\",\n    \"Hydrogen is presented as an important and versatile tool for achieving climate goals.\",\n    \"SB 1018 aligns California's power sector policies with state and federal policies to support low-carbon hydrogen development.\",\n    \"The bill incentivizes industry to move away from burning fossil fuels.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "10a8f1d5f6e140f6284d48720f94901fe950262e"
+}

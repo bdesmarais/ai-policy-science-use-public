@@ -1,150 +1,471 @@
 party,venue,count
-Republican,arXiv,43
-Democratic,arXiv,23
-Republican,"Trauma, Violence, & Abuse",7
-Republican,arXiv preprint,6
-Democratic,PNAS,4
-Republican,Child Abuse & Neglect,4
-Democratic,The International Journal of Press/Politics,3
-Democratic,Journal of Computer-Mediated Communication,3
-Democratic,Psychiatric Services,3
-Republican,Science,3
-Republican,Global Policy,3
+Republican,arXiv,41
+Democratic,arXiv,24
+Democratic,California Department of Justice,17
+Republican,Governor of California,16
+Democratic,California State Legislature,11
+Republican,California State Senate,11
+Republican,California Energy Commission,10
+Democratic,SAE International Journal of Commercial Vehicles,7
+Democratic,BMC Public Health,7
+Democratic,Governor of California,7
+Republican,California Governor's Office,7
+Republican,Centers for Disease Control and Prevention,7
+Democratic,California State Senate,6
+Democratic,JAMA,6
+Republican,California Department of Justice,6
+Republican,California Employment Development Department,6
+Republican,CalMatters,6
+Democratic,Journal of Adolescent Health,5
+Republican,California State Assembly,5
+Republican,Public Policy Institute of California,5
+Democratic,California State Assembly,4
+Democratic,California Air Resources Board,4
+Democratic,City of Fremont Official Website,4
+Democratic,Psychiatric Services,4
+Republican,Judicial Branch of California,4
+Republican,California Air Resources Board,4
+Republican,California Department of Housing and Community Development,4
+Republican,National Human Trafficking Hotline,4
+Republican,California State Legislature,4
+Democratic,New England Journal of Medicine,3
+Democratic,Journal of American College Health,3
+Democratic,California Department of Industrial Relations,3
+Democratic,California Voter Foundation,3
+Democratic,Environmental Health Perspectives,3
+Democratic,Technical Report,3
 Republican,JAMA Network Open,3
-Republican,Journal of Adolescent Health,3
-Republican,Journal of Law and Society,3
-Republican,Pediatrics,3
-Republican,Laws,3
-Republican,European Journal of Criminology,3
-Republican,Crime Science,3
-Republican,Synthese,3
-Democratic,Stanford Internet Observatory (report),2
-Democratic,"Trauma, Violence, & Abuse",2
-Democratic,Social Media + Society,2
-Democratic,European Journal of Communication,2
-Democratic,American Political Science Review,2
-Democratic,European Political Science,2
-Democratic,Nature Communications,2
-Democratic,Philosophy & Technology,2
-Democratic,New Media & Society,2
-Democratic,Child Abuse & Neglect,2
-Democratic,Environmental Management,2
-Democratic,Nature,2
-Democratic,Journal of Environmental Management,2
-Republican,Nature Machine Intelligence,2
-Republican,Ethics and Information Technology,2
-Republican,Journal of Psychoactive Drugs,2
-Republican,BMJ,2
-Republican,Sexual Abuse,2
-Republican,Journal of Adolescence,2
-Republican,Journal of Interpersonal Violence,2
-Republican,Trends & Issues in Crime and Criminal Justice (Australian Institute of Criminology),2
+Republican,U.S. Department of Justice,3
+Republican,Association of California Water Agencies,3
+Republican,Associated Press,3
+Republican,California Globe,3
+Republican,International Labour Organization,3
+Republican,Anti-Trafficking Review,3
+Republican,American Petroleum Institute,3
+Republican,"Trauma, Violence, & Abuse",3
+Republican,California Assembly Democratic Caucus,3
+Democratic,Office of the Governor of California,2
+Democratic,California State Board of Pharmacy,2
+Democratic,NOAA Technical Report,2
+Democratic,National Climate Assessment,2
+Democratic,JAMA Network Open,2
+Democratic,International Journal of Environmental Research and Public Health,2
+Democratic,National Center for Sustainable Transportation,2
+Democratic,BMJ Open,2
+Democratic,California E-Bike Incentive Project,2
+Democratic,Office of Justice Programs,2
+Democratic,Cal OES News,2
+Democratic,Loma Linda University Health,2
+Democratic,Los Angeles County Economic Development Corporation,2
+Democratic,Frontiers in Marine Science,2
+Democratic,California Energy Commission,2
+Democratic,Human Resources for Health,2
+Democratic,CNBC,2
+Democratic,Official Website - Assemblymember Matt Haney,2
+Democratic,American Journal of Public Health,2
+Democratic,Science of the Total Environment,2
+Democratic,Endocrinology,2
+Democratic,Environmental Working Group,2
+Democratic,Environmental Health,2
+Democratic,USDA Press Release,2
+Democratic,California High-Speed Rail Authority,2
+Democratic,Child and Adolescent Social Work Journal,2
+Republican,Research Archive of Rising Scholars,2
+Republican,Journal of Family and Economic Issues,2
+Republican,Education Sciences,2
+Republican,California Policy Center,2
+Republican,JAMA,2
+Republican,New England Journal of Medicine,2
+Republican,Drug and Alcohol Dependence,2
+Republican,California Department of Public Health,2
+Republican,American Public Power Association,2
+Republican,Davis Vanguard,2
+Republican,Brookings,2
+Republican,U.S. Energy Information Administration,2
+Republican,Los Angeles County Economic Development Corporation,2
+Republican,Tax Foundation,2
+Republican,Education Week,2
+Republican,KQED,2
+Republican,"Superior Court of California, County of Santa Clara",2
+Republican,Community Legal Aid SoCal,2
+Republican,Governing,2
+Republican,California Assembly Bill,2
+Republican,California Legislative Analyst's Office,2
+Republican,MDPI Sustainability,2
+Republican,Independent Institute,2
+Republican,Center on Juvenile and Criminal Justice,2
+Republican,California State Auditor,2
+Republican,Senator Brian W. Jones,2
+Republican,California Civil Rights Department,2
+Republican,State of California - Department of Justice - Office of the Attorney General,2
+Republican,United States Department of Justice,2
+Republican,ScienceDaily,2
 Republican,FAccT,2
 Republican,IEEE Transactions on Dependable and Secure Computing,2
+Republican,Crime Science,2
+Republican,Synthese,2
+Republican,Medical Board of California,2
+Republican,California Film Commission,2
+Republican,Entertainment Partners,2
+Republican,CapRadio,2
+Republican,CBS San Francisco,2
+Republican,Orange County Health Care Agency,2
+Democratic,Transportation Research Record,1
+Democratic,Official Website - Assemblymember Ash Kalra Representing the 25th California Assembly District,1
+Democratic,Consumer Reports,1
+Democratic,Center for Responsible Lending,1
+Democratic,Science Advances,1
+Democratic,Ecological Applications,1
+Democratic,Associated Press,1
+Democratic,Journal of the American Medical Directors Association,1
+Democratic,OPRE Report,1
+Democratic,Endeavors: Mississippi State Undergraduate Research Journal,1
+Democratic,Education Finance and Policy,1
+Democratic,Center for American Progress,1
+Democratic,California Native American Heritage Commission,1
+Democratic,Journal of Epidemiology & Community Health,1
+Democratic,Alzheimer's & Dementia,1
+Democratic,Diabetes Care,1
+Democratic,Equal Rights Advocates,1
+Democratic,California Budget & Policy Center,1
+Democratic,D-Lab at UC Berkeley,1
+Democratic,Advocate Magazine,1
+Democratic,California Department of Consumer Affairs,1
+Democratic,Medical Board of California,1
+Democratic,"Board of Professional Engineers, Land Surveyors, and Geologists",1
+Democratic,Nature,1
+Democratic,Biological Conservation,1
+Democratic,PNAS,1
+Democratic,NASA Technical Reports,1
+Democratic,Journal of Community Health,1
+Democratic,Journal of Urban Health,1
+Democratic,California Community Colleges Student Mental Health Program,1
+Democratic,International Journal of Sustainable Transportation,1
+Democratic,UK Research and Innovation,1
+Democratic,Cycling Electric,1
+Democratic,MDPI Electronics,1
+Democratic,Federal Highway Administration,1
+Democratic,Transportation,1
+Democratic,CalBike,1
+Democratic,KCRA,1
+Democratic,CleanTechnica,1
+Democratic,Waterside Workshops,1
+Democratic,International Criminal Justice Review,1
+Democratic,"Trauma, Violence, & Abuse",1
+Democratic,Journal of Criminal Justice,1
+Democratic,American Behavioral Scientist,1
+Democratic,Journal of Nursing Management,1
+Democratic,Nixon Peabody LLP,1
+Democratic,Legal Information Institute,1
+Democratic,Farm Employers Labor Service,1
+Democratic,University of California Agriculture and Natural Resources,1
+Democratic,California Legislature,1
+Democratic,PLoS ONE,1
 Democratic,Pediatrics,1
-Democratic,Trends & Issues in Crime and Criminal Justice,1
-Democratic,Crime Science,1
-Democratic,The British Journal of Criminology,1
-Democratic,Sexuality & Culture,1
-Democratic,Machine Vision and Applications,1
-Democratic,Scientific Reports,1
-Democratic,Electronics,1
-Democratic,"Forensische Psychiatrie, Psychologie, Kriminologie",1
-Democratic,Journal of Politics,1
-Democratic,Digital Society,1
-Democratic,iScience,1
-Democratic,California Law Review,1
-Democratic,Communications Biology,1
-Democratic,Philosophers’ Imprint,1
-Democratic,Journal of Cybersecurity,1
-Democratic,Journal of Imaging,1
-Democratic,JAMA Netw Open,1
-Democratic,Frontiers in Psychology,1
-Democratic,Journal of Adolescence,1
-Democratic,ACM Computing Surveys,1
-Democratic,ICCV Workshops,1
-Democratic,European Child & Adolescent Psychiatry,1
-Democratic,PLOS ONE,1
-Democratic,CVPR,1
-Democratic,ACM TOG (SIGGRAPH),1
-Democratic,ICCV,1
-Democratic,The Journal of Politics,1
-Democratic,NeurIPS,1
-Democratic,Annals of Internal Medicine,1
-Democratic,Journal of Police Science,1
-Democratic,American Politics Journal,1
-Democratic,Policing: An International Journal,1
-Democratic,Transportation Research Part D: Transport and Environment,1
-Democratic,The Journal of Consumer Affairs,1
-Democratic,Journal of Neighborhood Sustainability,1
-Democratic,Energy Policy,1
-Democratic,Climatic Change,1
-Democratic,Forest Ecology and Management,1
-Democratic,Wiley Interdisciplinary Reviews: Climate Change,1
-Democratic,Earth's Future,1
-Democratic,Environmental Science & Policy,1
-Democratic,JAMA,1
-Democratic,BMJ Open,1
+Democratic,ABC7 San Francisco,1
+Democratic,KCRA 3 News,1
+Democratic,California Department of Education,1
+Democratic,CBS Sacramento,1
+Democratic,Journal of Psychosomatic Research,1
+Democratic,The Gerontologist,1
+Democratic,Int. J. Environ. Res. Public Health,1
+Democratic,MMWR Morb Mortal Wkly Rep,1
+Democratic,BMC Psychology,1
+Democratic,Int J Emerg Med,1
+Democratic,California Film Commission,1
+Democratic,Los Angeles Community College District,1
+Democratic,inewsource,1
+Democratic,Legislative Analyst's Office,1
+Democratic,The Washington Post,1
+Democratic,International Council on Clean Transportation,1
+Democratic,California Department of Social Services,1
+Democratic,California Department of Corrections and Rehabilitation,1
+Democratic,California Department of Housing and Community Development,1
+Democratic,CPUC,1
+Democratic,U.S. Congressman Mike Levin,1
+Democratic,S&P Global,1
+Democratic,Alliance: State Advocates for Women's Rights & Gender Equality,1
+Democratic,State of California - Department of Justice - Office of the Attorney General,1
+Democratic,California Women's Law Center,1
+Democratic,UC San Diego,1
+Democratic,California State Lands Commission,1
+Democratic,California Ocean Protection Council,1
+Democratic,Natural Resources Defense Council,1
+Democratic,Downey Brand LLP,1
+Democratic,Offshore Wind,1
+Democratic,USC Price School’s Center for Inclusive Democracy,1
+Democratic,California Senate Committee on Elections,1
+Democratic,Prevention Science,1
+Democratic,BMC Nursing,1
+Democratic,BMC Health Services Research,1
+Democratic,Health Affairs,1
+Democratic,Journal of General Internal Medicine,1
+Democratic,Health Affairs Blog,1
+Democratic,California Department of Health Care Services,1
+Democratic,California Department of Public Health,1
+Democratic,California Health Policy Strategies,1
+Democratic,Self Financial,1
+Democratic,The Greenlining Institute,1
+Democratic,Journal of Emergency Nursing,1
+Democratic,The Signal,1
+Democratic,Office of Senator Alex Padilla,1
+Democratic,The Coast News,1
+Democratic,Marin County Board of Supervisors,1
 Democratic,Mental Health Review Journal,1
 Democratic,Administration and Policy in Mental Health and Mental Health Services Research,1
 Democratic,Journal of Mental Health Policy and Economics,1
 Democratic,International Journal of Health Policy and Management,1
-Democratic,Journal of Policy Analysis and Management,1
-Democratic,Policy Studies Journal,1
-Democratic,Science,1
-Democratic,Forest Policy and Economics,1
-Democratic,Journal of Forestry,1
-Democratic,Journal of Policy Research,1
+Democratic,PLOS Biology,1
+Democratic,Journal of the Endocrine Society,1
+Democratic,Undergraduate Journal of Public Health,1
+Democratic,Environmental Toxicology and Chemistry,1
+Democratic,Science of The Total Environment,1
+Democratic,Journal of Hazardous Materials,1
+Democratic,California State Government,1
+Democratic,The Press Democrat,1
+Democratic,Cosmetics & Toiletries,1
+Democratic,Cosmeservice,1
+Democratic,Safe Cosmetics,1
+Democratic,Journal of School Health,1
+Democratic,Medical Science Educator,1
+Democratic,New York State Department of Agriculture and Markets,1
+Democratic,Commonwealth of Pennsylvania,1
+Democratic,Feeding Florida,1
+Democratic,Health & Justice,1
+Democratic,"Maternal Health, Neonatology and Perinatology",1
+Democratic,North Carolina Medical Journal,1
+Democratic,MMWR Surveillance Summaries,1
+Democratic,Senator Josh Becker's Official Website,1
+Democratic,CBS San Francisco,1
+Democratic,California Globe,1
+Democratic,Palo Alto Daily Post,1
+Democratic,KQED,1
+Democratic,California Secretary of State,1
+Democratic,Multimedia Tools and Applications,1
+Democratic,The Web Conference,1
+Democratic,Union of Concerned Scientists,1
+Democratic,California Housing Partnership,1
+Democratic,All Home,1
+Democratic,Journal of Science Education and Technology,1
+Democratic,Citizen Science: Theory and Practice,1
+Democratic,SUERF Policy Brief,1
+Democratic,Journal of the American Planning Association,1
+Democratic,Introduction to Manufactured Housing,1
+Democratic,Shelterforce,1
+Democratic,Working Paper,1
+Democratic,California Privacy Protection Agency,1
+Democratic,Privacy Rights Clearinghouse,1
+Democratic,Electronic Frontier Foundation,1
+Democratic,ACM Transactions on the Internet Technology,1
+Democratic,Journal of Consumer Policy,1
+Democratic,2018 International Conference on Cyberworlds (CW),1
+Democratic,New Media & Society,1
+Democratic,American Journal of Preventive Medicine,1
+Democratic,Violence and Victims,1
+Democratic,Metro Magazine,1
+Democratic,Journal of Economic Perspectives,1
+Democratic,Journal of Public Economics,1
+Democratic,Children and Youth Services Review,1
+Democratic,Child Maltreatment,1
+Republican,California Education Code,1
+Republican,California Assembly Bill 1796,1
+Republican,Frontiers in Education,1
+Republican,Legislative Analyst's Office,1
+Republican,California Environmental Protection Agency,1
+Republican,Cato Institute,1
+Republican,Kleinman Center for Energy Policy,1
+Republican,"Institute of Transportation Studies, UC Davis",1
+Republican,E&E News by POLITICO,1
+Republican,Research in Social Sciences,1
+Republican,Journal of Student Research,1
+Republican,NBER Working Paper Series,1
+Republican,International Journal of Research and Scientific Innovation,1
+Republican,"Advances in Economics, Management and Political Sciences",1
+Republican,PubMed,1
+Republican,Preprints.org,1
+Republican,The American Journal of Interdisciplinary Innovations and Research,1
+Republican,Designs for Learning,1
+Republican,BMJ Open,1
+Republican,Science,1
 Republican,ACM FAccT 2021,1
-Republican,ACM FAccT Conference Proceedings,1
+Republican,Nature Machine Intelligence,1
 Republican,International Joint Conference on Neural Networks (IJCNN),1
 Republican,Transactions on Machine Learning Research (TMLR); arXiv preprint,1
 Republican,"ACM Conference on Fairness, Accountability, and Transparency (FAccT)",1
 Republican,Nature,1
-Republican,"ACM FAccT (Conference on Fairness, Accountability, and Transparency)",1
-Republican,Proceedings of IJCAI 2017,1
-Republican,Advances in Neural Information Processing Systems (NeurIPS),1
-Republican,SAGE Open,1
-Republican,New England Journal of Medicine,1
-Republican,Journal of Sports Studies,1
-Republican,Journal of Medical Ethics,1
+Republican,SN Business & Economics,1
+Republican,"The Egyptian Journal of Neurology, Psychiatry and Neurosurgery",1
+Republican,The Lancet,1
+Republican,Current Pain and Headache Reports,1
+Republican,Psychiatric Services,1
+Republican,Energy Sources,1
+Republican,U.S. Geological Survey Open-File Report,1
+Republican,Journal of Volcanology and Geothermal Research,1
+Republican,Geothermal Resources Council Bulletin,1
+Republican,"Proceedings, 44th Workshop on Geothermal Reservoir Engineering",1
+Republican,Imperial Irrigation District,1
+Republican,KPBS Public Media,1
+Republican,KXO Radio,1
+Republican,CalMatters Digital Democracy,1
+Republican,"Agri-Pulse Communications, Inc.",1
+Republican,Energy-Storage.News,1
+Republican,JAMA Pediatrics,1
+Republican,Journal of Pediatric Psychology,1
+Republican,Archives of Pediatrics & Adolescent Medicine,1
+Republican,American Journal of Infection Control,1
+Republican,ADN América,1
+Republican,The Transparency Foundation,1
+Republican,Center for Jobs and the Economy,1
+Republican,Mercatus Center,1
+Republican,Niskanen Center,1
+Republican,The Breakthrough Institute,1
+Republican,California Rental Housing Association,1
+Republican,Center for Poverty and Inequality Research,1
+Republican,Pacific Research Institute,1
+Republican,PNAS,1
+Republican,iScience,1
+Republican,pv magazine USA,1
+Republican,California Council on Science & Technology,1
+Republican,California Department of Conservation,1
+Republican,PSE Healthy Energy,1
+Republican,Natural Resources Defense Council,1
+Republican,Energy Blog,1
+Republican,Global Trade Review,1
+Republican,California Environmental Quality Act,1
+Republican,Yuba College,1
+Republican,California Health Benefits Review Program,1
+Republican,Legislative Analyst’s Office,1
+Republican,Healthy California NOW,1
+Republican,Bay Area Council,1
+Republican,Southern California Glass Management Association,1
+Republican,California Chamber of Commerce,1
+Republican,Sacramento County Republican Party,1
+Republican,Journal of Infectious Diseases,1
+Republican,Vaccine,1
+Republican,Center for American Progress,1
+Republican,EdChoice,1
+Republican,Wisconsin Public Radio,1
 Republican,Sociology of Sport Journal,1
 Republican,Journal of Sport & Social Issues,1
 Republican,Journal of Behavioral Medicine,1
 Republican,International Review for the Sociology of Sport,1
-Republican,"Sport, Education and Society",1
-Republican,Journal of Psychosomatic Research,1
-Republican,International Journal of Sport Policy and Politics,1
-Republican,Sport in Society,1
-Republican,JAMA,1
-Republican,JAMA Pediatrics,1
-Republican,Child Maltreatment,1
-Republican,Frontiers in Psychology,1
-Republican,Cochrane Database of Systematic Reviews,1
-Republican,"European Journal of Investigation in Health, Psychology and Education",1
-Republican,The Web Conference (WWW),1
-Republican,Children,1
-Republican,Stanford Internet Observatory (report),1
+Republican,Hudack Law,1
+Republican,"Reuben, Junius & Rose, LLP",1
+Republican,DRE Updates,1
+Republican,"Loewenthal, Hillshafer & Carter, LLP",1
+Republican,Oaktree Properties,1
+Republican,Davis-Stirling.com,1
+Republican,California Today,1
+Republican,CitizenPortal.ai,1
+Republican,FOX 11 Los Angeles,1
+Republican,MyNewsLA.com,1
+Republican,Reform California,1
+Republican,California Family Council,1
+Republican,Senator Roger Niello,1
+Republican,Vera Institute,1
+Republican,Mountain View Voice,1
+Republican,GV Wire,1
+Republican,American Police Beat Magazine,1
+Republican,Louisiana Illuminator,1
+Republican,California Courts Newsroom,1
+Republican,San Francisco Public Press,1
+Republican,Climate Science News,1
+Republican,BIZ Magazine,1
+Republican,Union of Concerned Scientists,1
+Republican,Consumer Watchdog,1
+Republican,Center on Budget and Policy Priorities,1
+Republican,MIT News,1
+Republican,MIT Joint Program on the Science and Policy of Global Change,1
+Republican,"University of California, Davis",1
+Republican,Affordability Watch California,1
+Republican,PR Newswire,1
+Republican,Justice Evaluation Journal,1
+Republican,IZA - Institute of Labor Economics,1
+Republican,Board of State and Community Corrections,1
+Republican,Office of Justice Programs,1
+Republican,Contra Costa News,1
+Republican,Insights,1
+Republican,Rural County Representatives Of California,1
+Republican,PublicCEO,1
+Republican,American Bar Association,1
+Republican,Water Resources Management,1
+Republican,Water,1
+Republican,Frontiers in Climate,1
+Republican,International Journal of Wildland Fire,1
+Republican,Frontiers in Forests and Global Change,1
+Republican,Journal of the American Academy of Psychiatry and the Law,1
+Republican,"Psychological Trauma: Theory, Research, Practice, and Policy",1
+Republican,Wikipedia,1
+Republican,California Legislature,1
+Republican,ACLU of Southern California,1
+Republican,California Insider,1
+Republican,PLoS Med,1
+Republican,Epidemiol Psychiatr Sci,1
+Republican,J Hum Traffick Enslav Conflic Sex Viol,1
+Republican,J Immigr Minor Health,1
+Republican,Los Angeles County Sheriff's Department,1
+Republican,San Diego Human Trafficking and CSEC Advisory Council,1
+Republican,"Crime, Law and Social Change",1
+Republican,Societies,1
+Republican,Yale Law Journal,1
+Republican,Journal of International Humanitarian Action,1
+Republican,Judges' Journal,1
+Republican,Journal of Interpersonal Violence,1
+Republican,Journal of Correctional Health Care,1
+Republican,Energy Information Administration,1
+Republican,International Monetary Fund,1
+Republican,Christian Science Monitor,1
+Republican,The Heartland Institute,1
+Republican,Frontiers in Chemistry,1
+Republican,Petroleum,1
+Republican,Environmental Toxicology and Chemistry,1
+Republican,Journal of Hazardous Materials,1
+Republican,Science of the Total Environment,1
+Republican,Los Angeles Economic Development Corporation,1
+Republican,Business Wire,1
+Republican,Gender Equity Policy Institute,1
+Republican,Journal of Clinical Sleep Medicine,1
+Republican,Sleep Research Society,1
+Republican,Stanford Report,1
 Republican,The British Journal of Criminology,1
 Republican,Behavioral Sciences & the Law,1
 Republican,Sexuality & Culture,1
 Republican,Machine Vision and Applications,1
 Republican,Pediatrics Open Science,1
 Republican,Royal Society Open Science,1
+Republican,European Journal of Criminology,1
 Republican,Cybersecurity,1
 Republican,EthAIca,1
 Republican,Australian Institute of Criminology – Trends & Issues in Crime and Criminal Justice,1
+Republican,Child Abuse & Neglect,1
 Republican,ACM FAccT,1
 Republican,Journal of Cybersecurity,1
 Republican,Knowledge-Based Systems,1
 Republican,Digital Threats: Research and Practice,1
+Republican,Pediatrics,1
+Republican,Laws,1
+Republican,Journal of Law and Society,1
 Republican,"ACM Transactions on Multimedia Computing, Communications, and Applications",1
 Republican,Frontiers in Pediatrics,1
 Republican,Adolescent Research Review,1
 Republican,Proceedings of the ACM International Workshop on Security and Privacy Analytics,1
 Republican,Journal of Family and Child Health,1
-Republican,New Media & Society,1
-Republican,Digital Investigation,1
-Republican,Computers in Human Behavior,1
-Republican,Journal of Police and Criminal Psychology,1
-Republican,Convergence,1
+Republican,LegiScan,1
+Republican,American Telemedicine Association,1
+Republican,LegiPlex,1
+Republican,Directors Guild of America,1
+Republican,Santa Monica Mirror,1
+Republican,Perkins Coie,1
+Republican,The Arias Journal,1
+Republican,Journal of Analytical Toxicology,1
+Republican,The Lancet Regional Health – Americas,1
+Republican,Nature Geoscience,1
+Republican,Water Resources Research,1
+Republican,Environmental Research Letters,1
+Republican,Journal of Hydrology,1
+Republican,Journal of Water Resources Planning and Management,1
+Republican,National Taxpayers Union,1
+Republican,Institute for Energy Research,1
+Republican,The Heritage Foundation,1
+Republican,U.S. Chamber of Commerce,1
+Republican,San Joaquin Valley Sun,1

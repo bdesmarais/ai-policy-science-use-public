@@ -1,0 +1,13 @@
+{
+  "press_release": "20240408-assemblymember-alex-lee-introduces-bill-protect-children-potentially.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Alex Lee has introduced a bill to protect children from potentially harmful skincare products. AB 2491 will ban the sale of anti-aging cosmetic products to kids unde",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:39:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2491 will ban the sale of anti-aging cosmetic products to kids under the age of 13.\",\n    \"Social media platforms like TikTok and Instagram have influenced children to use anti-aging products.\",\n    \"Common ingredients in anti-aging skin products, such as retinols and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2491 will ban the sale of anti-aging cosmetic products to kids under the age of 13.\",\n    \"Social media platforms like TikTok and Instagram have influenced children to use anti-aging products.\",\n    \"Common ingredients in anti-aging skin products, such as retinols and glycolic acid, can cause skin irritations.\",\n    \"Anti-aging products designed for adults are not suitable for children and preteens.\",\n    \"Children and teens using anti-aging products may experience adverse effects like dryness, peeling, and potential dermatitis.\",\n    \"Babies and young children have a faster skin cell turnover rate than adults.\",\n    \"Children's skin is more sensitive than adults' skin due to a thinner epidermis and weaker skin barrier.\",\n    \"Dermatologists report observing adverse effects in young patients using products too harsh for their sensitive skin.\",\n    \"Using anti-aging skincare products can lead to psychological impacts related to self-esteem and mental health in children.\",\n    \"The British Association of Dermatologists has raised concerns that children using anti-aging products may develop irreversible skin problems.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "80347b8d7585dc5e3f7ccfaa954ef3b7c591f2b4"
+}

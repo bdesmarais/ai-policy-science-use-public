@@ -1,0 +1,13 @@
+{
+  "press_release": "level-set-sacramentos-new-floor-fiscal-responsibility.txt",
+  "party": "Republican",
+  "title": "Yesterday, Governor Gavin Newsom’s May revision claims to “level-set” state finances, but the only thing being leveled is the financial security of hard-working Californians. Inste",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Medi-Cal spending has increased from $17.1 billion in 2014-15 to $37.6 billion this year, and is projected to reach $44.6 billion next year.\",\n    \"The expansion of Medi-Cal coverage for undocumented immigrants is estimated to cost $86.5 million in 2025-26 and could",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Medi-Cal spending has increased from $17.1 billion in 2014-15 to $37.6 billion this year, and is projected to reach $44.6 billion next year.\",\n    \"The expansion of Medi-Cal coverage for undocumented immigrants is estimated to cost $86.5 million in 2025-26 and could rise to $3.3 billion annually by 2028-29.\",\n    \"Cuts to base funding for UC and CSU total nearly $274 million this year.\",\n    \"The cost of undocumented Medi-Cal expansion could have been used to eliminate in-state tuition entirely.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "25ef9e5a794431400f9569872647743a3a8d059e"
+}

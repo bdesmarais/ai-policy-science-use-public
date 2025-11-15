@@ -1,0 +1,13 @@
+{
+  "press_release": "20180917-schools-must-review-update-suicide-policies-under-new-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Youth suicide rates continue to rise.\",\n    \"Requiring schools to review and update their suicide prevention policies will enhance support for students' mental health needs.\",\n    \"The health and safety of students is paramount in suicide prevention efforts.\",\n    \"Schoo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Youth suicide rates continue to rise.\",\n    \"Requiring schools to review and update their suicide prevention policies will enhance support for students' mental health needs.\",\n    \"The health and safety of students is paramount in suicide prevention efforts.\",\n    \"Schools must review their suicide prevention policies at least every five years under the new law.\",\n    \"Students reported that the number one person they would turn to for help for a friend who might be suicidal is a teacher.\",\n    \"Young LGBTQ Californians face disproportionately high risks of suicide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9d84f94af6a571a8333a62221158354909dbf5de"
+}

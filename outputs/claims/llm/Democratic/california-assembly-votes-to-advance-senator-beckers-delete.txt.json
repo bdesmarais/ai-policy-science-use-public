@@ -1,0 +1,13 @@
+{
+  "press_release": "california-assembly-votes-to-advance-senator-beckers-delete.txt",
+  "party": "Democratic",
+  "title": "SB 362 Will Let Californians Take Control of Their Personal Information and Require Data Brokers to Delete Data",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The DELETE Act would create a one-stop-shop website for Californians to control access to their personal information.\",\n    \"Data brokers possess thousands of data points on consumers and can use this data related to sensitive topics.\",\n    \"Data brokers collect, analyze",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The DELETE Act would create a one-stop-shop website for Californians to control access to their personal information.\",\n    \"Data brokers possess thousands of data points on consumers and can use this data related to sensitive topics.\",\n    \"Data brokers collect, analyze, and sell personal information about consumers by aggregating data from various sources.\",\n    \"Data brokers in California are required to register with the Attorney General but do not have to report the types of information they collect and sell.\",\n    \"Under the California Consumer Privacy Act (CCPA), consumers have the right to require a data broker to delete information collected directly from them.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "032e42b38b02228d4e1406ace45c3aa0f157d0ac"
+}

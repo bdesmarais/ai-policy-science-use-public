@@ -1,0 +1,13 @@
+{
+  "press_release": "20170709-iiii-12iiii-e1iss-e3i-ie-y.txt",
+  "party": "Democratic",
+  "title": "Korea Daily",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:56:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A study will investigate the effects of various AI architectures on different datasets.\",\n    \"The research aims to determine how AI models can adapt to changing contexts over time.\",\n    \"AI algorithms can show significant improvements in performance when trained on div",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A study will investigate the effects of various AI architectures on different datasets.\",\n    \"The research aims to determine how AI models can adapt to changing contexts over time.\",\n    \"AI algorithms can show significant improvements in performance when trained on diverse data sources.\",\n    \"Emerging technologies in AI could potentially revolutionize healthcare by enabling personalized treatment plans.\",\n    \"AI systems designed for autonomous vehicles can optimize route efficiency and reduce travel time.\",\n    \"The integration of AI in financial systems can enhance fraud detection and risk management strategies.\",\n    \"AI-driven analytics tools can provide real-time insights that improve business decision-making processes.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e91a8a4719fa6f9d49b9b3a2bc7da152e450c040"
+}

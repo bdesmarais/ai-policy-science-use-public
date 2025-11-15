@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-alanis-issues-statement-on-restoration-of-protections-for-16-and-17-year-olds-to-ab-379.txt",
+  "party": "Republican",
+  "title": "Every child deserves to be shielded from the horrors of sexual exploitation. The overwhelming majority of Californians understand that 16 and 17 year olds are minors and not adults",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a5835ce9c01c842519bf43c650a48fd62a7b5fd2"
+}

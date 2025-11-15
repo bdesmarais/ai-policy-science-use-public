@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-marie-alvarado-gil-honors-1-pile-time-nonprofit-year-tuolumne-county.txt",
+  "party": "Republican",
+  "title": "Senator Marie Alvarado-Gil (D-Jackson) is pleased to announce her selection of \"1 Pile at a Time\" as the 2024 Nonprofit of the Year Honoree for Tuolumne County. This recognition hi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f3c1577e513afefe1ccf3719f796ee759abc4faa"
+}

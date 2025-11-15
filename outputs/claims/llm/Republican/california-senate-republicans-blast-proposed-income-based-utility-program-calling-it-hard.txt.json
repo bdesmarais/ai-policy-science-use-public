@@ -1,0 +1,13 @@
+{
+  "press_release": "california-senate-republicans-blast-proposed-income-based-utility-program-calling-it-hard.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones ( R-San Diego ) and members of the California Senate Republican Caucus delivered a letter to the California Public Utilities Commission",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The fixed-charge electricity price proposal program could exploit low-income residential customers.\",\n    \"The proposal could be seen as a regressive plan that fails to account for varying energy usage among households.\",\n    \"Californians pay energy rates that are up to",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The fixed-charge electricity price proposal program could exploit low-income residential customers.\",\n    \"The proposal could be seen as a regressive plan that fails to account for varying energy usage among households.\",\n    \"Californians pay energy rates that are up to 80 percent higher than the national average.\",\n    \"The proposed fixed-rate fee structure could make electricity even more expensive for California residents.\",\n    \"Under the proposed plan, low-income families could incur hundreds of dollars in additional yearly utility fees, irrespective of their electricity usage.\",\n    \"The fixed-charge proposal contradicts principles of fair pricing and consumer protection.\",\n    \"The proposal may discourage energy conservation and sustainable living.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "282b1bba1fce19d09311c89cf47645ca3a6ca347"
+}

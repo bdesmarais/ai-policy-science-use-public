@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-energy-committee-rejects-cost-living-reduction-act.txt",
+  "party": "Republican",
+  "title": "Yesterday evening, Democrat members of the Senate Energy, Utilities, and Communications Committee rejected the Cost of Living Reduction Act, Senate Bill 1326 , proposed by Senate M",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:05:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Public Utilities Commission (CPUC) has the power to increase a fixed charge on electrical bills at any time under current law.\",\n    \"Senate Bill 1326 aimed to repeal provisions of Assembly Bill 205 that mandated an income-based fixed charge for customers ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Public Utilities Commission (CPUC) has the power to increase a fixed charge on electrical bills at any time under current law.\",\n    \"Senate Bill 1326 aimed to repeal provisions of Assembly Bill 205 that mandated an income-based fixed charge for customers of Investor-Owned Utilities (IOUs).\",\n    \"Senate Bill 1326 had an urgency clause that would allow it to take effect immediately upon being signed into law.\",\n    \"The CPUC recently approved a $24.15 per month fixed charge coupled with a reduction in usage rates for electrical bills.\",\n    \"The fixed charge approved by the CPUC is deemed excessive by Leader Jones, especially considering its uncapped nature.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "49df7fee67be742c7b6e20deb1789c95d649221c"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20231219-new-year-new-laws.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is the first state to phase out the sale of gas-powered lawn equipment.\",\n    \"Gas-powered small off-road engines, such as leaf blowers and lawn mowers, emit high levels of air pollution.\",\n    \"Workers who use gas-powered small off-road engines face dispropor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is the first state to phase out the sale of gas-powered lawn equipment.\",\n    \"Gas-powered small off-road engines, such as leaf blowers and lawn mowers, emit high levels of air pollution.\",\n    \"Workers who use gas-powered small off-road engines face disproportionate health risks, including asthma, cardiovascular disease, and cancer.\",\n    \"$30 million in state funding has been secured to support small landscaping businesses transition to zero-emission equipment.\",\n    \"Assembly Bill 789 removes barriers to keeping financial aid for students in California.\",\n    \"Assembly Bill 928 requires community colleges to place transfer-seeking students on an Associate Degree for Transfer pathway, ensuring guaranteed admission to CSU and certain independent non-profit universities.\",\n    \"Students who transfer only need to complete 60 units of coursework to earn a bachelor's degree under the Associate Degree for Transfer pathway.\",\n    \"Assembly Bill 1111 mandates California Community Colleges to adopt a common course numbering system to ease the transfer process for students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "571a08d77de97fd737c0e24d7f69021563459d1e"
+}

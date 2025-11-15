@@ -1,0 +1,13 @@
+{
+  "press_release": "20250718-assemblywoman-wilson-hosts-regional-transportation-funding-townhall-fresno.txt",
+  "party": "Democratic",
+  "title": "FRESNO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is leading the transition to fuel-efficient and zero-emission vehicles.\",\n    \"The state's projected transportation funding shortfall is expected to grow by approximately $31 billion over the next decade.\",\n    \"Fewer drivers paying user-based fuel taxes will ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is leading the transition to fuel-efficient and zero-emission vehicles.\",\n    \"The state's projected transportation funding shortfall is expected to grow by approximately $31 billion over the next decade.\",\n    \"Fewer drivers paying user-based fuel taxes will impact funding for multimodal fixes and improvements for roads, bridges, and public transportation projects.\",\n    \"Stakeholder input is being used to identify a sustainable and equitable funding model that considers evolving technology.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "02d8183e120fadccfd11d6a9a1c9e5c7342b7ddc"
+}

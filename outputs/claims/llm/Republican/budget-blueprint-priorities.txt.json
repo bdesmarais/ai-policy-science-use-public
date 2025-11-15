@@ -1,0 +1,13 @@
+{
+  "press_release": "budget-blueprint-priorities.txt",
+  "party": "Republican",
+  "title": "Senator Tony Strickland ( R-Huntington Beach ) released the following statement in response to the governor’s May Revise presentation:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:44:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The state budget was $98 billion in 2012.\",\n    \"Governor Newsom’s proposed budget today is more than three times the amount from 2012.\",\n    \"California has a wasteful spending problem.\",\n    \"Governor Newsom has spent $27 billion on homelessness without statewide metri",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The state budget was $98 billion in 2012.\",\n    \"Governor Newsom’s proposed budget today is more than three times the amount from 2012.\",\n    \"California has a wasteful spending problem.\",\n    \"Governor Newsom has spent $27 billion on homelessness without statewide metrics to show for it.\",\n    \"Californians are sensitive to government waste.\",\n    \"The high-speed rail project requires more funding beyond what has been allocated.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e9c750b206a399495b02d1d2ea0a67b6fa62804f"
+}

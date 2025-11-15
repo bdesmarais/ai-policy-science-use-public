@@ -1,0 +1,13 @@
+{
+  "press_release": "20220216-assemblymember-ward-introduces-bill-solicit-environmental-knowledge-native.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Native American tribes possess intimate and detailed knowledge critical to successful land management.\",\n    \"Traditional Ecological Knowledge (TEK) is a term that describes the knowledge held by indigenous cultures about their immediate environment.\",\n    \"TEK can provi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Native American tribes possess intimate and detailed knowledge critical to successful land management.\",\n    \"Traditional Ecological Knowledge (TEK) is a term that describes the knowledge held by indigenous cultures about their immediate environment.\",\n    \"TEK can provide a fundamental tool for the restoration and conservation management of state lands.\",\n    \"Incorporating Traditional Ecological Knowledge into conservation efforts is essential for maintaining the long-term health of public lands.\",\n    \"Finding solutions in the traditional environmental knowledge of Native Nations may help restore the physical and spiritual connection of humans to the land.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "306159c7de16efe85956ce297f839348d19e6090"
+}

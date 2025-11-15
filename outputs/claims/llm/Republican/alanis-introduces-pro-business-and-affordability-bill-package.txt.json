@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-introduces-pro-business-and-affordability-bill-package.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Alanis proudly announced the introduction of three bills aimed at addressing California’s rising affordability crisis and strengthening workforce",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"AB 318 aims to modernize the licensing process for child care providers in California to reduce delays.\",\n    \"AB 318 would require the Department of Social Services to offer digital applications and accept credit card payments.\",\n    \"AB 873 aims to alleviate the s",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"AB 318 aims to modernize the licensing process for child care providers in California to reduce delays.\",\n    \"AB 318 would require the Department of Social Services to offer digital applications and accept credit card payments.\",\n    \"AB 873 aims to alleviate the statewide shortage of dental professionals by providing dental assistants with greater flexibility to complete required coursework.\",\n    \"AB 873 allows dental assistants to begin serving patients earlier while maintaining their employment.\",\n    \"AB 244 will establish an Apprenticeship Program for fast-food restaurants to recruit new employees.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "168ae8293e529a4eed267ecb865b358384e0daa0"
+}

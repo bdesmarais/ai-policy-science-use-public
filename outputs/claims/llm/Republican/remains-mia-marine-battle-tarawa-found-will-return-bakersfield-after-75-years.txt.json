@@ -1,0 +1,13 @@
+{
+  "press_release": "remains-mia-marine-battle-tarawa-found-will-return-bakersfield-after-75-years.txt",
+  "party": "Republican",
+  "title": "On November 22, 1943, Private First Class Joseph Robert Livermore of Bakersfield lost his life to an enemy bayonet at the Battle of Tarawa. Until recently, he was listed as missing",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:02:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1907a02e922d140c59679b777990cff70793278e"
+}

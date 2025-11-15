@@ -1,0 +1,13 @@
+{
+  "press_release": "california-state-senator-dave-corteses-annual-unhoused-health-fair-draws-hundreds-number.txt",
+  "party": "Democratic",
+  "title": "SILICON VALLEY - In an area where the wealth gap between the haves and the have nots could not be more pronounced, more than 50 local, community organizations came together today o",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:46:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The wealth gap in Silicon Valley is pronounced.\",\n    \"There are more than 10,000 unhoused people in Santa Clara County according to recent reports.\",\n    \"Catholic Charities of Santa Clara County co-hosted the Unhoused Health Fair for 14 years.\",\n    \"The community can ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The wealth gap in Silicon Valley is pronounced.\",\n    \"There are more than 10,000 unhoused people in Santa Clara County according to recent reports.\",\n    \"Catholic Charities of Santa Clara County co-hosted the Unhoused Health Fair for 14 years.\",\n    \"The community can change lives for good by working together.\",\n    \"The City of San Jose has six Emergency Interim Housing sites in use and several more in development.\",\n    \"The County of Santa Clara's Public Health Department will provide free rapid HIV screenings and Substance Use Treatment Harm Reduction services.\",\n    \"Free flu shots, blood pressure checks, and Body Mass Index table service were offered to the unhoused population.\",\n    \"Various organizations participated in the Unhoused Health Fair providing essential services and resources.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3e5306c9546e04ebff48c1f47880c77204d34ce8"
+}

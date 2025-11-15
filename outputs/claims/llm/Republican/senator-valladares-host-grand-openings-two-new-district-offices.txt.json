@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-valladares-host-grand-openings-two-new-district-offices.txt",
+  "party": "Republican",
+  "title": "Senator Suzette Martinez Valladares (R-Santa Clarita) will host two grand opening celebrations next week to mark the launch of two new district offices . These events will offer co",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "25f6b0afa8331d7ea0b3e3fff76e2be0a36ea92d"
+}

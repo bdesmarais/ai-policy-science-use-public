@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-helps-get-answers-homeless-spending.txt",
+  "party": "Republican",
+  "title": "Thanks to the efforts of Senator Rosilicie Ochoa Bogh (R-Yucaipa) and her California Legislative Republican colleagues, Californians may finally get some answers on how the state a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has spent more than $20 billion over the last five years on homelessness.\",\n    \"The population of unhoused individuals in California has increased to more than 172,000.\",\n    \"The Governor plans to spend another $1 billion of taxpayer dollars with the aim of ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has spent more than $20 billion over the last five years on homelessness.\",\n    \"The population of unhoused individuals in California has increased to more than 172,000.\",\n    \"The Governor plans to spend another $1 billion of taxpayer dollars with the aim of reducing the homeless population by 15 percent by 2025.\",\n    \"The audit will examine how state, federal, and local dollars have been spent to tackle the homeless crisis.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "148107093ba19b1d540ca9d3f66c00a014e089a3"
+}

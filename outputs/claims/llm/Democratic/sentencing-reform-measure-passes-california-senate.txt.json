@@ -1,0 +1,13 @@
+{
+  "press_release": "sentencing-reform-measure-passes-california-senate.txt",
+  "party": "Democratic",
+  "title": "SB 300, The Sentencing Reform Act of 2021 , authored by Senator Dave Cortese (D-San Jose) has passed the California State Senate and will now head to the State Assembly.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Current California law mandates a sentence of death or life without the possibility of parole for anyone convicted of murder with special circumstances, regardless of their intent or role in the crime.\",\n    \"SB 300 will end unjust practices in California's current sente",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Current California law mandates a sentence of death or life without the possibility of parole for anyone convicted of murder with special circumstances, regardless of their intent or role in the crime.\",\n    \"SB 300 will end unjust practices in California's current sentencing scheme.\",\n    \"SB 300 will allow for a sentence other than the death penalty or life in prison without the possibility for parole for a person who did not kill anyone or intend for anyone to die.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "84b23946ddbb20a217129c2c38de8f752fe3976f"
+}

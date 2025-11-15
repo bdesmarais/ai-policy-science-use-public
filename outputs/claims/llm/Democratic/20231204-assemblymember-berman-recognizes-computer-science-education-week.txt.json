@@ -1,0 +1,13 @@
+{
+  "press_release": "20231204-assemblymember-berman-recognizes-computer-science-education-week.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Grace Hopper engineered new programming languages and pioneered standards for computer systems.\",\n    \"Computer science plays a crucial role in equipping students with the skills needed for a digitally driven world.\",\n    \"Expanding access to computer science courses can",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Grace Hopper engineered new programming languages and pioneered standards for computer systems.\",\n    \"Computer science plays a crucial role in equipping students with the skills needed for a digitally driven world.\",\n    \"Expanding access to computer science courses can help close the gender and diversity gap in tech fields.\",\n    \"Access to high-quality computer science courses is essential for K-12 students to acquire 21st century skills.\",\n    \"Expanding computer science education will bolster and diversify California's tech industry.\",\n    \"Code.org offers a free introduction to computer science through activities and videos during Computer Science Education Week.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6db84bf2cfc08b4b9c0cbfd6754a481d1ac912fa"
+}

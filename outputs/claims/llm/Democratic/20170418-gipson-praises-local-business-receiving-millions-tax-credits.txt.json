@@ -1,0 +1,13 @@
+{
+  "press_release": "20170418-gipson-praises-local-business-receiving-millions-tax-credits.txt",
+  "party": "Democratic",
+  "title": "Vege Mist Inc. of Gardena receives $1.25 million in ‘California Competes’ tax credits, pledges to hire 75 percent of workforce from City of Compton",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:54:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Vege Mist Inc. received $1.25 million in tax credits from the California Competes program.\",\n    \"Vege Mist Inc. pledges to hire 75 percent of its added workforce from the City of Compton.\",\n    \"Vege Mist Inc. has been in business for nearly three decades.\",\n    \"The Ca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Vege Mist Inc. received $1.25 million in tax credits from the California Competes program.\",\n    \"Vege Mist Inc. pledges to hire 75 percent of its added workforce from the City of Compton.\",\n    \"Vege Mist Inc. has been in business for nearly three decades.\",\n    \"The California Competes tax credit is part of the Governor’s Economic Development Initiative (GEDI) enacted in 2013.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c7a9e0511ceb0ea04da7c994c4f1e796ff98d50d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20200127-supreme-court-justice-rule-public-charge.txt",
+  "party": "Democratic",
+  "title": "CARSON, Calif --- Assemblymember Mike A. Gipson (D-Carson) released the following statement on the Supreme Court ruling on public charge:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:13:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2db411bec5d12f07239ebfb35e12446e351ee966"
+}

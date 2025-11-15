@@ -1,0 +1,13 @@
+{
+  "press_release": "20220915-celebrating-latino-heritage-month.txt",
+  "party": "Democratic",
+  "title": "In honor of Latino Heritage Month, Assemblymember Alex Lee and East Side Union High School District Vice President Lorena Chavez hosted a celebration at Taqueria Las Vegas to recog",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:47:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "96f0c276e75d6d3bed6dee77794f26a937e1a89a"
+}

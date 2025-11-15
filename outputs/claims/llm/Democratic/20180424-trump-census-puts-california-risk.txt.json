@@ -1,0 +1,13 @@
+{
+  "press_release": "20180424-trump-census-puts-california-risk.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's census count is crucial for determining the number of seats each state has in the House of Representatives.\",\n    \"Census data is used to distribute over $675 billion in federal funding.\",\n    \"An undercount in the census would deprive California of its fair",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's census count is crucial for determining the number of seats each state has in the House of Representatives.\",\n    \"Census data is used to distribute over $675 billion in federal funding.\",\n    \"An undercount in the census would deprive California of its fair share of federal funds.\",\n    \"The addition of a citizenship question threatens a complete and accurate census count.\",\n    \"California has historically hard-to-count communities that complicate census efforts.\",\n    \"Governor Brown allocated $40.3 million in the Fiscal Year 2018-2019 budget for Census outreach.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f1625ce9a2966b8a4f2ba0981cbf2ef8d81ec1ad"
+}

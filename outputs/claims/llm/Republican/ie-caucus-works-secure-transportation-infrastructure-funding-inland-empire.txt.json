@@ -1,0 +1,13 @@
+{
+  "press_release": "ie-caucus-works-secure-transportation-infrastructure-funding-inland-empire.txt",
+  "party": "Republican",
+  "title": "Sacramento- Senator Rosilicie Ochoa Bogh (R-Yucaipa), Chair of the Inland Empire Caucus, and other caucus members, sent a letter to Governor Newsom and legislative leaders requesti",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:53:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Inland Empire has been one of the fastest-growing regions in California.\",\n    \"Dedicated funding for transportation infrastructure is vital to meet the needs of growth in the Inland Empire.\",\n    \"The state has a budget surplus of $31 billion that could support tran",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Inland Empire has been one of the fastest-growing regions in California.\",\n    \"Dedicated funding for transportation infrastructure is vital to meet the needs of growth in the Inland Empire.\",\n    \"The state has a budget surplus of $31 billion that could support transportation projects in the Inland Empire.\",\n    \"Transportation projects funded by the state could reduce traffic congestion in the Inland Empire.\",\n    \"Transportation infrastructure is essential for the Inland Empire to continue contributing to California's economy.\",\n    \"Clean, modern, and reliable transportation infrastructure supports climate resiliency in the region.\",\n    \"Investment in transportation projects promotes equity and economic prosperity in the Inland Empire.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7854c6bc352d0fbf42860c7b115e567a56d69889"
+}

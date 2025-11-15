@@ -1,0 +1,13 @@
+{
+  "press_release": "20250627-california-assembly-democrats-pass-budget-protects-opportunity-improves.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed the 2025-26 budget to protect opportunity and increase affordability.\",\n    \"Assembly Democrats delivered a budget that protects California amidst unprecedented challenges.\",\n    \"The budget cuts red tape to facilitate faster housing ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California State Assembly passed the 2025-26 budget to protect opportunity and increase affordability.\",\n    \"Assembly Democrats delivered a budget that protects California amidst unprecedented challenges.\",\n    \"The budget cuts red tape to facilitate faster housing construction as housing is deemed the foundation of affordability and opportunity.\",\n    \"The Assembly budget preserves critical investments in health care, women's health, education, and public safety.\",\n    \"The budget commits to not raising taxes on families, workers, or small businesses.\",\n    \"The Assembly budget aims to enhance California's fiscal resilience.\",\n    \"The budget includes investments to accelerate housing construction and maintain access to critical health and safety net programs.\",\n    \"The budget allocates $500 million in Low-Income Housing Tax Credits and $120 million for the Multifamily Housing Program.\",\n    \"The Assembly secured $209 million for housing and homelessness prevention.\",\n    \"The budget ensures per-pupil spending for public schools exceeds $25,000 with a 2.3% cost-of-living adjustment for K-12 education.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7196f0ed1b785fa38abf25c620ed988618bba119"
+}

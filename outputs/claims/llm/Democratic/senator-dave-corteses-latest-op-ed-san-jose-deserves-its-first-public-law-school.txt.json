@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-corteses-latest-op-ed-san-jose-deserves-its-first-public-law-school.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE, CA – In a newly published op-ed in San José Spotlight, Senator Dave Cortese makes the case for creating Santa Clara County’s first-ever public law school:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b517591b91cb8e840c21b8856a820b2d54253291"
+}

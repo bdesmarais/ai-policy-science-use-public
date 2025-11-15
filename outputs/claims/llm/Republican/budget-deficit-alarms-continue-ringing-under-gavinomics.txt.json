@@ -1,0 +1,13 @@
+{
+  "press_release": "budget-deficit-alarms-continue-ringing-under-gavinomics.txt",
+  "party": "Republican",
+  "title": "Today, California Senate Budget Committee Vice Chair Roger Niello (R-Fair Oaks) expressed deep concerns over the continued fiscal mismanagement by the Democratic-controlled state g",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:44:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "11b0fff41fcabafc65300b7485af0a79bbd4a5ba"
+}

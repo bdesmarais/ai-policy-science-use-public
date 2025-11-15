@@ -1,0 +1,13 @@
+{
+  "press_release": "20240523-majority-leader-aguiar-curry-bill-create-california-agave-commission-passes.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Agave is a crop that can help meet the challenges posed by climate change, drought, and water conservation needs.\",\n    \"Agave requires 10% or less of the water that many traditional crops need.\",\n    \"Agave can create economic activity and support rural jobs, small farm",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Agave is a crop that can help meet the challenges posed by climate change, drought, and water conservation needs.\",\n    \"Agave requires 10% or less of the water that many traditional crops need.\",\n    \"Agave can create economic activity and support rural jobs, small farmers, farmworkers, and their communities.\",\n    \"Tequila and mezcal are the fastest-growing spirit categories in the United States today.\",\n    \"California Agave Spirits must be made from 100% California-grown agave with no additives for flavor or coloring.\",\n    \"Agaves are a profitable climate-resilient, drought-tolerant, sustainable, low water-use crop.\",\n    \"The California Agave Commission will help develop best practices and support research in the agave industry.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a11880665c311667b3c823a9473d245a5e421ab0"
+}

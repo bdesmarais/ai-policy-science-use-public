@@ -1,0 +1,13 @@
+{
+  "press_release": "20210117-assembly-speaker-ramos-condemn-trump-transfer-sacred-native-american-land.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Speaker of the Assembly Anthony Rendon (D-Lakewood) and Assemblymember James C. Ramos (D-Highland) today denounced the Trump administration’s-transfer of a tract of Ariz",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:22:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The transfer of a 2,422-acre parcel known as Oak Flat represents a betrayal of the Apache people.\",\n    \"The U.S. Forest Service is overseen by the U.S. Department of Agriculture.\",\n    \"Ownership of the Oak Flat parcel is questioned.\",\n    \"The U.S. Forest Service may h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The transfer of a 2,422-acre parcel known as Oak Flat represents a betrayal of the Apache people.\",\n    \"The U.S. Forest Service is overseen by the U.S. Department of Agriculture.\",\n    \"Ownership of the Oak Flat parcel is questioned.\",\n    \"The U.S. Forest Service may have violated the National Historic Preservation Act.\",\n    \"The U.S. Forest Service may have violated the Religious Freedom Restoration Act.\",\n    \"The U.S. Forest Service may have violated an 1852 treaty between the United States and Western Apache tribes.\",\n    \"Rio Tinto came under fire for destroying a 46,000-year-old indigenous site in Australia.\",\n    \"Rio Tinto's chairman pledged that the company would 'never again' destroy sites of exceptional archaeological and cultural significance during mining operations.\",\n    \"Oak Flat is on the National Register of Historic Places due to its significance to an estimated dozen area tribes.\",\n    \"The location of Oak Flat is reported to include Apache burial grounds, petroglyphs, and medicinal plants.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8350366051266213d581e29410d9a3a1a1a2f834"
+}

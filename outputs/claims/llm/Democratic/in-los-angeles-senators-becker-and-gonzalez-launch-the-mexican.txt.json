@@ -1,0 +1,13 @@
+{
+  "press_release": "in-los-angeles-senators-becker-and-gonzalez-launch-the-mexican.txt",
+  "party": "Democratic",
+  "title": "LOS ANGELES, CA – Joined by Los Angeles City Mayor Karen Bass , Members of the California Latino Legislative Caucus, Latino Community leaders, and the descendants of victims of the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The Mexican Repatriation Program of the 1930s was a period of forced deportations of Mexicans and Mexican Americans under the guise of preserving job opportunities for 'real Americans.'\",\n    \"An estimated 2 million Mexican and Mexican American citizens, including 4",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The Mexican Repatriation Program of the 1930s was a period of forced deportations of Mexicans and Mexican Americans under the guise of preserving job opportunities for 'real Americans.'\",\n    \"An estimated 2 million Mexican and Mexican American citizens, including 400,000 people from California, were rounded up, separated from families, and deported to Mexico.\",\n    \"The signing of Senate Bill 537 will create a statue honoring the victims of the largest mass deportation of Mexican and Mexican American citizens from the United States.\",\n    \"Senator Becker stated that the memorial will generate an educational transformation and raise awareness of the Mexican Repatriation.\",\n    \"The memorial is intended to serve as an educational tool about the forced repatriation of the 1930s to promote healing and justice.\",\n    \"The historical invisibility of forced deportations of millions of Mexicans during the Depression is not acknowledged in history books.\",\n    \"Senators Becker and Gonzalez have introduced SB 537 to ensure the history of the Mexican Repatriation will be included in classrooms.\",\n    \"The passage of SB 537 acknowledges the difficult past of the Mexican Repatriation and gives recognition to the families impacted by the deportations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "64162e32fcac729a22052ec8873008c2abbac14a"
+}

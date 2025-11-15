@@ -1,0 +1,13 @@
+{
+  "press_release": "20250213-lowenthal-introduces-legislation-protect-digital-privacy-and-streamline-opt.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 566 would require web browsers to offer consumers the ability to exercise their privacy rights through global opt-out tools.\",\n    \"Many of the top web browsers do not offer opt-out preference signals for consumers.\",\n    \"AB 566 would make it easier for consumers to ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 566 would require web browsers to offer consumers the ability to exercise their privacy rights through global opt-out tools.\",\n    \"Many of the top web browsers do not offer opt-out preference signals for consumers.\",\n    \"AB 566 would make it easier for consumers to state their privacy preferences by allowing a user to exercise their opt-out rights in a single step.\",\n    \"Currently, eight states, including California, require businesses to honor browser privacy signals as an opt-out of the sale of personal information.\",\n    \"The California Consumer Privacy Act gives California consumers the right to stop the sale and sharing of their personal information, including via opt-out preference signals.\",\n    \"If AB 566 is passed, California would become the first state to require browser vendors to directly support opt-out preference signals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8d8116c82856e00b0a0a0a127b8fcf54a5ebce1b"
+}

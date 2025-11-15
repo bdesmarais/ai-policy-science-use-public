@@ -1,0 +1,13 @@
+{
+  "press_release": "20240110-assemblymember-ward-introduces-bill-direct-redevelopment-hillcrest-dmv-site.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is currently experiencing a housing crisis.\",\n    \"The property in Hillcrest represents a missed opportunity to maximize housing outcomes for lower- and middle-income families.\",\n    \"AB 1635 aims to facilitate and streamline the redevelopment of the Hillcrest",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is currently experiencing a housing crisis.\",\n    \"The property in Hillcrest represents a missed opportunity to maximize housing outcomes for lower- and middle-income families.\",\n    \"AB 1635 aims to facilitate and streamline the redevelopment of the Hillcrest DMV site into an affordable housing and mixed-use project.\",\n    \"Utilizing every available property suitable for affordable housing is vital to solving California's housing shortage.\",\n    \"AB 1635 will require the Hillcrest location to be used in part for affordable housing and maximize its total redevelopment potential on an accelerated timeline.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ee7ff7c54f17aa83e82f2c2b89fcc154241ca2d9"
+}

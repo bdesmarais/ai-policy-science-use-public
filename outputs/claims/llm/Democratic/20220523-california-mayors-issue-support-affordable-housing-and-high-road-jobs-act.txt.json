@@ -1,0 +1,13 @@
+{
+  "press_release": "20220523-california-mayors-issue-support-affordable-housing-and-high-road-jobs-act.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:42:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2011 has the potential to produce millions of affordable housing units in California.\",\n    \"The bill pairs new opportunities to build 100% affordable and mixed-income housing with wage and training standards.\",\n    \"Prevailing wage is required on all projects funded ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2011 has the potential to produce millions of affordable housing units in California.\",\n    \"The bill pairs new opportunities to build 100% affordable and mixed-income housing with wage and training standards.\",\n    \"Prevailing wage is required on all projects funded under AB 2011.\",\n    \"For projects of 50 or more units, contractors must participate in a state-approved apprenticeship program or provide health benefits for their workers.\",\n    \"AB 2011 includes new enforcement mechanisms to ensure wage and benefits standards are met.\",\n    \"One recent analysis found potential for building three million units of affordable housing in the Bay Area and Los Angeles County alone.\",\n    \"The bill promotes climate-friendly affordable development on sites close to jobs and transit.\",\n    \"AB 2011 aims to expedite affordable housing production without government overreach by making it voluntary for builders.\",\n    \"The bill is described as a thorough, inclusive, and equitable remedy for housing production needs.\",\n    \"AB 2011 allows affordable housing to be built quickly without delays from opposition.\",\n    \"The bill is the first to be endorsed by both affordable housing and labor groups.\",\n    \"AB 2011 would help preserve the density and character of existing residential neighborhoods.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fb3245d72cd86b8e867c0764e69c41ff956c2611"
+}

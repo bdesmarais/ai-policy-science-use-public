@@ -1,0 +1,13 @@
+{
+  "press_release": "20240510-assemblywoman-soria-releases-statement-governors-2024-2025-may-revise.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The establishment of a medical school at UC Merced will transform the lives of families in the Central Valley.\",\n    \"The establishment of a medical school at UC Merced will bring economic vitality to the region.\",\n    \"Building a nursing pipeline in the Central Valley i",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The establishment of a medical school at UC Merced will transform the lives of families in the Central Valley.\",\n    \"The establishment of a medical school at UC Merced will bring economic vitality to the region.\",\n    \"Building a nursing pipeline in the Central Valley is essential to addressing the health care workforce shortage.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "666850bb9c3f67dac5af3a4a71888211b7a4e2af"
+}

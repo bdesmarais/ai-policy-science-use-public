@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-recognizes-visual-and-performing-arts-education-month.txt",
+  "party": "Democratic",
+  "title": "Today, Senator Dave Cortese (D-Silicon Valley) introduced SCR 80 on the Senate Floor to celebrate and recognize Visual and Performing Arts Education Month in California. SCR 80 pas",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Studying the arts in school can help a student develop their work ethic, study habits, time management skills, creativity, and problem-solving abilities.\",\n    \"Arts education is linked to higher test scores across all subjects.\",\n    \"Arts education is linked to lower d",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Studying the arts in school can help a student develop their work ethic, study habits, time management skills, creativity, and problem-solving abilities.\",\n    \"Arts education is linked to higher test scores across all subjects.\",\n    \"Arts education is linked to lower dropout rates.\",\n    \"Students with an arts education are 5 times less likely to drop out of school.\",\n    \"Students with an arts education are 4 times more likely to be recognized for academic achievement.\",\n    \"Students with an arts education are 3 times more likely to be elected to class office.\",\n    \"Students with an arts education are 4 times more likely to receive a bachelor’s degree.\",\n    \"Students with an arts education are 2 times more likely to graduate from college.\",\n    \"Students with an arts education are 30% more inclined to pursue a professional career.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1dc347df1fcff88dbb7725e51b39638987339278"
+}

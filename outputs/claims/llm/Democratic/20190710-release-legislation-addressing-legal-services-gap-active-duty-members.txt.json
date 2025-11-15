@@ -1,0 +1,13 @@
+{
+  "press_release": "20190710-release-legislation-addressing-legal-services-gap-active-duty-members.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:09:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 558 seeks to fill the need for legal services for active duty military members.\",\n    \"Current law requires the California State Bar to coordinate pro bono legal services for veterans.\",\n    \"AB 558 expands on current law by directing the State Bar to also ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 558 seeks to fill the need for legal services for active duty military members.\",\n    \"Current law requires the California State Bar to coordinate pro bono legal services for veterans.\",\n    \"AB 558 expands on current law by directing the State Bar to also coordinate pro bono civil legal services to active duty service members and their families.\",\n    \"Active duty military service members and their families have limited access to legal assistance attorneys.\",\n    \"Many military families are cost-prohibited from obtaining counsel for complex legal actions.\",\n    \"Connecting service members and families to organizations providing pro bono legal aid would fill a much-needed gap.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "10aa95972f7848e4fa448042e5d78dfb159e7385"
+}

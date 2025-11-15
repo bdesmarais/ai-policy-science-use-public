@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-measure-extending-skate-parks-signed-law.txt",
+  "party": "Republican",
+  "title": "Sacramento – Senate Bill 1003, a measure authored by State Senator Brian Jones (R-Santee) which extends the immunity from liability that local governments receive when operating sk",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1003 extends the immunity from liability that local governments receive when operating skate parks.\",\n    \"Skate parks provide a safer place for skateboarders and extreme sport riders compared to public streets, parking lots, and sidewalks.\",\n    \"The law all",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1003 extends the immunity from liability that local governments receive when operating skate parks.\",\n    \"Skate parks provide a safer place for skateboarders and extreme sport riders compared to public streets, parking lots, and sidewalks.\",\n    \"The law allowing immunity for municipally operated skate parks was successful in its previous implementation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "20d6c9ac1cf1202de3d651e669a5b784d65a27fa"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220427-bill-ensure-clean-energy-accessible-all-through-community-solar-program.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO,CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:41:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"More than 20% of California’s clean energy comes from solar.\",\n    \"Many individuals, families, and business owners are unable to access solar energy due to the cost of investment, limited space, or structural challenges.\",\n    \"Establishing a statewide community solar s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"More than 20% of California’s clean energy comes from solar.\",\n    \"Many individuals, families, and business owners are unable to access solar energy due to the cost of investment, limited space, or structural challenges.\",\n    \"Establishing a statewide community solar storage program will allow everyone to reap the benefits of clean energy.\",\n    \"The community solar storage program aims to expand solar access to low- and middle-income communities.\",\n    \"The community solar storage program will improve the overall reliability of the electrical grid by ensuring solar energy is sent during peak hours.\",\n    \"Customers participating in the community solar storage program receive a credit on their utility bill for their share of power produced.\",\n    \"Financial incentives are available for low-income customers participating in the community solar storage program.\",\n    \"Subscribers to the community solar storage program are compensated based on the value of the renewable energy resource determined by the privately-owned utility.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e5c3826f3194b8e7a03111fefbc43136668ab975"
+}

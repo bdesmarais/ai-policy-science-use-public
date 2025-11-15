@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-corteses-bill-structurally-reform-how-california-finances-affordable-housing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – State Senator Dave Cortese’s first-of-its-kind housing finance solution bill that could fast-track the construction of thousands of affordable homes needed throughout ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Senate Bill 750 could fast-track the construction of thousands of affordable homes needed throughout California.\",\n    \"SB 750 could be the key to unlocking hundreds of thousands of shovel-ready homes currently stuck in limbo.\",\n    \"The California Housing Finance &",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Senate Bill 750 could fast-track the construction of thousands of affordable homes needed throughout California.\",\n    \"SB 750 could be the key to unlocking hundreds of thousands of shovel-ready homes currently stuck in limbo.\",\n    \"The California Housing Finance & Credit Act establishes a state-backed credit enhancement program administered by the California Housing Finance Agency.\",\n    \"The goal of the program is to keep housing projects moving forward instead of being tied up in convoluted financial knots for years with high interest rates.\",\n    \"The program would offer insurance and credit guarantees to reduce the risk for lenders and bond issuers.\",\n    \"SB 750 would require the California Housing Finance Agency to administer the California Housing Finance and Credit Act.\",\n    \"This program would use California's credit to guarantee financing for multifamily housing production.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ec221d9db4887f75adb627114a25d1149684f6b6"
+}

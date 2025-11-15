@@ -1,0 +1,13 @@
+{
+  "press_release": "20220928-assemblymember-kalra-natural-resources-agency-and-advocates-kick.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Newsom adopted Executive Order N-82-20, a commitment to protect 30 percent of California's lands and coastal waters by 2030.\",\n    \"California is one of the world's 36 biodiversity hotspots and is home to some of the nation’s most unique and rare species.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Newsom adopted Executive Order N-82-20, a commitment to protect 30 percent of California's lands and coastal waters by 2030.\",\n    \"California is one of the world's 36 biodiversity hotspots and is home to some of the nation’s most unique and rare species.\",\n    \"The climate crisis threatens biodiversity with extreme weather, historic drought, catastrophic wildfires, and ocean warming.\",\n    \"The 30x30 initiative recognizes that nature is essential in the fight against climate change.\",\n    \"AB 2278 was signed to create a process that ensures progress updates on the implementation of the 30x30 goal.\",\n    \"AB 2278 prioritizes listening to communities and building partnerships between the public, tribes, and government agencies to meet the 30x30 goals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6eccf3b362f20a4fe47fca97704574a9a3fc5a23"
+}

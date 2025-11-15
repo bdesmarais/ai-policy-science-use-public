@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-groves-statement-latest-high-speed-rail-debacle.txt",
+  "party": "Republican",
+  "title": "Senate Republican Leader Shannon Grove ( R-Bakersfield ) issued the following statement after a recent article published in the Los Angeles Times cited that the High Speed Rail Aut",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The High Speed Rail Authority seized land from Central Valley farmers to build the tracks for the bullet train.\",\n    \"The High Speed Rail Authority owes farmers thousands of dollars for the land taken.\",\n    \"The cost of the High Speed Rail project is $120 million per m",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The High Speed Rail Authority seized land from Central Valley farmers to build the tracks for the bullet train.\",\n    \"The High Speed Rail Authority owes farmers thousands of dollars for the land taken.\",\n    \"The cost of the High Speed Rail project is $120 million per mile and is rising.\",\n    \"The bureaucrats at the High Speed Rail Authority can rush the process to take valuable farmland, but do not pay farmers in a reasonable amount of time.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4f2b7979fb36ef1279218f30cf6d5ae04a87adc2"
+}

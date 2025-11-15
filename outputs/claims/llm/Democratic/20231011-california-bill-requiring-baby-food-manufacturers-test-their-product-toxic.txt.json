@@ -1,0 +1,13 @@
+{
+  "press_release": "20231011-california-bill-requiring-baby-food-manufacturers-test-their-product-toxic.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 899 requires baby food manufacturers to test their products for toxic heavy metals.\",\n    \"The new law mandates that test results for toxic heavy metals be posted on the manufacturer's website.\",\n    \"The U.S. House of Representatives Committee on Oversight",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 899 requires baby food manufacturers to test their products for toxic heavy metals.\",\n    \"The new law mandates that test results for toxic heavy metals be posted on the manufacturer's website.\",\n    \"The U.S. House of Representatives Committee on Oversight and Reform found that commercial baby foods contain significant levels of toxic heavy metals.\",\n    \"Exposure to toxic heavy metals in baby food is linked to permanent decreases in IQ.\",\n    \"Toxic heavy metals in baby food are associated with diminished future economic productivity and increased risk of criminal and antisocial behavior.\",\n    \"Toxic heavy metals pose a threat to infant neurological development and long-term brain function.\",\n    \"The U.S. Food and Drug Administration does not require final product testing or disclosure of test results to consumers.\",\n    \"Assembly Bill 899 is expected to compel baby food manufacturers to reduce levels of dangerous heavy metals in their products.\",\n    \"The legislation aims to provide parents with important information needed to compare baby food products.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "016028a46712bd845abda634f6fd96da95f92651"
+}

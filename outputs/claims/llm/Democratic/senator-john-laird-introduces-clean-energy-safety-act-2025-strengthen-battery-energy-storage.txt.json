@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-john-laird-introduces-clean-energy-safety-act-2025-strengthen-battery-energy-storage.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Senator John Laird (D-Santa Cruz) today introduced SB 283 , legislation designed to strengthen safety standards for Battery Energy Storage Systems (BESS). The bill man",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:31:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 283 mandates that new Battery Energy Storage Systems (BESS) facilities adhere to the National Fire Protection Association (NFPA) 855 standards.\",\n    \"The NFPA 855 standards are the most comprehensive and widely recognized guidelines for battery storage safety and haz",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 283 mandates that new Battery Energy Storage Systems (BESS) facilities adhere to the National Fire Protection Association (NFPA) 855 standards.\",\n    \"The NFPA 855 standards are the most comprehensive and widely recognized guidelines for battery storage safety and hazard mitigation.\",\n    \"SB 283 ensures that future BESS facilities adhere to the highest fire safety standards.\",\n    \"Developers are required to engage and confer with local fire authorities before submitting a BESS application.\",\n    \"Consultation with local fire authorities must address facility design, assess potential risks, and integrate emergency response plans.\",\n    \"Facilities must undergo a safety inspection by local fire officials or by the State Fire Marshal before they can go online.\",\n    \"SB 283 adds enhanced safety standards to future BESS projects.\",\n    \"SB 283 will be amended to prohibit the development of BESS in indoor combustible buildings.\",\n    \"Battery storage facilities built and staffed by highly trained electrical workers are crucial to their safe operation.\",\n    \"Holding the construction of BESS facilities to national standards will ensure the safety of workers and surrounding communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "85687da85f942185fe62d5f97ce33bb98cd69fac"
+}

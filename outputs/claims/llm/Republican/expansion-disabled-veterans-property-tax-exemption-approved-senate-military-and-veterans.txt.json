@@ -1,0 +1,13 @@
+{
+  "press_release": "expansion-disabled-veterans-property-tax-exemption-approved-senate-military-and-veterans.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield ) announced that her bill to assist disabled veterans by expanding California’s Disabled Property Exemption program passed the Senate Military ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 658 will authorize county assessors to make available the state’s property tax exemption proportional to the disability rating percentage issued by the department responsible for their discharge from service.\",\n    \"Current law allows disabled veterans to request a re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 658 will authorize county assessors to make available the state’s property tax exemption proportional to the disability rating percentage issued by the department responsible for their discharge from service.\",\n    \"Current law allows disabled veterans to request a reduction on their home’s assessed value.\",\n    \"Many veterans are unaware that unless they are 100% disabled, totally blind or have lost one or more limbs, they would not qualify for the property tax exemption.\",\n    \"Even if a veteran were to have a 90% disability rating, they would be ineligible for a property tax exemption.\",\n    \"Many veterans who are severely disabled as a result of their service to the United States are turned away when seeking this exemption.\",\n    \"SB 658 expands much needed property tax relief to thousands of California’s disabled veterans.\",\n    \"In 2018, the U.S. Department of Veterans Affairs estimated that in California, there were more than ten thousand homeless veterans.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "96f4795316db5f65c9c1aee6709a7085fb6a2466"
+}

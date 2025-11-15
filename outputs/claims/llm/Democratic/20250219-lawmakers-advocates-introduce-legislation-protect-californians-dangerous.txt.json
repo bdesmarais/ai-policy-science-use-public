@@ -1,0 +1,94 @@
+{
+  "press_release": "20250219-lawmakers-advocates-introduce-legislation-protect-californians-dangerous.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Exposure to PFAS has been linked to serious health harms including cancer, cardiovascular diseases, reproductive harm, and developmental issues in infants and children.\"\n    },\n    {\n      \"claim_text\": \"Recent tests suggest that nearly 12 million C",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Exposure to PFAS has been linked to serious health harms including cancer, cardiovascular diseases, reproductive harm, and developmental issues in infants and children.\"\n    },\n    {\n      \"claim_text\": \"Recent tests suggest that nearly 12 million Californians are exposed to tap water with PFAS contamination.\"\n    },\n    {\n      \"claim_text\": \"The Biden Administration EPA established the first-ever national drinking water standards to protect Americans from PFAS exposure.\"\n    },\n    {\n      \"claim_text\": \"Sustained exposure to PFAS can cause cancer and other illnesses, and that PFAS exposure is especially dangerous during pregnancy and early childhood.\"\n    },\n    {\n      \"claim_text\": \"Activated carbon, reverse osmosis, and ion exchange systems can help to protect against PFAS exposure.\"\n    },\n    {\n      \"claim_text\": \"California currently lags behind at least 11 other states in regulating PFAS.\"\n    },\n    {\n      \"claim_text\": \"Setting enforceable state limits on PFAS would help to prevent thousands of deaths and serious illnesses.\"\n    },\n    {\n      \"claim_text\": \"The Bipartisan Infrastructure Law includes $21 billion to help upgrade drinking water systems to incorporate technologies that address PFAS.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Exposure to PFAS has been linked to serious health harms including cancer, cardiovascular diseases, reproductive harm, and developmental issues in infants and children.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Recent tests suggest that nearly 12 million Californians are exposed to tap water with PFAS contamination.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Biden Administration EPA established the first-ever national drinking water standards to protect Americans from PFAS exposure.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Sustained exposure to PFAS can cause cancer and other illnesses, and that PFAS exposure is especially dangerous during pregnancy and early childhood.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Activated carbon, reverse osmosis, and ion exchange systems can help to protect against PFAS exposure.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "California currently lags behind at least 11 other states in regulating PFAS.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Setting enforceable state limits on PFAS would help to prevent thousands of deaths and serious illnesses.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Bipartisan Infrastructure Law includes $21 billion to help upgrade drinking water systems to incorporate technologies that address PFAS.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 8,
+  "doc_sha1": "af0ee4779b21ccc3a674aaf7bfabccd93c1cb711"
+}

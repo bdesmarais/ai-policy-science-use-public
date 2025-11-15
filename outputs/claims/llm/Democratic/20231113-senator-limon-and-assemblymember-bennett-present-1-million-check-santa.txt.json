@@ -1,0 +1,13 @@
+{
+  "press_release": "20231113-senator-limon-and-assemblymember-bennett-present-1-million-check-santa.txt",
+  "party": "Democratic",
+  "title": "(VENTURA) Senator Monique Limón, alongside Assemblymember Steve Bennett, presented $1 million to support The Santa Paula Creek Sports Park buildout, a 37-acre sports and entertainm",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Parks and outdoor green spaces are essential to the emotional and physical well-being of all Californians.\",\n    \"The Santa Paula Creek Sports Park will more than double Santa Paula's park space.\",\n    \"The City of Santa Paula currently has approximately 1.2 acres of par",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Parks and outdoor green spaces are essential to the emotional and physical well-being of all Californians.\",\n    \"The Santa Paula Creek Sports Park will more than double Santa Paula's park space.\",\n    \"The City of Santa Paula currently has approximately 1.2 acres of park space per 1,000 residents, which is well below the recommended 9.9 acres per 1,000 residents by the National Recreation and Park Association.\",\n    \"The Santa Paula Creek Sports complex will offer residents access to a brand new 37-acre sports and entertainment complex.\",\n    \"The sports complex will include an amphitheater, soccer fields, baseball and softball fields, tennis courts, a community garden, an inclusive playground, and barbeque pavilions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "876c557693f8bf4ca220f305f4fc6e7c92f2cf44"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20191003-assemblymember-bauer-kahan-delivers-300000-budget-win-new-construction.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Bauer-Kahan and City Leaders gather to announce a brand new accessible play area and other park facilities that will be built because of newly acquired state funding",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:11:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Bauer-Kahan and City Leaders announced a new accessible play area and park facilities in Lafayette.\",\n    \"Lafayette’s Brook Street Park is the only play space available to young children in the downtown area of Lafayette.\",\n    \"The refurbishment of Lafay",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Bauer-Kahan and City Leaders announced a new accessible play area and park facilities in Lafayette.\",\n    \"Lafayette’s Brook Street Park is the only play space available to young children in the downtown area of Lafayette.\",\n    \"The refurbishment of Lafayette's Brook Street Park is made possible by securing state funding of $300,000.\",\n    \"The refurbishment project will completely replace the outdated 'pirate ship' play structure.\",\n    \"The new park's facilities will focus on children younger than five and those with special needs.\",\n    \"The new playground will be ADA-friendly and will feature traditional swings and an 'Expression Swing.'\",\n    \"'Expression Swings' have been shown to enhance the social, emotional, and cognitive well-being of children and adults.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e8b8b1603af1938b147ea185a8157c84ceabe4ea"
+}

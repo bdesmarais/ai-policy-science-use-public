@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-call-on-newsom-to-fight-fentanyl-and-human-trafficking-at-the-border.txt",
+  "party": "Republican",
+  "title": "Sacramento, CA – Today, the Assembly Republican Caucus sent a letter to Governor Gavin Newsom, urging him to take action on the humanitarian and drug crisis at California’s souther",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:38:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There has been a 700% increase in fentanyl overdose deaths in San Diego County since 2016.\",\n    \"Fentanyl is flowing over the border, resulting in thousands of deaths among Californians each year.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There has been a 700% increase in fentanyl overdose deaths in San Diego County since 2016.\",\n    \"Fentanyl is flowing over the border, resulting in thousands of deaths among Californians each year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f78d0e96f5bb8c5ee979cfcc0fda38e9a093fcda"
+}

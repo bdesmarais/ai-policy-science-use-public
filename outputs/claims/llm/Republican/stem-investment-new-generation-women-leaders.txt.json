@@ -1,0 +1,13 @@
+{
+  "press_release": "stem-investment-new-generation-women-leaders.txt",
+  "party": "Republican",
+  "title": "By Senator Rosilicie Ochoa Bogh, 23rd Senate District",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Jennifer Doudna and Emmanuelle Charpentier's 2012 discovery of CRISPR gene-editing technology enabled scientists to develop vaccines for COVID-19 quickly.\",\n    \"Women and girls make up half of the world’s population but represent a low percentage in STEM fields.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Jennifer Doudna and Emmanuelle Charpentier's 2012 discovery of CRISPR gene-editing technology enabled scientists to develop vaccines for COVID-19 quickly.\",\n    \"Women and girls make up half of the world’s population but represent a low percentage in STEM fields.\",\n    \"Less than 30% of researchers worldwide are women according to UNESCO.\",\n    \"Women represent only 26% of the STEM workforce in the U.S. despite making up nearly half of the working population.\",\n    \"Women in STEM professions earn one-third more than women in non-STEM-related occupations.\",\n    \"Employment opportunities in science and engineering-related fields have been growing faster than all other occupations over the past decade.\",\n    \"In California, only 15% of engineering graduates and only 15% of engineers in the workforce are women.\",\n    \"Women earn nearly 60% of bachelor’s degrees but are underrepresented in STEM-related college degrees, especially in computer sciences and engineering fields.\",\n    \"STEM careers represent some of the highest-paying positions in any field.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "33c3a9d6aba738e764d92b794f6ed875969c40cf"
+}

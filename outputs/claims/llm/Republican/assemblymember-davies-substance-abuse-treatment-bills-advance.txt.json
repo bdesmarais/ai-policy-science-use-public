@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-davies-substance-abuse-treatment-bills-advance.txt",
+  "party": "Republican",
+  "title": "AB 424 and AB 425 advance to the Assembly Appropriations Committee.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 424 aims to streamline the process of information provided to individuals filing complaints about facilities to the State Department of Health Care Services.\",\n    \"AB 424 will require the State Department of Health Care Services to notify complainants within 10 days ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 424 aims to streamline the process of information provided to individuals filing complaints about facilities to the State Department of Health Care Services.\",\n    \"AB 424 will require the State Department of Health Care Services to notify complainants within 10 days of receipt and completion of the review of the complaint.\",\n    \"A state audit found that 22 complaints took more than a year to investigate.\",\n    \"AB 425 would require all substance use disorder recovery or treatment programs to adopt routine measures with evidence-based practices as minimum standards.\",\n    \"Currently, standards for licensed facilities and certified programs differ unnecessarily.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "be088d7bcd46bf04c2d8b91ba185d4f0b984f33d"
+}

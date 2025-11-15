@@ -1,0 +1,54 @@
+{
+  "press_release": "additional-legislative-republicans-call-on-attorney-general-bonta-to-investigate-paneragate.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 1228 increased the minimum wage for fast-food workers to $20 dollars an hour.\"\n    },\n    {\n      \"claim_text\": \"A specific exemption in AB 1228 reportedly benefits a Panera Bread franchisee who is a longtime acquaintance and donor of over $220,0",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"AB 1228 increased the minimum wage for fast-food workers to $20 dollars an hour.\"\n    },\n    {\n      \"claim_text\": \"A specific exemption in AB 1228 reportedly benefits a Panera Bread franchisee who is a longtime acquaintance and donor of over $220,000 to Governor Newsom’s campaigns.\"\n    },\n    {\n      \"claim_text\": \"If the Governor helped exempt one of his largest political donors from a bill that harms small businesses, it raises concerns about pay-to-play politics.\"\n    },\n    {\n      \"claim_text\": \"Overregulation of small and large businesses, as enacted by AB 1228, will lead to more food serving businesses leaving California.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "AB 1228 increased the minimum wage for fast-food workers to $20 dollars an hour.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "A specific exemption in AB 1228 reportedly benefits a Panera Bread franchisee who is a longtime acquaintance and donor of over $220,000 to Governor Newsom’s campaigns.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "If the Governor helped exempt one of his largest political donors from a bill that harms small businesses, it raises concerns about pay-to-play politics.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Overregulation of small and large businesses, as enacted by AB 1228, will lead to more food serving businesses leaving California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 4,
+  "doc_sha1": "ebf52462926ac3b3c7defea024819baf7c6dec02"
+}

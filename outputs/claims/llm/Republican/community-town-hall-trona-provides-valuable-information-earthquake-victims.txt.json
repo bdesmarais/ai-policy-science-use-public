@@ -1,0 +1,13 @@
+{
+  "press_release": "community-town-hall-trona-provides-valuable-information-earthquake-victims.txt",
+  "party": "Republican",
+  "title": "TRONA– Hundreds of residents and families packed Trona High School this morning to attend a town hall. In partnership with local, state, and federal agencies, Senator Shannon Grove",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d8057f23716462ffa1e63383681e15e41e4102f5"
+}

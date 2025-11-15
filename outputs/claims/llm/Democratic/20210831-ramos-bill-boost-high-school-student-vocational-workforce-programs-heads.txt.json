@@ -1,0 +1,13 @@
+{
+  "press_release": "20210831-ramos-bill-boost-high-school-student-vocational-workforce-programs-heads.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—A measure requiring school districts and other school agencies to notify apprenticeship programs about upcoming college and career fairs to increase student awareness of",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Trade apprenticeships expand workforce opportunities for young people.\",\n    \"Apprenticeship programs create a pipeline of skilled employees receiving competitive wages.\",\n    \"Industry apprenticeship programs offer high-quality work-based learning.\",\n    \"Apprenticeship",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Trade apprenticeships expand workforce opportunities for young people.\",\n    \"Apprenticeship programs create a pipeline of skilled employees receiving competitive wages.\",\n    \"Industry apprenticeship programs offer high-quality work-based learning.\",\n    \"Apprenticeship programs are 'earn-and-learn' opportunities for post-secondary students, which can help eliminate student debt.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8680e819599122913699c48209d052c255ce0d8a"
+}

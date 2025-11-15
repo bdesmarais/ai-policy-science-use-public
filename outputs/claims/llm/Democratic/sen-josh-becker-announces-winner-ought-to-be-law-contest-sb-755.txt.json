@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-josh-becker-announces-winner-ought-to-be-law-contest-sb-755.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Senator Josh Becker (D-Menlo Park) announces Jill Ferguson as the winner of his inaugural ‘Ought to Be A Law’ contest. Jill Ferguson submitted a bill idea to create a ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:20:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill idea will create a single layered online application for California's energy incentive programs under the California Energy Commission.\",\n    \"SB 755 requires the CEC to create a one-stop digital application for Californians to check for which programs they are ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill idea will create a single layered online application for California's energy incentive programs under the California Energy Commission.\",\n    \"SB 755 requires the CEC to create a one-stop digital application for Californians to check for which programs they are eligible.\",\n    \"The portal would include residential energy programs for energy efficiency and building decarbonization, which are currently split between multiple state agencies.\",\n    \"Layering these programs into a single agency application would increase access, particularly for low-income applicants.\",\n    \"Transforming California's 14 million single-family and multi-family residences into decarbonized homes represents a massive implementation challenge.\",\n    \"The implementation of funding programs has been steeped with inequities.\",\n    \"An online platform aimed at improving the distributional equity of state and federal funding would be beneficial.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4b778f7743c8206b6a9360d8770a1315506b23b2"
+}

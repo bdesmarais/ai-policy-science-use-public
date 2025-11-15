@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-will-cohost-8th-blood-drive-last-10-months-one-red-cross-escondido.txt",
+  "party": "Republican",
+  "title": "Who?",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0f1fc88e7d9942f4be372b01213bb58b534fc428"
+}

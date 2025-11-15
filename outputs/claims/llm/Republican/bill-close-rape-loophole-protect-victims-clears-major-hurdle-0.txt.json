@@ -1,0 +1,13 @@
+{
+  "press_release": "bill-close-rape-loophole-protect-victims-clears-major-hurdle-0.txt",
+  "party": "Republican",
+  "title": "Senator Marie Alvarado-Gil (R-Jackson) at a bipartisan press conference on Senate Bill 268.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:44:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 268 will classify rape of an intoxicated person as a violent felony.\",\n    \"Criminals whose victims are intoxicated will be eligible for sentencing enhancements and ineligible for early release under Senate Bill 268.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 268 will classify rape of an intoxicated person as a violent felony.\",\n    \"Criminals whose victims are intoxicated will be eligible for sentencing enhancements and ineligible for early release under Senate Bill 268.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a05e0f8c04f387b114d8cd2e0bf7fbc5581d53f6"
+}

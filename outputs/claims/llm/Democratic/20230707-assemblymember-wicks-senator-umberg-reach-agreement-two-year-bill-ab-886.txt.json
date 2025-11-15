@@ -1,0 +1,13 @@
+{
+  "press_release": "20230707-assemblymember-wicks-senator-umberg-reach-agreement-two-year-bill-ab-886.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 886, the California Journalism Preservation Act, aims to support free press and democracy.\",\n    \"The bill intends to ensure publications get paid what they are owed.\",\n    \"AB 886 will hold large tech companies accountable for repurposing content that is not theirs.\"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 886, the California Journalism Preservation Act, aims to support free press and democracy.\",\n    \"The bill intends to ensure publications get paid what they are owed.\",\n    \"AB 886 will hold large tech companies accountable for repurposing content that is not theirs.\",\n    \"The coalition supporting AB 886 includes ethnic media and consumer protection organizations.\",\n    \"Senator Umberg will hold an informational hearing in Fall 2023 to explore issues that AB 886 addresses.\",\n    \"The bill seeks to look at successful legislation in other countries to inform the California solution.\",\n    \"There is a commitment to enact legislation that benefits local journalists and Californians.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ce61c74e1cfc00d7d5f92159800b6db5c7f2ed1e"
+}

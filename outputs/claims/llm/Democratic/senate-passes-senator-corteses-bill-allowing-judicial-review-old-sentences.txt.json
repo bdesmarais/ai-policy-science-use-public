@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-passes-senator-corteses-bill-allowing-judicial-review-old-sentences.txt",
+  "party": "Democratic",
+  "title": "The State Senate passed a bill by Senator Dave Cortese on Wednesday that would allow judges to review the cases of people sentenced to life-without-parole if the person has been in",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:21:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The recidivism rate for individuals who were sentenced to life without parole and then granted a commutation and released is zero percent.\",\n    \"Research shows that people age out of violent crime, with a person's propensity toward violence peaking in their twenties and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The recidivism rate for individuals who were sentenced to life without parole and then granted a commutation and released is zero percent.\",\n    \"Research shows that people age out of violent crime, with a person's propensity toward violence peaking in their twenties and rapidly declining by age 40.\",\n    \"Judges under SB 94 would be able to consider mitigating factors that were not previously considered in court.\",\n    \"Many of the inmates eligible under SB 94 are women who were coerced into participating in a crime by their abuser.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "81e27b50eae533bbb1baa372368c2f1084620e55"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20201007-asm-robert-rivas-applauds-governors-announced-efforts-leverage-natural-and.txt",
+  "party": "Democratic",
+  "title": "(",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:20:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California aims to conserve 30 percent of its land and coastal water as part of its climate goals.\",\n    \"Leading researchers agree that maximizing methods to capture carbon with natural and working lands is essential to mitigate the worst impacts of climate change.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California aims to conserve 30 percent of its land and coastal water as part of its climate goals.\",\n    \"Leading researchers agree that maximizing methods to capture carbon with natural and working lands is essential to mitigate the worst impacts of climate change.\",\n    \"Best practices for sequestering or capturing carbon are relatively inexpensive and currently available.\",\n    \"Natural and working lands have the potential to contribute up to 17% of California’s greenhouse gas reduction goal.\",\n    \"Improving the stewardship and conservation of natural and working lands is critical for protecting public health, livelihoods, and the climate.\",\n    \"Addressing the conservation and management of forests, grasslands, and farmlands is necessary to mitigate California's wildfire risks.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c10ce80d889083af5c55a4033e613a7654e9d1e6"
+}

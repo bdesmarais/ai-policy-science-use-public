@@ -1,0 +1,13 @@
+{
+  "press_release": "three-takeaways-my-first-100-days-state-senator.txt",
+  "party": "Republican",
+  "title": "Click here to watch the video.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The high cost of living in California is 42% higher than the national average.\",\n    \"California faces challenges in reaching its electric vehicle goals due to insufficient energy capacity.\",\n    \"California has poor infrastructure and too few public electric charging st",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The high cost of living in California is 42% higher than the national average.\",\n    \"California faces challenges in reaching its electric vehicle goals due to insufficient energy capacity.\",\n    \"California has poor infrastructure and too few public electric charging stations, affecting its electric vehicle adoption.\",\n    \"The high-speed rail project in California has a budget gap of $7 billion.\",\n    \"An additional $3.2 billion is needed to complete the Bakersfield to Merced line of the high-speed rail project.\",\n    \"The cost of electric vehicles in California ranges from $40,000 to $60,000.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ee2ee3d3ed7902b899785c475f497bf9591cd244"
+}

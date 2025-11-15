@@ -1,0 +1,84 @@
+{
+  "press_release": "20190425-assemblywoman-blanca-e-rubio-landmark-legislation-increase-access-high.txt",
+  "party": "Democratic",
+  "title": "FOR IMMEDIATE RELEASE: April 25, 2019",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Only 9% of California’s low-income infants and toddlers who are income-eligible for subsidized child care are enrolled.\"\n    },\n    {\n      \"claim_text\": \"Fewer families have access to quality early learning programs with comprehensive support servi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Only 9% of California’s low-income infants and toddlers who are income-eligible for subsidized child care are enrolled.\"\n    },\n    {\n      \"claim_text\": \"Fewer families have access to quality early learning programs with comprehensive support services that research shows has the greatest positive impact on low-income babies.\"\n    },\n    {\n      \"claim_text\": \"The first three years are critical to a child's development, providing the platform for future health and well-being.\"\n    },\n    {\n      \"claim_text\": \"High-quality early learning programs and support are needed before kindergarten or preschool to benefit children.\"\n    },\n    {\n      \"claim_text\": \"Strengthening and expanding child care programs based on the effective, high-quality Early Head Start model can give more children a better start in life.\"\n    },\n    {\n      \"claim_text\": \"AB 167 aims to improve quality standards for child care programs based on the proven Early Head Start model.\"\n    },\n    {\n      \"claim_text\": \"AB 167 seeks to expand access to high-quality, full-day, full-year child care for infants and toddlers in high-need communities.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Only 9% of California’s low-income infants and toddlers who are income-eligible for subsidized child care are enrolled.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Fewer families have access to quality early learning programs with comprehensive support services that research shows has the greatest positive impact on low-income babies.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The first three years are critical to a child's development, providing the platform for future health and well-being.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "High-quality early learning programs and support are needed before kindergarten or preschool to benefit children.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Strengthening and expanding child care programs based on the effective, high-quality Early Head Start model can give more children a better start in life.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 167 aims to improve quality standards for child care programs based on the proven Early Head Start model.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 167 seeks to expand access to high-quality, full-day, full-year child care for infants and toddlers in high-need communities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "8d71816bf80117deebbe5a6c8751d77b00231843"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230523-assemblywoman-soria-and-assemblymember-ramos-bill-exemption-military.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is the only state to tax the pensions of military personnel.\",\n    \"Military retirees bring benefits to the state such as stability and job skills used in second careers.\",\n    \"Military retirees contribute to the state's workforce development where they choos",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is the only state to tax the pensions of military personnel.\",\n    \"Military retirees bring benefits to the state such as stability and job skills used in second careers.\",\n    \"Military retirees contribute to the state's workforce development where they choose to retire.\",\n    \"California's military retiree population has realized a steady decline dating back to 2010.\",\n    \"The state loses out on millions of dollars in federal funds that follow military retirees after retirement.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f59b085ae69b1025f5fd14b394fb6e5d0c0c3551"
+}

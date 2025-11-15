@@ -1,0 +1,13 @@
+{
+  "press_release": "20250125-community-heroes-take-center-stage-assemblymember-mia-bontas-3rd-annual.txt",
+  "party": "Democratic",
+  "title": "OAKLAND",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "19aa8573c475e46ea01cab3ef4c585a7d4b61d3d"
+}

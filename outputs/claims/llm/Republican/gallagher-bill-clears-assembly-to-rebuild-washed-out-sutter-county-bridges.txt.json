@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-bill-clears-assembly-to-rebuild-washed-out-sutter-county-bridges.txt",
+  "party": "Republican",
+  "title": "AB 975 fast-tracks critical storm repairs and restores rural access routes",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d2394ed445e31a3e709e88ed70a99614ed9d87b7"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-bills-to-help-camp-fire-survivors-fund-fire-protection-signed-into-law.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:49:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"In 2018, the Camp Fire killed 85 people and destroyed more than 18,000 structures in and around Paradise, making it the deadliest and most destructive wildfire in California history.\",\n    \"More than 2,500 homes have been rebuilt since the Camp Fire, with roughly 700 hom",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"In 2018, the Camp Fire killed 85 people and destroyed more than 18,000 structures in and around Paradise, making it the deadliest and most destructive wildfire in California history.\",\n    \"More than 2,500 homes have been rebuilt since the Camp Fire, with roughly 700 homes currently under construction.\",\n    \"Paradise is the fastest-growing city in California for the second year in a row.\",\n    \"California allows survivors of disasters such as the Camp Fire to avoid a property tax increase by transferring the assessed value of their previous home when they rebuild or purchase a new property within five years.\",\n    \"AB 556 provides survivors an additional three years to retain their home’s base value as they work to recover.\",\n    \"AB 570 makes County Service Areas that provide fire protection services eligible for grant funding from the Special District Fire Response Fund.\",\n    \"Proposition 19, approved by voters in November 2020, will generate additional revenue for fire protection in the state’s most underfunded areas.\",\n    \"County Service Areas were excluded from receiving Proposition 19 grants despite providing the same services and facing the same budgetary challenges as the fire districts that would receive those grants.\",\n    \"AB 570 addresses the disparity, ensuring all Californians have access to well-funded, professional fire protection services.\",\n    \"The grants opened up by AB 570 will assist firefighters with improved training, modern equipment, and high-quality facilities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d740e955aa6df4f32ce54501610341c464c6fdc"
+}

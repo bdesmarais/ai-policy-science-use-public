@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-jeff-gonzalezs-statement-on-recent-anti-semitic-incidents-in-the-coachella-valley.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO –Today, Assemblyman Jeff Gonzalez (R-Indio) issued the following statement in response to the recent anti-Semitic incidents occurring throughout the Coachella Valley:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f225d76cca8fd4c4bdfca45784a9043ab71caf48"
+}

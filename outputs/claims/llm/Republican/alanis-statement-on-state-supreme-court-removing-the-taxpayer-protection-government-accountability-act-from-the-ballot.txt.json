@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-statement-on-state-supreme-court-removing-the-taxpayer-protection-government-accountability-act-from-the-ballot.txt",
+  "party": "Republican",
+  "title": "I’m very disappointed to hear that the Taxpayer Protection and Government Accountability Act will not appear on the November 5th ballot. The electorate in California should have be",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "401f577ecad9411046f00b63578a79c30ed98055"
+}

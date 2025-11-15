@@ -1,0 +1,13 @@
+{
+  "press_release": "video-leader-jones-exposes-chaos-san-diego-border.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones (R-San Diego) released a four-minute video exposing the dangerous failures of the Biden Administration’s open border policy in San Dieg",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"For the first time in 25 years, San Diego has become the top region along the southern border for migrant arrivals.\",\n    \"The San Diego border has seen a 500% rise in Chinese migrants detained compared to last year.\",\n    \"California Democrats are expanding taxpayer-fun",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"For the first time in 25 years, San Diego has become the top region along the southern border for migrant arrivals.\",\n    \"The San Diego border has seen a 500% rise in Chinese migrants detained compared to last year.\",\n    \"California Democrats are expanding taxpayer-funded healthcare to all illegal immigrants at a cost of $5 billion a year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0e03e2a62eeeee078f6aa6f9d8807bc0510872ac"
+}

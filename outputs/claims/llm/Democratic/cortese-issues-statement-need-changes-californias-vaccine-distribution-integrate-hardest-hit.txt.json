@@ -1,0 +1,13 @@
+{
+  "press_release": "cortese-issues-statement-need-changes-californias-vaccine-distribution-integrate-hardest-hit.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose) issued the following statement regarding a Bay Area-wide effort led by State Legislators, community leaders, and community-based organizations, ur",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:11:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Bay Area accounts for 20% of the population of California.\",\n    \"Many hard-hit communities in the Bay Area have COVID-19 infection rates that are twice that of the state's overall rate.\",\n    \"Only 2% of Bay Area residents fall under zip codes being prioritized for ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Bay Area accounts for 20% of the population of California.\",\n    \"Many hard-hit communities in the Bay Area have COVID-19 infection rates that are twice that of the state's overall rate.\",\n    \"Only 2% of Bay Area residents fall under zip codes being prioritized for nearly half of the available doses of the COVID-19 vaccine.\",\n    \"Not every community has felt the effects of the COVID-19 pandemic equally.\",\n    \"COVID-19 has intensified longstanding racial and economic disparities in health equity.\",\n    \"There is a need for targeted efforts to address socioeconomic barriers to health equity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "059b42e869cf1e41686df0cfec119dccc25fd039"
+}

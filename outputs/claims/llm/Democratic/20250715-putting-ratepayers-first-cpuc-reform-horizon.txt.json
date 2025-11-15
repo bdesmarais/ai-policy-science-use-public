@@ -1,0 +1,13 @@
+{
+  "press_release": "20250715-putting-ratepayers-first-cpuc-reform-horizon.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA-",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 13 is the only CPUC reform bill passed by the State Assembly this year.\",\n    \"AB 13 demands accountability to voters regarding utility rate increases.\",\n    \"Public trust in the CPUC continues to erode.\",\n    \"PG&E is projected to rake in $2.47 billion in profits in ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 13 is the only CPUC reform bill passed by the State Assembly this year.\",\n    \"AB 13 demands accountability to voters regarding utility rate increases.\",\n    \"Public trust in the CPUC continues to erode.\",\n    \"PG&E is projected to rake in $2.47 billion in profits in 2024.\",\n    \"AB 13 requires the Governor to consider geographic diversity when appointing commissioners.\",\n    \"AB 13 mandates that commissioners come from each of the four State Board of Equalization districts, along with one at-large member from a nongovernmental background.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "02d04a5c95cc43874c8302869edf1c1257f8f722"
+}

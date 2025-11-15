@@ -1,0 +1,13 @@
+{
+  "press_release": "20240916-governor-newsom-signs-legislation-help-holocaust-survivors-recover-stolen.txt",
+  "party": "Democratic",
+  "title": "LOS ANGELES, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:16:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom signed Assembly Bill (AB) 2867, which empowers California residents to recover art and personal property stolen during the Holocaust.\",\n    \"AB 2867 mandates that California law must apply in lawsuits involving the theft of art or other personal pro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom signed Assembly Bill (AB) 2867, which empowers California residents to recover art and personal property stolen during the Holocaust.\",\n    \"AB 2867 mandates that California law must apply in lawsuits involving the theft of art or other personal property looted during the Holocaust.\",\n    \"The Ninth Circuit Court of Appeals allowed a Spanish museum to retain possession of a famous Impressionist masterpiece stolen by the Nazis.\",\n    \"The application of Spanish law rather than California law in the Ninth Circuit's decision resulted in a deep injustice.\",\n    \"AB 2867 aims to send a clear message that museums have no right to maintain possession of stolen art.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9c8c4fe16b3f8af1dfd3d5329946e3388705e764"
+}

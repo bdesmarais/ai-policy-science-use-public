@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-introduces-measure-end-early-release-violent-sex-offenders-and-murderers.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones ( R-San Diego ) introduced Senate Bill 286 , which will close a dangerous loophole in California’s Elderly Parole program that allows v",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Elderly Parole program in California allows violent sex offenders and murderers to be released early.\",\n    \"Current laws force the Board of Parole Hearings to justify why violent offenders should not be released.\",\n    \"The Elderly Parole age threshold was lowered f",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Elderly Parole program in California allows violent sex offenders and murderers to be released early.\",\n    \"Current laws force the Board of Parole Hearings to justify why violent offenders should not be released.\",\n    \"The Elderly Parole age threshold was lowered from 60 years to 50 years by Assembly Bill 3234.\",\n    \"A loophole in Assembly Bill 3234 allows violent sex offenders to be eligible for Elderly Parole after serving only 20 years.\",\n    \"Proponents of Assembly Bill 3234 claimed that sex offenders and rapists would not be eligible for Elderly Parole, despite it being omitted in the legislation.\",\n    \"Since the passage of Assembly Bill 3234, multiple child molesters have become eligible for Elderly Parole.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b1337aa6ba974c2f8890347b62eb2763400cf6c1"
+}

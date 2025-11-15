@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-corteses-response-his-sb-908-stopping-fentanyl-exposure-among-children-being-signed-law.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE, CA – Senator Dave Cortese issued the following statement regarding his Senate Bill 908 (SB 908) being signed into law by Governor Newsom.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 908 will address the critical need for a standardized public health response to the fentanyl crisis affecting children aged five and younger.\",\n    \"SB 908 mandates the State Department of Public Health to track and analyze trends in fentanyl-related deaths w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 908 will address the critical need for a standardized public health response to the fentanyl crisis affecting children aged five and younger.\",\n    \"SB 908 mandates the State Department of Public Health to track and analyze trends in fentanyl-related deaths within the age group of five and younger.\",\n    \"SB 908 requires the development of preventative guidelines to safeguard young lives from the risks of opioid poisoning.\",\n    \"SB 908 includes the dissemination of crucial information regarding fentanyl exposure to all California counties.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "94941d4edda25fdda2330c57051583bc3d734c01"
+}

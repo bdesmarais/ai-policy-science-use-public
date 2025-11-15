@@ -1,0 +1,13 @@
+{
+  "press_release": "donate-blood-american-red-cross.txt",
+  "party": "Democratic",
+  "title": "I’m asking the people of the 32nd Senate District to help their neighbors by donating blood. Even as we endure through this pandemic, blood is still needed for a number of life-sav",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The plasma from individuals who have recovered from COVID-19 may contain antibodies that can potentially treat patients currently battling the disease.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The plasma from individuals who have recovered from COVID-19 may contain antibodies that can potentially treat patients currently battling the disease.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f582d02409483bda4b841a11d8779f2d3520091f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-renews-push-curb-financial-aid-fraud-plaguing-california-community.txt",
+  "party": "Republican",
+  "title": "Citing alarming new data showing tens of millions of taxpayer dollars lost to fraudulent student accounts, Senator Rosilicie Ochoa Bogh (R-Yucaipa) is once again calling for a comp",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Tens of millions of taxpayer dollars have been lost to fraudulent student accounts.\",\n    \"Fictitious students, often created by bots, continue to siphon federal and state financial aid.\",\n    \"Scammers stole over $10 million in federal aid in the past year alone.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Tens of millions of taxpayer dollars have been lost to fraudulent student accounts.\",\n    \"Fictitious students, often created by bots, continue to siphon federal and state financial aid.\",\n    \"Scammers stole over $10 million in federal aid in the past year alone.\",\n    \"State financial aid fraud surged, with over $3 million disbursed to fake students.\",\n    \"The percentage of fraudulent applicants has climbed from 20% in 2021 to 34% in early 2025.\",\n    \"There have been calls for a comprehensive audit of the California Community Colleges Chancellor’s Office to determine protections against financial aid fraud.\",\n    \"Existing technology used to detect and prevent fraud may not be effective.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "30776569ea006a6d9d9099b4ef726d6c5025c87c"
+}

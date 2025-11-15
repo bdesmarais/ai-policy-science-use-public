@@ -1,0 +1,13 @@
+{
+  "press_release": "20210901-state-legislature-approves-resolution-rename-portion-highway-101-honor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Dr. Sally Ride became the first American woman in space in 1983.\",\n    \"Dr. Sally Ride is the earliest space traveler to be recognized as part of the LGBTQ+ community.\",\n    \"Dr. Sally Ride was selected as one of 35 people out of 8,000 applicants to be part of NASA Astro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Dr. Sally Ride became the first American woman in space in 1983.\",\n    \"Dr. Sally Ride is the earliest space traveler to be recognized as part of the LGBTQ+ community.\",\n    \"Dr. Sally Ride was selected as one of 35 people out of 8,000 applicants to be part of NASA Astronaut Group 8 in 1978.\",\n    \"Dr. Sally Ride became the youngest American astronaut to have traveled to space at the age of 32.\",\n    \"Dr. Sally Ride encountered gender-biased media questions about her reproductive organs during her career.\",\n    \"Dr. Sally Ride served on two space shuttle flights.\",\n    \"Dr. Sally Ride was the only person appointed to help investigate both the Challenger and Columbia space shuttle disasters.\",\n    \"Dr. Sally Ride co-founded Sally Ride Science in 2001 to help children pursue science.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c5c4d449c16152d32a2e300c08717c66504def4d"
+}

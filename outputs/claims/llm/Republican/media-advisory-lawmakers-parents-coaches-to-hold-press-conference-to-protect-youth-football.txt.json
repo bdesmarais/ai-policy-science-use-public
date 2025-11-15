@@ -1,0 +1,13 @@
+{
+  "press_release": "media-advisory-lawmakers-parents-coaches-to-hold-press-conference-to-protect-youth-football.txt",
+  "party": "Republican",
+  "title": "Parents, not politicians, should decide what sports their children can play.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Youth football has positive impacts on children.\",\n    \"A number of sports and activities, including flag football, may have a higher risk of injury for young athletes than tackle football.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Youth football has positive impacts on children.\",\n    \"A number of sports and activities, including flag football, may have a higher risk of injury for young athletes than tackle football.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a9bcd1b6c78383192fbf48149ca225e91d4f7b79"
+}

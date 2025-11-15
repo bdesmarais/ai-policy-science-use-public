@@ -1,0 +1,13 @@
+{
+  "press_release": "20180130-quirk-silvaas-california-economic-improvement-plan-heads-senate.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO) â",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 767 establishes a Small Business Master License Center within the Governor’s Office of Business and Economic Development for the purpose of developing and administering an internet-based program that allows businesses to electronically submit a business license and pe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 767 establishes a Small Business Master License Center within the Governor’s Office of Business and Economic Development for the purpose of developing and administering an internet-based program that allows businesses to electronically submit a business license and permit application.\",\n    \"The internet is a useful tool for assisting businesses in navigating federal, state, and local requirements.\",\n    \"AB 1547 modifies the definition of small businesses under the California Americans with Disabilities Act Small Business Capital Access Loan Program to increase the number of eligible applicants.\",\n    \"AB 1552 encourages public utilities to promptly pay contracted small business suppliers who have submitted timely and valid invoices and imposes a late payment penalty if they fail to do so.\",\n    \"AB 1561 expands the definition of port facilities eligible for financing through the California Infrastructure and Economic Development Bank to include inland ports.\",\n    \"Improving the transportation infrastructure between the production and movement of goods is an important economic development priority for California.\",\n    \"AB 1715 establishes a process for submitting proposals to GO-Biz for operating an international trade and foreign investment office.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a975ea5eed9c25238f68042c792051c63e0b5c2e"
+}

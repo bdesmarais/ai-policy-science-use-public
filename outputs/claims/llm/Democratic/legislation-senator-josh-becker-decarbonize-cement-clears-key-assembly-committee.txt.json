@@ -1,0 +1,13 @@
+{
+  "press_release": "legislation-senator-josh-becker-decarbonize-cement-clears-key-assembly-committee.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Concrete accounts for half the weight of everything ever made by humanity.\",\n    \"Concrete is a major source of greenhouse gases, accounting for about 7% of global CO2 emissions.\",\n    \"About 90% of CO2 emissions from concrete come from making cement.\",\n    \"Technologies",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Concrete accounts for half the weight of everything ever made by humanity.\",\n    \"Concrete is a major source of greenhouse gases, accounting for about 7% of global CO2 emissions.\",\n    \"About 90% of CO2 emissions from concrete come from making cement.\",\n    \"Technologies and processes exist for achieving large reductions in emissions from cement production.\",\n    \"The lack of deployment of these technologies at scale is due to insufficient policies to encourage emissions reductions in California.\",\n    \"SB 596 aims to create a supportive policy environment for achieving carbon neutrality by 2045.\",\n    \"The legislation will develop a strategy for achieving long-term and interim targets for emissions reductions.\",\n    \"SB 596 is intended to protect producers from unfair competition from out-of-state producers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2880bdb1f23a8a20f1cdc9da631d15baea1e4245"
+}

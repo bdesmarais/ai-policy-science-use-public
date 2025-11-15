@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-appointed-california-commission-disability-access.txt",
+  "party": "Republican",
+  "title": "Sacramento – State Senate Republican Caucus Chairman Brian Jones (R-Santee) was recently appointed by the Senate Rules Committee to serve on the California Commission on Disability",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f1d1b5b1b446a06d13d19803dd3ef0b9ab3fee00"
+}

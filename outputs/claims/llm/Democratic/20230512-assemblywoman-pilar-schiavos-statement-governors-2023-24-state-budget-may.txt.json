@@ -1,0 +1,13 @@
+{
+  "press_release": "20230512-assemblywoman-pilar-schiavos-statement-governors-2023-24-state-budget-may.txt",
+  "party": "Democratic",
+  "title": "\"Today, Governor Newsom released his revision to the 2023-24 Fiscal Year State Budget.  As we expected, the revenue forecast is for an even larger shortfall, by $9.3 billion, than ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "20253865456cb9ddaf39972f7658922985eb501e"
+}

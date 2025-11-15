@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-reacts-to-ca-flex-alert-08-17-2022.txt",
+  "party": "Republican",
+  "title": "Blasts Newsom’s Last Minute Climate Package",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Energy shortages, flex alerts, and blackouts are a direct result of failed Democrat policy in California.\",\n    \"The Governor's plan could cost taxpayers $130 billion.\",\n    \"The Governor's plan could add $50,000 to the median price of a home.\",\n    \"The Governor's plan ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Energy shortages, flex alerts, and blackouts are a direct result of failed Democrat policy in California.\",\n    \"The Governor's plan could cost taxpayers $130 billion.\",\n    \"The Governor's plan could add $50,000 to the median price of a home.\",\n    \"The Governor's plan could eliminate 8,000 jobs.\",\n    \"The new climate plan attempts to repeal and replace the state's carbon reduction goals put in place by Governor Jerry Brown.\",\n    \"The plan omits any funding or regulatory relief to help prevent catastrophic wildfires.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "707541320e5286b99294e20fa218c8e26a140e6d"
+}

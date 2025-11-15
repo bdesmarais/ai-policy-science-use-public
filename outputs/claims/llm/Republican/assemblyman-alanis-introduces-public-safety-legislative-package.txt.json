@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-alanis-introduces-public-safety-legislative-package.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assemblymember Alanis officially announced his public safety bill package for the 2024 legislative year.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:39:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1839 provides incentives to support law enforcement recruitment efforts via grants, advertising, and hiring bonuses.\",\n    \"AB 1845 supports law enforcement agencies and prosecutors in combatting retail theft with resources to identify, apprehend, and prosecute crimin",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1839 provides incentives to support law enforcement recruitment efforts via grants, advertising, and hiring bonuses.\",\n    \"AB 1845 supports law enforcement agencies and prosecutors in combatting retail theft with resources to identify, apprehend, and prosecute criminals involved in the reselling of stolen property.\",\n    \"AB 1859 requires the tracking of deaths associated with xylazine, which will assist in identifying trends and developing evidence-based interventions.\",\n    \"AB 1972 expands the definition of California’s organized retail theft statute to include the term 'cargo', giving law enforcement additional tools to combat organized cargo theft.\",\n    \"AB 1996 ensures that employees at entertainment spaces like stadiums and amusement parks are properly trained in the use of life-saving opioid antagonists like Narcan.\",\n    \"ACA 15 eliminates the eligibility of inmates convicted of felony sex offenses for early parole.\",\n    \"AB 1804 expands warrant searches for fentanyl drug dealers.\",\n    \"AB 1772 increases penalties for retail theft crimes.\",\n    \"AB 2035 prohibits the release of sexually violent predators as transients.\",\n    \"SB 21, known as Alexandra’s Law, implements criminal admonishment for fentanyl crimes.\",\n    \"SB 1011 protects children by prohibiting homeless encampments within 500 feet of a school.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b1b80b1de8276d6b61e17deef8759e89f0542369"
+}

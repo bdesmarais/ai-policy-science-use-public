@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-honors-2024-women-achievement-senate-district-30.txt",
+  "party": "Democratic",
+  "title": "DIAMOND BAR, CA – Senator Bob Archuleta (D-Pico Rivera), in honor of Women’s History Month, recognized 21 women at his annual 2024 Women of Achievement in Senate District 30 progra",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b6335b5c2f9731a578efe5845cce633c2e4b084d"
+}

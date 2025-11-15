@@ -1,0 +1,13 @@
+{
+  "press_release": "20250710-assemblymember-juan-carrillo-appointed-california-high-speed-rail-authority.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA — Assemblymember Juan Carrillo, representing California’s 39th Assembly District, has been appointed by Assembly Speaker Robert Rivas to serve as the only Assemblyme",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3b159b71e449571dc9296e59419427f750bcef33"
+}

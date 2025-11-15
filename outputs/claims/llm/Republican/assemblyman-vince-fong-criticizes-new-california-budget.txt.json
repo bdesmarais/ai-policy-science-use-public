@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-vince-fong-criticizes-new-california-budget.txt",
+  "party": "Republican",
+  "title": "June 15, 2020",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0a4ea1c0508cf095b508c7100132eaa33e9042e9"
+}

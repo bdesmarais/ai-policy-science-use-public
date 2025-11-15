@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-call-on-newsom-to-do-something-on-homelessness.txt",
+  "party": "Republican",
+  "title": "State needs to lower living costs, enforce our laws and fight back against judges who perpetuate homelessness.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:38:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's current approach to homelessness isn't effective.\",\n    \"Since 2019, California has spent more than $20 billion on homelessness programs.\",\n    \"Despite the spending on homelessness programs, homelessness has increased in California.\",\n    \"California is hom",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's current approach to homelessness isn't effective.\",\n    \"Since 2019, California has spent more than $20 billion on homelessness programs.\",\n    \"Despite the spending on homelessness programs, homelessness has increased in California.\",\n    \"California is home to half the nation’s unsheltered population.\",\n    \"The ruling in Martin v. Boise prohibits the enforcement of anti-camping laws unless there is a shelter bed for each homeless person.\",\n    \"California's 'housing first' policy discourages the construction of emergency shelters.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e9e8b08e1edeaf86bedb42ac6c46a3c961d6aedc"
+}

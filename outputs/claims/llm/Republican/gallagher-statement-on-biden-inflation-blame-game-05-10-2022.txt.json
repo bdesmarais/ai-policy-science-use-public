@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-statement-on-biden-inflation-blame-game-05-10-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republican Leader James Gallagher (Yuba City) released the following statement on Joe Biden’s inflation remarks:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4a5ede1f84ef8a66ec31805e0798c2d703c33a24"
+}

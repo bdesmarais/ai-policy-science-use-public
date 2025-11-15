@@ -1,0 +1,13 @@
+{
+  "press_release": "20210317-assembly-agriculture-committee-holds-hearing-farmer-equity-act-expanding.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:25:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's agriculture is the most diverse in the world in terms of commodities and the diversity of farmers and ranchers.\",\n    \"The diversity of California's farmers and ranchers is a key strength of the state's agricultural sector.\",\n    \"One in five of California's",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's agriculture is the most diverse in the world in terms of commodities and the diversity of farmers and ranchers.\",\n    \"The diversity of California's farmers and ranchers is a key strength of the state's agricultural sector.\",\n    \"One in five of California's farmers is considered a socially disadvantaged farmer.\",\n    \"Historically, farmers of color in California have been subjected to various discriminatory practices.\",\n    \"Small-scale, socially disadvantaged farmers face challenges such as barriers limiting access to resources.\",\n    \"One size fits all regulatory structures can disproportionately burden small-scale, socially disadvantaged farmers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb32482395f54578dc7aca2b7d565d5fb3c63e19"
+}

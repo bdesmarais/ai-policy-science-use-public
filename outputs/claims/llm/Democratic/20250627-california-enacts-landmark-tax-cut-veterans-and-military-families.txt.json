@@ -1,0 +1,13 @@
+{
+  "press_release": "20250627-california-enacts-landmark-tax-cut-veterans-and-military-families.txt",
+  "party": "Democratic",
+  "title": "New legislation provides up to $20,000 in tax-free military retirement income",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "df7a8c5463f54e74b3f43f1611b7cd28328bea84"
+}

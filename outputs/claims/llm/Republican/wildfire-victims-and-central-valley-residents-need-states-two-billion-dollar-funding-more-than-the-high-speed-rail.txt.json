@@ -1,0 +1,13 @@
+{
+  "press_release": "wildfire-victims-and-central-valley-residents-need-states-two-billion-dollar-funding-more-than-the-high-speed-rail.txt",
+  "party": "Republican",
+  "title": "The High-Speed Rail Office of the Inspector General, issued its report that the California High Speed Rail Authority “has not completed a risk analysis that would allow it better t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California High Speed Rail Authority has not completed a risk analysis that would allow it to determine whether its plan for completing the Merced-to-Bakersfield segment is realistic and achievable.\",\n    \"It is increasingly unlikely that the California High Speed Ra",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California High Speed Rail Authority has not completed a risk analysis that would allow it to determine whether its plan for completing the Merced-to-Bakersfield segment is realistic and achievable.\",\n    \"It is increasingly unlikely that the California High Speed Rail Authority will complete the Merced-to-Bakersfield segment.\",\n    \"Residents of the Central Valley need water infrastructure more than the High Speed Rail.\",\n    \"The water infrastructure in the Central Valley is in dire need of modernization for farming and to accommodate growing communities.\",\n    \"The damages from wildfires include 29 lives lost and over 15,000 structures destroyed, causing $250 billion in damages.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "49d6fc981dbf5714f76f13983ed5909b6d3cf152"
+}

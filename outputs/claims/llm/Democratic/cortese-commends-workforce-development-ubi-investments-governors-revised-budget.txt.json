@@ -1,0 +1,13 @@
+{
+  "press_release": "cortese-commends-workforce-development-ubi-investments-governors-revised-budget.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-San Jose), Chair of the California Senate Labor, Public Employment and Retirement Committee, made the following statement about California Governor Gavin Ne",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:11:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The revised budget includes $1.03 billion in workforce development investments.\",\n    \"California's economic recovery package is the largest in the state’s history at $100 billion.\",\n    \"The budget includes $20 million in one-time General Fund dollars for Housing Constr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The revised budget includes $1.03 billion in workforce development investments.\",\n    \"California's economic recovery package is the largest in the state’s history at $100 billion.\",\n    \"The budget includes $20 million in one-time General Fund dollars for Housing Construction Apprenticeship opportunities.\",\n    \"The budget allocates $90 million for the California Workforce Development Board’s High Road Training Partnerships initiative.\",\n    \"Senator Cortese's SB 739 proposes unconditional cash assistance of $1,000 a month to approximately 2,500 youth aging out of the Extended Foster Care Program in California.\",\n    \"The Universal Basic Income pilot programs in the budget are targeted to low-income individuals and require a local match.\",\n    \"The Governor's commitment to universal basic income programs represents a historic statewide investment towards UBI.\",\n    \"Results from the Stockton Economic Empowerment Demonstration (SEED) program showed that participants used their cash assistance payments for basic needs such as housing and food.\",\n    \"Participants in the SEED program were more than twice as likely to be fully employed compared to their peers who did not participate.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "743b7c9b887232166a1c51742d91d58b962c7929"
+}

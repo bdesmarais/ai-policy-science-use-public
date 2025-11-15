@@ -1,0 +1,13 @@
+{
+  "press_release": "media-advisory-senator-grove-love-never-fails-human-trafficking-survivors-commemorate.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove ( R-Bakersfield ) is hosting a press conference with human trafficking survivors and the non-profit organization Love Never Fails (LNF) to announce Senate Con",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "78c7aa93650b0f48a64c75ec17429b9221c0b9f5"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210603-ramos-bill-protect-native-american-students-right-wear-cultural-items.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –A measure to help ensure Native American students may exercise their right to wear items of spiritual or cultural significance at high school graduations was approved t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Native American students have the right to wear items of spiritual or cultural significance at high school graduations.\",\n    \"Local school officials continue to object to Native American students wearing items such as eagle feathers, sashes with basket designs, basket c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Native American students have the right to wear items of spiritual or cultural significance at high school graduations.\",\n    \"Local school officials continue to object to Native American students wearing items such as eagle feathers, sashes with basket designs, basket caps, or beaded medallions during graduation ceremonies.\",\n    \"In 2018, a bill authorized students to wear tribal regalia or recognized objects of religious or cultural significance at graduation ceremonies.\",\n    \"The proposed measure AB 945 would require the California Department of Education to convene a task force for public comments regarding denied rights to wear traditional tribal regalia at school graduation ceremonies.\",\n    \"The task force would be tasked with developing recommendations for best practices and protocols related to the wearing of traditional tribal regalia.\",\n    \"Native American students have a graduation rate of 75.8 percent, which is lower than the statewide graduation rate of 84.3 percent.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c88369e811325027907a1dcc03cb6b29112ba7f7"
+}

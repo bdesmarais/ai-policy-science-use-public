@@ -1,0 +1,13 @@
+{
+  "press_release": "20201001-assemblywoman-rubios-save-local-journalism-act-signed-governor-newsom.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:20:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 323 provides a bridge for local newspapers to continue informing readers and their communities.\",\n    \"Community newspapers and ethnic news are critical to the open exchange of diverse ideas and perspectives.\",\n    \"Many members of our community rely on local news.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 323 provides a bridge for local newspapers to continue informing readers and their communities.\",\n    \"Community newspapers and ethnic news are critical to the open exchange of diverse ideas and perspectives.\",\n    \"Many members of our community rely on local news.\",\n    \"AB 323 will allow community and ethnic news outlets to reach underserved communities through state advertising.\",\n    \"AB 323 provides an additional year for ethnic, mid-size, and daily newspapers to pursue alternate distribution models.\",\n    \"The current times necessitate specialized outlets that facilitate improved civic engagement and better cross-cultural communication.\",\n    \"Reliance on local news sources has grown over the last year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "270a6cccac9f3cd073b7431a7841eabf14c3a649"
+}

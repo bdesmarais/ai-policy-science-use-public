@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-bill-senator-cortese-granting-new-rights-flight-attendants.txt",
+  "party": "Democratic",
+  "title": "Flight attendants now have the right to negotiate meal and rest break benefits while airlines comply with California law under a bill signed into law Thursday by Governor Gavin New",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:13:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Flight attendants now have the right to negotiate meal and rest break benefits.\",\n    \"SB 41 enables compliance with California’s meal and rest break law for flight attendants only if there is a Collective Bargaining Agreement that provides for breaks or appropriate comp",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Flight attendants now have the right to negotiate meal and rest break benefits.\",\n    \"SB 41 enables compliance with California’s meal and rest break law for flight attendants only if there is a Collective Bargaining Agreement that provides for breaks or appropriate compensation.\",\n    \"California law requires employees to be 'off duty' during meal and rest breaks.\",\n    \"The Federal Aviation Administration (FAA) requires flight attendants to remain 'on duty' at all times during a flight, including during meal and rest periods.\",\n    \"Airline management previously claimed that cabin crew were exempt from the California meal and rest break law.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "adf2c3ca702e63da1b13f949da8dd42da76a791c"
+}

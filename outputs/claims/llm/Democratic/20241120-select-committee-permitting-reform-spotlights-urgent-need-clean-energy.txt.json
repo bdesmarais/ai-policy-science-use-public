@@ -1,0 +1,13 @@
+{
+  "press_release": "20241120-select-committee-permitting-reform-spotlights-urgent-need-clean-energy.txt",
+  "party": "Democratic",
+  "title": "PALM DESERT, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's outdated permitting processes are stalling projects needed to meet its climate goals.\",\n    \"The Desert Peak Project is one of the world's largest battery storage sites with a capacity of 700 MW.\",\n    \"Desert Peak provides critical grid stability by storing",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's outdated permitting processes are stalling projects needed to meet its climate goals.\",\n    \"The Desert Peak Project is one of the world's largest battery storage sites with a capacity of 700 MW.\",\n    \"Desert Peak provides critical grid stability by storing renewable energy and delivering it during peak demand.\",\n    \"Several jurisdictions in California have imposed battery energy storage system moratoriums that can last up to two years.\",\n    \"The proliferation of moratoriums threatens the ability to deploy sufficient energy storage to support greenhouse gas reduction goals.\",\n    \"There is a need for a more efficient permitting framework to expand electricity transmission capacity in California.\",\n    \"Reliable and predictable timelines for project approvals are important to attract investment in renewable energy projects.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d7a3bf54988f2ed76653afe5cb9de4a7b319ac30"
+}

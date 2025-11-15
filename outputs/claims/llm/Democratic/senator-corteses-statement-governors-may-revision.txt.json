@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-statement-governors-may-revision.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese (D-Silicon Valley) made the following statement about California Governor Gavin Newsom’s revised state budget , also known as the “May Revision”, that was released ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed $18.1 billion inflation relief package can provide relief to Californians struggling with rising costs.\",\n    \"The proposal includes per-pupil spending at its highest level in California's history: $20,855.\",\n    \"It is critical to fully fund the public educ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed $18.1 billion inflation relief package can provide relief to Californians struggling with rising costs.\",\n    \"The proposal includes per-pupil spending at its highest level in California's history: $20,855.\",\n    \"It is critical to fully fund the public education system to set students up for success, starting with investments in early learning.\",\n    \"The historic drought is causing increased wildfire intensity as well as livestock and crop destruction.\",\n    \"The proposed additional $32 billion investment toward fighting climate change can help build climate-resilient neighborhoods.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "20b492152f920b9800c5de468b40c2b04d3bac42"
+}

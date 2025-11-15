@@ -1,0 +1,13 @@
+{
+  "press_release": "20230525-assemblywoman-quirk-silvas-ab-1297-paving-way-enhanced-accessibility-public.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA - Today,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:01:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Public Restrooms Act requires cities and counties to report their inventory of accessible public restrooms to the Department of Public Health.\",\n    \"The Public Restrooms Act aims to improve the availability and accessibility of public restrooms for all Californians.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Public Restrooms Act requires cities and counties to report their inventory of accessible public restrooms to the Department of Public Health.\",\n    \"The Public Restrooms Act aims to improve the availability and accessibility of public restrooms for all Californians.\",\n    \"A user-friendly website will be created by the Department of Public Health to allow the public to search for public restrooms by zip code.\",\n    \"The Public Restrooms Act empowers individuals, including specific marginalized groups, to easily locate and access public restrooms.\",\n    \"Access to bathrooms has been a fundamental aspect of civil rights movements.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "593301d4e98d0ce2d2a3e67b6fefea7ad6c60f66"
+}

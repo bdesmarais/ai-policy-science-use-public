@@ -1,0 +1,13 @@
+{
+  "press_release": "80th-anniversary-liberation-auschwitz-california-lawmakers-are-shining-light-gap-holocaust-ed.txt",
+  "party": "Democratic",
+  "title": "Newsletter: Sign Up For The Latest Updates",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Only 26% of the 143 school districts that responded have programs for Holocaust or other genocide education.\",\n    \"The lack of Holocaust and genocide education exists in both rural (24%) and urban (31%) communities in California.\",\n    \"The California Teacher’s Collabor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Only 26% of the 143 school districts that responded have programs for Holocaust or other genocide education.\",\n    \"The lack of Holocaust and genocide education exists in both rural (24%) and urban (31%) communities in California.\",\n    \"The California Teacher’s Collaborative for Holocaust and Genocide Education has hosted over 1500 teachers and administrators since its inception in 2021.\",\n    \"The legislation aims to train 8400 teachers by 2029 and reach 1,062,500 students by the end of the decade.\",\n    \"Educational initiatives focused on empathy and historical accuracy are vital for teaching about the Holocaust and genocides.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "84a68625c72e8837a757a7eaa25d2ed3a672ab73"
+}

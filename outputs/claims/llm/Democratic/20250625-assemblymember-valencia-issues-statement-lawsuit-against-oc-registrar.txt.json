@@ -1,0 +1,13 @@
+{
+  "press_release": "20250625-assemblymember-valencia-issues-statement-lawsuit-against-oc-registrar.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The lawsuit filed by the U.S. Department of Justice against the Orange County Registrar of Voters misrepresents what actually happened.\",\n    \"The Orange County Registrar of Voters complied with state law and provided requested records.\",\n    \"The Orange County Registrar",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The lawsuit filed by the U.S. Department of Justice against the Orange County Registrar of Voters misrepresents what actually happened.\",\n    \"The Orange County Registrar of Voters complied with state law and provided requested records.\",\n    \"The Orange County Registrar of Voters proposed a secure and lawful way to share additional data.\",\n    \"Suing a local elections office for protecting sensitive voter information undermines trust.\",\n    \"Secure and accessible election systems are essential for maintaining community trust.\",\n    \"The DOJ's lawsuit diverts attention and resources away from ensuring election system security and trust.\",\n    \"Claims of widespread voter fraud in the 2020 election have not been substantiated.\",\n    \"Election systems used in 2024 delivered results that were accepted by many who previously doubted them.\",\n    \"Punishing those who follow the law does not help build trust in a free and fair electoral process.\",\n    \"The Orange County Registrar shows a willingness to work with federal authorities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b4023a04f8bbde800cf3e3ce7a95ef036b0bf7cf"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-shannon-groves-children-protection-measure-passes-out-committee.txt",
+  "party": "Republican",
+  "title": "Senator Grove, Paris Hilton, and advocates at a press conference prior to the bill presentation.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1043 proposes greater transparency for children and young adults living in facilities licensed by the California Department of Social Services.\",\n    \"SB 1043 requires information related to the use of restraints and seclusion rooms to be accessible to the pu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1043 proposes greater transparency for children and young adults living in facilities licensed by the California Department of Social Services.\",\n    \"SB 1043 requires information related to the use of restraints and seclusion rooms to be accessible to the public.\",\n    \"Senator Shannon Grove aims to ensure the highest level of transparency in children's care.\",\n    \"The Accountability in Children's Treatment measure will create more accountability in the treatment of vulnerable youth.\",\n    \"California has been on the forefront of addressing transparency in children's treatment facilities.\",\n    \"SB 1043 will display key data on a public dashboard regarding the use of seclusion rooms, restraints, and incidents resulting in serious injuries or deaths.\",\n    \"Numerous reports have highlighted cases of abuse at out-of-state facilities where California sent children for treatment.\",\n    \"AB 808 was introduced to eliminate the placement of foster youth in out-of-state treatment facilities and created the Child's Continuum Pilot Program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "428de1477dd5aa5583b21851b594a7af391ccad8"
+}

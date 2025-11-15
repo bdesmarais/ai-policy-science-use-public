@@ -1,0 +1,13 @@
+{
+  "press_release": "20200610-ramos-bill-create-first-statewide-office-suicide-prevention-heads-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has seen more than 4,300 violent deaths caused by suicide in 2017.\",\n    \"In 2017, there were 34,371 emergency room visits linked to suicide attempts in California.\",\n    \"The COVID-19 pandemic has exposed and worsened the epidemic of youth suicide in Californ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has seen more than 4,300 violent deaths caused by suicide in 2017.\",\n    \"In 2017, there were 34,371 emergency room visits linked to suicide attempts in California.\",\n    \"The COVID-19 pandemic has exposed and worsened the epidemic of youth suicide in California.\",\n    \"Suicide is the second leading cause of death among young people ages 15 to 24, according to a 2017 study from the CDC.\",\n    \"One in six high school students stated they seriously considered ending their lives, according to the CDC's High School Youth Risk Behavior Survey Data from 1991-2017.\",\n    \"More than one in 12 high school students reported attempted suicides, according to the CDC's High School Youth Risk Behavior Survey Data from 1991-2017.\",\n    \"In 2014, 3,575 children aged five to 20 were hospitalized for non-fatal self-inflicted injuries in California.\",\n    \"Research suggests the number of lives lost to suicide will increase as a result of COVID-19.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "09feab8eec3e26aa3bab0e823756631d90398d4e"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20231009-governor-newsom-signs-assemblymember-bauer-kahans-legislation-improve.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:28:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The demand for California's public parks and beaches has greatly increased.\",\n    \"The current reservation system for California's public parks is outdated.\",\n    \"Many campsites in California parks are left empty due to the current reservation system.\",\n    \"AB 618",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The demand for California's public parks and beaches has greatly increased.\",\n    \"The current reservation system for California's public parks is outdated.\",\n    \"Many campsites in California parks are left empty due to the current reservation system.\",\n    \"AB 618 requires future California contracts for the online camping registration system to deter late cancellations and no-shows.\",\n    \"AB 618 mandates the implementation of a lottery system for the five most popular camping sites in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d7ac4e245b6589ec858cd3fbcfcb34767158d342"
+}

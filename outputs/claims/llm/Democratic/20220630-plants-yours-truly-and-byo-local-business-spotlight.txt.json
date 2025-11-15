@@ -1,0 +1,13 @@
+{
+  "press_release": "20220630-plants-yours-truly-and-byo-local-business-spotlight.txt",
+  "party": "Democratic",
+  "title": "Huntington Beach",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:43:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Plants By Yours Truly offers a variety of services including plant care, interior plant design, and plant design for events.\",\n    \"Plants By Yours Truly champions mental health awareness.\",\n    \"BYO offers a carefully curated selection of environmentally sustainable and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Plants By Yours Truly offers a variety of services including plant care, interior plant design, and plant design for events.\",\n    \"Plants By Yours Truly champions mental health awareness.\",\n    \"BYO offers a carefully curated selection of environmentally sustainable and reusable personal care and home goods.\",\n    \"BYO encourages customers to bring their own container to refill on nontoxic cleaning and personal care products.\",\n    \"Reducing harmful plastic waste can have a positive impact on beach communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b4ca15e9ed6ce022a129b0d19de3a597dceee587"
+}

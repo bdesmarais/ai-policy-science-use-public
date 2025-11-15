@@ -1,0 +1,13 @@
+{
+  "press_release": "20200213-assembly-speaker-names-ramos-chair-special-homelessness-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Assemblymember James C. Ramos today was named chair of the newly created Select Committee on Homelessness in San Bernardino County by Speaker of the Assembly Anthony Ren",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:14:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e9e0fc03acbb8814ed13d3dfdc436fd3f03ee9ac"
+}

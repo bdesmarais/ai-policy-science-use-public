@@ -1,0 +1,13 @@
+{
+  "press_release": "20231002-asm-liz-ortega-d-san-leandro-announces-governor-signed-new-law-prevent.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO ― California high school students will learn about their rights at work and how to defend themselves against workplace abuses under a first-of-its-kind law just signed b",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:10:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California high school students will learn about their rights at work under a new law.\",\n    \"The new law creates a Workplace Readiness Week at public high schools to teach students about workplace rights and protections for minors.\",\n    \"Reports of serious workplace in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California high school students will learn about their rights at work under a new law.\",\n    \"The new law creates a Workplace Readiness Week at public high schools to teach students about workplace rights and protections for minors.\",\n    \"Reports of serious workplace injuries and abuse involving minors have increased.\",\n    \"Some Republican-controlled states have passed laws that loosen protections for minors in the workplace.\",\n    \"In states like Arkansas and Iowa, children as young as 14 can legally work in hazardous environments such as meat coolers and industrial laundries.\",\n    \"Approximately 55% of US teens are employed, often in fields where wage theft is prevalent.\",\n    \"In 2021, 109 teenagers died from work-related injuries in the United States.\",\n    \"Over 33,000 teens suffered workplace injuries so severe that they required emergency care in 2021.\",\n    \"Teaching youth about their rights at work is considered essential education that could potentially save lives.\",\n    \"In 2021, nearly 19,000 claims for unpaid wages were filed by California workers, totaling over $338 million.\",\n    \"Jobs commonly held by young people, such as food service and retail, account for almost half of wage theft claims in California.\",\n    \"Industries where young people work have high rates of sexual harassment, abuse from management or clientele, discrimination, and serious injury.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "89c582cb1bbe8ea97a319495b325ee4b8c1f1cf2"
+}

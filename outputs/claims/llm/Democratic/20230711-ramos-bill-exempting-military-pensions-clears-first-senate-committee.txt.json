@@ -1,0 +1,13 @@
+{
+  "press_release": "20230711-ramos-bill-exempting-military-pensions-clears-first-senate-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Military retirees and their surviving spouses pensions’ are a step closer to exemption from state taxation after the Senate Military and Veterans Affairs Committee  appr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4849ba06d4e35e02c614edbb810442feafc09716"
+}

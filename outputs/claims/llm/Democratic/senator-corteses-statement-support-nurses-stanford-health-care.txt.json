@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-statement-support-nurses-stanford-health-care.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese (D-Silicon Valley) made the following statement regarding Stanford nurses striking today for better staffing conditions and mental health support.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d446210056b73fb714404db12be6d4878f9ee0f1"
+}

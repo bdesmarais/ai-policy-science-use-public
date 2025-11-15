@@ -1,0 +1,13 @@
+{
+  "press_release": "20210922-rivas-salas-multibenefit-agricultural-land-repurposing-program-funded-state.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The implementation of the Sustainable Groundwater Management Act (SGMA) is leading to the loss of hundreds of thousands of acres of irrigated agricultural land in California.\",\n    \"The Multibenefit Land Repurposing Program, funded by SB 170, aims to support the repurpos",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The implementation of the Sustainable Groundwater Management Act (SGMA) is leading to the loss of hundreds of thousands of acres of irrigated agricultural land in California.\",\n    \"The Multibenefit Land Repurposing Program, funded by SB 170, aims to support the repurposing of agricultural land taken out of production due to SGMA.\",\n    \"The repurposing of land can help protect water resources, the environment, and communities simultaneously.\",\n    \"SB 170 is designed to help farmers transition their land in environmentally and economically beneficial ways.\",\n    \"As groundwater usage is reduced, strategic land conversion will provide economic and environmental benefits to rural communities.\",\n    \"The budget earmark for the Multibenefit Land Repurposing Program will establish a grant program for creating new habitats and groundwater recharge sites in critically overdrafted groundwater basins.\",\n    \"Without intervention, idle agricultural land may become hotspots for invasive weeds, pests, and dust, negatively affecting air quality and agricultural productivity.\",\n    \"The Multibenefit Land Repurposing Program is part of a portfolio of approaches needed to transition to sustainable water management in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "43ec34752edb1cf5569412d456466322415240d0"
+}

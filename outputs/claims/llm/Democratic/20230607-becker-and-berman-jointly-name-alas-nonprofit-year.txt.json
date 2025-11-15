@@ -1,0 +1,13 @@
+{
+  "press_release": "20230607-becker-and-berman-jointly-name-alas-nonprofit-year.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"ALAS has been at the forefront supporting farmworkers and families, highlighting concerns like living conditions, mental wellness, economic prosperity, and broadband access.\",\n    \"ALAS provides solutions to the concerns of farmworkers and families.\",\n    \"ALAS has creat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"ALAS has been at the forefront supporting farmworkers and families, highlighting concerns like living conditions, mental wellness, economic prosperity, and broadband access.\",\n    \"ALAS provides solutions to the concerns of farmworkers and families.\",\n    \"ALAS has created a vibrant communal space and collaborated with various partners to expand their services to farms and ranches via the mobile resource center, the Farmworker Equity Express.\",\n    \"The wellbeing of farmworkers is fundamental to the prosperity of San Mateo County.\",\n    \"ALAS honors farmworkers who are an integral part of the San Mateo Coastside community.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b529c795f89cdb227fb2641c1a091ae7cc326f2b"
+}

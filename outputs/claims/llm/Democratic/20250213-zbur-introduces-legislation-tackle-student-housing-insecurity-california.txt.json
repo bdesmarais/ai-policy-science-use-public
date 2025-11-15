@@ -1,0 +1,13 @@
+{
+  "press_release": "20250213-zbur-introduces-legislation-tackle-student-housing-insecurity-california.txt",
+  "party": "Democratic",
+  "title": "Introduced by Assemblymember Rick Chavez Zbur, AB 648 will combat housing insecurity and homelessness among community college students while also addressing California’s broader ho",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:27:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"More than half of California’s community college students faced housing insecurity in 2023.\",\n    \"About a quarter of California’s community college students have experienced homelessness.\",\n    \"Recent findings from a 2023 Basic Needs Survey indicate that 3 out of 5 stu",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"More than half of California’s community college students faced housing insecurity in 2023.\",\n    \"About a quarter of California’s community college students have experienced homelessness.\",\n    \"Recent findings from a 2023 Basic Needs Survey indicate that 3 out of 5 students at community colleges were housing insecure.\",\n    \"1 in 4 community college students were found to be homeless according to the 2023 Basic Needs Survey.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b7d9c7678cce6bef7841f58e78a624e2202c6b09"
+}

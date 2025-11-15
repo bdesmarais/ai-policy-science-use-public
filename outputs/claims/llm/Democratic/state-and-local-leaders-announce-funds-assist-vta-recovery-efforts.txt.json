@@ -1,0 +1,13 @@
+{
+  "press_release": "state-and-local-leaders-announce-funds-assist-vta-recovery-efforts.txt",
+  "party": "Democratic",
+  "title": "At a news conference earlier today , state and local leaders discussed an important announcement regarding recovery efforts following the horrific mass shooting that occurred at th",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:34:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The State Legislature is set to vote on a multi-million dollar funding allocation for the Santa Clara Valley Transportation Authority (VTA).\",\n    \"The funding of $20 million will assist VTA in addressing the needs of workers and their families.\",\n    \"The funds will be ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The State Legislature is set to vote on a multi-million dollar funding allocation for the Santa Clara Valley Transportation Authority (VTA).\",\n    \"The funding of $20 million will assist VTA in addressing the needs of workers and their families.\",\n    \"The funds will be used for mental health services, worker training, and retraining at the VTA.\",\n    \"Facility improvements funded by this allocation will include safety upgrades at the VTA Guadalupe Rail Yard.\",\n    \"The funding aims to address the workforce's health and wellbeing and prevent future workplace violence.\",\n    \"Nearly a hundred VTA workers witnessed a mass shooting, resulting in unknown long-term mental health impacts.\",\n    \"Grief counseling and training for traumatized workers may be supported by the allocated funds.\",\n    \"The VTA shooting on May 26 is described as the deadliest mass shooting in the history of the San Francisco Bay Area.\",\n    \"The Guadalupe Rail Yard is the sole facility for VTA's light rail vehicle storage and dispatch.\",\n    \"Light rail services have been suspended for the foreseeable future following the shooting incident.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "285965fd026afe5ca0b1a0b4e8f73a542ca65a67"
+}

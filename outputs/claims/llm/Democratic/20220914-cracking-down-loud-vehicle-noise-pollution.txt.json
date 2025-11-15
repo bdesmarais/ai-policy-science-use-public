@@ -1,0 +1,13 @@
+{
+  "press_release": "20220914-cracking-down-loud-vehicle-noise-pollution.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:47:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Noise pollution has been associated with short-term health impacts, like stress and discomfort.\",\n    \"Noise pollution has been associated with serious long-term impacts, including sleep disturbance, cognitive impairment, hearing loss, high blood pressure and even cardio",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Noise pollution has been associated with short-term health impacts, like stress and discomfort.\",\n    \"Noise pollution has been associated with serious long-term impacts, including sleep disturbance, cognitive impairment, hearing loss, high blood pressure and even cardiovascular disease.\",\n    \"The U.S. Environmental Protection Agency (EPA) and the World Health Organization (WHO) recommend maintaining environmental noise below 70 decibels over 24 hours to prevent noise-induced hearing loss.\",\n    \"The WHO recommends that noise levels remain below 30 decibels at night in order to achieve restful sleep.\",\n    \"Noise is considered harmful around 70-80 decibels and painful above 120 decibels.\",\n    \"California law prescribes a noise limit of 80 decibels for most vehicles, which is already above nearly all of these recommended noise levels.\",\n    \"According to the Centers for Disease Control and Prevention (CDC), about 40 million adults age 20-69 suffer from noise-induced hearing loss across the country.\",\n    \"Studies have shown that consistent exposure to environmental noise may affect children's cognitive development.\",\n    \"Under current law, public safety officials issue fix-it tickets to drivers operating illegally modified vehicles, which can be resolved without providing any evidence of fixing the modified equipment.\",\n    \"The California Highway Patrol will evaluate the efficacy of sound-activated enforcement devices as part of legislation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "27610e2c3d3f0063533a5e4efba63c0850e0d34d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240521-california-state-assembly-advances-landmark-legislation-ban-harmful.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:42:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2316 is a first-in-the-nation bill prohibiting California public schools from serving foods containing additives linked to cancer, DNA damage, and developmental and neurobehavioral issues in children.\",\n    \"AB 2316 would prohibit schools from serving foods containing",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2316 is a first-in-the-nation bill prohibiting California public schools from serving foods containing additives linked to cancer, DNA damage, and developmental and neurobehavioral issues in children.\",\n    \"AB 2316 would prohibit schools from serving foods containing six synthetic food dyes and titanium dioxide.\",\n    \"Consumption of synthetic food dyes can result in hyperactivity and other neurobehavioral problems in some children.\",\n    \"Current FDA approvals of synthetic food dyes are based on outdated, decades-old research.\",\n    \"The percentage of American children diagnosed with Attention Deficit/Hyperactivity Disorder (ADHD) has increased dramatically in recent years.\",\n    \"AB 2316 could help prompt a nationwide transition to safer alternative ingredients.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4f1568acaf30a107f7526698a131ab67e009310c"
+}

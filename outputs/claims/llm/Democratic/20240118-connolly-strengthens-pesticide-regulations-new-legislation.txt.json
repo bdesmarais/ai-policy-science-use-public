@@ -1,0 +1,13 @@
+{
+  "press_release": "20240118-connolly-strengthens-pesticide-regulations-new-legislation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) introduced Assembly Bill (AB) 1864, strengthening enforcement regarding the use of pesticides within ¼ mile of ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:33:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Children are particularly vulnerable to the health impacts of pesticides.\",\n    \"Insufficient enforcement of pesticide regulations disproportionally impacts students of color.\",\n    \"Pesticide exposure poses significant health impacts, including brain tumors, cancers, au",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Children are particularly vulnerable to the health impacts of pesticides.\",\n    \"Insufficient enforcement of pesticide regulations disproportionally impacts students of color.\",\n    \"Pesticide exposure poses significant health impacts, including brain tumors, cancers, autism, birth defects, and respiratory disease.\",\n    \"Research using CalEPA data found that pesticides are one of the top two pollutants in California with the greatest racial and ethnic disparities.\",\n    \"Pesticide health impacts disproportionately affect farmworkers and their families, many of whom are Mexican immigrants.\",\n    \"A 2014 Department of Health study found that Latinx children are 91% more likely than white children to attend a school near high pesticide use.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3e6fb0bc7fb8076147ef9e0472b8c67081d9216b"
+}

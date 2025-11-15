@@ -1,0 +1,74 @@
+{
+  "press_release": "20171115-gipson-champions-environmental-projects-64th-district.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif --- The California Natural Resources Agency just announced the approval of 39 projects across the state, with three of them coming as a result of Assemblymember G",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:59:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Urban Greening Program is financed by Cap-and-Trade revenue.\"\n    },\n    {\n      \"claim_text\": \"The Urban Greening Program focuses on projects that reduce greenhouse gases.\"\n    },\n    {\n      \"claim_text\": \"The Urban Greening Program is aimed a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The Urban Greening Program is financed by Cap-and-Trade revenue.\"\n    },\n    {\n      \"claim_text\": \"The Urban Greening Program focuses on projects that reduce greenhouse gases.\"\n    },\n    {\n      \"claim_text\": \"The Urban Greening Program is aimed at decreasing energy consumption.\"\n    },\n    {\n      \"claim_text\": \"The Urban Greening Program provides other environmental benefits.\"\n    },\n    {\n      \"claim_text\": \"The projects approved will create job opportunities.\"\n    },\n    {\n      \"claim_text\": \"The approved projects will take place in areas where constituents feel left behind.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The Urban Greening Program is financed by Cap-and-Trade revenue.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Urban Greening Program focuses on projects that reduce greenhouse gases.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Urban Greening Program is aimed at decreasing energy consumption.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Urban Greening Program provides other environmental benefits.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The projects approved will create job opportunities.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The approved projects will take place in areas where constituents feel left behind.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "28b6f116fcc8a94a7f3cdbee4fd8287ac0152024"
+}

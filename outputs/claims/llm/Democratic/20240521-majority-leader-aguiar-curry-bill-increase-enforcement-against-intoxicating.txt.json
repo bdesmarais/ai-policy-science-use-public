@@ -1,0 +1,13 @@
+{
+  "press_release": "20240521-majority-leader-aguiar-curry-bill-increase-enforcement-against-intoxicating.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:42:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2223 will enhance the tools available to state and local health and law enforcement officials to stop the sale of intoxicating hemp products.\",\n    \"AB 2223 lays the groundwork needed to re-imagine the regulation of cannabinoids for intoxication, regardless of their s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2223 will enhance the tools available to state and local health and law enforcement officials to stop the sale of intoxicating hemp products.\",\n    \"AB 2223 lays the groundwork needed to re-imagine the regulation of cannabinoids for intoxication, regardless of their source.\",\n    \"Cannabis products are excessively regulated and overtaxed, while intoxicating hemp products remain under-regulated.\",\n    \"AB 2223 presents an opportunity to create a new legal and regulatory framework for cannabinoids in California.\",\n    \"Intoxicating hemp products have become increasingly popular despite strong regulations.\",\n    \"Some intoxicating hemp products exploit a loophole in federal law that measures THC content by weight rather than by intoxicating effect.\",\n    \"Some intoxicating hemp products contain synthetic intoxicants that are already illegal in California.\",\n    \"Agencies have experienced difficulty enforcing existing laws for hemp, which affects enforcement against illicit cannabis products.\",\n    \"AB 2223 increases enforcement against illegal hemp products by empowering state and local public health agencies.\",\n    \"AB 2223 strengthens prohibitions on intoxicating hemp products by limiting THC content and increasing restrictions on synthetic intoxicants.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6351d0e43621a545bf1a963f5fd6c91119eb1a07"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20230419-bill-increase-protections-small-businesses-sails-through-assembly-floor.txt",
+  "party": "Democratic",
+  "title": "AB 502 by Assemblymember Alex Lee sailed out of the Assembly Floor with unanimous bipartisan support (68-0). In order to protect our small businesses, AB 502 would prohibit a listi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:59:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 502 will prohibit a listing service, such as Yelp or Google, from posting a phone number under a restaurant that does not go directly to the restaurant.\",\n    \"AB 502 will require a disclosure to the consumer if an order they are placing through the listing service wi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 502 will prohibit a listing service, such as Yelp or Google, from posting a phone number under a restaurant that does not go directly to the restaurant.\",\n    \"AB 502 will require a disclosure to the consumer if an order they are placing through the listing service will result in a cost to the restaurant.\",\n    \"Many businesses had to pivot to food delivery services to survive during the pandemic economy.\",\n    \"When calls are rerouted through third parties, customers might not be aware that it could result in additional costs for the restaurant.\",\n    \"Strengthening protections for small businesses and providing more information to consumers will help small businesses recover and thrive.\",\n    \"Yelp changed their policy and ended the practice of call forwarding after the introduction of this concept last session.\",\n    \"AB 502 will codify the practice of prohibiting listing services from posting phone numbers that do not go directly to restaurants.\",\n    \"AB 502 aims to empower consumers by requiring a disclosure if an order placed through a listing service will result in a fee or commission paid to a party other than the restaurant.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f653b4f7904bb2c93afd366a6ba353a52277df30"
+}

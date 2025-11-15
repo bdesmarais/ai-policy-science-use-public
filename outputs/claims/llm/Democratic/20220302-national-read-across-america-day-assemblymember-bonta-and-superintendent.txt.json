@@ -1,0 +1,13 @@
+{
+  "press_release": "20220302-national-read-across-america-day-assemblymember-bonta-and-superintendent.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) March 2 is “National Read Across America Day.” Established in 1998 by the National Education Association, students, teachers, parents, and community members come t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:39:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2465 aims to improve literacy and biliteracy by third grade in California.\",\n    \"Reaching literacy by third grade is a key benchmark in measuring and predicting student success.\",\n    \"Only 32% of California's fourth graders are reading proficiently, accor",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2465 aims to improve literacy and biliteracy by third grade in California.\",\n    \"Reaching literacy by third grade is a key benchmark in measuring and predicting student success.\",\n    \"Only 32% of California's fourth graders are reading proficiently, according to the National Assessment of Educational Progress.\",\n    \"California's reading proficiency rate is below the national average and behind 25 other states.\",\n    \"Students who are not proficient in reading by the end of third grade are four times more likely to drop out of high school compared to proficient readers.\",\n    \"AB 2465 lays out a multifaceted strategy to improve literacy and biliteracy rates and mitigate racial and economic disparities in reading outcomes.\",\n    \"Low-income children often have limited access to books, impacting their literacy.\",\n    \"AB 2465 will create a grant program to increase access to reading resources in communities.\",\n    \"Monies from AB 2465 would bolster school site libraries by adding resources to improve literacy outcomes.\",\n    \"Nearly 60% of California's children speak a language other than English at home.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4f67f86cc1918b5d9cc0871349124bf302176871"
+}

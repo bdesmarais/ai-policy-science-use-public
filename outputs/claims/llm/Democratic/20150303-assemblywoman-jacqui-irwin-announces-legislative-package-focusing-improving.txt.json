@@ -1,0 +1,13 @@
+{
+  "press_release": "20150303-assemblywoman-jacqui-irwin-announces-legislative-package-focusing-improving.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO  – Assemblywoman Jacqui Irwin (D-Thousand Oaks) introduced Assembly Bill 930 and  Assembly Bill 931, two bills which aim to improve employment opportunities for  Califor",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:51:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 930 will codify and expand the successful Work for Warriors program currently operated by the California Military Department.\",\n    \"Work for Warriors is the most efficient Veteran job placement program in the country with a per placement cost of less than $650.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 930 will codify and expand the successful Work for Warriors program currently operated by the California Military Department.\",\n    \"Work for Warriors is the most efficient Veteran job placement program in the country with a per placement cost of less than $650.\",\n    \"Work for Warriors has placed nearly 4000 veterans in less than three years.\",\n    \"AB 931 will broaden the group of veterans eligible for the new hiring tax credit created in 2013.\",\n    \"AB 931 will expand the timeframe for Veterans who have separated from active duty to be eligible for a hiring tax credit.\",\n    \"The unemployment rate for California’s veterans continues to be substantially larger than the national average.\",\n    \"The unemployment rate is higher for post-9/11 veterans in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2a6c359c3d882d6529c0998cec91ceda80425dd0"
+}

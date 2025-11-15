@@ -1,0 +1,13 @@
+{
+  "press_release": "20250623-california-one-step-closer-banning-cat-declawing.txt",
+  "party": "Democratic",
+  "title": "Cat declawing is recognized internationally as cruel and unnecessary. Dozens of countries have already banned the harmful surgical procedure. A growing number of U.S. states and ci",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:39:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Cat declawing is recognized internationally as cruel and unnecessary.\",\n    \"Dozens of countries have already banned cat declawing.\",\n    \"A growing number of U.S. states and cities are moving to end the practice of cat declawing.\",\n    \"Declawing involves the amputation",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Cat declawing is recognized internationally as cruel and unnecessary.\",\n    \"Dozens of countries have already banned cat declawing.\",\n    \"A growing number of U.S. states and cities are moving to end the practice of cat declawing.\",\n    \"Declawing involves the amputation of the first knuckle of each cat's toes.\",\n    \"Cat declawing can lead to lifelong pain and disability.\",\n    \"Surgical complications of declawing include hemorrhage, infection, pain, and anesthetic complications.\",\n    \"Removing cats' claws increases the likelihood of behaviors like biting, aggression, and litter box avoidance.\",\n    \"Overgrooming, chronic back pain, residual bone fragments, and mobility issues are long-term effects of declawing.\",\n    \"AB 867 prohibits the declawing of a cat unless performed for a medically necessary purpose that benefits the cat's health.\",\n    \"Scratching is a natural behavior for cats.\",\n    \"Non-surgical alternatives to address inappropriate scratching behaviors include nail trimming, soft claw caps, and behavioral training.\",\n    \"Proper hygiene and parasite control is emphasized over cat declawing to reduce health risks for immunocompromised cat owners.\",\n    \"Cat declawing is outlawed in many places, including California.\",\n    \"New York became the first state in the U.S. to enact a ban on cat declawing in 2019.\",\n    \"Many places globally, including Australia, New Zealand, the U.K., and Switzerland, have banned cat declawing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "53eb804f928291c5a1eba413c41d032f1af81a5f"
+}

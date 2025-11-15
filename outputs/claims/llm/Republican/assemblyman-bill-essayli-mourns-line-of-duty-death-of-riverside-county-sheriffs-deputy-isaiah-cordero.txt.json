@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-bill-essayli-mourns-line-of-duty-death-of-riverside-county-sheriffs-deputy-isaiah-cordero.txt",
+  "party": "Republican",
+  "title": "Criminal Suspect Slain in Subsequent Shootout Was Third-Striker, Should Have Been Behind Bars",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:40:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The perpetrator was on his third felony strike as of 2021.\",\n    \"Instead of 25 years-to-life in prison, a San Bernardino Judge had the discretion to give this career criminal a reduced bail.\",\n    \"California’s soft on crime laws protect criminals instead of victims.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The perpetrator was on his third felony strike as of 2021.\",\n    \"Instead of 25 years-to-life in prison, a San Bernardino Judge had the discretion to give this career criminal a reduced bail.\",\n    \"California’s soft on crime laws protect criminals instead of victims.\",\n    \"Today the Riverside County Sheriff’s Department had its first line of duty death in over 10 years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b56508e38648563442c448f63d3721b9073e4a80"
+}

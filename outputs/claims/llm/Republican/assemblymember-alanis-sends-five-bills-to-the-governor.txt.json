@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-alanis-sends-five-bills-to-the-governor.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – In keeping his promise to the people of Stanislaus and Merced counties Assemblymember Juan Alanis delivered five measures to the Governor’s desk before the State Legis",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:40Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0bbe4c866fca576c9bcfbe342b0db36f00cb1cb3"
+}

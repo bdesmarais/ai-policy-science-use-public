@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-suzette-valladares-introduces-bill-expand-career-technical-education-california.txt",
+  "party": "Republican",
+  "title": "Today, in conjunction with National Career and Technical Education Month, Senator Valladares announced the introduction of SB 612 , the High School Career & Technical Education (CT",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Expanding access to Career and Technical Education (CTE) courses prepares students for high-demand careers.\",\n    \"Research has shown that students who participate in CTE programs are more likely to graduate high school, attend college, and secure stable, high-quali",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Expanding access to Career and Technical Education (CTE) courses prepares students for high-demand careers.\",\n    \"Research has shown that students who participate in CTE programs are more likely to graduate high school, attend college, and secure stable, high-quality jobs.\",\n    \"Making CTE a requirement for graduation helps to ensure that all students, especially those in underrepresented communities, have access to the tools they need to succeed.\",\n    \"Many high schools in California currently focus heavily on college prep classes, with CTE often taking a back seat.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fa485a9c3608813d813ca39cb967cc241fbf6928"
+}

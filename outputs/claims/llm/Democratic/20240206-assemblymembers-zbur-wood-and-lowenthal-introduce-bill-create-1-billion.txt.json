@@ -1,0 +1,13 @@
+{
+  "press_release": "20240206-assemblymembers-zbur-wood-and-lowenthal-introduce-bill-create-1-billion.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA — Assembly Democratic Caucus Chair Rick Chavez Zbur (D-Hollywood), Assembly Speaker Pro-Tempore Jim Wood (D-Healdsburg), and Assemblymember Josh Lowenthal (D-Long Be",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:34:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Offshore wind is an essential part of the strategy to provide the electrification that California needs to meet its ambitious climate goals.\",\n    \"California will not meet its ambitious climate goals without offshore wind.\",\n    \"To meet California's climate goals, the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Offshore wind is an essential part of the strategy to provide the electrification that California needs to meet its ambitious climate goals.\",\n    \"California will not meet its ambitious climate goals without offshore wind.\",\n    \"To meet California's climate goals, the state must produce more than double the amount of electricity that it's producing today.\",\n    \"Offshore wind is a key part of what California must do to save the planet.\",\n    \"California needs to produce enough offshore wind energy to power up to 25 million homes by 2045.\",\n    \"The cost of improving California's ports to enable the assembly of massive turbines for offshore wind is a multibillion-dollar effort.\",\n    \"Seaport infrastructure is foundational to accomplishing offshore wind energy projects in California.\",\n    \"Offshore wind can help meet the state's aggressive climate goals and drive economic growth through good-paying, clean energy union jobs.\",\n    \"The California Energy Commission's draft AB 525 Offshore Wind Strategic Plan includes a plan to develop ports to support floating offshore wind energy development activities.\",\n    \"The California Energy Commission's 2022 offshore wind planning goal is up to 5 gigawatts (GW) by 2030 and 25 GW by 2045.\",\n    \"An estimated $11 billion to $12 billion is needed to upgrade existing port infrastructure at Humboldt and Long Beach to meet California's 2045 offshore wind goals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d3ac185386860254383f6df5228453ec6720147"
+}

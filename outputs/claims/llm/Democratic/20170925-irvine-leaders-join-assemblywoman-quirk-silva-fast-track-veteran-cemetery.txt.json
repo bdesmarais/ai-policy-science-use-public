@@ -1,0 +1,13 @@
+{
+  "press_release": "20170925-irvine-leaders-join-assemblywoman-quirk-silva-fast-track-veteran-cemetery.txt",
+  "party": "Democratic",
+  "title": "Orange County, California",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:57:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The transfer of 125 acres of land to the California Department of Veterans Affairs is an important step for the cemetery project.\",\n    \"The cemetery is expected to relieve a shortage in military gravesites in Southern California.\",\n    \"The national cemetery in Los Ange",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The transfer of 125 acres of land to the California Department of Veterans Affairs is an important step for the cemetery project.\",\n    \"The cemetery is expected to relieve a shortage in military gravesites in Southern California.\",\n    \"The national cemetery in Los Angeles is at capacity.\",\n    \"The cemetery construction could start as early as October 2018.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9691305edd4a1c4bde0ea551011e68a97ea1dda5"
+}

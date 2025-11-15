@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-valladares-slams-majority-party-ignoring-will-voters-first-budget-bill-year.txt",
+  "party": "Republican",
+  "title": "Today, Senate Democrats pushed through the first budget bill of the year, increasing Medi-Cal spending by a staggering $11.1 billion , or 6.4% , to cover the recent expansion of fu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f5b8ba2cff93e12d1f8156f23999384e20692fa7"
+}

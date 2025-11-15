@@ -1,0 +1,448 @@
+{
+  "total_claims": 1220,
+  "claims_per_party": [
+    {
+      "party": "Democratic",
+      "claims": 963
+    },
+    {
+      "party": "Republican",
+      "claims": 257
+    }
+  ],
+  "claim_length_stats": {
+    "Democratic": {
+      "avg_words": 11.48,
+      "median_words": 11.0,
+      "avg_chars": 111.05
+    },
+    "Republican": {
+      "avg_words": 10.95,
+      "median_words": 11.0,
+      "avg_chars": 103.81
+    }
+  },
+  "top_categories_by_party": {
+    "Democratic": [
+      {
+        "party": "Democratic",
+        "category": "Unknown",
+        "count": 963
+      }
+    ],
+    "Republican": [
+      {
+        "party": "Republican",
+        "category": "Unknown",
+        "count": 257
+      }
+    ]
+  },
+  "policy_like_rate": [
+    {
+      "party": "Democratic",
+      "policy_like_true": 0,
+      "total": 963,
+      "rate": 0.0
+    },
+    {
+      "party": "Republican",
+      "policy_like_true": 0,
+      "total": 257,
+      "rate": 0.0
+    },
+    {
+      "party": "Overall",
+      "policy_like_true": 0,
+      "total": 1220,
+      "rate": 0.0
+    }
+  ],
+  "reference_coverage": [
+    {
+      "party": "Democratic",
+      "covered_claims": 9,
+      "total_claims": 963,
+      "coverage_rate": 0.0093
+    },
+    {
+      "party": "Republican",
+      "covered_claims": 12,
+      "total_claims": 257,
+      "coverage_rate": 0.0467
+    }
+  ],
+  "duplicate_claim_texts": {
+    "total_duplicates": 7,
+    "top_examples": [
+      {
+        "party": "Democratic",
+        "norm_text": "in 1982, foreign investors owned about five percent of all u.s. corporate equity.",
+        "count": 2
+      },
+      {
+        "party": "Democratic",
+        "norm_text": "governments throughout the world own substantial positions in politically active u.s. companies.",
+        "count": 2
+      },
+      {
+        "party": "Democratic",
+        "norm_text": "saudi arabia plans to invest about $10 billion into companies, more than doubling its assets by 2025.",
+        "count": 2
+      },
+      {
+        "party": "Democratic",
+        "norm_text": "federal law does not address the issue of political spending by u.s. corporations that are partially owned by foreign investors.",
+        "count": 2
+      },
+      {
+        "party": "Democratic",
+        "norm_text": "ab 846 will provide a clear process to accelerate and streamline wildfire preparedness and vegetation management.",
+        "count": 2
+      },
+      {
+        "party": "Democratic",
+        "norm_text": "sb 596 sets a 2045 target date in california for carbon neutral cement and concrete, with a 40% emissions reduction by 2030.",
+        "count": 2
+      },
+      {
+        "party": "Democratic",
+        "norm_text": "transportation is the greatest source of greenhouse gas emissions in california.",
+        "count": 2
+      }
+    ]
+  },
+  "top_press_releases": [
+    {
+      "party": "Democratic",
+      "press_release": "20180921-assemblymember-cecilia-aguiar-currys-wildfire-recovery-bill-package-signed.txt",
+      "claims": 16
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20230405-bill-protect-integrity-california-elections-foreign-money-passes-out.txt",
+      "claims": 15
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20240911-assemblywoman-pilar-schiavos-15-bill-legislative-package-advances-governors.txt",
+      "claims": 15
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20210826-release-legislation-close-dangerous-ghost-gun-loophole-passes-out-key.txt",
+      "claims": 14
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20231009-governor-newsom-signs-bill-protect-californians-and-pollinators-dangerous.txt",
+      "claims": 14
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20240417-assemblywoman-sorias-ab-2104-and-ab-3275-pass-first-policy-committees.txt",
+      "claims": 14
+    },
+    {
+      "party": "Democratic",
+      "press_release": "senate-passes-more-dozen-climate-equity-justice-bills-senator-josh-becker.txt",
+      "claims": 14
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20191011-assemblymember-cecilia-aguiar-currys-bill-increase-access-pharmacy-care.txt",
+      "claims": 13
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20220428-bill-protect-integrity-california-elections-foreign-influence-passes-out.txt",
+      "claims": 13
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20220907-assemblymember-alex-lee-announces-additional-138-million-secured-fund-local.txt",
+      "claims": 13
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20230601-addis-bills-win-approval-state-assembly.txt",
+      "claims": 12
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20230727-zbur-releases-statement-2023-2024-california-state-budget.txt",
+      "claims": 12
+    },
+    {
+      "party": "Democratic",
+      "press_release": "fifteen-becker-bills-climate-action-social-justice-education-child.txt",
+      "claims": 12
+    },
+    {
+      "party": "Democratic",
+      "press_release": "following-cop26-assemblymembers-rivas-calderon-ward-and-senator-cortese-commit-introduce.txt",
+      "claims": 12
+    },
+    {
+      "party": "Republican",
+      "press_release": "assemblymember-davies-announces-bill-to-prevent-child-drownings.txt",
+      "claims": 12
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20190703-release-bill-help-seniors-remain-their-homes-receives-unanimous-support.txt",
+      "claims": 11
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20220211-asm-wicks-introduces-bill-mandate-vaccinations-california-workplaces.txt",
+      "claims": 11
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20230906-6-bills-head-senate-floor.txt",
+      "claims": 11
+    },
+    {
+      "party": "Democratic",
+      "press_release": "bills-senator-becker-climate-action-digital-divide-justice-reform-and-voter-equity.txt",
+      "claims": 11
+    },
+    {
+      "party": "Democratic",
+      "press_release": "senator-cortese-bill-allowing-judicial-review-old-sentences-clears-first-committee.txt",
+      "claims": 11
+    },
+    {
+      "party": "Republican",
+      "press_release": "gallagher-responds-to-announcement-of-new-vaccine-legislation-01-24-2022.txt",
+      "claims": 11
+    },
+    {
+      "party": "Republican",
+      "press_release": "senator-grove-introduces-bill-fight-against-human-trafficking.txt",
+      "claims": 11
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20210202-assemblymember-bauer-kahan-and-lieutenant-governor-kounalakis-introduce.txt",
+      "claims": 10
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20210405-boerner-horvaths-bill-incentivize-electric-bicycle-purchases-passes.txt",
+      "claims": 10
+    },
+    {
+      "party": "Democratic",
+      "press_release": "20220223-assemblymember-aguiar-curry-introduces-legislation-increase-voter.txt",
+      "claims": 10
+    }
+  ],
+  "top_terms_by_party": {
+    "Democratic": [
+      {
+        "party": "Democratic",
+        "term": "california",
+        "count": 216
+      },
+      {
+        "party": "Democratic",
+        "term": "will",
+        "count": 96
+      },
+      {
+        "party": "Democratic",
+        "term": "health",
+        "count": 65
+      },
+      {
+        "party": "Democratic",
+        "term": "have",
+        "count": 63
+      },
+      {
+        "party": "Democratic",
+        "term": "state",
+        "count": 62
+      },
+      {
+        "party": "Democratic",
+        "term": "has",
+        "count": 61
+      },
+      {
+        "party": "Democratic",
+        "term": "care",
+        "count": 57
+      },
+      {
+        "party": "Democratic",
+        "term": "bill",
+        "count": 53
+      },
+      {
+        "party": "Democratic",
+        "term": "than",
+        "count": 48
+      },
+      {
+        "party": "Democratic",
+        "term": "program",
+        "count": 48
+      },
+      {
+        "party": "Democratic",
+        "term": "housing",
+        "count": 43
+      },
+      {
+        "party": "Democratic",
+        "term": "access",
+        "count": 41
+      },
+      {
+        "party": "Democratic",
+        "term": "communities",
+        "count": 41
+      },
+      {
+        "party": "Democratic",
+        "term": "people",
+        "count": 40
+      },
+      {
+        "party": "Democratic",
+        "term": "aims",
+        "count": 37
+      },
+      {
+        "party": "Democratic",
+        "term": "public",
+        "count": 37
+      },
+      {
+        "party": "Democratic",
+        "term": "provide",
+        "count": 37
+      },
+      {
+        "party": "Democratic",
+        "term": "education",
+        "count": 34
+      },
+      {
+        "party": "Democratic",
+        "term": "children",
+        "count": 33
+      },
+      {
+        "party": "Democratic",
+        "term": "law",
+        "count": 33
+      }
+    ],
+    "Republican": [
+      {
+        "party": "Republican",
+        "term": "california",
+        "count": 83
+      },
+      {
+        "party": "Republican",
+        "term": "have",
+        "count": 25
+      },
+      {
+        "party": "Republican",
+        "term": "has",
+        "count": 24
+      },
+      {
+        "party": "Republican",
+        "term": "gas",
+        "count": 21
+      },
+      {
+        "party": "Republican",
+        "term": "than",
+        "count": 21
+      },
+      {
+        "party": "Republican",
+        "term": "newsom",
+        "count": 19
+      },
+      {
+        "party": "Republican",
+        "term": "will",
+        "count": 19
+      },
+      {
+        "party": "Republican",
+        "term": "bill",
+        "count": 17
+      },
+      {
+        "party": "Republican",
+        "term": "state",
+        "count": 17
+      },
+      {
+        "party": "Republican",
+        "term": "oil",
+        "count": 16
+      },
+      {
+        "party": "Republican",
+        "term": "000",
+        "count": 14
+      },
+      {
+        "party": "Republican",
+        "term": "prices",
+        "count": 13
+      },
+      {
+        "party": "Republican",
+        "term": "human",
+        "count": 13
+      },
+      {
+        "party": "Republican",
+        "term": "program",
+        "count": 12
+      },
+      {
+        "party": "Republican",
+        "term": "per",
+        "count": 12
+      },
+      {
+        "party": "Republican",
+        "term": "senate",
+        "count": 12
+      },
+      {
+        "party": "Republican",
+        "term": "high",
+        "count": 11
+      },
+      {
+        "party": "Republican",
+        "term": "children",
+        "count": 11
+      },
+      {
+        "party": "Republican",
+        "term": "governor",
+        "count": 10
+      },
+      {
+        "party": "Republican",
+        "term": "law",
+        "count": 10
+      }
+    ]
+  }
+}

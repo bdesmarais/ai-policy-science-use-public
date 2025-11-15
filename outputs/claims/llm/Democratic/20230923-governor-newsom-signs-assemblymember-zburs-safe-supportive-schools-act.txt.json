@@ -1,0 +1,13 @@
+{
+  "press_release": "20230923-governor-newsom-signs-assemblymember-zburs-safe-supportive-schools-act.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA — Assemblymember Rick Chavez Zbur (D-Hollywood) announced today that Governor Gavin Newsom has signed AB 5 – the Safe & Supportive Schools Act – into law. This bill ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:09:24Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"LGBTQ+ students face higher dropout rates, rates of homelessness, and suicidal ideation compared to their peers.\",\n    \"Students facing bullying or a lack of supportive environments are more likely to turn to teachers or counselors for help.\",\n    \"LGBTQ+ students with a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"LGBTQ+ students face higher dropout rates, rates of homelessness, and suicidal ideation compared to their peers.\",\n    \"Students facing bullying or a lack of supportive environments are more likely to turn to teachers or counselors for help.\",\n    \"LGBTQ+ students with access to inclusive environments and supportive teachers are less likely to miss school.\",\n    \"LGBTQ+ students with supportive teachers are more likely to feel a greater sense of belonging.\",\n    \"LGBTQ+ students perform better academically when they feel supported in their school environments.\",\n    \"Access to LGBTQ+ cultural competency training for educators improves support for LGBTQ+ students.\",\n    \"Schools that create safe and supportive environments enhance the emotional well-being of LGBTQ+ students.\",\n    \"Research indicates that when LGBTQ+ students feel safe and supported, they thrive academically and socially.\",\n    \"The Safe and Supportive Schools Act aims to close disparities in health, mental health, and academic outcomes for LGBTQ+ students.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4184f12276c37c0bd0f2e8de2c5685c17b90c194"
+}

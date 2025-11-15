@@ -1,0 +1,13 @@
+{
+  "press_release": "20250423-assemblywoman-pilar-schiavo-and-members-legislature-call-governor-newsom.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – In response to the growing public health emergency at the Chiquita Canyon Landfill fire, Assemblywoman Pilar Schiavo and 30 members of the State Legislature sent a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The reaction area at Chiquita Canyon Landfill has tripled in size and now threatens the release of hazardous leachate.\",\n    \"The fire continues to release methane, hydrogen sulfide, and nearly two dozen known carcinogens.\",\n    \"Residents report debilitating sympto",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The reaction area at Chiquita Canyon Landfill has tripled in size and now threatens the release of hazardous leachate.\",\n    \"The fire continues to release methane, hydrogen sulfide, and nearly two dozen known carcinogens.\",\n    \"Residents report debilitating symptoms including nausea, dizziness, heart palpitations, multiple miscarriages, and prolonged nosebleeds.\",\n    \"Families living near the Chiquita Canyon Landfill have endured toxic exposure from an underground fire that officials expect to burn for decades.\",\n    \"Some community members are so sick they have become unable to work, even losing homes.\",\n    \"The landfill’s community relief program was abruptly terminated in February 2025, leaving residents without financial help.\",\n    \"Without intervention, thousands of families may be forced to live with long-term toxic exposure and its life-altering consequences for decades.\",\n    \"The letter calls for funding a long-term health study to assess impacts on nearby communities.\",\n    \"The symptoms, chemical exposure, and scale of the public health threat are greater now than during the Aliso Canyon disaster a decade ago.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9f72f16be99e278145fb0aa2cfb85e3ef21e11cf"
+}

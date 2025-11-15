@@ -1,0 +1,13 @@
+{
+  "press_release": "20250212-assemblymember-mark-gonzalez-introduces-legislation-expand-street-medicine.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California accounts for 66% of the nation's unsheltered population and 28% of the total homeless population.\",\n    \"More than 187,000 people live on the streets in California, facing severe health risks and a mortality rate ten times higher than the general population.\",",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California accounts for 66% of the nation's unsheltered population and 28% of the total homeless population.\",\n    \"More than 187,000 people live on the streets in California, facing severe health risks and a mortality rate ten times higher than the general population.\",\n    \"Evidence-based models like street medicine have proven to significantly improve access to healthcare, reduce hospitalizations, enhance chronic disease management, and increase housing placements.\",\n    \"Street medicine is a proven approach that fills critical gaps in the delivery of care to people experiencing homelessness.\",\n    \"Street medicine brings healthcare to homeless individuals where they live, improving access to benefits they are already eligible for but are excluded from because of their homelessness.\",\n    \"Street medicine is one of the most effective, evidence-based approaches to meeting the health needs of people experiencing homelessness.\",\n    \"The legislation AB 543 establishes presumptive eligibility for people experiencing homelessness to receive full Medi-Cal coverage.\",\n    \"AB 543 allows Medi-Cal providers, including street medicine teams, to establish eligibility on the spot and provide immediate care.\",\n    \"The bill requires Medi-Cal and the state's welfare system to share data on homelessness status by introducing a homeless identifier code.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "909ad03df55c4fb6e6bb9573a5c12f848f307431"
+}

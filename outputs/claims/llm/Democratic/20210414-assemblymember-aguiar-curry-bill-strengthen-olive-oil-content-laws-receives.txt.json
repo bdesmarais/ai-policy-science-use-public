@@ -1,0 +1,13 @@
+{
+  "press_release": "20210414-assemblymember-aguiar-curry-bill-strengthen-olive-oil-content-laws-receives.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California produces approximately 4% of the world’s olive oil from over 75 varieties of olives.\",\n    \"The demand for California olive oil is steadily increasing.\",\n    \"A bottle of olive oil may be advertised and branded as 'California' but may actually come from other ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California produces approximately 4% of the world’s olive oil from over 75 varieties of olives.\",\n    \"The demand for California olive oil is steadily increasing.\",\n    \"A bottle of olive oil may be advertised and branded as 'California' but may actually come from other countries.\",\n    \"The requirements for testing and quality are different for oils that are not 100% Californian.\",\n    \"False representation of olive oil origin puts California olive farmers and oil producers at a competitive disadvantage.\",\n    \"AB 535 establishes clear guidelines for when olive oil producers can use the term 'California' in their labeling.\",\n    \"It is illegal to falsely represent that an olive oil is produced entirely from olives grown within California.\",\n    \"Representations indicating that an olive oil was produced from olives grown in a specific region of California are prohibited unless at least 85% of the olive oil was produced from that region.\",\n    \"AB 535 provides consumers with clear information about what they are purchasing.\",\n    \"AB 535 strengthens the integrity of the California olive oil brand.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "69647ec86928bd11c3fcafd6724caa8f433731f3"
+}

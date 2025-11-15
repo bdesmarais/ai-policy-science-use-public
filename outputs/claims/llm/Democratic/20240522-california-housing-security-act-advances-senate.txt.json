@@ -1,0 +1,13 @@
+{
+  "press_release": "20240522-california-housing-security-act-advances-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Housing Security Act will increase housing security by providing housing subsidies of up to $2,000 a month for up to two years to low-income individuals.\",\n    \"The State's 2023-2024 Master Plan for Aging identifies housing subsidy programs as a key strate",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Housing Security Act will increase housing security by providing housing subsidies of up to $2,000 a month for up to two years to low-income individuals.\",\n    \"The State's 2023-2024 Master Plan for Aging identifies housing subsidy programs as a key strategy for increasing housing stability for older adults and people with disabilities.\",\n    \"Approximately 10,000 people became newly unhoused in California between 2022 and 2023.\",\n    \"Current responses to homelessness in California have resulted in fewer individuals moving from the streets into housing than the number of newly unhoused individuals.\",\n    \"AB 2498 will reduce homelessness by preventing housing insecurity among Californians facing economic challenges.\",\n    \"Policy reports consistently show that rent subsidy programs are essential to preventing homelessness.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7f6f067019e1058267b7a8bfcb3991c3885dd881"
+}

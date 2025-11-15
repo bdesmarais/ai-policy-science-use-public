@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-statement-gun-safety.txt",
+  "party": "Republican",
+  "title": "California has over 100 gun control laws on the books, many of them forced through the Legislature on party-line votes.  I think a partisan approach on major issues does a disservi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "18064bdbdbce5d08e84418db61ce4d99f0fd7a4c"
+}

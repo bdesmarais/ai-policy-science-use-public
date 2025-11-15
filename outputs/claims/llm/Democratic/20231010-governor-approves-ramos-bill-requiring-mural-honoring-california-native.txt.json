@@ -1,0 +1,13 @@
+{
+  "press_release": "20231010-governor-approves-ramos-bill-requiring-mural-honoring-california-native.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—A mural depicting California Native American history will be incorporated as part of a legislative hearing room as part of any construction, restoration, rehabilitation,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"A mural depicting California Native American history will be incorporated as part of a legislative hearing room.\",\n    \"The mural is intended to educate visitors, legislators, and staff about the resiliency, rich culture, and perseverance of California’s Native Americans",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"A mural depicting California Native American history will be incorporated as part of a legislative hearing room.\",\n    \"The mural is intended to educate visitors, legislators, and staff about the resiliency, rich culture, and perseverance of California’s Native Americans.\",\n    \"The mural will be designed in consultation with the Native American Heritage Commission to ensure accurate portrayals of California Indian people.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c9fd55ddc647a84e1df67495df1f5caccaea2049"
+}

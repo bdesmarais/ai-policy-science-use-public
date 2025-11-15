@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-corteses-response-his-sb-483-max-bensons-law-being-signed-law.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE, CA – Senator Dave Cortese issued the following statement regarding his Senate Bill 483 (SB 483) – otherwise known as Max Benson’s Law – being signed into law by Governor ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"More than 21 states across the U.S. have banned the practice of prone restraint in schools.\",\n    \"Prone restraints have no place in classrooms according to California legislators.\",\n    \"SB 483 encourages schools to adopt evidence-based rehabilitative intervention and p",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"More than 21 states across the U.S. have banned the practice of prone restraint in schools.\",\n    \"Prone restraints have no place in classrooms according to California legislators.\",\n    \"SB 483 encourages schools to adopt evidence-based rehabilitative intervention and prevention strategies for students with behavioral health issues.\",\n    \"Disabled students, especially disabled students of color, are disproportionately subjected to physical restraints in California schools.\",\n    \"Prone restraint is an unacceptable and inherently dangerous technique that has no place in schools.\",\n    \"The U.S. Department of Education has recommended banning the use of prone restraint in schools.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ba1fb364b661b0de783cdb99e3c5bb9b286634de"
+}

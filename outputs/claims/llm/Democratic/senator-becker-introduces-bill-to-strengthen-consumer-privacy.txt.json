@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-becker-introduces-bill-to-strengthen-consumer-privacy.txt",
+  "party": "Democratic",
+  "title": "S acramento — Senator Josh Becker announced legislation today to provide stronger privacy protections for Californians from data brokers who harvest and traffic our personal inform",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1059 sets stricter annual registration and reporting requirements for data brokers.\",\n    \"SB 1059 toughens the penalties for data traffickers who do not comply with the law.\",\n    \"Data brokers collect, aggregate, and purvey consumers' personal information a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1059 sets stricter annual registration and reporting requirements for data brokers.\",\n    \"SB 1059 toughens the penalties for data traffickers who do not comply with the law.\",\n    \"Data brokers collect, aggregate, and purvey consumers' personal information acquired from several sources.\",\n    \"A single data broker could provide information about 3,000 attributes of 700 million consumers.\",\n    \"The global market for location data from cellphones is estimated at $12 billion.\",\n    \"A data broker sold location data acquired from Muslim prayer apps to military contractors.\",\n    \"Federal agencies bought access to a commercial database of cellphone location data during the Trump Administration for immigration enforcement.\",\n    \"Data brokers can provide data on former, current, and active-duty U.S. military personnel.\",\n    \"Payroll records for more than half the country’s workforce are held by a data company that obtains them from over two million employers.\",\n    \"SB 1059 broadens the definition of data brokers to include businesses that knowingly collect and share information.\",\n    \"SB 1059 mandates that data brokers report data breaches and disclose whether they collect data of minors.\",\n    \"The civil penalty for non-compliance with registration requirements for data brokers is increased from $100 to $200 per day.\",\n    \"The California Privacy Protection Agency will gain expanded authority to enforce broker registry laws under SB 1059.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "826876aed7f42396e07b190fb5178603a2020240"
+}

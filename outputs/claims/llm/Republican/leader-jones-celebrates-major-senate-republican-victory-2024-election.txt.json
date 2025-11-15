@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-celebrates-major-senate-republican-victory-2024-election.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones (R-San Diego) declared a major victory for California State Senate Republicans in the 2024 election.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:56:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c6a98ffadb128d61063922a2f78a41be8ae16b16"
+}

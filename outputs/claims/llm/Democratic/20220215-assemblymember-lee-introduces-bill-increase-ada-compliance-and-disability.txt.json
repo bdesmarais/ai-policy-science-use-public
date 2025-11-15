@@ -1,0 +1,13 @@
+{
+  "press_release": "20220215-assemblymember-lee-introduces-bill-increase-ada-compliance-and-disability.txt",
+  "party": "Democratic",
+  "title": "Today, Assemblymember Alex Lee (D-San José) introduced AB 2164 to help ensure that small businesses have access to funds to make accessibility-related improvements so that Californ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Businesses must comply with the Americans with Disabilities Act (ADA), which includes integrating changes that improve accessibility, such as ramps and doors wide enough to accommodate wheelchairs.\",\n    \"Despite legal protections, business accessibility has remained a m",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Businesses must comply with the Americans with Disabilities Act (ADA), which includes integrating changes that improve accessibility, such as ramps and doors wide enough to accommodate wheelchairs.\",\n    \"Despite legal protections, business accessibility has remained a major concern.\",\n    \"Some businesses have struggled to understand the complex requirements of accessibility laws.\",\n    \"Small business owners with limited English or access to financial resources face particular challenges in complying with accessibility requirements.\",\n    \"AB 2164 seeks to continue funding for local accessibility programs aimed at helping small businesses.\",\n    \"The City of San José has the largest number of ADA claims in the state of California.\",\n    \"The Americans with Disabilities Act (ADA) was considered one of the most successful pieces of federal legislation when enacted in 1990.\",\n    \"Simplifying compliance with the ADA is viewed as important for small businesses.\",\n    \"AB 2164 aims to provide more certainty and protection to small businesses most at risk of complications related to ADA compliance.\",\n    \"AB 2164 will increase access to resources for small businesses to create barrier-free and accessible spaces.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "964bb50e39ae02f0e69d4f6b812122cc3d47d31b"
+}

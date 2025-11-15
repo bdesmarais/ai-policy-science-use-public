@@ -1,0 +1,13 @@
+{
+  "press_release": "20211029-local-champions-animal-welfare-named-2021-small-business-year.txt",
+  "party": "Democratic",
+  "title": "ENCINITAS",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:35:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Rancho Coastal Humane Society (RCHS) is recognized nationally as a top-rated four-star charity by Charity Navigator, achieving a perfect 100-point overall score.\",\n    \"RCHS is the only animal shelter in Southern California to receive a perfect 100-point overall score fr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Rancho Coastal Humane Society (RCHS) is recognized nationally as a top-rated four-star charity by Charity Navigator, achieving a perfect 100-point overall score.\",\n    \"RCHS is the only animal shelter in Southern California to receive a perfect 100-point overall score from Charity Navigator.\",\n    \"RCHS has a Platinum Seal of Transparency through GuideStar.\",\n    \"RCHS runs a personalized pet adoption process.\",\n    \"RCHS has programs that strengthen the human-animal bond, including the Animal Safehouse Program and Pet-Assisted Therapy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c163a4f8503be94d0e9bcac92be0739c417f0fda"
+}

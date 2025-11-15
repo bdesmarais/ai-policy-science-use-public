@@ -1,0 +1,13 @@
+{
+  "press_release": "20231009-governor-newsom-signs-first-nation-bill-regulate-voluntary-carbon-offsets.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:28:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Up to 90 percent of offsets marketed by certain companies do not achieve any meaningful reduction in carbon emissions.\",\n    \"Many carbon offsets on the voluntary carbon market do not represent real emissions reductions or represent far less than claimed.\",\n    \"Offset c",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Up to 90 percent of offsets marketed by certain companies do not achieve any meaningful reduction in carbon emissions.\",\n    \"Many carbon offsets on the voluntary carbon market do not represent real emissions reductions or represent far less than claimed.\",\n    \"Offset credit quality varies widely and lack of transparency in project details and carbon calculations makes it difficult for credit buyers, evaluators, and researchers to assess which credits are real.\",\n    \"The global value of the current voluntary carbon offset market is north of $2 billion.\",\n    \"Projected growth of the voluntary carbon offset market is estimated between $10 and $40 billion by 2030.\",\n    \"Greater than 90% of rainforest offset projects listed on one of the largest voluntary offset standards bodies did not represent genuine carbon reductions.\",\n    \"AB 1305 will require buyers and sellers of voluntary offset credits to disclose the details of the offset projects and the methodology for determining the number of credits issued.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d9cfabe9941770f01bb9f931d528735c4946a8e3"
+}

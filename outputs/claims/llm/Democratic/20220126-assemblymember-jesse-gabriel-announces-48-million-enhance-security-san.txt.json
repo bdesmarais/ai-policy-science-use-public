@@ -1,0 +1,13 @@
+{
+  "press_release": "20220126-assemblymember-jesse-gabriel-announces-48-million-enhance-security-san.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:37:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Office of Emergency Services has awarded over $4.8 million in security funding to more than 20 nonprofit organizations in the west San Fernando Valley.\",\n    \"The California State Nonprofit Security Grant Program was established following the deadly shooti",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Office of Emergency Services has awarded over $4.8 million in security funding to more than 20 nonprofit organizations in the west San Fernando Valley.\",\n    \"The California State Nonprofit Security Grant Program was established following the deadly shooting at a Chabad synagogue in San Diego County in 2019.\",\n    \"The Nonprofit Security Grant Program has funded critical security enhancements at religious institutions and other nonprofits deemed to be at risk from violent extremism.\",\n    \"Last year's state budget included a $50 million allocation for the Nonprofit Security Grant Program.\",\n    \"In 2019, the budget included $15 million for the Nonprofit Security Grant Program.\",\n    \"Assemblymember Gabriel introduced AB 1664 to extend and strengthen the Nonprofit Security Grant Program, which is set to expire in 2025.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "28cd0dfc7f6704547d2560d2183fcb652e4ea721"
+}

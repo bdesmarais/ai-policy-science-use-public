@@ -1,0 +1,13 @@
+{
+  "press_release": "20220925-governor-gavin-newsom-signs-assemblymember-al-muratsuchis-bill-stop-black.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:48:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California Governor Gavin Newsom has signed Assemblymember Al Muratsuchi's AB 1740 to discourage the theft and subsequent black market sale of catalytic converters.\",\n    \"AB 1740 requires core recyclers to only purchase catalytic converters from a commercial enterprise ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California Governor Gavin Newsom has signed Assemblymember Al Muratsuchi's AB 1740 to discourage the theft and subsequent black market sale of catalytic converters.\",\n    \"AB 1740 requires core recyclers to only purchase catalytic converters from a commercial enterprise or the verifiable owner of the vehicle from which the catalytic converter was removed.\",\n    \"Individuals selling their catalytic converters must have the converter etched with the source vehicle's VIN and provide a matching title.\",\n    \"Core recyclers must provide transaction information to prove purchases were not made on the black market.\",\n    \"Catalytic converter thefts in California increased by 325 percent from around 3,000 thefts in 2019 to over 14,000 in 2020.\",\n    \"California leads the nation in catalytic converter thefts, with 3 in 10 converter theft claims being filed in the state.\",\n    \"Theft of catalytic converters in California has led to multiple shootings, including at least one homicide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "33c1bdffa721e03a54a4ae1b9709d0bcd3bdf850"
+}

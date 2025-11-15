@@ -1,0 +1,13 @@
+{
+  "press_release": "legislation-prevent-food-insecurity-among-military-families-passes-senate.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – The California State Senate has passed SB 950, which would require the State Department of Social Services (DSS) to submit a request to the United States Departmen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Basic Allowance for Housing (BAH) for military personnel is required to be counted as countable income for determining eligibility for the CalFresh program.\",\n    \"Military personnel and their families in California are disproportionately impacted by high costs of li",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Basic Allowance for Housing (BAH) for military personnel is required to be counted as countable income for determining eligibility for the CalFresh program.\",\n    \"Military personnel and their families in California are disproportionately impacted by high costs of living, increasing their risk of food insecurity.\",\n    \"California has the highest number of service-members and their families of any state in the U.S.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "830baad45455b553da0b349d8f1180b283a36499"
+}

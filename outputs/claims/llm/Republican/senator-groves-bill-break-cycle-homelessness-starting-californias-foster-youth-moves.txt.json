@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-bill-break-cycle-homelessness-starting-californias-foster-youth-moves.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) announced her bill SB 1484 passed unanimously in the Senate Governance and Finance Committee. SB 1484 would allow private sector employers to ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Every year, California youth make up a significant portion of the state’s total homeless population.\",\n    \"Employment leads to greater self-sufficiency and discipline, reduces the time youth spend on the streets, and provides the income stability necessary to find and m",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Every year, California youth make up a significant portion of the state’s total homeless population.\",\n    \"Employment leads to greater self-sufficiency and discipline, reduces the time youth spend on the streets, and provides the income stability necessary to find and maintain housing.\",\n    \"A fourth of unsheltered people in California have been in foster care.\",\n    \"This legislation would help break the cycle of homelessness for foster youth by incentivizing businesses to provide job opportunities.\",\n    \"Providing a reliable source of income for foster youth can help them overcome the chronic cycle of homelessness.\",\n    \"SB 1484 takes a preventative approach that invests in youth before they become chronically homeless.\",\n    \"SB 1484 helps provide businesses and the state with a well-trained workforce.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d906981c51a7e6e065b5a26924c8bf4e90bba8b2"
+}

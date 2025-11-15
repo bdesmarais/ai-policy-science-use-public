@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-chois-recognizes-aapi-nominee-lonnie-lee-senate-floor.txt",
+  "party": "Republican",
+  "title": "Today, Senator Steven Choi (R- Irvine) proudly recognized Lonnie Lee, Director of the Moon International Center at Concordia University Irvine, as part of the Senate’s celebration ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:09:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3160b0354317368915754666d3d0e085806694d1"
+}

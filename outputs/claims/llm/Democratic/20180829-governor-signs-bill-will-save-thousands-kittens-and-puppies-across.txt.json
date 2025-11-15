@@ -1,0 +1,13 @@
+{
+  "press_release": "20180829-governor-signs-bill-will-save-thousands-kittens-and-puppies-across.txt",
+  "party": "Democratic",
+  "title": "AB 2791 allows stray kittens and puppies to be immediately released to rescue groups",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2791 allows stray, motherless kittens and puppies less than eight weeks of age to be immediately released from the shelter to rescue groups.\",\n    \"The immediate release of these animals is meant to ensure their health and survival.\",\n    \"Unweaned kittens and puppies",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2791 allows stray, motherless kittens and puppies less than eight weeks of age to be immediately released from the shelter to rescue groups.\",\n    \"The immediate release of these animals is meant to ensure their health and survival.\",\n    \"Unweaned kittens and puppies are more vulnerable to disease at the shelter and are at high-risk for euthanasia.\",\n    \"AB 2791 aims to increase the chances of survival and finding good homes for kittens and puppies.\",\n    \"The bill is expected to save thousands of kittens and puppies throughout the state each year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b4292d8e1d98969d46901f7c063ae61d45d0744c"
+}

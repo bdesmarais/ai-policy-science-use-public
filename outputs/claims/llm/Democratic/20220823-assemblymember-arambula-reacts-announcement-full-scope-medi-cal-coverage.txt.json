@@ -1,0 +1,13 @@
+{
+  "press_release": "20220823-assemblymember-arambula-reacts-announcement-full-scope-medi-cal-coverage.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:45:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Income-eligible young adults receiving full scope Medi-Cal won't lose their coverage because of when they turn 26.\",\n    \"California's Medi-Cal for income-eligible Californians ages 26 to 49, regardless of immigration status, doesn't begin until January 1, 2024.\",\n    \"T",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Income-eligible young adults receiving full scope Medi-Cal won't lose their coverage because of when they turn 26.\",\n    \"California's Medi-Cal for income-eligible Californians ages 26 to 49, regardless of immigration status, doesn't begin until January 1, 2024.\",\n    \"The expansion of Medi-Cal to all income-eligible adults is included in the 2022-23 State Budget.\",\n    \"The decision by the Department of Health Care Services ensures that young adults won’t face a disruption in care.\",\n    \"California is leading the way in making the health care system work better for all communities, regardless of income, age, or immigration status.\",\n    \"The Health4All movement started in 2016 and first won coverage for all income-eligible children, regardless of immigration status.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6706e28ed7012bf7340eef6b6f2e2a60189a424a"
+}

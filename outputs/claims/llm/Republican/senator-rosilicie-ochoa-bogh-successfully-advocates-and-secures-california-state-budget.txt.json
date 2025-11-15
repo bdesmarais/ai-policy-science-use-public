@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-rosilicie-ochoa-bogh-successfully-advocates-and-secures-california-state-budget.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) is pleased to announce that her advocacy efforts have resulted in significant funding allocations in the California state budget to improve",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:15:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Ochoa Bogh advocated for $1,500,000 in funding to support the County of San Bernardino's acquisition of front loader and skid steer snow blowers.\",\n    \"This investment will significantly improve snow removal operations, ensuring safer and more accessible roads d",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Ochoa Bogh advocated for $1,500,000 in funding to support the County of San Bernardino's acquisition of front loader and skid steer snow blowers.\",\n    \"This investment will significantly improve snow removal operations, ensuring safer and more accessible roads during winter storms.\",\n    \"The enhanced mobility and increased safety will positively impact the lives of residents and businesses in the Inland Empire.\",\n    \"Senator Ochoa Bogh secured $2,500,000 in funding for the planning and design costs of Children and Youth Services facilities at the Riverside University Health System.\",\n    \"This allocation will enable the creation of state-of-the-art facilities that cater to the specific needs of children and youth in the Inland Empire.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5bbf003d2a75b6f3102349c5b8694909f827be14"
+}

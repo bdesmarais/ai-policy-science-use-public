@@ -1,0 +1,13 @@
+{
+  "press_release": "20240507-zbur-nominates-nancy-sutley-latino-spirit-awards-honoree.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Rick Chavez Zbur honors LGBTQ+ Latina Nancy Sutley for her outstanding achievement in public service during the Latino Spirit Awards",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:41:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Nancy Sutley currently leads Los Angeles Mayor Karen Bass’ environmental, energy, and sustainability policy and programs as her Chief Sustainability Officer.\",\n    \"Nancy Sutley has implemented some of the most important environmental and sustainability policies and legi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Nancy Sutley currently leads Los Angeles Mayor Karen Bass’ environmental, energy, and sustainability policy and programs as her Chief Sustainability Officer.\",\n    \"Nancy Sutley has implemented some of the most important environmental and sustainability policies and legislation of our century.\",\n    \"Nancy Sutley has guided mayors, governors, and former President of the United States Barack Obama in her area of expertise.\",\n    \"During her tenure at LADWP, Nancy Sutley has initiated sustainability projects.\",\n    \"Nancy Sutley led the establishment of the LaKretz Innovation Campus.\",\n    \"Nancy Sutley has advocated for cleaner transportation.\",\n    \"Nancy Sutley was the first prominent LGBTQ+ person named to a senior role in the Obama Administration.\",\n    \"Nancy Sutley played a pivotal role in environmental initiatives, including the 2013 Climate Action Plan.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6908cdad78f58a4b39947b156641e165849b2fa3"
+}

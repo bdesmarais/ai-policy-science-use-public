@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-on-newsoms-jobs-first-stop-in-colusa-county-what-on-earth-is-taking-so-long.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's unemployment rate is the second-highest in the nation, at 5.4%.\",\n    \"Outside of government and health care, California has added no jobs in a year and a half.\",\n    \"A plurality of Californians disapprove of Newsom's handling of jobs and the economy.\",\n   ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's unemployment rate is the second-highest in the nation, at 5.4%.\",\n    \"Outside of government and health care, California has added no jobs in a year and a half.\",\n    \"A plurality of Californians disapprove of Newsom's handling of jobs and the economy.\",\n    \"62% of Californians say it’s harder to achieve the American Dream in California than anywhere else.\",\n    \"California ranked 50th in job growth in 2023.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a0de46219d8eea65cc7a0e12681c6143c47a0c16"
+}

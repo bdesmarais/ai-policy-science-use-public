@@ -1,0 +1,13 @@
+{
+  "press_release": "joint-legislative-audit-committee-unanimously-passes-review-of-state-worker-return-to-office-mandate.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today Assemblyman Josh Hoover (R-Folsom) announced the passage of his proposed audit regarding the recent",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"State agencies have praised telework policies and the enhanced productivity they provide.\",\n    \"The decision to force state employees back to the office is harmful and counterproductive.\",\n    \"Telework has the potential to reduce the state office footprint and provide ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"State agencies have praised telework policies and the enhanced productivity they provide.\",\n    \"The decision to force state employees back to the office is harmful and counterproductive.\",\n    \"Telework has the potential to reduce the state office footprint and provide substantial budgetary savings.\",\n    \"Telework policies have eliminated nearly 400,000 metric tons of carbon emissions.\",\n    \"Telework has reduced traffic congestion and saved workers hundreds of dollars per month in vehicle expenses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5e94f5e41c7087d3b3eb8aae0a080df6581dc80c"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240401-assemblymember-alex-lee-introduces-legislation-repeal-mortgage-interest.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Alex Lee has introduced legislation to repeal a tax break for vacation homes, so the state can access millions in revenue to stop cuts to essential services and prog",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:38:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Mortgage Interest Deduction (MID) on second homes mainly benefits wealthier Californians.\",\n    \"Approximately 175,000 Californians benefited from the MID on second homes in the 2016 tax year.\",\n    \"The subsidy from the MID on second homes costs taxpayers $230 milli",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Mortgage Interest Deduction (MID) on second homes mainly benefits wealthier Californians.\",\n    \"Approximately 175,000 Californians benefited from the MID on second homes in the 2016 tax year.\",\n    \"The subsidy from the MID on second homes costs taxpayers $230 million annually.\",\n    \"If the MID on second homes is discontinued, wealthier-than-average Californians would owe about $1,000 more in taxes annually.\",\n    \"The MID was federally instituted in 1913 to reduce the upfront cost of housing for borrowers.\",\n    \"State tax forms do not differentiate between primary and secondary residences for the MID.\",\n    \"The Legislative Analyst's Office released an estimated budget deficit of $73 billion due to declining revenue projections in February 2024.\",\n    \"The Governor's proposed budget for FY 2024-25 includes $293 million in cuts to the CalWORKs program.\",\n    \"The proposed budget raises just $400 million by closing tax breaks, which is less than 1% of the proposed budget solutions.\",\n    \"Repealing the MID on second homes would allow the state to re-allocate hundreds of millions of dollars annually to provide additional funds to the state budget.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0f9ae3683eddeb233aedf3d95fd118780e110eb6"
+}

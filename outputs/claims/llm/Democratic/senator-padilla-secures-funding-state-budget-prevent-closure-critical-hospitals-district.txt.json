@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-padilla-secures-funding-state-budget-prevent-closure-critical-hospitals-district.txt",
+  "party": "Democratic",
+  "title": "Body",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:32:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5d5cc86e6dbd9a533aa128a7e973b2678ba9fba6"
+}

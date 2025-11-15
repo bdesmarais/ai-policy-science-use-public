@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-groves-measure-make-purchasing-child-sex-felony-rejected-senate-public-safety-committee.txt",
+  "party": "Republican",
+  "title": "Senator Grove with advocates at the SB 1414 press conference prior to the bill hearing.  Click here for a high-resolution photo. Click here for video of the press conference.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1414 seeks to strengthen protections for minor victims by making the act of soliciting or engaging in any form of commercial sex with a child a felony offense.\",\n    \"The committee amended SB 1414, changing the punishment for solicitation or purchase of child",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 1414 seeks to strengthen protections for minor victims by making the act of soliciting or engaging in any form of commercial sex with a child a felony offense.\",\n    \"The committee amended SB 1414, changing the punishment for solicitation or purchase of children for sex from a felony to a wobbler, potentially chargeable as a misdemeanor.\",\n    \"A felony charge for purchasing a child for sex can only be applied if the child solicited or purchased was 15 years old or younger.\",\n    \"A buyer who has a previous conviction of purchasing a child under 16 years old may only be required to register as a tier one sex offender if they are convicted of a second offense with a victim who is more than 10 years younger.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "70ea5c8a1367d2564b23ac4bf2c2b5646576d0dd"
+}

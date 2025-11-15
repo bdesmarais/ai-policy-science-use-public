@@ -1,0 +1,13 @@
+{
+  "press_release": "20230608-assemblymember-tina-mckinnor-names-social-justice-learning-institute-2023.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) – Assemblymember Tina McKinnor (D - Inglewood) has named the Inglewood based The Social Justice Learning Institute (SJLI) as the 2023 Nonprofit of the Year for the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "66af9e63e336b470e181e0542344a3dc32005749"
+}

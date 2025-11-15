@@ -1,0 +1,13 @@
+{
+  "press_release": "20240822-assemblywoman-pilar-schiavo-brings-over-1-million-back-constituents.txt",
+  "party": "Democratic",
+  "title": "SANTA CLARITA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblywoman Schiavo's office has successfully secured more than $1.1 million for constituents.\",\n    \"Casework has made a profound difference for families encountering issues with state agencies.\",\n    \"The District Office resolved a registration issue for a 100% disab",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblywoman Schiavo's office has successfully secured more than $1.1 million for constituents.\",\n    \"Casework has made a profound difference for families encountering issues with state agencies.\",\n    \"The District Office resolved a registration issue for a 100% disabled veteran in a few days.\",\n    \"The district office helped resolve a disability claim with EDD in 10 days, saving a family from crisis.\",\n    \"The office has been instrumental in turning bureaucratic hurdles into successful outcomes.\",\n    \"The goal is to ensure that no one in the district feels powerless when dealing with state agencies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0ea0031967b092897ee866130a8208c067bb62f9"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20211004-california-makes-it-easier-cancel-online-subscriptions.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:34:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"The new law ensures Californians can cancel subscriptions online, at will, and without having to jump through hoops.\",\n    \"The legislation requires businesses to notify consumers before lengthy free trials and promotions end and before year-long subscriptions autom",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"The new law ensures Californians can cancel subscriptions online, at will, and without having to jump through hoops.\",\n    \"The legislation requires businesses to notify consumers before lengthy free trials and promotions end and before year-long subscriptions automatically renew.\",\n    \"California is the first state in the country to require reminder notices for free trials and promotions.\",\n    \"California is only the 9th state to require notice reminders for annual subscriptions.\",\n    \"In 2018, nearly 35% of consumers had three or more subscriptions according to a survey by McKinsey & Company.\",\n    \"Respondents in a 2018 survey by West Monroe spent an average of $237 per month on subscriptions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e6dadec594bc7121a7c1c2537cd5662ba644ec9e"
+}

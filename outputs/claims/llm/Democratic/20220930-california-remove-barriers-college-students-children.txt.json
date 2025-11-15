@@ -1,0 +1,13 @@
+{
+  "press_release": "20220930-california-remove-barriers-college-students-children.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"There are over 202,000 college students in California who are also parents.\",\n    \"Student parents in California represent 13.4 percent of the nearly 1.5 million college and university students who applied for financial aid in 2018.\",\n    \"Student parents are almost twic",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"There are over 202,000 college students in California who are also parents.\",\n    \"Student parents in California represent 13.4 percent of the nearly 1.5 million college and university students who applied for financial aid in 2018.\",\n    \"Student parents are almost twice as likely to leave college without a degree after six years compared to their peers without children.\",\n    \"Among students of color, 33 percent of Black students, 30 percent of Native American students, and 21 percent of Latinx students have children while in college.\",\n    \"Over two-thirds of student parents live in or near poverty.\",\n    \"Student parents have higher levels of unmet financial need and higher median student debt than students without children.\",\n    \"Parental education level has been linked to the academic and economic success of their children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b8a2ceb3ea322905b6db5f8eafd612b0d8b2e479"
+}

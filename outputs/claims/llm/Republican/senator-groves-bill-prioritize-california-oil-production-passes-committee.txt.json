@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-bill-prioritize-california-oil-production-passes-committee.txt",
+  "party": "Republican",
+  "title": "A day after Governor Newsom signed a measure that will increase the price of gasoline in California, Senator Shannon Grove (R-Bakersfield) announced that her bill Senate Bill 15 to",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 15 aims to encourage the production of environmentally responsible oil in California.\",\n    \"Much of the crude oil imported into California comes from foreign nations with demonstrated human rights abuses.\",\n    \"The Air Resources Board will be required to re",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 15 aims to encourage the production of environmentally responsible oil in California.\",\n    \"Much of the crude oil imported into California comes from foreign nations with demonstrated human rights abuses.\",\n    \"The Air Resources Board will be required to report on the amount of particulate matter released into the air from tanker ships importing oil into California.\",\n    \"California is the seventh-largest oil-producing state in the nation.\",\n    \"California consumes 1.8 million barrels of oil each day, of which less than 400,000 are produced by in-state workers.\",\n    \"California's demand for oil results in consumers sending more than $25 billion a year to other countries for imported oil.\",\n    \"The top two countries from which California imports oil are Saudi Arabia and Ecuador.\",\n    \"California's petroleum industry directly supports 55,000 jobs with an average salary of $123,000 per year.\",\n    \"The average salary in California is $63,783 per year.\",\n    \"SB 15 aims to bring back thousands of jobs lost to foreign countries that do not share California's democratic values or respect for the environment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "399b7e7ae4c3aff76596bc88ad768b4f2715a33b"
+}

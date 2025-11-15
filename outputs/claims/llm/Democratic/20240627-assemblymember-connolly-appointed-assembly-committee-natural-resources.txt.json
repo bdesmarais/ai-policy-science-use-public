@@ -1,0 +1,13 @@
+{
+  "press_release": "20240627-assemblymember-connolly-appointed-assembly-committee-natural-resources.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today Assemblymember Damon Connolly (D-San Rafael) was appointed to the Assembly Committee on Natural Resources, whose jurisdiction encompasses air quality, climat",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cd811c3074992a832c0e6f45ca66e9b2fc4700db"
+}

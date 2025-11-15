@@ -1,0 +1,13 @@
+{
+  "press_release": "legislative-democrats-announce-plan-empowering-voters-protect-california.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO —Today, Democrats in the California State Legislature announced new legislation to call a special election in November, empowering voters to protect our state’s economy ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:16:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed maps are publicly available for voters to see and review.\",\n    \"Californians can provide input on the map via a public portal.\",\n    \"The Independent Citizens Redistricting Commission will maintain its full scope of work and authority after the 2030 Census.",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed maps are publicly available for voters to see and review.\",\n    \"Californians can provide input on the map via a public portal.\",\n    \"The Independent Citizens Redistricting Commission will maintain its full scope of work and authority after the 2030 Census.\",\n    \"California will only act if Republicans try to rig the vote, as indicated by a trigger in the legislation.\",\n    \"The new map retains and expands Voting Rights Act districts that empower Latino voters to elect their candidates of choice.\",\n    \"The proposed Congressional map keeps more cities whole within a single district than the most recent map enacted by the commission.\",\n    \"The legislation expresses California’s policy to support nonpartisan, independent redistricting nationwide.\",\n    \"The legislation calls on Congress to initiate a federal constitutional amendment to require nonpartisan, independent redistricting nationwide.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bb92ab2701c8e155b0aa5b9fffffc4e330d47b32"
+}

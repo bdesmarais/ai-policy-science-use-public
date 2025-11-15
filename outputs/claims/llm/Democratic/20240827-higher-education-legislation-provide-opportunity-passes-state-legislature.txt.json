@@ -1,0 +1,13 @@
+{
+  "press_release": "20240827-higher-education-legislation-provide-opportunity-passes-state-legislature.txt",
+  "party": "Democratic",
+  "title": "(Sacramento) The State Legislature approved higher education legislation authored by Assemblymember David Alvarez (D-San Diego) with bipartisan support. These bills reflect a commi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2586 would provide equal access to employment opportunities for all students at the University of California, California State University, and California Community Colleges, regardless of their immigration status.\",\n    \"AB 2586 aims to address the inequiti",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2586 would provide equal access to employment opportunities for all students at the University of California, California State University, and California Community Colleges, regardless of their immigration status.\",\n    \"AB 2586 aims to address the inequities faced by undocumented students in completing their degrees and financially supporting themselves while completing their education.\",\n    \"The legislation ensures that all students, regardless of immigration status, can contribute to and benefit from California's educational and employment ecosystem.\",\n    \"Assembly Bill 2633 allows the California State University to award joint undergraduate, graduate, and doctoral degrees in partnership with international institutions.\",\n    \"AB 2633 aims to strengthen cross-border partnerships by providing opportunities for California State University students to pursue degrees internationally.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2e7bc6edc33c732c0f9af8cf897e7320fddea16c"
+}

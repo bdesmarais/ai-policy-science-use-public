@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-republican-leader-grove-commends-governor-us-small-business-administration.txt",
+  "party": "Republican",
+  "title": "Senate Republican Leader Shannon Grove (R-Bakersfield) released the following statement after the U.S. Small Business Administration (SBA) offered disaster assistance to California",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:07:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n[]\n```\n",
+  "raw_text": "```json\n[]\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a0532008a32a94ad523652e7469dfe7f93c8d646"
+}

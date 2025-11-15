@@ -1,0 +1,13 @@
+{
+  "press_release": "20250317-assemblymember-irwin-introduces-bill-bolster-accounting-workforce.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:30:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The demand for CPA services is outpacing the number of new CPAs entering the profession.\",\n    \"Over 300,000 accounting professionals have exited the workforce since 2019, a reduction of 17 percent.\",\n    \"It is estimated that 75 percent of CPAs were of retirement-age in",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The demand for CPA services is outpacing the number of new CPAs entering the profession.\",\n    \"Over 300,000 accounting professionals have exited the workforce since 2019, a reduction of 17 percent.\",\n    \"It is estimated that 75 percent of CPAs were of retirement-age in 2020.\",\n    \"In 2022, there was a 17-year low in terms of the number of students who took the CPA Exam.\",\n    \"Research has shown that adoption of the 150-semester unit requirement by states did not improve the quality of CPAs.\",\n    \"The extra education required by the 150-semester unit requirement contributed to a 26 percent decline of entry by minority CPAs.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "56e947ef1baca72ef31bfb77564046f330799f21"
+}

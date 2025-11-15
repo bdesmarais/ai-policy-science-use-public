@@ -1,0 +1,13 @@
+{
+  "press_release": "20230418-assemblywoman-sorias-ab-830-approved-assembly-committee-water-parks-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:58:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Groundwater overdraft presents a significant problem in the San Joaquin Valley.\",\n    \"AB 830 would support groundwater recharge by private landowners who agree to take water from nearby streams during flooding or extremely high-flow events.\",\n    \"AB 830 aims to streaml",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Groundwater overdraft presents a significant problem in the San Joaquin Valley.\",\n    \"AB 830 would support groundwater recharge by private landowners who agree to take water from nearby streams during flooding or extremely high-flow events.\",\n    \"AB 830 aims to streamline groundwater recharge permitting in California.\",\n    \"Flood-MAR (Managed Aquifer Recharge) is advocated as a tool for groundwater recharge using floodwater.\",\n    \"Current requirements create a disincentive for farmers or water purveyors to use temporary water permits to divert floodwater into local groundwater basins.\",\n    \"AB 830 provides an avenue for water purveyors to take advantage of floodwater and their temporary water rights.\",\n    \"California water managers need every tool possible to manage a future with fluctuating wet and dry years.\",\n    \"AB 830 helps divert flood water into local aquifers for future use.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9ab00f1d9d8c8e55d207c824f143e50882237a2d"
+}

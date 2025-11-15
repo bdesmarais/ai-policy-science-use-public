@@ -1,0 +1,13 @@
+{
+  "press_release": "20250612-assemblymember-patrick-ahrens-stands-united-states-senator-alex-padilla.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Patrick Ahrens (D-Silicon Valley)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:38:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "83170ed6e49c149f93991c062e6c787d1faa8c83"
+}

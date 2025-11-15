@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-allen-responds-newly-proposed-sb-54-regulations.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Senator Ben Allen (D-Santa Monica) issued the following statement in response to the recently proposed SB 54 regulations.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed SB 54 regulations include provisions that may conflict with existing law.\",\n    \"The draft regulations of SB 54 may allow producers to use polluting technologies, which violates the law.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed SB 54 regulations include provisions that may conflict with existing law.\",\n    \"The draft regulations of SB 54 may allow producers to use polluting technologies, which violates the law.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "86f29377d6a4f5b8fa8417b995208a807e54a8cb"
+}

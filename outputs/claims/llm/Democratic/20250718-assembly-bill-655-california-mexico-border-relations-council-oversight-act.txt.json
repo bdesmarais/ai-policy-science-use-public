@@ -1,0 +1,13 @@
+{
+  "press_release": "20250718-assembly-bill-655-california-mexico-border-relations-council-oversight-act.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 655 ensures that border communities have a voice in cross-border policymaking.\",\n    \"The California Mexico Border Relations Council will have representation with firsthand knowledge of regional needs.\",\n    \"AB 655 aims to bring local voices to the table by adding le",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 655 ensures that border communities have a voice in cross-border policymaking.\",\n    \"The California Mexico Border Relations Council will have representation with firsthand knowledge of regional needs.\",\n    \"AB 655 aims to bring local voices to the table by adding legislative members who represent California’s border communities.\",\n    \"Border communities represent nearly 3 million Californians.\",\n    \"Border communities represent $33.5 billion in annual cross-border trade between California and Mexico.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8d8b9ff394afd0d64313c8b080936ff5acf4fd5e"
+}

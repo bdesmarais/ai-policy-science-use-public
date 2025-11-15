@@ -1,0 +1,13 @@
+{
+  "press_release": "20181202-gipson-sworn-third-term-reappointed-leadership-post.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Ca --- Assemblymember Mike A. Gipson was sworn in today for his third term representing the 64th Assembly District that includes South Los Angeles and parts of the Sout",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:03:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f0e36e9fed24a4ad66500b5ee6f4a25c973935c4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240918-governor-signs-ab-2839-law-enacting-protections-against-deceptive-election.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:16:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2839 addresses the growing threat of deepfake technology that is used to manipulate and deceive voters with false information related to an election.\",\n    \"The bill prohibits the distribution of digitally altered election communications that present false or misleadi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2839 addresses the growing threat of deepfake technology that is used to manipulate and deceive voters with false information related to an election.\",\n    \"The bill prohibits the distribution of digitally altered election communications that present false or misleading information pertaining to an officer conducting an election, an elected official, voting equipment, or candidates running for office.\",\n    \"AB 2839 aims to safeguard the democratic process from the harmful effects of deceptive deepfake materials by targeting materially deceptive content distributed 120 days before an election.\",\n    \"The bill prohibits content that is likely to harm a candidate’s reputation or electoral prospects, or to falsely undermine confidence in the election outcome.\",\n    \"Recipients of misleading deepfake content can seek injunctive relief or damages from the distributor under AB 2839.\",\n    \"AB 2839 mandates that deepfake parody material be clearly labeled as digitally manipulated.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "37f0c13d8b7b6e7be3f50320f7bcae25970d8e1f"
+}

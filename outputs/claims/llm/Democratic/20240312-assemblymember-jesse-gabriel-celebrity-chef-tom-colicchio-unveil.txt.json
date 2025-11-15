@@ -1,0 +1,13 @@
+{
+  "press_release": "20240312-assemblymember-jesse-gabriel-celebrity-chef-tom-colicchio-unveil.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California public schools will be prohibited from serving foods containing additives linked to health harms in children, including cancer, harm to the immune system, neurobehavioral issues, and hyperactivity.\",\n    \"Titanium dioxide has been banned for use in foods in th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California public schools will be prohibited from serving foods containing additives linked to health harms in children, including cancer, harm to the immune system, neurobehavioral issues, and hyperactivity.\",\n    \"Titanium dioxide has been banned for use in foods in the European Union since 2022.\",\n    \"The European Union requires products containing specified food dyes to carry a warning label about their potential harms to children.\",\n    \"Consumption of synthetic food dyes can result in hyperactivity and other neurobehavioral problems in some children.\",\n    \"Current FDA levels for safe intake of synthetic food dyes are based on studies that were not designed to detect types of behavioral effects observed in children.\",\n    \"Newer studies indicate that current FDA guidelines may not adequately protect children.\",\n    \"There has been a dramatic increase in the percentage of American children and adolescents diagnosed with Attention Deficit/Hyperactivity Disorder (ADHD) in recent years.\",\n    \"AB 2316 aims to encourage companies to modify products sold in California and help prompt a nationwide transition to safer alternative ingredients.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c5e96b2cb7f52c28e57ead79c9be377d46cb645c"
+}

@@ -1,0 +1,54 @@
+{
+  "press_release": "assembly-appropriations-committee-passes-sb-10-stop-child-fentanyl-deaths-other-bills-senator.txt",
+  "party": "Democratic",
+  "title": "The Assembly Appropriations Committee passed a package of bills by Senator Dave Cortese on Friday, including Senate Bill (SB) 10 to prevent opioid overdoses at public schools. SB 1",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:43:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"SB 10 requires that school safety plans include protocols for responding to pupils suffering from an opioid overdose.\"\n    },\n    {\n      \"claim_text\": \"SB 10 aims to equip schools with knowledge and tools to save children who overdose on campus.\"\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"SB 10 requires that school safety plans include protocols for responding to pupils suffering from an opioid overdose.\"\n    },\n    {\n      \"claim_text\": \"SB 10 aims to equip schools with knowledge and tools to save children who overdose on campus.\"\n    },\n    {\n      \"claim_text\": \"The bill ensures that every middle and high school in California can access and afford the opioid antagonist Naloxone, also known as Narcan.\"\n    },\n    {\n      \"claim_text\": \"Studies show that religious practices reduce violence and other negative behaviors in correctional facilities and lower recidivism.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "SB 10 requires that school safety plans include protocols for responding to pupils suffering from an opioid overdose.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 10 aims to equip schools with knowledge and tools to save children who overdose on campus.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The bill ensures that every middle and high school in California can access and afford the opioid antagonist Naloxone, also known as Narcan.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Studies show that religious practices reduce violence and other negative behaviors in correctional facilities and lower recidivism.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 4,
+  "doc_sha1": "2bbf9bf0b75cb3aa037833e27a8223816b6b95e6"
+}

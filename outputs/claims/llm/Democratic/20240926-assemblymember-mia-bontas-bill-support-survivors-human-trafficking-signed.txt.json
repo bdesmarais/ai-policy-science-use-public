@@ -1,0 +1,13 @@
+{
+  "press_release": "20240926-assemblymember-mia-bontas-bill-support-survivors-human-trafficking-signed.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Human Trafficking Survivors Act requires law enforcement agencies to establish policies for interactions with human trafficking survivors.\",\n    \"Survivors of human trafficking need support rather than systemic barriers.\",\n    \"62% of survivors reported being cited, ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Human Trafficking Survivors Act requires law enforcement agencies to establish policies for interactions with human trafficking survivors.\",\n    \"Survivors of human trafficking need support rather than systemic barriers.\",\n    \"62% of survivors reported being cited, detained, or arrested by law enforcement according to a 2023 National Survivor Study.\",\n    \"Most survivors arrested were detained or cited during their trafficking situation.\",\n    \"A majority of surveyed survivors indicated that their criminal records were related to their trafficking victimization.\",\n    \"AB 2020 aims to advance trauma-informed justice practices in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "64da6e5f2bd7685bebbee46c900f696182cdf238"
+}

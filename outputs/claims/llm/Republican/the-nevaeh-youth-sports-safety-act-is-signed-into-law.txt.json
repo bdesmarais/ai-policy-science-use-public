@@ -1,0 +1,13 @@
+{
+  "press_release": "the-nevaeh-youth-sports-safety-act-is-signed-into-law.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assemblymember Alanis received a phone call late yesterday afternoon from the Office of the Governor informing him that the Nevaeh Youth Sports Safety Act had been sig",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:00Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Nevaeh Johnson collapsed at a youth athletics practice due to a brain aneurysm, and her heart stopped.\",\n    \"The family believes that if a working Automated External Defibrillator (AED) had been available, Nevaeh might have had a chance to survive.\",\n    \"The Nevaeh You",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Nevaeh Johnson collapsed at a youth athletics practice due to a brain aneurysm, and her heart stopped.\",\n    \"The family believes that if a working Automated External Defibrillator (AED) had been available, Nevaeh might have had a chance to survive.\",\n    \"The Nevaeh Youth Sports Safety Act requires youth sports organizations in California to provide athletes with access to an AED during official practices and matches.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "decc975716ff015e44907aca09a81c7bf684b43b"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "alanis-bill-ensuring-transparency-stakeholder-involvement-when-sexually-violent-predators-are-released-has-been-signed-into-law.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – This morning, Assemblymember Juan Alanis announced that AB 1954, which will increase transparency in the interest of public safety when Sexually Violent Predators (SVP",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:36:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c70aefcea6f784d318b8b2a602899044056f6119"
+}

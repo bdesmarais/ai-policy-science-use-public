@@ -1,0 +1,13 @@
+{
+  "press_release": "20190219-berman-introduces-bill-prevent-spread-malicious-deepfakes.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - Assemblymember Marc Berman (D-Palo Alto) has introduced legislation to criminalize the nefarious creation and distribution of deepfakes - hyper-realistic video or audi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:05:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Deepfakes are hyper-realistic video or audio recordings of someone appearing to say or do something that the individual did not say or do.\",\n    \"Deepfakes distort the truth, making it harder to distinguish real events and actions from fiction and fantasy.\",\n    \"Deepfak",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Deepfakes are hyper-realistic video or audio recordings of someone appearing to say or do something that the individual did not say or do.\",\n    \"Deepfakes distort the truth, making it harder to distinguish real events and actions from fiction and fantasy.\",\n    \"Deepfakes are being used to harass women.\",\n    \"Deepfakes have the ability to incite violence, manipulate elections, and undermine national security.\",\n    \"Deepfakes are created using artificial intelligence technology that seamlessly superimposes the movements and words of one person onto another.\",\n    \"Deepfakes make it harder to combat the spread of disinformation.\",\n    \"The Department of Defense has tasked researchers with developing ways to identify deepfakes.\",\n    \"Researchers at the University of Colorado are creating convincing deepfakes for use by companies to develop technology that can detect deepfakes.\",\n    \"Deepfake technology is easily accessible and is disproportionately used to manipulate images of women into sexually explicit material.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c5d3e8e02f6cbe203347ba92246544e0c1e4464d"
+}

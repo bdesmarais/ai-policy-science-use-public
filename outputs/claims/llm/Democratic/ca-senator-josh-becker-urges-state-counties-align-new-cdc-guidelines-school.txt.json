@@ -1,0 +1,13 @@
+{
+  "press_release": "ca-senator-josh-becker-urges-state-counties-align-new-cdc-guidelines-school.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The new CDC guidance recommending a physical distance of 3 feet instead of 6 feet is based on research in Massachusetts.\",\n    \"Research in Massachusetts found that lower physical distancing policies can be adopted in school settings with masking mandates without negativ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The new CDC guidance recommending a physical distance of 3 feet instead of 6 feet is based on research in Massachusetts.\",\n    \"Research in Massachusetts found that lower physical distancing policies can be adopted in school settings with masking mandates without negatively impacting student or staff safety.\",\n    \"The CDC guidance aligns with the World Health Organization's recommendation of 1 meter for physical distancing.\",\n    \"The American Academy of Pediatrics has advised flexibility with physical distancing requirements in schools.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a976d4ede207460f5cb05a04e395cc58d0296a49"
+}

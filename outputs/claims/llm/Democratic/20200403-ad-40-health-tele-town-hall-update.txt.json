@@ -1,0 +1,13 @@
+{
+  "press_release": "20200403-ad-40-health-tele-town-hall-update.txt",
+  "party": "Democratic",
+  "title": "Dear Constituent,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:15:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Living under an emergency declaration or crisis can create feelings of chaos, loss of control, and fear of uncertainty.\",\n    \"Anxiety increases heart rate and respiration, clouds judgment, and takes individuals out of the present moment.\",\n    \"Grounding techniques can ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Living under an emergency declaration or crisis can create feelings of chaos, loss of control, and fear of uncertainty.\",\n    \"Anxiety increases heart rate and respiration, clouds judgment, and takes individuals out of the present moment.\",\n    \"Grounding techniques can help manage anxiety during crises.\",\n    \"Reaching out to trusted individuals can reduce anxiety, depression, loneliness, and boredom during social distancing, quarantine, and isolation.\",\n    \"California is expanding its hospital capacity by re-opening old hospitals and erecting field hospitals in response to COVID-19.\",\n    \"Thousands of retired or peripherally trained health care workers are coming back online to help California treat COVID-19 patients.\",\n    \"Personal protective equipment (PPE) is in short supply both locally and across the country.\",\n    \"The COVID-19 crisis is the most widespread and rapidly evolving event that the United States has seen, putting unprecedented strain on the healthcare system.\",\n    \"COVID-19 can survive on cardboard for up to 24 hours, on plastic for 2-3 days, and on stainless steel for 2-3 days.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a6cbd8b23dd855b187b3a0cec67a96d57536f550"
+}

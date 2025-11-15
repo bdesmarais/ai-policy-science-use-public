@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-nominates-fresnos-light-house-recovery-center-2023-non-profit-year.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) takes immense pleasure in congratulating The Light House Recovery Program on its selection as the 12th Senate District’s 2023 Nonprofit of the",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Light House Recovery Program has helped women overcome addiction and become self-sufficient, with successful outcomes for over 80% of those who complete the program.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Light House Recovery Program has helped women overcome addiction and become self-sufficient, with successful outcomes for over 80% of those who complete the program.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "429a1a291dd84a86f941d3c15d2b5d3790a395e2"
+}

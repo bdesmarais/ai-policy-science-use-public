@@ -1,0 +1,13 @@
+{
+  "press_release": "20230905-assemblywoman-sharon-quirk-silvas-legislation-homeless-death-review.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today,",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:06:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom has signed AB 271 into law, allowing counties to create Homeless Death Review Committees.\",\n    \"The Homeless Death Review Committees aim to gather essential data to uncover the root causes of deaths among individuals experiencing homelessness.\",\n  ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Governor Gavin Newsom has signed AB 271 into law, allowing counties to create Homeless Death Review Committees.\",\n    \"The Homeless Death Review Committees aim to gather essential data to uncover the root causes of deaths among individuals experiencing homelessness.\",\n    \"Individuals experiencing homelessness in California die 20 years younger from preventable causes compared to the general public.\",\n    \"The insights gained from Homeless Death Review Committees will help devise strategies to prevent deaths among homeless individuals.\",\n    \"Orange County Sheriff-Coroner Don Barnes commissioned the County's first Homeless Death Review Committee in January 2022.\",\n    \"The Homeless Death Review Committee consists of technical experts from both the public and private sectors.\",\n    \"The committee explores the root causes of reviewed deaths and determines preventable factors contributing to those deaths.\",\n    \"Expanding the success of the Orange County Homeless Death Review Committee statewide can lead to data-driven policy decisions that save lives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d04714038b71fd79bd0f3b36a2e36213d2e5a9d2"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-dave-cortese-launches-investigation-driverless-vehicle-permits.txt",
+  "party": "Democratic",
+  "title": "State Senator Dave Cortese (D – San Jose) has initiated a public inquiry into the permitting process for driverless vehicles within the State of California.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:30:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of Motor Vehicles (DMV) has suspended Cruise's autonomous vehicle deployment and testing permits due to safety concerns.\",\n    \"Senator Dave Cortese is seeking to uncover the procedures and protocols governing the granting and revocation of perm",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of Motor Vehicles (DMV) has suspended Cruise's autonomous vehicle deployment and testing permits due to safety concerns.\",\n    \"Senator Dave Cortese is seeking to uncover the procedures and protocols governing the granting and revocation of permits for driverless vehicles.\",\n    \"There is a need for increased transparency in the permitting process for driverless vehicles to ensure a responsible transportation landscape.\",\n    \"Protocols regarding the permitting process for driverless vehicles must keep pace with rapidly-evolving developments in autonomous vehicle technology.\",\n    \"The integration of artificial intelligence is a significant aspect of the developments in autonomous vehicle technology.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f8a7f63f8975dd9a62e9a57e57fbeb72abfdc7d4"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-bill-would-create-guaranteed-income-homeless-high-school-seniors.txt",
+  "party": "Democratic",
+  "title": "Approximately 15,000 high school seniors experiencing homelessness would receive direct cash assistance to help them advance to higher education or employment, under a bill introdu",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Approximately 15,000 high school seniors experiencing homelessness would receive direct cash assistance under a proposed bill.\",\n    \"The Success, Opportunity, & Academic Resilience (SOAR) program aims to establish a guaranteed income pilot for unhoused students.\",\n    \"",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Approximately 15,000 high school seniors experiencing homelessness would receive direct cash assistance under a proposed bill.\",\n    \"The Success, Opportunity, & Academic Resilience (SOAR) program aims to establish a guaranteed income pilot for unhoused students.\",\n    \"An estimated 270,000 students are experiencing homelessness across California’s K-12 school system.\",\n    \"The number of students experiencing homelessness in California's K-12 school system grew by nearly half over the past decade.\",\n    \"A survey found that more than 90 percent of unhoused youth respondents described a career goal that required education beyond high school.\",\n    \"Only 16 percent of unhoused youth respondents believed they would be able to attend or graduate from college within the next five years.\",\n    \"Senator Cortese previously helped create Santa Clara County’s first-in-the-nation universal basic income program for transition-age foster youth.\",\n    \"Santa Clara County's pilot universal basic income program was scaled statewide under Senator Cortese’s SB 739.\",\n    \"The California Guaranteed Income Pilot Program was incorporated into the 2021-22 State Budget as a $35 million investment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "083a3a561f5bd52b8a6be65e92f83b2dbb65f9bc"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-perezs-sb-98-safe-act-requiring-schools-send-alerts-about-immigration-enforcement-0.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – SB 98, the SAFE Act, authored by Senator Sasha Renée Pérez (D-Pasadena) would protect school communities in the face of heightened immigration enforcement, passed the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:33:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The SAFE Act requires K-12 schools and higher education institutions to issue alerts if immigration enforcement authorities are present on campus.\",\n    \"The SAFE Act aims to inform and protect immigrant students and their families on school campuses.\",\n    \"The SAFE Act",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The SAFE Act requires K-12 schools and higher education institutions to issue alerts if immigration enforcement authorities are present on campus.\",\n    \"The SAFE Act aims to inform and protect immigrant students and their families on school campuses.\",\n    \"The SAFE Act can help empower school communities to make the best decisions about their safety and their family's safety.\",\n    \"Keeping teachers, staff, and families informed is necessary to combat actions of immigration enforcement on school sites.\",\n    \"Judicial warrants for immigration enforcement on school sites are necessary to protect students and families.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "34a2403e96d04e4f3e013558aa872c76fa2f418a"
+}

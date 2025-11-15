@@ -1,0 +1,13 @@
+{
+  "press_release": "20250429-assemblymember-al-muratsuchis-ab-986-passes-assembly-emergency-management.txt",
+  "party": "Democratic",
+  "title": "Bill expands definition of state of emergency to include landslides and conditions due to climate change",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:33:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill expands the definition of disasters constituting a state of emergency to include landslides and conditions exacerbated by climate change.\",\n    \"The Palos Verdes peninsula has been experiencing a slow-moving landslide since the 1950s.\",\n    \"The rate of movement",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill expands the definition of disasters constituting a state of emergency to include landslides and conditions exacerbated by climate change.\",\n    \"The Palos Verdes peninsula has been experiencing a slow-moving landslide since the 1950s.\",\n    \"The rate of movement of the slow-moving landslide in the Palos Verdes peninsula has greatly increased in recent years.\",\n    \"Some locations in the Palos Verdes peninsula are experiencing four inches of movement a week.\",\n    \"The increase in landslide movement is largely driven by extreme weather patterns linked to climate change.\",\n    \"Extreme weather patterns linked to climate change include intense rainy seasons preceded by prolonged droughts and repeated atmospheric river events.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "712ceefd7526b73ab9fc8cbb3f44c5b75796f0ff"
+}

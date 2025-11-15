@@ -1,0 +1,13 @@
+{
+  "press_release": "fentanyl-hearing-wrap-up-republicans-law-enforcement-victim-advocates-want-comprehensive-solution-while-democrats-miss-half-the-picture.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – At today’s joint hearing on the fentanyl crisis, Democrats doubled down on their stubborn refusal to hold fentanyl traffickers accountable. Despite calls from Republic",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:48:46Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Over one hundred Californians die every week due to fentanyl.\",\n    \"A balanced approach to the fentanyl crisis should emphasize prevention, recovery for people struggling with addiction, and accountability for fentanyl traffickers.\",\n    \"The fentanyl crisis is describe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Over one hundred Californians die every week due to fentanyl.\",\n    \"A balanced approach to the fentanyl crisis should emphasize prevention, recovery for people struggling with addiction, and accountability for fentanyl traffickers.\",\n    \"The fentanyl crisis is described as plague-like in communities across California.\",\n    \"There is a call for increased awareness and treatment as part of a multi-pronged approach to tackle the fentanyl crisis.\",\n    \"The release suggests that the urgency to address the fentanyl crisis is not being met by legislative action.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a10773d4e6cd4500bdcec2b7badf88564839b7c7"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "committee-unanimously-approves-measure-to-expand-californias.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA — Today, the Senate Committee on Energy, Utilities and Communications voted unanimously with a 17-0 vote to approve SB 540, moving California forward towards optimiz",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:11:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 540 aims to optimize California's energy markets and increase grid reliability.\",\n    \"The Pathways bill is designed to boost grid reliability and reduce the risk of blackouts in California.\",\n    \"The bill is expected to unlock the fastest and cheapest options for cl",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 540 aims to optimize California's energy markets and increase grid reliability.\",\n    \"The Pathways bill is designed to boost grid reliability and reduce the risk of blackouts in California.\",\n    \"The bill is expected to unlock the fastest and cheapest options for clean power growth in California.\",\n    \"Enhanced coordination among western states will increase the amount of clean, affordable electricity for the region.\",\n    \"The bill is projected to save California ratepayers up to nearly $800 million annually.\",\n    \"A regional energy market would leverage diverse energy resources across the Western grid.\",\n    \"California will be better positioned to export excess renewable energy while importing clean energy from other states.\",\n    \"The Pathways legislation includes safeguards to protect California's critical public policy priorities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "493825afe0059d8e8a7389f260ed94cb23579d92"
+}

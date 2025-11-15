@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-caballero-assemblywoman-soria-volunteer-habitat-humanity.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release Contact: Elisa Rivera (209) 726-5495 Elisa.Rivera@sen.ca.gov (Caballero) Anita Hellam, CEO: ahellam@hfhmsc.org (Habitat)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Over 50% of Habitat for Humanity homes are owned by people of color.\",\n    \"Over 75% of Habitat for Humanity homes are owned by single women.\",\n    \"Habitat for Humanity partners with local families who earn 80% of area median income and whose housing situation is unsafe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Over 50% of Habitat for Humanity homes are owned by people of color.\",\n    \"Over 75% of Habitat for Humanity homes are owned by single women.\",\n    \"Habitat for Humanity partners with local families who earn 80% of area median income and whose housing situation is unsafe, too crowded, or otherwise unaffordable.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "97050771d5b28886caabe0205e675c220ef972ca"
+}

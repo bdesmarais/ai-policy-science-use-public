@@ -1,0 +1,13 @@
+{
+  "press_release": "20230926-new-california-renters-caucus-gets-all-five-its-priority-bills-governors.txt",
+  "party": "Democratic",
+  "title": "New California Renters’ Caucus Gets all Five of its Priority Bills to Governor’s Desk",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:09:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Legislative Renters’ Caucus was created in 2022 to advocate for legislation that protects renters’ rights.\",\n    \"The Renters’ Caucus has successfully sent all five of its priority bills to the Governor’s desk in its first year.\",\n    \"Assemblymember Haney",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Legislative Renters’ Caucus was created in 2022 to advocate for legislation that protects renters’ rights.\",\n    \"The Renters’ Caucus has successfully sent all five of its priority bills to the Governor’s desk in its first year.\",\n    \"Assemblymember Haney's AB 12 will limit landlords to charging only one month’s rent as a security deposit starting on July 1, 2024.\",\n    \"AB 1248 would require counties or cities with more than 300,000 residents to establish an independent redistricting commission after each census.\",\n    \"AB 548 provides authorization for code enforcement officers to inspect additional units if they find severely substandard conditions, such as widespread mold.\",\n    \"AB 309 creates a Social Housing Program that aims to develop up to three social housing projects on state-owned excess land, limiting rent to no more than 30% of residents’ income.\",\n    \"SB 555 requires the Department of Housing and Community Development to study pathways to meet the State’s stable affordable housing needs.\",\n    \"The Renters’ Caucus aims to provide immediate relief to Californians affected by the housing and homelessness crisis.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7d606fc17b13887e3ed1342402e1b6fb0108df08"
+}

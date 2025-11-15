@@ -1,0 +1,13 @@
+{
+  "press_release": "20230726-bill-improve-road-safety-heads-senate-committee-appropriations.txt",
+  "party": "Democratic",
+  "title": "A bill to improve pedestrian, cyclist, and driver safety is making its way to the Senate Committee on Appropriations. AB 413, authored by Assemblymember Alex Lee, was voted 13-2 in",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:05:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed legislation aims to reduce collisions by keeping 20 feet of an intersection or crosswalk’s approach side clear of stopped vehicles.\",\n    \"Daylighting makes it easier for everyone on the street to see oncoming traffic.\",\n    \"Daylighting zones at intersectio",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed legislation aims to reduce collisions by keeping 20 feet of an intersection or crosswalk’s approach side clear of stopped vehicles.\",\n    \"Daylighting makes it easier for everyone on the street to see oncoming traffic.\",\n    \"Daylighting zones at intersections will make streets safer for drivers, cyclists, and pedestrians.\",\n    \"California’s pedestrian fatality rate is almost 25% higher than the national average.\",\n    \"In 2022, California recorded a pedestrian fatality rate of 1.29 for every 1,000 individuals, compared to the national rate of 1.04.\",\n    \"The annual number of pedestrian fatalities in the U.S. has increased by nearly 80 percent from 2009 to 2021.\",\n    \"26% of cyclist fatalities occurred at intersections in 2020.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "875a2bea0b526a9124504637c7e0e9b3897ad0ca"
+}

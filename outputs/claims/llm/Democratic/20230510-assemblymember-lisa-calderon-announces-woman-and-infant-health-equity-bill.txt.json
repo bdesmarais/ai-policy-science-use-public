@@ -1,0 +1,13 @@
+{
+  "press_release": "20230510-assemblymember-lisa-calderon-announces-woman-and-infant-health-equity-bill.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:00:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is introducing legislation aimed at increasing access to quality care and resources for women and infants.\",\n    \"Assembly Bill 904 would require health care service plans and health insurers to develop a maternal and infant health equity program by January 1,",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is introducing legislation aimed at increasing access to quality care and resources for women and infants.\",\n    \"Assembly Bill 904 would require health care service plans and health insurers to develop a maternal and infant health equity program by January 1, 2025.\",\n    \"The maternal and infant health equity program's goal is to expand access to doula services.\",\n    \"Research indicates that doula services can prevent negative birthing outcomes, like preterm births and cesarean sections, by providing support throughout pregnancy and childbirth.\",\n    \"Despite evidence of their benefits, doula services are not covered by private health plans in California or nationally.\",\n    \"Diapers are the fourth greatest cost burden for many families, costing up to $200 per month for each child.\",\n    \"Parents and caregivers who cannot provide enough diapers for childcare may miss work and school days, leading to increased educational disadvantages for toddlers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6832bea6b55f2796adfa105dc9ce97479c594027"
+}

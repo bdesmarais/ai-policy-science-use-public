@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-and-assembly-file-amicus-brief-send-national-guard-home-end-abuse-power-la.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO —Senate President pro Tempore Mike McGuire (D-North Coast) and Assembly Speaker Robert Rivas (D-Hollister) released the following statement on the filing of their amicus",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:20:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4eccc40ee53c697c831c96fa4f84d799c22863f4"
+}

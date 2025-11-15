@@ -1,0 +1,13 @@
+{
+  "press_release": "20240103-assemblymember-connolly-introduces-bill-reduce-e-bike-collisions.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) introduced a bill that will address the increasing rates of unsafe electric bicycle (e-bike) usage and collisio",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The rate of e-bike-related accidents for youth is nine times higher than similar accidents of people over 20 years old.\",\n    \"22 percent of all 911 calls during the specified period were for e-bike-related accidents.\",\n    \"71 percent of responses for all bike accidents",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The rate of e-bike-related accidents for youth is nine times higher than similar accidents of people over 20 years old.\",\n    \"22 percent of all 911 calls during the specified period were for e-bike-related accidents.\",\n    \"71 percent of responses for all bike accidents among 10- to 19-year-olds were e-bike-related.\",\n    \"Children under the age of 16 are prohibited from operating a class 2 e-bike under the proposed legislation.\",\n    \"Electric bicycles must not exceed the speeds of their class designation to be legally sold.\",\n    \"Proper use of a helmet is required when operating a class 2 electric bicycle under the proposed legislation.\",\n    \"Electric vehicles can only be classified in a certain category if they cease to provide assistance when reaching a maximum speed.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "da6c8d3e7201b5dddbe4f431d9125b91f5802c42"
+}

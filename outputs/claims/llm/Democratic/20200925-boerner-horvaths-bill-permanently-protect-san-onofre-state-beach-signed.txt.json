@@ -1,0 +1,13 @@
+{
+  "press_release": "20200925-boerner-horvaths-bill-permanently-protect-san-onofre-state-beach-signed.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1426 permanently protects San Onofre State Beach from infrastructure development.\",\n    \"San Onofre State Beach is enjoyed by more than 2.5 million visitors yearly.\",\n    \"San Onofre State Beach is one of the top five most visited parks in California.\",\n    \"San Onofr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1426 permanently protects San Onofre State Beach from infrastructure development.\",\n    \"San Onofre State Beach is enjoyed by more than 2.5 million visitors yearly.\",\n    \"San Onofre State Beach is one of the top five most visited parks in California.\",\n    \"San Onofre State Beach is home to the last remaining undeveloped watershed in Southern California.\",\n    \"Proposed road projects would have bisected San Mateo Creek, disturbing the habitats of rare and endangered species.\",\n    \"AB 1426 provides permanent protection for San Onofre State Beach.\",\n    \"The importance of access to state parks and outdoor recreation has become clear during the current pandemic.\",\n    \"AB 1426 eliminates the threat of road construction that would harm endangered species.\",\n    \"San Onofre State Beach contains San Mateo Creek, the last remaining undammed coastal watershed in Southern California.\",\n    \"The park is home to eleven threatened and endangered species.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c6578c39cd730e1baf9829d8c84a3b2bd24db121"
+}

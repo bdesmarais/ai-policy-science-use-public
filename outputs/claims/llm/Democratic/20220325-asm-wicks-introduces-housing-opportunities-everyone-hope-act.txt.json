@@ -1,0 +1,13 @@
+{
+  "press_release": "20220325-asm-wicks-introduces-housing-opportunities-everyone-hope-act.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:40:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The HOPE Act will institute a ten-year funding commitment in the California Constitution dedicated to addressing the affordable housing and homelessness crisis.\",\n    \"The investment from the state’s general fund would be approximately $10 billion each year based on the ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The HOPE Act will institute a ten-year funding commitment in the California Constitution dedicated to addressing the affordable housing and homelessness crisis.\",\n    \"The investment from the state’s general fund would be approximately $10 billion each year based on the 2022 budget revenues of $200 billion.\",\n    \"Recent data suggests that 2.2 million extremely low income and very low income renter households are competing for 664,000 affordable rental units in California.\",\n    \"California has invested incrementally more general fund dollars each year to finance affordable housing production and fund homelessness solutions over the last five years.\",\n    \"California must create an ongoing funding source tied to an investment strategy to end homelessness and produce more affordable housing.\",\n    \"The scale of California’s homelessness crisis calls for a source of funding at a significant scale, as indicated by the estimation of over 161,000 Californians being unhoused on any given night.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "39878ba04919a50e2cb096990d54a838e1e092b5"
+}

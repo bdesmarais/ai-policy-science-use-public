@@ -1,0 +1,13 @@
+{
+  "press_release": "20230712-legislation-banning-dangerous-food-additives-clears-final-policy-committee.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Five dangerous chemicals are prohibited in processed foods and drinks sold in California by Assembly Bill 418.\",\n    \"The chemicals banned by AB 418 include Red Dye No. 3, Titanium Dioxide, Potassium Bromate, Brominated Vegetable Oil, and Propyl Paraben.\",\n    \"Scientifi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Five dangerous chemicals are prohibited in processed foods and drinks sold in California by Assembly Bill 418.\",\n    \"The chemicals banned by AB 418 include Red Dye No. 3, Titanium Dioxide, Potassium Bromate, Brominated Vegetable Oil, and Propyl Paraben.\",\n    \"Scientific research has linked these chemicals to significant health harms, including cancer, reproductive issues, and behavioral and developmental issues in children.\",\n    \"The use of these chemicals has already been banned in the European Union and many other jurisdictions.\",\n    \"Numerous scientific studies have linked these chemicals to increased risk of cancer, behavioral issues in children, harm to the reproductive system, and damage to the immune system.\",\n    \"Many major brands and manufacturers have voluntarily stopped using these additives in their products.\",\n    \"The FDA has failed to keep the public safe from toxic food chemicals.\",\n    \"Chemical companies in the U.S. have exploited a major loophole to avoid meaningful independent review by the FDA of food additives.\",\n    \"If signed into law, AB 418 would require companies to modify recipes for products sold in California.\",\n    \"AB 418 could prompt a nationwide transition to safer alternatives for food additives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3381209a055c00944d900efd1baa487297cda6e7"
+}

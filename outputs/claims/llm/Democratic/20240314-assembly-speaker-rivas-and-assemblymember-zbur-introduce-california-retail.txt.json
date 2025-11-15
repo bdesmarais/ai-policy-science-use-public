@@ -1,0 +1,13 @@
+{
+  "press_release": "20240314-assembly-speaker-rivas-and-assemblymember-zbur-introduce-california-retail.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:37:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Retail Theft Reduction Act creates a new crime targeting 'professional' retail thieves with a penalty of up to three years for possession of stolen property with intent to resell.\",\n    \"Evidence of intent in the context of retail theft can include repeate",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Retail Theft Reduction Act creates a new crime targeting 'professional' retail thieves with a penalty of up to three years for possession of stolen property with intent to resell.\",\n    \"Evidence of intent in the context of retail theft can include repeated conduct or possession of a quantity of goods inconsistent with personal use.\",\n    \"The value of thefts from different victims can be aggregated to reach the threshold for grand theft in California.\",\n    \"The bill will require online sellers to maintain records demonstrating the lawful chain of custody for goods to prevent the sale of stolen goods.\",\n    \"Large retailers will be required to report specified theft data as part of the California Retail Theft Reduction Act.\",\n    \"The California Retail Theft Reduction Act expands the use of diversion and rehabilitative programs for individuals committing shoplifting and petty theft.\",\n    \"The bill allows police to arrest individuals for shoplifting based on a witness's sworn statement or video footage of the crime.\",\n    \"The legislation extends the ability of police to keep repeat offenders and those committing organized retail theft in custody.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "805878fde31a7e040c8888c8623cc5ba43990403"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20250430-speaker-robert-rivas-assemblymembers-al-muratsuchi-and-blanca-rubio-advance.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:34:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Strong reading skills are the foundation for every student’s success.\",\n    \"Assembly Bill 1454 aims to promote evidence-based literacy instruction to teach reading skills.\",\n    \"AB 1454 is designed to strengthen professional development for early literacy instruction a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Strong reading skills are the foundation for every student’s success.\",\n    \"Assembly Bill 1454 aims to promote evidence-based literacy instruction to teach reading skills.\",\n    \"AB 1454 is designed to strengthen professional development for early literacy instruction and update instructional materials.\",\n    \"The success of children in reading and literacy is a priority for the authors of Assembly Bill 1454.\",\n    \"Ensuring every child in California learns to read is one of the most important responsibilities of the public education system.\",\n    \"AB 1454 is a critical step forward in improving literacy outcomes for California’s students.\",\n    \"Evidence-based professional development is necessary for both certificated and classified educators to support literacy development.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5691e20f21fe8391c8e6d8698e006b156c500417"
+}

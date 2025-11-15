@@ -1,0 +1,84 @@
+{
+  "press_release": "20231010-berman-champions-elections-bills-signed-governor.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:29:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Poor ballot design affects all voters and can result in the disenfranchisement of hundreds of thousands of votes.\"\n    },\n    {\n      \"claim_text\": \"The easier we make ballots to read and understand, the more likely voters will be to participate in ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Poor ballot design affects all voters and can result in the disenfranchisement of hundreds of thousands of votes.\"\n    },\n    {\n      \"claim_text\": \"The easier we make ballots to read and understand, the more likely voters will be to participate in elections.\"\n    },\n    {\n      \"claim_text\": \"AB 1219 will codify the recommendations of the Ballot Design Advisory Committee.\"\n    },\n    {\n      \"claim_text\": \"AB 1037 will give California’s voters more flexibility and provide greater efficiency in fixing or curing their Vote by Mail ballot.\"\n    },\n    {\n      \"claim_text\": \"AB 1037 expands the ability for election administrators to assist voters in curing inadvertent issues that impact the processing of their ballots.\"\n    },\n    {\n      \"claim_text\": \"Data from multiple statewide elections shows a pattern across the state that voters are not curing their ballots upon receiving notification at a significant rate.\"\n    },\n    {\n      \"claim_text\": \"Voting twice in the same election in two different states is a violation of the principle of one-person, one-vote.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Poor ballot design affects all voters and can result in the disenfranchisement of hundreds of thousands of votes.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The easier we make ballots to read and understand, the more likely voters will be to participate in elections.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 1219 will codify the recommendations of the Ballot Design Advisory Committee.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 1037 will give California’s voters more flexibility and provide greater efficiency in fixing or curing their Vote by Mail ballot.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 1037 expands the ability for election administrators to assist voters in curing inadvertent issues that impact the processing of their ballots.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Data from multiple statewide elections shows a pattern across the state that voters are not curing their ballots upon receiving notification at a significant rate.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Voting twice in the same election in two different states is a violation of the principle of one-person, one-vote.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 7,
+  "doc_sha1": "4725e51c08f21d39e15ec799cb21d1b5bb9b4ee3"
+}

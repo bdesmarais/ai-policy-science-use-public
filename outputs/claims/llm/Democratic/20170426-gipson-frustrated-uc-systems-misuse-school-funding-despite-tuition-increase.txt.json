@@ -1,0 +1,13 @@
+{
+  "press_release": "20170426-gipson-frustrated-uc-systems-misuse-school-funding-despite-tuition-increase.txt",
+  "party": "Democratic",
+  "title": "(CARSON) – Assembly Democratic Caucus Chair Mike A. Gipson (D – Carson) released the following statement after a recent audit showed the University of California (UC) excessively c",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:54:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cd8a7cef5ffecc721d8ab814adec4d607c22c898"
+}

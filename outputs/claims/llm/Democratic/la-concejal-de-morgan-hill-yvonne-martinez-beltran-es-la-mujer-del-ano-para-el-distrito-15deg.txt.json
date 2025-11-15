@@ -1,0 +1,13 @@
+{
+  "press_release": "la-concejal-de-morgan-hill-yvonne-martinez-beltran-es-la-mujer-del-ano-para-el-distrito-15deg.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - Marzo es el Mes de la Historia de la Mujer y hoy, en el pleno del Senado Estatal, el Senador Estatal de California, Dave Cortese, presentó a la Concejal de Morgan Hill",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:15:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "42840c039ef6527ba63fe45cf6c0909a100f37d0"
+}

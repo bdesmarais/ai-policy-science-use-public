@@ -1,0 +1,13 @@
+{
+  "press_release": "20240521-assemblymember-bauer-kahans-bill-protect-childrens-data-ai-passes-floor.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:42:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Bauer-Kahan’s bill AB 2877 prohibits businesses from using the personal data of children 16 and under to train artificial intelligence (AI) tools without a parent’s authorization.\",\n    \"AB 2877 restricts the use of children’s data in AI development, ensur",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Bauer-Kahan’s bill AB 2877 prohibits businesses from using the personal data of children 16 and under to train artificial intelligence (AI) tools without a parent’s authorization.\",\n    \"AB 2877 restricts the use of children’s data in AI development, ensuring their highly sensitive information is not used without express consent.\",\n    \"The use of a minor’s personal data presents an especially urgent set of risks related to AI.\",\n    \"California’s strong data privacy law will apply to AI products and services used by kids under 16.\",\n    \"AB 2877 is needed to ensure responsible AI development and uphold the fundamental rights of children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ca479bf96e55aef93b885d5fae0f294684a5371b"
+}

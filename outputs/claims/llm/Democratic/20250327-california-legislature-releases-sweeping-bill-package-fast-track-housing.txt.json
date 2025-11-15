@@ -1,0 +1,13 @@
+{
+  "press_release": "20250327-california-legislature-releases-sweeping-bill-package-fast-track-housing.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:31:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California faces a housing crisis with a shortfall of 2.5 million homes.\",\n    \"Nearly 200,000 individuals in California are experiencing homelessness.\",\n    \"Eighty percent of low-income households in California are burdened by rent costs.\",\n    \"Systemic delays are sta",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California faces a housing crisis with a shortfall of 2.5 million homes.\",\n    \"Nearly 200,000 individuals in California are experiencing homelessness.\",\n    \"Eighty percent of low-income households in California are burdened by rent costs.\",\n    \"Systemic delays are stalling progress on housing development in California.\",\n    \"The Fast Track Housing package aims to streamline processes across five key bottlenecks that delay housing development: application, CEQA compliance, entitlement, post-entitlement, and enforcement.\",\n    \"The Fast Track Housing package proposes to exempt environmentally friendly housing projects from lengthy reviews under the California Environmental Quality Act (CEQA).\",\n    \"The Fast Track Housing package targets inefficiencies at every step to reduce project timelines and costs.\",\n    \"The introduction of a centralized application portal for permit tracking is intended to improve efficiency in larger cities.\",\n    \"The Fast Track Housing package aims to reduce bureaucratic delays and legal loopholes that undermine housing construction.\",\n    \"The proposed reforms to CEQA aim to benefit housing projects by expanding exemptions and focusing analysis.\",\n    \"Reforming the housing entitlement process is intended to create a more predictable path for housing development that lowers costs and speeds up construction.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b4f43efb4438ff0f3ae9ca2741de3b5026c667c8"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20220525-assembly-advances-gun-violence-prevention-package-wake-uvalde-tx-school.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:42:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's Gun Violence Restraining Order law has helped to prevent dozens of mass shooting attacks against schools, places of worship, workplaces, and the public at large.\",\n    \"In 2020, children in California were more than 40% less likely to be murdered with a gun ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's Gun Violence Restraining Order law has helped to prevent dozens of mass shooting attacks against schools, places of worship, workplaces, and the public at large.\",\n    \"In 2020, children in California were more than 40% less likely to be murdered with a gun than children of the same age in Texas.\",\n    \"Laws including stronger domestic violence protections have made women about half as likely to be shot to death in California compared to Texas.\",\n    \"Restrictions on military-style weaponry have helped reduce the likelihood that shootings will become mass casualty events.\",\n    \"The United States experiences far more gun violence per person than virtually every other modern industrialized country.\",\n    \"Gun shows enhance the pervasive gun culture in the United States.\",\n    \"AB 2239 would take firearms out of the hands of those charged with child endangerment or elder abuse.\",\n    \"Almost any style of gun, including an AR-15, can be built at home and remain untraceable.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "445bd8902d26177ae618b117d53e3a67a5eebf15"
+}

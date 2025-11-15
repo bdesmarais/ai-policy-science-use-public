@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-helps-secure-98-million-maintain-hospital-access-riverside-county.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) is pleased to announce that San Gorgonio Memorial Healthcare District, which operates San Gorgonio Memorial Hospital, received $9.8 million",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:14:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"San Gorgonio Memorial Healthcare District received $9.8 million in funding to support its operations.\",\n    \"The funding was part of the Distressed Hospital Loan Program created this year by the legislature.\",\n    \"The Distressed Hospital Loan Program provides loans for ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"San Gorgonio Memorial Healthcare District received $9.8 million in funding to support its operations.\",\n    \"The funding was part of the Distressed Hospital Loan Program created this year by the legislature.\",\n    \"The Distressed Hospital Loan Program provides loans for nonprofit and public hospitals on the brink of collapse.\",\n    \"San Gorgonio Memorial Hospital faced an uncertain future without the funding.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8a2f349327faba3564ba8cf09316586aa905a009"
+}

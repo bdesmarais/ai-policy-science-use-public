@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-valladares-calls-sensible-budget-priorities-including-funding-prop-36-supporting-0.txt",
+  "party": "Republican",
+  "title": "Senator Suzette Valladares ( R-Santa Clarita) joined members of the Senate Republican Caucus in formally requesting key statewide budget priorities. The letter, sent April 1, met t",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:09Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California taxpayer spending has increased significantly in recent years.\",\n    \"The quality of life in California has diminished despite increased taxpayer spending.\",\n    \"Governor Newsom has increased his office budget by 164% since taking office.\",\n    \"The current b",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California taxpayer spending has increased significantly in recent years.\",\n    \"The quality of life in California has diminished despite increased taxpayer spending.\",\n    \"Governor Newsom has increased his office budget by 164% since taking office.\",\n    \"The current budget for Governor Newsom's office is $38 million.\",\n    \"The budget for Governor Newsom's office is more than 2.5 times that of the previous governor's office.\",\n    \"A budget allocation of $3 billion annually is necessary for wildfire prevention and preparedness.\",\n    \"Building projects to enhance water reliability and supply requires a budget of $1 billion.\",\n    \"$400 million is needed for the treatment-focused approach to reducing California's crime rate as per Prop. 36.\",\n    \"The governor's pandemic-related business shutdowns have burdened businesses with $21 billion in unemployment debt.\",\n    \"Cutting more than $1.2 billion in funding to the University of California and Cal State University systems should be rejected.\",\n    \"$4 million should be allocated in this budget and $8 million annually to increase the Medi-Cal provider reimbursement rate for pediatric day health centers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e9379bf2a02d150de6256262184037cb57572863"
+}

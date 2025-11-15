@@ -1,0 +1,13 @@
+{
+  "press_release": "20250130-assembly-majority-leader-aguiar-curry-supports-outlawing-ai-price-fixing.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:24:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The use or distribution of pricing algorithms that facilitate an agreement not to compete on price is prohibited under Assembly Bill 325.\",\n    \"Price-fixing software is alleged to have contributed to rising rents and restricted housing availability during California’s h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The use or distribution of pricing algorithms that facilitate an agreement not to compete on price is prohibited under Assembly Bill 325.\",\n    \"Price-fixing software is alleged to have contributed to rising rents and restricted housing availability during California’s housing crisis.\",\n    \"The DOJ initiated federal antitrust litigation against a data management company for alleged price-fixing practices in the meat processing industry.\",\n    \"Price fixing happens through artificial intelligence as well as through traditional means.\",\n    \"Corporations are using AI to increase profits at the expense of everyday consumers.\",\n    \"Misuse of AI to fix prices has resulted in skyrocketing costs for consumers.\",\n    \"Price fixing algorithms have enabled widespread illegal cartels across the economy.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c52955298702b612a649e4bb0d3a317b80165996"
+}

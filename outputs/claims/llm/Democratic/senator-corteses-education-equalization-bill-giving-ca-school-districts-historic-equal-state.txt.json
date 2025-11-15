@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-corteses-education-equalization-bill-giving-ca-school-districts-historic-equal-state.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The State Assembly Education Committee today passed Senator Dave Cortese’s (D-Silicon Valley) SB 743 that would reverse the effects of an antiquated 1978 school distri",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The 1978 school district funding formula has created disparities in the public education system in California.\",\n    \"Senator Dave Cortese claims that SB 743 will equalize per pupil spending across all school districts in California.\",\n    \"The passage of SB 743 is descr",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The 1978 school district funding formula has created disparities in the public education system in California.\",\n    \"Senator Dave Cortese claims that SB 743 will equalize per pupil spending across all school districts in California.\",\n    \"The passage of SB 743 is described as a historic change in California education policy.\",\n    \"Currently, some school districts in California receive significantly different levels of funding per student due to state property tax formulas.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0975b6728a71f68c44b38119829661a58f4f1f28"
+}

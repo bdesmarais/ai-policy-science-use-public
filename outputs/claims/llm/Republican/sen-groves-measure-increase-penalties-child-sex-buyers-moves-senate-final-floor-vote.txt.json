@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-groves-measure-increase-penalties-child-sex-buyers-moves-senate-final-floor-vote.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove’s Senate Bill 1414 (SB 1414) passed off the Assembly Floor and is moving to the Senate for a final vote. SB 1414 addresses the lucrative crime of sex traffick",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:03:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7a57054898232212daec1cfb8158d979f6bc1bfd"
+}

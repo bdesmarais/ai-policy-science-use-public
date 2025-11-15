@@ -1,0 +1,13 @@
+{
+  "press_release": "20230112-connollys-new-bill-stops-pesticide-spraying-along-north-bay-highways.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today Assemblymember Damon Connolly introduced",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:52:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 99 will stop harmful pesticide usage on sensitive ecosystems along highways in counties that adopt official resolutions restricting the deployment of such chemicals.\",\n    \"The California Department of Transportation (Caltrans) is exempt from many local rul",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 99 will stop harmful pesticide usage on sensitive ecosystems along highways in counties that adopt official resolutions restricting the deployment of such chemicals.\",\n    \"The California Department of Transportation (Caltrans) is exempt from many local rules regarding pesticide usage and is allowed to spray pesticides with less oversight than many North Bay jurisdictions.\",\n    \"Caltrans used over 745 gallons of herbicides on Sonoma County’s State Highways in 2021.\",\n    \"Synthetic herbicides and pesticides are known to cause developmental harm to humans, are not readily biodegradable, and contaminate groundwater.\",\n    \"Pesticide exposure is linked to cancer, endocrine disruption, reproductive effects, neurotoxicity, kidney and liver damage, birth defects, and developmental changes in a wide range of species.\",\n    \"Pesticides can contaminate soil, water, turf, and other vegetation due to pesticide drift, secondary poisoning, runoff, or groundwater contamination.\",\n    \"More than 80 percent of U.S. children and adults likely have the chemical glyphosate in their bodies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "47d4c0dd827c0f0d99cf36673b1d711a8a420e69"
+}

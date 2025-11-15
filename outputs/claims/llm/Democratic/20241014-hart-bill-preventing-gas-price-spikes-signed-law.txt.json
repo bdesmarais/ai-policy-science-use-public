@@ -1,0 +1,13 @@
+{
+  "press_release": "20241014-hart-bill-preventing-gas-price-spikes-signed-law.txt",
+  "party": "Democratic",
+  "title": "Bill Proposed By Governor Newsom Approved Following Special Session",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:57Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill requires refineries to maintain sufficient fuel reserves to prevent supply shortages that drive up gas prices.\",\n    \"Price spikes have cost Californians billions of dollars over the years.\",\n    \"The state now has the tools to ensure refineries backfill supplie",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill requires refineries to maintain sufficient fuel reserves to prevent supply shortages that drive up gas prices.\",\n    \"Price spikes have cost Californians billions of dollars over the years.\",\n    \"The state now has the tools to ensure refineries backfill supplies and plan ahead for maintenance.\",\n    \"Big oil companies are now responsible for stabilizing prices at the pump.\",\n    \"California's oil market is uniquely vulnerable due to its air quality standards and isolated fuels market.\",\n    \"Nearly all in-state supply comes from a handful of refineries, making the market susceptible to outages.\",\n    \"A single refinery outage could drastically reduce refining capacity by up to 45% in Northern California.\",\n    \"A single refinery outage could drastically reduce refining capacity by 35% in Southern California.\",\n    \"Last year, price spikes at the pump cost consumers more than $2 billion.\",\n    \"The California Energy Commission will have the authority to require petroleum refiners to implement resupply plans to offset production losses.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b9b83ca669d56d0bf439b950bfae7459d4fb54b3"
+}

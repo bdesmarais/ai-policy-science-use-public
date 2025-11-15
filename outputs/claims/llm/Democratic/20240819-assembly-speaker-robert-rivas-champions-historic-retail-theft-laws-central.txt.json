@@ -1,0 +1,13 @@
+{
+  "press_release": "20240819-assembly-speaker-robert-rivas-champions-historic-retail-theft-laws-central.txt",
+  "party": "Democratic",
+  "title": "SALINAS",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:47:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Retail crime and theft have plagued California in recent years.\",\n    \"Nationwide, retail theft costs retailers an estimated $120 billion annually.\",\n    \"A new felony charge to target organized criminals has been created by legislation.\",\n    \"Prosecutors across differe",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Retail crime and theft have plagued California in recent years.\",\n    \"Nationwide, retail theft costs retailers an estimated $120 billion annually.\",\n    \"A new felony charge to target organized criminals has been created by legislation.\",\n    \"Prosecutors across different counties are now allowed to work together to stop thieves.\",\n    \"The new laws crack down on online marketplaces that sell stolen items.\",\n    \"Governor Newsom has referred to the laws as the most significant legislation to address property crime in modern California history.\",\n    \"The legislative package reflects input from public safety groups, businesses, and community leaders.\",\n    \"Retail theft legislation disrupts retail crime rings while maintaining crucial criminal justice reforms.\",\n    \"The new laws are intended to protect hard-working business owners and keep their workers and customers safe.\",\n    \"Retail theft leads to perilous outcomes, especially in rural and non-urban areas.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6019fec1a23a62b2757316dd1cc1a09e2811be73"
+}

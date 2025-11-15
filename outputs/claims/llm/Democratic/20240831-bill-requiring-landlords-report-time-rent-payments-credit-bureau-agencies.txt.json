@@ -1,0 +1,13 @@
+{
+  "press_release": "20240831-bill-requiring-landlords-report-time-rent-payments-credit-bureau-agencies.txt",
+  "party": "Democratic",
+  "title": "Sacramento",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Many renters prioritize their rent payments over all other expenses each month.\",\n    \"On-time rent payments are not reflected on tenants' credit scores, while missed rent payments are.\",\n    \"This practice contributes to cycles of debt and poor financial health for mill",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Many renters prioritize their rent payments over all other expenses each month.\",\n    \"On-time rent payments are not reflected on tenants' credit scores, while missed rent payments are.\",\n    \"This practice contributes to cycles of debt and poor financial health for millions of renters.\",\n    \"Credit scores are designed to reflect both positive and negative financial history.\",\n    \"Millions of renters in California are paying their rent on time but do not see a positive impact on their credit scores.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e93f05d5d9b988b718c19c01f53bcdf3b25f26e1"
+}

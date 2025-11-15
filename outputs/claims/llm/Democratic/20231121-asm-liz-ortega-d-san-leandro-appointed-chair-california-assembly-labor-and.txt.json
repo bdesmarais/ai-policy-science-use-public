@@ -1,0 +1,13 @@
+{
+  "press_release": "20231121-asm-liz-ortega-d-san-leandro-appointed-chair-california-assembly-labor-and.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Latinas earn 54 cents for every dollar earned by non-Hispanic white men.\",\n    \"One-third of women between the ages of 65 and 84 are forced to work after the age of retirement.\",\n    \"Half of women between 55 and 65 have zero savings in California.\",\n    \"Women over 65 a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Latinas earn 54 cents for every dollar earned by non-Hispanic white men.\",\n    \"One-third of women between the ages of 65 and 84 are forced to work after the age of retirement.\",\n    \"Half of women between 55 and 65 have zero savings in California.\",\n    \"Women over 65 are 80% more likely to be impoverished than men.\",\n    \"The Workplace Readiness Act (AB 800) requires California schools to teach high school students about their workplace rights, union apprenticeship opportunities, and how to join a union.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9f87a0902d2b27f6c7a63712051387a747f1076e"
+}

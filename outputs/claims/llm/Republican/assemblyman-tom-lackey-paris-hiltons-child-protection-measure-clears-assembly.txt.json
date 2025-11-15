@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblyman-tom-lackey-paris-hiltons-child-protection-measure-clears-assembly.txt",
+  "party": "Republican",
+  "title": "Sacramento – Assemblyman Tom Lackey (R-Palmdale), is pleased to announce his bipartisan legislation, Assembly Bill 653, the Child Abuse Mandated Entertainment Reporter Act (CAMERA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 653 would add talent agents, managers, and coaches who work with minors in the entertainment industry to the list of mandated reporters.\",\n    \"AB 653 aims to close a gap in California law regarding child abuse reporting in the entertainment industry.\",\n    \"Paris Hil",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 653 would add talent agents, managers, and coaches who work with minors in the entertainment industry to the list of mandated reporters.\",\n    \"AB 653 aims to close a gap in California law regarding child abuse reporting in the entertainment industry.\",\n    \"Paris Hilton advocates for the training of adults who work closely with children to recognize the signs of abuse.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a05c870b49913087fe90a993fb4e712d3b3a7cae"
+}

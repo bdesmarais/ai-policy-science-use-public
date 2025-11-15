@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-shannon-grove-and-paris-hilton-celebrate-their-childrens-protection-bill-passing.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) and celebrity advocate Paris Hilton celebrated a major milestone today as SB 373 , aimed at improving safeguards for nonpublic school students",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:15:11Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0cac8a62031aa7364eee3736250c080bc8878078"
+}

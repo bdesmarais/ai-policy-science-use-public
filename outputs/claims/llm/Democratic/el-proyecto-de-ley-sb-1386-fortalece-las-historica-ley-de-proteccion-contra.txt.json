@@ -1,0 +1,13 @@
+{
+  "press_release": "el-proyecto-de-ley-sb-1386-fortalece-las-historica-ley-de-proteccion-contra.txt",
+  "party": "Democratic",
+  "title": "Para Difusión Inmediata",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:12:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"El Proyecto de Ley SB 1386 clarifica la ley civil de protección contra violaciones en California.\",\n    \"La Ley de Protección Contra la Violación de California busca equilibrar la balanza de la justicia para mujeres y niños que enfrentan obstáculos al responsabilizar a l",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"El Proyecto de Ley SB 1386 clarifica la ley civil de protección contra violaciones en California.\",\n    \"La Ley de Protección Contra la Violación de California busca equilibrar la balanza de la justicia para mujeres y niños que enfrentan obstáculos al responsabilizar a los violadores.\",\n    \"La falta de claridad en la ley existente va en contra del propósito de la Ley de Protección Contra la Violación en California.\",\n    \"Un fallo de la Corte Suprema de California en 2023 destacó la necesidad de mayor aclaración en las leyes de protección contra la violación.\",\n    \"Permitir que las pruebas de agresiones sexuales previas sean admisibles socava la intención de las leyes de protección contra la violación.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1223c26bcd76671c7f8e3f67577a39a6a5c7af5a"
+}

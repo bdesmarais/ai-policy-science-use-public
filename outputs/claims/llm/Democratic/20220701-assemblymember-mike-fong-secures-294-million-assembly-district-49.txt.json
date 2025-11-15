@@ -1,0 +1,13 @@
+{
+  "press_release": "20220701-assemblymember-mike-fong-secures-294-million-assembly-district-49.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:43:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assemblymember Mike Fong secured $29.4 million from the state budget for local investments.\",\n    \"Funds include $25 million for the construction of a state of the art Community Center in Alhambra.\",\n    \"The Community Center will include classrooms, fitness areas, multi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assemblymember Mike Fong secured $29.4 million from the state budget for local investments.\",\n    \"Funds include $25 million for the construction of a state of the art Community Center in Alhambra.\",\n    \"The Community Center will include classrooms, fitness areas, multipurpose rooms, community meeting space, and exterior recreation areas.\",\n    \"A total of $1.5 million will be allocated to the Asian Youth Center for empowering low-income, immigrant, and at-risk youth.\",\n    \"$1.7 million will be allocated to the City of Alhambra for constructing a pocket park and upgrading existing parks with WiFi access, EV charging stations, and book hold lockers.\",\n    \"$1 million will be provided to the Vincent Price Art Museum for a conservation lab, digitization lab, workspace, and ventilated storage.\",\n    \"$200,000 will be allocated for the restoration of the La Laguna de San Gabriel Historic Playground.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6a47e412c4cb5c35c6f322cbef89003c7709b907"
+}

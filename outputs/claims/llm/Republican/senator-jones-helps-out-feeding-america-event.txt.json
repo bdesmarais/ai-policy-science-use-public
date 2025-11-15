@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-jones-helps-out-feeding-america-event.txt",
+  "party": "Republican",
+  "title": "El Cajon, CA – State Senator Brian W. Jones (R-Santee) worked alongside “Feeding America” volunteers today during a drive-thru food distribution event held at Grossmont College.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:23Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fa9c12133c70e62a3dd07fb3d6ea6d1b52a96e75"
+}

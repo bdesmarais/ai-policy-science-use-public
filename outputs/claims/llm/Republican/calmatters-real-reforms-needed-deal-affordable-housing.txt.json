@@ -1,0 +1,13 @@
+{
+  "press_release": "calmatters-real-reforms-needed-deal-affordable-housing.txt",
+  "party": "Republican",
+  "title": "Published in CalMatters on November 22, 2020",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:20Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's housing costs have been rising for decades, making buying a home unaffordable for many families.\",\n    \"The California State Auditor's report highlights that California has lost $2.7 billion due to mismanagement of affordable housing funds.\",\n    \"California",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's housing costs have been rising for decades, making buying a home unaffordable for many families.\",\n    \"The California State Auditor's report highlights that California has lost $2.7 billion due to mismanagement of affordable housing funds.\",\n    \"California does not have a comprehensive approach to building affordable housing.\",\n    \"Significant amounts of money for housing are wasted due to mismanagement.\",\n    \"Governor Gavin Newsom has not implemented outcome measures to assess the impact of housing funds.\",\n    \"California has the highest poverty rate in the nation when accounting for the cost of living, including housing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9afe7704dc2cdebbd56f7222480f82b567a26f9a"
+}

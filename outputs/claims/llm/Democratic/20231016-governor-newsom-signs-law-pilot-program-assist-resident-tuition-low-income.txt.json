@@ -1,0 +1,13 @@
+{
+  "press_release": "20231016-governor-newsom-signs-law-pilot-program-assist-resident-tuition-low-income.txt",
+  "party": "Democratic",
+  "title": "(Sacramento) On Friday, Governor Gavin Newsom signed Assembly Bill 91 into law to eliminate the barrier of high tuition expenses for low-income students in the California-Mexican b",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:30:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The law aims to eliminate the barrier of high tuition expenses for low-income students in the California-Mexican border region.\",\n    \"A 5-year pilot program will allow students who live in Mexico and within 45 miles of the California border to be exempt from out-of-stat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The law aims to eliminate the barrier of high tuition expenses for low-income students in the California-Mexican border region.\",\n    \"A 5-year pilot program will allow students who live in Mexico and within 45 miles of the California border to be exempt from out-of-state tuition rates.\",\n    \"This law can address the demand for skilled workers and promotes a more diverse workforce and economy.\",\n    \"The pilot program can unlock a significant untapped resource to prepare a more diverse population among the workforce.\",\n    \"Expanding affordable access to community colleges will better equip binational students to enter the workforce.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "244d3ea62d0bcfdba46ab370aeb5f3a5c8066492"
+}

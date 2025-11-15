@@ -1,0 +1,13 @@
+{
+  "press_release": "20200610-assembly-sends-senate-measure-reduce-rates-missing-and-murdered-indigenous.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The murder rates of Native American women can be ten times the national average on some reservations.\",\n    \"Many suspects in cases involving missing and murdered Indigenous women and girls are non-Indian.\",\n    \"Jurisdictional confusion has helped perpetrators avoid fac",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The murder rates of Native American women can be ten times the national average on some reservations.\",\n    \"Many suspects in cases involving missing and murdered Indigenous women and girls are non-Indian.\",\n    \"Jurisdictional confusion has helped perpetrators avoid facing justice due to a 1953 federal law, Public Law 280.\",\n    \"Public Law 280 removed federal criminal jurisdiction over most major offenses committed on reservations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "791621460b66596c6e664c04d99d6c87198a35bf"
+}

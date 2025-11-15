@@ -1,0 +1,13 @@
+{
+  "press_release": "20180822-ballot-tracking-bill-approved-legislature.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – The Legislature has approved Assembly Bill 2218, authored by Assemblymember Marc Berman (D-Palo Alto), which would enable California voters to track their vote by mail",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:02:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California voters will be able to track their vote by mail ballots by 2020.\",\n    \"More than two-thirds of California voters chose to vote by mail in the recent primary election.\",\n    \"The implementation of AB 2218 aims to reduce disenfranchisement caused by correctable",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California voters will be able to track their vote by mail ballots by 2020.\",\n    \"More than two-thirds of California voters chose to vote by mail in the recent primary election.\",\n    \"The implementation of AB 2218 aims to reduce disenfranchisement caused by correctable errors in vote by mail ballots.\",\n    \"In all but one statewide election since 2010, a majority of California voters cast their votes using vote by mail ballots.\",\n    \"As of November 2016, 51% of California voters were registered as permanent vote by mail voters.\",\n    \"The number of permanent vote by mail voters in California is expected to increase due to the implementation of the California Voter's Choice Act.\",\n    \"Under AB 2218, the Secretary of State is required to develop a tool for voters to receive email or text notifications about their ballot status.\",\n    \"County elections officials will be able to send reminders to voters who have not returned their ballots.\",\n    \"County elections officials can contact voters quickly if additional information is needed to count their ballots.\",\n    \"AB 2218 was inspired by the Denver Elections Department’s Ballot TRACE System, which allows voters to track their ballots.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "64803fd85073441f5d5522a55346be1a0eac9be6"
+}

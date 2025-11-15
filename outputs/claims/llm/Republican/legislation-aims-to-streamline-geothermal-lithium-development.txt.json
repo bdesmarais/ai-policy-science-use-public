@@ -1,0 +1,13 @@
+{
+  "press_release": "legislation-aims-to-streamline-geothermal-lithium-development.txt",
+  "party": "Republican",
+  "title": "Please read the latest story on Assemblyman Jeff Gonzalez’s efforts to eliminate regulatory barriers to geothermal energy production and lithium extraction in Imperial County:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:58:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The proposed Assembly Bills 1016 and 1031 aim to remove regulatory barriers for geothermal energy production and lithium extraction in Imperial County.\",\n    \"AB 1016 seeks to expand local permitting authority for geothermal power plants.\",\n    \"AB 1031 addresses hazardo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The proposed Assembly Bills 1016 and 1031 aim to remove regulatory barriers for geothermal energy production and lithium extraction in Imperial County.\",\n    \"AB 1016 seeks to expand local permitting authority for geothermal power plants.\",\n    \"AB 1031 addresses hazardous waste regulations that industry leaders argue create unnecessary financial burdens on geothermal operations.\",\n    \"Both Assembly Bills are intended to accelerate clean energy projects and attract investment to Imperial County.\",\n    \"The Imperial County Board of Supervisors supports AB 1016 as a targeted and responsible reform to California's permitting process.\",\n    \"AB 1016 raises the local permitting threshold from 50 MW to 150 MW for counties with a geothermal element in their General Plan.\",\n    \"The letter of support for AB 1016 asserts that it recognizes the evolving scale and urgency of California's clean energy needs.\",\n    \"Without legislative action, California risks stalling progress in clean energy production and domestic lithium supply chain development.\",\n    \"AB 1031 aims to strike a balance between environmental protection and economic opportunity in California's transition to a clean energy future.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f3ec5fc04fa99d67b6e356916aeca4af4efda807"
+}

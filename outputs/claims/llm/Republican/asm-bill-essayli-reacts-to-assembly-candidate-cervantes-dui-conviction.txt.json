@@ -1,0 +1,13 @@
+{
+  "press_release": "asm-bill-essayli-reacts-to-assembly-candidate-cervantes-dui-conviction.txt",
+  "party": "Republican",
+  "title": "Underscores the Urgent Need for House Resolution 51 (Essayli)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "76ef6e66b4129af355eaba745ded7430ffc59a76"
+}

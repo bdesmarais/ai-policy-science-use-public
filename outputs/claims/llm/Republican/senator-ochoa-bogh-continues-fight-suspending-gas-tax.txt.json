@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-continues-fight-suspending-gas-tax.txt",
+  "party": "Republican",
+  "title": "Today, Senator Rosilicie Ochoa Bogh ( R-Yucaipa ) announced that she has formally sent a letter to Senate President Pro Tempore Mike McGuire, urging the introduction of her Senate ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill aims to immediately halt the state’s gas tax and provide significant economic relief to California consumers at the pump.\",\n    \"Californians are feeling the squeeze at the gas pump due to rising fuel costs.\",\n    \"Senator Ochoa Bogh has been a strong advocate f",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill aims to immediately halt the state’s gas tax and provide significant economic relief to California consumers at the pump.\",\n    \"Californians are feeling the squeeze at the gas pump due to rising fuel costs.\",\n    \"Senator Ochoa Bogh has been a strong advocate for suspending the gas tax to provide relief.\",\n    \"As gas prices have continued to rise, the burden on hardworking Californians has grown.\",\n    \"There is a need for the Legislature to focus on real solutions for Californians grappling with rising costs across essential sectors such as groceries and utilities.\",\n    \"The Governor’s Proclamation provides an opportunity to assess how state-imposed taxes and fees contribute to price spikes for gasoline.\",\n    \"Senator Ochoa Bogh is advocating for an open discussion on the role of state policies in exacerbating high gas prices.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1cef8041c5c69a36d70f9958a628ba5d9fd87231"
+}

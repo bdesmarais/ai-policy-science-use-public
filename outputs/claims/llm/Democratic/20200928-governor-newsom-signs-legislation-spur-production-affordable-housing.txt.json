@@ -1,0 +1,13 @@
+{
+  "press_release": "20200928-governor-newsom-signs-legislation-spur-production-affordable-housing.txt",
+  "party": "Democratic",
+  "title": "Legislation Empowers School Districts and Local Governments to Work Together to Provide Affordable Housing on School District-Owned Land",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:19:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has an affordable housing crisis that particularly affects teachers and school employees.\",\n    \"An entry-level teacher in Los Angeles would have to spend more than 85 percent of their income to afford an average median-level rental unit.\",\n    \"Many teachers ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has an affordable housing crisis that particularly affects teachers and school employees.\",\n    \"An entry-level teacher in Los Angeles would have to spend more than 85 percent of their income to afford an average median-level rental unit.\",\n    \"Many teachers in Los Angeles are forced to work second or third jobs or endure lengthy commutes due to housing costs.\",\n    \"AB 3308 allows school districts in California to utilize low-income housing tax credits to construct affordable housing on district-owned land.\",\n    \"The legislation enables school districts to collaborate with local governments to build affordable housing for employees and the general public.\",\n    \"AB 3308 clarifies California’s Teacher Housing Act to ensure that school districts retain important incentives for building affordable housing.\",\n    \"Empowering school districts to build on land they already own can lower the cost of construction for new affordable housing.\",\n    \"The support for AB 3308 from various educational and housing organizations indicates a broader coalition advocating for affordable housing solutions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1ab8ab9358336529db9ca2d9b0268738c027edda"
+}

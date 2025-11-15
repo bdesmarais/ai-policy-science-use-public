@@ -1,0 +1,13 @@
+{
+  "press_release": "20250605-assembly-passes-buy-california-glass-bill-protect-local-glass-manufacturers.txt",
+  "party": "Democratic",
+  "title": "What You Need to Know:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:38:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Many small and mid-sized wineries face pressure to cut costs, often turning to cheaper imported bottles.\",\n    \"California wineries choosing to import foreign-made glass bottles are putting local glass manufacturers at risk.\",\n    \"Local California wineries are facing up",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Many small and mid-sized wineries face pressure to cut costs, often turning to cheaper imported bottles.\",\n    \"California wineries choosing to import foreign-made glass bottles are putting local glass manufacturers at risk.\",\n    \"Local California wineries are facing up to 50% increases in glass costs.\",\n    \"Federal investigations are underway into bottle dumping from China, Mexico, and Chile.\",\n    \"The practices of bottle dumping have already contributed to the closure of at least one California glass plant.\",\n    \"AB 899 aims to protect over 1,000 union jobs.\",\n    \"AB 899 is designed to help California wineries choose locally made glass.\",\n    \"California produces 81% of the nation’s wine.\",\n    \"Many glass bottles used in California's wine industry are imported from foreign countries.\",\n    \"Recycled glass is a key ingredient in producing new glass packaging for California’s wine industry.\",\n    \"The Buy California Glass Bottle Procurement and Incentive Program is intended to help winemakers meet their sustainability goals.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "818ccdb45c3dcf162fefbdfe3809c4aee06bd098"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20240928-ramos-acknowledges-work-be-done-tribal-peace-officer-status-bill.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:18:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2138 aimed to create a three-year pilot program granting three California tribes peace officer status.\",\n    \"The bill AB 2138 was intended as a measure to combat the Missing and Murdered Indigenous Persons (MMIP) crisis in California.\",\n    \"Public Law 280 creates ju",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2138 aimed to create a three-year pilot program granting three California tribes peace officer status.\",\n    \"The bill AB 2138 was intended as a measure to combat the Missing and Murdered Indigenous Persons (MMIP) crisis in California.\",\n    \"Public Law 280 creates jurisdictional confusion among federal, state, and local law enforcement on tribal lands.\",\n    \"California ranks fifth in the nation for uninvestigated, unresolved MMIP cases.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4d3545259552956bbf805af695475b8b42e503f5"
+}

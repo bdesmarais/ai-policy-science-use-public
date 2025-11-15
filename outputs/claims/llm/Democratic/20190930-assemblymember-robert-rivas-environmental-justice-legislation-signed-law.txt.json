@@ -1,0 +1,13 @@
+{
+  "press_release": "20190930-assemblymember-robert-rivas-environmental-justice-legislation-signed-law.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:11:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1628 updates the state’s definition of 'environmental justice' to include the 'meaningful involvement' of people of all races, cultures, incomes, and national origins.\",\n    \"Communities that have experienced long legacies of pollution and neglect will be meaningfully",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1628 updates the state’s definition of 'environmental justice' to include the 'meaningful involvement' of people of all races, cultures, incomes, and national origins.\",\n    \"Communities that have experienced long legacies of pollution and neglect will be meaningfully involved in decisions that affect their health and livelihoods due to AB 1628.\",\n    \"AB 1628 aims to create a healthier California for all.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6aa677abec7fb2d4b3cbcd58eb3456e0dc4221fd"
+}

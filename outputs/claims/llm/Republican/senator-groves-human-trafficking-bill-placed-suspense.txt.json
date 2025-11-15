@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-human-trafficking-bill-placed-suspense.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) announced her bill Senate Bill 14 was moved to the Assembly Appropriations Committee’s suspense file. SB 14 would include sex trafficking of m",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:11:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 14 would include sex trafficking of minors in the list of crimes that are defined as serious under California law.\",\n    \"California has the unfortunate distinction of being one of the top states for human trafficking in the United States.\",\n    \"Thousands of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 14 would include sex trafficking of minors in the list of crimes that are defined as serious under California law.\",\n    \"California has the unfortunate distinction of being one of the top states for human trafficking in the United States.\",\n    \"Thousands of people, many of them minors, are forced into sexual and labor exploitation each year in California.\",\n    \"There have been operations in California, such as one in Kern County, where multiple perpetrators were arrested in connection to human trafficking.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "30c06d3980c2225d684542ac8ff35c842f4e5605"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "leader-jones-welcomes-bipartisan-support-his-measure-compassionately-clear-encampments.txt",
+  "party": "Republican",
+  "title": "Today, Senate Minority Leader Brian W. Jones (R-San Diego) welcomes Senator Bill Dodd (D-Napa) as a coauthor of his Senate Bill 31 (Jones) , a measure that aims to compassionately ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:57:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Homelessness is a crisis in California.\",\n    \"Encampments near sensitive community areas such as schools, parks, libraries, and daycare centers pose risks to children.\",\n    \"The proposed SB 31 aims to compassionately clear encampments and connect homeless individuals w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Homelessness is a crisis in California.\",\n    \"Encampments near sensitive community areas such as schools, parks, libraries, and daycare centers pose risks to children.\",\n    \"The proposed SB 31 aims to compassionately clear encampments and connect homeless individuals with necessary services.\",\n    \"A 72-hour warning will be required before clearing an encampment to allow homeless individuals time to find alternatives and services.\",\n    \"Enforcement officers will be required to provide information about sleeping alternatives and mental health services during encampment sweeps.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fcb5e9b67a4a61ba50bf9d8b817209db0d0e67e8"
+}

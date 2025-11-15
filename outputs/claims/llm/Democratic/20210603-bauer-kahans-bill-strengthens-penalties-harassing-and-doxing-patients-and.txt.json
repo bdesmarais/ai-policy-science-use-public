@@ -1,0 +1,13 @@
+{
+  "press_release": "20210603-bauer-kahans-bill-strengthens-penalties-harassing-and-doxing-patients-and.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:29:25Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The bill AB 1356 strengthens existing laws prohibiting the sharing of personal information and targeting of patients and providers online.\",\n    \"AB 1356 increases fines and penalties for attacking patients and providers at reproductive health clinics.\",\n    \"The FACE Ac",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The bill AB 1356 strengthens existing laws prohibiting the sharing of personal information and targeting of patients and providers online.\",\n    \"AB 1356 increases fines and penalties for attacking patients and providers at reproductive health clinics.\",\n    \"The FACE Act and other laws protecting reproductive health clinics were last updated in 2002.\",\n    \"Since 2002, social media and enhanced phone-camera technology have become major threats to reproductive health care access.\",\n    \"Protestors who post identifying information on social media and extremist websites subject providers to serious security threats.\",\n    \"Current laws fall short when confronting threats to reproductive health clinics that are compounded by modern technology.\",\n    \"Penalties for attacking patients at clinics and doxing providers online currently carry low fines and minimal penalties.\",\n    \"Minimal penalties are not enough to dissuade extremist protestors from preventing people from receiving essential health services.\",\n    \"Law enforcement is often unprepared to handle confrontations at reproductive health clinics.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d12ff534a2da1765c2f73ba3d8a44cc416b08d77"
+}

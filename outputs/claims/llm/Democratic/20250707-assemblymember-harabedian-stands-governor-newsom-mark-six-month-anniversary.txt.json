@@ -1,0 +1,13 @@
+{
+  "press_release": "20250707-assemblymember-harabedian-stands-governor-newsom-mark-six-month-anniversary.txt",
+  "party": "Democratic",
+  "title": "Assemblymember Harabedian Stands with Governor Newsom to Mark Six-Month Anniversary of LA Wildfires and Reaffirm Commitment to Recovery",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:40:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The state approved more than $2.5 billion in emergency wildfire relief to support recovery efforts.\",\n    \"Assemblymember Harabedian introduced a comprehensive package of fire-recovery legislation.\",\n    \"AB 238 allows homeowners in wildfire areas to defer mortgage payme",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The state approved more than $2.5 billion in emergency wildfire relief to support recovery efforts.\",\n    \"Assemblymember Harabedian introduced a comprehensive package of fire-recovery legislation.\",\n    \"AB 238 allows homeowners in wildfire areas to defer mortgage payments without penalties for up to an additional 12 months.\",\n    \"AB 239 creates a State-Led Disaster Housing Task Force to coordinate housing recovery efforts in wildfire-impacted areas.\",\n    \"AB 493 ensures that at least 2% interest on post-loss insurance payments goes to homeowners instead of banks.\",\n    \"AB 597 prohibits public adjusters from charging for payments unrelated to their services before the contract.\",\n    \"AB 797 enables IBank to oversee a program using investor-backed securities to stabilize property values in disaster-hit areas.\",\n    \"AB 1032 requires health plans to cover up to 12 behavioral health visits for enrollees in wildfire emergency areas.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5bae7ac95eefbe012c2ebf96577fa17a3065a953"
+}

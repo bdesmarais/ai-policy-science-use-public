@@ -1,0 +1,13 @@
+{
+  "press_release": "20210413-legislation-protecting-unaccompanied-immigrant-children-passes-judiciary.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO -",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:27:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1140 will ensure that all children housed in state-licensed facilities will be under the jurisdiction of the California Foster Care Ombudsperson’s Office.\",\n    \"Unaccompanied immigrant children are coming to our country in unprecedented numbers.\",\n    \"Unaccompanied ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1140 will ensure that all children housed in state-licensed facilities will be under the jurisdiction of the California Foster Care Ombudsperson’s Office.\",\n    \"Unaccompanied immigrant children are coming to our country in unprecedented numbers.\",\n    \"Unaccompanied children are entitled to the same rights and grievance procedures as all other children in out-of-home care in California.\",\n    \"The lack of adequate oversight can compromise the quality of care that unaccompanied children receive.\",\n    \"AB 1140 is a critical step forward in clarifying California's role in protecting the safety and welfare of vulnerable children.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2463bdd54e979c9c604d514e23d2a88523d05589"
+}

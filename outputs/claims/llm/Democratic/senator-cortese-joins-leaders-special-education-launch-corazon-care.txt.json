@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-joins-leaders-special-education-launch-corazon-care.txt",
+  "party": "Democratic",
+  "title": "Today, Senator Dave Cortese joined with leaders in special education to launch the “Corazon Care” Advisory Board, with a mission to create a new “Corazon Care” Campus in Santa Clar",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Corazon Care Campus will provide a safe and inclusive recreational space for children diagnosed with Autism Spectrum Disorder (ASD).\",\n    \"Corazon Care aims to transform a facility into both indoor and outdoor secure environments designed to meet the unique needs of",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Corazon Care Campus will provide a safe and inclusive recreational space for children diagnosed with Autism Spectrum Disorder (ASD).\",\n    \"Corazon Care aims to transform a facility into both indoor and outdoor secure environments designed to meet the unique needs of children with ASD.\",\n    \"The project is set to enhance the physical and emotional well-being of children with ASD.\",\n    \"The Corazon Care Campus will offer sensory toys, outdoor play areas, and features that accommodate children with diverse sensory considerations.\",\n    \"The Advisory Board is comprised of individuals with expertise in creating safe and inclusive spaces for children with ASD.\",\n    \"Families with children diagnosed with Autism Spectrum Disorder face significant challenges in finding safe and enjoyable recreational experiences.\",\n    \"The Corazon Care project represents a community's dedication to inclusivity and addresses the need for recreational spaces for children with ASD.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3b89ed21412fb20ce8cb31e2a8b71571c66ebd29"
+}

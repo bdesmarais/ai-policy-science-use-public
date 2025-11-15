@@ -1,0 +1,13 @@
+{
+  "press_release": "20230607-assemblymember-jesse-gabriel-honors-new-economics-women-california.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA —",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:02:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"New Economics for Women (NEW) was the first Latina-operated nonprofit community economic development organization in the country.\",\n    \"NEW's mission is to reduce poverty and build economic mobility, particularly for Latinas and their families.\",\n    \"NEW has fostered e",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"New Economics for Women (NEW) was the first Latina-operated nonprofit community economic development organization in the country.\",\n    \"NEW's mission is to reduce poverty and build economic mobility, particularly for Latinas and their families.\",\n    \"NEW has fostered economic mobility for women and their families through a range of comprehensive programs and initiatives.\",\n    \"NEW's primary hubs include entrepreneurship, wealth creation, education, and housing.\",\n    \"NEW's sustainable economic mobility model helps individuals and families develop economic success strategies and gain resources to eliminate poverty.\",\n    \"In 2022, 42,245 people were served by NEW, a 180% increase from pre-pandemic years.\",\n    \"NEW helped to start 90 new businesses in 2022.\",\n    \"NEW generated $30,930,926 in assets for its clients in 2022.\",\n    \"NEW created 355 new jobs in 2022.\",\n    \"NEW purchased 22 homes in 2022.\",\n    \"During COVID-19, NEW distributed 267,683 meals to people in need.\",\n    \"NEW deployed over $18 million in COVID relief assistance.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "aefe9c11f318c30f6135af08bfab6677f32bd9dc"
+}

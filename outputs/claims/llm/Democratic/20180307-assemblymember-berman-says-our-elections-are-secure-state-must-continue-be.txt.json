@@ -1,0 +1,13 @@
+{
+  "press_release": "20180307-assemblymember-berman-says-our-elections-are-secure-state-must-continue-be.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:00:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's voting systems were not hacked during the 2016 elections.\",\n    \"California's voting systems are under constant threat from foreign operatives.\",\n    \"Efforts continue to shield California's voting systems from increasingly sophisticated attacks.\",\n    \"Proa",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's voting systems were not hacked during the 2016 elections.\",\n    \"California's voting systems are under constant threat from foreign operatives.\",\n    \"Efforts continue to shield California's voting systems from increasingly sophisticated attacks.\",\n    \"Proactive steps are being taken to protect California's elections from interference.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4ad49519ccedb781e28a3d9b7d0889a1da30d242"
+}

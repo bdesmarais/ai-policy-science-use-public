@@ -1,0 +1,13 @@
+{
+  "press_release": "20180920-new-law-combats-child-hunger-increases-access-school-meals.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:03:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Providing breakfast to all students at no cost improves access to school meals.\",\n    \"Utilizing food trucks to provide nutritious meals expands access to school meals.\",\n    \"Students who eat right and exercise perform better in class.\",\n    \"Students who start their da",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Providing breakfast to all students at no cost improves access to school meals.\",\n    \"Utilizing food trucks to provide nutritious meals expands access to school meals.\",\n    \"Students who eat right and exercise perform better in class.\",\n    \"Students who start their day with a healthy meal attend more days of school per year.\",\n    \"Students who start their day with a healthy meal score higher on tests.\",\n    \"Students who start their day with a healthy meal are more likely to graduate high school.\",\n    \"School meals are an effective way to combat child hunger.\",\n    \"More than one in five California children live in poverty.\",\n    \"Over 1.7 million California households with children struggle to put food on the table.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6005669bc3fa33b0132f6657650226ab73713c73"
+}

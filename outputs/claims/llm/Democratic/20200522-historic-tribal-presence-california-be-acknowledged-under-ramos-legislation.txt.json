@@ -1,0 +1,13 @@
+{
+  "press_release": "20200522-historic-tribal-presence-california-be-acknowledged-under-ramos-legislation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO— Public schools, parks, libraries and museums may begin recognizing past tribal guardianship of lands where their facilities are located under a measure approved today b",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:16:42Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Public educational, cultural and recreational institutions may begin recognizing past tribal guardianship of lands where their facilities are located.\",\n    \"Land acknowledgments can educate Californians about Native Americans’ current and ancestral stewardship.\",\n    \"C",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Public educational, cultural and recreational institutions may begin recognizing past tribal guardianship of lands where their facilities are located.\",\n    \"Land acknowledgments can educate Californians about Native Americans’ current and ancestral stewardship.\",\n    \"California tribes today collectively possess only about seven percent of the territory they originally occupied.\",\n    \"Systematic denial of indigenous knowledge, cultural authority and historical experiences has resulted in the practical erasure of Native American history and civilization.\",\n    \"The recognition of land acknowledgment is practiced in countries such as Canada, Australia, and New Zealand.\",\n    \"The Ramos bill would be the first effort to formally encourage land acknowledgment statewide in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "604293111ac826d2b27807f9b43d6c867b1217b2"
+}

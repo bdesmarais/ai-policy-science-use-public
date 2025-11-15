@@ -1,0 +1,13 @@
+{
+  "press_release": "20230223-assemblymember-tina-mckinnor-works-break-cycle-recidivism-impacting.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) –  Assemblymember Tina McKinnor (D- Inglewood) today announced the introduction of AB 974, which will provide California born individuals leaving a state or local ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:55:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"71% of people who left prison in California in the last six months of 2019 were released without a California Identification Card (Cal-ID).\",\n    \"The lack of a Cal-ID has significant negative impacts on formerly incarcerated individuals, including missed job opportuniti",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"71% of people who left prison in California in the last six months of 2019 were released without a California Identification Card (Cal-ID).\",\n    \"The lack of a Cal-ID has significant negative impacts on formerly incarcerated individuals, including missed job opportunities and difficulties in opening bank accounts.\",\n    \"Many other states, including Illinois, Oregon, Michigan, and New Jersey, provide free birth certificates to incarcerated individuals upon their release.\",\n    \"In California, obtaining a Cal-ID card often requires a birth certificate to prove legal presence and date of birth.\",\n    \"The difficulty in obtaining necessary documentation, such as a birth certificate, poses major barriers for individuals leaving incarceration in California.\",\n    \"70% of unhoused individuals in California were previously incarcerated.\",\n    \"Access to vital records, such as birth certificates, is crucial for formerly incarcerated individuals to secure housing and enter the labor market.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3174b97cb19a5490e0bbe1718faabe5cd27f59f9"
+}

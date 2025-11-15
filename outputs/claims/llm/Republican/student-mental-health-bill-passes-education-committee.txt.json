@@ -1,0 +1,13 @@
+{
+  "press_release": "student-mental-health-bill-passes-education-committee.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove ( R-Bakersfield ) announced that her bill to establish a statewide policy to target the mental health effects of school closures on students unanimously passe",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:51Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 525 aims to address the mental health challenges faced by children due to school closures during the COVID-19 pandemic.\",\n    \"The California Department of Public Health will collaborate with the California Department of Education to develop a statewide approach to th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 525 aims to address the mental health challenges faced by children due to school closures during the COVID-19 pandemic.\",\n    \"The California Department of Public Health will collaborate with the California Department of Education to develop a statewide approach to the mental health crisis in schools.\",\n    \"Children have experienced significant changes in their lives due to school closures resulting from COVID-19.\",\n    \"Prioritizing student health should encompass physical, emotional, psychological, and social well-being.\",\n    \"Research indicates that isolation, physical distancing, and remote learning have a detrimental impact on children's mental health.\",\n    \"The long-term effects of school closures and adjustments to learning environments on students' mental health are still being studied.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7c647c00806517163b267f220703ff7aa7964b13"
+}

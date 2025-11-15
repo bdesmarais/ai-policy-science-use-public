@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-comments-2023-24-state-budget-proposed-governor-newsom.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Senator Bob Archuleta (D-Pico Rivera) released the following statement on the 2023-24 state budget proposed by Governor Newsom today:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1cc4ffed2a9ed1d27008682023b6e10ee1fc78a1"
+}

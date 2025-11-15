@@ -1,0 +1,13 @@
+{
+  "press_release": "20190521-legislation-protect-users-e-scooters-and-other-shared-mobility-devices.txt",
+  "party": "Democratic",
+  "title": "Torrance, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1286 requires cities and counties to adopt safety rules before e-scooter and other shared mobility service providers offer devices for rent or use.\",\n    \"Service providers must provide minimum insurance to protect riders, pedestrians, and others in the eve",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1286 requires cities and counties to adopt safety rules before e-scooter and other shared mobility service providers offer devices for rent or use.\",\n    \"Service providers must provide minimum insurance to protect riders, pedestrians, and others in the event of an injury.\",\n    \"E-scooters and other shared mobility devices can be fun, affordable, and eco-friendly ways to get around.\",\n    \"Public safety considerations for both users and the general public have not been fully addressed regarding e-scooters.\",\n    \"Four scooter riders across the country have been killed in recent months.\",\n    \"A study published by the Journal of the American Medical Association reported that 249 scooter riders were treated for injuries in just two Southern California emergency rooms last year.\",\n    \"Ninety-six percent of the injured riders were riders themselves, and forty percent suffered head injuries.\",\n    \"Only 5.7 percent of injured riders wore helmets.\",\n    \"Riders often leave e-scooters on sidewalks and other public spaces, creating hazards for the elderly and people with disabilities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e9780132efa645b8e931bfa815632d83572b067d"
+}

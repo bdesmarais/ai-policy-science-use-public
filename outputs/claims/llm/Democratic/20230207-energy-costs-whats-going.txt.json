@@ -1,0 +1,13 @@
+{
+  "press_release": "20230207-energy-costs-whats-going.txt",
+  "party": "Democratic",
+  "title": "Over the past month, households in the North Bay, including mine, got slammed with unexpectedly high energy bills. As your State Assemblymember and a newly appointed member of the ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:53:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"According to PG&E, natural gas residential customers will receive around $53.\",\n    \"Residential electric customers will receive approximately $38.\",\n    \"Customers who receive both gas and electric services will receive a total credit of $91.\",\n    \"More than 300,000 el",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"According to PG&E, natural gas residential customers will receive around $53.\",\n    \"Residential electric customers will receive approximately $38.\",\n    \"Customers who receive both gas and electric services will receive a total credit of $91.\",\n    \"More than 300,000 eligible PG&E customers who experienced financial hardships during the pandemic will receive an automatic one-time bill credit in early February under the California Arrearage Payment Program.\",\n    \"The recent increase in natural gas prices was a significant factor in why utility bills rose throughout the country.\",\n    \"Many sections of the U.S. pipeline system had to undergo repairs, which contributed to the rise in utility bills.\",\n    \"Natural gas exports from Europe decreased due to the war in Ukraine, impacting prices.\",\n    \"Energy prices skyrocketed more than 300 percent from last year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9af292b37725f6a26e520f106337e184b9febec4"
+}

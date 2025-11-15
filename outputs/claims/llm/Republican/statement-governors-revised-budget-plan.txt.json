@@ -1,0 +1,13 @@
+{
+  "press_release": "statement-governors-revised-budget-plan.txt",
+  "party": "Republican",
+  "title": "Senator Rosilicie Ochoa Bogh (R-Yucaipa) issued the following statement after Governor Gavin Newsom released his revised 2021-22 budget proposal:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3fa6891dfb23310d7aea8dca43facd4400101b93"
+}

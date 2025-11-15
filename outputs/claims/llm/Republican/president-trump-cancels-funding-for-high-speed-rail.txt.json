@@ -1,0 +1,13 @@
+{
+  "press_release": "president-trump-cancels-funding-for-high-speed-rail.txt",
+  "party": "Republican",
+  "title": "Today, President Trump posted on Truth Social, “not a single penny in federal dollars” will go towards the California High-Speed Rail. Longtime critic and Central Valley’s Assembly",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:33Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c8db1429b0341d70707c7b383ee7ffb6434a9677"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-groves-statement-high-speed-rail-funds.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO - Today, Senator Shannon Grove (R-Bakersfield) released the following statement on the United States Department of Transportation’s announcement that California is in vi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:12:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The high-speed rail project in California has been mismanaged and is overbudget.\",\n    \"California is in violation of the funding agreement for the high-speed rail project.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The high-speed rail project in California has been mismanaged and is overbudget.\",\n    \"California is in violation of the funding agreement for the high-speed rail project.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f859f92796c0b7bf72db60b04987f504834ade2c"
+}

@@ -1,0 +1,64 @@
+{
+  "press_release": "costly-new-mandate-scaqmd-will-hurt-californians-warns-senator-strickland.txt",
+  "party": "Republican",
+  "title": "Senator Tony Strickland ( R-Huntington Beach ) warns residents of the Senate District 36 th of a proposed mandate from the South Coast Air Quality Management District (SCAQMD), whi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:46:54Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The proposed amendments to Rule 1111 and 1121 aim to replace natural gas furnaces and water heaters in favor of all-electric units by 2026.\"\n    },\n    {\n      \"claim_text\": \"The expense to upgrade to all-electric space and water heaters can range f",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"The proposed amendments to Rule 1111 and 1121 aim to replace natural gas furnaces and water heaters in favor of all-electric units by 2026.\"\n    },\n    {\n      \"claim_text\": \"The expense to upgrade to all-electric space and water heaters can range from $1,500 to $47,000 per household.\"\n    },\n    {\n      \"claim_text\": \"The cost of living for Californians is 42% higher than the national average.\"\n    },\n    {\n      \"claim_text\": \"Residents in the district have expressed struggles to afford basic necessities like food, rent, and gas due to overregulation.\"\n    },\n    {\n      \"claim_text\": \"The South Coast Air Quality Management District creates mandates with minimal transparency and input from Californians.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "The proposed amendments to Rule 1111 and 1121 aim to replace natural gas furnaces and water heaters in favor of all-electric units by 2026.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The expense to upgrade to all-electric space and water heaters can range from $1,500 to $47,000 per household.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The cost of living for Californians is 42% higher than the national average.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Residents in the district have expressed struggles to afford basic necessities like food, rent, and gas due to overregulation.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The South Coast Air Quality Management District creates mandates with minimal transparency and input from Californians.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "cf90ca3b0f7f4c356fc3ff76249117e5c1563346"
+}

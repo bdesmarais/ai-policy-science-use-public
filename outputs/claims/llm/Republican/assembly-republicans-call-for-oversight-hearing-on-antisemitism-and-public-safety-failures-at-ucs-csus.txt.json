@@ -1,0 +1,13 @@
+{
+  "press_release": "assembly-republicans-call-for-oversight-hearing-on-antisemitism-and-public-safety-failures-at-ucs-csus.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Following last week’s violence and vandalism at UCLA and CSU Humboldt, Assembly Republican leaders – James Gallagher (R-Yuba City) and Vince Fong (R-Central Valley) – ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:38:50Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The violence and anti-Semitic hate at UCLA and CSU Humboldt is appalling.\",\n    \"Students have been harmed physically, mentally, and emotionally due to recent incidents.\",\n    \"Universities are incurring substantial costs for clean-up, security, and other expenses relate",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The violence and anti-Semitic hate at UCLA and CSU Humboldt is appalling.\",\n    \"Students have been harmed physically, mentally, and emotionally due to recent incidents.\",\n    \"Universities are incurring substantial costs for clean-up, security, and other expenses related to recent violence.\",\n    \"A college education promotes upward mobility and generational wealth for families from impoverished backgrounds.\",\n    \"Students cannot learn in environments where they face danger.\",\n    \"Vandalism, harassment, intimidation, assault, and blocking students from attending classes are not protected under freedom of speech.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8c03f7a35bae1186b0990057b604c36471bd2064"
+}

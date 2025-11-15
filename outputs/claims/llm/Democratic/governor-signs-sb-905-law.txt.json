@@ -1,0 +1,13 @@
+{
+  "press_release": "governor-signs-sb-905-law.txt",
+  "party": "Democratic",
+  "title": "Enhancing Protections for Immigrant Communities",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:14:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senate Bill 905 allows individuals to submit background checks without a residence address.\",\n    \"The requirement of an address on background checks can deter individuals from volunteering in their communities.\",\n    \"California law permits organizations to request all ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senate Bill 905 allows individuals to submit background checks without a residence address.\",\n    \"The requirement of an address on background checks can deter individuals from volunteering in their communities.\",\n    \"California law permits organizations to request all of an applicant's criminal records if the applicant has supervisory power over minors.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "baecee0dfdb4dbaee8d0ab6392555840e824ff2e"
+}

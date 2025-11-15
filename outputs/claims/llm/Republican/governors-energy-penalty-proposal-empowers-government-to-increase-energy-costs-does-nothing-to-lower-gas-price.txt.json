@@ -1,0 +1,13 @@
+{
+  "press_release": "governors-energy-penalty-proposal-empowers-government-to-increase-energy-costs-does-nothing-to-lower-gas-price.txt",
+  "party": "Republican",
+  "title": "The Assembly today passed SBX1-2, the Governor’s proposal to create a new layer of bureaucracy that is empowered to control the gas price and impose taxes. Vice Chair of the Assemb",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:52:39Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"SBX1-2 may do the opposite of lowering gas prices and increase prices by exacerbating existing supply problems.\",\n    \"The result of this legislation could be energy market disruptions, higher costs, and energy shortages.\",\n    \"The Governor's proposal may harm dome",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"SBX1-2 may do the opposite of lowering gas prices and increase prices by exacerbating existing supply problems.\",\n    \"The result of this legislation could be energy market disruptions, higher costs, and energy shortages.\",\n    \"The Governor's proposal may harm domestic energy production in California.\",\n    \"Creating a hostile business climate may put Californians out of work.\",\n    \"California's energy policy may increase dependence on foreign sources of oil and natural gas.\",\n    \"The Governor has thousands of permits for more domestic production sitting on his desk.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "39f80f161db7581ca9918b2fbb2298937bea0ee2"
+}

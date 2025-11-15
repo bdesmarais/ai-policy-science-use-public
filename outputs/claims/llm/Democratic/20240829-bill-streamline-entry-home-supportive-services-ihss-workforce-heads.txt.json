@@ -1,0 +1,13 @@
+{
+  "press_release": "20240829-bill-streamline-entry-home-supportive-services-ihss-workforce-heads.txt",
+  "party": "Democratic",
+  "title": "AB 2704, a bill to ease the financial burden of criminal background checks on prospective IHSS providers, has passed the Legislature and now awaits the Governor's signature.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:48:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2704 aims to reduce financial burdens on prospective In-Home Supportive Services (IHSS) providers.\",\n    \"The bill removes the fee imposed by the California Department of Justice for criminal background checks for prospective IHSS providers.\",\n    \"AB 2704 is intended",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2704 aims to reduce financial burdens on prospective In-Home Supportive Services (IHSS) providers.\",\n    \"The bill removes the fee imposed by the California Department of Justice for criminal background checks for prospective IHSS providers.\",\n    \"AB 2704 is intended to make it easier for qualified individuals to join the IHSS workforce.\",\n    \"The IHSS program allows many Californians to receive care in their own homes rather than in institutional settings.\",\n    \"Removing the background check fee is expected to make care work more accessible to potential IHSS providers.\",\n    \"AB 2704 seeks to address the care crisis in California by increasing the number of IHSS providers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b6b1f1cb65672ccc0ba887734682445589e6050a"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20210826-berman-releases-statement-support-sb-9-and-10.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - Today Assemblymember Berman released the following statement in support of SB 9 and 10:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:15Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Tens of thousands of constituents and millions of Californians struggle under the weight of the housing crisis.\",\n    \"The cost of housing in California is astronomical.\",\n    \"Addressing the housing crisis will require multiple solutions.\",\n    \"SB 10 provides cities wi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Tens of thousands of constituents and millions of Californians struggle under the weight of the housing crisis.\",\n    \"The cost of housing in California is astronomical.\",\n    \"Addressing the housing crisis will require multiple solutions.\",\n    \"SB 10 provides cities with another tool to build denser, infill housing.\",\n    \"Cities in the Assemblymember's district have requested additional, voluntary tools to build more housing.\",\n    \"SB 9 allows up to four units of housing to be built on a single-family lot.\",\n    \"The increase in housing units allowed by SB 9 is one unit compared to existing law.\",\n    \"Amendments to SB 9 include adding anti-displacement provisions to protect renters.\",\n    \"SB 9 includes a three-year homeowner occupancy requirement to benefit homeowners.\",\n    \"Local governments can deny proposed housing developments if there is a specific fire hazard that cannot be mitigated.\",\n    \"SB 9 will help address housing affordability by creating duplexes and smaller single-family homes at more moderate price points.\",\n    \"California has failed to build enough housing for decades.\",\n    \"The lack of sufficient housing has disproportionately affected the most vulnerable populations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a6889d9b7aacf640f19ca4ec6278a0ff86a270a2"
+}

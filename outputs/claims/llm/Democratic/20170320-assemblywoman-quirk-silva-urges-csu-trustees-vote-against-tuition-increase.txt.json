@@ -1,0 +1,13 @@
+{
+  "press_release": "20170320-assemblywoman-quirk-silva-urges-csu-trustees-vote-against-tuition-increase.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO â Ahead of the upcoming California State University (CSU) Board of Trustee Meeting on Wednesday, March 22, Assemblywoman Quirk-Silva, with bipartisan support of member",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:54:10Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "01e06e5b242d27d92155af69096d4affd7bdf152"
+}

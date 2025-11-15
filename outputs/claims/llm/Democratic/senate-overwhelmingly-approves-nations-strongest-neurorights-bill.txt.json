@@ -1,0 +1,13 @@
+{
+  "press_release": "senate-overwhelmingly-approves-nations-strongest-neurorights-bill.txt",
+  "party": "Democratic",
+  "title": "SB 1223 protects an individual’s neural data from misuse by defining neural data as sensitive personal information and applies the same protections in law over its use as other sen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:21:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1223 protects an individual’s neural data from misuse by defining neural data as sensitive personal information.\",\n    \"The market for neurotech is growing at an annual rate of 12% and is expected to reach $21 billion by 2026.\",\n    \"The California Consumer Privacy Ac",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1223 protects an individual’s neural data from misuse by defining neural data as sensitive personal information.\",\n    \"The market for neurotech is growing at an annual rate of 12% and is expected to reach $21 billion by 2026.\",\n    \"The California Consumer Privacy Act requires that businesses only use sensitive personal information for limited purposes.\",\n    \"SB 1223 defines neurodata as sensitive personal information and applies the same limited protections for its use as any other sensitive personal information.\",\n    \"Regulating neurotechnology early in its development is essential to ensure ethical use, protect privacy, establish industry standards, and address future implications.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fbabc5af139fe171eb3f281df39fb4cdbe0a992b"
+}

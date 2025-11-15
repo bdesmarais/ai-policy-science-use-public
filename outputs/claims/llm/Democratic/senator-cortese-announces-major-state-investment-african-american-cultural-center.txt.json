@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-announces-major-state-investment-african-american-cultural-center.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese joined community leaders in announcing $3 million in state funding for a mixed-use complex known as the Silicon Valley African American Cultural Center. The Ce",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:27:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Silicon Valley African American Cultural Center is Silicon Valley’s first Black-owned nonprofit community development entity.\",\n    \"The African American Cultural Center will act as a central gathering place for African Americans engaged in business, wellness, shoppi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Silicon Valley African American Cultural Center is Silicon Valley’s first Black-owned nonprofit community development entity.\",\n    \"The African American Cultural Center will act as a central gathering place for African Americans engaged in business, wellness, shopping, or cultural events.\",\n    \"The development aims to redefine possibilities of multi-use development.\",\n    \"The Center will cultivate a strong sense of unity and appreciation among diverse backgrounds.\",\n    \"The development will include affordable housing, a health clinic, a performing arts theater, a museum, athletic facilities, and retail spaces.\",\n    \"The project will provide onsite health and mental health services.\",\n    \"The development will be eco-friendly and easily accessible by public transportation.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8bad513c8611cb8830aca4f2305f836df0035ad5"
+}

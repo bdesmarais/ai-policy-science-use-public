@@ -1,0 +1,13 @@
+{
+  "press_release": "20230718-statement-shifting-gears-stop-yield-bill.txt",
+  "party": "Democratic",
+  "title": "Statement on Shifting Gears on ‘Stop as Yield’ Bill",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Bicycles and e-bikes are playing a greater role in sustainable transportation solutions.\",\n    \"A more comprehensive approach is needed to change the culture around bicycle safety.\",\n    \"Bicyclists need to integrate and interact effectively with motorists, transit, and ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Bicycles and e-bikes are playing a greater role in sustainable transportation solutions.\",\n    \"A more comprehensive approach is needed to change the culture around bicycle safety.\",\n    \"Bicyclists need to integrate and interact effectively with motorists, transit, and pedestrians.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "823d7cf09ecbfc3facf986690b91017ee60ce5e3"
+}

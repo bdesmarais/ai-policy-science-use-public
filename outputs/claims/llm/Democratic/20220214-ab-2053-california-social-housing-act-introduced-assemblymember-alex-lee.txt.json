@@ -1,0 +1,13 @@
+{
+  "press_release": "20220214-ab-2053-california-social-housing-act-introduced-assemblymember-alex-lee.txt",
+  "party": "Democratic",
+  "title": "Today, Assemblymember Alex Lee (D-San José) introduced AB 2053 to establish Social Housing in California. AB 2053 will create the California Housing Authority (CHA) to produce and ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:38:21Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The median price of a home in California is roughly $800,000, which is more than double the national average.\",\n    \"More than two in five households in California currently spend over 30% of their income on housing.\",\n    \"More than one in five households in California ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The median price of a home in California is roughly $800,000, which is more than double the national average.\",\n    \"More than two in five households in California currently spend over 30% of their income on housing.\",\n    \"More than one in five households in California spend over 50% of their income on housing.\",\n    \"Families who pay more than 30% of their income for housing are considered rent burdened by the Department of Housing and Urban Development.\",\n    \"California has been losing lower and middle-income residents due to the high cost of living.\",\n    \"Over 97% of cities and counties in California have been unable to produce enough affordable housing.\",\n    \"There are only enough affordable and available rentals for 24% of extremely low-income households in California.\",\n    \"Social housing is defined as publicly backed, self-sustaining housing that accommodates a mix of household income ranges.\",\n    \"Social housing is protected from being sold to a private for-profit entity for the duration of its life.\",\n    \"Housing for people with higher incomes will subsidize low-income units, allowing housing developments to become self-sustaining and revenue neutral.\",\n    \"Social housing aims to ensure that tenants spend no more than 30% of their income on rent.\",\n    \"Social housing has been successful in various locations around the world, including CADA in Sacramento and developments in Vienna and Singapore.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0658da513eb3861c44e824d6a3627a53023953d4"
+}

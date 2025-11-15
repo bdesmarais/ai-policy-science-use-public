@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-groves-measure-make-purchasing-child-sex-felony-passes-senate-floor-critical-amendments.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove’s Senate Bill 1414 (SB 1414) passed off the Senate Floor with a vote of 36-0. SB 1414 addresses the lucrative crime of sex trafficking and aims to increase pe",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 1414 addresses the lucrative crime of sex trafficking and aims to increase penalties for those who purchase children for sex.\",\n    \"Soliciting or buying children 15 and under for sex can only be charged as a wobbler, either a misdemeanor or a felony.\",\n    \"Buying 16",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 1414 addresses the lucrative crime of sex trafficking and aims to increase penalties for those who purchase children for sex.\",\n    \"Soliciting or buying children 15 and under for sex can only be charged as a wobbler, either a misdemeanor or a felony.\",\n    \"Buying 16 and 17 year old children is only punishable as a misdemeanor.\",\n    \"Felony charges related to purchasing sex from children carry only possible jail time and are not prison eligible.\",\n    \"Only perpetrators with a previous conviction of purchasing sex from a child 15 or under must register as a tier one sex offender under specific conditions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2b0f3a91a7639cba2a22fbbab5739c242c3d50f3"
+}

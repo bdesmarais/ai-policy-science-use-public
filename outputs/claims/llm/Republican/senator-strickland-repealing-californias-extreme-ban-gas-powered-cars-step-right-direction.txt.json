@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-strickland-repealing-californias-extreme-ban-gas-powered-cars-step-right-direction.txt",
+  "party": "Republican",
+  "title": "Senator Tony Strickland (R-Huntington Beach), vice chair of the Senate Transportation Committee and a member of the Senate Energy, Utilities and Communications Committee, released ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:16:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The federal government has signed a resolution to overturn California's ban on gas-powered vehicles by 2035.\",\n    \"California is not prepared to have 15 million electric vehicles on the road by 2035.\",\n    \"Experts have stated that the goal of building 2.1 million publi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The federal government has signed a resolution to overturn California's ban on gas-powered vehicles by 2035.\",\n    \"California is not prepared to have 15 million electric vehicles on the road by 2035.\",\n    \"Experts have stated that the goal of building 2.1 million public EV charging stations by 2035 is 'unlikely' and 'unrealistic.'\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d389f5b7b5e66959ef9272cc30ba942f18145599"
+}

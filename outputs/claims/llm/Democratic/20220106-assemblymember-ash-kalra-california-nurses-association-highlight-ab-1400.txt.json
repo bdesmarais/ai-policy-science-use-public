@@ -1,0 +1,13 @@
+{
+  "press_release": "20220106-assemblymember-ash-kalra-california-nurses-association-highlight-ab-1400.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:36:45Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1400 and ACA 11 would guarantee comprehensive, high-quality health care for all Californians as a human right.\",\n    \"AB 1400 offers a progressive taxation plan to fund comprehensive, universal single-payer health care coverage.\",\n    \"The COVID-19 pandemic has exacer",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1400 and ACA 11 would guarantee comprehensive, high-quality health care for all Californians as a human right.\",\n    \"AB 1400 offers a progressive taxation plan to fund comprehensive, universal single-payer health care coverage.\",\n    \"The COVID-19 pandemic has exacerbated already existing disparities in the healthcare system.\",\n    \"Nearly 3 million Californians have no health insurance.\",\n    \"Millions more Californians have insurance that they can’t afford to use because their copays and deductibles are too high.\",\n    \"For-profit insurance companies and healthcare systems are reporting record-breaking profits during the COVID-19 pandemic.\",\n    \"The United States is the only country in the developed world without a system of universal healthcare.\",\n    \"57 percent of all Californians supported replacing private insurance with guaranteed coverage provided by the government.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d758574c424f96214de4c8deaae768bc992c2d3f"
+}

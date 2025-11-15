@@ -1,0 +1,13 @@
+{
+  "press_release": "20210219-assemblymember-alex-lee-introduces-repeal-regressive-mortgage-interest.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:24:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California is spending approximately $250 million to subsidize empty homes to the primary benefit of wealthier individuals.\",\n    \"The homeownership rate for Californians is the second lowest in the nation at 53.8%.\",\n    \"Homeownership rates are 34.5% for Black people a",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California is spending approximately $250 million to subsidize empty homes to the primary benefit of wealthier individuals.\",\n    \"The homeownership rate for Californians is the second lowest in the nation at 53.8%.\",\n    \"Homeownership rates are 34.5% for Black people and 41.9% for Latinos in California.\",\n    \"California's history of redlining has had lasting impacts on generational wealth-building through homeownership.\",\n    \"State mortgage deductions similar to California's are regressive and inefficient, resulting in less-affordable homes.\",\n    \"Mortgage deductions increase the likelihood of mortgage defaults and reduce the homeownership rate by about 5%.\",\n    \"The mortgage interest deduction is not effective at serving first-time homebuyers.\",\n    \"Approximately less than 2.8% of Californians currently write off mortgage interest on vacation homes.\",\n    \"If the mortgage interest deduction for second homes is discontinued, the wealthier-than-average Californian would owe about $1,000 in taxes annually.\",\n    \"The $250 million could be used to create approximately 23,000 first-time homebuyers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "8560051381ed29b02537f4e08ba96e2380fef46a"
+}

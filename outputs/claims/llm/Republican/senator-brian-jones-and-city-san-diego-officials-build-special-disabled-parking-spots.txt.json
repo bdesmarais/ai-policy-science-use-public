@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-brian-jones-and-city-san-diego-officials-build-special-disabled-parking-spots.txt",
+  "party": "Republican",
+  "title": "Senator Brian W. Jones (R-Santee), City of San Diego officials and public works crews put the final touches on two newly designated disabled parking spaces in front of the Warrior ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:08:52Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "48bc0e42f1bcac1c7736cce257a0f54f115bbacb"
+}

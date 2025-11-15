@@ -1,0 +1,13 @@
+{
+  "press_release": "declaracion-del-asambleista-jeff-gonzalez-sobre-la-aprobacion-del-ab-1016-proyecto-de-ley-para-aumentar-la-capacidad-de-energia-geotermica-aprobadopor-la-asamblea.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Hoy, el Asambleísta Jeff Gonzalez (R-Indio) emitió la siguiente declaración tras la aprobación del Proyecto de Ley de la Asamblea 1016 , un programa piloto destinado a",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:47:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"El AB 1016 aumentará la capacidad de generación de las plantas de energía geotérmica que califican para permisos locales.\",\n    \"El AB 1016 dará lugar a la creación de empleos en el Condado de Imperial, donde el desempleo es alto.\",\n    \"El proyecto de ley apoyará a las ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"El AB 1016 aumentará la capacidad de generación de las plantas de energía geotérmica que califican para permisos locales.\",\n    \"El AB 1016 dará lugar a la creación de empleos en el Condado de Imperial, donde el desempleo es alto.\",\n    \"El proyecto de ley apoyará a las escuelas y generará ingresos para los gobiernos locales.\",\n    \"El AB 1016 avanza hacia los objetivos de energía limpia de California.\",\n    \"El AB 1016 simplifica los permisos locales para los proyectos geotérmicos.\",\n    \"El cambio en el AB 1016 reconoce las décadas de desarrollo comprobado de energía limpia en el Condado de Imperial.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0d4942e54035cb10a0f0f5b0e2d5c43e2272490f"
+}

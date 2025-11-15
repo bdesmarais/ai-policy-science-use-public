@@ -1,0 +1,13 @@
+{
+  "press_release": "20210106-release-what-others-are-saying-about-keep-california-working-act.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:21:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Keep California Working Act invests $2.6 billion in grants for small businesses and non-profits impacted by COVID-19.\",\n    \"SB 74 will have six award tiers, with eligible businesses not exceeding $5 million in gross revenue and grant awards not exceeding $75,000.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Keep California Working Act invests $2.6 billion in grants for small businesses and non-profits impacted by COVID-19.\",\n    \"SB 74 will have six award tiers, with eligible businesses not exceeding $5 million in gross revenue and grant awards not exceeding $75,000.\",\n    \"One in every 14 jobs in California is at a nonprofit, and nonprofits provide vital services needed by communities.\",\n    \"95% of California's economic success is based upon small business success.\",\n    \"The Keep California Working Act will provide support to small businesses, particularly restaurants, in order to sustain jobs.\",\n    \"Small businesses are the backbone of California's economy and are crucial for unemployment alleviation.\",\n    \"The proposed legislation aims to deliver equitable distribution of grant funds to small businesses across California.\",\n    \"Small businesses hire locally and recycle money within their communities.\",\n    \"Non-profits provide essential services to communities, filling gaps for individuals and families when safety nets have failed.\",\n    \"California's small businesses have been significantly affected by COVID-19 shutdowns and need immediate financial assistance.\",\n    \"The Keep California Working Act aims to prevent permanent closure of small businesses in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5e987c21da7c145b60b8ac1f6d5b802e7a674345"
+}

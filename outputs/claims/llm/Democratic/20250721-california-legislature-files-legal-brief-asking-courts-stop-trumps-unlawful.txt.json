@@ -1,0 +1,13 @@
+{
+  "press_release": "20250721-california-legislature-files-legal-brief-asking-courts-stop-trumps-unlawful.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:42:12Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The federal takeover of a CalGuard unit by President Trump violates the U.S. Constitution.\",\n    \"The mobilization of the National Guard without the consent of California's Governor is unlawful under federal law.\",\n    \"The deployment of the National Guard in California ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The federal takeover of a CalGuard unit by President Trump violates the U.S. Constitution.\",\n    \"The mobilization of the National Guard without the consent of California's Governor is unlawful under federal law.\",\n    \"The deployment of the National Guard in California is described as entirely unnecessary and harmful to the state's economy and residents.\",\n    \"The federal government overstepped legal authority by mobilizing a CalGuard unit without gubernatorial approval.\",\n    \"The mobilization of the National Guard has diverted resources away from crucial state duties, such as combating wildfires and preventing drug trafficking.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2c51f8c971846911a896dc7609123af255c22220"
+}

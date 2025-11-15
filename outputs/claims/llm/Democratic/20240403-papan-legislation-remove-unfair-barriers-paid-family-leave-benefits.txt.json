@@ -1,0 +1,13 @@
+{
+  "press_release": "20240403-papan-legislation-remove-unfair-barriers-paid-family-leave-benefits.txt",
+  "party": "Democratic",
+  "title": "Sacramento, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:38:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2123 aims to eliminate the provision requiring employees to use two weeks of accrued vacation before accessing Paid Family Leave (PFL) benefits.\",\n    \"California pioneered the Paid Family Leave program over two decades ago, providing workers with partial w",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2123 aims to eliminate the provision requiring employees to use two weeks of accrued vacation before accessing Paid Family Leave (PFL) benefits.\",\n    \"California pioneered the Paid Family Leave program over two decades ago, providing workers with partial wage replacement during their leave to care for family members under specific circumstances.\",\n    \"The Paid Family Leave program in California has been expanded to recognize a broader range of family relationships and to extend benefits from 6 to 8 weeks per year.\",\n    \"The California Legislature enhanced the Paid Family Leave program with SB 951 in 2022, ensuring low-to-middle income workers receive 90% of their regular wages through PFL, effective 2025.\",\n    \"Current practices allow employers to compel employees to use two weeks of accrued vacation leave before accessing PFL benefits, contradicting the purpose of the program funded by employees' contributions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "db13e9f522a35825fcca3b66b6745b044a25cf92"
+}

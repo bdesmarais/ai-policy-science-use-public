@@ -1,0 +1,13 @@
+{
+  "press_release": "20230712-assemblymember-bermans-bill-guarantee-access-computer-science-passes-key.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:04:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"All public high school students in California will have access to computer science education as a result of bill AB 1054.\",\n    \"California lags behind in ensuring equity and access to computer science education compared to 27 other states.\",\n    \"Too many students, part",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"All public high school students in California will have access to computer science education as a result of bill AB 1054.\",\n    \"California lags behind in ensuring equity and access to computer science education compared to 27 other states.\",\n    \"Too many students, particularly Black, Latinx, Indigenous, and low-income students, do not have access to foundational computer science learning opportunities.\",\n    \"Requiring high schools to offer at least one computer science course is critical for preparing Californians for rewarding career pathways and informed community engagement.\",\n    \"Computer science and computational thinking develop critical thinking and problem-solving skills in students.\",\n    \"Investing in equitable computer science education at the K-12 level will lead to a more diverse and productive workforce.\",\n    \"Digital skills are foundational for full participation in the marketplace and civic life.\",\n    \"75.1% of high school students in California attend a school that offers computer science education, yet significant disparities in access persist.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "048a475413275ebb3e9b88d259407974dad90b6e"
+}

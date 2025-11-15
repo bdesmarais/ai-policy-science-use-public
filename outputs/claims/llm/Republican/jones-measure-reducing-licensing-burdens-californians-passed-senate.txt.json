@@ -1,0 +1,13 @@
+{
+  "press_release": "jones-measure-reducing-licensing-burdens-californians-passed-senate.txt",
+  "party": "Republican",
+  "title": "Sacramento – A measure by State Senator Brian Jones (R-Santee) to reduce the licensing burden on working Californians was unanimously approved by the Senate.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:54:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California has a heavily regulated and cumbersome licensing scheme that does not serve Californians well.\",\n    \"SB 878 will make the process to get licensed under the Department of Consumer Affairs much smoother and more predictable for license applicants.\",\n    \"The De",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California has a heavily regulated and cumbersome licensing scheme that does not serve Californians well.\",\n    \"SB 878 will make the process to get licensed under the Department of Consumer Affairs much smoother and more predictable for license applicants.\",\n    \"The Department of Consumer Affairs has an ancient processing system which keeps hard-working Californians in limbo about license processing timeframes.\",\n    \"Licensees need to know about their application status so they can plan accordingly for entry into the workforce as soon as possible.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d81032ba04726fa0844466082b9942cfac4355d4"
+}

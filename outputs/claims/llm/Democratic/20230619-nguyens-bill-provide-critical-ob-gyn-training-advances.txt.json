@@ -1,0 +1,13 @@
+{
+  "press_release": "20230619-nguyens-bill-provide-critical-ob-gyn-training-advances.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1646 aims to provide critical training for out-of-state medical residents to practice medicine and receive compensation for up to 90 days as part of their guest rotations in California.\",\n    \"Medical residents in states such as Texas are unable to be fully",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 1646 aims to provide critical training for out-of-state medical residents to practice medicine and receive compensation for up to 90 days as part of their guest rotations in California.\",\n    \"Medical residents in states such as Texas are unable to be fully trained because Texas banned abortion in 2022.\",\n    \"As of today, 18 states have enacted total bans or severe restrictions on abortion.\",\n    \"Abortion bans are impacting the availability for medical professionals to be properly trained in specific medical fields, specifically obstetrics and gynecology.\",\n    \"AB 1646 supports comprehensive training for physicians by allowing medical residents to come to California for training in health care services, like abortion, that they may not receive in their home program due to hostile laws.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4c841007fb9590627b7f253422b8664458469e68"
+}

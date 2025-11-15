@@ -1,0 +1,13 @@
+{
+  "press_release": "20241017-dr-bains-announces-outreach-efforts-red-ribbon-week-2024.txt",
+  "party": "Democratic",
+  "title": "(Bakersfield, CA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Education is essential to combat the growing drug crisis among young people.\",\n    \"Red Ribbon Week was founded in 1985 in response to the murder of DEA Agent Enrique 'Kiki' Camarena.\",\n    \"Red Ribbon Week has grown into a national awareness campaign that highlights the",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Education is essential to combat the growing drug crisis among young people.\",\n    \"Red Ribbon Week was founded in 1985 in response to the murder of DEA Agent Enrique 'Kiki' Camarena.\",\n    \"Red Ribbon Week has grown into a national awareness campaign that highlights the dangers of substance use.\",\n    \"Dr. Bains will visit several schools to educate students about the dangers of drugs.\",\n    \"Dr. Bains passed laws to initiate a local and statewide fentanyl task force.\",\n    \"California lawmakers brought millions of dollars in funding to enhance drug enforcement and outreach.\",\n    \"There was an 18% increase in fentanyl-related overdoses in Kern County from 2022 to 2023.\",\n    \"The Centers for Disease Control reported drug overdose deaths in California increased from over 4,500 in 2015 to 11,774 in 2023.\",\n    \"The shift from plant-based drugs to synthetic, chemical-based drugs has created a more deadly drug crisis in the U.S.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6f0f28e13418b926d1913966ed873c17df8f3560"
+}

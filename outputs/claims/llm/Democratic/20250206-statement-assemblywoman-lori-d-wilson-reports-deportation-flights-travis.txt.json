@@ -1,0 +1,13 @@
+{
+  "press_release": "20250206-statement-assemblywoman-lori-d-wilson-reports-deportation-flights-travis.txt",
+  "party": "Democratic",
+  "title": "I believe every single person should be treated with dignity and respect. I find it deeply unsettling that Travis Air Force Base, located in the heart of our community, is being us",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:26:02Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Travis Air Force Base is being used for deportation flights.\",\n    \"The current administration's immigration policies target vulnerable families.\",\n    \"Deportation flights cause families to live in fear and have their lives upended.\",\n    \"Numerous news reports hav",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Travis Air Force Base is being used for deportation flights.\",\n    \"The current administration's immigration policies target vulnerable families.\",\n    \"Deportation flights cause families to live in fear and have their lives upended.\",\n    \"Numerous news reports have highlighted the deplorable conditions faced by deportees.\",\n    \"There are high costs associated with using military resources for deportation operations.\",\n    \"Using military resources for deportation diverts them from critical missions.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9312d1794a206265a69dfe9aa63b2a82c4b21e8f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "proyecto-de-ley-senatorial-sb-357-volviendo-imaginar-el-sistema-de-justicia-juvenil-del.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO - El Proyecto de Ley 357 del Senado, redactado por la Senadora Caroline Menjivar (D-San Fernando Valley) para transformar el sistema de justicia juvenil en el Condado de",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:18:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The SB 357 bill aims to transform the juvenile justice system in Los Angeles County.\",\n    \"SB 357 addresses a long-standing crisis within the Los Angeles County Probation Department.\",\n    \"The bill allows the Los Angeles County Board of Supervisors to delegate partial ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The SB 357 bill aims to transform the juvenile justice system in Los Angeles County.\",\n    \"SB 357 addresses a long-standing crisis within the Los Angeles County Probation Department.\",\n    \"The bill allows the Los Angeles County Board of Supervisors to delegate partial functions and responsibilities of the Probation Department to another county entity.\",\n    \"The SB 357 bill enables better support for youth involved in justice through rehabilitation and reentry programs.\",\n    \"In 2023, a young person died from an overdose due to staff shortages in juvenile detention centers.\",\n    \"There have been at least nine overdoses reported this year in Los Padrinos, a juvenile detention center that has been ordered to close by a court.\",\n    \"Thirty agents of the Probation Department have been accused of running gladiator-style fight clubs in hallways and camps.\",\n    \"Los Angeles County has agreed to pay $2.7 million to a teenager who was beaten during a recorded fight.\",\n    \"The county has settled over 6,800 cases of alleged sexual assault by staff, including probation personnel, for $4 billion.\",\n    \"The SB 357 bill is designed to facilitate the creation of strong collaboration between the Board of Supervisors, the Los Angeles County Probation Department, and stakeholders.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7b6b7877cd7b2ac5809e9fd575a59effaf41d9d3"
+}

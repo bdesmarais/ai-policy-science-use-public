@@ -1,0 +1,13 @@
+{
+  "press_release": "20220930-california-racial-justice-act-all-signed-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:49:49Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 256 allows persons with convictions or judgments prior to January 1, 2021 to petition the court for relief if racial bias is proven to be present in their case.\",\n    \"The original Racial Justice Act was limited to cases after January 1, 2021.\",\n    \"Prior to the Raci",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 256 allows persons with convictions or judgments prior to January 1, 2021 to petition the court for relief if racial bias is proven to be present in their case.\",\n    \"The original Racial Justice Act was limited to cases after January 1, 2021.\",\n    \"Prior to the Racial Justice Act, proving racial bias in California was nearly impossible due to a 30-year legal precedent set by McCleskey v Kemp.\",\n    \"The signing of AB 256 makes the Racial Justice Act applicable to cases involving racial bias prior to January 1, 2021.\",\n    \"By August 2021, prosecutors found that more than 200 past cases needed to be notified of a police detective's racist comments.\",\n    \"AB 256 is a critical step forward in the fight against racial bias and discrimination in California's criminal legal system.\",\n    \"The Racial Justice Act for All aims to provide justice to incarcerated Black, Brown, and Indigenous people impacted by systemic racism.\",\n    \"Black, Brown, and Indigenous communities are overrepresented in prisons and courts due to racist policies.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ddfad2ffa9b2f0c0572aff14552ac12a1576d423"
+}

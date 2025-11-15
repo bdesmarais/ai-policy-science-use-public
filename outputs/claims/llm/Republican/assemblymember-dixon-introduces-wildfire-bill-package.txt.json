@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-dixon-introduces-wildfire-bill-package.txt",
+  "party": "Republican",
+  "title": "EXPEDITE RECOVERY ASSISTANCE TO COMMUNITY ORGANIZATIONS AND WILDFIRE PREVENTION MEASURES",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:42:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Since 2015, 13 of the largest wildfires, seven of the deadliest wildfires, and 15 of the most destructive wildfires in California have occurred.\",\n    \"The Community Relief Act, AB 624, will establish a grant program for financial assistance to local agencies, community-",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Since 2015, 13 of the largest wildfires, seven of the deadliest wildfires, and 15 of the most destructive wildfires in California have occurred.\",\n    \"The Community Relief Act, AB 624, will establish a grant program for financial assistance to local agencies, community-based organizations, and individuals for disaster-related costs.\",\n    \"Local community organizations and agencies play a critical role in providing shelter, evacuation, safety updates, and supplies during wildfires.\",\n    \"AB 623 will exempt fuel reduction projects and fuel modification projects from the requirements of the California Environmental Quality Act (CEQA).\",\n    \"AB 623 will enable proactive measures to be taken to better prevent wildfires and protect communities across California.\",\n    \"CEQA compliance creates a complicated and onerous approval process for wildfire prevention measures.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dfce9da0ef251361655fa01f9e06296e6ea37c93"
+}

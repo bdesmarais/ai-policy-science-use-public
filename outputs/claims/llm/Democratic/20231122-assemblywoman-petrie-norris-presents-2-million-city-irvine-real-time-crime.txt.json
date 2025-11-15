@@ -1,0 +1,13 @@
+{
+  "press_release": "20231122-assemblywoman-petrie-norris-presents-2-million-city-irvine-real-time-crime.txt",
+  "party": "Democratic",
+  "title": "IRVINE, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:31:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The City of Irvine will develop a Real Time Crime Center (RTCC) using $2 million in state budget funding.\",\n    \"RTCCs enable officers, crime analysts, and dispatchers to gather and communicate critical information.\",\n    \"RTCCs increase the apprehension of offenders and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The City of Irvine will develop a Real Time Crime Center (RTCC) using $2 million in state budget funding.\",\n    \"RTCCs enable officers, crime analysts, and dispatchers to gather and communicate critical information.\",\n    \"RTCCs increase the apprehension of offenders and help prevent crime.\",\n    \"The establishment of a Real Time Crime Center will improve officer safety.\",\n    \"RTCCs provide first responders with critical information related to community safety issues, including acts of crime and missing persons.\",\n    \"RTCC analysts use historical agency data, law enforcement data-sharing platforms, live video feeds, and crime series intelligence for real-time analysis.\",\n    \"RTCC analysts provide real-time situational awareness to responding officers.\",\n    \"Many law enforcement agencies across the nation are starting to acquire resources to form RTCCs.\",\n    \"According to the U.S. Department of Justice Office of Justice Programs, RTCCs lead to efficient and effective policing.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3c06702e4328fa24d081750120c7e52207247216"
+}

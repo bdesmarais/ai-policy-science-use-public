@@ -1,0 +1,13 @@
+{
+  "press_release": "20230629-reparations-affirmative-action.txt",
+  "party": "Democratic",
+  "title": "As a black male, a direct descendant of slavery, I am both hopeful as the CA Reparations Taskforce completes its sacred work to repair the devastating effects of slavery, fugitive ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:03:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1e7335b1010cc5dae34aceb6a6cbaa997e4e7098"
+}

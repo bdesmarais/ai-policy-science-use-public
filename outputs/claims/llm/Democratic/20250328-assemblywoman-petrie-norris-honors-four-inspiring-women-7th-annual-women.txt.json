@@ -1,0 +1,64 @@
+{
+  "press_release": "20250328-assemblywoman-petrie-norris-honors-four-inspiring-women-7th-annual-women.txt",
+  "party": "Democratic",
+  "title": "Costa Mesa, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:31:07Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Sirisha Bandla made history by launching to space as a part of the Unity22 mission, the first-ever fully crewed commercial spaceflight.\"\n    },\n    {\n      \"claim_text\": \"Yulan Chung is the driving force behind the establishment of the Asian America",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"Sirisha Bandla made history by launching to space as a part of the Unity22 mission, the first-ever fully crewed commercial spaceflight.\"\n    },\n    {\n      \"claim_text\": \"Yulan Chung is the driving force behind the establishment of the Asian American History Museum of Orange County.\"\n    },\n    {\n      \"claim_text\": \"The Asian American History Museum of Orange County will create a new national model for multicultural harmony.\"\n    },\n    {\n      \"claim_text\": \"RAD Camp is the largest residential camp for individuals with developmental disabilities in California.\"\n    },\n    {\n      \"claim_text\": \"RAD Camp welcomes 220 campers and over 800 volunteers each summer.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "Sirisha Bandla made history by launching to space as a part of the Unity22 mission, the first-ever fully crewed commercial spaceflight.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "Yulan Chung is the driving force behind the establishment of the Asian American History Museum of Orange County.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "The Asian American History Museum of Orange County will create a new national model for multicultural harmony.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "RAD Camp is the largest residential camp for individuals with developmental disabilities in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "RAD Camp welcomes 220 campers and over 800 volunteers each summer.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 5,
+  "doc_sha1": "8b8fc15bcc2db176dcf3dac42d1c7510438bef1c"
+}

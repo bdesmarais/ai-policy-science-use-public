@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-ochoa-boghs-bill-pause-gas-tax-immediately-killed-without-discussion-state-legislature.txt",
+  "party": "Republican",
+  "title": "Today, Senate Democrats killed an effort to suspend the state’s gas tax, without discussion. Senator Rosilicie Ochoa Bogh ( R-Yucaipa ) tried introducing a bill this week to immedi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:04:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The current price for a gallon of gas in California is $4.67.\",\n    \"The national average price for a gallon of gas is $3.20.\",\n    \"Suspending the state’s excise tax on gasoline could provide significant economic relief to California consumers.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The current price for a gallon of gas in California is $4.67.\",\n    \"The national average price for a gallon of gas is $3.20.\",\n    \"Suspending the state’s excise tax on gasoline could provide significant economic relief to California consumers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "032ff03ee20cbdd869c70f83daf3f6f5dc493efb"
+}

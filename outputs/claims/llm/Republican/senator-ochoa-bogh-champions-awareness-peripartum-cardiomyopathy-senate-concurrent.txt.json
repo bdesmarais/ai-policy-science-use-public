@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-ochoa-bogh-champions-awareness-peripartum-cardiomyopathy-senate-concurrent.txt",
+  "party": "Republican",
+  "title": "In a heartfelt speech on the Senate floor, Senator Rosilicie Ochoa Bogh ( R-Yucaipa ) introduced Senate Concurrent Resolution (SCR) 20 , proclaiming February 2025 as Peripartum Car",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:13:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Peripartum Cardiomyopathy (PPCM) is a type of heart failure that typically develops late in pregnancy and can occur within five months postpartum.\",\n    \"PPCM can be challenging to diagnose because its symptoms are often confused with typical pregnancy-related changes.\",",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Peripartum Cardiomyopathy (PPCM) is a type of heart failure that typically develops late in pregnancy and can occur within five months postpartum.\",\n    \"PPCM can be challenging to diagnose because its symptoms are often confused with typical pregnancy-related changes.\",\n    \"If PPCM goes undiagnosed and untreated, it can result in permanent heart failure, the necessity for a transplant, or even death.\",\n    \"Most women with PPCM will recover completely within six months after treatment starts if caught early enough.\",\n    \"9% of all pregnancy-related deaths are due to cardiomyopathy of all origins, according to the Centers for Disease Control and Prevention.\",\n    \"Awareness of PPCM remains low among expectant mothers and healthcare professionals despite its serious consequences.\",\n    \"Key risk factors for PPCM include high blood pressure, being pregnant with multiples, maternal age of 35 years or older, smoking, and poor diet.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3d909f7a99dc1fac9a4050f5ee2ef8544ebb2312"
+}

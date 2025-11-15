@@ -1,0 +1,13 @@
+{
+  "press_release": "20230213-assemblymember-tina-mckinnor-recognizes-restaurant-seven-nineteen-black.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) – Recognizing the significant economic impact that Black-owned businesses contribute to California's economy, Assemblymember Tina McKinnor (D - Inglewood) today wa",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:54:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Black-owned businesses contribute significantly to California's economy.\",\n    \"Restaurant Seven Nineteen is recognized as the Black Small Business of the Year.\",\n    \"Tyrei Lacy established a respected business presence in southern California's culinary and entertainmen",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Black-owned businesses contribute significantly to California's economy.\",\n    \"Restaurant Seven Nineteen is recognized as the Black Small Business of the Year.\",\n    \"Tyrei Lacy established a respected business presence in southern California's culinary and entertainment industries.\",\n    \"Restaurant Seven Nineteen features a completely remodeled interior and an updated menu.\",\n    \"The California Legislative Black Caucus and the California Black Chamber of Commerce honor Black-owned businesses that impact California's economy positively.\",\n    \"Black-owned small businesses are essential to California’s economy.\",\n    \"Restaurant Seven Nineteen serves as a popular gathering space for families and friends in southern California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a280d41e0ec86978b790b46435f594a5fa201e72"
+}

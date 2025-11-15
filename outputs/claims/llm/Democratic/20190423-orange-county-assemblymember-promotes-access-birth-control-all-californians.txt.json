@@ -1,0 +1,13 @@
+{
+  "press_release": "20190423-orange-county-assemblymember-promotes-access-birth-control-all-californians.txt",
+  "party": "Democratic",
+  "title": "AB 1264 Will Reduce Barriers and Expand Access to Birth Control to Address Unmet Need",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:07:08Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1264 will allow people to safely access birth control via phone apps.\",\n    \"The bill aims to clarify vague telehealth laws related to safely prescribing medication.\",\n    \"Safe and effective family planning has had a profound and positive impact on women’s lives.\",\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1264 will allow people to safely access birth control via phone apps.\",\n    \"The bill aims to clarify vague telehealth laws related to safely prescribing medication.\",\n    \"Safe and effective family planning has had a profound and positive impact on women’s lives.\",\n    \"Technology will help address the unmet needs of thousands of patients in California seeking birth control.\",\n    \"Providers have determined that a video requirement is medically unnecessary and causes an arbitrary barrier to receiving care.\",\n    \"With unintended pregnancies accounting for almost half of pregnancies, it is vital to expand access to birth control via virtual care.\",\n    \"Planned Parenthood Direct (PPDirect) saw more than 500 patients on average per month after launching in California in 2016.\",\n    \"PPDirect is currently available in 23 states and is expected to expand to another 10 in 2019.\",\n    \"Medical experts have determined that synchronous video is not medically necessary nor does it provide any clinical value for prescribing birth control.\",\n    \"Acquiring hormonal birth control does not require a physical examination, as allowed by legislation permitting pharmacists to prescribe birth control.\",\n    \"Telehealth applications like PPDirect will enable women to access care at any time based on their schedules.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4906ff95e5b2d63a520de30e1f4e1d673482a321"
+}

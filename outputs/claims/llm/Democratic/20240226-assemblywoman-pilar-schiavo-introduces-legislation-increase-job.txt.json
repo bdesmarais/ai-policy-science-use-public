@@ -1,0 +1,13 @@
+{
+  "press_release": "20240226-assemblywoman-pilar-schiavo-introduces-legislation-increase-job.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:29Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2294 incentivizes the hiring of new employees by expanding businesses eligible for tax credits.\",\n    \"The New Employment Credit (NEC) was established in 2013 to incentivize the hiring of individuals who have historically faced barriers to employment.\",\n    \"Existing ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2294 incentivizes the hiring of new employees by expanding businesses eligible for tax credits.\",\n    \"The New Employment Credit (NEC) was established in 2013 to incentivize the hiring of individuals who have historically faced barriers to employment.\",\n    \"Existing tax credit limitations for the NEC have been challenging for businesses to use, contributing to low participation.\",\n    \"AB 2294 seeks to break down barriers and limitations to create more job opportunities for those at risk of homelessness.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "7a7717f9f928443b5b4f72d8d234ca6f1052957d"
+}

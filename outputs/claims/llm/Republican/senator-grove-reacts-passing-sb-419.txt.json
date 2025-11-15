@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-grove-reacts-passing-sb-419.txt",
+  "party": "Republican",
+  "title": "Senator Shannon Grove (R-Bakersfield) speaks in opposition of SB 419 (Stern) which passed off the Senate Floor today and would require California’s petroleum industry to use union ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:10:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Proponents of SB 419 have made unsubstantiated claims that the bill will improve worker and environmental safety in the state’s oil industry.\",\n    \"Oil producers already comply with the most stringent regulations, policies, and safety precautions at the local, state, an",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Proponents of SB 419 have made unsubstantiated claims that the bill will improve worker and environmental safety in the state’s oil industry.\",\n    \"Oil producers already comply with the most stringent regulations, policies, and safety precautions at the local, state, and federal levels.\",\n    \"The oil and gas industry has an extremely low incident rate compared to similar industries.\",\n    \"An acceptable total recorded incident rate (TRIR) rate is 3.0 or less; the oil and gas sector is below 1.\",\n    \"Kern County produces 72% of California’s crude oil and is home to five of the state’s largest oil and gas fields.\",\n    \"California’s oil and gas consumption has not been reduced.\",\n    \"In the last 20 years, California’s foreign oil imports have tripled.\",\n    \"California has some of the most stringent environmental regulations in the world.\",\n    \"California was once the top oil contributing state in the nation, producing 40% of all oil in the country.\",\n    \"The oil and gas industry supports more than 350,000 good paying union and non-union jobs in the state.\",\n    \"Since 2009, more than $59 billion dollars of private investment money has been spent on renewable energy projects in Kern County.\",\n    \"More than 50% of Kern County’s energy needs are now met with renewable energy projects.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a84bb92a78a0a48560242f9fad70328742ed30ec"
+}

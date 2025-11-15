@@ -1,0 +1,13 @@
+{
+  "press_release": "20231009-ab-1273-ensures-all-schools-have-adequate-staffing-safe-working-and.txt",
+  "party": "Democratic",
+  "title": "(Sacramento, CA) – AB 1273 by Assemblymember Mia Bonta (D-Oakland), a bill that establishes a workgroup to propose guidelines on proper staffing for classified school employees, ha",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:10:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1273 establishes a workgroup to propose guidelines on proper staffing for classified school employees.\",\n    \"Current law does not specify what factors local education agencies should consider in establishing staff-to-student ratios.\",\n    \"AB 1273 aims to ensure all ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1273 establishes a workgroup to propose guidelines on proper staffing for classified school employees.\",\n    \"Current law does not specify what factors local education agencies should consider in establishing staff-to-student ratios.\",\n    \"AB 1273 aims to ensure all school community members have a safe working and learning environment.\",\n    \"Inadequate staffing ratios can have detrimental effects on the success of students.\",\n    \"AB 1273 is intended to provide guidance to schools in developing optimal staffing ratios.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f9ab3d457396ac9af4dc1fa858062237c72ee8c9"
+}

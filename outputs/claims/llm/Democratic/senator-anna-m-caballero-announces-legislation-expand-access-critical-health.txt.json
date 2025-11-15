@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-anna-m-caballero-announces-legislation-expand-access-critical-health.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:22:59Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Senate Bill 524 will allow pharmacists to prescribe treatment for certain common conditions for which they can currently perform tests.\",\n    \"Nearly nine in ten Californians live within five miles of a community pharmacy.\",\n    \"The role of the pharmacist to manage",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Senate Bill 524 will allow pharmacists to prescribe treatment for certain common conditions for which they can currently perform tests.\",\n    \"Nearly nine in ten Californians live within five miles of a community pharmacy.\",\n    \"The role of the pharmacist to manage a patient’s healthcare needs is an underused resource in California.\",\n    \"California can utilize the rigorous training pharmacists receive to quickly prescribe medications that can stop the spread of illness.\",\n    \"Healthcare is inaccessible for many Californians, particularly those in rural areas.\",\n    \"Rural residents face a shortage of physicians, lack of transportation, and hospital closures, limiting access to treatments for various viral illnesses.\",\n    \"Senate Bill 524 would expand pharmacists' ability to provide treatment within their training.\",\n    \"Early treatment of illnesses such as the flu, RSV, or strep throat is imperative to prevent further spread and protect individuals from developing more serious symptoms.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5010738336525571c68b8fba0a4caeb208ff051d"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20241108-assemblymember-mia-bonta-releases-statement-historic-funding-port-oakland.txt",
+  "party": "Democratic",
+  "title": "Today, Assemblymember Mia Bonta released the following statement after an announcement was made late last month that the Port of Oakland would be receiving $322,000,000 in federal ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Port of Oakland is receiving $322,000,000 in federal funding to support its transition to decarbonization.\",\n    \"The investment aims to fast-track a complete decarbonization of the port.\",\n    \"The shift to a green port is crucial for protecting the health and envir",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Port of Oakland is receiving $322,000,000 in federal funding to support its transition to decarbonization.\",\n    \"The investment aims to fast-track a complete decarbonization of the port.\",\n    \"The shift to a green port is crucial for protecting the health and environment of Oaklanders.\",\n    \"The investments will support Oakland and the surrounding communities' economic prosperity.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "03a74fad057688d0c56773617a7e8315d94fa778"
+}

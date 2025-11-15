@@ -1,0 +1,13 @@
+{
+  "press_release": "20221110-robert-rivas-elected-next-speaker-california-state-assembly.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO, CA) – Today, the Assembly Democratic Caucus voted unanimously to elect Assemblymember Robert Rivas as the 71",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:50:32Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b36d65fb68ed810db28e8ed787a817784e9b5fc0"
+}

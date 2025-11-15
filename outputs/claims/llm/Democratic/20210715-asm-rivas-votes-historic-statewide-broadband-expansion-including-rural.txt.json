@@ -1,0 +1,13 @@
+{
+  "press_release": "20210715-asm-rivas-votes-historic-statewide-broadband-expansion-including-rural.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:31:17Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The broadband budget trailer bill, AB/SB 156, aims to expand broadband fiber infrastructure and increase internet connectivity for rural and urban families and businesses in California.\",\n    \"The $6 billion investment in technology seeks to address broadband inequities ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The broadband budget trailer bill, AB/SB 156, aims to expand broadband fiber infrastructure and increase internet connectivity for rural and urban families and businesses in California.\",\n    \"The $6 billion investment in technology seeks to address broadband inequities in rural and underserved communities.\",\n    \"Rural communities are 12.5 times more likely to lack access to broadband compared to urban communities.\",\n    \"Expanding middle- and last-mile broadband infrastructure will enhance digital connectivity, telehealth, telecommuting, and remote learning.\",\n    \"Increasing broadband access is expected to bolster the workforce in rural areas.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "541fe84a894b6c1456a4e127e438383c2b2e0e47"
+}

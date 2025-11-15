@@ -1,0 +1,13 @@
+{
+  "press_release": "sen-corteses-response-his-sb-1300-closure-inpatient-psychiatric-and-maternity-ward-services.txt",
+  "party": "Democratic",
+  "title": "SAN JOSE, CA – Senator Dave Cortese issued the following statement regarding his Senate Bill 1300 (SB 1300) being signed into law by Governor Newsom.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:19:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Californians deserve equitable access to health care, including psychiatric and perinatal care.\",\n    \"The closure of hospital inpatient psychiatric units and maternity wards creates 'care deserts' in communities.\",\n    \"Public health and hospital systems must compensate",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Californians deserve equitable access to health care, including psychiatric and perinatal care.\",\n    \"The closure of hospital inpatient psychiatric units and maternity wards creates 'care deserts' in communities.\",\n    \"Public health and hospital systems must compensate for the loss of inpatient psychiatric units and maternity ward services.\",\n    \"Senate Bill 1300 will inform public hospital systems on how to best absorb the impact of service closures.\",\n    \"The closure of labor and delivery services at local hospitals leaves families with little or no options.\",\n    \"Since 2012, 46 California hospitals have stopped delivering babies, with the majority of these closures occurring in the last three years.\",\n    \"Senate Bill 1300 will increase transparency regarding service closures in health facilities.\",\n    \"Senate Bill 1300 will require health facilities to provide a 120-day public notice before eliminating inpatient psychiatric and perinatal services.\",\n    \"Health facilities will be required to provide justification for their decisions to eliminate services under Senate Bill 1300.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4cbe104645e932d354f494bc0e138bd3ea0b61c3"
+}

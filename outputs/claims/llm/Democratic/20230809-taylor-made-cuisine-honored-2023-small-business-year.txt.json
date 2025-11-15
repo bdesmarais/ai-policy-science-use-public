@@ -1,0 +1,13 @@
+{
+  "press_release": "20230809-taylor-made-cuisine-honored-2023-small-business-year.txt",
+  "party": "Democratic",
+  "title": "IRVINE",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:05:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "526ed145aaa2116d366ead188a1c9b1176322f8c"
+}

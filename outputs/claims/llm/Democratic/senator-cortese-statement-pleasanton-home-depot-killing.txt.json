@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-statement-pleasanton-home-depot-killing.txt",
+  "party": "Democratic",
+  "title": "Senator Dave Cortese issued the following statement about Tuesday’s shooting death of a 26-year-old employee who attempted to stop an active robbery at a Home Depot in Pleasanton:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:29:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Workplace violence prevention standards can help reduce the incidence of fatal workplace shootings.\",\n    \"Senator Cortese authored SB 553, which aims to establish new workplace violence prevention standards.\",\n    \"Effective training can be a component of workplace viol",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Workplace violence prevention standards can help reduce the incidence of fatal workplace shootings.\",\n    \"Senator Cortese authored SB 553, which aims to establish new workplace violence prevention standards.\",\n    \"Effective training can be a component of workplace violence prevention plans.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a3c38aba90e002a951180769a59c19799728f4bf"
+}

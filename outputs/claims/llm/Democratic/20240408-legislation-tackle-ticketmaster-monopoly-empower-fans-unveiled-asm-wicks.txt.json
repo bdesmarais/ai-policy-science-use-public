@@ -1,0 +1,13 @@
+{
+  "press_release": "20240408-legislation-tackle-ticketmaster-monopoly-empower-fans-unveiled-asm-wicks.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:39:19Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2808 is designed to reduce the prices and increase availability of tickets.\",\n    \"Ticketmaster controls 80 percent of the primary ticket sales in the United States.\",\n    \"Since the merger of Ticketmaster and Live Nation in 2010, ticket prices have soared ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 2808 is designed to reduce the prices and increase availability of tickets.\",\n    \"Ticketmaster controls 80 percent of the primary ticket sales in the United States.\",\n    \"Since the merger of Ticketmaster and Live Nation in 2010, ticket prices have soared an astronomical 140% adjusted for inflation.\",\n    \"The lack of competition in the ticketing market hurts consumer choice.\",\n    \"AB 2808 creates competition in the ticket sales market.\",\n    \"Increased competition in the ticket sales market will lead to lower fees and better service.\",\n    \"AB 2808 aims to provide more transparency in the ticket sales process.\",\n    \"AB 2808 seeks to make it more difficult for fraudulent tickets to be sold.\",\n    \"The current live event marketplace caters to the wealthy and privileged.\",\n    \"AB 2808 will help ensure that all people have a chance to purchase tickets.\",\n    \"AB 2808 enhances competition, creating more opportunities for all communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "4b4e9a1fe30aedaf62bc040f6aa657d528d10d6c"
+}

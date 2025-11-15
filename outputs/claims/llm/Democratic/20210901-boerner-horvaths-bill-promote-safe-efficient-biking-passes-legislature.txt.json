@@ -1,0 +1,13 @@
+{
+  "press_release": "20210901-boerner-horvaths-bill-promote-safe-efficient-biking-passes-legislature.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:32:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 122 allows cyclists to treat a stop sign as a yield sign, which has been successfully implemented in nine other states.\",\n    \"The implementation of AB 122 has proven to reduce collisions and improve cyclists' mobility in regions where it was enacted.\",\n    \"Complete ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 122 allows cyclists to treat a stop sign as a yield sign, which has been successfully implemented in nine other states.\",\n    \"The implementation of AB 122 has proven to reduce collisions and improve cyclists' mobility in regions where it was enacted.\",\n    \"Complete stops at stop sign-controlled intersections make bike trips slower and require more energy from the rider.\",\n    \"Studies show that full stops at stop signs do not improve rider safety and can even reduce it due to increased time spent in the intersection.\",\n    \"Data from Delaware State Police indicates that crashes involving bicycles at stop-sign controlled intersections fell by 23 percent following a policy change to allow yielding at stop signs.\",\n    \"Delaware experienced an 11 percent overall decrease in bicycle-involved crashes after allowing cyclists to treat stop signs as yield signs.\",\n    \"Other states that implemented the change allowing cyclists to yield at stop signs observed similar trends without any reported increase in riding collisions.\",\n    \"Data indicates that African American and Latino cyclists are disproportionately stopped and fined for moving violations in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f83627ecdaa3076cc6985027c37115c3669651b6"
+}

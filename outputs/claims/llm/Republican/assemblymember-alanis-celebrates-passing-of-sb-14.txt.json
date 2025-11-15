@@ -1,0 +1,13 @@
+{
+  "press_release": "assemblymember-alanis-celebrates-passing-of-sb-14.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Assemblymember Juan Alanis praised the unanimous passage of Senate Bill 14 off of the Assembly Floor today in a unanimous 80-0 vote.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:41:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e5dddeac7722f3c1b8bb871fcac08187cfca8ca7"
+}

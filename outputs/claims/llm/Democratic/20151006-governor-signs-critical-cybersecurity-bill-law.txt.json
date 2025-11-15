@@ -1,0 +1,13 @@
+{
+  "press_release": "20151006-governor-signs-critical-cybersecurity-bill-law.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Governor Brown signed Assembly Bill 670 by Assemblymember Jacqui Irwin (D-Thousand Oaks) to mandate that a minimum number of cybersecurity risk assessments are perform",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:51:56Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Cybersecurity attacks are on the rise.\",\n    \"California state government is a priority target for cybersecurity attacks due to the value and size of its networks and data.\",\n    \"AB 670 mandates a minimum of 35 network security assessments to be performed each year on s",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Cybersecurity attacks are on the rise.\",\n    \"California state government is a priority target for cybersecurity attacks due to the value and size of its networks and data.\",\n    \"AB 670 mandates a minimum of 35 network security assessments to be performed each year on state networks.\",\n    \"The required assessments will be targeted based on the amount of sensitive personal data and the level of non-compliance with security provisions.\",\n    \"Regularly performed risk assessments improve cybersecurity preparedness for state networks containing sensitive information.\",\n    \"Compliance with existing security controls is lacking according to a recent State Auditor report.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3afcebbe6c35d9aab909a9aa516dba02420f1867"
+}

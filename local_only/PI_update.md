@@ -1,5 +1,7 @@
 ## Project goal
 
+(7,139 claims total (Democratic 5,249 + Republican 1,890))
+
 Support/refute structured claims made in California legislative press releases by:
 - Extracting AI-related statements (v3) from raw texts.
 - Building compact structured claim lists (Democratic and Republican).

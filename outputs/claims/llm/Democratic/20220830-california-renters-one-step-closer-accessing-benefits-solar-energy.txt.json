@@ -1,0 +1,13 @@
+{
+  "press_release": "20220830-california-renters-one-step-closer-accessing-benefits-solar-energy.txt",
+  "party": "Democratic",
+  "title": "(SACRAMENTO,CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:46:18Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California's population is nearly half renters.\",\n    \"AB 2316 aims to establish a community solar and storage program in California.\",\n    \"The community solar program allows renters to receive credit on their energy bills for power produced from solar installations.\",\n",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California's population is nearly half renters.\",\n    \"AB 2316 aims to establish a community solar and storage program in California.\",\n    \"The community solar program allows renters to receive credit on their energy bills for power produced from solar installations.\",\n    \"AB 2316 is poised to significantly expand solar access to low- and middle-income communities in California.\",\n    \"The community solar program is intended to improve the overall reliability of California's electrical grid.\",\n    \"California lawmakers intend to use clean energy deployment to promote social equity during a changing climate.\",\n    \"If signed into law, AB 2316 would create the most equitable community solar plus storage program in the United States.\",\n    \"Billions of federal dollars are being invested in community solar technology to cut electrical bills for working families.\",\n    \"The community solar program is expected to help prevent blackouts in California.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d274b7b558aa3e1449fbf544fe26e1fb5b74c9e2"
+}

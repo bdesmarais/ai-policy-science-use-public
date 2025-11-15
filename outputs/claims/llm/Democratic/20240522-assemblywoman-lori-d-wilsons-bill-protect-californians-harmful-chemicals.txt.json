@@ -1,0 +1,13 @@
+{
+  "press_release": "20240522-assemblywoman-lori-d-wilsons-bill-protect-californians-harmful-chemicals.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:43:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 2300 aims to safeguard Californians from the dangers posed by Di(2-ethylhexyl)phthalate (DEHP) in intravenous (IV) bags and tubing.\",\n    \"DEHP is associated with toxic effects that may affect women with breast cancer undergoing IV transfusions.\",\n    \"The bill AB 230",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 2300 aims to safeguard Californians from the dangers posed by Di(2-ethylhexyl)phthalate (DEHP) in intravenous (IV) bags and tubing.\",\n    \"DEHP is associated with toxic effects that may affect women with breast cancer undergoing IV transfusions.\",\n    \"The bill AB 2300 seeks to ensure that medical supplies meet the highest safety standards.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "c4c848d6fe9eb9ec6eec2229bfa3998973c42147"
+}

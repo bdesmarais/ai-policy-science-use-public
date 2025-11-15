@@ -1,0 +1,13 @@
+{
+  "press_release": "20250521-assemblymember-arambula-announces-downtown-fresno-partnership-2025.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Dr. Joaquin Arambula (D-Fresno) today announced that he has named the Downtown Fresno Partnership the 2025 Nonprofit of the Year for the 31",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:35:55Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "3631ca4b0ba3f14c26d66779a1cbe72265b2e7de"
+}

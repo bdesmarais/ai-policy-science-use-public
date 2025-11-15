@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-becker-statement-the-may-revise-ca-must-remain-committed-to.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Today, Governor Newsom released his May Revision, and Senator Josh Becker (D-Menlo Park), the Chairman of the Senate Budget & Fiscal Review Committee’s Subcommittee No",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:25:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The May Revision cuts various critical climate and energy programs.\",\n    \"The May Revision does not adequately support the investment in clean energy infrastructure.\",\n    \"The May Revision continues to delay funds for building decarbonization.\",\n    \"The May Revision l",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The May Revision cuts various critical climate and energy programs.\",\n    \"The May Revision does not adequately support the investment in clean energy infrastructure.\",\n    \"The May Revision continues to delay funds for building decarbonization.\",\n    \"The May Revision lacks investments to match federal funding matching requirements for developing community solar.\",\n    \"Senator Becker is worried about the state’s ability to meet its climate targets with the current levels of investment.\",\n    \"The state needs to reduce its greenhouse gas emissions to 40 percent below 1990 levels by 2030.\",\n    \"The current investment levels indicate that the state is not on track to meet its 2030 climate goals.\",\n    \"The proposal includes recommending $270 million to water recycling.\",\n    \"The proposal includes recommending $100 million to the Transformative Climate Communities Program.\",\n    \"The proposal includes recommending $100 million for Regional Resilience Programs.\",\n    \"The proposal includes recommending $100 million toward urban greening.\",\n    \"Senator Becker intends to incorporate programmatic shifts into the Natural Resources bond SB 867.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5362a13a3d3e5b814eb2c5f39888fb6cedc41391"
+}

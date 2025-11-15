@@ -1,0 +1,13 @@
+{
+  "press_release": "20221212-tribes-educators-prepare-implement-ramoss-california-indian-education-act.txt",
+  "party": "Democratic",
+  "title": "Tribes, educators prepare to implement",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:51:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Indian Education Act encourages local school districts, charter schools, and county offices of education to engage with regional Native American tribes.\",\n    \"The implementation of the California Indian Education Act is expected to contribute to the narro",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Indian Education Act encourages local school districts, charter schools, and county offices of education to engage with regional Native American tribes.\",\n    \"The implementation of the California Indian Education Act is expected to contribute to the narrowing of the achievement gap among students.\",\n    \"The California Indian Education Act aims to provide teachers with more instructional tools to improve understanding between students and local tribal families.\",\n    \"The California Department of Education is required to submit an annual report based on findings of the California Indian Education Task Forces.\",\n    \"The California Indian Education Act includes provisions for developing high quality curricular materials that accurately depict Native Americans.\",\n    \"Tribal leaders emphasize the importance of collaborating with local educators to bring Native American history and culture into classrooms.\",\n    \"The passage of the California Indian Education Act is viewed as an opportunity for California Indians to teach their history in the education system.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "74148bb9df80df17fefd0d4e00cde07f4f60ccf3"
+}

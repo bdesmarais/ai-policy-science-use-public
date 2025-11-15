@@ -1,0 +1,13 @@
+{
+  "press_release": "want-to-switch-business-to-employee-owned-model-well-now.txt",
+  "party": "Democratic",
+  "title": "Governor Signs Becker’s “California Employee Ownership Act” Into Law",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:35:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Data shows employee-owned businesses outperform their peers in profitability, productivity and resilience.\",\n    \"Broad-based employee ownership, primarily in ESOPs and worker co-ops, is an effective strategy to help create a more inclusive and resilient economy.\",\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Data shows employee-owned businesses outperform their peers in profitability, productivity and resilience.\",\n    \"Broad-based employee ownership, primarily in ESOPs and worker co-ops, is an effective strategy to help create a more inclusive and resilient economy.\",\n    \"Many business owners lack succession plans, leading to potential company closures or sales to non-local buyers.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "613515fb9eaf0ef77f63b883165a077712e4e996"
+}

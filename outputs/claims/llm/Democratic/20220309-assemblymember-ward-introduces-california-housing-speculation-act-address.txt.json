@@ -1,0 +1,13 @@
+{
+  "press_release": "20220309-assemblymember-ward-introduces-california-housing-speculation-act-address.txt",
+  "party": "Democratic",
+  "title": "(SAN DIEGO, CA) –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:39:47Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California housing speculation is harming working class individuals and families, making it challenging for them to purchase homes.\",\n    \"Short-term investors are contributing to California's housing crisis by buying homes to sell for profit.\",\n    \"Working class Califo",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California housing speculation is harming working class individuals and families, making it challenging for them to purchase homes.\",\n    \"Short-term investors are contributing to California's housing crisis by buying homes to sell for profit.\",\n    \"Working class Californians are being outbid by cash offers for homes and are unable to borrow enough to compete.\",\n    \"The California Housing Speculation Act aims to make homes more affordable for the average Californian.\",\n    \"The act uses tax policy to target short-term investment in housing.\",\n    \"A 25% income surtax on profits from property appreciation within three years is introduced to deter short-term investments.\",\n    \"The surtax rate will depreciate to zero by the seventh year.\",\n    \"The California Housing Speculation Act aims to reduce the motivations for short-term investors while not penalizing long-term homeowners.\",\n    \"Exemptions are included for first-time homebuyers and military service members under the act.\",\n    \"Revenue from the act is intended to be allocated towards creating affordable housing, improving school districts, and supporting community infrastructure.\",\n    \"The California Housing Speculation Act is designed as a unique solution to California's unique housing crisis.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e2898152614a75e0aa98c340e0cdb53c937eb541"
+}

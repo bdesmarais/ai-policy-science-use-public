@@ -1,0 +1,13 @@
+{
+  "press_release": "poway-news-chieftain-dmv-need-major-repairs.txt",
+  "party": "Republican",
+  "title": "As a parting gift to Gov. Gavin Newsom, outgoing Gov. Jerry Brown asked the California Department of Finance, Office of State Audits and Evaluations to “Assess the efficiency and e",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:01:30Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of Finance was asked to assess the efficiency and effectiveness of the Department of Motor Vehicles' current operations.\",\n    \"An evaluation was requested of DMV's information technology system and its impact on the field office customer experi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of Finance was asked to assess the efficiency and effectiveness of the Department of Motor Vehicles' current operations.\",\n    \"An evaluation was requested of DMV's information technology system and its impact on the field office customer experience.\",\n    \"The internal audit found significant deficiencies with the DMV.\",\n    \"Californians needing IDs, licenses, or registrations endured nine-hour wait times by summer of 2018.\",\n    \"The DMV was initially proactive in implementing the Real ID Act when it was passed in 2005, but efforts ceased in 2009.\",\n    \"Reports submitted by the DMV in 2010 and 2011 were identical and did not provide updates on the implementation of the Real ID Act.\",\n    \"The DMV's problems may stem from a lack of legislative oversight and mismanagement by the executive branch.\",\n    \"The California DMV plays a vital role in issuing the state’s identification necessary for driving, boarding flights, and accessing federal facilities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5531a3472b7b82def253fcd82f55b69177c04e20"
+}

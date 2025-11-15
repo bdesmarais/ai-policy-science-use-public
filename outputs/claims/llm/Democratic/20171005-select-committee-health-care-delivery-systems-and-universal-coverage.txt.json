@@ -1,0 +1,13 @@
+{
+  "press_release": "20171005-select-committee-health-care-delivery-systems-and-universal-coverage.txt",
+  "party": "Democratic",
+  "title": "(",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T18:58:27Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Select Committee on Health Care Delivery Systems and Universal Coverage aims to identify a pathway to healthcare for almost 40 million Californians.\",\n    \"The committee is tasked with proposing solutions that are comprehensive and sustainable for affordable healthca",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Select Committee on Health Care Delivery Systems and Universal Coverage aims to identify a pathway to healthcare for almost 40 million Californians.\",\n    \"The committee is tasked with proposing solutions that are comprehensive and sustainable for affordable healthcare in California.\",\n    \"California's healthcare system has challenges that impact residents' access to good medical care.\",\n    \"The committee will explore workable solutions to expand healthcare coverage and increase access to care.\",\n    \"Experts will provide an overview of California's current health care system during the hearings.\",\n    \"The hearings will cover who is currently covered by health insurance in California.\",\n    \"Details on the current systems of healthcare financing will be discussed at the hearings.\",\n    \"There will be a focus on versions of universal health coverage implemented around the globe.\",\n    \"Future hearings are planned to examine health care systems in U.S. cities and states and the challenges they face.\",\n    \"Stakeholder input will be solicited on proposed universal coverage systems, including ACA expansion and single payer models.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9bc7a58022aec1c24c262880b7e9f2c7ea2d8366"
+}

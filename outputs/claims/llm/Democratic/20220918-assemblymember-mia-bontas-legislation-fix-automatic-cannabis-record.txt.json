@@ -1,0 +1,13 @@
+{
+  "press_release": "20220918-assemblymember-mia-bontas-legislation-fix-automatic-cannabis-record.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA) – Today, Governor Newsom signed a package of bills aimed at strengthening California’s cannabis laws. Included in the package was Assembly Bill (AB) 1706 by Assembl",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:48:05Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1706 resolves implementation gaps in California’s cannabis record sealing law.\",\n    \"Individuals with low-level cannabis records became eligible to have those records removed after Proposition 64 passed in 2016.\",\n    \"Legislation enacted in 2019 aimed to provide aut",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1706 resolves implementation gaps in California’s cannabis record sealing law.\",\n    \"Individuals with low-level cannabis records became eligible to have those records removed after Proposition 64 passed in 2016.\",\n    \"Legislation enacted in 2019 aimed to provide automatic record relief to eligible individuals.\",\n    \"Implementation gaps have prevented tens of thousands of individuals from receiving automatic sealing of their cannabis records.\",\n    \"AB 1706 provides clear deadlines and guidance for agencies tasked with clearing eligible records from criminal histories.\",\n    \"AB 1706 adds oversight and progress reporting to prevent bureaucratic delays in record sealing.\",\n    \"Individuals disproportionately affected by cannabis criminalization are often people of color.\",\n    \"The current cannabis legalization system in California does not support all communities equally.\",\n    \"AB 1706 is necessary to make cannabis legalization accessible to all residents in California.\",\n    \"California must remove erroneous convictions related to cannabis to help individuals rebuild their lives.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "71acbb80bda9083b1282c32cd8a717f47360014f"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "too-little-too-late-ca-state-rep-carl-demaio-says-gavin-newsoms-executive-order-is-just-pretending-to-cut-red-tape-for-fire-victims.txt",
+  "party": "Republican",
+  "title": "“Not a single word in Gavin Newsom’s Executive Order will make it easier for fire victims to rebuild – and that is why a Special Session of the Legislature must be immediately conv",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:18:14Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Gavin Newsom's Executive Order will not make it easier for fire victims to rebuild.\",\n    \"Existing state law already allows for review exemptions for structures that are substantially similar to the ones destroyed in fires.\",\n    \"Newsom's Executive Order restates exist",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Gavin Newsom's Executive Order will not make it easier for fire victims to rebuild.\",\n    \"Existing state law already allows for review exemptions for structures that are substantially similar to the ones destroyed in fires.\",\n    \"Newsom's Executive Order restates existing law without making any improvements.\",\n    \"Fire victims will receive no benefit from Newsom's Executive Order.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "eb9ba12a80125a373979bfdf39659466b4884fef"
+}

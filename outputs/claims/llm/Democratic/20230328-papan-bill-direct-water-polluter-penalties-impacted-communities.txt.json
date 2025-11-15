@@ -1,0 +1,13 @@
+{
+  "press_release": "20230328-papan-bill-direct-water-polluter-penalties-impacted-communities.txt",
+  "party": "Democratic",
+  "title": "SAN MATEO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:57:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 753 will reform the State Water Board’s Cleanup and Abatement Account to ensure that fines and penalties paid by water quality violators are sent back to the impacted communities.\",\n    \"The bill will require that 50% of Cleanup and Abatement Account fundin",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Assembly Bill 753 will reform the State Water Board’s Cleanup and Abatement Account to ensure that fines and penalties paid by water quality violators are sent back to the impacted communities.\",\n    \"The bill will require that 50% of Cleanup and Abatement Account funding be returned to Regional Water Boards to clean up the most polluted waterways.\",\n    \"The legislation aims to improve monitoring of water quality in the most impacted communities.\",\n    \"Assembly Bill 753 will develop community capacity so that residents in disadvantaged communities can participate in the regulatory and permitting processes.\",\n    \"The bill will fund research through the new Clean Water Innovation Account established under this legislation.\",\n    \"The distribution of pollution remediation funds is intended to promote improved community health in disadvantaged communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "2ee2739794535c196125d4654bd09930da497210"
+}

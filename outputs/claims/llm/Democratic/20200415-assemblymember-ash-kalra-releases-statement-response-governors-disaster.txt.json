@@ -1,0 +1,13 @@
+{
+  "press_release": "20200415-assemblymember-ash-kalra-releases-statement-response-governors-disaster.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO – Assemblymember Ash Kalra (D-San Jose) released a statement today in response to Governor Gavin Newsom’s announcement of the creation of the $125 million Disaster Relie",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:15:41Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The $125 million Disaster Relief Fund will support undocumented Californians impacted by COVID-19 who are ineligible for unemployment insurance benefits.\",\n    \"Approximately 150,000 undocumented adult Californians will receive a one-time cash benefit of $500 per adult, ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The $125 million Disaster Relief Fund will support undocumented Californians impacted by COVID-19 who are ineligible for unemployment insurance benefits.\",\n    \"Approximately 150,000 undocumented adult Californians will receive a one-time cash benefit of $500 per adult, with a cap of $1,000 per household.\",\n    \"This statewide public-private partnership is the first of its kind in the nation.\",\n    \"The Disaster Relief Fund will be dispersed through a community-based model of regional nonprofits experienced in serving undocumented communities.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1602a29730bdde8e6cb6c21546047279b439a24f"
+}

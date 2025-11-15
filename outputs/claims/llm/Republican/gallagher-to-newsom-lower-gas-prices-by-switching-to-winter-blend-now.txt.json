@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-to-newsom-lower-gas-prices-by-switching-to-winter-blend-now.txt",
+  "party": "Republican",
+  "title": "Similar action last year resulted in massive price cuts.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:51:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claim_texts\": [\n    \"Similar action last year resulted in massive price cuts.\",\n    \"Following similar action by Newsom last year, wholesale gas prices dropped by more than $1.25/gallon within 48 hours.\"\n  ]\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claim_texts\": [\n    \"Similar action last year resulted in massive price cuts.\",\n    \"Following similar action by Newsom last year, wholesale gas prices dropped by more than $1.25/gallon within 48 hours.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d6772672a63686d69dfc86d6a5b9d0a6a6c5018a"
+}

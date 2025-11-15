@@ -1,0 +1,13 @@
+{
+  "press_release": "bills-state-senator-becker-voter-equity-bridging-digital-divide-and-justice-reform.txt",
+  "party": "Democratic",
+  "title": "For Immediate Release",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:45:13Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 503 implements a uniform statewide standard for signature verification of mail-in ballots.\",\n    \"SB 503 requires timely outreach to voters whose mail-in ballots are rejected.\",\n    \"SB 503 mandates periodic reporting about the nature of mail-in ballot rejections.\",\n ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 503 implements a uniform statewide standard for signature verification of mail-in ballots.\",\n    \"SB 503 requires timely outreach to voters whose mail-in ballots are rejected.\",\n    \"SB 503 mandates periodic reporting about the nature of mail-in ballot rejections.\",\n    \"SB 767 establishes the Digital Education Equity Program to provide equitable access to education technology in K-12 schools.\",\n    \"SB 767 directs the Department of Education to plan and implement the Digital Education Equity Program.\",\n    \"SB 775 clarifies existing law to allow certain incarcerated individuals the right to petition for modified sentences based on their culpability.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "450ec8fea0e6040102cce3e23784842ec0e933e3"
+}

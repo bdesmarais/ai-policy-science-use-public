@@ -1,0 +1,13 @@
+{
+  "press_release": "20241104-assemblymember-mia-bonta-reacts-securing-70-million-digital-equity.txt",
+  "party": "Democratic",
+  "title": "Today, Assemblymember Mia Bonta (D-Oakland) released the following statement reacting to the announcement that the National Telecommunications and Information Administration (NTIA)",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:21:26Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The National Telecommunications and Information Administration (NTIA) approved California's application for funding to implement the California Department of Technology's (CDT) Digital Equity Plan.\",\n    \"California will receive $70 million in federal funds to achieve th",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The National Telecommunications and Information Administration (NTIA) approved California's application for funding to implement the California Department of Technology's (CDT) Digital Equity Plan.\",\n    \"California will receive $70 million in federal funds to achieve the state’s Digital Equity Plan.\",\n    \"The Digital Equity Plan aims to identify barriers to digital equity faced by covered populations.\",\n    \"The plan documents and promotes digital equity among covered populations.\",\n    \"Increasing digital equity impacts access to educational opportunities, health care services, employment prospects, and civic life.\",\n    \"Assemblymember Bonta introduced AB 2239 to prohibit digital discrimination.\",\n    \"AB 2239 progressed significantly despite opposition from the broadband industry.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "62f8da2e396545d51640f8f779d1061c32c42b61"
+}

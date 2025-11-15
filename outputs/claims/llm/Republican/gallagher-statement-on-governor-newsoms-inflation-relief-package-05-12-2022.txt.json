@@ -1,0 +1,13 @@
+{
+  "press_release": "gallagher-statement-on-governor-newsoms-inflation-relief-package-05-12-2022.txt",
+  "party": "Republican",
+  "title": "SACRAMENTO – Today, Assembly Republican Leader James Gallagher (Yuba City) released the following statement on Newsom’s Inflation Relief Package:",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:50:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "0406141daded98c577eeb4a6892bf6ffd79d3298"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "bill-improve-addiction-recovery-treatment-clears-crucial-hurdle.txt",
+  "party": "Democratic",
+  "title": "SB 999 authored by Senator Dave Cortese (D-San Jose), titled the California Mental Health and Substance Use Disorder Treatment Patient Safety and Fairness Act, passed through the S",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:44:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"SB 999 will advance the way California deals with addiction recovery.\",\n    \"There is clear evidence that SB 999 will save lives.\",\n    \"Insurance companies arbitrarily denying critical mental health and addiction recovery services is a practice that must end.\",\n    \"SB ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"SB 999 will advance the way California deals with addiction recovery.\",\n    \"There is clear evidence that SB 999 will save lives.\",\n    \"Insurance companies arbitrarily denying critical mental health and addiction recovery services is a practice that must end.\",\n    \"SB 999 will help Californians suffering from substance use disorders and addiction receive treatment consistent with criteria developed by the American Society of Addiction Medicine (ASAM).\",\n    \"SB 999 will safeguard patient access to timely review decisions.\",\n    \"SB 999 will prohibit incentive-based treatment decisions.\",\n    \"Insurance companies are hiring unqualified doctors to deny vital mental health and substance abuse treatment to patients.\",\n    \"Denials by unqualified doctors are happening daily throughout California.\",\n    \"Senate Bill 855, which became law on January 1, 2021, requires doctors to treat addiction patients based on the criteria of the American Society of Addiction Medicine.\",\n    \"The continued denial of treatment by unqualified doctors contradicts the requirements set by Senate Bill 855.\",\n    \"Scores documented from November 2021 show that dozens of unqualified doctors have denied treatment required by addiction criteria.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "61a52dd6b34e24a0be76be3dede74d7c17f20b59"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "20200731-boerner-horvaths-bill-help-victims-sexual-assault-approved-senate-public.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:53Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1927 would provide immunity for victims and witnesses of sexual assault from the consequences of illegal alcohol or drug use occurring at the time of their alleged assault.\",\n    \"Higher education institutions nationwide have already implemented amnesty clauses for vi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1927 would provide immunity for victims and witnesses of sexual assault from the consequences of illegal alcohol or drug use occurring at the time of their alleged assault.\",\n    \"Higher education institutions nationwide have already implemented amnesty clauses for victims and witnesses of sexual assault on their campuses.\",\n    \"Victims must currently go through a process that requires them to be compelled to testify in court before immunity can be granted.\",\n    \"This current process increases trauma to the victim by requiring them to appear in front of a judge for offenses unrelated to the sexual assault.\",\n    \"Sexual assault is the most underreported violent crime in America.\",\n    \"Approximately 80 percent of sexual assaults against college students and 67 percent of non-students go unreported.\",\n    \"California had more than 15,000 reported forcible rapes in 2018, the highest number in the United States.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "e235440eae3322393f3d3796123f1c96c97fda63"
+}

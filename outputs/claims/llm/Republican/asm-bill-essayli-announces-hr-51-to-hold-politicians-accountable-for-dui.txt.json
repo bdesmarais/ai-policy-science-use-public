@@ -1,0 +1,13 @@
+{
+  "press_release": "asm-bill-essayli-announces-hr-51-to-hold-politicians-accountable-for-dui.txt",
+  "party": "Republican",
+  "title": "MADD “Appreciates and Supports Desire to Hold Convicted DUI Offenders Who Are Members of the Assembly Accountable”",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:37:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Over 1,000 Californians died as a result of drunk drivers last year.\",\n    \"Public officials must be held to the highest standards given the public trust placed in them.\",\n    \"Limiting access to state pool vehicles will lead to much-needed change in driving behavior and",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Over 1,000 Californians died as a result of drunk drivers last year.\",\n    \"Public officials must be held to the highest standards given the public trust placed in them.\",\n    \"Limiting access to state pool vehicles will lead to much-needed change in driving behavior and decision-making that endangers California residents and visitors.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bac4dd4e9a85c61d3278a67546bccf58b0cd8899"
+}

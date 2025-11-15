@@ -1,0 +1,13 @@
+{
+  "press_release": "20241003-assembly-speaker-robert-rivas-joins-community-leaders-and-officials-break.txt",
+  "party": "Democratic",
+  "title": "WATSONVILLE, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:20:22Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Pajaro River Flood Risk Management Project will bring significant flood protection to the city of Watsonville and nearby Central Coast communities.\",\n    \"The project was made possible through a historic pact and is expected to be completed years earlier due to fundi",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Pajaro River Flood Risk Management Project will bring significant flood protection to the city of Watsonville and nearby Central Coast communities.\",\n    \"The project was made possible through a historic pact and is expected to be completed years earlier due to funding from the state.\",\n    \"The project aims to increase flood protection from more extreme flood events.\",\n    \"Pajaro’s levee and waterway system underwent extensive damage in March 2023 due to devastating storms.\",\n    \"The construction of the project will utilize Engineering with Nature solutions to help manage flood risk.\",\n    \"The entire flood risk management project will be either under construction or in design by this time next year.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "cb3bbef25029aad48b219d3817311d78b7d2fecf"
+}

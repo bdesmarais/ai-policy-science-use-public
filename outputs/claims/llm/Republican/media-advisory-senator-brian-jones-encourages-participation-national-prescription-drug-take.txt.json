@@ -1,0 +1,13 @@
+{
+  "press_release": "media-advisory-senator-brian-jones-encourages-participation-national-prescription-drug-take.txt",
+  "party": "Republican",
+  "title": "Below is a list of safe collection locations set up in San Diego County.  For additional sites, please visit: https://takebackday.dea.gov/ or https://www.sdsheriff.gov/Home/Compone",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:59:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Unwanted or expired prescription drugs can be dangerous to the community by falling into the wrong hands if simply put into the trash.\",\n    \"Fish and wildlife can be poisoned if you throw your prescription drugs down the drain and it gets into their water supply.\",\n    ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Unwanted or expired prescription drugs can be dangerous to the community by falling into the wrong hands if simply put into the trash.\",\n    \"Fish and wildlife can be poisoned if you throw your prescription drugs down the drain and it gets into their water supply.\",\n    \"Safely disposing unwanted prescription drugs at designated sites is the way to go and it will help keep our community safe.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "d753427b47306e8fc9048e0b4dad643b2ee2d60e"
+}

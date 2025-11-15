@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-bob-archuleta-secures-budget-wins-public-health-veterans-and-public.txt",
+  "party": "Democratic",
+  "title": "Montebello – Senator Bob Archuleta (D-Pico Rivera) announced in a budget agreement that passed the Senate Monday he secured funding to support projects ranging from $4.5 million fo",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:26:34Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Senator Bob Archuleta announced the allocation of $4.5 million for a clinical trial network of blood cancer experts across UC cancer centers.\",\n    \"The budget will provide $20 million to help fund permanent supportive housing units for homeless and at-risk veterans at t",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Senator Bob Archuleta announced the allocation of $4.5 million for a clinical trial network of blood cancer experts across UC cancer centers.\",\n    \"The budget will provide $20 million to help fund permanent supportive housing units for homeless and at-risk veterans at the West Los Angeles VA Medical Center Campus.\",\n    \"$25 million will help aging veterans and veterans with disabilities who have experienced chronic homelessness.\",\n    \"$4.5 million is allocated on a one-time basis to support the University of California Hematologic Malignancies Pilot.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "dd57c124311e6301df5f9866bb1e456a421ce6b6"
+}

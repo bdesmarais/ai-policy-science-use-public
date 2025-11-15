@@ -1,0 +1,13 @@
+{
+  "press_release": "20240625-ramos-bills-ensure-greater-safety-tribal-reservations-combat-numbers.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO—Three bills aimed at confronting the state’s Missing and Murdered Indigenous People (MMIP) epidemic will move forward after the Senate Public Safety Committee today appr",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:45:35Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Senate Public Safety Committee approved measures granting state peace officer status for the first time in California history to tribal law enforcement.\",\n    \"AB 2138 would establish a three-year pilot project under the Department of Justice granting California stat",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Senate Public Safety Committee approved measures granting state peace officer status for the first time in California history to tribal law enforcement.\",\n    \"AB 2138 would establish a three-year pilot project under the Department of Justice granting California state peace officer status to qualified tribes and their officers.\",\n    \"Thirteen states and the federal government already grant peace officer status to tribal police.\",\n    \"The Feather Alert is a notification system similar to the AMBER alert used when Native Americans are missing and in danger.\",\n    \"AB 1863 requires the California Highway Patrol to develop policies and procedures related to the Feather Alert.\",\n    \"The changes in AB 1863 are designed to ensure an effective and responsive alert system.\",\n    \"AB 2695 requires the Department of Justice to align its records and data with the federal National Incident-Based reporting system to assist law enforcement in understanding where criminal incidents related to Missing and Murdered Indigenous People are occurring.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b57e110288b6aa4d56039ea346beac75c0ded0c7"
+}

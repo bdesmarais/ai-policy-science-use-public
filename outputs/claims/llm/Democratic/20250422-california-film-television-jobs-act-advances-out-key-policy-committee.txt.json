@@ -1,0 +1,13 @@
+{
+  "press_release": "20250422-california-film-television-jobs-act-advances-out-key-policy-committee.txt",
+  "party": "Democratic",
+  "title": "AB 1138, authored by Assemblymember Rick Chavez Zbur, Assemblymember Isaac Bryan and Assemblymember Sharon Quirk-Silva, along with companion bill SB 630, authored by Senator Ben Al",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:32:58Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1138 seeks to strengthen and modernize California's Film & Television Tax Credit.\",\n    \"The legislation aims to retain and expand entertainment industry jobs in California.\",\n    \"AB 1138 is a response to the growing threat of production flight, which has already led",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1138 seeks to strengthen and modernize California's Film & Television Tax Credit.\",\n    \"The legislation aims to retain and expand entertainment industry jobs in California.\",\n    \"AB 1138 is a response to the growing threat of production flight, which has already led to significant job losses in California.\",\n    \"The tax credit program in California is being made more competitive with programs in other states and countries.\",\n    \"California's film and television industry supports hundreds of thousands of jobs.\",\n    \"The entertainment industry in California has significant economic impact for both Los Angeles and the state as a whole.\",\n    \"AB 1138 aims to provide support to a vital workforce that has seen production leave California in recent years.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "f1fe9bd152e754ea5ef1b865413e4f0f82594251"
+}

@@ -1,0 +1,13 @@
+{
+  "press_release": "senator-cortese-joins-ribbon-cutting-new-adult-behavioral-health-treatment-center.txt",
+  "party": "Democratic",
+  "title": "Senator Cortese joined Santa Clara County Board President Susan Ellenberg and other County Supervisors on Tuesday in announcing a new Adult Residential Treatment Center at 650 Sout",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:28:43Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The new 28-bed Adult Residential Treatment program represents significant progress in meeting the needs of patients who require intensive mental health services.\",\n    \"The program will expand the behavioral health capacity within the community.\",\n    \"Santa Clara County",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The new 28-bed Adult Residential Treatment program represents significant progress in meeting the needs of patients who require intensive mental health services.\",\n    \"The program will expand the behavioral health capacity within the community.\",\n    \"Santa Clara County has added 46 beds through contracts since January last year.\",\n    \"Santa Clara County is currently building 113 more beds on County-owned properties.\",\n    \"The Board of Supervisors has dedicated funding for an additional 141 beds.\",\n    \"Senator Cortese supported the state Budget Act of 2023 that provided nearly $3 billion into primary care, including a new investment in behavioral health capacity.\",\n    \"The CARE Act assists individuals suffering from untreated serious mental disorders with court-ordered treatment plans.\",\n    \"Senator Cortese secured $205 million in the state budget to augment the Mental Health Student Services Act grant program.\",\n    \"The framework allows credentialed professionals to meet the mental health needs of students directly at their school site.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "abaf4be7798e4281a60bc143cc2153f68cf9271f"
+}

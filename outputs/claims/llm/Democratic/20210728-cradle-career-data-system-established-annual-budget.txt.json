@@ -1,0 +1,13 @@
+{
+  "press_release": "20210728-cradle-career-data-system-established-annual-budget.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:31:38Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"distinct_claims\": [\n    \"The Cradle to Career Data System will link California’s existing education, workforce, financial aid, and social service information.\",\n    \"The establishment of the Cradle to Career Data System aims to improve understanding of the student experience and identif",
+  "raw_text": "```json\n{\n  \"distinct_claims\": [\n    \"The Cradle to Career Data System will link California’s existing education, workforce, financial aid, and social service information.\",\n    \"The establishment of the Cradle to Career Data System aims to improve understanding of the student experience and identify systemic barriers in the education-to-employment pipeline.\",\n    \"California's Cradle to Career Data System is intended to assist policymakers, educators, and the public in addressing disparities in opportunities for students.\",\n    \"The data system will provide tools and information to help students, parents, and policymakers effectively navigate from early education through K-12 and into the workforce.\",\n    \"The Cradle to Career Data System is described as a neutral source of high-quality information paired with actionable tools for stakeholders.\",\n    \"The implementation of this data system is expected to enable a clearer evaluation of policy changes and budget augmentations affecting education outcomes.\",\n    \"The data system is promoted as potentially being the strongest data system in the country for educational access.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "a492e16959e32a36cff48d71047bf61b4b211d06"
+}

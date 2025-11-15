@@ -1,0 +1,13 @@
+{
+  "press_release": "20250717-assemblywoman-pilar-schiavo-responds-alarming-health-study-results-chiquita.txt",
+  "party": "Democratic",
+  "title": "Santa Clarita",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:41:48Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Over 80% of households report asthma symptoms.\",\n    \"93% of households use medications for asthma or wheezing.\",\n    \"23% of households have experienced a miscarriage, which is 57 times the LA County average.\",\n    \"85% of households report having someone experiencing h",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Over 80% of households report asthma symptoms.\",\n    \"93% of households use medications for asthma or wheezing.\",\n    \"23% of households have experienced a miscarriage, which is 57 times the LA County average.\",\n    \"85% of households report having someone experiencing hypertension/high blood pressure, which is 3.5 times higher than the average for this area of Los Angeles County.\",\n    \"46% of households report having someone experiencing heart disease, which is 7.7 times higher than the rate for Californians.\",\n    \"29.5% of households report someone suffering from cancer in the past 3 years, which is 24.6 times higher than the expected average over that period.\",\n    \"Assemblywoman Schiavo has experienced immediate health symptoms including burning eyes, throat and skin irritation, nausea, headaches, ringing in the ears, and a bloody nose while staying in the impacted community.\",\n    \"The Landfill Fire Safety Act (AB 28) requires early warning systems, air monitoring, increased state oversight, and a community relief fund from penalties on negligent landfills.\",\n    \"The Chiquita Canyon Tax Relief Act (AB 27) ensures that emergency assistance for impacted residents is not taxed or counted against eligibility for other benefits.\",\n    \"The Chiquita Canyon Community Assistance Act (AB 985) allows residents to reassess their property for property tax purposes and includes a five-year moratorium on property tax delinquency penalties.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "6717a34e581f5b21d8e2e388c8d5b31b2d4b8a06"
+}

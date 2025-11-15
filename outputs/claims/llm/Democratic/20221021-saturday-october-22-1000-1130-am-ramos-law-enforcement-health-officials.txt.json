@@ -1,0 +1,13 @@
+{
+  "press_release": "20221021-saturday-october-22-1000-1130-am-ramos-law-enforcement-health-officials.txt",
+  "party": "Democratic",
+  "title": "SAN BERNARDINO—Community members are invited to a fentanyl awareness town hall and Narcan training town hall on Saturday, October 22 at 10 a.m. to learn more about the region’s fen",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:50:16Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b5811be81054ea65abc905fd5cd55d895d227684"
+}

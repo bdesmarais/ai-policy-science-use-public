@@ -1,0 +1,13 @@
+{
+  "press_release": "20250501-new-bill-cracks-down-predatory-dmv-scams.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, Calif.",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:34:31Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"Consumer complaints have mounted over third-party websites charging excessive fees for DMV services.\",\n    \"Many third-party websites closely resemble the DMV’s official site but charge hidden fees that can double or triple standard costs.\",\n    \"An elderly customer seek",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"Consumer complaints have mounted over third-party websites charging excessive fees for DMV services.\",\n    \"Many third-party websites closely resemble the DMV’s official site but charge hidden fees that can double or triple standard costs.\",\n    \"An elderly customer seeking to renew their vehicle registration was charged $303 by a deceptive website, while the standard fee should have been $221.\",\n    \"A consumer renewing two cars paid $956 after being hit with more than $150 in hidden fees, and only one registration was completed.\",\n    \"Predatory websites rely on confusing seniors, families, and low-income Californians.\",\n    \"Currently, California caps DMV service fees charged by authorized business partners, but no protections apply to third-party online providers.\",\n    \"The proposed legislation would allow third-party websites to charge only a small, regulated convenience fee above DMV rates.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "bad97987563bbb286604f7b13c524660d3a69d6e"
+}

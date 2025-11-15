@@ -1,0 +1,13 @@
+{
+  "press_release": "20240708-los-angeles-county-legislative-delegation-secures-essential-funding-2024-25.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA –",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:46:03Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The final budget agreement rejected the Governor's proposed elimination of $54.6 million in federal and State funding for CalWORKs Single Allocation.\",\n    \"Rejecting the cuts to CalWORKs Single Allocation supports employment for families in crisis who require services f",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The final budget agreement rejected the Governor's proposed elimination of $54.6 million in federal and State funding for CalWORKs Single Allocation.\",\n    \"Rejecting the cuts to CalWORKs Single Allocation supports employment for families in crisis who require services for substance abuse or mental health disorders.\",\n    \"The final budget agreement rejected a proposed reduction of $13.7 million for the Housing Navigation and Maintenance Program (HNMP), which would eliminate the program.\",\n    \"Eliminating the Housing Navigation and Maintenance Program would negatively impact the County's ability to provide housing navigation services to vulnerable young adults.\",\n    \"The final budget agreement rejected the elimination of $40 million in funding for the Public Defender Pilot Program, which has saved the State as much as $325 million by reducing prison populations.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "5dc164aab43d339b21f0aaebba8ef0c4d52df01f"
+}

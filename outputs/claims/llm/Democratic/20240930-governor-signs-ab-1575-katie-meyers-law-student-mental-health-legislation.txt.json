@@ -1,0 +1,13 @@
+{
+  "press_release": "20240930-governor-signs-ab-1575-katie-meyers-law-student-mental-health-legislation.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T21:19:44Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"AB 1575 allows students at California’s public colleges and universities to select an adviser during the disciplinary process.\",\n    \"Existing law does not require California colleges to honor a student’s selection of an adviser during disciplinary hearings.\",\n    \"Curre",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"AB 1575 allows students at California’s public colleges and universities to select an adviser during the disciplinary process.\",\n    \"Existing law does not require California colleges to honor a student’s selection of an adviser during disciplinary hearings.\",\n    \"Current law fails to require colleges to allow students to have an adviser during disciplinary proceedings for academic or athletic violations.\",\n    \"Most California students lack access to trusted assistance and mental health supports during disciplinary proceedings.\",\n    \"AB 1575 aims to create better supports for students during stressful times in their higher education journey.\",\n    \"The bill provides options for advisers, who could be various trusted individuals trained in institutional policies.\",\n    \"The Meyer family's advocacy has focused on preventing suicides among high-achieving student athletes through greater access to advisers.\",\n    \"AB 1575 aims to serve as a 'front end safety net' for students facing administrative conflicts.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "1d08a9c494f5878472c522ddfb369d63002ba1a1"
+}

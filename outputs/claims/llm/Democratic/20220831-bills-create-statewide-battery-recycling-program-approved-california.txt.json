@@ -1,0 +1,13 @@
+{
+  "press_release": "20220831-bills-create-statewide-battery-recycling-program-approved-california.txt",
+  "party": "Democratic",
+  "title": "Sacramento, Calif. — After years of effort to address battery waste and recycling, the California State",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:46:37Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California classifies batteries as hazardous waste and bans them from solid waste landfills.\",\n    \"Improperly discarded batteries pose serious fire, health, and safety hazards.\",\n    \"SB 1215 expands California's existing Electronic Waste Recycling Act to include produc",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California classifies batteries as hazardous waste and bans them from solid waste landfills.\",\n    \"Improperly discarded batteries pose serious fire, health, and safety hazards.\",\n    \"SB 1215 expands California's existing Electronic Waste Recycling Act to include products containing batteries that cannot be easily removed with household tools.\",\n    \"AB 2440 establishes the nation’s largest extended-producer responsibility (EPR) battery program.\",\n    \"The legislation will eliminate the threat of fires at waste facilities and promote the recovery and reuse of valuable minerals contained in batteries.\",\n    \"An estimated 65% of California’s waste fires have been sparked by lithium-ion batteries.\",\n    \"Lithium-ion batteries can cause fires if they are not disposed of properly.\",\n    \"The passage of SB 1215 and AB 2440 is expected to create thousands of recycling jobs.\",\n    \"The proposed battery collection and recycling program aims to keep batteries out of the environment.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "240e22b07564b431129fbc6d4d6eedb9fc08abc5"
+}

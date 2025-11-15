@@ -1,0 +1,13 @@
+{
+  "press_release": "bill-balance-protecting-rights-people-disabilities-and-rights-business-owners-passes-senate.txt",
+  "party": "Republican",
+  "title": "On Tuesday, the Senate Judiciary Committee passed Senate Bill 585 , introduced by Senator Roger Niello (R-Fair Oaks) that creates a “right to cure” opportunity for businesses to fi",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T12:44:06Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "raw_text": "```json\n{\n  \"claims\": []\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "9876770abb737d05af8c8dbbd66ec9acaaed3390"
+}

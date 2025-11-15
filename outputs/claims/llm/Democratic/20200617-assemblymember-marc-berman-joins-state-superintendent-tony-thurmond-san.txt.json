@@ -1,0 +1,13 @@
+{
+  "press_release": "20200617-assemblymember-marc-berman-joins-state-superintendent-tony-thurmond-san.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO — State Superintendent of Public Instruction Tony Thurmond announced today that the California Department of Education (CDE), in collaboration with the San Diego County ",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T19:17:28Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The California Department of Education is launching a free online suicide prevention training program available to middle and high school staff and students throughout the state.\",\n    \"The COVID-19 pandemic may have contributed to emotional and mental health challenges ",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The California Department of Education is launching a free online suicide prevention training program available to middle and high school staff and students throughout the state.\",\n    \"The COVID-19 pandemic may have contributed to emotional and mental health challenges that some students struggle with.\",\n    \"The online training program is called LivingWorks Start, which is an evidence-based program that aligns with the California Department of Education's Model Youth Suicide Prevention Policy.\",\n    \"Suicide is the second leading cause of death for youth ages ten to twenty-four, according to a report by the Centers for Disease Control and Prevention.\",\n    \"For every youth who dies by suicide, an estimated 100 to 200 young people make suicide attempts.\",\n    \"Engaging large numbers of people is increasingly recognized as important in suicide prevention efforts.\",\n    \"Students and teachers trained to recognize when someone is struggling can empower the whole school community to support those at risk.\",\n    \"The training program will be rolled out in two phases, with school site staff trained first and students trained during the second phase.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "fd6b657bbe490d60bb92c68ac0401a6c4f730fb6"
+}

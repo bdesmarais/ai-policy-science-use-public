@@ -1,0 +1,74 @@
+{
+  "press_release": "senator-valladares-bills-improve-affordability-increase-public-safety-and-expand.txt",
+  "party": "Republican",
+  "title": "Today Senator Suzette Martinez Valladares (R-Santa Clarita) announced that her bipartisan legislation to address her priority issue areas of affordability, public safety and expand",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-13T13:17:01Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"SB 296 aims to exempt the primary residences of 100% disabled veterans from property taxes.\"\n    },\n    {\n      \"claim_text\": \"AB 30 will allow a more cost-efficient and environmentally friendly E15 blend of gasoline to be sold in California.\"\n    }",
+  "raw_text": "```json\n{\n  \"claims\": [\n    {\n      \"claim_text\": \"SB 296 aims to exempt the primary residences of 100% disabled veterans from property taxes.\"\n    },\n    {\n      \"claim_text\": \"AB 30 will allow a more cost-efficient and environmentally friendly E15 blend of gasoline to be sold in California.\"\n    },\n    {\n      \"claim_text\": \"SB 571 seeks to protect victims from opportunistic criminals during a state of emergency by increasing penalties for looting or impersonating first responders.\"\n    },\n    {\n      \"claim_text\": \"SB 563 would expand access to needed grant funds for law enforcement who patrol mixed terrain areas throughout California.\"\n    },\n    {\n      \"claim_text\": \"SB 508 expands healthcare access for cancer patients who need it most.\"\n    },\n    {\n      \"claim_text\": \"SB 630 and AB 1138 help keep good paying jobs in California by providing incentives for TV and film production.\"\n    }\n  ]\n}\n```\n",
+  "claims": [
+    {
+      "claim_text": "SB 296 aims to exempt the primary residences of 100% disabled veterans from property taxes.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "AB 30 will allow a more cost-efficient and environmentally friendly E15 blend of gasoline to be sold in California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 571 seeks to protect victims from opportunistic criminals during a state of emergency by increasing penalties for looting or impersonating first responders.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 563 would expand access to needed grant funds for law enforcement who patrol mixed terrain areas throughout California.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 508 expands healthcare access for cancer patients who need it most.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    },
+    {
+      "claim_text": "SB 630 and AB 1138 help keep good paying jobs in California by providing incentives for TV and film production.",
+      "rationale": null,
+      "category": null,
+      "is_policy_like": null,
+      "who_asserts": null,
+      "scope": null,
+      "evidence_needed": null,
+      "source_span": null
+    }
+  ],
+  "num_claims": 6,
+  "doc_sha1": "83b0317677c65c08e024888c4f528d301988f56b"
+}

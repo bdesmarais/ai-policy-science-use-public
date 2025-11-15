@@ -1,0 +1,13 @@
+{
+  "press_release": "20240105-assemblymember-pellerin-chair-assembly-elections-committee-introduces-ab.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:32:36Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"California law has prohibited a person from filing nomination papers to run for more than one office at a primary election since 1913.\",\n    \"A Sacramento Superior Court judge ruled that the prohibition on filing nomination papers for more than one office at a primary el",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"California law has prohibited a person from filing nomination papers to run for more than one office at a primary election since 1913.\",\n    \"A Sacramento Superior Court judge ruled that the prohibition on filing nomination papers for more than one office at a primary election applies only to the independent nomination process.\",\n    \"California's prohibition on running for multiple offices serves important public policy goals.\",\n    \"When a candidate is elected to multiple offices but can only serve in one, it often results in a vacant elective position.\",\n    \"Vacant elective positions necessitate costly special elections with likely low and unrepresentative voter turnout.\",\n    \"Allowing candidates to run for multiple offices can place voters in a situation where they do not know if the candidate will accept the office if elected.\",\n    \"The potential for candidates to run for multiple offices may result in voter confusion and disenfranchisement.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "b3ef2a3c3b7c389b3e75a95e84111b123394a270"
+}

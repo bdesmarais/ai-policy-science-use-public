@@ -1,0 +1,13 @@
+{
+  "press_release": "20240221-assemblymember-connolly-codifies-expands-beaver-restoration-program.txt",
+  "party": "Democratic",
+  "title": "SACRAMENTO, CA – Today, Assemblymember Damon Connolly (D-San Rafael) introduced",
+  "model": "gpt-4o-mini",
+  "attempted_at": "2025-11-12T20:36:04Z",
+  "prompt_preview": "[1 chunks] Task: Extract all distinct claims about AI or emerging technology in this press release. Do NOT assume a fixed number.\nOutput JSON only matching the provided schema.\nReturn concise, standalone claim_texts that could be tested against scientific literature. Exclude purely procedural statem",
+  "raw_preview": "```json\n{\n  \"claims\": [\n    \"The Beaver Restoration Program authorizes the California Department of Fish and Wildlife (CDFW) to relocate beavers to assist in restoring watershed and ecosystem properties.\",\n    \"Beavers are a keystone species that play a vital role in maintaining habitats for the ben",
+  "raw_text": "```json\n{\n  \"claims\": [\n    \"The Beaver Restoration Program authorizes the California Department of Fish and Wildlife (CDFW) to relocate beavers to assist in restoring watershed and ecosystem properties.\",\n    \"Beavers are a keystone species that play a vital role in maintaining habitats for the benefit of other species.\",\n    \"Restoring beavers to their original wildlife habitats is beneficial for species recovery and improving habitat complexity.\",\n    \"The Beaver Restoration Program aims to improve climate change, drought, and wildfire resiliency throughout California.\",\n    \"The current regulations of the Beaver Restoration Program only allow CDFW personnel to possess, transport, and release beavers on private or public lands.\",\n    \"The introduction of AB 2196 supports the science-based management of beavers in California.\",\n    \"Beavers have been recognized as fundamental to creating and preserving healthy habitats.\",\n    \"The introduction of beavers can help mitigate wildfire risks and preserve water-rich ecosystems.\",\n    \"Restoring beavers in California is expected to have environmental benefits, including improvements to water quality and storage.\",\n    \"Native salmon and trout are adapted to coexist with beavers, which help slow, spread, and cool water.\"\n  ]\n}\n```\n",
+  "claims": [],
+  "num_claims": 0,
+  "doc_sha1": "ddc4f0b19aa7ed72900353bfe574b87afe2b6690"
+}
