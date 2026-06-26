@@ -18,3 +18,5 @@ venv/
 *.swp
 .vscode/
 .idea/
+
+benchmarks/scifact.tar.gz

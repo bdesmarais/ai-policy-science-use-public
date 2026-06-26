@@ -3,7 +3,10 @@
   "n_pairs": 911,
   "validators": [
     "nli_deberta",
-    "nli_bart"
+    "nli_bart",
+    "llm:Qwen/Qwen2.5-3B-Instruct",
+    "llm:microsoft/Phi-3.5-mini-instruct",
+    "llm:allenai/OLMo-2-1124-7B-Instruct"
   ],
   "support_rate_by_party": {
     "nli_deberta": {
@@ -13,6 +16,18 @@
     "nli_bart": {
       "dem": 0.006,
       "rep": 0.004
+    },
+    "llm:Qwen/Qwen2.5-3B-Instruct": {
+      "dem": 0.006,
+      "rep": 0.009
+    },
+    "llm:microsoft/Phi-3.5-mini-instruct": {
+      "dem": 0.127,
+      "rep": 0.076
+    },
+    "llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "dem": 0.03,
+      "rep": 0.02
     }
   },
   "by_party_n": {

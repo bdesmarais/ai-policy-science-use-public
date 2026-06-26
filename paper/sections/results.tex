@@ -140,19 +140,22 @@ California Assembly press releases.}
 \label{fig:engage}
 \end{figure}
 
-\subsection{The pipeline is reproducible and transferable}
+\subsection{Reproducibility, the retrieval bottleneck, and domain transfer}
 \label{sec:res-robustness}
-Two properties show the pipeline is reproducible and not tied to one implementation. \emph{Reproducible
-retrieval.} Replacing the generative reference retrieval of earlier pipelines with retrieval from the
-open OpenAlex index returns only real, DOI-bearing papers, eliminating the citation-fabrication failure
-mode of asking a model to name sources. OpenAlex's keyword relevance search is broader and less
-claim-targeted than bespoke generative retrieval, so a larger share of retrieved papers are off-topic
-for the specific claim and are judged \textsc{silent}; naive support rates fall accordingly. This makes
-explicit a general point: the measured \emph{level} depends on retrieval relevance as well as on the
-judge, which is why the trustworthy quantity is the validated-judge estimate on a fixed corpus rather
-than any single naive rate. The partisan \emph{ordering}, by contrast, is preserved under the LLM judges
-on the OpenAlex references as well.\pending{[verify ordering once panel-on-OpenAlex completes]}
-\emph{Domain transfer.} The pipeline's front end applies unchanged
+\emph{Reproducible retrieval, and the binding role of retrieval relevance.} Replacing the generative
+reference retrieval of earlier pipelines with retrieval from the open OpenAlex index returns only real,
+DOI-bearing papers, eliminating the citation-fabrication failure mode of asking a model to name sources.
+It also exposes the binding constraint on this kind of measurement. OpenAlex keyword search returns
+broad, topically-related papers rather than the specific study a claim invokes, so across \emph{every}
+judge---both NLI classifiers and all three open panel models---nearly all pairs are labelled
+\textsc{silent} and support rates fall to a few percent (0.6--13\%). The measured support \emph{level} is
+thus governed at least as much by how precisely retrieval targets the claim as by the judge: the
+0.5--0.7 rates above reflect bespoke, claim-targeted retrieval, whereas broad keyword retrieval surfaces
+little claim-specific evidence at all. This is an honest limit of the present pipeline, and it localizes
+the remaining work precisely: the \emph{judge} is fully reproducible and human-validated, so it is the
+\emph{retrieval} step---a fine-tuned open retriever in place of keyword search or generative
+listing---that must be made both reproducible and claim-targeted. The open pipeline is released to
+support exactly that. \emph{Domain transfer.} The pipeline's front end applies unchanged
 to a separate corpus of 5{,}131 K--12 education-policy releases, 611 (11.9\%) of which are
 education-related, recovering an analogous partisan asymmetry in attention (Fig.~\ref{fig:edu}):
 Democrats issued 80 releases on social-emotional learning and student mental health versus 1 for

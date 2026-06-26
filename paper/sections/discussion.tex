@@ -46,10 +46,12 @@ inference rather than as a free-standing measure. Reporting cross-method agreeme
 diagnostic, but it is the comparison to a validated standard that resolves which method to trust.
 
 \paragraph{Limitations.} Three limitations temper the substantive findings. (1) \emph{Domain transfer},
-discussed above. (2) \emph{Retrieval bounds the ceiling}: stance is assessed only over retrieved
-references and we do not run a deliberately disconfirming search, so support rates are an upper and
-refute rates a lower bound on what an exhaustive search would find; we show the support-rate pattern is
-robust across two retrieval engines, but both are relevance-seeking. (3) \emph{Strategic text}: press
+discussed above. (2) \emph{Retrieval is the binding constraint}: stance is assessed only over retrieved
+references with no deliberately disconfirming search, so support rates are an upper and refute rates a
+lower bound; more importantly, the measured level is highly sensitive to retrieval precision---broad
+open-index keyword retrieval surfaces little claim-specific evidence and drives nearly all pairs to
+\textsc{silent} (\S\ref{sec:res-robustness})---so a reproducible, claim-targeted retriever is the single
+most valuable component to add, and the released pipeline isolates it as such. (3) \emph{Strategic text}: press
 releases are advocacy, so a high support rate reflects selective citation as much as evidence quality,
 and our estimates describe how well \emph{chosen} claims are backed, not balanced evidence use. The
 political application is also one chamber of one state; the pipeline is state-agnostic and validated,
