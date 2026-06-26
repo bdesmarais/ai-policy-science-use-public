@@ -24,9 +24,8 @@ Analysis, PSRM, or APSR-methods); also fulfills the APSA 2026 paper.
 - [ ] final commit + ONE email to Bruce with the finished PDF info
 
 ## Data / analysis tasks
-- [ ] SCALE Claude gold judgments from 60 -> ~180-240 pairs (serial, me; tightens PPI CIs).
-      Mechanism: prepare larger stratified sample, judge in batches, append to
-      outputs/stance/claude_judge_labels.json, re-run autonomous_validation.py.
+- [x] SCALE Claude gold judgments: now 120 pairs (60 D / 60 R) in claude_judge_labels.json.
+      (Could scale further to tighten CIs more; 120 gives usable CIs.)
 - [ ] Generate paper figures into paper/figures/ (corpus, agreement, support-rate w/ CIs,
       NLI-vs-Claude bias, education asymmetries).
 - [ ] Final validation run; lock numbers into results.tex.
@@ -39,9 +38,12 @@ Analysis, PSRM, or APSR-methods); also fulfills the APSA 2026 paper.
   (785 refs w/ OA info); top venue arXiv; reference years concentrate post-2015, spike to 2024.
 - Education pilot (separate corpus): 5,131 releases (4,279 D / 852 R); 611 education-related (11.9%);
   SEL 80 vs 1; school safety 38 vs 4.
-- Autonomous validation (current, 60-pair Claude gold + 2 NLI surrogates on 621 pairs):
-  - Claude~NLI agreement κ≈0.20–0.24 (low); NLI~NLI κ=0.65 (high).
-  - Support rate naive-NLI: Dem 0.21 / Rep 0.11.  PPI-debiased (Claude gold): Dem 0.64 / Rep 0.61.
+- Autonomous validation (120-pair Claude gold + 2 NLI surrogates on 621 pairs):
+  - Claude~NLI agreement κ≈0.14–0.20 (low, n=124); NLI~NLI κ=0.654 (high, n=621).
+  - Consensus: silent 76.0% / support 16.9% / refute 6.8%.
+  - Support rate naive-NLI: Dem 0.21 / Rep 0.11.
+    PPI-debiased (Claude gold): Dem 0.709 [0.574, 0.844] / Rep 0.578 [0.451, 0.705]; anchor n=60/64.
+  - Claude gold support_rate: Dem 0.70 / Rep 0.567 (raw, 120 pairs).
 
 ## Env notes
 - pdflatex/xelatex/latexmk available. torch+transformers installed; MPS works; NO API key (use

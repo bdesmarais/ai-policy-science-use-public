@@ -13,14 +13,14 @@
   },
   "pairwise_agreement": {
     "claude_judge~nli_deberta": {
-      "n": 64,
-      "percent_agreement": 0.453,
-      "cohens_kappa": 0.24
+      "n": 124,
+      "percent_agreement": 0.419,
+      "cohens_kappa": 0.202
     },
     "claude_judge~nli_bart": {
-      "n": 64,
-      "percent_agreement": 0.422,
-      "cohens_kappa": 0.196
+      "n": 124,
+      "percent_agreement": 0.379,
+      "cohens_kappa": 0.143
     },
     "nli_deberta~nli_bart": {
       "n": 621,
@@ -29,33 +29,33 @@
     }
   },
   "consensus_stance_distribution": {
-    "silent": 474,
-    "support": 101,
-    "refute": 44,
+    "silent": 472,
+    "support": 105,
+    "refute": 42,
     "mixed": 2
   },
-  "unanimous_pairs": 507,
-  "unanimous_fraction": 0.816,
+  "unanimous_pairs": 474,
+  "unanimous_fraction": 0.763,
   "support_rate_by_party_ppi": {
     "dem": {
-      "estimate": 0.6422,
+      "estimate": 0.7089,
       "ci95": [
-        0.4589,
-        0.8256
+        0.5741,
+        0.8437
       ],
       "naive_estimate": 0.2089,
       "n_all": 292,
-      "n_anchor": 30
+      "n_anchor": 60
     },
     "rep": {
-      "estimate": 0.6094,
+      "estimate": 0.5782,
       "ci95": [
-        0.438,
-        0.7808
+        0.4513,
+        0.705
       ],
       "naive_estimate": 0.1094,
       "n_all": 329,
-      "n_anchor": 34
+      "n_anchor": 64
     }
   },
   "ppi_anchor": "Claude Opus 4.8 gold labels (n where judged)",
