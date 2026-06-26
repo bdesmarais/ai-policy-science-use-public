@@ -1,20 +1,19 @@
-# Autonomous validation report
+# Autonomous validation report (open-source models)
 
-- Pairs judged: **621**  |  Validators: **tfidf, lexical**
-- Unanimous (high-confidence) pairs: **569** (91.6%)
+- Pairs judged: **621**  |  Validators: **nli_deberta, nli_bart**
+- Models: `nli_deberta`=MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli, `nli_bart`=facebook/bart-large-mnli
+- Unanimous (high-confidence) pairs: **536** (86.3%)
 
 ## Cross-validator agreement (autonomous inter-annotator reliability)
-- `tfidf~lexical`: 91.6% agree, κ = 0.811
+- `nli_deberta~nli_bart`: 86.3% agree, κ=0.654 (n=621)
 
 ## Consensus stance distribution
 
-- silent: 446 (71.8%)
-- support: 169 (27.2%)
-- refute: 6 (1.0%)
+- silent: 479 (77.1%)
+- support: 97 (15.6%)
+- refute: 45 (7.2%)
 
 ## Support rate by party (PPI-debiased)
 
-- **dem**: 0.284  (95% CI [0.2325, 0.336]; naive 0.284; anchor n=269/292)
-- **rep**: 0.261  (95% CI [0.2139, 0.3089]; naive 0.261; anchor n=300/329)
-
-_Baseline validators used in this run; install `transformers`+`torch` and set `OPENAI_API_KEY` to activate the NLI + LLM-judge production validators._
+- **dem**: 0.209 (95% CI [0.1623, 0.2555]; naive 0.209; anchor n=242/292)
+- **rep**: 0.109 (95% CI [0.0757, 0.1432]; naive 0.109; anchor n=294/329)

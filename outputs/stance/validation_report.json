@@ -1,43 +1,49 @@
 {
   "n_pairs": 621,
   "validators": [
-    "tfidf",
-    "lexical"
+    "nli_deberta",
+    "nli_bart"
   ],
+  "transformers": true,
+  "models": {
+    "nli_deberta": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+    "nli_bart": "facebook/bart-large-mnli"
+  },
   "pairwise_agreement": {
-    "tfidf~lexical": {
-      "percent_agreement": 0.916,
-      "cohens_kappa": 0.811
+    "nli_deberta~nli_bart": {
+      "n": 621,
+      "percent_agreement": 0.863,
+      "cohens_kappa": 0.654
     }
   },
   "consensus_stance_distribution": {
-    "silent": 446,
-    "support": 169,
-    "refute": 6
+    "silent": 479,
+    "support": 97,
+    "refute": 45
   },
-  "unanimous_pairs": 569,
-  "unanimous_fraction": 0.916,
+  "unanimous_pairs": 536,
+  "unanimous_fraction": 0.863,
   "support_rate_by_party_ppi": {
     "dem": {
-      "estimate": 0.2842,
+      "estimate": 0.2089,
       "ci95": [
-        0.2325,
-        0.336
+        0.1623,
+        0.2555
       ],
-      "naive_estimate": 0.2842,
+      "naive_estimate": 0.2089,
       "n_all": 292,
-      "n_anchor": 269
+      "n_anchor": 242
     },
     "rep": {
-      "estimate": 0.2614,
+      "estimate": 0.1094,
       "ci95": [
-        0.2139,
-        0.3089
+        0.0757,
+        0.1432
       ],
-      "naive_estimate": 0.2614,
+      "naive_estimate": 0.1094,
       "n_all": 329,
-      "n_anchor": 300
+      "n_anchor": 294
     }
   },
-  "notes": "Baseline validators in this run; llm_judge+nli are the production validators. PPI anchor = unanimous-consensus subset (autonomous stand-in for gold). With a small true-gold set this is a formal PPI/DSL estimate (see docs/04)."
+  "notes": "Open-source models only (no OpenAI). PPI anchor = unanimous-consensus subset; a small true-gold set upgrades to a formal PPI/DSL estimate (docs/04)."
 }

@@ -1,0 +1,8 @@
+# Open-source stack for the autonomous validation pipeline (no OpenAI / no API key).
+# Install:  pip install -r requirements-autonomous.txt
+torch>=2.2
+transformers>=4.40
+sentencepiece>=0.1.99
+scikit-learn>=1.3
+numpy>=1.24
+matplotlib>=3.7
