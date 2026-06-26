@@ -32,26 +32,33 @@ discriminative natural-language-inference (NLI) classifiers that fail in differe
 their agreement explicitly, in the spirit of the alternative-annotator test \citep{calderon2025alttest}.
 
 We apply the system to a corpus of 7{,}139 California State Assembly press releases, 303 of which
-discuss AI, and to a parallel pilot in K--12 education policy. Two findings stand out. \emph{First, as
-a methodological matter,} discriminative NLI classifiers---the standard automated tool for scientific
-claim verification \citep{wadden2020fact}---systematically \emph{under}-detect support: they agree with
-the LLM judge only weakly ($\kappa \approx 0.2$), because strict textual entailment between an abstract
-and a press-release claim is usually ``neutral'' even when the study plainly substantiates the claim's
-substance. Correcting this bias with PPI moves the estimated share of legislator claims supported by the
-retrieved science from a naive $0.21$ (Democrats) / $0.11$ (Republicans) to $0.71$ / $0.58$. An LLM
-judge is therefore not a convenience but a requirement for an unbiased estimate. \emph{Second, as a
-substantive matter,} once a high-quality judge is used the large partisan gap implied by the naive NLI
-estimate largely closes: both parties' technical claims about AI are backed by the retrieved science at
-similar, fairly high rates, even though Democrats discuss AI far more often and the parties emphasize
-different aspects of it.
+discuss AI, and to a parallel pilot in K--12 education policy, and we report two results cautiously.
+\emph{First, methodologically,} our \emph{zero-shot} NLI configuration agrees with the LLM judge only
+weakly ($\kappa \approx 0.15$--$0.21$) and labels most pairs ``silent,'' because strict entailment
+between an abstract and a press-release claim is usually ``neutral'' even when the study substantiates
+the claim's substance. Anchoring on the LLM judge and applying PPI moves the estimated support rate from
+a naive $0.21$ (Democrats) / $0.11$ (Republicans) to $0.71$ / $0.54$. We resist the tempting reading that
+``the LLM judge recovers the truth.'' A correction this large ($\sim$3$\times$) is atypical when a
+surrogate is competent, and is equally consistent with a misconfigured NLI baseline (zero-shot entailment
+is a poor proxy for scientific support; serious claim verification uses fine-tuning and rationale
+selection \citep{wadden2020fact}) and with the LLM judge \emph{over}-calling support. Because the claims
+and references were produced by LLMs and our judge is an LLM, \emph{self-preference}---the documented
+tendency of LLM evaluators to favor model-generated text \citep{panickssery2024llm}---could inflate the
+support rate, and we have no human anchor to rule this out. \emph{Second, substantively and
+provisionally,} under our judge both parties' AI claims are supported at broadly similar (and fairly
+high) rates, so the large partisan gap implied by the naive NLI estimate does not survive; what is robust
+is that Democrats discuss AI far more often and more intensively than Republicans, not any difference in
+the support for their claims.
 
-We make three contributions. (1) We introduce a reusable, end-to-end, fully autonomous pipeline---claim
-extraction, evidence retrieval, and support assessment---that requires neither human coders nor paid
-APIs and is released as open-source software. (2) We document a concrete, replicable failure mode of
-the dominant NLI approach to claim verification and show how to correct it with PPI/DSL, contributing a
-template for valid measurement from LLM labels in computational social science. (3) We provide the first
-systematic, population-level evidence on how scientific evidence enters AI policymaking in a U.S.\
-state legislature. The remainder of the paper describes the related literatures (\S\ref{sec:related}),
+Our contributions are deliberately modest. (1) We provide a reusable, end-to-end, fully autonomous
+\emph{template}---claim extraction, evidence retrieval, and support assessment---that runs with no human
+coders and no paid APIs, released as open-source software, that others can apply and, crucially, validate
+against a human standard. (2) We show that a popular shortcut---scoring scientific support with off-the-shelf
+zero-shot NLI---can be badly miscalibrated for press-release claims, a cautionary result for the growing
+practice of measuring political text with such tools. (3) We are explicit about what an autonomous,
+single-model, self-judging pipeline \emph{cannot} establish on its own (validity against truth), and we
+specify what a valid version would require. We do \emph{not} claim a validated estimate of evidence use;
+the substantive patterns we report are provisional and conditional on an unvalidated judge. The remainder of the paper describes the related literatures (\S\ref{sec:related}),
 the data (\S\ref{sec:data}), our methods (\S\ref{sec:methods}), and our results
 (\S\ref{sec:results}), before discussing implications and limitations
 (\S\ref{sec:discussion}--\S\ref{sec:conclusion}).

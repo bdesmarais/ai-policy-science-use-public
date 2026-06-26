@@ -11,9 +11,8 @@
 \graphicspath{{figures/}}
 \bibliographystyle{apalike}
 
-\title{\textbf{Does the Science Support the Claim?\\
-Autonomously Measuring Scientific-Evidence Use in State Legislative\\
-Communication with LLM Judges and Prediction-Powered Inference}}
+\title{\textbf{Can an LLM Judge Replace Human Coders for Measuring\\
+Scientific-Evidence Use in Policy? A Feasibility Study and a Cautionary Result}}
 
 \author{Nitheesha Nakka \and Bruce A. Desmarais \and Sarah Rajtmajer \and\\
 Jeffrey J. Harden \and Frederick J. Boehmke}
@@ -24,25 +23,27 @@ Jeffrey J. Harden \and Frederick J. Boehmke}
 
 \begin{abstract}
 \noindent
-How can we measure, at scale, whether the scientific evidence that legislators invoke actually
-supports the claims they make? We introduce an end-to-end pipeline that (i) extracts empirical
-claims from legislators' public communications, (ii) retrieves potentially relevant peer-reviewed
-science, and (iii) assesses whether the retrieved literature supports, refutes, or is silent on
-each claim. The central methodological obstacle is validation: assessing claim--evidence
-\emph{support} has historically required scarce expert human coders. We show that this step can be
-performed \emph{autonomously} by combining a high-capacity large language model (LLM) as an
-in-context judge with independent, open-source natural-language-inference (NLI) classifiers as a
-scalable surrogate, and by reconciling the two with prediction-powered inference (PPI) /
-design-based supervised learning (DSL) so that downstream estimates remain statistically valid
-despite imperfect machine labels. Applying the system to a corpus of 7{,}139 California State
-Assembly press releases (303 of which discuss artificial intelligence), we find that
-discriminative NLI models, which rely on strict textual entailment, systematically
-\emph{under}-detect scientific support (agreement with the LLM judge $\kappa \approx 0.2$);
-correcting for this bias with PPI moves the estimated share of legislator claims supported by the
-retrieved science from a naive $0.21$ (Democrats) / $0.11$ (Republicans) to $0.71$ / $0.58$. Our
-contribution is twofold: a reusable, fully autonomous measurement pipeline that requires no human
-research assistants and no proprietary APIs, and substantive evidence on how---and how
-symmetrically---scientific evidence enters polarized technology policymaking.
+Can we measure, at scale and \emph{without human coders}, whether the scientific evidence that
+legislators invoke supports the claims they make? We build an end-to-end pipeline that (i) extracts
+empirical claims from legislators' press releases, (ii) retrieves candidate peer-reviewed science,
+and (iii) assigns each (claim, reference) pair a stance (support/refute/silent). The hard step is the
+third: assessing \emph{support} has historically required scarce expert coders. We test a fully
+autonomous alternative---a high-capacity large language model (LLM) as an in-context judge providing
+``gold'' labels, independent open-source natural-language-inference (NLI) classifiers as a scalable
+surrogate, and prediction-powered inference (PPI) / design-based supervised learning (DSL) to combine
+them. We report this as a \emph{feasibility study}, not a validated measurement, because we deliberately
+use \emph{no human-coded labels}: the foundations we build on (the alternative-annotator test; DSL/PPI)
+formally require a trusted human anchor, which we lack, so our estimates are conditional on a single,
+unvalidated LLM judge. Two results follow, and we read them cautiously. First, our \emph{zero-shot}
+NLI configuration agrees with the LLM judge only weakly ($\kappa \approx 0.15$--$0.21$) and labels
+most pairs ``silent''; anchoring on the LLM judge and applying PPI moves the estimated support rate
+from a naive $0.21$/$0.11$ (D/R) to $0.71$/$0.54$ ``under the LLM judge.'' We argue this $\sim$3$\times$
+gap is too large to attribute cleanly to NLI error: it is equally consistent with a misconfigured NLI
+baseline and with the LLM judge \emph{over}-calling support---and, because the claims and references
+were themselves produced by LLMs and our judge is an LLM, with \emph{self-preference} (a documented
+bias) inflating the result. Self-preference and the absence of a human anchor are first-order threats,
+not footnotes. Our contribution is therefore a reusable, no-API, no-RA \emph{template} for this kind of
+measurement, together with a cautionary result about what it can and cannot establish on its own.
 \end{abstract}
 
 \input{sections/intro}
