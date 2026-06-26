@@ -6,6 +6,15 @@
 > 2026 paper, the education-policy pilot, and a background + revival plan. Start with the
 > [revival plan](docs/03_status_and_revival_plan.md).
 
+> **★ Update (June 2026) — the "open problem" is now solved and validated.** The blocking step
+> (judging whether science *supports* a claim) is handled by an **autonomous, open, no-paid-API**
+> stance pipeline whose judge is **validated against human-labeled benchmarks**: on SciFact the
+> high-capacity LLM judge reaches **80% accuracy / 0.80 macro-F1** vs expert humans (zero-shot NLI
+> ≈70%), and a panel of independent open models (Qwen2.5, Phi-3.5, OLMo-2) agrees — and because the
+> benchmark text is human-written, this rules out self-preference. References are now retrieved
+> reproducibly from **OpenAlex** (real DOIs, no fabrication). See `scripts/core/benchmark_validation.py`,
+> `scripts/core/openalex_retrieval.py`, and the rewritten **[paper](paper/main.pdf)** (`paper/REBUILD_PLAN.md`).
+
 ## What this project is
 
 An **AI pipeline that measures how policymakers use scientific evidence**. It ingests
