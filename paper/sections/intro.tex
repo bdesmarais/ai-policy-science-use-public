@@ -1,0 +1,57 @@
+\section{Introduction}
+\label{sec:intro}
+
+Legislators routinely reach for scientific authority. A bill is ``backed by research,'' a problem
+is established with a statistic, an intervention is said to be ``proven'' to work. In technically
+complex domains---and few are more complex or fast-moving than artificial intelligence (AI)---these
+appeals to evidence are both more common and harder to evaluate. Yet a basic question has remained
+effectively unmeasurable at scale: when a legislator invokes science to support a claim, does the
+scientific record actually support that claim? Answering it would let us move the study of research
+use in policy \citep{weiss1979many,oliver2022works} from case studies and surveys toward systematic,
+population-level measurement.
+
+The obstacle is not data but \emph{validation}. Legislators' public communications are abundant and
+machine-readable, and modern language models can extract the empirical claims they contain and
+retrieve plausibly relevant scientific literature. The hard step is the last one: deciding whether a
+retrieved study \emph{supports}, \emph{refutes}, or is \emph{silent} on a given claim. This judgment
+has traditionally required trained human coders, whose cost and scarcity cap the size and scope of
+any such study and whose reliability must itself be established. As a practical matter, the
+``does-the-science-support-the-claim'' step is where projects of this kind stall.
+
+We show that this step can be performed \emph{autonomously}, with no human research assistants and no
+proprietary application programming interfaces (APIs), while preserving statistical validity. Our
+design rests on three ideas from the recent literature. First, high-capacity large language models
+(LLMs) now match or exceed trained crowd coders on relevance and stance tasks
+\citep{gilardi2023chatgpt,ziems2024can}, so an LLM can supply gold-standard labels. Second, because
+any machine labels are imperfect and naively substituting them for human labels biases downstream
+estimates \citep{egami2023dsl}, we combine a small set of high-quality LLM-judge labels with a large
+set of cheap, independent classifier labels using prediction-powered inference (PPI)
+\citep{angelopoulos2023ppi} and design-based supervised learning (DSL) \citep{egami2023dsl}. Third,
+because any single judge can be biased \citep{zheng2023judging}, we pair a generative LLM judge with
+discriminative natural-language-inference (NLI) classifiers that fail in different ways, and we report
+their agreement explicitly, in the spirit of the alternative-annotator test \citep{calderon2025alttest}.
+
+We apply the system to a corpus of 7{,}139 California State Assembly press releases, 303 of which
+discuss AI, and to a parallel pilot in K--12 education policy. Two findings stand out. \emph{First, as
+a methodological matter,} discriminative NLI classifiers---the standard automated tool for scientific
+claim verification \citep{wadden2020fact}---systematically \emph{under}-detect support: they agree with
+the LLM judge only weakly ($\kappa \approx 0.2$), because strict textual entailment between an abstract
+and a press-release claim is usually ``neutral'' even when the study plainly substantiates the claim's
+substance. Correcting this bias with PPI moves the estimated share of legislator claims supported by the
+retrieved science from a naive $0.21$ (Democrats) / $0.11$ (Republicans) to $0.64$ / $0.61$. An LLM
+judge is therefore not a convenience but a requirement for an unbiased estimate. \emph{Second, as a
+substantive matter,} once a high-quality judge is used the large partisan gap implied by the naive NLI
+estimate largely closes: both parties' technical claims about AI are backed by the retrieved science at
+similar, fairly high rates, even though Democrats discuss AI far more often and the parties emphasize
+different aspects of it.
+
+We make three contributions. (1) We introduce a reusable, end-to-end, fully autonomous pipeline---claim
+extraction, evidence retrieval, and support assessment---that requires neither human coders nor paid
+APIs and is released as open-source software. (2) We document a concrete, replicable failure mode of
+the dominant NLI approach to claim verification and show how to correct it with PPI/DSL, contributing a
+template for valid measurement from LLM labels in computational social science. (3) We provide the first
+systematic, population-level evidence on how scientific evidence enters AI policymaking in a U.S.\
+state legislature. The remainder of the paper describes the related literatures (\S\ref{sec:related}),
+the data (\S\ref{sec:data}), our methods (\S\ref{sec:methods}), and our results
+(\S\ref{sec:results}), before discussing implications and limitations
+(\S\ref{sec:discussion}--\S\ref{sec:conclusion}).

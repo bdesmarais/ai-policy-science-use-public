@@ -1,0 +1,64 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\bibliographystyle{apalike}
+
+\title{\textbf{Does the Science Support the Claim?\\
+Autonomously Measuring Scientific-Evidence Use in State Legislative\\
+Communication with LLM Judges and Prediction-Powered Inference}}
+
+\author{Nitheesha Nakka \and Bruce A. Desmarais \and Sarah Rajtmajer \and\\
+Jeffrey J. Harden \and Frederick J. Boehmke}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+How can we measure, at scale, whether the scientific evidence that legislators invoke actually
+supports the claims they make? We introduce an end-to-end pipeline that (i) extracts empirical
+claims from legislators' public communications, (ii) retrieves potentially relevant peer-reviewed
+science, and (iii) assesses whether the retrieved literature supports, refutes, or is silent on
+each claim. The central methodological obstacle is validation: assessing claim--evidence
+\emph{support} has historically required scarce expert human coders. We show that this step can be
+performed \emph{autonomously} by combining a high-capacity large language model (LLM) as an
+in-context judge with independent, open-source natural-language-inference (NLI) classifiers as a
+scalable surrogate, and by reconciling the two with prediction-powered inference (PPI) /
+design-based supervised learning (DSL) so that downstream estimates remain statistically valid
+despite imperfect machine labels. Applying the system to a corpus of 7{,}139 California State
+Assembly press releases (303 of which discuss artificial intelligence), we find that
+discriminative NLI models, which rely on strict textual entailment, systematically
+\emph{under}-detect scientific support (agreement with the LLM judge $\kappa \approx 0.2$);
+correcting for this bias with PPI moves the estimated share of legislator claims supported by the
+retrieved science from a naive $0.21$ (Democrats) / $0.11$ (Republicans) to $0.64$ / $0.61$. Our
+contribution is twofold: a reusable, fully autonomous measurement pipeline that requires no human
+research assistants and no proprietary APIs, and substantive evidence on how---and how
+symmetrically---scientific evidence enters polarized technology policymaking.
+\end{abstract}
+
+\input{sections/intro}
+\input{sections/related}
+\input{sections/data}
+\input{sections/methods}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\section*{Acknowledgments}
+Components of the data pipeline and the autonomous validation analysis were implemented and
+executed with AI assistance (open-source NLI models and an in-context LLM judge); all design
+decisions, interpretation, and claims are the authors'. Earlier pipeline development was
+supported by NSF awards 2318460 and 2148215.
+
+\bibliography{references}
+
+\end{document}

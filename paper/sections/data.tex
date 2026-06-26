@@ -1,0 +1,44 @@
+\section{Data}
+\label{sec:data}
+
+\paragraph{Corpus.} Our primary corpus is the universe of press releases issued by members of the
+California State Assembly and posted to their official sites, harvested in 2025. After
+de-duplication it comprises \textbf{7{,}139} documents---5{,}249 from Democratic and 1{,}890 from
+Republican members---spanning roughly 2010 to 2025. California is a deliberate choice: it is the
+most active and visible state in AI policymaking \citep{ncsl2024ai}, and its lopsided partisan
+balance (roughly three-quarters Democratic) is itself substantively relevant and is handled
+explicitly in estimation.
+
+\paragraph{AI-related subset.} We flag documents containing AI-related language (e.g.\ ``artificial
+intelligence,'' ``machine learning,'' ``algorithmic,'' ``facial recognition,'' ``deepfake,'' ``large
+language model'') and extract the AI-bearing sentences. \textbf{303} documents (254 Democratic, 49
+Republican) contain at least one such statement, for a total of \textbf{910} AI statements. The
+partisan asymmetry is large on every margin: 4.8\% of Democratic documents discuss AI versus 2.6\%
+of Republican documents, and Democratic AI documents average 3.3 AI statements each versus 1.6 for
+Republicans. Consistent with prior descriptions of this corpus, a Fightin'-words analysis
+\citep{monroe2008fightin} shows Democrats emphasizing generative AI, health, and data, and
+Republicans emphasizing accountability, fairness, and enforcement.
+
+\paragraph{Claims and retrieved evidence.} From the AI-related documents the pipeline extracts
+empirical claims and retrieves candidate scientific references (\S\ref{sec:methods-pipeline}). Our
+analysis set is the resulting collection of \textbf{621} (claim, reference) pairs for which a
+reference with an abstract was retrieved (292 from Democratic, 329 from Republican claims). The
+retrieved literature is recent and broadly open: reference years concentrate after 2015 and rise
+sharply through 2024, the single most common venue is arXiv, and 87\% of retrieved references are
+open-access (83\% for Democratic claims, 90\% for Republican). These descriptive facts establish
+that a substantial, accessible scientific literature exists for the claims legislators make about
+AI; whether that literature \emph{supports} the claims is the question we take up in
+\S\ref{sec:results}.
+
+\paragraph{Education-policy pilot.} To show that the pipeline is not specific to AI, we replicate
+its front end on a separate corpus of California Assembly press releases on K--12 education: 5{,}131
+documents (4{,}279 Democratic, 852 Republican), of which 611 (11.9\%) are education-related.
+Partisan attention is again highly asymmetric: Democrats issued 80 releases on social-emotional
+learning and student mental health versus 1 for Republicans, and 38 on school safety versus 4. The
+education pilot is descriptive here and serves to demonstrate domain transfer.
+
+\paragraph{Validation sample.} Our autonomous validation requires gold labels for a sample of
+claim--reference pairs. These are produced by the LLM judge (\S\ref{sec:methods-validation}) on a
+party-stratified sample drawn from the 621-pair analysis set; no human-coded labels are used. We
+report results as a function of the gold-sample size, since it governs the width of the
+prediction-powered confidence intervals.
