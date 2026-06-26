@@ -110,6 +110,16 @@ misconfigured NLI baseline and/or the judge over-calling support; it is not vali
 \label{fig:support}
 \end{figure}
 
+\paragraph{A robustness check that reinforces caution.} Two features of the LLM judge's own labels
+underline why the level should not be over-read. First, conditional on the judge deeming a pair relevant
+(non-\textsc{silent}), the support rate is very high---$0.86$ (D) and $0.79$ (R)---so almost every
+relevant claim--reference pair is judged ``support.'' Second, \textsc{refute} is nearly absent: just $6$
+of $120$ gold pairs ($5\%$; one Democratic, five Republican). A pipeline that almost never surfaces
+disconfirming evidence is what relevance-only retrieval plus a possibly self-preferring judge would
+produce, and it is not what a balanced assessment of contestable legislative claims should look like. We
+read this less as ``legislators are well-supported'' than as ``this autonomous configuration is
+structurally disposed to find support''---the central reason we present the rates as conditional.
+
 \subsection{Domain transfer: education policy}
 The pipeline's front end transfers to a different polarized domain. On a separate corpus of 5{,}131
 education-policy press releases, 611 (11.9\%) are education-related, with the same kind of partisan
