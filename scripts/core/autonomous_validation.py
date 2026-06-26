@@ -66,6 +66,7 @@ def load_pairs(party, per_claim, max_pairs):
     rows = json.load(open(path))
     rows = rows if isinstance(rows, list) else list(rows.values())
     pairs = []
+    seen = set()
     for entry in rows:
         claim = (entry.get("claim_text") or "").strip()
         if not claim:
@@ -74,10 +75,14 @@ def load_pairs(party, per_claim, max_pairs):
             abstract, title = (r.get("abstract") or "").strip(), (r.get("title") or "").strip()
             if not (abstract or title):
                 continue
-            uid = r.get("doi") or r.get("id") or r.get("url") or f"{entry.get('press_release')}#{entry.get('claim_number')}#{i}"
+            uid = str(r.get("doi") or r.get("id") or r.get("url") or f"{entry.get('press_release')}#{entry.get('claim_number')}#{i}")
+            key = f"{party}|{entry.get('press_release')}|{entry.get('claim_number')}|{uid}"
+            if key in seen:   # de-duplicate identical (party,press_release,claim,ref) pairs
+                continue
+            seen.add(key)
             pairs.append({"party": party, "press_release": entry.get("press_release"),
                           "claim_number": entry.get("claim_number"), "claim_text": claim,
-                          "ref_uid": str(uid), "ref_title": title, "ref_abstract": abstract,
+                          "ref_uid": uid, "ref_title": title, "ref_abstract": abstract,
                           "ref_year": r.get("year"), "ref_venue": r.get("venue")})
             if max_pairs and len(pairs) >= max_pairs:
                 return pairs
