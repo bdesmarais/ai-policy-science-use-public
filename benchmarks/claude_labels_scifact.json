@@ -1,0 +1,28 @@
+{
+ "judge": "Claude Opus 4.8 (claude-opus-4-8), in-session, no API key, blind to gold",
+ "n": 66,
+ "labels": {
+  "sf219_21366394": "refute", "sf1359_11614737": "refute", "sf539_13282296": "support",
+  "sf619_20888849": "refute", "sf793_8551160": "refute", "sf133_12640810": "silent",
+  "sf1086_39281140": "support", "sf513_13230773": "refute", "sf42_18174210": "refute",
+  "sf744_8460275": "support", "sf921_1642727": "support", "sf141_14437255": "support",
+  "sf516_29564505": "refute", "sf1344_9559146": "support", "sf1274_27731651": "silent",
+  "sf873_29025270": "refute", "sf1191_30655442": "silent", "sf1274_12428814": "support",
+  "sf491_56893404": "silent", "sf72_6076903": "support", "sf36_11705328": "silent",
+  "sf1232_13905670": "refute", "sf1049_12486491": "refute", "sf831_1897324": "silent",
+  "sf179_27123743": "support", "sf727_7521113": "silent", "sf127_21598000": "silent",
+  "sf1_31715818": "silent", "sf1132_33499189": "silent", "sf1272_17081238": "support",
+  "sf623_17000834": "support", "sf386_16495649": "support", "sf1029_13923140": "refute",
+  "sf1104_3898784": "support", "sf870_195689316": "support", "sf50_12580014": "support",
+  "sf1320_16284655": "refute", "sf1389_23895668": "support", "sf183_12827098": "refute",
+  "sf729_26851674": "support", "sf691_10991183": "refute", "sf597_12779444": "silent",
+  "sf521_34873974": "support", "sf960_8780599": "support", "sf452_12804937": "refute",
+  "sf975_5304891": "silent", "sf967_8997410": "support", "sf985_6828370": "support",
+  "sf129_27768226": "refute", "sf113_6157837": "support", "sf236_4388470": "silent",
+  "sf873_19307912": "refute", "sf1140_12009265": "refute", "sf982_2988714": "support",
+  "sf830_1897324": "silent", "sf551_33499189": "silent", "sf141_6955746": "support",
+  "sf179_23557241": "support", "sf1088_37549932": "refute", "sf821_8646760": "silent",
+  "sf674_2095573": "refute", "sf1041_16626264": "refute", "sf1332_5304891": "silent",
+  "sf852_13843341": "refute", "sf275_14819804": "silent", "sf1221_19736671": "support"
+ }
+}

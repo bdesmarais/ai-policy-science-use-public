@@ -1,0 +1,205 @@
+{
+  "benchmark": "scifact",
+  "n_pairs": 340,
+  "gold_distribution": {
+    "silent": 131,
+    "support": 138,
+    "refute": 71
+  },
+  "validators": {
+    "claude": {
+      "n": 66,
+      "accuracy": 0.803,
+      "macro_f1": 0.803,
+      "per_class": {
+        "support": {
+          "precision": 0.692,
+          "recall": 0.857,
+          "f1": 0.766,
+          "support": 21
+        },
+        "refute": {
+          "precision": 0.909,
+          "recall": 0.952,
+          "f1": 0.93,
+          "support": 21
+        },
+        "silent": {
+          "precision": 0.833,
+          "recall": 0.625,
+          "f1": 0.714,
+          "support": 24
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 18,
+          "refute": 0,
+          "silent": 3
+        },
+        "refute": {
+          "support": 1,
+          "refute": 20,
+          "silent": 0
+        },
+        "silent": {
+          "support": 7,
+          "refute": 2,
+          "silent": 15
+        }
+      }
+    },
+    "nli_deberta": {
+      "n": 340,
+      "accuracy": 0.703,
+      "macro_f1": 0.69,
+      "per_class": {
+        "support": {
+          "precision": 0.754,
+          "recall": 0.688,
+          "f1": 0.72,
+          "support": 138
+        },
+        "refute": {
+          "precision": 0.667,
+          "recall": 0.592,
+          "f1": 0.627,
+          "support": 71
+        },
+        "silent": {
+          "precision": 0.675,
+          "recall": 0.779,
+          "f1": 0.723,
+          "support": 131
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 95,
+          "refute": 11,
+          "silent": 32
+        },
+        "refute": {
+          "support": 12,
+          "refute": 42,
+          "silent": 17
+        },
+        "silent": {
+          "support": 19,
+          "refute": 10,
+          "silent": 102
+        }
+      }
+    },
+    "nli_bart": {
+      "n": 340,
+      "accuracy": 0.706,
+      "macro_f1": 0.696,
+      "per_class": {
+        "support": {
+          "precision": 0.871,
+          "recall": 0.587,
+          "f1": 0.701,
+          "support": 138
+        },
+        "refute": {
+          "precision": 0.632,
+          "recall": 0.676,
+          "f1": 0.653,
+          "support": 71
+        },
+        "silent": {
+          "precision": 0.649,
+          "recall": 0.847,
+          "f1": 0.735,
+          "support": 131
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 81,
+          "refute": 12,
+          "silent": 45
+        },
+        "refute": {
+          "support": 8,
+          "refute": 48,
+          "silent": 15
+        },
+        "silent": {
+          "support": 4,
+          "refute": 16,
+          "silent": 111
+        }
+      }
+    },
+    "tfidf": {
+      "n": 340,
+      "accuracy": 0.5,
+      "macro_f1": 0.476,
+      "per_class": {
+        "support": {
+          "precision": 0.504,
+          "recall": 0.457,
+          "f1": 0.479,
+          "support": 138
+        },
+        "refute": {
+          "precision": 0.287,
+          "recall": 0.352,
+          "f1": 0.316,
+          "support": 71
+        },
+        "silent": {
+          "precision": 0.641,
+          "recall": 0.626,
+          "f1": 0.633,
+          "support": 131
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 63,
+          "refute": 45,
+          "silent": 30
+        },
+        "refute": {
+          "support": 30,
+          "refute": 25,
+          "silent": 16
+        },
+        "silent": {
+          "support": 32,
+          "refute": 17,
+          "silent": 82
+        }
+      }
+    }
+  },
+  "pairwise_kappa": {
+    "claude~nli_deberta": {
+      "kappa": 0.464,
+      "n": 66
+    },
+    "claude~nli_bart": {
+      "kappa": 0.482,
+      "n": 66
+    },
+    "claude~tfidf": {
+      "kappa": 0.069,
+      "n": 66
+    },
+    "nli_deberta~nli_bart": {
+      "kappa": 0.541,
+      "n": 340
+    },
+    "nli_deberta~tfidf": {
+      "kappa": 0.107,
+      "n": 340
+    },
+    "nli_bart~tfidf": {
+      "kappa": 0.149,
+      "n": 340
+    }
+  }
+}

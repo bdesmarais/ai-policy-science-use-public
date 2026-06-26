@@ -1,0 +1,10 @@
+[benchmark_validation] scifact: 340 pairs gold={'silent': 131, 'support': 138, 'refute': 71}
+  validator: llm:Qwen/Qwen2.5-3B-Instruct ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.85s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.44s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    Qwen/Qwen2.5-3B-Instruct: 50/340 (0.83s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 100/340 (0.81s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 150/340 (0.79s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 200/340 (0.78s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 250/340 (0.76s/pair)
