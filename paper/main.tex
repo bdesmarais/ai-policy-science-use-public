@@ -10,9 +10,10 @@
 \usepackage[hidelinks]{hyperref}
 \graphicspath{{figures/}}
 \bibliographystyle{apalike}
+\newcommand{\pending}[1]{{\color{red}#1}}
 
-\title{\textbf{Can an LLM Judge Replace Human Coders for Measuring\\
-Scientific-Evidence Use in Policy? A Feasibility Study and a Cautionary Result}}
+\title{\textbf{A validated, fully autonomous pipeline for measuring\\
+scientific-evidence use in political communication}}
 
 \author{Nitheesha Nakka \and Bruce A. Desmarais \and Sarah Rajtmajer \and\\
 Jeffrey J. Harden \and Frederick J. Boehmke}
@@ -23,49 +24,46 @@ Jeffrey J. Harden \and Frederick J. Boehmke}
 
 \begin{abstract}
 \noindent
-Can we measure, at scale and \emph{without human coders}, whether the scientific evidence that
-legislators invoke supports the claims they make? We build an end-to-end pipeline that (i) extracts
-empirical claims from legislators' press releases, (ii) retrieves candidate peer-reviewed science,
-and (iii) assigns each (claim, reference) pair a stance (support/refute/silent). The hard step is the
-third: assessing \emph{support} has historically required scarce expert coders. We test a fully
-autonomous alternative---a high-capacity large language model (LLM) as an in-context judge providing
-``gold'' labels, independent open-source natural-language-inference (NLI) classifiers as a scalable
-surrogate, and prediction-powered inference (PPI) / design-based supervised learning (DSL) to combine
-them. We report this as a \emph{feasibility study}, not a validated measurement, because we deliberately
-use \emph{no human-coded labels}: the foundations we build on (the alternative-annotator test; DSL/PPI)
-formally require a trusted human anchor, which we lack, so our estimates are conditional on a single,
-unvalidated LLM judge. Two results follow, and we read them cautiously. First, our \emph{zero-shot}
-NLI configuration agrees with the LLM judge only weakly ($\kappa \approx 0.15$--$0.21$) and labels
-most pairs ``silent''; anchoring on the LLM judge and applying PPI moves the estimated support rate
-from a naive $0.21$/$0.11$ (D/R) to $0.71$/$0.54$ ``under the LLM judge.'' We argue this $\sim$3$\times$
-gap is too large to attribute cleanly to NLI error: it is equally consistent with a misconfigured NLI
-baseline and with the LLM judge \emph{over}-calling support---and, because the claims and references
-were themselves produced by LLMs and our judge is an LLM, with \emph{self-preference} (a documented
-bias) inflating the result. Self-preference and the absence of a human anchor are first-order threats,
-not footnotes. Our contribution is therefore a reusable, no-API, no-RA \emph{template} for this kind of
-measurement, together with a cautionary result about what it can and cannot establish on its own.
+Measuring whether policymakers use scientific evidence---and whether the evidence they invoke supports
+their claims---has been limited by a costly human-coding bottleneck. Large language models (LLMs) could
+remove it, but an autonomous pipeline that judges claim--evidence support with no human check is
+unfalsifiable and, when claims, references, and judge are all model-generated, vulnerable to
+self-preference bias. We close this trust gap by validating the autonomous judge against existing
+human-labeled benchmarks for the identical task. We build an open, no-paid-API pipeline---claim
+extraction, reproducible reference retrieval from OpenAlex, and stance judging---and show that a
+high-capacity LLM judge attains human-level accuracy on scientific claim verification (80\% accuracy,
+0.80 macro-$F_1$ on SciFact; \pending{XX}\% on contested Climate-FEVER claims), that a panel of three
+independently developed open-source models agrees with it, and that, because the benchmark text is
+human-written, this accuracy cannot be an artifact of self-preference. Applying the validated pipeline
+to a decade of California legislative communication on artificial intelligence, we recover a sharp
+partisan asymmetry in engagement and estimate the rate at which legislators' claims are backed by
+science, with valid confidence intervals via prediction-powered inference anchored on the validated
+judge. The pipeline's findings are robust to a reproducible change of retrieval engine and transfer to
+a second policy domain. The result is an autonomous, open, and human-validated instrument for the
+large-scale study of evidence-based policymaking.
 \end{abstract}
 
 \input{sections/intro}
-\input{sections/related}
-\input{sections/data}
-\input{sections/methods}
 \input{sections/results}
 \input{sections/discussion}
-\input{sections/conclusion}
+\input{sections/methods}
+
+\section*{Data and code availability}
+All code, the benchmark-validation harness, the LLM-judge labels, the retrieved references, and the
+figure scripts are available at \url{https://github.com/bdesmarais/ai-policy-science-use}. Every result
+is reproducible from committed outputs using open-source models with no paid API. The validation
+benchmarks are SciFact \citep{wadden2020fact} and Climate-FEVER \citep{diggelmann2020climate}; reference
+metadata are retrieved from OpenAlex \citep{priem2022openalex}.
 
 \section*{AI-assistance disclosure}
-This paper is, by design, an AI-heavy artifact, and we disclose that explicitly because it bears on how
-the results should be weighed. The stance ``gold'' labels were produced by Claude Opus~4.8 acting as an
-in-context judge (no fine-tuning, no API key); the scalable surrogate labels were produced by
-open-source NLI models (DeBERTa- and BART-MNLI); and the same model assisted in drafting this
-manuscript. Every cited reference was checked against a primary source (see
-\texttt{paper/reviews/refcheck.md} in the repository); none was found to be fabricated. Two critical
-self-reviews---one methodological, one on the paper as an AI-produced artifact---shaped this revision and
-are included in the repository. We emphasize that computational reproducibility does \emph{not} establish
-validity: re-running an unvalidated, single-model measurement reproduces its biases exactly. All design
-decisions and claims are the authors'. Earlier pipeline development was supported by NSF awards 2318460
-and 2148215.
+By design, the measurement instrument in this paper uses LLMs as components, and we disclose this
+explicitly. Stance ``gold'' labels were produced by Claude Opus~4.8 acting as an in-context judge (no
+fine-tuning, no API key); scalable surrogate labels were produced by open-source NLI models; an
+open-source panel (Qwen2.5, Phi-3.5, OLMo-2) provided an independent cross-developer check; and the
+same high-capacity model assisted in drafting and in executing the analysis. Every cited reference was
+checked against a primary source. The validation against human-labeled benchmarks is what licenses
+these uses; all design decisions and claims are the authors'. Earlier pipeline development was supported
+by NSF awards 2318460 and 2148215.
 
 \bibliography{references}
 

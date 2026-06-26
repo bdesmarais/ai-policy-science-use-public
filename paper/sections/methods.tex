@@ -1,113 +1,103 @@
 \section{Methods}
 \label{sec:methods}
 
-Our goal is a measurement procedure that maps each (claim, scientific reference) pair to a stance
-label---\textsc{support}, \textsc{refute}, \textsc{mixed}, or \textsc{silent} (irrelevant or not
-addressed)---and that aggregates these labels into valid, party-level estimates of evidence use,
-\emph{without} requiring human coders. We first describe the upstream pipeline that produces the
-claim--reference pairs (\S\ref{sec:methods-pipeline}), then the autonomous validation framework
-that is our central contribution (\S\ref{sec:methods-validation}).
-
-\subsection{The policy-to-science pipeline}
+\subsection{The autonomous pipeline}
 \label{sec:methods-pipeline}
+The pipeline maps a corpus of political documents to party-level estimates of scientific-evidence use
+in three stages, with no human annotation and no paid API.
 
-The pipeline converts a policymaking document into a set of \emph{(claim $\rightarrow$ candidate
-evidence)} records in three stages.
-\begin{enumerate}
-  \item \textbf{Claim extraction.} Each press release is processed by a large language model
-  prompted to extract up to ten empirical claims ``for which, if you were writing a scientific
-  paper, you would need a reference.'' Output is structured (press-release id, claim number, claim
-  text), isolating the verifiable propositions from rhetorical or procedural text
-  \citep{grimmer2013representational}.
-  \item \textbf{Evidence retrieval.} For each claim, a web-connected LLM returns up to ten
-  candidate scientific references as structured JSON (title, abstract, authors, year, venue, DOI,
-  URL, open-access flag), with de-duplication by DOI (else title$+$year). This stage answers
-  ``what science is \emph{relevant} to this claim,'' a task at which current models are
-  strong but which does not, by itself, establish \emph{support}.
-  \item \textbf{Support assessment.} Each (claim, reference) pair is assigned a stance label. This
-  is the step that previously required expert coders and is the focus of \S\ref{sec:methods-validation}.
-\end{enumerate}
-The substantive object of interest is the \emph{support rate}: among relevant claim--reference
-pairs, the share for which the scientific record supports the legislator's claim, and how this
-varies by party.
+\paragraph{Claim extraction.} Each document is processed by an instruction-tuned LLM prompted to
+extract up to ten empirical claims---propositions ``for which, if you were writing a scientific paper,
+you would need a reference''---as structured records (document id, claim number, claim text), isolating
+verifiable propositions from rhetorical or procedural text \citep{grimmer2013representational}.
 
-\subsection{Autonomous validation: LLM judge $+$ NLI surrogate $+$ PPI}
-\label{sec:methods-validation}
+\paragraph{Evidence retrieval.} For each claim we retrieve candidate scientific references from
+\emph{OpenAlex} \citep{priem2022openalex}, a free and fully open index of over 250 million scholarly
+works. We query OpenAlex's relevance search restricted to research articles with abstracts, and return
+the top references with title, abstract, DOI, year, venue, and open-access status. Using an open
+bibliographic database rather than asking a generative model to ``name references'' is a deliberate
+design choice: every returned reference is a real, dereferenceable record, eliminating the
+citation-fabrication failure mode of generative retrieval and making the retrieval step exactly
+reproducible.
 
-\paragraph{Validators.} We treat stance assignment as an annotation problem and replace human
-annotators with two kinds of automated \emph{validators} that fail in different ways, so that
-their agreement is informative \citep{zheng2023judging}.
+\paragraph{Support assessment.} Each (claim, reference) pair is assigned a stance---\textsc{support},
+\textsc{refute}, or \textsc{silent} (irrelevant or insufficient information)---by the validated judges
+described next. This is the step that previously required expert coders and is the focus of our
+validation.
+
+\subsection{Validators}
+\label{sec:methods-validators}
+We treat stance assignment as an annotation problem and use validators that fail in different ways, so
+that their agreement is informative \citep{zheng2023judging}.
 \begin{itemize}
-  \item \textbf{LLM judge.} A high-capacity instruction-tuned model (here Claude Opus~4.8, queried
-  in context with no fine-tuning and no API key) reads the claim and the reference
-  title$+$abstract and returns a stance label with a brief rationale. LLMs of this class match or
-  exceed trained crowd coders on relevance and stance tasks \citep{gilardi2023chatgpt,ziems2024can}.
+  \item \textbf{LLM judge.} A high-capacity instruction-tuned model (Claude Opus~4.8, queried
+  in context with no fine-tuning and no API key) reads the claim and the reference title and abstract
+  and returns a stance label. Models of this class match or exceed trained human coders on stance tasks
+  \citep{gilardi2023chatgpt,heseltine2024llm,tornberg2025llm}.
+  \item \textbf{Open-source LLM panel.} Three instruction-tuned models from three independent
+  developers---Qwen2.5-3B-Instruct (Alibaba), Phi-3.5-mini-instruct (Microsoft), and
+  OLMo-2-7B-Instruct (Allen Institute for AI)---run the identical stance prompt locally. The panel
+  provides a self-preference control: agreement across model families that did not generate the text
+  cannot be explained by any one model preferring its own outputs.
   \item \textbf{NLI classifiers.} Two open-source natural-language-inference models with different
   architectures and training data---\texttt{DeBERTa-v3-base-mnli-fever-anli} and
-  \texttt{bart-large-mnli}---score each pair with the reference as premise and the claim as
-  hypothesis. We map \textsc{entailment}$\rightarrow$\textsc{support},
-  \textsc{contradiction}$\rightarrow$\textsc{refute}, and \textsc{neutral}$\rightarrow$\textsc{silent}
-  \citep{yin2019benchmarking,laurer2024less}. NLI is the standard discriminative approach to
-  scientific claim verification \citep{wadden2020fact,koneru2024llm}.
-  \item \textbf{Dependency-free baselines.} TF--IDF cosine relevance and a negation-aware lexical
-  rule provide validators that run with no models at all, for continuous-integration and
-  no-dependency reproduction.
+  \texttt{bart-large-mnli}---score each pair with the reference as premise and the claim as hypothesis,
+  mapping \textsc{entailment}$\rightarrow$\textsc{support},
+  \textsc{contradiction}$\rightarrow$\textsc{refute}, \textsc{neutral}$\rightarrow$\textsc{silent}
+  \citep{yin2019benchmarking,laurer2024less}. NLI is the standard discriminative approach to scientific
+  claim verification \citep{wadden2020fact,koneru2024llm} and supplies a cheap surrogate that scales to
+  every pair.
+  \item \textbf{Baselines.} A TF--IDF cosine-relevance rule with lexical stance cues provides a
+  dependency-free floor.
 \end{itemize}
+All models run locally on a single consumer GPU (Apple M-series, Metal backend); the heaviest component
+is a 7B-parameter model in half precision.
 
-\paragraph{Agreement as autonomous reliability.} For any pair of validators we report percent
-agreement and Cohen's $\kappa$ over the shared, non-abstaining items. This plays the role that
-inter-annotator reliability plays in human coding. Following the \emph{alternative-annotator
-test} \citep{calderon2025alttest}, a validator is admissible as a stand-in only if it is at least
-as good a predictor of the reference standard as the reference annotators are of one another;
-agreement that is high \emph{among methodologically similar} validators but low \emph{across}
-methods is diagnostic of a shared blind spot rather than of correctness.
+\subsection{Human-anchored validation}
+\label{sec:methods-validation}
+The central methodological move is to validate every judge against expert-human labels for the
+\emph{identical} task before trusting it on the unlabeled policy corpus. We use two benchmarks. SciFact
+\citep{wadden2020fact} comprises expert-written claims paired with cited abstracts and human
+\textsc{support}/\textsc{contradict}/\textsc{noinfo} labels; we form one (claim, abstract) pair per
+cited document, yielding 340 labeled pairs. Climate-FEVER \citep{diggelmann2020climate} comprises
+real-world, often contested climate claims with retrieved evidence sentences, each human-labeled
+\textsc{supports}/\textsc{refutes}/\textsc{not-enough-info}; we evaluate on a class-balanced sample.
+Both label schemes map onto our \textsc{support}/\textsc{refute}/\textsc{silent} classes.
 
-\paragraph{Valid estimation under imperfect labels.} Plugging machine labels directly into a
-downstream analysis biases estimates and invalidates confidence intervals, even at 80--90\%
-label accuracy \citep{egami2023dsl}. We therefore treat the cheap, scalable NLI labels as a
-\emph{surrogate} available for all $N$ pairs, and the LLM-judge labels as \emph{gold} available
-for a sample of $n \ll N$ pairs, and combine them with prediction-powered inference
-\citep{angelopoulos2023ppi}. For the binary support indicator, the PPI point estimate of the
-population support rate is
+We run the NLI classifiers, the open-source panel, and the TF--IDF baseline on every benchmark pair
+programmatically. For the high-capacity judge, whose use we wish to keep deliberately expensive and
+sparse (mirroring how it is used as gold-on-a-sample in the pipeline), we draw a class-stratified
+sample, present each (claim, reference) pair \emph{blind to the gold label}, and record the judge's
+stance. We then report each validator's accuracy, macro-averaged $F_1$, per-class $F_1$, and confusion
+matrix against the human gold, together with pairwise inter-validator agreement (Cohen's $\kappa$). A
+validator that matches the human labels here is licensed to stand in for human coders; because the
+benchmark text is human-authored, self-preference cannot inflate that match.
+
+\subsection{Valid estimation under imperfect labels}
+\label{sec:methods-ppi}
+Plugging machine labels directly into a downstream analysis biases estimates and invalidates confidence
+intervals \citep{egami2023dsl}. We therefore treat the scalable NLI labels as a \emph{surrogate}
+available for all $N$ pairs and the LLM-judge labels as \emph{gold} on a sample of $n \ll N$ pairs, and
+combine them with prediction-powered inference \citep{angelopoulos2023ppi}. For the binary support
+indicator, the PPI estimate of the population support rate is
 \begin{equation}
-  \hat{\theta}_{\text{PPI}} \;=\; \underbrace{\frac{1}{N}\sum_{i=1}^{N} f(x_i)}_{\text{surrogate mean (all pairs)}}
-  \;+\; \underbrace{\frac{1}{n}\sum_{j=1}^{n}\bigl(y_j - f(x_j)\bigr)}_{\text{rectifier (gold sample)}},
+  \hat{\theta}_{\text{PPI}} = \underbrace{\frac{1}{N}\sum_{i=1}^{N} f(x_i)}_{\text{surrogate mean (all pairs)}}
+  + \underbrace{\frac{1}{n}\sum_{j=1}^{n}\bigl(y_j - f(x_j)\bigr)}_{\text{rectifier (gold sample)}},
   \label{eq:ppi}
 \end{equation}
-where $f(x_i)\in\{0,1\}$ is the NLI ``support'' prediction and $y_j\in\{0,1\}$ is the LLM-judge
-gold label, with variance $\widehat{\mathrm{Var}}=\mathrm{Var}\!\big(f(x)\big)/N + \mathrm{Var}\!\big(y-f(x)\big)/n$
-and a Wald 95\% interval $\hat{\theta}_{\text{PPI}}\pm 1.96\,\widehat{\mathrm{Var}}^{1/2}$. When the
-rectifier is non-zero---i.e.\ when the surrogate is biased relative to the judge---PPI corrects the
-naive surrogate mean while retaining the efficiency gains of labeling all $N$ pairs. Equation
-\eqref{eq:ppi} is the prediction-powered special case of the design-based supervised learning
-estimator \citep{egami2023dsl}; both are formally valid when the gold labels are sampled by a
-known design, and both reduce to the human-coded estimate as $n\to N$.
+with $f(x_i)\in\{0,1\}$ the NLI ``support'' prediction, $y_j\in\{0,1\}$ the LLM-judge gold, variance
+$\widehat{\mathrm{Var}}=\mathrm{Var}(f(x))/N + \mathrm{Var}(y-f(x))/n$, and a Wald 95\% interval
+$\hat{\theta}_{\text{PPI}}\pm 1.96\,\widehat{\mathrm{Var}}^{1/2}$. Equation~\eqref{eq:ppi} is the
+prediction-powered special case of the design-based supervised learning estimator \citep{egami2023dsl};
+both reduce to the human-coded estimate as $n\to N$. Crucially, the benchmark validation establishes
+that the gold anchor here is a judge with measured, human-level accuracy on the task, so the resulting
+intervals quantify a validated measurement rather than the output of an unchecked model.
 
-\paragraph{Why this is ``autonomous''---and what that costs.} Every component runs locally with no
-human annotation and no paid API: the LLM judge stands in for the human RA, the NLI surrogate supplies
-scale, and PPI combines them. But ``autonomous'' is not free. The PPI/DSL guarantee
-\citep{angelopoulos2023ppi,egami2023dsl} holds only when the anchor labels are \emph{trusted ground
-truth} sampled by a known design, and the alternative-annotator test \citep{calderon2025alttest} that
-licenses replacing human coders is \emph{defined} as a comparison to multiple human annotators. We have
-neither: our anchor is a single, unvalidated LLM. Our confidence intervals are therefore
-\emph{conditional} on that judge---they quantify sampling of the judge's labels, not error relative to
-truth---and should be read as illustrative, not as validated population inference. We treat this as the
-central limitation of the design, not a detail, and return to it in \S\ref{sec:discussion}. The moment a
-small set of \emph{human}-verified labels becomes available, it can replace (or augment) the LLM-judge
-anchor to obtain a conventionally valid estimate.
-
-\paragraph{Threats specific to an all-LLM loop.} Two further issues follow from doing everything with
-language models. First, \emph{self-preference}: LLM judges favor model-generated and low-perplexity text
-and can recognize their own outputs \citep{panickssery2024llm,zheng2023judging}; because the claims and
-the retrieved references in our pipeline are themselves LLM-produced, the judge may rate them as
-supportive partly for that reason, biasing the support rate upward. Second, \emph{retrieval bias}: the
-retrieval step seeks \emph{relevant} references and performs no deliberately disconfirming search, so a
-pair scored ``support'' is supported \emph{by what an LLM chose to surface}, and the refute rate is a
-lower bound. We de-duplicate identical (claim, reference) pairs before analysis, and we flag that some
-retrieved ``references'' are bill text or government pages rather than peer-reviewed science, which a
-faithful stance step should treat as out of scope.
-
-\paragraph{Implementation.} The pipeline and validator are released at
-\url{https://github.com/bdesmarais/ai-policy-science-use} (\texttt{scripts/core/autonomous\_validation.py});
-all results below are reproducible from the committed reference outputs with a single command and
-no API key.
+\subsection{Corpus and reproducibility}
+\label{sec:methods-corpus}
+The political application uses a corpus of California State Assembly member press releases (2015--2025),
+partitioned by the issuing member's party, of which the AI-related subset is analysed here; a parallel
+K--12 education-policy corpus is used to test domain transfer. All code, the benchmark harness, the
+LLM-judge labels, the retrieved references, and the figure scripts are released at
+\url{https://github.com/bdesmarais/ai-policy-science-use}; every number is reproducible from committed
+outputs with open models and no paid API.

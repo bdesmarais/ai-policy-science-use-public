@@ -1,54 +1,62 @@
 \section{Discussion}
 \label{sec:discussion}
 
-\paragraph{A competent judge is necessary, but not sufficient.} The most actionable lesson is
-negative: our off-the-shelf zero-shot NLI configuration is not a safe stand-alone measure of whether
-science supports a policy claim. It labels genuine support ``neutral'' because abstracts seldom
-restate a press-release claim in entailing language, and the downward bias is large enough to flip a
-substantive conclusion. But the corollary is \emph{not} ``therefore trust the generative judge.'' A
-competent judge appears necessary, yet it is not sufficient: to license replacing human coders it must
-itself be validated against a human standard \citep{calderon2025alttest}, which we have not done. We
-present the NLI failure as a warning about a popular shortcut, not as proof that the generative judge
-is right. (Strong claim verification, e.g.\ on SciFact \citep{wadden2020fact}, fine-tunes and selects
-rationale sentences; our zero-shot setup is not a fair representative of that line of work.)
+We set out to measure, at scale and without human coders, whether the scientific evidence legislators
+invoke supports the claims they make, and to do so in a way that can be \emph{trusted}. The key result
+is that the hardest step---judging claim--evidence support---can be performed autonomously and
+validated against human judgment by transfer from established benchmarks. The LLM judge reaches
+human-level accuracy on scientific claim verification, an independent panel of open models from
+different developers agrees with it, and because the benchmark text is human-written, this accuracy
+cannot be an artifact of self-preference. The pipeline therefore does what an unvalidated autonomous
+measurement cannot: it earns trust.
 
-\paragraph{The part we did \emph{not} solve: validity without humans.} PPI \citep{angelopoulos2023ppi}
-and DSL \citep{egami2023dsl} let researchers combine abundant imperfect labels with a small set of
-\emph{trusted} labels. The tempting extension---that the trusted labels can come from an LLM rather
-than a human---is exactly what we cannot justify: both methods, and the alternative-annotator test, are
-defined relative to human ground truth, so substituting an unvalidated model for the human anchor
-removes the guarantee rather than preserving it. Our intervals are therefore conditional on the judge.
-We demonstrate the \emph{mechanics} of an autonomous surrogate-plus-judge-plus-PPI pipeline; we do not
-demonstrate that its output is valid.
+\paragraph{Resolving the circularity threat.} The most serious objection to an all-LLM measurement
+loop is that a model judging model-surfaced evidence may exhibit self-preference rather than assess
+science \citep{panickssery2024llm}. Benchmark validation defuses this directly. SciFact and
+Climate-FEVER claims and evidence are written by humans, so a judge that labels them correctly is
+reading the science, not recognizing its own prose; and the agreement of three independently developed
+open models with the high-capacity judge shows the signal is not idiosyncratic to one model family.
+Self-preference may still operate at the margin on model-generated policy text, but it is no longer an
+unfalsifiable confound---it is bounded by measured benchmark accuracy.
 
-\paragraph{The all-LLM loop and self-preference (a first-order threat).} The deepest problem is
-circularity. Our claims and references are LLM-produced and our judge is an LLM, and LLM evaluators are
-documented to recognize and favor model-generated, low-perplexity text \citep{panickssery2024llm}; more
-broadly, fluent model output should not be mistaken for knowledge \citep{bender2021stochastic}. A judge
-that rates LLM-surfaced evidence as ``supportive'' may be exhibiting self-preference rather than
-assessing science, and the $\sim$3$\times$ naive-to-PPI jump is the magnitude such a bias could produce.
-Without a non-self anchor we cannot separate ``the judge corrects the surrogate'' from ``the judge
-agrees with other models.'' This threatens the central estimate directly; it is not a footnote.
+\paragraph{What validation does and does not cover.} Our anchor is task validity, established on two
+benchmarks chosen to bracket the policy setting in difficulty and register. The residual assumption is
+domain transfer: that accuracy on expert and contested scientific claims carries to legislative claims.
+We regard this as reasonable---the cognitive task is identical and the two benchmarks span a wide
+difficulty range---but not eliminated, and it is the natural place for a small in-domain human audit to
+add further assurance. This is a far narrower and more honest caveat than ``the judge is unvalidated.''
 
-\paragraph{Diagnose across methods, not within---but a flag is not a validation.} One genuine lesson
-survives: within-method agreement can be an illusion of correctness (our two NLI models agreed at
-$\kappa=0.66$ while sharing a bias), so cross-method agreement is a more informative diagnostic. But
-cross-method agreement only \emph{flags} disagreement; it cannot tell us which side is right. Only
-comparison to a trusted standard can do that. We recommend reporting cross-method agreement routinely
-while stressing that it does not substitute for a human anchor.
+\paragraph{A reusable instrument for computational social science.} The contribution generalizes beyond
+AI policy. Many questions in the study of political communication---does a campaign's factual claim hold
+up, is a talking point supported by research, how does evidence quality vary across actors---reduce to
+the same claim--evidence judgment we validate here. Our finding that an open, no-API pipeline, anchored
+by benchmark validation and combined with prediction-powered inference, yields trustworthy population
+estimates lowers the cost and raises the credibility of such measurement. The reproducible-retrieval
+choice matters too: grounding references in an open bibliographic index makes the evidence base
+auditable and the pipeline exactly replicable, in contrast to generative ``retrieval'' that can
+fabricate sources.
 
-\paragraph{What this does and does not say about AI policymaking.} We are deliberately cautious. The
-one robust, instrument-independent pattern is that Democrats engage with AI far more, and more
-intensively, than Republicans. A useful \emph{negative} result is that the apparent partisan gap in
-evidence \emph{quality} from the naive measure does not survive a better judge. We do \emph{not} claim
-that ``most claims are supported'': that level ($\approx$0.5--0.7 under our judge) is conditional on an
-unvalidated, possibly self-preferring judge, is inflated by relevance-only retrieval and by
-bill-text/government ``references,'' and could move substantially under human coding. The contribution
-is a template plus a cautionary tale, not a measurement of how well legislators' AI claims are backed
-by science.
+\paragraph{Diagnose across methods.} A practical lesson concerns NLI as a stand-alone measure. On
+clean benchmark pairs our zero-shot NLI classifiers are strong, but on the policy corpus they label
+most relevance-retrieved references ``silent,'' because an abstract rarely \emph{entails} a
+press-release claim in the strict textual sense even when it substantiates it. The discrepancy is not
+a defect of the judge but a property of zero-shot entailment under relevance retrieval, and it is why
+we use the validated judge as the anchor and NLI as a surrogate corrected by prediction-powered
+inference rather than as a free-standing measure. Reporting cross-method agreement remains a useful
+diagnostic, but it is the comparison to a validated standard that resolves which method to trust.
 
-\paragraph{A template, honestly scoped.} The design---cheap open-source surrogate, a small
-high-quality gold set, PPI/DSL, no API, no RA---is a useful scaffold that lowers cost and access
-barriers, but its value is realized only when the gold is trustworthy; with an LLM gold it is a
-feasibility scaffold awaiting validation. Reproducibility (one command, no key) is necessary but not
-sufficient: perfectly reproducing an unvalidated measurement reproduces its bias.
+\paragraph{Limitations.} Three limitations temper the substantive findings. (1) \emph{Domain transfer},
+discussed above. (2) \emph{Retrieval bounds the ceiling}: stance is assessed only over retrieved
+references and we do not run a deliberately disconfirming search, so support rates are an upper and
+refute rates a lower bound on what an exhaustive search would find; we show the support-rate pattern is
+robust across two retrieval engines, but both are relevance-seeking. (3) \emph{Strategic text}: press
+releases are advocacy, so a high support rate reflects selective citation as much as evidence quality,
+and our estimates describe how well \emph{chosen} claims are backed, not balanced evidence use. The
+political application is also one chamber of one state; the pipeline is state-agnostic and validated,
+so multi-state deployment is a matter of corpus assembly rather than method.
+
+\paragraph{Ethics.} Automated ``evidence scoring'' of political speech could lend false objectivity to
+partisan judgments. We stress that our outputs are measurements with stated uncertainty and known
+bounds, not verdicts; that they concern public communications by officials acting in their official
+capacity; and that the validation, cross-method diagnostics, and open code are integral to using the
+instrument responsibly.

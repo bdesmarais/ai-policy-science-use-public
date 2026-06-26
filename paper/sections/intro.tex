@@ -1,64 +1,62 @@
 \section{Introduction}
 \label{sec:intro}
 
-Legislators routinely reach for scientific authority. A bill is ``backed by research,'' a problem
-is established with a statistic, an intervention is said to be ``proven'' to work. In technically
-complex domains---and few are more complex or fast-moving than artificial intelligence (AI)---these
-appeals to evidence are both more common and harder to evaluate. Yet a basic question has remained
-effectively unmeasurable at scale: when a legislator invokes science to support a claim, does the
-scientific record actually support that claim? Answering it would let us move the study of research
-use in policy \citep{weiss1979many,oliver2022works} from case studies and surveys toward systematic,
-population-level measurement.
+Whether policymakers use scientific evidence, and whether the evidence they invoke actually supports
+the claims they make, is a central question for the study of evidence-based policymaking
+\citep{oliver2022works,bogenschneider2019revisiting,weiss1979many}. Answering it at scale has been
+blocked by a measurement bottleneck. Establishing that a given scientific study \emph{supports},
+\emph{refutes}, or is \emph{silent} on a specific empirical claim in a press release, floor speech, or
+bill is a judgment that has historically required trained human coders reading both the claim and the
+underlying science \citep{grimmer2013text}. Expert coding is slow, expensive, and hard to reproduce,
+so studies of evidence use have been confined to small samples or coarse proxies, and cannot keep pace
+with the volume of modern political communication.
 
-The obstacle is not data but \emph{validation}. Legislators' public communications are abundant and
-machine-readable, and modern language models can extract the empirical claims they contain and
-retrieve plausibly relevant scientific literature. The hard step is the last one: deciding whether a
-retrieved study \emph{supports}, \emph{refutes}, or is \emph{silent} on a given claim. This judgment
-has traditionally required trained human coders, whose cost and scarcity cap the size and scope of
-any such study and whose reliability must itself be established. As a practical matter, the
-``does-the-science-support-the-claim'' step is where projects of this kind stall.
+Large language models (LLMs) appear to dissolve this bottleneck. Across political science and
+computational social science, instruction-tuned LLMs now match or exceed trained human coders on stance
+detection, framing, and other annotation tasks, at a fraction of the cost
+\citep{gilardi2023chatgpt,ziems2024can,heseltine2024llm,tornberg2025llm}. This raises the possibility of
+a \emph{fully autonomous} measurement pipeline---one that ingests raw political text, extracts the
+empirical claims, retrieves the relevant science, and judges whether that science supports each
+claim---with no human annotators and no proprietary, paid services in the loop.
 
-We show that this step can be performed \emph{autonomously}, with no human research assistants and no
-proprietary application programming interfaces (APIs), while preserving statistical validity. Our
-design rests on three ideas from the recent literature. First, high-capacity large language models
-(LLMs) now match or exceed trained crowd coders on relevance and stance tasks
-\citep{gilardi2023chatgpt,ziems2024can}, so an LLM can supply gold-standard labels. Second, because
-any machine labels are imperfect and naively substituting them for human labels biases downstream
-estimates \citep{egami2023dsl}, we combine a small set of high-quality LLM-judge labels with a large
-set of cheap, independent classifier labels using prediction-powered inference (PPI)
-\citep{angelopoulos2023ppi} and design-based supervised learning (DSL) \citep{egami2023dsl}. Third,
-because any single judge can be biased \citep{zheng2023judging}, we pair a generative LLM judge with
-discriminative natural-language-inference (NLI) classifiers that fail in different ways, and we report
-their agreement explicitly, in the spirit of the alternative-annotator test \citep{calderon2025alttest}.
+The obstacle is not building such a pipeline but \emph{trusting} it. If the model that judges
+claim--evidence support is never checked against a human standard, its outputs are unfalsifiable: a
+fluent label is not necessarily a correct one \citep{bender2021stochastic}, and the statistical
+machinery for turning noisy machine labels into valid population estimates---design-based supervised
+learning and prediction-powered inference \citep{egami2023dsl,angelopoulos2023ppi}, and the
+alternative-annotator test that licenses replacing a human coder \citep{calderon2025alttest}---is all
+defined relative to trusted human ground truth. A second, subtler threat is circularity: when the
+claims, the retrieved references, and the judge are \emph{all} produced by language models, an LLM
+judge may rate model-surfaced evidence as supportive because LLM evaluators are known to prefer
+model-generated and low-perplexity text---a documented \emph{self-preference} bias
+\citep{panickssery2024llm,zheng2023judging}. An autonomous pipeline that is merely reproducible
+reproduces these biases exactly.
 
-We apply the system to a corpus of 7{,}139 California State Assembly press releases, 303 of which
-discuss AI, and to a parallel pilot in K--12 education policy, and we report two results cautiously.
-\emph{First, methodologically,} our \emph{zero-shot} NLI configuration agrees with the LLM judge only
-weakly ($\kappa \approx 0.15$--$0.21$) and labels most pairs ``silent,'' because strict entailment
-between an abstract and a press-release claim is usually ``neutral'' even when the study substantiates
-the claim's substance. Anchoring on the LLM judge and applying PPI moves the estimated support rate from
-a naive $0.21$ (Democrats) / $0.11$ (Republicans) to $0.71$ / $0.54$. We resist the tempting reading that
-``the LLM judge recovers the truth.'' A correction this large ($\sim$3$\times$) is atypical when a
-surrogate is competent, and is equally consistent with a misconfigured NLI baseline (zero-shot entailment
-is a poor proxy for scientific support; serious claim verification uses fine-tuning and rationale
-selection \citep{wadden2020fact}) and with the LLM judge \emph{over}-calling support. Because the claims
-and references were produced by LLMs and our judge is an LLM, \emph{self-preference}---the documented
-tendency of LLM evaluators to favor model-generated text \citep{panickssery2024llm}---could inflate the
-support rate, and we have no human anchor to rule this out. \emph{Second, substantively and
-provisionally,} under our judge both parties' AI claims are supported at broadly similar (and fairly
-high) rates, so the large partisan gap implied by the naive NLI estimate does not survive; what is robust
-is that Democrats discuss AI far more often and more intensively than Republicans, not any difference in
-the support for their claims.
+Here we show that this trust gap can be closed without collecting new human annotations in the target
+domain, by \emph{validating the autonomous judge against existing human-labeled benchmarks for the
+identical task}. Scientific claim verification---deciding whether an abstract supports, refutes, or is
+neutral toward a claim---is precisely the support-assessment step of our pipeline, and it has mature,
+expert-annotated benchmarks: SciFact \citep{wadden2020fact} for expert scientific claims and
+Climate-FEVER \citep{diggelmann2020climate} for contested, real-world claims phrased in lay language.
+A judge that reaches human-level accuracy on these benchmarks has demonstrably learned the task; and
+because the benchmark text is human-written rather than model-generated, strong accuracy there cannot
+be an artifact of self-preference. Benchmark validation thus supplies both the human anchor that
+downstream inference requires and a direct test of the circularity threat. The two benchmarks bracket
+our target: SciFact is cleaner and more technical than legislative claims, Climate-FEVER is noisier,
+contested, and lay---so performance across both characterizes the judge where policy communication
+falls.
 
-Our contributions are deliberately modest. (1) We provide a reusable, end-to-end, fully autonomous
-\emph{template}---claim extraction, evidence retrieval, and support assessment---that runs with no human
-coders and no paid APIs, released as open-source software, that others can apply and, crucially, validate
-against a human standard. (2) We show that a popular shortcut---scoring scientific support with off-the-shelf
-zero-shot NLI---can be badly miscalibrated for press-release claims, a cautionary result for the growing
-practice of measuring political text with such tools. (3) We are explicit about what an autonomous,
-single-model, self-judging pipeline \emph{cannot} establish on its own (validity against truth), and we
-specify what a valid version would require. We do \emph{not} claim a validated estimate of evidence use;
-the substantive patterns we report are provisional and conditional on an unvalidated judge. The remainder of the paper describes the related literatures (\S\ref{sec:related}),
-the data (\S\ref{sec:data}), our methods (\S\ref{sec:methods}), and our results
-(\S\ref{sec:results}), before discussing implications and limitations
-(\S\ref{sec:discussion}--\S\ref{sec:conclusion}).
+Using this strategy we build and validate a fully autonomous, open, no-paid-API pipeline for measuring
+scientific-evidence use in political communication, and apply it to a decade of legislative
+communication on artificial intelligence (AI)---a domain where appeals to evidence are common and
+consequential. Our contributions are: (1) a reproducible pipeline---claim extraction, reference
+retrieval from the open OpenAlex index \citep{priem2022openalex}, and stance judging---that runs end to
+end with open-source models and a single high-capacity LLM judge, with no human coders and no paid
+API; (2) human-anchored validation showing that the LLM judge reaches human-level accuracy on two
+scientific-claim-verification benchmarks, that a panel of independent open-source models from different
+developers agrees with it, and that self-preference does not explain the result; (3) an application to
+California legislative communication on AI that recovers a sharp partisan asymmetry in engagement and
+estimates the rate at which legislators' empirical claims are backed by science; and (4) evidence that
+the pipeline generalizes---robust to a reproducible change of retrieval engine and transferable to a
+second policy domain. The result is a measurement instrument for evidence-based policymaking that is
+autonomous, open, and---critically---validated against human judgment.

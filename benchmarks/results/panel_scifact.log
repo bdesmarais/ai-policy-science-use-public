@@ -18,3 +18,7 @@ The following generation flags are not valid and may be ignored: ['temperature',
     microsoft/Phi-3.5-mini-instruct: 150/340 (1.42s/pair)
     microsoft/Phi-3.5-mini-instruct: 200/340 (1.42s/pair)
     microsoft/Phi-3.5-mini-instruct: 250/340 (1.37s/pair)
+    microsoft/Phi-3.5-mini-instruct: 300/340 (1.33s/pair)
+    done in 987.7s
+  validator: llm:allenai/OLMo-2-1124-7B-Instruct ...
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]
