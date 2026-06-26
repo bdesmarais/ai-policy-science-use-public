@@ -272,11 +272,23 @@ def main():
     ap.add_argument("--validators", nargs="+", required=True,
                     help="nli_deberta nli_bart tfidf claude llm:<hf_model_id>")
     ap.add_argument("--max-pairs", type=int, default=0, help="0 = all")
+    ap.add_argument("--balanced", type=int, default=0, help="if >0, sample this many pairs PER class (seed 7)")
     ap.add_argument("--claude-labels", default=os.path.join(BENCH, "claude_labels_scifact.json"))
     ap.add_argument("--tag", default="", help="suffix for output filenames")
     args = ap.parse_args()
 
-    pairs = LOADERS[args.benchmark](max_pairs=args.max_pairs)
+    pairs = LOADERS[args.benchmark](max_pairs=(0 if args.balanced else args.max_pairs))
+    if args.balanced:
+        rng = np.random.default_rng(7)
+        by = {}
+        for p in pairs:
+            by.setdefault(p["gold"], []).append(p)
+        sel = []
+        for c, arr in by.items():
+            idx = rng.choice(len(arr), size=min(args.balanced, len(arr)), replace=False)
+            sel += [arr[i] for i in idx]
+        rng.shuffle(sel)
+        pairs = sel
     print(f"[benchmark_validation] {args.benchmark}: {len(pairs)} pairs "
           f"gold={dict(Counter(p['gold'] for p in pairs))}", flush=True)
 
@@ -284,18 +296,22 @@ def main():
     for v in args.validators:
         print(f"  validator: {v} ...", flush=True)
         t = time.time()
-        if v == "nli_deberta":
-            preds[v] = run_nli(pairs, NLI_MODELS["nli_deberta"])
-        elif v == "nli_bart":
-            preds[v] = run_nli(pairs, NLI_MODELS["nli_bart"])
-        elif v == "tfidf":
-            preds[v] = run_tfidf(pairs)
-        elif v == "claude":
-            preds[v] = run_claude(pairs, args.claude_labels)
-        elif v.startswith("llm:"):
-            preds[v] = run_llm_judge(pairs, v[4:])
-        else:
-            print(f"   unknown validator {v}, skipping"); continue
+        try:
+            if v == "nli_deberta":
+                preds[v] = run_nli(pairs, NLI_MODELS["nli_deberta"])
+            elif v == "nli_bart":
+                preds[v] = run_nli(pairs, NLI_MODELS["nli_bart"])
+            elif v == "tfidf":
+                preds[v] = run_tfidf(pairs)
+            elif v == "claude":
+                preds[v] = run_claude(pairs, args.claude_labels)
+            elif v.startswith("llm:"):
+                preds[v] = run_llm_judge(pairs, v[4:])
+            else:
+                print(f"   unknown validator {v}, skipping"); continue
+        except Exception as e:
+            print(f"   !! validator {v} FAILED: {repr(e)[:200]} — skipping", flush=True)
+            continue
         print(f"    done in {time.time()-t:.1f}s", flush=True)
 
     gold = [p["gold"] for p in pairs]

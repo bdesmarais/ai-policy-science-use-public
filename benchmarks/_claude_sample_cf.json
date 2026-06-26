@@ -1,0 +1,272 @@
+[
+ {
+  "uid": "cf697_3",
+  "claim": "While many scientists have acknowledged the mismatch between model predictions and actual temperature observations, few have really challenged the validity of the models themselves.",
+  "title": "Machine learning",
+  "evidence": "Loss functions express the discrepancy between the predictions of the model being trained and the actual problem instances (for example, in classification, one wants to assign a label to instances, and models are trained to correctly predict the pre-assigned labels of a set of examples)."
+ },
+ {
+  "uid": "cf904_0",
+  "claim": "Without human intervention, the concentration of CO2 has climbed as high as 7,000 parts per million (ppm) in prior eras, whereas at present the concentration is just over 400 ppm.",
+  "title": "Carbon dioxide in Earth's atmosphere",
+  "evidence": "Global annual mean CO 2 concentration has increased by more than 45% since the start of the Industrial Revolution, from 280 ppm during the 10,000 years up to the mid-18th century to 415 ppm as of May 2019."
+ },
+ {
+  "uid": "cf696_1",
+  "claim": "climate models predict too much warming in the troposphere",
+  "title": "Microwave Sounding Unit temperature measurements",
+  "evidence": "While the satellite data now show global warming, there is still some difference between what climate models predict and what the satellite data show for warming of the lower troposphere, with the climate models predicting slightly more warming than what the satellites measure."
+ },
+ {
+  "uid": "cf1508_4",
+  "claim": "global warming ceased around the end of the twentieth century and was followed (since 1997) by 19 years of stable temperature.",
+  "title": "Global warming",
+  "evidence": "An example of such an episode is the slower rate of surface temperature increase from 1998 to 2012, which was dubbed the global warming hiatus."
+ },
+ {
+  "uid": "cf1951_2",
+  "claim": "Scientists are \"questioning the original idea that man-made global warming is what is causing the climate to change. \"",
+  "title": "Scientific consensus on climate change",
+  "evidence": "It is \"extremely likely\" that this warming arises from \"human activities, especially emissions of greenhouse gases\" in the atmosphere."
+ },
+ {
+  "uid": "cf55_1",
+  "claim": "[T]he raw data, the actual thermometer data[...] shows that the US has been cooling for 80 to 90 years.",
+  "title": "Hockey stick controversy",
+  "evidence": "The reconstruction found significant variability around a long-term cooling trend of \u22120.02\u00a0\u00b0C per century, as expected from orbital forcing, interrupted in the 20th century by rapid warming which stood out from the whole period, with the 1990s \"the warmest decade, and 1998 the warmest year, at moderately high levels of confidence\"."
+ },
+ {
+  "uid": "cf2193_0",
+  "claim": "In the last 35 years of global warming, the sun has shown a slight cooling trend.",
+  "title": "Global warming",
+  "evidence": "Currently, surface temperatures are rising by about 0.2\u00a0\u00b0C per decade."
+ },
+ {
+  "uid": "cf1922_4",
+  "claim": "More money is dedicated within the Department of Homeland Security to climate change than what's spent combating \"Islamist terrorists radicalizing over the Internet in the United States of America.\"",
+  "title": "United States Department of Homeland Security",
+  "evidence": "The center works on the Internet's routing infrastructure (the SPRI program) and Domain Name System (DNSSEC), identity theft and other online criminal activity (ITTC), Internet traffic and networks research (PREDICT datasets and the DETER testbed), Department of Defense and HSARPA exercises (Livewire and Determined Promise), and wireless security in cooperation with Canada."
+ },
+ {
+  "uid": "cf799_0",
+  "claim": "the climate models have overestimated the amount of global warming and failed to predict what climatologists call the warming \u2018hiatus\u2019",
+  "title": "Climate",
+  "evidence": "These models predict an upward trend in the global mean surface temperature, with the most rapid increase in temperature being projected for the higher latitudes of the Northern Hemisphere."
+ },
+ {
+  "uid": "cf306_2",
+  "claim": "There is no statistical evidence that global warming is intensifying[\u2026] droughts",
+  "title": "Global warming",
+  "evidence": "Overall, higher temperatures bring more rain and snowfall, but for some regions droughts and wildfires increase instead."
+ },
+ {
+  "uid": "cf378_0",
+  "claim": "for thousands of millions of years the Earth has been changing, with cycles\u00ad and one-off events such as an asteroid impact, super-volcano or a supernova explosion.",
+  "title": "Earth",
+  "evidence": "Tectonics and erosion, volcanic eruptions, flooding, weathering, glaciation, the growth of coral reefs, and meteorite impacts are among the processes that constantly reshape Earth's surface over geological time."
+ },
+ {
+  "uid": "cf892_2",
+  "claim": "Despite recent attempts to paint the United States as a major global polluter, according to the World Health Organization (WHO), the U.S. is among the cleanest nations on the planet.",
+  "title": "United States",
+  "evidence": "Since 2007, the total greenhouse gas emissions by the United States are the second highest by country, exceeded only by China."
+ },
+ {
+  "uid": "cf2083_4",
+  "claim": "Climategate CRU emails suggest conspiracy",
+  "title": "Phil Jones (climatologist)",
+  "evidence": "\"'Conspiracy theories finally laid to rest' by report on leaked climate change emails\"."
+ },
+ {
+  "uid": "cf2096_0",
+  "claim": "We're coming out of the Little Ice Age",
+  "title": "Adventure Time",
+  "evidence": "The first game based on the series, Adventure Time: Hey Ice King!"
+ },
+ {
+  "uid": "cf477_4",
+  "claim": "Scientists say halting deforestation \u2018just as urgent\u2019 as reducing emissions",
+  "title": "Deforestation in Indonesia",
+  "evidence": "The general term for these sorts of programs is Reducing emissions from deforestation and forest degradation (REDD)."
+ },
+ {
+  "uid": "cf350_2",
+  "claim": "Since 1965, more parts of the U.S. have seen a decrease in flooding than have seen an increase.",
+  "title": "Effects of global warming",
+  "evidence": "In the United States and many other parts of the world there has been a marked increase in intense rainfall events which have resulted in more severe flooding."
+ },
+ {
+  "uid": "cf2678_3",
+  "claim": "Measurements of carbon isotopes and falling oxygen in the atmosphere show that rising carbon dioxide is due to the burning of fossil fuels and cannot be coming from the ocean.",
+  "title": "Global warming",
+  "evidence": "CO2 emissions are continuing to rise due to the burning of fossil fuels and land-use change."
+ },
+ {
+  "uid": "cf763_0",
+  "claim": "And some plants \u2013 like algae which use carbon for photosynthesis \u2013 may even benefit.",
+  "title": "Algae",
+  "evidence": "Most are phototrophic, although some are mixotrophic, deriving energy both from photosynthesis and uptake of organic carbon either by osmotrophy, myzotrophy, or phagotrophy."
+ },
+ {
+  "uid": "cf1647_2",
+  "claim": "Extreme weather events are being made more frequent and worse by global warming.",
+  "title": "Global warming",
+  "evidence": "The effects of global warming include rising sea levels, regional changes in precipitation, more frequent extreme weather events such as heat waves, and expansion of deserts."
+ },
+ {
+  "uid": "cf2410_4",
+  "claim": "\"There is no actual evidence that carbon dioxide emissions are causing global warming.",
+  "title": "Greenhouse gas",
+  "evidence": "Cumulative anthropogenic (i.e., human-emitted) emissions of CO 2 from fossil fuel use are a major cause of global warming, and give some indication of which countries have contributed most to human-induced climate change."
+ },
+ {
+  "uid": "cf949_0",
+  "claim": "Under the most ambitious scenarios, they found a strong likelihood that Antarctica would remain fairly stable.\u201d",
+  "title": "Antarctica",
+  "evidence": "The sheet has been of recent concern because of the small possibility of its collapse."
+ },
+ {
+  "uid": "cf1307_2",
+  "claim": "a new study by scientists at the Australian Research Council finds that the ongoing bleaching event is mainly due to human-caused global warming, and that if global warming proceeds as currently expected, \u201clarge parts\u201d of the Great Barrier Reef could die by the mid-2030s.",
+  "title": "Great Barrier Reef",
+  "evidence": "In March 2017, the journal Nature published a paper showing that huge sections of an 800-kilometre (500 mi) stretch in the northern part of the reef had died in the course of 2016 due to high water temperatures, an event that the authors put down to the effects of global climate change."
+ },
+ {
+  "uid": "cf688_1",
+  "claim": "\u201cThe arc of global warming will be variously steep and less steep,\u2019 said Richard Seager, a climate scientist at the Lamont-Doherty Earth Observatory of Columbia University.",
+  "title": "Lamont\u2013Doherty Earth Observatory",
+  "evidence": "The Lamont\u2013Doherty Earth Observatory at Columbia University is one of the world's leading research centers developing fundamental knowledge about the origin, evolution and future of the natural world."
+ },
+ {
+  "uid": "cf2886_0",
+  "claim": " As it happens, the writer of that October 2009 e-mail\u2014Kevin Trenberth, a lead author of the warmist bible, the 2007 Intergovernmental Panel on Climate Change (IPCC) report\u2014told Congress two years ago that evidence for manmade warming is \"unequivocal.",
+  "title": "Global warming",
+  "evidence": "IPCC AR5 WG1 Summary for Policymakers 2013, p.\u00a04: Warming of the climate system is unequivocal, and since the 1950s, many of the observed changes are unprecedented over decades to millennia."
+ },
+ {
+  "uid": "cf1714_3",
+  "claim": "Monckton used the IPCC equation in an inappropriate manner.",
+  "title": "Radiative forcing",
+  "evidence": "The Intergovernmental Panel on Climate Change (IPCC) AR4 report defines radiative forcings as: \"Radiative forcing is a measure of the influence a factor has in altering the balance of incoming and outgoing energy in the Earth-atmosphere system and is an index of the importance of the factor as a potential climate change mechanism."
+ },
+ {
+  "uid": "cf1245_1",
+  "claim": "There will still be about a million square kilometres of ice in the Arctic in summer",
+  "title": "Arctic Ocean",
+  "evidence": "It is partly covered by sea ice throughout the year and almost completely in winter."
+ },
+ {
+  "uid": "cf2555_1",
+  "claim": "Different areas of science are understood with varying degrees of certainty.",
+  "title": "Science",
+  "evidence": "Theories vary in the extent to which they have been tested and verified, as well as their acceptance in the scientific community."
+ },
+ {
+  "uid": "cf1490_3",
+  "claim": "the concentration of carbon dioxide in Earth\u2019s atmosphere has climbed to a level last seen more than 3 million years ago \u2014 before humans even appeared on the rocky ball we call home.",
+  "title": "Carbon dioxide in Earth's atmosphere",
+  "evidence": "About 34 million years ago, the time of the Eocene\u2013Oligocene extinction event and when the Antarctic ice sheet started to take its current form, CO 2 was about 760 ppm, and there is geochemical evidence that concentrations were less than 300 ppm by about 20 million years ago."
+ },
+ {
+  "uid": "cf2706_3",
+  "claim": "Monckton appears to have cherry-picked temperature data from a few stations.",
+  "title": "Terra Nova Expedition",
+  "evidence": "Gear, clothes, and sleeping bags were constantly iced up; on 5\u00a0July, the temperature fell below \u221277\u00a0\u00b0F (\u221261\u00a0\u00b0C)\u2014\"109\u00a0degrees of frost\u2014as cold as anyone would want to endure in darkness and iced up clothes\", wrote Cherry-Garrard."
+ },
+ {
+  "uid": "cf1586_1",
+  "claim": "Ice Sheet losses are overestimated.",
+  "title": "Ice sheet",
+  "evidence": "The IPCC projects that ice mass loss from melting of the Greenland ice sheet will continue to outpace accumulation of snowfall."
+ },
+ {
+  "uid": "cf2399_3",
+  "claim": "While the greenhouse effect is a natural occurence, too much warming has severe negative impacts on agriculture, health and environment.",
+  "title": "Global warming",
+  "evidence": "Impacts include the direct effects of extreme weather, leading to injury and loss of life; and indirect effects, such as undernutrition brought on by crop failures."
+ },
+ {
+  "uid": "cf1877_1",
+  "claim": "During a state House debate on a jobs and energy bill this week, Democrats offered an amendment that would put the Legislature on record saying that climate change is real and that humans are causing it.",
+  "title": "John Kasich",
+  "evidence": "In a speech in April 2012, Kasich acknowledged that climate change is real and is a problem."
+ },
+ {
+  "uid": "cf2575_2",
+  "claim": "Over the last 30-40 years 80% of coral in the Caribbean have been destroyed and 50% in Indonesia and the Pacific.",
+  "title": "Coral bleaching",
+  "evidence": "The Indian Ocean in 1998 reported 20% of its coral had died and 80% was bleached."
+ },
+ {
+  "uid": "cf194_2",
+  "claim": "The main greenhouse gas is water vapour[\u2026]",
+  "title": "Greenhouse gas",
+  "evidence": "\"AGU Water Vapor in the Climate System\"."
+ },
+ {
+  "uid": "cf582_1",
+  "claim": "On the other side of the Atlantic ocean, climates are typically milder as a result of the cooling from the Gulf Stream.",
+  "title": "Atlantic Ocean",
+  "evidence": "The Gulf Stream also keeps extreme temperatures from occurring on the Florida Peninsula."
+ },
+ {
+  "uid": "cf1584_0",
+  "claim": "Renewables can't provide baseload power.",
+  "title": "Base load",
+  "evidence": "\"Supplying Baseload Power and Reducing Transmission Requirements by Interconnecting Wind Farms\"."
+ },
+ {
+  "uid": "cf1474_0",
+  "claim": "Etna has already put more than 10,000 times the CO2 into the atmosphere than mankind has in our entire time on the Earth.",
+  "title": "Global warming",
+  "evidence": "Human activity since the Industrial Revolution has increased the amount of greenhouse gases in the atmosphere, leading to increased radiative forcing from CO2, methane, tropospheric ozone, CFCs, and nitrous oxide."
+ },
+ {
+  "uid": "cf2468_1",
+  "claim": "\"Satellite measurements indicate an absence of significant global warming since 1979, the very period that human carbon dioxide emissions have been increasing rapidly.",
+  "title": "Carbon dioxide",
+  "evidence": "Since the Industrial Revolution anthropogenic emissions \u2013 primarily from use of fossil fuels and deforestation \u2013 have rapidly increased its concentration in the atmosphere, leading to global warming."
+ },
+ {
+  "uid": "cf1555_4",
+  "claim": "Climate change is because of El Ni\u00f1o.",
+  "title": "La Ni\u00f1a",
+  "evidence": "\"The impact of global warming on the tropical Pacific Ocean and El Ni\u00f1o\"."
+ },
+ {
+  "uid": "cf103_3",
+  "claim": "global warming ceased around the end of the twentieth century and was followed (since 1997) by 19 years of stable temperature",
+  "title": "Global warming",
+  "evidence": "The period from 1983 to 2012 was likely the warmest 30-year period of the last 1400 years in the Northern Hemisphere, where such assessment is possible (medium confidence)."
+ },
+ {
+  "uid": "cf2484_3",
+  "claim": "The world has entered a 'cold mode' which is likely to bring a global dip in temperatures which will last for 20 to 30 years, they say.",
+  "title": "Climate",
+  "evidence": "These models predict an upward trend in the global mean surface temperature, with the most rapid increase in temperature being projected for the higher latitudes of the Northern Hemisphere."
+ },
+ {
+  "uid": "cf1878_2",
+  "claim": "During the 2013 election campaign the Coalition said its first legislative priority in government would be to scrap the carbon tax.",
+  "title": "Abbott Government",
+  "evidence": "He committed to abolishing the carbon tax, to bring down power and gas prices, and to abolishing the mining tax to increase investment and employment."
+ },
+ {
+  "uid": "cf503_1",
+  "claim": "\u201cDuring the sunless winter, a heatwave raised concerns that the polar vortex may be eroding.",
+  "title": "Early 2014 North American cold wave",
+  "evidence": "The polar vortex Beginning on January 2, 2014, sudden stratospheric warming (SSW)[dubious \u2013 discuss] led to the breakdown of the semi-permanent feature across the Arctic known as the polar vortex."
+ },
+ {
+  "uid": "cf2836_0",
+  "claim": "Thanks to a rapid rebound in recent months, global sea ice levels\u00a0now equal those seen 29 years ago,\u00a0when the\u00a0year 1979 also drew to a close.",
+  "title": "Glacier",
+  "evidence": "This post-glacial rebound, which proceeds very slowly after the melting of the ice sheet or glacier, is currently occurring in measurable amounts in Scandinavia and the Great Lakes region of North America."
+ },
+ {
+  "uid": "cf666_1",
+  "claim": "while it\u2019s true that studies in some regions show polar bears are lighter in weight than they were in the 1980s, there is no evidence that more individuals are starving to death or becoming too thin to reproduce because of less summer ice.",
+  "title": "Polar bear",
+  "evidence": "They still manage to consume some seals, but they are food-deprived in summer as only marine mammal carcasses are an important alternative without sea ice, especially carcasses of the beluga whale."
+ }
+]

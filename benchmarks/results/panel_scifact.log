@@ -8,3 +8,13 @@ The following generation flags are not valid and may be ignored: ['temperature',
     Qwen/Qwen2.5-3B-Instruct: 150/340 (0.79s/pair)
     Qwen/Qwen2.5-3B-Instruct: 200/340 (0.78s/pair)
     Qwen/Qwen2.5-3B-Instruct: 250/340 (0.76s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 300/340 (0.76s/pair)
+    done in 269.8s
+  validator: llm:microsoft/Phi-3.5-mini-instruct ...
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [08:49<08:49, 529.81s/it]Fetching 2 files: 100%|██████████| 2/2 [08:49<00:00, 264.91s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.77it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.88s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.68s/it]
+    microsoft/Phi-3.5-mini-instruct: 50/340 (1.17s/pair)
+    microsoft/Phi-3.5-mini-instruct: 100/340 (1.31s/pair)
+    microsoft/Phi-3.5-mini-instruct: 150/340 (1.42s/pair)
+    microsoft/Phi-3.5-mini-instruct: 200/340 (1.42s/pair)
+    microsoft/Phi-3.5-mini-instruct: 250/340 (1.37s/pair)

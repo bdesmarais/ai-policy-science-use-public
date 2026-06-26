@@ -43,16 +43,23 @@ def _keywords(claim, n=8):
     return " ".join(out[:n]) or claim[:80]
 
 
-def _get(url, tries=3):
+def _get(url, tries=6):
     for t in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": f"ai-policy-science-use ({MAILTO})"})
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
-        except Exception as e:
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and t < tries - 1:        # rate limited: exponential backoff
+                time.sleep(min(60, 5 * (2 ** t)))
+                continue
             if t == tries - 1:
                 raise
-            time.sleep(2 * (t + 1))
+            time.sleep(3 * (t + 1))
+        except Exception:
+            if t == tries - 1:
+                raise
+            time.sleep(3 * (t + 1))
 
 
 def retrieve(claim, k=5, from_year=1990):
