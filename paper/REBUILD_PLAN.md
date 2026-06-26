@@ -44,10 +44,23 @@ via two human-labeled benchmarks + cross-domain instead.
 Title → Abstract → Intro → Results(R1 pipeline, R2 benchmark validation, R3 self-preference ruled out,
 R4 CA application, R5 reproducibility+cross-domain) → Discussion → Methods → Refs → Data/Code avail.
 
-## TODO
-- [x] SciFact validation (Claude + NLI + tfidf)
-- [ ] phase2: SciFact panel, Climate-FEVER (NLI+panel), policy stance (OpenAlex+GPT5)  [running]
-- [ ] Claude scoring on Climate-FEVER (run benchmark_validation --validators claude --tag cf_claude)
-- [ ] figures (make_paper_figures_v2.py)
-- [ ] write paper (Nature Comms framing), compile, verify cites
-- [ ] email Bruce when done
+## TODO / STATUS
+- [x] SciFact validation (Claude 0.80, NLI 0.70, tfidf 0.50)
+- [x] Climate-FEVER loader + 45 blind Claude labels
+- [x] paper rewritten (Nature Comms framing), compiles clean, 26 \pending{} number gaps
+- [~] phase2b (bg): SciFact panel, Climate-FEVER (NLI+panel+claude), policy stance gpt5+openalex
+- [~] OpenAlex retrieval: dem done (100/463), rep re-running (outputs/openalex_rep.log)
+
+## HOW TO FINISH (after phase2b prints "ALL DONE" in benchmarks/results/phase2b.log)
+1. `python3 scripts/core/summarize_results.py`  → prints every number for the \pending gaps.
+2. Fill the 26 `\pending{...}` in paper/sections/results.tex (+ abstract in main.tex) with those
+   numbers. Search: `grep -rn "pending{" paper/`. The structure/prose is final; only numbers change.
+3. `python3 scripts/core/make_paper_figures_v2.py` → regenerates fig_validation, fig_confusion,
+   fig_support_party from the now-complete result files (overwrites placeholders).
+4. `latexmk -pdf -interaction=nonstopmode -cd paper/main.tex` → check 0 undefined, sane page count.
+5. Remove the \pending macro's red color OR confirm no \pending remain: `grep -c pending paper/...`.
+6. git add -A && commit && push.
+7. Email Bruce (acadtasks agent, in-thread reply to the AI-policy 'science use' thread) — summary of
+   the validated pipeline + headline numbers + repo link. Note: also pending from other threads =
+   palsr CRAN submission, ICDS EAC redraft (do NOT auto-do; mention only).
+8. Keep listening to email.
