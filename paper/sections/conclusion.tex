@@ -1,3 +1,39 @@
-% Limitations + Conclusion — TODO
 \section{Limitations and Conclusion}
 \label{sec:conclusion}
+
+\paragraph{Limitations.} Several caveats bound our claims. \emph{(1) Stance is a proxy.}
+``Support'' as judged from a title and abstract is a coarse stand-in for a careful reading of a
+study's design, sample, and applicability to the specific policy context; a full-text, methods-aware
+assessment would be more faithful. \emph{(2) Retrieval bounds the ceiling.} We assess only the
+evidence the pipeline retrieves; a claim scored ``supported'' is supported \emph{by the retrieved
+literature}, which may be unrepresentative of the broader record, and a more adversarial retrieval
+step (deliberately seeking disconfirming evidence) would sharpen the refute rate. \emph{(3) Gold-set
+size.} Our confidence intervals reflect a 120-pair LLM-judge gold set; they are usable but wide, and
+scaling the judge to several hundred pairs would tighten them and firm up the (currently modest)
+partisan comparison. \emph{(4) Shared-model bias.} The LLM judge and the retrieval model are both
+large language models and could share blind spots; the strongest validation would add a small
+\emph{human}-verified anchor, which our design accepts directly and which would convert the estimate
+into a conventionally validated one. \emph{(5) Strategic text.} Press releases are strategic
+communications, not neutral reports; ``support'' for a claim a legislator chose to make is not the
+same as balanced evidence use. \emph{(6) Scope.} We study one chamber of one (heavily Democratic)
+state in English; generalization to other states, chambers, and the federal level is future work, as
+is extending the full support analysis to the education corpus whose front end we have already built.
+
+\paragraph{Conclusion.} We set out to measure, at scale and without human coders, whether the science
+legislators invoke supports the claims they make. The enabling move is methodological: treat an
+LLM judge as the gold annotator and open-source NLI models as the surrogate, and reconcile them with
+prediction-powered inference so the estimate is valid despite imperfect labels. Doing so revealed
+that the dominant discriminative approach to claim verification systematically under-detects support,
+and that correcting this bias paints a more optimistic and less partisan picture of evidence use in
+AI policymaking than the naive measure implies. The pipeline is fully autonomous, runs on open
+models with no API key, and is released so that others can apply, scrutinize, and extend it.
+
+\paragraph{Reproducibility and ethics.} All code, the claim--reference data, the LLM-judge gold
+labels, and the figure scripts are available at
+\url{https://github.com/bdesmarais/ai-policy-science-use}; every number in this paper is reproducible
+with a single command and no paid API. The corpus consists of public communications by elected
+officials acting in their official capacity; we make no claims about private individuals. Because
+automated ``evidence scoring'' of political speech could be misused to lend false objectivity to
+partisan judgments, we stress that our estimates are measurements with stated uncertainty and known
+biases, not verdicts, and that the cross-method diagnostics and human-anchor option are integral to
+using the tool responsibly.

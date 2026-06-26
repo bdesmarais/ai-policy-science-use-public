@@ -16,11 +16,11 @@ Analysis, PSRM, or APSR-methods); also fulfills the APSA 2026 paper.
 - [x] Introduction (sections/intro.tex)
 - [x] Data (sections/data.tex)
 - [x] Results (sections/results.tex) — 4 figures + 2 tables
-- [ ] Discussion (sections/discussion.tex)
-- [ ] Limitations + Conclusion (sections/conclusion.tex)
-- [ ] Abstract (in main.tex)
-- [ ] compile to PDF (pdflatex/latexmk) + fix errors
-- [ ] proofread pass
+- [x] Discussion (sections/discussion.tex)
+- [x] Limitations + Conclusion (sections/conclusion.tex)
+- [x] Abstract (in main.tex)
+- [x] compile to PDF (pdflatex/latexmk) + fix errors
+- [x] proofread pass (source-level: numbers + citations consistent; clean compile)
 - [ ] final commit + ONE email to Bruce with the finished PDF info
 
 ## Data / analysis tasks
@@ -28,7 +28,7 @@ Analysis, PSRM, or APSR-methods); also fulfills the APSA 2026 paper.
       (Could scale further to tighten CIs more; 120 gives usable CIs.)
 - [x] Generate paper figures into paper/figures/ (corpus, agreement, support-rate w/ CIs,
       NLI-vs-Claude bias, education asymmetries).
-- [ ] Final validation run; lock numbers into results.tex.
+- [x] Final validation run; numbers locked (120-gold).
 
 ## Key numbers locked in (authoritative, from outputs/)
 - Corpus (v3): 7,139 CA Assembly press releases (Dem 5,249 / Rep 1,890), 2010s–2025.
