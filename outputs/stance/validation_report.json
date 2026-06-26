@@ -1,0 +1,43 @@
+{
+  "n_pairs": 621,
+  "validators": [
+    "tfidf",
+    "lexical"
+  ],
+  "pairwise_agreement": {
+    "tfidf~lexical": {
+      "percent_agreement": 0.916,
+      "cohens_kappa": 0.811
+    }
+  },
+  "consensus_stance_distribution": {
+    "silent": 446,
+    "support": 169,
+    "refute": 6
+  },
+  "unanimous_pairs": 569,
+  "unanimous_fraction": 0.916,
+  "support_rate_by_party_ppi": {
+    "dem": {
+      "estimate": 0.2842,
+      "ci95": [
+        0.2325,
+        0.336
+      ],
+      "naive_estimate": 0.2842,
+      "n_all": 292,
+      "n_anchor": 269
+    },
+    "rep": {
+      "estimate": 0.2614,
+      "ci95": [
+        0.2139,
+        0.3089
+      ],
+      "naive_estimate": 0.2614,
+      "n_all": 329,
+      "n_anchor": 300
+    }
+  },
+  "notes": "Baseline validators in this run; llm_judge+nli are the production validators. PPI anchor = unanimous-consensus subset (autonomous stand-in for gold). With a small true-gold set this is a formal PPI/DSL estimate (see docs/04)."
+}

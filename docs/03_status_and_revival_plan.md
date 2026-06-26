@@ -39,16 +39,23 @@ pipeline by comparing automated claim-evidence assessments to human expert codin
 
 ## Revival plan
 
-### Phase 0 — Finish the validation study (makes the APSA paper real)
-1. **Recruit 1–2 annotators** to replace Sai & Zack.
-2. **Resume the existing annotation framework** (`outputs/pilot/`, `validation-ideas.md`,
-   `outputs/pilot/guidelines.md`): doc AI-relevance → claim quality → pair relevance → **stance**.
-   Use the existing assignment sheets; double-annotate ~15% and report Cohen's κ.
-3. **Build the human-coded gold set** for stance (support/refute/silent), stratified by party ×
-   topic (the design suggests ≈241 claims → ≈1,200 pairs to start; the APSA/LOI target is ≥1,000).
-4. **Benchmark LLM stance judgments** (GPT-5 + ≥1 alternative) against the gold set; report
-   precision/recall, confusion matrices, and systematic (party/topic) error. **This is the APSA
-   contribution.** A new `scripts/` stage for stance scoring is the main code to add.
+### Phase 0 — Autonomous validation study (makes the APSA paper real) — **revised June 2026**
+> **Superseded the original human-RA plan** at Bruce's direction (June 2026): execute fully
+> autonomously, treating LLMs + established classifiers as the validators (no human RAs). Full
+> design, literature, and the runnable harness: **[04_autonomous_validation.md](04_autonomous_validation.md)**
+> and [`../scripts/core/autonomous_validation.py`](../scripts/core/autonomous_validation.py).
+1. **Validators replace coders.** An LLM-as-judge ensemble (GPT-5 + ≥1 other) **and** an
+   independent NLI classifier label each claim–reference pair (support/refute/mixed/silent), with
+   dependency-free baselines for no-key runs.
+2. **Agreement replaces inter-annotator reliability.** Report cross-validator Cohen's κ /
+   % agreement; gate "can a validator replace a coder?" with the alt-test (Calderon et al. 2025).
+3. **Valid estimates from imperfect labels.** Debias party-level support rates with PPI / DSL
+   (Angelopoulos et al. 2023; Egami et al. 2023), anchored on the high-agreement consensus subset
+   (and on a small verified set if/when one exists).
+4. **Status:** harness implemented and **executed end-to-end** on the real reference data
+   (`outputs/stance/`). Remaining: activate the production LLM+NLI validators (key / `transformers`)
+   and add a ~100–200-pair verified anchor for formal validity. *(Old human-coded plan retained in
+   `local_only/validation-ideas.md` for reference.)*
 
 ### Phase 1 — Scale & describe
 5. Extend scraping beyond CA Assembly to more states; re-run the pipeline (LOI target ≈25,000

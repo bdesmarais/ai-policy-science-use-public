@@ -67,6 +67,8 @@ deliverable promised in the APSA abstract.
 |---|---|
 | [`docs/PIPELINE.md`](docs/PIPELINE.md) | Original project README — how to run every stage |
 | [`scripts/core/`](scripts/core/) | The pipeline: v3 AI detection, LLM claim extraction, GPT-5 reference retrieval, reference summarization |
+| [`scripts/core/autonomous_validation.py`](scripts/core/autonomous_validation.py) | **Autonomous** validation: LLM-judge + NLI/classifier validators, cross-validator agreement, PPI/DSL-debiased estimates (no human RAs) |
+| [`docs/04_autonomous_validation.md`](docs/04_autonomous_validation.md) | Design + recent literature for running the validation fully autonomously |
 | [`scripts/pilot/`](scripts/pilot/) | Annotation prep, evaluation, doc classifier, false-positive triage |
 | [`data/`](data/) | Scraped press-release text (`press_releases/{Democratic,Republican}/`) + AI-only docs (`Dem_AI/`, `Rep_AI/`) |
 | [`outputs/`](outputs/) | claims, structured_refs, v3 stats, viz_data, figures, and the `pilot/` annotation sets |
