@@ -1,51 +1,54 @@
 \section{Discussion}
 \label{sec:discussion}
 
-\paragraph{An LLM judge is necessary, not optional.} The most actionable methodological lesson is
-negative: the standard discriminative tool for scientific claim verification---NLI entailment over
-claim--evidence pairs \citep{wadden2020fact}---is not a safe stand-alone measure of whether science
-supports a policy claim. It systematically labels genuine support as ``neutral,'' because an
-abstract seldom restates a press-release claim in entailing language, and the resulting downward
-bias is large enough to reverse a substantive conclusion (here, the apparent partisan gap in
-evidence quality). A high-capacity generative judge, which reasons about whether the study's
-findings \emph{bear on} the claim rather than whether the texts \emph{entail} one another, is
-required to recover the right answer. This does not make NLI useless: it is cheap, fast, and
-runs on every pair, which is exactly what a surrogate needs to be.
+\paragraph{A competent judge is necessary, but not sufficient.} The most actionable lesson is
+negative: our off-the-shelf zero-shot NLI configuration is not a safe stand-alone measure of whether
+science supports a policy claim. It labels genuine support ``neutral'' because abstracts seldom
+restate a press-release claim in entailing language, and the downward bias is large enough to flip a
+substantive conclusion. But the corollary is \emph{not} ``therefore trust the generative judge.'' A
+competent judge appears necessary, yet it is not sufficient: to license replacing human coders it must
+itself be validated against a human standard \citep{calderon2025alttest}, which we have not done. We
+present the NLI failure as a warning about a popular shortcut, not as proof that the generative judge
+is right. (Strong claim verification, e.g.\ on SciFact \citep{wadden2020fact}, fine-tunes and selects
+rationale sentences; our zero-shot setup is not a fair representative of that line of work.)
 
-\paragraph{Validity without humans.} The combination that makes the pipeline both autonomous and
-valid is surrogate-plus-judge-plus-PPI. Prediction-powered inference \citep{angelopoulos2023ppi}
-and design-based supervised learning \citep{egami2023dsl} were developed to let researchers use
-abundant imperfect labels alongside a small set of trusted labels; our contribution is to observe
-that the ``trusted'' labels need not come from humans. A frontier LLM judge supplies
-gold-equivalent labels at the scale of a few dozen to a few hundred items---enough to estimate and
-correct the surrogate's bias---while the open-source NLI models supply the breadth. The
-human research assistant, the traditional bottleneck and cost center of this kind of measurement,
-is removed without sacrificing the inferential guarantees that justify the estimate.
+\paragraph{The part we did \emph{not} solve: validity without humans.} PPI \citep{angelopoulos2023ppi}
+and DSL \citep{egami2023dsl} let researchers combine abundant imperfect labels with a small set of
+\emph{trusted} labels. The tempting extension---that the trusted labels can come from an LLM rather
+than a human---is exactly what we cannot justify: both methods, and the alternative-annotator test, are
+defined relative to human ground truth, so substituting an unvalidated model for the human anchor
+removes the guarantee rather than preserving it. Our intervals are therefore conditional on the judge.
+We demonstrate the \emph{mechanics} of an autonomous surrogate-plus-judge-plus-PPI pipeline; we do not
+demonstrate that its output is valid.
 
-\paragraph{Diagnose across methods, not within.} A practical corollary concerns how to know
-whether an automated coder can be trusted. High agreement \emph{among} models of the same family
-is reassuring but can be an illusion of correctness: our two NLI models agreed at $\kappa=0.65$
-while sharing the very bias that distorted the estimate. The informative comparison is
-\emph{across} paradigms---generative versus discriminative---and the alternative-annotator test
-\citep{calderon2025alttest} formalizes when one may substitute for the other. We recommend reporting
-cross-method agreement as a routine diagnostic in LLM-based measurement, precisely because
-within-method agreement hid the problem here.
+\paragraph{The all-LLM loop and self-preference (a first-order threat).} The deepest problem is
+circularity. Our claims and references are LLM-produced and our judge is an LLM, and LLM evaluators are
+documented to recognize and favor model-generated, low-perplexity text \citep{panickssery2024llm}; more
+broadly, fluent model output should not be mistaken for knowledge \citep{bender2021stochastic}. A judge
+that rates LLM-surfaced evidence as ``supportive'' may be exhibiting self-preference rather than
+assessing science, and the $\sim$3$\times$ naive-to-PPI jump is the magnitude such a bias could produce.
+Without a non-self anchor we cannot separate ``the judge corrects the surrogate'' from ``the judge
+agrees with other models.'' This threatens the central estimate directly; it is not a footnote.
 
-\paragraph{What we learn about AI policymaking.} Substantively, two findings stand out. First,
-evidence use is higher than a naive automated reading suggests: most technical claims California
-legislators make about AI are supported by the peer-reviewed literature our pipeline retrieves
-(roughly 0.6--0.7 for both parties). Whatever one's priors about ``post-truth'' politics, in this
-domain and at the level of discrete factual claims, legislators' assertions are largely backed by
-science that exists and is mostly open-access. Second, the robust partisan asymmetry is in
-\emph{engagement}, not \emph{accuracy}: Democrats talk about AI far more, and more intensively, than
-Republicans, but once a competent judge is used the two parties' claims are supported at similar
-rates. The headline ``Democrats use better evidence'' implied by the naive measure is an artifact of
-the instrument, a cautionary tale for the rapidly growing practice of using off-the-shelf NLP to
-score political text.
+\paragraph{Diagnose across methods, not within---but a flag is not a validation.} One genuine lesson
+survives: within-method agreement can be an illusion of correctness (our two NLI models agreed at
+$\kappa=0.66$ while sharing a bias), so cross-method agreement is a more informative diagnostic. But
+cross-method agreement only \emph{flags} disagreement; it cannot tell us which side is right. Only
+comparison to a trusted standard can do that. We recommend reporting cross-method agreement routinely
+while stressing that it does not substitute for a human anchor.
 
-\paragraph{A template for computational social science.} Beyond this application, the design is a
-reusable template: pair a cheap, scalable open-source classifier (the surrogate) with a small,
-high-quality LLM-judge gold set, reconcile them with PPI/DSL, and validate by cross-method
-agreement. It runs with no proprietary API and no human coders, which lowers both the cost and the
-access barriers to large-scale, valid text measurement---and makes the whole analysis exactly
-reproducible from released code and data.
+\paragraph{What this does and does not say about AI policymaking.} We are deliberately cautious. The
+one robust, instrument-independent pattern is that Democrats engage with AI far more, and more
+intensively, than Republicans. A useful \emph{negative} result is that the apparent partisan gap in
+evidence \emph{quality} from the naive measure does not survive a better judge. We do \emph{not} claim
+that ``most claims are supported'': that level ($\approx$0.5--0.7 under our judge) is conditional on an
+unvalidated, possibly self-preferring judge, is inflated by relevance-only retrieval and by
+bill-text/government ``references,'' and could move substantially under human coding. The contribution
+is a template plus a cautionary tale, not a measurement of how well legislators' AI claims are backed
+by science.
+
+\paragraph{A template, honestly scoped.} The design---cheap open-source surrogate, a small
+high-quality gold set, PPI/DSL, no API, no RA---is a useful scaffold that lowers cost and access
+barriers, but its value is realized only when the gold is trustworthy; with an LLM gold it is a
+feasibility scaffold awaiting validation. Reproducibility (one command, no key) is necessary but not
+sufficient: perfectly reproducing an unvalidated measurement reproduces its bias.

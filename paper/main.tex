@@ -54,11 +54,18 @@ measurement, together with a cautionary result about what it can and cannot esta
 \input{sections/discussion}
 \input{sections/conclusion}
 
-\section*{Acknowledgments}
-Components of the data pipeline and the autonomous validation analysis were implemented and
-executed with AI assistance (open-source NLI models and an in-context LLM judge); all design
-decisions, interpretation, and claims are the authors'. Earlier pipeline development was
-supported by NSF awards 2318460 and 2148215.
+\section*{AI-assistance disclosure}
+This paper is, by design, an AI-heavy artifact, and we disclose that explicitly because it bears on how
+the results should be weighed. The stance ``gold'' labels were produced by Claude Opus~4.8 acting as an
+in-context judge (no fine-tuning, no API key); the scalable surrogate labels were produced by
+open-source NLI models (DeBERTa- and BART-MNLI); and the same model assisted in drafting this
+manuscript. Every cited reference was checked against a primary source (see
+\texttt{paper/reviews/refcheck.md} in the repository); none was found to be fabricated. Two critical
+self-reviews---one methodological, one on the paper as an AI-produced artifact---shaped this revision and
+are included in the repository. We emphasize that computational reproducibility does \emph{not} establish
+validity: re-running an unvalidated, single-model measurement reproduces its biases exactly. All design
+decisions and claims are the authors'. Earlier pipeline development was supported by NSF awards 2318460
+and 2148215.
 
 \bibliography{references}
 

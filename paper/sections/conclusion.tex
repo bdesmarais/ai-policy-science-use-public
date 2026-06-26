@@ -1,32 +1,41 @@
 \section{Limitations and Conclusion}
 \label{sec:conclusion}
 
-\paragraph{Limitations.} Several caveats bound our claims. \emph{(1) Stance is a proxy.}
-``Support'' as judged from a title and abstract is a coarse stand-in for a careful reading of a
-study's design, sample, and applicability to the specific policy context; a full-text, methods-aware
-assessment would be more faithful. \emph{(2) Retrieval bounds the ceiling.} We assess only the
-evidence the pipeline retrieves; a claim scored ``supported'' is supported \emph{by the retrieved
-literature}, which may be unrepresentative of the broader record, and a more adversarial retrieval
-step (deliberately seeking disconfirming evidence) would sharpen the refute rate. \emph{(3) Gold-set
-size.} Our confidence intervals reflect a 120-pair LLM-judge gold set; they are usable but wide, and
-scaling the judge to several hundred pairs would tighten them and firm up the (currently modest)
-partisan comparison. \emph{(4) Shared-model bias.} The LLM judge and the retrieval model are both
-large language models and could share blind spots; the strongest validation would add a small
-\emph{human}-verified anchor, which our design accepts directly and which would convert the estimate
-into a conventionally validated one. \emph{(5) Strategic text.} Press releases are strategic
-communications, not neutral reports; ``support'' for a claim a legislator chose to make is not the
-same as balanced evidence use. \emph{(6) Scope.} We study one chamber of one (heavily Democratic)
-state in English; generalization to other states, chambers, and the federal level is future work, as
-is extending the full support analysis to the education corpus whose front end we have already built.
+\paragraph{Limitations.} The binding limitation is that \emph{we have no human validation}. Our
+``gold'' is a single, unvalidated LLM judge, so the alternative-annotator test
+\citep{calderon2025alttest} is not actually run and the PPI/DSL guarantees
+\citep{angelopoulos2023ppi,egami2023dsl} do not formally apply; every support-rate number is conditional
+on that judge. Compounding this, the judge and the upstream claim/reference steps are all LLMs, so
+\emph{self-preference} \citep{panickssery2024llm} may inflate the support rate and we cannot rule it out
+without a non-self anchor. Beyond these: \emph{(3) stance is a proxy}---``support'' read from a title and
+a ${\le}600$-character abstract is a coarse stand-in for a methods-aware reading; \emph{(4) retrieval
+bounds the ceiling}---we score only relevance-retrieved evidence with no disconfirming search, so the
+support rate is upward-biased and the refute rate a lower bound, and some ``references'' are bill text or
+government pages, not science; \emph{(5) the gold set is small} ($n=120$) and from one model, so the
+intervals are wide \emph{and} understate uncertainty about the gold itself; \emph{(6) strategic
+text}---press releases are advocacy, so ``support'' for a chosen claim is not balanced evidence use;
+\emph{(7) scope}---one chamber of one heavily-Democratic state, in English.
 
-\paragraph{Conclusion.} We set out to measure, at scale and without human coders, whether the science
-legislators invoke supports the claims they make. The enabling move is methodological: treat an
-LLM judge as the gold annotator and open-source NLI models as the surrogate, and reconcile them with
-prediction-powered inference so the estimate is valid despite imperfect labels. Doing so revealed
-that the dominant discriminative approach to claim verification systematically under-detects support,
-and that correcting this bias paints a more optimistic and less partisan picture of evidence use in
-AI policymaking than the naive measure implies. The pipeline is fully autonomous, runs on open
-models with no API key, and is released so that others can apply, scrutinize, and extend it.
+\paragraph{What a valid version would require.} The path from this feasibility scaffold to a valid
+measurement is concrete: (i) a \emph{human}-coded anchor of roughly 100--200 claim--reference pairs,
+sampled by a known design, against which to run the alt-test and to seed DSL/PPI; (ii) a
+properly-configured claim-verification baseline (fine-tuned, rationale-based, in the SciFact line
+\citep{wadden2020fact}) rather than zero-shot entailment, so that ``NLI'' is given a fair test; (iii) a
+\emph{non-self} judge---a different model family, or human coders---to break the all-LLM circularity and
+quantify self-preference; (iv) full-text, methods-aware stance rather than abstract-only; and (v)
+disconfirming retrieval. None of these is exotic; together they would convert the conditional estimates
+here into validated ones, and the released scaffold is built so that adding a human anchor is a drop-in
+change.
+
+\paragraph{Conclusion.} We asked whether claim--evidence \emph{support} can be measured at scale with no
+human coders. Our answer is a qualified ``not yet, but here is a usable scaffold.'' We can build the
+autonomous pipeline---claim extraction, retrieval, and an LLM judge anchoring a cheap NLI surrogate via
+PPI---and run it end-to-end on open models with no API key; doing so yields a genuine cautionary result
+(off-the-shelf zero-shot NLI is badly miscalibrated for this task) and a robust descriptive finding
+(asymmetric AI \emph{engagement} across parties). But the headline support rates are conditional on an
+unvalidated, possibly self-preferring judge, and we decline to present them as established. The
+contribution is a reproducible template and an honest map of what stands between it and a valid
+measurement, released so that others can supply the missing human anchor and put it to the test.
 
 \paragraph{Reproducibility and ethics.} All code, the claim--reference data, the LLM-judge gold
 labels, and the figure scripts are available at
