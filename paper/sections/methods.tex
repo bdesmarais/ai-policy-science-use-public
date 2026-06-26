@@ -83,13 +83,29 @@ naive surrogate mean while retaining the efficiency gains of labeling all $N$ pa
 estimator \citep{egami2023dsl}; both are formally valid when the gold labels are sampled by a
 known design, and both reduce to the human-coded estimate as $n\to N$.
 
-\paragraph{Why this is ``autonomous.''} Every component---the open-source NLI models, the
-TF--IDF/lexical baselines, and the in-context LLM judge---runs locally with no human annotation
-and no paid API. The LLM judge supplies the high-quality gold labels that human RAs would
-otherwise provide; the NLI surrogate supplies scale; PPI supplies validity. The procedure degrades
-gracefully: with no transformer libraries it runs on baselines, and the moment a small set of
-\emph{human}-verified labels becomes available it can be substituted for (or added to) the LLM-judge
-gold to obtain a conventionally validated estimate.
+\paragraph{Why this is ``autonomous''---and what that costs.} Every component runs locally with no
+human annotation and no paid API: the LLM judge stands in for the human RA, the NLI surrogate supplies
+scale, and PPI combines them. But ``autonomous'' is not free. The PPI/DSL guarantee
+\citep{angelopoulos2023ppi,egami2023dsl} holds only when the anchor labels are \emph{trusted ground
+truth} sampled by a known design, and the alternative-annotator test \citep{calderon2025alttest} that
+licenses replacing human coders is \emph{defined} as a comparison to multiple human annotators. We have
+neither: our anchor is a single, unvalidated LLM. Our confidence intervals are therefore
+\emph{conditional} on that judge---they quantify sampling of the judge's labels, not error relative to
+truth---and should be read as illustrative, not as validated population inference. We treat this as the
+central limitation of the design, not a detail, and return to it in \S\ref{sec:discussion}. The moment a
+small set of \emph{human}-verified labels becomes available, it can replace (or augment) the LLM-judge
+anchor to obtain a conventionally valid estimate.
+
+\paragraph{Threats specific to an all-LLM loop.} Two further issues follow from doing everything with
+language models. First, \emph{self-preference}: LLM judges favor model-generated and low-perplexity text
+and can recognize their own outputs \citep{panickssery2024llm,zheng2023judging}; because the claims and
+the retrieved references in our pipeline are themselves LLM-produced, the judge may rate them as
+supportive partly for that reason, biasing the support rate upward. Second, \emph{retrieval bias}: the
+retrieval step seeks \emph{relevant} references and performs no deliberately disconfirming search, so a
+pair scored ``support'' is supported \emph{by what an LLM chose to surface}, and the refute rate is a
+lower bound. We de-duplicate identical (claim, reference) pairs before analysis, and we flag that some
+retrieved ``references'' are bill text or government pages rather than peer-reviewed science, which a
+faithful stance step should treat as out of scope.
 
 \paragraph{Implementation.} The pipeline and validator are released at
 \url{https://github.com/bdesmarais/ai-policy-science-use} (\texttt{scripts/core/autonomous\_validation.py});

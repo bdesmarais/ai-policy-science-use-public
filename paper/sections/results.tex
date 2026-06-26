@@ -6,7 +6,7 @@ Democrats engage with AI far more than Republicans on every margin (Figure~\ref{
 Democratic members mention AI in 4.8\% of their press releases versus 2.6\% for Republicans, and
 when they do, they say more about it: Democratic AI documents contain 3.3 AI statements on average
 versus 1.6 for Republicans. Across the 303 AI documents the pipeline retrieves a substantial and
-accessible body of candidate evidence---621 claim--reference pairs with abstracts, 87\% of them
+accessible body of candidate evidence---614 claim--reference pairs with abstracts, 87\% of them
 open-access, drawn from venues led by arXiv and concentrated in the years since 2015. The raw
 material for evidence-based AI policy clearly exists; the question is whether legislators' claims
 are borne out by it.
@@ -20,18 +20,21 @@ California Assembly press releases.}
 \end{figure}
 
 \subsection{Generative and discriminative validators disagree by method}
-Our central methodological result is that the two \emph{kinds} of validator disagree sharply, and
-in a systematic direction (Table~\ref{tab:agree}, Figure~\ref{fig:agree}). The two NLI
-classifiers, which share the discriminative entailment paradigm, agree strongly with each other
-($\kappa = 0.65$ over all 621 pairs). But each agrees only weakly with the generative LLM judge
-($\kappa = 0.20$ and $0.14$ over the 124 gold pairs). Inspection of the disagreements shows the
-mechanism: strict textual entailment between a study's abstract and a press-release claim is
-almost always classified ``neutral''---and hence \textsc{silent}---even when the study plainly
-substantiates the claim's substance, because the abstract rarely restates the claim in entailing
-language. The NLI consensus labels 76\% of pairs \textsc{silent}; the LLM judge labels only 23\%
-so. High within-method agreement therefore reflects a \emph{shared} conservatism, not
-correctness---exactly the pattern the alternative-annotator logic \citep{calderon2025alttest}
-warns against, and the reason we do not treat NLI as a stand-alone measure.
+A first result is that the two \emph{kinds} of validator disagree sharply (Table~\ref{tab:agree},
+Figure~\ref{fig:agree}). The two NLI classifiers, which share the discriminative entailment paradigm,
+agree strongly with each other ($\kappa = 0.66$ over all 614 pairs), but each agrees only weakly with
+the generative LLM judge ($\kappa = 0.21$ and $0.15$ over the 120 gold pairs). The mechanism is that
+strict textual entailment between a study's abstract and a press-release claim is almost always
+classified ``neutral''---hence \textsc{silent}---even when the study substantiates the claim's
+substance, because the abstract rarely restates the claim in entailing language: our zero-shot NLI
+setup labels 76\% of pairs \textsc{silent}, the LLM judge only 23\%. Two cautions are essential.
+\emph{(i)} This is \emph{our zero-shot NLI configuration}, not a fair representative of automated claim
+verification; strong systems on tasks like SciFact \citep{wadden2020fact} fine-tune and select
+rationale sentences and do not equate ``non-entailment'' with ``no support,'' so we cannot claim that
+NLI \emph{as a class} under-detects support. \emph{(ii)} High \emph{within}-method agreement reflects a
+shared property of the two NLI models---which could be shared conservatism \emph{or} shared error---and
+does not establish which validator is correct; absent a human anchor, neither does the disagreement. We
+report the disagreement as a flag, not as proof that the LLM judge is right \citep{calderon2025alttest}.
 
 \begin{table}[t]
 \centering
@@ -42,9 +45,9 @@ not with the generative LLM judge.}
 \toprule
 Validator pair & $n$ & \% agreement & Cohen's $\kappa$ \\
 \midrule
-Claude judge $\sim$ DeBERTa-NLI & 124 & 41.9 & 0.20 \\
-Claude judge $\sim$ BART-NLI    & 124 & 37.9 & 0.14 \\
-DeBERTa-NLI $\sim$ BART-NLI      & 621 & 86.3 & 0.65 \\
+Claude judge $\sim$ DeBERTa-NLI & 120 & 43.3 & 0.21 \\
+Claude judge $\sim$ BART-NLI    & 120 & 39.2 & 0.15 \\
+DeBERTa-NLI $\sim$ BART-NLI      & 614 & 86.5 & 0.66 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -53,41 +56,46 @@ DeBERTa-NLI $\sim$ BART-NLI      & 621 & 86.3 & 0.65 \\
 \centering
 \includegraphics[width=0.6\textwidth]{fig_agreement.png}
 \caption{The generative judge and the discriminative NLI classifiers agree poorly with each other
-($\kappa \approx 0.14$--$0.20$), while the two NLI classifiers agree well ($\kappa = 0.65$),
-indicating a shared method bias rather than a reliable signal.}
+($\kappa \approx 0.15$--$0.21$), while the two NLI classifiers agree well ($\kappa = 0.66$). This
+flags a shared method property---bias or shared error---rather than establishing which validator is
+correct.}
 \label{fig:agree}
 \end{figure}
 
-\subsection{Correcting the bias: most claims are supported, by both parties}
-Because the NLI surrogate under-detects support, the naive estimate of the support rate is far too
-low: 0.21 for Democratic and 0.11 for Republican claims. Anchoring on the LLM judge's 120 gold
-labels and correcting with prediction-powered inference (Eq.~\ref{eq:ppi}) roughly triples these
-estimates, to \textbf{0.71} (95\% CI $[0.57, 0.84]$) for Democrats and \textbf{0.58}
-($[0.45, 0.71]$) for Republicans (Table~\ref{tab:support}, Figure~\ref{fig:support}). The
-LLM-judge labels on their own imply nearly identical raw rates (0.70 and 0.57), confirming that
-the correction is recovering the judge's signal rather than manufacturing it.
+\subsection{Under the LLM judge, support rates look high---but this is a conditional estimate}
+Relative to the naive NLI surrogate (0.21 for Democratic, 0.11 for Republican claims), anchoring on
+the LLM judge's 120 gold labels and applying PPI (Eq.~\ref{eq:ppi}) roughly triples the estimates, to
+\textbf{0.71} (95\% CI $[0.57, 0.84]$) for Democrats and \textbf{0.54} ($[0.41, 0.67]$) for
+Republicans (Table~\ref{tab:support}, Figure~\ref{fig:support}); the judge's raw rates (0.70 and 0.57)
+are similar, as they must be, since the judge \emph{is} the anchor. We deliberately do not headline
+this as ``most claims are supported.'' A roughly threefold gap between surrogate and judge is far
+larger than is typical when a surrogate is competent (in the PPI/DSL literature surrogates are usually
+80--90\% accurate and corrections are modest), and we cannot, without a human anchor, attribute it to
+NLI error rather than to the judge \emph{over}-calling support---a live possibility given self-preference
+in an all-LLM loop (\S\ref{sec:methods}). The level is also inflated by construction: retrieval is
+relevance-seeking with no disconfirming search, and some ``supporting'' references are bill text or
+government pages rather than peer-reviewed studies. We therefore read the level as ``high under our
+judge,'' not as an established fact about evidence use.
 
-Two substantive points follow. First, the \emph{level} is high: most technical claims that
-California legislators make about AI are, in fact, supported by the peer-reviewed literature our
-pipeline retrieves---a more optimistic picture of evidence use than the naive automated measure
-would suggest. Second, the \emph{partisan gap} is modest once a competent judge is used. The naive
-NLI estimate implied that Democratic claims were nearly twice as likely to be supported as
-Republican claims (0.21 vs.\ 0.11); the debiased estimate narrows this to 0.71 vs.\ 0.58, with
-overlapping confidence intervals. The apparent partisan asymmetry in \emph{evidentiary quality} is
-thus largely an artifact of the measurement instrument; what is robustly asymmetric is the
-\emph{volume and intensity} of engagement with AI, not the support for the claims made.
+What is more robust is \emph{comparative} and \emph{negative}. The large partisan gap implied by the
+naive NLI estimate (Democratic claims nearly twice as likely to be ``supported'') does not survive a
+better judge: under the LLM judge the rates are 0.71 vs.\ 0.54 with overlapping intervals. The apparent
+partisan asymmetry in evidentiary quality is thus an artifact of a poorly-configured instrument; the
+asymmetry that is robust across instruments is the \emph{volume and intensity} of AI engagement
+(Fig.~\ref{fig:engage}), not the support for the claims.
 
 \begin{table}[t]
 \centering
-\caption{Share of claims supported by the retrieved science, by party. The naive NLI surrogate is
-biased downward; the PPI-debiased estimate (Claude gold anchor, $n=124$) corrects it.}
+\caption{Share of claims ``supported,'' by party. The PPI estimate is anchored on a single,
+unvalidated LLM ``gold'' ($n=120$) and is therefore \emph{conditional on that judge}, not validated
+against humans.}
 \label{tab:support}
 \begin{tabular}{lccc}
 \toprule
-Party & Naive NLI & PPI-debiased [95\% CI] & LLM-judge raw \\
+Party & Naive NLI & PPI [95\% CI] (cond.) & LLM-judge raw \\
 \midrule
 Democratic & 0.21 & 0.71\ \ $[0.57,\,0.84]$ & 0.70 \\
-Republican & 0.11 & 0.58\ \ $[0.45,\,0.71]$ & 0.57 \\
+Republican & 0.11 & 0.54\ \ $[0.41,\,0.67]$ & 0.57 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -95,9 +103,10 @@ Republican & 0.11 & 0.58\ \ $[0.45,\,0.71]$ & 0.57 \\
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.6\textwidth]{fig_support_rate.png}
-\caption{Estimated share of claims supported by the retrieved science. The naive NLI surrogate
-(gray) is biased sharply downward; PPI debiasing with the LLM-judge gold (colored, with 95\% CIs)
-roughly triples the estimate and narrows the partisan gap.}
+\caption{Estimated share of claims ``supported.'' The naive NLI surrogate (gray) differs sharply from
+the single-LLM judge anchor; PPI (colored, 95\% CIs, \emph{conditional on that unvalidated judge})
+roughly triples the estimate and narrows the partisan gap. The large gap is consistent with a
+misconfigured NLI baseline and/or the judge over-calling support; it is not validated against humans.}
 \label{fig:support}
 \end{figure}
 
