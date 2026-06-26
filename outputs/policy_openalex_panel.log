@@ -1,0 +1,11 @@
+[policy_stance:openalex] 911 pairs ({'dem': 463, 'rep': 448})
+  validator nli_deberta ...
+Device set to use mps
+  validator nli_bart ...
+Device set to use mps
+  validator llm:Qwen/Qwen2.5-3B-Instruct ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.88s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.60s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.64s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    Qwen/Qwen2.5-3B-Instruct: 50/911 (0.77s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 100/911 (0.78s/pair)

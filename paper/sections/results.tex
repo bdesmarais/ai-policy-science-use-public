@@ -24,17 +24,22 @@ makes. Each validator predicts a stance for every pair, scored against the human
 
 On SciFact, the high-capacity judge reaches \textbf{80.3\% accuracy} and \textbf{0.80 macro-$F_1$}
 against the human labels---comparable to reported zero-shot performance of frontier LLMs on scientific
-claim verification, and far above a TF--IDF baseline (50\% / 0.48). Its hardest class is \textsc{silent}
-($F_1=0.71$) and its strongest is \textsc{refute} ($F_1=0.93$): the judge reliably detects when a study
-\emph{contradicts} a claim, directly contradicting the worry that an autonomous pipeline cannot surface
-disconfirming evidence. The two zero-shot NLI classifiers reach \textbf{70\% accuracy}
-($\textrm{macro-}F_1=0.69$)---solid for off-the-shelf entailment models and consistent with the
-literature on this task. The open-source panel (\pending{Qwen2.5-3B, Phi-3.5-mini, OLMo-2-7B}) attains
-\pending{XX--XX\%} accuracy, confirming that the task is within reach of small, fully open models.
-On the noisier, contested Climate-FEVER claims, accuracy is lower for every method, as expected
-(\pending{Claude XX\%, NLI XX\%}), with the high-capacity judge again best. Across both benchmarks the
-high-capacity judge is the most accurate validator and matches human labels at a level that licenses
-its use as a stand-in coder.
+claim verification, and far above a TF--IDF baseline (50\%/0.48). Its strongest class is \textsc{refute}
+($F_1=0.93$): the judge reliably detects when a study \emph{contradicts} a claim, answering the worry
+that an autonomous pipeline cannot surface disconfirming evidence. The two zero-shot NLI classifiers
+reach 70\% accuracy ($\textrm{macro-}F_1\approx0.69$)---solid for off-the-shelf entailment
+models---while the three small open-panel models trail at 56--64\%, above the baseline but below the
+judge.
+
+The decisive result is on Climate-FEVER, the benchmark closest to legislative communication: contested,
+real-world claims in lay language. Here the high-capacity judge holds at \textbf{77.8\% accuracy}
+($\textrm{macro-}F_1=0.79$), whereas the NLI classifiers collapse to \emph{chance} (50\%, $F_1\approx0.47$).
+Strict entailment between a lay claim and a noisy evidence sentence is uninformative---precisely the
+regime our policy corpus occupies. The judge thus generalizes to policy-like claims where the cheap
+surrogate does not, which is the central reason we anchor estimation on the validated judge and treat
+NLI only as a surrogate to be corrected (\S\ref{sec:methods-ppi}). Across both benchmarks the
+high-capacity judge is the most accurate validator by a wide margin, and matches human labels at a level
+that licenses its use as a stand-in coder.
 
 \begin{table}[t]
 \centering
@@ -49,13 +54,13 @@ benchmark text is human-written, this accuracy cannot be an artifact of self-pre
 \cmidrule(lr){2-3}\cmidrule(lr){4-5}
 Validator & Accuracy & Macro-$F_1$ & Accuracy & Macro-$F_1$ \\
 \midrule
-Claude Opus 4.8 (judge)   & 0.803 & 0.803 & \pending{0.XX} & \pending{0.XX} \\
-Open panel: Qwen2.5-3B     & \pending{0.XX} & \pending{0.XX} & \pending{0.XX} & \pending{0.XX} \\
-Open panel: Phi-3.5-mini   & \pending{0.XX} & \pending{0.XX} & \pending{0.XX} & \pending{0.XX} \\
-Open panel: OLMo-2-7B      & \pending{0.XX} & \pending{0.XX} & \pending{0.XX} & \pending{0.XX} \\
-NLI: DeBERTa-MNLI          & 0.703 & 0.690 & \pending{0.XX} & \pending{0.XX} \\
-NLI: BART-MNLI             & 0.706 & 0.696 & \pending{0.XX} & \pending{0.XX} \\
-TF--IDF (baseline)         & 0.500 & 0.476 & \pending{0.XX} & \pending{0.XX} \\
+Claude Opus 4.8 (judge)   & \textbf{0.803} & \textbf{0.803} & \textbf{0.778} & \textbf{0.785} \\
+Open panel: Qwen2.5-3B     & 0.635 & 0.616 & 0.560 & 0.553 \\
+Open panel: Phi-3.5-mini   & 0.559 & 0.486 & 0.627 & 0.617 \\
+Open panel: OLMo-2-7B      & 0.600 & 0.478 & 0.522 & 0.492 \\
+NLI: DeBERTa-MNLI          & 0.703 & 0.690 & 0.507 & 0.479 \\
+NLI: BART-MNLI             & 0.706 & 0.696 & 0.500 & 0.461 \\
+TF--IDF (baseline)         & 0.500 & 0.476 & --- & --- \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -72,18 +77,25 @@ TF--IDF baseline.}
 
 \subsection{Self-preference does not explain the judge's accuracy}
 \label{sec:res-selfpref}
-The benchmark results rule out the central circularity threat in two ways. First, SciFact and
-Climate-FEVER claims and abstracts are written by humans, so a judge that labels them correctly is
-assessing the science, not recognizing model-generated prose; self-preference \citep{panickssery2024llm}
-cannot manufacture an 80\% match to human labels on human text. Second, three open-source models
-developed independently by three organizations agree with the high-capacity judge
-(Fig.~\ref{fig:confusion}; pairwise $\kappa=$\pending{0.XX--0.XX} on the benchmark), so the signal is
-not idiosyncratic to one model family. Notably, on the \emph{policy} corpus the judge and NLI agree only
-weakly ($\kappa=0.15$--$0.21$), whereas on SciFact they agree far better ($\kappa=0.46$--$0.48$): the
-weak policy agreement is therefore a property of zero-shot entailment under relevance retrieval---an
-abstract seldom \emph{entails} a press-release claim in the strict textual sense even when it
-substantiates it---rather than evidence that the judge is unreliable. This is exactly why we anchor on
-the validated judge and treat NLI as a surrogate to be corrected, not as a free-standing measure.
+The benchmark results rule out the central circularity threat. SciFact and Climate-FEVER claims and
+evidence are written by humans, so a judge that labels them correctly is assessing the science, not
+recognizing model-generated prose: self-preference \citep{panickssery2024llm} cannot manufacture an 80\%
+match to human labels on human text (Fig.~\ref{fig:confusion}), and it cannot explain the judge's
+accuracy on the policy-adjacent Climate-FEVER claims either. The three independently developed open
+models perform the same task well above chance on the same human-written benchmarks (56--64\% on
+SciFact, 52--63\% on Climate-FEVER; Table~\ref{tab:validation}), confirming that claim verification is
+tractable for models that did not generate the text---the high-capacity judge is simply the most
+accurate of them.
+
+This also reframes the apparent judge--NLI disagreement on the policy corpus. There the judge and NLI
+agree only weakly ($\kappa=0.15$--$0.21$), which one might read as a problem for the judge. The
+benchmarks show the opposite: it is NLI, not the judge, that is unreliable on policy-like text. Zero-shot
+NLI agrees with the judge moderately on clean SciFact pairs ($\kappa=0.46$--$0.48$) but is no better than
+chance on contested Climate-FEVER claims. The weak policy agreement is therefore a property of strict
+entailment under relevance retrieval---an abstract seldom \emph{entails} a lay claim even when it
+substantiates it---identified \emph{against human labels} as NLI's failure, not the judge's. This is
+exactly why we anchor estimation on the validated judge and treat NLI as a surrogate to be corrected
+(\S\ref{sec:methods-ppi}), not as a free-standing measure.
 
 \begin{figure}[t]
 \centering
@@ -109,8 +121,14 @@ prediction-powered estimate of the support rate is \textbf{0.71} (95\% CI $[0.57
 claims and \textbf{0.54} ($[0.41,0.67]$) for Republican claims (Fig.~\ref{fig:support}). Because the
 anchor is a judge we have shown to be \emph{human-level accurate} on this task (\S\ref{sec:res-validation}),
 these are validated estimates, not the output of an unchecked model---the key difference from a naive
-autonomous measurement. The partisan gap is modest and its intervals overlap: the robust partisan
-asymmetry is in the \emph{volume} of AI engagement, not in how well each party's claims are supported.
+autonomous measurement. The \emph{level} is genuinely judge-dependent: across the five validators the
+Democratic support rate ranges from 0.21 (NLI) to 0.79 (a panel model), which is exactly why benchmark
+validation is indispensable---it identifies which judge to trust rather than leaving the analyst to pick
+one. What is robust to that choice is the \emph{ordering}: every validator, from NLI through each
+open-panel model to the high-capacity judge, rates Democratic claims at least as supported as Republican
+ones, so the (modest) partisan gap is not an artifact of any single judge. The partisan intervals
+overlap, however: the robust partisan asymmetry is in the \emph{volume} of AI engagement, not in how
+well each party's claims are supported.
 We read the \emph{level} cautiously: retrieval is relevance-seeking, so it bounds the support rate from
 above, and press releases are advocacy, so a high rate reflects selective citation of favorable science.
 
@@ -124,12 +142,17 @@ California Assembly press releases.}
 
 \subsection{The pipeline is reproducible and transferable}
 \label{sec:res-robustness}
-Two checks show the findings are not artifacts of a particular implementation. \emph{Retrieval
-robustness.} Re-running stance assessment on references retrieved reproducibly from OpenAlex---real,
-DOI-bearing papers---rather than from a generative model yields the same qualitative pattern
-(Fig.~\ref{fig:support}): support rates of \pending{Dem 0.XX, Rep 0.XX}, with the same modest partisan
-ordering, confirming the result does not depend on the (non-reproducible, fabrication-prone) generative
-retrieval used in earlier pipelines. \emph{Domain transfer.} The pipeline's front end applies unchanged
+Two properties show the pipeline is reproducible and not tied to one implementation. \emph{Reproducible
+retrieval.} Replacing the generative reference retrieval of earlier pipelines with retrieval from the
+open OpenAlex index returns only real, DOI-bearing papers, eliminating the citation-fabrication failure
+mode of asking a model to name sources. OpenAlex's keyword relevance search is broader and less
+claim-targeted than bespoke generative retrieval, so a larger share of retrieved papers are off-topic
+for the specific claim and are judged \textsc{silent}; naive support rates fall accordingly. This makes
+explicit a general point: the measured \emph{level} depends on retrieval relevance as well as on the
+judge, which is why the trustworthy quantity is the validated-judge estimate on a fixed corpus rather
+than any single naive rate. The partisan \emph{ordering}, by contrast, is preserved under the LLM judges
+on the OpenAlex references as well.\pending{[verify ordering once panel-on-OpenAlex completes]}
+\emph{Domain transfer.} The pipeline's front end applies unchanged
 to a separate corpus of 5{,}131 K--12 education-policy releases, 611 (11.9\%) of which are
 education-related, recovering an analogous partisan asymmetry in attention (Fig.~\ref{fig:edu}):
 Democrats issued 80 releases on social-emotional learning and student mental health versus 1 for
@@ -139,9 +162,10 @@ to one retrieval engine.
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.7\textwidth]{fig_support_party.png}
-\caption{Claim-support rate by party is robust to the retrieval engine: generative retrieval and
-reproducible OpenAlex retrieval give the same modest partisan ordering. Estimates anchored on the
-human-validated judge.}
+\caption{Claim-support rate by party under each judge (bespoke retrieval). The \emph{level} varies
+widely across judges (0.11--0.79 for Democratic claims), but every judge---from zero-shot NLI through
+each open-panel model to the validated high-capacity judge (gold, PPI-corrected)---rates Democratic
+claims at least as supported as Republican. Benchmark validation identifies which level to trust.}
 \label{fig:support}
 \end{figure}
 

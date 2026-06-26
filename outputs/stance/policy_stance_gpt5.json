@@ -1,0 +1,37 @@
+{
+  "refs": "gpt5",
+  "n_pairs": 618,
+  "validators": [
+    "nli_deberta",
+    "nli_bart",
+    "llm:Qwen/Qwen2.5-3B-Instruct",
+    "llm:microsoft/Phi-3.5-mini-instruct",
+    "llm:allenai/OLMo-2-1124-7B-Instruct"
+  ],
+  "support_rate_by_party": {
+    "nli_deberta": {
+      "dem": 0.208,
+      "rep": 0.109
+    },
+    "nli_bart": {
+      "dem": 0.211,
+      "rep": 0.097
+    },
+    "llm:Qwen/Qwen2.5-3B-Instruct": {
+      "dem": 0.336,
+      "rep": 0.255
+    },
+    "llm:microsoft/Phi-3.5-mini-instruct": {
+      "dem": 0.792,
+      "rep": 0.693
+    },
+    "llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "dem": 0.592,
+      "rep": 0.474
+    }
+  },
+  "by_party_n": {
+    "dem": 289,
+    "rep": 329
+  }
+}

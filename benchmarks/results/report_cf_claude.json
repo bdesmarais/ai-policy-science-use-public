@@ -1,0 +1,54 @@
+{
+  "benchmark": "climate_fever",
+  "n_pairs": 450,
+  "gold_distribution": {
+    "silent": 150,
+    "support": 150,
+    "refute": 150
+  },
+  "validators": {
+    "claude": {
+      "n": 45,
+      "accuracy": 0.778,
+      "macro_f1": 0.785,
+      "per_class": {
+        "support": {
+          "precision": 1.0,
+          "recall": 0.733,
+          "f1": 0.846,
+          "support": 15
+        },
+        "refute": {
+          "precision": 0.846,
+          "recall": 0.733,
+          "f1": 0.786,
+          "support": 15
+        },
+        "silent": {
+          "precision": 0.619,
+          "recall": 0.867,
+          "f1": 0.722,
+          "support": 15
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 11,
+          "refute": 0,
+          "silent": 4
+        },
+        "refute": {
+          "support": 0,
+          "refute": 11,
+          "silent": 4
+        },
+        "silent": {
+          "support": 0,
+          "refute": 2,
+          "silent": 13
+        }
+      }
+    }
+  },
+  "pairwise_kappa": {}
+}

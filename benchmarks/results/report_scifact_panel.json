@@ -1,0 +1,151 @@
+{
+  "benchmark": "scifact",
+  "n_pairs": 340,
+  "gold_distribution": {
+    "silent": 131,
+    "support": 138,
+    "refute": 71
+  },
+  "validators": {
+    "llm:Qwen/Qwen2.5-3B-Instruct": {
+      "n": 340,
+      "accuracy": 0.635,
+      "macro_f1": 0.616,
+      "per_class": {
+        "support": {
+          "precision": 0.814,
+          "recall": 0.572,
+          "f1": 0.672,
+          "support": 138
+        },
+        "refute": {
+          "precision": 0.475,
+          "recall": 0.535,
+          "f1": 0.503,
+          "support": 71
+        },
+        "silent": {
+          "precision": 0.607,
+          "recall": 0.756,
+          "f1": 0.673,
+          "support": 131
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 79,
+          "refute": 16,
+          "silent": 43
+        },
+        "refute": {
+          "support": 12,
+          "refute": 38,
+          "silent": 21
+        },
+        "silent": {
+          "support": 6,
+          "refute": 26,
+          "silent": 99
+        }
+      }
+    },
+    "llm:microsoft/Phi-3.5-mini-instruct": {
+      "n": 340,
+      "accuracy": 0.559,
+      "macro_f1": 0.486,
+      "per_class": {
+        "support": {
+          "precision": 0.517,
+          "recall": 0.884,
+          "f1": 0.652,
+          "support": 138
+        },
+        "refute": {
+          "precision": 0.4,
+          "recall": 0.197,
+          "f1": 0.264,
+          "support": 71
+        },
+        "silent": {
+          "precision": 0.783,
+          "recall": 0.412,
+          "f1": 0.54,
+          "support": 131
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 122,
+          "refute": 7,
+          "silent": 9
+        },
+        "refute": {
+          "support": 51,
+          "refute": 14,
+          "silent": 6
+        },
+        "silent": {
+          "support": 63,
+          "refute": 14,
+          "silent": 54
+        }
+      }
+    },
+    "llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "n": 340,
+      "accuracy": 0.6,
+      "macro_f1": 0.478,
+      "per_class": {
+        "support": {
+          "precision": 0.588,
+          "recall": 0.725,
+          "f1": 0.649,
+          "support": 138
+        },
+        "refute": {
+          "precision": 0.444,
+          "recall": 0.056,
+          "f1": 0.1,
+          "support": 71
+        },
+        "silent": {
+          "precision": 0.621,
+          "recall": 0.763,
+          "f1": 0.685,
+          "support": 131
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 100,
+          "refute": 3,
+          "silent": 35
+        },
+        "refute": {
+          "support": 41,
+          "refute": 4,
+          "silent": 26
+        },
+        "silent": {
+          "support": 29,
+          "refute": 2,
+          "silent": 100
+        }
+      }
+    }
+  },
+  "pairwise_kappa": {
+    "llm:Qwen/Qwen2.5-3B-Instruct~llm:microsoft/Phi-3.5-mini-instruct": {
+      "kappa": 0.317,
+      "n": 340
+    },
+    "llm:Qwen/Qwen2.5-3B-Instruct~llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "kappa": 0.383,
+      "n": 340
+    },
+    "llm:microsoft/Phi-3.5-mini-instruct~llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "kappa": 0.443,
+      "n": 340
+    }
+  }
+}

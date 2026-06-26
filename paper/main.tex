@@ -32,9 +32,10 @@ self-preference bias. We close this trust gap by validating the autonomous judge
 human-labeled benchmarks for the identical task. We build an open, no-paid-API pipeline---claim
 extraction, reproducible reference retrieval from OpenAlex, and stance judging---and show that a
 high-capacity LLM judge attains human-level accuracy on scientific claim verification (80\% accuracy,
-0.80 macro-$F_1$ on SciFact; \pending{XX}\% on contested Climate-FEVER claims), that a panel of three
-independently developed open-source models agrees with it, and that, because the benchmark text is
-human-written, this accuracy cannot be an artifact of self-preference. Applying the validated pipeline
+0.80 macro-$F_1$ on SciFact; 78\% on contested Climate-FEVER claims, where strict natural-language
+inference collapses to chance), that independently developed open-source models perform the task well
+above chance, and that, because the benchmark text is human-written, this accuracy cannot be an artifact
+of self-preference. Applying the validated pipeline
 to a decade of California legislative communication on artificial intelligence, we recover a sharp
 partisan asymmetry in engagement and estimate the rate at which legislators' claims are backed by
 science, with valid confidence intervals via prediction-powered inference anchored on the validated

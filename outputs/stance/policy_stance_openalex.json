@@ -1,0 +1,22 @@
+{
+  "refs": "openalex",
+  "n_pairs": 911,
+  "validators": [
+    "nli_deberta",
+    "nli_bart"
+  ],
+  "support_rate_by_party": {
+    "nli_deberta": {
+      "dem": 0.048,
+      "rep": 0.065
+    },
+    "nli_bart": {
+      "dem": 0.006,
+      "rep": 0.004
+    }
+  },
+  "by_party_n": {
+    "dem": 463,
+    "rep": 448
+  }
+}

@@ -1,3 +1,9 @@
   rep 12: fail <HTTPError 429: 'Too Many Requests'>
   rep 16: fail <HTTPError 429: 'Too Many Requests'>
   rep 20/100, last 5 refs
+  rep 20: fail <HTTPError 429: 'Too Many Requests'>
+  rep 40/100, last 5 refs
+  rep 60/100, last 5 refs
+  rep 80/100, last 5 refs
+  rep 100/100, last 5 refs
+REP DONE: 100 claims, 448 refs

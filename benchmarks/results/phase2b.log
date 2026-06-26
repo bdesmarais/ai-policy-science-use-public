@@ -1,1 +1,151 @@
 [p2b] waiting for SciFact panel...
+[p2b] === Climate-FEVER benchmark (NLI + panel) ===
+[benchmark_validation] climate_fever: 450 pairs gold={'silent': 150, 'support': 150, 'refute': 150}
+  validator: nli_deberta ...
+Device set to use mps
+    done in 26.4s
+  validator: nli_bart ...
+Device set to use mps
+    done in 12.3s
+  validator: llm:Qwen/Qwen2.5-3B-Instruct ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.85s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.44s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    Qwen/Qwen2.5-3B-Instruct: 50/450 (0.39s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 100/450 (0.38s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 150/450 (0.37s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 200/450 (0.37s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 250/450 (0.37s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 300/450 (0.37s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 350/450 (0.37s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 400/450 (0.37s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 450/450 (0.37s/pair)
+    done in 170.5s
+  validator: llm:microsoft/Phi-3.5-mini-instruct ...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.23s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.85s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.91s/it]
+    microsoft/Phi-3.5-mini-instruct: 50/450 (0.62s/pair)
+    microsoft/Phi-3.5-mini-instruct: 100/450 (0.60s/pair)
+    microsoft/Phi-3.5-mini-instruct: 150/450 (0.61s/pair)
+    microsoft/Phi-3.5-mini-instruct: 200/450 (0.61s/pair)
+    microsoft/Phi-3.5-mini-instruct: 250/450 (0.61s/pair)
+    microsoft/Phi-3.5-mini-instruct: 300/450 (0.60s/pair)
+    microsoft/Phi-3.5-mini-instruct: 350/450 (0.60s/pair)
+    microsoft/Phi-3.5-mini-instruct: 400/450 (0.60s/pair)
+    microsoft/Phi-3.5-mini-instruct: 450/450 (0.60s/pair)
+    done in 277.3s
+  validator: llm:allenai/OLMo-2-1124-7B-Instruct ...
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.25s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.77s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.46s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.22s/it]
+    allenai/OLMo-2-1124-7B-Instruct: 50/450 (0.77s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 100/450 (0.77s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 150/450 (0.77s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 200/450 (0.76s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 250/450 (0.77s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 300/450 (0.77s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 350/450 (0.77s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 400/450 (0.77s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 450/450 (0.77s/pair)
+    done in 363.5s
+
+=== nli_deberta ===  n=450  acc=0.507  macroF1=0.479
+    support  P=0.758 R=0.167 F1=0.273 (n=150)
+    refute   P=0.731 R=0.580 F1=0.647 (n=150)
+    silent   P=0.389 R=0.773 F1=0.518 (n=150)
+
+=== nli_bart ===  n=450  acc=0.5  macroF1=0.461
+    support  P=0.792 R=0.127 F1=0.218 (n=150)
+    refute   P=0.676 R=0.653 F1=0.664 (n=150)
+    silent   P=0.384 R=0.720 F1=0.501 (n=150)
+
+=== llm:Qwen/Qwen2.5-3B-Instruct ===  n=450  acc=0.56  macroF1=0.553
+    support  P=0.818 R=0.420 F1=0.555 (n=150)
+    refute   P=0.524 R=0.800 F1=0.633 (n=150)
+    silent   P=0.479 R=0.460 F1=0.469 (n=150)
+
+=== llm:microsoft/Phi-3.5-mini-instruct ===  n=450  acc=0.627  macroF1=0.617
+    support  P=0.594 R=0.840 F1=0.696 (n=150)
+    refute   P=0.633 R=0.587 F1=0.609 (n=150)
+    silent   P=0.687 R=0.453 F1=0.546 (n=150)
+
+=== llm:allenai/OLMo-2-1124-7B-Instruct ===  n=450  acc=0.522  macroF1=0.492
+    support  P=0.798 R=0.473 F1=0.594 (n=150)
+    refute   P=0.853 R=0.193 F1=0.315 (n=150)
+    silent   P=0.413 R=0.900 F1=0.566 (n=150)
+
+[benchmark_validation] wrote results/report_cf.json + preds_cf.csv
+[p2b] === Climate-FEVER Claude scoring ===
+[benchmark_validation] climate_fever: 450 pairs gold={'silent': 150, 'support': 150, 'refute': 150}
+  validator: claude ...
+    done in 0.0s
+
+=== claude ===  n=45  acc=0.778  macroF1=0.785
+    support  P=1.000 R=0.733 F1=0.846 (n=15)
+    refute   P=0.846 R=0.733 F1=0.786 (n=15)
+    silent   P=0.619 R=0.867 F1=0.722 (n=15)
+
+[benchmark_validation] wrote results/report_cf_claude.json + preds_cf_claude.csv
+[p2b] === policy stance: GPT-5 refs (NLI + panel) ===
+[policy_stance:gpt5] 618 pairs ({'dem': 289, 'rep': 329})
+  validator nli_deberta ...
+Device set to use mps
+  validator nli_bart ...
+Device set to use mps
+  validator llm:Qwen/Qwen2.5-3B-Instruct ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.34s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.42s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    Qwen/Qwen2.5-3B-Instruct: 50/618 (0.43s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 100/618 (0.42s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 150/618 (0.42s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 200/618 (0.41s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 250/618 (0.41s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 300/618 (0.41s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 350/618 (0.40s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 400/618 (0.40s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 450/618 (0.40s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 500/618 (0.40s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 550/618 (0.40s/pair)
+    Qwen/Qwen2.5-3B-Instruct: 600/618 (0.40s/pair)
+  validator llm:microsoft/Phi-3.5-mini-instruct ...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.22s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.92s/it]
+    microsoft/Phi-3.5-mini-instruct: 50/618 (0.64s/pair)
+    microsoft/Phi-3.5-mini-instruct: 100/618 (0.63s/pair)
+    microsoft/Phi-3.5-mini-instruct: 150/618 (0.65s/pair)
+    microsoft/Phi-3.5-mini-instruct: 200/618 (0.64s/pair)
+    microsoft/Phi-3.5-mini-instruct: 250/618 (0.64s/pair)
+    microsoft/Phi-3.5-mini-instruct: 300/618 (0.64s/pair)
+    microsoft/Phi-3.5-mini-instruct: 350/618 (0.63s/pair)
+    microsoft/Phi-3.5-mini-instruct: 400/618 (0.63s/pair)
+    microsoft/Phi-3.5-mini-instruct: 450/618 (0.63s/pair)
+    microsoft/Phi-3.5-mini-instruct: 500/618 (0.63s/pair)
+    microsoft/Phi-3.5-mini-instruct: 550/618 (0.63s/pair)
+    microsoft/Phi-3.5-mini-instruct: 600/618 (0.63s/pair)
+  validator llm:allenai/OLMo-2-1124-7B-Instruct ...
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.24s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.71s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.22s/it]
+    allenai/OLMo-2-1124-7B-Instruct: 50/618 (0.81s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 100/618 (0.82s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 150/618 (0.83s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 200/618 (0.82s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 250/618 (0.81s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 300/618 (0.81s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 350/618 (0.80s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 400/618 (0.80s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 450/618 (0.80s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 500/618 (0.80s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 550/618 (0.80s/pair)
+    allenai/OLMo-2-1124-7B-Instruct: 600/618 (0.82s/pair)
+  nli_deberta: support-rate dem=0.208 rep=0.109  dist={'silent': 477, 'support': 96, 'refute': 45}
+  nli_bart: support-rate dem=0.211 rep=0.097  dist={'silent': 459, 'support': 93, 'refute': 66}
+  llm:Qwen/Qwen2.5-3B-Instruct: support-rate dem=0.336 rep=0.255  dist={'silent': 296, 'refute': 141, 'support': 181}
+  llm:microsoft/Phi-3.5-mini-instruct: support-rate dem=0.792 rep=0.693  dist={'support': 457, 'silent': 114, 'refute': 47}
+  llm:allenai/OLMo-2-1124-7B-Instruct: support-rate dem=0.592 rep=0.474  dist={'silent': 266, 'support': 327, 'refute': 25}
+[policy_stance:gpt5] wrote stance/policy_stance_gpt5.json
+[p2b] === policy stance: OpenAlex refs (NLI) ===
+[policy_stance:openalex] 911 pairs ({'dem': 463, 'rep': 448})
+  validator nli_deberta ...
+Device set to use mps
+  validator nli_bart ...
+Device set to use mps
+  nli_deberta: support-rate dem=0.048 rep=0.065  dist={'silent': 850, 'support': 51, 'refute': 10}
+  nli_bart: support-rate dem=0.006 rep=0.004  dist={'silent': 828, 'refute': 78, 'support': 5}
+[policy_stance:openalex] wrote stance/policy_stance_openalex.json
+[p2b] ALL DONE

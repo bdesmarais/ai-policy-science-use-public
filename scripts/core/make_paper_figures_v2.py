@@ -84,28 +84,35 @@ def fig_confusion():
 
 
 def fig_support():
-    files = {"openalex": os.path.join(STANCE, "policy_stance_openalex.json"),
-             "gpt5": os.path.join(STANCE, "policy_stance_gpt5.json")}
-    data = {k: json.load(open(p)) for k, p in files.items() if os.path.exists(p)}
-    if not data:
-        print("no policy_stance files yet"); return
-    fig, ax = plt.subplots(figsize=(8, 4.6))
-    # average support rate across validators per (retrieval, party)
-    groups = []
-    for retr, d in data.items():
-        rates = d["support_rate_by_party"]
-        for party in ["dem", "rep"]:
-            vals = [rates[v].get(party) for v in rates if rates[v].get(party) is not None]
-            groups.append((f"{retr}\n{party}", np.mean(vals) if vals else 0, np.std(vals) if vals else 0, party))
-    x = np.arange(len(groups))
-    colors = ["#2166AC" if g[3] == "dem" else "#B2182B" for g in groups]
-    ax.bar(x, [g[1] for g in groups], yerr=[g[2] for g in groups], color=colors, capsize=4)
-    ax.set_xticks(x); ax.set_xticklabels([g[0] for g in groups], fontsize=9)
-    ax.set_ylabel("Share judged 'support' (mean across validators)")
-    ax.set_title("Claim-support rate by party and retrieval method")
-    ax.set_ylim(0, 1)
-    for xi, g in zip(x, groups):
-        ax.text(xi, g[1] + 0.02, f"{g[1]:.2f}", ha="center", fontsize=8)
+    """Support rate by party across judges (bespoke GPT-5 retrieval). Shows the level is
+    judge-dependent (huge spread) while the Dem>=Rep ordering is robust; the validated judge
+    (Claude, PPI-corrected) is the anchor."""
+    p = os.path.join(STANCE, "policy_stance_gpt5.json")
+    if not os.path.exists(p):
+        print("no policy_stance_gpt5 yet"); return
+    d = json.load(open(p))["support_rate_by_party"]
+    order = [("nli_deberta", "NLI\nDeBERTa"), ("nli_bart", "NLI\nBART"),
+             ("llm:Qwen/Qwen2.5-3B-Instruct", "Qwen2.5\n3B"),
+             ("llm:allenai/OLMo-2-1124-7B-Instruct", "OLMo-2\n7B"),
+             ("llm:microsoft/Phi-3.5-mini-instruct", "Phi-3.5\nmini")]
+    rows = [(lab, d[k]["dem"], d[k]["rep"]) for k, lab in order if k in d]
+    # validated judge (Claude) PPI estimate
+    vr = json.load(open(os.path.join(STANCE, "validation_report.json")))["support_rate_by_party_ppi"]
+    rows.append(("Claude judge\n(PPI, validated)", vr["dem"]["estimate"], vr["rep"]["estimate"]))
+    fig, ax = plt.subplots(figsize=(9, 4.8))
+    x = np.arange(len(rows)); w = 0.38
+    dem = [r[1] for r in rows]; rep = [r[2] for r in rows]
+    b1 = ax.bar(x - w/2, dem, w, label="Democratic", color="#2166AC")
+    b2 = ax.bar(x + w/2, rep, w, label="Republican", color="#B2182B")
+    # highlight the validated-judge anchor
+    ax.axvspan(len(rows)-1.5, len(rows)-0.5, color="gold", alpha=0.15)
+    ax.set_xticks(x); ax.set_xticklabels([r[0] for r in rows], fontsize=8)
+    ax.set_ylabel("Share of claims judged 'support'"); ax.set_ylim(0, 1)
+    ax.set_title("Claim-support rate by party is judge-dependent; Dem $\\geq$ Rep ordering is robust")
+    ax.legend(loc="upper left", fontsize=9)
+    for xi, dv, rv in zip(x, dem, rep):
+        ax.text(xi - w/2, dv + 0.01, f"{dv:.2f}", ha="center", fontsize=7)
+        ax.text(xi + w/2, rv + 0.01, f"{rv:.2f}", ha="center", fontsize=7)
     plt.tight_layout(); plt.savefig(os.path.join(FIG, "fig_support_party.png"), dpi=160)
     print("wrote fig_support_party.png")
 

@@ -1,0 +1,263 @@
+{
+  "benchmark": "climate_fever",
+  "n_pairs": 450,
+  "gold_distribution": {
+    "silent": 150,
+    "support": 150,
+    "refute": 150
+  },
+  "validators": {
+    "nli_deberta": {
+      "n": 450,
+      "accuracy": 0.507,
+      "macro_f1": 0.479,
+      "per_class": {
+        "support": {
+          "precision": 0.758,
+          "recall": 0.167,
+          "f1": 0.273,
+          "support": 150
+        },
+        "refute": {
+          "precision": 0.731,
+          "recall": 0.58,
+          "f1": 0.647,
+          "support": 150
+        },
+        "silent": {
+          "precision": 0.389,
+          "recall": 0.773,
+          "f1": 0.518,
+          "support": 150
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 25,
+          "refute": 4,
+          "silent": 121
+        },
+        "refute": {
+          "support": 2,
+          "refute": 87,
+          "silent": 61
+        },
+        "silent": {
+          "support": 6,
+          "refute": 28,
+          "silent": 116
+        }
+      }
+    },
+    "nli_bart": {
+      "n": 450,
+      "accuracy": 0.5,
+      "macro_f1": 0.461,
+      "per_class": {
+        "support": {
+          "precision": 0.792,
+          "recall": 0.127,
+          "f1": 0.218,
+          "support": 150
+        },
+        "refute": {
+          "precision": 0.676,
+          "recall": 0.653,
+          "f1": 0.664,
+          "support": 150
+        },
+        "silent": {
+          "precision": 0.384,
+          "recall": 0.72,
+          "f1": 0.501,
+          "support": 150
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 19,
+          "refute": 8,
+          "silent": 123
+        },
+        "refute": {
+          "support": 2,
+          "refute": 98,
+          "silent": 50
+        },
+        "silent": {
+          "support": 3,
+          "refute": 39,
+          "silent": 108
+        }
+      }
+    },
+    "llm:Qwen/Qwen2.5-3B-Instruct": {
+      "n": 450,
+      "accuracy": 0.56,
+      "macro_f1": 0.553,
+      "per_class": {
+        "support": {
+          "precision": 0.818,
+          "recall": 0.42,
+          "f1": 0.555,
+          "support": 150
+        },
+        "refute": {
+          "precision": 0.524,
+          "recall": 0.8,
+          "f1": 0.633,
+          "support": 150
+        },
+        "silent": {
+          "precision": 0.479,
+          "recall": 0.46,
+          "f1": 0.469,
+          "support": 150
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 63,
+          "refute": 35,
+          "silent": 52
+        },
+        "refute": {
+          "support": 7,
+          "refute": 120,
+          "silent": 23
+        },
+        "silent": {
+          "support": 7,
+          "refute": 74,
+          "silent": 69
+        }
+      }
+    },
+    "llm:microsoft/Phi-3.5-mini-instruct": {
+      "n": 450,
+      "accuracy": 0.627,
+      "macro_f1": 0.617,
+      "per_class": {
+        "support": {
+          "precision": 0.594,
+          "recall": 0.84,
+          "f1": 0.696,
+          "support": 150
+        },
+        "refute": {
+          "precision": 0.633,
+          "recall": 0.587,
+          "f1": 0.609,
+          "support": 150
+        },
+        "silent": {
+          "precision": 0.687,
+          "recall": 0.453,
+          "f1": 0.546,
+          "support": 150
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 126,
+          "refute": 11,
+          "silent": 13
+        },
+        "refute": {
+          "support": 44,
+          "refute": 88,
+          "silent": 18
+        },
+        "silent": {
+          "support": 42,
+          "refute": 40,
+          "silent": 68
+        }
+      }
+    },
+    "llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "n": 450,
+      "accuracy": 0.522,
+      "macro_f1": 0.492,
+      "per_class": {
+        "support": {
+          "precision": 0.798,
+          "recall": 0.473,
+          "f1": 0.594,
+          "support": 150
+        },
+        "refute": {
+          "precision": 0.853,
+          "recall": 0.193,
+          "f1": 0.315,
+          "support": 150
+        },
+        "silent": {
+          "precision": 0.413,
+          "recall": 0.9,
+          "f1": 0.566,
+          "support": 150
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 71,
+          "refute": 1,
+          "silent": 78
+        },
+        "refute": {
+          "support": 7,
+          "refute": 29,
+          "silent": 114
+        },
+        "silent": {
+          "support": 11,
+          "refute": 4,
+          "silent": 135
+        }
+      }
+    }
+  },
+  "pairwise_kappa": {
+    "nli_deberta~nli_bart": {
+      "kappa": 0.611,
+      "n": 450
+    },
+    "nli_deberta~llm:Qwen/Qwen2.5-3B-Instruct": {
+      "kappa": 0.324,
+      "n": 450
+    },
+    "nli_deberta~llm:microsoft/Phi-3.5-mini-instruct": {
+      "kappa": 0.19,
+      "n": 450
+    },
+    "nli_deberta~llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "kappa": 0.16,
+      "n": 450
+    },
+    "nli_bart~llm:Qwen/Qwen2.5-3B-Instruct": {
+      "kappa": 0.327,
+      "n": 450
+    },
+    "nli_bart~llm:microsoft/Phi-3.5-mini-instruct": {
+      "kappa": 0.19,
+      "n": 450
+    },
+    "nli_bart~llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "kappa": 0.135,
+      "n": 450
+    },
+    "llm:Qwen/Qwen2.5-3B-Instruct~llm:microsoft/Phi-3.5-mini-instruct": {
+      "kappa": 0.39,
+      "n": 450
+    },
+    "llm:Qwen/Qwen2.5-3B-Instruct~llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "kappa": 0.262,
+      "n": 450
+    },
+    "llm:microsoft/Phi-3.5-mini-instruct~llm:allenai/OLMo-2-1124-7B-Instruct": {
+      "kappa": 0.266,
+      "n": 450
+    }
+  }
+}
