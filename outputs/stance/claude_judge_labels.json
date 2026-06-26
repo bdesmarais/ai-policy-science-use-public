@@ -1,0 +1,246 @@
+{
+ "judge": "Claude Opus 4.8 (claude-opus-4-8), no API key \u2014 session judgment under Max plan",
+ "n": 60,
+ "labels": {
+  "dem|20171005-bermans-bill-advancing-green-trucking-technologies-signed-law.txt|5|10.1177/0361198119840340": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20180921-assemblymember-cecilia-aguiar-currys-wildfire-recovery-bill-package-signed.txt|15|10.1126/sciadv.ade5678": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20190429-ramos-bill-strengthen-native-american-cultural-preservation-passes.txt|4|turn0search13": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20190909-equal-pay-equal-play-bill-ab-467-signed-law.txt|3|turn0search6": {
+   "stance": "silent",
+   "party": "dem"
+  },
+  "dem|20200207-boerner-horvath-holds-hearing-identify-sea-level-rise-threats-san-francisco.txt|2|noaa-32384": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20200503-assemblywoman-quirk-silva-returns-state-capitol-tackle-budget-and.txt|3|10.3390/ijerph19063219": {
+   "stance": "silent",
+   "party": "dem"
+  },
+  "dem|20210405-boerner-horvaths-bill-incentivize-electric-bicycle-purchases-passes.txt|3|turn0search11": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20210405-boerner-horvaths-bill-incentivize-electric-bicycle-purchases-passes.txt|10|turn0search2": {
+   "stance": "silent",
+   "party": "dem"
+  },
+  "dem|20210601-amid-rising-violence-state-assembly-passes-legislation-strengthen-hate.txt|3|10.1177/1462474513482655": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20210601-farmworker-wildfire-smoke-protections-act-voted-out-state-assembly.txt|4|turn0search6": {
+   "stance": "silent",
+   "party": "dem"
+  },
+  "dem|20220907-assemblymember-alex-lee-announces-additional-138-million-secured-fund-local.txt|8|turn0search2": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20220928-loma-linda-university-childrens-hospital-celebrates-new-funding-innovative.txt|1|turn0search0": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20230222-assemblywoman-pilar-schiavo-introduces-bill-would-ensure-more-affordable.txt|5|10.1001/jama.2017.17985": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20230518-assemblywoman-pilar-schiavo-and-los-angeles-county-delegation-vote-support.txt|3|turn0search2": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20230712-state-california-delivers-80m-port-hueneme-paced-project.txt|3|10.3389/fmars.2025.1664611": {
+   "stance": "silent",
+   "party": "dem"
+  },
+  "dem|20230831-assemblywoman-pilar-schiavo-and-state-senator-henry-stern-denounce-cpuc.txt|4|turn0search5": {
+   "stance": "mixed",
+   "party": "dem"
+  },
+  "dem|20230921-assemblywoman-pilar-schiavo-stands-california-attorney-general-rob-bonta.txt|5|turn0search2": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20231010-berman-champions-elections-bills-signed-governor.txt|6|turn0search15": {
+   "stance": "mixed",
+   "party": "dem"
+  },
+  "dem|20240417-assemblywoman-sorias-ab-2104-and-ab-3275-pass-first-policy-committees.txt|12|10.1001/jama.2020.8760": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20240430-assemblywoman-schiavo-introduces-click-cancel-bill-protect-consumers.txt|3|self-financial-2025-06-13-cost-of-unused-subscriptions": {
+   "stance": "refute",
+   "party": "dem"
+  },
+  "dem|20250102-assemblywoman-pilar-schiavo-reappointed-serve-chair-assembly-military-and.txt|3|turn0search0": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20250409-assemblymember-connolly-passes-four-bills-through-policy-committees.txt|3|CA-AB419-2025-Analysis": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|20250505-papan-bill-restrict-harmful-synthetic-chemicals-cosmetics-and-personal-care.txt|2|turn0search5": {
+   "stance": "mixed",
+   "party": "dem"
+  },
+  "dem|20250505-papan-bill-restrict-harmful-synthetic-chemicals-cosmetics-and-personal-care.txt|7|10.1016/j.jhazmat.2019.02.041": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|assembly-panel-unanimously-approves-the-fresh-act-to-fast-track.txt|3|turn0search4": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|bill-combat-online-sexual-exploitation-signed-law.txt|4|2504.19158": {
+   "stance": "silent",
+   "party": "dem"
+  },
+  "dem|bills-senator-becker-climate-action-digital-divide-justice-reform-and-voter-equity.txt|8|Bill-to-Improve-Low-Income-Californians-Access-to-Civil-Court-Fee-Waivers-Advances-in-State-Legislature": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|fifteen-becker-bills-climate-action-social-justice-education-child.txt|3|turn0search12": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|fifteen-becker-bills-climate-action-social-justice-education-child.txt|10|turn0search2": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "dem|mobile-home-park-protections-clear-senate-housing-committee.txt|1|turn0search13": {
+   "stance": "support",
+   "party": "dem"
+  },
+  "rep|alanis-k-12-education-bills-pass-education-committee.txt|1|California Education Code \u00a7 48980.6 (2024)": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|assembly-republicans-announce-legislation-to-bring-down-gas-prices.txt|1|turn0search2": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|assembly-republicans-announce-legislation-to-bring-down-gas-prices.txt|7|turn0search9": {
+   "stance": "refute",
+   "party": "rep"
+  },
+  "rep|assemblyman-alanis-financial-literacy-bill-moves-to-the-senate.txt|3|10.16993/dfl.142": {
+   "stance": "silent",
+   "party": "rep"
+  },
+  "rep|assemblyman-essayli-introduces-ajr-6-calling-for-immediate-pause-to-artificial-intelligence-development.txt|3|10.48550/arXiv.2203.15556": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|assemblyman-hoovers-legislation-to-combat-fentanyl-in-schools-approved-by-public-safety-committee.txt|2|10.1007/s12024-018-09842-6": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|assemblyman-hoovers-legislation-to-combat-fentanyl-in-schools-approved-by-public-safety-committee.txt|4|gov.ca.gov/2024/05/28/california-seizes-more-than-5-8-million-fentanyl-pills-since-january/": {
+   "stance": "silent",
+   "party": "rep"
+  },
+  "rep|assemblyman-jeff-gonzalez-statement-on-ab-1016-advancing-out-of-committee.txt|2|70202299": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|assemblyman-jeff-gonzalez-statement-on-ab-1016-advancing-out-of-committee.txt|5|turn0search4": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|costly-new-mandate-scaqmd-will-hurt-californians-warns-senator-strickland.txt|3|turn0search0": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|demaio-introduces-california-energy-consumer-freedom-act-to-prohibit-gas-appliance-bans-and-ev-mandates.txt|1|turn0academia12": {
+   "stance": "silent",
+   "party": "rep"
+  },
+  "rep|fresno-bee-truly-green-energy-policy-would-support-oil-production-california.txt|2|turn0search14": {
+   "stance": "silent",
+   "party": "rep"
+  },
+  "rep|gallagher-beale-chosen-for-air-force-drone-program-big-win-for-the-north-state.txt|5|turn0search5": {
+   "stance": "silent",
+   "party": "rep"
+  },
+  "rep|gallagher-responds-to-announcement-of-new-vaccine-legislation-01-24-2022.txt|4|ff38efdb-5e6b-4a3e-8868-df847f988e58": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|gallagher-trump-is-right-california-is-failing-girls-sports.txt|2|10.1080/01900790.2021.1945519": {
+   "stance": "silent",
+   "party": "rep"
+  },
+  "rep|icymi-democrats-turn-special-session-into-partisan-show.txt|3|turn0search3": {
+   "stance": "refute",
+   "party": "rep"
+  },
+  "rep|icymi-democrats-turn-special-session-into-partisan-show.txt|6|turn0search5": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|lackey-introduces-legislation-to-address-critical-court-reporter-shortage-and-ensure-litigants-access-to-justice.txt|3|turn0search13": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|leader-jones-warns-californians-brace-skyrocketing-gas-prices.txt|4|turn0search0": {
+   "stance": "silent",
+   "party": "rep"
+  },
+  "rep|legislative-republicans-call-on-newsom-administration-to-be-honest-about-new-regulations-costs-for-consumers.txt|4|turn0search6": {
+   "stance": "silent",
+   "party": "rep"
+  },
+  "rep|legislative-republicans-join-law-enforcement-advocates-to-stand-up-for-public-safety.txt|3|turn0search5": {
+   "stance": "mixed",
+   "party": "rep"
+  },
+  "rep|senate-bill-268-passes-assembly-floor-now-one-step-closer-becoming-law.txt|5|10.29158/JAAPL.220032-21": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|senate-minority-leader-jones-senator-blakespear-influencer-ricci-wynne-and-others-announce.txt|1|California Department of Housing and Community Development": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|senator-grove-introduces-bill-fight-against-human-trafficking.txt|5|27066701": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|senator-grove-introduces-bill-fight-against-human-trafficking.txt|7|turn0search4": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|senator-grove-introduces-bill-fight-against-human-trafficking.txt|10|turn0search7": {
+   "stance": "silent",
+   "party": "rep"
+  },
+  "rep|senator-grove-reintroduces-bill-prioritize-california-oil-production.txt|6|10.1080/10473289.2021.1876543": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|senator-grove-reintroduces-bill-prioritize-california-oil-production.txt|9|turn0search4": {
+   "stance": "mixed",
+   "party": "rep"
+  },
+  "rep|senator-ochoa-bogh-advocates-californians-urging-action-governor-key-legislative-issues.txt|3|10.1007/s12119-023-10091-1": {
+   "stance": "support",
+   "party": "rep"
+  },
+  "rep|senator-valladares-bills-improve-affordability-increase-public-safety-and-expand.txt|3|turn0search4": {
+   "stance": "support",
+   "party": "rep"
+  }
+ }
+}

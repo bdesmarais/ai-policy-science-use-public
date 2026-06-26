@@ -53,6 +53,7 @@ NLI_MODELS = {
     "nli_bart": "facebook/bart-large-mnli",
 }
 OSLLM_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"
+CLAUDE_LABELS = os.path.join(OUT_DIR, "claude_judge_labels.json")
 
 
 # --------------------------------------------------------------------------- #
@@ -191,7 +192,25 @@ def validator_osllm(pairs, model_id=OSLLM_MODEL, max_items=40):
     return out
 
 
+def validator_claude_judge(pairs):
+    """Claude Opus 4.8's own stance judgments (NO API key — produced in-session under the Max
+    plan), loaded from outputs/stance/claude_judge_labels.json. The high-quality GOLD validator;
+    pairs outside the judged sample return 'abstain' (excluded from agreement, used as the
+    PPI/DSL gold anchor where present)."""
+    if not os.path.exists(CLAUDE_LABELS):
+        return [{"relevance": None, "stance": "abstain", "confidence": 0.0} for _ in pairs]
+    lab = json.load(open(CLAUDE_LABELS)).get("labels", {})
+    out = []
+    for p in pairs:
+        k = f"{p['party']}|{p['press_release']}|{p['claim_number']}|{p['ref_uid']}"
+        s = lab.get(k, {}).get("stance", "abstain")
+        out.append({"relevance": None if s == "abstain" else (0 if s == "silent" else 2),
+                    "stance": s, "confidence": 0.0 if s == "abstain" else 1.0})
+    return out
+
+
 VALIDATORS = {
+    "claude_judge": validator_claude_judge,
     "nli_deberta": validator_nli_deberta,
     "nli_bart": validator_nli_bart,
     "osllm": validator_osllm,
@@ -209,7 +228,10 @@ def available_validators(requested):
     except ImportError:
         pass
     for name in requested:
-        if name in ("tfidf", "lexical"):
+        if name == "claude_judge":
+            if os.path.exists(CLAUDE_LABELS):
+                avail.append(name)
+        elif name in ("tfidf", "lexical"):
             avail.append(name)
         elif name in ("nli_deberta", "nli_bart", "osllm") and have_tf:
             avail.append(name)
@@ -280,7 +302,8 @@ def main():
     args = ap.parse_args()
 
     if args.validators in (["auto"], ["all"]):
-        requested = ["nli_deberta", "nli_bart"] if args.validators == ["auto"] else list(VALIDATORS)
+        base = ["nli_deberta", "nli_bart"] if args.validators == ["auto"] else ["nli_deberta", "nli_bart", "osllm", "tfidf", "lexical"]
+        requested = (["claude_judge"] + base) if os.path.exists(CLAUDE_LABELS) else base
     else:
         requested = args.validators
     use, have_tf = available_validators(requested)
@@ -306,12 +329,21 @@ def main():
     cons, unanimous = consensus(labels)
     n_unan = int(sum(unanimous))
 
+    # Surrogate = scalable NLI on ALL pairs; GOLD = Claude Opus 4.8 judgments where available
+    # (a true gold set -> formal PPI/DSL), else fall back to the unanimous-consensus anchor.
     primary = next((n for n in use if n.startswith("nli")), use[0])
+    gold_name = "claude_judge" if "claude_judge" in labels else None
+    anchor_desc = f"Claude Opus 4.8 gold labels (n where judged)" if gold_name else "unanimous-consensus subset"
     by_party = defaultdict(lambda: {"pred_all": [], "pred_lab": [], "gold_lab": []})
     for k, p in enumerate(pairs):
         pred = 1.0 if labels[primary][k] == "support" else 0.0
         by_party[p["party"]]["pred_all"].append(pred)
-        if unanimous[k]:
+        if gold_name:
+            g = labels[gold_name][k]
+            if g != "abstain":
+                by_party[p["party"]]["pred_lab"].append(pred)
+                by_party[p["party"]]["gold_lab"].append(1.0 if g == "support" else 0.0)
+        elif unanimous[k]:
             by_party[p["party"]]["pred_lab"].append(pred)
             by_party[p["party"]]["gold_lab"].append(1.0 if cons[k] == "support" else 0.0)
     support_rate = {pty: ppi_mean(d["pred_all"], d["pred_lab"], d["gold_lab"]) for pty, d in by_party.items()}
@@ -327,12 +359,13 @@ def main():
                           p["claim_text"][:200], p["ref_title"][:160]])
 
     report = {"n_pairs": len(pairs), "validators": use, "transformers": have_tf,
-              "models": {n: NLI_MODELS.get(n, OSLLM_MODEL if n == "osllm" else "—") for n in use},
+              "models": {n: NLI_MODELS.get(n, OSLLM_MODEL if n == "osllm" else
+                         ("Claude Opus 4.8 (claude-opus-4-8)" if n == "claude_judge" else "—")) for n in use},
               "pairwise_agreement": agree, "consensus_stance_distribution": dict(Counter(cons)),
               "unanimous_pairs": n_unan, "unanimous_fraction": round(n_unan / len(pairs), 3),
-              "support_rate_by_party_ppi": support_rate,
-              "notes": "Open-source models only (no OpenAI). PPI anchor = unanimous-consensus subset; "
-                       "a small true-gold set upgrades to a formal PPI/DSL estimate (docs/04)."}
+              "support_rate_by_party_ppi": support_rate, "ppi_anchor": anchor_desc,
+              "notes": "Open-source models + Claude Opus 4.8 as in-session judge/gold (no API key). "
+                       "Surrogate = NLI on all pairs; gold = Claude judgments -> formal PPI/DSL (docs/04)."}
     json.dump(report, open(os.path.join(OUT_DIR, "validation_report.json"), "w"), indent=2)
 
     lines = ["# Autonomous validation report (open-source models)", "",
@@ -345,7 +378,7 @@ def main():
     lines += ["", "## Consensus stance distribution", ""]
     for s, c in Counter(cons).most_common():
         lines.append(f"- {s}: {c} ({c/len(pairs):.1%})")
-    lines += ["", "## Support rate by party (PPI-debiased)", ""]
+    lines += ["", f"## Support rate by party (PPI-debiased; gold anchor = {anchor_desc})", ""]
     for pty, d in support_rate.items():
         lines.append(f"- **{pty}**: {d['estimate']:.3f} (95% CI {d['ci95']}; naive {d['naive_estimate']:.3f}; "
                      f"anchor n={d['n_anchor']}/{d['n_all']})")

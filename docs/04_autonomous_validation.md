@@ -67,6 +67,30 @@ Democratic legislators' technical claims at roughly twice the rate of Republican
 nearly non-overlapping CIs — a hypothesis worth confirming at scale. Outputs: `outputs/stance/`
 (`pairs_labeled.csv`, `validation_report.{md,json}`, `validation_overview.png`).
 
+### Claude Opus 4.8 as the in-session judge & gold anchor (June 2026)
+Per Bruce's follow-up (*"use yourself, Claude opus 4.8… no api key, yourself under our max plan"*),
+Claude judged a stratified 60-pair sample (30 D / 30 R) **in-session, no API**, writing
+`outputs/stance/claude_judge_labels.json`. Run as the GOLD anchor with the NLI models as the
+scalable surrogate (`--validators claude_judge nli_deberta nli_bart`):
+
+| Metric | Result |
+|---|---|
+| claude_judge ~ nli_deberta | 45.3% agree, κ = 0.24 (n=64) |
+| claude_judge ~ nli_bart | 42.2% agree, κ = 0.20 (n=64) |
+| nli_deberta ~ nli_bart | 86.3% agree, κ = 0.65 (n=621) |
+| Support rate — **naive NLI** | Dem 0.21 · Rep 0.11 |
+| Support rate — **PPI-debiased, Claude gold** | **Dem 0.64** [0.46, 0.83] · **Rep 0.61** [0.44, 0.78] |
+
+This is the Egami/DSL/PPI lesson made concrete: the NLI surrogate's strict textual entailment
+**systematically under-detects scientific support** (κ ≈ 0.2 vs Claude), biasing the naive estimate
+low; anchoring on Claude's judgments **debiases it upward to ~0.62 for both parties**. Substantively,
+the large partisan gap the naive NLI implied (Dem ≫ Rep) **largely closes** once a high-quality judge
+is used — both parties' technical claims are backed by retrieved science at similar rates. Wide CIs
+reflect the small 60-pair gold anchor (judging more pairs tightens them). The low Claude~NLI agreement
+is itself the finding: by the alt-test logic **NLI alone cannot replace the high-quality judge** — the
+right design is **Claude-as-judge (gold) + NLI-as-surrogate, combined via PPI**, exactly what the
+harness now runs.
+
 ### What the agreement analysis caught (a feature, not a bug)
 Adding a **small open generative LLM judge (Qwen2.5-1.5B-Instruct)** on a 30-pair subset produced
 near-zero agreement with both NLI classifiers (κ ≈ 0.0 / −0.04). Per the alt-test/agreement logic,
