@@ -15,7 +15,7 @@ Analysis, PSRM, or APSR-methods); also fulfills the APSA 2026 paper.
 - [x] Related work (sections/related.tex)
 - [x] Introduction (sections/intro.tex)
 - [x] Data (sections/data.tex)
-- [ ] Results (sections/results.tex) — needs tables/figures
+- [x] Results (sections/results.tex) — 4 figures + 2 tables
 - [ ] Discussion (sections/discussion.tex)
 - [ ] Limitations + Conclusion (sections/conclusion.tex)
 - [ ] Abstract (in main.tex)
@@ -26,7 +26,7 @@ Analysis, PSRM, or APSR-methods); also fulfills the APSA 2026 paper.
 ## Data / analysis tasks
 - [x] SCALE Claude gold judgments: now 120 pairs (60 D / 60 R) in claude_judge_labels.json.
       (Could scale further to tighten CIs more; 120 gives usable CIs.)
-- [ ] Generate paper figures into paper/figures/ (corpus, agreement, support-rate w/ CIs,
+- [x] Generate paper figures into paper/figures/ (corpus, agreement, support-rate w/ CIs,
       NLI-vs-Claude bias, education asymmetries).
 - [ ] Final validation run; lock numbers into results.tex.
 

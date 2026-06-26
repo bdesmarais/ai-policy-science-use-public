@@ -1,3 +1,118 @@
-% Results — TODO (needs figures/tables + scaled gold)
 \section{Results}
 \label{sec:results}
+
+\subsection{Engagement with AI is large and partisan}
+Democrats engage with AI far more than Republicans on every margin (Figure~\ref{fig:engage}).
+Democratic members mention AI in 4.8\% of their press releases versus 2.6\% for Republicans, and
+when they do, they say more about it: Democratic AI documents contain 3.3 AI statements on average
+versus 1.6 for Republicans. Across the 303 AI documents the pipeline retrieves a substantial and
+accessible body of candidate evidence---621 claim--reference pairs with abstracts, 87\% of them
+open-access, drawn from venues led by arXiv and concentrated in the years since 2015. The raw
+material for evidence-based AI policy clearly exists; the question is whether legislators' claims
+are borne out by it.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.9\textwidth]{fig_ai_engagement.png}
+\caption{Democrats engage with AI more often (a) and more intensively (b) than Republicans in
+California Assembly press releases.}
+\label{fig:engage}
+\end{figure}
+
+\subsection{Generative and discriminative validators disagree by method}
+Our central methodological result is that the two \emph{kinds} of validator disagree sharply, and
+in a systematic direction (Table~\ref{tab:agree}, Figure~\ref{fig:agree}). The two NLI
+classifiers, which share the discriminative entailment paradigm, agree strongly with each other
+($\kappa = 0.65$ over all 621 pairs). But each agrees only weakly with the generative LLM judge
+($\kappa = 0.20$ and $0.14$ over the 124 gold pairs). Inspection of the disagreements shows the
+mechanism: strict textual entailment between a study's abstract and a press-release claim is
+almost always classified ``neutral''---and hence \textsc{silent}---even when the study plainly
+substantiates the claim's substance, because the abstract rarely restates the claim in entailing
+language. The NLI consensus labels 76\% of pairs \textsc{silent}; the LLM judge labels only 23\%
+so. High within-method agreement therefore reflects a \emph{shared} conservatism, not
+correctness---exactly the pattern the alternative-annotator logic \citep{calderon2025alttest}
+warns against, and the reason we do not treat NLI as a stand-alone measure.
+
+\begin{table}[t]
+\centering
+\caption{Cross-validator agreement. The two discriminative NLI models agree with each other but
+not with the generative LLM judge.}
+\label{tab:agree}
+\begin{tabular}{lccc}
+\toprule
+Validator pair & $n$ & \% agreement & Cohen's $\kappa$ \\
+\midrule
+Claude judge $\sim$ DeBERTa-NLI & 124 & 41.9 & 0.20 \\
+Claude judge $\sim$ BART-NLI    & 124 & 37.9 & 0.14 \\
+DeBERTa-NLI $\sim$ BART-NLI      & 621 & 86.3 & 0.65 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\textwidth]{fig_agreement.png}
+\caption{The generative judge and the discriminative NLI classifiers agree poorly with each other
+($\kappa \approx 0.14$--$0.20$), while the two NLI classifiers agree well ($\kappa = 0.65$),
+indicating a shared method bias rather than a reliable signal.}
+\label{fig:agree}
+\end{figure}
+
+\subsection{Correcting the bias: most claims are supported, by both parties}
+Because the NLI surrogate under-detects support, the naive estimate of the support rate is far too
+low: 0.21 for Democratic and 0.11 for Republican claims. Anchoring on the LLM judge's 120 gold
+labels and correcting with prediction-powered inference (Eq.~\ref{eq:ppi}) roughly triples these
+estimates, to \textbf{0.71} (95\% CI $[0.57, 0.84]$) for Democrats and \textbf{0.58}
+($[0.45, 0.71]$) for Republicans (Table~\ref{tab:support}, Figure~\ref{fig:support}). The
+LLM-judge labels on their own imply nearly identical raw rates (0.70 and 0.57), confirming that
+the correction is recovering the judge's signal rather than manufacturing it.
+
+Two substantive points follow. First, the \emph{level} is high: most technical claims that
+California legislators make about AI are, in fact, supported by the peer-reviewed literature our
+pipeline retrieves---a more optimistic picture of evidence use than the naive automated measure
+would suggest. Second, the \emph{partisan gap} is modest once a competent judge is used. The naive
+NLI estimate implied that Democratic claims were nearly twice as likely to be supported as
+Republican claims (0.21 vs.\ 0.11); the debiased estimate narrows this to 0.71 vs.\ 0.58, with
+overlapping confidence intervals. The apparent partisan asymmetry in \emph{evidentiary quality} is
+thus largely an artifact of the measurement instrument; what is robustly asymmetric is the
+\emph{volume and intensity} of engagement with AI, not the support for the claims made.
+
+\begin{table}[t]
+\centering
+\caption{Share of claims supported by the retrieved science, by party. The naive NLI surrogate is
+biased downward; the PPI-debiased estimate (Claude gold anchor, $n=124$) corrects it.}
+\label{tab:support}
+\begin{tabular}{lccc}
+\toprule
+Party & Naive NLI & PPI-debiased [95\% CI] & LLM-judge raw \\
+\midrule
+Democratic & 0.21 & 0.71\ \ $[0.57,\,0.84]$ & 0.70 \\
+Republican & 0.11 & 0.58\ \ $[0.45,\,0.71]$ & 0.57 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\textwidth]{fig_support_rate.png}
+\caption{Estimated share of claims supported by the retrieved science. The naive NLI surrogate
+(gray) is biased sharply downward; PPI debiasing with the LLM-judge gold (colored, with 95\% CIs)
+roughly triples the estimate and narrows the partisan gap.}
+\label{fig:support}
+\end{figure}
+
+\subsection{Domain transfer: education policy}
+The pipeline's front end transfers to a different polarized domain. On a separate corpus of 5{,}131
+education-policy press releases, 611 (11.9\%) are education-related, with the same kind of partisan
+asymmetry in attention (Figure~\ref{fig:edu}): Democrats issued 80 releases on social-emotional
+learning and student mental health versus 1 for Republicans, and 38 on school safety versus 4.
+These asymmetries in \emph{which} topics receive attention motivate extending the full
+support-assessment analysis to education in future work.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\textwidth]{fig_education.png}
+\caption{Partisan asymmetry in education-policy attention (counts of press releases), illustrating
+that the pipeline's front end generalizes beyond AI.}
+\label{fig:edu}
+\end{figure}
