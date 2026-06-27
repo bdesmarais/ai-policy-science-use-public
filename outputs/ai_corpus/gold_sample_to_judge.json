@@ -1,0 +1,1290 @@
+[
+ {
+  "id": "dem:10",
+  "party": "dem",
+  "claim": "Deepfakes are reported to be already in use for harassing women. (This is an empirical claim about a specific, observed misuse of the technology).",
+  "query": "deepfake image-based sexual abuse harassment women",
+  "top": [
+   {
+    "t": "A Comparative Study of the Help-Seeking Behavior of Victims of Contact Sexual Violence and Image-Based Sexual Harassment and Abuse",
+    "y": 2024,
+    "abs": "Sexual victimization may have serious consequences for victims\u2019 well-being. Thus, seeking support is encouraged and associated with positive outcomes. However, no research has compared the help-seeking behavior of victims of contact and image-based (i.e., noncontact) sexual violence. This study explores the differences in help-seeking behavior, and barriers to help-seeking, by comparing datasets from two online surve"
+   },
+   {
+    "t": "Judgement Differences of Types of Image-Based Sexual Harassment and Abuse Conducted by Celebrity Perpetrators and Victims",
+    "y": 2024,
+    "abs": "An emerging corpus exists pertaining to societal judgements of image-based sexual harassment and abuse (IBSHA). This type of research centres on the non-consensual sharing of intimate images (NCSII; sometimes called \u2018revenge pornography\u2019), but recent legislative developments seeking to convict those who engage in the unsolicited sending of intimate images (USII; sometimes called \u2018dick pics\u2019) evoke a need to broaden t"
+   },
+   {
+    "t": "Men\u2019s Sexual Interest Perceptions and Sexual Harassment/Assaults Against Women: Mediating Effects of Sexual Refusal Cognition Bias",
+    "y": 2025,
+    "abs": "Sexual harassment and assault against women are global and public issues that must be addressed. Previous studies indicate that men\u2019s misunderstanding regarding women\u2019s sexual consent may be a key factor in sexual harassment and sexual assault cases. The underlying mechanism for the association between men\u2019s sexual interest perception and sexual harassment/assault behavior, however, remains unclear. In this study, we"
+   }
+  ]
+ },
+ {
+  "id": "dem:103",
+  "party": "dem",
+  "claim": "Police use of face surveillance threatens immigrant communities.",
+  "query": "facial recognition surveillance immigrant communities",
+  "top": [
+   {
+    "t": "Picturing Algorithmic Surveillance: The Politics of Facial Recognition Systems",
+    "y": 2002,
+    "abs": "This paper opens up for scrutiny the politics of algorithmic surveillance through an examination of Facial Recognition Systems (FRSs) in video surveillance, showing that seemingly mundane design decisions may have important political consequences that ought to be subject to scrutiny. It first focuses on the politics of technology and algorithmic surveillance systems in particular: considering the broad politics of te"
+   },
+   {
+    "t": "Urban Surveillance and Panopticism: will we recognize the facial recognition society?",
+    "y": 2002,
+    "abs": "This paper explores the implementation of facial recognition surveillance mechanisms as a reaction to perceptions of insecurity in urban spaces. Facial recognition systems are part of an attempt to reduce insecurity through knowledge and vision, but, paradoxically, their use may add to insecurity by transforming society in unanticipated directions. Facial recognition promises to bring the disciplinary power of panopt"
+   },
+   {
+    "t": "Enter the Ring: Artistic Interventions in Facial Recognition and Domestic Surveillance",
+    "y": 2026,
+    "abs": "The use of domestic surveillance products such as Amazon\u2019s Ring doorbell system has, in recent years, become widespread. While the fisheye lenses and glowing blue LED buttons of Ring doorbells have become familiar sights on doorsteps in North America and beyond, little information is presented to end users regarding Ring\u2019s relationships with police agencies and data brokers, and, perhaps most significantly, its deplo"
+   }
+  ]
+ },
+ {
+  "id": "dem:121",
+  "party": "dem",
+  "claim": "Automated decision-making systems are used in government to facilitate decisions on public benefits.",
+  "query": "automated decision-making government public benefits",
+  "top": [
+   {
+    "t": "Administrative law and the machines of government: judicial review of automated public-sector decision-making",
+    "y": 2019,
+    "abs": "Abstract The future is likely to see an increase in the public-sector use of automated decision-making systems which employ machine learning techniques. However, there is no clear understanding of how English administrative law will apply to this kind of decision-making. This paper seeks to address the problem by bringing together administrative law, data protection law, and a technical understanding of automated dec"
+   },
+   {
+    "t": "Digitalization of administrative procedures in Ukraine: limits of automated government decision-making",
+    "y": 2026,
+    "abs": "The article examines the current stage of development of Ukrainian statehood, which is characterized by the active introduction of digital technologies into the sphere of public administration, which is due to the need to increase the efficiency of the activities of state authorities, local self-government bodies, simplify access of individuals and legal entities to administrative services, as well as minimizing corr"
+   },
+   {
+    "t": "From Making Automated Decision Making Visible to Mapping the Unknowable Human: Counter-Mapping Automated Decision Making in Social Services in Austral",
+    "y": 2022,
+    "abs": "Automated decision-making (ADM) technologies, like artificial intelligence and machine learning, are increasingly being used by governments. Researchers have attempted to map the deployment of these technologies. However, mapping is an inherently political act, reinforcing dominant discourses and imaginings of technological futures. In this article, I engage with critical cartography to outline the potential of count"
+   }
+  ]
+ },
+ {
+  "id": "dem:123",
+  "party": "dem",
+  "claim": "Algorithms are used in government to facilitate decisions on public benefits.",
+  "query": "algorithms public benefits administration eligibility",
+  "top": [
+   {
+    "t": "Designing Disability Insurance Reforms: Tightening Eligibility Rules or Reducing Benefits?",
+    "y": 2024,
+    "abs": "This paper develops a sufficient statistics framework for analyzing the welfare effects of disability insurance (DI). We derive social\u2010optimality conditions for the two main DI policy parameters: (i) eligibility rules and (ii) benefit levels. Applying this framework to two restrictive DI reforms in Austria, we find that tighter DI eligibility rules triggered higher fiscal cost savings and lower insurance losses. Henc"
+   },
+   {
+    "t": "Understanding Street\u2010Level Bureaucrats' Decision Making: Determining Eligibility in the Social Security Disability Program",
+    "y": 2010,
+    "abs": "Personal interactions between clients and street\u2010level bureaucrats are significant in explaining why street\u2010level bureaucrats behave as they do. Not all bureaucracies that apply program rules to individuals, however, engage face\u2010to\u2010face with their clientele. As more intake procedures are automated, such \u201cone\u2010on\u2010one\u201d encounters decrease. The author generates and tests hypotheses about frontline bureaucratic decision m"
+   },
+   {
+    "t": "How Would a Permanently Refundable Child and Dependent Care Credit Affect Eligibility, Benefits, and Incentives?",
+    "y": 2022,
+    "abs": "The federal Child and Dependent Care Credit (CDCC) subsidizes child care costs for working families. Before 2021, the CDCC was nonrefundable, so only families with positive tax liability after other deductions benefited. I estimate how CDCC eligibility, benefits, and marginal tax rates would change if the credit were made permanently refundable. Under refundability, some 5 percent of single parents gain eligibility a"
+   }
+  ]
+ },
+ {
+  "id": "dem:127",
+  "party": "dem",
+  "claim": "Artificial intelligence has implications for scriptwriting.",
+  "query": "generative AI screenwriting creative labor",
+  "top": [
+   {
+    "t": "Conversations with generative AI as co-writer and screen character: Scripting postdigital intimacies with the Screenwriting with AI Framework",
+    "y": 2025,
+    "abs": "The Screenwriting with Artificial Intelligence Framework (SWAIF) is a screenwriting method that emerged from the attempt to articulate postdigital intimacy with AI technology through screen storytelling. It responds to calls for new narratives reflecting our everyday relationship with AI and widespread industry concerns about the use of generative AI in screenwriting. The resulting British Academy-funded research set"
+   },
+   {
+    "t": "Neither artificial nor intelligent: Applications of artificial intelligence (AI) and creative machine learning in screenwriting and screen story devel",
+    "y": 2025,
+    "abs": "In 2024, a GBP 1.04 million Innovate UK-funded programme brought together a consortium consisting of Oxford AI company Charisma.AI, UK higher education arts specialists University of the Arts London (UAL) and Falmouth University, broadcaster Channel 4 and animation studio Aardman. The Charismatic project explored the opportunities for the creative industries to better leverage the potential of AI technologies and the"
+   },
+   {
+    "t": "Everybody's a Writer Theorizing screenwriting as creative labour",
+    "y": 2010,
+    "abs": "This paper offers a theoretical agenda for a labourist analysis of screenwriting, and critically evaluates the marginal status of screenwriting within film production systems. On the one hand, screenwriting offers an exemplary case study of creative work in post-modernized film production industries, work characterized by freelancing and multivalent working patterns, insecurity and hierarchization. Investigating scre"
+   }
+  ]
+ },
+ {
+  "id": "dem:148",
+  "party": "dem",
+  "claim": "Computer-generated and artificial intelligence generated child sexual abuse material (CSAM) is a threat.",
+  "query": "AI generated CSAM harms law enforcement",
+  "top": [
+   {
+    "t": "The Social Harms of AI-Generated Fake News: Addressing Deepfake and AI Political Manipulation",
+    "y": 2025,
+    "abs": "Artificial Intelligence-Generated Content (AIGC) is rapidly transforming the landscape of information dissemination while exacerbating the spread of fake news. This paper examines the mechanisms of AI-generated fake news, the development and societal impact of deepfake technology, and the role of AI in political manipulation and its threats to democratic institutions. The study highlights that AI-generated fake news "
+   },
+   {
+    "t": "AI Used in Electronic Traffic Law Enforcement as Law Enforcement Evidence in Digital Era",
+    "y": 2023,
+    "abs": "Background: It is undeniable that in the revolutionary era, technological advances developed so rapidly and had an impact on the legal system in Indonesia. To keep up with these developments, the use of artificial intelligence as a national legal instrument is very important. Aim: This research was done to find out how important the sustainable development of law is and to explore the potential of using artificial in"
+   },
+   {
+    "t": "Regulatory sandboxes in law enforcement: A pathway towards innovative and constitutionally sound AI systems in police authorities",
+    "y": 2025,
+    "abs": "Abstract The article analyzes whether regulatory sandboxes are a legally intended and useful instrument to create pathways for law enforcement agencies using cutting-edge AI systems in compliance with fundamental rights. It takes a deeper look at the provisions of the EU AI Act for regulatory sandboxes and testing under real-world conditions in contexts relevant to law enforcement. Using a legislative process in Germ"
+   }
+  ]
+ },
+ {
+  "id": "dem:170",
+  "party": "dem",
+  "claim": "ADTs have the potential for adverse impact on the basis of race, color, ethnicity, sex, religion, age, national origin, or any other classification protected by state law.",
+  "query": "algorithmic discrimination protected classes disparate impact",
+  "top": [
+   {
+    "t": "Like Human, Like Algorithm: Responses to Algorithmic Discrimination Among Individuals From Protected Classes",
+    "y": 2026,
+    "abs": "Abstract Algorithms, commonly used in business practice, often discriminate against members of protected classes (e.g. racial minorities). Previous research findings suggest that individuals, including those from protected classes, under some circumstances, may not respond negatively to discriminatory algorithms. Other evidence suggests the opposite. Given the conflicting evidence, there is an opportunity to understa"
+   },
+   {
+    "t": "Potential Disparate Impact CAEP Standard 3.2 on the Protected Classes of Alaska Native, American Indian, African American, and Latino Members of Desce",
+    "y": 2016,
+    "abs": "CAEP Standard 3.2 has a demonstrated disparate impact on several protected classes of individuals, including African Americans, Alaska Natives, American Indians, and Latinos. The data from this study clearly shows a national policy that will have an unequal impact for future genrations of minority teacher candidates."
+   },
+   {
+    "t": "Title VII and Disparate-Treatment Discrimination Versus Disparate-Impact Discrimination",
+    "y": 2009,
+    "abs": "In June 2009, the Supreme Court decided the employment discrimination case of Ricci v. DeStefano . In a 5-4 decision, the Court held that the City of New Haven, Connecticut, discriminated against White and Hispanic firefighters based on their race in violation of Title VII of the Civil Rights Act of 1964, when it refused to certify exam results that could have resulted in promotions for the firefighters. The case att"
+   }
+  ]
+ },
+ {
+  "id": "dem:173",
+  "party": "dem",
+  "claim": "A clinical algorithm used across hospitals for determining patient care was racially biased against Black patients, as shown by a study published in Science.",
+  "query": "clinical algorithm racial bias Black patients Science study",
+  "top": [
+   {
+    "t": "Sentencing Disparities and Racial Bias Among Black African Americans in the Justice System of United States of America",
+    "y": 2024,
+    "abs": "Systemic injustices embedded within the U.S. criminal justice system continue to fuel racial and socio-economic disparities, disproportionately impacting marginalized communities, particularly Black Americans and People of Colour. These inequities stem from entrenched structural biases in law enforcement, judicial practices, and pretrial procedures, which collectively perpetuate cycles of disadvantage and discriminat"
+   },
+   {
+    "t": "An Exploration of the Relationship between Racial Identity Attitudes and the Perception of Racial Bias",
+    "y": 2002,
+    "abs": "This study explored the relationship between specific theories of racial identity attitudes and the asymmetry hypothesis\u2014which states that discriminatory acts perpetrated by the strong against the weak will be seen as more biased than similar acts perpetrated by the weak against the strong. Participants consisted of 92 African American undergraduate students who completed the Racial Identity Attitude Scale (RIAS), th"
+   },
+   {
+    "t": "Mitigating Implicit Racial Bias in the Clinical Setting: A Qualitative Study of Family Medicine Residents",
+    "y": 2021,
+    "abs": "Abstract Implicit racial bias (IB) in physicians contributes to racial health inequities. Health profession trainees are not consistently trained to address IB. This phenomenological study explored Family Medicine (FM) residents\u2019 experience of applying strategies to mitigate IB during home visits (HVs) to homebound older adults. FM residents completed pre-work related to IB, applied strategies to mitigate IB during H"
+   }
+  ]
+ },
+ {
+  "id": "dem:191",
+  "party": "dem",
+  "claim": "AI and disinformation are an existential threat to our democracy.",
+  "query": "AI disinformation democracy risk",
+  "top": [
+   {
+    "t": "Digital Democracy and Disinformation: The European Approach to Disinformation on Social Media in the Case of 2019 European Parliament Elections",
+    "y": 2022,
+    "abs": "This policy paper offers a brief overview of the hazards for digital democracy stemming from AI and digital tools and how the EU tackled online disinformation social media ahead of the 2019 European Parliament elections. The advent and introduction of social media into the political sphere has had a profound and substantial effect on Europe\u2019s electoral processes affecting both voting behavior and the underlying facto"
+   },
+   {
+    "t": "The impact of disinformation generated by AI on democracy case studies: the US presidential elections in\u00a02016 &amp; 2024",
+    "y": 2025,
+    "abs": "Purpose The paper studies the impact of disinformation generated by AI on democracy and it takes the US presidential elections in 2016 and 2024 as case studies. Design/methodology/approach The paper depended on analyzing three concepts in order to formulate a theoretical framework, which are \u201cDemocracy\u201d, \u201cArtificial Intelligence\u201d and \u201cDisinformation\u201d. The study also used the comparative case study method in order to "
+   },
+   {
+    "t": "Russian information troops, disinformation, and democracy",
+    "y": 2018,
+    "abs": "This research examines the contemporary landscape relative to information-driven strategies used for global gain by analyzing Russian activities in particular. With Russia functioning as a cause of global democratic disruption, this exploratory project focuses on information-based, computational, and media-related political strategies. The findings provide a way to see patterns over time offering further evidence of "
+   }
+  ]
+ },
+ {
+  "id": "dem:226",
+  "party": "dem",
+  "claim": "Driverless trucks/buses are dangerous and do not belong on California roads or highways without a human safety operator on board.",
+  "query": "autonomous trucks buses safety operator",
+  "top": [
+   {
+    "t": "Local Fire Department Responses to Fires Involving Automobiles, Buses, and Larger Trucks: 2006-2010 Estimates",
+    "y": 2013,
+    "abs": "<div class=\"section abstract\"><div class=\"htmlview paragraph\">Automobile fires account for the majority of vehicle fires and vehicle fire deaths. Fires involving larger trucks resulted in a disproportionate share of vehicle fire losses. Although bus fires are less common, they have a much higher rate of fire based on distance driven. Bus fires have the potential to endanger a larger number of passengers. Any efforts "
+   },
+   {
+    "t": "Improving in durability of leaf spring pins for trucks and buses",
+    "y": 2026,
+    "abs": "This article presents a technology for improving the durability of leaf spring pins for trucks and buses. This technological process involves the sequential application of two methods: hardening using electro-spark alloying (ESA) technology, followed by the creation of a regular micro-relief on the working surface of the part by vibro-burnishing. Experimental data were used to determine the relationships between the "
+   },
+   {
+    "t": "Flexibility Potential of Smart Charging Electric Trucks and Buses",
+    "y": 2024,
+    "abs": "In addition to passenger vehicles, battery-electric trucks and buses could offer substantial flexibility to the energy system. Using a Bass diffusion model, we extrapolated the unidirectional charging needs and availability of trucks in five of eleven typical applications, as well as city buses, for Germany until 2040. Combined, these heavy-duty vehicles could provide up to 23 GW of down-regulating flexibility potent"
+   }
+  ]
+ },
+ {
+  "id": "dem:281",
+  "party": "dem",
+  "claim": "AI's capability to use voice and likeness without consent makes non-union performers and voice actors vulnerable.",
+  "query": "AI voice likeness performers consent labor",
+  "top": [
+   {
+    "t": "PRAC3 (Privacy, Reputation, Accountability, Consent, Credit, Compensation): Voice Actors in AI Data-economy",
+    "y": 2025,
+    "abs": "Early large-scale audio datasets, such as LibriSpeech, were built with hundreds of individual contributors whose voices were instrumental in the development of speech technologies, including audiobooks and voice assistants. Yet, a decade later, these same contributions have exposed voice actors to a range of risks. While existing ethical frameworks emphasize Consent, Credit, and Compensation (C\u00b3), they do not adequat"
+   },
+   {
+    "t": "Using Traditional Voice Terminology Creates Challenges for Performers and Voice Professionals",
+    "y": 2026,
+    "abs": "Introduction: This study aimed to define and then compare two sets of vocal quality terms commonly implemented by singing professionals, front-back and light-dark, using acoustic, aerodynamic, and perceptual measurements, as well as a survey asking voice professionals to rate and define them. Methods: Voice samples from members of university singing groups were collected and analysed. Voice professionals then rated s"
+   },
+   {
+    "t": "Voice Data and Consent in Mobile Ecosystems: A Comprehensive Study",
+    "y": 2026,
+    "abs": "Voice assistants such as Google Assistant, Siri, Alexa, and Bixby have transformed the way individuals interact with technology, making voice-based communication an essential part of mobile ecosystems. While these systems enhance convenience, accessibility, and personalization, they also raise critical privacy and consent concerns. Voice data is not merely an audio input\u2014it contains biometric identifiers, emotional c"
+   }
+  ]
+ },
+ {
+  "id": "dem:294",
+  "party": "dem",
+  "claim": "Advances in AI make it remarkably easy for practically anyone to generate hyper-realistic deceptive content.",
+  "query": "generative AI synthetic media accessibility",
+  "top": [
+   {
+    "t": "Synthetic media, generative AI, and Barbie in education",
+    "y": 2025,
+    "abs": "Since the mass adoption of ChatGPT, educators have been prompted to rethink text assessment practices and respond to mounting concerns about academic integrity (Dawson et al., 2024; Nikolic et al., 2024). Critical, meaningful learning is often at odds with performative assessment models that prioritise measurable outputs (Wise et al., 2024). At the same time, social media and mainstream narratives promote AI promises"
+   },
+   {
+    "t": "Gaza and the rise of synthetic militarism: On genocide and generative AI",
+    "y": 2026,
+    "abs": "Drawing on the case of the Israeli genocidal assault on Gaza, with attention to how Israelis and their supporters were employing synthetic images as political tools, this essay responds to current academic debates around visual generative AI in political contexts. The essay asks: How is the media landscape of war and political violence being reconfigured by generative AI? What is the political work of AI misinformati"
+   },
+   {
+    "t": "Synthetic media for multilingual Massive Open Online Courses: accessibility, engagement, and ethical governance",
+    "y": 2026,
+    "abs": "In recent years, synthetic media from deepfake videos has emerged as a new and interesting technology. Synthetic media may refer to cloned voices or multilingual translation models. Avatar-based tutors have emerged as important tools for higher education. Consequently, these technologies are being incorporated into distance learning models and, more recently, Massive Open Online Courses (MOOCs) worldwide, at an incre"
+   }
+  ]
+ },
+ {
+  "id": "dem:330",
+  "party": "dem",
+  "claim": "Data centers are among the most energy-intensive sectors in the state.",
+  "query": "data centers energy consumption electricity demand",
+  "top": [
+   {
+    "t": "Data-Driven Peak Demand Identification in Commercial Electricity Consumption for Load Curve Flattening",
+    "y": 2026,
+    "abs": "Effective peak load management enables utilities to mitigate increased electricity demand and optimize the use of available resources during periods of maximum consumption. Accurate forecasting of the peak load is essential for ensuring the reliability, efficiency, and resilience of contemporary power systems. In this study, commercial customer-level data were employed to identify electricity peak demand within the P"
+   },
+   {
+    "t": "Characterization of electricity demand based on energy consumption data from Colombia",
+    "y": 2023,
+    "abs": "<span lang=\"EN-US\">The development of dynamic energy distribution grids to optimize energy resources has become very important at the international level in recent years. A very important step in this development is to be able to characterize the population based on their consumption behaviour. However, traditional consumption meters that report information at a monthly rate provide little information for in-depth an"
+   },
+   {
+    "t": "Understanding Power Requirements, Energy Costs, and Incentives for Data Centers",
+    "y": 2015,
+    "abs": "More than any other industry, electric supply is the most important attribute necessary for siting and operating a data center or mission\u2010critical facility. The following article takes a look at how utilities can affect the location and operation of data centers by understanding specific power requirements and costs, and reviews incentives offered by utilities in each state for data centers."
+   }
+  ]
+ },
+ {
+  "id": "dem:353",
+  "party": "dem",
+  "claim": "Automated decisionmaking systems (ADS) increasingly influence decisions in housing, employment, and lending.",
+  "query": "automated decision systems housing employment lending",
+  "top": [
+   {
+    "t": "Housing Bust, Bank Lending &amp;amp;amp; Employment: Evidence from Multimarket Banks",
+    "y": 2017,
+    "abs": "I use geographic variation in bank lending to study how bank real estate losses impacted the supply of credit and employment during the Great Recession. Banks exposed to distressed housing markets cut mortgage and small business lending relative to other banks in the same county. This lending contraction had real e\ufb00ects, as counties whose banks were exposed to adverse shocks in other markets su\ufb00ered employment declin"
+   },
+   {
+    "t": "\u042d\u043a\u043e\u043d\u043e\u043c\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u0438\u043f\u043e\u0442\u0435\u0447\u043d\u043e\u0433\u043e \u0436\u0438\u043b\u0438\u0449\u043d\u043e\u0433\u043e \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f \u0432 \u0421\u0438\u0431\u0438\u0440\u0441\u043a\u043e\u043c \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u043c \u043e\u043a\u0440\u0443\u0433\u0435",
+    "y": 2020,
+    "abs": "\u0412 \u0441\u0442\u0430\u0442\u044c\u0435 \u043f\u0440\u043e\u0430\u043d\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u044b \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0438 \u0438\u043f\u043e\u0442\u0435\u0447\u043d\u043e\u0433\u043e \u0436\u0438\u043b\u0438\u0449\u043d\u043e\u0433\u043e \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432\u0430\u043d\u0438\u044f \u0432 \u0421\u0438\u0431\u0438\u0440\u0441\u043a\u043e\u043c \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u043c \u043e\u043a\u0440\u0443\u0433\u0435 \u0437\u0430 \u043f\u0435\u0440\u0438\u043e\u0434 2006-2017 \u0433\u0433. \u0414\u043b\u044f \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u044f \u043a\u043e\u0440\u0440\u0435\u043b\u044f\u0446\u0438\u043e\u043d\u043d\u043e-\u0440\u0435\u0433\u0440\u0435\u0441\u0441\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0431\u044b\u043b\u0438 \u043e\u0442\u043e\u0431\u0440\u0430\u043d\u044b \u0444\u0430\u043a\u0442\u043e\u0440\u044b (\u0441\u0440\u0435\u0434\u043d\u0435\u0434\u0443\u0448\u0435\u0432\u044b\u0435 \u0434\u043e\u0445\u043e\u0434\u044b \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u044f \u0432 \u043c\u0435\u0441\u044f\u0446, \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u044f, \u0447\u0438\u0441\u043b\u043e \u0444\u0438\u043b\u0438\u0430\u043b\u043e\u0432 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0445 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0439, \u0443\u0434\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u0441 \u0430\u0432\u0430\u0440\u0438\u0439\u043d\u043e\u0433\u043e \u0436\u0438\u043b\u0438\u0449\u043d\u043e\u0433\u043e \u0444\u043e\u043d\u0434\u0430), \u0432\u043b\u0438\u044f\u044e\u0449\u0438\u0435 \u043d\u0430 \u043e\u0431\u044a\u0435\u043c \u0438\u043f\u043e\u0442\u0435\u0447\u043d\u044b\u0445 \u0436\u0438\u043b\u0438\u0449\u043d\u044b\u0445 \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0431\u044b\u043b\u0438 \u0432\u044b\u0434\u0430\u043d\u044b \u0432 \u0441\u0443\u0431\u044a\u0435\u043a\u0442"
+   },
+   {
+    "t": "P2P lending as an alternative to bank lending in Ukraine",
+    "y": 2016,
+    "abs": "The goal of the article is to consider peer-to-peer lending and its interaction with bank lending that creates an aggregate hybrid lending. The article\u2019s objective is the research of development of P2P lending on the financial market and beyond, which is particularly relevant today. This goal is achieved by using the methods of evaluation and comparative analysis of different principles, which makes it possible to st"
+   }
+  ]
+ },
+ {
+  "id": "dem:360",
+  "party": "dem",
+  "claim": "An algorithm designed to determine the number of in-home care hours for Arkansas residents with disabilities made drastic cuts to essential aid.",
+  "query": "algorithm Medicaid home care hours disability cuts",
+  "top": [
+   {
+    "t": "Effect of Medicaid Cuts on the Medical Care Ecosystem",
+    "y": 2025,
+    "abs": "This Viewpoint explores the widespread effects cuts to Medicaid funding could have on the US medical system, including limitations on states, hospitals, and physicians, as well as low-income beneficiaries."
+   },
+   {
+    "t": "Medicaid Cuts Could Especially Harm Persons Needing Home-Based Supports",
+    "y": 2025,
+    "abs": "This Viewpoint lays out the harm that cuts in Medicaid could cause to children, people with disabilities, and older adults."
+   },
+   {
+    "t": "Home Health Care and Medicaid: The Challenge Ahead",
+    "y": 2004,
+    "abs": "State budget crises across the nation are creating significant uncertainties regarding the future funding of all Medicaid services including home health care. In response to Medicaid funding challenges, the Visiting Nurse Association of Boston designed and implemented a prospective payment pilot project with the state of Massachusetts. This article describes the challenges agencies face in providing Medicaid home hea"
+   }
+  ]
+ },
+ {
+  "id": "dem:368",
+  "party": "dem",
+  "claim": "AI chatbots have been found to pose as licensed practitioners.",
+  "query": "AI chatbots mental health impersonation therapy",
+  "top": [
+   {
+    "t": "AI Chatbots and Youth Mental Health",
+    "y": 2026,
+    "abs": "JAMA+ AI Associate Editor Yulin Hswen, ScD, MPH, spoke with John Torous, MD, MBI, host of the JAMA Psychiatry Author Interviews podcast and director of digital psychiatry for the Department of Psychiatry at Beth Israel Deaconess Medical Center in Boston, Massachusetts, for JAMA+ AI Conversations."
+   },
+   {
+    "t": "AI Chatbots in Digital Mental Health",
+    "y": 2023,
+    "abs": "Artificial intelligence (AI) chatbots have gained prominence since 2022. Powered by big data, natural language processing (NLP) and machine learning (ML) algorithms, they offer the potential to expand capabilities, improve productivity and provide guidance and support in various domains. Human\u2013Artificial Intelligence (HAI) is proposed to help with the integration of human values, empathy and ethical considerations in"
+   },
+   {
+    "t": "Nearly one in five youth use AI chatbots for mental health aid",
+    "y": 2026,
+    "abs": "As the youth mental health crisis persists, a growing number of adolescents are quietly turning to artificial intelligence (AI) for help. A new study by RAND researchers shows that nearly one\u2010fifth of U.S. youth have used AI chatbots for mental health advice, with most saying they have not told anyone about it."
+   }
+  ]
+ },
+ {
+  "id": "dem:377",
+  "party": "dem",
+  "claim": "Reports have surfaced of AI chatbots engaging in inappropriate or harmful conversations with minors.",
+  "query": "AI chatbots harmful interactions minors safety",
+  "top": [
+   {
+    "t": "Mitigating Suicide Risk for Minors Involving AI Chatbots\u2014A First in the Nation Law",
+    "y": 2026,
+    "abs": "In this Viewpoint, a California artificial intelligence law is described, including its positive contributions to making these companion chatbots safer for minor and adult users and the limits of the law, and recommends further steps California and other states can adopt to improve protections for mental health and chatbot safety, especially for minors."
+   },
+   {
+    "t": "Do AI Chatbots Incite Harmful Behaviours in Mental Health Patients?",
+    "y": 2024,
+    "abs": "Aims The contribution of mental illness towards total Disability Adjusted Life Years is increasing according to the Global Burden of Disease study. As the need for mental health services increases, technological advances are being deployed to improve the delivery of care and lower costs. The emergence of Artificial Intelligence (AI) technology in mental health and companionship is an evolving topic of discussion. The"
+   },
+   {
+    "t": "AI Companions in Ride-Hailing: Enhancing Sense of Safety with Voice Chatbots",
+    "y": 2024,
+    "abs": "In this paper, we present the development and formative evaluation of AI Companion, a voice chatbot based on Artificial Intelligence Large Language Models designed to enhance users' perception of safety and control during transportation using ride-hailing apps or similar services. We conducted a study with 10 participants to understand their travel experiences and evaluate the AI Companion's ability to maintain coher"
+   }
+  ]
+ },
+ {
+  "id": "dem:38",
+  "party": "dem",
+  "claim": "The Carnegie Endowment for International Peace notes that deepfakes have the potential to incite violence, alter election outcomes, and undermine diplomacy. (This lists predicted, severe societal and geopolitical consequences of deepfake proliferation).",
+  "query": "deepfakes political violence elections diplomacy",
+  "top": [
+   {
+    "t": "Potential threats of unauthorized use of political deepfakes during political elections: international experience",
+    "y": 2024,
+    "abs": "The subject of this study is new political technologies based on the use of artificial intelligence. The purpose of this study is to identify the threats and risks associated with the unauthorised use of political deepfakes in international practice. To achieve this goal, the author analyses the concepts of the influence of political deepfakes on elections, identifies types and risks of deepfakes in the political pra"
+   },
+   {
+    "t": "Deepfakes and Political Misinformation in U.S. Elections",
+    "y": 2023,
+    "abs": "Audio and video footage produced with the help of AI can show politicians doing discreditable things that they have not actually done. This is deepfaked material. Deepfakes are sometimes claimed to have special powers to harm the people depicted and their audiences\u2014powers that more traditional forms of faked imagery and sound footage lack. According to some philosophers, deepfakes are particularly \u201cbelievable,\u201d and w"
+   },
+   {
+    "t": "Elei\u00e7\u00f5es, Deepfakes e Celebridades",
+    "y": 2025,
+    "abs": "Este artigo tem como objetivo examinar o uso de imagens de celebridades manipuladas por intelig\u00eancia artificial, especialmente deepfakes, em campanhas eleitorais de 2024 na \u00cdndia e nos Estados Unidos. A an\u00e1lise mobiliza autores como Martino, Morin, Grusin e Jorge entre outros, articulando conceitos como midiatiza\u00e7\u00e3o pol\u00edtica, media\u00e7\u00e3o radical, cultura pop e desinforma\u00e7\u00e3o com o intuito de compreender como o entretenim"
+   }
+  ]
+ },
+ {
+  "id": "dem:382",
+  "party": "dem",
+  "claim": "Emotion detection systems are considered harmful AI applications for children.",
+  "query": "emotion recognition AI children accuracy risks",
+  "top": [
+   {
+    "t": "Impact of mask-wearing on emotion recognition accuracy and fixation duration in young children",
+    "y": 2026,
+    "abs": "Introduction Understanding how children recognize facial emotions is essential for explaining the development of social communication. During the COVID-19 pandemic, widespread mask-wearing partially occluded facial expressions, potentially influencing children's emotion recognition processes. Methods This study investigated age-related differences in emotion recognition accuracy and gaze fixation patterns in young ch"
+   },
+   {
+    "t": "Emotion Monitoring for Preschool Children Based on Face Recognition and Emotion Recognition Algorithms",
+    "y": 2021,
+    "abs": "In this paper, we study the face recognition and emotion recognition algorithms to monitor the emotions of preschool children. For previous emotion recognition focusing on faces, we propose to obtain more comprehensive information from faces, gestures, and contexts. Using the deep learning approach, we design a more lightweight network structure to reduce the number of parameters and save computational resources. The"
+   },
+   {
+    "t": "Digital screening of children with ASD: diagnostic accuracy of emotion recognition and visual preference tasks",
+    "y": 2025,
+    "abs": "Abstract Background In Germany, there is a need to improve care for suspected autism spectrum disorder (ASD) cases, as the time between parents\u2019 initial suspicion and an official clinical diagnosis can reach three years. New technologies for digital screening promise relief in addressing children\u2019s difficulties in recognizing emotions and social attention. This study investigated the diagnostic validity of tablet-bas"
+   }
+  ]
+ },
+ {
+  "id": "dem:405",
+  "party": "dem",
+  "claim": "Capturing and repurposing the waste heat from data centers can reduce emissions, lower energy costs, and make the energy grid more resilient.",
+  "query": "data center waste heat recovery emissions energy efficiency",
+  "top": [
+   {
+    "t": "Waste Heat Recovery and Energy Reutilization Technologies in Industrial Processes: Research on Improving Energy Efficiency and Reducing Emissions",
+    "y": 2025,
+    "abs": "Industries are significant contributors to global energy consumption and greenhouse gas emissions, making energy efficiency improvements essential. WHR offers a valuable solution by capturing and reusing heat that would otherwise be lost, thus enhancing energy efficiency and reducing environmental impacts. This paper explores the application of WHR technologies across various industries, including steel, cement, and "
+   },
+   {
+    "t": "High-efficiency waste heat recovery systems integrated with thermal energy storage for sustainable Data Centres.",
+    "y": 2024,
+    "abs": "Abstract This paper proposes an advanced energy recovery system for Data Centres (DCs), highly energy-intensive facilities that can be effectively coupled with eco-sustainable technologies to meet the Green New Deal targets. In this context, this study aims to assess the opportunities of recovering the waste heat produced by a DC to satisfy the energy heating demand of some office buildings. The evaluation was carrie"
+   },
+   {
+    "t": "Energy Recovery from Waste Incineration\u2014The Importance of Technology Data and System Boundaries on CO2 Emissions",
+    "y": 2017,
+    "abs": "Previous studies on waste incineration as part of the energy system show that waste management and energy supply are highly dependent on each other, and that the preconditions for the energy system setup affects the avoided emissions and thereby even sometimes the total outcome of an environmental assessment. However, it has not been previously shown explicitly which key parameters are most crucial, how much each par"
+   }
+  ]
+ },
+ {
+  "id": "dem:409",
+  "party": "dem",
+  "claim": "Increasing demand for cloud services and artificial intelligence applications drives the projected rise in data center energy consumption.",
+  "query": "artificial intelligence cloud data center energy demand growth",
+  "top": [
+   {
+    "t": "Design and Development of an Energy Efficient Multimedia Cloud Data Center with Minimal SLA Violation.",
+    "y": 2021,
+    "abs": "Multimedia computing (MC) is rising as a nascent computing paradigm to process multimedia applications and provide efficient multimedia cloud services with optimal Quality of Service (QoS) to the multimedia cloud users. But, the growing popularity of MC is affecting the climate. Because multimedia cloud data centers consume an enormous amount of energy to provide services, it harms the environment due to carbon dioxi"
+   },
+   {
+    "t": "The  Governance  of  Intelligence:  Scaling  Trusted  Data  through  Machine  Learning,  Artificial  Intelligence,  and  Large  Language  Models",
+    "y": 2026,
+    "abs": "As Machine Learning (ML), Artificial Intelligence (AI), and Large Language Models (LLMs) evolve toward increasingly autonomous systems, the integrity, governance, and trustworthiness of data have become decisive factors in determining real-world effectiveness. Traditional data governance approaches-largely manual, reactive, and compliance-driven-are insufficient to support the scale, velocity, and heterogeneity of mo"
+   },
+   {
+    "t": "Artificial Intelligence in Data Engineering: Use Cases, Challenges, and Future Directions",
+    "y": 2025,
+    "abs": "AI is reshaping data engineering from batch plumbing to adaptive, feedback-driven systems. The talk maps concrete points of impact across the pipeline: LLM-assisted ingestion and schema inference; automatic ELT code synthesis and transformation validation; contract-aware quality checks with anomaly and drift detection; lineage reconstruction and metadata enrichment; cost- and carbon-aware orchestration; and policy-as"
+   }
+  ]
+ },
+ {
+  "id": "dem:417",
+  "party": "dem",
+  "claim": "Digital companions (AI chatbots) were easily coaxed into sexually explicit exchanges, even when users identified as children.",
+  "query": "AI chatbots sexual content minors safety",
+  "top": [
+   {
+    "t": "Mitigating Suicide Risk for Minors Involving AI Chatbots\u2014A First in the Nation Law",
+    "y": 2026,
+    "abs": "In this Viewpoint, a California artificial intelligence law is described, including its positive contributions to making these companion chatbots safer for minor and adult users and the limits of the law, and recommends further steps California and other states can adopt to improve protections for mental health and chatbot safety, especially for minors."
+   },
+   {
+    "t": "AI Companions in Ride-Hailing: Enhancing Sense of Safety with Voice Chatbots",
+    "y": 2024,
+    "abs": "In this paper, we present the development and formative evaluation of AI Companion, a voice chatbot based on Artificial Intelligence Large Language Models designed to enhance users' perception of safety and control during transportation using ride-hailing apps or similar services. We conducted a study with 10 participants to understand their travel experiences and evaluate the AI Companion's ability to maintain coher"
+   },
+   {
+    "t": "Sexual exploitation of minors as a form of sexual abuse: concept, content, current trends",
+    "y": 2023,
+    "abs": "\u0421 \u043f\u043e\u0437\u0438\u0446\u0438\u0439 \u043a\u0440\u0438\u043c\u0438\u043d\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043d\u0430\u0443\u043a\u0438 \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u0441\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u043d\u043e-\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u043f\u043e\u043d\u044f\u0442\u0438\u044f \u0441\u0435\u043a\u0441\u0443\u0430\u043b\u044c\u043d\u043e\u0439 \u044d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u0438 \u043a\u0430\u043a \u0444\u043e\u0440\u043c\u044b \u0441\u0435\u043a\u0441\u0443\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043d\u0430\u0441\u0438\u043b\u0438\u044f \u0432 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0438 \u043d\u0435\u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u043e\u043b\u0435\u0442\u043d\u0438\u0445 \u0447\u0435\u0440\u0435\u0437 \u043f\u0440\u0438\u0437\u043c\u0443 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0432 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0435 \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u0432\u044b\u0437\u043e\u0432\u043e\u0432 \u0438 \u0443\u0433\u0440\u043e\u0437. \u041e\u0431\u043e\u0441\u043d\u043e\u0432\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0446\u0435\u043b\u0435\u0441\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u043e\u0441\u0442\u044c \u0438\u0437\u0443\u0447\u0435\u043d\u0438\u044f \u043e\u0431\u043e\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u043e\u0439 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0434\u043b\u044f \u0446\u0435\u043b\u0435\u0439 \u043a\u0440\u0438\u043c\u0438\u043d\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043c\u0435\u0442\u043e\u0434\u0438\u043a\u0438 \u043a\u0430\u043a \u043a\u043e\u043d\u0441\u043e\u043b\u0438\u0434\u0438\u0440\u0443\u044e\u0449\u0435\u0433\u043e \u0440\u0430\u0437\u0434\u0435\u043b\u0430 \u043a\u0440\u0438\u043c\u0438\u043d\u0430\u043b\u0438\u0441\u0442\u0438\u043a\u0438. \u0420\u0430\u0441\u043a\u0440\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u043e\u043f"
+   }
+  ]
+ },
+ {
+  "id": "dem:447",
+  "party": "dem",
+  "claim": "Digital price fixing algorithms artificially inflate prices for everyday goods and services.",
+  "query": "algorithmic price fixing inflated prices goods",
+  "top": [
+   {
+    "t": "What is the Price of Tea in China? Goods Prices and Availability in Chinese Cities",
+    "y": 2020,
+    "abs": "Abstract We examine the price and variety of a sample of consumer goods at the barcode level in cities within China. Unlike the position in the United States, in China the prices of goods tend to be lower in larger cities. We explain that difference between the countries by the more uneven spatial distribution of manufacturers\u2019 sales and retailers in China, and we confirm the pro-competitive effect of city size on re"
+   },
+   {
+    "t": "Do as essay, not as I do? How inflated list prices of unsold essayer homes affect the price discovery process",
+    "y": 2025,
+    "abs": "Abstract In the United States real estate market, around 30% of listed properties remain unsold. Moreover, these unsold properties are typically listed far above fair market value (8.1%). We examine the extent to which overpriced property listings exert externalities on list and sale prices in the residential housing market. Our results show that overpriced listings exert spillover effects that distort and inflate ho"
+   },
+   {
+    "t": "ANALYSIS ON THE IMPACT OF PETROLEUM PRICE AND TRANSPORTATION FARE ON THE PRICES OF GOODS AND SERVICES IN KADUNA",
+    "y": 2025,
+    "abs": "In this study, the data on the prices of Premium Motor Spirit (PMS), transportation and some selected goods were analysed in order to understand how transportation fare and PMS price impacts the food industry. This can help to identify areas of improvement and optimization, leading to more efficient and sustainable practices. The data for this research was sourced from Kaduna State Bureau of stattistics. Three years "
+   }
+  ]
+ },
+ {
+  "id": "dem:47",
+  "party": "dem",
+  "claim": "It is stated that violent riots at the Capitol were abetted and encouraged by posts on social media sites. (This is a direct claim linking social media content to real-world political unrest).",
+  "query": "social media political violence insurrection mobilization",
+  "top": [
+   {
+    "t": "Social media as an alternative platform for social mobilization in the US",
+    "y": 2020,
+    "abs": "This study aims to review the effectiveness of social media as a platform for social mobilization and to show how social media influence social movements in the US. It seeks to offer a literature-based comparison between the traditional and the new ones, answering the question why social media is a matter in American politics. It offers practical data about the role of social media in raising awareness, creating move"
+   },
+   {
+    "t": "THE \u2018SOCIAL\u2019 IN POLITICAL COMMUNICATION: SOCIAL MEDIA ENABLED POLITICAL DISCOURSE, ENGAGEMENT AND MOBILIZATION IN INDIA",
+    "y": 2019,
+    "abs": "Purpose of the study: The advent of digital media along with the recent boom of smartphones has changed the atlas of communication. The ubiquity of Social media has led to its increased use in all aspects of communication as against conventional media. Politics is not an exception. The role of social media in political discourses, engagement, and mobilization is widely realized and practiced and has become an importa"
+   },
+   {
+    "t": "Social Media Platforms for Political Mobilization and Citizen Engagement in Democratic Campaigns",
+    "y": 2024,
+    "abs": "The present essay is a vehement attempt to explore how effective social media is in regards to political campaigning and participatory campaign movements in democracy. The interviews and focus groups were resorted to, to pursue the information concerning the exposures of the participants of this study to the political contents and their interaction with the created micro-influencers, as well as the implications of th"
+   }
+  ]
+ },
+ {
+  "id": "dem:514",
+  "party": "dem",
+  "claim": "Burdensome insurance company reviews over medical services are routinely approved, causing unnecessary delays.",
+  "query": "prior authorization approval rates delays administrative burden",
+  "top": [
+   {
+    "t": "Prior authorization utilization, administrative burden, and implications for timely care.",
+    "y": 2026,
+    "abs": "e23035 Background: U.S. payers widely use prior authorization (PA) to manage utilization of high-cost therapies. Although intended to promote evidence-based care, PAs are associated with delays and administrative burden. Data describing variation in PA practices and comparing potential reforms remain limited. Methods: This mixed-methods MBA health policy analysis incorporated publicly available administrative data, p"
+   },
+   {
+    "t": "Perceptions of prior authorization burden and solutions",
+    "y": 2024,
+    "abs": "Abstract The prior authorization (PA) process consumes time and money on the part of patients, providers, and payers. While some research shows substantial possible savings in the PA process, identifying what different groups can do is not as well known. Thus, organizations have struggled to capture this opportunity. To understand different perspectives on PA burden and receptivity to possible changes in the PA proce"
+   },
+   {
+    "t": "Abstract 9: Alirocumab Prior Authorization Approval and Prescription Fill Rates Among Medicare Advantage Patients in a Large US Managed Care Plan",
+    "y": 2018,
+    "abs": "Introduction: Alirocumab is a proprotein convertase subtilisin/ kexin type 9 (PCSK9) inhibitor approved as an adjunct to diet and maximally tolerated statin therapy for treatment of adults with heterozygous familial hypercholesterolemia (HeFH) or clinical atherosclerotic cardiovascular disease who require additional lowering of LDL-cholesterol. Barriers to possession, including therapy cost and cost-sharing implicati"
+   }
+  ]
+ },
+ {
+  "id": "dem:529",
+  "party": "dem",
+  "claim": "SB 596 provides a strategy to achieve cement with net zero emissions by 2045. (This is a claim about the feasibility and effectiveness of a decarbonization strategy for a specific industry).",
+  "query": "cement industry decarbonization net zero emissions",
+  "top": [
+   {
+    "t": "Meeting industrial decarbonization goals: a case study of and roadmap to a net-zero emissions cement industry in California",
+    "y": 2023,
+    "abs": "Abstract Recent decarbonization policies are expected to significantly impact high greenhouse gas (GHG) emitting industries, as they will be forced to find ways to operate with a lower environmental footprint. Due to the energy required for the kilns and the unavoidable chemical-derived emissions during manufacturing, in addition to its high global consumption levels, the cement industry is anticipated to be among th"
+   },
+   {
+    "t": "Industry Decarbonization \u2013 Mission Net Zero",
+    "y": 2025,
+    "abs": "India's critical need to decarbonize its industrial sector, a significant contributor to greenhouse gas emissions, while maintaining economic growth. Focusing on the \"hard-to-abate\" iron and steel and cement sectors, it outlines a roadmap for achieving India's net-zero emissions target by 2070. Given India's relatively low per capita emissions but substantial population, coupled with its developmental needs, innovati"
+   },
+   {
+    "t": "Framework for Cement Plants Assessment Through Cement Production Improvement Measures for Reduction of CO2 Emissions Towards Net Zero Emissions",
+    "y": 2025,
+    "abs": "Recent global strategies highlight the urgency of addressing greenhouse gas (GHG) emissions, particularly CO2 from energy-intensive industries such as cement production. Studies show that the cement industry contributes around 8% of the global CO2 emissions, emphasizing the need for innovative and structural mitigation strategies. While advancements in carbon capture technologies, LC3 cement, alternative raw material"
+   }
+  ]
+ },
+ {
+  "id": "dem:531",
+  "party": "dem",
+  "claim": "Building electrification would put California on a stronger path to clean energy and net zero emissions. (This is a claim about the environmental impact and efficacy of widespread building electrification).",
+  "query": "building electrification decarbonization emissions",
+  "top": [
+   {
+    "t": "Modelling electricity demand and emissions from statewide vehicle electrification: regional, behavioral, and grid decarbonization effects in Californi",
+    "y": 2026,
+    "abs": "Abstract Our study evaluates the projected electricity demand and associated emissions from statewide LDV electrification. Using adoption forecasts from the U.S. Department of Energy\u2019s EVI-Pro Lite tool, hourly grid carbon intensity profiles from the California Independent System Operator (CAISO), and electricity generation data from the U.S. Energy Information Administration (EIA), we assess charging demand and emis"
+   },
+   {
+    "t": "The Role of Cogeneration in the Electrification Pathways towards Decarbonization",
+    "y": 2023,
+    "abs": "The global call for an environmentally friendly, sustainable, and reliable energy system looks for the optimal integration of different technologies to allow a smooth and economically viable transition towards electrification. In this context, small, medium, and large industrial processes are relevant contributors to global CO2 emissions production due to the simultaneous requirement of electricity, heating, and cool"
+   },
+   {
+    "t": "Comparing e-Fuels and Electrification for Decarbonization of Heavy-Duty Transports",
+    "y": 2022,
+    "abs": "The freight sector is expected to keep, or even increase, its fundamental role for the major modern economies, and therefore actions to limit the growing pressure on the environment are urgent. The use of electricity is a major option for the decarbonization of transports; in the heavy-duty segment, it can be implemented in different ways: besides full electric-battery powertrains, electricity can be used to supply c"
+   }
+  ]
+ },
+ {
+  "id": "dem:545",
+  "party": "dem",
+  "claim": "Chatbots can have addictive engagement patterns. (This claims a psychological effect of AI design on users).",
+  "query": "AI chatbots addictive engagement design",
+  "top": [
+   {
+    "t": "The Use of AI Chatbots, Perceived Usefulness of AI Chatbots, and Student Engagement among Senior High School Students: A Diagnostic Study",
+    "y": 2026,
+    "abs": "Student overreliance on artificial intelligence (AI) tools and concerns on the reliability of AI in generated response are urgent problems in education. The influence of the use of AI chatbots and perceived usefulness of AI chatbots on student engagement was verified. Using diagnostic research design, total enumeration sampling technique, survey technique, and multiple linear regression analysis were the methods used"
+   },
+   {
+    "t": "The impact of AI-powered chatbots on user engagement and information seeking behavior in Nigerian university libraries",
+    "y": 2026,
+    "abs": "This study examines the effect of AI-powered chatbots on user interaction and information-seeking behavior in Nigerian university libraries. Although conversational AI is increasingly being adopted by academic institutions worldwide to enhance library services, there is still limited empirical research on its effectiveness in developing countries, particularly Nigeria. Using a mixed-methods approach, the study combin"
+   },
+   {
+    "t": "Food Traceability System Design Incorporating AI Chatbots: Promoting Consumer Engagement with Prepared Foods",
+    "y": 2025,
+    "abs": "Industrialized processing has increased the complexity of the food supply chain. Concerns about food-related risks have increased consumer interest in food traceability. Traceability systems are regarded as effective tools for mitigating information asymmetry and enhancing food quality and safety. However, the design of traditional food traceability systems overlooks the risk of information overload. Based on informa"
+   }
+  ]
+ },
+ {
+  "id": "dem:559",
+  "party": "dem",
+  "claim": "Artificial intelligence is an important and increasingly utilized tool in diagnosing and treating patients. (This claims a current and growing application and utility of AI in medicine).",
+  "query": "artificial intelligence medical diagnosis treatment",
+  "top": [
+   {
+    "t": "Artificial Intelligence in HIV Diagnosis and Treatment: A Comprehensive Review",
+    "y": 2025,
+    "abs": "Objective: This review examines the applications of Artificial Intelligence (AI) in HIV diagnosis, treatment optimization, and epidemiological modeling. It explores how AI enhances early detection, personalizes antiretroviral therapy (ART), and supports public health strategies while addressing ethical and accessibility challenges. Methods: A systematic literature search was conducted in PubMed, Scopus, and Web of Sc"
+   },
+   {
+    "t": "Artificial Intelligence in Diagnosis and Treatment",
+    "y": 2024,
+    "abs": "Artificial intelligence (AI) is a field within computer science that has vast applications and has transformed medical technologies. It is often regarded to be the branch of computer science that can handle complicated problems with minimal theory and many applications. AI is utilized to assist researchers in the analysis of large data sets, enabling precision medicine and assisting physicians in improving patient ou"
+   },
+   {
+    "t": "Application of Medical Image Artificial Intelligence in Medical Diagnosis and Treatment",
+    "y": 2024,
+    "abs": "With the progress of science and technology, artificial intelligence has made remarkable progress in various fields. Among them, the application of medical imaging is an important branch of AI technology. The purpose of this paper is to enhance the precision, efficiency and accuracy of medical image analysis. The research methods chiefly include deep learning, machine vision and natural language understanding. Throug"
+   }
+  ]
+ },
+ {
+  "id": "dem:56",
+  "party": "dem",
+  "claim": "Certain technologies used in the workplace pose a high risk of producing bias-based decisions.",
+  "query": "algorithmic bias automated employment decisions discrimination",
+  "top": [
+   {
+    "t": "AI and Employment Discrimination: AIHR's Algorithmic Bias",
+    "y": 2025,
+    "abs": "Today, artificial intelligence (AI) has developed rapidly to permeate every aspect of people's lives. Some AI has already replaced humans to start working in factories or companies, in addition to AI in the field of employment and AIHR under the recruitment path based on big data algorithms for resume screening and employee interviews. The extension of AI to employment recruitment raises the issue of potential algori"
+   },
+   {
+    "t": "When Neutrality Conceals Bias: Perceived Discrimination in Algorithmic Decisions",
+    "y": 2025,
+    "abs": "ABSTRACT Discrimination is both an objective reality and a subjective perception. While firms increasingly use AI for decisions like hiring, little is known about how AI versus human decision\u2010makers affect perceived discrimination. Across seven studies ( N = 1757), AI decisions are consistently seen as less discriminatory than identical human decisions across various contexts of discrimination. Study 2 shows this is "
+   },
+   {
+    "t": "The courts have spoken: examining judicial responses across the EU to algorithmic bias in automated decision-making through the lens of non-discrimina",
+    "y": 2026,
+    "abs": "Abstract For as vivid the academic debate around issues of algorithmic bias, discrimination and unfairness has been in the context of EU law, little attention has been paid thus far to the way in which such instances have been dealt with by courts. This article examines from a non-discrimination law perspective how domestic courts of Member States as well as the European Court of Justice have approached cases of algo"
+   }
+  ]
+ },
+ {
+  "id": "dem:595",
+  "party": "dem",
+  "claim": "The rise of generative artificial intelligence has driven a corresponding growth in data center demand. (This claims a specific sub-field of AI is a key driver of infrastructure growth).",
+  "query": "generative AI data center demand growth",
+  "top": [
+   {
+    "t": "Comments: Grabbing the Brass Ring To Power the Demand for Data Centers and Generative AI",
+    "y": 2024,
+    "abs": "_ \u201cThere\u2019s no way to get there without a breakthrough.\u201d These were the words of OpenAI\u2019s CEO Sam Altman at a sideline meeting with Bloomberg at the World Economic Forum (WEF) in Davos, Switzerland, in January, referring to the energy required to power generative AI, data centers, cloud computing, and to support required equipment and infrastructure. As industries swiftly transition into a fresh era of digital revolut"
+   },
+   {
+    "t": "Sustainable Data Rivers? Rebalancing the Data Ecosystem That Underlies Generative AI",
+    "y": 2024,
+    "abs": "Abstract The salient concern, today, is not whether copyright law will \u201callow robots to learn.\u201d The pressing question is whether the exploitation of the data ecosystem that has made generative AI possible can be made socially sustainable. Just as the human right to water is only possible if reasonable use and reciprocity constraints are imposed on the economic exploitation of rivers, so is the fundamental right to ac"
+   },
+   {
+    "t": "The Convergence of Data Mesh and Generative AI: Creating Self-Service Data Products with Embedded Intelligence",
+    "y": 2024,
+    "abs": "The rapid evolution of data-driven decision-making has necessitated the development of architectures that can support real-time decision intelligence. This paper explores the convergence of two transformative paradigms\u2014Data Mesh and Generative AI\u2014to create self-service data products with embedded intelligence. By integrating the decentralized, domain-oriented architecture of Data Mesh with the generative capabilities"
+   }
+  ]
+ },
+ {
+  "id": "dem:609",
+  "party": "dem",
+  "claim": "Wrongful denial of insurance claims based on AI algorithms can lead to serious health consequences and even death. (This claims severe, life-altering impacts of AI errors in healthcare).",
+  "query": "insurance AI claim denial health harm",
+  "top": [
+   {
+    "t": "Claim Tracker: An AI-Powered Automated Insurance Claim Processing System",
+    "y": 2026,
+    "abs": "Insurance claim processing is a critical yet time-consuming operation in the healthcare and financial services industry. Traditional manual claim processing requires 15 to 20 days per claim, relies heavily on human consultants reading 200+ page policy handbooks, and is prone to inconsistent decisions and high operational costs. This paper presents \"Claim Tracker,\" an AI-powered automated insurance claim processing sy"
+   },
+   {
+    "t": "When a Health Insurance Provider says \u201cNo\u201d: A Health Insurance Claim Navigation Tool",
+    "y": 2024,
+    "abs": "The purpose of health insurance is to pay for preventative and nonpreventative health care. Unfortunately, claim denials are frequent and most people do not contested these denials. Consumers lack both knowledge and self-efficacy to challenge their health insurance decision. Conflict is stressful can occur when a health insurance claim is denied unexpectedly. Faced with uncertainty of health care cost coverage, consu"
+   },
+   {
+    "t": "Artificial intelligence in processing medical insurance claims: Generating claim denial letters with deep learning and natural language processing alg",
+    "y": 2022,
+    "abs": "The insurance sector has difficulties in processing claims effectively while keeping things clear, precise, and friendly for clients. A key part of this process is creating denial letters that outline the reasons a claim was rejected, often due to complicated policy terms and claim specifics. This study examines how Artificial Intelligence (AI) and Machine Learning (ML) can help automate the creation of denial letter"
+   }
+  ]
+ },
+ {
+  "id": "dem:63",
+  "party": "dem",
+  "claim": "Extremist, copycat behavior is promulgated in online forums.",
+  "query": "online forums extremism copycat radicalization",
+  "top": [
+   {
+    "t": "Radicalizing Online",
+    "y": 2021,
+    "abs": "Radicalization is the transition into acceptance and approval of extremist beliefs and actions, including condoning or committing acts of violence. In recent decades, the internet has played a crucial role in the radicalization of extremists and terrorists, as well as facilitating radical groups' recruitment efforts. The present review briefly discusses what radicalization is and how it unfolds in a general sense, be"
+   },
+   {
+    "t": "Religious Extremism and Online Radicalization in Pakistan",
+    "y": 2020,
+    "abs": "In the present media age, the phenomenon of violent extremism is one of the major challenges confronting Pakistan\u2019s internal and external security. Cyber radicalization and Countering Violent Extremism (CVE) has become a daunting task around the globe because of the changing nature of conflicts. This study explores the literature on online radicalization, extremism, its trends and challenges with special reference to"
+   },
+   {
+    "t": "Preventing online radicalization and extremism in boys: A conversation with Pasha Dashtgard",
+    "y": 2023,
+    "abs": "Online extremism is on the rise, with boys and young men being targeted by misogynistic social media influencers like Andrew Tate. When boys repeat comments they\u2019ve heard online in the classroom, educators can play a role in preventing students from being further influenced by online extremism. Pasha Dashtgard, the director of research at American University\u2019s Polarization & Extremism Research & Innovation Lab (PERIL"
+   }
+  ]
+ },
+ {
+  "id": "dem:684",
+  "party": "dem",
+  "claim": "Data centers consume significant energy (implied by the 100MW to 200MW exemption process). (This implies the substantial power requirements of these technological facilities).",
+  "query": "data center power consumption megawatts energy",
+  "top": [
+   {
+    "t": "Analysis of China\u2019s power development and the impact of data center energy consumption",
+    "y": 2026,
+    "abs": "China\u2019s power industry faces critical challenges in balancing rapid economic growth with environmental sustainability amidst surging electricity demand from artificial intelligence (AI), cloud computing, and data centers. This study introduces the Data Center Energy Consumption Ratio (DCECR) as a quantitative metric and comprehensively evaluates China\u2019s \u201cEast-to-West Computing\u201d (ETWC) strategy through empirical analy"
+   },
+   {
+    "t": "Optimized data center site selection\u2014mesoclimatic effects on data center energy consumption and costs",
+    "y": 2021,
+    "abs": "Abstract The effect of the location on the energy consumption of data centers has already been studied in detail on the macro-climatic level. To take advantage of these effects, however, it is usually necessary for the location of data centers to cross international borders. The influence of site changes within national borders and in a small radius of < 100 km has not yet been quantified. To investigate this, a dyna"
+   },
+   {
+    "t": "Power system operational reliability assessment based on the data center energy consumption elastic space",
+    "y": 2024,
+    "abs": "In the era of big data, data centers with high energy consumption, interconnectivity, and load flexibility have developed rapidly. However, due to data privacy issues, the traditional power-system operational reliability assessment (ORA) struggles to precisely consider the load flexibility of data centers, leading to inaccurate evaluation. To this end, this article proposes an ORA method considering the load flexibil"
+   }
+  ]
+ },
+ {
+  "id": "dem:689",
+  "party": "dem",
+  "claim": "State buildings and assets can achieve carbon-neutrality by 2035. (This claims the feasibility of a specific, long-term environmental target using emergent technologies and practices).",
+  "query": "building carbon neutrality feasibility retrofit",
+  "top": [
+   {
+    "t": "Hybrid GA\u2013MILP Model for Community Building Retrofit Planning Towards Carbon Neutrality",
+    "y": 2025,
+    "abs": "Retrofitting community buildings is a key pathway toward carbon neutrality, yet most existing retrofit planning models lack adaptability to the diverse urban contexts of the Global South, where building typologies are heterogeneous and resources limited. Addressing this gap requires approaches that are both computationally efficient and context-sensitive. This study introduces a hybrid optimization framework that int"
+   },
+   {
+    "t": "Feasibility Study of China\u2019s Carbon Tax System under the Carbon Neutrality Target\u2014Based on the CGE Model",
+    "y": 2023,
+    "abs": "In order to cope with the climate problem of global warming and respond to the call of the United Nations to reduce carbon emissions, China has put the goals of carbon peaking in 2030 and carbon neutrality in 2060 forward and has promoted the transformation and upgrading of the economic development mode and the green, low-carbon development path. In international practice, various countries have widely adopted the ca"
+   },
+   {
+    "t": "Feasibility Report on China's 2060 Carbon Neutrality Target",
+    "y": 2024,
+    "abs": "Global warming is an urgent threat requiring immediate action. China's dedication to attaining carbon neutrality by 2060 is a critical development in the global climate initiative, with significant implications for environmental sustainability, economic development, and energy policy. The article provides a thorough investigation of the viability of China's ambitious objective to achieve carbon neutrality by 2060. By"
+   }
+  ]
+ },
+ {
+  "id": "dem:69",
+  "party": "dem",
+  "claim": "Social media promotes conspiracy theories.",
+  "query": "social media conspiracy theories",
+  "top": [
+   {
+    "t": "Opposing Yet Still Disseminating Conspiracy Theories: A Mixed-Methods Analysis of Motivations Behind the Dissemination of Conspiracy Theories Online",
+    "y": 2026,
+    "abs": "While most research on conspiracy theory dissemination focuses on beliefs in and support for conspiracy theories, limited work has explored why people share conspiracy theories, particularly when they oppose them. Using natural language processing and content analysis, we examined 71,003 retweet comments on 136 conspiracy theory-related tweets across six themes posted between 2018 and 2024. Among other things, findin"
+   },
+   {
+    "t": "Who Believes in Conspiracy Theories? Network Diversity, Political Discussion, and Conservative Conspiracy Theories on Social Media",
+    "y": 2021,
+    "abs": "A survey of 3,441 U.S. social media users showed that a high portion believes in conspiracy theories, and their beliefs vary widely along the party lines and socio-demographic factors. In particular, conservative conspiracy theories were more pronounced than liberal ones, and older White males with high conservatism and Protestantism showed higher endorsement of conservative conspiracy theories. Furthermore, ideologi"
+   },
+   {
+    "t": "COVID-19 Conspiracy Theories Discussion on Twitter",
+    "y": 2022,
+    "abs": "The coronavirus disease 2019 (COVID-19) pandemic was an unexpected event and resulted in catastrophic consequences with long-lasting behavioral effects. People began to seek explanations for different aspects of COVID-19 and resorted to conspiracy narratives. The objective of this article is to analyze the changes on the discussion of different COVID-19 conspiracy theories throughout the pandemic on Twitter. We have "
+   }
+  ]
+ },
+ {
+  "id": "dem:75",
+  "party": "dem",
+  "claim": "A specific small group of individuals and organizations are responsible for a large percentage of vaccine misinformation on major social media platforms.",
+  "query": "vaccine misinformation superspreaders social media concentration",
+  "top": [
+   {
+    "t": "COVID-19 Vaccine Misinformation Campaigns and Social Media Narratives",
+    "y": 2022,
+    "abs": "COVID-19 vaccine hesitancy has increased concerns about vaccine uptake required to overcome the pandemic and protect public health. A critical factor associated with anti-vaccine attitudes is the information shared on social media. In this work, we investigate misinformation communities and narratives that can contribute to COVID-19 vaccine hesitancy. During the pandemic, anti-science and political misinformation/con"
+   },
+   {
+    "t": "Polio vaccine misinformation on social media: challenges, efforts, and recommendations",
+    "y": 2024,
+    "abs": "On April 22, 2019, false rumors regarding the side effects of the polio vaccine quickly spread across various social media platforms, including Facebook, X (formerly known as Twitter), WhatsApp, and YouTube. This rapid spread of misinformation had a detrimental impact on Pakistan's efforts to eradicate polio. This essay sheds lights on two critical aspects related to polio vaccine misinformation on social media in Pa"
+   },
+   {
+    "t": "Strategies to correct vaccine misinformation on social media for pregnant women and the impact of vaccine skepticism",
+    "y": 2025,
+    "abs": "Abstract Health-related misinformation on social media may affect vaccination behavior, particularly among (soon-to-be) mothers. Research suggested different strategies to correct misinformation, but it is unclear which strategies work best for what group and in what situation. Addressing the call for more emotion-based debunking strategies, this study examined how text genre (narrative vs. expository) and harm prese"
+   }
+  ]
+ },
+ {
+  "id": "dem:79",
+  "party": "dem",
+  "claim": "Social media platforms amplify content in pursuit of greater user engagement.",
+  "query": "engagement optimization algorithms amplification social media",
+  "top": [
+   {
+    "t": "Detecting Image Forgery over Social Media Using U-NET with Grasshopper Optimization",
+    "y": 2023,
+    "abs": "Currently, video and digital images possess extensive utility, ranging from recreational and social media purposes to verification, military operations, legal proceedings, and penalization. The enhancement mechanisms of this medium have undergone significant advancements, rendering them more accessible and widely available to a larger population. Consequently, this has facilitated the ease with which counterfeiters c"
+   },
+   {
+    "t": "Rethinking the Impact of Social Media Exposure and Source Credibility on the Social Amplification of Risk and Public Engagement During the COVID-19 Pa",
+    "y": 2025,
+    "abs": "Promoting public engagement through social media has always been a core issue in risk communication studies. Based on the Social Amplification of Risk Framework (SARF), this study conducts an online survey in China (N = 908) and constructs a moderated mediation model. Using bootstrapped moderated mediation analysis, this study examines the relationships among social media exposure to pandemic information, risk percep"
+   },
+   {
+    "t": "Health Risk Information Engagement and Amplification on Social Media",
+    "y": 2016,
+    "abs": "Emerging pandemics call for unique health communication and education strategies in which public health agencies need to satisfy the public\u2019s information needs about possible risks while preventing risk exaggeration and dramatization. As a route to providing a framework for understanding public information behaviors in response to an emerging pandemic, this study examined the characteristics of communicative behavior"
+   }
+  ]
+ },
+ {
+  "id": "dem:85",
+  "party": "dem",
+  "claim": "A specific small group of individuals and organizations are responsible for a large percentage of vaccine misinformation on major social media platforms.",
+  "query": "vaccine misinformation superspreaders concentration social media",
+  "top": [
+   {
+    "t": "COVID-19 Vaccine Misinformation Campaigns and Social Media Narratives",
+    "y": 2022,
+    "abs": "COVID-19 vaccine hesitancy has increased concerns about vaccine uptake required to overcome the pandemic and protect public health. A critical factor associated with anti-vaccine attitudes is the information shared on social media. In this work, we investigate misinformation communities and narratives that can contribute to COVID-19 vaccine hesitancy. During the pandemic, anti-science and political misinformation/con"
+   },
+   {
+    "t": "Polio vaccine misinformation on social media: challenges, efforts, and recommendations",
+    "y": 2024,
+    "abs": "On April 22, 2019, false rumors regarding the side effects of the polio vaccine quickly spread across various social media platforms, including Facebook, X (formerly known as Twitter), WhatsApp, and YouTube. This rapid spread of misinformation had a detrimental impact on Pakistan's efforts to eradicate polio. This essay sheds lights on two critical aspects related to polio vaccine misinformation on social media in Pa"
+   },
+   {
+    "t": "Strategies to correct vaccine misinformation on social media for pregnant women and the impact of vaccine skepticism",
+    "y": 2025,
+    "abs": "Abstract Health-related misinformation on social media may affect vaccination behavior, particularly among (soon-to-be) mothers. Research suggested different strategies to correct misinformation, but it is unclear which strategies work best for what group and in what situation. Addressing the call for more emotion-based debunking strategies, this study examined how text genre (narrative vs. expository) and harm prese"
+   }
+  ]
+ },
+ {
+  "id": "ndem:0",
+  "party": "dem",
+  "claim": "AI systems and internet-based chatbots can misrepresent themselves as licensed health professionals such as nurses, doctors, or psychologists.",
+  "query": "AI chatbots impersonate health professionals medical advice",
+  "top": [
+   {
+    "t": "AI Chatbots for Psychological Health for Health Professionals: Scoping Review",
+    "y": 2025,
+    "abs": "Abstract Background Health professionals face significant psychological burdens including burnout, anxiety, and depression. These can negatively impact their well-being and patient care. Traditional psychological health interventions often encounter limitations such as a lack of accessibility and privacy. Artificial intelligence (AI) chatbots are being explored as potential solutions to these challenges, offering ava"
+   },
+   {
+    "t": "Reliability and readability of five AI chatbots for concussion health advice across retrieval augmented and pretrained models",
+    "y": 2026,
+    "abs": "Abstract Generative AI is rapidly entering patient education workflows, yet its safety profile for concussion management remains undefined. Utilizing the CHART framework, this cross-sectional audit assessed five platforms, specifically isolating retrieval-augmented generation (RAG) architectures against standard pre-trained Large Language Models (LLMs). We extracted 11 high-volume patient queries from Google Trends a"
+   },
+   {
+    "t": "Security Implications of AI Chatbots in Health Care",
+    "y": 2023,
+    "abs": "Artificial intelligence (AI) chatbots like ChatGPT and Google Bard are computer programs that use AI and natural language processing to understand customer questions and generate natural, fluid, dialogue-like responses to their inputs. ChatGPT, an AI chatbot created by OpenAI, has rapidly become a widely used tool on the internet. AI chatbots have the potential to improve patient care and public health. However, they"
+   }
+  ]
+ },
+ {
+  "id": "ndem:10",
+  "party": "dem",
+  "claim": "Algorithmic pricing tools can be used to depress workers' wages.",
+  "query": "algorithmic pricing labor market wage suppression monopsony",
+  "top": [
+   {
+    "t": "Monopsony in the Low-Wage Labor Market? Evidence from Minimum Nurse Staffing Regulations",
+    "y": 2014,
+    "abs": "Abstract This paper provides direct evidence on the extent of monopsony power in the low-wage labor market by estimating the firm-level elasticity of labor supply for nurse aides in the long-term care (nursing home) industry. Using exogenous variation in hiring induced by the passage of a state minimum nurse staffing law, I find that facilities initially out of compliance with the new law did not have to raise their "
+   },
+   {
+    "t": "Monopsony in the labor market: Profit vs. Wage maximization",
+    "y": 2007,
+    "abs": "This paper compares the efficiency of profit- and wage-maximizing (PM and WM) monopsony in the labor market. We show that, both locally and globally, a PM monopsony may well be dominated by its WM twin, where the local and global dominance are defined with respect to a single (inverse) labor supply function and a single family of such functions. This family is always divided in the two disjoint (sub)families of the P"
+   },
+   {
+    "t": "Optimal Taxation and Monopsonistic Labor Market: Does Monopsony Justify the Minimum Wage?",
+    "y": 2013,
+    "abs": "Abstract Does monopsony on the labor market in itself justify the implementation of a minimum wage when it would not be used in a competitive economy? This issue is studied in a model of optimal taxation. We find that there is no room for the minimum wage when there are a continuum of skills with no isolated mass point at the bottom of the wage distribution. Accordingly, in the empirically relevant situation, where t"
+   }
+  ]
+ },
+ {
+  "id": "ndem:18",
+  "party": "dem",
+  "claim": "From preschool through university, education now requires near-constant use of digital platforms.",
+  "query": "digital technology platforms education students prevalence use",
+  "top": [
+   {
+    "t": "Use of Digital Platforms and Students\u2019 Behavior in Learning Mathematics",
+    "y": 2025,
+    "abs": "Mathematics remains a significant academic challenge for many Filipino students, with international assessments indicating an alarmingly 16% proficiency level. This study aimed to determine the digital platforms used and the students\u2019 behavior in learning Mathematics in the Balingasag Districts, Division of Misamis Oriental during the School Year 2024\u20132025. Specifically, it sought to assess the respondents\u2019 level on "
+   },
+   {
+    "t": "Factors Influencing Students' Continuous Willingness to Use E-Learning Platforms in Higher Education",
+    "y": 2022,
+    "abs": "The COVID-19 pandemic has imposed significant challenges on education worldwide, particularly in areas with limited online teaching experience. The research design is based on constructivism learning theory and the technology acceptance model. A questionnaire was also distributed to a university of finance and economics in China. Structural equation model was used to test the influence mechanism of social media inter"
+   },
+   {
+    "t": "Students\u2019 Perceptions Toward the Use of Digital Reading Platforms for Improving Reading Comprehension in EFL Classrooms",
+    "y": 2025,
+    "abs": "eleventh-grade students at SMKS YPPP Wonomulyo during the 2024/2025 academic year. In addition, it sought to examine students' perceptions regarding the effectiveness of digital reading platforms in supporting the development of their comprehension abilities. A quantitative research method was adopted, utilizing a quasi-experimental design to assess the impact of the intervention. The population consisted of second-g"
+   }
+  ]
+ },
+ {
+  "id": "ndem:35",
+  "party": "dem",
+  "claim": "AI companion platforms are designed to create dependency in users.",
+  "query": "AI chatbots engagement dependency persuasive design",
+  "top": [
+   {
+    "t": "The Use of AI Chatbots, Perceived Usefulness of AI Chatbots, and Student Engagement among Senior High School Students: A Diagnostic Study",
+    "y": 2026,
+    "abs": "Student overreliance on artificial intelligence (AI) tools and concerns on the reliability of AI in generated response are urgent problems in education. The influence of the use of AI chatbots and perceived usefulness of AI chatbots on student engagement was verified. Using diagnostic research design, total enumeration sampling technique, survey technique, and multiple linear regression analysis were the methods used"
+   },
+   {
+    "t": "The impact of AI-powered chatbots on user engagement and information seeking behavior in Nigerian university libraries",
+    "y": 2026,
+    "abs": "This study examines the effect of AI-powered chatbots on user interaction and information-seeking behavior in Nigerian university libraries. Although conversational AI is increasingly being adopted by academic institutions worldwide to enhance library services, there is still limited empirical research on its effectiveness in developing countries, particularly Nigeria. Using a mixed-methods approach, the study combin"
+   },
+   {
+    "t": "Food Traceability System Design Incorporating AI Chatbots: Promoting Consumer Engagement with Prepared Foods",
+    "y": 2025,
+    "abs": "Industrialized processing has increased the complexity of the food supply chain. Concerns about food-related risks have increased consumer interest in food traceability. Traceability systems are regarded as effective tools for mitigating information asymmetry and enhancing food quality and safety. However, the design of traditional food traceability systems overlooks the risk of information overload. Based on informa"
+   }
+  ]
+ },
+ {
+  "id": "ndem:37",
+  "party": "dem",
+  "claim": "California's expanding technology and artificial intelligence sector is driving increased demand for data centers and electricity.",
+  "query": "AI technology sector data center electricity demand growth",
+  "top": [
+   {
+    "t": "ELECTRICITY DEMAND FORECASTING FOR VIETNAM\u2019S DATA CENTER SECTOR: IMPLICATIONS FOR SUSTAINABLE ENERGY PLANNING",
+    "y": 2025,
+    "abs": "This study forecasts electricity demand for Vietnam\u2019s data center sector through 2030 in the context of rapid digitalization and the accelerating adoption of Artificial Intelligence (AI), both of which are expected to exert significant pressure on national power infrastructure. Using a baseline IT load of 524.7 MW in 2025 derived from industry market reports, the analysis employs a scenario-based approach with two gr"
+   },
+   {
+    "t": "Increase in Demand for Electricity Due to Rapid Increase in Data Centers to Support AI and Role of V2G in Supporting this Growth",
+    "y": 2024,
+    "abs": "Purpose: The rapid proliferation of artificial intelligence (AI) technologies has led to unprecedented growth in data center infrastructure, significantly increasing global electricity demand. This study examines how Vehicle-to-Grid (V2G) technology can mitigate the energy challenges associated with AI-driven data center expansion. Methodology: This paper employs a literature review of technological advancements, pol"
+   },
+   {
+    "t": "Evaluating the Electricity Supply in Turkey Under Economic Growth and Increasing Electricity Demand",
+    "y": 2017,
+    "abs": "The growing economy and residential consumption cause an increasing trend in the demand for electricity in Turkey. The country imports a quite ratio of its energy resources and heavily depend on the fossil fuels. On the other hand, the demand for the electricity that needs to be provided using resources that have minimum cost, sustainable supply and long term cycle is increasing parallel to the economic growth in the"
+   }
+  ]
+ },
+ {
+  "id": "ndem:8",
+  "party": "dem",
+  "claim": "Algorithmic price fixing raises costs for essentials like rent, groceries, and housing.",
+  "query": "algorithmic price fixing consumer prices rent groceries housing",
+  "top": [
+   {
+    "t": "Nefarious Algorithms: Rent-Fixing via Algorithmic Collusion and the Role of Intentionality in the Pursuit of Class Monopoly Rent",
+    "y": 2025,
+    "abs": "Housing unaffordability and widening socio-spatial polarization continue to pervade US cities today. Driving this phenomenon, in part, is the increasing investment of rental housing stock by corporate landowners who rely on firms like RealPage, Inc. to employ advanced algorithms that determine the highest possible rent to charge tenants. RealPage is currently being sued for violating US antitrust law. This study crit"
+   },
+   {
+    "t": "What drives housing prices, rent and new construction in China",
+    "y": 2017,
+    "abs": "Purpose With this paper, the authors aim to investigate the drivers behind three of the most important aspects of the Chinese real estate market, housing prices, housing rent and new construction. At the same time, the authors perform a comprehensive empirical test of the popular 4-quadrant model by Wheaton and DiPasquale. Design/methodology/approach In this paper, the authors utilize panel cointegration estimation m"
+   },
+   {
+    "t": "Time as a Direct Source of Utility: The Case of Price Information Search for Groceries",
+    "y": 1990,
+    "abs": "A \u201cjoint production\u201d model that combines aspects of household production and the economics of information is formulated to explain variation in time spent in price information search for groceries by dual earner households. Enjoyment of search time, a psychological variable, is incorporated into the model. Empirical estimation using grocery expenditure data indicates that enjoyment, income, age, the price of search t"
+   }
+  ]
+ },
+ {
+  "id": "rep:10",
+  "party": "rep",
+  "claim": "Deepfake technology can be used to cheaply and quickly create fake digital content that is so realistic it is hard to tell if it is genuine or not.",
+  "query": "deepfake realistic synthetic media detection difficulty",
+  "top": [
+   {
+    "t": "Novel Deepfake Image Detection with PV-ISM: Patch-Based Vision Transformer for Identifying Synthetic Media",
+    "y": 2025,
+    "abs": "This study presents a novel approach to the increasingly important task of distinguishing AI-generated images from authentic photographs. The detection of such synthetic content is critical for combating deepfake misinformation and ensuring the authenticity of digital media in journalism, forensics, and online platforms. A custom-designed Vision Transformer (ViT) model, termed Patch-Based Vision Transformer for Ident"
+   },
+   {
+    "t": "Deepfake Satire and the Possibilities of Synthetic Media",
+    "y": 2023,
+    "abs": "This article explores the rise of deepfake satire as one of the most vibrant subgenres of experimentation within the expanding field of AI art. A combination of \u201cdeep learning\u201d and the word \u201cfake,\u201d deepfake videos depict people doing or saying things that they never did or said. While deepfakes have been used to deceive and harm individuals as well as a mass audience, they have also been used toward alternative ends."
+   },
+   {
+    "t": "Enhanced Deepfake Detection Through Multi-Attention Mechanisms: A Comprehensive Framework for Synthetic Media Identification",
+    "y": 2025,
+    "abs": "The proliferation of deepfake technology poses significant threats to digital media authenticity, necessitating robust intelligent detection systems to combat manipulated content. This paper presents a novel attention-based framework for deepfake detection that systematically integrates multiple complementary attention mechanisms to enhance discriminative feature learning. Our approach combines spatial attention, mul"
+   }
+  ]
+ },
+ {
+  "id": "rep:17",
+  "party": "rep",
+  "claim": "National security experts and consumer protection advocates have raised concerns about foreign governments having sweeping access to sensitive personal information on American citizens.",
+  "query": "foreign government data access national security personal information",
+  "top": [
+   {
+    "t": "Security of personal data across national borders",
+    "y": 2002,
+    "abs": "Rapid technological advancements present many opportunities in the way people work, communicate and conduct business. That growth is especially prevalent in the World Wide Web. In the last five years, the Internet has expanded the market place to a global arena. More and more companies are conducting business online. Multinational corporations are becoming extremely dependent on the exchange of information across the"
+   },
+   {
+    "t": "Legal Regime of Protection and Security of Personal Data in National Legislations",
+    "y": 2023,
+    "abs": "The article discusses some aspects of the development of legal regulation in the field of protection and security of personal data in various national legislations, in particular in Russia, Great Britain, the European Union, the CIS, and the Middle East. The peculiarities of the influence of the main international data protection standards formed during the practice of European states on their subsequent implementati"
+   },
+   {
+    "t": "Fighting foreign information manipulation and interference",
+    "y": 2025,
+    "abs": "Fighting foreign information manipulation and interference Highlighting the EU-funded ATHENA project, which supports Europe\u2019s defence against foreign information manipulation and interference (FIMI). Dr David Wright and Dr Richa Kumar discuss various incidents and tactics used by countries to influence public perception and recommendations to improve media literacy and combat disinformation. Russia, China, Saudi Arab"
+   }
+  ]
+ },
+ {
+  "id": "rep:19",
+  "party": "rep",
+  "claim": "There is a \"sinister aspect\" where foreign governments use AI, social media, and information technology tools to harvest sensitive information on American consumers.",
+  "query": "foreign data harvesting surveillance social media national security",
+  "top": [
+   {
+    "t": "<i>Person of Interest</i>\n                    as Media Technology of Surveillance: A Cautionary Tale for the Future of the National Security State Wit",
+    "y": 2023,
+    "abs": "In this article, we examine the television series about global surveillance Person of Interest ( POI) (aired on CBS, 2011\u20132016) to reflect on popular understandings of surveillance and account for its representation of artificial intelligence (AI) and algorithmic surveillance. Drawing on television, media, and surveillance studies, we focus on the power of representations of social relations and diegetic technologies"
+   },
+   {
+    "t": "Implications of AI-Driven Surveillance on Media Freedom and National Security in Nigeria",
+    "y": 2025,
+    "abs": "This paper examines the implications of AI-driven surveillance on media freedom and national security in Nigeria. As the country increasingly adopts advanced technologies to address security challenges, concerns arise about potential infringements on civil liberties, particularly press freedom. The study employs a comparative case study approach, analyzing AI surveillance implementation in China, the United Kingdom, "
+   },
+   {
+    "t": "Implications of social media on national security: An overview of social media data on security issues in Nigeria",
+    "y": 2026,
+    "abs": "Abstract The freedom of expression and sharing of views through the social media platforms, which can be accessed by different people across the globe, is a welcome development. It offers the prospect for individuals to connect for social interactions and promote and support civic activities. However, social media has also been acclaimed as a platform for unruly persons to engage and conscript law-abiding citizens in"
+   }
+  ]
+ },
+ {
+  "id": "rep:2",
+  "party": "rep",
+  "claim": "The rapid pace at which advanced AI systems like GPT-4 are developing is alarming and unprecedented.",
+  "query": "large language model capability scaling progress benchmark",
+  "top": [
+   {
+    "t": "Enhancing Large Language Model Comprehension of Material Phase Diagrams through Prompt Engineering and Benchmark Datasets",
+    "y": 2024,
+    "abs": "Large Language Models (LLMs) excel in fields such as natural language understanding, generation, complex reasoning, and biomedicine. With advancements in materials science, traditional manual annotation methods for phase diagrams have become inadequate due to their time-consuming nature and limitations in updating thermodynamic databases. To overcome these challenges, we propose a framework based on instruction tunin"
+   },
+   {
+    "t": "Before You Simulate: A Pre-Study Benchmark for Large Language Model Stability in Political Role-Playing Simulations",
+    "y": 2026,
+    "abs": "As large language models (LLMs) are increasingly used as digital respondents and generative agents in computational social science, prior work has primarily focused on the fidelity of their expressed opinions, often overlooking a fundamental question: the behavioral stability of outputs across repeated runs of the same model when the persona specification and task conditions remain unchanged. This paper proposes a be"
+   },
+   {
+    "t": "Measuring susceptibility: A benchmark for conspiracy theory adherence in large language models",
+    "y": 2026,
+    "abs": "A critical vulnerability exists within state-of-the-art large language models: while robustly debunking scientifically baseless claims like the \u201cFlat Earth Theory\u201d they consistently fail to reject politically plausible conspiracies that mimic legitimate discourse. We term this the \u201cplausibility gap\u201d. To systematically quantify this risk, we introduce the Conspiracy Adherence Score (CAS), a novel risk-weighted metric,"
+   }
+  ]
+ },
+ {
+  "id": "rep:26",
+  "party": "rep",
+  "claim": "Other restaurants \"now must comply with the new minimum wage by all means necessary, including layoffs and replacing workers with automation\".",
+  "query": "minimum wage automation employment fast food substitution",
+  "top": [
+   {
+    "t": "The Effects of California's $20 Fast Food Minimum Wage on Prices",
+    "y": 2026,
+    "abs": "We analyze the effect of California&apos;s $20 fast food minimum wage (Assembly Bill 1228), enacted in September 2023 and implemented in April 2024, on consumer prices using the Bureau of Labor Statistics&apos; Consumer Price Indices for food away from home across 21 metropolitan statistical areas. Food away from home prices in California&apos;s four in-sample MSAs increased by 3.3 to 3.6 percent relative to 17 contr"
+   },
+   {
+    "t": "MINIMUM WAGE EFFECTS ON PERMANENT VERSUS TEMPORARY MINIMUM WAGE EMPLOYMENT",
+    "y": 2014,
+    "abs": "We estimate the effect of minimum wages on employment using the Master Files of the Canadian Labour Force Survey over the recent period 1997\u20132008. Particular attention is paid to the differences between permanent and temporary minimum wage workers\u2014an important distinction not made in the existing literature. Our estimates for permanent and temporary minimum wage workers combined are at the lower end of estimates base"
+   },
+   {
+    "t": "The Effect of the Minimum Wage on the Fast-Food Industry",
+    "y": 1992,
+    "abs": "Using a longitudinal survey of fast-food restaurants in Texas, the authors examine the impact of recent increases in the federal minimum wage on a low-wage labor market. Less than 5% of fast-food restaurants were using the new youth subminimum wage in July/August 1991, even though the vast majority paid a starting wage below the new hourly minimum wage immediately before it became effective. Although some restaurants"
+   }
+  ]
+ },
+ {
+  "id": "rep:30",
+  "party": "rep",
+  "claim": "There is an alarming rise in cases of unauthorized content of private citizens being uploaded to the internet.",
+  "query": "nonconsensual intimate images prevalence increase online",
+  "top": [
+   {
+    "t": "Nonconsensual Dissemination of Intimate Images and Intimate Partner Violence: The Mediating Role of Internal Shame on Depressive Symptoms",
+    "y": 2026,
+    "abs": "Nonconsensual dissemination of intimate images (NCII), commonly referred to as revenge porn, has emerged as a growing concern among adolescents and young adults. It involves the unauthorized sharing of intimate images or videos of individuals without their consent. Research suggests a strong association between NCII and other forms of interpersonal abuse, such as intimate partner violence (IPV). Victims of NCII often"
+   },
+   {
+    "t": "Nonconsensual Distribution of Intimate Images: Exploring the Role of Legal Attitudes in Victimization and Perpetration",
+    "y": 2022,
+    "abs": "In the last 10 years, following widespread outcry among legal scholars and activists, 48 states passed legislation explicitly criminalizing the nonconsensual distribution of intimate images (NCDII) or what is colloquially known as \u201crevenge porn.\u201d This increased authority granted to criminal justice agencies, coupled with greater media attention to NCDII incidents, may have influenced patterns of victimization and per"
+   },
+   {
+    "t": "Invisible Violations: An Exploratory Study into Public Sentiments on Nonconsensual Distribution of Intimate Images in Trinidad and Tobago",
+    "y": 2025,
+    "abs": "Nonconsensual distribution of intimate images (NDII), commonly misrepresented as \u201crevenge porn,\u201d is a growing form of cyber harassment and online sexual violence that disproportionately affects women and challenges traditional social frameworks. Despite increasing global research on NDII, Caribbean-based studies remain scarce, leaving critical gaps in understanding how regional cultural norms, gender roles, and legal"
+   }
+  ]
+ },
+ {
+  "id": "rep:31",
+  "party": "rep",
+  "claim": "Once unauthorized content is uploaded, it is extremely difficult to remove.",
+  "query": "online content removal nonconsensual images persistence",
+  "top": [
+   {
+    "t": "Nonconsensual Condom Removal or Stealthing",
+    "y": 2025,
+    "abs": "Background NCCR is a form of sexual violence that complicates the traumatic physical and emotional experience of sexual assault. Correlates to victimization include being a racial or sexual minority and being in nonexclusive, noncommitted relationships, or transactional relationships. Decreased confidence, guilt and worry, fear, depression, or a history of sexual abuse are correlates to being a victim. Aim To present"
+   },
+   {
+    "t": "Persistence in Consuming Frightening and Fascination-Inducing Content via Online Digital Devices among School-Age Children",
+    "y": 2025,
+    "abs": "In the theoretical-empirical study, we focus on the phenomenon of school-age children consuming content that is both scary and fascinating. The theoretical part aims to identify and analyse factors supporting the persistence in consuming scary-fascinating content mediated by online digital devices in school-age children. The empirical part aims to determine the frequency of repeated consumption of scary-fascinating c"
+   },
+   {
+    "t": "On the Removal of Steganographic Content from Images",
+    "y": 2016,
+    "abs": "Steganography is primarily used for the covert transmission of information even though the purpose can be legitimate or malicious. The primary purpose of this work is to build a firewall which will thwart this transmission. This will be achieved by radiometric and geometric operations. These operations will degrade the quality of cover image. However these can be restored to some extent by a deconvolution operation. "
+   }
+  ]
+ },
+ {
+  "id": "rep:32",
+  "party": "rep",
+  "claim": "With artificial intelligence and deepfakes, anyone can become the next victim of image misuse and theft.",
+  "query": "deepfake image abuse victims nonconsensual",
+  "top": [
+   {
+    "t": "The Frequency, Nature, Impact, and Coping Strategies of Nonconsensual Intimate Image Dissemination Victimization: A Scoping Review",
+    "y": 2025,
+    "abs": "Young adults increasingly initiate, maintain, and end sexual relationships online, an evolution that has also transformed how sexual violence may be perpetrated. Nonconsensual intimate image dissemination (NCIID) has gained attention in research, policy, and media. Yet, to date, there has been no synthesis of the literature on NCIID victimization. The goals of this review were to: (a) describe the frequency and natur"
+   },
+   {
+    "t": "Systemic Failure and Synthetic Abuse: Regulating Nonconsensual Systemic Failure and Synthetic Abuse: Regulating Nonconsensual Deepfakes Under the Take",
+    "y": 2026,
+    "abs": "of Law, pursuing an Intellectual Property certificate and serving on the Writing and Research Staff of the Journal of Art, Technology, and Intellectual Property (JATIP). Nwuda earned a Bachelor of Arts in Political Science from San Jose State University and currently works in civil rights litigation. After graduation, Nwuda intends to practice at the intersection of civil rights and internet law, operating from the c"
+   },
+   {
+    "t": "Identifying Drivers of Nonconsensual Intimate Image Sharing: A Mixed-Methods Synthesis of Perpetrator Research",
+    "y": 2025,
+    "abs": "Echoing the many and serious consequences of nonconsensual sharing of intimate images (NCSII), calls for preventive measures have reverberated across public, legal, and academic discourses. However, at present, empirical insights that could aid the development of perpetrator-focused interventions remain fragmented. Responding to this predicament, we carried out a mixed-methods research synthesis through which we aime"
+   }
+  ]
+ },
+ {
+  "id": "rep:43",
+  "party": "rep",
+  "claim": "These bills (SB 1381 and AB 1831) provide vital protections by addressing the growing threat of AI-generated explicit content involving minors.",
+  "query": "AI generated child sexual abuse material threat",
+  "top": [
+   {
+    "t": "Challenges in investigating self-generated online child sexual abuse material",
+    "y": 2024,
+    "abs": "Aim: The overall aim of this paper is to offer a greater understanding of the context of children\u2019s online sexual behaviour through exploring what are some of the main challenges the police encounter when investigating digital content of a sexual nature produced by young people, such as photographs, videos and chat messages.Methodology: The research is primarily reviewing and analysing academic literature, policy pap"
+   },
+   {
+    "t": "AI-generated child sexual abuse material: what\u2019s the harm?",
+    "y": 2026,
+    "abs": "Abstract The development of generative artificial intelligence (AI) tools capable of producing wholly or partially synthetic child sexual abuse material (AI CSAM) presents profound challenges for child protection, law enforcement, and societal responses to child exploitation. While some argue that the harmfulness of AI CSAM differs fundamentally from other CSAM due to a perceived absence of direct victimization, this"
+   },
+   {
+    "t": "Combatting AI-Generated Child Sexual Exploitation and Abuse Material: An Analysis of India\u2019s Techno-Legal Response",
+    "y": 2025,
+    "abs": "The emergence of generative artificial intelligence (\u201cAI\u201d) presents a significant threat to child safety online, enabling the rapid creation and dissemination of child sexual exploitation and abuse material (\u201cCSEAM\u201d) at an unprecedented scale. This paper examines legal, institutional, and technical responses to AI-generated CSEAM in the Indian context, with a particular focus on the role of digital intermediaries, la"
+   }
+  ]
+ },
+ {
+  "id": "rep:7",
+  "party": "rep",
+  "claim": "AI can be, and has been, weaponized to inflict harm.",
+  "query": "artificial intelligence malicious use harm weaponization",
+  "top": [
+   {
+    "t": "The weaponization of artificial intelligence: What the public needs to be aware of",
+    "y": 2023,
+    "abs": "Technological progress has brought about the emergence of machines that have the capacity to take human lives without human control. These represent an unprecedented threat to humankind. This paper starts from the example of chemical weapons, now banned worldwide by the Geneva protocol, to illustrate how technological development initially aimed at the benefit of humankind has, ultimately, produced what is now called"
+   },
+   {
+    "t": "Malicious Use of Artificial Intelligence",
+    "y": 2020,
+    "abs": "The article identifies the main risks and threats related to national and international psychological security (PS) in BRICS countries (particularly China, India, and Russia) and posed by the malicious use of artificial intelligence (AI). The main methods of research are systemic, scenario, and case analyses. The authors maintain that PS threats, both national and international, created by the malicious use of AI sho"
+   },
+   {
+    "t": "Existing practice and risks of malicious use of artificial intelligence in Sub-Saharan Africa",
+    "y": 2021,
+    "abs": "The necessity of the development of advanced technologies is considering as the essential condition for the ensuring of the world leadership in the contemporary world. But the rapid growth of such technologies and their implementation into all spheres of our life increase the risk of their malicious use in the future. African countries are no exception in this regard. They regularly become victims of cyber-attacks, w"
+   }
+  ]
+ },
+ {
+  "id": "rep:9",
+  "party": "rep",
+  "claim": "This new \"deepfake\" technology has become more widely accessible in recent years.",
+  "query": "deepfake technology accessibility proliferation",
+  "top": [
+   {
+    "t": "Deepfake technology: Criminal law implications",
+    "y": 2024,
+    "abs": "The accelerated development of artificial intelligence (hereinafter: AI) and advanced technologies that are based on software that uses AI, such as deepfake technology, among many others, has significant criminal law implications. It is obvious that deepfake technology very quickly became a tool for committing numerous crimes, starting from the most diverse forms of fraud and blackmail, to the creation and disseminat"
+   },
+   {
+    "t": "A deepfake-technol\u00f3gia szem\u00e9lyis\u00e9gi jogi hat\u00e1sai",
+    "y": 2025,
+    "abs": "In general terms, deepfake refers to audiovisual content that has been created by manipulating real content, either in whole or in part. Manipulated content can have a significant impact on individuals' rights to human dignity, image, voice recording, privacy and personal data protection. In this study, we review the most important privacy law challenges posed by deepfake content in an overview and problem-raising ma"
+   },
+   {
+    "t": "Deepfake Technology: A Criminological Literature Review",
+    "y": 2023,
+    "abs": "Cybercrimes are rapidly evolving with the advancement of technology and reaching new dimensions. Deepfake technology, which is the subject of this article, has also become a part of cybercrime. Deepfake technology, which has similar features to the CGI technology we have encountered in the cinema, is a technology that allows the image or voice of a person - or both - to be transferred to another image or video file i"
+   }
+  ]
+ }
+]

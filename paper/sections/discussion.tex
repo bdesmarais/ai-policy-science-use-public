@@ -7,12 +7,13 @@ The result is partial, and we state it as such. The hardest \emph{judging} step 
 transfer from established benchmarks: the high-capacity judge agrees with the expert gold at a level
 approaching the human inter-annotator ceiling on SciFact ($\kappa=0.71$ vs the benchmark's $0.75$) and,
 more tellingly, holds up on contested Climate-FEVER claims where the cheap surrogate drops to the
-lexical floor. Because the benchmark text is human-written, this is not self-preference. But two facts
-keep the \emph{pipeline} short of a finished autonomous instrument, and they are the spine of the
-honest account below: a single proprietary judge still leads on the hard task (though \emph{combining}
-the open models narrows even that gap to within sampling noise), and
-the validation exercises the judge on curated pairs rather than the noisier pairings it meets in the
-application.
+lexical floor. Because the benchmark text is human-written, this is not self-preference, and the judge holds up not only
+on curated pairs but on \emph{retrieved}-evidence pairs that share the application's structure (AVeriTeC),
+within the band of human disagreement. What keeps the \emph{pipeline} short of a fully closed instrument,
+and forms the spine of the honest account below, is narrower than it once was: a single proprietary judge
+still leads on the hardest pairs (though \emph{combining} the open models narrows even that gap to within
+sampling noise), and although every stage is independently validated against human labels, the stages'
+\emph{joint} behaviour on a fresh in-domain sample is not separately audited.
 
 \paragraph{Self-preference: bounded on the evidence side, open on the claim side.} The most serious
 objection to an all-LLM loop is that a model judging model-surfaced evidence may exhibit self-preference
@@ -28,7 +29,7 @@ side even when the evidence is human-written, and the human-claim benchmarks do 
 Self-preference is therefore bounded on the evidence side but not closed on the claim side, and we say
 so rather than implying the benchmarks settle it.
 
-\paragraph{The pair-structure gap is now substantially narrowed---against existing human labels.} The
+\paragraph{The pair-structure gap is substantially narrowed---against existing human labels.} The
 standing objection was that our anchors paired a claim with evidence \emph{curated} to be about it
 (SciFact, cited abstracts), whereas the application reads claims against \emph{retrieved} evidence that may
 be off-topic; benchmark accuracy, the worry went, might not transfer across that gap in \emph{pair
@@ -44,12 +45,12 @@ the humans. Two further caveats keep this to ``narrowed'' rather than ``closed''
 fact-checking rather than legislative AI, and its evidence was assembled to be adjudicable, whereas the
 application's keyword hits are frequently off-topic (the seven retrieval misses of
 \S\ref{sec:res-refresh} are exactly that). What is established is that the judge is within the human band
-on retrieved-evidence pairs---the case the reports singled out as unvalidated
+on retrieved-evidence pairs---the case that is hardest to validate
 (Fig.~\ref{fig:band})---obtained, like the rest of our validation, from existing human labels with no
 in-domain coding.
 
-\paragraph{Why we do not gate the paper on a fresh human audit.} A referee can still ask for a
-few-hundred-pair human audit of \emph{our} corpus. We have resisted it, not from expedience but on
+\paragraph{Why we do not gate on a fresh human audit.} One can still ask for a
+few-hundred-pair human audit of \emph{our} corpus. We have not made it the gate, not from expedience but on
 principle: a small human audit is not the clean ground truth the request assumes, for three reasons.
 \emph{First, human coders are a noisy instrument on exactly these claims.} The benchmarks make this
 measurable: on contested, lay claims of the kind legislators make, trained annotators agree only
@@ -70,7 +71,7 @@ finds LLMs matching or exceeding trained and outsourced human coders on precisel
 \citep{tornberg2024llmexpert,heseltine2024llm}; a small RA-coded audit of partisan claims is not a
 bias-free benchmark but another rater with a different, possibly larger, bias. We rest the case for not
 gating on the audit on these two arguments and on the AVeriTeC evidence, and we deliberately do \emph{not}
-lean on a third argument we made in an earlier draft---that model labels can be regenerated whereas a human
+lean on a further argument---that model labels can be regenerated whereas a human
 gold cannot. A validation set is frozen by nature, and our case already rests on three frozen human-labeled
 benchmarks whose labels no one can regenerate either, so regenerability does not distinguish benchmark
 transfer from a frozen in-domain audit, and we drop it as a reason. What the no-human design does buy is
@@ -82,12 +83,12 @@ cannot match---and every label, query, and prompt is committed and auditable.
 well-designed, \emph{multi}-coder audit---not a few hundred pairs---would add an independent in-domain
 check and could tighten the bound, and we would welcome one. The one place a small human check was still
 clearly worth having was \emph{retrieval relevance}---the step a stance audit does not cover, and the one
-judgment on which humans are reliable---and we have now supplied it by transfer rather than deferring it:
+judgment on which humans are reliable---and we supply it by transfer:
 the model's relevance judgment matches SciFact's human relevance labels at $96\%$ with perfect precision
 (\S\ref{sec:res-retrieval}), so the retrieval step is human-anchored too. What remains for a human audit is
 the \emph{joint} behaviour of extraction, retrieval, and judging on this specific corpus; its marginal
 value, given that each stage is now checked against human labels and the judge sits within the
-human-agreement band on application-structure pairs, is smaller than the review history assumed, it is
+human-agreement band on application-structure pairs, is smaller than it might appear, it is
 itself bounded by low human agreement on contested claims, and it would not make the deployed pipeline
 autonomous, which is the contribution. We present the band evidence (Fig.~\ref{fig:band}) and the
 stage-wise human-anchored checks as the validation standard appropriate to an instrument built to run
@@ -100,17 +101,17 @@ expensive proprietary-judge labels through a free surrogate by prediction-powere
 references in an open index so the evidence base is auditable rather than fabricated. The cost profile
 this yields is deliberate and, we think, defensible: a \emph{single} frontier model performs the language
 steps---it extracts claims, guides retrieval over the free OpenAlex index (\S\ref{sec:res-retrieval}), and
-judges stance---while the surrogate, the open combiners, the index, and the estimator cost nothing. The
-earlier \emph{second} paid dependency, generative web-search retrieval, is gone, and with it the
-citation-fabrication exposure, because references are now real OpenAlex records selected by the model
-rather than text it generated. Two honest qualifications travel with the methodology. A single open model
+judges stance---while the surrogate, the open combiners, the index, and the estimator cost nothing. References are real
+records selected by the model from a free index rather than text it generated, so there is no
+citation-fabrication exposure. Two honest qualifications travel with the methodology. A single open model
 is competitive with the proprietary judge only on \emph{clean} pairs, but \emph{combining} the open models
 (a stacker trained on public benchmark labels, no in-domain labels) reaches the judge on SciFact and
 narrows the Climate-FEVER gap to within sampling noise, so even the one proprietary component is, on the
-judging step, largely replaceable. What the methodology does not yet deliver is a \emph{fully validated}
-instrument: claim extraction is unchecked, and the judging step is validated on curated rather than
-application pairs. It lowers cost, removes a paid service, and clarifies credibility; it does not close
-those two gaps.
+judging step, largely replaceable. And while each stage is now independently validated against human
+labels---extraction against check-worthiness labels, stance against curated \emph{and}
+retrieved-evidence benchmarks, retrieval relevance against human relevance labels---what remains
+unaudited is the stages' \emph{joint} behaviour on a fresh in-domain sample, which we argue is a
+complementary check rather than the decisive gate.
 
 \paragraph{Diagnose across methods.} A practical lesson concerns NLI as a stand-alone measure. On
 clean benchmark pairs our zero-shot NLI classifiers are strong, but on the policy corpus they label
@@ -122,24 +123,23 @@ inference rather than as a free-standing measure. Reporting cross-method agreeme
 diagnostic, but it is the comparison to a validated standard that resolves which method to trust.
 
 \paragraph{Limitations.} Beyond the proprietary-judge and pair-structure issues above, several limits
-temper the substantive findings. (1) \emph{Retrieval precision shapes the level, and is now handled within
+temper the substantive findings. (1) \emph{Retrieval precision shapes the level, and is handled within
 the single-model design.} The measured corroboration level is highly sensitive to retrieval
 precision---broad keyword retrieval surfaces little claim-specific evidence and drives nearly all pairs to
 \textsc{silent} (\S\ref{sec:res-robustness}). The model-guided retrieval of \S\ref{sec:res-retrieval}
-addresses this, lifting relevance yield from $0.40$ to $0.97$ over the free index, reproducibly, so
-retrieval is no longer the unbuilt component it was in earlier drafts. Two qualifications remain: stance is
-assessed only over \emph{relevant} retrieved references with no deliberately disconfirming search, so
-corroboration is an upper and refute a lower bound; and the model-guided retriever is demonstrated on a
-50-claim sample, so scaling it to the full corpus and auditing its precision against human relevance
-judgments is the natural next step. (2) \emph{Claim extraction is now validated, not assumed.} Earlier drafts flagged extraction as an
-unchecked confound; \S\ref{sec:res-extraction} closes that gap with no human coders. The extractor
+addresses this, lifting relevance yield from $0.40$ to $0.97$ over the free index, reproducibly. Two
+qualifications remain: stance is assessed only over \emph{relevant} retrieved references with no
+deliberately disconfirming search, so corroboration is an upper and refute a lower bound; and the retriever
+seeks relevant rather than disconfirming evidence, a directional caveat the validation cannot remove. (2)
+\emph{Claim extraction is validated, not assumed.} Section~\ref{sec:res-extraction} establishes this with
+no human coders. The extractor
 matches human check-worthiness labels at the CheckThat! state of the art ($F_1$ $0.74$; $\kappa=0.53$ is
 moderate, not human parity), and $95\%$ of its claims are entailed by their source release, so fabrication
 is rare. Yield needs care because conditional and unconditional rates differ: \emph{given} a release with
 empirical content the extractor is party-neutral ($7.1$ vs $7.3$ claims per release), but
 \emph{unconditionally} Democratic releases yield more ($2.9$ vs $0.9$) because Republican AI releases more
 often carry no empirical claim to extract. So extraction itself is not biased, but the Republican
-corroboration sample is thin (the conditional balance rests on six releases, and the refreshed window has
+corroboration sample is thin (the conditional balance rests on six releases, and the current window has
 no Republican AI releases), and we read the partisan corroboration contrast as Democratic-dominated and
 suggestive rather than tested. The residual extraction limitation is recall, not bias: at precision $0.83$
 the extractor is deliberately conservative, so the corpus under-counts borderline empirical claims rather

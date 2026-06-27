@@ -62,15 +62,14 @@ NLI surrogate matches it, on clean SciFact pairs alone. But \emph{combining} the
 in-domain labels, closes much of the gap: a stacker trained only on the public benchmark gold reaches the
 judge on SciFact and narrows the harder-task gap to within sampling noise. So the \emph{judging} step
 does not, after all, require a proprietary model---an important correction to a ``you need a closed
-model'' reading. (3) A \emph{retrieval} result that removes the pipeline's second paid dependency. The
-headline rates of earlier versions rode on a proprietary web-search service (GPT-5) to find claim-relevant
-papers; we show the \emph{same single frontier model} can do this by guiding the free OpenAlex index.
-Reading each claim, it emits a targeted query when the claim has a scientific core and abstains when it
-does not; the result surfaces a genuinely relevant reference for $97\%$ of empirical claims against $40\%$
-for naive keyword search, abstains on every one of the non-scientific claims a keyword search blindly
-answers, and grounds $89\%$ of references in a DOI against $27$--$35\%$ for the generative path---removing
-the paid retrieval service and the citation-fabrication risk together. (4) An application that recovers a
-robust partisan asymmetry in AI engagement and estimates the rate at which each party's claims are
+model'' reading. (3) A \emph{retrieval} method that is reproducible, claim-targeted, and DOI-grounded over a
+free index. The frontier model reads each claim and, when the claim has a scientific core, emits a targeted
+query against the free OpenAlex (or Crossref) index, abstaining otherwise; the result surfaces a genuinely
+relevant reference for $97\%$ of empirical claims against $40\%$ for naive keyword search, abstains on every
+non-scientific claim a keyword search blindly answers, and returns real, dereferenceable records---and the
+relevance judgment itself matches human relevance labels at $96\%$, so retrieval is human-anchored rather
+than self-graded. (4) An application that recovers a
+robust partisan asymmetry in AI engagement and estimates the rate at which legislators' claims are
 \emph{corroborated by the topically-nearest literature}---which is precisely what the instrument
 measures, and which we distinguish from observed evidence \emph{use}, since legislators do not cite the
 papers we retrieve. (5) A validation of the \emph{extraction} step, again with no human coders: the

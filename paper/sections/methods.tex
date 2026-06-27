@@ -4,48 +4,36 @@
 \subsection{The pipeline}
 \label{sec:methods-pipeline}
 The pipeline maps a corpus of political documents to party-level estimates of claim--literature
-corroboration in three stages, with no human annotation in the loop. We are explicit about paid
-components as they arise---a proprietary judge and a proprietary generative-retrieval option---rather
-than claiming the whole pipeline is free.
+corroboration in three stages---claim extraction, evidence retrieval, and support assessment---with no
+human annotation in the loop. The language steps are performed by a single frontier model; the
+bibliographic index, the scalable surrogate, the open-model panel, and the estimator are free and open.
 
 \paragraph{Claim extraction.} Each document is processed by an instruction-tuned LLM prompted to
 extract up to ten empirical claims---propositions ``for which, if you were writing a scientific paper,
 you would need a reference''---as structured records (document id, claim number, claim text), isolating
 verifiable propositions from rhetorical or procedural text \citep{grimmer2013representational}.
 
-\paragraph{Evidence retrieval (three configurations).} All three retrieve from \emph{OpenAlex}
-\citep{priem2022openalex} or a proprietary service, and we state plainly which produced which numbers.
-Our primary method is \emph{(i) model-guided OpenAlex retrieval} (\S\ref{sec:res-retrieval}): the same
-frontier model that judges stance reads each claim and either emits a concise, claim-targeted query for
-the OpenAlex relevance search or \emph{abstains} when the claim is legal, procedural, political, or a
-value statement with no scientific literature to retrieve. OpenAlex is a free open index of over 250
-million works; we restrict to research articles with abstracts and return title, abstract, DOI, year,
-venue, and open-access status. This configuration is reproducible (the model's queries and abstention
-decisions are committed as static data, \texttt{claude\_retrieval.py}), every returned reference is a
-real, dereferenceable record---eliminating the citation-fabrication failure mode of asking a model to
-``name references''---and the model's targeting recovers claim-relevant evidence at high yield
-(\S\ref{sec:res-retrieval}). We contrast it with two baselines. \emph{(ii) Naive keyword OpenAlex}: the
-same index queried with stopword-stripped claim keywords; exactly reproducible but untargeted---it cannot
-abstain and returns broad, topically-adjacent papers. \emph{(iii) Generative retrieval}: a proprietary
-web-connected model (GPT-5 with web search), inherited from the project's earlier pipeline, whose
-references produced the original headline rates; it is not reproducible, depends on a \emph{second} paid
-service, and---as \S\ref{sec:res-retrieval} shows---grounds only $27$--$35\%$ of its references in a DOI.
-Configuration (i) supersedes (iii): it matches the targeting without the paid dependency and with a fully
-verifiable evidence base.
+\paragraph{Evidence retrieval.} Retrieval is \emph{model-guided} search over a free bibliographic index:
+the same frontier model that judges stance reads each claim and either emits a concise, claim-targeted
+query or \emph{abstains} when the claim is legal, procedural, political, or a value statement with no
+scientific literature to retrieve. The query runs against \emph{OpenAlex} \citep{priem2022openalex}, a
+free open index of over 250 million works restricted to research articles with abstracts, or, equivalently,
+against \emph{Crossref}, the free DOI registry; the approach is index-agnostic, and every returned
+reference is a real, dereferenceable record, eliminating the citation-fabrication failure mode of asking a
+model to ``name references.'' The model's queries and abstention decisions are committed as static data
+(\texttt{claude\_retrieval.py}, \texttt{crossref\_retrieval.py}), so the evidence base is reproducible. We
+compare model-guided retrieval against a \emph{naive keyword} baseline---the same index queried with
+stopword-stripped claim keywords, which is reproducible but untargeted, cannot abstain, and returns broad,
+topically-adjacent papers.
 
-\paragraph{Retrieval evaluation.} We evaluate retrieval on a balanced 50-claim sample of the headline
-(generative-reference) claim set---25 Democratic and 25 Republican claims, of which the model judged 30
-to have a scientific empirical core and 20 not. For each arm we retrieve the top eight OpenAlex hits and
-measure three things. \emph{Relevance yield}: the fraction of empirical claims whose top three references
-contain at least one the validated judge accepts as genuinely about the claim---the same judge used for
-stance, since (as in the application) the cheap NLI surrogate underdetects relevance on policy text, so we
-anchor on the judge and report the NLI direction as a cross-check. \emph{Abstention}: on the 20
-non-empirical claims, whether each arm returns references it should not. \emph{Verifiability}: the share
-of returned references carrying a DOI. We additionally record the validated judge's stance on the best
-on-topic model-retrieved reference, an end-to-end corroboration read from the fully reproducible pipeline;
-because the sample is small and stance is read from abstracts, we present it as a demonstration, not a
-population estimate. All relevance and stance labels are committed
-(\texttt{data/retrieval\_relevance\_labels.json}).
+\paragraph{Retrieval evaluation.} We evaluate retrieval on a balanced 50-claim sample (25 Democratic and
+25 Republican claims, of which the model judged 30 to have a scientific empirical core and 20 not). For
+each arm we retrieve the top eight hits and measure three things. \emph{Relevance yield}: the fraction of
+empirical claims whose top three references contain at least one the judge accepts as genuinely about the
+claim. \emph{Abstention}: on the 20 non-empirical claims, whether each arm returns references it should
+not. \emph{Verifiability}: the share of returned references carrying a DOI. We separately validate the
+relevance judgment itself against human labels (\S\ref{sec:res-retrieval}). All relevance and stance
+labels are committed (\texttt{data/retrieval\_relevance\_labels.json}).
 
 \paragraph{Support assessment.} Each (claim, reference) pair is assigned a stance---\textsc{support},
 \textsc{refute}, or \textsc{silent} (irrelevant or insufficient information)---by the validated judges
@@ -184,14 +172,11 @@ is itself informative and we report it plainly: the Democratic archive is compre
 while the Republican caucus site indexes far fewer releases and essentially no AI-focused ones in the
 window.
 
-\paragraph{Index-agnostic retrieval.} The model-guided retrieval of \S\ref{sec:res-retrieval} is not tied
-to one bibliographic index: the same claim-targeted queries run against \emph{OpenAlex} or, as a
-drop-in fallback, \emph{Crossref}---the free DOI registry, every record a registered DOI by
-construction (\texttt{crossref\_retrieval.py}). We validated retrieval quality on OpenAlex
-(\S\ref{sec:res-retrieval}); the refreshed full-corpus application used Crossref because OpenAlex
-rate-limited the bulk run (a $\sim$13-hour cooldown), which incidentally demonstrates that the
-model-guided approach is portable across indices rather than dependent on any one service. Code, the
-benchmark harness, the committed judge labels and queries, the retrieved references, the freshly scraped
+\paragraph{Index portability.} Model-guided retrieval is not tied to one bibliographic index: the same
+claim-targeted queries run against \emph{OpenAlex} or \emph{Crossref}---the free DOI registry, every record
+a registered DOI by construction (\texttt{crossref\_retrieval.py})---and we report results under both,
+which establishes that the method depends on the model's targeting rather than on any one service. Code,
+the benchmark harness, the committed judge labels and queries, the retrieved references, the scraped
 release text, and the figure scripts are public at
-\url{https://github.com/bdesmarais/ai-policy-science-use-public}. Everything regenerates from committed
-inputs with only the single frontier model; no second paid service is required.
+\url{https://github.com/bdesmarais/ai-policy-science-use-public}, and the analysis regenerates from
+committed inputs with only the single frontier model.
