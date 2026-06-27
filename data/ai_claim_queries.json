@@ -1,0 +1,3910 @@
+{
+ "_provenance": {
+  "generator": "Claude Opus 4.8 (claude-opus-4-8), in-session, no API key",
+  "role": "model-guided query/abstain decisions for full-AI-corpus OpenAlex retrieval",
+  "n": 785,
+  "n_fresh": 44
+ },
+ "queries": [
+  {
+   "id": "dem:0",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:1",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:2",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:3",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:4",
+   "is_empirical": true,
+   "query": "welding robot automation manufacturing adoption trends"
+  },
+  {
+   "id": "dem:5",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:6",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:7",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:8",
+   "is_empirical": true,
+   "query": "deepfakes perception trust authenticity misinformation"
+  },
+  {
+   "id": "dem:9",
+   "is_empirical": true,
+   "query": "deepfakes harms weaponization disinformation risks"
+  },
+  {
+   "id": "dem:10",
+   "is_empirical": true,
+   "query": "deepfake image-based sexual abuse harassment women"
+  },
+  {
+   "id": "dem:11",
+   "is_empirical": true,
+   "query": "deepfakes elections disinformation national security threats"
+  },
+  {
+   "id": "dem:12",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:13",
+   "is_empirical": true,
+   "query": "deepfakes disinformation detection challenge"
+  },
+  {
+   "id": "dem:14",
+   "is_empirical": true,
+   "query": "deepfakes liar's dividend skepticism authentic media"
+  },
+  {
+   "id": "dem:15",
+   "is_empirical": true,
+   "query": "deepfake accessibility nonconsensual pornography gender"
+  },
+  {
+   "id": "dem:16",
+   "is_empirical": true,
+   "query": "deepfake detection methods media forensics DARPA"
+  },
+  {
+   "id": "dem:17",
+   "is_empirical": true,
+   "query": "deepfakes political misinformation polarization electorate"
+  },
+  {
+   "id": "dem:18",
+   "is_empirical": true,
+   "query": "deepfakes perception authenticity truth"
+  },
+  {
+   "id": "dem:19",
+   "is_empirical": true,
+   "query": "deepfake detection difficulty high quality synthetic video"
+  },
+  {
+   "id": "dem:20",
+   "is_empirical": true,
+   "query": "manipulated video misinformation spread social media"
+  },
+  {
+   "id": "dem:21",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:22",
+   "is_empirical": true,
+   "query": "deepfake detection difficulty synthetic media"
+  },
+  {
+   "id": "dem:23",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:24",
+   "is_empirical": true,
+   "query": "deepfakes trust media perception authenticity"
+  },
+  {
+   "id": "dem:25",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:26",
+   "is_empirical": true,
+   "query": "nonconsensual deepfake pornography psychological harm victims"
+  },
+  {
+   "id": "dem:27",
+   "is_empirical": true,
+   "query": "deepfake pornography gender targeting women"
+  },
+  {
+   "id": "dem:28",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:29",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:30",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:31",
+   "is_empirical": true,
+   "query": "deepfakes AI authenticity perception media"
+  },
+  {
+   "id": "dem:32",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:33",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:34",
+   "is_empirical": true,
+   "query": "deepfakes elections voter deception misinformation"
+  },
+  {
+   "id": "dem:35",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:36",
+   "is_empirical": true,
+   "query": "deepfake realism detection synthetic media"
+  },
+  {
+   "id": "dem:37",
+   "is_empirical": true,
+   "query": "liar's dividend deepfakes disinformation trust"
+  },
+  {
+   "id": "dem:38",
+   "is_empirical": true,
+   "query": "deepfakes political violence elections diplomacy"
+  },
+  {
+   "id": "dem:39",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:40",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:41",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:42",
+   "is_empirical": true,
+   "query": "deepfakes national security democracy trust media"
+  },
+  {
+   "id": "dem:43",
+   "is_empirical": true,
+   "query": "social media disinformation conspiracy theories spread"
+  },
+  {
+   "id": "dem:44",
+   "is_empirical": true,
+   "query": "social media algorithms political polarization amplification"
+  },
+  {
+   "id": "dem:45",
+   "is_empirical": true,
+   "query": "social media platforms hate groups extremism online"
+  },
+  {
+   "id": "dem:46",
+   "is_empirical": true,
+   "query": "discriminatory social media tweets hate crimes correlation"
+  },
+  {
+   "id": "dem:47",
+   "is_empirical": true,
+   "query": "social media political violence insurrection mobilization"
+  },
+  {
+   "id": "dem:48",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:49",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:50",
+   "is_empirical": true,
+   "query": "social media algorithms amplify hate misinformation racism"
+  },
+  {
+   "id": "dem:51",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:52",
+   "is_empirical": true,
+   "query": "platform transparency content moderation misinformation efficacy"
+  },
+  {
+   "id": "dem:53",
+   "is_empirical": true,
+   "query": "workplace surveillance data collection worker wellbeing"
+  },
+  {
+   "id": "dem:54",
+   "is_empirical": true,
+   "query": "electronic monitoring surveillance workers stress"
+  },
+  {
+   "id": "dem:55",
+   "is_empirical": true,
+   "query": "algorithmic management workers wellbeing gig economy"
+  },
+  {
+   "id": "dem:56",
+   "is_empirical": true,
+   "query": "algorithmic bias automated employment decisions discrimination"
+  },
+  {
+   "id": "dem:57",
+   "is_empirical": true,
+   "query": "social media hate speech promotion"
+  },
+  {
+   "id": "dem:58",
+   "is_empirical": true,
+   "query": "social media disinformation spread"
+  },
+  {
+   "id": "dem:59",
+   "is_empirical": true,
+   "query": "social media conspiracy theories belief"
+  },
+  {
+   "id": "dem:60",
+   "is_empirical": true,
+   "query": "social media political polarization"
+  },
+  {
+   "id": "dem:61",
+   "is_empirical": true,
+   "query": "online activity hate crime violence link"
+  },
+  {
+   "id": "dem:62",
+   "is_empirical": true,
+   "query": "mass shootings online radicalization social media"
+  },
+  {
+   "id": "dem:63",
+   "is_empirical": true,
+   "query": "online forums extremism copycat radicalization"
+  },
+  {
+   "id": "dem:64",
+   "is_empirical": true,
+   "query": "recommendation algorithms harmful content radicalization"
+  },
+  {
+   "id": "dem:65",
+   "is_empirical": true,
+   "query": "recommender systems divisive content engagement"
+  },
+  {
+   "id": "dem:66",
+   "is_empirical": true,
+   "query": "Facebook algorithm political polarization"
+  },
+  {
+   "id": "dem:67",
+   "is_empirical": true,
+   "query": "social media hate speech"
+  },
+  {
+   "id": "dem:68",
+   "is_empirical": true,
+   "query": "social media disinformation misinformation"
+  },
+  {
+   "id": "dem:69",
+   "is_empirical": true,
+   "query": "social media conspiracy theories"
+  },
+  {
+   "id": "dem:70",
+   "is_empirical": true,
+   "query": "social media political polarization affective"
+  },
+  {
+   "id": "dem:71",
+   "is_empirical": true,
+   "query": "online hate speech offline violence"
+  },
+  {
+   "id": "dem:72",
+   "is_empirical": true,
+   "query": "mass shootings online activity social media"
+  },
+  {
+   "id": "dem:73",
+   "is_empirical": true,
+   "query": "mass shooters online radicalization extremism"
+  },
+  {
+   "id": "dem:74",
+   "is_empirical": true,
+   "query": "social media health misinformation public health"
+  },
+  {
+   "id": "dem:75",
+   "is_empirical": true,
+   "query": "vaccine misinformation superspreaders social media concentration"
+  },
+  {
+   "id": "dem:76",
+   "is_empirical": true,
+   "query": "vaccine misinformation COVID-19 hesitancy refusal"
+  },
+  {
+   "id": "dem:77",
+   "is_empirical": true,
+   "query": "social media amplify extreme dangerous content"
+  },
+  {
+   "id": "dem:78",
+   "is_empirical": true,
+   "query": "social media political polarization platforms"
+  },
+  {
+   "id": "dem:79",
+   "is_empirical": true,
+   "query": "engagement optimization algorithms amplification social media"
+  },
+  {
+   "id": "dem:80",
+   "is_empirical": true,
+   "query": "social media business model engagement profit amplification"
+  },
+  {
+   "id": "dem:81",
+   "is_empirical": true,
+   "query": "online hate violence link"
+  },
+  {
+   "id": "dem:82",
+   "is_empirical": true,
+   "query": "mass shootings online social media"
+  },
+  {
+   "id": "dem:83",
+   "is_empirical": true,
+   "query": "online extremism copycat behavior"
+  },
+  {
+   "id": "dem:84",
+   "is_empirical": true,
+   "query": "social media public health misinformation"
+  },
+  {
+   "id": "dem:85",
+   "is_empirical": true,
+   "query": "vaccine misinformation superspreaders concentration social media"
+  },
+  {
+   "id": "dem:86",
+   "is_empirical": true,
+   "query": "vaccine misinformation COVID-19 hesitancy"
+  },
+  {
+   "id": "dem:87",
+   "is_empirical": true,
+   "query": "automation technology job displacement labor"
+  },
+  {
+   "id": "dem:88",
+   "is_empirical": true,
+   "query": "automation future of work tasks occupations"
+  },
+  {
+   "id": "dem:89",
+   "is_empirical": true,
+   "query": "automation future of work labor market"
+  },
+  {
+   "id": "dem:90",
+   "is_empirical": true,
+   "query": "artificial intelligence future of work employment"
+  },
+  {
+   "id": "dem:91",
+   "is_empirical": true,
+   "query": "automated decision systems consequential decisions"
+  },
+  {
+   "id": "dem:92",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:93",
+   "is_empirical": true,
+   "query": "automated decision-making algorithmic bias unregulated"
+  },
+  {
+   "id": "dem:94",
+   "is_empirical": true,
+   "query": "machine learning algorithms welfare benefits eligibility"
+  },
+  {
+   "id": "dem:95",
+   "is_empirical": true,
+   "query": "machine learning training data bias"
+  },
+  {
+   "id": "dem:96",
+   "is_empirical": true,
+   "query": "algorithmic bias harm marginalized communities"
+  },
+  {
+   "id": "dem:97",
+   "is_empirical": true,
+   "query": "clinical algorithm racial bias Black patients healthcare"
+  },
+  {
+   "id": "dem:98",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:99",
+   "is_empirical": true,
+   "query": "algorithmic harm marginalized groups discrimination"
+  },
+  {
+   "id": "dem:100",
+   "is_empirical": true,
+   "query": "automated decision-making transparency consent"
+  },
+  {
+   "id": "dem:101",
+   "is_empirical": true,
+   "query": "facial recognition body cameras mass surveillance police"
+  },
+  {
+   "id": "dem:102",
+   "is_empirical": true,
+   "query": "facial recognition police racial disparities"
+  },
+  {
+   "id": "dem:103",
+   "is_empirical": true,
+   "query": "facial recognition surveillance immigrant communities"
+  },
+  {
+   "id": "dem:104",
+   "is_empirical": true,
+   "query": "surveillance chilling effect free speech"
+  },
+  {
+   "id": "dem:105",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:106",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:107",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:108",
+   "is_empirical": true,
+   "query": "facial recognition discriminatory policing race"
+  },
+  {
+   "id": "dem:109",
+   "is_empirical": true,
+   "query": "facial recognition policing racial arrest disparities"
+  },
+  {
+   "id": "dem:110",
+   "is_empirical": true,
+   "query": "facial recognition demographic accuracy disparities race gender"
+  },
+  {
+   "id": "dem:111",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:112",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:113",
+   "is_empirical": true,
+   "query": "algorithmic decision bias harms"
+  },
+  {
+   "id": "dem:114",
+   "is_empirical": true,
+   "query": "machine learning benefits eligibility algorithms"
+  },
+  {
+   "id": "dem:115",
+   "is_empirical": true,
+   "query": "algorithm training data bias"
+  },
+  {
+   "id": "dem:116",
+   "is_empirical": true,
+   "query": "algorithmic bias marginalized communities"
+  },
+  {
+   "id": "dem:117",
+   "is_empirical": true,
+   "query": "automated decisions transparency consent"
+  },
+  {
+   "id": "dem:118",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:119",
+   "is_empirical": true,
+   "query": "automated decision tools deployment consequential"
+  },
+  {
+   "id": "dem:120",
+   "is_empirical": true,
+   "query": "algorithmic fairness inequitable outcomes"
+  },
+  {
+   "id": "dem:121",
+   "is_empirical": true,
+   "query": "automated decision-making government public benefits"
+  },
+  {
+   "id": "dem:122",
+   "is_empirical": true,
+   "query": "artificial intelligence government benefits administration"
+  },
+  {
+   "id": "dem:123",
+   "is_empirical": true,
+   "query": "algorithms public benefits administration eligibility"
+  },
+  {
+   "id": "dem:124",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:125",
+   "is_empirical": true,
+   "query": "online retail recommendation algorithm suicide method"
+  },
+  {
+   "id": "dem:126",
+   "is_empirical": true,
+   "query": "generative AI actors performance training likeness"
+  },
+  {
+   "id": "dem:127",
+   "is_empirical": true,
+   "query": "generative AI screenwriting creative labor"
+  },
+  {
+   "id": "dem:128",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:129",
+   "is_empirical": true,
+   "query": "AI digital replica performer likeness"
+  },
+  {
+   "id": "dem:130",
+   "is_empirical": true,
+   "query": "AI digital double actors employment displacement"
+  },
+  {
+   "id": "dem:131",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:132",
+   "is_empirical": true,
+   "query": "AI synthetic actor likeness generation"
+  },
+  {
+   "id": "dem:133",
+   "is_empirical": true,
+   "query": "generative AI media consent likeness deepfake"
+  },
+  {
+   "id": "dem:134",
+   "is_empirical": true,
+   "query": "generative AI replicate creative work performers"
+  },
+  {
+   "id": "dem:135",
+   "is_empirical": true,
+   "query": "generative AI creative labor compensation copyright"
+  },
+  {
+   "id": "dem:136",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:137",
+   "is_empirical": true,
+   "query": "AI voice synthesis voice actors labor games"
+  },
+  {
+   "id": "dem:138",
+   "is_empirical": true,
+   "query": "autonomous transit bus technology deployment"
+  },
+  {
+   "id": "dem:139",
+   "is_empirical": true,
+   "query": "autonomous vehicles public transit deployment"
+  },
+  {
+   "id": "dem:140",
+   "is_empirical": true,
+   "query": "automation workplace impact labor"
+  },
+  {
+   "id": "dem:141",
+   "is_empirical": true,
+   "query": "autonomous vehicles automation job displacement transit"
+  },
+  {
+   "id": "dem:142",
+   "is_empirical": true,
+   "query": "automation labor cost savings employers"
+  },
+  {
+   "id": "dem:143",
+   "is_empirical": true,
+   "query": "data annotation workers training large language models labor"
+  },
+  {
+   "id": "dem:144",
+   "is_empirical": true,
+   "query": "crowdwork data labeling generative AI labor"
+  },
+  {
+   "id": "dem:145",
+   "is_empirical": true,
+   "query": "generative AI child sexual abuse material synthetic"
+  },
+  {
+   "id": "dem:146",
+   "is_empirical": true,
+   "query": "AI-generated child sexual abuse material detection"
+  },
+  {
+   "id": "dem:147",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:148",
+   "is_empirical": true,
+   "query": "AI generated CSAM harms law enforcement"
+  },
+  {
+   "id": "dem:149",
+   "is_empirical": true,
+   "query": "artificial intelligence online child exploitation"
+  },
+  {
+   "id": "dem:150",
+   "is_empirical": true,
+   "query": "generative AI synthetic child imagery"
+  },
+  {
+   "id": "dem:151",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:152",
+   "is_empirical": true,
+   "query": "child sexual abuse material consumption contact offending risk"
+  },
+  {
+   "id": "dem:153",
+   "is_empirical": true,
+   "query": "pornography desensitization escalation sexual offending"
+  },
+  {
+   "id": "dem:154",
+   "is_empirical": true,
+   "query": "machine learning training dataset child sexual abuse material"
+  },
+  {
+   "id": "dem:155",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:156",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:157",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:158",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:159",
+   "is_empirical": true,
+   "query": "generative AI performer work permission compensation"
+  },
+  {
+   "id": "dem:160",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:161",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:162",
+   "is_empirical": true,
+   "query": "artificial intelligence adoption workplaces industries"
+  },
+  {
+   "id": "dem:163",
+   "is_empirical": true,
+   "query": "artificial intelligence job quality augmentation displacement"
+  },
+  {
+   "id": "dem:164",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:165",
+   "is_empirical": true,
+   "query": "automated decision tools consequential deployment"
+  },
+  {
+   "id": "dem:166",
+   "is_empirical": true,
+   "query": "algorithmic decision-making bias accountability"
+  },
+  {
+   "id": "dem:167",
+   "is_empirical": true,
+   "query": "algorithms systemic discrimination bias"
+  },
+  {
+   "id": "dem:168",
+   "is_empirical": true,
+   "query": "artificial intelligence bias outcomes"
+  },
+  {
+   "id": "dem:169",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:170",
+   "is_empirical": true,
+   "query": "algorithmic discrimination protected classes disparate impact"
+  },
+  {
+   "id": "dem:171",
+   "is_empirical": true,
+   "query": "algorithmic decision-making hiring insurance healthcare"
+  },
+  {
+   "id": "dem:172",
+   "is_empirical": true,
+   "query": "algorithmic bias discrimination marginalized harm"
+  },
+  {
+   "id": "dem:173",
+   "is_empirical": true,
+   "query": "clinical algorithm racial bias Black patients Science study"
+  },
+  {
+   "id": "dem:174",
+   "is_empirical": true,
+   "query": "AI consequential decision-making"
+  },
+  {
+   "id": "dem:175",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:176",
+   "is_empirical": true,
+   "query": "algorithmic decision bias"
+  },
+  {
+   "id": "dem:177",
+   "is_empirical": true,
+   "query": "automated decision-making consequential impact lives"
+  },
+  {
+   "id": "dem:178",
+   "is_empirical": true,
+   "query": "algorithmic bias accountability"
+  },
+  {
+   "id": "dem:179",
+   "is_empirical": true,
+   "query": "algorithms discrimination embedded systemic"
+  },
+  {
+   "id": "dem:180",
+   "is_empirical": true,
+   "query": "artificial intelligence benefits bias risks"
+  },
+  {
+   "id": "dem:181",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:182",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:183",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:184",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:185",
+   "is_empirical": true,
+   "query": "deepfakes AI disinformation democracy threat"
+  },
+  {
+   "id": "dem:186",
+   "is_empirical": true,
+   "query": "generative AI disinformation amplification"
+  },
+  {
+   "id": "dem:187",
+   "is_empirical": true,
+   "query": "election deepfakes voter suppression deception"
+  },
+  {
+   "id": "dem:188",
+   "is_empirical": true,
+   "query": "deepfakes disinformation campaigns"
+  },
+  {
+   "id": "dem:189",
+   "is_empirical": true,
+   "query": "deepfakes democracy false attribution"
+  },
+  {
+   "id": "dem:190",
+   "is_empirical": true,
+   "query": "generative AI accessibility synthetic media creation"
+  },
+  {
+   "id": "dem:191",
+   "is_empirical": true,
+   "query": "AI disinformation democracy risk"
+  },
+  {
+   "id": "dem:192",
+   "is_empirical": true,
+   "query": "disinformation bots fake media foreign influence"
+  },
+  {
+   "id": "dem:193",
+   "is_empirical": true,
+   "query": "generative AI disinformation sophistication scale"
+  },
+  {
+   "id": "dem:194",
+   "is_empirical": true,
+   "query": "deepfakes prevalence information ecosystem"
+  },
+  {
+   "id": "dem:195",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:196",
+   "is_empirical": true,
+   "query": "generative AI child sexual abuse material"
+  },
+  {
+   "id": "dem:197",
+   "is_empirical": true,
+   "query": "AI-generated CSAM detection realistic"
+  },
+  {
+   "id": "dem:198",
+   "is_empirical": true,
+   "query": "AI generated sexual exploitation harm victims"
+  },
+  {
+   "id": "dem:199",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:200",
+   "is_empirical": true,
+   "query": "children personal data training AI privacy"
+  },
+  {
+   "id": "dem:201",
+   "is_empirical": true,
+   "query": "children consent comprehension data privacy developmental"
+  },
+  {
+   "id": "dem:202",
+   "is_empirical": true,
+   "query": "children data exploitation AI privacy"
+  },
+  {
+   "id": "dem:203",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:204",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:205",
+   "is_empirical": true,
+   "query": "AI consequential decisions automated"
+  },
+  {
+   "id": "dem:206",
+   "is_empirical": true,
+   "query": "algorithms mortgage lending healthcare decisions bias"
+  },
+  {
+   "id": "dem:207",
+   "is_empirical": true,
+   "query": "algorithmic bias accountability opacity"
+  },
+  {
+   "id": "dem:208",
+   "is_empirical": true,
+   "query": "AI bias outcomes"
+  },
+  {
+   "id": "dem:209",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:210",
+   "is_empirical": true,
+   "query": "algorithmic disparate impact protected classes"
+  },
+  {
+   "id": "dem:211",
+   "is_empirical": true,
+   "query": "automated decision tools benefits eligibility"
+  },
+  {
+   "id": "dem:212",
+   "is_empirical": true,
+   "query": "algorithmic decision-making credit employment insurance healthcare"
+  },
+  {
+   "id": "dem:213",
+   "is_empirical": true,
+   "query": "algorithmic bias discrimination harm marginalized"
+  },
+  {
+   "id": "dem:214",
+   "is_empirical": true,
+   "query": "clinical algorithm racial bias Black patients Science"
+  },
+  {
+   "id": "dem:215",
+   "is_empirical": true,
+   "query": "children data training AI privacy"
+  },
+  {
+   "id": "dem:216",
+   "is_empirical": true,
+   "query": "children sensitive data AI development"
+  },
+  {
+   "id": "dem:217",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:218",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:219",
+   "is_empirical": true,
+   "query": "autonomous heavy vehicles trucks safety testing"
+  },
+  {
+   "id": "dem:220",
+   "is_empirical": true,
+   "query": "autonomous vehicle crashes safety incidents costs"
+  },
+  {
+   "id": "dem:221",
+   "is_empirical": true,
+   "query": "autonomous trucks safety risk public roads"
+  },
+  {
+   "id": "dem:222",
+   "is_empirical": true,
+   "query": "automation trucking industry job loss drivers"
+  },
+  {
+   "id": "dem:223",
+   "is_empirical": true,
+   "query": "autonomous vehicle safety incidents collisions"
+  },
+  {
+   "id": "dem:224",
+   "is_empirical": true,
+   "query": "autonomous trucks driver jobs safety"
+  },
+  {
+   "id": "dem:225",
+   "is_empirical": true,
+   "query": "automation trucking employment job loss estimate"
+  },
+  {
+   "id": "dem:226",
+   "is_empirical": true,
+   "query": "autonomous trucks buses safety operator"
+  },
+  {
+   "id": "dem:227",
+   "is_empirical": true,
+   "query": "autonomous passenger vehicle safety risks"
+  },
+  {
+   "id": "dem:228",
+   "is_empirical": true,
+   "query": "heavy duty autonomous vehicle safety risk"
+  },
+  {
+   "id": "dem:229",
+   "is_empirical": true,
+   "query": "AI child sexual abuse material synthetic"
+  },
+  {
+   "id": "dem:230",
+   "is_empirical": true,
+   "query": "AI generated child sexual abuse imagery"
+  },
+  {
+   "id": "dem:231",
+   "is_empirical": true,
+   "query": "AI CSAM scraped images real children"
+  },
+  {
+   "id": "dem:232",
+   "is_empirical": true,
+   "query": "AI sexual exploitation harm"
+  },
+  {
+   "id": "dem:233",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:234",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:235",
+   "is_empirical": true,
+   "query": "AI online child exploitation"
+  },
+  {
+   "id": "dem:236",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:237",
+   "is_empirical": true,
+   "query": "manipulated media political candidates deception"
+  },
+  {
+   "id": "dem:238",
+   "is_empirical": true,
+   "query": "generative AI disinformation"
+  },
+  {
+   "id": "dem:239",
+   "is_empirical": true,
+   "query": "AI generated disinformation elections democracy"
+  },
+  {
+   "id": "dem:240",
+   "is_empirical": true,
+   "query": "deepfakes disinformation campaigns"
+  },
+  {
+   "id": "dem:241",
+   "is_empirical": true,
+   "query": "deepfakes democracy false attribution"
+  },
+  {
+   "id": "dem:242",
+   "is_empirical": true,
+   "query": "generative AI synthetic media accessibility"
+  },
+  {
+   "id": "dem:243",
+   "is_empirical": true,
+   "query": "AI disinformation democracy threat"
+  },
+  {
+   "id": "dem:244",
+   "is_empirical": true,
+   "query": "deepfakes information ecosystem prevalence"
+  },
+  {
+   "id": "dem:245",
+   "is_empirical": true,
+   "query": "deepfakes elections global cases disinformation"
+  },
+  {
+   "id": "dem:246",
+   "is_empirical": true,
+   "query": "platforms trust safety teams content moderation reduction"
+  },
+  {
+   "id": "dem:247",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:248",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:249",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:250",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:251",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:252",
+   "is_empirical": true,
+   "query": "artificial intelligence journalism investigative tools"
+  },
+  {
+   "id": "dem:253",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:254",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:255",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:256",
+   "is_empirical": true,
+   "query": "artificial intelligence newsrooms journalism workflow"
+  },
+  {
+   "id": "dem:257",
+   "is_empirical": true,
+   "query": "manipulated media political candidate deception"
+  },
+  {
+   "id": "dem:258",
+   "is_empirical": true,
+   "query": "generative AI disinformation"
+  },
+  {
+   "id": "dem:259",
+   "is_empirical": true,
+   "query": "AI disinformation elections democracy"
+  },
+  {
+   "id": "dem:260",
+   "is_empirical": true,
+   "query": "deepfakes disinformation"
+  },
+  {
+   "id": "dem:261",
+   "is_empirical": true,
+   "query": "deepfakes false attribution democracy"
+  },
+  {
+   "id": "dem:262",
+   "is_empirical": true,
+   "query": "generative AI hyperrealistic synthetic media"
+  },
+  {
+   "id": "dem:263",
+   "is_empirical": true,
+   "query": "deepfakes information ecosystem"
+  },
+  {
+   "id": "dem:264",
+   "is_empirical": true,
+   "query": "deepfakes elections global disinformation"
+  },
+  {
+   "id": "dem:265",
+   "is_empirical": true,
+   "query": "platforms trust safety content moderation reduction"
+  },
+  {
+   "id": "dem:266",
+   "is_empirical": true,
+   "query": "AI child sexual abuse material"
+  },
+  {
+   "id": "dem:267",
+   "is_empirical": true,
+   "query": "AI generated child sexual abuse imagery"
+  },
+  {
+   "id": "dem:268",
+   "is_empirical": true,
+   "query": "AI CSAM real children images"
+  },
+  {
+   "id": "dem:269",
+   "is_empirical": true,
+   "query": "AI sexual exploitation harm children"
+  },
+  {
+   "id": "dem:270",
+   "is_empirical": true,
+   "query": "AI risks children exploitation"
+  },
+  {
+   "id": "dem:271",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:272",
+   "is_empirical": true,
+   "query": "AI online child exploitation"
+  },
+  {
+   "id": "dem:273",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:274",
+   "is_empirical": true,
+   "query": "generative AI deceased performers likeness"
+  },
+  {
+   "id": "dem:275",
+   "is_empirical": true,
+   "query": "AI digital replica deceased artists likeness"
+  },
+  {
+   "id": "dem:276",
+   "is_empirical": true,
+   "query": "AI posthumous performance synthesis deceased artists"
+  },
+  {
+   "id": "dem:277",
+   "is_empirical": true,
+   "query": "generative AI deceased artist recreation entertainment"
+  },
+  {
+   "id": "dem:278",
+   "is_empirical": true,
+   "query": "AI digital replica likeness voice"
+  },
+  {
+   "id": "dem:279",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:280",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:281",
+   "is_empirical": true,
+   "query": "AI voice likeness performers consent labor"
+  },
+  {
+   "id": "dem:282",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:283",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:284",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:285",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:286",
+   "is_empirical": true,
+   "query": "AI workplace worker exploitation surveillance"
+  },
+  {
+   "id": "dem:287",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:288",
+   "is_empirical": true,
+   "query": "election deepfakes disinformation"
+  },
+  {
+   "id": "dem:289",
+   "is_empirical": true,
+   "query": "manipulated media political candidate deception"
+  },
+  {
+   "id": "dem:290",
+   "is_empirical": true,
+   "query": "AI disinformation elections threat"
+  },
+  {
+   "id": "dem:291",
+   "is_empirical": true,
+   "query": "AI generated disinformation elections democracy"
+  },
+  {
+   "id": "dem:292",
+   "is_empirical": true,
+   "query": "deepfakes disinformation campaigns"
+  },
+  {
+   "id": "dem:293",
+   "is_empirical": true,
+   "query": "deepfake video fabrication political synthetic"
+  },
+  {
+   "id": "dem:294",
+   "is_empirical": true,
+   "query": "generative AI synthetic media accessibility"
+  },
+  {
+   "id": "dem:295",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:296",
+   "is_empirical": true,
+   "query": "deepfakes information ecosystem"
+  },
+  {
+   "id": "dem:297",
+   "is_empirical": true,
+   "query": "deepfakes elections global disinformation"
+  },
+  {
+   "id": "dem:298",
+   "is_empirical": true,
+   "query": "AI generated child sexual abuse material"
+  },
+  {
+   "id": "dem:299",
+   "is_empirical": true,
+   "query": "AI child sexual abuse material synthetic"
+  },
+  {
+   "id": "dem:300",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:301",
+   "is_empirical": true,
+   "query": "AI CSAM training data real victims revictimization"
+  },
+  {
+   "id": "dem:302",
+   "is_empirical": true,
+   "query": "AI generated CSAM realistic detection"
+  },
+  {
+   "id": "dem:303",
+   "is_empirical": true,
+   "query": "AI literacy K-12 education curriculum"
+  },
+  {
+   "id": "dem:304",
+   "is_empirical": true,
+   "query": "election deepfakes voter deception"
+  },
+  {
+   "id": "dem:305",
+   "is_empirical": true,
+   "query": "AI risks children exploitation"
+  },
+  {
+   "id": "dem:306",
+   "is_empirical": true,
+   "query": "generative AI child sexual exploitation CSAM"
+  },
+  {
+   "id": "dem:307",
+   "is_empirical": true,
+   "query": "AI generated CSAM detection law enforcement challenge"
+  },
+  {
+   "id": "dem:308",
+   "is_empirical": true,
+   "query": "AI literacy education K-12 curriculum integration"
+  },
+  {
+   "id": "dem:309",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:310",
+   "is_empirical": true,
+   "query": "artificial intelligence labor market transformation"
+  },
+  {
+   "id": "dem:311",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:312",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:313",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:314",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:315",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:316",
+   "is_empirical": true,
+   "query": "early STEM technology exposure career outcomes students"
+  },
+  {
+   "id": "dem:317",
+   "is_empirical": true,
+   "query": "demand artificial intelligence skills labor market sectors"
+  },
+  {
+   "id": "dem:318",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:319",
+   "is_empirical": true,
+   "query": "artificial intelligence consumer privacy data protection"
+  },
+  {
+   "id": "dem:320",
+   "is_empirical": true,
+   "query": "generative AI deceased artists likeness"
+  },
+  {
+   "id": "dem:321",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:322",
+   "is_empirical": true,
+   "query": "AI child sexual exploitation"
+  },
+  {
+   "id": "dem:323",
+   "is_empirical": true,
+   "query": "AI election deepfakes threat"
+  },
+  {
+   "id": "dem:324",
+   "is_empirical": true,
+   "query": "AI generated child sexual abuse imagery realistic"
+  },
+  {
+   "id": "dem:325",
+   "is_empirical": true,
+   "query": "AI generated CSAM realistic"
+  },
+  {
+   "id": "dem:326",
+   "is_empirical": true,
+   "query": "deepfake political candidate misinformation election"
+  },
+  {
+   "id": "dem:327",
+   "is_empirical": true,
+   "query": "artificial intelligence energy consumption demand"
+  },
+  {
+   "id": "dem:328",
+   "is_empirical": true,
+   "query": "deep learning model training energy consumption carbon"
+  },
+  {
+   "id": "dem:329",
+   "is_empirical": true,
+   "query": "artificial intelligence energy footprint"
+  },
+  {
+   "id": "dem:330",
+   "is_empirical": true,
+   "query": "data centers energy consumption electricity demand"
+  },
+  {
+   "id": "dem:331",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:332",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:333",
+   "is_empirical": true,
+   "query": "artificial intelligence energy consumption"
+  },
+  {
+   "id": "dem:334",
+   "is_empirical": true,
+   "query": "algorithmic pricing collusion competition"
+  },
+  {
+   "id": "dem:335",
+   "is_empirical": true,
+   "query": "algorithmic pricing collusion higher prices"
+  },
+  {
+   "id": "dem:336",
+   "is_empirical": true,
+   "query": "algorithmic collusion supply restriction"
+  },
+  {
+   "id": "dem:337",
+   "is_empirical": true,
+   "query": "pricing algorithms tacit collusion coordination"
+  },
+  {
+   "id": "dem:338",
+   "is_empirical": true,
+   "query": "rent pricing algorithm RealPage housing prices collusion"
+  },
+  {
+   "id": "dem:339",
+   "is_empirical": true,
+   "query": "algorithmic rent pricing housing supply availability"
+  },
+  {
+   "id": "dem:340",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:341",
+   "is_empirical": true,
+   "query": "algorithmic pricing consumer prices fairness"
+  },
+  {
+   "id": "dem:342",
+   "is_empirical": true,
+   "query": "algorithmic price fixing consumer costs"
+  },
+  {
+   "id": "dem:343",
+   "is_empirical": true,
+   "query": "algorithmic collusion antitrust cartels"
+  },
+  {
+   "id": "dem:344",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:345",
+   "is_empirical": true,
+   "query": "generative AI training copyrighted data consent compensation"
+  },
+  {
+   "id": "dem:346",
+   "is_empirical": true,
+   "query": "generative AI training data transparency copyright"
+  },
+  {
+   "id": "dem:347",
+   "is_empirical": true,
+   "query": "generative AI copyrighted training data"
+  },
+  {
+   "id": "dem:348",
+   "is_empirical": true,
+   "query": "AI voice synthesis voice actors employment"
+  },
+  {
+   "id": "dem:349",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:350",
+   "is_empirical": true,
+   "query": "generative AI image training artists copyright consent"
+  },
+  {
+   "id": "dem:351",
+   "is_empirical": true,
+   "query": "web scraping training data generative AI"
+  },
+  {
+   "id": "dem:352",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:353",
+   "is_empirical": true,
+   "query": "automated decision systems housing employment lending"
+  },
+  {
+   "id": "dem:354",
+   "is_empirical": true,
+   "query": "algorithmic bias real-world consequences industries"
+  },
+  {
+   "id": "dem:355",
+   "is_empirical": true,
+   "query": "automated hiring systems prevalence employers screening"
+  },
+  {
+   "id": "dem:356",
+   "is_empirical": true,
+   "query": "automated hiring algorithms discrimination bias"
+  },
+  {
+   "id": "dem:357",
+   "is_empirical": true,
+   "query": "clinical algorithm racial bias patient care"
+  },
+  {
+   "id": "dem:358",
+   "is_empirical": true,
+   "query": "healthcare algorithm cost proxy racial bias Black patients"
+  },
+  {
+   "id": "dem:359",
+   "is_empirical": true,
+   "query": "healthcare spending racial disparities algorithm bias"
+  },
+  {
+   "id": "dem:360",
+   "is_empirical": true,
+   "query": "algorithm Medicaid home care hours disability cuts"
+  },
+  {
+   "id": "dem:361",
+   "is_empirical": true,
+   "query": "algorithm disability benefits assessment errors"
+  },
+  {
+   "id": "dem:362",
+   "is_empirical": true,
+   "query": "algorithms barriers opportunity discrimination"
+  },
+  {
+   "id": "dem:363",
+   "is_empirical": true,
+   "query": "AI chatbots impersonate health professionals"
+  },
+  {
+   "id": "dem:364",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:365",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:366",
+   "is_empirical": true,
+   "query": "AI chatbots children risks deception"
+  },
+  {
+   "id": "dem:367",
+   "is_empirical": true,
+   "query": "AI chatbot emotional attachment dependency users"
+  },
+  {
+   "id": "dem:368",
+   "is_empirical": true,
+   "query": "AI chatbots mental health impersonation therapy"
+  },
+  {
+   "id": "dem:369",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:370",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:371",
+   "is_empirical": true,
+   "query": "anthropomorphic AI risks vulnerable users children"
+  },
+  {
+   "id": "dem:372",
+   "is_empirical": true,
+   "query": "children adoption AI technology parental awareness"
+  },
+  {
+   "id": "dem:373",
+   "is_empirical": true,
+   "query": "artificial intelligence healthcare claims management adoption"
+  },
+  {
+   "id": "dem:374",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:375",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:376",
+   "is_empirical": true,
+   "query": "children AI educational tools social media oversight"
+  },
+  {
+   "id": "dem:377",
+   "is_empirical": true,
+   "query": "AI chatbots harmful interactions minors safety"
+  },
+  {
+   "id": "dem:378",
+   "is_empirical": true,
+   "query": "AI chatbots self-harm eating disorder harmful content"
+  },
+  {
+   "id": "dem:379",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:380",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:381",
+   "is_empirical": true,
+   "query": "AI chatbots emotional manipulation children harm"
+  },
+  {
+   "id": "dem:382",
+   "is_empirical": true,
+   "query": "emotion recognition AI children accuracy risks"
+  },
+  {
+   "id": "dem:383",
+   "is_empirical": true,
+   "query": "social scoring systems risks surveillance"
+  },
+  {
+   "id": "dem:384",
+   "is_empirical": true,
+   "query": "facial recognition children privacy risks"
+  },
+  {
+   "id": "dem:385",
+   "is_empirical": true,
+   "query": "personalized pricing personal data price discrimination"
+  },
+  {
+   "id": "dem:386",
+   "is_empirical": true,
+   "query": "surveillance pricing personalized data consumer spending"
+  },
+  {
+   "id": "dem:387",
+   "is_empirical": true,
+   "query": "price discrimination algorithmic predatory consumers"
+  },
+  {
+   "id": "dem:388",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:389",
+   "is_empirical": true,
+   "query": "personalized pricing data price discrimination"
+  },
+  {
+   "id": "dem:390",
+   "is_empirical": true,
+   "query": "dynamic pricing digital shelf labels retail"
+  },
+  {
+   "id": "dem:391",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:392",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:393",
+   "is_empirical": true,
+   "query": "media literacy digital literacy academic achievement students"
+  },
+  {
+   "id": "dem:394",
+   "is_empirical": true,
+   "query": "digital literacy skills career outcomes students"
+  },
+  {
+   "id": "dem:395",
+   "is_empirical": true,
+   "query": "media literacy critical thinking misinformation students"
+  },
+  {
+   "id": "dem:396",
+   "is_empirical": true,
+   "query": "generative AI copyrighted training data consent"
+  },
+  {
+   "id": "dem:397",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:398",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:399",
+   "is_empirical": true,
+   "query": "generative AI artists work training consent"
+  },
+  {
+   "id": "dem:400",
+   "is_empirical": true,
+   "query": "generative AI creative labor market competition artists"
+  },
+  {
+   "id": "dem:401",
+   "is_empirical": true,
+   "query": "generative AI training data transparency disclosure"
+  },
+  {
+   "id": "dem:402",
+   "is_empirical": true,
+   "query": "AI voice synthesis voice actors livelihood"
+  },
+  {
+   "id": "dem:403",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:404",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:405",
+   "is_empirical": true,
+   "query": "data center waste heat recovery emissions energy efficiency"
+  },
+  {
+   "id": "dem:406",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:407",
+   "is_empirical": true,
+   "query": "data center electricity consumption share California"
+  },
+  {
+   "id": "dem:408",
+   "is_empirical": true,
+   "query": "data center electricity demand projection growth"
+  },
+  {
+   "id": "dem:409",
+   "is_empirical": true,
+   "query": "artificial intelligence cloud data center energy demand growth"
+  },
+  {
+   "id": "dem:410",
+   "is_empirical": true,
+   "query": "data center waste heat rejection cooling"
+  },
+  {
+   "id": "dem:411",
+   "is_empirical": true,
+   "query": "data center waste heat energy inefficiency emissions"
+  },
+  {
+   "id": "dem:412",
+   "is_empirical": true,
+   "query": "data center waste heat reuse energy conservation"
+  },
+  {
+   "id": "dem:413",
+   "is_empirical": true,
+   "query": "waste heat recovery emissions reduction district heating"
+  },
+  {
+   "id": "dem:414",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:415",
+   "is_empirical": true,
+   "query": "companion AI chatbots emotional relationships mental health"
+  },
+  {
+   "id": "dem:416",
+   "is_empirical": true,
+   "query": "companion AI chatbots children explicit conversations safety"
+  },
+  {
+   "id": "dem:417",
+   "is_empirical": true,
+   "query": "AI chatbots sexual content minors safety"
+  },
+  {
+   "id": "dem:418",
+   "is_empirical": true,
+   "query": "children AI chatbots emotional risks oversight"
+  },
+  {
+   "id": "dem:419",
+   "is_empirical": true,
+   "query": "AI chatbots companion harmful behavior encouragement"
+  },
+  {
+   "id": "dem:420",
+   "is_empirical": true,
+   "query": "automated decision systems high-stakes decisions"
+  },
+  {
+   "id": "dem:421",
+   "is_empirical": true,
+   "query": "automated decision systems employment credit housing healthcare"
+  },
+  {
+   "id": "dem:422",
+   "is_empirical": true,
+   "query": "automated decision systems discrimination oversight"
+  },
+  {
+   "id": "dem:423",
+   "is_empirical": true,
+   "query": "automated decision systems benefits efficiency hiring"
+  },
+  {
+   "id": "dem:424",
+   "is_empirical": true,
+   "query": "social media youth mental health crisis"
+  },
+  {
+   "id": "dem:425",
+   "is_empirical": true,
+   "query": "social media design algorithms adolescent harm mental health"
+  },
+  {
+   "id": "dem:426",
+   "is_empirical": true,
+   "query": "social media addiction young users design"
+  },
+  {
+   "id": "dem:427",
+   "is_empirical": true,
+   "query": "social media harm youth platform"
+  },
+  {
+   "id": "dem:428",
+   "is_empirical": true,
+   "query": "social media algorithm eating disorder content recommendation"
+  },
+  {
+   "id": "dem:429",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:430",
+   "is_empirical": true,
+   "query": "personalized pricing price discrimination data"
+  },
+  {
+   "id": "dem:431",
+   "is_empirical": true,
+   "query": "surveillance pricing personalized data"
+  },
+  {
+   "id": "dem:432",
+   "is_empirical": true,
+   "query": "algorithmic price discrimination predatory"
+  },
+  {
+   "id": "dem:433",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:434",
+   "is_empirical": true,
+   "query": "personalized pricing consumer data"
+  },
+  {
+   "id": "dem:435",
+   "is_empirical": true,
+   "query": "dynamic pricing retail digital shelf labels"
+  },
+  {
+   "id": "dem:436",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:437",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:438",
+   "is_empirical": true,
+   "query": "AI generated child sexual abuse material proliferation"
+  },
+  {
+   "id": "dem:439",
+   "is_empirical": true,
+   "query": "deepfake nude images minors schools nonconsensual"
+  },
+  {
+   "id": "dem:440",
+   "is_empirical": true,
+   "query": "AI companion chatbots children inappropriate"
+  },
+  {
+   "id": "dem:441",
+   "is_empirical": true,
+   "query": "algorithms youth exposure violent pornography online"
+  },
+  {
+   "id": "dem:442",
+   "is_empirical": true,
+   "query": "antisemitism hate speech social media spread"
+  },
+  {
+   "id": "dem:443",
+   "is_empirical": true,
+   "query": "automated speed enforcement cameras crash reduction safety"
+  },
+  {
+   "id": "dem:444",
+   "is_empirical": true,
+   "query": "automated speed cameras speeding crashes reduction evidence"
+  },
+  {
+   "id": "dem:445",
+   "is_empirical": true,
+   "query": "speed cameras enforcement effectiveness road safety"
+  },
+  {
+   "id": "dem:446",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:447",
+   "is_empirical": true,
+   "query": "algorithmic price fixing inflated prices goods"
+  },
+  {
+   "id": "dem:448",
+   "is_empirical": true,
+   "query": "algorithmic collusion tacit pricing antitrust"
+  },
+  {
+   "id": "dem:449",
+   "is_empirical": true,
+   "query": "pricing algorithms coordination collusion consumers"
+  },
+  {
+   "id": "dem:450",
+   "is_empirical": true,
+   "query": "algorithmic pricing collusion corporations"
+  },
+  {
+   "id": "dem:451",
+   "is_empirical": true,
+   "query": "algorithmic pricing competition antitrust"
+  },
+  {
+   "id": "dem:452",
+   "is_empirical": true,
+   "query": "algorithmic pricing higher consumer costs"
+  },
+  {
+   "id": "dem:453",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:454",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:455",
+   "is_empirical": true,
+   "query": "algorithmic pricing consumer prices fairness"
+  },
+  {
+   "id": "dem:456",
+   "is_empirical": true,
+   "query": "algorithmic collusion antitrust cartels"
+  },
+  {
+   "id": "dem:457",
+   "is_empirical": true,
+   "query": "intoxicating hemp delta-8 public health regulation"
+  },
+  {
+   "id": "dem:458",
+   "is_empirical": true,
+   "query": "delta-8 THC synthetic cannabinoid hemp"
+  },
+  {
+   "id": "dem:459",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:460",
+   "is_empirical": true,
+   "query": "synthetic cannabinoid hemp products unregulated market"
+  },
+  {
+   "id": "dem:461",
+   "is_empirical": true,
+   "query": "hemp CBD products mislabeling contamination testing"
+  },
+  {
+   "id": "dem:462",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:463",
+   "is_empirical": true,
+   "query": "AI chatbots impersonate licensed professionals"
+  },
+  {
+   "id": "dem:464",
+   "is_empirical": true,
+   "query": "social media youth mental health"
+  },
+  {
+   "id": "dem:465",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:466",
+   "is_empirical": true,
+   "query": "deepfake nonconsensual nude images AI"
+  },
+  {
+   "id": "dem:467",
+   "is_empirical": true,
+   "query": "nonconsensual intimate images deepfake women girls harm"
+  },
+  {
+   "id": "dem:468",
+   "is_empirical": true,
+   "query": "automated decision systems criminal justice housing employment"
+  },
+  {
+   "id": "dem:469",
+   "is_empirical": true,
+   "query": "automated decision systems discrimination outcomes"
+  },
+  {
+   "id": "dem:470",
+   "is_empirical": true,
+   "query": "companion AI chatbots risks"
+  },
+  {
+   "id": "dem:471",
+   "is_empirical": true,
+   "query": "AI products children harm"
+  },
+  {
+   "id": "dem:472",
+   "is_empirical": true,
+   "query": "children data training AI"
+  },
+  {
+   "id": "dem:473",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:474",
+   "is_empirical": true,
+   "query": "personalized pricing data discrimination"
+  },
+  {
+   "id": "dem:475",
+   "is_empirical": true,
+   "query": "consumer tracking retail data collection surveillance"
+  },
+  {
+   "id": "dem:476",
+   "is_empirical": true,
+   "query": "personal data brokers analytics consumer profiling"
+  },
+  {
+   "id": "dem:477",
+   "is_empirical": true,
+   "query": "algorithmic price discrimination surveillance"
+  },
+  {
+   "id": "dem:478",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:479",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:480",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:481",
+   "is_empirical": true,
+   "query": "AI chatbots suicide self-harm encouragement"
+  },
+  {
+   "id": "dem:482",
+   "is_empirical": true,
+   "query": "AI chatbots addiction social isolation"
+  },
+  {
+   "id": "dem:483",
+   "is_empirical": true,
+   "query": "AI chatbot suicide instructions safety harm"
+  },
+  {
+   "id": "dem:484",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:485",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:486",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:487",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:488",
+   "is_empirical": true,
+   "query": "AI chatbots risks harms users"
+  },
+  {
+   "id": "dem:489",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:490",
+   "is_empirical": true,
+   "query": "AI chatbots mental health crisis empathy response limitations"
+  },
+  {
+   "id": "dem:491",
+   "is_empirical": true,
+   "query": "behind the meter solar net energy metering"
+  },
+  {
+   "id": "dem:492",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:493",
+   "is_empirical": true,
+   "query": "net metering solar export compensation electricity rates"
+  },
+  {
+   "id": "dem:494",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:495",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:496",
+   "is_empirical": true,
+   "query": "solar battery storage school resilience power outages"
+  },
+  {
+   "id": "dem:497",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:498",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:499",
+   "is_empirical": true,
+   "query": "artificial intelligence medical diagnosis treatment clinical"
+  },
+  {
+   "id": "dem:500",
+   "is_empirical": true,
+   "query": "AI clinical decision limitations patient context"
+  },
+  {
+   "id": "dem:501",
+   "is_empirical": true,
+   "query": "clinical algorithm errors bias medical decisions"
+  },
+  {
+   "id": "dem:502",
+   "is_empirical": true,
+   "query": "health insurance AI claims processing prior authorization"
+  },
+  {
+   "id": "dem:503",
+   "is_empirical": true,
+   "query": "artificial intelligence healthcare efficiency cost savings"
+  },
+  {
+   "id": "dem:504",
+   "is_empirical": true,
+   "query": "AI health insurance claims bias accuracy"
+  },
+  {
+   "id": "dem:505",
+   "is_empirical": true,
+   "query": "insurance claim denial algorithm health outcomes"
+  },
+  {
+   "id": "dem:506",
+   "is_empirical": true,
+   "query": "insurance denial delayed care mortality"
+  },
+  {
+   "id": "dem:507",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:508",
+   "is_empirical": true,
+   "query": "generative AI content misuse concerns"
+  },
+  {
+   "id": "dem:509",
+   "is_empirical": true,
+   "query": "AI generated media political misinformation deepfakes"
+  },
+  {
+   "id": "dem:510",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:511",
+   "is_empirical": true,
+   "query": "AI generated content detection tools accuracy"
+  },
+  {
+   "id": "dem:512",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:513",
+   "is_empirical": true,
+   "query": "prior authorization treatment delays access barriers"
+  },
+  {
+   "id": "dem:514",
+   "is_empirical": true,
+   "query": "prior authorization approval rates delays administrative burden"
+  },
+  {
+   "id": "dem:515",
+   "is_empirical": true,
+   "query": "prior authorization delays adverse events hospitalization survey"
+  },
+  {
+   "id": "dem:516",
+   "is_empirical": true,
+   "query": "prior authorization serious adverse events physician survey"
+  },
+  {
+   "id": "dem:517",
+   "is_empirical": true,
+   "query": "prior authorization permanent disability death physician survey"
+  },
+  {
+   "id": "dem:518",
+   "is_empirical": true,
+   "query": "prior authorization volume physician burden weekly"
+  },
+  {
+   "id": "dem:519",
+   "is_empirical": true,
+   "query": "prior authorization administrative time physician hours"
+  },
+  {
+   "id": "dem:520",
+   "is_empirical": true,
+   "query": "prior authorization delays access care physician survey"
+  },
+  {
+   "id": "dem:521",
+   "is_empirical": true,
+   "query": "prior authorization delays denials timeliness"
+  },
+  {
+   "id": "dem:522",
+   "is_empirical": true,
+   "query": "health insurance claim denials appeals success rates"
+  },
+  {
+   "id": "dem:523",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:524",
+   "is_empirical": true,
+   "query": "generative AI content misuse"
+  },
+  {
+   "id": "dem:525",
+   "is_empirical": true,
+   "query": "AI generated media political misinformation"
+  },
+  {
+   "id": "dem:526",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:527",
+   "is_empirical": true,
+   "query": "AI generated content detection tools"
+  },
+  {
+   "id": "dem:528",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:529",
+   "is_empirical": true,
+   "query": "cement industry decarbonization net zero emissions"
+  },
+  {
+   "id": "dem:530",
+   "is_empirical": true,
+   "query": "low carbon cement emissions reduction"
+  },
+  {
+   "id": "dem:531",
+   "is_empirical": true,
+   "query": "building electrification decarbonization emissions"
+  },
+  {
+   "id": "dem:532",
+   "is_empirical": true,
+   "query": "generative AI watermarking content labeling"
+  },
+  {
+   "id": "dem:533",
+   "is_empirical": true,
+   "query": "AI generated content detection effectiveness"
+  },
+  {
+   "id": "dem:534",
+   "is_empirical": true,
+   "query": "neural data neurotechnology privacy brain computer interface"
+  },
+  {
+   "id": "dem:535",
+   "is_empirical": true,
+   "query": "algorithms medical services decisions"
+  },
+  {
+   "id": "dem:536",
+   "is_empirical": true,
+   "query": "artificial intelligence education integration learning"
+  },
+  {
+   "id": "dem:537",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:538",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:539",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:540",
+   "is_empirical": true,
+   "query": "AI chatbots risks children vulnerable"
+  },
+  {
+   "id": "dem:541",
+   "is_empirical": true,
+   "query": "AI chatbots romantic emotional relationships users"
+  },
+  {
+   "id": "dem:542",
+   "is_empirical": true,
+   "query": "AI chatbots self-harm encouragement"
+  },
+  {
+   "id": "dem:543",
+   "is_empirical": true,
+   "query": "AI chatbots mental health empathy limitations"
+  },
+  {
+   "id": "dem:544",
+   "is_empirical": true,
+   "query": "AI safety safeguards minors risks"
+  },
+  {
+   "id": "dem:545",
+   "is_empirical": true,
+   "query": "AI chatbots addictive engagement design"
+  },
+  {
+   "id": "dem:546",
+   "is_empirical": true,
+   "query": "companion AI chatbots dependency addiction suicide minors"
+  },
+  {
+   "id": "dem:547",
+   "is_empirical": true,
+   "query": "solar battery storage schools resilience"
+  },
+  {
+   "id": "dem:548",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:549",
+   "is_empirical": true,
+   "query": "school solar energy electricity cost savings"
+  },
+  {
+   "id": "dem:550",
+   "is_empirical": true,
+   "query": "generative AI content watermarking labeling"
+  },
+  {
+   "id": "dem:551",
+   "is_empirical": true,
+   "query": "AI content detection provenance"
+  },
+  {
+   "id": "dem:552",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:553",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:554",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:555",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:556",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:557",
+   "is_empirical": true,
+   "query": "AI generated content watermarking imperceptible"
+  },
+  {
+   "id": "dem:558",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:559",
+   "is_empirical": true,
+   "query": "artificial intelligence medical diagnosis treatment"
+  },
+  {
+   "id": "dem:560",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:561",
+   "is_empirical": true,
+   "query": "AI clinical decision limitations patient context"
+  },
+  {
+   "id": "dem:562",
+   "is_empirical": true,
+   "query": "clinical AI errors bias treatment"
+  },
+  {
+   "id": "dem:563",
+   "is_empirical": true,
+   "query": "AI healthcare access cost savings"
+  },
+  {
+   "id": "dem:564",
+   "is_empirical": true,
+   "query": "AI insurance claims bias accuracy"
+  },
+  {
+   "id": "dem:565",
+   "is_empirical": true,
+   "query": "insurance algorithm claim denial health outcomes"
+  },
+  {
+   "id": "dem:566",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:567",
+   "is_empirical": true,
+   "query": "AI clinical decision-making compared physicians"
+  },
+  {
+   "id": "dem:568",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:569",
+   "is_empirical": true,
+   "query": "generative AI content labeling"
+  },
+  {
+   "id": "dem:570",
+   "is_empirical": true,
+   "query": "AI content detection tools"
+  },
+  {
+   "id": "dem:571",
+   "is_empirical": true,
+   "query": "artificial intelligence medical diagnosis"
+  },
+  {
+   "id": "dem:572",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:573",
+   "is_empirical": true,
+   "query": "AI clinical limitations patient understanding"
+  },
+  {
+   "id": "dem:574",
+   "is_empirical": true,
+   "query": "clinical AI bias errors"
+  },
+  {
+   "id": "dem:575",
+   "is_empirical": true,
+   "query": "AI healthcare efficiency cost"
+  },
+  {
+   "id": "dem:576",
+   "is_empirical": true,
+   "query": "AI insurance claims bias"
+  },
+  {
+   "id": "dem:577",
+   "is_empirical": true,
+   "query": "insurance AI denial health harm"
+  },
+  {
+   "id": "dem:578",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:579",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:580",
+   "is_empirical": true,
+   "query": "health insurers AI algorithms treatment decisions"
+  },
+  {
+   "id": "dem:581",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:582",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:583",
+   "is_empirical": true,
+   "query": "AI clinical limitations patient context"
+  },
+  {
+   "id": "dem:584",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:585",
+   "is_empirical": true,
+   "query": "AI healthcare claims processing efficiency"
+  },
+  {
+   "id": "dem:586",
+   "is_empirical": true,
+   "query": "AI healthcare decision bias inaccuracy"
+  },
+  {
+   "id": "dem:587",
+   "is_empirical": true,
+   "query": "algorithm insurance denial care harm death"
+  },
+  {
+   "id": "dem:588",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:589",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:590",
+   "is_empirical": true,
+   "query": "AI energy demand data center expansion"
+  },
+  {
+   "id": "dem:591",
+   "is_empirical": true,
+   "query": "artificial intelligence data center infrastructure compute"
+  },
+  {
+   "id": "dem:592",
+   "is_empirical": true,
+   "query": "data center energy water consumption AI"
+  },
+  {
+   "id": "dem:593",
+   "is_empirical": true,
+   "query": "data center electricity grid strain demand"
+  },
+  {
+   "id": "dem:594",
+   "is_empirical": true,
+   "query": "data center grid infrastructure investment capacity"
+  },
+  {
+   "id": "dem:595",
+   "is_empirical": true,
+   "query": "generative AI data center demand growth"
+  },
+  {
+   "id": "dem:596",
+   "is_empirical": true,
+   "query": "data center demand grid reliability ratepayers"
+  },
+  {
+   "id": "dem:597",
+   "is_empirical": true,
+   "query": "data center US electricity consumption projection 2028"
+  },
+  {
+   "id": "dem:598",
+   "is_empirical": true,
+   "query": "data center electricity demand utility rates increase"
+  },
+  {
+   "id": "dem:599",
+   "is_empirical": true,
+   "query": "data centers renewable zero carbon energy"
+  },
+  {
+   "id": "dem:600",
+   "is_empirical": true,
+   "query": "artificial intelligence workforce skills demand labor"
+  },
+  {
+   "id": "dem:601",
+   "is_empirical": true,
+   "query": "information technology workforce labor demand"
+  },
+  {
+   "id": "dem:602",
+   "is_empirical": true,
+   "query": "green economy jobs workforce labor demand"
+  },
+  {
+   "id": "dem:603",
+   "is_empirical": true,
+   "query": "artificial intelligence medical diagnosis treatment"
+  },
+  {
+   "id": "dem:604",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:605",
+   "is_empirical": true,
+   "query": "AI clinical decision limitations patient"
+  },
+  {
+   "id": "dem:606",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:607",
+   "is_empirical": true,
+   "query": "AI healthcare access cost savings"
+  },
+  {
+   "id": "dem:608",
+   "is_empirical": true,
+   "query": "AI healthcare bias inaccuracy concerns"
+  },
+  {
+   "id": "dem:609",
+   "is_empirical": true,
+   "query": "insurance AI claim denial health harm"
+  },
+  {
+   "id": "dem:610",
+   "is_empirical": true,
+   "query": "AI clinical decision-making physicians comparison"
+  },
+  {
+   "id": "dem:611",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:612",
+   "is_empirical": true,
+   "query": "generative AI content visible watermark labeling"
+  },
+  {
+   "id": "dem:613",
+   "is_empirical": true,
+   "query": "generative AI imperceptible watermark content"
+  },
+  {
+   "id": "dem:614",
+   "is_empirical": true,
+   "query": "AI generated content detection tools"
+  },
+  {
+   "id": "dem:615",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:616",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:617",
+   "is_empirical": true,
+   "query": "generative AI content misuse political misinformation"
+  },
+  {
+   "id": "dem:618",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:619",
+   "is_empirical": true,
+   "query": "generative AI content watermark visible"
+  },
+  {
+   "id": "dem:620",
+   "is_empirical": true,
+   "query": "generative AI imperceptible watermark"
+  },
+  {
+   "id": "dem:621",
+   "is_empirical": true,
+   "query": "AI content detection tools"
+  },
+  {
+   "id": "dem:622",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:623",
+   "is_empirical": true,
+   "query": "generative AI content misuse misinformation"
+  },
+  {
+   "id": "dem:624",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:625",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:626",
+   "is_empirical": true,
+   "query": "solar battery storage schools resilience"
+  },
+  {
+   "id": "dem:627",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:628",
+   "is_empirical": true,
+   "query": "school solar electricity cost savings"
+  },
+  {
+   "id": "dem:629",
+   "is_empirical": true,
+   "query": "solar energy storage cost savings"
+  },
+  {
+   "id": "dem:630",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:631",
+   "is_empirical": true,
+   "query": "data center demand growth California"
+  },
+  {
+   "id": "dem:632",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:633",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:634",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:635",
+   "is_empirical": true,
+   "query": "generative AI content visible watermark"
+  },
+  {
+   "id": "dem:636",
+   "is_empirical": true,
+   "query": "generative AI imperceptible watermark"
+  },
+  {
+   "id": "dem:637",
+   "is_empirical": true,
+   "query": "AI content detection tools"
+  },
+  {
+   "id": "dem:638",
+   "is_empirical": true,
+   "query": "generative AI content misuse"
+  },
+  {
+   "id": "dem:639",
+   "is_empirical": true,
+   "query": "AI generated media political misinformation"
+  },
+  {
+   "id": "dem:640",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:641",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:642",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:643",
+   "is_empirical": true,
+   "query": "solar battery storage schools resilience"
+  },
+  {
+   "id": "dem:644",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:645",
+   "is_empirical": true,
+   "query": "school solar electricity cost savings"
+  },
+  {
+   "id": "dem:646",
+   "is_empirical": true,
+   "query": "solar storage energy cost savings"
+  },
+  {
+   "id": "dem:647",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:648",
+   "is_empirical": true,
+   "query": "neural data brain computer interface collection"
+  },
+  {
+   "id": "dem:649",
+   "is_empirical": true,
+   "query": "neurotechnology market size growth projection"
+  },
+  {
+   "id": "dem:650",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:651",
+   "is_empirical": true,
+   "query": "neurotechnology neural data privacy concerns"
+  },
+  {
+   "id": "dem:652",
+   "is_empirical": true,
+   "query": "neural data misuse privacy security"
+  },
+  {
+   "id": "dem:653",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:654",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:655",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:656",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:657",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:658",
+   "is_empirical": true,
+   "query": "direct air capture carbon dioxide removal storage"
+  },
+  {
+   "id": "dem:659",
+   "is_empirical": true,
+   "query": "direct air capture energy requirements emissions"
+  },
+  {
+   "id": "dem:660",
+   "is_empirical": true,
+   "query": "direct air capture climate mitigation role"
+  },
+  {
+   "id": "dem:661",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:662",
+   "is_empirical": true,
+   "query": "fusion energy power generation feasibility"
+  },
+  {
+   "id": "dem:663",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:664",
+   "is_empirical": true,
+   "query": "forest biomass utilization wildfire prevention emissions"
+  },
+  {
+   "id": "dem:665",
+   "is_empirical": true,
+   "query": "alternative marine fuels shipping emissions reduction"
+  },
+  {
+   "id": "dem:666",
+   "is_empirical": true,
+   "query": "metal recycling sustainability emissions energy"
+  },
+  {
+   "id": "dem:667",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:668",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:669",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:670",
+   "is_empirical": true,
+   "query": "carbon capture storage climate mitigation emissions"
+  },
+  {
+   "id": "dem:671",
+   "is_empirical": true,
+   "query": "data analytics water conservation management"
+  },
+  {
+   "id": "dem:672",
+   "is_empirical": true,
+   "query": "green economy jobs employment clean energy"
+  },
+  {
+   "id": "dem:673",
+   "is_empirical": true,
+   "query": "building water efficiency demand reduction standards"
+  },
+  {
+   "id": "dem:674",
+   "is_empirical": true,
+   "query": "guaranteed income youth education employment outcomes"
+  },
+  {
+   "id": "dem:675",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:676",
+   "is_empirical": true,
+   "query": "family finding child welfare kinship placement outcomes"
+  },
+  {
+   "id": "dem:677",
+   "is_empirical": true,
+   "query": "guaranteed income foster youth support outcomes"
+  },
+  {
+   "id": "dem:678",
+   "is_empirical": true,
+   "query": "guaranteed income transition age foster youth"
+  },
+  {
+   "id": "dem:679",
+   "is_empirical": true,
+   "query": "risk assessment tool recidivism life sentence prediction"
+  },
+  {
+   "id": "dem:680",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:681",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:682",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:683",
+   "is_empirical": true,
+   "query": "data center demand growth California"
+  },
+  {
+   "id": "dem:684",
+   "is_empirical": true,
+   "query": "data center power consumption megawatts energy"
+  },
+  {
+   "id": "dem:685",
+   "is_empirical": true,
+   "query": "risk assessment recidivism prediction life sentence accuracy"
+  },
+  {
+   "id": "dem:686",
+   "is_empirical": true,
+   "query": "zero emission new building construction feasibility"
+  },
+  {
+   "id": "dem:687",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:688",
+   "is_empirical": true,
+   "query": "buildings share carbon emissions construction sector"
+  },
+  {
+   "id": "dem:689",
+   "is_empirical": true,
+   "query": "building carbon neutrality feasibility retrofit"
+  },
+  {
+   "id": "dem:690",
+   "is_empirical": true,
+   "query": "zero emission building design construction feasibility"
+  },
+  {
+   "id": "dem:691",
+   "is_empirical": true,
+   "query": "building decarbonization feasibility programs"
+  },
+  {
+   "id": "dem:692",
+   "is_empirical": true,
+   "query": "municipal building stock decarbonization retrofit"
+  },
+  {
+   "id": "dem:693",
+   "is_empirical": true,
+   "query": "carbon farming building codes climate mitigation"
+  },
+  {
+   "id": "dem:694",
+   "is_empirical": true,
+   "query": "land use transportation greenhouse gas emissions reduction"
+  },
+  {
+   "id": "dem:695",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:696",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:697",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:698",
+   "is_empirical": true,
+   "query": "autonomous vehicle safety concerns risks"
+  },
+  {
+   "id": "dem:699",
+   "is_empirical": true,
+   "query": "autonomous vehicle driving behavior braking incidents"
+  },
+  {
+   "id": "dem:700",
+   "is_empirical": true,
+   "query": "autonomous vehicle traffic disruption stalling"
+  },
+  {
+   "id": "dem:701",
+   "is_empirical": true,
+   "query": "autonomous vehicles emergency first responders interaction"
+  },
+  {
+   "id": "dem:702",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:703",
+   "is_empirical": true,
+   "query": "artificial intelligence safety risks harm"
+  },
+  {
+   "id": "dem:704",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:705",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:706",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:707",
+   "is_empirical": true,
+   "query": "artificial intelligence K-12 education best practices"
+  },
+  {
+   "id": "dem:708",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:709",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:710",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:711",
+   "is_empirical": true,
+   "query": "algorithmic pricing firms adoption"
+  },
+  {
+   "id": "dem:712",
+   "is_empirical": true,
+   "query": "pricing software competitor data sharing collusion"
+  },
+  {
+   "id": "dem:713",
+   "is_empirical": true,
+   "query": "online price discrimination device browsing location"
+  },
+  {
+   "id": "dem:714",
+   "is_empirical": true,
+   "query": "mobile apps excessive data collection permissions"
+  },
+  {
+   "id": "dem:715",
+   "is_empirical": true,
+   "query": "mobile apps third party data collection tracking"
+  },
+  {
+   "id": "dem:716",
+   "is_empirical": true,
+   "query": "algorithmic collusion antitrust cases digital"
+  },
+  {
+   "id": "dem:717",
+   "is_empirical": true,
+   "query": "algorithmic pricing tacit collusion anticompetitive"
+  },
+  {
+   "id": "dem:718",
+   "is_empirical": true,
+   "query": "algorithmic collusion consumer prices"
+  },
+  {
+   "id": "dem:719",
+   "is_empirical": true,
+   "query": "algorithmic price fixing market manipulation consumer costs"
+  },
+  {
+   "id": "dem:720",
+   "is_empirical": true,
+   "query": "personalized pricing inferred income willingness to pay"
+  },
+  {
+   "id": "dem:721",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:722",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:723",
+   "is_empirical": true,
+   "query": "generative AI content misuse"
+  },
+  {
+   "id": "dem:724",
+   "is_empirical": true,
+   "query": "AI generated media political misinformation"
+  },
+  {
+   "id": "dem:725",
+   "is_empirical": true,
+   "query": "AI generated deepfakes media"
+  },
+  {
+   "id": "dem:726",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:727",
+   "is_empirical": true,
+   "query": "AI generated content prevalence online proliferation"
+  },
+  {
+   "id": "dem:728",
+   "is_empirical": true,
+   "query": "AI generated content detection consumer tools"
+  },
+  {
+   "id": "dem:729",
+   "is_empirical": true,
+   "query": "generative AI watermarking images video audio"
+  },
+  {
+   "id": "dem:730",
+   "is_empirical": true,
+   "query": "AI watermarking provenance content authentication"
+  },
+  {
+   "id": "dem:731",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:732",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:733",
+   "is_empirical": true,
+   "query": "AI automated decisions high-stakes healthcare employment finance"
+  },
+  {
+   "id": "dem:734",
+   "is_empirical": true,
+   "query": "AI systems data security breaches privacy risks"
+  },
+  {
+   "id": "dem:735",
+   "is_empirical": false
+  },
+  {
+   "id": "dem:736",
+   "is_empirical": true,
+   "query": "AI systems security vulnerabilities novel"
+  },
+  {
+   "id": "dem:737",
+   "is_empirical": true,
+   "query": "data poisoning attacks machine learning models"
+  },
+  {
+   "id": "dem:738",
+   "is_empirical": true,
+   "query": "model inversion attacks privacy machine learning"
+  },
+  {
+   "id": "dem:739",
+   "is_empirical": true,
+   "query": "AI black box opacity interpretability security"
+  },
+  {
+   "id": "dem:740",
+   "is_empirical": true,
+   "query": "AI security standards risks identity theft discrimination"
+  },
+  {
+   "id": "rep:0",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:1",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:2",
+   "is_empirical": true,
+   "query": "large language model capability scaling progress benchmark"
+  },
+  {
+   "id": "rep:3",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:4",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:5",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:6",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:7",
+   "is_empirical": true,
+   "query": "artificial intelligence malicious use harm weaponization"
+  },
+  {
+   "id": "rep:8",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:9",
+   "is_empirical": true,
+   "query": "deepfake technology accessibility proliferation"
+  },
+  {
+   "id": "rep:10",
+   "is_empirical": true,
+   "query": "deepfake realistic synthetic media detection difficulty"
+  },
+  {
+   "id": "rep:11",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:12",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:13",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:14",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:15",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:16",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:17",
+   "is_empirical": true,
+   "query": "foreign government data access national security personal information"
+  },
+  {
+   "id": "rep:18",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:19",
+   "is_empirical": true,
+   "query": "foreign data harvesting surveillance social media national security"
+  },
+  {
+   "id": "rep:20",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:21",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:22",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:23",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:24",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:25",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:26",
+   "is_empirical": true,
+   "query": "minimum wage automation employment fast food substitution"
+  },
+  {
+   "id": "rep:27",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:28",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:29",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:30",
+   "is_empirical": true,
+   "query": "nonconsensual intimate images prevalence increase online"
+  },
+  {
+   "id": "rep:31",
+   "is_empirical": true,
+   "query": "online content removal nonconsensual images persistence"
+  },
+  {
+   "id": "rep:32",
+   "is_empirical": true,
+   "query": "deepfake image abuse victims nonconsensual"
+  },
+  {
+   "id": "rep:33",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:34",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:35",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:36",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:37",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:38",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:39",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:40",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:41",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:42",
+   "is_empirical": false
+  },
+  {
+   "id": "rep:43",
+   "is_empirical": true,
+   "query": "AI generated child sexual abuse material threat"
+  },
+  {
+   "id": "ndem:0",
+   "is_empirical": true,
+   "query": "AI chatbots impersonate health professionals medical advice"
+  },
+  {
+   "id": "ndem:1",
+   "is_empirical": true,
+   "query": "AI chatbot anthropomorphism perception vulnerable users elderly children"
+  },
+  {
+   "id": "ndem:2",
+   "is_empirical": true,
+   "query": "generative AI healthcare clinical applications adoption"
+  },
+  {
+   "id": "ndem:3",
+   "is_empirical": true,
+   "query": "data center water consumption gallons daily cooling"
+  },
+  {
+   "id": "ndem:4",
+   "is_empirical": true,
+   "query": "data center water intensity commercial industry footprint"
+  },
+  {
+   "id": "ndem:5",
+   "is_empirical": true,
+   "query": "artificial intelligence data center growth demand"
+  },
+  {
+   "id": "ndem:6",
+   "is_empirical": true,
+   "query": "data center siting water scarcity stressed regions"
+  },
+  {
+   "id": "ndem:7",
+   "is_empirical": true,
+   "query": "pricing algorithms collusion coordination antitrust"
+  },
+  {
+   "id": "ndem:8",
+   "is_empirical": true,
+   "query": "algorithmic price fixing consumer prices rent groceries housing"
+  },
+  {
+   "id": "ndem:9",
+   "is_empirical": true,
+   "query": "algorithmic pricing collusion inflate prices essentials"
+  },
+  {
+   "id": "ndem:10",
+   "is_empirical": true,
+   "query": "algorithmic pricing labor market wage suppression monopsony"
+  },
+  {
+   "id": "ndem:11",
+   "is_empirical": true,
+   "query": "AI chatbots children self-harm suicide harm cases"
+  },
+  {
+   "id": "ndem:12",
+   "is_empirical": true,
+   "query": "artificial intelligence safety risks harm responsible development"
+  },
+  {
+   "id": "ndem:13",
+   "is_empirical": true,
+   "query": "AI data center water demand expansion growth"
+  },
+  {
+   "id": "ndem:14",
+   "is_empirical": true,
+   "query": "artificial intelligence rate progress acceleration capability"
+  },
+  {
+   "id": "ndem:15",
+   "is_empirical": true,
+   "query": "consumers AI chatbot health information seeking access care"
+  },
+  {
+   "id": "ndem:16",
+   "is_empirical": true,
+   "query": "AI health application medical records data privacy"
+  },
+  {
+   "id": "ndem:17",
+   "is_empirical": true,
+   "query": "healthcare cybersecurity threats data breaches AI"
+  },
+  {
+   "id": "ndem:18",
+   "is_empirical": true,
+   "query": "digital technology platforms education students prevalence use"
+  },
+  {
+   "id": "ndem:19",
+   "is_empirical": true,
+   "query": "generative AI classrooms student data privacy risks edtech"
+  },
+  {
+   "id": "ndem:20",
+   "is_empirical": true,
+   "query": "customer service automation chatbots adoption call centers"
+  },
+  {
+   "id": "ndem:21",
+   "is_empirical": true,
+   "query": "AI chatbots customer service failures complex problems satisfaction"
+  },
+  {
+   "id": "ndem:22",
+   "is_empirical": true,
+   "query": "surveillance pricing personal data willingness to pay discrimination"
+  },
+  {
+   "id": "ndem:23",
+   "is_empirical": true,
+   "query": "social media design addiction mental health harm adolescents"
+  },
+  {
+   "id": "ndem:24",
+   "is_empirical": true,
+   "query": "social media algorithms children harm recommendation engagement"
+  },
+  {
+   "id": "ndem:25",
+   "is_empirical": true,
+   "query": "children adolescents AI companion chatbot use prevalence time"
+  },
+  {
+   "id": "ndem:26",
+   "is_empirical": true,
+   "query": "AI companion chatbots harmful content minors self-harm sexual"
+  },
+  {
+   "id": "ndem:27",
+   "is_empirical": true,
+   "query": "AI companion apps teenagers popularity adoption growth"
+  },
+  {
+   "id": "ndem:28",
+   "is_empirical": true,
+   "query": "artificial intelligence healthcare integration regulation rapid"
+  },
+  {
+   "id": "ndem:29",
+   "is_empirical": true,
+   "query": "AI clinical decision judgment compared physicians limitations"
+  },
+  {
+   "id": "ndem:30",
+   "is_empirical": true,
+   "query": "consumer AI health assistant medical records HIPAA privacy"
+  },
+  {
+   "id": "ndem:31",
+   "is_empirical": true,
+   "query": "artificial intelligence job elimination displacement employment evidence"
+  },
+  {
+   "id": "ndem:32",
+   "is_empirical": true,
+   "query": "AI automation white collar entry level jobs displacement forecast"
+  },
+  {
+   "id": "ndem:33",
+   "is_empirical": true,
+   "query": "artificial intelligence occupational exposure industries automation"
+  },
+  {
+   "id": "ndem:34",
+   "is_empirical": true,
+   "query": "children chatbot prolonged interaction psychological harm risks"
+  },
+  {
+   "id": "ndem:35",
+   "is_empirical": true,
+   "query": "AI chatbots engagement dependency persuasive design"
+  },
+  {
+   "id": "ndem:36",
+   "is_empirical": true,
+   "query": "data center water resources ratepayer costs strain local"
+  },
+  {
+   "id": "ndem:37",
+   "is_empirical": true,
+   "query": "AI technology sector data center electricity demand growth"
+  },
+  {
+   "id": "ndem:38",
+   "is_empirical": true,
+   "query": "California peak electricity demand projection gigawatts data centers"
+  },
+  {
+   "id": "ndem:39",
+   "is_empirical": true,
+   "query": "data center energy cost shift residential ratepayers electricity"
+  },
+  {
+   "id": "ndem:40",
+   "is_empirical": true,
+   "query": "AI automated customer service adoption prevalence industries"
+  },
+  {
+   "id": "ndem:41",
+   "is_empirical": true,
+   "query": "artificial intelligence biosecurity bioweapon barriers dual use risk"
+  },
+  {
+   "id": "ndem:42",
+   "is_empirical": true,
+   "query": "gene synthesis screening biosecurity DNA pathogen safeguard"
+  },
+  {
+   "id": "ndem:43",
+   "is_empirical": true,
+   "query": "gene synthesis providers voluntary screening biosecurity practices"
+  }
+ ]
+}

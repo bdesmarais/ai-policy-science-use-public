@@ -20,3 +20,5 @@ venv/
 .idea/
 
 benchmarks/scifact.tar.gz
+outputs/refresh/text/
+*.output

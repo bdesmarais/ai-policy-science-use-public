@@ -21,6 +21,13 @@
 >   search)**, **abstains on 20/20 non-scientific claims** a keyword search blindly answers, and grounds
 >   **~90% of references in a DOI (vs 27–35% for the old GPT-5 path)** — reproducible and fabrication-free.
 >   See `scripts/core/claude_retrieval.py` and [`docs/06_retrieval.md`](docs/06_retrieval.md).
+> - **Refreshed through June 2026.** The corpus is kept current: both caucus archives (asmdc.org,
+>   asmrc.org) are re-scraped from their sitemaps for the last 12 months (`fetch_refresh_releases.py`),
+>   yielding 26 fresh Democratic AI releases (and ~0 Republican — a real asymmetry) → 44 fresh AI claims.
+>   Re-running the **fully-open** pipeline on them (model-guided queries → free index → validated judge,
+>   **no proprietary retrieval at all**) reproduces corroboration ≈ **0.57–0.68**, near the historical
+>   rate, on current claims. Retrieval is **index-agnostic** — OpenAlex *or* **Crossref** (the free DOI
+>   registry) as a drop-in fallback (`crossref_retrieval.py`), used here because OpenAlex rate-limited.
 > - **Still open:** claim extraction is unvalidated, and an **in-domain human audit** of the judge on
 >   application pairs is the decisive missing test (foreclosed by the no-human-coder design).
 >

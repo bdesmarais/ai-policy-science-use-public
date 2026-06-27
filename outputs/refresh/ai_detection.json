@@ -1,0 +1,251 @@
+{
+ "engagement": {
+  "dem": {
+   "total": 1054,
+   "ai": 26,
+   "ai_rate": 0.0247
+  },
+  "rep": {
+   "total": 49,
+   "ai": 0,
+   "ai_rate": 0.0
+  }
+ },
+ "n_ai_releases": 26,
+ "ai_releases": [
+  {
+   "party": "dem",
+   "date": "2025-09-09",
+   "slug": "20250909-assemblymember-mia-bonta-sends-bill-prevent-ai-misrepresentation-healthcare",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20250909-assemblymember-mia-bonta-sends-bill-prevent-ai-misrepresentation-healthcare.txt",
+   "hits": 32,
+   "strong": 11,
+   "chars": 5870
+  },
+  {
+   "party": "dem",
+   "date": "2025-09-11",
+   "slug": "20250911-papan-bill-track-data-center-water-use-wins-final-legislative-approval",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20250911-papan-bill-track-data-center-water-use-wins-final-legislative-approval.txt",
+   "hits": 10,
+   "strong": 2,
+   "chars": 2276
+  },
+  {
+   "party": "dem",
+   "date": "2025-09-13",
+   "slug": "20250913-california-legislature-passes-ab-325-crack-down-corporate-price-fixing",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20250913-california-legislature-passes-ab-325-crack-down-corporate-price-fixing.txt",
+   "hits": 5,
+   "strong": 5,
+   "chars": 2660
+  },
+  {
+   "party": "dem",
+   "date": "2025-10-06",
+   "slug": "20251006-majority-leader-aguiar-currys-ab-325-signed-governor-newsom-protecting",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20251006-majority-leader-aguiar-currys-ab-325-signed-governor-newsom-protecting.txt",
+   "hits": 7,
+   "strong": 7,
+   "chars": 3120
+  },
+  {
+   "party": "dem",
+   "date": "2025-10-13",
+   "slug": "20251013-governor-signs-bill-will-help-ensure-accountability-ai-harm",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20251013-governor-signs-bill-will-help-ensure-accountability-ai-harm.txt",
+   "hits": 7,
+   "strong": 3,
+   "chars": 1388
+  },
+  {
+   "party": "dem",
+   "date": "2025-10-14",
+   "slug": "20251014-governor-vetoes-papan-bill-track-data-center-water-use",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20251014-governor-vetoes-papan-bill-track-data-center-water-use.txt",
+   "hits": 12,
+   "strong": 1,
+   "chars": 2321
+  },
+  {
+   "party": "dem",
+   "date": "2025-11-20",
+   "slug": "20251120-assemblymember-mia-bonta-denounces-trumps-ai-moratorium",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20251120-assemblymember-mia-bonta-denounces-trumps-ai-moratorium.txt",
+   "hits": 9,
+   "strong": 3,
+   "chars": 2754
+  },
+  {
+   "party": "dem",
+   "date": "2026-01-07",
+   "slug": "20260107-asm-mia-bonta-reacts-openais-release-chatgpt-health",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260107-asm-mia-bonta-reacts-openais-release-chatgpt-health.txt",
+   "hits": 11,
+   "strong": 3,
+   "chars": 2309
+  },
+  {
+   "party": "dem",
+   "date": "2026-01-20",
+   "slug": "20260120-addis-bill-reaches-new-legislative-milestone-protect-student-data",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260120-addis-bill-reaches-new-legislative-milestone-protect-student-data.txt",
+   "hits": 3,
+   "strong": 1,
+   "chars": 2198
+  },
+  {
+   "party": "dem",
+   "date": "2026-01-20",
+   "slug": "20260120-assemblymember-rick-chavez-zbur-introduces-right-human-customer-service-0",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260120-assemblymember-rick-chavez-zbur-introduces-right-human-customer-service-0.txt",
+   "hits": 9,
+   "strong": 2,
+   "chars": 3867
+  },
+  {
+   "party": "dem",
+   "date": "2026-01-20",
+   "slug": "20260120-assemblymember-rick-chavez-zbur-introduces-right-human-customer-service-act",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260120-assemblymember-rick-chavez-zbur-introduces-right-human-customer-service-act.txt",
+   "hits": 9,
+   "strong": 2,
+   "chars": 3867
+  },
+  {
+   "party": "dem",
+   "date": "2026-03-18",
+   "slug": "20260318-legislative-progressive-caucus-unveils-priority-legislative-and-budget",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260318-legislative-progressive-caucus-unveils-priority-legislative-and-budget.txt",
+   "hits": 10,
+   "strong": 3,
+   "chars": 7703
+  },
+  {
+   "party": "dem",
+   "date": "2026-03-25",
+   "slug": "20260325-after-landmark-court-verdicts-assemblymember-lowenthal-calls-legislators",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260325-after-landmark-court-verdicts-assemblymember-lowenthal-calls-legislators.txt",
+   "hits": 2,
+   "strong": 2,
+   "chars": 1990
+  },
+  {
+   "party": "dem",
+   "date": "2026-03-26",
+   "slug": "20260326-assemblymembers-bauer-kahan-and-wicks-and-senator-padilla-introduce",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260326-assemblymembers-bauer-kahan-and-wicks-and-senator-padilla-introduce.txt",
+   "hits": 24,
+   "strong": 11,
+   "chars": 4741
+  },
+  {
+   "party": "dem",
+   "date": "2026-04-01",
+   "slug": "20260401-tech-giants-roll-out-consumer-facing-health-ai-assemblymember-mia-bonta",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260401-tech-giants-roll-out-consumer-facing-health-ai-assemblymember-mia-bonta.txt",
+   "hits": 22,
+   "strong": 2,
+   "chars": 4501
+  },
+  {
+   "party": "dem",
+   "date": "2026-04-08",
+   "slug": "20260408-assemblywoman-pilar-schiavo-unveils-legislation-prepare-california-support",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260408-assemblywoman-pilar-schiavo-unveils-legislation-prepare-california-support.txt",
+   "hits": 9,
+   "strong": 1,
+   "chars": 4110
+  },
+  {
+   "party": "dem",
+   "date": "2026-04-22",
+   "slug": "20260422-nations-strongest-chatbot-protections-children-advance-california",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260422-nations-strongest-chatbot-protections-children-advance-california.txt",
+   "hits": 12,
+   "strong": 10,
+   "chars": 4121
+  },
+  {
+   "party": "dem",
+   "date": "2026-04-30",
+   "slug": "20260430-assemblywoman-schiavo-moves-2026-legislative-affordability-and-safety",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260430-assemblywoman-schiavo-moves-2026-legislative-affordability-and-safety.txt",
+   "hits": 2,
+   "strong": 1,
+   "chars": 5349
+  },
+  {
+   "party": "dem",
+   "date": "2026-05-11",
+   "slug": "20260511-papans-data-center-water-use-transparency-and-accountability-bills-approved",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260511-papans-data-center-water-use-transparency-and-accountability-bills-approved.txt",
+   "hits": 8,
+   "strong": 1,
+   "chars": 2362
+  },
+  {
+   "party": "dem",
+   "date": "2026-05-14",
+   "slug": "20260514-assemblywoman-schiavos-legislative-package-advances-assembly-floor",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260514-assemblywoman-schiavos-legislative-package-advances-assembly-floor.txt",
+   "hits": 2,
+   "strong": 1,
+   "chars": 5113
+  },
+  {
+   "party": "dem",
+   "date": "2026-05-28",
+   "slug": "20260528-assemblymember-mia-bontas-2026-legislative-package-advances",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260528-assemblymember-mia-bontas-2026-legislative-package-advances.txt",
+   "hits": 4,
+   "strong": 2,
+   "chars": 6341
+  },
+  {
+   "party": "dem",
+   "date": "2026-05-28",
+   "slug": "20260528-zbur-bill-protecting-ratepayers-data-center-energy-costs-passes-assembly",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260528-zbur-bill-protecting-ratepayers-data-center-energy-costs-passes-assembly.txt",
+   "hits": 9,
+   "strong": 2,
+   "chars": 3924
+  },
+  {
+   "party": "dem",
+   "date": "2026-05-29",
+   "slug": "20260529-zbur-bill-guaranteeing-access-human-customer-service-passes-assembly",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260529-zbur-bill-guaranteeing-access-human-customer-service-passes-assembly.txt",
+   "hits": 10,
+   "strong": 3,
+   "chars": 3812
+  },
+  {
+   "party": "dem",
+   "date": "2026-06-04",
+   "slug": "20260604-100-ways-assembly-democrats-are-improving-affordability-and-everyday",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260604-100-ways-assembly-democrats-are-improving-affordability-and-everyday.txt",
+   "hits": 15,
+   "strong": 6,
+   "chars": 25412
+  },
+  {
+   "party": "dem",
+   "date": "2026-06-04",
+   "slug": "20260604-top-ai-ceos-call-congress-protect-against-bioweapons-california-leads-way",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260604-top-ai-ceos-call-congress-protect-against-bioweapons-california-leads-way.txt",
+   "hits": 8,
+   "strong": 1,
+   "chars": 2562
+  },
+  {
+   "party": "dem",
+   "date": "2026-06-05",
+   "slug": "20260605-100-ways-assembly-democrats-are-improving-affordability-and-everyday",
+   "file": "/Users/bbd5087/Documents/GitHub/ai-policy-science-use/outputs/refresh/text/dem/20260605-100-ways-assembly-democrats-are-improving-affordability-and-everyday.txt",
+   "hits": 15,
+   "strong": 6,
+   "chars": 25412
+  }
+ ]
+}

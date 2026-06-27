@@ -1,0 +1,16 @@
+{
+  "n": 44,
+  "support": 25,
+  "silent": 19,
+  "refute": 0,
+  "retrieval_miss": 7,
+  "corroboration_raw": 0.568,
+  "corroboration_excl_miss": 0.676,
+  "wilson_raw": [
+    0.422,
+    0.703
+  ],
+  "backend": "crossref",
+  "window": "2025-06 to 2026-06",
+  "party": "dem"
+}

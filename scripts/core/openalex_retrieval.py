@@ -43,23 +43,25 @@ def _keywords(claim, n=8):
     return " ".join(out[:n]) or claim[:80]
 
 
-def _get(url, tries=6):
+def _get(url, tries=4):
+    # Hard-bounded: worst case ~4*(12s timeout + 8s backoff) ~= 80s, so a single bad
+    # URL can never stall a long batch run for minutes (the earlier hang cause).
     for t in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": f"ai-policy-science-use ({MAILTO})"})
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=12) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
-            if e.code == 429 and t < tries - 1:        # rate limited: exponential backoff
-                time.sleep(min(60, 5 * (2 ** t)))
+            if e.code == 429 and t < tries - 1:        # rate limited: bounded backoff
+                time.sleep(min(8, 2 * (t + 1)))
                 continue
             if t == tries - 1:
-                raise
-            time.sleep(3 * (t + 1))
+                return None
+            time.sleep(2 * (t + 1))
         except Exception:
             if t == tries - 1:
-                raise
-            time.sleep(3 * (t + 1))
+                return None
+            time.sleep(2 * (t + 1))
 
 
 def retrieve(claim, k=5, from_year=1990):

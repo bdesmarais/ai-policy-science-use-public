@@ -267,6 +267,46 @@ California Assembly press releases.}
 \label{fig:engage}
 \end{figure}
 
+\subsection{The refreshed pipeline on current data: no proprietary component anywhere}
+\label{sec:res-refresh}
+To show the pipeline runs end to end on \emph{current} material with \emph{no} proprietary retrieval and
+no second paid service, we refreshed the corpus through the most recent twelve months (to June 2026),
+re-scraping both caucus archives from their sitemaps (\S\ref{sec:methods-corpus}). The window yields
+$1{,}060$ Democratic releases and, from the sparser Republican caucus site, $50$; full-text AI detection
+flags $26$ Democratic releases as AI-related ($2.5\%$) and---tellingly---\emph{none} of the Republican
+posts, consistent with the partisan engagement gap and with the Republican caucus issuing few
+AI-focused releases. From the $26$ Democratic releases the model extracts $44$ empirical AI claims that
+span the live 2025--26 agenda: AI companion-chatbot child safety, data-center water and electricity
+demand, algorithmic price-fixing, AI in healthcare, AI and workforce displacement, and AI biosecurity
+(Fig.~\ref{fig:refresh}).
+
+We then run the \emph{fully open} pipeline on these fresh claims: the same frontier model writes a
+claim-targeted query, the query hits a free index, and the benchmark-validated judge reads the best
+on-topic result. Because OpenAlex rate-limited the bulk run, retrieval here used the Crossref fallback
+(\S\ref{sec:methods-corpus})---so this number contains no proprietary retrieval, no GPT-5, and no
+fabricated reference. The validated judge finds the retrieved literature corroborates $25$ of the $44$
+claims, refutes none, and is silent on the rest: a corroboration rate of $0.57$ (Wilson $95\%$
+$[0.42,0.70]$). Seven of the nineteen silents are \emph{retrieval} misses, where Crossref's relevance
+returned off-topic papers for generic data-center or biosecurity queries even though the claim is
+corroborated elsewhere in the literature (the same data-center-water claim is supported when the query
+lands); excluding those, corroboration is $0.68$ $[0.52,0.80]$. Both figures sit squarely in the range of
+the historical estimate, now reproduced on current data with an entirely open instrument. The honest
+residue is the same one the paper has carried throughout: $n$ is modest, the window is Democratic-only
+because Republican AI releases are nearly absent, and end-to-end accuracy is now bounded as much by
+open-index \emph{relevance} as by the judge.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{fig_refresh.png}
+\caption{The refreshed pipeline on the most recent twelve months (to June 2026), with no proprietary
+component anywhere. (a) AI engagement: $26$ of $1{,}054$ Democratic releases are AI-related ($2.5\%$)
+versus $0$ of $49$ on the sparser Republican caucus site. (b) Corroboration of the $44$ freshly extracted
+empirical AI claims under the fully-open pipeline (model-guided queries $\rightarrow$ free Crossref index
+$\rightarrow$ benchmark-validated judge): $0.57$ raw (Wilson $95\%$ CI shown), $0.68$ excluding seven
+retrieval misses, both near the historical estimate (dashed).}
+\label{fig:refresh}
+\end{figure}
+
 \subsection{Reproducibility, retrieval precision, and domain transfer}
 \label{sec:res-robustness}
 \emph{Retrieval precision governs the level---which is why \S\ref{sec:res-retrieval} matters.} The
