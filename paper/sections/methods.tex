@@ -13,19 +13,39 @@ extract up to ten empirical claims---propositions ``for which, if you were writi
 you would need a reference''---as structured records (document id, claim number, claim text), isolating
 verifiable propositions from rhetorical or procedural text \citep{grimmer2013representational}.
 
-\paragraph{Evidence retrieval (two configurations).} We use and contrast two retrieval configurations
-and state plainly which produced which numbers. \emph{(i) Generative retrieval}: a proprietary
-web-connected model (GPT-5 with web search), inherited from the project's earlier pipeline, returns
-claim-targeted candidate references. This is not reproducible and depends on a paid service, but its
-targeting is what yields the headline corroboration rates of \S\ref{sec:res-application}; the references
-it returned are committed as static data. \emph{(ii) Reproducible retrieval}: a query to \emph{OpenAlex}
-\citep{priem2022openalex}, a free open index of over 250 million works, restricted to research articles
-with abstracts, returning title, abstract, DOI, year, venue, and open-access status. OpenAlex is exactly
-reproducible and every reference it returns is a real, dereferenceable record---eliminating the
-citation-fabrication failure mode of asking a model to ``name references''---but its keyword relevance
-search returns broader, less claim-targeted papers than the generative step (\S\ref{sec:res-robustness}).
-We report results under both and treat the dependence of the support \emph{level} on retrieval precision
-as a central limitation, not a footnote.
+\paragraph{Evidence retrieval (three configurations).} All three retrieve from \emph{OpenAlex}
+\citep{priem2022openalex} or a proprietary service, and we state plainly which produced which numbers.
+Our primary method is \emph{(i) model-guided OpenAlex retrieval} (\S\ref{sec:res-retrieval}): the same
+frontier model that judges stance reads each claim and either emits a concise, claim-targeted query for
+the OpenAlex relevance search or \emph{abstains} when the claim is legal, procedural, political, or a
+value statement with no scientific literature to retrieve. OpenAlex is a free open index of over 250
+million works; we restrict to research articles with abstracts and return title, abstract, DOI, year,
+venue, and open-access status. This configuration is reproducible (the model's queries and abstention
+decisions are committed as static data, \texttt{claude\_retrieval.py}), every returned reference is a
+real, dereferenceable record---eliminating the citation-fabrication failure mode of asking a model to
+``name references''---and the model's targeting recovers claim-relevant evidence at high yield
+(\S\ref{sec:res-retrieval}). We contrast it with two baselines. \emph{(ii) Naive keyword OpenAlex}: the
+same index queried with stopword-stripped claim keywords; exactly reproducible but untargeted---it cannot
+abstain and returns broad, topically-adjacent papers. \emph{(iii) Generative retrieval}: a proprietary
+web-connected model (GPT-5 with web search), inherited from the project's earlier pipeline, whose
+references produced the original headline rates; it is not reproducible, depends on a \emph{second} paid
+service, and---as \S\ref{sec:res-retrieval} shows---grounds only $27$--$35\%$ of its references in a DOI.
+Configuration (i) supersedes (iii): it matches the targeting without the paid dependency and with a fully
+verifiable evidence base.
+
+\paragraph{Retrieval evaluation.} We evaluate retrieval on a balanced 50-claim sample of the headline
+(generative-reference) claim set---25 Democratic and 25 Republican claims, of which the model judged 30
+to have a scientific empirical core and 20 not. For each arm we retrieve the top eight OpenAlex hits and
+measure three things. \emph{Relevance yield}: the fraction of empirical claims whose top three references
+contain at least one the validated judge accepts as genuinely about the claim---the same judge used for
+stance, since (as in the application) the cheap NLI surrogate underdetects relevance on policy text, so we
+anchor on the judge and report the NLI direction as a cross-check. \emph{Abstention}: on the 20
+non-empirical claims, whether each arm returns references it should not. \emph{Verifiability}: the share
+of returned references carrying a DOI. We additionally record the validated judge's stance on the best
+on-topic model-retrieved reference, an end-to-end corroboration read from the fully reproducible pipeline;
+because the sample is small and stance is read from abstracts, we present it as a demonstration, not a
+population estimate. All relevance and stance labels are committed
+(\texttt{data/retrieval\_relevance\_labels.json}).
 
 \paragraph{Support assessment.} Each (claim, reference) pair is assigned a stance---\textsc{support},
 \textsc{refute}, or \textsc{silent} (irrelevant or insufficient information)---by the validated judges

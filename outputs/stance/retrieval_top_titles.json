@@ -1,0 +1,979 @@
+[
+  {
+    "party": "dem",
+    "claim": "Platooning could lead to 4.5% fuel savings for the lead truck and 10% fuel savings for the following truck.",
+    "query": "truck platooning fuel savings aerodynamic drag",
+    "naive_top": [
+      {
+        "t": "Influences on Energy Savings of Heavy Trucks Using Cooperative Adaptive Cruise Control",
+        "y": 2018
+      },
+      {
+        "t": "Fuel Economy in Truck Platooning: A Literature Overview and Directions for Future Research",
+        "y": 2020
+      },
+      {
+        "t": "OVERVIEW OF PLATOONING SYSTEMS",
+        "y": 2012
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Fuel Economy in Truck Platooning: A Literature Overview and Directions for Future Research",
+        "y": 2020
+      },
+      {
+        "t": "Investigation of Aerodynamic Influence on Truck Platooning",
+        "y": 2015
+      },
+      {
+        "t": "Impact of Mixed Traffic on the Energy Savings of a Truck Platoon",
+        "y": 2020
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Californians are at unprecedented risk of wildfire disaster due to the current state of the forests.",
+    "query": "forest management wildfire risk fuel accumulation western United States",
+    "naive_top": [
+      {
+        "t": "Adapt to more wildfire in western North American forests as climate changes",
+        "y": 2017
+      },
+      {
+        "t": "Assessing the role of compound drought and heatwave events on unprecedented 2020 wildfires in the Pantanal",
+        "y": 2021
+      },
+      {
+        "t": "Twenty-first century California, USA, wildfires: fuel-dominated vs. wind-dominated fires",
+        "y": 2019
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Climate-induced variations in global wildfire danger from 1979 to 2013",
+        "y": 2015
+      },
+      {
+        "t": "The Interaction of Fire, Fuels, and Climate across Rocky Mountain Forests",
+        "y": 2004
+      },
+      {
+        "t": "Observed Impacts of Anthropogenic Climate Change on Wildfire in California",
+        "y": 2019
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "AB 324 aims to ensure that stipend amounts are sufficient to recruit and retain a high-quality, diverse childcare education workforce.",
+    "query": "childcare early educator wages compensation turnover retention",
+    "naive_top": [
+      {
+        "t": "Strategies for attracting and retaining educators: What does the evidence say?",
+        "y": 2019
+      },
+      {
+        "t": "What works in attracting and retaining teachers in challenging schools and areas?",
+        "y": 2020
+      },
+      {
+        "t": "Worthy Work, STILL Unlivable Wages: The Early Childhood Workforce 25 Years after the National Child Care Staffing Study",
+        "y": 2014
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Strategies for attracting and retaining educators: What does the evidence say?",
+        "y": 2019
+      },
+      {
+        "t": "\u201cI love my work but...\u201d The Professionalization of Early Childhood Education",
+        "y": 2015
+      },
+      {
+        "t": "From Unlivable Wages to Just Pay for Early Educators",
+        "y": 2019
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Reducing state-associated costs with nursing home care is a potential outcome of AB 1128.",
+    "query": "home and community based services nursing home cost savings Medicaid",
+    "naive_top": [
+      {
+        "t": "Outcomes for Implementation Research: Conceptual Distinctions, Measurement Challenges, and Research Agenda",
+        "y": 2010
+      },
+      {
+        "t": "Economic Costs of Diabetes in the U.S. in 2017",
+        "y": 2018
+      },
+      {
+        "t": "Standards of Medical Care in Diabetes\u20142013",
+        "y": 2012
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Infectious Diseases Society of America/American Thoracic Society Consensus Guidelines on the Management of Community-Acquired Pneumonia in A",
+        "y": 2007
+      },
+      {
+        "t": "Aging in Place Versus Nursing Home Care: Comparison of Costs to Medicare and Medicaid",
+        "y": 2011
+      },
+      {
+        "t": "Potentially Avoidable Hospitalizations of Nursing Home Residents: Frequency, Causes, and Costs",
+        "y": 2010
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Tropical forests cover roughly seven percent of the Earth's surface but harbor close to half of all species on Earth.",
+    "query": "tropical forest biodiversity share global species richness",
+    "naive_top": [
+      {
+        "t": "Patterns of water and heat flux across a biome gradient from tropical forest to savanna in Brazil",
+        "y": 2009
+      },
+      {
+        "t": "Pedotransfer Functions in Earth System Science: Challenges and Perspectives",
+        "y": 2017
+      },
+      {
+        "t": "Desertification, Drought, and Surface Vegetation: An Example from the West African Sahel",
+        "y": 1998
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Positive biodiversity-productivity relationship predominant in global forests",
+        "y": 2016
+      },
+      {
+        "t": "Scale and species richness: towards a general, hierarchical theory of species diversity",
+        "y": 2001
+      },
+      {
+        "t": "Global diversity and geography of soil fungi",
+        "y": 2014
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Students' needs for food, housing, and mental health care are crucial for their success in higher education.",
+    "query": "college student basic needs insecurity food housing academic success",
+    "naive_top": [
+      {
+        "t": "The social determinants of mental health and disorder: evidence, prevention and recommendations",
+        "y": 2024
+      },
+      {
+        "t": "The Brazilian health system: history, advances, and challenges",
+        "y": 2011
+      },
+      {
+        "t": "Eliminating Explicit and Implicit Biases in Health Care: Evidence and Research Needs",
+        "y": 2022
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Understanding the Cumulative Burden of Basic Needs Insecurities: Associations With Health and Academic Achievement Among College Students",
+        "y": 2020
+      },
+      {
+        "t": "Prevalence and correlates of food insecurity among U.S. college students: a multi-institutional study",
+        "y": 2019
+      },
+      {
+        "t": "Food insecurity, psychosocial health and academic performance among college and university students in Georgia, USA",
+        "y": 2019
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Electric bikes can accomplish almost all of the trips that electric cars can, including taking children to school and hauling heavy loads.",
+    "query": "electric bicycle car trip replacement mode substitution travel behavior",
+    "naive_top": [
+      {
+        "t": "Experts, theories, and electric mobility transitions: Toward an integrated conceptual framework for the adoption of electric vehicles",
+        "y": 2017
+      },
+      {
+        "t": "RETRACTED: Factors Affecting Electric Bike Adoption: Seeking an Energy-Efficient Solution for the Post-COVID Era",
+        "y": 2022
+      },
+      {
+        "t": "Urban Bike Lane Planning with Bike Trajectories: Models, Algorithms, and a Real-World Case Study",
+        "y": 2021
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "E-bike user groups and substitution effects: evidence from longitudinal travel data in the Netherlands",
+        "y": 2021
+      },
+      {
+        "t": "Benign mobility? Electric bicycles, sustainable transport consumption behaviour and socio-technical transitions in Nanjing, China",
+        "y": 2017
+      },
+      {
+        "t": "\u201cI\u2019ll Take the E-Scooter Instead of My Car\u201d\u2014The Potential of E-Scooters as a Substitute for Car Trips in Germany",
+        "y": 2021
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Eighty percent of vehicle trips in California are less than ten miles.",
+    "query": "vehicle trip length distribution short trips travel survey",
+    "naive_top": [
+      {
+        "t": "Automated Vehicles Are Probably Legal in the United States",
+        "y": 2014
+      },
+      {
+        "t": "California Policy Options 2019",
+        "y": 2021
+      },
+      {
+        "t": "The Google Car: Driving Toward A Better Future?",
+        "y": 2013
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",
+        "y": 2015
+      },
+      {
+        "t": "Unmanned Aerial Vehicles (UAVs): A Survey on Civil Applications and Key Research Challenges",
+        "y": 2019
+      },
+      {
+        "t": "Help or hindrance? The travel, energy and carbon impacts of highly automated vehicles",
+        "y": 2016
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Law enforcement agencies in California routinely fail to adequately identify, report, or respond to hate crimes.",
+    "query": "hate crime underreporting law enforcement police reporting",
+    "naive_top": [
+      {
+        "t": "Identities, Discipline and Routines",
+        "y": 2011
+      },
+      {
+        "t": "Initial sequencing and analysis of the human genome",
+        "y": 2001
+      },
+      {
+        "t": "The Possibilities of Comparative Constitutional Law",
+        "y": 1999
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "CONTRIBUTE TO RAISING AWARENESS IN A COMMUNITY",
+        "y": 2022
+      },
+      {
+        "t": "Racial and Ethnic Disparities in Crime and Criminal Justice in the United States",
+        "y": 1997
+      },
+      {
+        "t": "The Social Construction of a Hate Crime Epidemic",
+        "y": 1996
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Firearm-related deaths are now the leading cause of death for children ages 1 to 19.",
+    "query": "firearm leading cause death children adolescents United States",
+    "naive_top": [
+      {
+        "t": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980\u20132017: a systematic ",
+        "y": 2018
+      },
+      {
+        "t": "Forecasting life expectancy, years of life lost, and all-cause and cause-specific mortality for 250 causes of death: reference and alternati",
+        "y": 2018
+      },
+      {
+        "t": "Increases in Drug and Opioid Overdose Deaths \u2014 United States, 2000\u20132014",
+        "y": 2015
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "The Major Causes of Death in Children and Adolescents in the United States",
+        "y": 2018
+      },
+      {
+        "t": "Increases in Drug and Opioid Overdose Deaths \u2014 United States, 2000\u20132014",
+        "y": 2015
+      },
+      {
+        "t": "Trends and Disparities in Firearm Deaths Among Children",
+        "y": 2023
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Opioid blockers bind to the same receptors in the brain used by opioids and reverse or block the effects of the drug.",
+    "query": "opioid antagonist naloxone receptor binding reversal mechanism",
+    "naive_top": [
+      {
+        "t": "Dimerization of the \u03b4 Opioid Receptor:",
+        "y": 1997
+      },
+      {
+        "t": "Mu, delta, and kappa opioid receptor mRNA expression in the rat CNS: An in situ hybridization study",
+        "y": 1994
+      },
+      {
+        "t": "The Dysphoric Component of Stress Is Encoded by Activation of the Dynorphin \u03ba-Opioid System",
+        "y": 2008
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Naloxone Reversal of Buprenorphine-induced Respiratory Depression",
+        "y": 2006
+      },
+      {
+        "t": "Inhibition of Neuropathic Pain by Selective Ablation of Brainstem Medullary Cells Expressing the \u03bc-Opioid Receptor",
+        "y": 2001
+      },
+      {
+        "t": "Regulation of Opioid Tolerance by let-7 Family MicroRNA Targeting the \u03bc Opioid Receptor",
+        "y": 2010
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "The essential need is adequate affordable housing dedicated to transition-aged foster youth.",
+    "query": "transition age foster youth housing homelessness outcomes",
+    "naive_top": [
+      {
+        "t": "2023 Alzheimer's disease facts and figures",
+        "y": 2023
+      },
+      {
+        "t": "Profiling Australia's affordable housing industry",
+        "y": 2016
+      },
+      {
+        "t": "Neoliberal energy transitions in the South: Kenyan experiences",
+        "y": 2016
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Midwest Evaluation of the Adult Functioning of Former Foster Youth: outcomes at age 19",
+        "y": 2005
+      },
+      {
+        "t": "Effects of individual risk and state housing factors on adverse outcomes in a national sample of youth transitioning out of foster care",
+        "y": 2019
+      },
+      {
+        "t": "LGBTQ Youth in Unstable Housing and Foster Care",
+        "y": 2019
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "A two-year rent subsidy program funded at $500 million could prevent homelessness for more than 10,000 people.",
+    "query": "rental assistance subsidy homelessness prevention effectiveness",
+    "naive_top": [
+      {
+        "t": "What Interventions Work Best for Families Who Experience Homelessness? Impact Estimates from the Family Options Study",
+        "y": 2018
+      },
+      {
+        "t": "The State of Homelessness in Canada 2013",
+        "y": 2013
+      },
+      {
+        "t": "Clinical guideline for homeless and vulnerably housed people, and people with lived homelessness experience",
+        "y": 2020
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Rearranging the Deck Chairs or Reallocating the Lifeboats? Homelessness Assistance and Its Alternatives",
+        "y": 2008
+      },
+      {
+        "t": "The State of Homelessness in Canada 2013",
+        "y": 2013
+      },
+      {
+        "t": "The Cost of Homelessness: A Perspective from the United States",
+        "y": 2008
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Youth in California have been particularly impacted by the mental health crisis following COVID-19.",
+    "query": "youth adolescent mental health COVID-19 pandemic impact",
+    "naive_top": [
+      {
+        "t": "Mental illness and well-being: the central importance of positive psychology and recovery approaches",
+        "y": 2010
+      },
+      {
+        "t": "Family Ruptures, Stress, and the Mental Health of the Next Generation",
+        "y": 2018
+      },
+      {
+        "t": "Outcomes for Implementation Research: Conceptual Distinctions, Measurement Challenges, and Research Agenda",
+        "y": 2010
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Impact of the COVID-19 pandemic on quality of life and mental health in children and adolescents in Germany",
+        "y": 2021
+      },
+      {
+        "t": "Learning loss due to school closures during the COVID-19 pandemic",
+        "y": 2021
+      },
+      {
+        "t": "Increases in depression and anxiety symptoms in adolescents and young adults during the COVID-19 pandemic",
+        "y": 2021
+      }
+    ]
+  },
+  {
+    "party": "dem",
+    "claim": "Sea level is expected to climb another 1 to 3.4 feet by 2100.",
+    "query": "sea level rise projection 2100 California coast",
+    "naive_top": [
+      {
+        "t": "Evaluation of the different forces brought into play during tube foot activities in sea stars",
+        "y": 2010
+      },
+      {
+        "t": "Climb-o-Vision: A Computer Vision Driven Sensory Substitution Device for Rock Climbing",
+        "y": 2022
+      },
+      {
+        "t": "Soft Robotics: Biological Inspiration, State of the Art, and Future Research",
+        "y": 2008
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Future response of global coastal wetlands to sea-level rise",
+        "y": 2018
+      },
+      {
+        "t": "Doubling of coastal flooding frequency within decades due to sea-level rise",
+        "y": 2017
+      },
+      {
+        "t": "Changes in Sea Level",
+        "y": 2001
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "AB 1871 is a critical step in ensuring that future generations have a well-rounded knowledge of personal finance.",
+    "query": "financial literacy education high school curriculum outcomes",
+    "naive_top": [
+      {
+        "t": "Micro-combs: A novel generation of optical sources",
+        "y": 2017
+      },
+      {
+        "t": "The Future of the Internet--And How to Stop It",
+        "y": 2008
+      },
+      {
+        "t": "Qualitative Interview Design: A Practical Guide for Novice Investigators",
+        "y": 2014
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Financial Literacy, Retirement Planning and Household Wealth",
+        "y": 2012
+      },
+      {
+        "t": "Against Financial Literacy Education",
+        "y": 2008
+      },
+      {
+        "t": "Keeping It Simple: Financial Literacy and Rules of Thumb",
+        "y": 2014
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Not everyone has the opportunity to learn important financial skills.",
+    "query": "financial literacy disparities socioeconomic access",
+    "naive_top": [
+      {
+        "t": "Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and po",
+        "y": 2019
+      },
+      {
+        "t": "Opinion Paper: \u201cSo what if ChatGPT wrote it?\u201d Multidisciplinary perspectives on opportunities, challenges and implications of generative con",
+        "y": 2023
+      },
+      {
+        "t": "The Role of the State in Financial Markets",
+        "y": 1993
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Socioeconomic Disparities in Health Behaviors",
+        "y": 2010
+      },
+      {
+        "t": "Limited Literacy in Older People and Disparities in Health and Healthcare Access",
+        "y": 2006
+      },
+      {
+        "t": "Against Financial Literacy Education",
+        "y": 2008
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Teaching personal finance should be an educational priority for all California students.",
+    "query": "financial education mandate effect student financial behavior",
+    "naive_top": [
+      {
+        "t": "Student engagement and achievement in American secondary schools",
+        "y": 1993
+      },
+      {
+        "t": "Student Evaluations of Teaching: An Exploratory Study of the Faculty Response",
+        "y": 2000
+      },
+      {
+        "t": "English Learners in California Schools: Unequal resources, 'Unequal outcomes",
+        "y": 2003
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Financial literacy, financial advice, and financial behavior",
+        "y": 2017
+      },
+      {
+        "t": "Against Financial Literacy Education",
+        "y": 2008
+      },
+      {
+        "t": "Financial Incentives and Student Achievement: Evidence from Randomized Trials *",
+        "y": 2011
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Nevaeh Johnson's family believes that if an AED was accessible at the time of her incident, she would still be alive today.",
+    "query": "automated external defibrillator public access survival sudden cardiac arrest",
+    "naive_top": [],
+    "claude_top": [
+      {
+        "t": "Public-Access Defibrillation and Survival after Out-of-Hospital Cardiac Arrest",
+        "y": 2004
+      },
+      {
+        "t": "Public Use of Automated External Defibrillators",
+        "y": 2002
+      },
+      {
+        "t": "Home Use of Automated External Defibrillators for Sudden Cardiac Arrest",
+        "y": 2008
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "The rapid pace at which advanced AI systems like GPT-4 are developing is alarming and unprecedented.",
+    "query": "large language model capability scaling progress benchmark",
+    "naive_top": [
+      {
+        "t": "Shaping the Future of Education: Exploring the Potential and Consequences of AI and ChatGPT in Educational Settings",
+        "y": 2023
+      },
+      {
+        "t": "From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy",
+        "y": 2023
+      },
+      {
+        "t": "ChatGPT and the rise of large language models: the new AI-driven infodemic threat in public health",
+        "y": 2023
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "A survey on large language model based autonomous agents",
+        "y": 2024
+      },
+      {
+        "t": "Benchmarking Large Language Models for News Summarization",
+        "y": 2024
+      },
+      {
+        "t": "RCV1: A New Benchmark Collection for Text Categorization Research",
+        "y": 2004
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Governor Newsom's decision to force state employees back to the office is harmful and counterproductive.",
+    "query": "remote work telework productivity employee outcomes",
+    "naive_top": [
+      {
+        "t": "Overcoming Public and Political Challenges for Natural Hazard Risk Investment Decisions",
+        "y": 2012
+      },
+      {
+        "t": "Digital Identities and Verifiable Credentials",
+        "y": 2021
+      },
+      {
+        "t": "\u201cOne of the Weakest Budget Players in the State\u201d: State Funding of Higher Education at the Onset of the COVID-19 Pandemic",
+        "y": 2023
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Achieving Effective Remote Working During the COVID\u201019 Pandemic: A Work Design Perspective",
+        "y": 2020
+      },
+      {
+        "t": "Telework and health effects review",
+        "y": 2017
+      },
+      {
+        "t": "Systematically reviewing remote e-workers\u2019 well-being at work: a multidimensional approach",
+        "y": 2018
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Fentanyl is 50 times more potent than heroin.",
+    "query": "fentanyl potency relative heroin opioid analgesic",
+    "naive_top": [
+      {
+        "t": "Deaths Involving Fentanyl, Fentanyl Analogs, and U-47700 \u2014 10 States, July\u2013December 2016",
+        "y": 2017
+      },
+      {
+        "t": "Fentanyl Law Enforcement Submissions and Increases in Synthetic Opioid\u2013Involved Overdose Deaths \u2014 27 States, 2013\u20132014",
+        "y": 2016
+      },
+      {
+        "t": "Single-nucleotide polymorphism in the human mu opioid receptor gene alters \u03b2-endorphin binding and activity: Possible implications for opiat",
+        "y": 1998
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Increasing deaths from opioid analgesics in the United States",
+        "y": 2006
+      },
+      {
+        "t": "Acute Opioid Tolerance",
+        "y": 2000
+      },
+      {
+        "t": "Fentanyl depression of respiration: Comparison with heroin and morphine",
+        "y": 2019
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Fentanyl is 100 times stronger than morphine.",
+    "query": "fentanyl potency morphine analgesic equivalence",
+    "naive_top": [
+      {
+        "t": "Morphine and alternative opioids in cancer pain: the EAPC recommendations",
+        "y": 2001
+      },
+      {
+        "t": "Fentanyl Law Enforcement Submissions and Increases in Synthetic Opioid\u2013Involved Overdose Deaths \u2014 27 States, 2013\u20132014",
+        "y": 2016
+      },
+      {
+        "t": "Practice Guidelines for Acute Pain Management in the Perioperative Setting",
+        "y": 2012
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Morphine and alternative opioids in cancer pain: the EAPC recommendations",
+        "y": 2001
+      },
+      {
+        "t": "Persistent Nonmalignant Pain and Analgesic Prescribing Patterns in Elderly Nursing Home Residents",
+        "y": 2004
+      },
+      {
+        "t": "Variability in Opioid Equivalence Calculations",
+        "y": 2015
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Fentanyl is a major contributor to fatal overdose deaths in the United States.",
+    "query": "fentanyl synthetic opioid overdose mortality United States",
+    "naive_top": [
+      {
+        "t": "CDC Guideline for Prescribing Opioids for Chronic Pain \u2014 United States, 2016",
+        "y": 2016
+      },
+      {
+        "t": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990\u20132019: a systematic analysis for the Global Burden of Disea",
+        "y": 2020
+      },
+      {
+        "t": "Global, regional, and national age-sex-specific mortality for 282 causes of death in 195 countries and territories, 1980\u20132017: a systematic ",
+        "y": 2018
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Increases in Drug and Opioid Overdose Deaths \u2014 United States, 2000\u20132014",
+        "y": 2015
+      },
+      {
+        "t": "Increases in Drug and Opioid-Involved Overdose Deaths \u2014 United States, 2010\u20132015",
+        "y": 2016
+      },
+      {
+        "t": "Drug and Opioid-Involved Overdose Deaths \u2014 United States, 2013\u20132017",
+        "y": 2018
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "The bill aims to unlock California's geothermal potential.",
+    "query": "geothermal energy resource potential California",
+    "naive_top": [
+      {
+        "t": "Analyzing Geothermal Energy Use in the East African Region: The Case of Kenya",
+        "y": 2019
+      },
+      {
+        "t": "A Resource and Policy Driven Assessment of the Geothermal Energy Potential Across the Islands of St. Vincent and the Grenadines",
+        "y": 2021
+      },
+      {
+        "t": "Determining Geothermal Resources in Three Texas Counties",
+        "y": 2022
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "The role of hydrogen and fuel cells in the global energy system",
+        "y": 2018
+      },
+      {
+        "t": "Technology for the Recovery of Lithium from Geothermal Brines",
+        "y": 2021
+      },
+      {
+        "t": "The Future of Energy Supply: Challenges and Opportunities",
+        "y": 2006
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Drowning is the leading cause of death for children and adults with autism, who are nearly 40 times more likely to drown than the general population.",
+    "query": "autism spectrum disorder drowning mortality elopement wandering",
+    "naive_top": [
+      {
+        "t": "Association of Antipsychotic Treatment With Risk of Unexpected Death Among Children and Youths",
+        "y": 2018
+      },
+      {
+        "t": "Child and Adolescent Health From 1990 to 2015",
+        "y": 2017
+      },
+      {
+        "t": "Learning to Swim: An Exploration of Negative Prior Aquatic Experiences Among Children",
+        "y": 2020
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Characteristics of unintentional drowning deaths in children with autism\u00a0spectrum disorder",
+        "y": 2017
+      },
+      {
+        "t": "Aquatic Safety for Individuals With Autism Spectrum Disorders",
+        "y": 2014
+      },
+      {
+        "t": "Improving water competency among children on the autism spectrum: the AquOTic randomized controlled trial",
+        "y": 2024
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Many have pointed out the already troubling state of the electrical grid and its inability to handle the immense strain these regulations will bring to that grid.",
+    "query": "electric grid capacity vehicle electrification demand reliability",
+    "naive_top": [
+      {
+        "t": "Evidence\u2010Based Medicine, Heterogeneity of Treatment Effects, and the Trouble with Averages",
+        "y": 2004
+      },
+      {
+        "t": "Review of Electromagnetic Vibration in Electrical Machines",
+        "y": 2018
+      },
+      {
+        "t": "The<i>Gaia</i>mission",
+        "y": 2016
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Commercialization of Lithium Battery Technologies for Electric Vehicles",
+        "y": 2019
+      },
+      {
+        "t": "Overview of batteries and battery management for electric vehicles",
+        "y": 2022
+      },
+      {
+        "t": "Charging infrastructure access and operation to reduce the grid impacts of deep electric vehicle adoption",
+        "y": 2022
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "Providing a foundation for learning about taxes, loans, credit, and bank accounts is essential for younger generations.",
+    "query": "financial education young adults credit debt outcomes",
+    "naive_top": [
+      {
+        "t": "What You Sell Is What You Lend? Explaining Trade Credit Contracts",
+        "y": 2008
+      },
+      {
+        "t": "Student Loans: Do College Students Borrow Too Much\u2014Or Not Enough?",
+        "y": 2012
+      },
+      {
+        "t": "The Implications of Credit Risk Modeling for Banks\u2019 Loan Loss Provisions and Loan-Origination Procyclicality",
+        "y": 2018
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Financial Literacy and Financial Behavior among Young Adults: Evidence and Implications",
+        "y": 2013
+      },
+      {
+        "t": "Midwest Evaluation of the Adult Functioning of Former Foster Youth: outcomes at age 19",
+        "y": 2005
+      },
+      {
+        "t": "College students and financial distress: exploring debt, financial satisfaction, and financial anxiety",
+        "y": 2013
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "California's Cap-and-Trade program adds roughly 30 cents to the cost of a gallon of gas.",
+    "query": "cap and trade carbon price gasoline pass-through cost",
+    "naive_top": [
+      {
+        "t": "Advances in Evaluating Energy Efficiency Policies and Programs",
+        "y": 2018
+      },
+      {
+        "t": "Regulation's Rationale: Learning from the California Energy Crisis",
+        "y": 2002
+      },
+      {
+        "t": "California\u2019s cap-and-trade program: is it effective in advancing social, economic, and environmental equity?",
+        "y": 2023
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Who Pays a Price on Carbon?",
+        "y": 2010
+      },
+      {
+        "t": "The effects and side\u2010effects of the <scp>EU</scp> emissions trading scheme",
+        "y": 2014
+      },
+      {
+        "t": "Carbon Leakage, Consumption, and Trade",
+        "y": 2022
+      }
+    ]
+  },
+  {
+    "party": "rep",
+    "claim": "California's Low Carbon Fuel Standard is already adding 11 cents per gallon to gas prices.",
+    "query": "low carbon fuel standard gasoline price compliance cost",
+    "naive_top": [
+      {
+        "t": "Biomass waste utilisation in low-carbon products: harnessing a major potential resource",
+        "y": 2019
+      },
+      {
+        "t": "Green Jobs: Towards Decent Work in a Sustainable, Low-Carbon World",
+        "y": 2008
+      },
+      {
+        "t": "Low Carbon Fuel Standards",
+        "y": 2009
+      }
+    ],
+    "claude_top": [
+      {
+        "t": "Greenhouse Gas Reductions under Low Carbon Fuel Standards?",
+        "y": 2009
+      },
+      {
+        "t": "Decarbonising ships, planes and trucks: An analysis of suitable low-carbon fuels for the maritime, aviation and haulage sectors",
+        "y": 2021
+      },
+      {
+        "t": "Carbon pricing and deep decarbonisation",
+        "y": 2018
+      }
+    ]
+  }
+]

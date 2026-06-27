@@ -46,15 +46,20 @@ pairs, and that its transfer to application pairs is the open question.
 \paragraph{A reusable methodology, honestly scoped.} What generalizes beyond AI policy is the
 \emph{methodology}: validate the judging step cheaply by benchmark transfer, propagate a small set of
 expensive proprietary-judge labels through a free surrogate by prediction-powered inference, and ground
-references in an open index so the evidence base is auditable rather than fabricated. Two honest
-qualifications travel with it. A single open model is competitive with the proprietary judge only on
-\emph{clean} pairs, but \emph{combining} the open models (a stacker trained on public benchmark labels,
-no in-domain labels) reaches the judge on SciFact and narrows the Climate-FEVER gap to within sampling
-noise, so for the \emph{judging} step the ``you don't need a proprietary model'' reading largely holds.
-What does not yet hold is the open \emph{application}: open keyword
-retrieval, though exactly reproducible, is not yet precise enough to reproduce the headline rates. The
-methodology lowers cost and clarifies credibility; it does not yet deliver a fully open, fully validated
-instrument.
+references in an open index so the evidence base is auditable rather than fabricated. The cost profile
+this yields is deliberate and, we think, defensible: a \emph{single} frontier model performs the language
+steps---it extracts claims, guides retrieval over the free OpenAlex index (\S\ref{sec:res-retrieval}), and
+judges stance---while the surrogate, the open combiners, the index, and the estimator cost nothing. The
+earlier \emph{second} paid dependency, generative web-search retrieval, is gone, and with it the
+citation-fabrication exposure, because references are now real OpenAlex records selected by the model
+rather than text it generated. Two honest qualifications travel with the methodology. A single open model
+is competitive with the proprietary judge only on \emph{clean} pairs, but \emph{combining} the open models
+(a stacker trained on public benchmark labels, no in-domain labels) reaches the judge on SciFact and
+narrows the Climate-FEVER gap to within sampling noise, so even the one proprietary component is, on the
+judging step, largely replaceable. What the methodology does not yet deliver is a \emph{fully validated}
+instrument: claim extraction is unchecked, and the judging step is validated on curated rather than
+application pairs. It lowers cost, removes a paid service, and clarifies credibility; it does not close
+those two gaps.
 
 \paragraph{Diagnose across methods.} A practical lesson concerns NLI as a stand-alone measure. On
 clean benchmark pairs our zero-shot NLI classifiers are strong, but on the policy corpus they label
@@ -66,12 +71,16 @@ inference rather than as a free-standing measure. Reporting cross-method agreeme
 diagnostic, but it is the comparison to a validated standard that resolves which method to trust.
 
 \paragraph{Limitations.} Beyond the proprietary-judge and pair-structure issues above, several limits
-temper the substantive findings. (1) \emph{Retrieval is the binding constraint.} Stance is assessed only
-over retrieved references with no deliberately disconfirming search, so corroboration rates are an upper
-and refute rates a lower bound; more importantly, the measured level is highly sensitive to retrieval
-precision---broad open-index keyword retrieval surfaces little claim-specific evidence and drives nearly
-all pairs to \textsc{silent} (\S\ref{sec:res-robustness})---so a reproducible, claim-targeted retriever is
-the single most valuable component to add. (2) \emph{Claim extraction is unvalidated and could confound
+temper the substantive findings. (1) \emph{Retrieval precision shapes the level, and is now handled within
+the single-model design.} The measured corroboration level is highly sensitive to retrieval
+precision---broad keyword retrieval surfaces little claim-specific evidence and drives nearly all pairs to
+\textsc{silent} (\S\ref{sec:res-robustness}). The model-guided retrieval of \S\ref{sec:res-retrieval}
+addresses this, lifting relevance yield from $0.40$ to $0.97$ over the free index, reproducibly, so
+retrieval is no longer the unbuilt component it was in earlier drafts. Two qualifications remain: stance is
+assessed only over \emph{relevant} retrieved references with no deliberately disconfirming search, so
+corroboration is an upper and refute a lower bound; and the model-guided retriever is demonstrated on a
+50-claim sample, so scaling it to the full corpus and auditing its precision against human relevance
+judgments is the natural next step. (2) \emph{Claim extraction is unvalidated and could confound
 the partisan comparison.} An LLM extracts up to ten claims per document; nothing checks that it extracts
 the right claims or does so at equal rates across writing styles. In fact extraction yield is \emph{not}
 balanced---about $1.4$ extracted claims per Democratic AI release versus $2.4$ per Republican
@@ -85,8 +94,9 @@ few prolific offices can drive per-document intensity; the differences in Figure
 point estimates over unweighted aggregates and should be read as descriptive, with member-clustered
 intervals a needed refinement. (5) \emph{Strategic text and scope}: press releases are advocacy, so a
 high corroboration rate reflects selective citation as much as evidence quality; and the application is
-one chamber of one state, with extraction and retrieval unvalidated even though the judging step is, so
-multi-state deployment inherits those gaps rather than only requiring more corpus.
+one chamber of one state, with claim extraction still unvalidated even though the judging and retrieval
+steps are now characterized, so multi-state deployment inherits that gap rather than only requiring more
+corpus.
 
 \paragraph{Ethics.} Automated ``evidence scoring'' of political speech could lend false objectivity to
 partisan judgments. We stress that our outputs are measurements with stated uncertainty and known

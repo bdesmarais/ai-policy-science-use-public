@@ -6,25 +6,28 @@
 > 2026 paper, the education-policy pilot, and a background + revival plan. Start with the
 > [revival plan](docs/03_status_and_revival_plan.md).
 
-> **★ Status (June 2026) — read the [paper](paper/main.pdf) for the honest scope; this is not a
-> solved, fully-open pipeline.** The repo measures whether the topically-nearest scientific literature
-> *corroborates* legislators' empirical claims (not observed "evidence use"). The hard step — judging
-> support/refute/silent — is done by an LLM judge **validated against human-labeled benchmarks**
-> (SciFact, Climate-FEVER), and that judge approaches human inter-annotator agreement (κ 0.71 vs 0.75
-> on SciFact). But the scope matters and the paper is explicit about it:
-> - The best judge (**Claude Opus 4.8**) is a **proprietary** model — *not* open, local, or free. Only
->   the surrogate layer (NLI + the open panel + OpenAlex) is open; among the open models, only **NLI
->   matches the judge, and only on clean SciFact pairs**; the panel trails, and all open models
->   underperform on the harder Climate-FEVER claims.
-> - The **headline corroboration rates (0.71 / 0.54) depend on a proprietary GPT-5 generative-retrieval
->   step** (only ~30% of whose references carry a DOI); the reproducible **OpenAlex** path surfaces
->   little claim-specific evidence and drives nearly everything to "silent."
-> - **Only the judging step is validated, on curated benchmark pairs** — not the pipeline as applied; an
->   in-domain human audit is the decisive missing test.
+> **★ Status (June 2026) — read the [paper](paper/main.pdf) for the honest scope.** The repo measures
+> whether the topically-nearest scientific literature *corroborates* legislators' empirical claims (not
+> observed "evidence use"). Design principle: **one frontier model (Claude Opus 4.8) does the language
+> steps — claim extraction, retrieval guidance, and stance judging — and everything around it is free and
+> open** (OpenAlex, NLI surrogate, open panel, the estimator). The constraint is *not* "no proprietary
+> model" but **"no *second* paid service."** What the paper establishes, with scope stated plainly:
+> - **Judging is validated against human benchmarks** (SciFact, Climate-FEVER); the judge approaches human
+>   inter-annotator agreement (κ 0.71 vs 0.75 on SciFact). And it need not be proprietary: a **combined
+>   open stack** (majority vote + a stacker trained only on public benchmark gold, no in-domain labels)
+>   **reaches the judge** on SciFact (0.83 vs 0.80) and narrows the Climate-FEVER gap to within noise.
+> - **Retrieval no longer needs a paid web-search service.** The same model guiding the free **OpenAlex**
+>   index surfaces a genuinely relevant reference for **97% of empirical claims (vs 40% for naive keyword
+>   search)**, **abstains on 20/20 non-scientific claims** a keyword search blindly answers, and grounds
+>   **~90% of references in a DOI (vs 27–35% for the old GPT-5 path)** — reproducible and fabrication-free.
+>   See `scripts/core/claude_retrieval.py` and [`docs/06_retrieval.md`](docs/06_retrieval.md).
+> - **Still open:** claim extraction is unvalidated, and an **in-domain human audit** of the judge on
+>   application pairs is the decisive missing test (foreclosed by the no-human-coder design).
 >
-> New code: `scripts/core/benchmark_validation.py`, `openalex_retrieval.py`, `policy_stance.py`,
-> `review_response_analysis.py`. **Some scripts under [`docs/PIPELINE.md`](docs/PIPELINE.md) require a
-> paid OpenAI/GPT-5 key** (the original pipeline); the benchmark-validation and open components do not.
+> Retrieval code: `scripts/core/claude_retrieval.py`, `score_retrieval_arms.py`,
+> `retrieval_experiment_report.py`; validation: `benchmark_validation.py`, `open_ensemble.py`. The whole
+> pipeline reproduces from committed inputs with **only** the one frontier model (the GPT-5 path is
+> retained solely as the superseded baseline).
 
 ## What this project is
 
@@ -46,16 +49,18 @@ Two policy domains share the one pipeline:
 ## The pipeline (Policy → Science)
 
 ```
-scrape PRs ─► AI-statement detection (v3) ─► LLM claim extraction ─► GPT-5 + web_search ─► structured
-            scripts/core/                    scripts/core/           reference retrieval    references
-            analyze_press_releases_v3.py     llm_claims.py           scripts/core/          (JSON: title,
-                                                                     gpt_references.py       DOI, venue,
-                                                                                             year, authors…)
+scrape PRs ─► AI-statement detection (v3) ─► LLM claim extraction ─► model-guided OpenAlex ─► real refs
+            scripts/core/                    scripts/core/           retrieval (free index)    (title, DOI,
+            analyze_press_releases_v3.py     llm_claims.py           scripts/core/             venue, year,
+                                                                     claude_retrieval.py        abstract)
                                                           │
                                                           ▼
-                          human validation / stance annotation (scripts/pilot/, outputs/pilot/)
-                          → the OPEN problem: does the science *support* the claim?
+                       benchmark-validated stance judge  (support / refute / silent)
+                       scripts/core/benchmark_validation.py + open_ensemble.py
+                       → judging validated vs SciFact/Climate-FEVER; open stack reaches the judge
 ```
+> The legacy GPT-5 + web_search retrieval (`scripts/core/gpt_references.py`) is retained only as the
+> superseded baseline; the current pipeline uses `claude_retrieval.py` over the free OpenAlex index.
 
 Full usage and script-by-script docs: **[docs/PIPELINE.md](docs/PIPELINE.md)** (the original
 project README). Workflow diagram: [`workflow-schematic.png`](workflow-schematic.png).

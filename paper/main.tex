@@ -26,11 +26,12 @@ Jeffrey J. Harden \and Frederick J. Boehmke}
 \noindent
 Measuring whether the scientific record corroborates the empirical claims that legislators make has
 been limited by a costly human-coding bottleneck: deciding whether a study supports, refutes, or is
-silent on a claim has required expert annotators. We ask how far this one judgment can be automated and,
+silent on a claim has required expert annotators. We ask how far this measurement can be automated using
+a \emph{single} frontier model together with free, open resources---no second paid service---and,
 crucially, how its trustworthiness can be established \emph{without} new in-domain human labels. Our
 answer is benchmark-anchored validation: we score candidate stance judges against existing human-labeled
 scientific-claim-verification benchmarks (SciFact and Climate-FEVER) for the identical task. A
-proprietary frontier model (Claude Opus~4.8), used as an in-context judge, agrees with the expert gold
+frontier model (Claude Opus~4.8), used as an in-context judge, agrees with the expert gold
 on $80\%$ of SciFact and $78\%$ of Climate-FEVER pairs---comparable to reported frontier zero-shot
 results and approaching the human inter-annotator ceiling ($\kappa=0.75$ on SciFact). Single open models
 that run locally trail---only the NLI surrogate matches the judge, on clean SciFact pairs alone. But
@@ -38,19 +39,23 @@ that run locally trail---only the NLI surrogate matches the judge, on clean SciF
 only on the public benchmark gold reaches the judge on SciFact ($0.83$ vs.\ $0.80$ on the judge's pairs)
 and narrows the harder Climate-FEVER gap to within sampling noise, though the judge keeps a higher point
 estimate there. Because the benchmark text is human-written, this
-accuracy is not an artifact of self-preference on the evidence side. We then propagate a small sample of expensive
-proprietary-judge labels through the cheap open surrogate over all pairs via prediction-powered
-inference, and apply the result to a decade of California Assembly press releases on artificial
-intelligence: Democrats engage with AI far more than Republicans, and the rate at which each party's
-claims are corroborated by the retrieved literature is similar across parties. We are deliberately
-explicit about scope. Only the \emph{judging} step is validated, and only on benchmark pairings in which
-claim and evidence are already topically matched; the gold judge is proprietary, not local or free, so
-it is the open surrogate---not the whole pipeline---that runs without paid services; the headline
-corroboration rates depend on a proprietary generative retrieval step, whereas reproducible open keyword
-retrieval surfaces little claim-specific evidence; and an in-domain human audit---precluded by the
-no-human-coder design---remains the decisive missing test. The contribution is a transferable validation
-methodology, and an honest map of which components of autonomous evidence-corroboration measurement are
-open, reproducible, and trustworthy today, and which are not yet.
+accuracy is not an artifact of self-preference on the evidence side. The same model also performs the
+\emph{retrieval} step that a separate proprietary web-search service handled before: guided by the model,
+queries to the free OpenAlex index surface a genuinely relevant reference for $97\%$ of empirical claims
+(versus $40\%$ for naive keyword search), abstain on every non-scientific claim a keyword search cannot
+refuse, and return references that are $89\%$ DOI-bearing against $27$--$35\%$ for the generative
+path---so the evidence base is reproducible and every reference is a real, dereferenceable record. We then
+propagate a small sample of expensive proprietary-judge labels through the cheap open surrogate over all
+pairs via prediction-powered inference, and apply the pipeline to a decade of California Assembly press
+releases on artificial intelligence: Democrats engage with AI far more than Republicans, while the rate at
+which each party's claims are corroborated by the retrieved literature is similar across parties. We are
+deliberately explicit about scope. The \emph{judging} step is validated, but only on benchmark pairings in
+which claim and evidence are already topically matched; the pipeline now runs on one frontier model plus
+free resources, with both the judge labels and the model-guided queries committed as static data that only
+that model can regenerate; claim extraction remains unvalidated; and an in-domain human audit---precluded
+by the no-human-coder design---remains the decisive missing test. The contribution is a transferable
+validation methodology and a reproducible, fully-grounded measurement pipeline whose every open and
+proprietary component is mapped honestly.
 \end{abstract}
 
 \input{sections/intro}
@@ -62,24 +67,34 @@ open, reproducible, and trustworthy today, and which are not yet.
 Code, the benchmark-validation harness, the committed judge labels, the retrieved references, and the
 figure scripts are publicly available at \url{https://github.com/bdesmarais/ai-policy-science-use-public}.
 We are precise about what is reproducible.
-The \emph{open} components---the NLI surrogate, the open-source panel, OpenAlex retrieval, the
+The \emph{free} components---OpenAlex retrieval, the NLI surrogate, the open-source panel, the
 prediction-powered estimator, and all figures---regenerate from committed inputs with no paid service.
-The two \emph{proprietary} components do not: the gold judge labels were produced by Claude Opus~4.8, and
-the generative-retrieval references underlying the headline corroboration rates (\S\ref{sec:res-application})
-were produced by GPT-5 with web search; both are committed as static data but cannot be regenerated
-without the respective proprietary models. The validation benchmarks are SciFact \citep{wadden2020fact}
-and Climate-FEVER \citep{diggelmann2020climate}.
+The pipeline depends on a \emph{single} proprietary model, Claude Opus~4.8, which performs three language
+steps: claim extraction, retrieval guidance (the targeted queries and abstention decisions of
+\S\ref{sec:res-retrieval}), and stance judging. Its outputs---the gold judge labels and the model-guided
+queries in \texttt{data/claude\_retrieval\_queries.json}---are committed as static data and regenerate
+only with that model, exactly as frozen human labels would require the original coders. The earlier
+proprietary \emph{generative}-retrieval references (GPT-5 with web search) are retained only as the
+comparison baseline of \S\ref{sec:res-retrieval}; the pipeline no longer relies on them, because
+Claude-guided OpenAlex retrieval supersedes them with a reproducible, fully DOI-grounded evidence base.
+The validation benchmarks are SciFact \citep{wadden2020fact} and Climate-FEVER
+\citep{diggelmann2020climate}.
 
 \section*{AI-assistance disclosure}
 This measurement instrument uses language models as components, and we disclose exactly which.
-The stance ``gold'' labels were produced by Claude Opus~4.8 used as an in-context judge. Claude Opus~4.8
-is a \emph{proprietary frontier model}: it does not run locally, it is not free, and it is reached
-through a paid product; we used it without fine-tuning and without the programmatic API, but we do
-\emph{not} present it as an open or reproducible component. The scalable surrogate (DeBERTa- and
-BART-MNLI), the cross-developer panel (Qwen2.5, Phi-3.5, OLMo-2), and OpenAlex retrieval are open and run
-locally on a single consumer GPU. The same high-capacity model assisted in drafting and in executing the
-analysis. Every cited reference was checked against a primary source; all design decisions and claims
-are the authors'. Earlier pipeline development was supported by NSF awards 2318460 and 2148215.
+A \emph{single} proprietary frontier model, Claude Opus~4.8, performs the three language steps---claim
+extraction, retrieval guidance (targeted queries and abstention), and stance judging---used in context
+without fine-tuning and without the programmatic API. It is proprietary: it does not run locally and is
+not free. Our design constraint was not to avoid proprietary models but to avoid a \emph{second} paid
+dependency: an earlier version of the pipeline also paid for GPT-5 web-search retrieval, which we have
+removed in favour of this model guiding the free OpenAlex index (\S\ref{sec:res-retrieval}). Everything
+else is free and runs locally on a single consumer GPU: the scalable surrogate (DeBERTa- and BART-MNLI),
+the cross-developer panel (Qwen2.5, Phi-3.5, OLMo-2) and their combiners, OpenAlex, and the estimator. We
+also report how far the one proprietary component can itself be replaced: on the judging step a combined
+open stack reaches it without in-domain labels (\S\ref{sec:res-validation}). The same high-capacity model
+assisted in drafting and in executing the analysis. Every cited reference was checked against a primary
+source; all design decisions and claims are the authors'. Earlier pipeline development was supported by
+NSF awards 2318460 and 2148215.
 
 \bibliography{references}
 

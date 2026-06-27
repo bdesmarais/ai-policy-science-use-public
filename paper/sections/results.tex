@@ -66,8 +66,10 @@ a combined open stack \emph{matches} the proprietary judge on clean pairs and na
 to within sampling noise at $n=45$. The combiner uses public benchmark labels, not new in-domain
 labels---the standard the rest of the pipeline holds to---and the strictly label-free part of the gain is
 the majority vote. This sharpens, rather than softens, the paper's scope claim: the judging step does
-not require a proprietary model; the binding constraint on the \emph{application} remains retrieval
-(\S\ref{sec:res-robustness}), which ensembling does not touch.
+not require a proprietary model at all, and the \emph{retrieval} step---which a single frontier model can
+now drive over a free index (\S\ref{sec:res-retrieval})---no longer needs a second paid service either.
+What ensembling does not touch, and benchmark transfer does not reach, is claim extraction and the
+in-domain human audit (\S\ref{sec:discussion}); those, not retrieval, are now the frontier.
 
 \begin{figure}[t]
 \centering
@@ -161,6 +163,59 @@ detects disconfirming evidence.}
 \label{fig:confusion}
 \end{figure}
 
+\subsection{A single model does the retrieval, reproducibly and verifiably}
+\label{sec:res-retrieval}
+The judging step is the one the literature said needed a frontier model, and the previous sections settle
+it. The \emph{retrieval} step is where the pipeline carried its second proprietary dependency: earlier
+versions found claim-relevant papers with a paid web-search service (GPT-5), which is not reproducible and
+which grounded only $27$--$35\%$ of its references in a DOI, so the evidence base behind the headline rates
+was itself only partly verifiable. We show that the \emph{same} frontier model that judges stance can do
+the retrieval too, guiding the free OpenAlex index, and that this is strictly better on every axis that
+matters (Fig.~\ref{fig:retrieval}). Reading each claim, the model emits a concise, claim-targeted query
+when the claim has a scientific core and \emph{abstains} otherwise; OpenAlex returns the references, so
+every one is a real record.
+
+\emph{Targeting.} On the 30 empirical claims in a balanced 50-claim sample, model-guided queries surface a
+genuinely relevant reference---as assessed by the same benchmark-validated judge, because NLI underdetects
+relevance on policy text---in the top three for $29$ of $30$ claims ($0.97$), versus $12$ of $30$ ($0.40$)
+for naive keyword search over the identical index. The naive failures are not subtle: for ``sea level is
+expected to climb\ldots by 2100'' keyword search returns papers on sea stars, a rock-climbing vision aid,
+and soft robotics (matching ``sea'' and ``climb''); for the strained electrical grid it returns the
+\emph{Gaia} space mission; for affordable housing for foster youth it returns Alzheimer's-disease facts.
+Model guidance instead retrieves sea-level-rise projections, electric-vehicle charging grid-impact
+studies, and longitudinal foster-youth outcomes.
+
+\emph{Abstention.} Naive keyword search cannot decline: it returned references for $19$ of the $20$
+non-empirical claims---legal rulings (\emph{De La Torre v.\ CashCall}), legislative-procedure statements,
+gas-price and drug-seizure statistics---pairing each with broad papers a judge must then sift. The model
+abstained on all $20$, emitting a query only where a scientific literature exists. This is exactly the
+selectivity the generative service bought by ``returning an empty list if none are appropriate,''
+reproduced here transparently and committed as data.
+
+\emph{Verifiability.} Both OpenAlex arms ground about $90\%$ of references in a DOI ($0.89$ model-guided,
+$0.91$ naive) against $27$--$35\%$ for the generative path---so swapping in model-guided OpenAlex roughly
+triples verifiability \emph{and} removes the paid dependency. Running the validated judge on the best
+on-topic model-retrieved reference gives an end-to-end corroboration read from a pipeline with no second
+paid service and no fabricated citations: the literature supports $24$ of $30$ empirical claims, refutes
+none, and is silent on the rest ($0.80$), at the same rate for both parties ($0.80$ Democratic vs $0.80$
+Republican). We offer this as a small-sample demonstration, not a population estimate---$n=30$ and stance
+is read from abstracts---but it lands in the range of the proprietary-retrieval headline ($0.71$), now
+reproducibly. One honest miss travels with it: neither arm found support for ``$80\%$ of California vehicle
+trips are under ten miles,'' a travel-survey statistic with no referent in the article literature OpenAlex
+indexes. Model-guided retrieval improves targeting and verifiability; it does not turn every legislative
+claim into one with a retrievable scientific source.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{fig_retrieval.png}
+\caption{A single frontier model can do the retrieval. (a) Guiding the free OpenAlex index, the model
+surfaces a relevant reference for $97\%$ of empirical claims versus $40\%$ for naive keyword search, and
+abstains on $20/20$ non-scientific claims where keyword search blindly returns papers ($1/20$). (b) Every
+OpenAlex arm grounds $\sim$$90\%$ of references in a DOI, against $27$--$35\%$ for the proprietary
+generative path the headline previously used. Relevance is assessed by the benchmark-validated judge.}
+\label{fig:retrieval}
+\end{figure}
+
 \subsection{Application: how often the nearest literature corroborates legislators' AI claims}
 \label{sec:res-application}
 We apply the pipeline to California State Assembly member press releases (2015--2025). What it measures
@@ -184,11 +239,14 @@ $0.21$ (Democratic) and $0.11$ (Republican), so PPI's $0.71$ is a roughly threef
 almost entirely by the $60$ judge anchor labels per party: the surrogate is near-constant, so PPI is in
 effect reporting the judge's mean on a small gold sample (\S\ref{sec:methods-ppi}). We stress where this
 leaves the headline. It is \emph{conditional on the judge} and not validated against in-domain human
-labels; worse, it is the one quantity in which all three model stages stack---LLM-\emph{extracted}
-claims, paired with references a proprietary model \emph{generated} as claim-targeted, scored by an LLM
-\emph{judge}. That is precisely the all-LLM circularity the paper warns about, and benchmark validation
-does not reach it: the benchmarks pair human-written claims with human-cited or relevance-retrieved human
-evidence---the opposite end of the pipeline from where the headline is computed. The corroboration rate
+labels; it is the quantity in which the model's stages stack---LLM-\emph{extracted} claims, scored by an
+LLM \emph{judge}. The reference \emph{retrieval} no longer compounds this the way it did: \S\ref{sec:res-retrieval}
+replaces the proprietary generative step with the model guiding a fixed open index, so the references are
+real papers selected from OpenAlex rather than text a model produced. But the claims are still
+LLM-extracted and the judge is still an LLM, so a residual self-preference channel on the \emph{claim} side
+remains, and benchmark validation does not reach it: the benchmarks pair human-written claims with
+human-cited or relevance-retrieved human evidence---the opposite end of the pipeline from where the
+headline is computed. The corroboration rate
 is thus the least-validated number we report, not because the judge is weak but because it is where the
 validated anchor does not reach. The \emph{level} is moreover strongly
 judge-dependent---across the five validators the Democratic rate ranges from $0.21$ (NLI) to $0.79$ (a
@@ -209,26 +267,25 @@ California Assembly press releases.}
 \label{fig:engage}
 \end{figure}
 
-\subsection{Reproducibility, the retrieval bottleneck, and domain transfer}
+\subsection{Reproducibility, retrieval precision, and domain transfer}
 \label{sec:res-robustness}
-\emph{Reproducible retrieval, and the binding role of retrieval relevance.} Replacing the generative
-reference retrieval of earlier pipelines with retrieval from the open OpenAlex index returns only real,
-DOI-bearing papers, eliminating the citation-fabrication failure mode of asking a model to name sources.
-That guarantee, however, applies to OpenAlex and \emph{not} to the generative path the headline rates
-actually use: only $27$--$35\%$ of the GPT-5 references carry a DOI, so the references against which the
-corroboration judgments are made are themselves only partly verifiable---partial exposure to the very
-failure mode the OpenAlex choice closes. The reproducible path, in turn, exposes the binding constraint
-on this kind of measurement. OpenAlex keyword search returns broad, topically-related papers rather than
-the specific study a claim invokes, so across \emph{every} judge---both NLI classifiers and all three
-open panel models---nearly all pairs are labelled \textsc{silent} and corroboration rates fall to a few
-percent (0.6--13\%). The measured \emph{level} is thus governed at least as much by how precisely
-retrieval targets the claim as by the judge: the 0.5--0.7 rates above reflect bespoke, claim-targeted
-(generative) retrieval, whereas broad keyword retrieval surfaces little claim-specific evidence at all.
-This localizes the remaining work precisely. The judge's \emph{labels} are committed and frozen---which
-makes the downstream analysis reproducible, exactly as frozen human labels would, even though the
-proprietary judging \emph{process} is not---so it is the \emph{retrieval} step, a fine-tuned open
-retriever in place of keyword search or generative listing, that must be made both reproducible and
-claim-targeted. The open pipeline is released to support exactly that. \emph{Domain transfer.} The pipeline's front end applies unchanged
+\emph{Retrieval precision governs the level---which is why \S\ref{sec:res-retrieval} matters.} The
+corroboration \emph{level} is governed at least as much by retrieval precision as by the judge. Naive
+OpenAlex keyword search returns broad, topically-related papers rather than the specific study a claim
+invokes, so across \emph{every} judge---both NLI classifiers and all three open panel models---nearly all
+pairs are labelled \textsc{silent} and corroboration rates collapse to a few percent (0.6--13\%). The fix
+is therefore not a better judge but better retrieval, and the model-guided retrieval of
+\S\ref{sec:res-retrieval} supplies it \emph{without} a paid service: it lifts relevance yield from $0.40$
+to $0.97$ while keeping the evidence base fully reproducible and DOI-grounded, the queries committed as
+data. This closes what earlier drafts of this work called the binding constraint---a reproducible,
+claim-targeted retriever---using the one frontier model already in the loop rather than a separately
+trained dense retriever, and it does so with $\sim$$90\%$ DOI coverage against the generative path's
+$27$--$35\%$. The judge's \emph{labels}, and now the retrieval \emph{queries}, are committed and
+frozen, so the downstream analysis is reproducible exactly as frozen human labels would make it, even
+though regenerating either requires the proprietary model. What retrieval precision does \emph{not} change
+is the directional caveat: the pipeline seeks \emph{relevant} rather than deliberately \emph{disconfirming}
+evidence, so corroboration rates remain an upper and refute rates a lower bound. \emph{Domain transfer.}
+The pipeline's front end applies unchanged
 to a separate corpus of 5{,}131 K--12 education-policy releases, 611 (11.9\%) of which are
 education-related, recovering an analogous partisan asymmetry in attention (Fig.~\ref{fig:edu}):
 Democrats issued 80 releases on social-emotional learning and student mental health versus 1 for
@@ -238,7 +295,9 @@ to one retrieval engine.
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.7\textwidth]{fig_support_party.png}
-\caption{Claim-corroboration rate by party under each judge (generative retrieval). The \emph{level}
+\caption{Claim-corroboration rate by party under each judge (legacy GPT-5 generative retrieval; the
+model-guided OpenAlex pipeline of \S\ref{sec:res-retrieval} reproduces this evidence base without a paid
+service). The \emph{level}
 varies widely across judges (Democratic range $0.21$--$0.79$), but every judge---from zero-shot NLI
 through each open-panel model to the benchmark-validated judge (gold, PPI-corrected)---rates Democratic
 claims at least as corroborated as Republican. Estimates are conditional on the judge, not validated

@@ -17,9 +17,11 @@ detection, framing, and other annotation tasks, at a fraction of the cost
 \citep{gilardi2023chatgpt,ziems2024can,heseltine2024llm,tornberg2025llm}. This raises the possibility of
 an \emph{autonomous} measurement pipeline---one that ingests raw political text, extracts the empirical
 claims, retrieves topically-relevant science, and judges whether that science supports each claim. The
-aspiration is to do this with no human annotators and, ideally, no proprietary services; how close one
-can actually get with open models is an empirical question we take up directly, and the answer turns out
-to be partial.
+aspiration is to do this with no human annotators and without a proliferating stack of paid services. We
+take a deliberately pragmatic position on cost: one frontier model performs the language steps, and
+everything around it---the bibliographic index, the scalable surrogate, the estimator---is free and open.
+The constraint we hold to is not ``no proprietary model'' but ``no \emph{second} paid service,'' and we
+ask how much of the pipeline can meet that bar. The answer turns out to be most of it.
 
 The obstacle is not building such a pipeline but \emph{trusting} it. If the model that judges
 claim--evidence support is never checked against a human standard, its outputs are unfalsifiable: a
@@ -51,7 +53,7 @@ falls.
 
 Using this strategy we study a measurement pipeline---claim extraction, reference retrieval from the
 open OpenAlex index \citep{priem2022openalex}, and stance judging---applied to a decade of legislative
-communication on artificial intelligence (AI). We make four contributions, and we scope each carefully.
+communication on artificial intelligence (AI). We make five contributions, and we scope each carefully.
 (1) A transferable \emph{validation methodology}: benchmark-anchored evaluation that tests whether an
 automated stance judge can be trusted with no new in-domain human labels, by scoring it on existing
 human-labeled claim-verification benchmarks for the identical task. (2) A measurement finding about open
@@ -60,16 +62,20 @@ NLI surrogate matches it, on clean SciFact pairs alone. But \emph{combining} the
 in-domain labels, closes much of the gap: a stacker trained only on the public benchmark gold reaches the
 judge on SciFact and narrows the harder-task gap to within sampling noise. So the \emph{judging} step
 does not, after all, require a proprietary model---an important correction to a ``you need a closed
-model'' reading. The proprietary dependence that remains lives in the \emph{application}: the headline
-rates were computed with the proprietary judge and proprietary generative retrieval, and the binding
-constraint there is retrieval, not judging. (3) An application that recovers a
+model'' reading. (3) A \emph{retrieval} result that removes the pipeline's second paid dependency. The
+headline rates of earlier versions rode on a proprietary web-search service (GPT-5) to find claim-relevant
+papers; we show the \emph{same single frontier model} can do this by guiding the free OpenAlex index.
+Reading each claim, it emits a targeted query when the claim has a scientific core and abstains when it
+does not; the result surfaces a genuinely relevant reference for $97\%$ of empirical claims against $40\%$
+for naive keyword search, abstains on every one of the non-scientific claims a keyword search blindly
+answers, and grounds $89\%$ of references in a DOI against $27$--$35\%$ for the generative path---removing
+the paid retrieval service and the citation-fabrication risk together. (4) An application that recovers a
 robust partisan asymmetry in AI engagement and estimates the rate at which each party's claims are
 \emph{corroborated by the topically-nearest literature}---which is precisely what the instrument
 measures, and which we distinguish from observed evidence \emph{use}, since legislators do not cite the
-papers we retrieve. (4) An explicit account of what is and is not validated: the judging step is
-validated on benchmark pairs in which claim and evidence are already topically matched, but claim
-extraction and reference retrieval are not, the headline corroboration rates depend on a proprietary
-generative retrieval step that reproducible open keyword retrieval does not reproduce, and an in-domain
-human audit---foreclosed by the no-human-coder design---remains the decisive missing test. The result is
-not a finished autonomous instrument but a validated component, a reproducible open scaffold around it,
-and an honest map of the distance still to cover.
+papers we retrieve. (5) An explicit account of what is and is not validated: the judging step is validated
+on benchmark pairs in which claim and evidence are already topically matched, but claim extraction is not,
+and an in-domain human audit---foreclosed by the no-human-coder design---remains the decisive missing
+test. The result is not yet a finished autonomous instrument, but it is a validated judging component, a
+reproducible and fully-grounded retrieval step around it, and an honest map of the distance still to
+cover.

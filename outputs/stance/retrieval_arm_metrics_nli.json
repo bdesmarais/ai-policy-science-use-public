@@ -1,0 +1,43 @@
+{
+  "naive_empirical": {
+    "arm": "naive (empirical claims)",
+    "n_pairs": 87,
+    "n_claims_with_refs": 29,
+    "dist": {
+      "silent": 82,
+      "support": 5
+    },
+    "nonsilent_rate": 0.057,
+    "support_rate": 0.057,
+    "relevance_yield_claims": 5,
+    "doi_rate": 0.908
+  },
+  "claude_empirical": {
+    "arm": "claude (empirical claims)",
+    "n_pairs": 90,
+    "n_claims_with_refs": 30,
+    "dist": {
+      "silent": 80,
+      "refute": 1,
+      "support": 9
+    },
+    "nonsilent_rate": 0.111,
+    "support_rate": 0.1,
+    "relevance_yield_claims": 9,
+    "doi_rate": 0.889
+  },
+  "naive_nonempirical": {
+    "arm": "naive (non-empirical claims)",
+    "n_pairs": 57,
+    "n_claims_with_refs": 19,
+    "dist": {
+      "refute": 2,
+      "silent": 51,
+      "support": 4
+    },
+    "nonsilent_rate": 0.105,
+    "support_rate": 0.07,
+    "relevance_yield_claims": 5,
+    "doi_rate": 0.737
+  }
+}

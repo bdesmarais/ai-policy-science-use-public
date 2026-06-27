@@ -1,0 +1,58 @@
+{
+  "design": "Three-way retrieval comparison on a balanced 50-claim sample of the headline (GPT-5-reference) claim set: naive OpenAlex keyword vs Claude-guided OpenAlex (targeted query + abstention + re-ranking) vs the proprietary GPT-5 generative path. Same claims, same OpenAlex backend, same validated stance judge.",
+  "sample": {
+    "n_claims": 50,
+    "n_empirical": 30,
+    "n_nonempirical": 20,
+    "empirical_by_party": {
+      "dem": 15,
+      "rep": 15
+    }
+  },
+  "relevance_yield_empirical": {
+    "naive": 0.4,
+    "claude": 0.967,
+    "naive_count": 12,
+    "claude_count": 29,
+    "n": 30,
+    "reading": "Fraction of empirical claims whose top-3 retrieved references contain >=1 reference the validated judge accepts as genuinely about the claim."
+  },
+  "abstention_nonempirical": {
+    "n_nonempirical": 20,
+    "naive_returned_refs_for": 19,
+    "claude_abstained_on": 20,
+    "reading": "Naive keyword search cannot abstain: it returns broad papers for legal/procedural/political claims too. Claude abstains when no scientific literature applies."
+  },
+  "doi_rate": {
+    "naive_openalex": 0.908,
+    "claude_openalex": 0.889,
+    "gpt5_generative_reported": "0.27-0.35",
+    "reading": "Both OpenAlex arms return ~90% DOI-bearing records; the proprietary generative path the headline used returned only 27-35% with DOIs."
+  },
+  "end_to_end_corroboration_claude_openalex": {
+    "stance_distribution": {
+      "support": 24,
+      "silent": 6
+    },
+    "support_over_empirical": 0.8,
+    "support_over_relevant": 0.828,
+    "by_party": {
+      "dem": {
+        "n_empirical": 15,
+        "support": 12,
+        "corroboration_rate_over_empirical": 0.8
+      },
+      "rep": {
+        "n_empirical": 15,
+        "support": 12,
+        "corroboration_rate_over_empirical": 0.8
+      }
+    },
+    "reading": "Validated-judge stance on the best on-topic Claude-retrieved reference. An end-to-end corroboration read from a fully reproducible, no-second-API pipeline; a 30-claim sample demonstration, not a population estimate."
+  },
+  "nli_crosscheck": {
+    "naive_empirical_nonsilent": 0.057,
+    "claude_empirical_nonsilent": 0.111,
+    "reading": "The reproducible NLI surrogate underdetects relevance on policy text (the paper's known finding) but still moves in the same direction: Claude-retrieved pairs are non-silent about twice as often as naive."
+  }
+}
