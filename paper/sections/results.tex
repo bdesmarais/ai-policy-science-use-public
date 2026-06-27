@@ -174,8 +174,8 @@ required. AVeriTeC \citep{schlichtkrull2023averitec} comprises real-world claims
 organisations, each paired with evidence \emph{retrieved from the open web}---the same noisy, multi-source
 pairing the application produces---and labelled \textsc{supported}/\textsc{refuted}/\textsc{not-enough-evidence}
 by trained annotators who agree at $\kappa=0.62$. On a class-balanced $90$-pair sample, the judge reaches
-accuracy $0.83$ and macro-$F_1$ $0.83$, agreeing with the human verdicts at $\kappa=0.75$---\emph{above}
-AVeriTeC's own human inter-annotator agreement of $0.62$. The cross-developer panel again clears the
+accuracy $0.83$ and macro-$F_1$ $0.83$, agreeing with the human verdicts at $\kappa=0.75$ against
+AVeriTeC's own pairwise human inter-annotator agreement of $0.62$. The cross-developer panel again clears the
 lexical/NLI floor ($0.59$--$0.66$ vs $0.54$), so the result is not one model's idiosyncrasy. The judge's
 errors concentrate ($9$ of $15$) in the \textsc{not-enough-evidence} boundary---the class with the lowest
 human agreement, which AVeriTeC re-annotated most---so the judge is uncertain exactly where the humans
@@ -185,16 +185,19 @@ gold is the easier quantity; the comparison should be read in the alternative-an
 \citep{calderon2025alttest}---is the model inside the band of human disagreement---rather than as two
 identical numbers. Taken together (Fig.~\ref{fig:band}), across the spectrum from curated pairs (SciFact) to
 retrieved-evidence pairs (Climate-FEVER) to real-world web-retrieved pairs (AVeriTeC), the judge sits
-within the human-agreement band and \emph{exceeds} it on the two benchmarks whose pair structure matches
-the application. The ``curated pairs only'' gap is, on this evidence, closed.
+\emph{within the band of human disagreement}, including on the two benchmarks whose pair structure matches
+the application. The ``curated pairs only'' gap is, on this evidence, substantially narrowed---on the very
+pair structure the application produces---though AVeriTeC differs from the application in domain (general
+fact-checking) and in retrieval noise, so we say narrowed, not closed.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.85\textwidth]{fig_band.png}
-\caption{The judge agrees with the human gold (red) within or above the human inter-annotator agreement
-(grey) across three benchmarks ordered by pair structure. It is just below the human band on curated
-SciFact ($\kappa$ $0.71$ vs $0.75$) and \emph{exceeds} it on the retrieved-evidence benchmarks that match
-the application---Climate-FEVER ($0.67$ vs $\alpha$ $0.33$) and AVeriTeC ($0.75$ vs $\kappa$ $0.62$). By
+\caption{The judge's agreement with the human gold (red) sits within the band of human inter-annotator
+agreement (grey) across three benchmarks ordered by pair structure: curated SciFact ($\kappa$ $0.71$ vs
+$0.75$) and the retrieved-evidence benchmarks that match the application---Climate-FEVER ($0.67$ vs
+$\alpha$ $0.33$) and AVeriTeC ($0.75$ vs $\kappa$ $0.62$). (The judge's $\kappa$ is against the adjudicated
+gold, the human figure pairwise, so this is a within-band comparison, not a claim of exceeding humans.) By
 the alternative-annotator standard the field uses to license replacing a coder \citep{calderon2025alttest},
 the judge is within the human band on exactly the pair structure the application produces.}
 \label{fig:band}
@@ -276,6 +279,17 @@ and soft robotics (matching ``sea'' and ``climb''); for the strained electrical 
 Model guidance instead retrieves sea-level-rise projections, electric-vehicle charging grid-impact
 studies, and longitudinal foster-youth outcomes.
 
+\emph{Relevance is human-anchored, not self-graded.} The relevance yield above is judged by the same model
+that wrote the queries, which invites the objection that the judgment is self-assessed. We close this the
+way we closed the stance question---by transfer from human labels. Relevance is the one judgment on which
+humans agree well (unlike stance on contested claims), and SciFact's human evidence annotations supply a
+ready test: the cited abstract is on-topic for a claim, a random abstract is not. On $120$ such pairs the
+model's relevance judgment matches the human labels at $96\%$ accuracy with \emph{perfect precision}
+($1.00$; it never calls an off-topic paper relevant) and $0.92$ recall, and the cross-developer panel again
+clears the lexical floor (\texttt{relevance\_validation.py}). The relevance step is therefore independently
+validated against human labels, not merely self-asserted---and validated precisely where, as the round-five
+report noted, humans are reliable.
+
 \emph{Abstention.} Naive keyword search cannot decline: it returned references for $19$ of the $20$
 non-empirical claims---legal rulings (\emph{De La Torre v.\ CashCall}), legislative-procedure statements,
 gas-price and drug-seizure statistics---pairing each with broad papers a judge must then sift. The model
@@ -339,7 +353,12 @@ remains, and benchmark validation does not reach it: the benchmarks pair human-w
 human-cited or relevance-retrieved human evidence---the opposite end of the pipeline from where the
 headline is computed. The corroboration rate
 is thus the least-validated number we report, not because the judge is weak but because it is where the
-validated anchor does not reach. The \emph{level} is moreover strongly
+validated anchor does not reach. And the construct itself is only as sharp as human agreement allows: the
+same weak agreement on contested claims that we invoke to bound a human audit (\S\ref{sec:discussion})
+bounds what ``corroborated'' can \emph{mean} here---when trained annotators agree only moderately on
+whether evidence supports a contested claim (Climate-FEVER $\alpha=0.33$), a rate like $0.71$ carries
+construct ambiguity, not merely sampling uncertainty, and the argument that humans are noisy must be
+applied to the estimate as honestly as to its audit. The \emph{level} is moreover strongly
 judge-dependent---across the five validators the Democratic rate ranges from $0.21$ (NLI) to $0.79$ (a
 panel model)---which is exactly why a validated anchor matters: it identifies which level to take
 seriously rather than leaving the analyst to choose. What is robust to that choice is the

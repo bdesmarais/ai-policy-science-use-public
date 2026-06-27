@@ -80,7 +80,8 @@ party-balanced---so the benchmark-transfer philosophy that anchors the judge als
 (6) An explicit account of what is and is not validated: extraction, retrieval, and judging are each now
 checked. Crucially, we validate the judge not only on curated pairs but on \emph{retrieved}-evidence,
 application-structure pairs (AVeriTeC \citep{schlichtkrull2023averitec}), where it agrees with human
-labels \emph{above} the human inter-annotator band---so we mount a principled case that a fresh in-domain
+labels \emph{within the band of human disagreement}, and we validate the retrieval-relevance judgment
+against human relevance labels ($96\%$ accuracy)---so we mount a principled case that a fresh in-domain
 human audit is a \emph{complementary} check on the joint pipeline rather than the decisive gate the
 no-human-coder design forecloses (\S\ref{sec:discussion}). The result is a validated
 extraction-retrieval-judging pipeline whose every stage is checked without new human coding, and an honest

@@ -28,17 +28,23 @@ side even when the evidence is human-written, and the human-claim benchmarks do 
 Self-preference is therefore bounded on the evidence side but not closed on the claim side, and we say
 so rather than implying the benchmarks settle it.
 
-\paragraph{The pair-structure gap is now largely closed---against existing human labels.} The standing
-objection was that our anchors paired a claim with evidence \emph{curated} to be about it (SciFact, cited
-abstracts), whereas the application reads claims against \emph{retrieved} evidence that may be off-topic;
-benchmark accuracy, the worry went, might not transfer across that gap in \emph{pair structure}.
-Section~\ref{sec:res-application-validation} answers this on its own terms. AVeriTeC
-\citep{schlichtkrull2023averitec} pairs real-world claims with evidence \emph{retrieved from the open
-web}---the application's pair structure exactly---and the judge agrees with its trained-human verdicts at
-$\kappa=0.75$, \emph{above} the annotators' own $\kappa=0.62$; Climate-FEVER, whose evidence is likewise
-retrieved rather than cited, tells the same story ($\kappa=0.67$ vs human $\alpha=0.33$). Across the
-curated-to-retrieved spectrum the judge is within or above the human-agreement band and \emph{exceeds} it
-precisely on the retrieved-evidence pairs the reports singled out as the unvalidated case
+\paragraph{The pair-structure gap is now substantially narrowed---against existing human labels.} The
+standing objection was that our anchors paired a claim with evidence \emph{curated} to be about it
+(SciFact, cited abstracts), whereas the application reads claims against \emph{retrieved} evidence that may
+be off-topic; benchmark accuracy, the worry went, might not transfer across that gap in \emph{pair
+structure}. Section~\ref{sec:res-application-validation} answers this on the pair structure the application
+produces. AVeriTeC \citep{schlichtkrull2023averitec} pairs real-world claims with evidence \emph{retrieved
+from the open web}---the application's pair structure---and the judge agrees with its trained-human
+verdicts at $\kappa=0.75$ against the annotators' own pairwise $\kappa=0.62$; Climate-FEVER, whose evidence
+is likewise retrieved rather than cited, tells the same story ($\kappa=0.67$ vs human $\alpha=0.33$). We
+are careful not to over-read these: the judge's $\kappa$ is against the adjudicated gold and the human
+figure is pairwise, so the honest reading is that the judge sits \emph{within the band of human
+disagreement} by the alternative-annotator standard \citep{calderon2025alttest}, not that it ``exceeds''
+the humans. Two further caveats keep this to ``narrowed'' rather than ``closed'': AVeriTeC is general
+fact-checking rather than legislative AI, and its evidence was assembled to be adjudicable, whereas the
+application's keyword hits are frequently off-topic (the seven retrieval misses of
+\S\ref{sec:res-refresh} are exactly that). What is established is that the judge is within the human band
+on retrieved-evidence pairs---the case the reports singled out as unvalidated
 (Fig.~\ref{fig:band})---obtained, like the rest of our validation, from existing human labels with no
 in-domain coding.
 
@@ -62,24 +68,31 @@ cannot move it, and any residual partisan signal must travel through the claim's
 coder reads too. Human coders bring their own priors to partisan material, and political-science work now
 finds LLMs matching or exceeding trained and outsourced human coders on precisely such tasks
 \citep{tornberg2024llmexpert,heseltine2024llm}; a small RA-coded audit of partisan claims is not a
-bias-free benchmark but another rater with a different, possibly larger, bias. \emph{Third, the no-human
-design buys properties an audit cannot.} A human-coded gold cannot be regenerated---if an error surfaces
-the coders are gone and the measurement cannot be re-run---whereas our committed labels, queries, and
-prompts regenerate with the same model, so the instrument is re-runnable, the reproducibility standard the
-reports prize elsewhere; it also keeps pace with the world (we refreshed twelve months and recomputed in a
-sitting), and every label is committed and auditable, which RA coding rarely is.
+bias-free benchmark but another rater with a different, possibly larger, bias. We rest the case for not
+gating on the audit on these two arguments and on the AVeriTeC evidence, and we deliberately do \emph{not}
+lean on a third argument we made in an earlier draft---that model labels can be regenerated whereas a human
+gold cannot. A validation set is frozen by nature, and our case already rests on three frozen human-labeled
+benchmarks whose labels no one can regenerate either, so regenerability does not distinguish benchmark
+transfer from a frozen in-domain audit, and we drop it as a reason. What the no-human design does buy is
+not a \emph{validation} advantage but a \emph{deployment} one: the instrument keeps pace with the
+world---we refreshed twelve months of releases and recomputed the estimate in a sitting, which human coding
+cannot match---and every label, query, and prompt is committed and auditable.
 
 \paragraph{What an audit would still add, honestly.} None of this makes a human audit worthless. A large,
 well-designed, \emph{multi}-coder audit---not a few hundred pairs---would add an independent in-domain
-check and could tighten the bound, and we would welcome one. But its marginal value, given that the judge
-already sits within the human-agreement band on application-structure pairs, is smaller than the review
-history has assumed; it is itself bounded by low human agreement on contested claims; and it would not make
-the deployed pipeline autonomous, which is the contribution. We therefore present the band evidence
-(Fig.~\ref{fig:band}) as the validation standard appropriate to an instrument built to run without people,
-and the audit as a complementary check we did not make the gate. We claim the judging \emph{operation} is
-validated---on curated \emph{and} retrieved-evidence pairs, to within human agreement; what an audit alone
-could still settle is the \emph{joint} behaviour of extraction, retrieval, and judging on this specific
-corpus, for which the band evidence is strong but not, we agree, a complete substitute.
+check and could tighten the bound, and we would welcome one. The one place a small human check was still
+clearly worth having was \emph{retrieval relevance}---the step a stance audit does not cover, and the one
+judgment on which humans are reliable---and we have now supplied it by transfer rather than deferring it:
+the model's relevance judgment matches SciFact's human relevance labels at $96\%$ with perfect precision
+(\S\ref{sec:res-retrieval}), so the retrieval step is human-anchored too. What remains for a human audit is
+the \emph{joint} behaviour of extraction, retrieval, and judging on this specific corpus; its marginal
+value, given that each stage is now checked against human labels and the judge sits within the
+human-agreement band on application-structure pairs, is smaller than the review history assumed, it is
+itself bounded by low human agreement on contested claims, and it would not make the deployed pipeline
+autonomous, which is the contribution. We present the band evidence (Fig.~\ref{fig:band}) and the
+stage-wise human-anchored checks as the validation standard appropriate to an instrument built to run
+without people, and a fresh joint audit as a complementary check we did not make the gate---strong
+evidence, we are clear, but not a complete substitute for one.
 
 \paragraph{A reusable methodology, honestly scoped.} What generalizes beyond AI policy is the
 \emph{methodology}: validate the judging step cheaply by benchmark transfer, propagate a small set of
