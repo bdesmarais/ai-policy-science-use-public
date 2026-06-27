@@ -82,11 +82,16 @@ corroboration is an upper and refute a lower bound; and the model-guided retriev
 50-claim sample, so scaling it to the full corpus and auditing its precision against human relevance
 judgments is the natural next step. (2) \emph{Claim extraction is now validated, not assumed.} Earlier drafts flagged extraction as an
 unchecked confound; \S\ref{sec:res-extraction} closes that gap with no human coders. The extractor
-matches human check-worthiness labels at the CheckThat! state of the art ($F_1$ $0.74$, $\kappa=0.53$),
-$95\%$ of its claims are entailed by their source release (so fabrication is rare), and its yield is
-party-balanced ($7.1$ vs $7.3$ claims per release)---correcting an earlier mis-estimate that had treated
-yield as confounded. The residual extraction limitation is recall, not bias: at precision $0.83$ the
-extractor is deliberately conservative, so the corpus under-counts borderline empirical claims rather
+matches human check-worthiness labels at the CheckThat! state of the art ($F_1$ $0.74$; $\kappa=0.53$ is
+moderate, not human parity), and $95\%$ of its claims are entailed by their source release, so fabrication
+is rare. Yield needs care because conditional and unconditional rates differ: \emph{given} a release with
+empirical content the extractor is party-neutral ($7.1$ vs $7.3$ claims per release), but
+\emph{unconditionally} Democratic releases yield more ($2.9$ vs $0.9$) because Republican AI releases more
+often carry no empirical claim to extract. So extraction itself is not biased, but the Republican
+corroboration sample is thin (the conditional balance rests on six releases, and the refreshed window has
+no Republican AI releases), and we read the partisan corroboration contrast as Democratic-dominated and
+suggestive rather than tested. The residual extraction limitation is recall, not bias: at precision $0.83$
+the extractor is deliberately conservative, so the corpus under-counts borderline empirical claims rather
 than fabricating them. (3) \emph{Refute capability is real but nearly idle in the
 application.} The judge's strong \textsc{refute} detection on the benchmarks answers the worry that the
 pipeline cannot find disconfirming evidence, but relevance-seeking retrieval suppresses such evidence by

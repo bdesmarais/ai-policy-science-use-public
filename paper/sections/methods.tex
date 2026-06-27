@@ -80,7 +80,9 @@ that their agreement is informative \citep{zheng2023judging}.
   \item \textbf{Baselines.} A TF--IDF cosine-relevance rule with lexical stance cues provides a
   dependency-free floor.
 \end{itemize}
-All models run locally on a single consumer GPU (Apple M-series, Metal backend); the heaviest component
+All of these \emph{open} models run locally on a single consumer GPU (Apple M-series, Metal backend)---the
+proprietary judge, by contrast, does not run locally and is reached through a paid product (see
+disclosure); the heaviest local component
 is a 7B-parameter model in half precision.
 
 \paragraph{Open combiners.} Because the open models fail in complementary ways (NLI is strong on clean

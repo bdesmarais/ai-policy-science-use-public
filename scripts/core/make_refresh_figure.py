@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""make_refresh_figure.py — figure for the refreshed (last-12-month, fully-open) application."""
+"""make_refresh_figure.py — figure for the refreshed (last-12-month) application."""
 import json, os
 import matplotlib
 matplotlib.use("Agg")
@@ -26,21 +26,23 @@ ax1.set_ylim(0, max([r*100 for r in rate] + [1]) * 1.5)
 ax1.set_title("(a) AI engagement, last 12 months (to Jun 2026)")
 
 # (b) fresh corroboration (validated judge, Crossref retrieval)
-labels = ["raw\n(44 claims)", "excl. retrieval\nmisses (37)"]
+labels = ["end-to-end\n(44 claims)", "ceiling: perfect\nretrieval (37)"]
 vals = [C["corroboration_raw"], C["corroboration_excl_miss"]]
 lo = [C["wilson_raw"][0], None]
 hi = [C["wilson_raw"][1], None]
-bars = ax2.bar(labels, vals, color=["#4d4d4d", "#7fbf7b"], width=0.5)
+bars = ax2.bar(labels, vals, color=["#c0392b", "#cccccc"], width=0.5,
+               hatch=["", "//"], edgecolor=["#c0392b", "#888888"])
 ax2.errorbar(0, vals[0], yerr=[[vals[0]-C["wilson_raw"][0]], [C["wilson_raw"][1]-vals[0]]],
              fmt="none", ecolor="k", capsize=5)
-for b, v in zip(bars, vals):
-    ax2.text(b.get_x() + b.get_width()/2, v + 0.02, f"{v:.2f}", ha="center", va="bottom", fontsize=11)
+for b, v, w in zip(bars, vals, ["bold", "normal"]):
+    ax2.text(b.get_x() + b.get_width()/2, v + 0.02, f"{v:.2f}", ha="center", va="bottom",
+             fontsize=11, fontweight=w)
 ax2.axhline(0.71, ls="--", color="#888", lw=1)
 ax2.text(1.45, 0.715, "historical 0.71", fontsize=8, color="#666", ha="right")
 ax2.set_ylim(0, 1.0); ax2.set_ylabel("claim-corroboration rate")
-ax2.set_title("(b) Corroboration on fresh claims (open pipeline)")
+ax2.set_title("(b) End-to-end corroboration on fresh claims")
 
-fig.suptitle("Refreshed application: the fully-open pipeline on the last 12 months of AI claims",
+fig.suptitle("Refreshed application: model-guided pipeline, no second paid service, last 12 months",
              fontsize=11, y=1.02)
 fig.tight_layout()
 fig.savefig(OUT, dpi=150, bbox_inches="tight")

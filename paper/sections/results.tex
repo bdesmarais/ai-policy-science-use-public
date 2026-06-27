@@ -4,7 +4,7 @@
 \subsection{The pipeline, and where it is open}
 We instantiate the pipeline of \S\ref{sec:methods} end to end with no human coders. Claim extraction
 turns each legislative document into a set of empirical claims; for each claim we retrieve candidate
-references (\S\ref{sec:methods-pipeline} describes the two retrieval configurations); and each (claim,
+references (\S\ref{sec:methods-pipeline} describes the three retrieval configurations); and each (claim,
 reference) pair is assigned a stance---\textsc{support}, \textsc{refute}, or \textsc{silent}---by a
 high-capacity LLM judge, a panel of three open-source models, and two natural-language-inference (NLI)
 classifiers. The open components---the NLI surrogate, the panel, OpenAlex retrieval, the
@@ -168,16 +168,19 @@ detects disconfirming evidence.}
 Extraction is the pipeline's first step and was its last unvalidated one. Three checks, none requiring
 new human coding, close that gap (Fig.~\ref{fig:extraction}).
 
-\emph{The extractor identifies check-worthy claims at the human ceiling.} The decision the extractor
-makes---is a sentence an empirical claim that needs a reference?---is the fact-checking task of
+\emph{The extractor identifies check-worthy claims at the published state of the art.} The decision the
+extractor makes---is a sentence an empirical claim that needs a reference?---is the fact-checking task of
 check-worthiness detection, for which ClaimBuster supplies ${\sim}23$k human-labelled US-debate sentences
 \citep{hassan2017claimbuster}. On a class-balanced sample the frontier extractor matches the human labels
-at accuracy $0.77$ and $F_1$ $0.74$ (Cohen's $\kappa=0.53$), at or above the CheckThat! state of the art
-of ${\sim}0.70$ $F_1$ \citep{barron2020checkthat}, with high precision ($0.83$) and more conservative
+at accuracy $0.77$ and $F_1$ $0.74$, comparable to the CheckThat! shared-task state of the art of
+${\sim}0.70$ $F_1$ \citep{barron2020checkthat} (with the caveat that our sample is balanced whereas that
+figure is on the natural, imbalanced distribution), with high precision ($0.83$) and more conservative
 recall ($0.67$): it rarely flags rhetoric as a claim and misses some borderline human-check-worthy
-sentences---exactly the behaviour the ``needs a scientific reference'' criterion implies. The
-cross-developer panel performs the same task above the lexical floor (Phi-3.5 $F_1$ $0.63$ vs $0.56$ for
-TF--IDF), so this is task competence, not self-preference.
+sentences---exactly the behaviour the ``needs a scientific reference'' criterion implies. Its agreement
+with the human labels, Cohen's $\kappa=0.53$, is \emph{moderate}, not a ceiling; we did not compute
+ClaimBuster's own inter-annotator agreement, so we claim state-of-the-art performance, not human parity.
+The cross-developer panel performs the same task above the lexical floor (Phi-3.5 $F_1$ $0.63$ vs $0.56$
+for TF--IDF), so this is task competence, not self-preference.
 
 \emph{Extracted claims are faithful to their source.} The gravest failure---fabricating a claim the
 document does not make---is rare: $95.2\%$ of the $785$ extracted policy claims are entailed by their own
@@ -186,14 +189,19 @@ Inspecting the lowest-entailment cases, they are overwhelmingly paraphrases or c
 several sentences that the entailment model misses, not inventions. Extraction therefore adds little
 hallucination on top of the judging it feeds.
 
-\emph{Yield is party-neutral.} Extraction also does not silently bias the partisan comparison through
-yield: conditional on a release that yields any claims, the extractor returns $7.1$ claims per Democratic
-release versus $7.3$ per Republican---balanced. What differs is that Republican AI releases more often
-yield \emph{zero} claims, because they are procedural bill announcements with no empirical content---the
-extractor correctly declining, the same precision the check-worthiness test confirms. The per-claim
-comparison is thus not an artefact of extraction behaviour. With the judging step benchmark-validated, the
-retrieval step open and verifiable, and now extraction checked for faithfulness, precision, and
-neutrality, the one validation the design still forecloses is the in-domain human audit of the judge on
+\emph{Yield: balanced per content-bearing release, but unequal unconditionally.} We separate two
+quantities the earlier draft had conflated. \emph{Conditional} on a release that yields any claims, the
+extractor returns $7.1$ claims per Democratic release versus $7.3$ per Republican---balanced, so the
+\emph{per-claim} machine behaviour does not differ by party. \emph{Unconditionally}, across all
+AI-flagged releases, the yields are $2.9$ (Democratic) versus $0.9$ (Republican): Republican AI releases
+far more often yield \emph{zero} claims, because they are procedural bill announcements with no empirical
+content the extractor correctly declines (the same precision the check-worthiness test confirms). So
+extraction does not bias the per-claim comparison, but it does mean the Republican corroboration sample is
+thin---the conditional balance rests on just six Republican releases, and the refreshed window contains no
+Republican AI releases at all. The partisan corroboration contrast is therefore effectively
+Democratic-dominated, and we read it as suggestive rather than a tested partisan effect. With judging
+benchmark-validated, retrieval open and verifiable, and extraction checked for faithfulness, precision,
+and yield, the one validation the design still forecloses is the in-domain human audit of the judge on
 application pairs (\S\ref{sec:discussion}).
 
 \begin{figure}[t]
@@ -311,10 +319,10 @@ California Assembly press releases.}
 \label{fig:engage}
 \end{figure}
 
-\subsection{The refreshed pipeline on current data: no proprietary component anywhere}
+\subsection{The refreshed pipeline on current data: no second paid service, no proprietary retrieval}
 \label{sec:res-refresh}
-To show the pipeline runs end to end on \emph{current} material with \emph{no} proprietary retrieval and
-no second paid service, we refreshed the corpus through the most recent twelve months (to June 2026),
+To show the pipeline runs end to end on \emph{current} material with no proprietary retrieval and no
+second paid service, we refreshed the corpus through the most recent twelve months (to June 2026),
 re-scraping both caucus archives from their sitemaps (\S\ref{sec:methods-corpus}). The window yields
 $1{,}060$ Democratic releases and, from the sparser Republican caucus site, $50$; full-text AI detection
 flags $26$ Democratic releases as AI-related ($2.5\%$) and---tellingly---\emph{none} of the Republican
@@ -324,30 +332,38 @@ span the live 2025--26 agenda: AI companion-chatbot child safety, data-center wa
 demand, algorithmic price-fixing, AI in healthcare, AI and workforce displacement, and AI biosecurity
 (Fig.~\ref{fig:refresh}).
 
-We then run the \emph{fully open} pipeline on these fresh claims: the same frontier model writes a
-claim-targeted query, the query hits a free index, and the benchmark-validated judge reads the best
-on-topic result. Because OpenAlex rate-limited the bulk run, retrieval here used the Crossref fallback
-(\S\ref{sec:methods-corpus})---so this number contains no proprietary retrieval, no GPT-5, and no
-fabricated reference. The validated judge finds the retrieved literature corroborates $25$ of the $44$
-claims, refutes none, and is silent on the rest: a corroboration rate of $0.57$ (Wilson $95\%$
-$[0.42,0.70]$). Seven of the nineteen silents are \emph{retrieval} misses, where Crossref's relevance
-returned off-topic papers for generic data-center or biosecurity queries even though the claim is
-corroborated elsewhere in the literature (the same data-center-water claim is supported when the query
-lands); excluding those, corroboration is $0.68$ $[0.52,0.80]$. Both figures sit squarely in the range of
-the historical estimate, now reproduced on current data with an entirely open instrument. The honest
-residue is the same one the paper has carried throughout: $n$ is modest, the window is Democratic-only
-because Republican AI releases are nearly absent, and end-to-end accuracy is now bounded as much by
-open-index \emph{relevance} as by the judge.
+We then run the pipeline on these fresh claims with \emph{no proprietary retrieval and no second paid
+service}---though, to be exact, the single frontier model still performs the three language steps
+(extraction, query-writing, and judging), so this is the project's ``one proprietary model, nothing
+else paid'' configuration, not an open one. The model writes a claim-targeted query, the query hits a
+free index, and the benchmark-validated judge reads the best on-topic result; because OpenAlex
+rate-limited the bulk run, retrieval used the Crossref fallback (\S\ref{sec:methods-corpus})---real
+DOI-bearing records, no GPT-5, no fabricated reference. The validated judge finds the retrieved
+literature corroborates $25$ of the $44$ claims, refutes none, and is silent on the rest: an end-to-end
+corroboration rate of $\mathbf{0.57}$ (Wilson $95\%$ $[0.42,0.70]$), which counts the cases where open
+retrieval failed as non-corroborations, as it should. Seven of the nineteen silents are \emph{retrieval}
+misses, where Crossref's relevance returned off-topic papers for generic data-center or biosecurity
+queries; dropping those and quoting $0.68$ $[0.52,0.80]$ would be favorable selection---the rate among
+claims the retriever happened to serve---so we report $0.57$ as the number and treat $0.68$ only as a
+ceiling under perfect retrieval, not a co-equal estimate. What the refresh adds is \emph{scale, recency,
+and index-portability}, not \emph{validity}: $0.57$ is the validated judge reading references the same
+model retrieved, against no in-domain human labels, so it inherits the two open questions the paper
+carries throughout---the judge is exercised on noisy application pairs rather than the curated pairs it
+was validated on, and the retrieval relevance that gates it is self-assessed. It sits in the range of the
+historical estimate, now on current data with no second paid service, and the decisive in-domain human
+audit (\S\ref{sec:discussion}) it does \emph{not} replace.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.95\textwidth]{fig_refresh.png}
-\caption{The refreshed pipeline on the most recent twelve months (to June 2026), with no proprietary
-component anywhere. (a) AI engagement: $26$ of $1{,}054$ Democratic releases are AI-related ($2.5\%$)
-versus $0$ of $49$ on the sparser Republican caucus site. (b) Corroboration of the $44$ freshly extracted
-empirical AI claims under the fully-open pipeline (model-guided queries $\rightarrow$ free Crossref index
-$\rightarrow$ benchmark-validated judge): $0.57$ raw (Wilson $95\%$ CI shown), $0.68$ excluding seven
-retrieval misses, both near the historical estimate (dashed).}
+\caption{The refreshed pipeline on the most recent twelve months (to June 2026), run with no proprietary
+retrieval and no second paid service (the single frontier model still does extraction, query-writing,
+and judging). (a) AI engagement: $26$ of $1{,}054$ Democratic releases are AI-related ($2.5\%$) versus
+$0$ of $49$ on the sparser Republican caucus site. (b) The end-to-end corroboration rate of the $44$
+freshly extracted claims (model-guided queries $\rightarrow$ free Crossref index $\rightarrow$
+benchmark-validated judge) is $0.57$ (Wilson $95\%$ CI shown), counting retrieval failures as
+non-corroborations; $0.68$ is shown only as a ceiling under perfect retrieval---dropping seven retrieval
+misses---not a co-equal estimate. Dashed line: the historical rate.}
 \label{fig:refresh}
 \end{figure}
 

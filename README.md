@@ -24,10 +24,12 @@
 > - **Refreshed through June 2026.** The corpus is kept current: both caucus archives (asmdc.org,
 >   asmrc.org) are re-scraped from their sitemaps for the last 12 months (`fetch_refresh_releases.py`),
 >   yielding 26 fresh Democratic AI releases (and ~0 Republican — a real asymmetry) → 44 fresh AI claims.
->   Re-running the **fully-open** pipeline on them (model-guided queries → free index → validated judge,
->   **no proprietary retrieval at all**) reproduces corroboration ≈ **0.57–0.68**, near the historical
->   rate, on current claims. Retrieval is **index-agnostic** — OpenAlex *or* **Crossref** (the free DOI
->   registry) as a drop-in fallback (`crossref_retrieval.py`), used here because OpenAlex rate-limited.
+>   Re-running the pipeline on them with **no proprietary retrieval and no second paid service**
+>   (model-guided queries → free index → validated judge; the single frontier model still does the
+>   language steps) gives an end-to-end corroboration of **0.57** [0.42,0.70] (0.68 is only a *ceiling*
+>   under perfect retrieval, not a co-equal estimate), near the historical rate, on current claims. The
+>   refresh adds recency/scale/index-portability, **not validity**. Retrieval is **index-agnostic** —
+>   OpenAlex *or* **Crossref** (the free DOI registry) as a drop-in fallback (`crossref_retrieval.py`).
 > - **Extraction is now validated too (no human coders).** The extractor matches human check-worthiness
 >   labels (ClaimBuster) at the published SOTA (F1 **0.74**, κ 0.53); **95%** of extracted claims are
 >   entailed by their source release (faithfulness — rarely fabricates); yield is party-balanced (7.1 vs

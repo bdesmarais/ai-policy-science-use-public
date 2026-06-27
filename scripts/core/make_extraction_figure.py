@@ -32,7 +32,7 @@ for b, v in zip(bars, f1s):
 ax1.axhspan(0.69, 0.71, color="#7fbf7b", alpha=0.35)
 ax1.text(len(names)-1, 0.705, "CheckThat! SOTA ~0.70", fontsize=8, color="#3a7d3a", ha="right", va="bottom")
 ax1.set_ylim(0, 0.9); ax1.set_ylabel("F1 vs human check-worthiness")
-ax1.set_title("(a) Extractor identifies check-worthy claims\nat the human-anchored ceiling")
+ax1.set_title("(a) Extractor identifies check-worthy claims\nat the published state of the art")
 
 # (b) faithfulness grounding by party + yield
 parties = ["Democratic", "Republican"]

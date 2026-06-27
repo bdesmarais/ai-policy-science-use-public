@@ -50,9 +50,11 @@ pairs via prediction-powered inference, and apply the pipeline to a decade of Ca
 releases on artificial intelligence: Democrats engage with AI far more than Republicans, while the rate at
 which each party's claims are corroborated by the retrieved literature is similar across parties. We keep
 the corpus current, re-scraping both caucus archives through the most recent twelve months (to June 2026)
-and re-running the pipeline with \emph{no} proprietary retrieval at all---model-guided queries over the
-free Crossref index when OpenAlex rate-limits, which incidentally shows the approach is index-portable---to
-reproduce a corroboration rate near the historical one on current claims. We are deliberately explicit
+and re-running the pipeline with no proprietary retrieval and no second paid service---model-guided
+queries over the free Crossref index when OpenAlex rate-limits, which incidentally shows the approach is
+index-portable, the single frontier model still doing the language steps---to reproduce a corroboration
+rate near the historical one on current claims (this adds recency and scale, not validity). We are
+deliberately explicit
 about scope. The \emph{judging} step is validated, but only on benchmark pairings in
 which claim and evidence are already topically matched; the pipeline now runs on one frontier model plus
 free resources, with both the judge labels and the model-guided queries committed as static data that only
