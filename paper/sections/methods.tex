@@ -154,9 +154,12 @@ them plainly. First, the gold labeler is the LLM judge, so the intervals are val
 in-domain transfer we cannot yet test (\S\ref{sec:discussion}). Second, the efficiency gain from the
 surrogate is small here: on the policy corpus the NLI labels are nearly constant (almost all
 \textsc{silent}), so the surrogate variance term nearly vanishes and the estimate reduces to the judge's
-mean on the gold sample ($n=60$ pairs per party). PPI thus functions as valid inference for the judge's
-labels on a small gold sample, not as a large variance reduction from a strong surrogate, and we present
-the precision accordingly.
+mean on the gold sample. For the application we judge a stratified gold sample of $56$ claims spanning the
+full AI corpus---$45$ Democratic claims drawn at random and all $11$ Republican empirical claims for which
+the index returned references---and report Wilson intervals on the judge's labels
+(\texttt{historical\_corroboration.json}). PPI thus functions as valid inference for the judge's labels on
+a gold sample, not as a large variance reduction from a strong surrogate, and we present the precision
+accordingly.
 
 \subsection{Corpus and reproducibility}
 \label{sec:methods-corpus}

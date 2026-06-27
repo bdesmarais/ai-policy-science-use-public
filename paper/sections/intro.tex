@@ -1,15 +1,22 @@
 \section{Introduction}
 \label{sec:intro}
 
-Whether policymakers use scientific evidence, and whether the evidence they invoke actually supports
-the claims they make, is a central question for the study of evidence-based policymaking
-\citep{oliver2022works,bogenschneider2019revisiting,weiss1979many}. Answering it at scale has been
-blocked by a measurement bottleneck. Establishing that a given scientific study \emph{supports},
-\emph{refutes}, or is \emph{silent} on a specific empirical claim in a press release, floor speech, or
-bill is a judgment that has historically required trained human coders reading both the claim and the
-underlying science \citep{grimmer2013text}. Expert coding is slow, expensive, and hard to reproduce,
-so studies of evidence use have been confined to small samples or coarse proxies, and cannot keep pace
-with the volume of modern political communication.
+Adjudicating whether a body of evidence \emph{supports}, \emph{refutes}, or is \emph{silent} on a specific
+empirical claim is one of the most demanding measurement tasks in the quantitative social and information
+sciences. It is the judgment behind automated fact-checking, systematic review and evidence synthesis,
+misinformation detection, and the study of how science enters public decisions---and in each it has
+historically required trained human coders reading both the claim and the underlying science
+\citep{grimmer2013text}. Expert coding is slow, expensive, and hard to reproduce, so work of this kind has
+been confined to small samples or coarse proxies and cannot keep pace with the volume of modern
+communication. A general, \emph{trustworthy}, and reproducible way to make this judgment at scale would
+matter wherever text must be checked against evidence.
+
+We build such an instrument and demonstrate it on a question of independent importance: whether the
+scientific record corroborates the empirical claims that legislators make, a central concern for the study
+of evidence-based policymaking \citep{oliver2022works,bogenschneider2019revisiting,weiss1979many}. The
+choice is deliberate---political claims are contested, the evidence is retrieved rather than cited, and the
+stakes of a partisan measurement error are high---so a method that earns trust here transfers readily to
+the easier settings above.
 
 Large language models (LLMs) appear to dissolve this bottleneck. Across political science and
 computational social science, instruction-tuned LLMs now match or exceed trained human coders on stance
@@ -85,3 +92,15 @@ human audit is a \emph{complementary} check on the joint pipeline rather than th
 no-human-coder design forecloses (\S\ref{sec:discussion}). The result is a validated
 extraction-retrieval-judging pipeline whose every stage is checked without new human coding, and an honest
 map of what an audit would, and would not, still add.
+
+The contribution we most want to foreground is methodological and travels well beyond this application.
+The central difficulty in deploying an autonomous LLM measurement instrument is not building it but
+\emph{trusting} it without the human gold standard that licensing such instruments normally requires. We
+show that benchmark transfer---validating each stage against \emph{existing} human-labeled data for the
+identical sub-task, and quantifying where the validation does and does not reach---can substitute for fresh
+in-domain coding, and that a party-blind design neutralizes the specific failure mode (partisan-cue
+sensitivity) that makes LLM judging of political text hazardous. The same recipe applies wherever claims
+must be measured against evidence at a scale human coders cannot meet and where a gold standard is scarce,
+costly, or itself noisy: evidence synthesis, fact-checking, misinformation surveillance, and the empirical
+study of science in society. The policy application is the demonstration; the transferable, honestly
+bounded validation methodology is the result.

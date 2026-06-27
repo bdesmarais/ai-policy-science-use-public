@@ -282,8 +282,18 @@ humans agree well (unlike stance on contested claims), and SciFact's human evide
 ready test: the cited abstract is on-topic for a claim, a random abstract is not. On $120$ such pairs the
 model's relevance judgment matches the human labels at $96\%$ accuracy with \emph{perfect precision}
 ($1.00$; it never calls an off-topic paper relevant) and $0.92$ recall, and the cross-developer panel again
-clears the lexical floor (\texttt{relevance\_validation.py}). The relevance step is therefore independently
-validated against human labels, not merely self-asserted---and validated precisely where humans are reliable.
+clears the lexical floor (\texttt{relevance\_validation.py}). We are deliberately careful about what this
+does and does not establish. The negatives here are random abstracts, so the test exercises the
+\emph{easy} discrimination---telling a cited paper from an unrelated one---and the perfect precision means
+the model is reliable on exactly that case, ruling out the worst failure mode. It does \emph{not} certify
+the \emph{hard} discrimination the application actually meets: telling an on-point paper from a
+topically-adjacent one, the data-center paper that is not about water, which is where the application's
+retrieval misses live (\S\ref{sec:res-refresh}). The honest indicator of that hard boundary is already in
+our validation: it is AVeriTeC's retrieved-but-insufficient (\textsc{not-enough-evidence}) class, on which
+the judge's errors concentrate ($9$ of $15$, \S\ref{sec:res-application-validation}). The complete
+statement is therefore that the model rejects obvious mismatches reliably ($96\%$, precision $1.00$) but is
+uncertain precisely on the retrieved-but-adjacent boundary; a cited-versus-same-topic relevance test is the
+clean way to close that boundary directly, and we flag it as the next step.
 
 \emph{Abstention.} Naive keyword search cannot decline: it returned references for $19$ of the $20$
 non-empirical claims---legal rulings (\emph{De La Torre v.\ CashCall}), legislative-procedure statements,
@@ -334,22 +344,41 @@ descriptive, not as a tested effect (\S\ref{sec:discussion}).
 \emph{How often the nearest literature corroborates the claims.} For each extracted claim the model-guided
 pipeline retrieves the topically-nearest literature and the benchmark-validated judge assesses support;
 because the cheap NLI surrogate is near-constant on policy text, the prediction-powered estimate reduces in
-practice to the judge's mean on the labelled sample (\S\ref{sec:methods-ppi}). On the AI corpus the judge
-corroborates a majority of empirical claims---an end-to-end rate of $0.57$ ($95\%$ CI $[0.42,0.70]$) on the
-most recent twelve-month window (\S\ref{sec:res-refresh}), counting retrieval failures as
-non-corroborations. Two honest qualifications travel with this number. First, it is the quantity in which
-the model's stages stack---LLM-extracted claims scored by an LLM judge---so although each stage is
-independently validated against human labels (extraction, \S\ref{sec:res-extraction}; retrieval relevance,
-\S\ref{sec:res-retrieval}; stance, \S\ref{sec:res-application-validation}), the \emph{joint} behaviour on
-this corpus is not separately human-audited. Second, the construct is only as sharp as human agreement
-allows: when trained annotators agree only moderately on whether evidence supports a contested claim
-(Climate-FEVER $\alpha=0.33$), a corroboration rate carries construct ambiguity, not merely sampling
-uncertainty. We read the level cautiously on two further grounds: relevance-seeking retrieval bounds
-corroboration from above---it does not search for disconfirming evidence---and press releases are advocacy,
-so a high rate reflects selective citation of favourable science as much as evidence quality. The robust
-partisan asymmetry is therefore in the \emph{volume} of AI engagement, not in corroboration: Republican AI
-releases are too few, and too often non-empirical (\S\ref{sec:res-extraction}), to support a partisan
-corroboration comparison, which we do not attempt.
+practice to the judge's mean on the labelled sample (\S\ref{sec:methods-ppi}). Over a
+stratified sample spanning the full corpus---$45$ Democratic claims and all $11$ Republican empirical
+claims for which the index returned references---the judge corroborates $34$, refutes none, and is silent
+on the rest: an end-to-end corroboration rate of $\mathbf{0.61}$ ($95\%$ CI $[0.48,0.72]$), counting the
+cases where retrieval failed to surface relevant evidence as non-corroborations. The rate is similar across
+parties (Democratic $0.60$ $[0.46,0.73]$; Republican $0.64$ $[0.35,0.85]$, on a thin eleven-claim base), so
+the robust partisan asymmetry is in the \emph{volume} of AI engagement, not in how well each party's claims
+are corroborated; the most recent twelve-month window reproduces the level independently ($0.57$
+$[0.42,0.70]$, \S\ref{sec:res-refresh}) (Fig.~\ref{fig:corr}). Three honest qualifications travel with the
+number. First, it is
+the quantity in which the model's stages stack---LLM-extracted claims scored by an LLM judge---so although
+each stage is independently validated against human labels (extraction, \S\ref{sec:res-extraction};
+retrieval relevance, \S\ref{sec:res-retrieval}; stance, \S\ref{sec:res-application-validation}), the
+\emph{joint} behaviour on this corpus is not separately human-audited. Second, the construct is only as
+sharp as human agreement allows: when trained annotators agree only moderately on whether evidence supports
+a contested claim (Climate-FEVER $\alpha=0.33$), a corroboration rate carries construct ambiguity, not
+merely sampling uncertainty. Third, about two in five claims fall to \textsc{silent}, many of them
+retrieval misses where the free index returned a topically-adjacent paper rather than the specific study a
+claim invokes; the rate is thus computed among the claims the index served, with misses counted against it,
+and is read as a lower bound for that reason and because relevance-seeking retrieval does not search for
+disconfirming evidence---and press releases are advocacy, so a high rate also reflects selective citation
+of favourable science as much as evidence quality.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.72\textwidth]{fig_corroboration.png}
+\caption{Model-guided corroboration of legislators' AI claims. The benchmark-validated judge reads the
+best on-topic reference the model retrieved from the free index for each claim; bars are the corroboration
+rate with Wilson $95\%$ intervals, counting retrieval misses as non-corroborations. The rate is similar
+across parties (Democratic $0.60$, $n{=}45$; Republican $0.64$, $n{=}11$) and the current twelve-month
+window ($0.57$, $n{=}44$) reproduces the corpus-wide estimate ($0.61$). No claim is \textsc{refuted}, a
+property of relevance-seeking retrieval that makes the rate an upper bound on disconfirmation and a lower
+bound on corroboration.}
+\label{fig:corr}
+\end{figure}
 
 \begin{figure}[t]
 \centering
@@ -359,10 +388,11 @@ California Assembly press releases.}
 \label{fig:engage}
 \end{figure}
 
-\subsection{Corroboration on the current corpus}
+\subsection{Replication on the current twelve-month window}
 \label{sec:res-refresh}
-The corpus extends through the most recent twelve months (to June 2026), collected by scraping both caucus
-archives from their sitemaps (\S\ref{sec:methods-corpus}). The window yields
+To check that the corpus-wide corroboration estimate is not an artifact of older material, we replicate it
+on data the model has never been run on before: the most recent twelve months (to June 2026), collected by
+scraping both caucus archives from their sitemaps (\S\ref{sec:methods-corpus}). The window yields
 $1{,}060$ Democratic releases and, from the sparser Republican caucus site, $50$; full-text AI detection
 flags $26$ Democratic releases as AI-related ($2.5\%$) and---tellingly---\emph{none} of the Republican
 posts, consistent with the partisan engagement gap and with the Republican caucus issuing few

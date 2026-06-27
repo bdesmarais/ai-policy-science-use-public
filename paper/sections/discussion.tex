@@ -85,7 +85,11 @@ check and could tighten the bound, and we would welcome one. The one place a sma
 clearly worth having was \emph{retrieval relevance}---the step a stance audit does not cover, and the one
 judgment on which humans are reliable---and we supply it by transfer:
 the model's relevance judgment matches SciFact's human relevance labels at $96\%$ with perfect precision
-(\S\ref{sec:res-retrieval}), so the retrieval step is human-anchored too. What remains for a human audit is
+(\S\ref{sec:res-retrieval}). That check certifies the easy discrimination (cited versus unrelated) and
+rules out the worst failure mode; the harder retrieved-but-adjacent boundary, where the application's
+misses live, is the one the judge is least certain on, shown by its concentration of errors in AVeriTeC's
+\textsc{not-enough-evidence} class, and a cited-versus-same-topic test is the clean way to close it. What
+remains for a human audit is
 the \emph{joint} behaviour of extraction, retrieval, and judging on this specific corpus; its marginal
 value, given that each stage is now checked against human labels and the judge sits within the
 human-agreement band on application-structure pairs, is smaller than it might appear, it is
@@ -139,9 +143,10 @@ is rare. Yield needs care because conditional and unconditional rates differ: \e
 empirical content the extractor is party-neutral ($7.1$ vs $7.3$ claims per release), but
 \emph{unconditionally} Democratic releases yield more ($2.9$ vs $0.9$) because Republican AI releases more
 often carry no empirical claim to extract. So extraction itself is not biased, but the Republican
-corroboration sample is thin (the conditional balance rests on six releases, and the current window has
-no Republican AI releases), and we read the partisan corroboration contrast as Democratic-dominated and
-suggestive rather than tested. The residual extraction limitation is recall, not bias: at precision $0.83$
+corroboration arm is thin---$11$ empirical claims with retrievable references---so although its rate
+($0.64$) is statistically indistinguishable from the Democratic rate ($0.60$), we read the cross-party
+\emph{comparison} as suggestive rather than tested and rest the partisan finding on engagement volume,
+which is robust. The residual extraction limitation is recall, not bias: at precision $0.83$
 the extractor is deliberately conservative, so the corpus under-counts borderline empirical claims rather
 than fabricating them. (3) \emph{Refute capability is real but nearly idle in the
 application.} The judge's strong \textsc{refute} detection on the benchmarks answers the worry that the
