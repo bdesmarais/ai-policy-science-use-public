@@ -45,10 +45,9 @@ validation.
 We treat stance assignment as an annotation problem and use validators that fail in different ways, so
 that their agreement is informative \citep{zheng2023judging}.
 \begin{itemize}
-  \item \textbf{LLM judge (proprietary).} A high-capacity instruction-tuned model (Claude Opus~4.8),
+  \item \textbf{LLM judge (frontier).} A high-capacity instruction-tuned model (Claude Opus~4.8),
   queried in context without fine-tuning, reads the claim and the reference title and abstract and
-  returns a stance label. We are explicit that this is a \emph{proprietary} frontier model: it does not
-  run locally, it is not free, and we do not present it as an open component (see disclosure). Models of
+  returns a stance label. It is a paid frontier model, not an open component (see disclosure). Models of
   this class match or exceed trained human coders on stance tasks
   \citep{gilardi2023chatgpt,heseltine2024llm,tornberg2025llm}; whether the \emph{open} alternatives below
   can replace it is one of our questions.
@@ -69,7 +68,7 @@ that their agreement is informative \citep{zheng2023judging}.
   dependency-free floor.
 \end{itemize}
 All of these \emph{open} models run locally on a single consumer GPU (Apple M-series, Metal backend)---the
-proprietary judge, by contrast, does not run locally and is reached through a paid product (see
+frontier judge, by contrast, does not run locally and is reached through a paid product (see
 disclosure); the heaviest local component
 is a 7B-parameter model in half precision.
 
@@ -94,7 +93,7 @@ real-world, often contested climate claims with retrieved evidence sentences, ea
 Both label schemes map onto our \textsc{support}/\textsc{refute}/\textsc{silent} classes.
 
 We run the NLI classifiers, the open-source panel, and the TF--IDF baseline on every benchmark pair
-programmatically. The proprietary judge we use deliberately sparsely (mirroring its gold-on-a-sample
+programmatically. The frontier judge we use deliberately sparsely (mirroring its gold-on-a-sample
 role): we draw a class-stratified sample, present each (claim, reference) pair \emph{blind to the gold
 label}, and record its stance---$n=66$ pairs on SciFact and $n=45$ on Climate-FEVER. To keep accuracies
 \emph{comparable}, we additionally evaluate every other validator on the \emph{exact} pairs the judge
@@ -170,7 +169,7 @@ kept current: in addition to the historical 2015--2025 material we \emph{refresh
 recent twelve months by re-scraping both caucus archives---the Assembly Democratic Caucus
 (\texttt{asmdc.org}) and the Assembly Republican Caucus (\texttt{asmrc.org})---from their published
 sitemaps, the same uniform method for both parties (\texttt{fetch\_refresh\_releases.py}); the latest
-window analysed here runs to June 2026 (\S\ref{sec:res-refresh}). The asymmetry between the two archives
+window analysed here runs to June 2026 (\S\ref{sec:res-application}). The asymmetry between the two archives
 is itself informative and we report it plainly: the Democratic archive is comprehensive and date-stamped,
 while the Republican caucus site indexes far fewer releases and essentially no AI-focused ones in the
 window.

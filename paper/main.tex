@@ -10,6 +10,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage[affil-it]{authblk}
 \graphicspath{{figures/}}
+\emergencystretch=3em
 \bibliographystyle{naturemag}
 \renewcommand\Authfont{\normalsize}
 \renewcommand\Affilfont{\itshape\small}
@@ -65,7 +66,7 @@ references, the scraped release text, and the figure scripts are publicly availa
 \url{https://github.com/bdesmarais/ai-policy-science-use-public}. The free
 components---OpenAlex and Crossref retrieval, the NLI surrogate, the open-source panel, the
 prediction-powered estimator, and all figures---regenerate from committed inputs with no paid service. The
-language steps depend on a single proprietary model, Claude Opus~4.8 (claim extraction, retrieval guidance,
+language steps depend on a single paid frontier model, Claude Opus~4.8 (claim extraction, retrieval guidance,
 and stance judging); its outputs are committed as static data and regenerate only with that model, exactly
 as frozen human labels would require the original coders. The validation benchmarks are SciFact,
 Climate-FEVER, and AVeriTeC.
@@ -83,11 +84,11 @@ The authors declare no competing interests.
 
 \section*{AI-assistance disclosure}
 This measurement instrument uses language models as components, and we disclose exactly which. A single
-proprietary frontier model, Claude Opus~4.8, performs the three language steps---claim extraction,
+frontier model, Claude Opus~4.8, performs the three language steps---claim extraction,
 retrieval guidance (targeted queries and abstention), and stance judging---used in context without
 fine-tuning. Everything else is free and runs locally on a single consumer GPU: the scalable surrogate
 (DeBERTa- and BART-MNLI), the cross-developer panel (Qwen2.5, Phi-3.5, OLMo-2) and their combiners, the
-OpenAlex and Crossref indices, and the estimator. We also report how far the one proprietary component can
+OpenAlex and Crossref indices, and the estimator. We also report how far the one paid component can
 itself be replaced: on the judging step a combined open stack reaches it without in-domain labels
 (\S\ref{sec:res-validation}). A high-capacity model also assisted in drafting and in executing the
 analysis; every cited reference was checked against a primary source, and all design decisions and claims

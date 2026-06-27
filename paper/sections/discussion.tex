@@ -10,7 +10,7 @@ more tellingly, holds up on contested Climate-FEVER claims where the cheap surro
 lexical floor. Because the benchmark text is human-written, this is not self-preference, and the judge holds up not only
 on curated pairs but on \emph{retrieved}-evidence pairs that share the application's structure (AVeriTeC),
 within the band of human disagreement. What keeps the \emph{pipeline} short of a fully closed instrument,
-and forms the spine of the honest account below, is narrower than it once was: a single proprietary judge
+and forms the spine of the honest account below, is narrower than it once was: a single frontier judge
 still leads on the hardest pairs (though \emph{combining} the open models narrows even that gap to within
 sampling noise), and although every stage is independently validated against human labels, the stages'
 \emph{joint} behaviour on a fresh in-domain sample is not separately audited.
@@ -43,8 +43,8 @@ figure is pairwise, so the honest reading is that the judge sits \emph{within th
 disagreement} by the alternative-annotator standard \citep{calderon2025alttest}, not that it ``exceeds''
 the humans. Two further caveats keep this to ``narrowed'' rather than ``closed'': AVeriTeC is general
 fact-checking rather than legislative AI, and its evidence was assembled to be adjudicable, whereas the
-application's keyword hits are frequently off-topic (the seven retrieval misses of
-\S\ref{sec:res-refresh} are exactly that). What is established is that the judge is within the human band
+application's keyword hits are frequently off-topic (the retrieval misses documented in
+\S\ref{sec:res-application} are exactly that). What is established is that the judge is within the human band
 on retrieved-evidence pairs---the case that is hardest to validate
 (Fig.~\ref{fig:band})---obtained, like the rest of our validation, from existing human labels with no
 in-domain coding.
@@ -101,16 +101,16 @@ evidence, we are clear, but not a complete substitute for one.
 
 \paragraph{A reusable methodology, honestly scoped.} What generalizes beyond AI policy is the
 \emph{methodology}: validate the judging step cheaply by benchmark transfer, propagate a small set of
-expensive proprietary-judge labels through a free surrogate by prediction-powered inference, and ground
+expensive frontier-judge labels through a free surrogate by prediction-powered inference, and ground
 references in an open index so the evidence base is auditable rather than fabricated. The cost profile
 this yields is deliberate and, we think, defensible: a \emph{single} frontier model performs the language
 steps---it extracts claims, guides retrieval over the free OpenAlex index (\S\ref{sec:res-retrieval}), and
 judges stance---while the surrogate, the open combiners, the index, and the estimator cost nothing. References are real
 records selected by the model from a free index rather than text it generated, so there is no
 citation-fabrication exposure. Two honest qualifications travel with the methodology. A single open model
-is competitive with the proprietary judge only on \emph{clean} pairs, but \emph{combining} the open models
+is competitive with the frontier judge only on \emph{clean} pairs, but \emph{combining} the open models
 (a stacker trained on public benchmark labels, no in-domain labels) reaches the judge on SciFact and
-narrows the Climate-FEVER gap to within sampling noise, so even the one proprietary component is, on the
+narrows the Climate-FEVER gap to within sampling noise, so even the one paid component is, on the
 judging step, largely replaceable. And while each stage is now independently validated against human
 labels---extraction against check-worthiness labels, stance against curated \emph{and}
 retrieved-evidence benchmarks, retrieval relevance against human relevance labels---what remains
@@ -126,7 +126,7 @@ we use the validated judge as the anchor and NLI as a surrogate corrected by pre
 inference rather than as a free-standing measure. Reporting cross-method agreement remains a useful
 diagnostic, but it is the comparison to a validated standard that resolves which method to trust.
 
-\paragraph{Limitations.} Beyond the proprietary-judge and pair-structure issues above, several limits
+\paragraph{Limitations.} Beyond the frontier-judge and pair-structure issues above, several limits
 temper the substantive findings. (1) \emph{Retrieval precision shapes the level, and is handled within
 the single-model design.} The measured corroboration level is highly sensitive to retrieval
 precision---broad keyword retrieval surfaces little claim-specific evidence and drives nearly all pairs to

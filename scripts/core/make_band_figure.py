@@ -30,8 +30,7 @@ ax.set_xticks(list(x))
 ax.set_xticklabels([f"{d[0]}\n{d[1]}" for d in data], fontsize=9)
 ax.set_ylabel("chance-corrected agreement")
 ax.set_ylim(0, 0.9)
-ax.set_title("The judge sits within the band of human disagreement across the curated-to-retrieved\n"
-             "spectrum---including the retrieved-evidence benchmarks whose pair structure matches the application",
+ax.set_title("Judge agreement within the band of human disagreement, curated to retrieved evidence",
              fontsize=10)
 ax.legend(loc="upper right", fontsize=9)
 ax.annotate("application-like\n(retrieved, noisy)", xy=(1.5, 0.05), fontsize=8.5, color="#7a3a3a",

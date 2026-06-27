@@ -31,19 +31,16 @@ ax1.set_ylim(0, 1.12); ax1.set_ylabel("rate"); ax1.set_title("(a) Claim-targeted
 ax1.legend(loc="upper center", fontsize=9, framealpha=0.9)
 ax1.axhline(0, color="k", lw=0.6)
 
-# Panel b: DOI / verifiability rate
-labels = ["Naive\nOpenAlex", "Claude\nOpenAlex", "GPT-5\ngenerative"]
-vals = [doi["naive_openalex"], doi["claude_openalex"], 0.31]  # 0.31 = midpoint of reported 0.27-0.35
-colors = ["#b0b0b0", "#c0392b", "#5b6770"]
-bars = ax2.bar(labels, vals, color=colors, width=0.6)
-ax2.errorbar(2, 0.31, yerr=[[0.04], [0.04]], fmt="none", ecolor="k", capsize=4)
+# Panel b: DOI / verifiability rate (model-guided vs naive over the free index)
+labels = ["Naive\nOpenAlex", "Model-guided\nOpenAlex"]
+vals = [doi["naive_openalex"], doi["claude_openalex"]]
+colors = ["#b0b0b0", "#c0392b"]
+bars = ax2.bar(labels, vals, color=colors, width=0.5)
 for b, v in zip(bars, vals):
     ax2.text(b.get_x() + b.get_width()/2, v + 0.02, f"{v:.2f}", ha="center", va="bottom", fontsize=10)
 ax2.set_ylim(0, 1.05); ax2.set_ylabel("fraction of references with a DOI")
 ax2.set_title("(b) Verifiability of retrieved references")
 
-fig.suptitle("A single frontier model can do the retrieval: claim-targeted, abstaining, and fully verifiable",
-             fontsize=11, y=1.02)
 fig.tight_layout()
 fig.savefig(OUT, dpi=150, bbox_inches="tight")
 print("wrote", OUT)

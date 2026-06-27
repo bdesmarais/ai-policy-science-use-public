@@ -53,8 +53,6 @@ ax2b.set_ylim(0, 10); ax2b.set_ylabel("claims per release")
 ax2.set_title("(b) Faithful to source, and party-neutral in yield")
 ax2.legend(loc="upper left", fontsize=8); ax2b.legend(loc="upper right", fontsize=8)
 
-fig.suptitle("Validating claim extraction without human coders: check-worthiness, faithfulness, yield neutrality",
-             fontsize=10.5, y=1.02)
 fig.tight_layout()
 fig.savefig(OUT, dpi=150, bbox_inches="tight")
 print("wrote", OUT)
