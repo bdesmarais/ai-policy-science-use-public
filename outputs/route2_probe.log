@@ -1,0 +1,5 @@
+[route2] retrieving k=20 (broad keyword) from OpenAlex per claim ...
+  retrieve fail 25: HTTP Error 429: Too Many Requests
+  retrieve fail 28: HTTP Error 429: Too Many Requests
+  retrieve fail 30: HTTP Error 429: Too Many Requests
+  retrieve fail 32: HTTP Error 429: Too Many Requests

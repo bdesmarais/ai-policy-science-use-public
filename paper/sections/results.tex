@@ -52,15 +52,45 @@ this central distinction rests on a small judge sample ($n=45$, $15$ per class, 
 support precision of $1.0$ from $11/11$); enlarging the Climate-FEVER judge set is the cheapest way to
 firm up the validation claim that carries the most weight, and we mark it as the first robustness step.
 
+\paragraph{Combining the open models closes much of the gap.} The single open models lag the judge, but
+they fail in \emph{different} ways---NLI is strong on clean SciFact and collapses on lay Climate-FEVER,
+the small panel is the reverse---so an ensemble can recover what any one member misses
+(Fig.~\ref{fig:ensemble}). Combining the five open models with \emph{no new in-domain labels} does
+exactly this. A label-free majority vote already beats every single open model on SciFact ($0.74$ full
+accuracy). A \emph{stacker} trained only on the \emph{public} benchmark gold (five-fold out-of-fold, with
+text features fit inside each fold so no test text leaks) reaches \textbf{$0.83$ $[0.73,0.90]$} on the
+judge's SciFact pairs---above the judge's $0.80$, intervals overlapping---and $0.69$ $[0.54,0.81]$ on
+Climate-FEVER, overlapping the judge's $[0.64,0.88]$ though the judge keeps a higher point estimate
+($0.78$). On the judging step, then, the open--closed gap is smaller than the single-model rows suggest:
+a combined open stack \emph{matches} the proprietary judge on clean pairs and narrows the hard-task gap
+to within sampling noise at $n=45$. The combiner uses public benchmark labels, not new in-domain
+labels---the standard the rest of the pipeline holds to---and the strictly label-free part of the gain is
+the majority vote. This sharpens, rather than softens, the paper's scope claim: the judging step does
+not require a proprietary model; the binding constraint on the \emph{application} remains retrieval
+(\S\ref{sec:res-robustness}), which ensembling does not touch.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{fig_open_ensemble.png}
+\caption{Combining the five open models closes much of the gap to the proprietary judge. A label-free
+majority vote beats every single open model; a stacker trained only on public benchmark gold (no
+in-domain labels) reaches the judge on SciFact (0.83 vs 0.80 on the judge's pairs) and narrows the
+Climate-FEVER gap to within sampling noise, while the judge retains a higher Climate-FEVER point
+estimate. Bars are accuracy with Wilson 95\% intervals.}
+\label{fig:ensemble}
+\end{figure}
+
 \begin{table}[t]
 \centering
 \caption{Accuracy (Wilson 95\% CI) of every validator on the \emph{same} pairs the proprietary judge
 labelled---$n=66$ on SciFact, $n=45$ on Climate-FEVER---so the comparison is like-for-like rather than
 across different samples. On clean SciFact pairs the open NLI surrogate is statistically
 not separated from the proprietary judge at $n{=}66$ (overlapping intervals mean the gap is unresolved,
-not that the methods are equivalent); the judge's advantage appears only on
-the harder, more policy-like Climate-FEVER claims. Bottom rows compare the judge's Cohen's $\kappa$ with
-the gold to the human inter-annotator agreement each benchmark reports.}
+not that the methods are equivalent); the judge's single-model advantage appears only
+on the harder, more policy-like Climate-FEVER claims. The \emph{combined} open methods close much of that
+gap: a public-benchmark-trained stacker (no in-domain labels) reaches the judge on SciFact (0.83 vs 0.80)
+and overlaps it on Climate-FEVER. Bottom rows compare the judge's Cohen's $\kappa$ with the gold to the
+human inter-annotator agreement each benchmark reports.}
 \label{tab:validation}
 \begin{tabular}{lcc}
 \toprule
@@ -73,6 +103,10 @@ Qwen2.5-3B-Instruct    & 0.70 [0.58, 0.79] & 0.56 [0.41, 0.69] \\
 Phi-3.5-mini-instruct  & 0.53 [0.41, 0.65] & 0.67 [0.52, 0.79] \\
 OLMo-2-7B-Instruct     & 0.53 [0.41, 0.65] & 0.51 [0.37, 0.65] \\
 TF--IDF (lexical floor) & 0.44 [0.33, 0.56] & 0.42 [0.29, 0.57] \\
+\midrule
+\multicolumn{3}{l}{\emph{Combined open methods (no in-domain labels):}}\\
+\quad Open majority vote (zero-shot) & 0.77 [0.66, 0.86] & 0.58 [0.43, 0.71] \\
+\quad Open stacker (public-benchmark-trained) & \textbf{0.83 [0.73, 0.90]} & 0.69 [0.54, 0.81] \\
 \midrule
 \emph{Judge} $\kappa$ vs.\ gold & 0.71 & 0.67 \\
 Human inter-annotator agreement & $\kappa=0.75$ & $\alpha=0.33$ \\

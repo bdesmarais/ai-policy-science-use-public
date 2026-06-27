@@ -1,0 +1,594 @@
+{
+  "scifact": {
+    "benchmark": "scifact",
+    "n_pairs": 339,
+    "judge": {
+      "accuracy": 0.803,
+      "n": 66,
+      "acc_ci95": [
+        0.692,
+        0.881
+      ]
+    },
+    "full": {
+      "nli_deberta": {
+        "n": 339,
+        "accuracy": 0.702,
+        "acc_ci95": [
+          0.651,
+          0.748
+        ],
+        "macro_f1": 0.689,
+        "per_class_f1": {
+          "support": 0.72,
+          "refute": 0.627,
+          "silent": 0.721
+        }
+      },
+      "nli_bart": {
+        "n": 339,
+        "accuracy": 0.705,
+        "acc_ci95": [
+          0.654,
+          0.751
+        ],
+        "macro_f1": 0.696,
+        "per_class_f1": {
+          "support": 0.701,
+          "refute": 0.653,
+          "silent": 0.733
+        }
+      },
+      "llm:Qwen/Qwen2.5-3B-Instruct": {
+        "n": 339,
+        "accuracy": 0.637,
+        "acc_ci95": [
+          0.585,
+          0.687
+        ],
+        "macro_f1": 0.618,
+        "per_class_f1": {
+          "support": 0.672,
+          "refute": 0.507,
+          "silent": 0.676
+        }
+      },
+      "llm:microsoft/Phi-3.5-mini-instruct": {
+        "n": 339,
+        "accuracy": 0.56,
+        "acc_ci95": [
+          0.507,
+          0.612
+        ],
+        "macro_f1": 0.487,
+        "per_class_f1": {
+          "support": 0.652,
+          "refute": 0.267,
+          "silent": 0.543
+        }
+      },
+      "llm:allenai/OLMo-2-1124-7B-Instruct": {
+        "n": 339,
+        "accuracy": 0.599,
+        "acc_ci95": [
+          0.546,
+          0.65
+        ],
+        "macro_f1": 0.477,
+        "per_class_f1": {
+          "support": 0.649,
+          "refute": 0.1,
+          "silent": 0.683
+        }
+      },
+      "tfidf": {
+        "n": 339,
+        "accuracy": 0.499,
+        "acc_ci95": [
+          0.446,
+          0.551
+        ],
+        "macro_f1": 0.475,
+        "per_class_f1": {
+          "support": 0.479,
+          "refute": 0.316,
+          "silent": 0.63
+        }
+      },
+      "majority": {
+        "n": 339,
+        "accuracy": 0.74,
+        "acc_ci95": [
+          0.691,
+          0.784
+        ],
+        "macro_f1": 0.714,
+        "per_class_f1": {
+          "support": 0.748,
+          "refute": 0.597,
+          "silent": 0.796
+        }
+      },
+      "xfer_vote": {
+        "n": 339,
+        "accuracy": 0.714,
+        "acc_ci95": [
+          0.664,
+          0.759
+        ],
+        "macro_f1": 0.688,
+        "per_class_f1": {
+          "support": 0.726,
+          "refute": 0.565,
+          "silent": 0.773
+        }
+      },
+      "stacker_lr": {
+        "n": 339,
+        "accuracy": 0.758,
+        "acc_ci95": [
+          0.71,
+          0.801
+        ],
+        "macro_f1": 0.74,
+        "per_class_f1": {
+          "support": 0.777,
+          "refute": 0.639,
+          "silent": 0.805
+        }
+      },
+      "stacker_gb": {
+        "n": 339,
+        "accuracy": 0.749,
+        "acc_ci95": [
+          0.701,
+          0.792
+        ],
+        "macro_f1": 0.727,
+        "per_class_f1": {
+          "support": 0.763,
+          "refute": 0.604,
+          "silent": 0.812
+        }
+      }
+    },
+    "judge_subset": {
+      "nli_deberta": {
+        "n": 66,
+        "accuracy": 0.758,
+        "acc_ci95": [
+          0.642,
+          0.845
+        ],
+        "macro_f1": 0.751,
+        "per_class_f1": {
+          "support": 0.8,
+          "refute": 0.667,
+          "silent": 0.786
+        }
+      },
+      "nli_bart": {
+        "n": 66,
+        "accuracy": 0.742,
+        "acc_ci95": [
+          0.626,
+          0.833
+        ],
+        "macro_f1": 0.745,
+        "per_class_f1": {
+          "support": 0.769,
+          "refute": 0.773,
+          "silent": 0.694
+        }
+      },
+      "llm:Qwen/Qwen2.5-3B-Instruct": {
+        "n": 66,
+        "accuracy": 0.697,
+        "acc_ci95": [
+          0.578,
+          0.794
+        ],
+        "macro_f1": 0.695,
+        "per_class_f1": {
+          "support": 0.683,
+          "refute": 0.684,
+          "silent": 0.717
+        }
+      },
+      "llm:microsoft/Phi-3.5-mini-instruct": {
+        "n": 66,
+        "accuracy": 0.53,
+        "acc_ci95": [
+          0.412,
+          0.646
+        ],
+        "macro_f1": 0.492,
+        "per_class_f1": {
+          "support": 0.588,
+          "refute": 0.308,
+          "silent": 0.579
+        }
+      },
+      "llm:allenai/OLMo-2-1124-7B-Instruct": {
+        "n": 66,
+        "accuracy": 0.53,
+        "acc_ci95": [
+          0.412,
+          0.646
+        ],
+        "macro_f1": 0.444,
+        "per_class_f1": {
+          "support": 0.561,
+          "refute": 0.091,
+          "silent": 0.679
+        }
+      },
+      "tfidf": {
+        "n": 66,
+        "accuracy": 0.455,
+        "acc_ci95": [
+          0.34,
+          0.574
+        ],
+        "macro_f1": 0.448,
+        "per_class_f1": {
+          "support": 0.435,
+          "refute": 0.389,
+          "silent": 0.52
+        }
+      },
+      "majority": {
+        "n": 66,
+        "accuracy": 0.773,
+        "acc_ci95": [
+          0.658,
+          0.857
+        ],
+        "macro_f1": 0.766,
+        "per_class_f1": {
+          "support": 0.773,
+          "refute": 0.703,
+          "silent": 0.824
+        }
+      },
+      "xfer_vote": {
+        "n": 66,
+        "accuracy": 0.727,
+        "acc_ci95": [
+          0.61,
+          0.82
+        ],
+        "macro_f1": 0.725,
+        "per_class_f1": {
+          "support": 0.723,
+          "refute": 0.703,
+          "silent": 0.75
+        }
+      },
+      "stacker_lr": {
+        "n": 66,
+        "accuracy": 0.833,
+        "acc_ci95": [
+          0.726,
+          0.904
+        ],
+        "macro_f1": 0.828,
+        "per_class_f1": {
+          "support": 0.87,
+          "refute": 0.757,
+          "silent": 0.857
+        }
+      },
+      "stacker_gb": {
+        "n": 66,
+        "accuracy": 0.788,
+        "acc_ci95": [
+          0.675,
+          0.869
+        ],
+        "macro_f1": 0.782,
+        "per_class_f1": {
+          "support": 0.809,
+          "refute": 0.703,
+          "silent": 0.833
+        }
+      }
+    }
+  },
+  "climate_fever": {
+    "benchmark": "climate_fever",
+    "n_pairs": 450,
+    "judge": {
+      "accuracy": 0.778,
+      "n": 45,
+      "acc_ci95": [
+        0.637,
+        0.875
+      ]
+    },
+    "full": {
+      "nli_deberta": {
+        "n": 450,
+        "accuracy": 0.507,
+        "acc_ci95": [
+          0.461,
+          0.553
+        ],
+        "macro_f1": 0.479,
+        "per_class_f1": {
+          "support": 0.273,
+          "refute": 0.647,
+          "silent": 0.518
+        }
+      },
+      "nli_bart": {
+        "n": 450,
+        "accuracy": 0.5,
+        "acc_ci95": [
+          0.454,
+          0.546
+        ],
+        "macro_f1": 0.461,
+        "per_class_f1": {
+          "support": 0.218,
+          "refute": 0.664,
+          "silent": 0.501
+        }
+      },
+      "llm:Qwen/Qwen2.5-3B-Instruct": {
+        "n": 450,
+        "accuracy": 0.56,
+        "acc_ci95": [
+          0.514,
+          0.605
+        ],
+        "macro_f1": 0.553,
+        "per_class_f1": {
+          "support": 0.555,
+          "refute": 0.633,
+          "silent": 0.469
+        }
+      },
+      "llm:microsoft/Phi-3.5-mini-instruct": {
+        "n": 450,
+        "accuracy": 0.627,
+        "acc_ci95": [
+          0.581,
+          0.67
+        ],
+        "macro_f1": 0.617,
+        "per_class_f1": {
+          "support": 0.696,
+          "refute": 0.609,
+          "silent": 0.546
+        }
+      },
+      "llm:allenai/OLMo-2-1124-7B-Instruct": {
+        "n": 450,
+        "accuracy": 0.522,
+        "acc_ci95": [
+          0.476,
+          0.568
+        ],
+        "macro_f1": 0.492,
+        "per_class_f1": {
+          "support": 0.594,
+          "refute": 0.315,
+          "silent": 0.566
+        }
+      },
+      "tfidf": {
+        "n": 450,
+        "accuracy": 0.333,
+        "acc_ci95": [
+          0.291,
+          0.378
+        ],
+        "macro_f1": 0.167,
+        "per_class_f1": {
+          "support": 0.0,
+          "refute": 0.0,
+          "silent": 0.5
+        }
+      },
+      "majority": {
+        "n": 450,
+        "accuracy": 0.611,
+        "acc_ci95": [
+          0.565,
+          0.655
+        ],
+        "macro_f1": 0.614,
+        "per_class_f1": {
+          "support": 0.581,
+          "refute": 0.688,
+          "silent": 0.574
+        }
+      },
+      "xfer_vote": {
+        "n": 450,
+        "accuracy": 0.591,
+        "acc_ci95": [
+          0.545,
+          0.636
+        ],
+        "macro_f1": 0.592,
+        "per_class_f1": {
+          "support": 0.555,
+          "refute": 0.646,
+          "silent": 0.576
+        }
+      },
+      "stacker_lr": {
+        "n": 450,
+        "accuracy": 0.669,
+        "acc_ci95": [
+          0.624,
+          0.711
+        ],
+        "macro_f1": 0.666,
+        "per_class_f1": {
+          "support": 0.759,
+          "refute": 0.689,
+          "silent": 0.551
+        }
+      },
+      "stacker_gb": {
+        "n": 450,
+        "accuracy": 0.596,
+        "acc_ci95": [
+          0.55,
+          0.64
+        ],
+        "macro_f1": 0.595,
+        "per_class_f1": {
+          "support": 0.687,
+          "refute": 0.609,
+          "silent": 0.49
+        }
+      }
+    },
+    "judge_subset": {
+      "nli_deberta": {
+        "n": 45,
+        "accuracy": 0.489,
+        "acc_ci95": [
+          0.35,
+          0.63
+        ],
+        "macro_f1": 0.452,
+        "per_class_f1": {
+          "support": 0.235,
+          "refute": 0.621,
+          "silent": 0.5
+        }
+      },
+      "nli_bart": {
+        "n": 45,
+        "accuracy": 0.511,
+        "acc_ci95": [
+          0.37,
+          0.65
+        ],
+        "macro_f1": 0.475,
+        "per_class_f1": {
+          "support": 0.222,
+          "refute": 0.69,
+          "silent": 0.512
+        }
+      },
+      "llm:Qwen/Qwen2.5-3B-Instruct": {
+        "n": 45,
+        "accuracy": 0.556,
+        "acc_ci95": [
+          0.412,
+          0.691
+        ],
+        "macro_f1": 0.528,
+        "per_class_f1": {
+          "support": 0.4,
+          "refute": 0.667,
+          "silent": 0.516
+        }
+      },
+      "llm:microsoft/Phi-3.5-mini-instruct": {
+        "n": 45,
+        "accuracy": 0.667,
+        "acc_ci95": [
+          0.521,
+          0.786
+        ],
+        "macro_f1": 0.662,
+        "per_class_f1": {
+          "support": 0.727,
+          "refute": 0.667,
+          "silent": 0.593
+        }
+      },
+      "llm:allenai/OLMo-2-1124-7B-Instruct": {
+        "n": 45,
+        "accuracy": 0.511,
+        "acc_ci95": [
+          0.37,
+          0.65
+        ],
+        "macro_f1": 0.463,
+        "per_class_f1": {
+          "support": 0.583,
+          "refute": 0.222,
+          "silent": 0.583
+        }
+      },
+      "tfidf": {
+        "n": 45,
+        "accuracy": 0.333,
+        "acc_ci95": [
+          0.214,
+          0.479
+        ],
+        "macro_f1": 0.167,
+        "per_class_f1": {
+          "support": 0.0,
+          "refute": 0.0,
+          "silent": 0.5
+        }
+      },
+      "majority": {
+        "n": 45,
+        "accuracy": 0.578,
+        "acc_ci95": [
+          0.433,
+          0.71
+        ],
+        "macro_f1": 0.561,
+        "per_class_f1": {
+          "support": 0.4,
+          "refute": 0.733,
+          "silent": 0.55
+        }
+      },
+      "xfer_vote": {
+        "n": 45,
+        "accuracy": 0.556,
+        "acc_ci95": [
+          0.412,
+          0.691
+        ],
+        "macro_f1": 0.546,
+        "per_class_f1": {
+          "support": 0.4,
+          "refute": 0.692,
+          "silent": 0.545
+        }
+      },
+      "stacker_lr": {
+        "n": 45,
+        "accuracy": 0.689,
+        "acc_ci95": [
+          0.543,
+          0.805
+        ],
+        "macro_f1": 0.687,
+        "per_class_f1": {
+          "support": 0.714,
+          "refute": 0.727,
+          "silent": 0.621
+        }
+      },
+      "stacker_gb": {
+        "n": 45,
+        "accuracy": 0.667,
+        "acc_ci95": [
+          0.521,
+          0.786
+        ],
+        "macro_f1": 0.67,
+        "per_class_f1": {
+          "support": 0.741,
+          "refute": 0.688,
+          "silent": 0.581
+        }
+      }
+    }
+  }
+}

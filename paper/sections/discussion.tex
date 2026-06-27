@@ -9,7 +9,8 @@ approaching the human inter-annotator ceiling on SciFact ($\kappa=0.71$ vs the b
 more tellingly, holds up on contested Climate-FEVER claims where the cheap surrogate drops to the
 lexical floor. Because the benchmark text is human-written, this is not self-preference. But two facts
 keep the \emph{pipeline} short of a finished autonomous instrument, and they are the spine of the
-honest account below: the only judge that wins decisively on the hard task is \emph{proprietary}, and
+honest account below: a single proprietary judge still leads on the hard task (though \emph{combining}
+the open models narrows even that gap to within sampling noise), and
 the validation exercises the judge on curated pairs rather than the noisier pairings it meets in the
 application.
 
@@ -46,9 +47,11 @@ pairs, and that its transfer to application pairs is the open question.
 \emph{methodology}: validate the judging step cheaply by benchmark transfer, propagate a small set of
 expensive proprietary-judge labels through a free surrogate by prediction-powered inference, and ground
 references in an open index so the evidence base is auditable rather than fabricated. Two honest
-qualifications travel with it. The open surrogate alone is competitive with the proprietary judge on
-\emph{clean} pairs (SciFact, overlapping intervals) but not on \emph{hard} ones (Climate-FEVER), so the
-``you don't need a proprietary model'' reading holds only where the task is easy. And open keyword
+qualifications travel with it. A single open model is competitive with the proprietary judge only on
+\emph{clean} pairs, but \emph{combining} the open models (a stacker trained on public benchmark labels,
+no in-domain labels) reaches the judge on SciFact and narrows the Climate-FEVER gap to within sampling
+noise, so for the \emph{judging} step the ``you don't need a proprietary model'' reading largely holds.
+What does not yet hold is the open \emph{application}: open keyword
 retrieval, though exactly reproducible, is not yet precise enough to reproduce the headline rates. The
 methodology lowers cost and clarifies credibility; it does not yet deliver a fully open, fully validated
 instrument.

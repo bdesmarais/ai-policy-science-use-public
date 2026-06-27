@@ -1,0 +1,10 @@
+{
+  "claim_level": {
+    "dem": 1.0,
+    "rep": 1.0
+  },
+  "n_pairs": 30,
+  "pair_support": 0.1,
+  "k": 15,
+  "n_per_party": 25
+}

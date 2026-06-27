@@ -63,6 +63,15 @@ that their agreement is informative \citep{zheng2023judging}.
 All models run locally on a single consumer GPU (Apple M-series, Metal backend); the heaviest component
 is a 7B-parameter model in half precision.
 
+\paragraph{Open combiners.} Because the open models fail in complementary ways (NLI is strong on clean
+pairs and weak on lay ones; the panel is the reverse), we also evaluate three label-frugal combiners over
+their committed per-pair predictions: a zero-shot \emph{majority vote} (no labels); a transfer-weighted
+vote (per-class-$F_1$ weights estimated on the \emph{other} benchmark); and a \emph{stacker} (logistic
+regression, with a gradient-boosted variant) trained on the \emph{public} benchmark gold with five-fold
+out-of-fold cross-validation, text features fit inside each fold to prevent leakage, and model-vote plus
+light lexical features. The stacker uses existing public labels but \emph{no new in-domain labels}---the
+standard the rest of the pipeline holds to (\texttt{open\_ensemble.py}).
+
 \subsection{Human-anchored validation}
 \label{sec:methods-validation}
 The central methodological move is to validate every judge against expert-human labels for the
