@@ -1,0 +1,21 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+ClaimBuster check-worthiness sample: 150 (Counter({1: 75, 0: 75})) -> /Users/bbd5087/Documents/GitHub/ai-policy-science-use/data/extraction_checkworthy_sample.json
+  tfidf: {'acc': 0.647, 'precision': 0.75, 'recall': 0.44, 'f1': 0.555, 'checkworthy_rate': 0.293}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.85s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.55s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.59s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    Qwen/Qwen2.5-3B-Instruct: 40/150 (0.29s)
+    Qwen/Qwen2.5-3B-Instruct: 80/150 (0.28s)
+    Qwen/Qwen2.5-3B-Instruct: 120/150 (0.27s)
+  Qwen/Qwen2.5-3B-Instruct: {'acc': 0.527, 'precision': 1.0, 'recall': 0.053, 'f1': 0.101, 'checkworthy_rate': 0.027}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.53s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.18s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.23s/it]
+    microsoft/Phi-3.5-mini-instruct: 40/150 (0.36s)
+    microsoft/Phi-3.5-mini-instruct: 80/150 (0.37s)
+    microsoft/Phi-3.5-mini-instruct: 120/150 (0.36s)
+  microsoft/Phi-3.5-mini-instruct: {'acc': 0.72, 'precision': 0.946, 'recall': 0.467, 'f1': 0.625, 'checkworthy_rate': 0.247}
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.31s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.49s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.59s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.45s/it]
+    allenai/OLMo-2-1124-7B-Instruct: 40/150 (0.58s)
+    allenai/OLMo-2-1124-7B-Instruct: 80/150 (0.55s)
+    allenai/OLMo-2-1124-7B-Instruct: 120/150 (0.56s)
+  allenai/OLMo-2-1124-7B-Instruct: {'acc': 0.56, 'precision': 0.667, 'recall': 0.24, 'f1': 0.353, 'checkworthy_rate': 0.18}
+  claude: {'acc': 0.767, 'precision': 0.833, 'recall': 0.667, 'f1': 0.741, 'checkworthy_rate': 0.4}
+wrote extraction_checkworthiness.json

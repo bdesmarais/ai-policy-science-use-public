@@ -56,10 +56,13 @@ reproduce a corroboration rate near the historical one on current claims. We are
 about scope. The \emph{judging} step is validated, but only on benchmark pairings in
 which claim and evidence are already topically matched; the pipeline now runs on one frontier model plus
 free resources, with both the judge labels and the model-guided queries committed as static data that only
-that model can regenerate; claim extraction remains unvalidated; and an in-domain human audit---precluded
-by the no-human-coder design---remains the decisive missing test. The contribution is a transferable
-validation methodology and a reproducible, fully-grounded measurement pipeline whose every open and
-proprietary component is mapped honestly.
+that model can regenerate; the \emph{extraction} step is itself validated with no human coders---it
+matches human check-worthiness labels at the published state of the art ($F_1$ $0.74$) and $95\%$ of its
+claims are entailed by their source---and the one test the no-human-coder design still forecloses, an
+in-domain human audit of the judge on application pairs, remains the decisive missing piece. The
+contribution is a transferable validation methodology and a reproducible, fully-grounded measurement
+pipeline whose every open and proprietary component---extraction, retrieval, and judging---is validated
+and mapped honestly.
 \end{abstract}
 
 \input{sections/intro}

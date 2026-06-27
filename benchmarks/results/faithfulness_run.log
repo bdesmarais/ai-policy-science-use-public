@@ -1,0 +1,30 @@
+faithfulness over 785 extracted claims (NLI grounding vs own source)
+  100/785 (0.32s/claim)
+  200/785 (0.29s/claim)
+  300/785 (0.27s/claim)
+  400/785 (0.26s/claim)
+  500/785 (0.25s/claim)
+  600/785 (0.27s/claim)
+  700/785 (0.31s/claim)
+{
+  "n": 785,
+  "threshold": 0.5,
+  "nli_model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "by_party": {
+    "dem": {
+      "n": 741,
+      "grounded": 706,
+      "grounding_rate": 0.953,
+      "mean_max_entail": 0.924
+    },
+    "rep": {
+      "n": 44,
+      "grounded": 41,
+      "grounding_rate": 0.932,
+      "mean_max_entail": 0.93
+    }
+  },
+  "overall_grounding_rate": 0.952,
+  "mean_max_entail": 0.924
+}
+wrote /Users/bbd5087/Documents/GitHub/ai-policy-science-use/benchmarks/results/extraction_faithfulness.json

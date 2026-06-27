@@ -1,0 +1,173 @@
+{
+  "n": 785,
+  "threshold": 0.5,
+  "nli_model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "by_party": {
+    "dem": {
+      "n": 741,
+      "grounded": 706,
+      "grounding_rate": 0.953,
+      "mean_max_entail": 0.924
+    },
+    "rep": {
+      "n": 44,
+      "grounded": 41,
+      "grounding_rate": 0.932,
+      "mean_max_entail": 0.93
+    }
+  },
+  "overall_grounding_rate": 0.952,
+  "mean_max_entail": 0.924,
+  "lowest": [
+    {
+      "party": "dem",
+      "pr": "assembly-committee-approves-key-becker-legislation-to-treat-schools.txt",
+      "claim": "Oakland's electricity bills increased by $1.5 million over the last year alone, which could have been offset by solar energy in previous years to invest savings in educational equity programs.",
+      "max_entail": 0.006
+    },
+    {
+      "party": "dem",
+      "pr": "20250318-assemblymember-bauer-kahan-and-creative-industry-leaders-urge-action-ai.txt",
+      "claim": "Most tech companies hide the works they've used to train their AI models.",
+      "max_entail": 0.011
+    },
+    {
+      "party": "dem",
+      "pr": "privacy-committee-approves-groundbreaking-ai-transparency-bill.txt",
+      "claim": "Large GenAI system providers can label AI-generated images, videos, and audio with imperceptible, embedded disclosures. (This claims another technical capability of generative AI for transparency, usi",
+      "max_entail": 0.018
+    },
+    {
+      "party": "rep",
+      "pr": "public-safety-measures-ab-392-and-ab-426-pass-through-assembly-judiciary-committee.txt",
+      "claim": "With artificial intelligence and deepfakes, anyone can become the next victim of image misuse and theft.",
+      "max_entail": 0.018
+    },
+    {
+      "party": "dem",
+      "pr": "20190219-berman-introduces-bill-prevent-spread-malicious-deepfakes.txt",
+      "claim": "The Department of Defense, through DARPA, has tasked researchers with developing ways to identify deepfakes. (This highlights the scientific and engineering challenge of deepfake detection).",
+      "max_entail": 0.041
+    },
+    {
+      "party": "dem",
+      "pr": "20250317-assemblymember-patels-bill-updating-library-standards-advances-out-assembly.txt",
+      "claim": "Digital tools and technologies such as smartphones, social media platforms, and artificial intelligence are not included in the current school library curriculum.",
+      "max_entail": 0.041
+    },
+    {
+      "party": "dem",
+      "pr": "senator-wahab-advances-bold-legislation-protect-consumers-unfair-pricing-practices.txt",
+      "claim": "Digital tools have been identified as the venue for collusion in high-profile anti-trust cases.",
+      "max_entail": 0.054
+    },
+    {
+      "party": "dem",
+      "pr": "senator-corteses-bills-2021-legislative-session.txt",
+      "claim": "All newly designed and constructed state buildings can be zero emission. (This claims the technical feasibility of designing and constructing buildings with no net emissions).",
+      "max_entail": 0.079
+    },
+    {
+      "party": "dem",
+      "pr": "senate-committee-advances-senator-corteses-bill-accelerate-economic-growth-through-data-center.txt",
+      "claim": "There is a rapid demand for data centers from individuals, organizations, and industries in California. (This implies underlying technological drivers necessitating infrastructure growth).",
+      "max_entail": 0.086
+    },
+    {
+      "party": "dem",
+      "pr": "20181004-quirk-silva-funds-career-technical-education-fullerton-college.txt",
+      "claim": "The department will install welding inspection instruction and lab spaces to teach specialized inspection processes and skills. (This implies the need for and development of advanced, potentially auto",
+      "max_entail": 0.112
+    },
+    {
+      "party": "dem",
+      "pr": "20250501-assemblymember-bauer-kahan-bills-advance-committee-hearings-tackling.txt",
+      "claim": "Automated decision systems may offer real benefits, like improving efficiency or identifying talent.",
+      "max_entail": 0.127
+    },
+    {
+      "party": "dem",
+      "pr": "senator-corteses-bills-2021-legislative-session.txt",
+      "claim": "The building and construction sector accounts for roughly 40% of our carbon emissions. (This is an environmental fact crucial to understanding the impact of decarbonization technologies).",
+      "max_entail": 0.14
+    },
+    {
+      "party": "dem",
+      "pr": "20250606-13-bills-authored-assemblymember-bauer-kahan-advance-senate-following.txt",
+      "claim": "Social media platforms contribute to the mental health crisis among young people.",
+      "max_entail": 0.145
+    },
+    {
+      "party": "dem",
+      "pr": "20230619-assemblymembers-connolly-kalra-address-sodium-nitrite-suicides.txt",
+      "claim": "Artificial intelligence has implications for scriptwriting.",
+      "max_entail": 0.146
+    },
+    {
+      "party": "dem",
+      "pr": "senator-corteses-bills-2021-legislative-session.txt",
+      "claim": "The California Building Decarbonization Package could revolutionize the building and construction sector. (This claims a transformative impact of a set of emergent technologies and policies).",
+      "max_entail": 0.19
+    },
+    {
+      "party": "rep",
+      "pr": "public-safety-measures-ab-392-and-ab-426-pass-through-assembly-judiciary-committee.txt",
+      "claim": "AB 392 would require operators of adult media sites to ensure that sexually explicit content does not include a non-consenting individual or minor and would create a mandatory 48-hour takedown window ",
+      "max_entail": 0.191
+    },
+    {
+      "party": "dem",
+      "pr": "governor-signs-landmark-ai-transparency-bill-empowering.txt",
+      "claim": "AI detection tools can utilize manifest and/or latent disclosures to determine if content was created or altered by a GenAI system. (This claims the interoperability and effectiveness of AI detection ",
+      "max_entail": 0.198
+    },
+    {
+      "party": "dem",
+      "pr": "20240821-assemblymember-wicks-secures-agreement-state-major-tech-companies-support.txt",
+      "claim": "AI policy is a complex, specialized field needing expertise, leading to the development of a national center of excellence.",
+      "max_entail": 0.205
+    },
+    {
+      "party": "dem",
+      "pr": "senator-corteses-bills-2021-legislative-session.txt",
+      "claim": "State buildings and assets can achieve carbon-neutrality by 2035. (This claims the feasibility of a specific, long-term environmental target using emergent technologies and practices).",
+      "max_entail": 0.215
+    },
+    {
+      "party": "dem",
+      "pr": "20240929-california-criminalizes-ai-enabled-child-sexual-abuse.txt",
+      "claim": "AI can generate sexually explicit content that can be virtually indistinguishable from real children.",
+      "max_entail": 0.243
+    },
+    {
+      "party": "dem",
+      "pr": "20240409-bermans-public-safety-package-advances.txt",
+      "claim": "AI-generated sexual exploitation causes profound harm.",
+      "max_entail": 0.244
+    },
+    {
+      "party": "dem",
+      "pr": "to-strengthen-security-ai-systems-handling-personal-data-senator.txt",
+      "claim": "AI systems automate life-altering decisions in high-risk areas like healthcare, employment, finance, and education.",
+      "max_entail": 0.258
+    },
+    {
+      "party": "dem",
+      "pr": "senate-advances-groundbreaking-ai-transparency-bill-empowering.txt",
+      "claim": "Large GenAI system providers can label AI-generated images, videos, and audio with imperceptible, embedded disclosures. (This claims another technical capability of generative AI for transparency).",
+      "max_entail": 0.278
+    },
+    {
+      "party": "dem",
+      "pr": "governor-signs-physicians-make-decisions-act-keeping-medical.txt",
+      "claim": "AI in insurance claims processing has legitimate concerns about inaccuracies and biases. (This claims specific, demonstrable problems with AI applications in a critical domain).",
+      "max_entail": 0.291
+    },
+    {
+      "party": "dem",
+      "pr": "senate-committee-advances-senator-corteses-bill-accelerate-economic-growth-through-data-center.txt",
+      "claim": "Data centers are critical for sustaining the State's critical infrastructure. (This claims the vital role of data centers beyond just innovation, extending to foundational services).",
+      "max_entail": 0.301
+    }
+  ]
+}

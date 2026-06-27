@@ -53,7 +53,7 @@ falls.
 
 Using this strategy we study a measurement pipeline---claim extraction, reference retrieval from the
 open OpenAlex index \citep{priem2022openalex}, and stance judging---applied to a decade of legislative
-communication on artificial intelligence (AI). We make five contributions, and we scope each carefully.
+communication on artificial intelligence (AI). We make six contributions, and we scope each carefully.
 (1) A transferable \emph{validation methodology}: benchmark-anchored evaluation that tests whether an
 automated stance judge can be trusted with no new in-domain human labels, by scoring it on existing
 human-labeled claim-verification benchmarks for the identical task. (2) A measurement finding about open
@@ -73,9 +73,13 @@ the paid retrieval service and the citation-fabrication risk together. (4) An ap
 robust partisan asymmetry in AI engagement and estimates the rate at which each party's claims are
 \emph{corroborated by the topically-nearest literature}---which is precisely what the instrument
 measures, and which we distinguish from observed evidence \emph{use}, since legislators do not cite the
-papers we retrieve. (5) An explicit account of what is and is not validated: the judging step is validated
-on benchmark pairs in which claim and evidence are already topically matched, but claim extraction is not,
-and an in-domain human audit---foreclosed by the no-human-coder design---remains the decisive missing
-test. The result is not yet a finished autonomous instrument, but it is a validated judging component, a
-reproducible and fully-grounded retrieval step around it, and an honest map of the distance still to
+papers we retrieve. (5) A validation of the \emph{extraction} step, again with no human coders: the
+extractor matches human check-worthiness labels (ClaimBuster) at the published state of the art, $95\%$
+of its claims are entailed by their source release (so it rarely fabricates), and its yield is
+party-balanced---so the benchmark-transfer philosophy that anchors the judge also anchors the front end.
+(6) An explicit account of what is and is not validated: extraction, retrieval, and judging are each now
+checked, and the one test the no-human-coder design forecloses---an in-domain human audit of the judge on
+application pairs---remains the decisive missing piece. The result is not yet a finished autonomous
+instrument, but it is a validated extraction-retrieval-judging pipeline, and an honest map of the distance
+still to
 cover.

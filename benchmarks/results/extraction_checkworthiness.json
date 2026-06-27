@@ -1,0 +1,45 @@
+{
+  "n": 150,
+  "gold_dist": {
+    "1": 75,
+    "0": 75
+  },
+  "human_ceiling_note": "ClaimBuster trained-human agreement and CheckThat! SOTA F1~0.70 are the references",
+  "validators": {
+    "tfidf_lexical": {
+      "acc": 0.647,
+      "precision": 0.75,
+      "recall": 0.44,
+      "f1": 0.555,
+      "checkworthy_rate": 0.293
+    },
+    "Qwen/Qwen2.5-3B-Instruct": {
+      "acc": 0.527,
+      "precision": 1.0,
+      "recall": 0.053,
+      "f1": 0.101,
+      "checkworthy_rate": 0.027
+    },
+    "microsoft/Phi-3.5-mini-instruct": {
+      "acc": 0.72,
+      "precision": 0.946,
+      "recall": 0.467,
+      "f1": 0.625,
+      "checkworthy_rate": 0.247
+    },
+    "allenai/OLMo-2-1124-7B-Instruct": {
+      "acc": 0.56,
+      "precision": 0.667,
+      "recall": 0.24,
+      "f1": 0.353,
+      "checkworthy_rate": 0.18
+    },
+    "claude_opus_4.8": {
+      "acc": 0.767,
+      "precision": 0.833,
+      "recall": 0.667,
+      "f1": 0.741,
+      "checkworthy_rate": 0.4
+    }
+  }
+}

@@ -163,6 +163,50 @@ detects disconfirming evidence.}
 \label{fig:confusion}
 \end{figure}
 
+\subsection{Validating the extraction step against human labels, without human coders}
+\label{sec:res-extraction}
+Extraction is the pipeline's first step and was its last unvalidated one. Three checks, none requiring
+new human coding, close that gap (Fig.~\ref{fig:extraction}).
+
+\emph{The extractor identifies check-worthy claims at the human ceiling.} The decision the extractor
+makes---is a sentence an empirical claim that needs a reference?---is the fact-checking task of
+check-worthiness detection, for which ClaimBuster supplies ${\sim}23$k human-labelled US-debate sentences
+\citep{hassan2017claimbuster}. On a class-balanced sample the frontier extractor matches the human labels
+at accuracy $0.77$ and $F_1$ $0.74$ (Cohen's $\kappa=0.53$), at or above the CheckThat! state of the art
+of ${\sim}0.70$ $F_1$ \citep{barron2020checkthat}, with high precision ($0.83$) and more conservative
+recall ($0.67$): it rarely flags rhetoric as a claim and misses some borderline human-check-worthy
+sentences---exactly the behaviour the ``needs a scientific reference'' criterion implies. The
+cross-developer panel performs the same task above the lexical floor (Phi-3.5 $F_1$ $0.63$ vs $0.56$ for
+TF--IDF), so this is task competence, not self-preference.
+
+\emph{Extracted claims are faithful to their source.} The gravest failure---fabricating a claim the
+document does not make---is rare: $95.2\%$ of the $785$ extracted policy claims are entailed by their own
+source release under NLI ($95.3\%$ Democratic, $93.2\%$ Republican; mean maximum entailment $0.92$).
+Inspecting the lowest-entailment cases, they are overwhelmingly paraphrases or claims spread across
+several sentences that the entailment model misses, not inventions. Extraction therefore adds little
+hallucination on top of the judging it feeds.
+
+\emph{Yield is party-neutral.} Extraction also does not silently bias the partisan comparison through
+yield: conditional on a release that yields any claims, the extractor returns $7.1$ claims per Democratic
+release versus $7.3$ per Republican---balanced. What differs is that Republican AI releases more often
+yield \emph{zero} claims, because they are procedural bill announcements with no empirical content---the
+extractor correctly declining, the same precision the check-worthiness test confirms. The per-claim
+comparison is thus not an artefact of extraction behaviour. With the judging step benchmark-validated, the
+retrieval step open and verifiable, and now extraction checked for faithfulness, precision, and
+neutrality, the one validation the design still forecloses is the in-domain human audit of the judge on
+application pairs (\S\ref{sec:discussion}).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.97\textwidth]{fig_extraction.png}
+\caption{Validating claim extraction with no new human coders. (a) On human-labelled ClaimBuster
+check-worthiness, the frontier extractor reaches $F_1$ $0.74$ (Cohen's $\kappa=0.53$), at the
+CheckThat! state-of-the-art band (${\sim}0.70$); independently-developed models clear the lexical floor.
+(b) $95\%$ of extracted claims are entailed by (grounded in) their own source release, and extraction
+yield is party-balanced ($7.1$ vs $7.3$ claims per release).}
+\label{fig:extraction}
+\end{figure}
+
 \subsection{A single model does the retrieval, reproducibly and verifiably}
 \label{sec:res-retrieval}
 The judging step is the one the literature said needed a frontier model, and the previous sections settle

@@ -119,6 +119,29 @@ claims against keyword hits that may be off-topic. Benchmark accuracy therefore 
 \emph{judging} operation, not its transfer to the noisier application pairings, a gap we treat as the
 foremost limitation (\S\ref{sec:discussion}).
 
+\subsection{Validating the extraction step}
+\label{sec:methods-extraction}
+Stance judging is the step the literature flagged, but \emph{claim extraction}---an instruction-tuned
+model reading a release and emitting its empirical claims---was the step we had left unchecked. We
+validate it with no new human coders, by three complementary tests that mirror the judge's
+benchmark-anchored validation (\S\ref{sec:res-extraction}).
+\emph{(i) Check-worthiness against human labels.} The extractor's core decision---``is this an empirical
+claim for which one would need a reference?''---is the fact-checking task of \emph{check-worthiness
+detection}, which has mature human-labelled benchmarks. We score the same models on ClaimBuster
+\citep{hassan2017claimbuster}, whose ${\sim}23$k US-debate sentences are labelled check-worthy-factual,
+unimportant-factual, or non-factual by trained humans, on a class-balanced sample (binary check-worthy
+vs not), alongside the open-source panel and a lexical baseline, and we read accuracy against the human
+inter-annotator and CheckThat! state-of-the-art ceilings \citep{barron2020checkthat}.
+\emph{(ii) Faithfulness (grounding).} The gravest extraction failure is fabricating a claim the document
+does not support. For every extracted policy claim we test that it is \emph{entailed by its own source
+release} using natural-language inference---the standard out-of-the-box faithfulness metric
+\citep{honovich2022true,laurer2024less}---splitting the release into sentence windows and taking the
+maximum entailment; a claim is \emph{grounded} if some part of its source entails it. We then have the
+validated judge review the lowest-entailment claims to confirm they are genuine fabrications rather than
+paraphrase the entailment model missed.
+\emph{(iii) Yield neutrality.} Finally we test whether extraction \emph{yield} differs by party in a way
+that could confound the per-claim comparison, by comparing claims extracted per release across parties.
+
 \subsection{Valid estimation under imperfect labels}
 \label{sec:methods-ppi}
 Plugging machine labels directly into a downstream analysis biases estimates and invalidates confidence

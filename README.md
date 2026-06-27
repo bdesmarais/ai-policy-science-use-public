@@ -28,8 +28,12 @@
 >   **no proprietary retrieval at all**) reproduces corroboration ≈ **0.57–0.68**, near the historical
 >   rate, on current claims. Retrieval is **index-agnostic** — OpenAlex *or* **Crossref** (the free DOI
 >   registry) as a drop-in fallback (`crossref_retrieval.py`), used here because OpenAlex rate-limited.
-> - **Still open:** claim extraction is unvalidated, and an **in-domain human audit** of the judge on
->   application pairs is the decisive missing test (foreclosed by the no-human-coder design).
+> - **Extraction is now validated too (no human coders).** The extractor matches human check-worthiness
+>   labels (ClaimBuster) at the published SOTA (F1 **0.74**, κ 0.53); **95%** of extracted claims are
+>   entailed by their source release (faithfulness — rarely fabricates); yield is party-balanced (7.1 vs
+>   7.3 claims/release). See `benchmark_extraction_validation.py`, `faithfulness_validation.py`.
+> - **Still open:** the one test the no-human-coder design forecloses — an **in-domain human audit of the
+>   judge** on application pairs — remains the decisive missing piece.
 >
 > Retrieval code: `scripts/core/claude_retrieval.py`, `score_retrieval_arms.py`,
 > `retrieval_experiment_report.py`; validation: `benchmark_validation.py`, `open_ensemble.py`. The whole

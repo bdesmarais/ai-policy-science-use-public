@@ -1,0 +1,13 @@
+{
+  "dem": {
+    "claims": 741,
+    "releases_with_claims": 104,
+    "claims_per_release": 7.12
+  },
+  "rep": {
+    "claims": 44,
+    "releases_with_claims": 6,
+    "claims_per_release": 7.33
+  },
+  "finding": "Extraction yield is party-balanced CONDITIONAL on a release yielding claims (7.1 Dem vs 7.3 Rep claims/release), correcting the earlier '1.4 vs 2.4' figure. Republican AI releases more often yield ZERO claims because they are procedural bill announcements the extractor correctly declines -- consistent with the check-worthiness precision (high precision, conservative recall). So the per-claim partisan comparison is not driven by a yield asymmetry in extraction."
+}
