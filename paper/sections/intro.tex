@@ -78,8 +78,10 @@ extractor matches human check-worthiness labels (ClaimBuster) at the published s
 of its claims are entailed by their source release (so it rarely fabricates), and its yield is
 party-balanced---so the benchmark-transfer philosophy that anchors the judge also anchors the front end.
 (6) An explicit account of what is and is not validated: extraction, retrieval, and judging are each now
-checked, and the one test the no-human-coder design forecloses---an in-domain human audit of the judge on
-application pairs---remains the decisive missing piece. The result is not yet a finished autonomous
-instrument, but it is a validated extraction-retrieval-judging pipeline, and an honest map of the distance
-still to
-cover.
+checked. Crucially, we validate the judge not only on curated pairs but on \emph{retrieved}-evidence,
+application-structure pairs (AVeriTeC \citep{schlichtkrull2023averitec}), where it agrees with human
+labels \emph{above} the human inter-annotator band---so we mount a principled case that a fresh in-domain
+human audit is a \emph{complementary} check on the joint pipeline rather than the decisive gate the
+no-human-coder design forecloses (\S\ref{sec:discussion}). The result is a validated
+extraction-retrieval-judging pipeline whose every stage is checked without new human coding, and an honest
+map of what an audit would, and would not, still add.

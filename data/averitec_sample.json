@@ -1,0 +1,722 @@
+[
+ {
+  "claim": "Over 700,000 children [accessed] early childhood education in the last financial year",
+  "evidence": "Q: How many children were in early childhood education according to the 2017 General household survey? A: just over 2 million children",
+  "gold": "support",
+  "speaker": "Cyril Ramaphosa",
+  "source": null,
+  "uid": "av0"
+ },
+ {
+  "claim": "The UN recommends a police-population ratio of one police officer to 220 people",
+  "evidence": "Q: Has the UN Recommended that a police force should have one police officer for every 220 people? A: No answer could be found. Q: Has a proposed police officer to person ration been mentioned before elsewhere? A: in 1945. one American policeman oversaw 450 German civilians. Its success at the time has tended to inform international policing, with the ratio being passed down from one UN document to another over the years.",
+  "gold": "silent",
+  "speaker": "Bheki Cele",
+  "source": null,
+  "uid": "av1"
+ },
+ {
+  "claim": "Over the past five years, we\u2019ve made significant progress with the provision of infrastructure. More than R1.3 trillion has been invested",
+  "evidence": "Q: How much has the South African government invested in Infrastructure between 2013-2018 A: the government plans to spend over R3.6-billion on upgrading and providing new infrastructure Q: How many houses were built and subsidized by the South African government A: 475, 598 houses Q: When was the claim made? A: early 2019 Q: How much had the south African government spent on infrastructure in the five years prior to the claim? A: R1.26 trillion was spent on infrastructure in the last five financial years 2013 to 2018 so the claim is correct if including 2019's spending.",
+  "gold": "support",
+  "speaker": "Cyril Ramaphosa",
+  "source": null,
+  "uid": "av2"
+ },
+ {
+  "claim": "In January 2020 a new EU law means anyone who has an offshore bank account will have to \u201ccome clean so we can see how much they are hiding.",
+  "evidence": "Q: Which new law does this relate too? A: No answer could be found. Q: Is there any new laws being implemented on January 2020 in the EU? A: the EU\u2019s new \u201canti tax avoidance directive\u201d,",
+  "gold": "silent",
+  "speaker": "Terry Christian",
+  "source": "Twitter",
+  "uid": "av3"
+ },
+ {
+  "claim": "There were no Covid-19 deaths in Ireland in August 2020.",
+  "evidence": "Q: Were there any Covid 19 deaths reported in Ireland in August 2020? A: Yes",
+  "gold": "refute",
+  "speaker": null,
+  "source": "Facebook",
+  "uid": "av4"
+ },
+ {
+  "claim": "US President Trump called for reduced funding for the Centre for Disease Control and Prevention.",
+  "evidence": "Q: Did US President Trump propose budget cuts in the funding for the Centre for Disease Control and Prevention? A: Yes",
+  "gold": "support",
+  "speaker": "Sen. Amy Klobuchar ",
+  "source": "CBS news",
+  "uid": "av5"
+ },
+ {
+  "claim": "Crab legs have been contaminated with the novel coronavirus",
+  "evidence": "Q: Can Crabs carry the novel Coronavirus A: No answer could be found. Q: Can crustaceans carry the novel coronavirus A: No answer could be found. Q: Do crabs suffer viral infections A: Yes",
+  "gold": "silent",
+  "speaker": "Moe Badger",
+  "source": "Facebook",
+  "uid": "av6"
+ },
+ {
+  "claim": "Sadhvi Pragya said Manohar Parrikar died of cancer because he allowed the consumption of beef in Goa",
+  "evidence": "Q: Where did the statement \"Will Totally Ban Beef in States like Goa, North-East, If BJP Comes to Power at the Centre: Sadhvi Pragya\" originate from? A: IndiaScoops Q: Is IndiaScoops a credible news site? A: The supposed quote from Sadhvi Pragya in IndiaScoops has no evidence. In the article, IndiaScoops states: \"These comments were not made before the media, or at a public gathering but in front of a group of followers.\"",
+  "gold": "refute",
+  "speaker": null,
+  "source": null,
+  "uid": "av7"
+ },
+ {
+  "claim": "New numbers from the US Census Bureau show an uptick in the number of Americans who have no health insurance.",
+  "evidence": "Q: What did the US Census Bureau report on health insurance coverage show? A: \u2022 In 2018, 8.5 percent of people, or 27.5 million, did not have health insurance at any point during the year. The uninsured rate and number of uninsured increased from 2017 (7.9 percent or 25.6 million). \u2022 The percentage of people with health insurance coverage for all or part of 2018 was 91.5 percent, lower than the rate in 2017 (92.1 percent). Between 2017 and 2018, the percentage of people with public coverage decreased 0.4 percentage points, and the percentage of people with private coverage did not statistically change. Q: What does the claim mean by uninsured Americans? A: Health insurance coverage (or lack thereof) Q: What does the U.S. Census Bureau figures show for poverty and income numbers? A: - In 2018, 8.5 percent of people, or 27.5 million, - did not have health insurance at any point during the year - The uninsured rate and number of uninsured increased from 2017 (7.9 percent or 25.6 million). Q: What does the U.S. Census Bureau figures show for numbers of Americans A: it shows decades-long rise toward greater inequality was not greatly slowed, but it did dip slightly between 2017 and 2018.",
+  "gold": "support",
+  "speaker": null,
+  "source": null,
+  "uid": "av8"
+ },
+ {
+  "claim": "A new EU withdrawal bill allows the EU to choose the length of a further Brexit extension and the UK has no say in it.",
+  "evidence": "Q: what is the new Brexit bill? A: If the EU suggests an extended exit date other than 31 January 2020, the government can ask parliament whether or not it approves of that proposal, and parliament can choose to reject it. Q: Can the UK refuse the length of a further Brexit extension made by the EU? A: If the EU suggests an extended exit date other than 31 January 2020, the government can ask parliament whether or not it approves of that proposal, and parliament can choose to reject it.",
+  "gold": "refute",
+  "speaker": "Matt Dathan ",
+  "source": "Twitter",
+  "uid": "av9"
+ },
+ {
+  "claim": "Chief of Staff to the President of Nigeria, Mallam Abba Kyari, died of ulcer and not coronavirus.",
+  "evidence": "Q: What was the official cause of death for the President of Nigeria's chief of staff Mallam Abba Kyari? A: Abba Kyari, the President of Nigeria's Chief of Staff died of coronavirus.",
+  "gold": "refute",
+  "speaker": "NEWSFLASHNG.COM",
+  "source": "Facebook",
+  "uid": "av10"
+ },
+ {
+  "claim": "Over 700,000 children in South Africa [accessed] early childhood education in the last financial year of 2018",
+  "evidence": "Q: According to experts how many children are in early childhood development facilities in South Africa in 2018? A: Martin Gustafsson Research on Socio-Economic Policy (ReSEP) University of Stellenbosch 2018 The main aim of the current report is to correct what seems to be widespread misperceptions around how many children in South Africa attend some form of ECD institution, or pre-school in the sense of an institution below the level of a primary school. Many available statistics point to total ECD enrolment being in the range of 900,000 to 1.5 million. In fact, Stats SA data reliably point to a figure of around 2.4 million. Many available statistics point to total ECD enrolment being in the range of 900,000 to 1.5 million. In fact, Stats SA data reliably point to a figure of around 2.4 million 2017 Attend 2.08 million Do not attend 3.77 million Q: Is 2 million more than 700,000? A: Yes",
+  "gold": "support",
+  "speaker": null,
+  "source": null,
+  "uid": "av11"
+ },
+ {
+  "claim": "Obasanjo said there will be a second war in Nigeria",
+  "evidence": "Q: Does the quote in the headline that Obasanjo predicts another NIgerian war, appear in the article? A: Searching the document does not find the quote. The headline does not appear in the article. Q: Did Obasanjo say there would be a second war in Nigeria in an interview with Premium Times? A: There is no mention of a second war in Nigeria within the Premium Times interview with Obasanjo. Q: Who made this claim? A: Biafra Star website Q: Where did the Biafra Star website insinuate the claim came from? A: in an interview with Premium Times.",
+  "gold": "refute",
+  "speaker": "Olusegun Obasanjo",
+  "source": " Biafra Star website",
+  "uid": "av12"
+ },
+ {
+  "claim": "Nigeria\u2019s urban population at independence was approximately 7 million",
+  "evidence": "Q: When did Nigeria become independent? A: 1st October 1960 Q: What was Nigeria's urban population at the time of it's independence? A: 6.96 million",
+  "gold": "support",
+  "speaker": "President Muhammadu Buhari",
+  "source": "https://www.channelstv.com/2020/10/01/nigeria-at-60-president-buharis-independence-anniversary-speech-full-text/",
+  "uid": "av13"
+ },
+ {
+  "claim": "Donald Trump's payroll tax deferral could leave American workers liable for thousands of dollars during tax season and could potentially leave programs like Social Security and Medicare weakened.",
+  "evidence": "Q: What was Trumps tax deferral? A: Trump issued a memo that told employers they didn\u2019t need to send Washington the 6.2% out of each employee\u2019s paycheck that helps fund Social Security. So, someone making $1,000 a week \u2014 the national median pay \u2014 could see an extra $62 every week. The tax break applies to people making up to $2,000 a week and would be in place for four months, September through December. Q: Why would the tax deferral potentially cost people money during the tax season? A: The more a person makes, up to the maximum, the more money they would keep. At the high end, a person could see a tax cut of $1,984 over those 16 weeks. Trump had the power to defer collecting the tax, but as written, his order provided only temporary relief. At some point, the missed payments would need to be made up or count as foregone revenues to the Social Security trust fund. The memo said the administration will look for a way to let people keep the money, but that decision rests with Congress, not the president.",
+  "gold": "support",
+  "speaker": "Eugene DePasquale",
+  "source": "Twitter",
+  "uid": "av14"
+ },
+ {
+  "claim": "There have been zero reported instances of any child born alive after an abortion in Texas.",
+  "evidence": "Q: How many instances were there of a baby born alive after abortion between 2003 and 2014? A: 143 infants Q: How many infant death certificates in the US mention abortion/termination of pregnancy? A: Infant deaths for the 12 year period 2003 \u2013 2014 assigned to code ICD-10 code P96.4 \u2013 Termination of pregnancy, affecting fetus and newborn were reviewed. 143 (24.3%) could definitively be classified as involving an induced termination Q: Does the US collects data on abortions? A: Yes Q: How many infant death certificates in Texas mention abortion/termination of pregnancy? A: No answer could be found.",
+  "gold": "silent",
+  "speaker": "Donna Howard",
+  "source": "Texas House of Representatives, 86th Legislative Session",
+  "uid": "av15"
+ },
+ {
+  "claim": "Disposable masks should be worn white-side-out to keep COVID-19 out",
+  "evidence": "Q: How should a disposable mask be worn? A: The colored side of the mask is usually the front and should face away from you, while the white side touches your face.",
+  "gold": "refute",
+  "speaker": null,
+  "source": "Facebook",
+  "uid": "av16"
+ },
+ {
+  "claim": "India\u2019s Debt From The World Bank Reduced To Zero Under PM Narendra Modi in July 2019.",
+  "evidence": "Q: Does the World Bank offer loans to countries of the world? A: Yes Yes Q: Did India have any loans with the IBRD in July 2019? A: Data is only available for 26/10/2017 Q: Did India have any loans with the World Bank in 2019? A: No answer could be found.",
+  "gold": "silent",
+  "speaker": null,
+  "source": "Facebook",
+  "uid": "av17"
+ },
+ {
+  "claim": "The allocation to agriculture is an increase of 0.6% from what was reported last year in Kenya.",
+  "evidence": "Q: what was the date of the claim? A: 2020 Q: What was Kenya's budgetary allocation to agriculture in 2019? A: 6.7%. Q: What was Kenya's budgetary allocation to agriculture in 2020? A: 6.9% Q: What would the 2020 number need to be in order to be a jump of 0.6%? A: A jump from 6.7% to 7.3% would be an increase of 0.6 percentage points",
+  "gold": "refute",
+  "speaker": "Wycliffe Oparanya",
+  "source": "State of Devolution Address",
+  "uid": "av18"
+ },
+ {
+  "claim": "Jussie Smollett Charges Reinstated",
+  "evidence": "Q: what was Jessie Smollett charged for A: The \u201cEmpire\u201d actor first claimed that early in the morning on Jan. 29, 2019, two men came up to him in the bitter cold on Lower North Water Street as he was heading to his apartment. He said they yelled racial and homophobic slurs at him, told him \u201cthis is MAGA country,\u201d poured a chemical on him and put a rope around his neck. But as police investigated the case, they began saying that indicators pointed to Smollett orchestrating the attack. Police concluded that Smollett paid two brothers \u2013 Abel and Ola Osundairo \u2013 to stage the attack, because he was upset with his salary on his Fox show. Smollett was indicted on 16 counts of disorderly conduct in March, Q: how was the case resolved A: the office of Cook County State\u2019s Attorney Kim Foxx dismissed the case without a plea, after Smollett agreed to surrender his $10,000 bail and perform 16 hours of community service. Q: were the charges against Jessie Smollett reinstated A: Webb took on the case for free after a judge appointed him to investigate the circumstances that led the state\u2019s attorney\u2019s office to drop the initial charges against Smollett. Though Webb found no evidence of criminal misconduct by Foxx and her staff in the office\u2019s decision to drop the charges, he accused the county\u2019s top prosecutor of \u201csubstantial abuses of discretion.\u201d Webb\u2019s full report on his finding remains under seal and has not been released to the public.",
+  "gold": "refute",
+  "speaker": null,
+  "source": "pillarlink.com",
+  "uid": "av19"
+ },
+ {
+  "claim": "Kenya's sanitation coverage is now at 25%, up from 16%.",
+  "evidence": "Q: What was Kenya's sanitation coverage in November 2019/2020? A: No answer could be found. Q: What was Kenya's sanitation coverage in 2018/19? A: 17%",
+  "gold": "silent",
+  "speaker": "Wycliffe Oparanya",
+  "source": "State of Devolution Address",
+  "uid": "av20"
+ },
+ {
+  "claim": "Muslim Body Jamiat Ulama-i-Hind have urged Congress Against Supporting Shiv Sena.",
+  "evidence": "Q: What is Shiv Sena? A: Shiv Sena (Devan\u0101gar\u012b: \u0936\u093f\u0935 \u0938\u0947\u0928\u093e \u015a\u012bv Sen\u0101, meaning Army of Shiva, referring to Shivaji) is a nationalist political party in India founded on June 19, 1966 by Bal Thackeray. Q: Are Shiv Sena, NCP and Congress forming a government together in Maharashtra? A: NCP chief Sharad Pawar met Sonia Gandhi to discuss a potential power share. Q: What is Jamiat Ulama-i-Hind? A: The Jamiat Ulama-i-Hind is a top Muslim body/organisation. Q: Did the Jamiat Ulama-i-Hind Urge Congress Against Supporting Shiv Sena? A: No answer could be found.",
+  "gold": "silent",
+  "speaker": "UNKNOWN",
+  "source": "TIMES NOW, ABP NEWS.",
+  "uid": "av21"
+ },
+ {
+  "claim": "Nigeria had 21 million unemployed young men and women in 2018/2019.",
+  "evidence": "Q: How does the Nigerian National Bureau of Statistics define \"young people\" in it's data? A: the unemployment rate for young people (15-35years) Q: How many young people are unemployed in Nigeria? A: For the period under review, Q3, 2018, the unemployment rate for young people (15-35years) declined to 29.7% in Q3, 2018 from 30.50% in Q2 2018. These age groups, 15-24 years and 25-34 years combined represent the youth population in Nigeria and have a combined unemployment and underemployment rate of 55.4% or 24.5 million (13.1 million unemployed and another 11.3 million underemployed",
+  "gold": "support",
+  "speaker": "Atiku Abubakar ",
+  "source": "Public Meeting",
+  "uid": "av22"
+ },
+ {
+  "claim": "Alkaline foods keep you from getting cancer.",
+  "evidence": "Q: Does an Alkaline Diet help prevent cancer? A: There is no evidence to prove this. Q: Has any research been done about alkaline water and cancer? A: Yes - conclusion - Promotion of alkaline diet and alkaline water to the public for cancer prevention or treatment is not justified. Despite the promotion of the alkaline diet and alkaline water by the media and salespeople, there is almost no actual research to either support or disprove these ideas.",
+  "gold": "silent",
+  "speaker": "Patriot Jaye Citizens Investigative Journalism",
+  "source": "Facebook",
+  "uid": "av23"
+ },
+ {
+  "claim": "Africans living in China are being forced to sleep outside in the cold as Chinese nationals blame them for the rising number of new coronavirus cases in the country.",
+  "evidence": "Q: Are Africans being discriminated in China because of COVID-19 A: Africans in Guangzhou say that they have been facing more than a week of discrimination. Health workers have reportedly gone door-to-door testing Africans for coronavirus, many say regardless of whether they show any symptoms, have travelled, or have been in contact with Covid-19 patients. Community leaders say that hundreds were forced out of their homes and hotel rooms and into quarantine. Video has emerged online of African people sleeping on the streets, in hotel lobbies, under bridges and outside police stations.",
+  "gold": "support",
+  "speaker": "The Savoy Show",
+  "source": "Facebook",
+  "uid": "av24"
+ },
+ {
+  "claim": "The cladding used on Grenfell Tower has previously been banned in the USA.",
+  "evidence": "Q: What cladding was used on Grenfell Tower? A: Panels were made of aluminium composite material (ACM) with a polyethylene (PE) core. Q: Is the cladding that was used on the Grenfell Tower banned on tall buildings in the U.S.? A: In the United States, most jurisdictions don't allow this type of cladding for buildings higher than 40 feet. That is because they've adopted the International Building Code, which requires cladding for tall buildings to pass a rigorous test developed by the National Fire Protection Association called \"NFPA 285.\" The purpose of the test is to ensure that installed cladding will be noncombustible. US banned cladding material thought to be used in Grenfell refit as it is too flammable. Q: How tall was Grenfell Tower? A: 220-foot-10-inch (67.30 m) tall building",
+  "gold": "support",
+  "speaker": null,
+  "source": "Facebook",
+  "uid": "av25"
+ },
+ {
+  "claim": "In Michigan, US one of the three key states that enabled Donald Trump to win the presidential election in 2016, the winning margin averaged out to just over two votes per precinct.",
+  "evidence": "Q: How many voting precincts does Michigan in the U.S have? A: 4,810 Q: How many votes did Donald Trump get in the 2016 U.S election in Michigan? A: 2,279,543 Q: How many votes did Trumps opponent receive in Michigan? A: Hillary Clinton, with 2,268,839 votes. Q: What is Trumps winning margin of votes if you compare his (2,279,543) to his opponents (2,268,839)? A: winning margin for Trump is 10,704 votes over Hillary Clinton. Q: If you divide Trumps winning margin of votes in Michigan (10,704) by how many states Michigan has (4,8100 what is the figure? A: dividing 10,704 votes by 4,810 precincts leaves 2.23 votes per precinct.",
+  "gold": "support",
+  "speaker": "Michelle Obama",
+  "source": "Transcript DNC Speech, CNN, ",
+  "uid": "av26"
+ },
+ {
+  "claim": "Vaccines were responsible for 50 million deaths during the Spanish flu pandemic in 1918.",
+  "evidence": "Q: Was there a vaccine available in 1918 for the Spanish flu? A: (There was not a vaccine) \"With no vaccine to protect against influenza infection and no antibiotics to treat secondary bacterial infections that can be associated with influenza infections, control efforts worldwide were limited to non-pharmaceutical interventions such as isolation, quarantine, good personal hygiene, use of disinfectants, and limitations of public gatherings, which were applied unevenly.\"",
+  "gold": "refute",
+  "speaker": null,
+  "source": "Social Media",
+  "uid": "av27"
+ },
+ {
+  "claim": "Depending on the poll, between 58% and 81% of Americans were supportive of keeping current restrictions in place or even expanding them to the nation as a whole.",
+  "evidence": "Q: Were most Americans okay with movement restrictions during the pandemic A: Yes they were okay with restrictions are they understood movement during that time was a health risk The margins aren\u2019t close. Seventy-one percent of Americans \u2014 and 56 percent of Republicans \u2014 say they are more concerned about lifting the coronavirus restrictions too quickly than lifting them too slowly Q: Are 58 - 81% of Americans supportive of keeping current Cobid-19 restrictions in place? A: April 3 - 4, 2020 - 1000 US adult citizens 81% thought that staying at home unless they have an essential reason for going out is the right decision. April 13-15, 2020 Interviews: 900 Registered Voters Which worries you more about responding to the coronavirus and restrictions that require most Americans to shelter in place and only leave their homes for essential needs: 58% U.S. will move too quickly in loosening restrictions",
+  "gold": "support",
+  "speaker": null,
+  "source": "Polls",
+  "uid": "av28"
+ },
+ {
+  "claim": "3,500 tonnes of gold was discovered in a field in the north Indian state of Uttar Pradesh.",
+  "evidence": "Q: How much gold was discovered in Uttar Pradesh A: As per GSI study,the probable conservative figure of gold which can be unearthed is estimated to be around 160 kgs and not 3350 tonnes as mentioned in media reports",
+  "gold": "refute",
+  "speaker": "NAMO India",
+  "source": "Facebook",
+  "uid": "av29"
+ },
+ {
+  "claim": "\"You have been on the floor of the Senate time and time again talking about the need to cut Social Security, Medicare and veterans' programs.\"",
+  "evidence": "Q: Who spoke the claim? A: Bernie Sanders Q: Who was he speaking of? A: Joe Biden Q: Is the claim that Joe Biden wanted to cut Social Security benefits? A: Yes",
+  "gold": "support",
+  "speaker": "Bernie Sanders",
+  "source": "CNN",
+  "uid": "av30"
+ },
+ {
+  "claim": "1.110,000 Delicious Laddus are being prepared for the Bhoomi Poojan Ceremony at Sri Ramachandra Janmabhoomi Ayodhya",
+  "evidence": "Q: How many Laddus are being made ? A: 1,110,000 Q: What will be done with the 1,110,000 laddus? A: In this ritual, besan laddoos made in pure ghee will be distributed to the people as Prasad. For this, 1.11 lakh laddus are being made, the work of distribution of laddus is being done by Devraha Baba Sanstha. These laddus will be ready by August 4.",
+  "gold": "support",
+  "speaker": "Hindu Seccrets",
+  "source": "twitter",
+  "uid": "av31"
+ },
+ {
+  "claim": "Is Donna Shalala correct in saying that Children at Homestead migrant facility \"get 30 minutes over a month to talk to family members. If they were in a prison \u2014 a federal prison \u2014 they would get 300 minutes.\"",
+  "evidence": "Q: Which facility is the claim referring to? A: Children housed at a migrant facility in Homestead, Florida. Q: What is the faculties policy on telephone time for the children to speak to relatives? A: policy states that children must be provided the opportunity to make a minimum of two telephone calls per week \u2014 at 10 minutes each \u2014 to family members and/or sponsors living in the United States and abroad Q: How much telephone time do the children receive each month according to policy details? A: 2 10 minute phone calls per week adds up to 80 minutes of phone time per month, Q: How long do prison inmates get on the phone each month in jail? A: federal Bureau of Prisons policy states that inmates get 300 minutes per month for telephone calls, with an extra 100 minutes per month in November and December. The maximum amount of time for each phone call is 15 minutes.",
+  "gold": "refute",
+  "speaker": "Donna Shalala",
+  "source": "CBS Miami\u2019s Jim DeFede",
+  "uid": "av32"
+ },
+ {
+  "claim": "Over the past five years, more than R1.3 trillion has been invested to build [infrastructure including electrifying] more than a million homes in South Africa.",
+  "evidence": "Q: According to the Department of Energy, how many homes were connected to the electricity grid from April 2014 to October 2018? A: Nearly 1.2 Million homes Q: How much money has been invested in building these homes according to the National treasury? A: R1.26 Trillion (so rounded up to R1.30)",
+  "gold": "support",
+  "speaker": "South African President Cyril Ramaphosa",
+  "source": null,
+  "uid": "av33"
+ },
+ {
+  "claim": "There is a \u2018global average\u2019 for the number of judges and magistrates to number of people in Kenya.",
+  "evidence": "Q: How many magistrates were their in Kenya in 2020? A: No answer could be found. Q: How many magistrates were there in Kenya in 2020? A: No answer could be found. Q: Is there a global average for the number of judges compared to population? A: No answer could be found. Q: What is the population of Kenya? A: 47.6 million",
+  "gold": "silent",
+  "speaker": "David Maraga ",
+  "source": "Youtube: NTV Kenya",
+  "uid": "av34"
+ },
+ {
+  "claim": "Nigeria is one of the Freest Countries for the Press and Media",
+  "evidence": "Q: Is there freedom for the press and media in Nigeria A: There have been about 448 total reports on recorded assaults on journalists Q: What is Nigeria's stance on press and media A: In Nigeria, the civic space continues to shrink. Nigerian authorities have carried out consistent attack on journalists and media activists through verbal and physical assault, indiscriminate arrest, torture, detention, prosecution through trumped-up charges and abuse of the Cybercrime and Terrorism laws",
+  "gold": "refute",
+  "speaker": "Nigerian Minister of Information and Culture, Alhaji Lai Mohammed",
+  "source": "Daily post",
+  "uid": "av35"
+ },
+ {
+  "claim": "The World Bank's annual Doing Business Report currently puts South Africa number 82 out of 190 countries that they have tracked with regard to being able to do business in an efficient way",
+  "evidence": "Q: Where does South Africa rank in the World Bank's annual Doing Business Report? A: South Africa ranks 82nd in the 2018 report. Q: What was South Africa's score? A: 66.03 in the 2018 report. Q: How many countries feature in the report? A: 190 countries economies were measured by the Doing Business report.",
+  "gold": "support",
+  "speaker": "Cyril Ramaphosa",
+  "source": null,
+  "uid": "av36"
+ },
+ {
+  "claim": "There is a link between the launch of 5G and the Covid-19 outbreak in 2019.",
+  "evidence": "Q: When was 5G launched? A: 14 May 2018 Qatar Ooredoo CEO Launches 5G at Ceremony in West Bay Doha, Qatar Ooredoo has today announced that the company is the first operator in the world to launch a live 5G network on the 3.5GHz spectrum band. The breakthrough announcement was made in an event attended by Ooredoo senior management at the Ooredoo Tower in West Bay. Attendees were also briefed on the first Ooredoo 5G site which was accomplished just days after Ooredoo\u2019s new 5G Commercial Core Network was activated. Ooredoo\u2019s 5G network is the first commercially available 5G network in the world and is an important technological breakthrough for the telecommunications industry worldwide. Q: Was 5G available worldwide in 2020? A: It was only commercially available in 33 countries. Q: How many countries had been affected by Covid-19 in 2020? A: Much more than 33.",
+  "gold": "refute",
+  "speaker": null,
+  "source": "Facebook",
+  "uid": "av37"
+ },
+ {
+  "claim": "Democrats in the United States are calling for the Second Amendment to be repealed.",
+  "evidence": "Q: Are Democrats in Congress or those running for president calling for the Second Amendment to be repealed? A: No answer could be found. Q: What is the Second Amendment? A: The Second Amendment (Amendment II) to the United States Constitution protects the right to keep and bear arms. Q: Are some democrats looking to repeal the second amendment in 2019? A: No answer could be found. Q: Who has suggested repealing the second amendment? A: Democratic state lawmakers, and one Democratic candidate for U.S. Senate, who have called for a repeal to be undertaken or discussed, or have at least suggested that that\u2019s their position. Q: Have the Democrats said they want to repeal the second amendment? A: NO : \u201cIt is unequivocally not the Democratic caucus\u2019 position to repeal the Second Amendment,\u201d Senator Chuck Schumer, the top Democrat in the Senate, said in a statement to The New York Times",
+  "gold": "refute",
+  "speaker": "Donald Trump",
+  "source": "Facebook",
+  "uid": "av38"
+ },
+ {
+  "claim": "Increasing the international health surcharge in the UK to \u00a3625 and extending it to all foreign workers, including EU migrants after Brexit, will raise over \u00a3500 million a year.",
+  "evidence": "Q: What is the current immigration health surcharge? A: You\u2019ll have to pay: \u00a3300 per year for a student or Tier 5 (Youth Mobility Scheme) visa, for example \u00a3600 for a 2-year visa \u00a3400 per year for all other visa and immigration applications, for example \u00a32,000 for a 5-year visa Q: Who is excluded from paying the surcharge? A: Who does not need to pay or get an IHS reference number You\u2019ll be able to use the NHS without paying the surcharge or getting a reference number if: you\u2019re applying for indefinite leave to enter or remain you\u2019re a diplomat or a member of a visiting armed forces and not subject to immigration control you\u2019re a dependant of a member of the UK\u2019s armed forces you\u2019re the dependant of a member of another country\u2019s armed forces who is exempt from immigration control you\u2019re a family member of a European national with European Union treaty rights you\u2019re applying for a visa for the Isle of Man or Channel Islands you\u2019re a British Overseas Territory citizen resident in the Falkland Islands you\u2019re an asylum seeker or applying for humanitarian protection (or you\u2019re their dependant) you\u2019re a domestic worker who has been identified as a victim of slavery or human trafficking you\u2019re applying for discretionary leave to remain in the UK as someone who has been identified as a victim of slavery or human trafficking (or you\u2019re their dependant) the Home Office\u2019s domestic violence concession applies to you (or you\u2019re their dependant) being made to leave the UK would be against your rights under Article 3 of the European Convention of Human Rights (or you\u2019re their dependant) Q: How is the NHS funded? A: How is the NHS in England currently funded? The NHS is funded mainly thr",
+  "gold": "silent",
+  "speaker": "Conservative Party",
+  "source": null,
+  "uid": "av39"
+ },
+ {
+  "claim": "The United States is \u201cactually screening fewer people (for the coronavirus than other countries) because we don't have appropriate testing.\"",
+  "evidence": "Q: What caused the United States to lag behind other countries in the detection of the novel coronavirus A: The U.S. Centers for Disease Control and Prevention lost valuable weeks that could have been used to track its possible spread in the United States because it insisted upon devising its own test Q: Did the United States had a fewer diagnostic of people for coronavirus than other countries ? A: No answer could be found. Q: What contributed to the United States\u2019 relatively low screening numbers ? A: An error with the CDC\u2019s early test kits",
+  "gold": "support",
+  "speaker": "Lou Dobbs",
+  "source": "Media ITE",
+  "uid": "av40"
+ },
+ {
+  "claim": "Cuba has a lung cancer vaccine that the US had no access to because it sanctioned Cuba.",
+  "evidence": "Q: What is the function of a cancer vaccine A: cancer vaccines don\u2019t block disease; their purpose is to shrink existing tumors, and failing that, slow them down.",
+  "gold": "silent",
+  "speaker": null,
+  "source": "Facebook",
+  "uid": "av41"
+ },
+ {
+  "claim": "There was a major increase in the number of short positions taken by UK hedge funds when Boris Johnson ran for Conservative leader.",
+  "evidence": "Q: What is a short position A: A short, or a short position, is created when a trader sells a security first with the intention of repurchasing it or covering it later at a lower price. Q: Was there a spike in short positions before Boris Johnson came into power between 15 January 2019 and 23 July 2019 A: No answer could be found.",
+  "gold": "silent",
+  "speaker": "Byline Times Team",
+  "source": "Byline Times",
+  "uid": "av42"
+ },
+ {
+  "claim": "Migrant arrests and expulsions in the US along the southern border are down.",
+  "evidence": "Q: Was overall migrant movement down in 2020 due to the wall being built? A: Border Patrol agents apprehended about half as many migrants at the U.S.-Mexico border in fiscal 2020 as they did the year before, according to newly released federal data. The sharp drop in the number of apprehended migrants follows a virtual shutdown of the border and new restrictions in the way asylum cases are handled in response to the coronavirus outbreak. Following a dramatic rise in fiscal 2019, apprehensions at the U.S.-Mexico border fell by about half in fiscal 2020 as COVID-19 closed borders. There were 400,651 apprehensions in the 2020 fiscal year (October 2019-September 2020), a 53% decrease from the previous fiscal year, when apprehensions soared to their highest level in 12 years. Q: What happened to immigration numbers in 2020 A: After surging in 2019, migrant apprehensions at U.S.-Mexico border fell sharply in fiscal 2020",
+  "gold": "support",
+  "speaker": "Donald Trump",
+  "source": "White House remarks",
+  "uid": "av43"
+ },
+ {
+  "claim": "Coronavirus Vaccine has been created in Israel",
+  "evidence": "Q: What does the World Health Organisation say about the creation of a coronavirus vaccine? A: Many potential vaccines for COVID-19 are being studied, and several large clinical trials may report results later this year. If a vaccine is proven safe and effective, it must be approved by national regulators, manufactured, and distributed. Q: We're the scientists in isreal working towards producing a vaccine A: Yes",
+  "gold": "silent",
+  "speaker": null,
+  "source": "WhatsApp",
+  "uid": "av44"
+ },
+ {
+  "claim": "India's Supreme Court recently changed its motto from \u2018Satyamev Jayate\u2019 to \u2018Yato Dharmastato Jai\u2019.",
+  "evidence": "Q: Has the motto of the Supreme Court of India been changed? A: No Q: How does the Supreme Court of India detail its motto? A: The inscription in Sanskrit \u201cyatodharmastato jayah\u201d means \u2013 Truth alone I uphold. Q: Is there any reference in the Supreme Court's history section to a change of motto? A: No",
+  "gold": "refute",
+  "speaker": "@SunilAstay",
+  "source": "Twitter",
+  "uid": "av45"
+ },
+ {
+  "claim": "Hot lemon can cure all cancers. The acids and carboxylic acids contained in lemon juice can regulate high blood pressure, protect narrow arteries, regulate blood circulation and reduce blood clotting.",
+  "evidence": "Q: What can hot lemon cure A: Lemon can cure asthma and help patients with norovirus but nothing to prove that it cures cancer Q: Can lemons cure cancer? A: No answer could be found. Q: Can eating lemons cure cancer? A: No answer could be found. Q: Can lemon juice cure cancer? A: No answer could be found.",
+  "gold": "silent",
+  "speaker": null,
+  "source": null,
+  "uid": "av46"
+ },
+ {
+  "claim": "After Aurora in 2012, the Colorado governor passed tougher gun control laws.",
+  "evidence": "Q: What happened in Aurora in 2012 A: A mass shooting in a theatre occurred Q: Who was the Governor of Colorado in 2012 A: Governor John Hickenlooper Q: Did Colorado have gun control laws before 2012 A: No answer could be found. Q: Did gun sales go up after Aurora event in 2012 A: Yes",
+  "gold": "silent",
+  "speaker": "John Hickenlooper",
+  "source": null,
+  "uid": "av47"
+ },
+ {
+  "claim": "Slowed Coronavirus testing was due to Obama-era regulations.",
+  "evidence": "Q: When was Obama president of the U.S? A: January 20, 2009 to January 20, 2017 Q: When was Covid first discovered in the U.S? A: Around January 2020. Q: What regulations apparently slowed down Covid testing at the start of the Pandemic? A: In 2014, the FDA released \u201cdraft guidance\u201d making the case for phasing in regulations over a period of years. The document can still be found on the FDA website, where every page is labeled: \u201cContains Nonbinding Recommendations Draft \u2014 Not for Implementation.\u201d Q: Were these Guidelines ever implemented? A: No",
+  "gold": "refute",
+  "speaker": "Donald Trump",
+  "source": "Whitehouse.gov",
+  "uid": "av48"
+ },
+ {
+  "claim": "South Bend in Indiana unemployment fell by half under Mayor Pete Buttigieg",
+  "evidence": "Q: What was the unemployment rate in South Bend before 2012 A: No answer could be found. Q: Which economic projects were done by Senator Buttigieg in South Bend Indiana to reduce the unemployment rate A: Building of a Casino in South Bend",
+  "gold": "silent",
+  "speaker": "Pete Buttigieg",
+  "source": "NBC's \"Meet the Press\"",
+  "uid": "av49"
+ },
+ {
+  "claim": "\u201cThis growth is well above the sub-Saharan Africa region average growth of 3% and the global average of 3.6%.\u201d Kenya",
+  "evidence": "Q: What was Kenyas Annual growth in comparison to the rest of the worlds economy? A: The world\u2019s economy grew an estimated 3.6% that year. (Note: The IMF estimated Kenya\u2019s economic growth for 2018 at 6.0%.) Only 21 countries achieved a growth rate of at least 6.3%. Only 21 countries achieved a growth rate of at least 6.3%. Q: Was Kenya's growth WELL ABOVE the sub-Saharan Africa region average growth of 3% and the global average of 3.6%? A: The IMF estimated Kenya's economic growth for 2018 at 6% , so this is well above the average growth of 3% for sub-Saharan Africa and also well above the global average of 3.6%.",
+  "gold": "support",
+  "speaker": "Henry Rotich",
+  "source": "Budget Statement",
+  "uid": "av50"
+ },
+ {
+  "claim": "Once a stroke victim's mouth is crooked, you should pull their the ears until they are red and prick them until they bleed. This technique will stop capillaries in the victim\u2019s brain from bursting.",
+  "evidence": "Q: How can you save someone if they are having a stroke? A: If you're experiencing any symptom of a stroke, which is you feel your face or somebody notices your face is dripping, if you can't raise your arm or put your arm up and it starts to drift down or your speech is slurred or jumbled words are coming out of your mouth, call 911 immediately. Q: Can pricking earlobes help someone if they are having a stroke? A: No answer could be found.",
+  "gold": "refute",
+  "speaker": "Jeff Garcia",
+  "source": "Facebook",
+  "uid": "av51"
+ },
+ {
+  "claim": "US governments speaker of the  House Nancy Pelosi Spent $106K of tax payer Money on a party With Hollywood Elitists",
+  "evidence": "Q: Where was this posted? A: The story originated from an article published by Daily World Update on November 30, 2019. The site that originally published the story is part of the \"America's Last Line of Defense\" network of satire websites run byself-professed liberal troll Christopher Blair from Maine along with a loose confederation of friends and allies. Blair has been in a feud with fact checking website Snopes for some time now and has also criticized other fact checkers in the past who labeled his work \"fake news\" instead of satire. In reaction to this he has recently rebranded all his active websites and Facebook pages so they carry extremely visible disclaimers everywhere. Q: Was this intended to be taken seriously? A: No",
+  "gold": "refute",
+  "speaker": null,
+  "source": "Daily world update",
+  "uid": "av52"
+ },
+ {
+  "claim": "In 2018 provisional estimates show the Kenyan economy grew by 6.1%.",
+  "evidence": "Q: What does Kenya's statistics agency say about the economic growth in 2018? A: Provisional estimates of gross domestic product indicate that the economy expanded by 6.0 per cent during the third quarter of 2018",
+  "gold": "support",
+  "speaker": "Kenya President Uhuru Kenyatta",
+  "source": "President Republic of Kenya",
+  "uid": "av53"
+ },
+ {
+  "claim": "nearly half\" of House US Republicans have supported a nonpartisan redistricting bill.",
+  "evidence": "Q: What was the Republican/Democrat split in the House at time of claim? A: There were 65 Republicans and 55 Democrats in the North Carolina House of Representatives. Q: How many Republicans in the House support McGrady's 2019 redistricting bill? A: No answer could be found. Q: What bills were mentioned in the claim? A: 1. HB 824 2. HB 606 3. HB 92 4. HB 200 5. HB 69 Q: How many Republican House members voted for House Bill 824? A: No answer could be found. Q: How many Republican House members voted for House Bill 606? A: No answer could be found. Q: How many Republican House members voted for House Bill 92? A: No answer could be found. Q: How many Republican House members voted for House Bill 200? A: No answer could be found.",
+  "gold": "silent",
+  "speaker": " Paul Specht",
+  "source": null,
+  "uid": "av54"
+ },
+ {
+  "claim": "U.S Representative Alexandria Ocasio-Cortez says 'trucks are killing America'.",
+  "evidence": "Q: Rep. Did Alexandria Ocasio-Cortez Say Trucks Are Killing America? A: Articles from Blair's sites frequently get copied by \"real\" fake news sites who omit the satire disclaimer and other hints the stories are fake. One of the most persistent networks of such sites is run by a man from Pakistan named Kashif Shahzad Khokhar (aka \"DashiKashi\") who has spammed hundreds of such stolen stories into conservative and right-wing Facebook pages in order to profit from the ad revenue. When fact checkers point this out to the people liking and sharing these copycat stories some of them get mad at the fact checkers instead of directing their anger at the foreign spammers or the liberal satire writers. Others send a polite \"thank you\" note, which is much appreciated. Q: Who are the source and publishers of this claim ? A: BustaTroll.org is a subsidiary of the \u201cAmerica\u2019s Last Line of Defense\u201d network of parody, satire, and tomfoolery, or as Snopes called it before they lost their war on satire: Junk News, which means what they post are mainly false.",
+  "gold": "refute",
+  "speaker": "Alexandria Ocasio-Cortez",
+  "source": "bustatroll.org",
+  "uid": "av55"
+ },
+ {
+  "claim": "COVID-19 cases in the Baranguay UP campus increased due to the SONAgkaisa rally held there on July 27 2020.",
+  "evidence": "Q: When was the rally held? A: July 27 Q: When did the claim say the people were testing positive for Covid? A: 28th July, just one day after the rally. Q: What is the incubation (the time it takes for symptoms to appear after catching the disease) ? A: 1 to 12.5 days Q: Have there been any official reports to confirm these people caught covid from the rally? A: No answer could be found. Q: How long does it take before an infected COVID-19 patients test positive and shows symptoms A: The incubation period (time from exposure to the development of symptoms) of the virus is estimated to be between 2 and 14 days based on the following sources: The World Health Organization (WHO) reported an incubation period for COVID-19 between 2 and 10 days. [1] China\u2019s National Health Commission (NHC) had initially estimated an incubation period from 10 to 14 days [2]. The United States' CDC estimates the incubation period for COVID-19 to be between 2 and 14 days [3]. DXY.cn, a leading Chinese online community for physicians and health care professionals, is reporting an incubation period of \"3 to 7 days, up to 14 days\". Q: When was this rally held A: July 27th, 2020 Q: When did the UDP bulletin record 118 new cases of COVID-19 A: July 28th, 2020",
+  "gold": "refute",
+  "speaker": "Timek ti Cagayan",
+  "source": "Facebook",
+  "uid": "av56"
+ },
+ {
+  "claim": "The railway improvements has been in the books of the Kenyan government for 30 years before 2019, but it was not built.",
+  "evidence": "Q: When was the Kenyan railway project first developed? A: 2007 Q: which company built the railway in Kenya A: the China Road and Bridge Corporation \u2013 the Chinese firm that built it",
+  "gold": "refute",
+  "speaker": "William Ruto",
+  "source": null,
+  "uid": "av57"
+ },
+ {
+  "claim": "If they have a vote to do a formal impeachment inquiry, historically, precedent is such that, yes, then everyone gets the right, the minority party gets rights. Certainly, the White House gets rights. The president gets rights that aren\u2019t there now.",
+  "evidence": "Q: What are the rules for a Senate trial such as an impeachment? A: There are no set rules. Rather, the Senate passes a resolution first laying out trial procedures. Q: What rights does the person on trial have? A: No answer could be found.",
+  "gold": "silent",
+  "speaker": "Jim Jordan",
+  "source": null,
+  "uid": "av58"
+ },
+ {
+  "claim": "Flu shots contain Thimerosal which may have neurological effect and cause development deficits and has been known to cause seizures.",
+  "evidence": "Q: can the polysorbate in vaccine affect fetility A: there\u2019s no good evidence to show that the amount of polysorbate 80 found in vaccines can affect fertility",
+  "gold": "silent",
+  "speaker": "UKIP Warwick and Leamington",
+  "source": "facebook",
+  "uid": "av59"
+ },
+ {
+  "claim": "Late musician Prince designed the first Nike Air Jordans.",
+  "evidence": "Q: Who designed the first Nike Air Jordans ? A: Peter Moore was the man behind the Air Jordan 1 (and also helped design the Air Jordan II). When Michael Jordan first looked at the AJ I, his response was \u201cI\u2019m not wearing that shoe. I\u2019ll look like a clown\u201d. With time, the shoe slowly grew on him. The original Air Jordan 1 retailed at $65.00. Q: What year did Late musician Prince died ? A: In the weeks since the 57-year-old singer was found dead at his suburban Minneapolis compound, on 21 April, investigators have been looking into whether he had a prescription drug problem. This surprised friends and family members, who said Prince avoided alcohol and drugs and maintained a healthy lifestyle. On Thursday, however, medical examiner A Quinn Strobl released the office\u2019s assessment of Prince\u2019s cause of death: \u201cself-administered fentanyl\u201d, a powerful opioid. The office said it could not offer further comment. In a press release, the Carver County sheriff\u2019s office said it \u201ccontinues its investigation\u201d. Earlier on Thursday Minneapolis Star Tribune reported that Prince died of a painkiller overdose. The official autopsy and toxicology reports have yet to be released. Prince was last seen alive around 8pm on 20 April, when he was dropped off by an acquaintance at Paisley Park, his sprawling compound in Chanhassen, Minnesota, his longtime hometown. Two staff members appeared at the residence early on the following day, and discovered his body in an elevator on the first floor.",
+  "gold": "refute",
+  "speaker": "Angelia M Toliver",
+  "source": "Facebook",
+  "uid": "av60"
+ },
+ {
+  "claim": "South Africa ha launched the Youth Employment Service, which is placing unemployed youth in paid internships in companies across the country.",
+  "evidence": "Q: Has South Africa Launched a youth unemployment service A: President Cyril Ramaphosa launched the Youth Employment Service (YES) tomorrow, Tuesday, 27 March 2018, Q: Does South Africa's youth unemployment service place young people in paid internships? A: The programme has three channels through which employment opportunities can occur, one of which is... \u2022 Corporate work experiences: businesses that participate in the programme create one-year paid positions for youth aged between 18 and 35",
+  "gold": "support",
+  "speaker": "South African President Cyril Ramaphosa",
+  "source": null,
+  "uid": "av61"
+ },
+ {
+  "claim": "Hunter Biden was paid $3 million plus $183,000 a month to be a board member of a company that a lot of people said was corrupt.",
+  "evidence": "Q: What company is Hunter Biden a member of the board A: Burisma Holdings, Ukraine\u2019s largest private gas producer, has expanded its Board of Directors by bringing on Mr. R Hunter Biden as a new director.",
+  "gold": "silent",
+  "speaker": "US President Donald Trump",
+  "source": "Fox News Channel transcript",
+  "uid": "av62"
+ },
+ {
+  "claim": "In 2010, U.S. Rep Maxine Waters steered $12 million in Troubled Asset Relief Program (TARP) funds to her husband\u2019s private bank account. She was indicted but served no time",
+  "evidence": "Q: When was US Rep Maxine Walters cleared of any charges relating to the claim that she steered $12 million in Troubled Asset Relief Program (TARP) funds to her husband\u2019s private bank account? A: September 21, 2012 A House ethics panel has determined there is no evidence that Rep. Maxine Waters (D-Calif.) violated congressional rules when she called Treasury Secretary Henry Paulson in 2008 on behalf of minority-owned banks, despite her husband\u2019s financial stake in one troubled institution. Q: Was Maxine Waters indicted for steering TARP money to her husband's private bank account? A: On Tuesday, the House Ethics Committee issued its final report in the case. Waters will not be charged with any violations of House ethics rules.",
+  "gold": "refute",
+  "speaker": null,
+  "source": null,
+  "uid": "av63"
+ },
+ {
+  "claim": "Over 130 legislators in the USA have endorsed legislation that would bankrupt our nation by providing free taxpayer-funded health care to millions of illegal aliens, forcing taxpayers to subsidize free care for anyone in the world who unlawfully crosses our borders.",
+  "evidence": "Q: What legislation does the claim refer to? A: Medicare for All in the u.S. Q: Would Medicare for all risk bankrupting the U.S? A: No Q: Does Medicaid cover illegal immigrants in the U.S? A: No Q: Did legislators vote for Medicare for all? A: 17 Democratic senators backed the\u2019 Medicare for All bill. In the House, 125 members signed on",
+  "gold": "refute",
+  "speaker": "Donald Trump",
+  "source": null,
+  "uid": "av64"
+ },
+ {
+  "claim": "Joe Biden said, \"I wrote the first climate change bill that was in the Congress, PolitiFact said was a game changer.\"",
+  "evidence": "Q: Who wrote the first climate change bill that made it to congress A: June 26, 2009 Q: Did Joe Biden write the bill A: No answer could be found.",
+  "gold": "silent",
+  "speaker": "Joe Biden",
+  "source": "CNN",
+  "uid": "av65"
+ },
+ {
+  "claim": "In 2018 we had 10 million tourists who came to our country South Africa, which is a huge increase",
+  "evidence": "Q: What was the total number of tourists in South Africa in 2018 between January to November A: The total number of tourists was 9, 464, 950 Q: What number of tourists visited South Africa in 2017 A: 9, 293, 618 tourists Q: Is there data for visitors visiting South Africa during 2018? A: The data is from January up until November. There is no data for December. Q: When was the claim made? A: 07/02/2019 Q: When will the data for December 2018 be released? A: EXPECTED RELEASE DATE: 25 February 2019",
+  "gold": "silent",
+  "speaker": "Cyril Ramaphosa",
+  "source": null,
+  "uid": "av66"
+ },
+ {
+  "claim": "Lewis Carroll once wrote, \u201cYou know what the issue is with this world? Everyone wants a magical solution to their problems, and everyone refuses to believe in magic.\u201d",
+  "evidence": "Q: Did Lewis Carroll write, \u201cYou know what the issue is with this world? Everyone wants a magical solution to their problems, and everyone refuses to believe in magic.\u201d? A: No",
+  "gold": "refute",
+  "speaker": null,
+  "source": "Facebook",
+  "uid": "av67"
+ },
+ {
+  "claim": "Democrat-controlled states suffered the harshest restriction in the US during the coronavirus pandemic.",
+  "evidence": "Q: Did Democrat run states have the harshest Covid-19 restrictions in USA? A: No",
+  "gold": "refute",
+  "speaker": "Joe M",
+  "source": "YouTube",
+  "uid": "av68"
+ },
+ {
+  "claim": "More than 87.5 lakh farmers and sellers are registered.",
+  "evidence": "Q: How many farmers and sellers are registared with the e-NAM portal? A: 85,41,784 farmers, 55,454 Commission Agents and 1,04,588 Traders/Buyers have been registered on e-NAM portal. Q: What is the E-nam Portal? A: As per a response provided by the government in the Lok Sabha in March 2018, \u2018National Agriculture Market (eNAM) is a pan-India electronic trading portal which networks the existing Agricultural Produce Market Committee (APMC) Mandis to create a unified national market for agricultural commodities.\u2019 Q: How many farmers and sellers are registered? A: \u2018more than 87.5 lakh farmers and sellers are registered\u2019.",
+  "gold": "support",
+  "speaker": "The BJP government",
+  "source": "48 months Portal - Government of India website",
+  "uid": "av69"
+ },
+ {
+  "claim": "The counties are striving to reach the 10% [allocation to agriculture] recommended by the Malabo declaration.",
+  "evidence": "Q: Why are the counties striving to reach 10% of allocation to agriculture? A: We commit to ending hunger in Africa by 2025 Q: Should counties be chasing the 10% spending target or should it be done at a national level? A: No answer could be found.",
+  "gold": "silent",
+  "speaker": "Wycliffe Oparanya",
+  "source": "youtube",
+  "uid": "av70"
+ },
+ {
+  "claim": "U.S. representatives Donna Shalala and Debbie Mucarsel-Powell were supporting candidates other than Bernie Sanders in the US elections.",
+  "evidence": "Q: Why is Debbie Mucarsel-Powell reluctant to support Bernie Sanders? A: Due to his comments on Fidel Castro",
+  "gold": "silent",
+  "speaker": "U.S. Senator Bernie Sanders",
+  "source": "60 Minutes TV program",
+  "uid": "av71"
+ },
+ {
+  "claim": "Farm Bankruptcies in the USA Increased by 20%  in the past year due largely to Trump's Unmitigated disaster of a tariff war.",
+  "evidence": "Q: What is the reason for farm bankruptcies in the US A: Chapter 12 farm bankruptcies continue to increase as farmers and ranchers struggle with a prolonged downturn in the farm economy that\u2019s been made worse by unfair retaliatory tariffs on U.S. agriculture as well as two consecutive years of adverse planting, growing and harvesting conditions. Q: Did it come as a surprise A: The continued increase in Chapter 12 filings was not unanticipated given the multi-year downturn in the farm economy, record farm debt, headwinds on the trade front and recent changes to the bankruptcy rules in 2019\u2019s Family Farmer Relief Act, which raised the debt ceiling to $10 million Q: What does the data show regarding farm bankruptcy rates in the USA in 2019? A: The number of family farms filing for bankruptcy last year jumped nearly 20% from the previous year, according to data released by the U.S. Courts. According to American Farm Bureau Federation Chief Economist John Newton, last year there were 595 Chapter 12 family farm bankruptcies, up nearly 100 filings from 2018 and the highest level since 2011\u2019s 637 Chapter 12 filings.",
+  "gold": "support",
+  "speaker": "Joe Biden",
+  "source": "Youtube",
+  "uid": "av72"
+ },
+ {
+  "claim": "A study conducted by World Health Organization (WHO) and major hospitals has found that Covid-19 has become weaker and harmless.",
+  "evidence": "Q: What is the World Health Organisation? A: The World Health Organisation (WHO) is a specialised agency of the United Nations, established in 1948. The constitution of WHO was signed by 61 countries in 1946, which has increased to a total of 164 countries in 2016. Q: Has anyone indicated that Covid-19 has become weaker and less lethal at any point? A: Yes Q: Has WHO responded to claims by the Italian doctor? A: Yes",
+  "gold": "refute",
+  "speaker": "Chayan Kundu",
+  "source": "Facebook",
+  "uid": "av73"
+ },
+ {
+  "claim": "Kenya's economic growth (an average of 5.6% over 2013 to 2017) outperformed the global average.",
+  "evidence": "Q: What was Kenya's economic growth between 2013 A: 5.7% Q: What was Kenya's GDP in 2014 A: 5.3% Q: What was Kenya's GDP between 2015-2017 A: In 2015- 5.7% In 2016- 5.9% In 2017- 4.9% Q: What was World Economic growth between 2013-17 A: In 2013 it was 3.2% In 2014 it was 3.4% In 2015 it was 3.2% In 2016 it was still 3.2% Q: What was the world economy in 2017 A: it was 3.8% Q: what was Kenya's average growth between 2013-2017 compared to the world's A: For Kenya it is 5.5 and for the world it is 3.36%",
+  "gold": "support",
+  "speaker": "Uhuru Kenyatta",
+  "source": null,
+  "uid": "av74"
+ },
+ {
+  "claim": "Devender Sharma ran an illegal kidney racket on the pretext of coronavirus.",
+  "evidence": "Q: Was Devender Sharma convicted of selling kidney's? A: Yes Q: Did Devender Sharma murder over 100 people? A: The amount of victims is unknown but believed to be over 50. Q: Did Devender Sharma feed crocodiles with the bodies of his murder victims? A: Sharma and his associates dumped bodies in a canal infested with crocodiles to get rid of evidence. It is unknown whether Sharma himself directly fed victims bodies to crocodiles. Q: Did Devender Sharma's murders take place during the Covid-19 epidemic? A: No",
+  "gold": "refute",
+  "speaker": "Virendra Prajapati",
+  "source": "Facebook",
+  "uid": "av75"
+ },
+ {
+  "claim": "In the 1980s and 1990s violent crime was out of control.",
+  "evidence": "Q: Did the violent crime rate in the U.S increase during the 1980s and 1990s on previous and following decades? A: Yes",
+  "gold": "support",
+  "speaker": "Joe Biden",
+  "source": "youtube",
+  "uid": "av76"
+ },
+ {
+  "claim": "A black woman named Malinda Borden Died when the titanic sank because the life boats were reserved for white people only.",
+  "evidence": "Q: Was Malinda Borden on the titanic passenger list? A: No Q: Was Malinda Borden listed as not accounted for after the titanic sank? A: No",
+  "gold": "refute",
+  "speaker": null,
+  "source": "Facebook",
+  "uid": "av77"
+ },
+ {
+  "claim": "Nigeria has made solid progress in fighting corruption in the past four years",
+  "evidence": "Q: Was Buhari Administration substantially able cut down corruption in the past four years ? A: Nigeria has a reputation for very massive corruption. I also know that the President (Buhari) has been able to cut that down very substantially. We talked about that, he is working on it and they have made a lot of progress and I think they will continue to make a lot of progress,\u201d Trump said. Trump said this cut down on corruption in Nigeria will attract investors from the US to Nigeria. We have a lot of people in this country that invests in Nigeria, so cutting down on that corruption element and a corrupt element is very important to us and the President (Buhari) will be able to do that,\u201d he added. He also recognised Nigeria\u2019s effort in its fight against terrorism and promised to support the country in that regard. \u201cNigeria is one of the first African nation to join the coalition to defeat ISIS and Nigerian forces are currently leading regional efforts to defeat ISIS in West Africa and doing very well as we have. Nigeria is also leading Africa in the fight against Boko Haram,\u201d he said. Q: How many Nigerian have been convicted of corruption since President Buhari took office ? A: In the three years that I have been in charge of EFCC, we have secured 703 convictions. For me, it was an auspicious opportunity to contribute my quota to Mr President\u2019s vision of a corruption-free nation. The opportunity to fully subscribe to President Buhari\u2019s mantra to `kill corruption before it kills us\u2019, was for me, the highest call to duty \u2013 one that required absolute commitment and passion. \u201cIndeed, the task of fighting corruption in Nigeria has never been, is not and can never be an easy one,",
+  "gold": "support",
+  "speaker": "Buhari",
+  "source": null,
+  "uid": "av78"
+ },
+ {
+  "claim": "The MSME sector accounts for more than 80% of all businesses in Kenya.",
+  "evidence": "Q: What is the MSME Sector? A: Micro, small and medium enterprises Q: How many small businesses are there in Kenya? A: According to the The 2016 survey estimated that there were about 1.56 million MSMEs licensed by the 47 county governments, and 5.85 million unlicensed businesses, making for a total of 7.41 million micro, small and medium businesses. To estimate this, the statistics office sampled 50,043 licensed businesses from March to June 2016. An additional 14,000 households were targeted so as to capture household-based enterprises, which it said were largely unlicensed. Q: How many businesses are there in Kenya? A: No answer could be found. Q: How many businesses would there need to be in Kenya for MSME's to take up an 80% share? A: For MSME's to constitute 80%, as Kenyatta claimed, Kenya would have 9.26 million businesses in total.",
+  "gold": "silent",
+  "speaker": "Uhuru Kenyatta",
+  "source": "YouTube: KTN News Kenya (2020 National Address)",
+  "uid": "av79"
+ },
+ {
+  "claim": "Under three years of Donald Trumps administration, net farm income has already gone up nearly 50%.",
+  "evidence": "Q: Who collects information about the U.S farms economic data? A: The U.S. Department of Agriculture (USDA) Q: Does USDA data show a 50% increase in net farm income from 2017? A: According to that USDA data, farm net income increased 50% from 2016, through 2020, Q: What years was Donald Trump president? A: 2016 to 2020",
+  "gold": "support",
+  "speaker": "Donald Trump",
+  "source": null,
+  "uid": "av80"
+ },
+ {
+  "claim": "Viral infographic shows the Risk percentage of Community Transmission of COVID-19 for various states in India.",
+  "evidence": "Q: Who made this claim A: India in Pixels Q: what is the number of quarantined people that was used for the calculating the risk percentage A: \"quarantine\": [ 2933, 0 ],",
+  "gold": "silent",
+  "speaker": "India in Pixels",
+  "source": "Twitter",
+  "uid": "av81"
+ },
+ {
+  "claim": "In the past year we had 10 million tourists who came to our country, which is a huge increase",
+  "evidence": "Q: How many tourists visited South Africa in 2018? A: Full data for 2018 was not yet available at the time of the claim but, from January to November 2018 there were 9,464,950 tourist arrivals Q: How many tourists visited South Africa in 2017? A: 10,825,197 tourists",
+  "gold": "silent",
+  "speaker": "Cyril Ramaphosa",
+  "source": null,
+  "uid": "av82"
+ },
+ {
+  "claim": "One in four Nigerians are suffering from some sort of mental illness.",
+  "evidence": "Q: How many Nigerians are suffering from some sort of mental illness? A: With a population of 181 million, it is estimated that as much as 30 percent of the population suffers from a mental illness. This means that more than 54 million people are dealing with mental illness with little to no help. Q: Has there been a sample conducted on Nigerians who had mental illness in their lifetime? A: Yes Q: Has there been a recent survey on Nigerians who had mental illness in their lifetime? A: No answer could be found.",
+  "gold": "silent",
+  "speaker": " Socrates Mbamalu",
+  "source": "Al Jazeera report",
+  "uid": "av83"
+ },
+ {
+  "claim": "Biden will take away the Second Amendment.",
+  "evidence": "Q: Has Joe Biden's plan for gun regulation and control infringed on the second amendment A: Biden\u2019s plan to end gun violence says \"It\u2019s within our grasp to end our gun violence epidemic and respect the Second Amendment, which is limited,\"",
+  "gold": "refute",
+  "speaker": "Eric Trump",
+  "source": "Speech at The Republican National Convention",
+  "uid": "av84"
+ },
+ {
+  "claim": "Corona Virus is less likely to spread in a retail setting because people are moving around frequently and not just sitting or standing indoors for long periods of time during Worships.",
+  "evidence": "Q: Is walking past people in a shop setting, a high risk? A: experts believe you\u2019re less at risk than someone sitting still in a confined space. \"I would not worry about walking by someone,\" Dr. Amesh Adalja, an infectious disease specialist at Johns Hopkins University, told Slate. \"Even in a health care setting, contact is defined by being near someone for a certain amount of time,\" Adalja said. \"I would not worry about these fleeting encounters. The virus isn\u2019t airborne\u2014droplets need to get from one person to another.\" Q: How high risk is worship in indoor spaces? A: \"Reports from indoor spaces (restaurants, offices) suggest that both physical proximity and duration of exposure are important for transmission,\" Rasmussen said in an email. \"So sitting still around others in close physical proximity is probably higher risk than incidentally passing by someone in a store, but the risks aren\u2019t quantified because there are a lot of variables that can impact this.\" A recent NPR article categorized 14 different activities by their level of risk for infection. Worship services? \"High risk.\" Going shopping? \"Risk varies.\"",
+  "gold": "support",
+  "speaker": "North Carolina Gov. Roy Cooper",
+  "source": "Press Confrence.",
+  "uid": "av85"
+ },
+ {
+  "claim": "There\u2019s only one COVID-19 hot spot, and that\u2019s in a nursing home.",
+  "evidence": "Q: What is a disease hot spot A: Hotspots have been variously described as areas of elevated incidence or prevalence, higher transmission efficiency or risk, or higher probability of disease emergence Q: How many hot spots for COVID-19 in the US are there A: No answer could be found.",
+  "gold": "silent",
+  "speaker": "Donald Trump",
+  "source": null,
+  "uid": "av86"
+ },
+ {
+  "claim": "Republicans didn\u2019t like the fact that democrats removed mandatory minimums for first-time offenders.",
+  "evidence": "Q: What legislation is being discussed? A: The final legislation included a so-called \u201csafety valve\u201d provision that limited the use of mandatory minimum federal sentences for some drug offenses. A defendant could qualify to be exempt from those mandatory sentences if he or she met certain criteria, including: that the defendant didn\u2019t use violence or possess a gun or dangerous weapon during the act, no one was killed or seriously injured, and the defendant wasn\u2019t \u201can organizer, leader, manager, or supervisor of others in the offense.\u201d Q: What is the three strikes rule? A: Mandatory life imprisonment without possibility of parole for Federal offenders with three or more convictions for serious violent felonies or drug trafficking crimes. Q: What this supported by Biden? A: Biden did not back the three strikes provision, but he did back a Republican amendment that was added to the Senate legislation. Biden is on record at the time as saying he supported a three-strikes provision for \u201cserious [violent] felonies against a person,\u201d but he was against including nonviolent offenses and expressed concern that minor crimes could get swept up in the measure. Q: Was this supported by Biden? A: Biden did not back the three strikes provision, but he did back a Republican amendment that was added to the Senate legislation. Biden is on record at the time as saying he supported a three-strikes provision for \u201cserious [violent] felonies against a person,\u201d but he was against including nonviolent offenses and expressed concern that minor crimes could get swept up in the measure. Q: What was the Republicans stance on the removal of mandatory minimums for first-time offenders by the democrats?",
+  "gold": "silent",
+  "speaker": "Joe Biden",
+  "source": "Youtube",
+  "uid": "av87"
+ },
+ {
+  "claim": "In Nigeria, the physician to patient ratio is one doctor to every 4,000 to 5,000 patients.",
+  "evidence": "Q: How many Physicians are there in Nigeria? A: 40,000. Q: What is the population in Nigeria? A: Estimated 200.9 Million. Q: How many physicians are there every 4000 to 5000 patients on average? A: Only one medical doctor is available to cater for every 4,845 Nigerians, the official data sourced by PREMIUM TIMES show.",
+  "gold": "support",
+  "speaker": "Socrates Mbamalu",
+  "source": "Al Jazeera",
+  "uid": "av88"
+ },
+ {
+  "claim": "Russian Academy of Sciences Takes Aim at Musk\u2019s SpaceX Satellites",
+  "evidence": "Q: What is the complaint made by the Russian Academy of Science against Musks SpaceX satelites? A: Light From Elon Musk's Starlink Satellites Ruins Space Photos, Says Russian Government Agency. the Russian academy's concerns are shared by colleagues from the European Space Agency and it will take them to the U.N.",
+  "gold": "support",
+  "speaker": "Nikolai Samus",
+  "source": "RIA Novosti",
+  "uid": "av89"
+ }
+]

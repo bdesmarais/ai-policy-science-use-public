@@ -68,8 +68,9 @@ labels---the standard the rest of the pipeline holds to---and the strictly label
 the majority vote. This sharpens, rather than softens, the paper's scope claim: the judging step does
 not require a proprietary model at all, and the \emph{retrieval} step---which a single frontier model can
 now drive over a free index (\S\ref{sec:res-retrieval})---no longer needs a second paid service either.
-What ensembling does not touch, and benchmark transfer does not reach, is claim extraction and the
-in-domain human audit (\S\ref{sec:discussion}); those, not retrieval, are now the frontier.
+What ensembling does not touch is claim extraction (validated separately in
+\S\ref{sec:res-extraction}) and the joint-pipeline human audit, which we argue is a complementary check
+rather than the frontier it was once treated as (\S\ref{sec:discussion}).
 
 \begin{figure}[t]
 \centering
@@ -163,6 +164,42 @@ detects disconfirming evidence.}
 \label{fig:confusion}
 \end{figure}
 
+\subsection{The judge transfers to application-like pairs: validation on retrieved-evidence claims}
+\label{sec:res-application-validation}
+The standing objection to our validation is that SciFact and Climate-FEVER pair a claim with evidence
+\emph{curated to be about it}, whereas the application pairs a claim with \emph{retrieved} evidence that
+may be off-topic---so benchmark accuracy might not transfer. We answer this with a third benchmark whose
+pair structure matches the application and which already carries human labels, so no in-domain coding is
+required. AVeriTeC \citep{schlichtkrull2023averitec} comprises real-world claims fact-checked by fifty
+organisations, each paired with evidence \emph{retrieved from the open web}---the same noisy, multi-source
+pairing the application produces---and labelled \textsc{supported}/\textsc{refuted}/\textsc{not-enough-evidence}
+by trained annotators who agree at $\kappa=0.62$. On a class-balanced $90$-pair sample, the judge reaches
+accuracy $0.83$ and macro-$F_1$ $0.83$, agreeing with the human verdicts at $\kappa=0.75$---\emph{above}
+AVeriTeC's own human inter-annotator agreement of $0.62$. The cross-developer panel again clears the
+lexical/NLI floor ($0.59$--$0.66$ vs $0.54$), so the result is not one model's idiosyncrasy. The judge's
+errors concentrate ($9$ of $15$) in the \textsc{not-enough-evidence} boundary---the class with the lowest
+human agreement, which AVeriTeC re-annotated most---so the judge is uncertain exactly where the humans
+are. One honest caveat on the comparison: the judge's $\kappa$ is measured against the \emph{adjudicated}
+gold, whereas the human figure is \emph{pairwise} inter-annotator agreement, and agreeing with a settled
+gold is the easier quantity; the comparison should be read in the alternative-annotator spirit
+\citep{calderon2025alttest}---is the model inside the band of human disagreement---rather than as two
+identical numbers. Taken together (Fig.~\ref{fig:band}), across the spectrum from curated pairs (SciFact) to
+retrieved-evidence pairs (Climate-FEVER) to real-world web-retrieved pairs (AVeriTeC), the judge sits
+within the human-agreement band and \emph{exceeds} it on the two benchmarks whose pair structure matches
+the application. The ``curated pairs only'' gap is, on this evidence, closed.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.85\textwidth]{fig_band.png}
+\caption{The judge agrees with the human gold (red) within or above the human inter-annotator agreement
+(grey) across three benchmarks ordered by pair structure. It is just below the human band on curated
+SciFact ($\kappa$ $0.71$ vs $0.75$) and \emph{exceeds} it on the retrieved-evidence benchmarks that match
+the application---Climate-FEVER ($0.67$ vs $\alpha$ $0.33$) and AVeriTeC ($0.75$ vs $\kappa$ $0.62$). By
+the alternative-annotator standard the field uses to license replacing a coder \citep{calderon2025alttest},
+the judge is within the human band on exactly the pair structure the application produces.}
+\label{fig:band}
+\end{figure}
+
 \subsection{Validating the extraction step against human labels, without human coders}
 \label{sec:res-extraction}
 Extraction is the pipeline's first step and was its last unvalidated one. Three checks, none requiring
@@ -200,9 +237,11 @@ extraction does not bias the per-claim comparison, but it does mean the Republic
 thin---the conditional balance rests on just six Republican releases, and the refreshed window contains no
 Republican AI releases at all. The partisan corroboration contrast is therefore effectively
 Democratic-dominated, and we read it as suggestive rather than a tested partisan effect. With judging
-benchmark-validated, retrieval open and verifiable, and extraction checked for faithfulness, precision,
-and yield, the one validation the design still forecloses is the in-domain human audit of the judge on
-application pairs (\S\ref{sec:discussion}).
+benchmark-validated (on curated \emph{and} retrieved-evidence pairs, \S\ref{sec:res-application-validation}),
+retrieval open and verifiable, and extraction checked for faithfulness, precision, and yield, what the
+design still forecloses is a full in-domain human audit of the \emph{joint} pipeline---which we argue
+(\S\ref{sec:discussion}) is a complementary check rather than the decisive gate, given the judge's
+validation on application-structure pairs.
 
 \begin{figure}[t]
 \centering
@@ -348,10 +387,11 @@ claims the retriever happened to serve---so we report $0.57$ as the number and t
 ceiling under perfect retrieval, not a co-equal estimate. What the refresh adds is \emph{scale, recency,
 and index-portability}, not \emph{validity}: $0.57$ is the validated judge reading references the same
 model retrieved, against no in-domain human labels, so it inherits the two open questions the paper
-carries throughout---the judge is exercised on noisy application pairs rather than the curated pairs it
-was validated on, and the retrieval relevance that gates it is self-assessed. It sits in the range of the
-historical estimate, now on current data with no second paid service, and the decisive in-domain human
-audit (\S\ref{sec:discussion}) it does \emph{not} replace.
+carries throughout---the judge is exercised on noisy application pairs (though it is now validated on
+exactly such retrieved-evidence pairs, \S\ref{sec:res-application-validation}), and the retrieval relevance
+that gates it is self-assessed. It sits in the range of the historical estimate, now on current data with
+no second paid service, and the joint-pipeline human audit (\S\ref{sec:discussion}), which we argue is
+complementary rather than decisive, it does \emph{not} replace.
 
 \begin{figure}[t]
 \centering

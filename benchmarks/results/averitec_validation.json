@@ -1,0 +1,221 @@
+{
+  "n": 90,
+  "gold_dist": {
+    "support": 30,
+    "silent": 30,
+    "refute": 30
+  },
+  "human_kappa_reported": 0.619,
+  "validators": {
+    "nli_deberta": {
+      "n": 90,
+      "accuracy": 0.544,
+      "macro_f1": 0.546,
+      "per_class": {
+        "support": {
+          "precision": 0.812,
+          "recall": 0.433,
+          "f1": 0.565,
+          "support": 30
+        },
+        "refute": {
+          "precision": 0.577,
+          "recall": 0.5,
+          "f1": 0.536,
+          "support": 30
+        },
+        "silent": {
+          "precision": 0.438,
+          "recall": 0.7,
+          "f1": 0.538,
+          "support": 30
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 13,
+          "refute": 2,
+          "silent": 15
+        },
+        "refute": {
+          "support": 3,
+          "refute": 15,
+          "silent": 12
+        },
+        "silent": {
+          "support": 0,
+          "refute": 9,
+          "silent": 21
+        }
+      }
+    },
+    "Qwen/Qwen2.5-3B-Instruct": {
+      "n": 90,
+      "accuracy": 0.589,
+      "macro_f1": 0.593,
+      "per_class": {
+        "support": {
+          "precision": 1.0,
+          "recall": 0.433,
+          "f1": 0.605,
+          "support": 30
+        },
+        "refute": {
+          "precision": 0.467,
+          "recall": 0.7,
+          "f1": 0.56,
+          "support": 30
+        },
+        "silent": {
+          "precision": 0.594,
+          "recall": 0.633,
+          "f1": 0.613,
+          "support": 30
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 13,
+          "refute": 13,
+          "silent": 4
+        },
+        "refute": {
+          "support": 0,
+          "refute": 21,
+          "silent": 9
+        },
+        "silent": {
+          "support": 0,
+          "refute": 11,
+          "silent": 19
+        }
+      }
+    },
+    "microsoft/Phi-3.5-mini-instruct": {
+      "n": 90,
+      "accuracy": 0.656,
+      "macro_f1": 0.66,
+      "per_class": {
+        "support": {
+          "precision": 0.741,
+          "recall": 0.667,
+          "f1": 0.702,
+          "support": 30
+        },
+        "refute": {
+          "precision": 0.525,
+          "recall": 0.7,
+          "f1": 0.6,
+          "support": 30
+        },
+        "silent": {
+          "precision": 0.783,
+          "recall": 0.6,
+          "f1": 0.679,
+          "support": 30
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 20,
+          "refute": 10,
+          "silent": 0
+        },
+        "refute": {
+          "support": 4,
+          "refute": 21,
+          "silent": 5
+        },
+        "silent": {
+          "support": 3,
+          "refute": 9,
+          "silent": 18
+        }
+      }
+    },
+    "allenai/OLMo-2-1124-7B-Instruct": {
+      "n": 90,
+      "accuracy": 0.644,
+      "macro_f1": 0.632,
+      "per_class": {
+        "support": {
+          "precision": 0.95,
+          "recall": 0.633,
+          "f1": 0.76,
+          "support": 30
+        },
+        "refute": {
+          "precision": 0.833,
+          "recall": 0.333,
+          "f1": 0.476,
+          "support": 30
+        },
+        "silent": {
+          "precision": 0.5,
+          "recall": 0.967,
+          "f1": 0.659,
+          "support": 30
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 19,
+          "refute": 1,
+          "silent": 10
+        },
+        "refute": {
+          "support": 1,
+          "refute": 10,
+          "silent": 19
+        },
+        "silent": {
+          "support": 0,
+          "refute": 1,
+          "silent": 29
+        }
+      }
+    },
+    "claude_opus_4.8": {
+      "n": 90,
+      "accuracy": 0.833,
+      "macro_f1": 0.826,
+      "per_class": {
+        "support": {
+          "precision": 0.906,
+          "recall": 0.967,
+          "f1": 0.935,
+          "support": 30
+        },
+        "refute": {
+          "precision": 0.757,
+          "recall": 0.933,
+          "f1": 0.836,
+          "support": 30
+        },
+        "silent": {
+          "precision": 0.857,
+          "recall": 0.6,
+          "f1": 0.706,
+          "support": 30
+        }
+      },
+      "confusion": {
+        "support": {
+          "support": 29,
+          "refute": 0,
+          "silent": 1
+        },
+        "refute": {
+          "support": 0,
+          "refute": 28,
+          "silent": 2
+        },
+        "silent": {
+          "support": 3,
+          "refute": 9,
+          "silent": 18
+        }
+      }
+    }
+  }
+}

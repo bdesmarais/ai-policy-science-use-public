@@ -1,0 +1,17 @@
+{
+  "SciFact (curated: cited abstracts)": {
+    "judge_kappa": 0.71,
+    "human": "kappa 0.75",
+    "evidence": "cited (curated)"
+  },
+  "Climate-FEVER (retrieved sentences, lay)": {
+    "judge_kappa": 0.67,
+    "human": "alpha 0.33",
+    "evidence": "relevance-retrieved"
+  },
+  "AVeriTeC (web-retrieved, real-world)": {
+    "judge_kappa": 0.75,
+    "human": "kappa 0.62",
+    "evidence": "web-retrieved (application-like)"
+  }
+}

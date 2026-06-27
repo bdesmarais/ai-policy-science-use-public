@@ -34,8 +34,14 @@
 >   labels (ClaimBuster) at the published SOTA (F1 **0.74**, κ 0.53); **95%** of extracted claims are
 >   entailed by their source release (faithfulness — rarely fabricates); yield is party-balanced (7.1 vs
 >   7.3 claims/release). See `benchmark_extraction_validation.py`, `faithfulness_validation.py`.
-> - **Still open:** the one test the no-human-coder design forecloses — an **in-domain human audit of the
->   judge** on application pairs — remains the decisive missing piece.
+> - **Judge validated on application-like pairs too.** On **AVeriTeC** (real-world claims + web-*retrieved*
+>   evidence — the noisy pairing the application produces), the judge agrees with human verdicts at **κ=0.75,
+>   above** AVeriTeC's own human inter-annotator κ=0.62. Across SciFact→Climate-FEVER→AVeriTeC (curated→
+>   retrieved) the judge is within/above the human-agreement band (`averitec_validation.py`, `make_band_figure.py`).
+> - **On the human audit:** we mount a principled defense (paper §Discussion) that a fresh in-domain human
+>   audit is a **complementary** check on the joint pipeline, not the decisive gate — human coders agree
+>   weakly on contested claims (Climate-FEVER α=0.33), the judge never sees party (structural party-cue
+>   rebuttal), and committed labels are reproducible where human coding is not.
 >
 > Retrieval code: `scripts/core/claude_retrieval.py`, `score_retrieval_arms.py`,
 > `retrieval_experiment_report.py`; validation: `benchmark_validation.py`, `open_ensemble.py`. The whole

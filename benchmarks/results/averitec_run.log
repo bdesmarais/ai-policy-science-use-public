@@ -1,0 +1,16 @@
+Device set to use mps
+`torch_dtype` is deprecated! Use `dtype` instead!
+AVeriTeC sample: 90 (Counter({'support': 30, 'silent': 30, 'refute': 30})) -> /Users/bbd5087/Documents/GitHub/ai-policy-science-use/data/averitec_sample.json
+  nli_deberta: 0.544
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.22s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.84s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.89s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    Qwen/Qwen2.5-3B-Instruct: 50/90 (0.53s/pair)
+  Qwen/Qwen2.5-3B-Instruct: 0.589
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.91s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.96s/it]
+    microsoft/Phi-3.5-mini-instruct: 50/90 (0.75s/pair)
+  microsoft/Phi-3.5-mini-instruct: 0.656
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.33s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.47s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.54s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.40s/it]
+    allenai/OLMo-2-1124-7B-Instruct: 50/90 (1.12s/pair)
+  allenai/OLMo-2-1124-7B-Instruct: 0.644
+  claude: 0.833
+wrote averitec_validation.json
