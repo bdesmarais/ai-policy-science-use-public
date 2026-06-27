@@ -12,8 +12,8 @@
 \bibliographystyle{apalike}
 \newcommand{\pending}[1]{{\color{red}#1}}
 
-\title{\textbf{A validated, fully autonomous pipeline for measuring\\
-scientific-evidence use in political communication}}
+\title{\textbf{A benchmark-validated language-model judge for measuring\\
+scientific corroboration of legislators' claims}}
 
 \author{Nitheesha Nakka \and Bruce A. Desmarais \and Sarah Rajtmajer \and\\
 Jeffrey J. Harden \and Frederick J. Boehmke}
@@ -24,25 +24,31 @@ Jeffrey J. Harden \and Frederick J. Boehmke}
 
 \begin{abstract}
 \noindent
-Measuring whether policymakers use scientific evidence---and whether the evidence they invoke supports
-their claims---has been limited by a costly human-coding bottleneck. Large language models (LLMs) could
-remove it, but an autonomous pipeline that judges claim--evidence support with no human check is
-unfalsifiable and, when claims, references, and judge are all model-generated, vulnerable to
-self-preference bias. We close this trust gap by validating the autonomous judge against existing
-human-labeled benchmarks for the identical task. We build an open, no-paid-API pipeline---claim
-extraction, reproducible reference retrieval from OpenAlex, and stance judging---and show that a
-high-capacity LLM judge attains human-level accuracy on scientific claim verification (80\% accuracy,
-0.80 macro-$F_1$ on SciFact; 78\% on contested Climate-FEVER claims, where strict natural-language
-inference collapses to chance), that independently developed open-source models perform the task well
-above chance, and that, because the benchmark text is human-written, this accuracy cannot be an artifact
-of self-preference. Applying the validated pipeline
-to a decade of California legislative communication on artificial intelligence, we recover a sharp
-partisan asymmetry in engagement and estimate the rate at which legislators' claims are backed by
-science, with valid confidence intervals via prediction-powered inference anchored on the validated
-judge. The validated judge transfers unchanged to a second policy domain; a reproducible-retrieval
-analysis localizes the main remaining bottleneck to claim-targeted reference retrieval rather than to
-judging. The result is an autonomous, open, and human-validated instrument for the large-scale study of
-evidence-based policymaking.
+Measuring whether the scientific record corroborates the empirical claims that legislators make has
+been limited by a costly human-coding bottleneck: deciding whether a study supports, refutes, or is
+silent on a claim has required expert annotators. We ask how far this one judgment can be automated and,
+crucially, how its trustworthiness can be established \emph{without} new in-domain human labels. Our
+answer is benchmark-anchored validation: we score candidate stance judges against existing human-labeled
+scientific-claim-verification benchmarks (SciFact and Climate-FEVER) for the identical task. A
+proprietary frontier model (Claude Opus~4.8), used as an in-context judge, agrees with the expert gold
+on $80\%$ of SciFact and $78\%$ of Climate-FEVER pairs---comparable to reported frontier zero-shot
+results and approaching the human inter-annotator ceiling ($\kappa=0.75$ on SciFact)---whereas fully
+open models that run locally (zero-shot natural-language inference; a panel of small instruction-tuned
+models) \emph{match} the judge on clean SciFact pairs but fall well short on the harder, more policy-like
+Climate-FEVER claims ($0.49$--$0.67$ versus $0.78$). Because the benchmark text is human-written, this
+accuracy is not an artifact of self-preference on the evidence side. We then propagate a small sample of expensive
+proprietary-judge labels through the cheap open surrogate over all pairs via prediction-powered
+inference, and apply the result to a decade of California Assembly press releases on artificial
+intelligence: Democrats engage with AI far more than Republicans, and the rate at which each party's
+claims are corroborated by the retrieved literature is similar across parties. We are deliberately
+explicit about scope. Only the \emph{judging} step is validated, and only on benchmark pairings in which
+claim and evidence are already topically matched; the gold judge is proprietary, not local or free, so
+it is the open surrogate---not the whole pipeline---that runs without paid services; the headline
+corroboration rates depend on a proprietary generative retrieval step, whereas reproducible open keyword
+retrieval surfaces little claim-specific evidence; and an in-domain human audit---precluded by the
+no-human-coder design---remains the decisive missing test. The contribution is a transferable validation
+methodology, and an honest map of which components of autonomous evidence-corroboration measurement are
+open, reproducible, and trustworthy today, and which are not yet.
 \end{abstract}
 
 \input{sections/intro}
@@ -51,21 +57,27 @@ evidence-based policymaking.
 \input{sections/methods}
 
 \section*{Data and code availability}
-All code, the benchmark-validation harness, the LLM-judge labels, the retrieved references, and the
-figure scripts are available at \url{https://github.com/bdesmarais/ai-policy-science-use}. Every result
-is reproducible from committed outputs using open-source models with no paid API. The validation
-benchmarks are SciFact \citep{wadden2020fact} and Climate-FEVER \citep{diggelmann2020climate}; reference
-metadata are retrieved from OpenAlex \citep{priem2022openalex}.
+Code, the benchmark-validation harness, the committed judge labels, the retrieved references, and the
+figure scripts are at \url{https://github.com/bdesmarais/ai-policy-science-use} (private pending
+publication; available to reviewers and editors on request). We are precise about what is reproducible.
+The \emph{open} components---the NLI surrogate, the open-source panel, OpenAlex retrieval, the
+prediction-powered estimator, and all figures---regenerate from committed inputs with no paid service.
+The two \emph{proprietary} components do not: the gold judge labels were produced by Claude Opus~4.8, and
+the generative-retrieval references underlying the headline corroboration rates (\S\ref{sec:res-application})
+were produced by GPT-5 with web search; both are committed as static data but cannot be regenerated
+without the respective proprietary models. The validation benchmarks are SciFact \citep{wadden2020fact}
+and Climate-FEVER \citep{diggelmann2020climate}.
 
 \section*{AI-assistance disclosure}
-By design, the measurement instrument in this paper uses LLMs as components, and we disclose this
-explicitly. Stance ``gold'' labels were produced by Claude Opus~4.8 acting as an in-context judge (no
-fine-tuning, no API key); scalable surrogate labels were produced by open-source NLI models; an
-open-source panel (Qwen2.5, Phi-3.5, OLMo-2) provided an independent cross-developer check; and the
-same high-capacity model assisted in drafting and in executing the analysis. Every cited reference was
-checked against a primary source. The validation against human-labeled benchmarks is what licenses
-these uses; all design decisions and claims are the authors'. Earlier pipeline development was supported
-by NSF awards 2318460 and 2148215.
+This measurement instrument uses language models as components, and we disclose exactly which.
+The stance ``gold'' labels were produced by Claude Opus~4.8 used as an in-context judge. Claude Opus~4.8
+is a \emph{proprietary frontier model}: it does not run locally, it is not free, and it is reached
+through a paid product; we used it without fine-tuning and without the programmatic API, but we do
+\emph{not} present it as an open or reproducible component. The scalable surrogate (DeBERTa- and
+BART-MNLI), the cross-developer panel (Qwen2.5, Phi-3.5, OLMo-2), and OpenAlex retrieval are open and run
+locally on a single consumer GPU. The same high-capacity model assisted in drafting and in executing the
+analysis. Every cited reference was checked against a primary source; all design decisions and claims
+are the authors'. Earlier pipeline development was supported by NSF awards 2318460 and 2148215.
 
 \bibliography{references}
 

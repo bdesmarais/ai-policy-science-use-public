@@ -1,0 +1,46 @@
+Device set to use mps
+Device set to use mps
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.87s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.46s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    Qwen/Qwen2.5-3B-Instruct: 50/66 (0.72s/pair)
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.42s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.94s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.01s/it]
+    microsoft/Phi-3.5-mini-instruct: 50/66 (1.15s/pair)
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.32s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.17s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.51s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:10<00:00,  3.34s/it]
+    allenai/OLMo-2-1124-7B-Instruct: 50/66 (1.56s/pair)
+Device set to use mps
+Device set to use mps
+
+===== scifact: ALL validators on the SAME 66 judge-seen pairs =====
+gold dist: {'support': 21, 'refute': 21, 'silent': 24}
+  claude                                     acc=0.803 [0.69,0.88]  kappa_vs_gold=0.706  (n=66)
+  nli_deberta                                acc=0.758 [0.64,0.84]  kappa_vs_gold=0.633  (n=66)
+  nli_bart                                   acc=0.742 [0.63,0.83]  kappa_vs_gold=0.612  (n=66)
+  tfidf                                      acc=0.439 [0.33,0.56]  kappa_vs_gold=0.156  (n=66)
+  llm:Qwen/Qwen2.5-3B-Instruct               acc=0.697 [0.58,0.79]  kappa_vs_gold=0.542  (n=66)
+  llm:microsoft/Phi-3.5-mini-instruct        acc=0.530 [0.41,0.65]  kappa_vs_gold=0.301  (n=66)
+  llm:allenai/OLMo-2-1124-7B-Instruct        acc=0.530 [0.41,0.65]  kappa_vs_gold=0.29  (n=66)
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.88s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.46s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.27s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.93s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.98s/it]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:04,  2.31s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.82s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.50s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.27s/it]
+
+===== climate_fever: ALL validators on the SAME 45 judge-seen pairs =====
+gold dist: {'support': 15, 'refute': 15, 'silent': 15}
+  claude                                     acc=0.778 [0.64,0.87]  kappa_vs_gold=0.667  (n=45)
+  nli_deberta                                acc=0.489 [0.35,0.63]  kappa_vs_gold=0.233  (n=45)
+  nli_bart                                   acc=0.511 [0.37,0.65]  kappa_vs_gold=0.267  (n=45)
+  tfidf                                      acc=0.422 [0.29,0.57]  kappa_vs_gold=0.133  (n=45)
+  llm:Qwen/Qwen2.5-3B-Instruct               acc=0.556 [0.41,0.69]  kappa_vs_gold=0.333  (n=45)
+  llm:microsoft/Phi-3.5-mini-instruct        acc=0.667 [0.52,0.79]  kappa_vs_gold=0.5  (n=45)
+  llm:allenai/OLMo-2-1124-7B-Instruct        acc=0.511 [0.37,0.65]  kappa_vs_gold=0.267  (n=45)
+
+===== Climate-FEVER TF-IDF floor (balanced 450): acc=0.340 =====
+
+===== Judge per-class on Climate-FEVER (does it handle off-topic=silent?) =====
+  support  P=1.0 R=0.733 F1=0.846 (support=15)
+  refute   P=0.846 R=0.733 F1=0.786 (support=15)
+  silent   P=0.619 R=0.867 F1=0.722 (support=15)
+
+===== Claim-extraction yield by party =====
+  dem: 100 extracted claims across 71 AI press releases (1.41 claims/release)
+  rep: 100 extracted claims across 42 AI press releases (2.38 claims/release)

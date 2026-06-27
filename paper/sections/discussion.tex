@@ -1,40 +1,57 @@
 \section{Discussion}
 \label{sec:discussion}
 
-We set out to measure, at scale and without human coders, whether the scientific evidence legislators
-invoke supports the claims they make, and to do so in a way that can be \emph{trusted}. The key result
-is that the hardest step---judging claim--evidence support---can be performed autonomously and
-validated against human judgment by transfer from established benchmarks. The LLM judge reaches
-human-level accuracy on scientific claim verification, an independent panel of open models from
-different developers agrees with it, and because the benchmark text is human-written, this accuracy
-cannot be an artifact of self-preference. The pipeline therefore does what an unvalidated autonomous
-measurement cannot: it earns trust.
+We set out to measure, at scale, whether the scientific record corroborates the empirical claims
+legislators make, and to do so in a way that can be \emph{trusted} without new in-domain human labels.
+The result is partial, and we state it as such. The hardest \emph{judging} step can be validated by
+transfer from established benchmarks: the high-capacity judge agrees with the expert gold at a level
+approaching the human inter-annotator ceiling on SciFact ($\kappa=0.71$ vs the benchmark's $0.75$) and,
+more tellingly, holds up on contested Climate-FEVER claims where the cheap surrogate drops to the
+lexical floor. Because the benchmark text is human-written, this is not self-preference. But two facts
+keep the \emph{pipeline} short of a finished autonomous instrument, and they are the spine of the
+honest account below: the only judge that wins decisively on the hard task is \emph{proprietary}, and
+the validation exercises the judge on curated pairs rather than the noisier pairings it meets in the
+application.
 
-\paragraph{Resolving the circularity threat.} The most serious objection to an all-LLM measurement
-loop is that a model judging model-surfaced evidence may exhibit self-preference rather than assess
-science \citep{panickssery2024llm}. Benchmark validation defuses this directly. SciFact and
-Climate-FEVER claims and evidence are written by humans, so a judge that labels them correctly is
-reading the science, not recognizing its own prose; and the agreement of three independently developed
-open models with the high-capacity judge shows the signal is not idiosyncratic to one model family.
-Self-preference may still operate at the margin on model-generated policy text, but it is no longer an
-unfalsifiable confound---it is bounded by measured benchmark accuracy.
+\paragraph{Self-preference: bounded on the evidence side, open on the claim side.} The most serious
+objection to an all-LLM loop is that a model judging model-surfaced evidence may exhibit self-preference
+rather than assess science \citep{panickssery2024llm}. Benchmark validation defuses the
+\emph{evidence}-side channel directly: SciFact and Climate-FEVER evidence is human-written, so a judge
+that labels it correctly is reading the science, not recognizing its own prose. The cross-developer
+panel \emph{corroborates} this---small open models from three developers also do the task above
+chance---but we do not lean on it as an independent guarantee, because models trained on overlapping
+corpora and aligned by similar methods do not err independently, and their agreement with the gold is
+itself only moderate ($\kappa=0.29$--$0.54$). One channel remains genuinely open: in the application the
+\emph{claims} are LLM-extracted text, so the judge could favour model-generated phrasing on the claim
+side even when the evidence is human-written, and the human-claim benchmarks do not test this.
+Self-preference is therefore bounded on the evidence side but not closed on the claim side, and we say
+so rather than implying the benchmarks settle it.
 
-\paragraph{What validation does and does not cover.} Our anchor is task validity, established on two
-benchmarks chosen to bracket the policy setting in difficulty and register. The residual assumption is
-domain transfer: that accuracy on expert and contested scientific claims carries to legislative claims.
-We regard this as reasonable---the cognitive task is identical and the two benchmarks span a wide
-difficulty range---but not eliminated, and it is the natural place for a small in-domain human audit to
-add further assurance. This is a far narrower and more honest caveat than ``the judge is unvalidated.''
+\paragraph{The gap that matters: curated pairs versus application pairs.} Our anchor is task validity on
+benchmark pairs in which the claim and the evidence are already known to be about each other---SciFact
+pairs a claim with its cited abstract, Climate-FEVER with relevance-retrieved evidence. In the
+application the judge instead reads claims against keyword hits that are frequently off-topic. The
+serious residual assumption is thus not subject matter (scientific versus legislative claims) but
+\emph{pair structure} (curated-relevant versus retrieved-and-possibly-irrelevant). We have partial
+reassurance---Climate-FEVER's \textsc{not-enough-info} class consists of exactly such loosely-related
+pairings, and the judge handles it---but partial is the right word. The decisive test is an in-domain
+human audit: a few hundred application pairs coded by people, against which to measure the judge
+directly. The autonomous, no-human-coder design we were asked to build \emph{forecloses} that audit,
+which is itself a cost of going fully autonomous; it is the reason we present the application estimates
+as conditional on the judge and flag the audit as the first thing a follow-up should add. We do not
+claim the pipeline-as-applied is validated. We claim the judging \emph{operation} is, on benchmark
+pairs, and that its transfer to application pairs is the open question.
 
-\paragraph{A reusable instrument for computational social science.} The contribution generalizes beyond
-AI policy. Many questions in the study of political communication---does a campaign's factual claim hold
-up, is a talking point supported by research, how does evidence quality vary across actors---reduce to
-the same claim--evidence judgment we validate here. Our finding that an open, no-API pipeline, anchored
-by benchmark validation and combined with prediction-powered inference, yields trustworthy population
-estimates lowers the cost and raises the credibility of such measurement. The reproducible-retrieval
-choice matters too: grounding references in an open bibliographic index makes the evidence base
-auditable and the pipeline exactly replicable, in contrast to generative ``retrieval'' that can
-fabricate sources.
+\paragraph{A reusable methodology, honestly scoped.} What generalizes beyond AI policy is the
+\emph{methodology}: validate the judging step cheaply by benchmark transfer, propagate a small set of
+expensive proprietary-judge labels through a free surrogate by prediction-powered inference, and ground
+references in an open index so the evidence base is auditable rather than fabricated. Two honest
+qualifications travel with it. The open surrogate alone is competitive with the proprietary judge on
+\emph{clean} pairs (SciFact, overlapping intervals) but not on \emph{hard} ones (Climate-FEVER), so the
+``you don't need a proprietary model'' reading holds only where the task is easy. And open keyword
+retrieval, though exactly reproducible, is not yet precise enough to reproduce the headline rates. The
+methodology lowers cost and clarifies credibility; it does not yet deliver a fully open, fully validated
+instrument.
 
 \paragraph{Diagnose across methods.} A practical lesson concerns NLI as a stand-alone measure. On
 clean benchmark pairs our zero-shot NLI classifiers are strong, but on the policy corpus they label
@@ -45,17 +62,28 @@ we use the validated judge as the anchor and NLI as a surrogate corrected by pre
 inference rather than as a free-standing measure. Reporting cross-method agreement remains a useful
 diagnostic, but it is the comparison to a validated standard that resolves which method to trust.
 
-\paragraph{Limitations.} Three limitations temper the substantive findings. (1) \emph{Domain transfer},
-discussed above. (2) \emph{Retrieval is the binding constraint}: stance is assessed only over retrieved
-references with no deliberately disconfirming search, so support rates are an upper and refute rates a
-lower bound; more importantly, the measured level is highly sensitive to retrieval precision---broad
-open-index keyword retrieval surfaces little claim-specific evidence and drives nearly all pairs to
-\textsc{silent} (\S\ref{sec:res-robustness})---so a reproducible, claim-targeted retriever is the single
-most valuable component to add, and the released pipeline isolates it as such. (3) \emph{Strategic text}: press
-releases are advocacy, so a high support rate reflects selective citation as much as evidence quality,
-and our estimates describe how well \emph{chosen} claims are backed, not balanced evidence use. The
-political application is also one chamber of one state; the pipeline is state-agnostic and validated,
-so multi-state deployment is a matter of corpus assembly rather than method.
+\paragraph{Limitations.} Beyond the proprietary-judge and pair-structure issues above, several limits
+temper the substantive findings. (1) \emph{Retrieval is the binding constraint.} Stance is assessed only
+over retrieved references with no deliberately disconfirming search, so corroboration rates are an upper
+and refute rates a lower bound; more importantly, the measured level is highly sensitive to retrieval
+precision---broad open-index keyword retrieval surfaces little claim-specific evidence and drives nearly
+all pairs to \textsc{silent} (\S\ref{sec:res-robustness})---so a reproducible, claim-targeted retriever is
+the single most valuable component to add. (2) \emph{Claim extraction is unvalidated and could confound
+the partisan comparison.} An LLM extracts up to ten claims per document; nothing checks that it extracts
+the right claims or does so at equal rates across writing styles. In fact extraction yield is \emph{not}
+balanced---about $1.4$ extracted claims per Democratic AI release versus $2.4$ per Republican
+release---so the per-claim partisan comparison is confounded by extraction behaviour before the judge
+ever runs, and a fidelity audit (not done here) is needed to separate the two. (3) \emph{Refute capability is real but nearly idle in the
+application.} The judge's strong \textsc{refute} detection on the benchmarks answers the worry that the
+pipeline cannot find disconfirming evidence, but relevance-seeking retrieval suppresses such evidence by
+construction; it is the retrieval design, not the judge, that limits refute rates here. (4)
+\emph{Engagement asymmetries lack member-level uncertainty.} The chamber is lopsidedly Democratic and a
+few prolific offices can drive per-document intensity; the differences in Figure~\ref{fig:engage} are
+point estimates over unweighted aggregates and should be read as descriptive, with member-clustered
+intervals a needed refinement. (5) \emph{Strategic text and scope}: press releases are advocacy, so a
+high corroboration rate reflects selective citation as much as evidence quality; and the application is
+one chamber of one state, with extraction and retrieval unvalidated even though the judging step is, so
+multi-state deployment inherits those gaps rather than only requiring more corpus.
 
 \paragraph{Ethics.} Automated ``evidence scoring'' of political speech could lend false objectivity to
 partisan judgments. We stress that our outputs are measurements with stated uncertainty and known

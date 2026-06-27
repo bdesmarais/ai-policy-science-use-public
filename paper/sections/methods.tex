@@ -1,24 +1,31 @@
 \section{Methods}
 \label{sec:methods}
 
-\subsection{The autonomous pipeline}
+\subsection{The pipeline}
 \label{sec:methods-pipeline}
-The pipeline maps a corpus of political documents to party-level estimates of scientific-evidence use
-in three stages, with no human annotation and no paid API.
+The pipeline maps a corpus of political documents to party-level estimates of claim--literature
+corroboration in three stages, with no human annotation in the loop. We are explicit about paid
+components as they arise---a proprietary judge and a proprietary generative-retrieval option---rather
+than claiming the whole pipeline is free.
 
 \paragraph{Claim extraction.} Each document is processed by an instruction-tuned LLM prompted to
 extract up to ten empirical claims---propositions ``for which, if you were writing a scientific paper,
 you would need a reference''---as structured records (document id, claim number, claim text), isolating
 verifiable propositions from rhetorical or procedural text \citep{grimmer2013representational}.
 
-\paragraph{Evidence retrieval.} For each claim we retrieve candidate scientific references from
-\emph{OpenAlex} \citep{priem2022openalex}, a free and fully open index of over 250 million scholarly
-works. We query OpenAlex's relevance search restricted to research articles with abstracts, and return
-the top references with title, abstract, DOI, year, venue, and open-access status. Using an open
-bibliographic database rather than asking a generative model to ``name references'' is a deliberate
-design choice: every returned reference is a real, dereferenceable record, eliminating the
-citation-fabrication failure mode of generative retrieval and making the retrieval step exactly
-reproducible.
+\paragraph{Evidence retrieval (two configurations).} We use and contrast two retrieval configurations
+and state plainly which produced which numbers. \emph{(i) Generative retrieval}: a proprietary
+web-connected model (GPT-5 with web search), inherited from the project's earlier pipeline, returns
+claim-targeted candidate references. This is not reproducible and depends on a paid service, but its
+targeting is what yields the headline corroboration rates of \S\ref{sec:res-application}; the references
+it returned are committed as static data. \emph{(ii) Reproducible retrieval}: a query to \emph{OpenAlex}
+\citep{priem2022openalex}, a free open index of over 250 million works, restricted to research articles
+with abstracts, returning title, abstract, DOI, year, venue, and open-access status. OpenAlex is exactly
+reproducible and every reference it returns is a real, dereferenceable record---eliminating the
+citation-fabrication failure mode of asking a model to ``name references''---but its keyword relevance
+search returns broader, less claim-targeted papers than the generative step (\S\ref{sec:res-robustness}).
+We report results under both and treat the dependence of the support \emph{level} on retrieval precision
+as a central limitation, not a footnote.
 
 \paragraph{Support assessment.} Each (claim, reference) pair is assigned a stance---\textsc{support},
 \textsc{refute}, or \textsc{silent} (irrelevant or insufficient information)---by the validated judges
@@ -30,10 +37,13 @@ validation.
 We treat stance assignment as an annotation problem and use validators that fail in different ways, so
 that their agreement is informative \citep{zheng2023judging}.
 \begin{itemize}
-  \item \textbf{LLM judge.} A high-capacity instruction-tuned model (Claude Opus~4.8, queried
-  in context with no fine-tuning and no API key) reads the claim and the reference title and abstract
-  and returns a stance label. Models of this class match or exceed trained human coders on stance tasks
-  \citep{gilardi2023chatgpt,heseltine2024llm,tornberg2025llm}.
+  \item \textbf{LLM judge (proprietary).} A high-capacity instruction-tuned model (Claude Opus~4.8),
+  queried in context without fine-tuning, reads the claim and the reference title and abstract and
+  returns a stance label. We are explicit that this is a \emph{proprietary} frontier model: it does not
+  run locally, it is not free, and we do not present it as an open component (see disclosure). Models of
+  this class match or exceed trained human coders on stance tasks
+  \citep{gilardi2023chatgpt,heseltine2024llm,tornberg2025llm}; whether the \emph{open} alternatives below
+  can replace it is one of our questions.
   \item \textbf{Open-source LLM panel.} Three instruction-tuned models from three independent
   developers---Qwen2.5-3B-Instruct (Alibaba), Phi-3.5-mini-instruct (Microsoft), and
   OLMo-2-7B-Instruct (Allen Institute for AI)---run the identical stance prompt locally. The panel
@@ -65,13 +75,20 @@ real-world, often contested climate claims with retrieved evidence sentences, ea
 Both label schemes map onto our \textsc{support}/\textsc{refute}/\textsc{silent} classes.
 
 We run the NLI classifiers, the open-source panel, and the TF--IDF baseline on every benchmark pair
-programmatically. For the high-capacity judge, whose use we wish to keep deliberately expensive and
-sparse (mirroring how it is used as gold-on-a-sample in the pipeline), we draw a class-stratified
-sample, present each (claim, reference) pair \emph{blind to the gold label}, and record the judge's
-stance. We then report each validator's accuracy, macro-averaged $F_1$, per-class $F_1$, and confusion
-matrix against the human gold, together with pairwise inter-validator agreement (Cohen's $\kappa$). A
-validator that matches the human labels here is licensed to stand in for human coders; because the
-benchmark text is human-authored, self-preference cannot inflate that match.
+programmatically. The proprietary judge we use deliberately sparsely (mirroring its gold-on-a-sample
+role): we draw a class-stratified sample, present each (claim, reference) pair \emph{blind to the gold
+label}, and record its stance---$n=66$ pairs on SciFact and $n=45$ on Climate-FEVER. To keep accuracies
+\emph{comparable}, we additionally evaluate every other validator on the \emph{exact} pairs the judge
+saw, and report Wilson $95\%$ intervals throughout, because the judge's sample is small. We report
+accuracy, macro-$F_1$, per-class $F_1$, confusion, and pairwise $\kappa$. Two scope points are built into
+the design. First, ``human-level'' requires a human baseline, so rather than assert it we compare the
+judge's agreement with the gold to the human inter-annotator agreement the benchmarks themselves report
+(Cohen's $\kappa=0.75$ for SciFact; Krippendorff's $\alpha=0.334$ for Climate-FEVER). Second, these
+benchmark pairs are \emph{curated to be about each other}---SciFact pairs a claim with its cited
+abstract, Climate-FEVER with relevance-retrieved evidence---whereas in the application the judge reads
+claims against keyword hits that may be off-topic. Benchmark accuracy therefore validates the
+\emph{judging} operation, not its transfer to the noisier application pairings, a gap we treat as the
+foremost limitation (\S\ref{sec:discussion}).
 
 \subsection{Valid estimation under imperfect labels}
 \label{sec:methods-ppi}
@@ -89,15 +106,23 @@ with $f(x_i)\in\{0,1\}$ the NLI ``support'' prediction, $y_j\in\{0,1\}$ the LLM-
 $\widehat{\mathrm{Var}}=\mathrm{Var}(f(x))/N + \mathrm{Var}(y-f(x))/n$, and a Wald 95\% interval
 $\hat{\theta}_{\text{PPI}}\pm 1.96\,\widehat{\mathrm{Var}}^{1/2}$. Equation~\eqref{eq:ppi} is the
 prediction-powered special case of the design-based supervised learning estimator \citep{egami2023dsl};
-both reduce to the human-coded estimate as $n\to N$. Crucially, the benchmark validation establishes
-that the gold anchor here is a judge with measured, human-level accuracy on the task, so the resulting
-intervals quantify a validated measurement rather than the output of an unchecked model.
+both reduce to the human-coded estimate as $n\to N$. Two cautions apply to our application and we state
+them plainly. First, the gold labeler is the LLM judge, so the intervals are valid for the rate the
+\emph{judge} would assign over all pairs; their validity for a \emph{human}-equivalent rate rests on the
+in-domain transfer we cannot yet test (\S\ref{sec:discussion}). Second, the efficiency gain from the
+surrogate is small here: on the policy corpus the NLI labels are nearly constant (almost all
+\textsc{silent}), so the surrogate variance term nearly vanishes and the estimate reduces to the judge's
+mean on the gold sample ($n=60$ pairs per party). PPI thus functions as valid inference for the judge's
+labels on a small gold sample, not as a large variance reduction from a strong surrogate, and we present
+the precision accordingly.
 
 \subsection{Corpus and reproducibility}
 \label{sec:methods-corpus}
 The political application uses a corpus of California State Assembly member press releases (2015--2025),
 partitioned by the issuing member's party, of which the AI-related subset is analysed here; a parallel
-K--12 education-policy corpus is used to test domain transfer. All code, the benchmark harness, the
-LLM-judge labels, the retrieved references, and the figure scripts are released at
-\url{https://github.com/bdesmarais/ai-policy-science-use}; every number is reproducible from committed
-outputs with open models and no paid API.
+K--12 education-policy corpus is used to test transfer of the extraction-and-attention front end. Code,
+the benchmark harness, the committed judge labels and references, and the figure scripts are at
+\url{https://github.com/bdesmarais/ai-policy-science-use} (private pending publication). The open
+components regenerate from committed inputs with no paid service; the proprietary judge labels and the
+generative-retrieval references are committed as static data but require their respective proprietary
+models to regenerate (see Data and code availability).

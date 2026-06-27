@@ -15,9 +15,11 @@ Large language models (LLMs) appear to dissolve this bottleneck. Across politica
 computational social science, instruction-tuned LLMs now match or exceed trained human coders on stance
 detection, framing, and other annotation tasks, at a fraction of the cost
 \citep{gilardi2023chatgpt,ziems2024can,heseltine2024llm,tornberg2025llm}. This raises the possibility of
-a \emph{fully autonomous} measurement pipeline---one that ingests raw political text, extracts the
-empirical claims, retrieves the relevant science, and judges whether that science supports each
-claim---with no human annotators and no proprietary, paid services in the loop.
+an \emph{autonomous} measurement pipeline---one that ingests raw political text, extracts the empirical
+claims, retrieves topically-relevant science, and judges whether that science supports each claim. The
+aspiration is to do this with no human annotators and, ideally, no proprietary services; how close one
+can actually get with open models is an empirical question we take up directly, and the answer turns out
+to be partial.
 
 The obstacle is not building such a pipeline but \emph{trusting} it. If the model that judges
 claim--evidence support is never checked against a human standard, its outputs are unfalsifiable: a
@@ -38,25 +40,34 @@ identical task}. Scientific claim verification---deciding whether an abstract su
 neutral toward a claim---is precisely the support-assessment step of our pipeline, and it has mature,
 expert-annotated benchmarks: SciFact \citep{wadden2020fact} for expert scientific claims and
 Climate-FEVER \citep{diggelmann2020climate} for contested, real-world claims phrased in lay language.
-A judge that reaches human-level accuracy on these benchmarks has demonstrably learned the task; and
-because the benchmark text is human-written rather than model-generated, strong accuracy there cannot
-be an artifact of self-preference. Benchmark validation thus supplies both the human anchor that
+A judge that matches the expert gold on these benchmarks---and approaches the human inter-annotator
+agreement the benchmarks themselves report---has demonstrably learned the task; and because the
+benchmark text is human-written rather than model-generated, accuracy there cannot be an artifact of
+self-preference on the evidence side. Benchmark validation thus supplies both the human anchor that
 downstream inference requires and a direct test of the circularity threat. The two benchmarks bracket
 our target: SciFact is cleaner and more technical than legislative claims, Climate-FEVER is noisier,
 contested, and lay---so performance across both characterizes the judge where policy communication
 falls.
 
-Using this strategy we build and validate a fully autonomous, open, no-paid-API pipeline for measuring
-scientific-evidence use in political communication, and apply it to a decade of legislative
-communication on artificial intelligence (AI)---a domain where appeals to evidence are common and
-consequential. Our contributions are: (1) a reproducible pipeline---claim extraction, reference
-retrieval from the open OpenAlex index \citep{priem2022openalex}, and stance judging---that runs end to
-end with open-source models and a single high-capacity LLM judge, with no human coders and no paid
-API; (2) human-anchored validation showing that the LLM judge reaches human-level accuracy on two
-scientific-claim-verification benchmarks, that a panel of independent open-source models from different
-developers agrees with it, and that self-preference does not explain the result; (3) an application to
-California legislative communication on AI that recovers a sharp partisan asymmetry in engagement and
-estimates the rate at which legislators' empirical claims are backed by science; and (4) evidence that
-the pipeline generalizes---robust to a reproducible change of retrieval engine and transferable to a
-second policy domain. The result is a measurement instrument for evidence-based policymaking that is
-autonomous, open, and---critically---validated against human judgment.
+Using this strategy we study a measurement pipeline---claim extraction, reference retrieval from the
+open OpenAlex index \citep{priem2022openalex}, and stance judging---applied to a decade of legislative
+communication on artificial intelligence (AI). We make four contributions, and we scope each carefully.
+(1) A transferable \emph{validation methodology}: benchmark-anchored evaluation that tests whether an
+automated stance judge can be trusted with no new in-domain human labels, by scoring it on existing
+human-labeled claim-verification benchmarks for the identical task. (2) A measurement finding with a
+sharp open/closed boundary: open models that run locally---zero-shot NLI and a panel of small
+instruction-tuned models from three developers---\emph{match} a proprietary frontier judge on clean
+benchmark pairs but fall well short of it on harder, more policy-like claims, where only the proprietary
+judge approaches human agreement. The openness of the approach is real but confined to the surrogate
+layer; the high-quality anchor is not yet open, which is the opposite of a ``no-proprietary-model''
+result and we say so. (3) An application that recovers a
+robust partisan asymmetry in AI engagement and estimates the rate at which each party's claims are
+\emph{corroborated by the topically-nearest literature}---which is precisely what the instrument
+measures, and which we distinguish from observed evidence \emph{use}, since legislators do not cite the
+papers we retrieve. (4) An explicit account of what is and is not validated: the judging step is
+validated on benchmark pairs in which claim and evidence are already topically matched, but claim
+extraction and reference retrieval are not, the headline corroboration rates depend on a proprietary
+generative retrieval step that reproducible open keyword retrieval does not reproduce, and an in-domain
+human audit---foreclosed by the no-human-coder design---remains the decisive missing test. The result is
+not a finished autonomous instrument but a validated component, a reproducible open scaffold around it,
+and an honest map of the distance still to cover.

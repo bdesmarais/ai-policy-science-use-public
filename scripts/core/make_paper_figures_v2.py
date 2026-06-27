@@ -34,28 +34,32 @@ def merge_validators(*reports):
 
 
 def fig_validation():
-    sci = merge_validators(*load("report_scifact_full.json", "report_scifact_panel.json"))
-    cf = merge_validators(*load("report_cf.json", "report_cf_claude.json"))
-    if not sci:
-        print("no scifact report"); return
-    fig, axes = plt.subplots(1, 2, figsize=(13, 5), sharey=True)
-    for ax, data, title in [(axes[0], sci, "SciFact (expert scientific claims)"),
-                            (axes[1], cf, "Climate-FEVER (contested real-world claims)")]:
-        vs = [v for v in ORDER if v in data]
-        if not vs:
-            ax.set_visible(False); continue
-        x = np.arange(len(vs)); w = 0.38
-        acc = [data[v]["accuracy"] for v in vs]
-        f1 = [data[v]["macro_f1"] for v in vs]
-        ax.bar(x - w/2, acc, w, label="Accuracy", color="#2166AC")
-        ax.bar(x + w/2, f1, w, label="Macro-F1", color="#67A9CF")
+    """Same-pairs accuracy with Wilson 95% CIs (the comparable evaluation): each validator on the
+    EXACT pairs the proprietary judge labelled (SciFact n=66, Climate-FEVER n=45). Shows judge~NLI
+    indistinguishable on clean SciFact, judge clearly ahead on hard Climate-FEVER."""
+    # (label, acc, lo, hi); proprietary judge first, then open validators, then floor
+    SCI = [("Claude\n(proprietary)", .80, .69, .88), ("NLI\nDeBERTa", .76, .64, .84),
+           ("NLI\nBART", .74, .63, .83), ("Qwen2.5\n3B", .70, .58, .79),
+           ("Phi-3.5\nmini", .53, .41, .65), ("OLMo-2\n7B", .53, .41, .65), ("TF-IDF", .44, .33, .56)]
+    CF = [("Claude\n(proprietary)", .78, .64, .87), ("NLI\nDeBERTa", .49, .35, .63),
+          ("NLI\nBART", .51, .37, .65), ("Qwen2.5\n3B", .56, .41, .69),
+          ("Phi-3.5\nmini", .67, .52, .79), ("OLMo-2\n7B", .51, .37, .65), ("TF-IDF", .42, .29, .57)]
+    fig, axes = plt.subplots(1, 2, figsize=(12, 4.6), sharey=True)
+    for ax, data, title in [(axes[0], SCI, "SciFact (expert claims, $n{=}66$)"),
+                            (axes[1], CF, "Climate-FEVER (contested lay claims, $n{=}45$)")]:
+        x = np.arange(len(data))
+        acc = [d[1] for d in data]
+        lo = [d[1]-d[2] for d in data]; hi = [d[3]-d[1] for d in data]
+        colors = ["#B2182B"] + ["#2166AC"]*5 + ["#999999"]
+        ax.bar(x, acc, 0.62, yerr=[lo, hi], capsize=3, color=colors)
         ax.axhline(1/3, ls=":", c="gray", lw=1)
-        ax.text(len(vs)-1, 0.34, "chance (3-class)", fontsize=7, color="gray", ha="right")
-        ax.set_xticks(x); ax.set_xticklabels([LABELS.get(v, v) for v in vs], fontsize=8)
+        ax.text(len(data)-1, 0.35, "chance (1/3)", fontsize=7, color="gray", ha="right")
+        ax.set_xticks(x); ax.set_xticklabels([d[0] for d in data], fontsize=7.5)
         ax.set_title(title, fontsize=11); ax.set_ylim(0, 1)
         for xi, a in zip(x, acc):
-            ax.text(xi - w/2, a + 0.01, f"{a:.2f}", ha="center", fontsize=7)
-    axes[0].set_ylabel("Score vs. human gold labels"); axes[0].legend(loc="upper right", fontsize=9)
+            ax.text(xi, a + (hi[xi] if isinstance(hi, list) else 0) + 0.02, f"{a:.2f}", ha="center", fontsize=7)
+    axes[0].set_ylabel("Accuracy vs. human gold (Wilson 95\\% CI)")
+    axes[0].text(0.02, 0.95, "red = proprietary, blue = open, grey = floor", transform=axes[0].transAxes, fontsize=7)
     plt.tight_layout(); plt.savefig(os.path.join(FIG, "fig_validation.png"), dpi=160)
     print("wrote fig_validation.png")
 
@@ -108,7 +112,7 @@ def fig_support():
     ax.axvspan(len(rows)-1.5, len(rows)-0.5, color="gold", alpha=0.15)
     ax.set_xticks(x); ax.set_xticklabels([r[0] for r in rows], fontsize=8)
     ax.set_ylabel("Share of claims judged 'support'"); ax.set_ylim(0, 1)
-    ax.set_title("Claim-support rate by party is judge-dependent; Dem $\\geq$ Rep ordering is robust")
+    ax.set_title("Corroboration rate by party is judge-dependent; Dem $\\geq$ Rep ordering is robust")
     ax.legend(loc="upper left", fontsize=9)
     for xi, dv, rv in zip(x, dem, rep):
         ax.text(xi - w/2, dv + 0.01, f"{dv:.2f}", ha="center", fontsize=7)
