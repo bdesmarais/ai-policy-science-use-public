@@ -32,10 +32,11 @@ answer is benchmark-anchored validation: we score candidate stance judges agains
 scientific-claim-verification benchmarks (SciFact and Climate-FEVER) for the identical task. A
 proprietary frontier model (Claude Opus~4.8), used as an in-context judge, agrees with the expert gold
 on $80\%$ of SciFact and $78\%$ of Climate-FEVER pairs---comparable to reported frontier zero-shot
-results and approaching the human inter-annotator ceiling ($\kappa=0.75$ on SciFact)---whereas fully
-open models that run locally (zero-shot natural-language inference; a panel of small instruction-tuned
-models) \emph{match} the judge on clean SciFact pairs but fall well short on the harder, more policy-like
-Climate-FEVER claims ($0.49$--$0.67$ versus $0.78$). Because the benchmark text is human-written, this
+results and approaching the human inter-annotator ceiling ($\kappa=0.75$ on SciFact)---whereas among the
+open models that run locally only the natural-language-inference surrogate matches the judge, and only
+on clean SciFact pairs ($0.74$--$0.76$ vs.\ $0.80$, overlapping intervals); the small instruction-tuned
+panel trails there, and all open models fall well short on the harder, more policy-like Climate-FEVER
+claims ($0.49$--$0.67$ vs.\ $0.78$). Because the benchmark text is human-written, this
 accuracy is not an artifact of self-preference on the evidence side. We then propagate a small sample of expensive
 proprietary-judge labels through the cheap open surrogate over all pairs via prediction-powered
 inference, and apply the result to a decade of California Assembly press releases on artificial

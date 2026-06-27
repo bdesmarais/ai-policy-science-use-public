@@ -6,14 +6,25 @@
 > 2026 paper, the education-policy pilot, and a background + revival plan. Start with the
 > [revival plan](docs/03_status_and_revival_plan.md).
 
-> **★ Update (June 2026) — the "open problem" is now solved and validated.** The blocking step
-> (judging whether science *supports* a claim) is handled by an **autonomous, open, no-paid-API**
-> stance pipeline whose judge is **validated against human-labeled benchmarks**: on SciFact the
-> high-capacity LLM judge reaches **80% accuracy / 0.80 macro-F1** vs expert humans (zero-shot NLI
-> ≈70%), and a panel of independent open models (Qwen2.5, Phi-3.5, OLMo-2) agrees — and because the
-> benchmark text is human-written, this rules out self-preference. References are now retrieved
-> reproducibly from **OpenAlex** (real DOIs, no fabrication). See `scripts/core/benchmark_validation.py`,
-> `scripts/core/openalex_retrieval.py`, and the rewritten **[paper](paper/main.pdf)** (`paper/REBUILD_PLAN.md`).
+> **★ Status (June 2026) — read the [paper](paper/main.pdf) for the honest scope; this is not a
+> solved, fully-open pipeline.** The repo measures whether the topically-nearest scientific literature
+> *corroborates* legislators' empirical claims (not observed "evidence use"). The hard step — judging
+> support/refute/silent — is done by an LLM judge **validated against human-labeled benchmarks**
+> (SciFact, Climate-FEVER), and that judge approaches human inter-annotator agreement (κ 0.71 vs 0.75
+> on SciFact). But the scope matters and the paper is explicit about it:
+> - The best judge (**Claude Opus 4.8**) is a **proprietary** model — *not* open, local, or free. Only
+>   the surrogate layer (NLI + the open panel + OpenAlex) is open; among the open models, only **NLI
+>   matches the judge, and only on clean SciFact pairs**; the panel trails, and all open models
+>   underperform on the harder Climate-FEVER claims.
+> - The **headline corroboration rates (0.71 / 0.54) depend on a proprietary GPT-5 generative-retrieval
+>   step** (only ~30% of whose references carry a DOI); the reproducible **OpenAlex** path surfaces
+>   little claim-specific evidence and drives nearly everything to "silent."
+> - **Only the judging step is validated, on curated benchmark pairs** — not the pipeline as applied; an
+>   in-domain human audit is the decisive missing test.
+>
+> New code: `scripts/core/benchmark_validation.py`, `openalex_retrieval.py`, `policy_stance.py`,
+> `review_response_analysis.py`. **Some scripts under [`docs/PIPELINE.md`](docs/PIPELINE.md) require a
+> paid OpenAI/GPT-5 key** (the original pipeline); the benchmark-validation and open components do not.
 
 ## What this project is
 

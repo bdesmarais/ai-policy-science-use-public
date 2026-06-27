@@ -55,10 +55,10 @@ communication on artificial intelligence (AI). We make four contributions, and w
 (1) A transferable \emph{validation methodology}: benchmark-anchored evaluation that tests whether an
 automated stance judge can be trusted with no new in-domain human labels, by scoring it on existing
 human-labeled claim-verification benchmarks for the identical task. (2) A measurement finding with a
-sharp open/closed boundary: open models that run locally---zero-shot NLI and a panel of small
-instruction-tuned models from three developers---\emph{match} a proprietary frontier judge on clean
-benchmark pairs but fall well short of it on harder, more policy-like claims, where only the proprietary
-judge approaches human agreement. The openness of the approach is real but confined to the surrogate
+sharp open/closed boundary: among open models that run locally, only the zero-shot NLI surrogate
+\emph{matches} a proprietary frontier judge, and only on clean SciFact pairs; the small panel of
+instruction-tuned models from three developers trails even there, and all open models fall well short on
+harder, more policy-like claims, where only the proprietary judge approaches human agreement. The openness of the approach is real but confined to the surrogate
 layer; the high-quality anchor is not yet open, which is the opposite of a ``no-proprietary-model''
 result and we say so. (3) An application that recovers a
 robust partisan asymmetry in AI engagement and estimates the rate at which each party's claims are
