@@ -104,8 +104,9 @@ answer each concern; section references are to the revised manuscript.
   residual channel the human-claim benchmarks do not test.
 - **Member-level uncertainty.** Acknowledged (Limitation 4); the engagement gaps are now presented as
   descriptive aggregates without member-clustered intervals, and we no longer call the gap "sharp."
-- **Repository 404.** Clarified: the repository is **private pending publication**, available to
-  reviewers/editors on request; this is now stated in Data-and-code availability.
+- **Repository 404.** Fixed: the repository is now **public** at
+  `github.com/bdesmarais/ai-policy-science-use-public`; the link resolves for anyone, and the paper
+  points to it.
 - **Refute moot in the application.** Added (Limitation 3): the strong benchmark refute capability is
   nearly idle in the application because relevance-seeking retrieval suppresses disconfirming evidence;
   it is the retrieval design, not the judge, that limits refute rates there.
